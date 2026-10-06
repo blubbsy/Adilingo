@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Award, BarChart3, BookMarked, BookOpenCheck, Flame, Home, Loader2, Settings as SettingsIcon } from 'lucide-react';
+import { Award, BarChart3, BookMarked, BookOpenCheck, Flame, Home, Layers, Loader2, Settings as SettingsIcon } from 'lucide-react';
 import type { Grade, SessionCard, SessionRequest, Settings, UserState } from './types';
 import { useUserState } from './hooks/useUserState';
 import { useSpeech } from './utils/speech';
@@ -11,13 +11,14 @@ import { StudySession } from './components/StudySession';
 import { Insights } from './components/Insights';
 import { Achievements } from './components/Achievements';
 import { Dictionary } from './components/Dictionary';
+import { TopicTraining } from './components/TopicTraining';
 import { SettingsModal } from './components/SettingsModal';
 import type { CardResult } from './components/ReviewCard';
 import { GrammarHub } from './grammar';
 
-type View = 'home' | 'learn' | 'dictionary' | 'study' | 'insights' | 'achievements';
+type View = 'home' | 'learn' | 'topics' | 'dictionary' | 'study' | 'insights' | 'achievements';
 type NavView = Exclude<View, 'study'>;
-const NAV_IDS: NavView[] = ['home', 'learn', 'dictionary', 'insights', 'achievements'];
+const NAV_IDS: NavView[] = ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements'];
 
 /** "#/dictionary" → "dictionary"; anything unknown → home. */
 function viewFromHash(): NavView {
@@ -28,6 +29,7 @@ function viewFromHash(): NavView {
 const NAV: { id: NavView; label: string; short: string; icon: typeof Home }[] = [
   { id: 'home', label: 'Dashboard', short: 'Home', icon: Home },
   { id: 'learn', label: 'Paths & Grammar', short: 'Learn', icon: BookOpenCheck },
+  { id: 'topics', label: 'Topic Training', short: 'Topics', icon: Layers },
   { id: 'dictionary', label: 'Dictionary', short: 'Words', icon: BookMarked },
   { id: 'insights', label: 'Insights', short: 'Stats', icon: BarChart3 },
   { id: 'achievements', label: 'Badges', short: 'Badges', icon: Award },
@@ -203,6 +205,16 @@ export default function App() {
             curriculum={curriculum}
           />
         );
+      case 'topics':
+        return (
+          <TopicTraining
+            vocab={vocab}
+            state={state}
+            speech={speech}
+            onStartSession={startSession}
+            onToggleStar={handleToggleStar}
+          />
+        );
       case 'dictionary':
         return <Dictionary vocab={vocab} state={state} speech={speech} onStart={startSession} onToggleStar={handleToggleStar} />;
       case 'insights':
@@ -313,7 +325,7 @@ export default function App() {
       {/* Phones: bottom tab bar (hidden while studying to keep the card and grade buttons in reach) */}
       {!studying && (
         <nav
-          className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-5 border-t border-slate-200 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden dark:border-slate-800 dark:bg-slate-900/95"
+          className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-6 border-t border-slate-200 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden dark:border-slate-800 dark:bg-slate-900/95"
           aria-label="Main"
         >
           {NAV.map((n) => {
@@ -324,9 +336,9 @@ export default function App() {
                 key={n.id}
                 onClick={() => navigate(n.id)}
                 aria-current={active ? 'page' : undefined}
-                className={`flex flex-col items-center gap-0.5 py-2 text-[11px] font-medium ${active ? 'text-rose-600 dark:text-rose-400' : 'text-slate-500 dark:text-slate-400'}`}
+                className={`flex flex-col items-center gap-0.5 py-2 text-[10px] font-medium ${active ? 'text-rose-600 dark:text-rose-400' : 'text-slate-500 dark:text-slate-400'}`}
               >
-                <Icon className="h-6 w-6" aria-hidden />
+                <Icon className="h-5 w-5" aria-hidden />
                 {n.short}
               </button>
             );

@@ -27,7 +27,7 @@ interface Props {
   vocab: VocabItem[];
   state: UserState;
   onStart: (req: SessionRequest) => void;
-  onNavigate: (view: 'learn' | 'dictionary' | 'insights') => void;
+  onNavigate: (view: 'learn' | 'topics' | 'dictionary' | 'insights') => void;
   onUpdateState: (newState: UserState) => void;
 }
 
@@ -169,6 +169,14 @@ export function Dashboard({ vocab, state, onStart, onNavigate, onUpdateState }: 
             </button>
 
             <button
+              onClick={() => onNavigate('topics')}
+              className="inline-flex items-center gap-1.5 rounded-xl border border-rose-200 bg-rose-50/70 px-3 py-2 font-medium text-rose-700 hover:bg-rose-100 dark:border-rose-900/60 dark:bg-rose-950/40 dark:text-rose-300"
+            >
+              <Layers className="h-4 w-4 text-rose-600 dark:text-rose-400" />
+              Topic training (Kitchen, Furniture, Animals...)
+            </button>
+
+            <button
               onClick={() => setShowCustomPractice((prev) => !prev)}
               className="inline-flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white/80 px-3 py-2 font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800/80 dark:text-slate-200 ml-auto"
             >
@@ -280,6 +288,12 @@ export function Dashboard({ vocab, state, onStart, onNavigate, onUpdateState }: 
               className="inline-flex items-center gap-1 rounded-xl bg-rose-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-rose-700"
             >
               Learning paths <ChevronRight className="h-3.5 w-3.5" aria-hidden />
+            </button>
+            <button
+              onClick={() => onNavigate('topics')}
+              className="inline-flex items-center gap-1 rounded-xl border border-rose-200 bg-rose-50 px-3 py-1.5 text-xs font-semibold text-rose-700 hover:bg-rose-100 dark:border-rose-900/50 dark:bg-rose-950/40 dark:text-rose-300"
+            >
+              Topic training <ChevronRight className="h-3.5 w-3.5" aria-hidden />
             </button>
             <button
               onClick={() => setShowBulkMark(true)}
