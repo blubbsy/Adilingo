@@ -280,19 +280,22 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
   const [pinyinCheck, setPinyinCheck] = useState<ReturnType<typeof checkPinyin> | null>(null);
   const mountTime = useRef(Date.now());
   const inputRef = useRef<HTMLInputElement>(null);
-  const hasAutoPlayedRef = useRef<string | null>(null);
+  const speechRef = useRef(speech);
+  speechRef.current = speech;
 
-  // Play audio automatically for listening drill once per card with cleanup
+  // Play audio automatically for listening drill once per card (without self-cancellation on speech state changes)
   useEffect(() => {
-    const cardKey = `${item.id}_${direction}_${prompt}`;
-    if (prompt === 'audio' && hasAutoPlayedRef.current !== cardKey) {
-      hasAutoPlayedRef.current = cardKey;
-      speech.speak(item.hanzi, settings.speechRate);
+    if (prompt === 'audio') {
+      speechRef.current.speak(item.hanzi, settings.speechRate);
     }
+  }, [prompt, item.id, item.hanzi, direction, settings.speechRate]);
+
+  // Clean up speech only when this card unmounts
+  useEffect(() => {
     return () => {
-      speech.cancel();
+      speechRef.current.cancel();
     };
-  }, [prompt, item.id, item.hanzi, direction, settings.speechRate, speech]);
+  }, []);
 
   // Distractors & options for multiple-choice modes
   const options = useMemo(() => {

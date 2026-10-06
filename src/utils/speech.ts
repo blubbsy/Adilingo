@@ -49,8 +49,6 @@ function stopCurrentAudio() {
       currentAudio.onended = null;
       currentAudio.onerror = null;
       currentAudio.pause();
-      currentAudio.currentTime = 0;
-      currentAudio.src = '';
     } catch {
       /* ignore */
     }
@@ -277,8 +275,8 @@ export function useSpeech(defaultRate = 1): SpeechApi {
 
           u.onerror = (e) => {
             if (activeUtterance === u) activeUtterance = null;
-            // If native synthesis errors out or was canceled by browser, fallback to native audio stream
-            if (!hasSpoken && e.error !== 'canceled') {
+            // If native synthesis errors out or was interrupted, fallback to native audio stream if still desired
+            if (!hasSpoken && (e.error !== 'canceled' || speakingRef.current === text)) {
               playNativeAudioStream(text, rate, done, done);
             } else {
               done();
