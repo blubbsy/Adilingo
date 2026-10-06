@@ -49,7 +49,7 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
               </span>
             )}
             <a
-              href={`https://github.com/Sibby/Vocubulary/issues/new?title=${encodeURIComponent(`[Grammar] ${point.id}: ${point.title}`)}&body=${encodeURIComponent(`### Grammar Point: ${point.id} - ${point.title}\n\n**Issue Description:**\n\n**Suggested Correction:**\n`)}`}
+              href={`https://github.com/blubbsy/Adilingo/issues/new?title=${encodeURIComponent(`[Grammar] ${point.id}: ${point.title}`)}&body=${encodeURIComponent(`### Grammar Point: ${point.id} - ${point.title}\n\n**Issue Description:**\n\n**Suggested Correction:**\n`)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="ml-auto inline-flex items-center gap-1 text-xs text-slate-400 underline hover:text-rose-600 dark:hover:text-rose-400"

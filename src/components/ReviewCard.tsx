@@ -427,7 +427,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
           </div>
 
           <a
-            href={`https://github.com/Sibby/Vocubulary/issues/new?title=${encodeURIComponent(`[Vocab Issue] ${item.hanzi} (${item.id})`)}&body=${encodeURIComponent(`### Word Issue\nWord: ${item.hanzi} (${item.pinyin})\nID: ${item.id}\nIssue:\n`)}`}
+            href={`https://github.com/blubbsy/Adilingo/issues/new?title=${encodeURIComponent(`[Vocab Issue] ${item.hanzi} (${item.id})`)}&body=${encodeURIComponent(`### Word Issue\nWord: ${item.hanzi} (${item.pinyin})\nID: ${item.id}\nIssue:\n`)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
