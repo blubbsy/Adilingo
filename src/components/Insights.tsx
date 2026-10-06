@@ -123,6 +123,11 @@ export function Insights({ vocab, state, onStart }: Props) {
               <tbody>
                 {failures.map((item) => {
                   const p = state.progress[item.id];
+                  const failCount = (p?.recognition?.failureCount ?? 0) + (p?.recall?.failureCount ?? 0);
+                  const stability = p?.recognition?.stability ?? p?.recall?.stability ?? 0;
+                  const isLeech = Boolean(p?.recognition?.isLeech || p?.recall?.isLeech);
+                  const consecutive = Math.max(p?.recognition?.consecutiveCorrect ?? 0, p?.recall?.consecutiveCorrect ?? 0);
+
                   return (
                     <tr key={item.id} className="border-t border-slate-100 dark:border-slate-700">
                       <td className="py-2 pr-3">
@@ -130,13 +135,13 @@ export function Insights({ vocab, state, onStart }: Props) {
                         <PinyinText item={item} color={color} className="text-slate-500" />
                       </td>
                       <td className="py-2 pr-3 text-slate-600 dark:text-slate-300">{item.english[0]}</td>
-                      <td className="py-2 pr-3 text-right tabular-nums">{p.failureCount}</td>
-                      <td className="py-2 pr-3 text-right tabular-nums">{p.easeFactor.toFixed(2)}</td>
+                      <td className="py-2 pr-3 text-right tabular-nums">{failCount}</td>
+                      <td className="py-2 pr-3 text-right tabular-nums">{stability.toFixed(1)}d</td>
                       <td className="py-2">
-                        {p.isLeech ? (
+                        {isLeech ? (
                           <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-800 dark:bg-amber-900/50 dark:text-amber-300">Leech</span>
                         ) : (
-                          <span className="text-xs text-slate-500">{p.consecutiveCorrect} in a row</span>
+                          <span className="text-xs text-slate-500">{consecutive} in a row</span>
                         )}
                       </td>
                     </tr>

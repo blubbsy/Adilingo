@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { UserState } from '../types';
-import { createDefaultState, loadState, onRemoteSave, saveState, type StorageBackend } from '../utils/storage';
+import { createDefaultState, loadState, onRemoteSave, requestStoragePersistence, saveState, type StorageBackend } from '../utils/storage';
 
 export interface UserStateApi {
   state: UserState;
@@ -28,6 +28,7 @@ export function useUserState(): UserStateApi {
 
   useEffect(() => {
     let cancelled = false;
+    requestStoragePersistence().catch(() => {});
     loadState().then((res) => {
       if (cancelled) return;
       latest.current = res.state;

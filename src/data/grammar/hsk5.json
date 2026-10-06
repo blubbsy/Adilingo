@@ -849,5 +849,766 @@
         "explanation": "Subject (这点儿雨) + 不至于 + verb phrase (让比赛取消)."
       }
     ]
+  },
+  {
+    "id": "g5-weibi",
+    "hskLevel": 5,
+    "title": "未必: not necessarily",
+    "titleHanzi": "未必",
+    "pattern": "Subject + 未必 + (是 / 能 / 会) + Predicate",
+    "summary": "Gently doubt an assumption: 贵的东西未必就好, 他说的未必是真的.",
+    "explanation": [
+      "**未必 (wèibì)** means 'not necessarily, may not'. It softens a claim by doubting it rather than flatly denying it: **贵的东西未必就好** (expensive things aren't necessarily good).",
+      "It is an adverb, so it goes **before the predicate**, often before 是, 能, 会 or 就: **他说的未必是真的**. Its everyday spoken equivalent is **不一定**; 未必 sounds a little more written and thoughtful.",
+      "Don't confuse it with **不必** ('need not, no need'): **你不必来** = you don't need to come; **你未必会来** = you won't necessarily come. And **何必** is a rhetorical 'why bother?'."
+    ],
+    "mistakes": [
+      "✗ 我一个人能做完，你明天未必来。 → ✓ 我一个人能做完，你明天不必来。 'Need not' is 不必; 未必 means 'not necessarily'.",
+      "✗ 他是未必对的。 → ✓ 他未必是对的。 未必 is an adverb and goes before the predicate, including before 是."
+    ],
+    "examples": [
+      {
+        "hanzi": "贵的东西未必就好。",
+        "pinyin": "Guì de dōngxi wèibì jiù hǎo.",
+        "english": "Expensive things aren't necessarily good."
+      },
+      {
+        "hanzi": "他说的未必是真的。",
+        "pinyin": "Tā shuō de wèibì shì zhēn de.",
+        "english": "What he said isn't necessarily true."
+      },
+      {
+        "hanzi": "这个办法未必行得通。",
+        "pinyin": "Zhège bànfǎ wèibì xíng de tōng.",
+        "english": "This method may not work."
+      },
+      {
+        "hanzi": "你去了也未必能见到他。",
+        "pinyin": "Nǐ qùle yě wèibì néng jiàndào tā.",
+        "english": "Even if you go, you won't necessarily get to see him.",
+        "note": "In speech: 也不一定能见到他."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "贵的东西___好。",
+        "english": "Expensive things aren't necessarily good.",
+        "options": ["不必", "未必", "何必", "务必"],
+        "answer": 1,
+        "explanation": "'Not necessarily' = 未必. 不必 = need not; 何必 = why bother; 务必 = must by all means."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "你明天___来，我一个人能做完。",
+        "english": "You needn't come tomorrow; I can finish it on my own.",
+        "options": ["未必", "何必", "必然", "不必"],
+        "answer": 3,
+        "explanation": "'Need not' is 不必. 未必 would mean 'you won't necessarily come', which doesn't fit."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "What he said isn't necessarily true.",
+        "optionScript": "hanzi",
+        "options": ["他说的未必是真的。", "他说的不必是真的。", "他说的是未必真的。", "他说的何必是真的？"],
+        "answer": 0,
+        "explanation": "未必 goes before 是. 不必 means 'need not' and 何必 is 'why bother'."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["这个办法未必行得通。", "你去了也未必能见到他。", "考第一的人未必最聪明。", "你很累，未必来了。"],
+        "answer": 3,
+        "explanation": "To tell someone they needn't come, say 你很累，不必来了。 未必 expresses doubt, not 'no need'."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["你", "去了", "也", "未必", "能", "见到", "他"],
+        "english": "Even if you go, you won't necessarily get to see him.",
+        "pinyin": "Nǐ qùle yě wèibì néng jiàndào tā.",
+        "explanation": "也 + 未必 + 能 + verb: the adverbs come before the modal verb."
+      }
+    ]
+  },
+  {
+    "id": "g5-bijing",
+    "hskLevel": 5,
+    "title": "毕竟: after all",
+    "titleHanzi": "毕竟",
+    "pattern": "Subject + 毕竟 + (是) + Fact  ·  毕竟 + Subject + Predicate",
+    "summary": "Point to a basic fact that explains or excuses something: 他毕竟是个孩子.",
+    "explanation": [
+      "**毕竟 (bìjìng)** means 'after all, when all is said and done'. It highlights a basic fact that should be taken into account, often to explain, excuse or put things in perspective: **他毕竟是个孩子，别对他太严格了**.",
+      "It often appears after 但 / 可 in the second clause: **虽然他错了，但毕竟他也是为了大家好**. It can stand before or after the subject.",
+      "Contrast: **到底** and **究竟** can also mean 'after all', but only they can be used in questions ('on earth'): **你到底去不去？** 毕竟 never appears in questions. **终于** means 'finally (after waiting)' — not the same as 'after all'. 毕竟 is common in both speech and writing."
+    ],
+    "mistakes": [
+      "✗ 你毕竟去不去？ → ✓ 你到底去不去？ 毕竟 can't be used in questions; use 到底 or 究竟.",
+      "✗ 我们等了三个小时，他毕竟来了。 → ✓ 我们等了三个小时，他终于来了。 'Finally (at last)' is 终于, not 毕竟."
+    ],
+    "examples": [
+      {
+        "hanzi": "他毕竟是个孩子，别对他太严格了。",
+        "pinyin": "Tā bìjìng shì gè háizi, bié duì tā tài yángé le.",
+        "english": "He's only a child after all; don't be too strict with him."
+      },
+      {
+        "hanzi": "毕竟是第一次，有点儿紧张很正常。",
+        "pinyin": "Bìjìng shì dì-yī cì, yǒudiǎnr jǐnzhāng hěn zhèngcháng.",
+        "english": "It's the first time after all, so being a bit nervous is normal."
+      },
+      {
+        "hanzi": "虽然他错了，但毕竟他也是为了大家好。",
+        "pinyin": "Suīrán tā cuò le, dàn bìjìng tā yě shì wèile dàjiā hǎo.",
+        "english": "He was wrong, but after all he meant well for everyone."
+      },
+      {
+        "hanzi": "北京毕竟是首都，机会比较多。",
+        "pinyin": "Běijīng bìjìng shì shǒudū, jīhuì bǐjiào duō.",
+        "english": "Beijing is the capital after all, so there are more opportunities."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他___是个孩子，别对他太严格。",
+        "english": "He's a child after all; don't be too strict with him.",
+        "options": ["终于", "竟然", "毕竟", "居然"],
+        "answer": 2,
+        "explanation": "A basic fact that excuses something = 毕竟. 终于 = finally; 竟然 / 居然 = surprisingly."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "你___去不去？快说！",
+        "english": "Are you going or not? Tell me!",
+        "options": ["毕竟", "到底", "终于", "必须"],
+        "answer": 1,
+        "explanation": "In questions, 'on earth / after all' is 到底. 毕竟 cannot be used in questions."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["你毕竟想要什么？", "等了很久，他毕竟来了。", "毕竟是第一次，紧张很正常。"],
+        "answer": 2,
+        "explanation": "毕竟 points to a basic fact. Questions need 到底; 'finally' is 终于."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Beijing is the capital after all, so there are more opportunities.",
+        "optionScript": "pinyin",
+        "options": ["Běijīng bìjìng shì shǒudū, jīhuì bǐjiào duō.", "Běijīng zhōngyú shì shǒudū, jīhuì bǐjiào duō.", "Běijīng jìngrán shì shǒudū, jīhuì bǐjiào duō."],
+        "answer": 0,
+        "explanation": "毕竟 (bìjìng) = after all. 终于 = finally, 竟然 = surprisingly."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["他", "毕竟", "是", "个", "孩子"],
+        "alternatives": [
+          ["毕竟", "他", "是", "个", "孩子"]
+        ],
+        "english": "He's only a child, after all.",
+        "pinyin": "Tā bìjìng shì gè háizi.",
+        "explanation": "毕竟 usually follows the subject, but can also come first."
+      }
+    ]
+  },
+  {
+    "id": "g5-fei-buke",
+    "hskLevel": 5,
+    "title": "非…不可: absolutely must",
+    "titleHanzi": "非…不可",
+    "pattern": "Subject + 非 + Verb phrase + 不可  ·  Subject + 非要 / 非得 + Verb phrase",
+    "summary": "A strong double negative: must, insist on, or be bound to: 这件事非你去不可 / 你这样下去，非生病不可.",
+    "explanation": [
+      "**非…不可 (fēi … bùkě)** literally means 'if not …, it won't do'. The verb phrase goes **between** 非 and 不可. It has three uses: **necessity** (这件事非你去不可 — only you can do it), **determination** (我今天非把作业写完不可 — I'm determined to), and an **inevitable result** (你这样下去，非生病不可 — you're bound to get ill).",
+      "In speech, people often drop 不可 and say **非要** or **非得 (fēiděi)**: **不让他去，他非要去** (he insists on going).",
+      "Compared with **必须** (neutral 'must') and **不得不** ('have no choice but to'), 非…不可 is more emphatic and emotional. It is common in both speech and writing."
+    ],
+    "mistakes": [
+      "✗ 我非不可去。 → ✓ 我非去不可。 The verb phrase sits between 非 and 不可.",
+      "✗ 我明天非去。 → ✓ 我明天非去不可。/ 我明天非要去。 A bare 非 + verb needs 不可 at the end, or use 非要 / 非得."
+    ],
+    "examples": [
+      {
+        "hanzi": "这件事非你去不可。",
+        "pinyin": "Zhè jiàn shì fēi nǐ qù bùkě.",
+        "english": "This matter needs you to go — nobody else will do."
+      },
+      {
+        "hanzi": "我今天非把作业写完不可。",
+        "pinyin": "Wǒ jīntiān fēi bǎ zuòyè xiěwán bùkě.",
+        "english": "I'm determined to finish my homework today."
+      },
+      {
+        "hanzi": "你这样下去，非生病不可。",
+        "pinyin": "Nǐ zhèyàng xiàqu, fēi shēngbìng bùkě.",
+        "english": "If you carry on like this, you're bound to get ill.",
+        "note": "Inevitable-result use."
+      },
+      {
+        "hanzi": "不让他去，他非要去。",
+        "pinyin": "Bú ràng tā qù, tā fēi yào qù.",
+        "english": "We told him not to go, but he insisted on going.",
+        "note": "Spoken shortcut: 非要 + verb."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这件事非你去___。",
+        "english": "This matter absolutely needs you to go.",
+        "options": ["不要", "不可", "可以", "没有"],
+        "answer": 1,
+        "explanation": "The frame is 非 + verb phrase + 不可."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这么晚还不睡，明天___迟到不可。",
+        "english": "Not sleeping this late — you're bound to be late tomorrow.",
+        "options": ["必", "要", "非", "就"],
+        "answer": 2,
+        "explanation": "不可 at the end needs 非 before the verb: 非迟到不可 (bound to be late)."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "I'm determined to finish my homework today.",
+        "optionScript": "hanzi",
+        "options": ["我今天非不可把作业写完。", "我今天非把作业写完不可。", "我今天把作业非写完。", "我今天不可非把作业写完。"],
+        "answer": 1,
+        "explanation": "The whole verb phrase (把作业写完) goes between 非 and 不可."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["他非要去，谁也拦不住。", "你这样下去，非生病不可。", "我非不可去。", "这个问题非解决不可。"],
+        "answer": 2,
+        "explanation": "The verb must be between 非 and 不可: 我非去不可。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["这件事", "非", "你", "去", "不可"],
+        "english": "This matter absolutely needs you to go.",
+        "pinyin": "Zhè jiàn shì fēi nǐ qù bùkě.",
+        "explanation": "Topic + 非 + (subject +) verb + 不可."
+      }
+    ]
+  },
+  {
+    "id": "g5-yizhiyu",
+    "hskLevel": 5,
+    "title": "以至于: so much so that",
+    "titleHanzi": "以至于",
+    "pattern": "Cause (often 太 / 很 / 这么 + Adj) + ，以至于 + Result",
+    "summary": "Introduce a consequence that follows from a high degree: 他工作太投入，以至于忘了吃饭.",
+    "explanation": [
+      "**以至于 (yǐzhìyú)** means 'so much so that, to the point that'. The first clause shows a high degree (often with **太, 很, 这么, 那么**), and 以至于 opens the second clause with the consequence — usually something unexpected or undesirable: **她太紧张了，以至于一句话也说不出来**.",
+      "It is **written** or formal. In speech, the same idea is usually expressed with a 得 complement (**紧张得说不出话来**) or with **结果**. The shorter **以致 (yǐzhì)** is even more formal and almost always negative.",
+      "Contrast with **从而** (the planned result of a method) and **不至于** (denying an extreme outcome). 以至于 always begins the **second** clause."
+    ],
+    "mistakes": [
+      "✗ 以至于他太累了，他很快就睡着了。 → ✓ 他太累了，以至于很快就睡着了。 以至于 opens the result clause, never the cause clause.",
+      "✗ 他太紧张了，从而说不出话来。 → ✓ 他太紧张了，以至于说不出话来。 从而 is for the result of a deliberate method; an uncontrolled consequence of degree takes 以至于."
+    ],
+    "examples": [
+      {
+        "hanzi": "他工作太投入，以至于忘了吃饭。",
+        "pinyin": "Tā gōngzuò tài tóurù, yǐzhìyú wàngle chīfàn.",
+        "english": "He was so absorbed in his work that he forgot to eat."
+      },
+      {
+        "hanzi": "雨下得很大，以至于很多航班都取消了。",
+        "pinyin": "Yǔ xià de hěn dà, yǐzhìyú hěn duō hángbān dōu qǔxiāo le.",
+        "english": "It rained so heavily that many flights were cancelled."
+      },
+      {
+        "hanzi": "她太紧张了，以至于一句话也说不出来。",
+        "pinyin": "Tā tài jǐnzhāng le, yǐzhìyú yí jù huà yě shuō bu chūlái.",
+        "english": "She was so nervous that she couldn't say a single word."
+      },
+      {
+        "hanzi": "变化太大了，以至于我都认不出这个地方了。",
+        "pinyin": "Biànhuà tài dà le, yǐzhìyú wǒ dōu rèn bu chū zhège dìfang le.",
+        "english": "It has changed so much that I can't even recognise this place."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "她太紧张了，___一句话也说不出来。",
+        "english": "She was so nervous that she couldn't say a single word.",
+        "options": ["从而", "不至于", "以至于", "以便"],
+        "answer": 2,
+        "explanation": "High degree (太紧张) → consequence: 以至于. 从而 is for planned results, 以便 means 'so that (purpose)'."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他平时不锻炼，___爬几层楼就累得不行。",
+        "english": "He never exercises, so much so that climbing a few flights of stairs wears him out.",
+        "options": ["以至于", "不至于", "以免", "否则"],
+        "answer": 0,
+        "explanation": "The second clause is the (undesirable) consequence: 以至于. 以免 = 'so as to avoid'."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "He was so absorbed in his work that he forgot to eat.",
+        "optionScript": "hanzi",
+        "options": ["他工作太投入，以至于忘了吃饭。", "他工作太投入，不至于忘了吃饭。", "以至于他工作太投入，忘了吃饭。", "他工作太投入，从而忘了吃饭。"],
+        "answer": 0,
+        "explanation": "以至于 opens the result clause. 不至于 means 'won't go so far as', and 从而 implies a planned result."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["变化太大了，以至于我都认不出来了。", "以至于他太累了，他睡着了。", "雨下得很大，以至于很多航班都取消了。"],
+        "answer": 1,
+        "explanation": "以至于 must start the result clause: 他太累了，以至于很快就睡着了。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["他", "工作", "太投入", "以至于", "忘了", "吃饭"],
+        "english": "He was so absorbed in his work that he forgot to eat.",
+        "pinyin": "Tā gōngzuò tài tóurù, yǐzhìyú wàngle chīfàn.",
+        "explanation": "Cause with degree (太投入) first, then 以至于 + result."
+      }
+    ]
+  },
+  {
+    "id": "g5-yifangmian",
+    "hskLevel": 5,
+    "title": "一方面…另一方面: on the one hand … on the other",
+    "titleHanzi": "一方面…另一方面",
+    "pattern": "一方面 + A + ，另一方面 + (也 / 又 / 还) + B",
+    "summary": "Present two aspects, reasons or tasks side by side: 一方面要发展经济，另一方面也要保护环境.",
+    "explanation": [
+      "**一方面…另一方面 (yì fāngmiàn … lìng yì fāngmiàn)** lists two aspects of one situation: two reasons, two tasks, or two conflicting feelings. The second part often adds **也, 又** or **还**: **我一方面想出国，另一方面又舍不得家人**.",
+      "Unlike English 'on the other hand', the two parts don't have to contrast — they can simply add up: **这份工作一方面工资高，另一方面离家近**.",
+      "Register: neutral to written, common in essays and speeches. Don't confuse it with **一边…一边** (doing two actions at the same time). For listing reasons in speech, **一来…二来** is also used. Always say **另一方面**, never ✗ 另方面."
+    ],
+    "mistakes": [
+      "✗ 他一方面吃饭，另一方面看电视。 → ✓ 他一边吃饭，一边看电视。 Two simultaneous actions take 一边…一边.",
+      "✗ 一方面工资高，另方面离家近。 → ✓ 一方面工资高，另一方面离家近。 The second part needs the full 另一方面."
+    ],
+    "examples": [
+      {
+        "hanzi": "我学中文，一方面是因为工作需要，另一方面是因为我喜欢中国文化。",
+        "pinyin": "Wǒ xué Zhōngwén, yì fāngmiàn shì yīnwèi gōngzuò xūyào, lìng yì fāngmiàn shì yīnwèi wǒ xǐhuan Zhōngguó wénhuà.",
+        "english": "I study Chinese partly because of work and partly because I like Chinese culture."
+      },
+      {
+        "hanzi": "这份工作一方面工资高，另一方面离家近。",
+        "pinyin": "Zhè fèn gōngzuò yì fāngmiàn gōngzī gāo, lìng yì fāngmiàn lí jiā jìn.",
+        "english": "On the one hand this job pays well; on the other, it's close to home."
+      },
+      {
+        "hanzi": "一方面要发展经济，另一方面也要保护环境。",
+        "pinyin": "Yì fāngmiàn yào fāzhǎn jīngjì, lìng yì fāngmiàn yě yào bǎohù huánjìng.",
+        "english": "We need to develop the economy, but we also need to protect the environment."
+      },
+      {
+        "hanzi": "我一方面想出国留学，另一方面又舍不得离开家人。",
+        "pinyin": "Wǒ yì fāngmiàn xiǎng chūguó liúxué, lìng yì fāngmiàn yòu shěbude líkāi jiārén.",
+        "english": "On the one hand I want to study abroad; on the other, I can't bear to leave my family.",
+        "note": "又 marks a conflicting feeling."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "一方面要发展经济，___也要保护环境。",
+        "english": "We need to develop the economy, but we also need to protect the environment.",
+        "options": ["一边", "第二方面", "其他方面", "另一方面"],
+        "answer": 3,
+        "explanation": "一方面 is answered by 另一方面."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他一边吃饭，___看电视。",
+        "english": "He watches TV while eating.",
+        "options": ["另一方面", "一边", "一方面", "另一边"],
+        "answer": 1,
+        "explanation": "Two simultaneous actions: 一边…一边. 一方面…另一方面 is for aspects or reasons."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["他一方面吃饭，另一方面看电视。", "这份工作一方面工资高，另方面离家近。", "这份工作一方面工资高，另一方面离家近。"],
+        "answer": 2,
+        "explanation": "Aspects of a situation take 一方面…另一方面 (in full). Simultaneous actions take 一边…一边."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "On the one hand I want to study abroad; on the other, I can't bear to leave my family.",
+        "optionScript": "pinyin",
+        "options": ["Wǒ yìbiān xiǎng chūguó liúxué, lìng yì fāngmiàn yòu shěbude líkāi jiārén.", "Wǒ yì fāngmiàn xiǎng chūguó liúxué, lìng yì fāngmiàn yòu shěbude líkāi jiārén.", "Wǒ yì fāngmiàn xiǎng chūguó liúxué, lìng fāngmiàn yòu shěbude líkāi jiārén."],
+        "answer": 1,
+        "explanation": "一方面 … 另一方面 (lìng yì fāngmiàn), with 又 for the conflicting feeling."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["一方面", "工资", "高", "另一方面", "离家", "近"],
+        "alternatives": [
+          ["一方面", "离家", "近", "另一方面", "工资", "高"]
+        ],
+        "english": "On the one hand the pay is good; on the other, it's close to home.",
+        "pinyin": "Yì fāngmiàn gōngzī gāo, lìng yì fāngmiàn lí jiā jìn.",
+        "explanation": "一方面 + aspect A, 另一方面 + aspect B."
+      }
+    ]
+  },
+  {
+    "id": "g5-zhiyu",
+    "hskLevel": 5,
+    "title": "至于: as for",
+    "titleHanzi": "至于",
+    "pattern": "Statement + ，至于 + New topic + ，Comment",
+    "summary": "Shift to a related topic in the middle of what you're saying: 我负责买票，至于住的地方，你们自己找吧.",
+    "explanation": [
+      "**至于 (zhìyú)** means 'as for, as to'. It introduces a **new but related topic** after something has already been said: **这本书很有意思，至于价格，我不太清楚**. It usually opens the second (or later) clause, followed by a comma.",
+      "Compare **关于** ('about, concerning'): 关于 introduces the main topic and can modify a noun (**关于历史的书**); 至于 only switches topics and can't be used inside a noun phrase. **对于** means 'regarding / towards' and expresses an attitude to something.",
+      "至于 is neutral in register. Don't confuse it with **不至于** ('won't go so far as') or the colloquial **至于吗？** ('is that necessary?'), which use a different meaning of 至于."
+    ],
+    "mistakes": [
+      "✗ 我买了一本至于历史的书。 → ✓ 我买了一本关于历史的书。 至于 switches topics; to say 'a book about …' use 关于.",
+      "✗ 我只负责买票，不至于住的地方，你们自己找吧。 → ✓ 我只负责买票，至于住的地方，你们自己找吧。 'As for' is 至于; 不至于 means 'won't go so far as'."
+    ],
+    "examples": [
+      {
+        "hanzi": "我只负责买票，至于住的地方，你们自己找吧。",
+        "pinyin": "Wǒ zhǐ fùzé mǎi piào, zhìyú zhù de dìfang, nǐmen zìjǐ zhǎo ba.",
+        "english": "I'm only in charge of tickets; as for accommodation, you'll have to find it yourselves."
+      },
+      {
+        "hanzi": "这本书很有意思，至于价格，我不太清楚。",
+        "pinyin": "Zhè běn shū hěn yǒu yìsi, zhìyú jiàgé, wǒ bú tài qīngchu.",
+        "english": "This book is very interesting; as for the price, I'm not sure."
+      },
+      {
+        "hanzi": "先把身体养好，至于工作，以后再说。",
+        "pinyin": "Xiān bǎ shēntǐ yǎng hǎo, zhìyú gōngzuò, yǐhòu zài shuō.",
+        "english": "First get your health back; as for work, we'll talk about it later."
+      },
+      {
+        "hanzi": "他会来，至于什么时候来，我就不知道了。",
+        "pinyin": "Tā huì lái, zhìyú shénme shíhou lái, wǒ jiù bù zhīdào le.",
+        "english": "He'll come; as for when, I don't know.",
+        "note": "The new topic can be a whole question phrase."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我们先去北京，___去不去上海，到时候再决定。",
+        "english": "We'll go to Beijing first; as for whether to go to Shanghai, we'll decide then.",
+        "options": ["关于", "对于", "至于", "由于"],
+        "answer": 2,
+        "explanation": "Switching to a related topic mid-sentence = 至于."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我买了一本___中国历史的书。",
+        "english": "I bought a book about Chinese history.",
+        "options": ["至于", "关于", "对于", "以至于"],
+        "answer": 1,
+        "explanation": "Only 关于 can form a modifier 'about …' before a noun. 至于 just switches topics."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "He'll come; as for when, I don't know.",
+        "optionScript": "hanzi",
+        "options": ["他会来，由于什么时候来，我就不知道了。", "他会来，不至于什么时候来，我就不知道了。", "至于他会来，什么时候来，我就不知道了。", "他会来，至于什么时候来，我就不知道了。"],
+        "answer": 3,
+        "explanation": "至于 opens the later clause and introduces the new topic (什么时候来)."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["这本书很有意思，至于价格，我不太清楚。", "我买了一本至于历史的书。", "我只负责买票，至于住的地方，你们自己找吧。"],
+        "answer": 1,
+        "explanation": "至于 can't modify a noun. 'A book about history' is 一本关于历史的书."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["先", "把", "身体", "养好", "至于", "工作", "以后", "再说"],
+        "english": "First get your health back; as for work, we'll talk about it later.",
+        "pinyin": "Xiān bǎ shēntǐ yǎng hǎo, zhìyú gōngzuò, yǐhòu zài shuō.",
+        "explanation": "Main statement first, then 至于 + new topic + comment."
+      }
+    ]
+  },
+  {
+    "id": "g5-suo-verb",
+    "hskLevel": 5,
+    "title": "所 + Verb: what someone does (formal)",
+    "titleHanzi": "所 + V + 的",
+    "pattern": "Subject + 所 + Verb + 的 + (Noun)",
+    "summary": "A formal marker in relative clauses: 我所知道的情况, 你所说的话, 我们所需要的.",
+    "explanation": [
+      "**所 (suǒ)** is placed before a **transitive verb** in a 的-clause to mark that the following noun is the verb's object: **我所知道的情况** = 'the situation that I know'. It adds a formal, careful tone but does not change the meaning: **我知道的情况** means the same.",
+      "The usual shape is **Subject + 所 + Verb + 的 (+ Noun)**. The noun can be dropped: **我们所需要的是时间** (what we need is time).",
+      "所 only works with verbs that take an object (说, 做, 知道, 需要, 关心, 希望…). With intransitive verbs like 睡觉 or 来 it is wrong. You will also meet 所 in fixed written expressions such as **有所提高** (has improved somewhat) and **众所周知** (as everyone knows)."
+    ],
+    "mistakes": [
+      "✗ 我所睡觉的房间很小。 → ✓ 我睡觉的房间很小。 所 needs a transitive verb whose object is the modified noun.",
+      "✗ 这是我知道所的情况。 → ✓ 这是我所知道的情况。 所 goes directly before the verb, and 的 follows the verb."
+    ],
+    "examples": [
+      {
+        "hanzi": "这就是我所知道的情况。",
+        "pinyin": "Zhè jiù shì wǒ suǒ zhīdào de qíngkuàng.",
+        "english": "That's all I know about the situation."
+      },
+      {
+        "hanzi": "你所说的话，我都记住了。",
+        "pinyin": "Nǐ suǒ shuō de huà, wǒ dōu jìzhù le.",
+        "english": "I've remembered everything you said."
+      },
+      {
+        "hanzi": "我们所需要的是时间。",
+        "pinyin": "Wǒmen suǒ xūyào de shì shíjiān.",
+        "english": "What we need is time.",
+        "note": "The noun after 的 is dropped: 所需要的 = 'what (we) need'."
+      },
+      {
+        "hanzi": "大家所关心的问题，政府会认真考虑。",
+        "pinyin": "Dàjiā suǒ guānxīn de wèntí, zhèngfǔ huì rènzhēn kǎolǜ.",
+        "english": "The government will seriously consider the issues everyone is concerned about."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这就是我___知道的情况。",
+        "english": "That's all I know about the situation.",
+        "options": ["的", "所", "被", "以"],
+        "answer": 1,
+        "explanation": "所 goes directly before the transitive verb in a 的-clause."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我们所需要___是时间。",
+        "english": "What we need is time.",
+        "options": ["地", "得", "的", "了"],
+        "answer": 2,
+        "explanation": "所 + verb is always followed by 的."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "What we need is time.",
+        "optionScript": "hanzi",
+        "options": ["我们需要所的是时间。", "所我们需要的是时间。", "我们所需要的是时间。", "我们所需要是时间的。"],
+        "answer": 2,
+        "explanation": "Subject + 所 + verb + 的: 我们所需要的."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["你所说的话，我都记住了。", "我所睡觉的房间很小。", "大家所关心的问题，政府会认真考虑。", "这不是我所希望的结果。"],
+        "answer": 1,
+        "explanation": "睡觉 is intransitive, so 所 can't be used: 我睡觉的房间很小。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["你", "所", "说的", "话", "我", "都", "记住了"],
+        "english": "I've remembered everything you said.",
+        "pinyin": "Nǐ suǒ shuō de huà, wǒ dōu jìzhù le.",
+        "explanation": "The object phrase (你所说的话) comes first as the topic, then 我都记住了."
+      }
+    ]
+  },
+  {
+    "id": "g5-jiayi-jiyu",
+    "hskLevel": 5,
+    "title": "加以 / 给予: formal 'do' and 'give'",
+    "titleHanzi": "加以 · 给予",
+    "pattern": "对 + Object + 加以 + Two-syllable verb  ·  给予 + (Someone) + Two-syllable noun",
+    "summary": "Formal verbs that carry an abstract action: 对问题加以研究 (study the issue), 给予帮助 (give help).",
+    "explanation": [
+      "**加以 (jiāyǐ)** is a formal 'dummy verb' meaning 'to apply, to carry out'. The real action follows it as a **two-syllable verb**: **加以研究, 加以解决, 加以改正, 加以说明**. The thing being acted upon comes before, often with **对**: **对这个问题加以研究**.",
+      "**给予 (jǐyǔ)** means 'to give, to grant' — note it is pronounced **jǐ**, not gěi. It takes abstract nouns such as **帮助, 支持, 关心, 表扬, 照顾**: **学校给予了他很大的帮助**.",
+      "Both belong to **written and official** Chinese (reports, speeches, notices). In everyday speech you would just use the verb directly (研究这个问题) or say **给…帮助 / 帮…**. A close written synonym of 加以 is **进行** (进行研究)."
+    ],
+    "mistakes": [
+      "✗ 我们要加以这个问题。 → ✓ 我们要对这个问题加以解决。 加以 is followed by a verb, not by the object; put the object before it with 对.",
+      "✗ 这些错误要加以改。 → ✓ 这些错误要加以改正。 加以 needs a two-syllable verb after it."
+    ],
+    "examples": [
+      {
+        "hanzi": "对这个问题，我们必须加以研究。",
+        "pinyin": "Duì zhège wèntí, wǒmen bìxū jiāyǐ yánjiū.",
+        "english": "We must look into this problem."
+      },
+      {
+        "hanzi": "这些错误应该及时加以改正。",
+        "pinyin": "Zhèxiē cuòwù yīnggāi jíshí jiāyǐ gǎizhèng.",
+        "english": "These mistakes should be corrected promptly."
+      },
+      {
+        "hanzi": "学校给予了他很大的帮助。",
+        "pinyin": "Xuéxiào jǐyǔle tā hěn dà de bāngzhù.",
+        "english": "The school gave him a great deal of help.",
+        "note": "给予 is read jǐyǔ."
+      },
+      {
+        "hanzi": "感谢各位给予的支持。",
+        "pinyin": "Gǎnxiè gèwèi jǐyǔ de zhīchí.",
+        "english": "Thank you all for the support you have given."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "对这个问题，我们必须___研究。",
+        "english": "We must look into this problem.",
+        "options": ["给予", "加以", "受到", "得到"],
+        "answer": 1,
+        "explanation": "加以 + two-syllable verb (研究) = carry out the action. 给予 gives something to someone; 受到 / 得到 mean 'receive'."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "感谢大家___我们的支持。",
+        "english": "Thank you all for the support you have given us.",
+        "options": ["加以", "进而", "以为", "给予"],
+        "answer": 3,
+        "explanation": "Giving abstract things like 支持 or 帮助 = 给予."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "The school gave him a great deal of help.",
+        "optionScript": "pinyin",
+        "options": ["Xuéxiào gěiyǔle tā hěn dà de bāngzhù.", "Xuéxiào jǐyǔle tā hěn dà de bāngzhù.", "Xuéxiào jiāyǐle tā hěn dà de bāngzhù."],
+        "answer": 1,
+        "explanation": "给予 is read jǐyǔ. 加以 can't take a person and a noun like 帮助."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["我们要加以这个问题。", "我们要对这个问题加以解决。", "我们要对这个问题加以查。"],
+        "answer": 1,
+        "explanation": "对 + object + 加以 + two-syllable verb (解决)."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["这些", "错误", "应该", "及时", "加以", "改正"],
+        "english": "These mistakes should be corrected promptly.",
+        "pinyin": "Zhèxiē cuòwù yīnggāi jíshí jiāyǐ gǎizhèng.",
+        "explanation": "Topic (这些错误) + modal + adverb + 加以 + verb."
+      }
+    ]
+  },
+  {
+    "id": "g5-kuangqie-zaishuo",
+    "hskLevel": 5,
+    "title": "况且 / 再说: besides, moreover",
+    "titleHanzi": "况且 · 再说",
+    "pattern": "Reason 1 + ，况且 / 再说 + (Subject) + (又 / 也 / 还) + Reason 2",
+    "summary": "Add one more reason to support what you're saying: 太贵了，再说我也不喜欢这个颜色.",
+    "explanation": [
+      "**况且 (kuàngqiě)** and **再说 (zàishuō)** both mean 'besides, moreover, what's more'. They add a **further reason pointing in the same direction** as the first one, and the second clause often has **又, 也** or **还**: **天太晚了，况且又下着雨，你就别走了**.",
+      "**再说** is typical of speech; **况且** is a little more written but also common in conversation. Note that 再说 has another everyday meaning, 'deal with it later': **以后再说** (let's talk about it later).",
+      "Contrast **何况** ('let alone, much less'), which usually makes a rhetorical comparison: **中文都不会说，何况日语呢？** 况且 / 再说 simply add an extra reason; they never introduce a contrast — for that use 但是 / 不过."
+    ],
+    "mistakes": [
+      "✗ 这个工作不难，况且你没有经验。 → ✓ 这个工作不难，况且你还有经验。 况且 adds a reason in the same direction, not a contrasting one.",
+      "✗ 他连中文都不会说，况且日语。 → ✓ 他连中文都不会说，何况日语呢？ 'Let alone' is 何况; 况且 introduces a full extra reason."
+    ],
+    "examples": [
+      {
+        "hanzi": "天太晚了，况且又下着雨，你就别走了。",
+        "pinyin": "Tiān tài wǎn le, kuàngqiě yòu xiàzhe yǔ, nǐ jiù bié zǒu le.",
+        "english": "It's very late, and besides, it's raining — don't leave."
+      },
+      {
+        "hanzi": "这件衣服太贵了，再说我也不太喜欢这个颜色。",
+        "pinyin": "Zhè jiàn yīfu tài guì le, zàishuō wǒ yě bú tài xǐhuan zhège yánsè.",
+        "english": "This piece of clothing is too expensive, and besides, I don't really like the colour."
+      },
+      {
+        "hanzi": "现在去已经来不及了，再说他也不一定在家。",
+        "pinyin": "Xiànzài qù yǐjīng láibují le, zàishuō tā yě bù yídìng zài jiā.",
+        "english": "It's too late to go now, and anyway he may not be at home."
+      },
+      {
+        "hanzi": "这个工作不难，况且你还有经验。",
+        "pinyin": "Zhège gōngzuò bù nán, kuàngqiě nǐ hái yǒu jīngyàn.",
+        "english": "This job isn't hard; besides, you have experience.",
+        "note": "况且 is slightly more formal than 再说."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这件衣服太贵了，___我也不太喜欢这个颜色。",
+        "english": "This piece of clothing is too expensive, and besides, I don't really like the colour.",
+        "options": ["可是", "再说", "因此", "于是"],
+        "answer": 1,
+        "explanation": "Adding a second reason in the same direction = 再说 (or 况且). 可是 contrasts; 因此 and 于是 introduce results."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "天太晚了，况且___下着雨，你就别走了。",
+        "english": "It's very late, and besides, it's raining — don't leave.",
+        "options": ["才", "就", "又", "都"],
+        "answer": 2,
+        "explanation": "况且 is often followed by 又 / 也 / 还 to stress the added reason."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "It's too late to go now, and besides, he may not be at home.",
+        "optionScript": "hanzi",
+        "options": ["现在去已经来不及了，可是他也不一定在家。", "现在去已经来不及了，以后再说他不一定在家。", "现在去已经来不及了，再说他也一定在家。", "现在去已经来不及了，再说他也不一定在家。"],
+        "answer": 3,
+        "explanation": "再说 adds a second supporting reason (他也不一定在家)."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["现在去已经来不及了，再说他也不一定在家。", "这个工作不难，况且你还有经验。", "这个工作不难，况且你没有经验。"],
+        "answer": 2,
+        "explanation": "况且 adds a reason that supports the first clause; 'you have no experience' contrasts with it. Use 不过 instead."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["这个", "工作", "不难", "况且", "你", "还有", "经验"],
+        "english": "This job isn't hard; besides, you have experience.",
+        "pinyin": "Zhège gōngzuò bù nán, kuàngqiě nǐ hái yǒu jīngyàn.",
+        "explanation": "Reason 1 (这个工作不难), then 况且 + reason 2 (你还有经验)."
+      }
+    ]
   }
 ]

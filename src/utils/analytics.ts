@@ -1,7 +1,7 @@
 import type { HskLevel, SessionRequest, ToneKey, UserState, VocabItem } from '../types';
 import { addDays, dayKey } from './dates';
 import { tonesOf } from './pinyinHelper';
-import { effectiveStreak, isDue, itemHasTone, weakness } from './srsEngine';
+import { calculateTrueRetention, effectiveStreak, isDue, isWordLearned, isWordStudied, itemHasTone, weakness } from './srsEngine';
 import { levelLabel } from '../data/vocab';
 
 export const TONE_KEYS: ToneKey[] = ['1', '2', '3', '4', '0'];
@@ -29,9 +29,14 @@ function tally(state: UserState, items: VocabItem[]): Ratio {
   let c = 0;
   let t = 0;
   for (const item of items) {
-    for (const h of state.progress[item.id]?.history ?? []) {
-      t += 1;
-      if (h.correct ?? h.grade >= 2) c += 1;
+    const wp = state.progress[item.id];
+    if (!wp) continue;
+    for (const dp of [wp.recognition, wp.recall]) {
+      if (!dp) continue;
+      for (const h of dp.history) {
+        t += 1;
+        if (h.correct ?? h.grade >= 2) c += 1;
+      }
     }
   }
   return ratio(c, t);
@@ -40,6 +45,8 @@ function tally(state: UserState, items: VocabItem[]): Ratio {
 export function overallAccuracy(state: UserState): Ratio {
   return ratio(state.stats.totalCorrect, state.stats.totalReviewed);
 }
+
+export { calculateTrueRetention };
 
 export function accuracyByLevel(state: UserState, vocab: VocabItem[]): { level: HskLevel; ratio: Ratio; words: number; learned: number }[] {
   const levels = [...new Set(vocab.map((v) => v.hskLevel))].sort((a, b) => a - b);
@@ -64,10 +71,9 @@ export function allTopics(vocab: VocabItem[]): string[] {
   return [...new Set(vocab.flatMap((v) => v.topics))];
 }
 
-/** "Learned" = reviewed and currently on an interval of at least 3 days. */
+/** "Learned" = reviewed and consolidated or marked known. */
 export function isLearned(state: UserState, item: VocabItem): boolean {
-  const p = state.progress[item.id];
-  return !!p && p.repetitions >= 2 && p.interval >= 3;
+  return isWordLearned(state.progress[item.id]);
 }
 
 export function averageLatencySec(state: UserState): number | null {
@@ -76,12 +82,18 @@ export function averageLatencySec(state: UserState): number | null {
 }
 
 export function leeches(state: UserState, vocab: VocabItem[]): VocabItem[] {
-  return vocab.filter((v) => state.progress[v.id]?.isLeech);
+  return vocab.filter((v) => {
+    const wp = state.progress[v.id];
+    return Boolean(wp?.recognition?.isLeech || wp?.recall?.isLeech);
+  });
 }
 
 export function frequentFailures(state: UserState, vocab: VocabItem[], n = 8): VocabItem[] {
   return vocab
-    .filter((v) => (state.progress[v.id]?.failureCount ?? 0) > 0)
+    .filter((v) => {
+      const wp = state.progress[v.id];
+      return (wp?.recognition?.failureCount ?? 0) > 0 || (wp?.recall?.failureCount ?? 0) > 0;
+    })
     .sort((a, b) => weakness(state.progress[b.id]) - weakness(state.progress[a.id]))
     .slice(0, n);
 }
@@ -108,7 +120,7 @@ export interface Recommendation {
 
 export function recommendations(state: UserState, vocab: VocabItem[], now = new Date()): Recommendation[] {
   const recs: Recommendation[] = [];
-  const studied = vocab.filter((v) => state.progress[v.id]);
+  const studied = vocab.filter((v) => isWordStudied(state.progress[v.id]));
 
   // 1. Weakest tone with enough data → targeted tone drill in the group where most misses happen.
   const weakTone = toneAccuracyList(state)
@@ -118,7 +130,9 @@ export function recommendations(state: UserState, vocab: VocabItem[], now = new 
     const withTone = studied.filter((v) => itemHasTone(v, weakTone.tone));
     const groups = new Map<string, { level: HskLevel; topic: string; misses: number; ids: string[] }>();
     for (const v of withTone) {
-      const misses = (state.progress[v.id]?.history ?? []).filter((h) => h.correct === false).length;
+      const wp = state.progress[v.id];
+      const hist = [...(wp?.recognition?.history ?? []), ...(wp?.recall?.history ?? [])];
+      const misses = hist.filter((h) => h.correct === false).length;
       for (const topic of v.topics) {
         const key = `${v.hskLevel}|${topic}`;
         const g = groups.get(key) ?? { level: v.hskLevel, topic, misses: 0, ids: [] };
@@ -213,18 +227,19 @@ export function recommendations(state: UserState, vocab: VocabItem[], now = new 
     });
   }
 
-  // 6. Unstarted words.
-  const unseen = vocab.filter((v) => !state.progress[v.id]);
+  // 6. Unstarted words / Daily intake.
+  const unseen = vocab.filter((v) => !isWordStudied(state.progress[v.id]));
   if (unseen.length && due === 0) {
     const level = Math.min(...unseen.map((u) => u.hskLevel));
+    const intake = Math.min(state.settings.newCardsPerDay, unseen.length);
     recs.push({
       id: 'new',
       kind: 'new',
-      title: `${unseen.length.toLocaleString('en')} new words waiting`,
-      body: `Next up: ${levelLabel(level)} vocabulary such as ${unseen.slice(0, 3).map((u) => u.hanzi).join('、')}.`,
+      title: `Daily intake: ${intake} new words`,
+      body: `Ready for your next set of ${levelLabel(level)} vocabulary (${unseen.slice(0, 3).map((u) => u.hanzi).join('、')}).`,
       action: {
-        label: 'Learn new words',
-        request: { label: `New ${levelLabel(level)} words`, mode: 'hanzi', levels: [level as HskLevel], topics: [] },
+        label: `Learn ${intake} new words`,
+        request: { label: `New ${levelLabel(level)} words`, mode: 'hanzi', levels: [level as HskLevel], topics: [], limit: intake },
       },
     });
   }
@@ -288,9 +303,9 @@ export const BADGES: Badge[] = [
     (n, i): Badge => ({
       id: `words-${n}`,
       title: `${n.toLocaleString('en')} Words`,
-      description: `Learn ${n.toLocaleString('en')} words (recalled twice, interval ≥ 3 days).`,
+      description: `Learn ${n.toLocaleString('en')} words.`,
       emoji: ['🌱', '🌿', '🌳', '🏯', '⛰️', '🌏'][i],
-      progress: (s) => frac(Object.values(s.progress).filter((p) => p.repetitions >= 2 && p.interval >= 3).length, n),
+      progress: (s) => frac(Object.values(s.progress).filter((p) => isWordLearned(p)).length, n),
     }),
   ),
   ...([1, 2, 3, 4, 5, 6, 7] as HskLevel[]).map(
@@ -309,7 +324,7 @@ export const BADGES: Badge[] = [
     description: 'Cure a leech with 3 correct recalls in a row.',
     emoji: '🗡️',
     progress: (s) =>
-      Object.values(s.progress).some((p) => p.curedLeech) ? 1 : 0,
+      Object.values(s.progress).some((p) => p.recognition?.curedLeech || p.recall?.curedLeech) ? 1 : 0,
   },
 ];
 

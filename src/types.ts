@@ -4,9 +4,12 @@ export type Curriculum = 'hsk3_2026' | 'hsk3_2021' | 'hsk2';
 export type ThemePref = 'system' | 'light' | 'dark';
 export type ToneKey = '1' | '2' | '3' | '4' | '0';
 export type StudyMode = 'mixed' | 'hanzi' | 'pinyin' | 'audio' | 'tone' | 'english';
-/** The concrete prompt shown on a single card (mixed mode resolves to one of these). */
+/** The concrete prompt shown on a single card. */
 export type PromptKind = 'hanzi' | 'pinyin' | 'english' | 'audio' | 'tone';
 export type Grade = 1 | 2 | 3 | 4;
+
+/** Direction of study: recognition (Hanzi -> Meaning) vs recall (Meaning -> Hanzi). */
+export type CardDirection = 'recognition' | 'recall';
 
 export interface VocabItem {
   id: string;
@@ -35,27 +38,39 @@ export interface VocabItem {
 export interface HistoryEntry {
   date: string;
   grade: number;
-  /** Extensions (optional so v1 backups without them stay valid). */
   correct?: boolean;
   mode?: PromptKind;
   latencyMs?: number;
-  /** In-session repeat of an already-failed card; does not affect scheduling. */
   learningStep?: boolean;
+  stability?: number;
 }
 
-export interface CardProgress {
-  easeFactor: number;
-  interval: number;
-  repetitions: number;
-  dueDate: string;
-  lastReviewed?: string;
-  isLeech: boolean;
+/** FSRS state for a single direction of a card. */
+export interface DirectionProgress {
+  due: string;
+  stability: number;
+  difficulty: number;
+  elapsed_days: number;
+  scheduled_days: number;
+  reps: number;
+  lapses: number;
+  state: number; // 0: New, 1: Learning, 2: Review, 3: Relearning
+  last_review?: string;
   history: HistoryEntry[];
-  consecutiveCorrect: number;
   failureCount: number;
-  /** Set once the card has been a leech and was later recalled 3× in a row. */
+  consecutiveCorrect: number;
+  isLeech: boolean;
   curedLeech?: boolean;
 }
+
+/** Word-level progress holding both directional schedules and bulk known flags. */
+export interface CardProgress {
+  recognition?: DirectionProgress;
+  recall?: DirectionProgress;
+  manuallyMarkedKnown?: boolean;
+}
+
+export type WordProgress = CardProgress;
 
 export interface DailyLog {
   reviewed: number;
@@ -100,6 +115,15 @@ export interface UserState {
   };
   unlockedBadges: string[];
   starredWords: string[];
+  /** Levels bulk marked as known by user */
+  knownLevels?: HskLevel[];
+  /** Outcome of placement test */
+  placementResult?: {
+    estimatedLevel: HskLevel;
+    date: string;
+    score: number;
+    total: number;
+  };
 }
 
 export interface SessionRequest {
@@ -108,6 +132,7 @@ export interface SessionRequest {
   levels: HskLevel[];
   topics: string[];
   wordIds?: string[];
+  direction?: CardDirection;
   /** Fill up with not-yet-due words (targeted / extra practice). */
   includeNotDue?: boolean;
   /** Ignore the daily cap (explicit targeted reviews). */
@@ -117,6 +142,7 @@ export interface SessionRequest {
 
 export interface SessionCard {
   item: VocabItem;
+  direction: CardDirection;
   prompt: PromptKind;
   isNew: boolean;
   /** In-session repeat of a card failed earlier in this session. */

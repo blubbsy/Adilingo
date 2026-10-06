@@ -124,7 +124,7 @@ export default function App() {
         undoSnapshot.current = s;
         return recordReview(
           s,
-          { item: card.item, grade, correct: result.correct, prompt: card.prompt, latencyMs: result.latencyMs, tones: result.tones },
+          { item: card.item, direction: card.direction, grade, correct: result.correct, prompt: card.prompt, latencyMs: result.latencyMs },
           new Date(),
           { learningStep },
         );
@@ -210,9 +210,9 @@ export default function App() {
       case 'achievements':
         return <Achievements vocab={vocab} state={state} />;
       default:
-        return <Dashboard vocab={vocab} state={state} onStart={startSession} onNavigate={navigate} />;
+        return <Dashboard vocab={vocab} state={state} onStart={startSession} onNavigate={navigate} onUpdateState={(ns) => update(() => ns)} />;
     }
-  }, [libraryError, loaded, library, view, session, vocab, state, speech, handleReview, handleUndo, handleToggleStar, navigate, startSession, curriculum]);
+  }, [libraryError, loaded, library, view, session, vocab, state, speech, handleReview, handleUndo, handleToggleStar, navigate, startSession, curriculum, update]);
 
   const navButton = (n: (typeof NAV)[number], variant: 'side' | 'top') => {
     const Icon = n.icon;
@@ -304,7 +304,7 @@ export default function App() {
           {content}
         </main>
 
-        <footer className={`mx-auto max-w-6xl px-4 pb-8 text-center text-xs text-slate-400 ${studying ? 'hidden' : 'hidden md:block'}`}>
+        <footer className={`mx-auto max-w-6xl px-4 pb-8 text-center text-xs text-slate-400 ${studying || !loaded ? 'hidden' : 'hidden md:block'}`}>
           {vocab.length.toLocaleString('en')} words · {info.name} · word data: complete-hsk-vocabulary (MIT), CC-CEDICT · example sentences: Tatoeba (CC-BY 2.0 FR) ·
           all progress stays on this device
         </footer>

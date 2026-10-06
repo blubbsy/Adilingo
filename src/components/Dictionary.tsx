@@ -32,7 +32,7 @@ interface Indexed {
 function statusOf(state: UserState, item: VocabItem): SrsStatus {
   const p = state.progress[item.id];
   if (!p) return 'new';
-  if (p.isLeech) return 'leech';
+  if (p.recognition?.isLeech || p.recall?.isLeech) return 'leech';
   return isLearned(state, item) ? 'learned' : 'learning';
 }
 
@@ -381,10 +381,20 @@ function WordDetail({
         </div>
       )}
       <div className="rounded-xl bg-slate-50 p-3 text-sm dark:bg-slate-900/60">
-        {progress ? (
+        {progress && (progress.recognition || progress.recall || progress.manuallyMarkedKnown) ? (
           <p>
-            {progress.isLeech ? 'Leech · ' : ''}Reviewed {progress.history.length}× · ease {progress.easeFactor.toFixed(2)} · next in{' '}
-            {formatInterval(Math.max(0, Math.round((new Date(progress.dueDate).getTime() - Date.now()) / 86_400_000)))}
+            {progress.manuallyMarkedKnown ? (
+              <span className="font-medium text-emerald-600 dark:text-emerald-400">Marked as already known</span>
+            ) : (
+              <>
+                {(progress.recognition?.isLeech || progress.recall?.isLeech) ? 'Leech · ' : ''}
+                Reviewed {((progress.recognition?.history.length ?? 0) + (progress.recall?.history.length ?? 0))}× ·
+                stability {(progress.recognition?.stability ?? progress.recall?.stability ?? 0).toFixed(1)}d
+                {progress.recognition?.due && (
+                  <> · next in {formatInterval(Math.max(0, Math.round((new Date(progress.recognition.due).getTime() - Date.now()) / 86_400_000)))}</>
+                )}
+              </>
+            )}
           </p>
         ) : (
           <p className="text-slate-500">Not studied yet.</p>

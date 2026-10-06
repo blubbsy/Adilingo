@@ -1,38 +1,34 @@
 # Hànzì Flow
 
-A browser-only Mandarin vocabulary trainer (React + Vite + TypeScript + Tailwind). It has no backend: all progress is stored on your device.
+A browser-only Mandarin trainer (React + Vite + TypeScript + Tailwind) that covers the **complete HSK syllabus**: every word of HSK 3.0 (2026 syllabus, levels 1–6 plus the 7–9 band), HSK 3.0 (2021) and HSK 2.0, plus grammar lessons and learning paths for each level. All progress stays on your device. The app can be installed as a PWA and works offline after the first visit.
 
 ```bash
 npm install
-npm run dev      # http://localhost:5173
-npm run build    # type-check + production bundle in dist/
+npm run dev        # http://localhost:5173
+npm test           # unit tests (vitest)
+npm run test:e2e   # Playwright smoke test
+npm run validate-grammar  # grammar schema & content validation
+npm run validate-pinyin   # grammar pinyin check against pinyin-pro
+npm run build      # type-check + production bundle in dist/
 ```
 
-## Project layout
+## Content
 
-```
-src/
-  App.tsx                    shell, navigation, sessions, badge toasts, undo
-  types.ts                   VocabItem, UserState (schema v1), session types
-  data/vocabData.json        37 HSK 1–2 words, in curriculum order
-  hooks/useUserState.ts      load → debounced save, cross-tab sync, safe-load guard
-  utils/
-    pinyinHelper.ts          numbered→tone marks, pinyin/English answer checking, sandhi
-    srsEngine.ts             SM-2 variant, leeches, daily cap, session queue
-    storage.ts               IndexedDB (idb-keyval) → localStorage → memory, migrations, backup
-    analytics.ts             accuracy breakdowns, recommendations, achievements
-    speech.ts                Web Speech API hook (zh-CN voice detection, fallback)
-  grammar/                   grammar lessons + exercises, learning paths (GrammarHub), own progress store
-  data/grammarData.json      19 HSK 1–2 grammar points · data/learningPaths.json  4 paths, 18 units
-  components/
-    ReviewCard.tsx           every practice mode, reveal panel, grading
-    StudySession.tsx         queue, in-session relearning, undo, summary
-    Dashboard.tsx / ModeSelector.tsx / Insights.tsx / Achievements.tsx / SettingsModal.tsx
-```
+| | Source | Notes |
+|---|---|---|
+| ~11,400 words, 3 standards | [complete-hsk-vocabulary](https://github.com/drkameleon/complete-hsk-vocabulary) (MIT), CC-CEDICT meanings | Switch standards in Settings. HSK 3.0 2026 is labeled as community draft syllabus. |
+| ~7,400 example sentences | [Tatoeba](https://tatoeba.org) (CC-BY 2.0 FR) | Each word gets the shortest natural sentence at or below its level. Sentence pinyin is generated: dictionary readings first, then pinyin-pro. |
+| Grammar, HSK 1 → 7–9 | `src/data/grammarData.json`, `src/data/grammar/hsk{n}.json` | Each point has an explanation, common mistakes, 4 examples and 4–5 exercises. Tagged as community draft with pre-filled GitHub issue reporting. |
+| Learning paths | Generated per level (`src/grammar/levelPaths.ts`) and themed (`learningPaths.json`) | Units of 10 words, with that level's grammar spread across them. |
 
-## Notes
+To rebuild the word data: `node scripts/build-vocab.mjs`. It downloads the sources into `scripts/.cache` the first time.
 
-- **Typing pinyin:** type numbers after syllables, e.g. `ni3hao3` becomes `nǐhǎo`. Type `v` or `u:` for `ü`. `5` or `0` gives the neutral tone.
-- **Grading:** keys `1`–`4` stand for Again, Hard, Good and Easy. A card you fail comes back once later in the same session as a learning step, and that repeat does not change its schedule.
-- **Leeches:** a word failed more than 4 times becomes a leech. Leeches get memory hints and an example-sentence breakdown, and failing one does not lower its ease further. Getting it right 3 times in a row clears the leech flag.
-- **Backup:** use Settings → Export/Import JSON. If saved data can't be read on load, the app keeps a copy under a separate key and pauses saving until you decide what to do.
+## Spaced Repetition (FSRS) & Adaptive Flow
+
+- **FSRS Scheduling**: Uses the modern Free Spaced Repetition Scheduler (`ts-fsrs`) algorithm for optimal memory retention with fewer reviews.
+- **Directional Cards**: Tracks `recognition` (Hanzi → Meaning) and `recall` (Meaning → Hanzi) as independent skills.
+- **One Question Per Card**: Each review card asks one clear question with clean multiple-choice or typing inputs and keyboard shortcuts (`1`–`4`, `Space`, `Enter`).
+- **Headline Stat (True Retention)**: Tracks retention percentage on mature cards (stability $\ge 21$ days).
+- **Placement & Skip Grind**: Includes a 15-question adaptive placement test and a bulk "Mark Level as Known" panel so learners don't have to grind through familiar levels.
+- **Persistent Storage**: Uses IndexedDB with `navigator.storage.persist()`. Backward compatible migrations are automated.
+

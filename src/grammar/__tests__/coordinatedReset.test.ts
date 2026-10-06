@@ -39,14 +39,20 @@ describe('Coordinated reset and backup export/import', () => {
     // 1. Populate user state and grammar progress
     const userState = createDefaultState();
     userState.progress['ni3hao3|ni3hao3'] = {
-      easeFactor: 2.5,
-      interval: 10,
-      repetitions: 3,
-      dueDate: '2026-10-10',
-      history: [],
-      consecutiveCorrect: 3,
-      failureCount: 0,
-      isLeech: false,
+      recognition: {
+        due: '2026-10-10',
+        stability: 10,
+        difficulty: 5,
+        elapsed_days: 0,
+        scheduled_days: 10,
+        reps: 3,
+        lapses: 0,
+        state: 2,
+        history: [],
+        consecutiveCorrect: 3,
+        failureCount: 0,
+        isLeech: false,
+      },
     };
     userState.stats.totalReviewed = 25;
 
@@ -83,14 +89,20 @@ describe('Coordinated reset and backup export/import', () => {
   it('backup export includes grammar, and parseBackup recovers it', async () => {
     const userState = createDefaultState();
     userState.progress['test|test'] = {
-      easeFactor: 2.5,
-      interval: 1,
-      repetitions: 1,
-      dueDate: '2026-10-06',
-      history: [],
-      consecutiveCorrect: 1,
-      failureCount: 0,
-      isLeech: false,
+      recognition: {
+        due: '2026-10-06',
+        stability: 1,
+        difficulty: 5,
+        elapsed_days: 0,
+        scheduled_days: 1,
+        reps: 1,
+        lapses: 0,
+        state: 1,
+        history: [],
+        consecutiveCorrect: 1,
+        failureCount: 0,
+        isLeech: false,
+      },
     };
 
     const grammar = {

@@ -12,11 +12,17 @@ export interface PathContext {
 }
 
 export function isWordLearned(id: string, vocabProgress: UserState['progress']): boolean {
-  return (vocabProgress[id]?.repetitions ?? 0) >= LEARNED_REPETITIONS;
+  const p = vocabProgress[id];
+  if (!p) return false;
+  if (p.manuallyMarkedKnown) return true;
+  return (p.recognition?.reps ?? 0) >= LEARNED_REPETITIONS || (p.recall?.reps ?? 0) >= LEARNED_REPETITIONS;
 }
 
 export function wordRepetitions(id: string, vocabProgress: UserState['progress']): number {
-  return vocabProgress[id]?.repetitions ?? 0;
+  const p = vocabProgress[id];
+  if (!p) return 0;
+  if (p.manuallyMarkedKnown) return 3;
+  return Math.max(p.recognition?.reps ?? 0, p.recall?.reps ?? 0);
 }
 
 export interface StepRepetitionStats {

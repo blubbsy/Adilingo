@@ -2,7 +2,7 @@ import { createStore, get, set, type UseStore } from 'idb-keyval';
 import type { CardProgress, Curriculum, PromptKind, ThemePref, ToneKey, UserState } from '../types';
 import legacyIds from '../data/legacyIds.json';
 
-export const SCHEMA_VERSION = 2;
+export const SCHEMA_VERSION = 3;
 const CURRICULUM_IDS: Curriculum[] = ['hsk3_2026', 'hsk3_2021', 'hsk2'];
 const THEMES: ThemePref[] = ['system', 'light', 'dark'];
 const KEY = 'hanzi-flow:state';
@@ -10,6 +10,17 @@ const TONES: ToneKey[] = ['1', '2', '3', '4', '0'];
 const PROMPTS: PromptKind[] = ['hanzi', 'pinyin', 'english', 'audio', 'tone'];
 
 export type StorageBackend = 'indexeddb' | 'localstorage' | 'memory';
+
+export async function requestStoragePersistence(): Promise<boolean> {
+  if (typeof navigator !== 'undefined' && navigator.storage && navigator.storage.persist) {
+    try {
+      return await navigator.storage.persist();
+    } catch {
+      return false;
+    }
+  }
+  return false;
+}
 
 export function createDefaultState(): UserState {
   const confusion = {} as UserState['stats']['toneConfusion'];
@@ -47,6 +58,7 @@ export function createDefaultState(): UserState {
     },
     unlockedBadges: [],
     starredWords: [],
+    knownLevels: [],
   };
 }
 
@@ -57,7 +69,6 @@ type Raw = Record<string, any>;
 
 /**
  * migrations[n] upgrades a state of version n-1 to version n.
- * v0 = pre-versioned state (no `version` field); add v2, v3… here as the schema evolves.
  */
 const migrations: Record<number, (s: Raw) => Raw> = {
   1: (s) => {
@@ -86,6 +97,41 @@ const migrations: Record<number, (s: Raw) => Raw> = {
       version: 2,
     };
   },
+  /** v3: FSRS + Directional cards (recognition & recall) */
+  3: (s) => {
+    const progress: Raw = {};
+    for (const [id, p] of Object.entries((s.progress ?? {}) as Raw)) {
+      if (!p) continue;
+      if (p.recognition || p.recall || p.manuallyMarkedKnown) {
+        progress[id] = p;
+      } else if (typeof p.dueDate === 'string') {
+        // Upgrade legacy SM-2 card to FSRS recognition direction
+        progress[id] = {
+          recognition: {
+            due: p.dueDate,
+            stability: Math.max(1, p.interval ?? 1),
+            difficulty: 5,
+            elapsed_days: 0,
+            scheduled_days: Math.max(1, p.interval ?? 1),
+            reps: p.repetitions ?? 0,
+            lapses: p.failureCount ?? 0,
+            state: (p.repetitions ?? 0) > 0 ? 2 : 0,
+            last_review: p.lastReviewed,
+            history: Array.isArray(p.history) ? p.history : [],
+            failureCount: p.failureCount ?? 0,
+            consecutiveCorrect: p.consecutiveCorrect ?? 0,
+            isLeech: Boolean(p.isLeech),
+            curedLeech: p.curedLeech === true ? true : undefined,
+          },
+        };
+      }
+    }
+    return {
+      ...s,
+      progress,
+      version: 3,
+    };
+  },
 };
 
 function isObj(v: unknown): v is Raw {
@@ -94,6 +140,28 @@ function isObj(v: unknown): v is Raw {
 
 function num(v: unknown, fallback: number): number {
   return typeof v === 'number' && Number.isFinite(v) ? v : fallback;
+}
+
+function sanitizeDirection(d: Raw): any {
+  if (!isObj(d) || typeof d.due !== 'string') return undefined;
+  return {
+    due: d.due,
+    stability: num(d.stability, 1),
+    difficulty: num(d.difficulty, 5),
+    elapsed_days: num(d.elapsed_days, 0),
+    scheduled_days: num(d.scheduled_days, 1),
+    reps: num(d.reps, 0),
+    lapses: num(d.lapses, 0),
+    state: num(d.state, 0),
+    last_review: typeof d.last_review === 'string' ? d.last_review : undefined,
+    history: Array.isArray(d.history)
+      ? d.history.filter((h: unknown) => isObj(h) && typeof h.date === 'string' && typeof h.grade === 'number')
+      : [],
+    failureCount: num(d.failureCount, 0),
+    consecutiveCorrect: num(d.consecutiveCorrect, 0),
+    isLeech: Boolean(d.isLeech),
+    curedLeech: d.curedLeech === true ? true : undefined,
+  };
 }
 
 /** Fills missing fields from defaults and drops malformed entries. */
@@ -105,21 +173,38 @@ function sanitize(s: Raw): UserState {
   const progress: Record<string, CardProgress> = {};
   if (isObj(s.progress)) {
     for (const [id, p] of Object.entries(s.progress)) {
-      if (!isObj(p) || typeof p.dueDate !== 'string') continue;
-      progress[id] = {
-        easeFactor: Math.max(1.3, num(p.easeFactor, 2.5)),
-        interval: Math.max(0, num(p.interval, 0)),
-        repetitions: Math.max(0, num(p.repetitions, 0)),
-        dueDate: p.dueDate,
-        lastReviewed: typeof p.lastReviewed === 'string' ? p.lastReviewed : undefined,
-        isLeech: Boolean(p.isLeech),
-        history: Array.isArray(p.history)
-          ? p.history.filter((h: unknown) => isObj(h) && typeof h.date === 'string' && typeof h.grade === 'number')
-          : [],
-        consecutiveCorrect: num(p.consecutiveCorrect, 0),
-        failureCount: num(p.failureCount, 0),
-        curedLeech: p.curedLeech === true ? true : undefined,
-      };
+      if (!isObj(p)) continue;
+      const recog = isObj(p.recognition) ? sanitizeDirection(p.recognition) : undefined;
+      const recall = isObj(p.recall) ? sanitizeDirection(p.recall) : undefined;
+      const manuallyMarkedKnown = Boolean(p.manuallyMarkedKnown);
+
+      if (recog || recall || manuallyMarkedKnown) {
+        progress[id] = {
+          recognition: recog,
+          recall: recall,
+          manuallyMarkedKnown: manuallyMarkedKnown || undefined,
+        };
+      } else if (typeof p.dueDate === 'string') {
+        // Fallback upgrade for any loose SM-2 object
+        progress[id] = {
+          recognition: {
+            due: p.dueDate,
+            stability: Math.max(1, num(p.interval, 1)),
+            difficulty: 5,
+            elapsed_days: 0,
+            scheduled_days: Math.max(1, num(p.interval, 1)),
+            reps: num(p.repetitions, 0),
+            lapses: num(p.failureCount, 0),
+            state: num(p.repetitions, 0) > 0 ? 2 : 0,
+            last_review: typeof p.lastReviewed === 'string' ? p.lastReviewed : undefined,
+            history: Array.isArray(p.history) ? p.history : [],
+            failureCount: num(p.failureCount, 0),
+            consecutiveCorrect: num(p.consecutiveCorrect, 0),
+            isLeech: Boolean(p.isLeech),
+            curedLeech: p.curedLeech === true ? true : undefined,
+          },
+        };
+      }
     }
   }
 

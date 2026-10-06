@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { checkEnglish, stem, cleanEnglish, normEnglish, maxTypoTolerance } from './pinyinHelper';
-import { buildSession, applyGrade, recordReview, newProgress, promptFor } from './srsEngine';
+import { buildSession, applyGrade, recordReview, newDirectionProgress, promptFor, bulkMarkLevelKnown, calculateTrueRetention } from './srsEngine';
 import type { SessionRequest, UserState, VocabItem } from '../types';
 
 describe('English stemmer and normalization', () => {
@@ -151,8 +151,8 @@ describe('SRS Overdue Backlog Throttling & Grading', () => {
         soundEffects: true,
       },
       progress: {
-        '1': { ...newProgress(now), dueDate: pastDate },
-        '2': { ...newProgress(now), dueDate: pastDate },
+        '1': { recognition: { ...newDirectionProgress(now), due: pastDate } },
+        '2': { recognition: { ...newDirectionProgress(now), due: pastDate } },
       },
       stats: {
         currentStreak: 1,
@@ -217,10 +217,92 @@ describe('SRS Overdue Backlog Throttling & Grading', () => {
     // Even if initial result was correct: false, grade 3 overrides it to correct: true
     const updated = recordReview(baseState, { item: dummyVocab[0], grade: 3, correct: false, prompt: 'hanzi', latencyMs: 1000 }, now);
     expect(updated.stats.totalCorrect).toBe(1);
-    expect(updated.progress['1'].history[0].correct).toBe(true);
+    expect(updated.progress['1'].recognition?.history[0].correct).toBe(true);
   });
 
   it('handles dedicated english mode in promptFor', () => {
     expect(promptFor('english', 0, ['hanzi', 'pinyin', 'english'])).toBe('english');
+  });
+
+  it('calculates true retention only on mature cards (stability >= 21)', () => {
+    const state: UserState = {
+      version: 3,
+      settings: { speechRate: 1, colorTones: true, dailyCap: 30, defaultMode: 'mixed', newCardsPerDay: 10, curriculum: 'hsk3_2026', theme: 'system', soundEffects: true },
+      progress: {
+        'young': {
+          recognition: {
+            ...newDirectionProgress(now),
+            stability: 5,
+            history: [{ date: now.toISOString(), grade: 3, correct: true, stability: 5 }],
+          },
+        },
+        'mature1': {
+          recognition: {
+            ...newDirectionProgress(now),
+            stability: 25,
+            history: [{ date: now.toISOString(), grade: 3, correct: true, stability: 25 }],
+          },
+        },
+        'mature2': {
+          recognition: {
+            ...newDirectionProgress(now),
+            stability: 30,
+            history: [{ date: now.toISOString(), grade: 1, correct: false, stability: 30 }],
+          },
+        },
+      },
+      stats: {
+        currentStreak: 1,
+        longestStreak: 1,
+        lastActiveDate: '',
+        totalReviewed: 3,
+        toneAccuracy: {} as any,
+        totalCorrect: 2,
+        totalLatencyMs: 0,
+        latencySamples: 0,
+        modeCounts: {} as any,
+        toneConfusion: {} as any,
+        daily: {},
+      },
+      unlockedBadges: [],
+      starredWords: [],
+    };
+
+    const ret = calculateTrueRetention(state);
+    expect(ret.matureTotal).toBe(2);
+    expect(ret.matureCorrect).toBe(1);
+    expect(ret.rate).toBe(50);
+  });
+
+  it('bulk marks level as known and unmarks correctly', () => {
+    const state: UserState = {
+      version: 3,
+      settings: { speechRate: 1, colorTones: true, dailyCap: 30, defaultMode: 'mixed', newCardsPerDay: 10, curriculum: 'hsk3_2026', theme: 'system', soundEffects: true },
+      progress: {},
+      stats: {
+        currentStreak: 0,
+        longestStreak: 0,
+        lastActiveDate: '',
+        totalReviewed: 0,
+        toneAccuracy: {} as any,
+        totalCorrect: 0,
+        totalLatencyMs: 0,
+        latencySamples: 0,
+        modeCounts: {} as any,
+        toneConfusion: {} as any,
+        daily: {},
+      },
+      unlockedBadges: [],
+      starredWords: [],
+    };
+
+    const updated = bulkMarkLevelKnown(state, dummyVocab, 1, true);
+    expect(updated.progress['1']?.manuallyMarkedKnown).toBe(true);
+    expect(updated.progress['2']?.manuallyMarkedKnown).toBe(true);
+    expect(updated.knownLevels).toContain(1);
+
+    const reverted = bulkMarkLevelKnown(updated, dummyVocab, 1, false);
+    expect(reverted.progress['1']).toBeUndefined();
+    expect(reverted.knownLevels).not.toContain(1);
   });
 });

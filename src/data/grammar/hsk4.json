@@ -607,5 +607,851 @@
         "explanation": "Subject + 不但不 + expected reaction, 反而 + opposite reaction."
       }
     ]
+  },
+  {
+    "id": "g4-jingran",
+    "hskLevel": 4,
+    "title": "竟然: surprisingly, unexpectedly",
+    "titleHanzi": "竟然 / 居然",
+    "pattern": "Subject + 竟然/居然 + Verb phrase",
+    "summary": "Show that something surprised you: 他竟然忘了我的生日.",
+    "explanation": [
+      "**竟然** expresses the speaker's **surprise**: what happened was not what they expected. The surprise can be good (她竟然五分钟就做完了) or bad (他竟然忘了我的生日).",
+      "It is an adverb, so it goes **after the subject** and before the verb. **居然** means the same and is a little more colloquial; **竟** alone is more literary.",
+      "Compare **反而**, which needs an expected result and its opposite, and **果然**, which means the opposite of 竟然: 'just as expected'."
+    ],
+    "mistakes": [
+      "✗ 竟然他忘了我的生日。 → ✓ 他竟然忘了我的生日。 竟然 comes after the subject.",
+      "✗ 他果然没来，我真没想到。 → ✓ 他竟然没来，我真没想到。 果然 = as expected; for a surprise use 竟然."
+    ],
+    "examples": [
+      { "hanzi": "他竟然忘了我的生日。", "pinyin": "Tā jìngrán wàng le wǒ de shēngrì.", "english": "He actually forgot my birthday!" },
+      { "hanzi": "这么难的题，她竟然五分钟就做完了。", "pinyin": "Zhème nán de tí, tā jìngrán wǔ fēnzhōng jiù zuòwán le.", "english": "Such a hard question, and she finished it in just five minutes!" },
+      { "hanzi": "我没想到他居然是你哥哥。", "pinyin": "Wǒ méi xiǎngdào tā jūrán shì nǐ gēge.", "english": "I had no idea he was actually your brother.", "note": "居然 = colloquial 竟然." },
+      { "hanzi": "已经四月了，竟然还在下雪。", "pinyin": "Yǐjīng sìyuè le, jìngrán hái zài xià xuě.", "english": "It's already April, and it's still snowing!" }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这么简单的问题，他___不会回答。",
+        "english": "Such an easy question, and he surprisingly can't answer it.",
+        "options": ["既然", "果然", "竟然", "当然"],
+        "answer": 2,
+        "explanation": "Surprise at an unexpected fact: 竟然. 果然 = as expected; 既然 = since."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["竟然他没来参加婚礼。", "他竟然没来参加婚礼。", "他没来竟然参加婚礼。"],
+        "answer": 1,
+        "explanation": "Subject + 竟然 + verb phrase."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "He actually forgot my birthday!",
+        "optionScript": "pinyin",
+        "options": ["Tā guǒrán wàng le wǒ de shēngrì.", "Tā jìngrán wàng le wǒ de shēngrì.", "Jìngrán tā wàng le wǒ de shēngrì.", "Tā wàng le jìngrán wǒ de shēngrì."],
+        "answer": 1,
+        "explanation": "竟然 (jìngrán) after the subject shows surprise; 果然 (guǒrán) means 'as expected'."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["她", "竟然", "五", "分钟", "就", "做完", "了"],
+        "english": "Surprisingly, she finished in just five minutes.",
+        "pinyin": "Tā jìngrán wǔ fēnzhōng jiù zuòwán le.",
+        "explanation": "Subject + 竟然 + time + 就 + verb."
+      }
+    ]
+  },
+  {
+    "id": "g4-nandao-ma",
+    "hskLevel": 4,
+    "title": "难道…吗: rhetorical questions",
+    "titleHanzi": "难道…吗",
+    "pattern": "难道 + Statement + 吗？  ·  Subject + 难道 + Statement + 吗？",
+    "summary": "Ask a question that really makes a point: 难道你不知道吗？ = Surely you know!",
+    "explanation": [
+      "**难道…吗？** is a **rhetorical question**. The speaker isn't asking for information but expressing surprise, disbelief or reproach — 'Don't tell me…', 'Surely…'.",
+      "The meaning flips: a negative question implies a positive statement and vice versa. 难道你**不**知道吗？ = You **must** know! 难道这是真的吗？ = This **can't** be true!",
+      "难道 can go before or after the subject. The end particle is **吗** (it is sometimes dropped in speech). Don't combine 难道 with V不V questions."
+    ],
+    "mistakes": [
+      "✗ 难道你不知道呢？ → ✓ 难道你不知道吗？ The rhetorical question ends with 吗.",
+      "✗ 难道你明天去不去吗？ → ✓ 难道你明天不去吗？ 难道 doesn't combine with V不V."
+    ],
+    "examples": [
+      { "hanzi": "难道你不知道明天考试吗？", "pinyin": "Nándào nǐ bù zhīdào míngtiān kǎoshì ma?", "english": "Don't you know there's an exam tomorrow?", "note": "Implies: you should know." },
+      { "hanzi": "这么简单的事，难道你也不会做吗？", "pinyin": "Zhème jiǎndān de shì, nándào nǐ yě bú huì zuò ma?", "english": "Something this simple — surely you can do it?" },
+      { "hanzi": "你难道忘了我们的约定吗？", "pinyin": "Nǐ nándào wàng le wǒmen de yuēdìng ma?", "english": "Have you really forgotten our agreement?", "note": "难道 after the subject." },
+      { "hanzi": "难道这就是你说的好办法？", "pinyin": "Nándào zhè jiù shì nǐ shuō de hǎo bànfǎ?", "english": "Don't tell me this is your 'good idea'?", "note": "吗 dropped in speech." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "难道你连这个字都不认识___？",
+        "english": "Surely you know this character?",
+        "options": ["呢", "吧", "吗", "了"],
+        "answer": 2,
+        "explanation": "难道 questions end with 吗."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Surely you haven't forgotten our agreement?",
+        "optionScript": "hanzi",
+        "options": ["难道你忘了我们的约定吗？", "你忘没忘我们的约定吗？", "难道你忘没忘我们的约定？", "你难道忘了我们的约定呢？"],
+        "answer": 0,
+        "explanation": "难道 + statement + 吗. It can't combine with V没V, and the particle is 吗."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["难道你不想回家吗？", "你难道没看见吗？", "难道你明天去不去吗？"],
+        "answer": 2,
+        "explanation": "难道 doesn't combine with V不V: 难道你明天不去吗？"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["难道", "你", "不", "知道", "明天", "考试", "吗"],
+        "alternatives": [["你", "难道", "不", "知道", "明天", "考试", "吗"]],
+        "english": "Don't you know there's an exam tomorrow?",
+        "pinyin": "Nándào nǐ bù zhīdào míngtiān kǎoshì ma?",
+        "explanation": "难道 + statement + 吗. 难道 can also follow the subject."
+      }
+    ]
+  },
+  {
+    "id": "g4-yibian-yimian",
+    "hskLevel": 4,
+    "title": "以便 and 以免: so that / so as not to",
+    "titleHanzi": "以便 / 以免",
+    "pattern": "Action + , 以便 + Desired result  ·  Action + , 以免 + Result to avoid",
+    "summary": "Give the purpose of an action: 早点儿出发，以免迟到.",
+    "explanation": [
+      "**以便** = 'so that, in order to make it easier to': the second clause is something you **want**. **以免** = 'so as to avoid, lest': the second clause is something you **don't want**.",
+      "Both start the **second clause**, after the action. The subject of the second clause is often left out.",
+      "Both are formal and typical of writing, notices and instructions. In speech, people use **好 / 为了** instead of 以便, and **免得 / 省得** instead of 以免."
+    ],
+    "mistakes": [
+      "✗ 以便迟到，我们早点儿出发。 → ✓ 我们早点儿出发，以免迟到。 Lateness is unwanted (以免), and the clause comes second.",
+      "✗ 你小声点儿，以便吵醒孩子。 → ✓ 你小声点儿，以免吵醒孩子。 以便 is for a result you want."
+    ],
+    "examples": [
+      { "hanzi": "请把电话号码留下，以便我们联系你。", "pinyin": "Qǐng bǎ diànhuà hàomǎ liúxià, yǐbiàn wǒmen liánxì nǐ.", "english": "Please leave your phone number so that we can contact you." },
+      { "hanzi": "出门前检查一下，以免忘带东西。", "pinyin": "Chūmén qián jiǎnchá yíxià, yǐmiǎn wàng dài dōngxi.", "english": "Check before you go out so you don't forget anything." },
+      { "hanzi": "他把重要的地方都写在本子上，以便复习。", "pinyin": "Tā bǎ zhòngyào de dìfang dōu xiě zài běnzi shang, yǐbiàn fùxí.", "english": "He writes all the important points in his notebook to make reviewing easier." },
+      { "hanzi": "开车要慢一点儿，以免发生危险。", "pinyin": "Kāichē yào màn yìdiǎnr, yǐmiǎn fāshēng wēixiǎn.", "english": "Drive a little slower to avoid accidents." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "多穿点儿衣服，___感冒。",
+        "english": "Put on more clothes so you don't catch a cold.",
+        "options": ["以便", "以免", "因为", "所以"],
+        "answer": 1,
+        "explanation": "Catching a cold is unwanted, so 以免."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "请留下您的邮箱，___我们给您发通知。",
+        "english": "Please leave your email address so that we can send you notifications.",
+        "options": ["以免", "即使", "以便", "否则"],
+        "answer": 2,
+        "explanation": "Sending notifications is the desired result, so 以便."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["我们早点儿出发，以免迟到。", "请写清楚地址，以便快递员找到。", "你小声点儿，以便吵醒孩子。"],
+        "answer": 2,
+        "explanation": "Waking the child is unwanted: 你小声点儿，以免吵醒孩子。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["我们", "早点儿", "出发", "以免", "迟到"],
+        "english": "Let's set off early so we're not late.",
+        "pinyin": "Wǒmen zǎo diǎnr chūfā, yǐmiǎn chídào.",
+        "explanation": "Action first, then 以免 + what you want to avoid."
+      }
+    ]
+  },
+  {
+    "id": "g4-duiyu-guanyu",
+    "hskLevel": 4,
+    "title": "对于 vs 关于",
+    "titleHanzi": "对于 / 关于",
+    "pattern": "对于 + Target + , Comment  ·  Subject + 对于 + Target + Verb/Adjective  ·  关于 + Topic + (的 + Noun)",
+    "summary": "对于 = towards / as for (attitude); 关于 = about (topic): 一本关于历史的书.",
+    "explanation": [
+      "**对于** marks the person or thing that an **attitude or action is directed at**: 对于这个决定，大家都很满意. It can stand at the start of the sentence **or after the subject**: 他对于工作非常认真. In everyday speech, plain **对** is more common.",
+      "**关于** marks the **topic or content**: 'about, concerning'. It typically starts the sentence (关于这个问题，…) or forms a description with 的: 一本**关于**中国历史**的**书. It is also used in titles: 关于考试的通知.",
+      "Key difference: 关于 **cannot** come after the subject. If you're talking about someone's feelings toward something, use 对/对于; if you're naming what a book, talk or film is about, use 关于."
+    ],
+    "mistakes": [
+      "✗ 他关于历史很感兴趣。 → ✓ 他对于历史很感兴趣。 / 他对历史很感兴趣。 Interest is directed at something, and 关于 can't follow the subject.",
+      "✗ 这是一本对于中国历史的书。 → ✓ 这是一本关于中国历史的书。 For the content of a book, use 关于."
+    ],
+    "examples": [
+      { "hanzi": "关于这个问题，我们明天再讨论。", "pinyin": "Guānyú zhège wèntí, wǒmen míngtiān zài tǎolùn.", "english": "As for this question, let's discuss it again tomorrow." },
+      { "hanzi": "我买了一本关于中国历史的书。", "pinyin": "Wǒ mǎi le yì běn guānyú Zhōngguó lìshǐ de shū.", "english": "I bought a book about Chinese history." },
+      { "hanzi": "对于这个决定，大家都很满意。", "pinyin": "Duìyú zhège juédìng, dàjiā dōu hěn mǎnyì.", "english": "Everyone is very satisfied with this decision." },
+      { "hanzi": "他对于工作非常认真。", "pinyin": "Tā duìyú gōngzuò fēicháng rènzhēn.", "english": "He is very conscientious about his work.", "note": "对于 after the subject." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这是一部___大熊猫的电影。",
+        "english": "This is a film about giant pandas.",
+        "options": ["对于", "关于", "对", "由"],
+        "answer": 1,
+        "explanation": "The topic of a film: 关于…的电影."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他___这件事的态度很积极。",
+        "english": "His attitude towards this matter is very positive.",
+        "options": ["关于", "为了", "随着", "对于"],
+        "answer": 3,
+        "explanation": "An attitude directed at something, after the subject: 对于."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["关于这件事，我不太清楚。", "她关于音乐很感兴趣。", "对于孩子来说，玩儿很重要。"],
+        "answer": 1,
+        "explanation": "关于 can't follow the subject: 她对音乐很感兴趣。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "I read an article about environmental protection.",
+        "optionScript": "hanzi",
+        "options": ["我看了一篇对于环境保护的文章。", "我关于环境保护看了一篇文章。", "我看了一篇关于环境保护的文章。", "我看了一篇环境保护关于的文章。"],
+        "answer": 2,
+        "explanation": "The content of an article: 关于 + topic + 的 + noun."
+      }
+    ]
+  },
+  {
+    "id": "g4-suizhe",
+    "hskLevel": 4,
+    "title": "随着: along with, as… changes",
+    "titleHanzi": "随着",
+    "pattern": "随着 + (…的) + Change + , Subject + 也/越来越 + Result",
+    "summary": "One change brings another: 随着经济的发展，生活越来越好.",
+    "explanation": [
+      "**随着** introduces a **developing change** that causes another change: 'as…, along with…'. It usually stands at the **start of the sentence**.",
+      "What follows is typically a noun phrase describing a process: 经济**的**发展, 年龄**的**增长, 水平**的**提高. A short clause of change also works: 随着天气变冷.",
+      "The main clause describes the resulting change, often with **越来越**, **也** or **变得**. The pattern is somewhat formal and very common in writing and essays."
+    ],
+    "mistakes": [
+      "✗ 随着年龄，他越来越成熟。 → ✓ 随着年龄的增长，他越来越成熟。 随着 needs a change or process, not just a static noun."
+    ],
+    "examples": [
+      { "hanzi": "随着经济的发展，人们的生活越来越好。", "pinyin": "Suízhe jīngjì de fāzhǎn, rénmen de shēnghuó yuè lái yuè hǎo.", "english": "As the economy develops, people's lives keep getting better." },
+      { "hanzi": "随着年龄的增长，他变得越来越成熟。", "pinyin": "Suízhe niánlíng de zēngzhǎng, tā biàn de yuè lái yuè chéngshú.", "english": "As he gets older, he's becoming more and more mature." },
+      { "hanzi": "随着天气变冷，感冒的人也多了起来。", "pinyin": "Suízhe tiānqì biàn lěng, gǎnmào de rén yě duō le qǐlai.", "english": "As the weather turns cold, more people are catching colds.", "note": "A short clause of change after 随着." },
+      { "hanzi": "随着手机的普及，看报纸的人越来越少了。", "pinyin": "Suízhe shǒujī de pǔjí, kàn bàozhǐ de rén yuè lái yuè shǎo le.", "english": "As mobile phones have become widespread, fewer and fewer people read newspapers." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___科技的发展，我们的生活越来越方便。",
+        "english": "As technology develops, our lives are becoming more and more convenient.",
+        "options": ["对于", "关于", "随着", "为了"],
+        "answer": 2,
+        "explanation": "A developing change (科技的发展) bringing another change: 随着."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["随着年龄的增长，他越来越懂事。", "随着天气，人们的衣服越来越少。", "随着城市的发展，交通越来越方便。"],
+        "answer": 1,
+        "explanation": "随着 needs a change: 随着天气变热，人们的衣服越来越少。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "As the population grows, housing gets more and more expensive.",
+        "optionScript": "hanzi",
+        "options": ["随着人口的增加，房子越贵越来。", "人口随着的增加，房子越来越贵。", "关于人口的增加，房子越来越贵。", "随着人口的增加，房子越来越贵。"],
+        "answer": 3,
+        "explanation": "随着 + change (人口的增加), then the resulting change with 越来越."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["随着", "经济", "的", "发展", "人们", "的", "生活", "越来越", "好"],
+        "english": "As the economy develops, people's lives keep getting better.",
+        "pinyin": "Suízhe jīngjì de fāzhǎn, rénmen de shēnghuó yuè lái yuè hǎo.",
+        "explanation": "随着 + noun + 的 + change, then subject + 越来越 + adjective."
+      }
+    ]
+  },
+  {
+    "id": "g4-chen",
+    "hskLevel": 4,
+    "title": "趁: while, taking advantage of",
+    "titleHanzi": "趁 / 趁着",
+    "pattern": "(Subject) + 趁 + Time/Opportunity + Verb phrase",
+    "summary": "Use a good moment to do something: 趁热吃吧.",
+    "explanation": [
+      "**趁** means 'while (the chance lasts), taking advantage of': it names a favourable moment or condition, then the action you do in it. 趁热吃 = eat it while it's hot.",
+      "趁 + condition goes **before the verb**, either at the start of the sentence or after the subject: 趁年轻多学点儿, 我想趁放假去旅行. **趁着** is the same with a slightly fuller rhythm.",
+      "Short set phrases are very common: 趁热, 趁早 (the sooner the better), 趁机 (seize the chance). The word works in both speech and writing."
+    ],
+    "mistakes": [
+      "✗ 吃趁热吧。 → ✓ 趁热吃吧。 趁 + condition comes before the verb."
+    ],
+    "examples": [
+      { "hanzi": "饺子来了，趁热吃吧。", "pinyin": "Jiǎozi lái le, chèn rè chī ba.", "english": "The dumplings are here — eat them while they're hot." },
+      { "hanzi": "趁年轻，多出去看看世界。", "pinyin": "Chèn niánqīng, duō chūqu kànkan shìjiè.", "english": "While you're young, get out and see the world." },
+      { "hanzi": "我想趁放假的时候去学开车。", "pinyin": "Wǒ xiǎng chèn fàngjià de shíhou qù xué kāichē.", "english": "I want to use the holidays to learn to drive." },
+      { "hanzi": "他趁老师不注意，偷偷看了一眼手机。", "pinyin": "Tā chèn lǎoshī bú zhùyì, tōutōu kàn le yì yǎn shǒujī.", "english": "When the teacher wasn't looking, he sneaked a glance at his phone." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "菜要凉了，___热吃吧。",
+        "english": "The food is getting cold — eat it while it's hot.",
+        "options": ["从", "随", "趁", "对"],
+        "answer": 2,
+        "explanation": "趁热 = while it's still hot."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我们___周末天气好，去爬山吧。",
+        "english": "Let's make the most of the good weather this weekend and go hiking.",
+        "options": ["趁", "随着", "即使", "以便"],
+        "answer": 0,
+        "explanation": "Taking advantage of a favourable condition: 趁."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["吃趁热吧。", "趁热吃吧。", "热趁吃吧。"],
+        "answer": 1,
+        "explanation": "趁 + condition comes before the verb: 趁热吃吧。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "I want to use the holidays to learn to drive.",
+        "optionScript": "pinyin",
+        "options": ["Wǒ xiǎng suízhe fàngjià de shíhou qù xué kāichē.", "Wǒ xiǎng qù xué kāichē chèn fàngjià de shíhou.", "Wǒ chèn xiǎng fàngjià de shíhou qù xué kāichē.", "Wǒ xiǎng chèn fàngjià de shíhou qù xué kāichē."],
+        "answer": 3,
+        "explanation": "趁 (chèn) + time comes before the action it's used for."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["趁", "年轻", "多", "出去", "看看", "世界"],
+        "english": "While you're young, get out and see the world.",
+        "pinyin": "Chèn niánqīng, duō chūqu kànkan shìjiè.",
+        "explanation": "趁 + condition first, then the action."
+      }
+    ]
+  },
+  {
+    "id": "g4-shifou",
+    "hskLevel": 4,
+    "title": "是否: whether (or not)",
+    "titleHanzi": "是否",
+    "pattern": "Subject + 是否 + Verb/Adjective  ·  …知道/清楚/决定 + Subject + 是否 + Verb",
+    "summary": "A formal way to ask or say 'whether': 我不知道他是否同意.",
+    "explanation": [
+      "**是否** is a formal word for 'whether or not'. It does the same job as **是不是** or a **V不V** question: 你是否同意？ = 你同不同意？",
+      "It goes **after the subject**, right before the verb or adjective. It is common in embedded questions (我不知道他**是否**会来), in polite service language (您**是否**需要帮助？) and in writing.",
+      "Because 是否 already makes the question, **don't add 吗**. A related formal word is **能否** = 能不能."
+    ],
+    "mistakes": [
+      "✗ 你是否喜欢这本书吗？ → ✓ 你是否喜欢这本书？ 是否 already forms the question; no 吗.",
+      "✗ 是否你明天来？ → ✓ 你明天是否来？ 是否 comes after the subject."
+    ],
+    "examples": [
+      { "hanzi": "我不知道他是否同意。", "pinyin": "Wǒ bù zhīdào tā shìfǒu tóngyì.", "english": "I don't know whether he agrees." },
+      { "hanzi": "请问您是否需要帮助？", "pinyin": "Qǐngwèn nín shìfǒu xūyào bāngzhù?", "english": "Excuse me, do you need any help?", "note": "Polite, formal service language." },
+      { "hanzi": "能否成功，要看大家是否努力。", "pinyin": "Néngfǒu chénggōng, yào kàn dàjiā shìfǒu nǔlì.", "english": "Whether we succeed depends on whether everyone works hard.", "note": "能否 = 能不能." },
+      { "hanzi": "这个消息是否真实，现在还不清楚。", "pinyin": "Zhège xiāoxi shìfǒu zhēnshí, xiànzài hái bù qīngchu.", "english": "Whether this news is true is still unclear." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "请告诉我您___参加明天的会议。",
+        "english": "Please tell me whether you will attend tomorrow's meeting.",
+        "options": ["否则", "是否", "难道", "以免"],
+        "answer": 1,
+        "explanation": "'Whether or not' in formal language: 是否."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which everyday expression means the same? Fill in the blank.",
+        "sentence": "你明天___有空？",
+        "english": "Are you free tomorrow? (= 你明天是否有空？)",
+        "options": ["是不是", "是否不", "难道", "有没"],
+        "answer": 0,
+        "explanation": "是不是 is the colloquial equivalent of 是否."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["我不清楚他是否已经回国了。", "请问您是否需要发票？", "你是否喜欢这本书吗？"],
+        "answer": 2,
+        "explanation": "是否 already makes a question; drop 吗: 你是否喜欢这本书？"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "I don't know whether he will come.",
+        "optionScript": "hanzi",
+        "options": ["我不知道他是否会来。", "我不知道他是否会来吗。", "我是否不知道他会来。", "我不知道他否则会来。"],
+        "answer": 0,
+        "explanation": "Embedded question: 他 + 是否 + 会来, with no 吗."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["请问", "您", "是否", "需要", "帮助"],
+        "english": "Excuse me, do you need any help?",
+        "pinyin": "Qǐngwèn nín shìfǒu xūyào bāngzhù?",
+        "explanation": "Subject + 是否 + verb."
+      }
+    ]
+  },
+  {
+    "id": "g4-compound-directional",
+    "hskLevel": 4,
+    "title": "Compound directional complements",
+    "titleHanzi": "拿出来 / 想起来 / 说下去",
+    "pattern": "Verb + 上/下/进/出/回/过/起 + 来/去  ·  Verb + 进/回/… + Place + 来/去  ·  Verb + 出 + Object + 来",
+    "summary": "Add direction or extended meaning after a verb: 拿出来, 走进教室来, 想起来, 说下去.",
+    "explanation": [
+      "A compound directional complement has two parts: a direction (上, 下, 进, 出, 回, 过, 起) plus **来** (towards the speaker) or **去** (away): 拿**出来**, 走**进去**, 跑**回来**. 来/去 here are usually unstressed.",
+      "**Place words** must go **before 来/去**: 走进**教室**来, 跑回**家**去 — never 走进来教室. Ordinary objects can go before 来/去 or after the whole complement: 拿出**一本书**来 = 拿出来**一本书**.",
+      "Many complements have **extended meanings**: **想起来** = recall, **想出来** = come up with, **看出来** = notice, **说下去** = keep talking, **停下来** = come to a stop. Learn these as chunks."
+    ],
+    "mistakes": [
+      "✗ 他走进来教室。 → ✓ 他走进教室来。 Place words go before 来/去.",
+      "✗ 请继续说起来。 → ✓ 请继续说下去。 'Continue' is 下去; 起来 means 'start'."
+    ],
+    "examples": [
+      { "hanzi": "他从包里拿出来一本书。", "pinyin": "Tā cóng bāo li ná chūlai yì běn shū.", "english": "He took a book out of his bag.", "note": "Also: 拿出一本书来." },
+      { "hanzi": "老师走进教室来了。", "pinyin": "Lǎoshī zǒujìn jiàoshì lái le.", "english": "The teacher walked into the classroom.", "note": "Place word before 来." },
+      { "hanzi": "我想起来了，他叫王明。", "pinyin": "Wǒ xiǎng qǐlai le, tā jiào Wáng Míng.", "english": "Now I remember — his name is Wang Ming.", "note": "想起来 = recall." },
+      { "hanzi": "别停，请继续说下去。", "pinyin": "Bié tíng, qǐng jìxù shuō xiàqu.", "english": "Don't stop — please go on.", "note": "下去 = continue." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "你说得很好，请继续说___。",
+        "english": "You're doing well — please keep going.",
+        "options": ["起来", "出来", "下去", "过来"],
+        "answer": 2,
+        "explanation": "下去 after a verb means 'continue'."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这个好办法是谁想___的？",
+        "english": "Who came up with this good idea?",
+        "options": ["起来", "出来", "下去", "过来"],
+        "answer": 1,
+        "explanation": "想出来 = come up with (a new idea); 想起来 = recall something you knew."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["他走进教室来了。", "他走进来教室了。", "他拿出一本书来。"],
+        "answer": 1,
+        "explanation": "A place word must come before 来: 他走进教室来了。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Please keep talking.",
+        "optionScript": "hanzi",
+        "options": ["请继续说起来。", "请继续说出来。", "请继续说过去。", "请继续说下去。"],
+        "answer": 3,
+        "explanation": "Continuing an action: verb + 下去."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["他", "从", "包里", "拿出", "一", "本", "书", "来"],
+        "alternatives": [["他", "从", "包里", "拿出", "来", "一", "本", "书"]],
+        "english": "He took a book out of his bag.",
+        "pinyin": "Tā cóng bāo li ná chū yì běn shū lai.",
+        "explanation": "A normal object can go before 来 (拿出一本书来) or after the whole complement (拿出来一本书)."
+      }
+    ]
+  },
+  {
+    "id": "g4-qilai-evaluative",
+    "hskLevel": 4,
+    "title": "看起来, 听起来: evaluative 起来",
+    "titleHanzi": "V + 起来",
+    "pattern": "Subject + Verb + 起来 + Comment",
+    "summary": "Say how something seems when you look, listen or try it: 看起来很好吃.",
+    "explanation": [
+      "**Verb + 起来 + comment** gives an impression or judgment based on that action: 看起来 = looks, 听起来 = sounds, 吃起来 = tastes, 穿起来 = feels to wear, 用起来 = is to use.",
+      "The **subject is the thing being judged**, and 起来 comes straight after the verb: 这个蛋糕**看起来**很好吃. A classic saying: 说起来容易，做起来难 = easier said than done.",
+      "**看上去** is a near-synonym for appearance only. Don't confuse this use with 起来 meaning 'start' (他笑起来了) or 'up' (站起来)."
+    ],
+    "mistakes": [
+      "✗ 这首歌听上来很好听。 → ✓ 这首歌听起来很好听。 The form is 听起来; 上去 only pairs with 看 (看上去).",
+      "✗ 起来看这个菜很好吃。 → ✓ 这个菜看起来很好吃。 Subject first, then verb + 起来."
+    ],
+    "examples": [
+      { "hanzi": "这个蛋糕看起来很好吃。", "pinyin": "Zhège dàngāo kàn qǐlai hěn hǎochī.", "english": "This cake looks delicious." },
+      { "hanzi": "你的计划听起来不错。", "pinyin": "Nǐ de jìhuà tīng qǐlai búcuò.", "english": "Your plan sounds good." },
+      { "hanzi": "这件衣服穿起来很舒服。", "pinyin": "Zhè jiàn yīfu chuān qǐlai hěn shūfu.", "english": "This piece of clothing is very comfortable to wear." },
+      { "hanzi": "这件事说起来容易，做起来难。", "pinyin": "Zhè jiàn shì shuō qǐlai róngyì, zuò qǐlai nán.", "english": "This is easier said than done." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "你的主意听___不错。",
+        "english": "Your idea sounds good.",
+        "options": ["下去", "起来", "出来", "过去"],
+        "answer": 1,
+        "explanation": "听起来 + comment = 'sounds…'."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这首歌___起来很好听。",
+        "english": "This song sounds lovely.",
+        "options": ["吃", "听", "穿", "闻"],
+        "answer": 1,
+        "explanation": "A song is judged by listening: 听起来."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["这个包看起来很贵。", "这首歌听上来很好听。", "这双鞋穿起来很舒服。"],
+        "answer": 1,
+        "explanation": "The form is 听起来: 这首歌听起来很好听。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Your plan sounds good.",
+        "optionScript": "pinyin",
+        "options": ["Nǐ de jìhuà tīng xiàqu búcuò.", "Nǐ de jìhuà kàn chūlai búcuò.", "Nǐ de jìhuà tīng qǐlai búcuò.", "Nǐ de jìhuà qǐlai tīng búcuò."],
+        "answer": 2,
+        "explanation": "Verb (听) + 起来 + comment."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["这件", "事", "说起来", "容易", "做起来", "难"],
+        "english": "This is easier said than done.",
+        "pinyin": "Zhè jiàn shì shuō qǐlai róngyì, zuò qǐlai nán.",
+        "explanation": "Subject, then each verb + 起来 + its comment."
+      }
+    ]
+  },
+  {
+    "id": "g4-shenzhi",
+    "hskLevel": 4,
+    "title": "甚至: even (the extreme case)",
+    "titleHanzi": "甚至",
+    "pattern": "…, 甚至 + (连) + Extreme case + 都/也 + Verb",
+    "summary": "Point to the most extreme example: 他太忙了，甚至连周末都要加班.",
+    "explanation": [
+      "**甚至** means 'even, to the point that'. It introduces the **most extreme** item in a series or the furthest consequence: 很多人，甚至小孩子也知道.",
+      "It often combines with **连…都/也** for extra emphasis: 甚至**连**周末**都**要加班. When 连 is used, 都 or 也 is required.",
+      "甚至 can link nouns, verb phrases or whole clauses. It works in both speech and writing; **甚至于** is a more formal variant."
+    ],
+    "mistakes": [
+      "✗ 他甚至连饭没吃。 → ✓ 他甚至连饭都没吃。 连 needs 都 or 也."
+    ],
+    "examples": [
+      { "hanzi": "他工作太忙了，甚至连周末都要加班。", "pinyin": "Tā gōngzuò tài máng le, shènzhì lián zhōumò dōu yào jiābān.", "english": "He's so busy at work that he even has to work overtime at weekends." },
+      { "hanzi": "这个问题很简单，甚至小孩子也会回答。", "pinyin": "Zhège wèntí hěn jiǎndān, shènzhì xiǎo háizi yě huì huídá.", "english": "This question is so easy that even small children can answer it." },
+      { "hanzi": "这首歌在中国很有名，甚至在国外也很受欢迎。", "pinyin": "Zhè shǒu gē zài Zhōngguó hěn yǒumíng, shènzhì zài guówài yě hěn shòu huānyíng.", "english": "This song is famous in China and even popular abroad." },
+      { "hanzi": "他气得甚至一句话也说不出来。", "pinyin": "Tā qì de shènzhì yí jù huà yě shuō bu chūlai.", "english": "He was so angry he couldn't even say a word." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他太累了，___连饭都不想吃。",
+        "english": "He's so tired that he doesn't even want to eat.",
+        "options": ["而是", "反而", "甚至", "以便"],
+        "answer": 2,
+        "explanation": "The extreme consequence: 甚至连…都."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["他忙得甚至连电话都没时间接。", "这件事甚至他的父母也不知道。", "他甚至连一个字没写。"],
+        "answer": 2,
+        "explanation": "连 needs 都/也: 他甚至连一个字都没写。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "This song is even popular abroad.",
+        "optionScript": "hanzi",
+        "options": ["这首歌在国外甚至很受欢迎也。", "这首歌甚至在国外也很受欢迎。", "这首歌甚至在国外很受欢迎都。", "这首歌反而在国外也很受欢迎。"],
+        "answer": 1,
+        "explanation": "甚至 + extreme case (在国外) + 也 + predicate."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["他", "甚至", "连", "周末", "都", "要", "加班"],
+        "english": "He even has to work overtime at weekends.",
+        "pinyin": "Tā shènzhì lián zhōumò dōu yào jiābān.",
+        "explanation": "甚至 + 连 + extreme case + 都 + verb."
+      }
+    ]
+  },
+  {
+    "id": "g4-bing-negation",
+    "hskLevel": 4,
+    "title": "并 + negation: not at all (contrary to belief)",
+    "titleHanzi": "并不 / 并没有",
+    "pattern": "Subject + 并 + 不/没(有) + Verb/Adjective",
+    "summary": "Deny an assumption firmly: 汉语并不像你想的那么难.",
+    "explanation": [
+      "Putting **并** before **不** or **没(有)** strengthens the negation and signals that it **contradicts what someone assumes**: 'actually not, not really (as you think)'.",
+      "It typically answers or corrects an expectation: 大家都以为他是老师，其实他**并不是**. Compare **一点儿也不**, which stresses degree (not at all), while 并不 stresses 'contrary to belief'.",
+      "In this meaning 并 **only appears with negation**. (In formal writing 并 can also mean 'and', linking two verbs — a different use.)"
+    ],
+    "mistakes": [
+      "✗ 他并很聪明。 → ✓ 他并不聪明。 / 他其实很聪明。 This 并 only works with 不 or 没.",
+      "✗ 并我没有说过。 → ✓ 我并没有说过。 并 goes after the subject, right before the negation."
+    ],
+    "examples": [
+      { "hanzi": "汉语并不像你想的那么难。", "pinyin": "Hànyǔ bìng bú xiàng nǐ xiǎng de nàme nán.", "english": "Chinese really isn't as hard as you think." },
+      { "hanzi": "我并没有说过这句话。", "pinyin": "Wǒ bìng méiyǒu shuō guo zhè jù huà.", "english": "I never actually said that." },
+      { "hanzi": "大家都以为他是老师，其实他并不是。", "pinyin": "Dàjiā dōu yǐwéi tā shì lǎoshī, qíshí tā bìng bú shì.", "english": "Everyone thought he was a teacher, but in fact he isn't." },
+      { "hanzi": "贵的东西并不一定好。", "pinyin": "Guì de dōngxi bìng bù yídìng hǎo.", "english": "Expensive things aren't necessarily good." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "别担心，这个考试___不难。",
+        "english": "Don't worry, this exam really isn't hard.",
+        "options": ["很", "并", "才", "都"],
+        "answer": 1,
+        "explanation": "并不 contradicts the worry that the exam is hard."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["我并没有生气。", "这个问题并不复杂。", "他并很喜欢这份工作。"],
+        "answer": 2,
+        "explanation": "This 并 needs a negation: 他并不喜欢这份工作。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Expensive things aren't necessarily good.",
+        "optionScript": "hanzi",
+        "options": ["贵的东西不并一定好。", "并贵的东西不一定好。", "贵的东西并不一定好。", "贵的东西并一定不好。"],
+        "answer": 2,
+        "explanation": "并 comes right before the negation: 并不一定."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["我", "并", "没有", "说过", "这句话"],
+        "english": "I never actually said that.",
+        "pinyin": "Wǒ bìng méiyǒu shuō guo zhè jù huà.",
+        "explanation": "Subject + 并 + 没有 + verb."
+      }
+    ]
+  },
+  {
+    "id": "g4-you-agent",
+    "hskLevel": 4,
+    "title": "由: marking who is responsible",
+    "titleHanzi": "由",
+    "pattern": "Task + 由 + Person + Verb  ·  Whole + 由 + Parts + 组成",
+    "summary": "Say who does or is in charge of a task: 这次会议由王经理主持.",
+    "explanation": [
+      "**由** introduces the person or group **responsible** for an action: 这件事**由**我负责 = I'm in charge of this. The task comes first, 由 + person, then the verb.",
+      "Unlike 被, 由 has **no negative flavour** and is about assigning responsibility, often for things not yet done. The verb is usually bare (负责, 决定, 主持, 安排) or uses **来**: 晚饭由我来做.",
+      "**由…组成** means 'to be made up of': 我们队由十五个人组成. 由 is fairly formal and common in notices and announcements. Don't confuse it with **由于** (because)."
+    ],
+    "mistakes": [
+      "✗ 这件事被我负责。 → ✓ 这件事由我负责。 For who is in charge, use 由; 被 describes something that happened to the subject."
+    ],
+    "examples": [
+      { "hanzi": "这次会议由王经理主持。", "pinyin": "Zhè cì huìyì yóu Wáng jīnglǐ zhǔchí.", "english": "This meeting will be chaired by Manager Wang." },
+      { "hanzi": "晚饭由我来做，你休息吧。", "pinyin": "Wǎnfàn yóu wǒ lái zuò, nǐ xiūxi ba.", "english": "I'll take care of dinner — you have a rest." },
+      { "hanzi": "这个问题应该由大家一起决定。", "pinyin": "Zhège wèntí yīnggāi yóu dàjiā yìqǐ juédìng.", "english": "This issue should be decided by everyone together." },
+      { "hanzi": "我们的足球队由十五个人组成。", "pinyin": "Wǒmen de zúqiúduì yóu shíwǔ ge rén zǔchéng.", "english": "Our football team is made up of fifteen people.", "note": "由…组成." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这次活动___李老师负责。",
+        "english": "Teacher Li is in charge of this event.",
+        "options": ["被", "把", "由", "对"],
+        "answer": 2,
+        "explanation": "Assigning responsibility: task + 由 + person + 负责."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["明天的晚会由小王主持。", "这件事被我负责。", "这本书由三个部分组成。"],
+        "answer": 1,
+        "explanation": "Responsibility takes 由: 这件事由我负责。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "I'll take care of making dinner.",
+        "optionScript": "pinyin",
+        "options": ["Wǎnfàn yóu wǒ lái zuò.", "Wǎnfàn bèi wǒ lái zuò.", "Wǎnfàn yóuyú wǒ lái zuò.", "Wǒ yóu wǎnfàn lái zuò."],
+        "answer": 0,
+        "explanation": "Task (晚饭) + 由 (yóu) + person + 来 + verb."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["这次", "会议", "由", "王经理", "主持"],
+        "english": "This meeting will be chaired by Manager Wang.",
+        "pinyin": "Zhè cì huìyì yóu Wáng jīnglǐ zhǔchí.",
+        "explanation": "Task + 由 + person + verb."
+      }
+    ]
+  },
+  {
+    "id": "g4-que",
+    "hskLevel": 4,
+    "title": "却: but, yet (after the subject)",
+    "titleHanzi": "却",
+    "pattern": "Clause 1 + , Subject + 却 + Contrasting predicate",
+    "summary": "Mark a contrast inside the second clause: 我很想去，他却不想去.",
+    "explanation": [
+      "**却** means 'but, yet, however'. Unlike **但是/可是**, which start a clause, 却 is an **adverb**: it goes **after the subject** and before the verb.",
+      "It often adds a sense of surprise or contrary expectation: 已经很晚了，他**却**还在工作. It can combine with 但是 or 虽然: 虽然他住在北京，**却**很少去长城.",
+      "却 is a bit more written than 但是, but common in speech as well. Compare 反而, which says the result is the **opposite** of what was expected — a stronger idea."
+    ],
+    "mistakes": [
+      "✗ 我很想去，却他不想去。 → ✓ 我很想去，他却不想去。 却 comes after the subject.",
+      "✗ 我很喜欢他，他但是不喜欢我。 → ✓ 我很喜欢他，他却不喜欢我。 但是 must start the clause; 却 follows the subject."
+    ],
+    "examples": [
+      { "hanzi": "我很想去，他却不想去。", "pinyin": "Wǒ hěn xiǎng qù, tā què bù xiǎng qù.", "english": "I really want to go, but he doesn't." },
+      { "hanzi": "已经很晚了，他却还在工作。", "pinyin": "Yǐjīng hěn wǎn le, tā què hái zài gōngzuò.", "english": "It's already very late, yet he's still working." },
+      { "hanzi": "这件衣服很漂亮，价格却不贵。", "pinyin": "Zhè jiàn yīfu hěn piàoliang, jiàgé què bú guì.", "english": "This piece of clothing is beautiful, yet it isn't expensive." },
+      { "hanzi": "虽然他住在北京，却很少去长城。", "pinyin": "Suīrán tā zhù zài Běijīng, què hěn shǎo qù Chángchéng.", "english": "Although he lives in Beijing, he rarely goes to the Great Wall.", "note": "虽然…却." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "天气预报说有雨，今天___是个大晴天。",
+        "english": "The forecast said rain, but today it's bright and sunny.",
+        "options": ["但是", "而且", "却", "所以"],
+        "answer": 2,
+        "explanation": "After the subject (今天), the contrast word is the adverb 却; 但是 would have to come before 今天."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["我很喜欢他，却他不喜欢我。", "我很喜欢他，他却不喜欢我。", "我很喜欢他，他但是不喜欢我。"],
+        "answer": 1,
+        "explanation": "Subject + 却 + predicate: 他却不喜欢我。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "It's already very late, yet he's still working.",
+        "optionScript": "hanzi",
+        "options": ["已经很晚了，却他还在工作。", "已经很晚了，他还却在工作。", "已经很晚了，他却还工作在。", "已经很晚了，他却还在工作。"],
+        "answer": 3,
+        "explanation": "Subject + 却 + 还 + 在 + verb."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["这件", "衣服", "很", "漂亮", "价格", "却", "不", "贵"],
+        "english": "This piece of clothing is beautiful, yet it isn't expensive.",
+        "pinyin": "Zhè jiàn yīfu hěn piàoliang, jiàgé què bú guì.",
+        "explanation": "Second subject (价格) + 却 + contrasting predicate."
+      }
+    ]
+  },
+  {
+    "id": "g4-fouze",
+    "hskLevel": 4,
+    "title": "否则: otherwise",
+    "titleHanzi": "否则 / 不然",
+    "pattern": "Advice/Condition + , 否则 + (Subject) + (就/会) + Consequence",
+    "summary": "Warn what will happen if something isn't done: 快走吧，否则就赶不上火车了.",
+    "explanation": [
+      "**否则** means 'otherwise, or else'. The first clause gives advice or a necessary condition (often with 必须, 得, 要, 快); the second, introduced by 否则, says what bad thing happens if it isn't met.",
+      "The consequence often uses **就** or **会**: 否则**就**来不及了, 否则**会**感冒的. You can also say **否则的话**.",
+      "否则 is somewhat formal. In speech, **不然 / 要不然 / 要不** are more common. A useful frame: **除非 A，否则 B** = unless A, B."
+    ],
+    "mistakes": [
+      "✗ 否则你早点儿睡，明天会很累。 → ✓ 你早点儿睡，否则明天会很累。 否则 starts the second clause, the consequence."
+    ],
+    "examples": [
+      { "hanzi": "快走吧，否则就赶不上火车了。", "pinyin": "Kuài zǒu ba, fǒuzé jiù gǎn bu shàng huǒchē le.", "english": "Let's hurry, or we'll miss the train." },
+      { "hanzi": "你得多穿点儿，否则会感冒的。", "pinyin": "Nǐ děi duō chuān diǎnr, fǒuzé huì gǎnmào de.", "english": "You should wear more, otherwise you'll catch a cold." },
+      { "hanzi": "除非你道歉，否则我不会原谅你。", "pinyin": "Chúfēi nǐ dàoqiàn, fǒuzé wǒ bú huì yuánliàng nǐ.", "english": "Unless you apologise, I won't forgive you.", "note": "除非…否则." },
+      { "hanzi": "我们必须马上出发，要不然就来不及了。", "pinyin": "Wǒmen bìxū mǎshàng chūfā, yàobùrán jiù láibují le.", "english": "We have to leave right now, or it'll be too late.", "note": "要不然 = colloquial 否则." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "你要好好复习，___考试会不及格。",
+        "english": "You need to revise properly, otherwise you'll fail the exam.",
+        "options": ["所以", "因此", "否则", "而且"],
+        "answer": 2,
+        "explanation": "A warning about the consequence of not revising: 否则."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "快点儿吧，___就来不及了。",
+        "english": "Hurry up, or it'll be too late.",
+        "options": ["不然", "以便", "即使", "尽管"],
+        "answer": 0,
+        "explanation": "不然 = colloquial 'otherwise'."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["幸亏你提醒我，否则我就忘了。", "否则你早点儿睡，明天会很累。", "把门关好，否则猫会跑出去。"],
+        "answer": 1,
+        "explanation": "否则 introduces the consequence, in the second clause: 你早点儿睡，否则明天会很累。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["快", "走", "吧", "否则", "就", "赶不上", "火车", "了"],
+        "english": "Let's hurry, or we'll miss the train.",
+        "pinyin": "Kuài zǒu ba, fǒuzé jiù gǎn bu shàng huǒchē le.",
+        "explanation": "Advice first, then 否则 + consequence."
+      }
+    ]
   }
 ]

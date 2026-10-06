@@ -27,9 +27,9 @@ export interface CurriculumInfo {
 export const CURRICULA: CurriculumInfo[] = [
   {
     id: 'hsk3_2026',
-    name: 'HSK 3.0 (2026 syllabus)',
+    name: 'HSK 3.0 (2026 community draft)',
     short: 'HSK 3.0 · 2026',
-    description: 'Current standard: levels 1–6 plus the advanced 7–9 band (~10,000 words).',
+    description: 'Community draft syllabus for HSK 3.0: levels 1–6 plus the advanced 7–9 band (~10,000 words).',
     levels: [1, 2, 3, 4, 5, 6, 7],
   },
   {

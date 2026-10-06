@@ -40,11 +40,22 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
         <div className="min-w-0">
           <div className="mb-1 flex flex-wrap items-center gap-2">
             <HskBadge level={point.hskLevel} />
+            <span className="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-600 dark:bg-slate-700 dark:text-slate-300">
+              Unreviewed (AI draft)
+            </span>
             {pointProgress?.completed && (
               <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 text-[11px] font-semibold text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300">
                 <CircleCheck className="h-3 w-3" aria-hidden /> Completed
               </span>
             )}
+            <a
+              href={`https://github.com/Sibby/Vocubulary/issues/new?title=${encodeURIComponent(`[Grammar] ${point.id}: ${point.title}`)}&body=${encodeURIComponent(`### Grammar Point: ${point.id} - ${point.title}\n\n**Issue Description:**\n\n**Suggested Correction:**\n`)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-auto inline-flex items-center gap-1 text-xs text-slate-400 underline hover:text-rose-600 dark:hover:text-rose-400"
+            >
+              Report an issue
+            </a>
           </div>
           <h2 className="text-xl font-bold text-slate-900 dark:text-slate-100 sm:text-2xl">
             <RichText text={point.title} />
