@@ -1,5 +1,5 @@
 /* Offline support: app shell + hashed assets are cached on first use. */
-const CACHE = 'hanzi-flow-v1';
+const CACHE = 'adilingo-v1';
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './index.html', './icon.svg', './manifest.webmanifest'])));

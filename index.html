@@ -12,11 +12,11 @@
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <link rel="apple-touch-icon" href="./icon.svg" />
     <link rel="manifest" href="./manifest.webmanifest" />
-    <title>Hànzì Flow</title>
+    <title>Adilingo</title>
     <script>
       // Apply the saved theme before first paint to avoid a light/dark flash.
       try {
-        var t = localStorage.getItem('hanzi-flow:theme') || 'system';
+        var t = localStorage.getItem('adilingo:theme') || localStorage.getItem('hanzi-flow:theme') || 'system';
         var dark = t === 'dark' || (t === 'system' && matchMedia('(prefers-color-scheme: dark)').matches);
         document.documentElement.classList.toggle('dark', dark);
       } catch (e) {}
@@ -24,7 +24,7 @@
   </head>
   <body>
     <div id="root"></div>
-    <noscript>Hànzì Flow needs JavaScript.</noscript>
+    <noscript>Adilingo needs JavaScript.</noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-# Hànzì Flow
+# Adilingo
 
 A browser-only Mandarin trainer (React + Vite + TypeScript + Tailwind) that covers the **complete HSK syllabus**: every word of HSK 3.0 (2026 syllabus, levels 1–6 plus the 7–9 band), HSK 3.0 (2021) and HSK 2.0, plus grammar lessons and learning paths for each level. All progress stays on your device. The app can be installed as a PWA and works offline after the first visit.
 

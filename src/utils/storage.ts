@@ -5,7 +5,8 @@ import legacyIds from '../data/legacyIds.json';
 export const SCHEMA_VERSION = 3;
 const CURRICULUM_IDS: Curriculum[] = ['hsk3_2026', 'hsk3_2021', 'hsk2'];
 const THEMES: ThemePref[] = ['system', 'light', 'dark'];
-const KEY = 'hanzi-flow:state';
+const KEY = 'adilingo:state';
+const LEGACY_KEY = 'hanzi-flow:state';
 const TONES: ToneKey[] = ['1', '2', '3', '4', '0'];
 const PROMPTS: PromptKind[] = ['hanzi', 'pinyin', 'english', 'audio', 'tone'];
 
@@ -269,7 +270,7 @@ export function migrate(raw: unknown): UserState {
   let s: Raw = raw;
   let v = num(s.version, 0);
   if (v > SCHEMA_VERSION) {
-    throw new Error(`This backup was made by a newer version of Hànzì Flow (schema v${v}).`);
+    throw new Error(`This backup was made by a newer version of Adilingo (schema v${v}).`);
   }
   while (v < SCHEMA_VERSION) {
     v += 1;
@@ -287,8 +288,20 @@ function getIdbStore(): UseStore | null {
   if (idbStore) return idbStore;
   try {
     if (typeof indexedDB === 'undefined') return null;
-    idbStore = createStore('hanzi-flow', 'kv');
+    idbStore = createStore('adilingo', 'kv');
     return idbStore;
+  } catch {
+    return null;
+  }
+}
+
+let legacyIdbStore: UseStore | null = null;
+function getLegacyIdbStore(): UseStore | null {
+  if (legacyIdbStore) return legacyIdbStore;
+  try {
+    if (typeof indexedDB === 'undefined') return null;
+    legacyIdbStore = createStore('hanzi-flow', 'kv');
+    return legacyIdbStore;
   } catch {
     return null;
   }
@@ -296,7 +309,7 @@ function getIdbStore(): UseStore | null {
 
 function readLocal(): unknown {
   try {
-    const txt = localStorage.getItem(KEY);
+    const txt = localStorage.getItem(KEY) || localStorage.getItem(LEGACY_KEY);
     return txt ? JSON.parse(txt) : undefined;
   } catch {
     return undefined;
@@ -309,6 +322,12 @@ export async function loadState(): Promise<{ state: UserState; backend: StorageB
   if (store) {
     try {
       raw = await get(KEY, store);
+      if (raw === undefined) {
+        const legacyStore = getLegacyIdbStore();
+        if (legacyStore) {
+          raw = await get(LEGACY_KEY, legacyStore);
+        }
+      }
       backend = 'indexeddb';
     } catch {
       idbStore = null;
@@ -341,7 +360,7 @@ export async function loadState(): Promise<{ state: UserState; backend: StorageB
 
 // ---------- Cross-tab sync ----------
 
-const channel: BroadcastChannel | null = typeof BroadcastChannel !== 'undefined' ? new BroadcastChannel('hanzi-flow') : null;
+const channel: BroadcastChannel | null = typeof BroadcastChannel !== 'undefined' ? new BroadcastChannel('adilingo') : null;
 const TAB_ID = Math.random().toString(36).slice(2);
 
 /** Notifies other open tabs that the state changed so they reload instead of overwriting it. */
@@ -383,7 +402,7 @@ async function persist(state: UserState): Promise<StorageBackend> {
 // ---------- Backup ----------
 
 export interface BackupFile {
-  app: 'hanzi-flow';
+  app: 'adilingo' | 'hanzi-flow';
   exportedAt: string;
   schemaVersion: number;
   state: UserState;
@@ -393,7 +412,7 @@ export interface BackupFile {
 
 export function exportBackup(state: UserState, grammar?: unknown): void {
   const payload: BackupFile = {
-    app: 'hanzi-flow',
+    app: 'adilingo',
     exportedAt: new Date().toISOString(),
     schemaVersion: SCHEMA_VERSION,
     state,
@@ -403,7 +422,7 @@ export function exportBackup(state: UserState, grammar?: unknown): void {
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `hanzi-flow-backup-${new Date().toISOString().slice(0, 10)}.json`;
+  a.download = `adilingo-backup-${new Date().toISOString().slice(0, 10)}.json`;
   document.body.appendChild(a);
   a.click();
   a.remove();
@@ -418,7 +437,7 @@ export async function parseBackup(file: File): Promise<{ state: UserState; gramm
   } catch {
     throw new Error('The file is not valid JSON.');
   }
-  if (isObj(data) && data.app === 'hanzi-flow' && isObj(data.state)) return { state: migrate(data.state), grammar: data.grammar };
+  if (isObj(data) && (data.app === 'adilingo' || data.app === 'hanzi-flow') && isObj(data.state)) return { state: migrate(data.state), grammar: data.grammar };
   if (isObj(data) && ('progress' in data || 'settings' in data)) return { state: migrate(data) };
-  throw new Error('This does not look like a Hànzì Flow backup.');
+  throw new Error('This does not look like an Adilingo backup.');
 }

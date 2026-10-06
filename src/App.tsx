@@ -40,7 +40,7 @@ function useTheme(pref: Settings['theme']) {
     const apply = () => document.documentElement.classList.toggle('dark', pref === 'dark' || (pref === 'system' && media.matches));
     apply();
     try {
-      localStorage.setItem('hanzi-flow:theme', pref);
+      localStorage.setItem('adilingo:theme', pref);
     } catch {
       /* the inline pre-paint script just falls back to "system" */
     }
@@ -240,10 +240,10 @@ export default function App() {
     <div className="min-h-dvh lg:flex">
       {/* Desktop / large tablet landscape: persistent sidebar */}
       <aside className="sticky top-0 hidden h-dvh w-64 shrink-0 flex-col border-r border-slate-200 bg-white px-4 py-5 lg:flex xl:w-72 dark:border-slate-800 dark:bg-slate-900">
-        <button onClick={() => navigate('home')} className="mb-6 flex items-center gap-3 px-2" aria-label="Hànzì Flow home">
+        <button onClick={() => navigate('home')} className="mb-6 flex items-center gap-3 px-2" aria-label="Adilingo home">
           <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-rose-600 font-hanzi text-2xl font-bold text-white">汉</span>
           <span className="text-left">
-            <span className="block text-lg font-bold leading-tight tracking-tight">Hànzì Flow</span>
+            <span className="block text-lg font-bold leading-tight tracking-tight">Adilingo</span>
             <span className="block text-xs text-slate-500">{info.short}</span>
           </span>
         </button>
@@ -268,9 +268,9 @@ export default function App() {
         {/* Phones & tablets: top bar (with inline nav from md up) */}
         <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/90 pt-[env(safe-area-inset-top)] backdrop-blur lg:hidden dark:border-slate-800 dark:bg-slate-900/90">
           <div className="mx-auto flex max-w-6xl items-center gap-2 px-4 py-2.5 sm:px-6">
-            <button onClick={() => navigate('home')} className="flex items-center gap-2" aria-label="Hànzì Flow home">
+            <button onClick={() => navigate('home')} className="flex items-center gap-2" aria-label="Adilingo home">
               <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-rose-600 font-hanzi text-xl font-bold text-white">汉</span>
-              <span className="text-base font-bold tracking-tight md:hidden">Hànzì Flow</span>
+              <span className="text-base font-bold tracking-tight md:hidden">Adilingo</span>
             </button>
             <nav className="ml-2 hidden flex-1 gap-1 overflow-x-auto md:flex" aria-label="Main">
               {NAV.map((n) => navButton(n, 'top'))}
