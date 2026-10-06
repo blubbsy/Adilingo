@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 export const SPEECH_RATES = [0.5, 0.75, 1, 1.25];
 
@@ -40,12 +40,17 @@ export interface SpeechApi {
 // Global active references to prevent Chromium garbage collection during playback
 let currentAudio: HTMLAudioElement | null = null;
 let activeUtterance: SpeechSynthesisUtterance | null = null;
+let activeStreamGeneration = 0;
 
 function stopCurrentAudio() {
+  activeStreamGeneration++;
   if (currentAudio) {
     try {
+      currentAudio.onended = null;
+      currentAudio.onerror = null;
       currentAudio.pause();
       currentAudio.currentTime = 0;
+      currentAudio.src = '';
     } catch {
       /* ignore */
     }
@@ -65,6 +70,7 @@ function playNativeAudioStream(
   onError: () => void,
 ): boolean {
   stopCurrentAudio();
+  const generation = activeStreamGeneration;
   const trimmed = text.trim();
   if (!trimmed) {
     onError();
@@ -94,8 +100,9 @@ function playNativeAudioStream(
   let index = 0;
 
   function tryNext() {
+    if (generation !== activeStreamGeneration) return;
     if (index >= urls.length) {
-      currentAudio = null;
+      if (currentAudio) currentAudio = null;
       onError();
       return;
     }
@@ -113,16 +120,22 @@ function playNativeAudioStream(
 
       let ended = false;
       const handleEnd = () => {
+        if (generation !== activeStreamGeneration) return;
         if (!ended) {
           ended = true;
+          audio.onended = null;
+          audio.onerror = null;
           if (currentAudio === audio) currentAudio = null;
           onEnd();
         }
       };
 
       const handleFail = () => {
+        if (generation !== activeStreamGeneration) return;
         if (!ended) {
           ended = true;
+          audio.onended = null;
+          audio.onerror = null;
           if (currentAudio === audio) currentAudio = null;
           tryNext();
         }
@@ -133,9 +146,13 @@ function playNativeAudioStream(
 
       const playPromise = audio.play();
       if (playPromise && typeof playPromise.catch === 'function') {
-        playPromise.catch(() => handleFail());
+        playPromise.catch(() => {
+          if (generation !== activeStreamGeneration) return;
+          handleFail();
+        });
       }
     } catch {
+      if (generation !== activeStreamGeneration) return;
       tryNext();
     }
   }
@@ -194,7 +211,11 @@ export function useSpeech(defaultRate = 1): SpeechApi {
         /* ignore */
       }
     }
-    if (activeUtterance) activeUtterance = null;
+    if (activeUtterance) {
+      activeUtterance.onend = null;
+      activeUtterance.onerror = null;
+      activeUtterance = null;
+    }
     setSpeakingText(null);
   }, []);
 
@@ -214,7 +235,11 @@ export function useSpeech(defaultRate = 1): SpeechApi {
           /* ignore */
         }
       }
-      activeUtterance = null;
+      if (activeUtterance) {
+        activeUtterance.onend = null;
+        activeUtterance.onerror = null;
+        activeUtterance = null;
+      }
 
       const done = () => {
         if (speakingRef.current === text) {
@@ -246,12 +271,12 @@ export function useSpeech(defaultRate = 1): SpeechApi {
           };
 
           u.onend = () => {
-            activeUtterance = null;
+            if (activeUtterance === u) activeUtterance = null;
             done();
           };
 
           u.onerror = (e) => {
-            activeUtterance = null;
+            if (activeUtterance === u) activeUtterance = null;
             // If native synthesis errors out or was canceled by browser, fallback to native audio stream
             if (!hasSpoken && e.error !== 'canceled') {
               playNativeAudioStream(text, rate, done, done);
@@ -274,13 +299,16 @@ export function useSpeech(defaultRate = 1): SpeechApi {
     [voice, defaultRate],
   );
 
-  return {
-    supported,
-    voice,
-    voicesLoaded,
-    speaking: speakingText !== null,
-    speakingText,
-    speak,
-    cancel,
-  };
+  return useMemo<SpeechApi>(
+    () => ({
+      supported,
+      voice,
+      voicesLoaded,
+      speaking: speakingText !== null,
+      speakingText,
+      speak,
+      cancel,
+    }),
+    [supported, voice, voicesLoaded, speakingText, speak, cancel],
+  );
 }

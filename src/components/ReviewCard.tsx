@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent } from 'react';
-import { AlertTriangle, ArrowRight, Flag, Volume2 } from 'lucide-react';
-import type { CardProgress, DirectionProgress, Grade, SessionCard, Settings, VocabItem } from '../types';
-import { checkPinyin, numberedToMarked } from '../utils/pinyinHelper';
+import { AlertTriangle, ArrowRight, Flag, Volume2, X } from 'lucide-react';
+import type { CardProgress, DirectionProgress, Grade, SessionCard, Settings, ToneKey, VocabItem } from '../types';
+import { checkPinyin, markSyllable, numberedToMarked, parseNumbered, stripTones } from '../utils/pinyinHelper';
 import { GRADE_LABELS, nextInterval } from '../utils/srsEngine';
 import { levelLabel } from '../data/vocab';
 import type { SpeechApi } from '../utils/speech';
@@ -40,6 +40,235 @@ function pickDistractors(item: VocabItem, vocab: VocabItem[], n = 3): VocabItem[
   return shuffled.slice(0, n);
 }
 
+function hashString(s: string): number {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) {
+    h = (Math.imul(31, h) + s.charCodeAt(i)) | 0;
+  }
+  return Math.abs(h);
+}
+
+function stableShuffle<T>(arr: T[], seed: string): T[] {
+  const copy = [...arr];
+  let h = hashString(seed);
+  for (let i = copy.length - 1; i > 0; i--) {
+    h = (Math.imul(31, h) + 17) | 0;
+    const j = Math.abs(h) % (i + 1);
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+function generateWordToneOptions(syllables: { base: string; tone: ToneKey }[]): string[] {
+  const correct = syllables.map((s) => markSyllable(s.base, Number(s.tone) || 1)).join('');
+  const options = new Set<string>();
+  options.add(correct);
+
+  // Distractor 1: All tone 1 (or 2 if already 1)
+  const d1 = syllables.map((s) => markSyllable(s.base, s.tone === '1' ? 2 : 1)).join('');
+  options.add(d1);
+
+  // Distractor 2: All tone 4 (or 3 if already 4)
+  const d2 = syllables.map((s) => markSyllable(s.base, s.tone === '4' ? 3 : 4)).join('');
+  options.add(d2);
+
+  // Distractor 3: Shift tone of first syllable
+  const firstToneNum = Number(syllables[0]?.tone) || 1;
+  const shifted1 = (firstToneNum % 4) + 1;
+  const d3 = syllables.map((s, i) => (i === 0 ? markSyllable(s.base, shifted1) : markSyllable(s.base, Number(s.tone) || 1))).join('');
+  options.add(d3);
+
+  // Distractor 4: Shift tone of second syllable if multi-syllable
+  if (syllables.length > 1) {
+    const secondToneNum = Number(syllables[1]?.tone) || 1;
+    const shifted2 = (secondToneNum % 4) + 1;
+    const d4 = syllables.map((s, i) => (i === 1 ? markSyllable(s.base, shifted2) : markSyllable(s.base, Number(s.tone) || 1))).join('');
+    options.add(d4);
+  }
+
+  // Safety fallbacks if set size < 4
+  for (let t = 1; t <= 4 && options.size < 4; t++) {
+    options.add(syllables.map((s) => markSyllable(s.base, t)).join(''));
+  }
+
+  return Array.from(options).slice(0, 4);
+}
+
+function PinyinSuggestions({
+  item,
+  value,
+  onSelect,
+}: {
+  item: VocabItem;
+  value: string;
+  onSelect: (val: string) => void;
+}) {
+  const syllables = useMemo(() => {
+    return parseNumbered(item.pinyinNumbered).map((s) => ({
+      base: s.base,
+      tone: s.tone,
+    }));
+  }, [item.pinyinNumbered]);
+
+  // Generate 4 plausible tone pattern choices for this word
+  const wordToneOptions = useMemo(() => {
+    const rawOptions = generateWordToneOptions(syllables);
+    return stableShuffle(rawOptions, item.id);
+  }, [syllables, item.id]);
+
+  // Extract the current syllable being typed to show live autocomplete tone chips
+  const lastToken = value.trim().split(/\s+/).pop() ?? '';
+  const untonedToken = stripTones(lastToken).toLowerCase();
+  const hasVowels = /[aeiouü]/.test(untonedToken);
+
+  const activeSyllableTones = useMemo(() => {
+    if (!hasVowels || untonedToken.length < 1) return [];
+    const t1 = markSyllable(untonedToken, 1);
+    if (t1 === untonedToken) return [];
+    return [1, 2, 3, 4].map((t) => markSyllable(untonedToken, t));
+  }, [untonedToken, hasVowels]);
+
+  function handleSyllableSelect(toned: string) {
+    const parts = value.trim().split(/\s+/);
+    if (parts.length === 0 || parts[0] === '') {
+      onSelect(toned);
+      return;
+    }
+    parts[parts.length - 1] = toned;
+    const hasMore = parts.length < syllables.length;
+    onSelect(parts.join(' ') + (hasMore ? ' ' : ''));
+  }
+
+  return (
+    <div className="mt-3 space-y-2 text-left">
+      {/* 1. Live Syllable Autocomplete (shown while typing an unaccented syllable) */}
+      {activeSyllableTones.length > 0 && (
+        <div className="flex flex-wrap items-center gap-1.5 rounded-xl border border-rose-200 bg-rose-50/70 p-2 text-xs dark:border-rose-900/50 dark:bg-rose-950/30">
+          <span className="font-medium text-rose-800 dark:text-rose-200">
+            Tones for “{untonedToken}”:
+          </span>
+          {activeSyllableTones.map((toned, i) => (
+            <button
+              key={toned}
+              type="button"
+              onClick={() => handleSyllableSelect(toned)}
+              className="inline-flex items-center gap-0.5 rounded-lg border border-rose-300 bg-white px-2.5 py-1 text-sm font-semibold text-rose-900 shadow-sm transition hover:bg-rose-100 active:scale-95 dark:border-rose-700 dark:bg-slate-800 dark:text-rose-200"
+            >
+              <span>{toned}</span>
+              <span className="text-[10px] font-normal text-slate-400">({i + 1})</span>
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* 2. Word Tone Pattern Choices */}
+      <div>
+        <span className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">
+          Tone choices:
+        </span>
+        <div className="grid grid-cols-2 gap-1.5 sm:grid-cols-4">
+          {wordToneOptions.map((opt) => (
+            <button
+              key={opt}
+              type="button"
+              onClick={() => onSelect(opt)}
+              className={`flex items-center justify-center rounded-xl border px-3 py-1.5 text-sm font-semibold transition active:scale-95 ${
+                value === opt
+                  ? 'border-rose-500 bg-rose-50 text-rose-800 shadow-sm dark:bg-rose-950/50 dark:text-rose-200'
+                  : 'border-slate-200 bg-slate-50/80 text-slate-700 hover:border-slate-300 hover:bg-white dark:border-slate-700 dark:bg-slate-800/80 dark:text-slate-200 dark:hover:bg-slate-800'
+              }`}
+            >
+              <span>{opt}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* 3. Tone Accents Toolbar for manual letter insertion */}
+      <div className="flex flex-wrap items-center gap-1 text-[11px] text-slate-500 dark:text-slate-400">
+        <span className="text-slate-400 dark:text-slate-500">Accents:</span>
+        {['ā', 'á', 'ǎ', 'à', 'ē', 'é', 'ě', 'è', 'ī', 'í', 'ǐ', 'ì', 'ō', 'ó', 'ǒ', 'ò', 'ū', 'ú', 'ǔ', 'ù', 'ü'].map((char) => (
+          <button
+            key={char}
+            type="button"
+            onClick={() => onSelect(value + char)}
+            className="flex h-6 w-6 items-center justify-center rounded border border-slate-200 bg-white font-medium hover:bg-slate-100 active:scale-90 dark:border-slate-700 dark:bg-slate-800 dark:hover:bg-slate-700"
+          >
+            {char}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function computePinyinDiff(typed: string, target: string): Array<{ char: string; match: boolean }> {
+  const a = typed;
+  const b = target;
+  const m = a.length;
+  const n = b.length;
+  const dp: number[][] = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+
+  for (let i = 0; i < m; i++) {
+    for (let j = 0; j < n; j++) {
+      if (a[i].toLowerCase() === b[j].toLowerCase()) {
+        dp[i + 1][j + 1] = dp[i][j] + 1;
+      } else {
+        dp[i + 1][j + 1] = Math.max(dp[i + 1][j], dp[i][j + 1]);
+      }
+    }
+  }
+
+  const result: Array<{ char: string; match: boolean }> = [];
+  let i = m;
+  let j = n;
+  while (i > 0) {
+    if (j > 0 && a[i - 1].toLowerCase() === b[j - 1].toLowerCase()) {
+      result.unshift({ char: a[i - 1], match: true });
+      i--;
+      j--;
+    } else if (j > 0 && dp[i][j - 1] >= dp[i - 1][j]) {
+      j--;
+    } else {
+      result.unshift({ char: a[i - 1], match: false });
+      i--;
+    }
+  }
+  return result;
+}
+
+function PinyinDiffText({
+  typed,
+  target,
+  isCorrect,
+}: {
+  typed: string;
+  target: string;
+  isCorrect: boolean;
+}) {
+  if (isCorrect) {
+    return <span className="font-semibold text-emerald-600 dark:text-emerald-400">{typed}</span>;
+  }
+
+  const diff = computePinyinDiff(typed, target);
+  return (
+    <span>
+      {diff.map((part, idx) => (
+        <span
+          key={idx}
+          className={
+            part.match
+              ? 'text-slate-800 dark:text-slate-200'
+              : 'rounded bg-rose-100 px-0.5 font-bold text-rose-700 underline decoration-rose-500 dark:bg-rose-950/70 dark:text-rose-300'
+          }
+        >
+          {part.char}
+        </span>
+      ))}
+    </span>
+  );
+}
+
 export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }: Props) {
   const { item, direction, prompt } = card;
   const dirProgress: DirectionProgress | undefined = direction === 'recall' ? progress?.recall : progress?.recognition;
@@ -48,15 +277,22 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
   const [pinyinInput, setPinyinInput] = useState('');
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+  const [pinyinCheck, setPinyinCheck] = useState<ReturnType<typeof checkPinyin> | null>(null);
   const mountTime = useRef(Date.now());
   const inputRef = useRef<HTMLInputElement>(null);
+  const hasAutoPlayedRef = useRef<string | null>(null);
 
-  // Play audio automatically for listening drill
+  // Play audio automatically for listening drill once per card with cleanup
   useEffect(() => {
-    if (prompt === 'audio') {
+    const cardKey = `${item.id}_${direction}_${prompt}`;
+    if (prompt === 'audio' && hasAutoPlayedRef.current !== cardKey) {
+      hasAutoPlayedRef.current = cardKey;
       speech.speak(item.hanzi, settings.speechRate);
     }
-  }, [prompt, item.hanzi, settings.speechRate, speech]);
+    return () => {
+      speech.cancel();
+    };
+  }, [prompt, item.id, item.hanzi, direction, settings.speechRate, speech]);
 
   // Distractors & options for multiple-choice modes
   const options = useMemo(() => {
@@ -92,6 +328,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
     if (revealed) return;
     const check = checkPinyin(pinyinInput, item);
     const ok = check.correct;
+    setPinyinCheck(check);
     setIsCorrect(ok);
     setRevealed(true);
 
@@ -109,6 +346,10 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
 
   function handleRevealWithoutAnswer() {
     if (revealed) return;
+    if (prompt === 'pinyin') {
+      const check = checkPinyin(pinyinInput, item);
+      setPinyinCheck(check);
+    }
     setIsCorrect(false);
     setRevealed(true);
     if (settings.soundEffects) playError();
@@ -269,30 +510,99 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
           </div>
         )}
 
-        {/* Pinyin Typing Input */}
+        {/* Pinyin Typing Input & Autocomplete */}
         {prompt === 'pinyin' && !revealed && (
-          <form onSubmit={handlePinyinSubmit} className="mt-4 flex gap-2">
-            <input
-              ref={inputRef}
-              type="text"
-              autoFocus
-              value={pinyinInput}
-              onChange={(e) => handlePinyinInputChange(e.target.value)}
-              placeholder="e.g. ni3hao3"
-              className="w-full rounded-2xl border-2 border-slate-300 px-4 py-3 text-lg font-medium outline-none focus:border-rose-500 dark:border-slate-600 dark:bg-slate-800"
-            />
-            <button
-              type="submit"
-              className="rounded-2xl bg-slate-900 px-6 font-semibold text-white hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-white"
-            >
-              Check
-            </button>
-          </form>
+          <div className="mt-4">
+            <form onSubmit={handlePinyinSubmit} className="flex gap-2">
+              <input
+                ref={inputRef}
+                type="text"
+                autoFocus
+                value={pinyinInput}
+                onChange={(e) => handlePinyinInputChange(e.target.value)}
+                placeholder="Type pinyin or tone numbers, e.g. ni3 hao3"
+                className="w-full rounded-2xl border-2 border-slate-300 px-4 py-3 text-lg font-medium outline-none focus:border-rose-500 dark:border-slate-600 dark:bg-slate-800"
+              />
+              <button
+                type="submit"
+                className="rounded-2xl bg-slate-900 px-6 font-semibold text-white hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-white"
+              >
+                Check
+              </button>
+            </form>
+            <PinyinSuggestions item={item} value={pinyinInput} onSelect={setPinyinInput} />
+          </div>
         )}
 
         {/* Revealed Details Breakdown */}
         {revealed && (
           <div className="mt-6 border-t border-slate-100 pt-6 dark:border-slate-700/60 animate-fade-in">
+            {prompt === 'pinyin' && (
+              <div className="mb-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-700 dark:bg-slate-800">
+                <div className="flex items-center justify-between pb-2 mb-3 border-b border-slate-100 dark:border-slate-700/60">
+                  <span className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+                    Pinyin Check & Diff
+                  </span>
+                  <span
+                    className={`inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold ${
+                      isCorrect
+                        ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300'
+                        : 'bg-rose-100 text-rose-800 dark:bg-rose-950/60 dark:text-rose-300'
+                    }`}
+                  >
+                    {isCorrect ? '✓ Correct' : '✗ Needs Practice'}
+                  </span>
+                </div>
+
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                  <div className="rounded-xl bg-slate-50 p-3 dark:bg-slate-900/60">
+                    <div className="text-xs font-medium text-slate-500 dark:text-slate-400">What you typed:</div>
+                    <div className="mt-1 font-mono text-xl">
+                      {pinyinInput.trim() ? (
+                        <PinyinDiffText typed={numberedToMarked(pinyinInput.trim())} target={item.pinyin} isCorrect={Boolean(isCorrect)} />
+                      ) : (
+                        <span className="font-sans text-sm italic text-slate-400">(no answer entered)</span>
+                      )}
+                    </div>
+                  </div>
+
+                  <div className="rounded-xl bg-slate-50 p-3 dark:bg-slate-900/60">
+                    <div className="text-xs font-medium text-slate-500 dark:text-slate-400">Target pinyin:</div>
+                    <div className="mt-1 font-mono text-xl font-bold">
+                      <FreePinyin text={item.pinyin} color={settings.colorTones} />
+                    </div>
+                  </div>
+                </div>
+
+                {pinyinCheck && !isCorrect && (
+                  <div className="mt-3.5 space-y-1.5 border-t border-slate-100 pt-2.5 text-xs dark:border-slate-700/50">
+                    {pinyinCheck.tonesWrong && (
+                      <p className="flex items-start gap-1.5 font-medium text-amber-700 dark:text-amber-300">
+                        <AlertTriangle className="mt-0.5 h-3.5 w-3.5 shrink-0" />
+                        <span>Letters are correct, but tone marks are wrong. Check the tones above!</span>
+                      </p>
+                    )}
+                    {pinyinCheck.umlautMissing && (
+                      <p className="flex items-start gap-1.5 font-medium text-amber-700 dark:text-amber-300">
+                        <AlertTriangle className="mt-0.5 h-3.5 w-3.5 shrink-0" />
+                        <span>Needs <strong>ü</strong> (type <em>v</em> or <em>u:</em>) — <strong>u</strong> and <strong>ü</strong> are distinct sounds.</span>
+                      </p>
+                    )}
+                    {!pinyinCheck.tonesWrong && !pinyinCheck.umlautMissing && pinyinInput.trim() && (
+                      <p className="flex items-start gap-1.5 font-medium text-rose-600 dark:text-rose-400">
+                        <X className="mt-0.5 h-3.5 w-3.5 shrink-0" />
+                        <span>Pronunciation spelling differs from the expected pinyin.</span>
+                      </p>
+                    )}
+                  </div>
+                )}
+                {pinyinCheck?.variant && (
+                  <p className="mt-2 text-xs text-sky-700 dark:text-sky-300">
+                    Accepted variant pronunciation (standard dictionary citation is {item.pinyin}).
+                  </p>
+                )}
+              </div>
+            )}
             <div className="rounded-2xl bg-slate-50 p-4 dark:bg-slate-800/50">
               <div className="flex flex-wrap items-baseline gap-3">
                 <span className="font-hanzi text-3xl font-bold text-slate-900 dark:text-slate-100">
@@ -371,14 +681,14 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
           </div>
         )}
 
-        {!revealed && prompt !== 'pinyin' && (
+        {!revealed && (
           <div className="mt-6 text-center">
             <button
               type="button"
               onClick={handleRevealWithoutAnswer}
               className="text-xs font-medium text-slate-400 hover:text-slate-600 dark:hover:text-slate-300"
             >
-              Don't know? Reveal answer (Space)
+              Don't know? Reveal answer {prompt !== 'pinyin' ? '(Space)' : ''}
             </button>
           </div>
         )}
