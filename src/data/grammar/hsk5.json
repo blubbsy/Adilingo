@@ -1,0 +1,853 @@
+[
+  {
+    "id": "g5-yi-wei",
+    "hskLevel": 5,
+    "title": "以…为…: take A as B",
+    "titleHanzi": "以…为…",
+    "pattern": "以 + A + 为 + B  ·  以 + A + 为主  ·  以 + A + 为例",
+    "summary": "A compact, formal frame meaning 'take A as B / regard A as B': 以学生为中心, 以农业为主, 以我为例.",
+    "explanation": [
+      "**以 A 为 B (yǐ A wéi B)** means 'take A as B', 'treat A as B'. It comes from classical Chinese and is very common in written and formal Chinese: **以学生为中心** (student-centred), **以他为榜样** (take him as a role model).",
+      "Note the pronunciation: in this frame **为 is wéi** (second tone), not wèi. It works like 'to be / to serve as', so it can't be replaced by 是 or 做: ✗ 以学生是中心.",
+      "Three fixed chunks are especially useful: **以…为主** ('mainly…, … is the main part'), **以…为例** ('take … as an example') and **以…为目的 / 为目标** ('with … as the goal'). In casual speech you would more often say 主要是…, 比如…, or 把 A 当作 B."
+    ],
+    "mistakes": [
+      "✗ 这个城市以旅游业是主。 → ✓ 这个城市以旅游业为主。 In this frame 以 always pairs with 为 (wéi), not 是.",
+      "✗ 以小王为例子，他每天跑步。 → ✓ 以小王为例，他每天跑步。 The fixed chunk is 以…为例, with the single-syllable 例."
+    ],
+    "examples": [
+      {
+        "hanzi": "这家公司以年轻人为主要客户。",
+        "pinyin": "Zhè jiā gōngsī yǐ niánqīngrén wéi zhǔyào kèhù.",
+        "english": "This company takes young people as its main customers."
+      },
+      {
+        "hanzi": "这个地区的经济以农业为主。",
+        "pinyin": "Zhège dìqū de jīngjì yǐ nóngyè wéi zhǔ.",
+        "english": "This region's economy is mainly agricultural.",
+        "note": "以…为主 = 'mainly …'."
+      },
+      {
+        "hanzi": "他们以这本书为教材。",
+        "pinyin": "Tāmen yǐ zhè běn shū wéi jiàocái.",
+        "english": "They use this book as their textbook."
+      },
+      {
+        "hanzi": "以我为例，我每天只睡六个小时。",
+        "pinyin": "Yǐ wǒ wéi lì, wǒ měi tiān zhǐ shuì liù gè xiǎoshí.",
+        "english": "Take me as an example: I only sleep six hours a day.",
+        "note": "以…为例 = 'take … as an example'."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这家餐厅的菜以四川菜___主。",
+        "english": "This restaurant's dishes are mainly Sichuan food.",
+        "options": ["是", "做", "为", "对"],
+        "answer": 2,
+        "explanation": "The fixed frame is 以…为主. 是 and 做 cannot replace 为 (wéi) here."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___小王为例，他每天坚持跑步。",
+        "english": "Take Xiao Wang as an example: he keeps running every day.",
+        "options": ["把", "以", "被", "让"],
+        "answer": 1,
+        "explanation": "以…为例 = 'take … as an example'. 把 would need 当作: 把小王当作例子."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Our school is student-centred.",
+        "optionScript": "hanzi",
+        "options": ["我们学校以学生是中心。", "我们学校为学生以中心。", "我们学校把学生为中心。", "我们学校以学生为中心。"],
+        "answer": 3,
+        "explanation": "以 + A + 为 + B: 以学生为中心. The order is fixed: 以 first, then 为."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["他以老师为榜样。", "这本词典以初学者为对象。", "这次活动以交朋友是目的。", "以北京为例，冬天很干燥。"],
+        "answer": 2,
+        "explanation": "It should be 以交朋友为目的. 以 pairs with 为, never with 是."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["这个城市", "的经济", "以", "旅游业", "为主"],
+        "english": "This city's economy is mainly based on tourism.",
+        "pinyin": "Zhège chéngshì de jīngjì yǐ lǚyóuyè wéi zhǔ.",
+        "explanation": "Topic (这个城市的经济) + 以 + A (旅游业) + 为主."
+      }
+    ]
+  },
+  {
+    "id": "g5-zai-xia-shang-zhong",
+    "hskLevel": 5,
+    "title": "在…下 / 在…上 / 在…中: condition, aspect, process",
+    "titleHanzi": "在…下 · 在…上 · 在…中",
+    "pattern": "在 + (Someone 的) + Help/Support + 下  ·  在 + Topic + 上  ·  在 + Process + 中",
+    "summary": "Three abstract frames: 在老师的帮助下 (under a condition), 在学习上 (in an aspect), 在工作中 (in the course of a process).",
+    "explanation": [
+      "Besides physical location, 在…下/上/中 build **abstract** phrases that usually open a sentence. Which localiser you pick depends on the noun, so it's best to learn them as chunks.",
+      "**在…下 (xià)** = 'under (a condition / someone's influence)'. It goes with nouns like 帮助, 支持, 领导, 影响, 情况, 条件: **在大家的帮助下** (with everyone's help), **在这种情况下** (under these circumstances).",
+      "**在…上 (shang)** = 'in terms of, as regards'. It goes with areas and issues: **在学习上, 在生活上, 在这个问题上**. It is close to **在…方面** — but don't combine them (✗ 在学习方面上).",
+      "**在…中 (zhōng)** = 'in the course of, during, among'. It goes with processes and groups: **在工作中, 在比赛中, 在学生中**. These frames belong to neutral to written style but are also common in careful speech."
+    ],
+    "mistakes": [
+      "✗ 在老师的帮助中，我通过了考试。 → ✓ 在老师的帮助下，我通过了考试。 Help, support and influence take 在…下.",
+      "✗ 他在学习方面上很努力。 → ✓ 他在学习上很努力。/ 他在学习方面很努力。 Use either 上 or 方面, not both."
+    ],
+    "examples": [
+      {
+        "hanzi": "在老师的帮助下，我的汉语进步得很快。",
+        "pinyin": "Zài lǎoshī de bāngzhù xià, wǒ de Hànyǔ jìnbù de hěn kuài.",
+        "english": "With the teacher's help, my Chinese improved quickly."
+      },
+      {
+        "hanzi": "在这个问题上，我们的看法不一样。",
+        "pinyin": "Zài zhège wèntí shang, wǒmen de kànfǎ bù yíyàng.",
+        "english": "On this issue, our views differ."
+      },
+      {
+        "hanzi": "在工作中，他学到了很多东西。",
+        "pinyin": "Zài gōngzuò zhōng, tā xuédàole hěn duō dōngxi.",
+        "english": "He learned a lot in the course of his work."
+      },
+      {
+        "hanzi": "在这种情况下，我们只能先等一等。",
+        "pinyin": "Zài zhè zhǒng qíngkuàng xià, wǒmen zhǐ néng xiān děng yi děng.",
+        "english": "Under these circumstances, we can only wait for now.",
+        "note": "在…情况下 is a very common fixed chunk."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "在父母的支持___，他开了一家小公司。",
+        "english": "With his parents' support, he opened a small company.",
+        "options": ["上", "中", "下", "里"],
+        "answer": 2,
+        "explanation": "支持 (support) is a condition, so it takes 在…下."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "在这个问题___，我同意你的看法。",
+        "english": "On this issue, I agree with your view.",
+        "options": ["下", "上", "中", "前"],
+        "answer": 1,
+        "explanation": "'As regards an issue' is 在…上: 在这个问题上."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "在旅行___，我认识了很多新朋友。",
+        "english": "During the trip I got to know many new friends.",
+        "options": ["中", "下", "上", "以下"],
+        "answer": 0,
+        "explanation": "A process or activity you are in the middle of takes 在…中."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["在大家的努力中，问题解决了。", "在大家的努力下，问题解决了。", "在大家的努力上，问题解决了。", "在大家的努力方面上，问题解决了。"],
+        "answer": 1,
+        "explanation": "Effort and help that make something possible take 在…下."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["在", "老师的", "帮助下", "我", "通过了", "考试"],
+        "alternatives": [
+          ["我", "在", "老师的", "帮助下", "通过了", "考试"]
+        ],
+        "english": "With the teacher's help, I passed the exam.",
+        "pinyin": "Zài lǎoshī de bāngzhù xià, wǒ tōngguòle kǎoshì.",
+        "explanation": "在…下 usually opens the sentence, but it may also follow the subject."
+      }
+    ]
+  },
+  {
+    "id": "g5-yidan-jiu",
+    "hskLevel": 5,
+    "title": "一旦…就: once (something happens)",
+    "titleHanzi": "一旦…就",
+    "pattern": "一旦 + Event + ，(Subject) + 就 + Result  ·  Subject + 一旦 + Verb + ，就 + Result",
+    "summary": "Say that once something happens, a significant result follows: 习惯一旦养成，就很难改变.",
+    "explanation": [
+      "**一旦 (yídàn)** means 'once, in case, the moment that'. It introduces an event — often one that hasn't happened yet — and the second clause, usually with **就**, states a serious or lasting consequence: **一旦失去信任，就很难找回来**.",
+      "一旦 can come before or after the subject: **一旦他决定了…** or **他一旦决定了…**. The second clause uses 就, never 才.",
+      "Compared with **如果 / 要是** (plain 'if'), 一旦 stresses a turning point and its consequences, so it suits warnings, rules and important changes. Compared with **只要** ('as long as'), 一旦 is about what *follows* an event, not about a minimum condition. It is neutral-to-written but common in speech too."
+    ],
+    "mistakes": [
+      "✗ 一旦明天天气好，我们才去爬山。 → ✓ 如果明天天气好，我们就去爬山。 一旦 pairs with 就, not 才; and for a simple plan, 如果 is more natural than the weighty 一旦.",
+      "✗ 只要失去信任，就很难再找回来。 → ✓ 一旦失去信任，就很难再找回来。 只要 means 'as long as' (a minimum condition); for 'once X happens, a serious result follows' use 一旦."
+    ],
+    "examples": [
+      {
+        "hanzi": "一旦下雨，这条路就很难走。",
+        "pinyin": "Yídàn xià yǔ, zhè tiáo lù jiù hěn nán zǒu.",
+        "english": "Once it rains, this road becomes very hard to walk on."
+      },
+      {
+        "hanzi": "习惯一旦养成，就很难改变。",
+        "pinyin": "Xíguàn yídàn yǎngchéng, jiù hěn nán gǎibiàn.",
+        "english": "Once a habit is formed, it is very hard to change."
+      },
+      {
+        "hanzi": "一旦发现问题，请马上告诉我。",
+        "pinyin": "Yídàn fāxiàn wèntí, qǐng mǎshàng gàosu wǒ.",
+        "english": "If you discover any problem, please tell me right away."
+      },
+      {
+        "hanzi": "他一旦决定了，就不会再改。",
+        "pinyin": "Tā yídàn juédìng le, jiù bú huì zài gǎi.",
+        "english": "Once he has made up his mind, he won't change it again.",
+        "note": "一旦 can follow the subject."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这种病___发现得晚，就很难治好。",
+        "english": "If this disease is discovered late, it's very hard to cure.",
+        "options": ["虽然", "不管", "一旦", "尽管"],
+        "answer": 2,
+        "explanation": "一旦…就 links an event to its serious consequence. 虽然 and 尽管 mean 'although'; 不管 needs a question form."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "密码一旦忘记了，___很麻烦。",
+        "english": "Once you forget the password, it's a real hassle.",
+        "options": ["才", "就", "也", "还"],
+        "answer": 1,
+        "explanation": "一旦 is followed by 就 in the result clause."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Once you have promised someone, you must keep your word.",
+        "optionScript": "hanzi",
+        "options": ["一旦答应了别人，就一定要做到。", "一旦答应了别人，才一定要做到。", "答应了一旦别人，就一定要做到。", "虽然答应了别人，就一定要做到。"],
+        "answer": 0,
+        "explanation": "一旦 + event, 就 + consequence. 一旦 goes before the verb phrase, not inside it."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["一旦出了事，谁负责？", "他一旦生气，就谁也不理。", "一旦明天天气好，我们才去爬山。", "一旦失去信任，就很难再找回来。"],
+        "answer": 2,
+        "explanation": "一旦 never pairs with 才. For a simple plan, say 如果明天天气好，我们就去爬山。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["习惯", "一旦", "养成", "就", "很难", "改变"],
+        "alternatives": [
+          ["一旦", "习惯", "养成", "就", "很难", "改变"]
+        ],
+        "english": "Once a habit is formed, it is very hard to change.",
+        "pinyin": "Xíguàn yídàn yǎngchéng, jiù hěn nán gǎibiàn.",
+        "explanation": "Subject (习惯) + 一旦 + verb, 就 + result. 一旦 may also open the sentence."
+      }
+    ]
+  },
+  {
+    "id": "g5-jiaru-yaobushi",
+    "hskLevel": 5,
+    "title": "假如 / 要不是: if, and if it weren't for",
+    "titleHanzi": "假如 · 要不是",
+    "pattern": "假如 + Condition + ，(Subject) + 就 + Result  ·  要不是 + Real fact + ，(Subject) + 早就 / 就 + Imagined result",
+    "summary": "假如 is a slightly literary 'if'; 要不是 means 'if it weren't for (something that really happened)'.",
+    "explanation": [
+      "**假如 (jiǎrú)** means 'if, supposing'. It is a more written and imaginative synonym of **如果**; in casual speech people say **要是**. It suits hypotheses and daydreams: **假如我有一百万…**. The result clause often has **就** or **会**.",
+      "**要不是 (yàobúshì)** means 'if it weren't for / if not for'. Unlike 假如, it introduces something that **really happened**, and the second clause describes what would have happened *otherwise*: **要不是你提醒我，我早就忘了** (you did remind me, so I didn't forget). Typical partners are **早就, 就, 肯定, 一定** and often a final 了.",
+      "要不是 is mainly spoken. Its written equivalent is **如果不是**. Because it looks back at real facts, it doesn't fit plans for the future: use 如果 for those."
+    ],
+    "mistakes": [
+      "✗ 要不是明天下雨，我们就去爬山。 → ✓ 如果明天不下雨，我们就去爬山。 要不是 refers to a real fact, not an uncertain future event.",
+      "✗ 要不是你帮我，我就成功了。 → ✓ 要不是你帮我，我就失败了。 The 要不是 clause is what actually happened; the second clause is the opposite outcome that was avoided."
+    ],
+    "examples": [
+      {
+        "hanzi": "假如我有一百万，我就去环游世界。",
+        "pinyin": "Jiǎrú wǒ yǒu yìbǎi wàn, wǒ jiù qù huányóu shìjiè.",
+        "english": "If I had a million, I would travel around the world."
+      },
+      {
+        "hanzi": "假如明天下雨，比赛就改到下周。",
+        "pinyin": "Jiǎrú míngtiān xià yǔ, bǐsài jiù gǎi dào xià zhōu.",
+        "english": "If it rains tomorrow, the match will be moved to next week."
+      },
+      {
+        "hanzi": "要不是你提醒我，我早就忘了。",
+        "pinyin": "Yàobúshì nǐ tíxǐng wǒ, wǒ zǎo jiù wàng le.",
+        "english": "If you hadn't reminded me, I would have forgotten long ago.",
+        "note": "You did remind me — 要不是 points to a real fact."
+      },
+      {
+        "hanzi": "要不是路上堵车，我们八点就到了。",
+        "pinyin": "Yàobúshì lùshang dǔchē, wǒmen bā diǎn jiù dào le.",
+        "english": "If it weren't for the traffic jam, we'd have arrived by eight."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___你及时送我去医院，我的病就严重了。",
+        "english": "If you hadn't taken me to hospital in time, my illness would have become serious.",
+        "options": ["假如", "要不是", "即使", "只要"],
+        "answer": 1,
+        "explanation": "You really did take me — a real fact, with the avoided outcome after it. That is 要不是."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___你是我，你会怎么做？",
+        "english": "If you were me, what would you do?",
+        "options": ["要不是", "除非", "假如", "哪怕"],
+        "answer": 2,
+        "explanation": "A pure hypothesis takes 假如 (or 如果 / 要是). 要不是 needs a real fact."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["要不是明天下雨，我们就去爬山。", "要不是他帮忙，我根本做不完。", "假如要不是他，我就迟到了。"],
+        "answer": 1,
+        "explanation": "He did help, so I could finish: 要不是 + real fact. Option 1 uses 要不是 for the future; option 3 stacks two 'if' words."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "If it weren't for the traffic jam, we would have arrived long ago.",
+        "optionScript": "hanzi",
+        "options": ["假如堵车，我们早就到了。", "要不是堵车，我们就没到。", "除非堵车，我们早就到了。", "要不是堵车，我们早就到了。"],
+        "answer": 3,
+        "explanation": "要不是 + real fact (堵车), then the outcome that didn't happen (早就到了)."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["假如", "你", "是", "我", "你", "会", "怎么做"],
+        "english": "If you were me, what would you do?",
+        "pinyin": "Jiǎrú nǐ shì wǒ, nǐ huì zěnme zuò?",
+        "explanation": "假如 + condition (你是我), then the result clause (你会怎么做)."
+      }
+    ]
+  },
+  {
+    "id": "g5-chufei",
+    "hskLevel": 5,
+    "title": "除非: unless, only if",
+    "titleHanzi": "除非…否则 · 除非…才",
+    "pattern": "除非 + A + ，否则 / 不然 + (不) + B  ·  除非 + A + ，(Subject) + 才 + B  ·  要 + B + ，除非 + A",
+    "summary": "State the one condition that must be met: 除非你亲自去，否则他不会来 / 除非下大雨，比赛才会取消.",
+    "explanation": [
+      "**除非 (chúfēi)** marks the **only** condition under which something happens: 'unless' or 'only if'. It has two main patterns.",
+      "**除非 A，否则 / 不然 B** = 'unless A, (otherwise) B': **除非你亲自去请他，否则他不会来**. **否则** is more written; **不然** is more spoken. **除非 A，才 B** = 'only if A will B': **除非下大雨，比赛才会取消** — this is a stronger version of **只有…才**.",
+      "A third, conversational pattern puts the condition last: **要想通过考试，除非每天复习** ('if you want to pass, you'll have to…'). Don't mix 除非 with **就**: 只要…就 means 'as long as', which is a different logic."
+    ],
+    "mistakes": [
+      "✗ 除非你努力，你就能成功。 → ✓ 除非你努力，否则不能成功。 除非 sets a necessary condition and never pairs with 就; 'as long as … then' is 只要…就.",
+      "✗ 除非你去请他，否则他会来。 → ✓ 除非你去请他，否则他不会来。 The 否则 clause describes what happens if the condition is NOT met."
+    ],
+    "examples": [
+      {
+        "hanzi": "除非你亲自去请他，否则他不会来。",
+        "pinyin": "Chúfēi nǐ qīnzì qù qǐng tā, fǒuzé tā bú huì lái.",
+        "english": "Unless you go and invite him in person, he won't come."
+      },
+      {
+        "hanzi": "除非下大雨，比赛才会取消。",
+        "pinyin": "Chúfēi xià dà yǔ, bǐsài cái huì qǔxiāo.",
+        "english": "Only heavy rain will get the match cancelled."
+      },
+      {
+        "hanzi": "除非有特殊情况，不然大家都要参加。",
+        "pinyin": "Chúfēi yǒu tèshū qíngkuàng, bùrán dàjiā dōu yào cānjiā.",
+        "english": "Unless there are special circumstances, everyone must attend.",
+        "note": "不然 is the spoken counterpart of 否则."
+      },
+      {
+        "hanzi": "要想通过考试，除非每天认真复习。",
+        "pinyin": "Yào xiǎng tōngguò kǎoshì, chúfēi měi tiān rènzhēn fùxí.",
+        "english": "If you want to pass the exam, you'll have to review carefully every day."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "除非你答应我的条件，___我不会帮你。",
+        "english": "Unless you agree to my conditions, I won't help you.",
+        "options": ["就", "否则", "而且", "所以"],
+        "answer": 1,
+        "explanation": "除非 A，否则 (not) B. 就 belongs with 只要, not 除非."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___老板同意，我们才能放假。",
+        "english": "Only if the boss agrees can we take time off.",
+        "options": ["只要", "一旦", "假如", "除非"],
+        "answer": 3,
+        "explanation": "才 needs a necessary condition: 除非…才 (or 只有…才). 只要, 一旦 and 假如 go with 就."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Unless it rains heavily, the match won't be cancelled.",
+        "optionScript": "pinyin",
+        "options": ["Chúfēi xià dà yǔ, fǒuzé bǐsài bú huì qǔxiāo.", "Chúfēi xià dà yǔ, bǐsài jiù bú huì qǔxiāo.", "Zhǐyào xià dà yǔ, fǒuzé bǐsài bú huì qǔxiāo."],
+        "answer": 0,
+        "explanation": "除非 A，否则 not B. 除非 does not pair with 就, and 只要 does not pair with 否则."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["除非你去请他，他才会来。", "除非你去请他，否则他不会来。", "除非你去请他，他就会来。", "他不会来，除非你去请他。"],
+        "answer": 2,
+        "explanation": "除非 does not combine with 就. Use 才 or 否则, or say 只要你去请他，他就会来."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["除非", "你", "亲自", "去", "否则", "他", "不会", "来"],
+        "english": "Unless you go in person, he won't come.",
+        "pinyin": "Chúfēi nǐ qīnzì qù, fǒuzé tā bú huì lái.",
+        "explanation": "除非 + condition, 否则 + negative outcome."
+      }
+    ]
+  },
+  {
+    "id": "g5-napa-jiushi-ye",
+    "hskLevel": 5,
+    "title": "哪怕 / 就是…也: even if",
+    "titleHanzi": "哪怕…也 · 就是…也",
+    "pattern": "哪怕 + Condition + ，(Subject) + 也 + Result  ·  (Subject) + 就是 + Condition + ，也 + Result",
+    "summary": "Say the result holds even in an extreme case: 哪怕只有一点儿希望，我们也不能放弃 / 你就是不说，我也知道.",
+    "explanation": [
+      "**哪怕 (nǎpà)** means 'even if, even though'. It introduces an extreme or unlikely case and the main clause says the result is the same anyway. The partner word is **也** (sometimes 都): **哪怕下雨，我们也去**.",
+      "**就是 (jiùshì)…也** means the same thing but sounds more colloquial. It often comes after the subject: **你就是不说，我也知道**. The neutral, more written synonym is **即使…也**.",
+      "Don't confuse these with **虽然…但是**: 虽然 concedes a real fact and pairs with 但是 / 可是, while 哪怕 / 就是 / 即使 stress 'even in this case' and pair with **也**. 哪怕 is very often combined with 再: **哪怕再忙**."
+    ],
+    "mistakes": [
+      "✗ 哪怕下雨，我们就去。 → ✓ 哪怕下雨，我们也去。 哪怕 and 就是 pair with 也, not 就.",
+      "✗ 哪怕很累，但是他还在工作。 → ✓ 虽然很累，但是他还在工作。/ 哪怕很累，他也在工作。 哪怕 does not take 但是; that is the 虽然 pattern."
+    ],
+    "examples": [
+      {
+        "hanzi": "哪怕再忙，他每天也会给妈妈打电话。",
+        "pinyin": "Nǎpà zài máng, tā měi tiān yě huì gěi māma dǎ diànhuà.",
+        "english": "However busy he is, he calls his mum every day."
+      },
+      {
+        "hanzi": "哪怕只有一点儿希望，我们也不能放弃。",
+        "pinyin": "Nǎpà zhǐ yǒu yìdiǎnr xīwàng, wǒmen yě bù néng fàngqì.",
+        "english": "Even if there's only a sliver of hope, we can't give up."
+      },
+      {
+        "hanzi": "就是明天下雪，我也要去。",
+        "pinyin": "Jiùshì míngtiān xià xuě, wǒ yě yào qù.",
+        "english": "Even if it snows tomorrow, I'm still going."
+      },
+      {
+        "hanzi": "你就是不说，我也知道。",
+        "pinyin": "Nǐ jiùshì bù shuō, wǒ yě zhīdào.",
+        "english": "Even if you don't say it, I know.",
+        "note": "就是 after the subject is typical of speech."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___只有一个人反对，我们也要再讨论一下。",
+        "english": "Even if only one person objects, we should discuss it again.",
+        "options": ["哪怕", "虽然", "因为", "只要"],
+        "answer": 0,
+        "explanation": "An extreme case + 也 = 哪怕…也. 虽然 pairs with 但是; 只要 pairs with 就."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "就是明天下雪，我___要去。",
+        "english": "Even if it snows tomorrow, I'm still going.",
+        "options": ["就", "才", "也", "却"],
+        "answer": 2,
+        "explanation": "就是 meaning 'even if' pairs with 也."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Even if you don't say it, I know.",
+        "optionScript": "hanzi",
+        "options": ["你因为不说，我也知道。", "你就是不说，我也知道。", "你就是不说，我就知道。", "你只要不说，我也知道。"],
+        "answer": 1,
+        "explanation": "就是…也 = 'even if'. 就是 needs 也 in the second clause, not 就."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["哪怕再难，我也要试试。", "就是你不去，我也去。", "哪怕很累，但是他还在工作。", "即使失败了，也没关系。"],
+        "answer": 2,
+        "explanation": "哪怕 pairs with 也, not 但是. Say 虽然很累，但是… or 哪怕很累，他也…"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["哪怕", "再", "忙", "他", "也", "会", "给妈妈", "打电话"],
+        "alternatives": [
+          ["他", "哪怕", "再", "忙", "也", "会", "给妈妈", "打电话"]
+        ],
+        "english": "However busy he is, he'll still call his mum.",
+        "pinyin": "Nǎpà zài máng, tā yě huì gěi māma dǎ diànhuà.",
+        "explanation": "哪怕 (+ 再) + condition, subject + 也 + result. 哪怕 can also follow the subject."
+      }
+    ]
+  },
+  {
+    "id": "g5-zai-ye",
+    "hskLevel": 5,
+    "title": "再…也: no matter how …",
+    "titleHanzi": "再…也",
+    "pattern": "(Subject) + 再 + Adjective / Verb + ，(Subject) + 也 + Result  ·  再怎么 + Verb + 也 + Result",
+    "summary": "再 before an adjective can mean 'however much': 工作再忙，也要注意身体.",
+    "explanation": [
+      "In this pattern **再 (zài)** does not mean 'again'. Placed before an adjective or verb and followed by **也** in the next clause, it means 'no matter how…, however…': **天气再冷，他也坚持跑步** (however cold it is, he keeps running).",
+      "With verbs, Chinese usually adds **怎么**: **你再怎么解释，他也不会相信** (however you explain it, he won't believe it).",
+      "再…也 is common in both speech and writing. It is a compact version of **无论多么…也 / 不管多…都**, and it often combines with 哪怕 or 就是: **哪怕再忙**. Don't swap 再 for **更** — 更 just means 'more' and doesn't create the 'no matter how' meaning."
+    ],
+    "mistakes": [
+      "✗ 天气再冷，他就坚持跑步。 → ✓ 天气再冷，他也坚持跑步。 再…也 is a fixed pair; 就 gives the wrong logic.",
+      "✗ 天气更冷，他也坚持跑步。 → ✓ 天气再冷，他也坚持跑步。 更 means 'even more'; only 再 gives 'no matter how'."
+    ],
+    "examples": [
+      {
+        "hanzi": "工作再忙，也要注意身体。",
+        "pinyin": "Gōngzuò zài máng, yě yào zhùyì shēntǐ.",
+        "english": "No matter how busy work is, you should look after your health."
+      },
+      {
+        "hanzi": "天气再冷，他也坚持跑步。",
+        "pinyin": "Tiānqì zài lěng, tā yě jiānchí pǎobù.",
+        "english": "However cold it is, he keeps on running."
+      },
+      {
+        "hanzi": "你再怎么解释，他也不会相信。",
+        "pinyin": "Nǐ zài zěnme jiěshì, tā yě bú huì xiāngxìn.",
+        "english": "No matter how you explain it, he won't believe you.",
+        "note": "With verbs, add 怎么: 再怎么 + verb."
+      },
+      {
+        "hanzi": "东西再便宜，不需要的也别买。",
+        "pinyin": "Dōngxi zài piányi, bù xūyào de yě bié mǎi.",
+        "english": "However cheap something is, don't buy it if you don't need it."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这个问题___难，我们也要解决。",
+        "english": "However hard this problem is, we have to solve it.",
+        "options": ["更", "再", "又", "还"],
+        "answer": 1,
+        "explanation": "再 + adjective, … 也 = 'no matter how …'. 更 only means 'more'."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "你再怎么劝，他___不会听的。",
+        "english": "However much you try to persuade him, he won't listen.",
+        "options": ["才", "就", "却", "也"],
+        "answer": 3,
+        "explanation": "再怎么 + verb is answered by 也 in the result clause."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "No matter how busy work is, you should look after your health.",
+        "optionScript": "pinyin",
+        "options": ["Gōngzuò zài máng, jiù yào zhùyì shēntǐ.", "Gōngzuò gèng máng, yě yào zhùyì shēntǐ.", "Gōngzuò zài máng, yě yào zhùyì shēntǐ.", "Gōngzuò hěn máng zài, yě yào zhùyì shēntǐ."],
+        "answer": 2,
+        "explanation": "再 goes directly before the adjective (再忙), and the result clause uses 也."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["东西再便宜，不需要的就别买。", "东西再便宜，不需要的也别买。", "东西更便宜，不需要的也别买。"],
+        "answer": 1,
+        "explanation": "再 + adjective pairs with 也. 就 breaks the pattern and 更 only means 'more'."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["你", "再", "怎么", "解释", "他", "也", "不会", "相信"],
+        "english": "No matter how you explain it, he won't believe you.",
+        "pinyin": "Nǐ zài zěnme jiěshì, tā yě bú huì xiāngxìn.",
+        "explanation": "Subject + 再怎么 + verb, second subject + 也 + result."
+      }
+    ]
+  },
+  {
+    "id": "g5-conger-jiner",
+    "hskLevel": 5,
+    "title": "从而 vs 进而: thereby vs and then further",
+    "titleHanzi": "从而 · 进而",
+    "pattern": "Means / Cause + ，从而 + Verb phrase (result)  ·  Step 1 + ，进而 + Verb phrase (next step)",
+    "summary": "Two written linking words: 从而 introduces the result of a method; 进而 introduces the next, further step.",
+    "explanation": [
+      "**从而 (cóng'ér)** means 'thereby, thus'. The first clause describes a method or cause, and 从而 introduces the result it brings about: **公司改进了技术，从而降低了成本**. It is followed directly by a **verb phrase**, and the subject stays the same as in the first clause.",
+      "**进而 (jìn'ér)** means 'and then, going a step further'. It describes a progression — first one step, then a bigger one: **先在北京试点，进而推广到全国**.",
+      "Both are **written** words, typical of reports, essays and the news. In speech people use **所以 / 这样就** instead of 从而 and **然后 / 再** instead of 进而. Unlike 所以, 从而 does not pair with 因为 and cannot be followed by a new subject."
+    ],
+    "mistakes": [
+      "✗ 他每天练习，从而他的发音提高了。 → ✓ 他每天练习，从而提高了发音。 从而 is followed directly by a verb phrase, not a new subject.",
+      "✗ 因为下雨，从而比赛取消了。 → ✓ 因为下雨，所以比赛取消了。 从而 does not pair with 因为; it links a method to its result."
+    ],
+    "examples": [
+      {
+        "hanzi": "公司改进了技术，从而降低了成本。",
+        "pinyin": "Gōngsī gǎijìnle jìshù, cóng'ér jiàngdīle chéngběn.",
+        "english": "The company improved its technology, thereby lowering costs."
+      },
+      {
+        "hanzi": "多读书可以开阔眼界，从而提高自己的能力。",
+        "pinyin": "Duō dú shū kěyǐ kāikuò yǎnjiè, cóng'ér tígāo zìjǐ de nénglì.",
+        "english": "Reading more broadens your horizons and thereby improves your abilities."
+      },
+      {
+        "hanzi": "我们先在北京试点，进而推广到全国。",
+        "pinyin": "Wǒmen xiān zài Běijīng shìdiǎn, jìn'ér tuīguǎng dào quánguó.",
+        "english": "We'll first run a pilot in Beijing and then extend it to the whole country."
+      },
+      {
+        "hanzi": "他先学会了说，进而学会了写。",
+        "pinyin": "Tā xiān xuéhuìle shuō, jìn'ér xuéhuìle xiě.",
+        "english": "He first learned to speak and then went on to learn to write.",
+        "note": "进而 marks progression, often after 先."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "政府增加了公交车，___减少了堵车。",
+        "english": "The government added more buses, thereby reducing traffic jams.",
+        "options": ["然而", "从而", "否则", "不过"],
+        "answer": 1,
+        "explanation": "Method (more buses) → result (fewer jams): 从而. 然而 and 不过 mean 'however'; 否则 means 'otherwise'."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我们先在上海开店，___把生意扩大到全国。",
+        "english": "We'll first open a shop in Shanghai and then go on to expand the business nationwide.",
+        "options": ["然而", "否则", "进而", "何况"],
+        "answer": 2,
+        "explanation": "先 … 进而 … marks a progression from a first step to a bigger one."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "The company improved its technology, thereby lowering costs.",
+        "optionScript": "hanzi",
+        "options": ["公司改进了技术，因为降低了成本。", "公司从而改进了技术，降低了成本。", "公司改进了技术，从而它降低了成本。", "公司改进了技术，从而降低了成本。"],
+        "answer": 3,
+        "explanation": "从而 opens the second clause and is followed directly by the verb phrase — no new subject."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["他每天练习，从而他的发音提高了。", "他每天练习，从而提高了发音。", "这家工厂先在国内发展，进而走向世界。"],
+        "answer": 0,
+        "explanation": "从而 can't be followed by a new subject (他的发音). Say 从而提高了发音."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["多读书", "可以", "开阔眼界", "从而", "提高", "能力"],
+        "english": "Reading more broadens your horizons and thereby improves your abilities.",
+        "pinyin": "Duō dú shū kěyǐ kāikuò yǎnjiè, cóng'ér tígāo nénglì.",
+        "explanation": "Method (多读书可以开阔眼界), then 从而 + result."
+      }
+    ]
+  },
+  {
+    "id": "g5-hebi",
+    "hskLevel": 5,
+    "title": "何必: why bother?",
+    "titleHanzi": "何必",
+    "pattern": "(Subject) + 何必 + Verb phrase + (呢)？  ·  何必呢？",
+    "summary": "A rhetorical 'why bother…?' meaning 'there's no need': 这么近，何必打车呢？",
+    "explanation": [
+      "**何必 (hébì)** literally means 'why must?'. It is a **rhetorical question** that really says 'there's no need to…': **何必生这么大的气？** = 'There's no need to get so angry.' It often ends with **呢**, and **何必呢？** can stand alone ('Why bother?').",
+      "Compared with **不必** ('it's not necessary'), 何必 is stronger and more emotional — it gently criticises or comforts. 不必 is a plain statement; 何必 is a question.",
+      "Register: used in both speech and writing; it sounds slightly literary but is very common. Don't confuse it with **何况** ('let alone, besides') or **未必** ('not necessarily')."
+    ],
+    "mistakes": [
+      "✗ 这么近，何必打车吗？ → ✓ 这么近，何必打车呢？ 何必 is already a question word, so it can't take 吗; use 呢 or nothing.",
+      "✗ 他连汉字都不认识，何必写文章。 → ✓ 他连汉字都不认识，更不用说写文章了。 'let alone' is 更不用说 / 何况, not 何必."
+    ],
+    "examples": [
+      {
+        "hanzi": "这么近，何必打车呢？",
+        "pinyin": "Zhème jìn, hébì dǎchē ne?",
+        "english": "It's so close — why bother taking a taxi?"
+      },
+      {
+        "hanzi": "一点儿小事，何必生这么大的气？",
+        "pinyin": "Yìdiǎnr xiǎoshì, hébì shēng zhème dà de qì?",
+        "english": "It's only a small matter — why get so angry?"
+      },
+      {
+        "hanzi": "你何必为这种人伤心呢？",
+        "pinyin": "Nǐ hébì wèi zhè zhǒng rén shāngxīn ne?",
+        "english": "Why waste your sorrow on someone like that?"
+      },
+      {
+        "hanzi": "大家都是朋友，何必这么客气？",
+        "pinyin": "Dàjiā dōu shì péngyou, hébì zhème kèqi?",
+        "english": "We're all friends here — no need to be so polite.",
+        "note": "Often used to put someone at ease."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "只是一次小考试，___这么紧张呢？",
+        "english": "It's just a small test — why be so nervous?",
+        "options": ["何况", "何必", "不必", "未必"],
+        "answer": 1,
+        "explanation": "A rhetorical 'why bother' question ending in 呢 needs 何必. 不必 is a statement, not a question."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这么近，何必打车___？",
+        "english": "It's so close — why bother taking a taxi?",
+        "options": ["吗", "吧", "呢", "了"],
+        "answer": 2,
+        "explanation": "何必 questions end with 呢 (or nothing). 吗 can't follow a question word."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "We're all friends — why be so polite?",
+        "optionScript": "hanzi",
+        "options": ["大家都是朋友，何必这么客气？", "大家都是朋友，何况这么客气？", "大家都是朋友，未必这么客气？", "大家都是朋友，何必这么客气吗？"],
+        "answer": 0,
+        "explanation": "何必 = 'why bother / no need'. 何况 = 'let alone', 未必 = 'not necessarily'; 何必 never takes 吗."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["你何必为这种人伤心呢？", "何必呢？", "何必花这么多钱买它吗？", "既然他不想去，何必勉强他？"],
+        "answer": 2,
+        "explanation": "何必 is already a question word; drop 吗 or replace it with 呢."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["一点儿", "小事", "何必", "生", "这么大的", "气"],
+        "english": "It's only a small matter — why get so angry?",
+        "pinyin": "Yìdiǎnr xiǎoshì, hébì shēng zhème dà de qì?",
+        "explanation": "Situation (一点儿小事), then 何必 + verb phrase (生这么大的气)."
+      }
+    ]
+  },
+  {
+    "id": "g5-buzhiyu",
+    "hskLevel": 5,
+    "title": "不至于: not go as far as",
+    "titleHanzi": "不至于",
+    "pattern": "Subject + (还) + 不至于 + Verb phrase  ·  …，至于吗？",
+    "summary": "Say something isn't bad enough to reach an extreme result: 他还不至于打人 / 只是感冒，不至于住院吧？",
+    "explanation": [
+      "**不至于 (bú zhìyú)** means 'won't go so far as, isn't so bad that'. It denies an extreme or bad outcome: **他虽然很生气，但还不至于打人**. It is often preceded by **还** and often ends with **吧** when guessing.",
+      "The colloquial question **至于吗？ (zhìyú ma?)** means 'Is that really necessary? / Aren't you overreacting?': **为这点儿事吵架，至于吗？**",
+      "Contrast: **以至于** means 'so much that, with the result that' (a real consequence). **未必** means 'not necessarily' and is about likelihood, not extremes. 不至于 is neutral in register and very common in speech."
+    ],
+    "mistakes": [
+      "✗ 我想他明天不至于来。 → ✓ 我想他明天未必会来。 不至于 denies an extreme (usually bad) outcome; for 'not necessarily' use 未必.",
+      "✗ 他虽然生气，但还以至于打人。 → ✓ 他虽然生气，但还不至于打人。 以至于 introduces a real result; to deny the extreme, use 不至于."
+    ],
+    "examples": [
+      {
+        "hanzi": "他虽然很生气，但还不至于打人。",
+        "pinyin": "Tā suīrán hěn shēngqì, dàn hái bú zhìyú dǎ rén.",
+        "english": "He's very angry, but not to the point of hitting anyone."
+      },
+      {
+        "hanzi": "这点儿雨不至于让比赛取消。",
+        "pinyin": "Zhè diǎnr yǔ bú zhìyú ràng bǐsài qǔxiāo.",
+        "english": "This bit of rain won't get the match cancelled."
+      },
+      {
+        "hanzi": "只是感冒，不至于住院吧？",
+        "pinyin": "Zhǐ shì gǎnmào, bú zhìyú zhùyuàn ba?",
+        "english": "It's just a cold — surely not serious enough for hospital?"
+      },
+      {
+        "hanzi": "为这点儿事吵架，至于吗？",
+        "pinyin": "Wèi zhè diǎnr shì chǎojià, zhìyú ma?",
+        "english": "Arguing over something this small — is that really necessary?",
+        "note": "至于吗？ = 'Aren't you overdoing it?' (colloquial)."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他只是有点儿累，还___生病。",
+        "english": "He's just a bit tired; it's not as bad as being ill.",
+        "options": ["以至于", "不至于", "不得不", "不由得"],
+        "answer": 1,
+        "explanation": "还不至于 denies the more extreme outcome (being ill)."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "为这点儿小事吵架，___吗？",
+        "english": "Arguing over such a small thing — is that really necessary?",
+        "options": ["对于", "关于", "以至于", "至于"],
+        "answer": 3,
+        "explanation": "至于吗？ is the colloquial 'Is that really necessary?'."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "It's just a cold — surely not serious enough for hospital?",
+        "optionScript": "pinyin",
+        "options": ["Zhǐ shì gǎnmào, yǐzhìyú zhùyuàn ba?", "Zhǐ shì gǎnmào, wèibì zhùyuàn ba?", "Zhǐ shì gǎnmào, bú zhìyú zhùyuàn ba?"],
+        "answer": 2,
+        "explanation": "不至于 denies the extreme outcome (going to hospital); 吧 makes it a hopeful guess."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["他虽然生气，但还以至于打人。", "他虽然生气，但还不至于打人。", "我想他明天不至于来。"],
+        "answer": 1,
+        "explanation": "不至于 denies an extreme result. 以至于 states a real result, and 'not necessarily come' is 未必会来."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["这点儿", "雨", "不至于", "让", "比赛", "取消"],
+        "english": "This bit of rain won't get the match cancelled.",
+        "pinyin": "Zhè diǎnr yǔ bú zhìyú ràng bǐsài qǔxiāo.",
+        "explanation": "Subject (这点儿雨) + 不至于 + verb phrase (让比赛取消)."
+      }
+    ]
+  }
+]

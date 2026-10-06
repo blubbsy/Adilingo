@@ -1,0 +1,1785 @@
+[
+  {
+    "id": "g6-nanmian-bumian",
+    "hskLevel": 6,
+    "title": "难免 / 不免: bound to happen",
+    "titleHanzi": "难免 · 不免",
+    "pattern": "Subject + 难免 + (会 / 要) + Verb  ·  Situation + 是难免的  ·  Subject + 不免 + Verb",
+    "summary": "Say that something is hard to avoid or naturally follows: 第一次难免会紧张, 心里不免有些担心.",
+    "explanation": [
+      "**难免 (nánmiǎn)** means 'hard to avoid, only natural'. It is used with sympathy: the speaker accepts that a slip-up or feeling is understandable. It often comes before **会 / 要**, and, unlike 不免, it can also be the predicate: **出错是难免的** (mistakes are inevitable).",
+      "**不免 (bùmiǎn)** is only an adverb. It goes directly before a verb and usually describes a feeling or result that actually follows from the situation: **心里不免有些紧张**. It cannot stand at the end as a predicate (✗ 是不免的).",
+      "Register: both are standard written Chinese and common in educated speech. In casual speech people often say **免不了** or simply **肯定会**. Do not confuse them with **未免**, which criticises ('a bit too…'), or **以免**, which means 'so as to avoid'."
+    ],
+    "mistakes": [
+      "✗ 第一次做饭，失败是不免的。 → ✓ 第一次做饭，失败是难免的。 不免 is an adverb only and cannot be the predicate; use 难免.",
+      "✗ 第一次做饭，未免会失败。 → ✓ 第一次做饭，难免会失败。 未免 criticises ('rather too…'); for a natural, forgivable outcome use 难免."
+    ],
+    "examples": [
+      {
+        "hanzi": "第一次上台演讲，难免会紧张。",
+        "pinyin": "Dì-yī cì shàng tái yǎnjiǎng, nánmiǎn huì jǐnzhāng.",
+        "english": "Giving a speech on stage for the first time, you're bound to be nervous."
+      },
+      {
+        "hanzi": "刚到一个新城市，生活上有些不便是难免的。",
+        "pinyin": "Gāng dào yí gè xīn chéngshì, shēnghuó shang yǒuxiē búbiàn shì nánmiǎn de.",
+        "english": "When you've just arrived in a new city, some inconveniences in daily life are unavoidable.",
+        "note": "难免 as predicate: 是难免的."
+      },
+      {
+        "hanzi": "听说老同学病了，他心里不免有些担心。",
+        "pinyin": "Tīngshuō lǎo tóngxué bìng le, tā xīnli bùmiǎn yǒuxiē dānxīn.",
+        "english": "Hearing that his old classmate was ill, he couldn't help feeling a little worried."
+      },
+      {
+        "hanzi": "工作量这么大，难免出点儿差错。",
+        "pinyin": "Gōngzuòliàng zhème dà, nánmiǎn chū diǎnr chācuò.",
+        "english": "With such a heavy workload, a few slip-ups are only to be expected."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "刚开始学一门新语言，犯错误是___的。",
+        "english": "When you've just started learning a new language, making mistakes is unavoidable.",
+        "options": ["难免", "不免", "未免", "以免"],
+        "answer": 0,
+        "explanation": "Only 难免 can be the predicate in 是…的. 不免 is purely an adverb; 未免 criticises; 以免 means 'so as to avoid'."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "看到同事们都升职了，他心里___有点儿失落。",
+        "english": "Seeing his colleagues all promoted, he couldn't help feeling a bit let down.",
+        "options": ["以免", "不免", "何尝", "姑且"],
+        "answer": 1,
+        "explanation": "不免 + feeling: the disappointment follows naturally from what he sees."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["长期熬夜，身体出问题是不免的。", "长期熬夜，身体难免会出问题。", "这种误会是难免的。", "听到这个消息，她不免有些吃惊。"],
+        "answer": 0,
+        "explanation": "不免 cannot be a predicate in 是…的; it must be 是难免的."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Mistakes are unavoidable in any new project.",
+        "optionScript": "hanzi",
+        "options": ["任何新项目都难免出现失误。", "任何新项目都未免出现失误。", "任何新项目都以免出现失误。", "任何新项目出现失误都不免。"],
+        "answer": 0,
+        "explanation": "难免 + verb = bound to happen. 未免 criticises, 以免 means 'to avoid', and 不免 cannot end a sentence."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["第一次见家长，", "难免", "会", "有点儿", "紧张"],
+        "english": "Meeting the parents for the first time, you're bound to be a bit nervous.",
+        "pinyin": "Dì-yī cì jiàn jiāzhǎng, nánmiǎn huì yǒudiǎnr jǐnzhāng.",
+        "explanation": "难免 comes before 会 + the verb phrase."
+      }
+    ]
+  },
+  {
+    "id": "g6-weimian",
+    "hskLevel": 6,
+    "title": "未免: rather too (polite criticism)",
+    "titleHanzi": "未免",
+    "pattern": "Subject / Action + 未免 + 太 / 过于 / 有点儿 / 不够 + Adjective",
+    "summary": "Criticise tactfully: 你这样说未免太绝对了 — 'that's a bit too absolute'.",
+    "explanation": [
+      "**未免 (wèimiǎn)** gives a judgement that something goes too far: 'rather too, a little too'. It sounds softer and more polite than a blunt 太…了, so it is perfect for disagreeing tactfully.",
+      "It is almost always followed by a degree word: **太…了, 过于, 有点儿, 有些, 不够**. A bare 未免 with nothing after it is incomplete.",
+      "Register: semi-formal; common in writing, discussions and polite speech. Contrast: **难免** = unavoidable (sympathetic, no criticism); **不免** = a natural reaction follows; **未免** = 'that's too much' (critical)."
+    ],
+    "mistakes": [
+      "✗ 他的要求未免。 → ✓ 他的要求未免太高了。 未免 needs a degree phrase after it.",
+      "✗ 第一次出国，未免会想家。 → ✓ 第一次出国，难免会想家。 Homesickness is natural, not something to criticise, so use 难免."
+    ],
+    "examples": [
+      {
+        "hanzi": "你这样说未免太绝对了。",
+        "pinyin": "Nǐ zhèyàng shuō wèimiǎn tài juéduì le.",
+        "english": "Putting it that way is a bit too absolute."
+      },
+      {
+        "hanzi": "为这点儿小事生气，未免有点儿小题大做。",
+        "pinyin": "Wèi zhè diǎnr xiǎoshì shēngqì, wèimiǎn yǒudiǎnr xiǎotí-dàzuò.",
+        "english": "Getting angry over such a small thing is rather making a mountain out of a molehill."
+      },
+      {
+        "hanzi": "这家餐厅的价格未免过于昂贵。",
+        "pinyin": "Zhè jiā cāntīng de jiàgé wèimiǎn guòyú ángguì.",
+        "english": "This restaurant's prices are a little too steep."
+      },
+      {
+        "hanzi": "只听一面之词就下结论，未免不够客观。",
+        "pinyin": "Zhǐ tīng yímiànzhīcí jiù xià jiélùn, wèimiǎn búgòu kèguān.",
+        "english": "Drawing a conclusion after hearing only one side is hardly objective enough."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "才学了三个月就想当翻译，这___太着急了吧。",
+        "english": "Wanting to be a translator after only three months of study is a bit too hasty, isn't it?",
+        "options": ["难免", "未免", "不免", "以免"],
+        "answer": 1,
+        "explanation": "A critical 'rather too…' judgement + 太 → 未免."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "刚换工作，有些不适应也是___的。",
+        "english": "Having just changed jobs, it's only natural to feel a bit out of place.",
+        "options": ["未免", "难免", "不料", "姑且"],
+        "answer": 1,
+        "explanation": "Sympathetic 'unavoidable' as a predicate → 是难免的. 未免 would criticise and cannot stand in 是…的."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["你的看法未免太片面了。", "他的态度未免有些冷淡。", "第一次出国，未免会想家。", "这个计划未免过于理想化。"],
+        "answer": 2,
+        "explanation": "Missing home is natural, so it should be 难免会想家. 未免 is for criticism ('a bit too…')."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "This requirement is rather too strict.",
+        "optionScript": "pinyin",
+        "options": ["Zhège yāoqiú wèimiǎn tài yángé le.", "Zhège yāoqiú nánmiǎn tài yángé le.", "Zhège yāoqiú yǐmiǎn tài yángé le.", "Zhège yāoqiú yǐbiàn tài yángé le."],
+        "answer": 0,
+        "explanation": "未免太…了 expresses the tactful criticism 'rather too…'."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["你", "这样", "做", "未免", "太", "冒险", "了"],
+        "english": "Doing it this way is a bit too risky.",
+        "pinyin": "Nǐ zhèyàng zuò wèimiǎn tài màoxiǎn le.",
+        "explanation": "Topic (你这样做) + 未免 + 太 + adjective + 了."
+      }
+    ]
+  },
+  {
+    "id": "g6-yimian-yibian",
+    "hskLevel": 6,
+    "title": "以免 vs 以便: to avoid vs so that",
+    "titleHanzi": "以免 · 以便",
+    "pattern": "Action, + 以免 + Unwanted Result  ·  Action, + 以便 + Desired Goal",
+    "summary": "Add a purpose clause: 请检查门窗，以免发生意外 (to avoid) vs 请提前发资料，以便讨论 (so that).",
+    "explanation": [
+      "Both words open the **second clause** and explain the purpose of the action in the first clause. **以免 (yǐmiǎn)** = 'so as to avoid' — what follows is something bad you want to prevent. **以便 (yǐbiàn)** = 'so that, in order to' — what follows is something good you want to make possible.",
+      "Never add a negative after 以免: it already contains the idea of 'avoid' (✗ 以免不迟到). And neither word normally starts a sentence; to put the purpose first, use **为了 / 为了不**.",
+      "Register: both are formal and written (notices, instructions, reports). Spoken equivalents: **免得 / 省得** for 以免, **好 / 好让 / 为的是** for 以便."
+    ],
+    "mistakes": [
+      "✗ 请提前订票，以便买不到票。 → ✓ 请提前订票，以免买不到票。 Not getting a ticket is undesired, so use 以免.",
+      "✗ 以免迟到，我们早点儿出发吧。 → ✓ 我们早点儿出发吧，以免迟到。 以免 introduces the second clause; to front the purpose, say 为了不迟到."
+    ],
+    "examples": [
+      {
+        "hanzi": "出门前请检查门窗，以免发生意外。",
+        "pinyin": "Chūmén qián qǐng jiǎnchá ménchuāng, yǐmiǎn fāshēng yìwài.",
+        "english": "Please check the doors and windows before going out, to avoid accidents."
+      },
+      {
+        "hanzi": "请把资料提前发给大家，以便会上讨论。",
+        "pinyin": "Qǐng bǎ zīliào tíqián fā gěi dàjiā, yǐbiàn huì shang tǎolùn.",
+        "english": "Please send everyone the materials in advance so that they can be discussed at the meeting."
+      },
+      {
+        "hanzi": "药品应放在儿童接触不到的地方，以免误服。",
+        "pinyin": "Yàopǐn yīng fàng zài értóng jiēchù bú dào de dìfang, yǐmiǎn wùfú.",
+        "english": "Medicines should be kept out of children's reach to prevent accidental ingestion.",
+        "note": "Typical label/notice language."
+      },
+      {
+        "hanzi": "我们互相留了联系方式，以便日后保持联系。",
+        "pinyin": "Wǒmen hùxiāng liú le liánxì fāngshì, yǐbiàn rìhòu bǎochí liánxì.",
+        "english": "We exchanged contact details so that we can keep in touch in future."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "开车时请系好安全带，___发生危险。",
+        "english": "Please fasten your seat belt while driving to avoid danger.",
+        "options": ["以便", "以免", "以致", "因而"],
+        "answer": 1,
+        "explanation": "Danger is the unwanted result to prevent → 以免."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "请留下您的电话号码，___我们及时通知您。",
+        "english": "Please leave your phone number so that we can notify you promptly.",
+        "options": ["以免", "免得", "以便", "省得"],
+        "answer": 2,
+        "explanation": "Notifying you is a desired goal → 以便. 以免 / 免得 / 省得 all mean 'to avoid'."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["以免感冒，你多穿点儿衣服。", "你多穿点儿衣服，以便感冒。", "你多穿点儿衣服，以免感冒。", "你多穿点儿衣服，以免不感冒。"],
+        "answer": 2,
+        "explanation": "以免 opens the second clause and is followed by the unwanted result, without an extra 不."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Please save the file regularly so as not to lose data.",
+        "optionScript": "hanzi",
+        "options": ["请及时保存文件，以便丢失数据。", "请及时保存文件，以免丢失数据。", "请及时保存文件，以免不丢失数据。", "以免丢失数据，请及时保存文件。"],
+        "answer": 1,
+        "explanation": "Action first, then 以免 + the bad outcome (丢失数据)."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["请", "提前", "预订房间，", "以免", "到时候", "没有", "空房"],
+        "english": "Please book a room in advance so you don't end up with no vacancies.",
+        "pinyin": "Qǐng tíqián yùdìng fángjiān, yǐmiǎn dào shíhou méiyǒu kòngfáng.",
+        "explanation": "Action clause, then 以免 + the outcome to avoid."
+      }
+    ]
+  },
+  {
+    "id": "g6-buliao",
+    "hskLevel": 6,
+    "title": "不料: unexpectedly",
+    "titleHanzi": "不料",
+    "pattern": "Expectation / Plan, + 不料 + (却 / 竟) + Unexpected Outcome",
+    "summary": "Narrate a surprising turn: 本想去爬山，不料下起了大雨.",
+    "explanation": [
+      "**不料 (búliào)** means 'unexpectedly, little did (I) expect'. The first clause sets up a plan or expectation (often with **本想, 原以为, 本来**), and 不料 opens the second clause that breaks it. It is often reinforced with **却** or **竟(然)**.",
+      "不料 is not a normal verb: you don't put a subject in front of it (✗ 我不料). If you want to say 'I didn't expect', use **没想到** (我没想到…).",
+      "Register: written and narrative (stories, news, essays). In conversation people prefer **没想到**; literary alternatives are **谁知 / 谁料 / 不想**."
+    ],
+    "mistakes": [
+      "✗ 我不料他今天会来。 → ✓ 我没想到他今天会来。 不料 does not take a subject; use 没想到.",
+      "✗ 不料下雨了，我们本想去爬山。 → ✓ 我们本想去爬山，不料下雨了。 The expectation comes first, then 不料 + the surprise."
+    ],
+    "examples": [
+      {
+        "hanzi": "本想周末去爬山，不料下起了大雨。",
+        "pinyin": "Běn xiǎng zhōumò qù pá shān, búliào xià qǐ le dàyǔ.",
+        "english": "We meant to go hiking at the weekend, but unexpectedly it started pouring."
+      },
+      {
+        "hanzi": "他以为这次考试很简单，不料却没及格。",
+        "pinyin": "Tā yǐwéi zhè cì kǎoshì hěn jiǎndān, búliào què méi jígé.",
+        "english": "He thought the exam would be easy, but to his surprise he failed."
+      },
+      {
+        "hanzi": "我们正准备出发，不料车坏了。",
+        "pinyin": "Wǒmen zhèng zhǔnbèi chūfā, búliào chē huài le.",
+        "english": "We were just about to set off when, unexpectedly, the car broke down."
+      },
+      {
+        "hanzi": "原以为项目会顺利完成，不料中途资金出了问题。",
+        "pinyin": "Yuán yǐwéi xiàngmù huì shùnlì wánchéng, búliào zhōngtú zījīn chū le wèntí.",
+        "english": "We had assumed the project would go smoothly, but halfway through funding problems arose."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他本来想给女朋友一个惊喜，___她提前回家了。",
+        "english": "He wanted to surprise his girlfriend, but unexpectedly she came home early.",
+        "options": ["以免", "难免", "不料", "何尝"],
+        "answer": 2,
+        "explanation": "Plan + 不料 + surprising outcome."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我___他会这么快就同意。",
+        "english": "I didn't expect him to agree so quickly.",
+        "options": ["不料", "没想到", "何尝", "未免"],
+        "answer": 1,
+        "explanation": "With a subject (我) you need the verb 没想到; 不料 cannot follow a subject."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["我不料他今天会来。", "我没想到他今天会来。", "我以为他不来了，不料他今天来了。", "本以为他不来了，谁知他今天来了。"],
+        "answer": 0,
+        "explanation": "不料 is not used with a subject in front: say 我没想到."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "I meant to call him, but unexpectedly my phone had run out of battery.",
+        "optionScript": "pinyin",
+        "options": ["Wǒ běn xiǎng gěi tā dǎ diànhuà, búliào shǒujī méi diàn le.", "Wǒ běn xiǎng gěi tā dǎ diànhuà, nánmiǎn shǒujī méi diàn le.", "Wǒ běn xiǎng gěi tā dǎ diànhuà, yǐmiǎn shǒujī méi diàn le.", "Wǒ búliào xiǎng gěi tā dǎ diànhuà, shǒujī méi diàn le."],
+        "answer": 0,
+        "explanation": "本想… sets up the plan; 不料 opens the clause with the surprise."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["本想早点儿休息，", "不料", "又", "来了", "一个", "新任务"],
+        "english": "I meant to rest early, but unexpectedly another new task came in.",
+        "pinyin": "Běn xiǎng zǎo diǎnr xiūxi, búliào yòu lái le yí gè xīn rènwu.",
+        "explanation": "Plan clause, then 不料 + 又 + the unexpected event."
+      }
+    ]
+  },
+  {
+    "id": "g6-hechang-weichang",
+    "hskLevel": 6,
+    "title": "何尝 / 未尝: rhetorical 'not that…'",
+    "titleHanzi": "何尝 · 未尝",
+    "pattern": "Subject + 何尝 + (不) + Verb  ·  未尝不 + 是 / 可",
+    "summary": "Rhetorical emphasis: 我何尝不想去？ (Of course I want to go!) · 这未尝不是好事 (This may well be a good thing).",
+    "explanation": [
+      "**何尝 (hécháng)** literally means 'when has it ever…?'. It forms a rhetorical statement whose meaning is the **opposite** of its surface form: **我何尝不想去** = of course I want to go; **他何尝说过这话** = he never said that. It already carries the question, so don't add 吗.",
+      "**未尝 (wèicháng)** means 'not necessarily / never'. It is mostly used in the double negative **未尝不**, which softens a statement: **未尝不是好事** (may well be a good thing), **未尝不可** (not a bad idea, could be done).",
+      "Register: both are literary and belong to written or carefully argued speech. Plain spoken equivalents: 何尝不 ≈ **难道不…吗 / 当然也**; 未尝不 ≈ **也不一定不 / 说不定也**."
+    ],
+    "mistakes": [
+      "✗ 我何尝不想去吗？ → ✓ 我何尝不想去？ 何尝 already makes the sentence rhetorical; don't add 吗.",
+      "✗ 这个办法未尝可以。 → ✓ 这个办法未尝不可。 The fixed expression is the double negative 未尝不可."
+    ],
+    "examples": [
+      {
+        "hanzi": "我何尝不想多陪陪孩子，可工作实在太忙了。",
+        "pinyin": "Wǒ hécháng bù xiǎng duō péipei háizi, kě gōngzuò shízài tài máng le.",
+        "english": "It's not that I don't want to spend more time with my kids — work is just too busy."
+      },
+      {
+        "hanzi": "他何尝说过这样的话？",
+        "pinyin": "Tā hécháng shuō guo zhèyàng de huà?",
+        "english": "When did he ever say such a thing?",
+        "note": "何尝 + positive verb = never."
+      },
+      {
+        "hanzi": "换个角度看，失败未尝不是一件好事。",
+        "pinyin": "Huàn ge jiǎodù kàn, shībài wèicháng bú shì yí jiàn hǎoshì.",
+        "english": "Seen from another angle, failure may well be a good thing."
+      },
+      {
+        "hanzi": "你要是真想去，先试一试也未尝不可。",
+        "pinyin": "Nǐ yàoshi zhēn xiǎng qù, xiān shì yi shì yě wèicháng bùkě.",
+        "english": "If you really want to go, there's no harm in giving it a try first."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我___不知道这件事很严重？只是没有办法罢了。",
+        "english": "Don't you think I know this is serious? I just have no choice.",
+        "options": ["未免", "何尝", "不免", "莫非"],
+        "answer": 1,
+        "explanation": "何尝不 + verb = of course I do (rhetorical)."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "既然大家都同意，这样安排也___不可。",
+        "english": "Since everyone agrees, arranging it this way is perfectly fine.",
+        "options": ["何尝", "未尝", "不料", "难免"],
+        "answer": 1,
+        "explanation": "The fixed phrase is 未尝不可 'not impossible, quite acceptable'."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["我何尝不想出国留学吗？", "我何尝不想出国留学呢？", "我何尝想不出国留学。", "我未尝想出国留学呢？"],
+        "answer": 1,
+        "explanation": "何尝不 + verb, optionally ending with 呢 — never with 吗."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Seen from another angle, this could well be an opportunity.",
+        "optionScript": "hanzi",
+        "options": ["换个角度看，这未尝不是一个机会。", "换个角度看，这未尝是一个机会。", "换个角度看，这何尝是一个机会。", "换个角度看，这未免是一个机会。"],
+        "answer": 0,
+        "explanation": "未尝不是 = may well be. 何尝是 would mean 'how is this ever an opportunity?' — the opposite."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["失败", "未尝", "不是", "一件", "好事"],
+        "english": "Failure may well be a good thing.",
+        "pinyin": "Shībài wèicháng bú shì yí jiàn hǎoshì.",
+        "explanation": "Subject + 未尝不是 + noun phrase."
+      }
+    ]
+  },
+  {
+    "id": "g6-qi-rhetorical",
+    "hskLevel": 6,
+    "title": "岂不是 / 岂能: classical rhetorical questions",
+    "titleHanzi": "岂",
+    "pattern": "岂 + 不是 / 能 / 敢 + Verb Phrase + ?  ·  这样 + 岂不是 + Result",
+    "summary": "Rhetorical 'how could…?' from Classical Chinese: 岂能放弃？ = We can't possibly give up.",
+    "explanation": [
+      "**岂 (qǐ)** is the classical counterpart of **难道**: it turns a sentence into a rhetorical question whose real meaning is the opposite. **岂能放弃？** = how could we give up? = we certainly can't give up. **岂不是更好？** = wouldn't that be better? = that would definitely be better.",
+      "Common combinations: **岂不是** (wouldn't it be…), **岂能 / 岂可** (how could one…), **岂敢** (how would I dare — humble), and the idiom **岂有此理** (outrageous!). Because the polarity is already flipped, don't add an extra 不 unless you mean the reverse.",
+      "Register: formal written Chinese, speeches and debates; in everyday speech it survives mainly in fixed phrases. The spoken equivalent is **难道…吗？** (岂不是 ≈ 难道不是…吗)."
+    ],
+    "mistakes": [
+      "✗ 我们岂能就此放弃。 → ✓ 我们岂能就此放弃？ 岂 always forms a rhetorical question.",
+      "✗ 我们岂能不放弃？ (meaning 'we can't give up') → ✓ 我们岂能放弃？ The rhetorical question already reverses the meaning; an extra 不 says 'we must give up'."
+    ],
+    "examples": [
+      {
+        "hanzi": "这么好的机会，岂能轻易放弃？",
+        "pinyin": "Zhème hǎo de jīhuì, qǐ néng qīngyì fàngqì?",
+        "english": "How could we give up such a good chance so easily?"
+      },
+      {
+        "hanzi": "如果现在就走，岂不是前功尽弃了？",
+        "pinyin": "Rúguǒ xiànzài jiù zǒu, qǐ bú shì qiángōng-jìnqì le?",
+        "english": "If we leave now, wouldn't all our efforts be wasted?"
+      },
+      {
+        "hanzi": "你这么说，岂不是把责任都推给了别人？",
+        "pinyin": "Nǐ zhème shuō, qǐ bú shì bǎ zérèn dōu tuī gěi le biérén?",
+        "english": "By saying that, aren't you pushing all the responsibility onto others?"
+      },
+      {
+        "hanzi": "偷了东西还要怪别人，真是岂有此理！",
+        "pinyin": "Tōu le dōngxi hái yào guài biérén, zhēn shì qǐyǒucǐlǐ!",
+        "english": "Stealing things and then blaming others — that's outrageous!",
+        "note": "岂有此理 is a fixed idiom of indignation."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "早点儿出发，路上就不用赶了，___更好？",
+        "english": "If we set off earlier, we won't have to rush — wouldn't that be better?",
+        "options": ["莫非", "未免", "岂不是", "何尝"],
+        "answer": 2,
+        "explanation": "岂不是 = 'wouldn't it be…?', a rhetorical suggestion."
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the spoken equivalent.",
+        "sentence": "这样做___不是浪费时间吗？",
+        "english": "Isn't doing it this way a waste of time?",
+        "options": ["难道", "何尝", "未尝", "未免"],
+        "answer": 0,
+        "explanation": "The everyday equivalent of 岂不是… is 难道不是…吗？"
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["这样做岂能解决问题。", "这样做岂能解决问题？", "这样做岂能不解决问题。", "这样做岂解决问题吗？"],
+        "answer": 1,
+        "explanation": "岂能 + verb phrase forms a rhetorical question ending in ？, with no extra 吗."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "How could I possibly agree to such an unreasonable request?",
+        "optionScript": "pinyin",
+        "options": ["Zhème wúlǐ de yāoqiú, wǒ qǐ néng dāying?", "Zhème wúlǐ de yāoqiú, wǒ qǐ néng bù dāying?", "Zhème wúlǐ de yāoqiú, wǒ hécháng dāying le.", "Zhème wúlǐ de yāoqiú, wǒ wèimiǎn dāying?"],
+        "answer": 0,
+        "explanation": "岂能答应？ = I can't possibly agree. Adding 不 would mean 'how could I not agree?'."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["我们", "岂能", "眼睁睁地", "看着", "他", "失败"],
+        "english": "How could we just stand by and watch him fail?",
+        "pinyin": "Wǒmen qǐ néng yǎnzhēngzhēng de kànzhe tā shībài?",
+        "explanation": "Subject + 岂能 + manner adverbial + verb phrase."
+      }
+    ]
+  },
+  {
+    "id": "g6-mofei",
+    "hskLevel": 6,
+    "title": "莫非: could it be that…?",
+    "titleHanzi": "莫非",
+    "pattern": "莫非 + Guess + (不成)?",
+    "summary": "Voice a suspicion: 门怎么开着？莫非有人来过？",
+    "explanation": [
+      "**莫非 (mòfēi)** introduces a guess or suspicion: 'could it be that…?'. It is often followed at the end by **不成** for extra emphasis: 莫非他忘了不成？",
+      "Compared with **难道**, which is mainly rhetorical (the speaker expects 'no'), 莫非 is closer to a genuine hunch: the speaker suspects the answer may be 'yes'.",
+      "Register: slightly literary; common in writing, novels and lively speech. Plain spoken alternatives: **是不是…？ / 该不会…吧？**. Don't confuse it with **无非** (wúfēi, 'nothing but, simply')."
+    ],
+    "mistakes": [
+      "✗ 他说的莫非是些客套话。 → ✓ 他说的无非是些客套话。 莫非 = could it be; 'nothing more than' is 无非.",
+      "✗ 莫非他把这件事忘了。 → ✓ 莫非他把这件事忘了？ 莫非 voices a guess, so the sentence is a question."
+    ],
+    "examples": [
+      {
+        "hanzi": "他今天一句话也没说，莫非有什么心事？",
+        "pinyin": "Tā jīntiān yí jù huà yě méi shuō, mòfēi yǒu shénme xīnshì?",
+        "english": "He hasn't said a word all day — could something be weighing on his mind?"
+      },
+      {
+        "hanzi": "门怎么开着？莫非有人来过？",
+        "pinyin": "Mén zěnme kāizhe? Mòfēi yǒu rén lái guo?",
+        "english": "Why is the door open? Could someone have been here?"
+      },
+      {
+        "hanzi": "这么晚了还不回来，莫非出了什么事不成？",
+        "pinyin": "Zhème wǎn le hái bù huílai, mòfēi chū le shénme shì bùchéng?",
+        "english": "It's so late and he's still not back — could something have happened?",
+        "note": "不成 at the end reinforces 莫非."
+      },
+      {
+        "hanzi": "你一直在笑，莫非你早就知道了？",
+        "pinyin": "Nǐ yìzhí zài xiào, mòfēi nǐ zǎo jiù zhīdao le?",
+        "english": "You keep smiling — could it be you knew all along?"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "电话一直没人接，___他已经睡了？",
+        "english": "Nobody's answering the phone — could he already be asleep?",
+        "options": ["无非", "何尝", "未免", "莫非"],
+        "answer": 3,
+        "explanation": "A guess about the reason → 莫非."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他每天忙的___是吃饭、上班、睡觉这些事。",
+        "english": "All he's busy with every day is nothing more than eating, working and sleeping.",
+        "options": ["莫非", "无非", "难免", "姑且"],
+        "answer": 1,
+        "explanation": "'Nothing but, simply' = 无非, not the look-alike 莫非."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["莫非他把这件事忘了？", "他的脸色这么难看，莫非生病了不成？", "莫非你们早就认识？", "这些道理莫非是老生常谈。"],
+        "answer": 3,
+        "explanation": "'These principles are nothing but clichés' needs 无非, not 莫非."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["莫非", "你", "把", "钥匙", "锁在", "车里", "了"],
+        "english": "Could it be that you locked the keys in the car?",
+        "pinyin": "Mòfēi nǐ bǎ yàoshi suǒ zài chē li le?",
+        "explanation": "莫非 + the guessed clause (a 把 sentence here)."
+      }
+    ]
+  },
+  {
+    "id": "g6-guran",
+    "hskLevel": 6,
+    "title": "固然…但: admittedly…, but",
+    "titleHanzi": "固然",
+    "pattern": "A + 固然 + Adjective / Verb, + 但(是) / 可是 + B  ·  A + 固然 + …, + B + 也 + …",
+    "summary": "Concede a point, then make the more important one: 成绩固然重要，但健康更重要.",
+    "explanation": [
+      "**固然 (gùrán)** means 'admittedly, it's true that…'. You first acknowledge A as valid, then turn with **但(是) / 可是 / 却** to B, the point you really want to stress. With **也** instead, both A and B are presented as acceptable: 考上固然好，考不上也没关系.",
+      "Unlike **虽然**, which can stand before the subject, 固然 normally comes **after the subject**: 这个办法固然好 (not ✗ 固然这个办法好).",
+      "Register: formal, typical of essays, arguments and speeches. 虽然 is the neutral everyday concession; 固然 sounds more like 'granted, …' and implies the speaker genuinely agrees with A."
+    ],
+    "mistakes": [
+      "✗ 固然这个办法好，但成本太高。 → ✓ 这个办法固然好，但成本太高。 固然 follows the subject.",
+      "✗ 天赋固然重要，所以努力更重要。 → ✓ 天赋固然重要，但努力更重要。 固然 is a concession and is followed by a turn (但 / 可是), not by 所以."
+    ],
+    "examples": [
+      {
+        "hanzi": "成绩固然重要，但身体健康更重要。",
+        "pinyin": "Chéngjì gùrán zhòngyào, dàn shēntǐ jiànkāng gèng zhòngyào.",
+        "english": "Grades are important, of course, but good health matters more."
+      },
+      {
+        "hanzi": "这个方案固然省钱，可是风险太大。",
+        "pinyin": "Zhège fāng'àn gùrán shěng qián, kěshì fēngxiǎn tài dà.",
+        "english": "Granted, this plan saves money, but the risk is too great."
+      },
+      {
+        "hanzi": "能考上名校固然好，考不上也不必灰心。",
+        "pinyin": "Néng kǎo shàng míngxiào gùrán hǎo, kǎo bu shàng yě búbì huīxīn.",
+        "english": "Getting into a top university is great, of course, but if you don't, there's no need to lose heart.",
+        "note": "固然…也…: both outcomes are acceptable."
+      },
+      {
+        "hanzi": "网购固然方便，但也存在不少安全隐患。",
+        "pinyin": "Wǎnggòu gùrán fāngbiàn, dàn yě cúnzài bù shǎo ānquán yǐnhuàn.",
+        "english": "Online shopping is convenient, true, but it also carries quite a few security risks."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "工资高___好，但工作环境也很重要。",
+        "english": "A high salary is good, of course, but the working environment matters too.",
+        "options": ["既然", "固然", "不然", "竟然"],
+        "answer": 1,
+        "explanation": "Concession 'admittedly good' + 但 → 固然."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["固然这个计划很完美，但执行起来很难。", "这个计划固然很完美，但执行起来很难。", "虽然这个计划很完美，但执行起来很难。", "这个计划虽然很完美，但执行起来很难。"],
+        "answer": 0,
+        "explanation": "固然 must follow the subject (这个计划固然…). Only 虽然 can stand before it."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Talent is important, of course, but effort matters more.",
+        "optionScript": "hanzi",
+        "options": ["天赋固然重要，但努力更重要。", "天赋固然重要，所以努力更重要。", "固然天赋重要，但努力更重要。", "天赋既然重要，但努力更重要。"],
+        "answer": 0,
+        "explanation": "Subject + 固然 + concession, then 但 + the stronger point."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["经验", "固然", "可贵，", "但", "不能", "被它", "束缚"],
+        "english": "Experience is valuable, of course, but we must not be bound by it.",
+        "pinyin": "Jīngyàn gùrán kěguì, dàn bù néng bèi tā shùfù.",
+        "explanation": "A + 固然 + adjective, + 但 + main point."
+      }
+    ]
+  },
+  {
+    "id": "g6-yuqishuo-buru-shuo",
+    "hskLevel": 6,
+    "title": "与其说…不如说…: not so much A as B",
+    "titleHanzi": "与其说…不如说…",
+    "pattern": "与其说 + A, + 不如说 + B",
+    "summary": "Reframe a description: 与其说这是失败，不如说是一次经验.",
+    "explanation": [
+      "**与其说 A，不如说 B** means 'it's not so much A as B': A is a possible description, but B is more accurate. It is a tool for re-interpreting a situation, a person or a work.",
+      "Keep it apart from **与其 A，不如 B** (without 说), which compares two **actions** and recommends B: 与其在家等，不如去问问 (rather than waiting at home, better go and ask). With 说, you compare two **descriptions**.",
+      "Register: formal written style, essays, reviews and thoughtful speech. A casual equivalent is **其说是…，还不如说是… / 说是…，其实更像是…**. The second half must be 不如说 — not 还是说 or 而是说."
+    ],
+    "mistakes": [
+      "✗ 与其说他是演员，还是说他是歌手。 → ✓ 与其说他是演员，不如说他是歌手。 The fixed partner of 与其说 is 不如说.",
+      "✗ 与其在家里等消息，不如说主动去问问。 → ✓ 与其在家里等消息，不如主动去问问。 For choosing between actions, drop 说."
+    ],
+    "examples": [
+      {
+        "hanzi": "与其说这是一次失败，不如说是一次宝贵的经验。",
+        "pinyin": "Yǔqí shuō zhè shì yí cì shībài, bùrú shuō shì yí cì bǎoguì de jīngyàn.",
+        "english": "This was not so much a failure as a valuable experience."
+      },
+      {
+        "hanzi": "他与其说是我的上司，不如说是我的老师。",
+        "pinyin": "Tā yǔqí shuō shì wǒ de shàngsi, bùrú shuō shì wǒ de lǎoshī.",
+        "english": "He's less my boss than my teacher."
+      },
+      {
+        "hanzi": "与其说她不会做，不如说她根本不想做。",
+        "pinyin": "Yǔqí shuō tā bú huì zuò, bùrú shuō tā gēnběn bù xiǎng zuò.",
+        "english": "It's not so much that she can't do it as that she simply doesn't want to."
+      },
+      {
+        "hanzi": "这部电影与其说是喜剧，不如说是对现实的讽刺。",
+        "pinyin": "Zhè bù diànyǐng yǔqí shuō shì xǐjù, bùrú shuō shì duì xiànshí de fěngcì.",
+        "english": "This film is less a comedy than a satire of reality."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "与其说他运气好，___说他准备得充分。",
+        "english": "It's not so much that he was lucky as that he was well prepared.",
+        "options": ["还是", "不如", "而且", "何况"],
+        "answer": 1,
+        "explanation": "与其说 A，不如说 B is a fixed pair."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "与其在家里等消息，___主动去问问。",
+        "english": "Rather than waiting at home for news, you'd better go and ask.",
+        "options": ["宁可", "不如说", "不如", "何况"],
+        "answer": 2,
+        "explanation": "Choosing between two actions: 与其 A，不如 B — without 说."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["与其说他懒，不如说他没找到兴趣。", "与其说这是巧合，不如说是必然。", "与其说他是演员，还是说他是歌手。", "与其说是批评，不如说是提醒。"],
+        "answer": 2,
+        "explanation": "The second half must be 不如说, not 还是说."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "It's not so much that the task is hard as that we lack time.",
+        "optionScript": "pinyin",
+        "options": ["Yǔqí shuō rènwu nán, bùrú shuō wǒmen quē shíjiān.", "Yǔqí shuō wǒmen quē shíjiān, bùrú shuō rènwu nán.", "Bùrú shuō rènwu nán, yǔqí shuō wǒmen quē shíjiān.", "Yǔqí shuō rènwu nán, hékuàng wǒmen quē shíjiān."],
+        "answer": 0,
+        "explanation": "The less accurate description (task is hard) follows 与其说; the more accurate one (lack of time) follows 不如说."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["与其说", "他", "在", "工作，", "不如说", "他", "在", "享受", "生活"],
+        "english": "It's less that he's working than that he's enjoying life.",
+        "pinyin": "Yǔqí shuō tā zài gōngzuò, bùrú shuō tā zài xiǎngshòu shēnghuó.",
+        "explanation": "与其说 + A，不如说 + B (the better description)."
+      }
+    ]
+  },
+  {
+    "id": "g6-jianyu",
+    "hskLevel": 6,
+    "title": "鉴于: in view of",
+    "titleHanzi": "鉴于",
+    "pattern": "鉴于 + Situation / 此, + (Subject) + Decision",
+    "summary": "Give the grounds for a decision: 鉴于天气原因，航班全部取消.",
+    "explanation": [
+      "**鉴于 (jiànyú)** means 'in view of, considering'. It introduces a circumstance and is followed by a **deliberate decision, suggestion or measure** based on it. It usually stands at the very start of the sentence. **鉴于此** = in view of this.",
+      "Contrast with **由于**: 由于 states any cause, including natural results (由于下雨，路很滑). 鉴于 is only used when someone takes action on that basis (鉴于路滑，学校决定停课).",
+      "Register: very formal — official notices, reports, legal and business writing. In speech use **考虑到** or, more casually, **既然**."
+    ],
+    "mistakes": [
+      "✗ 鉴于下雨，路很滑。 → ✓ 由于下雨，路很滑。 A slippery road is a natural result, not a decision; use 由于.",
+      "✗ 鉴于你明天还要上班，今晚就别喝了吧。 → ✓ 既然你明天还要上班，今晚就别喝了吧。 In casual advice 鉴于 sounds bureaucratic; 既然 is natural."
+    ],
+    "examples": [
+      {
+        "hanzi": "鉴于天气原因，今天的航班全部取消。",
+        "pinyin": "Jiànyú tiānqì yuányīn, jīntiān de hángbān quánbù qǔxiāo.",
+        "english": "Due to the weather, all of today's flights have been cancelled."
+      },
+      {
+        "hanzi": "鉴于他的突出表现，公司决定给他升职。",
+        "pinyin": "Jiànyú tā de tūchū biǎoxiàn, gōngsī juédìng gěi tā shēng zhí.",
+        "english": "In view of his outstanding performance, the company decided to promote him."
+      },
+      {
+        "hanzi": "鉴于目前的情况，我们建议推迟会议。",
+        "pinyin": "Jiànyú mùqián de qíngkuàng, wǒmen jiànyì tuīchí huìyì.",
+        "english": "Given the current situation, we suggest postponing the meeting."
+      },
+      {
+        "hanzi": "鉴于此，本店将暂停营业三天。",
+        "pinyin": "Jiànyú cǐ, běn diàn jiāng zàntíng yíngyè sān tiān.",
+        "english": "In view of this, the shop will be closed for three days.",
+        "note": "Typical notice wording."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___双方意见分歧较大，会议决定下周继续讨论。",
+        "english": "In view of the considerable disagreement between the two sides, the meeting decided to continue discussions next week.",
+        "options": ["至于", "鉴于", "以便", "以免"],
+        "answer": 1,
+        "explanation": "Circumstance + a formal decision (会议决定…) → 鉴于."
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the most natural word for casual speech.",
+        "sentence": "___你明天还要上班，今晚就别喝酒了。",
+        "english": "Since you have to work tomorrow, don't drink tonight.",
+        "options": ["鉴于", "既然", "固然", "以便"],
+        "answer": 1,
+        "explanation": "Friendly advice in conversation → 既然. 鉴于 belongs to official writing."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["鉴于时间有限，我们只讨论两个问题。", "鉴于他昨晚没睡好，今天特别困。", "鉴于报名人数太少，活动取消了。", "鉴于以上原因，我们决定更换供应商。"],
+        "answer": 1,
+        "explanation": "Being sleepy is a natural result, not a decision — use 由于 or 因为."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "In view of rising costs, the company decided to raise prices.",
+        "optionScript": "hanzi",
+        "options": ["鉴于成本上涨，公司决定提高价格。", "由于成本上涨，所以公司鉴于提高价格。", "公司鉴于决定提高价格成本上涨。", "鉴于成本上涨，公司以便提高价格。"],
+        "answer": 0,
+        "explanation": "鉴于 + situation at the start, then the decision clause."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["鉴于", "以上", "情况，", "我们", "决定", "暂停", "合作"],
+        "english": "In view of the above, we have decided to suspend the cooperation.",
+        "pinyin": "Jiànyú yǐshàng qíngkuàng, wǒmen juédìng zàntíng hézuò.",
+        "explanation": "鉴于 + circumstance, + subject + decision."
+      }
+    ]
+  },
+  {
+    "id": "g6-jiu-eryan",
+    "hskLevel": 6,
+    "title": "就…而言 / 相对而言: as far as … is concerned",
+    "titleHanzi": "就…而言",
+    "pattern": "就 + Topic / Aspect + 而言, + Comment  ·  对 + Person + 而言  ·  相对而言, + Comment",
+    "summary": "Limit your statement to one aspect: 就质量而言，这款更好.",
+    "explanation": [
+      "**就 X 而言** means 'as far as X is concerned, in terms of X'. It narrows a judgement to one aspect: 就价格而言… (price-wise…). **对 X 而言** focuses on a person or group: 对我而言 = for me. **相对而言** means 'relatively speaking'.",
+      "The frame is fixed: **而言** is the formal ending; **来说** is the neutral one. Don't mix them (✗ 就我而说, ✗ 就我而言来说).",
+      "Register: 就…而言 and 相对而言 are formal, used in writing, reports and presentations. In everyday speech say **从…来看 / 对…来说 / 说到…**."
+    ],
+    "mistakes": [
+      "✗ 就我而说，这个办法不错。 → ✓ 就我而言 / 就我来说，这个办法不错。 The endings are 而言 or 来说, not 而说.",
+      "✗ 就价格而言来说，这家最便宜。 → ✓ 就价格而言，这家最便宜。 Use one ending only."
+    ],
+    "examples": [
+      {
+        "hanzi": "就质量而言，这款手机比那款好得多。",
+        "pinyin": "Jiù zhìliàng ér yán, zhè kuǎn shǒujī bǐ nà kuǎn hǎo de duō.",
+        "english": "In terms of quality, this phone is much better than that one."
+      },
+      {
+        "hanzi": "就我个人而言，我更喜欢安静的生活。",
+        "pinyin": "Jiù wǒ gèrén ér yán, wǒ gèng xǐhuan ānjìng de shēnghuó.",
+        "english": "Speaking for myself, I prefer a quiet life."
+      },
+      {
+        "hanzi": "就目前的条件而言，这已经是最好的结果了。",
+        "pinyin": "Jiù mùqián de tiáojiàn ér yán, zhè yǐjīng shì zuì hǎo de jiéguǒ le.",
+        "english": "Given the present conditions, this is already the best possible outcome."
+      },
+      {
+        "hanzi": "这里的房价相对而言比较便宜。",
+        "pinyin": "Zhèli de fángjià xiāngduì ér yán bǐjiào piányi.",
+        "english": "Housing prices here are relatively cheap."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "就价格___，这家店最有竞争力。",
+        "english": "In terms of price, this shop is the most competitive.",
+        "options": ["而已", "而说", "而言", "而且"],
+        "answer": 2,
+        "explanation": "The fixed frame is 就…而言."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["就我而说，这个办法不错。", "就我而言，这个办法不错。", "就我而言来说，这个办法不错。", "就我来而言，这个办法不错。"],
+        "answer": 1,
+        "explanation": "Only 就我而言 (or 就我来说) is correct; endings can't be mixed."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Relatively speaking, this plan is more realistic.",
+        "optionScript": "pinyin",
+        "options": ["Xiāngduì ér yán, zhège fāng'àn gèng xiànshí.", "Xiāngduì ér shuō, zhège fāng'àn gèng xiànshí.", "Jiù xiāngduì, zhège fāng'àn gèng xiànshí.", "Xiāngduì éryǐ, zhège fāng'àn gèng xiànshí."],
+        "answer": 0,
+        "explanation": "'Relatively speaking' = 相对而言."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["就", "交通", "而言，", "这个", "城市", "还", "有待", "改善"],
+        "english": "In terms of transport, this city still needs improvement.",
+        "pinyin": "Jiù jiāotōng ér yán, zhège chéngshì hái yǒudài gǎishàn.",
+        "explanation": "就 + aspect + 而言, then the comment."
+      }
+    ]
+  },
+  {
+    "id": "g6-youci-kejian",
+    "hskLevel": 6,
+    "title": "由此可见 / 总而言之: drawing conclusions",
+    "titleHanzi": "由此可见 · 总而言之",
+    "pattern": "Evidence. + 由此可见 / 可见, + Conclusion  ·  总而言之 / 总之, + Summary",
+    "summary": "Infer or sum up: 他三年都是冠军，由此可见他的实力 · 总而言之，活动很成功.",
+    "explanation": [
+      "**由此可见 (yóucǐ kějiàn)** = 'from this we can see'. It must follow concrete evidence and introduces the **inference** drawn from it. The shorter **可见** works the same way inside a sentence: 他还没回消息，可见是生气了.",
+      "**总而言之 (zǒng'éryánzhī)** = 'all in all, in short'. It doesn't infer anything new; it **sums up** what has been said. Its everyday short form is **总之**.",
+      "Register: 由此可见 and 总而言之 are formal (essays, speeches, reports); 可见 and 总之 are fine in conversation too. Related: **换句话说** (in other words) rephrases; **与此同时** (meanwhile) adds a parallel fact."
+    ],
+    "mistakes": [
+      "✗ 由此可见，我先介绍一下背景。 → ✓ 首先，我介绍一下背景。 由此可见 needs evidence before it and introduces a conclusion.",
+      "✗ 由于可见，他很努力。 → ✓ 由此可见，他很努力。 此 means 'this' (the facts just mentioned); 由于 is a different word."
+    ],
+    "examples": [
+      {
+        "hanzi": "这本书半年就卖了一百万册，由此可见它有多受欢迎。",
+        "pinyin": "Zhè běn shū bàn nián jiù mài le yìbǎi wàn cè, yóucǐ kějiàn tā yǒu duō shòu huānyíng.",
+        "english": "This book sold a million copies in half a year, which shows just how popular it is."
+      },
+      {
+        "hanzi": "他连续三年获得冠军，由此可见他的实力。",
+        "pinyin": "Tā liánxù sān nián huòdé guànjūn, yóucǐ kějiàn tā de shílì.",
+        "english": "He has won the championship three years running — that shows how strong he is."
+      },
+      {
+        "hanzi": "总而言之，这次活动办得非常成功。",
+        "pinyin": "Zǒng'éryánzhī, zhè cì huódòng bàn de fēicháng chénggōng.",
+        "english": "All in all, the event was a great success."
+      },
+      {
+        "hanzi": "他到现在还没回消息，可见是真的生气了。",
+        "pinyin": "Tā dào xiànzài hái méi huí xiāoxi, kějiàn shì zhēn de shēngqì le.",
+        "english": "He still hasn't replied, so he must really be angry.",
+        "note": "可见 = the lighter, mid-sentence form."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这家店天天排长队，___它的东西确实好吃。",
+        "english": "There's a long queue at this shop every day, which shows its food really is good.",
+        "options": ["总而言之", "由此可见", "与此同时", "换句话说"],
+        "answer": 1,
+        "explanation": "Evidence (long queues) → inference → 由此可见."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我们讨论了时间、预算和人员问题。___，这个项目可以开始了。",
+        "english": "We've discussed timing, budget and staffing. In short, the project can begin.",
+        "options": ["总而言之", "鉴于", "不料", "以免"],
+        "answer": 0,
+        "explanation": "Summing up after a list of points → 总而言之."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["他每天练习八小时，由此可见他有多努力。", "由此可见，我们今天先来认识一下彼此。", "总而言之，身体健康最重要。", "他连这个都不知道，可见平时不看新闻。"],
+        "answer": 1,
+        "explanation": "由此可见 needs preceding evidence and introduces a conclusion, not an opening activity."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["由此", "可见，", "环境", "对", "人", "的", "影响", "非常", "大"],
+        "english": "From this we can see that the environment has a huge influence on people.",
+        "pinyin": "Yóucǐ kějiàn, huánjìng duì rén de yǐngxiǎng fēicháng dà.",
+        "explanation": "由此可见 + conclusion (A 对 B 的影响很大)."
+      }
+    ]
+  },
+  {
+    "id": "g6-guqie",
+    "hskLevel": 6,
+    "title": "姑且: for the time being, tentatively",
+    "titleHanzi": "姑且",
+    "pattern": "Subject + 姑且 + Verb  ·  姑且不论 / 姑且不说 + A, + B",
+    "summary": "Accept something provisionally: 我们姑且试一试 · 姑且不说价格，质量就不行.",
+    "explanation": [
+      "**姑且 (gūqiě)** means 'for the time being, tentatively, let's just…'. It signals a **provisional compromise**: not ideal, but acceptable for now. Typical verbs: 试一试, 相信, 放一放, 按…办, 让…负责.",
+      "**姑且不论 / 姑且不说 A** = 'leaving A aside': the speaker sets one issue aside to focus on another.",
+      "Register: formal / written, but also used in measured speech. Spoken near-synonyms: **先 / 暂且 / 暂时**. 暂时 is purely about time ('temporarily'); 姑且 adds the sense of reluctant acceptance and is not used for neutral durations."
+    ],
+    "mistakes": [
+      "✗ 他姑且在这家公司工作了十年。 → ✓ 他在这家公司工作了十年。 姑且 marks a tentative choice, not a plain stretch of time.",
+      "✗ 姑且价格不说，质量也不行。 → ✓ 姑且不说价格，质量也不行。 The fixed order is 姑且不说 / 姑且不论 + topic."
+    ],
+    "examples": [
+      {
+        "hanzi": "这个办法虽然不完美，我们姑且试一试吧。",
+        "pinyin": "Zhège bànfǎ suīrán bù wánměi, wǒmen gūqiě shì yi shì ba.",
+        "english": "This method isn't perfect, but let's give it a try for now."
+      },
+      {
+        "hanzi": "他的话可信不可信，我们姑且不论。",
+        "pinyin": "Tā de huà kěxìn bu kěxìn, wǒmen gūqiě bú lùn.",
+        "english": "Whether what he says is credible, let's leave aside for now."
+      },
+      {
+        "hanzi": "姑且不说价格，单是质量就不过关。",
+        "pinyin": "Gūqiě bù shuō jiàgé, dān shì zhìliàng jiù bú guòguān.",
+        "english": "Leaving the price aside, the quality alone isn't up to standard."
+      },
+      {
+        "hanzi": "没有更好的人选，就姑且让他负责吧。",
+        "pinyin": "Méiyǒu gèng hǎo de rénxuǎn, jiù gūqiě ràng tā fùzé ba.",
+        "english": "There's no better candidate, so let's put him in charge for the time being."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他的解释有些牵强，但我___相信他一次。",
+        "english": "His explanation is a bit far-fetched, but I'll believe him this once.",
+        "options": ["何尝", "未免", "姑且", "动辄"],
+        "answer": 2,
+        "explanation": "Reluctant, provisional acceptance → 姑且."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___不论结果如何，这次尝试本身就很有意义。",
+        "english": "Leaving aside how it turns out, the attempt itself is meaningful.",
+        "options": ["姑且", "以免", "鉴于", "不料"],
+        "answer": 0,
+        "explanation": "姑且不论 = leaving … aside."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["我们姑且按原计划进行。", "这件事姑且放一放。", "他姑且在这家公司工作了十年。", "姑且不说别的，光是路费就很贵。"],
+        "answer": 2,
+        "explanation": "Ten years of work is a plain fact, not a tentative choice; 姑且 doesn't fit."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Let's set this question aside for now.",
+        "optionScript": "hanzi",
+        "options": ["这个问题姑且放在一边。", "这个问题未免放在一边。", "这个问题何尝放在一边。", "这个问题以免放在一边。"],
+        "answer": 0,
+        "explanation": "'For now, tentatively' = 姑且."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["我们", "姑且", "把", "这个", "方案", "当作", "备选"],
+        "english": "Let's tentatively treat this plan as a backup.",
+        "pinyin": "Wǒmen gūqiě bǎ zhège fāng'àn dàngzuò bèixuǎn.",
+        "explanation": "姑且 goes before the verb phrase (here a 把 phrase)."
+      }
+    ]
+  },
+  {
+    "id": "g6-dongzhe",
+    "hskLevel": 6,
+    "title": "动辄: at the slightest provocation",
+    "titleHanzi": "动辄",
+    "pattern": "Subject + 动辄 + Verb  ·  Subject + 动辄 + (上 / 几) + Large Number",
+    "summary": "Criticise something that happens too easily or too often: 他动辄发火 · 房子动辄几百万.",
+    "explanation": [
+      "**动辄 (dòngzhé)** means 'at every turn, at the slightest excuse'. It is **critical**: the action happens far too easily (动辄发火, 动辄打骂孩子).",
+      "Before numbers it means 'easily run to, often as much as': 门票动辄上千元 — again with a note of complaint about how high it is.",
+      "Register: formal / written (commentary, news). The colloquial equivalent is **动不动就**. Neutral frequency words like **常常 / 往往** carry no criticism and should be used for positive habits."
+    ],
+    "mistakes": [
+      "✗ 她动辄关心身边的人。 → ✓ 她常常关心身边的人。 动辄 is negative; use 常常 for good habits."
+    ],
+    "examples": [
+      {
+        "hanzi": "他脾气不好，动辄发火。",
+        "pinyin": "Tā píqi bù hǎo, dòngzhé fāhuǒ.",
+        "english": "He has a bad temper and flies off the handle at the slightest thing."
+      },
+      {
+        "hanzi": "市中心的房子动辄几百万。",
+        "pinyin": "Shì zhōngxīn de fángzi dòngzhé jǐ bǎi wàn.",
+        "english": "Flats in the city centre easily cost several million.",
+        "note": "动辄 + number."
+      },
+      {
+        "hanzi": "有些家长动辄打骂孩子，这种做法很不可取。",
+        "pinyin": "Yǒuxiē jiāzhǎng dòngzhé dǎmà háizi, zhè zhǒng zuòfǎ hěn bù kěqǔ.",
+        "english": "Some parents hit and scold their children at the slightest provocation — a highly undesirable practice."
+      },
+      {
+        "hanzi": "别动不动就说辞职，冷静想一想。",
+        "pinyin": "Bié dòng bu dòng jiù shuō cízhí, lěngjìng xiǎng yi xiǎng.",
+        "english": "Don't talk about quitting at every little thing — calm down and think it over.",
+        "note": "Spoken equivalent: 动不动就."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这位老板___批评员工，大家都怕他。",
+        "english": "This boss criticises his staff at the slightest thing; everyone is afraid of him.",
+        "options": ["姑且", "动辄", "未尝", "不由得"],
+        "answer": 1,
+        "explanation": "A habitual, criticised reaction → 动辄."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "现在名牌大学的学费___几十万。",
+        "english": "Tuition at prestigious universities nowadays easily runs to several hundred thousand.",
+        "options": ["难免", "姑且", "不料", "动辄"],
+        "answer": 3,
+        "explanation": "动辄 + large number = easily as much as (with a complaint)."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["演唱会的门票动辄上千元。", "她动辄关心身边的每一个人。", "他动辄以辞职相威胁。", "小孩子动不动就哭。"],
+        "answer": 1,
+        "explanation": "Caring for others is positive; 动辄 is only used critically. Use 常常 or 总是."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "He loses his temper at the slightest thing.",
+        "optionScript": "pinyin",
+        "options": ["Tā dòng bu dòng jiù fā píqi.", "Tā gūqiě jiù fā píqi.", "Tā bùmiǎn jiù fā píqi.", "Tā wèicháng jiù fā píqi."],
+        "answer": 0,
+        "explanation": "动不动就 is the spoken form of 动辄."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["他", "动辄", "拿", "离婚", "来", "威胁", "妻子"],
+        "english": "He threatens his wife with divorce at the drop of a hat.",
+        "pinyin": "Tā dòngzhé ná líhūn lái wēixié qīzi.",
+        "explanation": "Subject + 动辄 + verb phrase (拿 X 来 + verb)."
+      }
+    ]
+  },
+  {
+    "id": "g6-buyoude",
+    "hskLevel": 6,
+    "title": "不由得: can't help but",
+    "titleHanzi": "不由得",
+    "pattern": "Trigger, + Subject + 不由得 + Reaction  ·  不由得 + 你 + 不 + Verb",
+    "summary": "Describe an involuntary reaction: 听到好消息，她不由得笑了起来.",
+    "explanation": [
+      "**不由得 (bùyóude)** means 'can't help (doing), involuntarily'. A situation triggers a spontaneous reaction — laughing, sighing, shivering, recalling: 看到老照片，他不由得想起了童年.",
+      "A second use: **不由得 + person + 不 + verb** = 'leaves one no choice but to': 他说得那么肯定，不由得你不信 (you can't help but believe him).",
+      "Register: common in narrative writing and in speech. **不禁** is the more literary near-synonym; **忍不住** is more colloquial and often refers to something one tries to hold back (忍不住多吃了两碗). Don't confuse with **不得不** (be forced to, by circumstances) — 不由得 is about involuntary reactions, not obligations."
+    ],
+    "mistakes": [
+      "✗ 明天有考试，我不由得早点儿睡觉。 → ✓ 明天有考试，我不得不早点儿睡觉。 An obligation is 不得不; 不由得 is a spontaneous reaction.",
+      "✗ 他看了笑话，不由得不笑。 → ✓ 他看了笑话，不由得笑了起来。 不由得 already means 'can't help'; the extra 不 is only used in 不由得 + person + 不 + verb."
+    ],
+    "examples": [
+      {
+        "hanzi": "听到这个好消息，她不由得笑了起来。",
+        "pinyin": "Tīngdào zhège hǎo xiāoxi, tā bùyóude xiào le qǐlai.",
+        "english": "Hearing the good news, she couldn't help bursting into a smile."
+      },
+      {
+        "hanzi": "看到家乡的变化，他不由得感慨万分。",
+        "pinyin": "Kàndào jiāxiāng de biànhuà, tā bùyóude gǎnkǎi wànfēn.",
+        "english": "Seeing how his hometown had changed, he was overcome with emotion."
+      },
+      {
+        "hanzi": "想起那次事故，我不由得打了个寒战。",
+        "pinyin": "Xiǎngqǐ nà cì shìgù, wǒ bùyóude dǎ le ge hánzhàn.",
+        "english": "Remembering that accident, I couldn't help shuddering."
+      },
+      {
+        "hanzi": "他说得那么肯定，不由得你不信。",
+        "pinyin": "Tā shuō de nàme kěndìng, bùyóude nǐ bú xìn.",
+        "english": "He spoke with such certainty that you couldn't help but believe him.",
+        "note": "不由得 + person + 不 + verb."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "看着老照片，奶奶___流下了眼泪。",
+        "english": "Looking at the old photos, Grandma couldn't help shedding tears.",
+        "options": ["不得不", "不见得", "不由得", "不得已"],
+        "answer": 2,
+        "explanation": "An involuntary emotional reaction → 不由得."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["听了他的话，大家不由得笑了。", "明天有考试，我不由得早点儿睡觉。", "看到那一幕，她不禁哭了出来。", "闻到饭菜香，我忍不住多吃了两碗。"],
+        "answer": 1,
+        "explanation": "Going to bed early because of an exam is an obligation → 不得不, not 不由得."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Seeing the beautiful scenery, he couldn't help taking out his camera.",
+        "optionScript": "hanzi",
+        "options": ["看到美丽的风景，他不由得拿出了相机。", "看到美丽的风景，他不得不拿出了相机。", "看到美丽的风景，他不见得拿出了相机。", "看到美丽的风景，他拿出了不由得相机。"],
+        "answer": 0,
+        "explanation": "A spontaneous reaction → 不由得 before the verb."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["听到", "这个", "消息，", "大家", "不由得", "欢呼", "起来"],
+        "english": "Hearing the news, everyone couldn't help cheering.",
+        "pinyin": "Tīngdào zhège xiāoxi, dàjiā bùyóude huānhū qǐlai.",
+        "explanation": "Trigger clause, then subject + 不由得 + reaction."
+      }
+    ]
+  },
+  {
+    "id": "g6-hendebu-badebu",
+    "hskLevel": 6,
+    "title": "恨不得 vs 巴不得: itching to vs only too glad",
+    "titleHanzi": "恨不得 · 巴不得",
+    "pattern": "Subject + 恨不得 + (Exaggerated) Wish  ·  Subject + 巴不得 + (Hoped-for) Event  ·  正是 + Subject + 巴不得的",
+    "summary": "Two strong wishes: 恨不得马上飞回家 (wish I could!) vs 巴不得天天放假 (would love it).",
+    "explanation": [
+      "**恨不得 (hènbude)** = 'itching to, wish one could'. The wish is intense and usually **exaggerated or impossible**, and often comes from impatience or frustration: 恨不得马上飞回家, 恨不得找个地缝钻进去.",
+      "**巴不得 (bābude)** = 'be only too glad, eagerly hope'. The wish is usually something that **could really happen** and that the speaker welcomes. It can take a whole clause (巴不得他早点儿走) and, unlike 恨不得, it can be used with 的: **这正是我巴不得的**.",
+      "Register: both are colloquial-expressive but common in writing too. Neutral alternatives: **很想 / 非常希望**. Don't mix them up with **舍不得** (reluctant to part with) or **不由得** (can't help)."
+    ],
+    "mistakes": [
+      "✗ 能出国学习，这是我恨不得的事。 → ✓ 能出国学习，这是我巴不得的事。 Only 巴不得 can be used with 的 as a noun modifier/predicate."
+    ],
+    "examples": [
+      {
+        "hanzi": "听说妈妈病了，他恨不得马上飞回家。",
+        "pinyin": "Tīngshuō māma bìng le, tā hènbude mǎshàng fēi huí jiā.",
+        "english": "Hearing that his mother was ill, he wished he could fly home immediately."
+      },
+      {
+        "hanzi": "我气得恨不得把电脑砸了。",
+        "pinyin": "Wǒ qì de hènbude bǎ diànnǎo zá le.",
+        "english": "I was so angry I felt like smashing the computer."
+      },
+      {
+        "hanzi": "孩子们巴不得天天放假。",
+        "pinyin": "Háizimen bābude tiāntiān fàngjià.",
+        "english": "The kids would love to be on holiday every day."
+      },
+      {
+        "hanzi": "你不想去？那正好，我巴不得你留下来帮忙呢。",
+        "pinyin": "Nǐ bù xiǎng qù? Nà zhènghǎo, wǒ bābude nǐ liú xiàlai bāngmáng ne.",
+        "english": "You don't want to go? Perfect — I'd be only too glad if you stayed to help.",
+        "note": "巴不得 + clause with its own subject."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "公司让他提前退休，这正是他___的。",
+        "english": "The company let him retire early — exactly what he'd been hoping for.",
+        "options": ["恨不得", "巴不得", "不由得", "不得已"],
+        "answer": 1,
+        "explanation": "Only 巴不得 works in 是…的 as 'what one eagerly hopes for'."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "当众出了丑，他尴尬得___找个地缝钻进去。",
+        "english": "Having embarrassed himself in public, he wished the ground would swallow him up.",
+        "options": ["巴不得", "恨不得", "不由得", "舍不得"],
+        "answer": 1,
+        "explanation": "An exaggerated, impossible wish born of frustration → 恨不得."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["他恨不得一天有四十八个小时。", "这次能出国学习，正是我恨不得的。", "放假了，学生们巴不得早点儿回家。", "我巴不得他别来呢。"],
+        "answer": 1,
+        "explanation": "恨不得 cannot be used with 的 like this; it should be 正是我巴不得的."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "He was itching to tell everyone the news right away.",
+        "optionScript": "pinyin",
+        "options": ["Tā hènbude mǎshàng bǎ zhège xiāoxi gàosu suǒyǒu rén.", "Tā shěbude mǎshàng bǎ zhège xiāoxi gàosu suǒyǒu rén.", "Tā wèimiǎn mǎshàng bǎ zhège xiāoxi gàosu suǒyǒu rén.", "Tā bùdéyǐ mǎshàng bǎ zhège xiāoxi gàosu suǒyǒu rén."],
+        "answer": 0,
+        "explanation": "An impatient, intense wish → 恨不得."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["我", "恨不得", "马上", "飞到", "你", "身边"],
+        "english": "I wish I could fly to your side right now.",
+        "pinyin": "Wǒ hènbude mǎshàng fēi dào nǐ shēnbiān.",
+        "explanation": "Subject + 恨不得 + the (impossible) wish."
+      }
+    ]
+  },
+  {
+    "id": "g6-budebu-budeyi",
+    "hskLevel": 6,
+    "title": "不得不 vs 不得已: forced vs having no alternative",
+    "titleHanzi": "不得不 · 不得已",
+    "pattern": "Subject + 不得不 + Verb  ·  Subject + 是 + 不得已(的)  ·  不得已的 + Noun  ·  万不得已 / 迫不得已",
+    "summary": "不得不 goes before a verb (不得不辞职); 不得已 is an adjective (我也是不得已, 不得已的选择).",
+    "explanation": [
+      "**不得不 (bùdébù)** works like an adverb: it goes **directly before a verb** and means 'have no choice but to': 我们不得不推迟. Note the tone change before a fourth tone: 不得不去 = bùdébú qù.",
+      "**不得已 (bùdéyǐ)** is an **adjective**: 'having no alternative, acting against one's will'. It is used as a predicate (**我也是不得已**), before a noun with 的 (**不得已的选择**), or in set phrases: **迫不得已** (forced by circumstances), **万不得已** (as a last resort), **出于不得已**.",
+      "Register: 不得不 is neutral and very common; 不得已 is more formal and emotional (justifying oneself). In casual speech **只好 / 没办法，只能** are frequent alternatives."
+    ],
+    "mistakes": [
+      "✗ 辞职是他不得不的决定。 → ✓ 辞职是他不得已的决定。 Before 的 + noun you need the adjective 不得已.",
+      "✗ 我这么做也是不得不。 → ✓ 我这么做也是不得已。 不得不 must be followed by a verb; as a predicate use 不得已."
+    ],
+    "examples": [
+      {
+        "hanzi": "由于资金不足，项目不得不暂停。",
+        "pinyin": "Yóuyú zījīn bùzú, xiàngmù bùdébú zàntíng.",
+        "english": "Due to a lack of funds, the project had to be suspended."
+      },
+      {
+        "hanzi": "这么做我也是不得已，请你理解。",
+        "pinyin": "Zhème zuò wǒ yě shì bùdéyǐ, qǐng nǐ lǐjiě.",
+        "english": "I had no alternative but to do it — please understand."
+      },
+      {
+        "hanzi": "不到万不得已，我不会向别人借钱。",
+        "pinyin": "Bú dào wànbùdéyǐ, wǒ bú huì xiàng biérén jiè qián.",
+        "english": "I won't borrow money from anyone unless it's an absolute last resort."
+      },
+      {
+        "hanzi": "卖掉老房子是他不得已的选择。",
+        "pinyin": "Màidiào lǎo fángzi shì tā bùdéyǐ de xuǎnzé.",
+        "english": "Selling the old house was a choice he was forced into."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他这样做也是出于___，大家别怪他。",
+        "english": "He did it because he had no other choice — don't blame him.",
+        "options": ["不得不", "不得已", "不由得", "恨不得"],
+        "answer": 1,
+        "explanation": "出于 needs a noun-like word: 出于不得已. 不得不 must be followed by a verb."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "雨太大了，比赛___推迟到明天。",
+        "english": "The rain was so heavy that the match had to be postponed to tomorrow.",
+        "options": ["恨不得", "不由得", "不得不", "巴不得"],
+        "answer": 2,
+        "explanation": "Forced by circumstances, directly before a verb → 不得不."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["辞职是他不得不的决定。", "辞职是他不得已的决定。", "他不得不辞职。", "不到万不得已，他不会辞职。"],
+        "answer": 0,
+        "explanation": "A noun modifier needs the adjective 不得已: 不得已的决定."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "We had no choice but to change our plan.",
+        "optionScript": "hanzi",
+        "options": ["我们不得不改变计划。", "我们不由得改变计划。", "我们巴不得改变计划。", "我们不得改变计划。"],
+        "answer": 0,
+        "explanation": "不得不 + verb = have no choice but to. 不得 alone means 'must not'."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["这是", "一个", "迫不得已", "的", "选择"],
+        "english": "This was a choice made out of necessity.",
+        "pinyin": "Zhè shì yí gè pòbùdéyǐ de xuǎnzé.",
+        "explanation": "迫不得已 + 的 + noun."
+      }
+    ]
+  },
+  {
+    "id": "g6-jiezhi",
+    "hskLevel": 6,
+    "title": "截至 vs 截止: as of vs closing",
+    "titleHanzi": "截至 · 截止",
+    "pattern": "截至 + Time Point, + Figure / State  ·  Event + (于 + Time) + 截止  ·  截止日期",
+    "summary": "截至目前 (as of now) vs 报名明天截止 (registration closes tomorrow).",
+    "explanation": [
+      "**截至 (jiézhì)** is a preposition meaning 'up to, as of (a point in time)'. It is followed by a time expression and typically introduces statistics or a current state: **截至昨天，已有三千人报名**.",
+      "**截止 (jiézhǐ)** is a verb meaning 'to close, to end'. It comes **after** its subject or time phrase: **报名于5月1日截止**, and appears in compounds like **截止日期** (deadline). It can take a time only with 到: **截止到目前** = 截至目前.",
+      "Register: both are formal (news, notices, official statistics). In speech people say **到…为止** or **最后一天是…**. The two are pronounced almost the same (zhì vs zhǐ) and are a classic writing error for native speakers too."
+    ],
+    "mistakes": [
+      "✗ 报名将于明天截至。 → ✓ 报名将于明天截止。 The verb 'to close' is 截止.",
+      "✗ 截止目前，没有人反对。 → ✓ 截至目前（截止到目前），没有人反对。 截止 cannot take a time directly as its object."
+    ],
+    "examples": [
+      {
+        "hanzi": "截至昨天下午五点，已有三千人报名。",
+        "pinyin": "Jiézhì zuótiān xiàwǔ wǔ diǎn, yǐ yǒu sānqiān rén bàomíng.",
+        "english": "As of 5 p.m. yesterday, 3,000 people had already signed up."
+      },
+      {
+        "hanzi": "申请将于本月底截止。",
+        "pinyin": "Shēnqǐng jiāng yú běn yuè dǐ jiézhǐ.",
+        "english": "Applications will close at the end of this month."
+      },
+      {
+        "hanzi": "截至目前，警方尚未公布调查结果。",
+        "pinyin": "Jiézhì mùqián, jǐngfāng shàng wèi gōngbù diàochá jiéguǒ.",
+        "english": "As of now, the police have not yet published the results of the investigation."
+      },
+      {
+        "hanzi": "请在截止日期前提交论文。",
+        "pinyin": "Qǐng zài jiézhǐ rìqī qián tíjiāo lùnwén.",
+        "english": "Please submit your thesis before the deadline."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___上个月底，该公司的用户已突破一亿。",
+        "english": "As of the end of last month, the company's users had passed 100 million.",
+        "options": ["截止", "截至", "至于", "以至"],
+        "answer": 1,
+        "explanation": "Preposition + time point introducing a statistic → 截至."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "投稿时间将于六月三十日___。",
+        "english": "Submissions will close on 30 June.",
+        "options": ["截至", "截止", "终于", "以至"],
+        "answer": 1,
+        "explanation": "The verb 'to close' at the end of the sentence → 截止."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["报名将于明天截至。", "截止目前，没有人提出反对。", "截至目前，没有人提出反对。", "截至日期是下周五。"],
+        "answer": 2,
+        "explanation": "截至 + time = as of. 截止 is the verb (报名截止, 截止日期)."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "As of today, more than 500 people have signed up.",
+        "optionScript": "pinyin",
+        "options": ["Jiézhì jīntiān, yǐ yǒu wǔbǎi duō rén bàomíng.", "Jīntiān jiézhǐ, yǐ yǒu wǔbǎi duō rén bàomíng.", "Jiézhǐ jīntiān jiézhì, wǔbǎi duō rén bàomíng.", "Jīntiān jiézhì, wǔbǎi duō rén yǐ bàomíng."],
+        "answer": 0,
+        "explanation": "截至 (jiézhì) + time point at the start. 今天截止 would mean 'it closes today'."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["截至", "今年", "六月，", "全市", "共有", "新能源汽车", "十万辆"],
+        "english": "As of June this year, the city had 100,000 new-energy vehicles in total.",
+        "pinyin": "Jiézhì jīnnián liù yuè, quán shì gòng yǒu xīnnéngyuán qìchē shíwàn liàng.",
+        "explanation": "截至 + time point, then the statistic."
+      }
+    ]
+  },
+  {
+    "id": "g6-zhisuoyi",
+    "hskLevel": 6,
+    "title": "之所以…是因为…: the reason why … is that …",
+    "titleHanzi": "之所以",
+    "pattern": "Subject + 之所以 + Result, + 是因为 / 是由于 / 在于 + Reason",
+    "summary": "Put the result first and spotlight the reason: 他之所以成功，是因为从不放弃.",
+    "explanation": [
+      "**之所以 (zhīsuǒyǐ)** reverses the usual order of 因为…所以…: the **known result comes first**, and the second clause, introduced by **是因为 / 是由于 / (关键)在于**, gives the reason as the new, emphasised information.",
+      "The subject normally comes **before** 之所以: 他之所以… (not ✗ 之所以他…). Never pair it with 所以 in the second clause.",
+      "Register: formal — essays, speeches, analysis. In speech you can say **…是因为…** (他成功是因为…) or the plain **因为…所以…**. The 之 here is a classical particle, as in **之一, 之后, 之间**."
+    ],
+    "mistakes": [
+      "✗ 之所以他迟到，所以是路上堵车。 → ✓ 他之所以迟到，是因为路上堵车。 Subject before 之所以, and the second clause uses 是因为.",
+      "✗ 他之所以迟到，因此路上堵车。 → ✓ 他之所以迟到，是因为路上堵车。 The reason clause must be introduced by 是因为 / 是由于 / 在于."
+    ],
+    "examples": [
+      {
+        "hanzi": "他之所以成功，是因为他从不放弃。",
+        "pinyin": "Tā zhīsuǒyǐ chénggōng, shì yīnwèi tā cóng bú fàngqì.",
+        "english": "The reason he succeeded is that he never gives up."
+      },
+      {
+        "hanzi": "我之所以选择这份工作，是因为它很有挑战性。",
+        "pinyin": "Wǒ zhīsuǒyǐ xuǎnzé zhè fèn gōngzuò, shì yīnwèi tā hěn yǒu tiǎozhànxìng.",
+        "english": "I chose this job because it's very challenging."
+      },
+      {
+        "hanzi": "这本书之所以受欢迎，是由于它语言生动。",
+        "pinyin": "Zhè běn shū zhīsuǒyǐ shòu huānyíng, shì yóuyú tā yǔyán shēngdòng.",
+        "english": "This book is popular because of its lively language."
+      },
+      {
+        "hanzi": "问题之所以没有解决，关键在于沟通不足。",
+        "pinyin": "Wèntí zhīsuǒyǐ méiyǒu jiějué, guānjiàn zàiyú gōutōng bùzú.",
+        "english": "The key reason the problem hasn't been solved lies in poor communication.",
+        "note": "之所以…，(关键)在于…"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他之所以迟到，___路上堵车了。",
+        "english": "The reason he was late is that there was a traffic jam.",
+        "options": ["所以", "是因为", "因此", "因而"],
+        "answer": 1,
+        "explanation": "之所以 (result) pairs with 是因为 (reason)."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这个城市___吸引人，就在于它的历史文化。",
+        "english": "What makes this city so attractive is its history and culture.",
+        "options": ["所以", "以便", "之所以", "鉴于"],
+        "answer": 2,
+        "explanation": "Result first with 之所以, then 在于 + reason."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["她之所以哭，是因为太感动了。", "之所以她哭，所以是太感动了。", "她哭是因为太感动了。", "因为太感动了，所以她哭了。"],
+        "answer": 1,
+        "explanation": "Subject goes before 之所以, and the reason clause needs 是因为, not 所以."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "The reason I'm learning Chinese is that I'm interested in Chinese culture.",
+        "optionScript": "hanzi",
+        "options": ["我之所以学中文，是因为对中国文化感兴趣。", "我之所以学中文，所以对中国文化感兴趣。", "因为我之所以学中文，对中国文化感兴趣。", "我学中文之所以，是因为对中国文化感兴趣。"],
+        "answer": 0,
+        "explanation": "Subject + 之所以 + result, 是因为 + reason."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["我们", "之所以", "推迟", "会议，", "是因为", "老板", "生病了"],
+        "english": "The reason we postponed the meeting is that the boss fell ill.",
+        "pinyin": "Wǒmen zhīsuǒyǐ tuīchí huìyì, shì yīnwèi lǎobǎn shēngbìng le.",
+        "explanation": "Subject + 之所以 + result, + 是因为 + reason."
+      }
+    ]
+  },
+  {
+    "id": "g6-er-connector",
+    "hskLevel": 6,
+    "title": "而: whereas · for · because of · and yet",
+    "titleHanzi": "而",
+    "pattern": "Clause A, + 而 + Clause B (contrast)  ·  为 + Goal + 而 + Verb  ·  因 + Cause + 而 + Result  ·  Adjective + 而 + Adjective",
+    "summary": "The all-purpose formal connector: 南方人爱吃米饭，而北方人爱吃面食 · 为理想而奋斗 · 因病而缺席.",
+    "explanation": [
+      "**而 (ér)** links clauses, verbs and adjectives — never plain nouns. Its meaning depends on the frame: **contrast** 'whereas, while' (A，而 B); **purpose** with 为: 为理想而奋斗 (strive for an ideal); **cause** with 因: 因大雨而取消 (cancelled because of rain).",
+      "Between two adjectives it means 'and (at the same time)' or 'yet': **简单而有效** (simple and effective), **美丽而危险** (beautiful yet dangerous).",
+      "Register: formal written. Spoken equivalents: contrast → **但是 / 可是 / 却**; purpose → **为了**; cause → **因为…所以…**; adjectives → **又…又…**. To join nouns use **和 / 以及**."
+    ],
+    "mistakes": [
+      "✗ 我喜欢猫而狗。 → ✓ 我喜欢猫和狗。 而 cannot link two nouns.",
+      "✗ 比赛因大雨所以取消了。 → ✓ 比赛因大雨而取消了。 In the formal frame 因 + cause, the result is linked by 而."
+    ],
+    "examples": [
+      {
+        "hanzi": "南方人爱吃米饭，而北方人更爱吃面食。",
+        "pinyin": "Nánfāngrén ài chī mǐfàn, ér běifāngrén gèng ài chī miànshí.",
+        "english": "Southerners love rice, whereas northerners prefer wheat-based food."
+      },
+      {
+        "hanzi": "他一生都在为理想而奋斗。",
+        "pinyin": "Tā yìshēng dōu zài wèi lǐxiǎng ér fèndòu.",
+        "english": "He spent his whole life striving for his ideals."
+      },
+      {
+        "hanzi": "比赛因大雨而取消。",
+        "pinyin": "Bǐsài yīn dàyǔ ér qǔxiāo.",
+        "english": "The match was cancelled because of heavy rain."
+      },
+      {
+        "hanzi": "这个方法简单而有效。",
+        "pinyin": "Zhège fāngfǎ jiǎndān ér yǒuxiào.",
+        "english": "This method is simple and effective."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "很多人因压力过大___失眠。",
+        "english": "Many people suffer from insomnia because of excessive stress.",
+        "options": ["和", "而", "及", "跟"],
+        "answer": 1,
+        "explanation": "因 + cause + 而 + result."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他性格外向，___他妹妹却很内向。",
+        "english": "He's outgoing, whereas his younger sister is very introverted.",
+        "options": ["而", "和", "以及", "并且"],
+        "answer": 0,
+        "explanation": "Contrast between two clauses → 而 (often reinforced by 却)."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["她聪明而勤奋。", "我们为和平而努力。", "我喜欢猫而狗。", "他因工作出色而得到提升。"],
+        "answer": 2,
+        "explanation": "而 can't join two nouns; use 和."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "The flight was delayed because of heavy fog.",
+        "optionScript": "pinyin",
+        "options": ["Hángbān yīn dàwù ér yánwù.", "Hángbān yīn dàwù hé yánwù.", "Hángbān ér dàwù yīn yánwù.", "Hángbān yīn dàwù suǒyǐ ér yánwù."],
+        "answer": 0,
+        "explanation": "因 + cause + 而 + result: 因大雾而延误."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["我们", "要", "为", "实现", "梦想", "而", "努力"],
+        "english": "We must work hard to realise our dreams.",
+        "pinyin": "Wǒmen yào wèi shíxiàn mèngxiǎng ér nǔlì.",
+        "explanation": "为 + goal + 而 + verb."
+      }
+    ]
+  },
+  {
+    "id": "g6-naizhi-yiji",
+    "hskLevel": 6,
+    "title": "乃至 / 以及: and even / as well as",
+    "titleHanzi": "乃至 · 以及",
+    "pattern": "A + (、B) + 乃至 + C (wider / extreme)  ·  A + 、B + 以及 + C",
+    "summary": "Escalate with 乃至 (中国乃至全世界) or close a formal list with 以及 (姓名、电话以及地址).",
+    "explanation": [
+      "**乃至 (nǎizhì)** means 'and even, and up to'. The last item is the **widest or most extreme** step of a scale: 个人、家庭乃至社会; 中国乃至全世界. The order matters — the scope must increase.",
+      "**以及 (yǐjí)** means 'as well as, and'. It closes a list without any idea of escalation, often adding a final group: 教育、医疗以及住房. Unlike 和, it can also link clauses or verb phrases in formal writing.",
+      "Register: both are formal (writing, reports, speeches). In speech use **甚至** for 乃至 and **和 / 还有** for 以及."
+    ],
+    "mistakes": [
+      "✗ 这首歌红遍了亚洲乃至全国。 → ✓ 这首歌红遍了全国乃至亚洲。 With 乃至 the scope must increase.",
+      "✗ 请带上护照、签证乃至录取通知书。 → ✓ 请带上护照、签证以及录取通知书。 A neutral list needs 以及; 乃至 implies a climax."
+    ],
+    "examples": [
+      {
+        "hanzi": "这项发明改变了中国乃至全世界。",
+        "pinyin": "Zhè xiàng fāmíng gǎibiàn le Zhōngguó nǎizhì quán shìjiè.",
+        "english": "This invention changed China and even the whole world."
+      },
+      {
+        "hanzi": "这个错误可能影响整个部门乃至整个公司。",
+        "pinyin": "Zhège cuòwù kěnéng yǐngxiǎng zhěnggè bùmén nǎizhì zhěnggè gōngsī.",
+        "english": "This mistake could affect the whole department, even the whole company."
+      },
+      {
+        "hanzi": "会议讨论了教育、医疗以及住房等问题。",
+        "pinyin": "Huìyì tǎolùn le jiàoyù, yīliáo yǐjí zhùfáng děng wèntí.",
+        "english": "The meeting discussed education, healthcare and housing, among other issues."
+      },
+      {
+        "hanzi": "请填写您的姓名、电话以及地址。",
+        "pinyin": "Qǐng tiánxiě nín de xìngmíng, diànhuà yǐjí dìzhǐ.",
+        "english": "Please fill in your name, phone number and address."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他的研究在国内___国际上都很有影响。",
+        "english": "His research is influential at home and even internationally.",
+        "options": ["以免", "乃至", "以便", "而已"],
+        "answer": 1,
+        "explanation": "From national to international = increasing scope → 乃至."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["这首歌红遍了全国乃至亚洲。", "这首歌红遍了亚洲乃至全国。", "这个问题关系到个人、家庭乃至社会。", "展览展出了书法、绘画以及陶瓷作品。"],
+        "answer": 1,
+        "explanation": "乃至 needs a widening scope: 全国 → 亚洲, not the other way round."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Please bring your passport, visa and admission letter.",
+        "optionScript": "hanzi",
+        "options": ["请带上护照、签证以及录取通知书。", "请带上护照、签证乃至录取通知书。", "请带上护照、签证而录取通知书。", "请带上护照、签证以免录取通知书。"],
+        "answer": 0,
+        "explanation": "A neutral list → 以及. 乃至 would suggest a climax; 而 can't join nouns."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["这场", "危机", "影响了", "整个", "亚洲", "乃至", "全世界"],
+        "english": "This crisis affected all of Asia and even the whole world.",
+        "pinyin": "Zhè chǎng wēijī yǐngxiǎng le zhěnggè Yàzhōu nǎizhì quán shìjiè.",
+        "explanation": "Smaller scope + 乃至 + larger scope."
+      }
+    ]
+  },
+  {
+    "id": "g6-four-character-frames",
+    "hskLevel": 6,
+    "title": "Four-character frames: 不…不… / 有…有… / 半…半…",
+    "titleHanzi": "不A不B · 有A有B · 半A半B",
+    "pattern": "不 + A + 不 + B  ·  有 + A + 有 + B  ·  半 + A + 半 + B",
+    "summary": "Build vivid four-character expressions: 不大不小, 有说有笑, 半信半疑.",
+    "explanation": [
+      "**不A不B**: with two opposites it means 'neither A nor B' — usually 'just right': **不大不小, 不多不少, 不早不晚**. With two similar words it gives emphasis: **不慌不忙** (calmly), **不知不觉** (without realising).",
+      "**有A有B**: 'with both A and B', almost always positive: **有说有笑** (chatting and laughing), **有条有理** (well-organised), **有声有色** (vivid), **有始有终** (seeing things through).",
+      "**半A半B**: 'half A, half B', a mixed or uncertain state: **半信半疑** (half-believing), **半真半假**, **半开玩笑**. Register: these frames feel polished and literary but are used constantly in both writing and speech. The two slots must use the same frame word — don't mix 又/有 or 半/不."
+    ],
+    "mistakes": [
+      "✗ 他们一路上又说有笑。 → ✓ 他们一路上有说有笑。 The frame repeats the same word: 有…有….",
+      "✗ 我对他的话半信不疑。 → ✓ 我对他的话半信半疑。 半A半B keeps 半 in both slots."
+    ],
+    "examples": [
+      {
+        "hanzi": "这双鞋不大不小，正合适。",
+        "pinyin": "Zhè shuāng xié bú dà bù xiǎo, zhèng héshì.",
+        "english": "These shoes are neither too big nor too small — just right."
+      },
+      {
+        "hanzi": "大家一路上有说有笑，一点儿也不觉得累。",
+        "pinyin": "Dàjiā yí lù shang yǒu shuō yǒu xiào, yìdiǎnr yě bù juéde lèi.",
+        "english": "Everyone chatted and laughed the whole way and didn't feel tired at all."
+      },
+      {
+        "hanzi": "听了他的解释，我还是半信半疑。",
+        "pinyin": "Tīng le tā de jiěshì, wǒ háishi bàn xìn bàn yí.",
+        "english": "After hearing his explanation, I'm still only half convinced."
+      },
+      {
+        "hanzi": "他不慌不忙地回答了所有问题。",
+        "pinyin": "Tā bù huāng bù máng de huídá le suǒyǒu wèntí.",
+        "english": "He calmly answered every question."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这件事他做得有始___终，大家都很佩服。",
+        "english": "He saw this through from start to finish, and everyone admires him.",
+        "options": ["不", "有", "无", "半"],
+        "answer": 1,
+        "explanation": "有始有终 = finishing what one starts (positive). 有始无终 would be negative and wouldn't earn admiration."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "对于他的话，大家都___信半疑。",
+        "english": "Everyone is only half convinced by what he says.",
+        "options": ["不", "有", "半", "又"],
+        "answer": 2,
+        "explanation": "半信半疑 = half-believing, half-doubting."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["时间不早不晚，刚刚好。", "他做事有条有理。", "她不慌不忙地走上了讲台。", "大家又说有笑地走进了教室。"],
+        "answer": 3,
+        "explanation": "The frame is 有说有笑 — both slots take 有."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Without our realising it, a year has passed.",
+        "optionScript": "pinyin",
+        "options": ["Bù zhī bù jué, yì nián guòqu le.", "Bàn zhī bàn jué, yì nián guòqu le.", "Yǒu zhī yǒu jué, yì nián guòqu le.", "Bù zhī yǒu jué, yì nián guòqu le."],
+        "answer": 0,
+        "explanation": "不知不觉 = without realising, imperceptibly."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["孩子们", "有说有笑", "地", "走进了", "教室"],
+        "english": "The children walked into the classroom chatting and laughing.",
+        "pinyin": "Háizimen yǒu shuō yǒu xiào de zǒujìn le jiàoshì.",
+        "explanation": "The four-character frame + 地 works as an adverbial before the verb."
+      }
+    ]
+  }
+]

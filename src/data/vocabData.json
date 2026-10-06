@@ -1,0 +1,810 @@
+[
+  {
+    "id": "hsk1-nihao",
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "pinyinNumbered": "ni3 hao3",
+    "english": [
+      "hello",
+      "hi"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Greetings"
+    ],
+    "radical": "亻",
+    "exampleSentence": {
+      "hanzi": "你好，我叫王明。",
+      "pinyin": "Nǐ hǎo, wǒ jiào Wáng Míng.",
+      "english": "Hello, my name is Wang Ming."
+    }
+  },
+  {
+    "id": "hsk1-xiexie",
+    "hanzi": "谢谢",
+    "pinyin": "xiè xie",
+    "pinyinNumbered": "xie4 xie5",
+    "english": [
+      "thank you",
+      "thanks"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Greetings"
+    ],
+    "radical": "讠",
+    "exampleSentence": {
+      "hanzi": "谢谢你的帮助。",
+      "pinyin": "Xièxie nǐ de bāngzhù.",
+      "english": "Thank you for your help."
+    }
+  },
+  {
+    "id": "hsk1-zaijian",
+    "hanzi": "再见",
+    "pinyin": "zài jiàn",
+    "pinyinNumbered": "zai4 jian4",
+    "english": [
+      "goodbye",
+      "bye",
+      "see you again"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Greetings"
+    ],
+    "radical": "冂",
+    "exampleSentence": {
+      "hanzi": "老师，再见！",
+      "pinyin": "Lǎoshī, zàijiàn!",
+      "english": "Goodbye, teacher!"
+    }
+  },
+  {
+    "id": "hsk1-duibuqi",
+    "hanzi": "对不起",
+    "pinyin": "duì bu qǐ",
+    "pinyinNumbered": "dui4 bu5 qi3",
+    "english": [
+      "sorry",
+      "I'm sorry",
+      "excuse me"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Greetings"
+    ],
+    "radical": "又",
+    "exampleSentence": {
+      "hanzi": "对不起，我来晚了。",
+      "pinyin": "Duìbuqǐ, wǒ lái wǎn le.",
+      "english": "Sorry, I'm late."
+    }
+  },
+  {
+    "id": "hsk1-meiguanxi",
+    "hanzi": "没关系",
+    "pinyin": "méi guān xi",
+    "pinyinNumbered": "mei2 guan1 xi5",
+    "english": [
+      "it doesn't matter",
+      "never mind",
+      "no problem",
+      "that's okay"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Greetings"
+    ],
+    "radical": "氵",
+    "exampleSentence": {
+      "hanzi": "没关系，我们走吧。",
+      "pinyin": "Méi guānxi, wǒmen zǒu ba.",
+      "english": "Never mind, let's go."
+    }
+  },
+  {
+    "id": "hsk1-renshi",
+    "hanzi": "认识",
+    "pinyin": "rèn shi",
+    "pinyinNumbered": "ren4 shi5",
+    "english": [
+      "to know",
+      "to recognize",
+      "to be acquainted with"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Greetings",
+      "People"
+    ],
+    "radical": "讠",
+    "exampleSentence": {
+      "hanzi": "你认识他吗？",
+      "pinyin": "Nǐ rènshi tā ma?",
+      "english": "Do you know him?"
+    }
+  },
+  {
+    "id": "hsk1-gaoxing",
+    "hanzi": "高兴",
+    "pinyin": "gāo xìng",
+    "pinyinNumbered": "gao1 xing4",
+    "english": [
+      "happy",
+      "glad",
+      "pleased"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Greetings",
+      "Feelings"
+    ],
+    "radical": "高",
+    "exampleSentence": {
+      "hanzi": "认识你很高兴。",
+      "pinyin": "Rènshi nǐ hěn gāoxìng.",
+      "english": "Nice to meet you."
+    }
+  },
+  {
+    "id": "hsk1-yi",
+    "hanzi": "一",
+    "pinyin": "yī",
+    "pinyinNumbered": "yi1",
+    "english": [
+      "one",
+      "1"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Numbers"
+    ],
+    "radical": "一",
+    "exampleSentence": {
+      "hanzi": "我有一个哥哥。",
+      "pinyin": "Wǒ yǒu yí ge gēge.",
+      "english": "I have one older brother."
+    }
+  },
+  {
+    "id": "hsk1-san",
+    "hanzi": "三",
+    "pinyin": "sān",
+    "pinyinNumbered": "san1",
+    "english": [
+      "three",
+      "3"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Numbers"
+    ],
+    "radical": "一",
+    "exampleSentence": {
+      "hanzi": "我买了三本书。",
+      "pinyin": "Wǒ mǎi le sān běn shū.",
+      "english": "I bought three books."
+    }
+  },
+  {
+    "id": "hsk1-shi",
+    "hanzi": "十",
+    "pinyin": "shí",
+    "pinyinNumbered": "shi2",
+    "english": [
+      "ten",
+      "10"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Numbers"
+    ],
+    "radical": "十",
+    "exampleSentence": {
+      "hanzi": "现在十点。",
+      "pinyin": "Xiànzài shí diǎn.",
+      "english": "It's ten o'clock now."
+    }
+  },
+  {
+    "id": "hsk1-ji",
+    "hanzi": "几",
+    "pinyin": "jǐ",
+    "pinyinNumbered": "ji3",
+    "english": [
+      "how many",
+      "several",
+      "a few"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Numbers"
+    ],
+    "radical": "几",
+    "exampleSentence": {
+      "hanzi": "你家有几口人？",
+      "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+      "english": "How many people are in your family?"
+    }
+  },
+  {
+    "id": "hsk1-pengyou",
+    "hanzi": "朋友",
+    "pinyin": "péng you",
+    "pinyinNumbered": "peng2 you5",
+    "english": [
+      "friend"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "People"
+    ],
+    "measureWord": {
+      "hanzi": "个",
+      "pinyin": "gè"
+    },
+    "radical": "月",
+    "exampleSentence": {
+      "hanzi": "他是我的好朋友。",
+      "pinyin": "Tā shì wǒ de hǎo péngyou.",
+      "english": "He is my good friend."
+    }
+  },
+  {
+    "id": "hsk1-xuesheng",
+    "hanzi": "学生",
+    "pinyin": "xué sheng",
+    "pinyinNumbered": "xue2 sheng5",
+    "english": [
+      "student",
+      "pupil"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "People"
+    ],
+    "measureWord": {
+      "hanzi": "个",
+      "pinyin": "gè"
+    },
+    "radical": "子",
+    "exampleSentence": {
+      "hanzi": "我是学生。",
+      "pinyin": "Wǒ shì xuésheng.",
+      "english": "I'm a student."
+    }
+  },
+  {
+    "id": "hsk1-nver",
+    "hanzi": "女儿",
+    "pinyin": "nǚ ér",
+    "pinyinNumbered": "nv3 er2",
+    "english": [
+      "daughter"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "People"
+    ],
+    "measureWord": {
+      "hanzi": "个",
+      "pinyin": "gè"
+    },
+    "radical": "女",
+    "exampleSentence": {
+      "hanzi": "她女儿五岁了。",
+      "pinyin": "Tā nǚ'ér wǔ suì le.",
+      "english": "Her daughter is five years old."
+    }
+  },
+  {
+    "id": "hsk1-mama",
+    "hanzi": "妈妈",
+    "pinyin": "mā ma",
+    "pinyinNumbered": "ma1 ma5",
+    "english": [
+      "mom",
+      "mum",
+      "mother",
+      "mommy"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "People"
+    ],
+    "radical": "女",
+    "exampleSentence": {
+      "hanzi": "我妈妈是医生。",
+      "pinyin": "Wǒ māma shì yīshēng.",
+      "english": "My mother is a doctor."
+    }
+  },
+  {
+    "id": "hsk1-piaoliang",
+    "hanzi": "漂亮",
+    "pinyin": "piào liang",
+    "pinyinNumbered": "piao4 liang5",
+    "english": [
+      "beautiful",
+      "pretty",
+      "good-looking"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Feelings",
+      "People"
+    ],
+    "radical": "氵",
+    "exampleSentence": {
+      "hanzi": "这件衣服很漂亮。",
+      "pinyin": "Zhè jiàn yīfu hěn piàoliang.",
+      "english": "This piece of clothing is very pretty."
+    }
+  },
+  {
+    "id": "hsk1-jintian",
+    "hanzi": "今天",
+    "pinyin": "jīn tiān",
+    "pinyinNumbered": "jin1 tian1",
+    "english": [
+      "today"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Time"
+    ],
+    "radical": "人",
+    "exampleSentence": {
+      "hanzi": "今天星期一。",
+      "pinyin": "Jīntiān xīngqīyī.",
+      "english": "Today is Monday."
+    }
+  },
+  {
+    "id": "hsk1-mingtian",
+    "hanzi": "明天",
+    "pinyin": "míng tiān",
+    "pinyinNumbered": "ming2 tian1",
+    "english": [
+      "tomorrow"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Time"
+    ],
+    "radical": "日",
+    "exampleSentence": {
+      "hanzi": "明天见！",
+      "pinyin": "Míngtiān jiàn!",
+      "english": "See you tomorrow!"
+    }
+  },
+  {
+    "id": "hsk1-xianzai",
+    "hanzi": "现在",
+    "pinyin": "xiàn zài",
+    "pinyinNumbered": "xian4 zai4",
+    "english": [
+      "now",
+      "at present",
+      "currently"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Time"
+    ],
+    "radical": "王",
+    "exampleSentence": {
+      "hanzi": "现在几点？",
+      "pinyin": "Xiànzài jǐ diǎn?",
+      "english": "What time is it now?"
+    }
+  },
+  {
+    "id": "hsk1-xingqi",
+    "hanzi": "星期",
+    "pinyin": "xīng qī",
+    "pinyinNumbered": "xing1 qi1",
+    "english": [
+      "week"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Time"
+    ],
+    "measureWord": {
+      "hanzi": "个",
+      "pinyin": "gè"
+    },
+    "radical": "日",
+    "exampleSentence": {
+      "hanzi": "下个星期我去上海。",
+      "pinyin": "Xià ge xīngqī wǒ qù Shànghǎi.",
+      "english": "Next week I'm going to Shanghai."
+    }
+  },
+  {
+    "id": "hsk1-shui",
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "pinyinNumbered": "shui3",
+    "english": [
+      "water"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Food & Drink"
+    ],
+    "measureWord": {
+      "hanzi": "杯",
+      "pinyin": "bēi"
+    },
+    "radical": "水",
+    "exampleSentence": {
+      "hanzi": "我想喝一杯水。",
+      "pinyin": "Wǒ xiǎng hē yì bēi shuǐ.",
+      "english": "I'd like to drink a glass of water."
+    }
+  },
+  {
+    "id": "hsk1-mifan",
+    "hanzi": "米饭",
+    "pinyin": "mǐ fàn",
+    "pinyinNumbered": "mi3 fan4",
+    "english": [
+      "rice",
+      "cooked rice"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Food & Drink"
+    ],
+    "measureWord": {
+      "hanzi": "碗",
+      "pinyin": "wǎn"
+    },
+    "radical": "米",
+    "exampleSentence": {
+      "hanzi": "我每天都吃米饭。",
+      "pinyin": "Wǒ měi tiān dōu chī mǐfàn.",
+      "english": "I eat rice every day."
+    }
+  },
+  {
+    "id": "hsk1-cha",
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "pinyinNumbered": "cha2",
+    "english": [
+      "tea"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Food & Drink"
+    ],
+    "measureWord": {
+      "hanzi": "杯",
+      "pinyin": "bēi"
+    },
+    "radical": "艹",
+    "exampleSentence": {
+      "hanzi": "你喝茶吗？",
+      "pinyin": "Nǐ hē chá ma?",
+      "english": "Do you drink tea?"
+    }
+  },
+  {
+    "id": "hsk1-chi",
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "pinyinNumbered": "chi1",
+    "english": [
+      "to eat",
+      "eat"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Food & Drink"
+    ],
+    "radical": "口",
+    "exampleSentence": {
+      "hanzi": "我们去吃饭吧。",
+      "pinyin": "Wǒmen qù chī fàn ba.",
+      "english": "Let's go and eat."
+    }
+  },
+  {
+    "id": "hsk1-he",
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "pinyinNumbered": "he1",
+    "english": [
+      "to drink",
+      "drink"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Food & Drink"
+    ],
+    "radical": "口",
+    "exampleSentence": {
+      "hanzi": "他喜欢喝咖啡。",
+      "pinyin": "Tā xǐhuan hē kāfēi.",
+      "english": "He likes to drink coffee."
+    }
+  },
+  {
+    "id": "hsk1-pingguo",
+    "hanzi": "苹果",
+    "pinyin": "píng guǒ",
+    "pinyinNumbered": "ping2 guo3",
+    "english": [
+      "apple"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Food & Drink"
+    ],
+    "measureWord": {
+      "hanzi": "个",
+      "pinyin": "gè"
+    },
+    "radical": "艹",
+    "exampleSentence": {
+      "hanzi": "我喜欢吃苹果。",
+      "pinyin": "Wǒ xǐhuan chī píngguǒ.",
+      "english": "I like eating apples."
+    }
+  },
+  {
+    "id": "hsk1-feiji",
+    "hanzi": "飞机",
+    "pinyin": "fēi jī",
+    "pinyinNumbered": "fei1 ji1",
+    "english": [
+      "airplane",
+      "plane",
+      "aeroplane",
+      "aircraft"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Travel"
+    ],
+    "measureWord": {
+      "hanzi": "架",
+      "pinyin": "jià"
+    },
+    "radical": "飞",
+    "exampleSentence": {
+      "hanzi": "我坐飞机去北京。",
+      "pinyin": "Wǒ zuò fēijī qù Běijīng.",
+      "english": "I'm going to Beijing by plane."
+    }
+  },
+  {
+    "id": "hsk1-chuzuche",
+    "hanzi": "出租车",
+    "pinyin": "chū zū chē",
+    "pinyinNumbered": "chu1 zu1 che1",
+    "english": [
+      "taxi",
+      "cab"
+    ],
+    "hskLevel": 1,
+    "topics": [
+      "Travel"
+    ],
+    "measureWord": {
+      "hanzi": "辆",
+      "pinyin": "liàng"
+    },
+    "radical": "凵",
+    "exampleSentence": {
+      "hanzi": "我们坐出租车去吧。",
+      "pinyin": "Wǒmen zuò chūzūchē qù ba.",
+      "english": "Let's take a taxi."
+    }
+  },
+  {
+    "id": "hsk2-liang",
+    "hanzi": "两",
+    "pinyin": "liǎng",
+    "pinyinNumbered": "liang3",
+    "english": [
+      "two",
+      "a couple of"
+    ],
+    "hskLevel": 2,
+    "topics": [
+      "Numbers"
+    ],
+    "radical": "一",
+    "exampleSentence": {
+      "hanzi": "我要两杯茶。",
+      "pinyin": "Wǒ yào liǎng bēi chá.",
+      "english": "I'd like two cups of tea."
+    }
+  },
+  {
+    "id": "hsk2-shijian",
+    "hanzi": "时间",
+    "pinyin": "shí jiān",
+    "pinyinNumbered": "shi2 jian1",
+    "english": [
+      "time"
+    ],
+    "hskLevel": 2,
+    "topics": [
+      "Time"
+    ],
+    "radical": "日",
+    "exampleSentence": {
+      "hanzi": "你有时间吗？",
+      "pinyin": "Nǐ yǒu shíjiān ma?",
+      "english": "Do you have time?"
+    }
+  },
+  {
+    "id": "hsk2-zaoshang",
+    "hanzi": "早上",
+    "pinyin": "zǎo shang",
+    "pinyinNumbered": "zao3 shang5",
+    "english": [
+      "morning",
+      "early morning"
+    ],
+    "hskLevel": 2,
+    "topics": [
+      "Time"
+    ],
+    "radical": "日",
+    "exampleSentence": {
+      "hanzi": "我早上七点起床。",
+      "pinyin": "Wǒ zǎoshang qī diǎn qǐchuáng.",
+      "english": "I get up at seven in the morning."
+    }
+  },
+  {
+    "id": "hsk2-kafei",
+    "hanzi": "咖啡",
+    "pinyin": "kā fēi",
+    "pinyinNumbered": "ka1 fei1",
+    "english": [
+      "coffee"
+    ],
+    "hskLevel": 2,
+    "topics": [
+      "Food & Drink"
+    ],
+    "measureWord": {
+      "hanzi": "杯",
+      "pinyin": "bēi"
+    },
+    "radical": "口",
+    "exampleSentence": {
+      "hanzi": "我早上喝一杯咖啡。",
+      "pinyin": "Wǒ zǎoshang hē yì bēi kāfēi.",
+      "english": "I drink a cup of coffee in the morning."
+    }
+  },
+  {
+    "id": "hsk2-jidan",
+    "hanzi": "鸡蛋",
+    "pinyin": "jī dàn",
+    "pinyinNumbered": "ji1 dan4",
+    "english": [
+      "egg",
+      "chicken egg"
+    ],
+    "hskLevel": 2,
+    "topics": [
+      "Food & Drink"
+    ],
+    "measureWord": {
+      "hanzi": "个",
+      "pinyin": "gè"
+    },
+    "radical": "鸟",
+    "exampleSentence": {
+      "hanzi": "我早饭吃了两个鸡蛋。",
+      "pinyin": "Wǒ zǎofàn chī le liǎng ge jīdàn.",
+      "english": "I ate two eggs for breakfast."
+    }
+  },
+  {
+    "id": "hsk2-huochezhan",
+    "hanzi": "火车站",
+    "pinyin": "huǒ chē zhàn",
+    "pinyinNumbered": "huo3 che1 zhan4",
+    "english": [
+      "train station",
+      "railway station"
+    ],
+    "hskLevel": 2,
+    "topics": [
+      "Travel"
+    ],
+    "measureWord": {
+      "hanzi": "个",
+      "pinyin": "gè"
+    },
+    "radical": "火",
+    "exampleSentence": {
+      "hanzi": "火车站在哪儿？",
+      "pinyin": "Huǒchēzhàn zài nǎr?",
+      "english": "Where is the train station?"
+    }
+  },
+  {
+    "id": "hsk2-lvyou",
+    "hanzi": "旅游",
+    "pinyin": "lǚ yóu",
+    "pinyinNumbered": "lv3 you2",
+    "english": [
+      "to travel",
+      "travel",
+      "tourism",
+      "to tour"
+    ],
+    "hskLevel": 2,
+    "topics": [
+      "Travel"
+    ],
+    "radical": "方",
+    "exampleSentence": {
+      "hanzi": "我喜欢去中国旅游。",
+      "pinyin": "Wǒ xǐhuan qù Zhōngguó lǚyóu.",
+      "english": "I like travelling in China."
+    }
+  },
+  {
+    "id": "hsk2-lu",
+    "hanzi": "路",
+    "pinyin": "lù",
+    "pinyinNumbered": "lu4",
+    "english": [
+      "road",
+      "path",
+      "way",
+      "street"
+    ],
+    "hskLevel": 2,
+    "topics": [
+      "Travel"
+    ],
+    "measureWord": {
+      "hanzi": "条",
+      "pinyin": "tiáo"
+    },
+    "radical": "⻊",
+    "exampleSentence": {
+      "hanzi": "这条路很长。",
+      "pinyin": "Zhè tiáo lù hěn cháng.",
+      "english": "This road is very long."
+    }
+  },
+  {
+    "id": "hsk2-changge",
+    "hanzi": "唱歌",
+    "pinyin": "chàng gē",
+    "pinyinNumbered": "chang4 ge1",
+    "english": [
+      "to sing",
+      "sing",
+      "singing",
+      "to sing a song"
+    ],
+    "hskLevel": 2,
+    "topics": [
+      "Hobbies"
+    ],
+    "radical": "口",
+    "exampleSentence": {
+      "hanzi": "她很喜欢唱歌。",
+      "pinyin": "Tā hěn xǐhuan chànggē.",
+      "english": "She really likes singing."
+    }
+  }
+]

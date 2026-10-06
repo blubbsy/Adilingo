@@ -1,0 +1,250 @@
+import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { Database, Download, Trash2, Upload, X } from 'lucide-react';
+import type { Curriculum, Settings, StudyMode, ThemePref, UserState } from '../types';
+import { CURRICULA } from '../data/vocab';
+import { SPEECH_RATES, type SpeechApi } from '../utils/speech';
+import { createDefaultState, exportBackup, parseBackup, type StorageBackend } from '../utils/storage';
+import { createEmptyGrammarProgress, exportableGrammarProgress, importGrammarProgress, saveGrammarProgress } from '../grammar';
+import { AudioButton } from './AudioButton';
+import { MODES } from './ModeSelector';
+
+interface Props {
+  state: UserState;
+  backend: StorageBackend;
+  speech: SpeechApi;
+  onChangeSettings: (s: Settings) => void;
+  onReplaceState: (s: UserState) => void;
+  onClose: () => void;
+}
+
+const BACKEND_LABEL: Record<StorageBackend, string> = {
+  indexeddb: 'IndexedDB (recommended)',
+  localstorage: 'localStorage (fallback)',
+  memory: 'Memory only — progress will be lost on reload!',
+};
+
+export function SettingsModal({ state, backend, speech, onChangeSettings, onReplaceState, onClose }: Props) {
+  const s = state.settings;
+  const set = (patch: Partial<Settings>) => onChangeSettings({ ...s, ...patch });
+  const fileRef = useRef<HTMLInputElement>(null);
+  const [message, setMessage] = useState<{ ok: boolean; text: string } | null>(null);
+  const dialogRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && onClose();
+    window.addEventListener('keydown', onKey);
+    dialogRef.current?.focus();
+    return () => window.removeEventListener('keydown', onKey);
+  }, [onClose]);
+
+  async function handleImport(file: File) {
+    try {
+      const { state: imported, grammar } = await parseBackup(file);
+      const words = Object.keys(imported.progress).length;
+      if (!window.confirm(`Replace your current progress with this backup (${words} words, ${imported.stats.totalReviewed} reviews)?`)) return;
+      onReplaceState(imported);
+      const grammarOk = grammar !== undefined && (await importGrammarProgress(grammar)) !== null;
+      setMessage({ ok: true, text: `Backup restored: ${words} words${grammarOk ? ' + grammar progress' : ''}.` });
+    } catch (e) {
+      setMessage({ ok: false, text: (e as Error).message });
+    }
+  }
+
+  async function handleReset() {
+    if (!window.confirm('Erase all progress and statistics? Consider exporting a backup first.')) return;
+    onReplaceState({ ...createDefaultState(), settings: s });
+    await saveGrammarProgress(createEmptyGrammarProgress());
+    setMessage({ ok: true, text: 'Progress reset.' });
+  }
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-end justify-center bg-slate-900/50 p-0 backdrop-blur-sm sm:items-center sm:p-4" onMouseDown={onClose}>
+      <div
+        ref={dialogRef}
+        tabIndex={-1}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="settings-title"
+        onMouseDown={(e) => e.stopPropagation()}
+        className="animate-pop max-h-[92dvh] w-full max-w-lg overflow-y-auto rounded-t-3xl bg-white p-6 pb-[calc(1.5rem+env(safe-area-inset-bottom))] shadow-xl outline-none sm:rounded-3xl sm:pb-6 lg:max-w-2xl dark:bg-slate-800"
+      >
+        <div className="flex items-center justify-between">
+          <h2 id="settings-title" className="text-xl font-bold">Settings</h2>
+          <button onClick={onClose} className="rounded-lg p-1.5 hover:bg-slate-100 dark:hover:bg-slate-700" aria-label="Close settings">
+            <X className="h-5 w-5" />
+          </button>
+        </div>
+
+        <Group title="Curriculum">
+          <div className="grid gap-2" role="radiogroup" aria-label="Curriculum">
+            {CURRICULA.map((c) => (
+              <button
+                key={c.id}
+                role="radio"
+                aria-checked={s.curriculum === c.id}
+                onClick={() => set({ curriculum: c.id as Curriculum })}
+                className={`rounded-xl border-2 p-3 text-left transition ${
+                  s.curriculum === c.id ? 'border-rose-500 bg-rose-50 dark:bg-rose-950/40' : 'border-slate-200 hover:border-slate-300 dark:border-slate-700'
+                }`}
+              >
+                <span className="block font-medium">{c.name}</span>
+                <span className="block text-xs text-slate-500 dark:text-slate-400">{c.description}</span>
+              </button>
+            ))}
+          </div>
+          <p className="mt-2 text-xs text-slate-500">Switching keeps all progress: words shared between standards stay learned.</p>
+        </Group>
+
+        <Group title="Audio">
+          <div className="flex flex-wrap items-center gap-2">
+            {SPEECH_RATES.map((r) => (
+              <button
+                key={r}
+                onClick={() => set({ speechRate: r })}
+                aria-pressed={s.speechRate === r}
+                className={`rounded-lg border px-3 py-1.5 text-sm tabular-nums ${
+                  s.speechRate === r ? 'border-rose-500 bg-rose-500 text-white' : 'border-slate-300 dark:border-slate-600'
+                }`}
+              >
+                {r}×
+              </button>
+            ))}
+            <AudioButton speech={speech} text="你好，欢迎！" rate={s.speechRate} label="Test" />
+          </div>
+          <label className="mt-3 flex items-center justify-between gap-4">
+            <span>Sound effects & haptics</span>
+            <Toggle checked={s.soundEffects} onChange={(v) => set({ soundEffects: v })} label="Sound effects" />
+          </label>
+          <p className="mt-2 text-xs text-slate-500">
+            {speech.voice
+              ? `Local voice: ${speech.voice.name} (${speech.voice.lang})`
+              : 'Audio source: Studio native Mandarin audio stream (crystal-clear pronunciation)'}
+          </p>
+        </Group>
+
+        <Group title="Display">
+          <div className="mb-3 flex items-center justify-between gap-4">
+            <span>Theme</span>
+            <div className="inline-flex rounded-lg border border-slate-300 p-0.5 dark:border-slate-600" role="radiogroup" aria-label="Theme">
+              {(['system', 'light', 'dark'] as ThemePref[]).map((t) => (
+                <button
+                  key={t}
+                  role="radio"
+                  aria-checked={s.theme === t}
+                  onClick={() => set({ theme: t })}
+                  className={`rounded-md px-3 py-1 text-sm capitalize ${s.theme === t ? 'bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900' : ''}`}
+                >
+                  {t}
+                </button>
+              ))}
+            </div>
+          </div>
+          <label className="flex items-center justify-between gap-4">
+            <span>
+              Tone colours
+              <span className="ml-2 text-sm">
+                <span className="text-tone1">mā</span> <span className="text-tone2">má</span> <span className="text-tone3">mǎ</span>{' '}
+                <span className="text-tone4">mà</span> <span className="text-tone0">ma</span>
+              </span>
+            </span>
+            <Toggle checked={s.colorTones} onChange={(v) => set({ colorTones: v })} label="Tone colours" />
+          </label>
+        </Group>
+
+        <Group title="Study">
+          <NumberField label="Daily review cap" value={s.dailyCap} min={5} max={500} onChange={(v) => set({ dailyCap: v })} />
+          <NumberField label="New cards per day" value={s.newCardsPerDay} min={0} max={100} onChange={(v) => set({ newCardsPerDay: v })} />
+          <label className="mt-3 flex items-center justify-between gap-4">
+            <span>Default mode</span>
+            <select
+              value={s.defaultMode}
+              onChange={(e) => set({ defaultMode: e.target.value as StudyMode })}
+              className="rounded-lg border border-slate-300 bg-white px-2 py-1.5 dark:border-slate-600 dark:bg-slate-900"
+            >
+              {MODES.map((m) => (
+                <option key={m.id} value={m.id}>
+                  {m.title}
+                </option>
+              ))}
+            </select>
+          </label>
+        </Group>
+
+        <Group title="Data & backup">
+          <p className="mb-3 flex items-center gap-1.5 text-xs text-slate-500">
+            <Database className="h-3.5 w-3.5" /> Stored in: {BACKEND_LABEL[backend]}
+          </p>
+          <div className="flex flex-wrap gap-2">
+            <button onClick={async () => exportBackup(state, await exportableGrammarProgress())} className="inline-flex items-center gap-1.5 rounded-lg bg-slate-900 px-3 py-2 text-sm font-medium text-white hover:bg-slate-700 dark:bg-slate-100 dark:text-slate-900">
+              <Download className="h-4 w-4" /> Export backup (JSON)
+            </button>
+            <button onClick={() => fileRef.current?.click()} className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 px-3 py-2 text-sm font-medium hover:bg-slate-50 dark:border-slate-600 dark:hover:bg-slate-700">
+              <Upload className="h-4 w-4" /> Import backup
+            </button>
+            <input
+              ref={fileRef}
+              type="file"
+              accept="application/json,.json"
+              className="hidden"
+              onChange={(e) => {
+                const f = e.target.files?.[0];
+                if (f) handleImport(f);
+                e.target.value = '';
+              }}
+            />
+            <button onClick={handleReset} className="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-red-600 hover:bg-red-50 dark:hover:bg-red-950/40">
+              <Trash2 className="h-4 w-4" /> Reset progress
+            </button>
+          </div>
+          {message && (
+            <p role="status" className={`mt-2 text-sm ${message.ok ? 'text-emerald-600' : 'text-red-600'}`}>
+              {message.text}
+            </p>
+          )}
+        </Group>
+      </div>
+    </div>
+  );
+}
+
+function Group({ title, children }: { title: string; children: ReactNode }) {
+  return (
+    <section className="mt-6">
+      <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500">{title}</h3>
+      {children}
+    </section>
+  );
+}
+
+function Toggle({ checked, onChange, label }: { checked: boolean; onChange: (v: boolean) => void; label: string }) {
+  return (
+    <button
+      role="switch"
+      aria-checked={checked}
+      aria-label={label}
+      onClick={() => onChange(!checked)}
+      className={`relative h-6 w-11 shrink-0 rounded-full transition ${checked ? 'bg-rose-500' : 'bg-slate-300 dark:bg-slate-600'}`}
+    >
+      <span className={`absolute top-0.5 h-5 w-5 rounded-full bg-white shadow transition-all ${checked ? 'left-[22px]' : 'left-0.5'}`} />
+    </button>
+  );
+}
+
+function NumberField({ label, value, min, max, onChange }: { label: string; value: number; min: number; max: number; onChange: (v: number) => void }) {
+  return (
+    <label className="mt-2 flex items-center justify-between gap-4">
+      <span>{label}</span>
+      <input
+        type="number"
+        min={min}
+        max={max}
+        value={value}
+        onChange={(e) => {
+          const v = Number(e.target.value);
+          if (Number.isFinite(v)) onChange(Math.max(min, Math.min(max, Math.round(v))));
+        }}
+        className="w-24 rounded-lg border border-slate-300 bg-white px-2 py-1.5 text-right tabular-nums dark:border-slate-600 dark:bg-slate-900"
+      />
+    </label>
+  );
+}

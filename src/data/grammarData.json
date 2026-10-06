@@ -1,0 +1,1854 @@
+[
+  {
+    "id": "g-shi",
+    "hskLevel": 1,
+    "title": "是 sentences: 'to be' with nouns",
+    "titleHanzi": "是",
+    "pattern": "Subject + 是 + Noun",
+    "summary": "Say who or what someone is: 我是学生.",
+    "explanation": [
+      "**是 (shì)** links a subject to a noun. It tells you *who* or *what* something is, like English 'am / is / are'.",
+      "Chinese verbs never change form: 我是, 你是, 他是, 我们是 all use the same 是. There is no tense either; 是 can mean 'was' or 'will be' depending on context.",
+      "To negate, put 不 in front: **不是 (bú shì)**. 不 changes to the 2nd tone before a 4th-tone syllable like 是."
+    ],
+    "mistakes": [
+      "✗ 我是高兴。 → ✓ 我很高兴。 Don't use 是 before an adjective. Use 很 instead (see 很 + Adjective).",
+      "✗ 我学生。 → ✓ 我是学生。 Two nouns need 是 between them.",
+      "✗ 我没是老师。 → ✓ 我不是老师。 是 is always negated with 不, never 没."
+    ],
+    "examples": [
+      {
+        "hanzi": "我是学生。",
+        "pinyin": "Wǒ shì xuésheng.",
+        "english": "I am a student."
+      },
+      {
+        "hanzi": "她是我妈妈。",
+        "pinyin": "Tā shì wǒ māma.",
+        "english": "She is my mom.",
+        "note": "With close family, 的 is usually dropped: 我妈妈."
+      },
+      {
+        "hanzi": "他是我的朋友。",
+        "pinyin": "Tā shì wǒ de péngyou.",
+        "english": "He is my friend."
+      },
+      {
+        "hanzi": "我不是老师。",
+        "pinyin": "Wǒ bú shì lǎoshī.",
+        "english": "I am not a teacher.",
+        "note": "不 is pronounced bú before 4th-tone 是."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我___学生。",
+        "english": "I am a student.",
+        "options": [
+          "是",
+          "很",
+          "在",
+          "有"
+        ],
+        "answer": 0,
+        "explanation": "Subject + 是 + noun. 学生 is a noun, so we need 是."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "他",
+          "是",
+          "我",
+          "的",
+          "朋友"
+        ],
+        "english": "He is my friend.",
+        "pinyin": "Tā shì wǒ de péngyou.",
+        "explanation": "Subject (他) + 是 + noun phrase (我的朋友)."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我是学生。",
+          "她是老师。",
+          "我是高兴。",
+          "他不是医生。"
+        ],
+        "answer": 2,
+        "explanation": "高兴 is an adjective, so it takes 很, not 是: 我很高兴。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "She is not a student.",
+        "optionScript": "hanzi",
+        "options": [
+          "她不是学生。",
+          "她是不学生。",
+          "她没是学生。",
+          "不她是学生。"
+        ],
+        "answer": 0,
+        "explanation": "不 goes directly before the verb 是. 是 is never negated with 没."
+      }
+    ]
+  },
+  {
+    "id": "g-ma",
+    "hskLevel": 1,
+    "title": "吗 questions: yes / no",
+    "titleHanzi": "吗",
+    "pattern": "Statement + 吗？",
+    "summary": "Turn any statement into a yes/no question by adding 吗.",
+    "explanation": [
+      "Add **吗 (ma)** to the end of a statement to make a yes/no question. The word order stays exactly the same: 你是学生。→ 你是学生吗？",
+      "Chinese has no single word for 'yes' or 'no'. To answer, repeat the verb (是 / 喝 / 认识) for yes, or put 不 before it for no: 你喝茶吗？— 喝。/ 不喝。"
+    ],
+    "mistakes": [
+      "✗ 你喝什么吗？ Don't add 吗 to a question that already has a question word (什么, 谁, 哪儿, 几…).",
+      "✗ 是你学生吗？ Don't move the verb to the front like in English. Keep statement order: 你是学生吗？"
+    ],
+    "examples": [
+      {
+        "hanzi": "你是学生吗？",
+        "pinyin": "Nǐ shì xuésheng ma?",
+        "english": "Are you a student?"
+      },
+      {
+        "hanzi": "你喝茶吗？",
+        "pinyin": "Nǐ hē chá ma?",
+        "english": "Do you drink tea?",
+        "note": "Answer: 喝 (yes) or 不喝 (no)."
+      },
+      {
+        "hanzi": "你认识他吗？",
+        "pinyin": "Nǐ rènshi tā ma?",
+        "english": "Do you know him?"
+      },
+      {
+        "hanzi": "你好吗？",
+        "pinyin": "Nǐ hǎo ma?",
+        "english": "How are you?",
+        "note": "Literally 'Are you well?'. Used with people you already know."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "你喝咖啡___？",
+        "english": "Do you drink coffee?",
+        "options": [
+          "吗",
+          "很",
+          "的",
+          "是"
+        ],
+        "answer": 0,
+        "explanation": "吗 at the end turns the statement 你喝咖啡 into a yes/no question."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "你",
+          "认识",
+          "他",
+          "吗"
+        ],
+        "english": "Do you know him?",
+        "pinyin": "Nǐ rènshi tā ma?",
+        "explanation": "Keep the statement order (你认识他) and add 吗 at the end."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "你是学生吗？",
+          "你喝什么吗？",
+          "你吃米饭吗？",
+          "她是老师吗？"
+        ],
+        "answer": 1,
+        "explanation": "什么 already makes it a question, so 吗 is not allowed. Correct: 你喝什么？"
+      },
+      {
+        "type": "choice",
+        "prompt": "你是老师吗？ Choose the natural answer for 'No'.",
+        "sentence": "___",
+        "english": "No (I'm not).",
+        "options": [
+          "不是。",
+          "没是。",
+          "是不。",
+          "不吗。"
+        ],
+        "answer": 0,
+        "explanation": "Answer by repeating the verb with 不: 不是。是 is never negated with 没."
+      }
+    ]
+  },
+  {
+    "id": "g-hen-adj",
+    "hskLevel": 1,
+    "title": "很 + adjective",
+    "titleHanzi": "很",
+    "pattern": "Subject + 很 + Adjective",
+    "summary": "Describe things with adjectives: 她很漂亮.",
+    "explanation": [
+      "Chinese adjectives work like verbs, so they **don't need 是**. Instead you normally put **很 (hěn)** between the subject and the adjective.",
+      "In a plain statement 很 is often unstressed and simply links subject and adjective. It only really means 'very' when stressed. A bare adjective without 很 sounds like a contrast: 今天冷，明天不冷。",
+      "To negate, use 不 + adjective and drop 很: 我不高兴。"
+    ],
+    "mistakes": [
+      "✗ 她是漂亮。 → ✓ 她很漂亮。",
+      "Note: 我很不高兴 means 'very unhappy'. Plain 'not happy' is 我不高兴。"
+    ],
+    "examples": [
+      {
+        "hanzi": "我很高兴。",
+        "pinyin": "Wǒ hěn gāoxìng.",
+        "english": "I'm happy."
+      },
+      {
+        "hanzi": "她很漂亮。",
+        "pinyin": "Tā hěn piàoliang.",
+        "english": "She is beautiful."
+      },
+      {
+        "hanzi": "今天很冷。",
+        "pinyin": "Jīntiān hěn lěng.",
+        "english": "It's cold today."
+      },
+      {
+        "hanzi": "这个苹果不大。",
+        "pinyin": "Zhège píngguǒ bú dà.",
+        "english": "This apple isn't big.",
+        "note": "Negated: 不 + adjective, no 很."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "认识你，我___高兴。",
+        "english": "Nice to meet you. (I'm happy to meet you.)",
+        "options": [
+          "很",
+          "是",
+          "的",
+          "吗"
+        ],
+        "answer": 0,
+        "explanation": "高兴 is an adjective: subject + 很 + adjective."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "她是漂亮。",
+          "她很漂亮。",
+          "今天很冷。",
+          "我不高兴。"
+        ],
+        "answer": 0,
+        "explanation": "Adjectives don't take 是. Correct: 她很漂亮。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "今天",
+          "很",
+          "热"
+        ],
+        "english": "It is hot today.",
+        "pinyin": "Jīntiān hěn rè.",
+        "explanation": "Subject (今天) + 很 + adjective (热)."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "The tea isn't hot.",
+        "optionScript": "hanzi",
+        "options": [
+          "茶不热。",
+          "茶是不热。",
+          "茶没很热。",
+          "茶热不。"
+        ],
+        "answer": 0,
+        "explanation": "Negate an adjective with 不 directly before it. No 是, no 很."
+      }
+    ]
+  },
+  {
+    "id": "g-de",
+    "hskLevel": 1,
+    "title": "的 for possession",
+    "titleHanzi": "的",
+    "pattern": "Owner + 的 + Thing",
+    "summary": "Say whose something is: 我的茶, 老师的书.",
+    "explanation": [
+      "**的 (de)** works like English **'s**: 我的 = my, 你的 = your, 妈妈的 = mom's.",
+      "With close relationships (family, close friends) and groups you belong to, 的 is usually dropped after a pronoun: 我妈妈, 我朋友, 我们学校.",
+      "If the thing is clear from context, it can be left out: 这是我的。 = This is mine."
+    ],
+    "mistakes": [
+      "✗ 我书的 → ✓ 我的书。 The owner always comes first, then 的, then the thing.",
+      "Don't stack 的 unnecessarily: 我朋友的女儿 sounds better than 我的朋友的女儿."
+    ],
+    "examples": [
+      {
+        "hanzi": "这是我的茶。",
+        "pinyin": "Zhè shì wǒ de chá.",
+        "english": "This is my tea."
+      },
+      {
+        "hanzi": "他是我的朋友。",
+        "pinyin": "Tā shì wǒ de péngyou.",
+        "english": "He is my friend.",
+        "note": "我朋友 (without 的) is also very common."
+      },
+      {
+        "hanzi": "我妈妈是老师。",
+        "pinyin": "Wǒ māma shì lǎoshī.",
+        "english": "My mom is a teacher.",
+        "note": "的 is dropped with family members."
+      },
+      {
+        "hanzi": "这本书是你的吗？",
+        "pinyin": "Zhè běn shū shì nǐ de ma?",
+        "english": "Is this book yours?"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这是老师___书。",
+        "english": "This is the teacher's book.",
+        "options": [
+          "的",
+          "是",
+          "很",
+          "吗"
+        ],
+        "answer": 0,
+        "explanation": "Owner (老师) + 的 + thing (书)."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "这",
+          "是",
+          "我",
+          "的",
+          "苹果"
+        ],
+        "english": "This is my apple.",
+        "pinyin": "Zhè shì wǒ de píngguǒ.",
+        "explanation": "这 + 是 + owner + 的 + thing."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct pinyin.",
+        "english": "my friend's daughter",
+        "optionScript": "pinyin",
+        "options": [
+          "wǒ péngyou de nǚ'ér",
+          "wǒ de nǚ'ér péngyou",
+          "nǚ'ér de wǒ péngyou",
+          "wǒ péngyou nǚ'ér de"
+        ],
+        "answer": 0,
+        "explanation": "我朋友 (my friend) + 的 + 女儿 (daughter). The owner always comes first."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我妈妈很漂亮。",
+          "这是我的书。",
+          "这是的我书。",
+          "那是你的茶吗？"
+        ],
+        "answer": 2,
+        "explanation": "的 comes after the owner: 这是我的书。"
+      }
+    ]
+  },
+  {
+    "id": "g-bu",
+    "hskLevel": 1,
+    "title": "不 negation",
+    "titleHanzi": "不",
+    "pattern": "Subject + 不 + Verb / Adjective",
+    "summary": "Say 'not' for the present, future, habits and adjectives.",
+    "explanation": [
+      "**不 (bù)** negates present and future actions, habits, wishes and adjectives. It goes directly before the verb or adjective: 我不喝咖啡。",
+      "**Tone change:** before a 4th-tone syllable, 不 becomes 2nd tone: 不是 bú shì, 不去 bú qù, 不大 bú dà. Before tones 1–3 it stays bù: 不喝 bù hē, 不来 bù lái, 不好 bù hǎo.",
+      "Exception: 有 is never negated with 不. It's always 没有."
+    ],
+    "mistakes": [
+      "✗ 我不有时间。 → ✓ 我没有时间。",
+      "✗ 我喝不咖啡。 → ✓ 我不喝咖啡。 不 goes before the verb, not after it."
+    ],
+    "examples": [
+      {
+        "hanzi": "我不喝咖啡。",
+        "pinyin": "Wǒ bù hē kāfēi.",
+        "english": "I don't drink coffee."
+      },
+      {
+        "hanzi": "他不是中国人。",
+        "pinyin": "Tā bú shì Zhōngguórén.",
+        "english": "He isn't Chinese."
+      },
+      {
+        "hanzi": "明天我不去。",
+        "pinyin": "Míngtiān wǒ bú qù.",
+        "english": "I'm not going tomorrow."
+      },
+      {
+        "hanzi": "今天不冷。",
+        "pinyin": "Jīntiān bù lěng.",
+        "english": "It isn't cold today."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我___吃鸡蛋。",
+        "english": "I don't eat eggs. (habit)",
+        "options": [
+          "不",
+          "没",
+          "很",
+          "的"
+        ],
+        "answer": 0,
+        "explanation": "Habits are negated with 不. 我没吃鸡蛋 would mean 'I didn't eat eggs'."
+      },
+      {
+        "type": "translate",
+        "prompt": "How is 不是 pronounced?",
+        "english": "is not",
+        "optionScript": "pinyin",
+        "options": [
+          "bù shì",
+          "bú shì",
+          "bǔ shì",
+          "bù shí"
+        ],
+        "answer": 1,
+        "explanation": "Before a 4th tone (shì), 不 changes to the 2nd tone: bú shì."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "她",
+          "明天",
+          "不",
+          "去"
+        ],
+        "alternatives": [
+          [
+            "明天",
+            "她",
+            "不",
+            "去"
+          ]
+        ],
+        "english": "She isn't going tomorrow.",
+        "pinyin": "Tā míngtiān bú qù.",
+        "explanation": "Time words go before the verb (before or after the subject); 不 goes right before 去."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我不有时间。",
+          "我不喝茶。",
+          "他不是老师。",
+          "今天不热。"
+        ],
+        "answer": 0,
+        "explanation": "有 is negated with 没: 我没有时间。"
+      }
+    ]
+  },
+  {
+    "id": "g-measure",
+    "hskLevel": 1,
+    "title": "Measure words 个 / 本 / 杯",
+    "titleHanzi": "个 本 杯",
+    "pattern": "Number / 这 / 那 + Measure Word + Noun",
+    "summary": "Numbers need a measure word before the noun: 三个人.",
+    "explanation": [
+      "In Chinese a number can't go directly before a noun. A **measure word** (classifier) goes in between: 三个人, not 三人.",
+      "**个 (gè)** is the general one, used for people and many things. **本 (běn)** is for books, **杯 (bēi)** for cups or glasses of a drink. 这 (this) and 那 (that) also take a measure word: 这本书, 那杯茶.",
+      "For 'two' before a measure word, use **两 (liǎng)**, not 二: 两个苹果.",
+      "**一 changes tone:** yí before a 4th tone (一个 yí gè), yì before tones 1–3 (一本 yì běn, 一杯 yì bēi)."
+    ],
+    "mistakes": [
+      "✗ 我有三朋友。 → ✓ 我有三个朋友。",
+      "✗ 二个苹果 → ✓ 两个苹果。"
+    ],
+    "examples": [
+      {
+        "hanzi": "我有三个朋友。",
+        "pinyin": "Wǒ yǒu sān gè péngyou.",
+        "english": "I have three friends."
+      },
+      {
+        "hanzi": "我要一杯茶。",
+        "pinyin": "Wǒ yào yì bēi chá.",
+        "english": "I'd like a cup of tea.",
+        "note": "一 is yì before 1st-tone 杯."
+      },
+      {
+        "hanzi": "这本书很好。",
+        "pinyin": "Zhè běn shū hěn hǎo.",
+        "english": "This book is good."
+      },
+      {
+        "hanzi": "我吃了两个苹果。",
+        "pinyin": "Wǒ chī le liǎng gè píngguǒ.",
+        "english": "I ate two apples.",
+        "note": "两, not 二, before a measure word."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我要一___咖啡。",
+        "english": "I'd like a cup of coffee.",
+        "options": [
+          "杯",
+          "本",
+          "个",
+          "口"
+        ],
+        "answer": 0,
+        "explanation": "Drinks served in a cup or glass take 杯."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我有___个女儿。",
+        "english": "I have two daughters.",
+        "options": [
+          "两",
+          "二",
+          "很",
+          "的"
+        ],
+        "answer": 0,
+        "explanation": "Before a measure word, 'two' is 两 (liǎng), not 二."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我有三朋友。",
+          "这本书是我的。",
+          "他喝了两杯茶。",
+          "那个人是老师。"
+        ],
+        "answer": 0,
+        "explanation": "A number needs a measure word: 我有三个朋友。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我",
+          "想",
+          "买",
+          "一",
+          "本",
+          "书"
+        ],
+        "english": "I want to buy a book.",
+        "pinyin": "Wǒ xiǎng mǎi yì běn shū.",
+        "explanation": "Number (一) + measure word (本) + noun (书)."
+      }
+    ]
+  },
+  {
+    "id": "g-you",
+    "hskLevel": 1,
+    "title": "有: to have / there is",
+    "titleHanzi": "有",
+    "pattern": "Subject + 有 + Object  ·  Place + 有 + Thing",
+    "summary": "Say what you have, or what there is somewhere.",
+    "explanation": [
+      "**有 (yǒu)** means 'to have': 我有一个女儿。",
+      "With a place as the subject it means 'there is / there are': 火车站有很多出租车。",
+      "Negate **only with 没**: 没有 (méiyǒu). Questions: …有…吗？ or 有没有…？"
+    ],
+    "mistakes": [
+      "✗ 我不有朋友。 → ✓ 我没有朋友。",
+      "Questions: 你有时间吗？ or 你有没有时间？ (with 没, never 不)."
+    ],
+    "examples": [
+      {
+        "hanzi": "我有一个女儿。",
+        "pinyin": "Wǒ yǒu yí gè nǚ'ér.",
+        "english": "I have a daughter."
+      },
+      {
+        "hanzi": "你有时间吗？",
+        "pinyin": "Nǐ yǒu shíjiān ma?",
+        "english": "Do you have time?"
+      },
+      {
+        "hanzi": "我没有钱。",
+        "pinyin": "Wǒ méiyǒu qián.",
+        "english": "I don't have any money."
+      },
+      {
+        "hanzi": "火车站有很多出租车。",
+        "pinyin": "Huǒchēzhàn yǒu hěn duō chūzūchē.",
+        "english": "There are lots of taxis at the train station."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我___有咖啡。",
+        "english": "I don't have coffee.",
+        "options": [
+          "没",
+          "不",
+          "很",
+          "是"
+        ],
+        "answer": 0,
+        "explanation": "有 is always negated with 没: 没有."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "There is water here.",
+        "optionScript": "hanzi",
+        "options": [
+          "这儿有水。",
+          "这儿是水。",
+          "有这儿水。",
+          "这儿水有。"
+        ],
+        "answer": 0,
+        "explanation": "Place (这儿) + 有 + thing (水)."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "你",
+          "有",
+          "时间",
+          "吗"
+        ],
+        "english": "Do you have time?",
+        "pinyin": "Nǐ yǒu shíjiān ma?",
+        "explanation": "Statement 你有时间 + 吗."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我有两个朋友。",
+          "我不有朋友。",
+          "这儿有出租车吗？",
+          "他没有女儿。"
+        ],
+        "answer": 1,
+        "explanation": "有 can't take 不. Correct: 我没有朋友。"
+      }
+    ]
+  },
+  {
+    "id": "g-zai",
+    "hskLevel": 1,
+    "title": "在: location",
+    "titleHanzi": "在",
+    "pattern": "Subject + 在 + Place  ·  Subject + 在 + Place + Verb",
+    "summary": "Say where something is, and where an action happens.",
+    "explanation": [
+      "As a verb, **在 (zài)** means 'to be at / in': 妈妈在家。 No 是 is needed.",
+      "在 + place can also come **before the main verb** to say where an action happens: 我在家喝茶。 The place comes before the action, unlike English 'I drink tea at home'.",
+      "Negate with 不: 他不在家。 Ask 'where?' with 在哪儿？"
+    ],
+    "mistakes": [
+      "✗ 我喝茶在家。 → ✓ 我在家喝茶。",
+      "✗ 我是在北京。 (in a basic statement) → ✓ 我在北京。"
+    ],
+    "examples": [
+      {
+        "hanzi": "妈妈在家。",
+        "pinyin": "Māma zài jiā.",
+        "english": "Mom is at home."
+      },
+      {
+        "hanzi": "火车站在哪儿？",
+        "pinyin": "Huǒchēzhàn zài nǎr?",
+        "english": "Where is the train station?"
+      },
+      {
+        "hanzi": "我在学校学习汉语。",
+        "pinyin": "Wǒ zài xuéxiào xuéxí Hànyǔ.",
+        "english": "I study Chinese at school."
+      },
+      {
+        "hanzi": "他现在不在家。",
+        "pinyin": "Tā xiànzài bú zài jiā.",
+        "english": "He isn't home right now."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我朋友___北京。",
+        "english": "My friend is in Beijing.",
+        "options": [
+          "在",
+          "是",
+          "有",
+          "的"
+        ],
+        "answer": 0,
+        "explanation": "Subject + 在 + place."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我",
+          "在",
+          "家",
+          "吃",
+          "米饭"
+        ],
+        "english": "I eat rice at home.",
+        "pinyin": "Wǒ zài jiā chī mǐfàn.",
+        "explanation": "在 + place (家) goes before the verb (吃)."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我喝茶在家。",
+          "我在家喝茶。",
+          "他在学校。",
+          "妈妈不在家。"
+        ],
+        "answer": 0,
+        "explanation": "The place phrase comes before the verb: 我在家喝茶。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct pinyin.",
+        "english": "Where is the taxi?",
+        "optionScript": "pinyin",
+        "options": [
+          "Chūzūchē zài nǎr?",
+          "Chūzūchē shì nǎr?",
+          "Nǎr zài chūzūchē?",
+          "Chūzūchē zài nǎr ma?"
+        ],
+        "answer": 0,
+        "explanation": "出租车在哪儿？ The question word 哪儿 takes the place of the answer, and no 吗 is added."
+      }
+    ]
+  },
+  {
+    "id": "g-question-words",
+    "hskLevel": 1,
+    "title": "Question words 什么 / 谁 / 哪儿 / 几",
+    "titleHanzi": "什么 谁 哪儿 几",
+    "pattern": "Question word stays where the answer goes",
+    "summary": "Ask what, who, where and how many without changing word order.",
+    "explanation": [
+      "Chinese question words **stay in the same place as the answer**. Nothing moves to the front: 你喝什么？ → 我喝茶。",
+      "**什么 (shénme)** what · **谁 (shéi)** who · **哪儿 (nǎr)** where · **几 (jǐ)** how many (usually small numbers, needs a measure word) or which day/time: 星期几, 几点.",
+      "Don't add 吗. The question word already makes it a question."
+    ],
+    "mistakes": [
+      "✗ 什么你喝？ → ✓ 你喝什么？",
+      "✗ 你是谁吗？ → ✓ 你是谁？",
+      "✗ 几朋友 → ✓ 几个朋友. 几 needs a measure word."
+    ],
+    "examples": [
+      {
+        "hanzi": "你叫什么名字？",
+        "pinyin": "Nǐ jiào shénme míngzi?",
+        "english": "What's your name?"
+      },
+      {
+        "hanzi": "他是谁？",
+        "pinyin": "Tā shì shéi?",
+        "english": "Who is he?",
+        "note": "谁 is also pronounced shuí."
+      },
+      {
+        "hanzi": "你去哪儿？",
+        "pinyin": "Nǐ qù nǎr?",
+        "english": "Where are you going?"
+      },
+      {
+        "hanzi": "今天星期几？",
+        "pinyin": "Jīntiān xīngqī jǐ?",
+        "english": "What day of the week is it today?"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank. (Answer: 我喝茶。)",
+        "sentence": "你喝___？",
+        "english": "What are you drinking?",
+        "options": [
+          "什么",
+          "谁",
+          "哪儿",
+          "几"
+        ],
+        "answer": 0,
+        "explanation": "The answer is a thing (茶), so ask with 什么."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "你家有___口人？",
+        "english": "How many people are in your family?",
+        "options": [
+          "几",
+          "什么",
+          "谁",
+          "哪儿"
+        ],
+        "answer": 0,
+        "explanation": "几 + measure word (口 for family members) asks 'how many'."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "你是谁吗？",
+          "你去哪儿？",
+          "今天星期几？",
+          "这是什么？"
+        ],
+        "answer": 0,
+        "explanation": "谁 already makes a question, so 吗 must go: 你是谁？"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "你",
+          "明天",
+          "去",
+          "哪儿"
+        ],
+        "alternatives": [
+          [
+            "明天",
+            "你",
+            "去",
+            "哪儿"
+          ]
+        ],
+        "english": "Where are you going tomorrow?",
+        "pinyin": "Nǐ míngtiān qù nǎr?",
+        "explanation": "哪儿 stays in the place position after the verb 去."
+      }
+    ]
+  },
+  {
+    "id": "g-ne",
+    "hskLevel": 1,
+    "title": "呢: 'And you?'",
+    "titleHanzi": "呢",
+    "pattern": "Noun / Pronoun + 呢？",
+    "summary": "Bounce a question back: 我很好，你呢？",
+    "explanation": [
+      "**呢 (ne)** after a noun or pronoun means 'And …? / What about …?' It repeats the previous question about someone or something else: 我很好，你呢？",
+      "Without context, X呢？ asks where X is: 我的手机呢？ = Where's my phone?",
+      "呢 is not a yes/no particle. For plain yes/no questions use 吗."
+    ],
+    "mistakes": [
+      "✗ 你是学生呢？ (for 'Are you a student?') → ✓ 你是学生吗？"
+    ],
+    "examples": [
+      {
+        "hanzi": "我很好，你呢？",
+        "pinyin": "Wǒ hěn hǎo, nǐ ne?",
+        "english": "I'm fine, and you?"
+      },
+      {
+        "hanzi": "我喝茶，你呢？",
+        "pinyin": "Wǒ hē chá, nǐ ne?",
+        "english": "I'll have tea. How about you?"
+      },
+      {
+        "hanzi": "我的手机呢？",
+        "pinyin": "Wǒ de shǒujī ne?",
+        "english": "Where's my phone?"
+      },
+      {
+        "hanzi": "今天很冷，明天呢？",
+        "pinyin": "Jīntiān hěn lěng, míngtiān ne?",
+        "english": "It's cold today. What about tomorrow?"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我是学生，你___？",
+        "english": "I'm a student, and you?",
+        "options": [
+          "呢",
+          "吗",
+          "的",
+          "很"
+        ],
+        "answer": 0,
+        "explanation": "Pronoun + 呢 bounces the topic back: 'and you?'."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "你是学生___？",
+        "english": "Are you a student?",
+        "options": [
+          "吗",
+          "呢",
+          "的",
+          "很"
+        ],
+        "answer": 0,
+        "explanation": "A plain yes/no question needs 吗, not 呢."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Where's my tea?",
+        "optionScript": "hanzi",
+        "options": [
+          "我的茶呢？",
+          "我的茶吗？",
+          "呢我的茶？",
+          "我的呢茶？"
+        ],
+        "answer": 0,
+        "explanation": "Noun + 呢 without context asks where something is."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我",
+          "很",
+          "好",
+          "你",
+          "呢"
+        ],
+        "english": "I'm fine, and you?",
+        "pinyin": "Wǒ hěn hǎo, nǐ ne?",
+        "explanation": "Answer first (我很好), then bounce the question back with 你呢."
+      }
+    ]
+  },
+  {
+    "id": "g-modals",
+    "hskLevel": 1,
+    "title": "想 / 要 / 会 / 能: want, can",
+    "titleHanzi": "想 要 会 能",
+    "pattern": "Subject + 想 / 要 / 会 / 能 + Verb",
+    "summary": "Express wishes and abilities before the main verb.",
+    "explanation": [
+      "These modal verbs go **right before the main verb**.",
+      "**想 (xiǎng)**: would like to, a soft wish: 我想喝茶。 **要 (yào)**: want to / going to, more decided: 我要去火车站。",
+      "**会 (huì)**: can, as a *learned skill* (languages, singing, driving): 她会唱歌。 **能 (néng)**: can, *able to* / *allowed to*, depending on circumstances: 明天你能来吗？",
+      "Negate with 不: 不想, 不会, 不能. Careful: 不要 usually means 'Don't!' For 'I don't want to', say 不想."
+    ],
+    "mistakes": [
+      "✗ 我喝想茶。 → ✓ 我想喝茶。 The modal comes before the verb.",
+      "✗ 我不要喝咖啡 (as 'I don't feel like coffee') sounds blunt. Use 我不想喝咖啡。"
+    ],
+    "examples": [
+      {
+        "hanzi": "我想喝咖啡。",
+        "pinyin": "Wǒ xiǎng hē kāfēi.",
+        "english": "I'd like to drink coffee."
+      },
+      {
+        "hanzi": "我要去火车站。",
+        "pinyin": "Wǒ yào qù huǒchēzhàn.",
+        "english": "I want to go to the train station."
+      },
+      {
+        "hanzi": "她会唱歌。",
+        "pinyin": "Tā huì chànggē.",
+        "english": "She can sing."
+      },
+      {
+        "hanzi": "明天你能来吗？",
+        "pinyin": "Míngtiān nǐ néng lái ma?",
+        "english": "Can you come tomorrow?"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我___说汉语。",
+        "english": "I can speak Chinese. (I learned it.)",
+        "options": [
+          "会",
+          "是",
+          "想",
+          "很"
+        ],
+        "answer": 0,
+        "explanation": "A learned skill like a language uses 会."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我很累，我___睡觉。",
+        "english": "I'm tired. I'd like to sleep.",
+        "options": [
+          "想",
+          "会",
+          "是",
+          "很"
+        ],
+        "answer": 0,
+        "explanation": "A wish ('would like to') is 想."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我会说汉语。",
+          "我想喝水。",
+          "明天他能来。",
+          "我喝想茶。"
+        ],
+        "answer": 3,
+        "explanation": "The modal goes before the main verb: 我想喝茶。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我",
+          "想",
+          "喝",
+          "一",
+          "杯",
+          "茶"
+        ],
+        "english": "I'd like to drink a cup of tea.",
+        "pinyin": "Wǒ xiǎng hē yì bēi chá.",
+        "explanation": "Subject + 想 + verb + 一杯茶."
+      }
+    ]
+  },
+  {
+    "id": "g-le",
+    "hskLevel": 1,
+    "title": "了: completed actions",
+    "titleHanzi": "了",
+    "pattern": "Subject + Verb + 了 + (Quantity) + Object",
+    "summary": "Mark that an action has been completed: 我吃了两个苹果.",
+    "explanation": [
+      "**了 (le)** right after a verb marks the action as **completed**. It is not a past tense. It's about completion, and it usually goes with a quantity: 我喝了两杯茶。",
+      "了 at the end of a sentence signals a change or new situation: 我们到火车站了。 (We've arrived.)",
+      "**Negation:** use 没 + verb and **drop 了**: 我没吃。"
+    ],
+    "mistakes": [
+      "✗ 我没吃了早饭。 → ✓ 我没吃早饭。",
+      "✗ 以前我常常喝了咖啡。 Past habits don't take 了: 以前我常常喝咖啡。"
+    ],
+    "examples": [
+      {
+        "hanzi": "我吃了两个苹果。",
+        "pinyin": "Wǒ chī le liǎng gè píngguǒ.",
+        "english": "I ate two apples."
+      },
+      {
+        "hanzi": "他喝了一杯咖啡。",
+        "pinyin": "Tā hē le yì bēi kāfēi.",
+        "english": "He drank a cup of coffee."
+      },
+      {
+        "hanzi": "我买了三本书。",
+        "pinyin": "Wǒ mǎi le sān běn shū.",
+        "english": "I bought three books."
+      },
+      {
+        "hanzi": "我们到火车站了。",
+        "pinyin": "Wǒmen dào huǒchēzhàn le.",
+        "english": "We've arrived at the train station.",
+        "note": "Sentence-final 了: a new situation."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我昨天买___一本书。",
+        "english": "I bought a book yesterday.",
+        "options": [
+          "了",
+          "的",
+          "吗",
+          "很"
+        ],
+        "answer": 0,
+        "explanation": "Verb + 了 + quantity + object: a completed action."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我没吃了早饭。",
+          "我吃了早饭。",
+          "她喝了一杯茶。",
+          "我们到了。"
+        ],
+        "answer": 0,
+        "explanation": "With 没 the 了 disappears: 我没吃早饭。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我",
+          "买",
+          "了",
+          "两",
+          "个",
+          "苹果"
+        ],
+        "english": "I bought two apples.",
+        "pinyin": "Wǒ mǎi le liǎng gè píngguǒ.",
+        "explanation": "Verb (买) + 了 + quantity (两个) + object (苹果)."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "I didn't drink coffee.",
+        "optionScript": "hanzi",
+        "options": [
+          "我没喝咖啡。",
+          "我不喝了咖啡。",
+          "我没喝了咖啡。",
+          "我喝没咖啡。"
+        ],
+        "answer": 0,
+        "explanation": "没 + verb, and no 了."
+      }
+    ]
+  },
+  {
+    "id": "g-bu-mei",
+    "hskLevel": 1,
+    "title": "不 vs 没",
+    "titleHanzi": "不 / 没",
+    "pattern": "不 + Verb (now · future · habit)  ·  没 + Verb (didn't · haven't)",
+    "summary": "Choose the right 'not' for habits vs past actions.",
+    "explanation": [
+      "Both mean 'not', but they cover different ground.",
+      "**不 (bù)**: present, future, habits, wishes, and adjectives. 我不去 = I'm not going / I don't go.",
+      "**没 / 没有 (méi / méiyǒu)**: actions that didn't happen or haven't happened. 我没去 = I didn't go. It's also the only negation for 有.",
+      "**Tip:** if the positive sentence would have 了, the negative uses 没 (without 了). 是, 喜欢, 会, 想 and 能 are negated with 不, even in the past."
+    ],
+    "mistakes": [
+      "✗ 她明天没来。 → ✓ 她明天不来。 Future: 不.",
+      "✗ 我没喜欢茶。 → ✓ 我不喜欢茶。"
+    ],
+    "examples": [
+      {
+        "hanzi": "我明天不去。",
+        "pinyin": "Wǒ míngtiān bú qù.",
+        "english": "I'm not going tomorrow."
+      },
+      {
+        "hanzi": "我昨天没去。",
+        "pinyin": "Wǒ zuótiān méi qù.",
+        "english": "I didn't go yesterday."
+      },
+      {
+        "hanzi": "他不喝咖啡。",
+        "pinyin": "Tā bù hē kāfēi.",
+        "english": "He doesn't drink coffee."
+      },
+      {
+        "hanzi": "他今天没喝咖啡。",
+        "pinyin": "Tā jīntiān méi hē kāfēi.",
+        "english": "He didn't drink coffee today."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "昨天我___吃早饭。",
+        "english": "I didn't eat breakfast yesterday.",
+        "options": [
+          "没",
+          "不",
+          "很",
+          "了"
+        ],
+        "answer": 0,
+        "explanation": "An action that didn't happen is negated with 没."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我___喜欢喝茶。",
+        "english": "I don't like drinking tea.",
+        "options": [
+          "不",
+          "没",
+          "吗",
+          "了"
+        ],
+        "answer": 0,
+        "explanation": "喜欢 describes a state, so it takes 不."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他___有女儿。",
+        "english": "He doesn't have a daughter.",
+        "options": [
+          "没",
+          "不",
+          "很",
+          "是"
+        ],
+        "answer": 0,
+        "explanation": "有 is always negated with 没."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我明天不来。",
+          "她明天没来。",
+          "我昨天没来。",
+          "他不是学生。"
+        ],
+        "answer": 1,
+        "explanation": "明天 is the future, so use 不: 她明天不来。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我",
+          "昨天",
+          "没",
+          "喝",
+          "咖啡"
+        ],
+        "alternatives": [
+          [
+            "昨天",
+            "我",
+            "没",
+            "喝",
+            "咖啡"
+          ]
+        ],
+        "english": "I didn't drink coffee yesterday.",
+        "pinyin": "Wǒ zuótiān méi hē kāfēi.",
+        "explanation": "Past action that didn't happen: 没 + verb, no 了."
+      }
+    ]
+  },
+  {
+    "id": "g-tai-le",
+    "hskLevel": 1,
+    "title": "太…了: too / so",
+    "titleHanzi": "太…了",
+    "pattern": "太 + Adjective + 了",
+    "summary": "Exclaim 'too …!' or 'so …!': 太好了！",
+    "explanation": [
+      "**太 … 了 (tài … le)** means 'too …' (excess) or 'so …!' (strong feeling): 太贵了 (too expensive), 太好了 (great!).",
+      "Don't forget the closing 了 in exclamations.",
+      "**不太 + adjective** means 'not very' and takes no 了: 不太好。"
+    ],
+    "mistakes": [
+      "✗ 太好！ → ✓ 太好了！",
+      "✗ 不太好了 → ✓ 不太好。"
+    ],
+    "examples": [
+      {
+        "hanzi": "太好了！",
+        "pinyin": "Tài hǎo le!",
+        "english": "Great!"
+      },
+      {
+        "hanzi": "这个苹果太大了。",
+        "pinyin": "Zhège píngguǒ tài dà le.",
+        "english": "This apple is too big."
+      },
+      {
+        "hanzi": "咖啡太热了。",
+        "pinyin": "Kāfēi tài rè le.",
+        "english": "The coffee is too hot."
+      },
+      {
+        "hanzi": "今天不太冷。",
+        "pinyin": "Jīntiān bú tài lěng.",
+        "english": "It isn't very cold today.",
+        "note": "不 is bú before 4th-tone 太."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这个太贵___！",
+        "english": "This is too expensive!",
+        "options": [
+          "了",
+          "吗",
+          "的",
+          "很"
+        ],
+        "answer": 0,
+        "explanation": "太 + adjective + 了."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "That's great!",
+        "optionScript": "hanzi",
+        "options": [
+          "太好了！",
+          "很好了！",
+          "太好吗！",
+          "好太了！"
+        ],
+        "answer": 0,
+        "explanation": "太好了 is the set phrase for 'great!'."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "你",
+          "女儿",
+          "太",
+          "漂亮",
+          "了"
+        ],
+        "english": "Your daughter is so beautiful!",
+        "pinyin": "Nǐ nǚ'ér tài piàoliang le!",
+        "explanation": "Subject (你女儿) + 太 + adjective + 了."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "太好了！",
+          "这本书太贵了。",
+          "今天不太热了。",
+          "咖啡太热了。"
+        ],
+        "answer": 2,
+        "explanation": "不太 + adjective ('not very') takes no 了: 今天不太热。"
+      }
+    ]
+  },
+  {
+    "id": "g-bi",
+    "hskLevel": 2,
+    "title": "比: comparisons",
+    "titleHanzi": "比",
+    "pattern": "A + 比 + B + Adjective (+ Difference)",
+    "summary": "Say A is more … than B: 今天比昨天冷.",
+    "explanation": [
+      "**A 比 B + adjective** = 'A is more [adjective] than B': 茶比咖啡便宜。",
+      "**Never use 很 or 非常** in a 比 sentence. To say how much, add something *after* the adjective: 一点儿 (a bit), 多了 (much), or a number: 他比我大两岁。",
+      "Negative: **A 没有 B + adjective** = 'A is not as … as B': 我没有他高。"
+    ],
+    "mistakes": [
+      "✗ 他比我很高。 → ✓ 他比我高。 / 他比我高多了。",
+      "✗ 他比我两岁大。 → ✓ 他比我大两岁。 The difference goes after the adjective."
+    ],
+    "examples": [
+      {
+        "hanzi": "今天比昨天冷。",
+        "pinyin": "Jīntiān bǐ zuótiān lěng.",
+        "english": "Today is colder than yesterday."
+      },
+      {
+        "hanzi": "茶比咖啡便宜。",
+        "pinyin": "Chá bǐ kāfēi piányi.",
+        "english": "Tea is cheaper than coffee."
+      },
+      {
+        "hanzi": "他比我大两岁。",
+        "pinyin": "Tā bǐ wǒ dà liǎng suì.",
+        "english": "He is two years older than me."
+      },
+      {
+        "hanzi": "飞机比火车快多了。",
+        "pinyin": "Fēijī bǐ huǒchē kuài duō le.",
+        "english": "Planes are much faster than trains."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "哥哥___我高。",
+        "english": "My older brother is taller than me.",
+        "options": [
+          "比",
+          "很",
+          "是",
+          "在"
+        ],
+        "answer": 0,
+        "explanation": "A 比 B + adjective."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "他比我很高。",
+          "今天比昨天热。",
+          "我没有他高。",
+          "茶比咖啡便宜。"
+        ],
+        "answer": 0,
+        "explanation": "No 很 in 比 sentences: 他比我高。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "咖啡",
+          "比",
+          "茶",
+          "贵"
+        ],
+        "english": "Coffee is more expensive than tea.",
+        "pinyin": "Kāfēi bǐ chá guì.",
+        "explanation": "A (咖啡) + 比 + B (茶) + adjective (贵)."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "I'm not as tall as him.",
+        "optionScript": "hanzi",
+        "options": [
+          "我没有他高。",
+          "我比他不高。",
+          "我比他没高。",
+          "他没有我高。"
+        ],
+        "answer": 0,
+        "explanation": "A 没有 B + adjective = A is not as … as B."
+      }
+    ]
+  },
+  {
+    "id": "g-guo",
+    "hskLevel": 2,
+    "title": "过: past experiences",
+    "titleHanzi": "过",
+    "pattern": "Subject + Verb + 过 + Object",
+    "summary": "Talk about things you have (ever) done: 我去过北京.",
+    "explanation": [
+      "**过 (guo)** after a verb says you have had this *experience* at some point: 'have (ever) done'.",
+      "Negate with **没 and keep 过**: 我没去过中国。 Ask with …过…吗？",
+      "了 vs 过: 了 = a specific action got done; 过 = it has happened at least once in your life."
+    ],
+    "mistakes": [
+      "✗ 我不去过中国。 → ✓ 我没去过中国。",
+      "✗ 我没去中国过。 → ✓ 我没去过中国。 过 sticks right after the verb."
+    ],
+    "examples": [
+      {
+        "hanzi": "我去过北京。",
+        "pinyin": "Wǒ qù guo Běijīng.",
+        "english": "I have been to Beijing."
+      },
+      {
+        "hanzi": "你吃过北京烤鸭吗？",
+        "pinyin": "Nǐ chī guo Běijīng kǎoyā ma?",
+        "english": "Have you ever eaten Peking duck?"
+      },
+      {
+        "hanzi": "我没坐过飞机。",
+        "pinyin": "Wǒ méi zuò guo fēijī.",
+        "english": "I've never been on a plane."
+      },
+      {
+        "hanzi": "她学过汉语。",
+        "pinyin": "Tā xué guo Hànyǔ.",
+        "english": "She has studied Chinese before."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "你去___中国吗？",
+        "english": "Have you ever been to China?",
+        "options": [
+          "过",
+          "的",
+          "在",
+          "很"
+        ],
+        "answer": 0,
+        "explanation": "Verb + 过 asks about an experience."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我没去过中国。",
+          "我不去过中国。",
+          "他吃过烤鸭。",
+          "你喝过中国茶吗？"
+        ],
+        "answer": 1,
+        "explanation": "过 is negated with 没: 我没去过中国。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我",
+          "没",
+          "坐",
+          "过",
+          "飞机"
+        ],
+        "english": "I've never been on a plane.",
+        "pinyin": "Wǒ méi zuò guo fēijī.",
+        "explanation": "没 + verb + 过 + object."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Have you ever been to Beijing?",
+        "optionScript": "hanzi",
+        "options": [
+          "你去过北京吗？",
+          "你过去北京吗？",
+          "你去北京过吗？",
+          "你去了过北京吗？"
+        ],
+        "answer": 0,
+        "explanation": "过 comes right after the verb 去."
+      }
+    ]
+  },
+  {
+    "id": "g-zhengzai",
+    "hskLevel": 2,
+    "title": "正在: actions in progress",
+    "titleHanzi": "正在",
+    "pattern": "Subject + (正)在 + Verb (+ 呢)",
+    "summary": "Say what someone is doing right now: 我正在吃饭.",
+    "explanation": [
+      "**在 / 正在 (zhèngzài)** before a verb shows that an action is **in progress**, like English '-ing'. 正在 stresses 'right at this moment'.",
+      "呢 at the end adds the same feeling, and they can combine: 他正在吃饭呢。",
+      "Here 在 is followed directly by a **verb**. Compare 在 + place (location)."
+    ],
+    "mistakes": [
+      "✗ 我正在吃了饭。 → ✓ 我正在吃饭。 Don't combine 正在 with 了 or 过."
+    ],
+    "examples": [
+      {
+        "hanzi": "我正在吃饭。",
+        "pinyin": "Wǒ zhèngzài chī fàn.",
+        "english": "I'm eating right now."
+      },
+      {
+        "hanzi": "妈妈在做饭呢。",
+        "pinyin": "Māma zài zuò fàn ne.",
+        "english": "Mom is cooking."
+      },
+      {
+        "hanzi": "他正在唱歌。",
+        "pinyin": "Tā zhèngzài chànggē.",
+        "english": "He is singing."
+      },
+      {
+        "hanzi": "你在做什么？",
+        "pinyin": "Nǐ zài zuò shénme?",
+        "english": "What are you doing?"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "她___打电话。",
+        "english": "She is on the phone right now.",
+        "options": [
+          "正在",
+          "了",
+          "过",
+          "很"
+        ],
+        "answer": 0,
+        "explanation": "正在 + verb = action in progress."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "他",
+          "正在",
+          "看",
+          "书"
+        ],
+        "english": "He is reading a book.",
+        "pinyin": "Tā zhèngzài kàn shū.",
+        "explanation": "Subject + 正在 + verb + object."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我正在吃了饭。",
+          "我在喝茶呢。",
+          "他正在唱歌。",
+          "你在做什么？"
+        ],
+        "answer": 0,
+        "explanation": "正在 (in progress) and 了 (completed) contradict each other: 我正在吃饭。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct pinyin.",
+        "english": "What are you doing?",
+        "optionScript": "pinyin",
+        "options": [
+          "Nǐ zài zuò shénme?",
+          "Nǐ zuò zài shénme?",
+          "Nǐ shénme zài zuò?",
+          "Nǐ zuò shénme zài?"
+        ],
+        "answer": 0,
+        "explanation": "你在做什么？ 在 comes before the verb 做."
+      }
+    ]
+  },
+  {
+    "id": "g-yinwei-suoyi",
+    "hskLevel": 2,
+    "title": "因为…所以: because … so",
+    "titleHanzi": "因为…所以",
+    "pattern": "因为 + Reason，所以 + Result",
+    "summary": "Give reasons and results: 因为下雨，所以我不去了.",
+    "explanation": [
+      "**因为 (yīnwèi)** = because, **所以 (suǒyǐ)** = so / therefore. Unlike English, Chinese happily uses **both** in one sentence.",
+      "The reason usually comes first. Either word can be dropped: 因为下雨，我不去了。/ 下雨了，所以我不去。",
+      "The subject can come before or after 因为: 我因为很忙，所以没来。"
+    ],
+    "mistakes": [
+      "✗ 所以我很累，因为我想睡觉。 Reason and result are swapped. 因为 marks the reason, 所以 the result.",
+      "A reason can follow the result with 因为 only: 他没来，因为他病了。 (no 所以)"
+    ],
+    "examples": [
+      {
+        "hanzi": "因为下雨，所以我不去了。",
+        "pinyin": "Yīnwèi xià yǔ, suǒyǐ wǒ bú qù le.",
+        "english": "Because it's raining, I'm not going."
+      },
+      {
+        "hanzi": "因为我很累，所以我想睡觉。",
+        "pinyin": "Yīnwèi wǒ hěn lèi, suǒyǐ wǒ xiǎng shuìjiào.",
+        "english": "I'm tired, so I want to sleep."
+      },
+      {
+        "hanzi": "他没来，因为他病了。",
+        "pinyin": "Tā méi lái, yīnwèi tā bìng le.",
+        "english": "He didn't come because he was sick."
+      },
+      {
+        "hanzi": "因为咖啡太贵了，所以我喝茶。",
+        "pinyin": "Yīnwèi kāfēi tài guì le, suǒyǐ wǒ hē chá.",
+        "english": "Coffee is too expensive, so I drink tea."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "因为今天很冷，___我不想出去。",
+        "english": "Because it's cold today, I don't want to go out.",
+        "options": [
+          "所以",
+          "因为",
+          "吗",
+          "的"
+        ],
+        "answer": 0,
+        "explanation": "因为 + reason, 所以 + result."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "因为",
+          "我",
+          "很",
+          "忙",
+          "所以",
+          "没",
+          "来"
+        ],
+        "alternatives": [
+          [
+            "我",
+            "因为",
+            "很",
+            "忙",
+            "所以",
+            "没",
+            "来"
+          ]
+        ],
+        "english": "Because I was busy, I didn't come.",
+        "pinyin": "Yīnwèi wǒ hěn máng, suǒyǐ méi lái.",
+        "explanation": "因为 + reason (我很忙), 所以 + result (没来)."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "因为下雨，所以我不去了。",
+          "所以我很累，因为我想睡觉。",
+          "他没来，因为他病了。",
+          "因为太贵了，我不买。"
+        ],
+        "answer": 1,
+        "explanation": "所以 must introduce the result, not the reason: 因为我很累，所以我想睡觉。"
+      }
+    ]
+  },
+  {
+    "id": "g-ba",
+    "hskLevel": 2,
+    "title": "吧: suggestions",
+    "titleHanzi": "吧",
+    "pattern": "Sentence + 吧",
+    "summary": "Make suggestions or check assumptions: 我们走吧！",
+    "explanation": [
+      "**吧 (ba)** softens a sentence:",
+      "1) **Suggestion, 'Let's…'**: 我们走吧！ 2) **Gentle request**: 你喝吧。 3) **Checking an assumption, '…, right?'**: 你是学生吧？",
+      "吗 asks a neutral yes/no question. 吧 shows you already expect 'yes'."
+    ],
+    "mistakes": [
+      "✗ 我们走吗！ (for 'Let's go!') → ✓ 我们走吧！"
+    ],
+    "examples": [
+      {
+        "hanzi": "我们走吧！",
+        "pinyin": "Wǒmen zǒu ba!",
+        "english": "Let's go!"
+      },
+      {
+        "hanzi": "我们喝咖啡吧。",
+        "pinyin": "Wǒmen hē kāfēi ba.",
+        "english": "Let's have coffee."
+      },
+      {
+        "hanzi": "你是老师吧？",
+        "pinyin": "Nǐ shì lǎoshī ba?",
+        "english": "You're a teacher, right?"
+      },
+      {
+        "hanzi": "我们坐出租车吧。",
+        "pinyin": "Wǒmen zuò chūzūchē ba.",
+        "english": "Let's take a taxi."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "太晚了，我们回家___。",
+        "english": "It's late. Let's go home.",
+        "options": [
+          "吧",
+          "吗",
+          "呢",
+          "的"
+        ],
+        "answer": 0,
+        "explanation": "A suggestion ('let's…') ends with 吧."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "你是学生___？",
+        "english": "You're a student, right?",
+        "options": [
+          "吧",
+          "吗",
+          "呢",
+          "了"
+        ],
+        "answer": 0,
+        "explanation": "吧 checks an assumption ('…, right?'). 吗 would be a neutral 'Are you a student?'."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我们",
+          "一起",
+          "去",
+          "吧"
+        ],
+        "english": "Let's go together.",
+        "pinyin": "Wǒmen yìqǐ qù ba.",
+        "explanation": "Subject + 一起 (together) + verb + 吧."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我们走吧！",
+          "我们走吗！",
+          "你是老师吧？",
+          "我们喝茶吧。"
+        ],
+        "answer": 1,
+        "explanation": "A suggestion ('Let's go!') needs 吧, not the question particle 吗: 我们走吧！"
+      }
+    ]
+  }
+]

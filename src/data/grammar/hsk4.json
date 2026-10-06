@@ -1,0 +1,611 @@
+[
+  {
+    "id": "g4-bei-passive",
+    "hskLevel": 4,
+    "title": "被 passive in depth",
+    "titleHanzi": "被 / 叫 / 让",
+    "pattern": "Receiver + 被 + (Doer) + Verb + Result/了  ·  Receiver + 叫/让 + Doer + Verb + Result",
+    "summary": "Put the thing affected first and mark the doer with 被: 我的钱包被偷了.",
+    "explanation": [
+      "In a **被 sentence** the receiver of the action becomes the subject: 小偷偷了我的钱包 → 我的钱包**被**小偷偷了. The doer after 被 can be dropped when it is unknown or unimportant: 我的钱包被偷了.",
+      "The verb almost never stands alone. It needs something after it — a result complement, a direction, 了 or 过: 被吃**完了**, 被拿**走了**, 被批评**过**.",
+      "Negation and modal verbs go **before 被**, not before the verb: 他**没**被选上, 你**会**被发现的.",
+      "Traditionally 被 describes something unpleasant (stolen, broken, criticised), but neutral uses like 被选为班长 are now common. In casual speech **叫** and **让** can replace 被 — but then the doer **must** be stated: 杯子让弟弟打破了."
+    ],
+    "mistakes": [
+      "✗ 我的自行车被偷。 → ✓ 我的自行车被偷了。 The verb after 被 needs 了 or a complement.",
+      "✗ 他被老师没批评。 → ✓ 他没被老师批评。 Negation goes before 被.",
+      "✗ 杯子让打破了。 → ✓ 杯子让弟弟打破了。 With 叫/让 the doer cannot be left out."
+    ],
+    "examples": [
+      { "hanzi": "我的钱包被小偷偷走了。", "pinyin": "Wǒ de qiánbāo bèi xiǎotōu tōuzǒu le.", "english": "My wallet was stolen by a thief." },
+      { "hanzi": "那本书已经被借走了。", "pinyin": "Nà běn shū yǐjīng bèi jièzǒu le.", "english": "That book has already been borrowed.", "note": "Doer left out." },
+      { "hanzi": "他没被老师批评。", "pinyin": "Tā méi bèi lǎoshī pīpíng.", "english": "He wasn't criticised by the teacher.", "note": "没 comes before 被." },
+      { "hanzi": "杯子叫弟弟打破了。", "pinyin": "Bēizi jiào dìdi dǎpò le.", "english": "The cup was broken by my little brother.", "note": "Colloquial 叫 — the doer must be named." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我的手机___人偷走了。",
+        "english": "My phone was stolen (by someone).",
+        "options": ["把", "被", "对", "向"],
+        "answer": 1,
+        "explanation": "The phone is the receiver, so 被 marks the doer (人)."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["衣服被雨淋湿了。", "他的自行车被偷。", "窗户被风吹开了。"],
+        "answer": 1,
+        "explanation": "A bare verb after 被 sounds unfinished: 他的自行车被偷了。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "He wasn't criticised by the teacher.",
+        "optionScript": "hanzi",
+        "options": ["他被老师没批评。", "老师没被他批评。", "他没被老师批评。", "他不被老师批评了。"],
+        "answer": 2,
+        "explanation": "Negation 没 goes before 被: 他没被老师批评。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["蛋糕", "被", "弟弟", "吃完", "了"],
+        "english": "The cake was eaten up by my little brother.",
+        "pinyin": "Dàngāo bèi dìdi chīwán le.",
+        "explanation": "Receiver + 被 + doer + verb + result + 了."
+      }
+    ]
+  },
+  {
+    "id": "g4-causatives",
+    "hskLevel": 4,
+    "title": "Causatives: 让, 叫, 使, 令",
+    "titleHanzi": "使 / 让 / 叫 / 令",
+    "pattern": "A + 让/叫 + B + Verb  ·  A + 使/令 + B + Adjective/State",
+    "summary": "Make or let someone do something, or cause a feeling: 这个消息让大家很高兴.",
+    "explanation": [
+      "All four words mean 'make / cause someone to…', but they differ in **register** and in **what follows**.",
+      "**让** is the everyday word: it covers both instructions (妈妈让我去买菜) and causing feelings (这件事让我很难过). **叫** is colloquial and mostly used for telling someone to do something: 老师叫我们早点儿来.",
+      "**使** is formal and written. It describes causing a **state or change**, not giving orders: 他的话**使**我很感动, 运动**使**身体更健康.",
+      "**令** is the most formal and mostly appears with feelings, especially in fixed phrases with 人: **令人**失望, **令人**吃惊, **令人**满意."
+    ],
+    "mistakes": [
+      "✗ 妈妈使我去买菜。 → ✓ 妈妈让我去买菜。 使/令 cause states; for instructions use 让 or 叫.",
+      "✗ 这个结果令失望。 → ✓ 这个结果令人失望。 令 needs an object (usually 人)."
+    ],
+    "examples": [
+      { "hanzi": "这个消息让大家很高兴。", "pinyin": "Zhège xiāoxi ràng dàjiā hěn gāoxìng.", "english": "This news made everyone very happy." },
+      { "hanzi": "老师叫我们明天早点儿来。", "pinyin": "Lǎoshī jiào wǒmen míngtiān zǎo diǎnr lái.", "english": "The teacher told us to come a bit earlier tomorrow.", "note": "叫 = tell someone to do something (colloquial)." },
+      { "hanzi": "他的话使我很感动。", "pinyin": "Tā de huà shǐ wǒ hěn gǎndòng.", "english": "His words moved me deeply.", "note": "Formal 使 + a feeling." },
+      { "hanzi": "比赛的结果令人失望。", "pinyin": "Bǐsài de jiéguǒ lìng rén shīwàng.", "english": "The result of the match was disappointing." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这次比赛的结果___人非常吃惊。",
+        "english": "The result of this competition was very surprising.",
+        "options": ["被", "把", "令", "对"],
+        "answer": 2,
+        "explanation": "令人 + feeling is the fixed formal pattern: 令人吃惊."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "妈妈___我去超市买牛奶。",
+        "english": "Mum told me to go to the supermarket to buy milk.",
+        "options": ["使", "让", "令", "被"],
+        "answer": 1,
+        "explanation": "Giving an instruction needs 让 (or 叫); 使 and 令 cause states, not actions."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["他的努力使成绩提高了很多。", "经理叫我马上去他办公室。", "老师使我们回答问题。", "这件事让我很难过。"],
+        "answer": 2,
+        "explanation": "An instruction to do something takes 让 or 叫: 老师让我们回答问题。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "This decision disappointed everyone.",
+        "optionScript": "hanzi",
+        "options": ["这个决定令大家很失望。", "这个决定被大家很失望。", "这个决定把大家很失望。", "大家令这个决定很失望。"],
+        "answer": 0,
+        "explanation": "Cause (决定) + 令 + affected person (大家) + feeling."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["他的", "话", "使", "我", "很", "感动"],
+        "english": "His words moved me deeply.",
+        "pinyin": "Tā de huà shǐ wǒ hěn gǎndòng.",
+        "explanation": "Cause + 使 + person + feeling."
+      }
+    ]
+  },
+  {
+    "id": "g4-wulun-buguan",
+    "hskLevel": 4,
+    "title": "无论 / 不管…都: no matter what",
+    "titleHanzi": "无论…都 / 不管…都",
+    "pattern": "无论/不管 + Open question + , Subject + 都/也 + Result",
+    "summary": "Say the result stays the same whatever happens: 不管多忙，他都坚持锻炼.",
+    "explanation": [
+      "**无论…都** and **不管…都** mean 'no matter…, still…'. **无论** (and 不论) sounds more formal and written; **不管** is the everyday spoken form.",
+      "The first clause must contain an **open choice**: a question word (什么, 谁, 怎么, 哪儿), **多 + adjective** (多忙, 多贵), **A还是B**, or a **V不V** form (去不去).",
+      "The main clause uses **都** or **也**, placed after the subject: 不管你去不去，我**都**要去."
+    ],
+    "mistakes": [
+      "✗ 无论天气很冷，他都去跑步。 → ✓ 无论天气多冷，他都去跑步。 The clause needs an open question, not a plain statement.",
+      "✗ 不管你去或者不去 → ✓ 不管你去不去 / 不管你去还是不去。 Use V不V or 还是, not 或者."
+    ],
+    "examples": [
+      { "hanzi": "无论遇到什么困难，他都不放弃。", "pinyin": "Wúlùn yùdào shénme kùnnan, tā dōu bú fàngqì.", "english": "No matter what difficulties he meets, he never gives up." },
+      { "hanzi": "不管你去不去，我都要去。", "pinyin": "Bùguǎn nǐ qù bu qù, wǒ dōu yào qù.", "english": "Whether you go or not, I'm going.", "note": "V不V form after 不管." },
+      { "hanzi": "不管多忙，她每天都给妈妈打电话。", "pinyin": "Bùguǎn duō máng, tā měitiān dōu gěi māma dǎ diànhuà.", "english": "However busy she is, she calls her mum every day." },
+      { "hanzi": "无论是大人还是孩子，都喜欢这部电影。", "pinyin": "Wúlùn shì dàrén háishi háizi, dōu xǐhuan zhè bù diànyǐng.", "english": "Adults and children alike love this film.", "note": "A 还是 B." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "不管天气___，他都去跑步。",
+        "english": "However cold it is, he goes running.",
+        "options": ["很冷", "多冷", "太冷了", "冷了"],
+        "answer": 1,
+        "explanation": "不管 needs an open question: 多 + adjective."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "无论你说什么，我___不会改变主意。",
+        "english": "Whatever you say, I won't change my mind.",
+        "options": ["就", "才", "都", "还"],
+        "answer": 2,
+        "explanation": "The main clause of 无论 takes 都 (or 也)."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["无论天气很好，我们都去爬山。", "不管你同意或者不同意，我都要去。", "不管你同意不同意，我都要去。", "无论谁来，我们就欢迎。"],
+        "answer": 2,
+        "explanation": "不管 + V不V + 都. The others lack an open question, use 或者, or use 就 instead of 都."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["无论", "多", "忙", "他", "都", "坚持", "锻炼"],
+        "alternatives": [["他", "无论", "多", "忙", "都", "坚持", "锻炼"]],
+        "english": "No matter how busy he is, he keeps up his exercise.",
+        "pinyin": "Wúlùn duō máng, tā dōu jiānchí duànliàn.",
+        "explanation": "无论 + 多 + adjective, then subject + 都 + verb. 无论 may also follow the subject."
+      }
+    ]
+  },
+  {
+    "id": "g4-jishi-ye",
+    "hskLevel": 4,
+    "title": "即使…也: even if",
+    "titleHanzi": "即使…也",
+    "pattern": "即使 + Hypothetical condition + , (Subject) + 也 + Result",
+    "summary": "Even if something happens, the result won't change: 即使下雨，我们也去.",
+    "explanation": [
+      "**即使…也** means 'even if…, still…'. The first clause is a **hypothesis** — something that may happen or is imagined — and the second says the result holds anyway.",
+      "This is the key difference from **虽然…但是**, which concedes a **fact**: 虽然下雨了 (it is raining) vs 即使下雨 (even if it rains).",
+      "即使 is slightly formal. In speech people often say **就算…也** or **哪怕…也** with the same meaning. The main clause needs **也**, after the subject."
+    ],
+    "mistakes": [
+      "✗ 即使下雨，我们但是去。 → ✓ 即使下雨，我们也去。 即使 pairs with 也.",
+      "✗ 即使他已经六十岁了，但是身体很好。 → ✓ 虽然他已经六十岁了，但是身体很好。 For a known fact use 虽然…但是."
+    ],
+    "examples": [
+      { "hanzi": "即使明天下雨，比赛也会照常进行。", "pinyin": "Jíshǐ míngtiān xià yǔ, bǐsài yě huì zhàocháng jìnxíng.", "english": "Even if it rains tomorrow, the match will go ahead as planned." },
+      { "hanzi": "即使你不说，我也知道。", "pinyin": "Jíshǐ nǐ bù shuō, wǒ yě zhīdào.", "english": "Even if you don't tell me, I know." },
+      { "hanzi": "就算再贵，我也要买。", "pinyin": "Jiùsuàn zài guì, wǒ yě yào mǎi.", "english": "Even if it's more expensive, I'm buying it.", "note": "就算 = colloquial 即使." },
+      { "hanzi": "即使工作再忙，他也坚持每天学一个小时汉语。", "pinyin": "Jíshǐ gōngzuò zài máng, tā yě jiānchí měitiān xué yí ge xiǎoshí Hànyǔ.", "english": "Even when work is really busy, he still studies Chinese for an hour every day." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "即使你不同意，我___要试一试。",
+        "english": "Even if you don't agree, I'm going to give it a try.",
+        "options": ["才", "就", "也", "却"],
+        "answer": 2,
+        "explanation": "即使 is answered by 也 in the main clause."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___明天下大雪，我们也得去上班。",
+        "english": "Even if it snows heavily tomorrow, we still have to go to work.",
+        "options": ["虽然", "即使", "因为", "所以"],
+        "answer": 1,
+        "explanation": "Tomorrow's snow is hypothetical, so 即使…也, not 虽然 (which is for facts)."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Even if he apologises, I won't forgive him.",
+        "optionScript": "hanzi",
+        "options": ["因为他道歉，我也不会原谅他。", "即使他道歉，我就不会原谅他。", "他即使道歉，所以我不会原谅他。", "即使他道歉，我也不会原谅他。"],
+        "answer": 3,
+        "explanation": "即使 + hypothesis, then 也 + result."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["即使", "你", "不", "说", "我", "也", "知道"],
+        "alternatives": [["你", "即使", "不", "说", "我", "也", "知道"]],
+        "english": "Even if you don't say it, I know.",
+        "pinyin": "Jíshǐ nǐ bù shuō, wǒ yě zhīdào.",
+        "explanation": "即使 + condition, subject + 也 + result. 即使 may also follow the subject."
+      }
+    ]
+  },
+  {
+    "id": "g4-ji-you",
+    "hskLevel": 4,
+    "title": "既…又 / 既…也: both… and…",
+    "titleHanzi": "既…又 / 既…也",
+    "pattern": "Subject + 既 + A + 又/也 + B",
+    "summary": "Say something has two qualities at once: 这家饭馆既便宜又好吃.",
+    "explanation": [
+      "**既…又…** links two qualities or actions that are both true: 既便宜**又**好吃 = both cheap and tasty. **既…也…** is similar and slightly more formal, often adding a second point: 他既是我的老师，**也**是我的朋友.",
+      "既 is an adverb, so it comes **after the subject**, right before the first adjective or verb.",
+      "Compare **又…又…**, which is more colloquial and usually joins short adjectives (又大又甜). 既…又 sounds more written and handles longer phrases well: 既能锻炼身体，又能减少压力. A and B normally point in the same direction (both good or both bad)."
+    ],
+    "mistakes": [
+      "✗ 既他会唱歌，又会跳舞。 → ✓ 他既会唱歌，又会跳舞。 既 goes after the subject."
+    ],
+    "examples": [
+      { "hanzi": "这家饭馆的菜既便宜又好吃。", "pinyin": "Zhè jiā fànguǎn de cài jì piányi yòu hǎochī.", "english": "The food at this restaurant is both cheap and tasty." },
+      { "hanzi": "他既是我的老师，也是我的朋友。", "pinyin": "Tā jì shì wǒ de lǎoshī, yě shì wǒ de péngyou.", "english": "He's both my teacher and my friend." },
+      { "hanzi": "运动既能锻炼身体，又能减少压力。", "pinyin": "Yùndòng jì néng duànliàn shēntǐ, yòu néng jiǎnshǎo yālì.", "english": "Exercise keeps you fit and also reduces stress." },
+      { "hanzi": "这样做既浪费时间，又浪费钱。", "pinyin": "Zhèyàng zuò jì làngfèi shíjiān, yòu làngfèi qián.", "english": "Doing it this way wastes both time and money." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "她既会说英语，___会说法语。",
+        "english": "She can speak both English and French.",
+        "options": ["或者", "还是", "又", "才"],
+        "answer": 2,
+        "explanation": "既 pairs with 又 (or 也)."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这件衣服___好看又便宜。",
+        "english": "This piece of clothing is both nice-looking and cheap.",
+        "options": ["既", "就", "很", "才"],
+        "answer": 0,
+        "explanation": "既 A 又 B: both A and B."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["他既聪明又努力。", "既他会开车，又会修车。", "这个办法既简单又有效。"],
+        "answer": 1,
+        "explanation": "既 must come after the subject: 他既会开车，又会修车。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["这家", "饭馆", "的", "菜", "既", "便宜", "又", "好吃"],
+        "alternatives": [["这家", "饭馆", "的", "菜", "既", "好吃", "又", "便宜"]],
+        "english": "The food at this restaurant is both cheap and tasty.",
+        "pinyin": "Zhè jiā fànguǎn de cài jì piányi yòu hǎochī.",
+        "explanation": "Subject + 既 + A + 又 + B."
+      }
+    ]
+  },
+  {
+    "id": "g4-jinguan-haishi",
+    "hskLevel": 4,
+    "title": "尽管…还是: although, despite",
+    "titleHanzi": "尽管…还是",
+    "pattern": "尽管 + Fact + , (Subject) + 还是/但是/却 + Result",
+    "summary": "Concede a real fact and say something happens anyway: 尽管很冷，他还是出去跑步了.",
+    "explanation": [
+      "**尽管** means 'although / despite the fact that'. Like **虽然**, it introduces a **fact**, but it sounds a little more formal and emphatic.",
+      "The second clause usually has **还是**, **但是/可是**, **却** or **仍然**: 尽管很累，他**还是**把作业写完了.",
+      "Don't mix it up with **即使**, which introduces a **hypothesis** (even if…). For something that hasn't happened yet, use 即使…也.",
+      "On its own, **尽管 + verb** is also an adverb meaning 'feel free to, don't hesitate to': 有问题你**尽管**问."
+    ],
+    "mistakes": [
+      "✗ 尽管明天下雨，我们还是去。 → ✓ 即使明天下雨，我们也去。 Tomorrow's rain is hypothetical, so use 即使…也.",
+      "✗ 尽管很累，所以他休息了。 → ✓ 尽管很累，他还是没休息。 尽管 introduces a contrast, not a cause."
+    ],
+    "examples": [
+      { "hanzi": "尽管外面很冷，他还是出去跑步了。", "pinyin": "Jǐnguǎn wàimian hěn lěng, tā háishi chūqu pǎobù le.", "english": "Although it was cold outside, he still went out running." },
+      { "hanzi": "尽管我们失败了很多次，但是没有放弃。", "pinyin": "Jǐnguǎn wǒmen shībài le hěn duō cì, dànshì méiyǒu fàngqì.", "english": "Although we failed many times, we didn't give up." },
+      { "hanzi": "他尽管很累，却一点儿也不想休息。", "pinyin": "Tā jǐnguǎn hěn lèi, què yìdiǎnr yě bù xiǎng xiūxi.", "english": "Even though he's very tired, he doesn't want to rest at all.", "note": "尽管 can follow the subject." },
+      { "hanzi": "有什么问题，你尽管问我。", "pinyin": "Yǒu shénme wèntí, nǐ jǐnguǎn wèn wǒ.", "english": "If you have any questions, feel free to ask me.", "note": "Adverb use: 'don't hesitate to'." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "尽管很多人反对，他___坚持自己的决定。",
+        "english": "Although many people were against it, he stuck to his decision.",
+        "options": ["就", "才", "还是", "所以"],
+        "answer": 2,
+        "explanation": "尽管 + fact, then 还是 + result."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___他已经道歉了，她还是很生气。",
+        "english": "Although he has already apologised, she is still angry.",
+        "options": ["即使", "尽管", "无论", "只要"],
+        "answer": 1,
+        "explanation": "He really did apologise (a fact), so 尽管, not hypothetical 即使."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["尽管很累，他还是把作业写完了。", "尽管下周下雨，我们也要去爬山。", "尽管价格很贵，买的人却很多。"],
+        "answer": 1,
+        "explanation": "Next week's rain is hypothetical: 即使下周下雨，我们也要去爬山。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Although it was raining hard, the match still went ahead.",
+        "optionScript": "hanzi",
+        "options": ["尽管雨下得很大，比赛所以进行了。", "尽管雨下得很大，比赛就进行了。", "雨尽管下得很大，所以比赛进行了。", "尽管雨下得很大，比赛还是进行了。"],
+        "answer": 3,
+        "explanation": "尽管 + fact, 还是 + result in spite of it."
+      }
+    ]
+  },
+  {
+    "id": "g4-ningke-yebu",
+    "hskLevel": 4,
+    "title": "宁可…也不: would rather… than…",
+    "titleHanzi": "宁可…也不",
+    "pattern": "Subject + 宁可 + Chosen option + , 也不 + Rejected option  ·  宁可 + A + , 也要 + Goal",
+    "summary": "Pick the lesser evil and reject the other: 我宁可走路，也不坐他的车.",
+    "explanation": [
+      "**宁可 A，也不 B** = 'would rather A than B'. A is often unpleasant, but the speaker accepts it to avoid B.",
+      "With **也要**, the second clause becomes a goal worth the sacrifice: 宁可少睡一会儿，**也要**把报告写完 = I'll sleep less if that's what it takes to finish the report.",
+      "**宁愿** is a near-synonym, used the same way and slightly more about personal willingness. Note the word order is the reverse of 与其…不如: with 宁可 the preferred option comes **first**."
+    ],
+    "mistakes": [
+      "✗ 我宁可走路，也坐出租车。 → ✓ 我宁可走路，也不坐出租车。 The rejected option needs 不."
+    ],
+    "examples": [
+      { "hanzi": "我宁可走路去，也不坐他的车。", "pinyin": "Wǒ nìngkě zǒulù qù, yě bú zuò tā de chē.", "english": "I'd rather walk there than ride in his car." },
+      { "hanzi": "他宁可饿着，也不吃快餐。", "pinyin": "Tā nìngkě èzhe, yě bù chī kuàicān.", "english": "He'd rather go hungry than eat fast food." },
+      { "hanzi": "她宁可少睡一会儿，也要把报告写完。", "pinyin": "Tā nìngkě shǎo shuì yíhuìr, yě yào bǎ bàogào xiěwán.", "english": "She'd rather sleep a bit less, as long as she gets the report finished.", "note": "宁可…也要 + goal." },
+      { "hanzi": "我宁愿自己做，也不想麻烦别人。", "pinyin": "Wǒ nìngyuàn zìjǐ zuò, yě bù xiǎng máfan biérén.", "english": "I'd rather do it myself than trouble other people.", "note": "宁愿 = 宁可." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我宁可在家看书，也___去那个无聊的聚会。",
+        "english": "I'd rather stay home and read than go to that boring party.",
+        "options": ["要", "会", "不", "没"],
+        "answer": 2,
+        "explanation": "宁可 A，也不 B: B is the rejected option."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他___少挣点儿钱，也不想每天加班。",
+        "english": "He'd rather earn a bit less than work overtime every day.",
+        "options": ["只要", "宁可", "因为", "无论"],
+        "answer": 1,
+        "explanation": "宁可 marks the option he chooses; 也不 marks the one he rejects."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "I'd rather walk than ride in his car.",
+        "optionScript": "pinyin",
+        "options": ["Wǒ nìngkě zǒulù, yě zuò tā de chē.", "Wǒ zǒulù nìngkě, yě bú zuò tā de chē.", "Wǒ nìngkě bú zuò tā de chē, yě zǒulù.", "Wǒ nìngkě zǒulù, yě bú zuò tā de chē."],
+        "answer": 3,
+        "explanation": "宁可 + chosen option (走路), 也不 + rejected option (坐他的车)."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["他", "宁可", "饿着", "也", "不", "吃", "快餐"],
+        "english": "He'd rather go hungry than eat fast food.",
+        "pinyin": "Tā nìngkě èzhe, yě bù chī kuàicān.",
+        "explanation": "Subject + 宁可 + chosen option, 也不 + rejected option."
+      }
+    ]
+  },
+  {
+    "id": "g4-bushi-ershi",
+    "hskLevel": 4,
+    "title": "不是…而是: not A, but B",
+    "titleHanzi": "不是…而是",
+    "pattern": "不是 + A + , 而是 + B",
+    "summary": "Correct a wrong idea and give the right one: 问题不是钱，而是时间.",
+    "explanation": [
+      "**不是 A，而是 B** rejects A and puts B in its place: 'it's not A, it's B'. A and B should be parallel (two nouns, two reasons, two purposes…).",
+      "而是 is slightly formal but very common. In casual speech you can simply say **不是 A，是 B**.",
+      "Don't confuse it with **不是 A，就是 B**, which means 'either A or B': 他周末不是看书，就是睡觉 = at weekends he either reads or sleeps."
+    ],
+    "mistakes": [
+      "✗ 他不是不想来，但是太忙了。 → ✓ 他不是不想来，而是太忙了。 不是 pairs with 而是 to correct an idea."
+    ],
+    "examples": [
+      { "hanzi": "他不是不想帮你，而是没有时间。", "pinyin": "Tā bú shì bù xiǎng bāng nǐ, érshì méiyǒu shíjiān.", "english": "It's not that he doesn't want to help you — he just has no time." },
+      { "hanzi": "问题不是钱，而是时间。", "pinyin": "Wèntí bú shì qián, érshì shíjiān.", "english": "The problem isn't money, it's time." },
+      { "hanzi": "我不是来玩儿的，而是来工作的。", "pinyin": "Wǒ bú shì lái wánr de, érshì lái gōngzuò de.", "english": "I'm not here to have fun — I'm here to work." },
+      { "hanzi": "学语言不是为了考试，而是为了交流。", "pinyin": "Xué yǔyán bú shì wèile kǎoshì, érshì wèile jiāoliú.", "english": "You learn a language to communicate, not to pass exams." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他不是不努力，___方法不对。",
+        "english": "It's not that he doesn't work hard — his method is wrong.",
+        "options": ["但是", "可是", "就是", "而是"],
+        "answer": 3,
+        "explanation": "不是 A，而是 B corrects the assumption. 不是…就是 would mean 'either… or'."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": ["我不是学生，但是老师。", "我不是学生，而是老师。", "我是不学生，而是老师。"],
+        "answer": 1,
+        "explanation": "不是 A，而是 B: 我不是学生，而是老师。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "The problem isn't money, it's time.",
+        "optionScript": "hanzi",
+        "options": ["问题不是钱，而是时间。", "问题不是钱，就是时间。", "问题是不钱，而是时间。", "问题不是钱，但是时间。"],
+        "answer": 0,
+        "explanation": "不是 + wrong idea, 而是 + right one. 不是…就是 would mean 'either money or time'."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "学语言不是为了考试，而___为了交流。",
+        "english": "You learn a language to communicate, not to pass exams.",
+        "options": ["是", "且", "有", "在"],
+        "answer": 0,
+        "explanation": "The pair is 不是…而是. 而且 means 'moreover'."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["我", "不是", "来", "玩儿", "的", "而是", "来", "工作", "的"],
+        "english": "I'm not here to have fun — I'm here to work.",
+        "pinyin": "Wǒ bú shì lái wánr de, érshì lái gōngzuò de.",
+        "explanation": "不是 + A, 而是 + B, with A and B in parallel form (来…的)."
+      }
+    ]
+  },
+  {
+    "id": "g4-yuqi-buru",
+    "hskLevel": 4,
+    "title": "与其…不如: rather than… better to…",
+    "titleHanzi": "与其…不如",
+    "pattern": "与其 + Rejected option + , (还)不如 + Better option",
+    "summary": "Compare two options and recommend the second: 与其在家睡觉，不如出去走走.",
+    "explanation": [
+      "**与其 A，不如 B** = 'rather than A, it's better to B'. The speaker weighs two choices and prefers **B, the one after 不如**.",
+      "This is the opposite order to 宁可…也不, where the preferred option comes first. Adding **还** (还不如) makes the preference stronger.",
+      "The pattern is somewhat formal but common in speech too. A useful set phrase is **与其说 A，不如说 B** = 'it's not so much A as B'. On its own, 不如 means 'not as good as': 我不如他."
+    ],
+    "mistakes": [
+      "✗ 与其等他，我们还是自己去。 → ✓ 与其等他，不如我们自己去。 与其 pairs with 不如.",
+      "✗ 与其出去走走，不如在家睡觉。 (meaning 'going out is better') → ✓ 与其在家睡觉，不如出去走走。 The preferred option follows 不如."
+    ],
+    "examples": [
+      { "hanzi": "与其在家睡觉，不如出去走走。", "pinyin": "Yǔqí zài jiā shuìjiào, bùrú chūqu zǒuzou.", "english": "Rather than sleeping at home, it's better to go out for a walk." },
+      { "hanzi": "与其等他，不如我们自己去。", "pinyin": "Yǔqí děng tā, bùrú wǒmen zìjǐ qù.", "english": "Rather than waiting for him, we'd better go ourselves." },
+      { "hanzi": "与其花钱买新的，还不如把旧的修一修。", "pinyin": "Yǔqí huā qián mǎi xīn de, hái bùrú bǎ jiù de xiū yi xiū.", "english": "Instead of spending money on a new one, you'd do better to fix the old one." },
+      { "hanzi": "与其说他聪明，不如说他努力。", "pinyin": "Yǔqí shuō tā cōngming, bùrú shuō tā nǔlì.", "english": "It's not so much that he's clever as that he works hard.", "note": "与其说…不如说." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "与其在这儿等，___打车去。",
+        "english": "Rather than waiting here, we'd better take a taxi.",
+        "options": ["宁可", "不如", "而是", "也不"],
+        "answer": 1,
+        "explanation": "与其 A，不如 B: B is the better choice."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___说他聪明，不如说他努力。",
+        "english": "It's not so much that he's clever as that he works hard.",
+        "options": ["即使", "尽管", "宁可", "与其"],
+        "answer": 3,
+        "explanation": "The set frame is 与其说…不如说."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Rather than complaining, it's better to find a way to solve it.",
+        "optionScript": "hanzi",
+        "options": ["与其想办法解决，不如抱怨。", "与其抱怨，而是想办法解决。", "与其抱怨，不如想办法解决。", "不如抱怨，与其想办法解决。"],
+        "answer": 2,
+        "explanation": "The rejected option (抱怨) follows 与其; the better one follows 不如."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["与其", "在家", "睡觉", "不如", "出去", "走走"],
+        "english": "Rather than sleeping at home, it's better to go out for a walk.",
+        "pinyin": "Yǔqí zài jiā shuìjiào, bùrú chūqu zǒuzou.",
+        "explanation": "与其 + rejected option, 不如 + preferred option."
+      }
+    ]
+  },
+  {
+    "id": "g4-faner",
+    "hskLevel": 4,
+    "title": "反而: on the contrary, instead",
+    "titleHanzi": "反而",
+    "pattern": "Expected situation + , Subject + 反而 + Opposite result  ·  不但不/没 + A + , 反而 + B",
+    "summary": "The result is the opposite of what you'd expect: 吃了药，他的病反而更重了.",
+    "explanation": [
+      "**反而** says the outcome went in the **opposite direction** from what was expected: you'd expect medicine to help, but 病**反而**更重了.",
+      "It is an adverb, so it goes **after the subject** and before the verb or adjective. It often pairs with **不但不 / 不但没**: 他不但不生气，**反而**笑了.",
+      "Compare: **却** simply marks a contrast ('but'), and **竟然** expresses surprise. 反而 specifically means 'the reverse of what you'd expect'."
+    ],
+    "mistakes": [
+      "✗ 吃了药，反而他的病更重了。 → ✓ 吃了药，他的病反而更重了。 反而 comes after the subject.",
+      "✗ 他不但不生气，而且笑了。 → ✓ 他不但不生气，反而笑了。 After 不但不, the opposite result takes 反而."
+    ],
+    "examples": [
+      { "hanzi": "吃了药以后，他的病反而更重了。", "pinyin": "Chī le yào yǐhòu, tā de bìng fǎn'ér gèng zhòng le.", "english": "After taking the medicine, his illness actually got worse." },
+      { "hanzi": "雨不但没停，反而越下越大了。", "pinyin": "Yǔ búdàn méi tíng, fǎn'ér yuè xià yuè dà le.", "english": "Far from stopping, the rain got heavier and heavier." },
+      { "hanzi": "我想帮忙，没想到反而添了麻烦。", "pinyin": "Wǒ xiǎng bāngmáng, méi xiǎngdào fǎn'ér tiān le máfan.", "english": "I wanted to help, but instead I ended up causing trouble." },
+      { "hanzi": "他不但不生气，反而笑了。", "pinyin": "Tā búdàn bù shēngqì, fǎn'ér xiào le.", "english": "Instead of getting angry, he laughed." }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他不但不生气，___笑了。",
+        "english": "Instead of getting angry, he laughed.",
+        "options": ["而且", "反而", "所以", "还是"],
+        "answer": 1,
+        "explanation": "不但不 A，反而 B: B is the opposite of what you'd expect."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": ["休息了一天，他反而更累了。", "雨不但没停，反而下得更大了。", "吃了药，反而他的病更重了。"],
+        "answer": 2,
+        "explanation": "反而 is an adverb and follows the subject: 他的病反而更重了。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Prices didn't fall — on the contrary, they went up.",
+        "optionScript": "hanzi",
+        "options": ["价格不但没降，而且涨了。", "价格不但没降，反而涨了。", "价格反而没降，不但涨了。", "价格不但没降，所以涨了。"],
+        "answer": 1,
+        "explanation": "不但没 A，反而 B marks an outcome opposite to expectations."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": ["他", "不但", "不", "生气", "反而", "笑", "了"],
+        "english": "Instead of getting angry, he laughed.",
+        "pinyin": "Tā búdàn bù shēngqì, fǎn'ér xiào le.",
+        "explanation": "Subject + 不但不 + expected reaction, 反而 + opposite reaction."
+      }
+    ]
+  }
+]

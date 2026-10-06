@@ -1,0 +1,322 @@
+[
+  {
+    "id": "g1-ye-dou",
+    "hskLevel": 1,
+    "title": "也 and 都: placement before the verb",
+    "titleHanzi": "也 / 都",
+    "pattern": "Subject + 也 + Verb  ·  Subject + 都 + Verb  ·  Subject + 也都 + Verb",
+    "summary": "也 (also) and 都 (all/both) always go after the subject, before the verb.",
+    "explanation": [
+      "**也 (yě)** means 'also / too' and **都 (dōu)** means 'all / both'. Unlike English, they never go at the start or the end of a sentence: they sit **after the subject and before the verb** (or adjective).",
+      "都 looks back at a plural subject: 我们都是学生 = We are all students. Whatever is 'all' must come **before** 都.",
+      "When you need both, the order is always **也都**: 他们也都是老师 = They are all teachers too."
+    ],
+    "mistakes": [
+      "✗ 也我喜欢茶。 → ✓ 我也喜欢茶。 也 comes after the subject, never first.",
+      "✗ 我们是都学生。 → ✓ 我们都是学生。 都 goes before the verb 是.",
+      "✗ 我们都也去。 → ✓ 我们也都去。 The fixed order is 也 + 都."
+    ],
+    "examples": [
+      { "hanzi": "我也喜欢喝茶。", "pinyin": "Wǒ yě xǐhuan hē chá.", "english": "I also like drinking tea." },
+      { "hanzi": "我们都是学生。", "pinyin": "Wǒmen dōu shì xuésheng.", "english": "We are all students." },
+      { "hanzi": "他们也都很忙。", "pinyin": "Tāmen yě dōu hěn máng.", "english": "They are all busy too.", "note": "也 comes before 都." },
+      { "hanzi": "爸爸妈妈都不在家。", "pinyin": "Bàba māma dōu bú zài jiā.", "english": "Mom and dad are both not at home.", "note": "都 + 不 = neither / none of them." }
+    ],
+    "exercises": [
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "我___是老师。", "english": "I am also a teacher.", "options": ["很", "也", "吗", "的"], "answer": 1, "explanation": "也 (also) goes after the subject 我 and before the verb 是." },
+      { "type": "order", "prompt": "Put the words in order.", "tokens": ["我们", "也", "都", "喜欢", "喝", "茶"], "english": "We all like drinking tea too.", "pinyin": "Wǒmen yě dōu xǐhuan hē chá.", "explanation": "Subject + 也都 + verb. 也 always comes before 都." },
+      { "type": "error", "prompt": "Which sentence is correct?", "options": ["也他是中国人。", "他是也中国人。", "他也是中国人。", "他是中国人也。"], "answer": 2, "explanation": "也 sits between the subject (他) and the verb (是)." },
+      { "type": "translate", "prompt": "Choose the correct translation.", "english": "They are both doctors.", "optionScript": "hanzi", "options": ["他们都是医生。", "都他们是医生。", "他们是都医生。", "他们是医生都。"], "answer": 0, "explanation": "都 goes after the plural subject 他们 and before 是." }
+    ]
+  },
+  {
+    "id": "g1-time-position",
+    "hskLevel": 1,
+    "title": "Time words go before the verb",
+    "titleHanzi": "时间词",
+    "pattern": "Subject + Time + Verb  ·  Time + Subject + Verb",
+    "summary": "When something happens comes before the action: 我明天去, 明天我去.",
+    "explanation": [
+      "In Chinese, **time words** like 今天, 明天, 现在, 上午 or 三点 go **before the verb**, either right after the subject or at the very start of the sentence. They never go at the end like in English 'I'm going tomorrow'.",
+      "Both orders are fine: **我明天去北京** and **明天我去北京**. Putting the time first sets the scene a little more.",
+      "When there are several time words, go from **big to small**: 明天上午九点 = tomorrow morning at nine."
+    ],
+    "mistakes": [
+      "✗ 我去北京明天。 → ✓ 我明天去北京。 Time comes before the verb, not at the end.",
+      "✗ 九点明天上午 → ✓ 明天上午九点。 Big units first, small units last."
+    ],
+    "examples": [
+      { "hanzi": "我明天去北京。", "pinyin": "Wǒ míngtiān qù Běijīng.", "english": "I'm going to Beijing tomorrow." },
+      { "hanzi": "今天我不工作。", "pinyin": "Jīntiān wǒ bù gōngzuò.", "english": "I'm not working today.", "note": "The time word can also start the sentence." },
+      { "hanzi": "他每天七点起床。", "pinyin": "Tā měitiān qī diǎn qǐchuáng.", "english": "He gets up at seven every day." },
+      { "hanzi": "我们星期六下午见。", "pinyin": "Wǒmen xīngqīliù xiàwǔ jiàn.", "english": "See you on Saturday afternoon.", "note": "Big to small: the day, then the part of the day." }
+    ],
+    "exercises": [
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "我___去商店。", "english": "I'm going to the store now.", "options": ["吗", "现在", "的", "很"], "answer": 1, "explanation": "The time word 现在 (now) goes after the subject and before the verb 去." },
+      { "type": "order", "prompt": "Put the words in order.", "tokens": ["我", "下午", "三点", "去", "医院"], "alternatives": [["下午", "三点", "我", "去", "医院"]], "english": "I'm going to the hospital at 3 pm.", "pinyin": "Wǒ xiàwǔ sān diǎn qù yīyuàn.", "explanation": "Time (下午三点, big to small) goes before the verb, either after the subject or at the start." },
+      { "type": "error", "prompt": "Which sentence is wrong?", "options": ["明天我去学校。", "我明天去学校。", "我去学校明天。"], "answer": 2, "explanation": "The time word 明天 can't go at the end; it must come before the verb." },
+      { "type": "translate", "prompt": "Choose the correct translation.", "english": "I'm busy today.", "optionScript": "pinyin", "options": ["Wǒ hěn máng jīntiān.", "Jīntiān wǒ hěn máng.", "Hěn máng wǒ jīntiān.", "Wǒ máng hěn jīntiān."], "answer": 1, "explanation": "Time first (or after the subject), then 很 + adjective." }
+    ]
+  },
+  {
+    "id": "g1-he",
+    "hskLevel": 1,
+    "title": "和 joins nouns, 也 joins sentences",
+    "titleHanzi": "和",
+    "pattern": "Noun + 和 + Noun  ·  Clause 1，Subject + 也 + Verb",
+    "summary": "和 means 'and' between nouns only; for 'and also does…' use 也.",
+    "explanation": [
+      "**和 (hé)** means 'and', but only between **nouns or pronouns**: 我和你, 茶和咖啡, 爸爸和妈妈.",
+      "和 can **not** link two verbs or two sentences. English 'She can speak Chinese and English' is fine with 和 (two nouns), but 'I like tea and I like books' becomes two clauses, usually with **也**: 我喜欢喝茶，也喜欢看书。",
+      "In a list, 和 goes only before the last item: 苹果、米饭和水."
+    ],
+    "mistakes": [
+      "✗ 我喜欢喝茶和喜欢看书。 → ✓ 我喜欢喝茶，也喜欢看书。 和 can't join verb phrases.",
+      "✗ 我是老师和他是学生。 → ✓ 我是老师，他是学生。 和 doesn't join two sentences."
+    ],
+    "examples": [
+      { "hanzi": "我和我朋友都是学生。", "pinyin": "Wǒ hé wǒ péngyou dōu shì xuésheng.", "english": "My friend and I are both students." },
+      { "hanzi": "我想喝茶和咖啡。", "pinyin": "Wǒ xiǎng hē chá hé kāfēi.", "english": "I want to drink tea and coffee." },
+      { "hanzi": "她会说汉语，也会说英语。", "pinyin": "Tā huì shuō Hànyǔ, yě huì shuō Yīngyǔ.", "english": "She can speak Chinese, and she can also speak English.", "note": "Two verb phrases: use 也, not 和." },
+      { "hanzi": "我买了苹果、米饭和水。", "pinyin": "Wǒ mǎi le píngguǒ, mǐfàn hé shuǐ.", "english": "I bought apples, rice and water.", "note": "和 only before the last item." }
+    ],
+    "exercises": [
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "我喜欢猫___狗。", "english": "I like cats and dogs.", "options": ["也", "和", "都", "很"], "answer": 1, "explanation": "猫 and 狗 are nouns, so they are joined with 和." },
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "我会做饭，___会开车。", "english": "I can cook, and I can also drive.", "options": ["和", "吗", "的", "也"], "answer": 3, "explanation": "Two verb phrases can't be joined with 和; the second one takes 也." },
+      { "type": "error", "prompt": "Which sentence is wrong?", "options": ["我和你都是老师。", "他喜欢看书和喜欢听音乐。", "我有一个哥哥和一个姐姐。"], "answer": 1, "explanation": "和 can't join two verb phrases. Say 他喜欢看书，也喜欢听音乐。" },
+      { "type": "order", "prompt": "Put the words in order.", "tokens": ["我", "和", "妈妈", "去", "商店"], "alternatives": [["妈妈", "和", "我", "去", "商店"]], "english": "Mom and I go to the store.", "pinyin": "Wǒ hé māma qù shāngdiàn.", "explanation": "Noun + 和 + noun forms the subject, then the verb." }
+    ]
+  },
+  {
+    "id": "g1-ji-duoshao",
+    "hskLevel": 1,
+    "title": "几 vs 多少: asking 'how many'",
+    "titleHanzi": "几 / 多少",
+    "pattern": "几 + Measure word + Noun  ·  多少 + (Measure word) + Noun",
+    "summary": "几 for small numbers and always with a measure word; 多少 for any number.",
+    "explanation": [
+      "Both mean 'how many'. **几 (jǐ)** is used when you expect a **small number**, usually under ten, and it **must** be followed by a measure word: 几个人, 几本书.",
+      "**多少 (duōshao)** works for any number, especially big or unknown ones, and the measure word is optional: 多少(个)学生.",
+      "Some phrases are fixed: time and dates use 几 (几点, 几号, 星期几), while prices and phone numbers use 多少 (多少钱, 你的电话是多少)."
+    ],
+    "mistakes": [
+      "✗ 你有几哥哥？ → ✓ 你有几个哥哥？ 几 always needs a measure word.",
+      "✗ 这个几钱？ → ✓ 这个多少钱？ Prices are asked with 多少."
+    ],
+    "examples": [
+      { "hanzi": "你家有几口人？", "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?", "english": "How many people are there in your family?" },
+      { "hanzi": "你们学校有多少学生？", "pinyin": "Nǐmen xuéxiào yǒu duōshao xuésheng?", "english": "How many students does your school have?", "note": "A big number is expected, so 多少." },
+      { "hanzi": "现在几点？", "pinyin": "Xiànzài jǐ diǎn?", "english": "What time is it now?" },
+      { "hanzi": "这本书多少钱？", "pinyin": "Zhè běn shū duōshao qián?", "english": "How much is this book?" }
+    ],
+    "exercises": [
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "这个苹果___钱？", "english": "How much is this apple?", "options": ["几", "什么", "多少", "哪"], "answer": 2, "explanation": "Prices are always asked with 多少钱." },
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "今天星期___？", "english": "What day of the week is it today?", "options": ["多少", "几", "什么", "哪"], "answer": 1, "explanation": "Days of the week use the fixed question 星期几." },
+      { "type": "error", "prompt": "Which sentence is wrong?", "options": ["你几岁？", "你们班有多少学生？", "你有几哥哥？", "明天几号？"], "answer": 2, "explanation": "几 needs a measure word: 你有几个哥哥？" },
+      { "type": "order", "prompt": "Put the words in order.", "tokens": ["你", "想", "买", "几", "本", "书"], "english": "How many books do you want to buy?", "pinyin": "Nǐ xiǎng mǎi jǐ běn shū?", "explanation": "几 + measure word 本 + noun 书 stays together after the verb." }
+    ]
+  },
+  {
+    "id": "g1-zai-place-verb",
+    "hskLevel": 1,
+    "title": "在 + place + verb: where an action happens",
+    "titleHanzi": "在",
+    "pattern": "Subject + 在 + Place + Verb (+ Object)  ·  Subject + Time + 在 + Place + Verb",
+    "summary": "Say where you do something: 我在家吃饭. The place goes before the verb.",
+    "explanation": [
+      "To say **where** an action happens, put **在 + place** before the verb: 我**在学校**学习 = I study at school.",
+      "English puts the place at the end ('I eat at home'), but Chinese puts it **before the verb**: ✓ 我在家吃饭, not ✗ 我吃饭在家.",
+      "Time comes before place: **Subject + Time + 在 + Place + Verb**, e.g. 我明天在家看书. To negate, put 不 or 没 before 在: 我不在家吃饭."
+    ],
+    "mistakes": [
+      "✗ 我工作在医院。 → ✓ 我在医院工作。 在 + place goes before the verb.",
+      "✗ 我在饭店明天吃饭。 → ✓ 我明天在饭店吃饭。 Time comes before place."
+    ],
+    "examples": [
+      { "hanzi": "我在家吃饭。", "pinyin": "Wǒ zài jiā chī fàn.", "english": "I eat at home." },
+      { "hanzi": "我妈妈在医院工作。", "pinyin": "Wǒ māma zài yīyuàn gōngzuò.", "english": "My mom works at a hospital." },
+      { "hanzi": "我们明天在学校见。", "pinyin": "Wǒmen míngtiān zài xuéxiào jiàn.", "english": "We'll see each other at school tomorrow.", "note": "Time, then place, then the verb." },
+      { "hanzi": "他不在这儿住。", "pinyin": "Tā bú zài zhèr zhù.", "english": "He doesn't live here.", "note": "不 goes before 在." }
+    ],
+    "exercises": [
+      { "type": "order", "prompt": "Put the words in order.", "tokens": ["我", "在", "学校", "学习", "汉语"], "english": "I study Chinese at school.", "pinyin": "Wǒ zài xuéxiào xuéxí Hànyǔ.", "explanation": "Subject + 在 + place + verb + object." },
+      { "type": "error", "prompt": "Which sentence is correct?", "options": ["他工作在商店。", "他在商店工作。", "他商店在工作。"], "answer": 1, "explanation": "在 + place (在商店) comes before the verb 工作." },
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "我___饭店吃饭。", "english": "I eat at a restaurant.", "options": ["是", "有", "在", "很"], "answer": 2, "explanation": "在 introduces the place where the action happens." },
+      { "type": "translate", "prompt": "Choose the correct translation.", "english": "We'll watch a movie at home tomorrow.", "optionScript": "hanzi", "options": ["我们明天看在家电影。", "我们明天在家看电影。", "我们明天看电影在家。", "在家我们看电影明天。"], "answer": 1, "explanation": "Subject + time + 在 + place + verb + object." }
+    ]
+  },
+  {
+    "id": "g1-yixia",
+    "hskLevel": 1,
+    "title": "Verb + 一下: doing something briefly",
+    "titleHanzi": "一下",
+    "pattern": "Verb + 一下 (+ Object)",
+    "summary": "Soften a request or say 'have a quick go': 等一下, 看一下.",
+    "explanation": [
+      "**一下 (yíxià)** after a verb means 'a little / for a moment': 等一下 = wait a moment, 看一下 = have a look.",
+      "It makes requests **softer and more polite**: 请你看一下 sounds friendlier than just 请你看.",
+      "The object comes **after** 一下: 看一下这本书, 问一下老师."
+    ],
+    "mistakes": [
+      "✗ 我看这本书一下。 → ✓ 我看一下这本书。 一下 goes right after the verb, before the object.",
+      "✗ 请一下等。 → ✓ 请等一下。 一下 follows the verb."
+    ],
+    "examples": [
+      { "hanzi": "请等一下。", "pinyin": "Qǐng děng yíxià.", "english": "Please wait a moment." },
+      { "hanzi": "你看一下这本书。", "pinyin": "Nǐ kàn yíxià zhè běn shū.", "english": "Have a look at this book." },
+      { "hanzi": "我想问一下，这个多少钱？", "pinyin": "Wǒ xiǎng wèn yíxià, zhège duōshao qián?", "english": "Can I ask, how much is this?", "note": "A polite way to start a question." },
+      { "hanzi": "我们休息一下吧。", "pinyin": "Wǒmen xiūxi yíxià ba.", "english": "Let's rest for a bit." }
+    ],
+    "exercises": [
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "你等___，我马上来。", "english": "Wait a moment, I'm coming right away.", "options": ["一下", "一个", "一点", "一起"], "answer": 0, "explanation": "Verb + 一下 = do something for a moment." },
+      { "type": "order", "prompt": "Put the words in order.", "tokens": ["我", "想", "问", "一下", "老师"], "english": "I'd like to ask the teacher something.", "pinyin": "Wǒ xiǎng wèn yíxià lǎoshī.", "explanation": "一下 follows the verb 问; the object 老师 comes after 一下." },
+      { "type": "error", "prompt": "Which sentence is wrong?", "options": ["请你看一下。", "我们休息一下吧。", "你听这个一下。", "我想试一下。"], "answer": 2, "explanation": "The object goes after 一下: 你听一下这个。" },
+      { "type": "translate", "prompt": "Choose the correct translation.", "english": "Please wait a moment.", "optionScript": "pinyin", "options": ["Qǐng yíxià děng.", "Qǐng děng yíxià.", "Děng qǐng yíxià.", "Yíxià qǐng děng."], "answer": 1, "explanation": "请 + verb + 一下: Qǐng děng yíxià." }
+    ]
+  },
+  {
+    "id": "g1-bie",
+    "hskLevel": 1,
+    "title": "别 / 不要: telling someone not to do something",
+    "titleHanzi": "别 / 不要",
+    "pattern": "(Subject) + 别 + Verb  ·  (Subject) + 不要 + Verb  ·  别 + Verb + 了",
+    "summary": "Negative commands: 别说话! 不要在这儿吃东西! (Don't…)",
+    "explanation": [
+      "To tell someone **not** to do something, put **别 (bié)** or **不要 (búyào)** before the verb: 别走! = Don't go!",
+      "They mean the same thing; 别 is a bit more casual and very common in speech. Adding **了** at the end (别看了) means 'stop doing it'.",
+      "Soften the command with 请 at the start or 吧 at the end: 请不要在这儿吃东西 / 别去了吧."
+    ],
+    "mistakes": [
+      "✗ 不说话！ → ✓ 别说话！ 不 alone just states a fact ('doesn't talk'); commands need 别 or 不要.",
+      "✗ 说话别！ → ✓ 别说话！ 别 comes before the verb."
+    ],
+    "examples": [
+      { "hanzi": "别说话！", "pinyin": "Bié shuōhuà!", "english": "Don't talk!" },
+      { "hanzi": "请不要在这儿吃东西。", "pinyin": "Qǐng búyào zài zhèr chī dōngxi.", "english": "Please don't eat here." },
+      { "hanzi": "你别去了。", "pinyin": "Nǐ bié qù le.", "english": "Don't go (after all).", "note": "别…了 = stop / change your plan." },
+      { "hanzi": "太晚了，别看电视了。", "pinyin": "Tài wǎn le, bié kàn diànshì le.", "english": "It's too late, stop watching TV." }
+    ],
+    "exercises": [
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "上课的时候，___说话！", "english": "Don't talk during class!", "options": ["没", "不是", "很", "别"], "answer": 3, "explanation": "别 + verb makes a negative command." },
+      { "type": "translate", "prompt": "Choose the correct translation.", "english": "Don't go!", "optionScript": "hanzi", "options": ["没去！", "不去！", "别去！", "去别！"], "answer": 2, "explanation": "别去 is a command; 不去 only states 'not going' and 没去 means 'didn't go'." },
+      { "type": "error", "prompt": "Which sentence is correct?", "options": ["你看别电视了。", "你别看电视了。", "你看电视别了。"], "answer": 1, "explanation": "别 goes right before the verb 看." },
+      { "type": "order", "prompt": "Put the words in order.", "tokens": ["你", "别", "喝", "咖啡", "了"], "english": "Stop drinking coffee.", "pinyin": "Nǐ bié hē kāfēi le.", "explanation": "别 + verb + object + 了 = stop doing something." }
+    ]
+  },
+  {
+    "id": "g1-zui",
+    "hskLevel": 1,
+    "title": "最: the most",
+    "titleHanzi": "最",
+    "pattern": "Subject + 最 + Adjective  ·  Subject + 最 + 喜欢 / 想 + Object",
+    "summary": "最 before an adjective or a 'liking' verb makes a superlative: 最好, 最喜欢.",
+    "explanation": [
+      "**最 (zuì)** means 'the most'. Put it right **before an adjective**: 好 → 最好 (best), 大 → 最大 (biggest).",
+      "It also works with verbs of liking and wanting: **最喜欢** = like best, **最想** = most want to.",
+      "No 很 is needed with 最, and the adjective never changes form: there's no '-est' ending in Chinese."
+    ],
+    "mistakes": [
+      "✗ 他很最高。 → ✓ 他最高。 Don't combine 很 and 最.",
+      "✗ 我喜欢最苹果。 → ✓ 我最喜欢苹果。 最 goes before the verb, not before the object."
+    ],
+    "examples": [
+      { "hanzi": "这个最好。", "pinyin": "Zhège zuì hǎo.", "english": "This one is the best." },
+      { "hanzi": "我最喜欢喝茶。", "pinyin": "Wǒ zuì xǐhuan hē chá.", "english": "I like drinking tea the most." },
+      { "hanzi": "我们班他最高。", "pinyin": "Wǒmen bān tā zuì gāo.", "english": "He is the tallest in our class." },
+      { "hanzi": "你最想去哪儿？", "pinyin": "Nǐ zuì xiǎng qù nǎr?", "english": "Where do you most want to go?" }
+    ],
+    "exercises": [
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "我___喜欢吃米饭。", "english": "I like eating rice the most.", "options": ["的", "吗", "最", "是"], "answer": 2, "explanation": "最 goes before the verb 喜欢 to mean 'like the most'." },
+      { "type": "order", "prompt": "Put the words in order.", "tokens": ["我", "最", "喜欢", "这", "本", "书"], "english": "I like this book the most.", "pinyin": "Wǒ zuì xǐhuan zhè běn shū.", "explanation": "Subject + 最 + 喜欢 + object." },
+      { "type": "error", "prompt": "Which sentence is wrong?", "options": ["他最高。", "这个最大。", "我喜欢最咖啡。", "你最想吃什么？"], "answer": 2, "explanation": "最 must go before the verb: 我最喜欢咖啡。" },
+      { "type": "translate", "prompt": "Choose the correct translation.", "english": "This one is the cheapest.", "optionScript": "pinyin", "options": ["Zhège piányi zuì.", "Zuì zhège piányi.", "Zhège zuì piányi.", "Zhège hěn zuì piányi."], "answer": 2, "explanation": "最 + adjective, no 很: Zhège zuì piányi." }
+    ]
+  },
+  {
+    "id": "g1-hai-zai",
+    "hskLevel": 1,
+    "title": "还 and 再: 'still / also' and 'again'",
+    "titleHanzi": "还 / 再",
+    "pattern": "Subject + 还 + Verb  ·  Subject + 再 + Verb",
+    "summary": "还 = still / in addition; 再 = again (next time, in the future).",
+    "explanation": [
+      "**还 (hái)** has two common meanings: **still** (他还在睡觉 = he's still sleeping) and **also / in addition** (我还想喝茶 = I'd also like some tea).",
+      "**再 (zài)** means **again** for something that **hasn't happened yet**: 明天再来 = come again tomorrow; 请再说一次 = please say it once more. (For repetition that already happened, Chinese uses 又, which you'll meet later.)",
+      "Both go **before the verb**. A word you already know: 再见 literally means 'see (you) again'."
+    ],
+    "mistakes": [
+      "✗ 请说再一次。 → ✓ 请再说一次。 再 goes before the verb.",
+      "✗ 他在家还。 → ✓ 他还在家。 还 goes before the verb (here 在)."
+    ],
+    "examples": [
+      { "hanzi": "他还在睡觉。", "pinyin": "Tā hái zài shuìjiào.", "english": "He is still sleeping." },
+      { "hanzi": "我还想买一个。", "pinyin": "Wǒ hái xiǎng mǎi yí gè.", "english": "I'd like to buy one more.", "note": "还 = in addition." },
+      { "hanzi": "请再说一次。", "pinyin": "Qǐng zài shuō yí cì.", "english": "Please say it once more." },
+      { "hanzi": "我们明天再来。", "pinyin": "Wǒmen míngtiān zài lái.", "english": "We'll come again tomorrow." }
+    ],
+    "exercises": [
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "现在十点了，他___没起床。", "english": "It's ten o'clock and he still hasn't got up.", "options": ["再", "很", "还", "最"], "answer": 2, "explanation": "还 = still: 还没 = still not / not yet." },
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "老师，请您___说一次。", "english": "Teacher, please say it once more.", "options": ["还", "再", "在", "都"], "answer": 1, "explanation": "再 = again, for something that hasn't happened yet." },
+      { "type": "error", "prompt": "Which sentence is wrong?", "options": ["我们下次再来。", "他还在学校。", "请说再一次。", "我还想喝水。"], "answer": 2, "explanation": "再 must come before the verb: 请再说一次。" },
+      { "type": "order", "prompt": "Put the words in order.", "tokens": ["我们", "明天", "再", "去", "吧"], "alternatives": [["明天", "我们", "再", "去", "吧"]], "english": "Let's go again tomorrow.", "pinyin": "Wǒmen míngtiān zài qù ba.", "explanation": "Time word, then 再 right before the verb." }
+    ]
+  },
+  {
+    "id": "g1-gen-gei",
+    "hskLevel": 1,
+    "title": "跟 and 给: 'with' and 'to / for'",
+    "titleHanzi": "跟 / 给",
+    "pattern": "Subject + 跟 + Person + (一起) + Verb  ·  Subject + 给 + Person + Verb",
+    "summary": "跟 someone = with someone; 给 someone = to / for someone. Both come before the verb.",
+    "explanation": [
+      "**跟 (gēn)** means 'with': 我跟朋友去 = I'm going with a friend. **一起** (together) is often added: 我跟他一起吃饭.",
+      "**给 (gěi)** as a preposition means 'to' or 'for': 给妈妈打电话 = call mom, 给你买 = buy for you.",
+      "Both phrases go **before the main verb**, unlike English where 'with / to someone' usually comes at the end."
+    ],
+    "mistakes": [
+      "✗ 我吃饭跟朋友。 → ✓ 我跟朋友吃饭。 跟 + person goes before the verb.",
+      "✗ 我给打电话他。 → ✓ 我给他打电话。 给 is followed directly by the person."
+    ],
+    "examples": [
+      { "hanzi": "我跟朋友一起看电影。", "pinyin": "Wǒ gēn péngyou yìqǐ kàn diànyǐng.", "english": "I'm watching a movie with friends." },
+      { "hanzi": "晚上我给你打电话。", "pinyin": "Wǎnshang wǒ gěi nǐ dǎ diànhuà.", "english": "I'll call you tonight." },
+      { "hanzi": "妈妈给我做饭。", "pinyin": "Māma gěi wǒ zuò fàn.", "english": "Mom cooks for me." },
+      { "hanzi": "你跟谁一起去？", "pinyin": "Nǐ gēn shéi yìqǐ qù?", "english": "Who are you going with?" }
+    ],
+    "exercises": [
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "我___朋友一起去商店。", "english": "I'm going to the store with a friend.", "options": ["给", "跟", "是", "有"], "answer": 1, "explanation": "跟 + person + 一起 = together with someone." },
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "这是我___你买的书。", "english": "This is the book I bought for you.", "options": ["也", "在", "给", "很"], "answer": 2, "explanation": "给 + person = for someone, before the verb 买." },
+      { "type": "order", "prompt": "Put the words in order.", "tokens": ["我", "跟", "他", "一起", "学习", "汉语"], "english": "I study Chinese with him.", "pinyin": "Wǒ gēn tā yìqǐ xuéxí Hànyǔ.", "explanation": "Subject + 跟 + person + 一起 + verb + object." },
+      { "type": "error", "prompt": "Which sentence is correct?", "options": ["我看电影跟朋友。", "我跟朋友看电影。", "我朋友看电影跟。"], "answer": 1, "explanation": "跟 + person comes before the verb 看." }
+    ]
+  },
+  {
+    "id": "g1-neng-keyi",
+    "hskLevel": 1,
+    "title": "能 vs 可以: ability and permission",
+    "titleHanzi": "能 / 可以",
+    "pattern": "Subject + 可以 + Verb  ·  Subject + 能 + Verb  ·  可以 + Verb + 吗？",
+    "summary": "可以 is mostly for permission; 能 for ability or possibility; 会 for learned skills.",
+    "explanation": [
+      "**可以 (kěyǐ)** is the usual word for **permission**: 我可以坐这儿吗? = May I sit here? 这儿不可以吃东西 = You can't eat here.",
+      "**能 (néng)** is for **ability or possibility** depending on circumstances: 我明天不能来 = I can't come tomorrow; 你能帮我吗? = Can you help me?",
+      "Compare with **会 (huì)** for **learned skills**: 我会游泳 = I know how to swim, but 我今天不能游泳 = I can't swim today (e.g. because I'm ill)."
+    ],
+    "mistakes": [
+      "✗ 老师，我会去洗手间吗？ → ✓ 老师，我可以去洗手间吗？ Asking for permission uses 可以, not 会.",
+      "✗ 我可以游泳，我小时候学的。 → ✓ 我会游泳。 A learned skill takes 会."
+    ],
+    "examples": [
+      { "hanzi": "我可以坐这儿吗？", "pinyin": "Wǒ kěyǐ zuò zhèr ma?", "english": "May I sit here?" },
+      { "hanzi": "这儿不可以吃东西。", "pinyin": "Zhèr bù kěyǐ chī dōngxi.", "english": "You can't eat here.", "note": "Permission refused." },
+      { "hanzi": "明天我有事，不能来。", "pinyin": "Míngtiān wǒ yǒu shì, bù néng lái.", "english": "I've got something on tomorrow, so I can't come.", "note": "Circumstances prevent it: 不能." },
+      { "hanzi": "你能帮我吗？", "pinyin": "Nǐ néng bāng wǒ ma?", "english": "Can you help me?" }
+    ],
+    "exercises": [
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "老师，我___去洗手间吗？", "english": "Teacher, may I go to the bathroom?", "options": ["会", "可以", "是", "要"], "answer": 1, "explanation": "Asking for permission: 可以…吗？" },
+      { "type": "choice", "prompt": "Fill in the blank.", "sentence": "我小时候学过，所以我___游泳。", "english": "I learned it as a child, so I know how to swim.", "options": ["会", "可以", "吗", "在"], "answer": 0, "explanation": "A learned skill is expressed with 会." },
+      { "type": "error", "prompt": "Which sentence is wrong?", "options": ["我可以用你的手机吗？", "你能来吗？", "我会说汉语。", "这儿不会吃东西。"], "answer": 3, "explanation": "Forbidding something uses 不可以 or 不能: 这儿不可以吃东西。" },
+      { "type": "translate", "prompt": "Choose the correct translation.", "english": "May I use your phone?", "optionScript": "hanzi", "options": ["我会用你的手机吗？", "我可以你的手机用吗？", "我用可以你的手机吗？", "我可以用你的手机吗？"], "answer": 3, "explanation": "Subject + 可以 + verb + object + 吗？" }
+    ]
+  }
+]

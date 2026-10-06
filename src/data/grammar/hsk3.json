@@ -1,0 +1,2304 @@
+[
+  {
+    "id": "g3-ba-sentence",
+    "hskLevel": 3,
+    "title": "把 sentences: doing something to an object",
+    "titleHanzi": "把",
+    "pattern": "Subject + 把 + Object + Verb + Result / 了  ·  Subject + 没 + 把 + Object + Verb + Result",
+    "summary": "Put a specific object up front to say what you did to it: 我把作业写完了.",
+    "explanation": [
+      "**把 (bǎ)** moves the object **in front of the verb** so the sentence focuses on **what happened to that object**: 我把作业写完了 = I got my homework done.",
+      "The object must be **specific** (this cake, my phone, the door), something both speakers know about. You can't say 我把一本书看完了 about just any book.",
+      "The verb **can't stand alone** at the end. It needs something after it: a result (写**完**, 关**上**), 了, a direction, or a place. 我把饭吃 is incomplete; 我把饭吃**了** works.",
+      "Negatives and words like 已经 / 还 go **before 把**: 我**没**把作业写完, 我**已经**把衣服洗好了."
+    ],
+    "mistakes": [
+      "✗ 我把饭吃。 → ✓ 我把饭吃了。 The verb after 把 needs something after it (了, a result, a place…).",
+      "✗ 我把作业没写完。 → ✓ 我没把作业写完。 没 / 不 / 别 go before 把, not before the verb."
+    ],
+    "examples": [
+      {
+        "hanzi": "我把作业写完了。",
+        "pinyin": "Wǒ bǎ zuòyè xiěwán le.",
+        "english": "I've finished my homework."
+      },
+      {
+        "hanzi": "请把门关上。",
+        "pinyin": "Qǐng bǎ mén guānshang.",
+        "english": "Please close the door.",
+        "note": "Polite requests with 把 are very common."
+      },
+      {
+        "hanzi": "他把我的蛋糕吃了！",
+        "pinyin": "Tā bǎ wǒ de dàngāo chī le!",
+        "english": "He ate my cake!"
+      },
+      {
+        "hanzi": "我还没把这件事告诉妈妈。",
+        "pinyin": "Wǒ hái méi bǎ zhè jiàn shì gàosu māma.",
+        "english": "I haven't told Mom about this yet.",
+        "note": "还没 goes before 把."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "你___门打开，好吗？",
+        "english": "Could you open the door?",
+        "options": [
+          "被",
+          "把",
+          "给",
+          "对"
+        ],
+        "answer": 1,
+        "explanation": "把 + specific object (门) + verb + result (打开)."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我",
+          "已经",
+          "把",
+          "衣服",
+          "洗",
+          "好",
+          "了"
+        ],
+        "english": "I've already washed the clothes.",
+        "pinyin": "Wǒ yǐjīng bǎ yīfu xǐhǎo le.",
+        "explanation": "已经 comes before 把; the verb 洗 is followed by the result 好 and 了."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我把那本书看完了。",
+          "请把手机给我。",
+          "我把作业没做完。",
+          "他把杯子放在桌子上了。"
+        ],
+        "answer": 2,
+        "explanation": "The negative goes before 把: 我没把作业做完。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Did you bring your passport?",
+        "optionScript": "hanzi",
+        "options": [
+          "你带来把护照了吗？",
+          "你把护照带来了吗？",
+          "你把带来护照了吗？",
+          "护照你把带来了吗？"
+        ],
+        "answer": 1,
+        "explanation": "把 + object (护照) + verb + direction (带来) + 了."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我还___把这件事告诉他。",
+        "english": "I haven't told him about this yet.",
+        "options": [
+          "不",
+          "很",
+          "别",
+          "没"
+        ],
+        "answer": 3,
+        "explanation": "For something that hasn't happened yet, use 还没 before 把."
+      }
+    ]
+  },
+  {
+    "id": "g3-ba-placement",
+    "hskLevel": 3,
+    "title": "把 + Verb + 在 / 到 / 给: putting and moving things",
+    "titleHanzi": "把…放在",
+    "pattern": "把 + Object + Verb + 在 + Place  ·  把 + Object + Verb + 到 + Place  ·  把 + Object + Verb + 给 + Person",
+    "summary": "Say where something ends up or who gets it: 我把书放在桌子上了.",
+    "explanation": [
+      "When an object **ends up somewhere** or **goes to someone** because of your action, Chinese almost always uses 把. The destination comes **right after the verb**.",
+      "**Verb + 在 + place**: where it stays (放在桌子上, 写在这儿). **Verb + 到 + place**: where it is moved to (送到我家, 搬到厨房). **Verb + 给 + person**: who receives it (还给我, 送给她).",
+      "English word order (I put the book on the table) doesn't work here: 我放书在桌子上 is wrong. Use 我**把**书**放在**桌子上."
+    ],
+    "mistakes": [
+      "✗ 我放书在桌子上。 → ✓ 我把书放在桌子上。 With 'put / move to', the object goes in front with 把.",
+      "✗ 我把书在桌子上放。 → ✓ 我把书放在桌子上。 在 + place comes after the verb here, not before it."
+    ],
+    "examples": [
+      {
+        "hanzi": "我把书放在桌子上了。",
+        "pinyin": "Wǒ bǎ shū fàng zài zhuōzi shang le.",
+        "english": "I put the book on the table."
+      },
+      {
+        "hanzi": "请把这些东西送到我家。",
+        "pinyin": "Qǐng bǎ zhèxiē dōngxi sòng dào wǒ jiā.",
+        "english": "Please deliver these things to my home."
+      },
+      {
+        "hanzi": "他把钱还给我了。",
+        "pinyin": "Tā bǎ qián huán gěi wǒ le.",
+        "english": "He gave the money back to me."
+      },
+      {
+        "hanzi": "别把车停在这儿。",
+        "pinyin": "Bié bǎ chē tíng zài zhèr.",
+        "english": "Don't park the car here.",
+        "note": "别 goes before 把."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "请把这本书带___学校。",
+        "english": "Please take this book to school.",
+        "options": [
+          "在",
+          "到",
+          "给",
+          "对"
+        ],
+        "answer": 1,
+        "explanation": "Verb + 到 + place: the book is moved to school."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我把那张照片发___你了。",
+        "english": "I sent that photo to you.",
+        "options": [
+          "到",
+          "在",
+          "跟",
+          "给"
+        ],
+        "answer": 3,
+        "explanation": "Verb + 给 + person: the person who receives it."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "请",
+          "把",
+          "你的",
+          "名字",
+          "写",
+          "在",
+          "这儿"
+        ],
+        "english": "Please write your name here.",
+        "pinyin": "Qǐng bǎ nǐ de míngzi xiě zài zhèr.",
+        "explanation": "把 + object + verb + 在 + place."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          "我放钥匙在包里了。",
+          "我把钥匙在包里放了。",
+          "我把钥匙放在包里了。",
+          "我钥匙把放在包里了。"
+        ],
+        "answer": 2,
+        "explanation": "把 + 钥匙 + 放在 + place. The place follows the verb."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "I moved the table to the kitchen.",
+        "optionScript": "pinyin",
+        "options": [
+          "Wǒ bān zhuōzi dào chúfáng le.",
+          "Wǒ bǎ chúfáng bān dào zhuōzi le.",
+          "Wǒ bǎ zhuōzi bān dào chúfáng le.",
+          "Wǒ bǎ zhuōzi dào chúfáng bān le."
+        ],
+        "answer": 2,
+        "explanation": "把 + 桌子 + 搬到 + 厨房. The destination comes right after the verb."
+      }
+    ]
+  },
+  {
+    "id": "g3-bei-passive",
+    "hskLevel": 3,
+    "title": "被: the passive",
+    "titleHanzi": "被",
+    "pattern": "Receiver + 被 + (Doer) + Verb + Result / 了  ·  Receiver + 没 + 被 + (Doer) + Verb + Result",
+    "summary": "Say what happened to someone or something: 我的蛋糕被弟弟吃完了.",
+    "explanation": [
+      "**被 (bèi)** makes a passive sentence: the thing that **receives** the action comes first, then 被, then (optionally) the **doer**: 蛋糕被弟弟吃完了 = The cake was eaten up by my brother.",
+      "The doer can be left out or replaced by 人 (someone): 我的自行车被人骑走了.",
+      "Just like 把, the verb **needs something after it**: a result (吃完, 拿走), 了, or a place. 被 often describes something **unpleasant** or unexpected.",
+      "被 is the mirror image of 把: 弟弟**把**蛋糕吃完了 ↔ 蛋糕**被**弟弟吃完了. Negatives go before 被: 我的手机**没**被拿走."
+    ],
+    "mistakes": [
+      "✗ 我的手机被他拿。 → ✓ 我的手机被他拿走了。 The verb needs a result or 了.",
+      "✗ 我的手机被没拿走。 → ✓ 我的手机没被拿走。 没 goes before 被."
+    ],
+    "examples": [
+      {
+        "hanzi": "蛋糕被弟弟吃完了。",
+        "pinyin": "Dàngāo bèi dìdi chīwán le.",
+        "english": "The cake was eaten up by my little brother."
+      },
+      {
+        "hanzi": "我的自行车被人骑走了。",
+        "pinyin": "Wǒ de zìxíngchē bèi rén qízǒu le.",
+        "english": "Someone rode off on my bike.",
+        "note": "被人 = by someone (doer unknown)."
+      },
+      {
+        "hanzi": "他被老师叫到办公室了。",
+        "pinyin": "Tā bèi lǎoshī jiào dào bàngōngshì le.",
+        "english": "He was called to the office by the teacher."
+      },
+      {
+        "hanzi": "还好，我的手机没被拿走。",
+        "pinyin": "Hái hǎo, wǒ de shǒujī méi bèi názǒu.",
+        "english": "Luckily, my phone wasn't taken."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我的咖啡___朋友喝完了。",
+        "english": "My coffee was finished off by my friend.",
+        "options": [
+          "把",
+          "被",
+          "对",
+          "比"
+        ],
+        "answer": 1,
+        "explanation": "Receiver (咖啡) + 被 + doer (朋友) + verb + result."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我___饭做好了，快来吃吧！",
+        "english": "I've got the food ready, come and eat!",
+        "options": [
+          "被",
+          "比",
+          "把",
+          "对"
+        ],
+        "answer": 2,
+        "explanation": "The doer (我) comes first, so use 把. With 被 the receiver would come first: 饭被我做好了."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "他的",
+          "电脑",
+          "被",
+          "弟弟",
+          "用",
+          "坏",
+          "了"
+        ],
+        "english": "His computer was broken by his little brother.",
+        "pinyin": "Tā de diànnǎo bèi dìdi yònghuài le.",
+        "explanation": "Receiver + 被 + doer + verb + result (坏) + 了."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我的蛋糕被吃了。",
+          "那本书被他借走了。",
+          "我的衣服被没洗。",
+          "他被妈妈叫回家了。"
+        ],
+        "answer": 2,
+        "explanation": "没 must come before 被: 我的衣服没被洗。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "The door was closed by Dad.",
+        "optionScript": "hanzi",
+        "options": [
+          "爸爸被门关上了。",
+          "门被关上爸爸了。",
+          "门爸爸被关上了。",
+          "门被爸爸关上了。"
+        ],
+        "answer": 3,
+        "explanation": "Receiver (门) + 被 + doer (爸爸) + 关上了."
+      }
+    ]
+  },
+  {
+    "id": "g3-result-complements",
+    "hskLevel": 3,
+    "title": "Result complements: 完, 好, 到, 懂, 见",
+    "titleHanzi": "看完 · 做好 · 找到",
+    "pattern": "Verb + Result (完 / 好 / 到 / 懂 / 见) + (了)  ·  没 + Verb + Result",
+    "summary": "Add a second word after the verb to show the outcome: 看完, 听懂, 找到.",
+    "explanation": [
+      "A **result complement** sits right after the verb and tells you **how the action turned out**. 看 = look; 看**见** = see (it reaches your eyes); 看**完** = finish reading; 看**懂** = understand by reading.",
+      "**完 (wán)** finished · **好 (hǎo)** done properly, ready · **到 (dào)** reached the goal, managed to get · **懂 (dǒng)** understood · **见 (jiàn)** perceived (看见, 听见).",
+      "This matters because the plain verb only says you **tried**: 我找了 = I looked; 我找**到**了 = I found it. 我听了 = I listened; 我听**懂**了 = I understood.",
+      "Negate with **没** and **drop 了**: 我没听懂, 还没做好."
+    ],
+    "mistakes": [
+      "✗ 我没听懂了。 → ✓ 我没听懂。 With 没, drop 了.",
+      "✗ 我找了钥匙，可是没找。 → ✓ 我找了钥匙，可是没找到。 找 is only the searching; 找到 means you actually found it."
+    ],
+    "examples": [
+      {
+        "hanzi": "我看完这本书了。",
+        "pinyin": "Wǒ kànwán zhè běn shū le.",
+        "english": "I've finished reading this book."
+      },
+      {
+        "hanzi": "饭做好了，来吃吧！",
+        "pinyin": "Fàn zuòhǎo le, lái chī ba!",
+        "english": "The food is ready, come and eat!"
+      },
+      {
+        "hanzi": "你听懂了吗？",
+        "pinyin": "Nǐ tīngdǒng le ma?",
+        "english": "Did you understand?"
+      },
+      {
+        "hanzi": "我找了半天，还没找到。",
+        "pinyin": "Wǒ zhǎo le bàntiān, hái méi zhǎodào.",
+        "english": "I've been looking for ages and still haven't found it."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我已经吃___饭了，不饿。",
+        "english": "I've already finished eating, I'm not hungry.",
+        "options": [
+          "见",
+          "完",
+          "懂",
+          "给"
+        ],
+        "answer": 1,
+        "explanation": "吃完 = finish eating."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "老师说得太快，我没听___。",
+        "english": "The teacher spoke too fast; I didn't understand.",
+        "options": [
+          "见",
+          "完",
+          "懂",
+          "给"
+        ],
+        "answer": 2,
+        "explanation": "听懂 = understand what you hear. 听见 would only mean 'hear'."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我",
+          "还",
+          "没",
+          "找",
+          "到",
+          "我的",
+          "手机"
+        ],
+        "english": "I still haven't found my phone.",
+        "pinyin": "Wǒ hái méi zhǎodào wǒ de shǒujī.",
+        "explanation": "还没 + verb + result (找到) + object, no 了."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我看完那个电影了。",
+          "饭做好了。",
+          "我没听懂了。",
+          "你看见我的猫了吗？"
+        ],
+        "answer": 2,
+        "explanation": "没 and 了 don't go together: 我没听懂。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "I saw him at the station.",
+        "optionScript": "pinyin",
+        "options": [
+          "Wǒ kànjiàn le zài chēzhàn tā.",
+          "Wǒ zài chēzhàn kàn tā jiàn le.",
+          "Wǒ kànjiàn zài chēzhàn tā le.",
+          "Wǒ zài chēzhàn kànjiàn tā le."
+        ],
+        "answer": 3,
+        "explanation": "Place (在车站) before the verb; verb + result (看见) stay together, then the object."
+      }
+    ]
+  },
+  {
+    "id": "g3-potential-complements",
+    "hskLevel": 3,
+    "title": "Potential complements: 看得懂, 听不见, 吃不了",
+    "titleHanzi": "得 / 不",
+    "pattern": "Verb + 得 + Result  ·  Verb + 不 + Result  ·  Verb + 得了 / 不了",
+    "summary": "Say whether you can or can't reach a result: 看得懂, 听不见, 去不了.",
+    "explanation": [
+      "Put **得 (de)** or **不 (bu)** between a verb and its result to say whether the result is **possible**: 看懂 → 看**得**懂 (can understand) / 看**不**懂 (can't understand).",
+      "It works with many results and directions: 听得见 / 听不见 (can / can't hear), 做得完 / 做不完 (can / can't finish), 回得来 / 回不来 (can / can't get back).",
+      "**得了 / 不了 (liǎo)** means 'can / can't manage it': 菜太多，我吃不了 = too much, I can't finish it; 明天我去不了 = I can't make it tomorrow.",
+      "For 'can't understand / hear / finish' this is much more natural than 不能. 不能 usually means 'not allowed' or 'shouldn't'."
+    ],
+    "mistakes": [
+      "✗ 我不看得懂。 → ✓ 我看不懂。 不 goes between the verb and the result.",
+      "✗ 他说得太快，我不能听懂。 → ✓ 我听不懂。 For ability to understand, use the potential complement."
+    ],
+    "examples": [
+      {
+        "hanzi": "这本书我看得懂。",
+        "pinyin": "Zhè běn shū wǒ kàn de dǒng.",
+        "english": "I can understand this book."
+      },
+      {
+        "hanzi": "太远了，我听不见。",
+        "pinyin": "Tài yuǎn le, wǒ tīng bu jiàn.",
+        "english": "It's too far away, I can't hear."
+      },
+      {
+        "hanzi": "菜太多了，我们吃不了。",
+        "pinyin": "Cài tài duō le, wǒmen chī bu liǎo.",
+        "english": "There's too much food, we can't finish it.",
+        "note": "了 is read liǎo here."
+      },
+      {
+        "hanzi": "明天我有事，去不了。",
+        "pinyin": "Míngtiān wǒ yǒu shì, qù bu liǎo.",
+        "english": "I have something on tomorrow, I can't go."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他说得太快了，我听___懂。",
+        "english": "He speaks too fast, I can't understand.",
+        "options": [
+          "得",
+          "不",
+          "没",
+          "很"
+        ],
+        "answer": 1,
+        "explanation": "Verb + 不 + result = can't. 听得懂 would mean 'can understand', which doesn't fit."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这么多菜，你一个人吃得___吗？",
+        "english": "So much food, can you finish it on your own?",
+        "options": [
+          "过",
+          "着",
+          "了",
+          "的"
+        ],
+        "answer": 2,
+        "explanation": "吃得了 (liǎo) = able to manage / finish eating."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "黑板",
+          "上的",
+          "字",
+          "你",
+          "看得见",
+          "吗"
+        ],
+        "alternatives": [
+          [
+            "你",
+            "看得见",
+            "黑板",
+            "上的",
+            "字",
+            "吗"
+          ]
+        ],
+        "english": "Can you see the characters on the blackboard?",
+        "pinyin": "Hēibǎn shang de zì nǐ kàn de jiàn ma?",
+        "explanation": "看得见 = can see. The object can go first as the topic, or after the verb."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我看不懂这个字。",
+          "这么多菜我吃不了。",
+          "我不听得见你说话。",
+          "明天我去不了。"
+        ],
+        "answer": 2,
+        "explanation": "不 goes between verb and result: 我听不见你说话。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "I can't finish this today.",
+        "optionScript": "hanzi",
+        "options": [
+          "今天我做得完这个。",
+          "今天我不做完这个。",
+          "今天我没做完这个。",
+          "这个今天我做不完。"
+        ],
+        "answer": 3,
+        "explanation": "做不完 = can't finish. 没做完 = didn't finish (a fact, not ability)."
+      }
+    ]
+  },
+  {
+    "id": "g3-chule-yiwai",
+    "hskLevel": 3,
+    "title": "除了…以外: except / besides",
+    "titleHanzi": "除了…以外",
+    "pattern": "除了 + X + (以外)，+ 都 + …  ·  除了 + X + (以外)，+ 还 / 也 + …",
+    "summary": "With 都 it means 'except'; with 还 / 也 it means 'besides, also'.",
+    "explanation": [
+      "**除了…以外 (chúle … yǐwài)** sets one thing aside. What it means depends on the word in the second half.",
+      "With **都** it means **except** (X is left out): 除了小王以外，我们**都**去了 = Everyone went **except** Xiao Wang.",
+      "With **还 / 也** it means **besides / in addition** (X is included): 除了汉语，我**还**学英语 = **Besides** Chinese, I also study English.",
+      "**以外** is optional: 除了汉语 = 除了汉语以外."
+    ],
+    "mistakes": [
+      "✗ 除了他以外，我们去了。 → ✓ 除了他以外，我们都去了。 'Except' needs 都 in the second part.",
+      "✗ 除了跑步，我都喜欢游泳。 → ✓ 除了跑步，我还喜欢游泳。 For 'besides, also', use 还 or 也."
+    ],
+    "examples": [
+      {
+        "hanzi": "除了小王以外，我们都去了。",
+        "pinyin": "Chúle Xiǎo Wáng yǐwài, wǒmen dōu qù le.",
+        "english": "Everyone went except Xiao Wang."
+      },
+      {
+        "hanzi": "除了汉语，我还学英语。",
+        "pinyin": "Chúle Hànyǔ, wǒ hái xué Yīngyǔ.",
+        "english": "Besides Chinese, I also study English."
+      },
+      {
+        "hanzi": "除了星期天以外，他每天都工作。",
+        "pinyin": "Chúle xīngqītiān yǐwài, tā měi tiān dōu gōngzuò.",
+        "english": "He works every day except Sunday."
+      },
+      {
+        "hanzi": "除了面条，她也喜欢吃米饭。",
+        "pinyin": "Chúle miàntiáo, tā yě xǐhuan chī mǐfàn.",
+        "english": "Besides noodles, she also likes rice."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "除了数学以外，别的课他___喜欢。",
+        "english": "He likes all his classes except maths.",
+        "options": [
+          "都",
+          "还",
+          "就",
+          "才"
+        ],
+        "answer": 0,
+        "explanation": "'Except' = 除了…以外 + 都."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "除了跑步，我___喜欢游泳。",
+        "english": "Besides running, I also like swimming.",
+        "options": [
+          "都",
+          "就",
+          "还",
+          "才"
+        ],
+        "answer": 2,
+        "explanation": "'Besides, also' = 除了 + 还 / 也."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "除了",
+          "我",
+          "以外",
+          "大家",
+          "都",
+          "去过",
+          "北京"
+        ],
+        "english": "Everyone except me has been to Beijing.",
+        "pinyin": "Chúle wǒ yǐwài, dàjiā dōu qù guo Běijīng.",
+        "explanation": "除了 + X + 以外, then the subject + 都 + verb."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          "除了他，我们去了。",
+          "除了他以外，我们都去了。",
+          "除了他以外，都我们去了。",
+          "我们除了都他去了。"
+        ],
+        "answer": 1,
+        "explanation": "都 goes after the subject and before the verb: 我们都去了."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Besides tea, he also drinks coffee.",
+        "optionScript": "pinyin",
+        "options": [
+          "Chúle chá, tā dōu hē kāfēi.",
+          "Chúle tā, chá hái hē kāfēi.",
+          "Tā hái chúle chá hē kāfēi.",
+          "Chúle chá, tā hái hē kāfēi."
+        ],
+        "answer": 3,
+        "explanation": "'Besides … also' uses 还: 除了茶，他还喝咖啡。"
+      }
+    ]
+  },
+  {
+    "id": "g3-ruguo-jiu",
+    "hskLevel": 3,
+    "title": "如果…就: if … then",
+    "titleHanzi": "如果…就",
+    "pattern": "如果 + Condition，Subject + 就 + Result  ·  (如果) + Condition + 的话，Subject + 就 + Result",
+    "summary": "Make 'if' sentences: 如果明天下雨，我们就不去了.",
+    "explanation": [
+      "**如果 (rúguǒ)** = if. The condition comes **first**, the result second: 如果明天下雨，我们就不去了.",
+      "**就 (jiù)** in the second part means 'then'. It goes **after the subject** and before the verb: 我们**就**不去了, not 就我们不去了.",
+      "You can add **的话 (dehuà)** at the end of the condition, and in speech you can even drop 如果 and keep only 的话: 你不想去的话，就别去了."
+    ],
+    "mistakes": [
+      "✗ 如果下雨，就我们不去。 → ✓ 如果下雨，我们就不去。 就 comes after the subject.",
+      "✗ 我们就不去，如果下雨。 → ✓ 如果下雨，我们就不去。 The condition comes first in Chinese."
+    ],
+    "examples": [
+      {
+        "hanzi": "如果明天下雨，我们就不去了。",
+        "pinyin": "Rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù le.",
+        "english": "If it rains tomorrow, we won't go."
+      },
+      {
+        "hanzi": "如果你累了，就休息一下吧。",
+        "pinyin": "Rúguǒ nǐ lèi le, jiù xiūxi yíxià ba.",
+        "english": "If you're tired, take a rest."
+      },
+      {
+        "hanzi": "如果有时间的话，我就去看你。",
+        "pinyin": "Rúguǒ yǒu shíjiān dehuà, wǒ jiù qù kàn nǐ.",
+        "english": "If I have time, I'll come and see you."
+      },
+      {
+        "hanzi": "你不想去的话，就别去了。",
+        "pinyin": "Nǐ bù xiǎng qù dehuà, jiù bié qù le.",
+        "english": "If you don't want to go, then don't.",
+        "note": "如果 dropped, 的话 kept."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "如果你喜欢，我___送给你。",
+        "english": "If you like it, I'll give it to you.",
+        "options": [
+          "才",
+          "就",
+          "都",
+          "还"
+        ],
+        "answer": 1,
+        "explanation": "如果 … 就: 'if …, then …'."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "如果",
+          "你",
+          "饿",
+          "了",
+          "就",
+          "吃",
+          "吧"
+        ],
+        "english": "If you're hungry, just eat.",
+        "pinyin": "Rúguǒ nǐ è le, jiù chī ba.",
+        "explanation": "如果 + condition, then 就 + result."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "如果天气好，我们就去爬山。",
+          "如果你不舒服，就回家吧。",
+          "如果有问题，就我问老师。",
+          "明天下雨的话，我就不去了。"
+        ],
+        "answer": 2,
+        "explanation": "就 goes after the subject: 如果有问题，我就问老师。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "If you're free tonight, let's go and see a movie.",
+        "optionScript": "hanzi",
+        "options": [
+          "你今天晚上有空，如果我们看电影就吧。",
+          "我们就去看电影，如果你今天晚上有空吧。",
+          "如果你今天晚上有空，我们就去看电影吧。",
+          "如果我们去看电影，你今天晚上就有空吧。"
+        ],
+        "answer": 2,
+        "explanation": "Condition first (如果你今天晚上有空), then subject + 就 + result."
+      }
+    ]
+  },
+  {
+    "id": "g3-zhiyao-jiu",
+    "hskLevel": 3,
+    "title": "只要…就: as long as",
+    "titleHanzi": "只要…就",
+    "pattern": "只要 + Condition，(Subject) + 就 + Result",
+    "summary": "One condition is enough: 只要你努力，就能学好.",
+    "explanation": [
+      "**只要 (zhǐyào)** = 'as long as', 'all it takes is'. It says one condition is **enough** for the result: 只要不下雨，我们就去公园.",
+      "Like 如果, it pairs with **就** in the second part, and 就 still goes **after the subject**.",
+      "如果 is a neutral 'if'. 只要 is more encouraging: the condition is easy and the result is sure to follow. Don't pair 只要 with 才; 才 belongs to the stricter pattern 只有…才 (only if)."
+    ],
+    "mistakes": [
+      "✗ 只要你努力，才能学好。 → ✓ 只要你努力，就能学好。 只要 goes with 就, not 才.",
+      "✗ 只要下雨，就我们不出去。 → ✓ 只要下雨，我们就不出去。 就 comes after the subject."
+    ],
+    "examples": [
+      {
+        "hanzi": "只要你努力，就一定能学好汉语。",
+        "pinyin": "Zhǐyào nǐ nǔlì, jiù yídìng néng xuéhǎo Hànyǔ.",
+        "english": "As long as you work hard, you can definitely learn Chinese well."
+      },
+      {
+        "hanzi": "只要不下雨，我们就去公园。",
+        "pinyin": "Zhǐyào bú xià yǔ, wǒmen jiù qù gōngyuán.",
+        "english": "As long as it doesn't rain, we'll go to the park."
+      },
+      {
+        "hanzi": "只要有时间，他就去游泳。",
+        "pinyin": "Zhǐyào yǒu shíjiān, tā jiù qù yóuyǒng.",
+        "english": "Whenever he has time, he goes swimming."
+      },
+      {
+        "hanzi": "这个问题很简单，只要问老师就知道了。",
+        "pinyin": "Zhège wèntí hěn jiǎndān, zhǐyào wèn lǎoshī jiù zhīdào le.",
+        "english": "This question is easy. Just ask the teacher and you'll know."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "只要你来，我___很高兴。",
+        "english": "As long as you come, I'll be happy.",
+        "options": [
+          "才",
+          "还",
+          "就",
+          "再"
+        ],
+        "answer": 2,
+        "explanation": "只要 … 就: the condition is enough for the result."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___多练习，你就能说得很好。",
+        "english": "As long as you practise a lot, you'll speak well.",
+        "options": [
+          "只要",
+          "虽然",
+          "因为",
+          "除了"
+        ],
+        "answer": 0,
+        "explanation": "只要 + condition, 就 + result."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "只要",
+          "有",
+          "时间",
+          "我",
+          "就",
+          "给",
+          "你",
+          "打电话"
+        ],
+        "english": "As long as I have time, I'll call you.",
+        "pinyin": "Zhǐyào yǒu shíjiān, wǒ jiù gěi nǐ dǎ diànhuà.",
+        "explanation": "只要 + condition, then subject + 就 + 给你打电话."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "只要你喜欢，就买吧。",
+          "只要天气好，我们就出去玩。",
+          "只要你有问题，才可以问我。",
+          "只要多听，你就能听懂。"
+        ],
+        "answer": 2,
+        "explanation": "只要 pairs with 就: 只要你有问题，就可以问我。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "As long as you're happy, that's fine.",
+        "optionScript": "pinyin",
+        "options": [
+          "Rúguǒ nǐ gāoxìng cái hǎo.",
+          "Zhǐyào nǐ gāoxìng cái hǎo.",
+          "Nǐ gāoxìng zhǐyào jiù hǎo.",
+          "Zhǐyào nǐ gāoxìng jiù hǎo."
+        ],
+        "answer": 3,
+        "explanation": "只要你高兴就好: 只要 … 就."
+      }
+    ]
+  },
+  {
+    "id": "g3-yi-jiu",
+    "hskLevel": 3,
+    "title": "一…就: as soon as",
+    "titleHanzi": "一…就",
+    "pattern": "Subject + 一 + Action 1，(Subject) + 就 + Action 2",
+    "summary": "One thing happens right after another: 我一到家就给你打电话.",
+    "explanation": [
+      "**一…就 (yī … jiù)** = 'as soon as': the second action follows **immediately** after the first. 我一到家就给你打电话 = I'll call you as soon as I get home.",
+      "Both 一 and 就 go **after their subjects** and right before the verbs. The two parts can have different subjects: 电影一开始，他就睡着了.",
+      "It can also describe a habit, 'whenever': 她一喝咖啡就睡不着 = Whenever she drinks coffee, she can't sleep.",
+      "Remember the tone change: **yí** before a 4th tone (一到 yí dào), **yì** before other tones (一回 yì huí)."
+    ],
+    "mistakes": [
+      "✗ 一我到家，就打电话。 → ✓ 我一到家就打电话。 一 comes after the subject.",
+      "✗ 他一来，就我们吃饭。 → ✓ 他一来，我们就吃饭。 就 comes after the second subject."
+    ],
+    "examples": [
+      {
+        "hanzi": "我一到家就给你打电话。",
+        "pinyin": "Wǒ yí dào jiā jiù gěi nǐ dǎ diànhuà.",
+        "english": "I'll call you as soon as I get home."
+      },
+      {
+        "hanzi": "他一下课就去吃饭了。",
+        "pinyin": "Tā yí xiàkè jiù qù chī fàn le.",
+        "english": "As soon as class was over, he went to eat."
+      },
+      {
+        "hanzi": "我一看就明白了。",
+        "pinyin": "Wǒ yí kàn jiù míngbai le.",
+        "english": "I understood as soon as I looked."
+      },
+      {
+        "hanzi": "她一喝咖啡就睡不着。",
+        "pinyin": "Tā yì hē kāfēi jiù shuì bu zháo.",
+        "english": "Whenever she drinks coffee, she can't sleep.",
+        "note": "Habit: every time A happens, B happens."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他一回家___睡觉了。",
+        "english": "As soon as he got home, he went to sleep.",
+        "options": [
+          "才",
+          "就",
+          "都",
+          "还"
+        ],
+        "answer": 1,
+        "explanation": "一 … 就: as soon as."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我___看见他就高兴。",
+        "english": "Whenever I see him, I'm happy.",
+        "options": [
+          "只",
+          "先",
+          "一",
+          "越"
+        ],
+        "answer": 2,
+        "explanation": "一 + action 1 + 就 + result."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我",
+          "一",
+          "下班",
+          "就",
+          "回家"
+        ],
+        "english": "I go home as soon as I finish work.",
+        "pinyin": "Wǒ yí xiàbān jiù huí jiā.",
+        "explanation": "Subject + 一 + verb 1 + 就 + verb 2."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          "一他来，我们就吃饭。",
+          "他来一，我们就吃饭。",
+          "他一来，我们就吃饭。",
+          "他一来，就我们吃饭。"
+        ],
+        "answer": 2,
+        "explanation": "一 after the first subject, 就 after the second subject."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "As soon as the movie started, he fell asleep.",
+        "optionScript": "pinyin",
+        "options": [
+          "Diànyǐng yì kāishǐ, tā jiù shuìzháo le.",
+          "Yì diànyǐng kāishǐ, tā jiù shuìzháo le.",
+          "Diànyǐng kāishǐ yì, tā jiù shuìzháo le.",
+          "Diànyǐng yì kāishǐ, jiù tā shuìzháo le."
+        ],
+        "answer": 0,
+        "explanation": "电影一开始，他就睡着了。 Each word goes after its own subject."
+      }
+    ]
+  },
+  {
+    "id": "g3-xian-ranhou",
+    "hskLevel": 3,
+    "title": "先…然后…: first …, then …",
+    "titleHanzi": "先…然后",
+    "pattern": "Subject + 先 + Action 1，然后 + (再) + Action 2  ·  先 + Action 1，再 + Action 2，最后 + Action 3",
+    "summary": "Put actions in order: 我们先吃饭，然后去看电影.",
+    "explanation": [
+      "**先 (xiān)** = first. It's an adverb, so it goes **after the subject, before the verb**: 我们**先**吃饭. Not at the end like English 'first'.",
+      "**然后 (ránhòu)** = then, afterwards. It starts the next part. You can add **再 (zài)** before the next verb, or use 再 alone: 你先洗手，再吃水果.",
+      "For a third step, use **最后 (zuìhòu)**, 'finally'."
+    ],
+    "mistakes": [
+      "✗ 我们吃饭先，然后去看电影。 → ✓ 我们先吃饭，然后去看电影。 先 goes before the verb.",
+      "✗ 先你听，然后说。 → ✓ 你先听，然后说。 先 goes after the subject."
+    ],
+    "examples": [
+      {
+        "hanzi": "我们先吃饭，然后去看电影。",
+        "pinyin": "Wǒmen xiān chī fàn, ránhòu qù kàn diànyǐng.",
+        "english": "Let's eat first, then go and see a movie."
+      },
+      {
+        "hanzi": "你先洗手，再吃水果。",
+        "pinyin": "Nǐ xiān xǐ shǒu, zài chī shuǐguǒ.",
+        "english": "Wash your hands first, then eat the fruit."
+      },
+      {
+        "hanzi": "他先去了银行，然后去了超市。",
+        "pinyin": "Tā xiān qù le yínháng, ránhòu qù le chāoshì.",
+        "english": "He went to the bank first, then to the supermarket."
+      },
+      {
+        "hanzi": "先做作业，然后再玩游戏，最后睡觉。",
+        "pinyin": "Xiān zuò zuòyè, ránhòu zài wán yóuxì, zuìhòu shuìjiào.",
+        "english": "First do your homework, then play games, and finally go to bed."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我们先买票，___进去。",
+        "english": "Let's buy tickets first, then go in.",
+        "options": [
+          "所以",
+          "但是",
+          "然后",
+          "如果"
+        ],
+        "answer": 2,
+        "explanation": "先 … 然后: first …, then …."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "请你先听我说，___说你的想法。",
+        "english": "Please listen to me first, then tell me what you think.",
+        "options": [
+          "才",
+          "再",
+          "就",
+          "还"
+        ],
+        "answer": 1,
+        "explanation": "先 … 再: the next step in a sequence."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "你",
+          "先",
+          "休息",
+          "一下",
+          "然后",
+          "再",
+          "工作"
+        ],
+        "english": "Rest a bit first, then work.",
+        "pinyin": "Nǐ xiān xiūxi yíxià, ránhòu zài gōngzuò.",
+        "explanation": "Subject + 先 + action 1, 然后再 + action 2."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我先洗澡，然后睡觉。",
+          "你先看看，再决定吧。",
+          "我们去超市先，然后回家。",
+          "先上车，然后买票。"
+        ],
+        "answer": 2,
+        "explanation": "先 goes before the verb: 我们先去超市，然后回家。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "First turn left, then go straight.",
+        "optionScript": "hanzi",
+        "options": [
+          "往左拐先，然后一直走。",
+          "先往左拐，然后一直走。",
+          "然后往左拐，先一直走。",
+          "先一直走，然后往左拐。"
+        ],
+        "answer": 1,
+        "explanation": "先 + first step (往左拐), 然后 + next step (一直走)."
+      }
+    ]
+  },
+  {
+    "id": "g3-yue-yue",
+    "hskLevel": 3,
+    "title": "越 A 越 B: the more …, the more …",
+    "titleHanzi": "越…越",
+    "pattern": "Subject + 越 + A + 越 + B  ·  Subject 1 + 越 + A，Subject 2 + 越 + B",
+    "summary": "Link two changes together: 他越说越高兴, 天气越冷，人越少.",
+    "explanation": [
+      "**越 A 越 B (yuè … yuè …)** = 'the more A, the more B'. B changes because A increases: 这本书我越看越喜欢 = The more I read this book, the more I like it.",
+      "With one subject, both 越 follow it: 雨**越**下**越**大. With two subjects, each 越 goes after its own subject: 天气**越**冷，街上的人**越**少.",
+      "Don't put 很 or 非常 after 越. 越 already means 'more'.",
+      "You already know **越来越** (more and more over time). 越 A 越 B is more flexible: A can be any action or quality, not just time passing."
+    ],
+    "mistakes": [
+      "✗ 他越说越很高兴。 → ✓ 他越说越高兴。 No 很 after 越.",
+      "✗ 越他说越高兴。 → ✓ 他越说越高兴。 越 comes after the subject."
+    ],
+    "examples": [
+      {
+        "hanzi": "雨越下越大。",
+        "pinyin": "Yǔ yuè xià yuè dà.",
+        "english": "The rain is getting heavier and heavier."
+      },
+      {
+        "hanzi": "他越说越高兴。",
+        "pinyin": "Tā yuè shuō yuè gāoxìng.",
+        "english": "The more he talked, the happier he got."
+      },
+      {
+        "hanzi": "这本书我越看越喜欢。",
+        "pinyin": "Zhè běn shū wǒ yuè kàn yuè xǐhuan.",
+        "english": "The more I read this book, the more I like it."
+      },
+      {
+        "hanzi": "天气越冷，街上的人越少。",
+        "pinyin": "Tiānqì yuè lěng, jiē shang de rén yuè shǎo.",
+        "english": "The colder the weather, the fewer people there are in the streets.",
+        "note": "Two different subjects."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "他越跑越___。",
+        "english": "The more he runs, the faster he gets.",
+        "options": [
+          "很快",
+          "快了",
+          "快",
+          "太快"
+        ],
+        "answer": 2,
+        "explanation": "After 越 use the bare adjective, without 很 / 太 / 了."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "这个",
+          "菜",
+          "越",
+          "吃",
+          "越",
+          "好吃"
+        ],
+        "english": "The more you eat this dish, the tastier it gets.",
+        "pinyin": "Zhège cài yuè chī yuè hǎochī.",
+        "explanation": "Topic + 越 + verb + 越 + adjective."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "雨越下越大。",
+          "我越想越生气。",
+          "他越说越很快。",
+          "这本书越看越有意思。"
+        ],
+        "answer": 2,
+        "explanation": "No 很 after 越: 他越说越快。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "The more you practise, the better you speak.",
+        "optionScript": "pinyin",
+        "options": [
+          "Nǐ yuè liànxí yuè hǎo shuō de.",
+          "Nǐ yuè liànxí, shuō de yuè hǎo.",
+          "Nǐ liànxí yuè, shuō de hǎo yuè.",
+          "Yuè nǐ liànxí, yuè shuō de hǎo."
+        ],
+        "answer": 1,
+        "explanation": "你越练习，说得越好: each 越 directly before what increases."
+      }
+    ]
+  },
+  {
+    "id": "g3-bi-geng-hai",
+    "hskLevel": 3,
+    "title": "比…更 / 还: even more",
+    "titleHanzi": "更 · 还",
+    "pattern": "A + 比 + B + 更 + Adjective  ·  A + 比 + B + 还 + Adjective  ·  Subject + 更 + Verb / Adjective",
+    "summary": "Say 'even more': 今天比昨天更冷, 弟弟比哥哥还高.",
+    "explanation": [
+      "In a 比 sentence you can't use 很 or 非常, but you **can** use **更 (gèng)** or **还 (hái)** before the adjective. They mean **even more**: 今天比昨天**更**冷 = Today is even colder than yesterday (and yesterday was already cold).",
+      "**还** adds a feeling of surprise: 弟弟比哥哥**还**高! = The younger brother is even taller than the older one!",
+      "**更** also works without 比 to mean 'more' or 'even more': 我喜欢咖啡，但是**更**喜欢茶."
+    ],
+    "mistakes": [
+      "✗ 今天比昨天很冷。 → ✓ 今天比昨天更冷。 In 比 sentences, use 更 / 还, never 很.",
+      "✗ 今天比昨天更冷多了。 → ✓ 今天比昨天冷多了。 Use either 更 before or 多了 after, not both."
+    ],
+    "examples": [
+      {
+        "hanzi": "今天比昨天更冷。",
+        "pinyin": "Jīntiān bǐ zuótiān gèng lěng.",
+        "english": "Today is even colder than yesterday."
+      },
+      {
+        "hanzi": "弟弟比哥哥还高。",
+        "pinyin": "Dìdi bǐ gēge hái gāo.",
+        "english": "The younger brother is even taller than the older one."
+      },
+      {
+        "hanzi": "这个比那个更便宜。",
+        "pinyin": "Zhège bǐ nàge gèng piányi.",
+        "english": "This one is even cheaper than that one."
+      },
+      {
+        "hanzi": "我喜欢咖啡，但是更喜欢茶。",
+        "pinyin": "Wǒ xǐhuan kāfēi, dànshì gèng xǐhuan chá.",
+        "english": "I like coffee, but I like tea even more.",
+        "note": "更 without 比."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "上海很热，广州比上海___热。",
+        "english": "Shanghai is hot, and Guangzhou is even hotter.",
+        "options": [
+          "很",
+          "非常",
+          "更",
+          "太"
+        ],
+        "answer": 2,
+        "explanation": "比 + B + 更 + adjective. 很 / 非常 / 太 can't be used in 比 sentences."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "他比我更忙。",
+          "这件衣服比那件还贵。",
+          "今天比昨天非常热。",
+          "我更喜欢喝茶。"
+        ],
+        "answer": 2,
+        "explanation": "非常 can't be used in a 比 sentence: 今天比昨天更热。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我",
+          "觉得",
+          "汉语",
+          "比",
+          "英语",
+          "更",
+          "难"
+        ],
+        "english": "I think Chinese is even harder than English.",
+        "pinyin": "Wǒ juéde Hànyǔ bǐ Yīngyǔ gèng nán.",
+        "explanation": "A + 比 + B + 更 + adjective."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "My cat is even fatter than my dog.",
+        "optionScript": "hanzi",
+        "options": [
+          "我的狗比我的猫还胖。",
+          "我的猫比我的狗很胖。",
+          "我的猫比还我的狗胖。",
+          "我的猫比我的狗还胖。"
+        ],
+        "answer": 3,
+        "explanation": "还 goes right before the adjective: 比我的狗还胖."
+      }
+    ]
+  },
+  {
+    "id": "g3-gen-yiyang",
+    "hskLevel": 3,
+    "title": "跟…一样: the same as",
+    "titleHanzi": "跟…一样",
+    "pattern": "A + 跟 + B + 一样  ·  A + 跟 + B + 一样 + Adjective  ·  A + 跟 + B + 不一样",
+    "summary": "Say two things are the same or different: 我的手机跟你的一样.",
+    "explanation": [
+      "**A 跟 B 一样 (yíyàng)** = A is the same as B: 我的手机跟你的一样.",
+      "Add an adjective after 一样 to say 'as … as': 他跟他爸爸一样**高** = He's as tall as his dad. Don't add 很 before that adjective.",
+      "The negative is **不一样** (different): 北京的天气跟上海**不一样**.",
+      "跟…一样 can also mean 'like': 我跟你一样，也喜欢运动 = Like you, I love sports too."
+    ],
+    "mistakes": [
+      "✗ 我跟你一样很高。 → ✓ 我跟你一样高。 No 很 after 一样.",
+      "✗ 他跟我高一样。 → ✓ 他跟我一样高。 一样 comes before the adjective."
+    ],
+    "examples": [
+      {
+        "hanzi": "我的手机跟你的一样。",
+        "pinyin": "Wǒ de shǒujī gēn nǐ de yíyàng.",
+        "english": "My phone is the same as yours."
+      },
+      {
+        "hanzi": "他跟他爸爸一样高。",
+        "pinyin": "Tā gēn tā bàba yíyàng gāo.",
+        "english": "He's as tall as his dad."
+      },
+      {
+        "hanzi": "北京的天气跟上海不一样。",
+        "pinyin": "Běijīng de tiānqì gēn Shànghǎi bù yíyàng.",
+        "english": "The weather in Beijing is different from Shanghai's."
+      },
+      {
+        "hanzi": "我跟你一样，也喜欢运动。",
+        "pinyin": "Wǒ gēn nǐ yíyàng, yě xǐhuan yùndòng.",
+        "english": "Like you, I love sports too."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这件衣服___那件一样贵。",
+        "english": "This piece of clothing is as expensive as that one.",
+        "options": [
+          "比",
+          "跟",
+          "对",
+          "把"
+        ],
+        "answer": 1,
+        "explanation": "A 跟 B 一样 + adjective = as … as."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "中国菜跟法国菜___。",
+        "english": "Chinese food is different from French food.",
+        "options": [
+          "一样",
+          "没一样",
+          "一样不",
+          "不一样"
+        ],
+        "answer": 3,
+        "explanation": "Different = 不一样."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "妹妹",
+          "跟",
+          "我",
+          "一样",
+          "喜欢",
+          "唱歌"
+        ],
+        "alternatives": [
+          [
+            "我",
+            "跟",
+            "妹妹",
+            "一样",
+            "喜欢",
+            "唱歌"
+          ]
+        ],
+        "english": "My little sister loves singing just like me.",
+        "pinyin": "Mèimei gēn wǒ yíyàng xǐhuan chàng gē.",
+        "explanation": "A 跟 B 一样 + verb phrase."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          "他跟我一样很忙。",
+          "他一样跟我忙。",
+          "他跟我一样忙。",
+          "他跟我忙一样。"
+        ],
+        "answer": 2,
+        "explanation": "A 跟 B 一样 + adjective, with no 很."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Your idea is the same as mine.",
+        "optionScript": "pinyin",
+        "options": [
+          "Nǐ de xiǎngfǎ yíyàng gēn wǒ de.",
+          "Nǐ de xiǎngfǎ gēn wǒ de yíyàng.",
+          "Nǐ de xiǎngfǎ bǐ wǒ de yíyàng.",
+          "Nǐ de xiǎngfǎ gēn wǒ de bù yíyàng."
+        ],
+        "answer": 1,
+        "explanation": "A 跟 B 一样. 不一样 would mean 'different'."
+      }
+    ]
+  },
+  {
+    "id": "g3-budan-erqie",
+    "hskLevel": 3,
+    "title": "不但…而且: not only … but also",
+    "titleHanzi": "不但…而且",
+    "pattern": "Subject + 不但 + A，而且 + B  ·  不但 + Subject 1 + A，而且 + Subject 2 + 也 + B",
+    "summary": "Add a second, stronger point: 这家饭馆不但便宜，而且好吃.",
+    "explanation": [
+      "**不但 (búdàn) … 而且 (érqiě)** = 'not only … but also'. The second part adds something more: 这家饭馆不但便宜，而且好吃.",
+      "**Same subject**: 不但 goes **after** the subject: 她不但会说汉语，而且说得很好.",
+      "**Different subjects**: 不但 goes **before** the first subject, and 也 / 还 often appears in the second part: 不但我喜欢他，而且我的朋友**也**喜欢他.",
+      "Don't use 但是 in the second part. 但是 means 'but' (contrast); 而且 means 'and also' (addition)."
+    ],
+    "mistakes": [
+      "✗ 不但他很聪明，而且很努力。 → ✓ 他不但很聪明，而且很努力。 With one subject, 不但 comes after it.",
+      "✗ 他不但会唱歌，但是会跳舞。 → ✓ 他不但会唱歌，而且会跳舞。 不但 pairs with 而且."
+    ],
+    "examples": [
+      {
+        "hanzi": "这家饭馆不但便宜，而且好吃。",
+        "pinyin": "Zhè jiā fànguǎn búdàn piányi, érqiě hǎochī.",
+        "english": "This restaurant is not only cheap but also tasty."
+      },
+      {
+        "hanzi": "她不但会说汉语，而且说得很好。",
+        "pinyin": "Tā búdàn huì shuō Hànyǔ, érqiě shuō de hěn hǎo.",
+        "english": "She not only speaks Chinese, she speaks it well."
+      },
+      {
+        "hanzi": "不但我喜欢他，而且我的朋友也喜欢他。",
+        "pinyin": "Búdàn wǒ xǐhuan tā, érqiě wǒ de péngyou yě xǐhuan tā.",
+        "english": "Not only do I like him, my friends like him too.",
+        "note": "Two different subjects: 不但 goes first."
+      },
+      {
+        "hanzi": "他不但没生气，而且还笑了。",
+        "pinyin": "Tā búdàn méi shēngqì, érqiě hái xiào le.",
+        "english": "Not only was he not angry, he even laughed."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这个房间不但很大，___很干净。",
+        "english": "This room is not only big but also very clean.",
+        "options": [
+          "但是",
+          "而且",
+          "所以",
+          "然后"
+        ],
+        "answer": 1,
+        "explanation": "不但 … 而且 adds a second point."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "他",
+          "不但",
+          "会",
+          "唱歌",
+          "而且",
+          "会",
+          "跳舞"
+        ],
+        "english": "He can not only sing but also dance.",
+        "pinyin": "Tā búdàn huì chàng gē, érqiě huì tiàowǔ.",
+        "explanation": "Same subject: subject + 不但 + A, 而且 + B."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "他不但会开车，而且开得很好。",
+          "不但我去，而且他也去。",
+          "不但他喜欢看书，而且喜欢写字。",
+          "这个手机不但便宜，而且很好用。"
+        ],
+        "answer": 2,
+        "explanation": "One subject: 不但 comes after it: 他不但喜欢看书，而且喜欢写字。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "This dress is not only pretty but also cheap.",
+        "optionScript": "pinyin",
+        "options": [
+          "Zhè jiàn yīfu búdàn piàoliang, dànshì hěn piányi.",
+          "Búdàn zhè jiàn yīfu piàoliang, érqiě hěn piányi.",
+          "Zhè jiàn yīfu piàoliang búdàn, hěn piányi érqiě.",
+          "Zhè jiàn yīfu búdàn piàoliang, érqiě hěn piányi."
+        ],
+        "answer": 3,
+        "explanation": "One subject (这件衣服), so 不但 follows it; the second part uses 而且."
+      }
+    ]
+  },
+  {
+    "id": "g3-verbal-measure",
+    "hskLevel": 3,
+    "title": "次 and 遍: how many times",
+    "titleHanzi": "次 · 遍",
+    "pattern": "Verb + 了 / 过 + Number + 次 / 遍 + (Object)  ·  Verb + 过 + Pronoun + Number + 次",
+    "summary": "Count how often you do something: 我去过两次上海, 请再说一遍.",
+    "explanation": [
+      "To say how many times you do something, put **number + 次 / 遍 after the verb** (after 了 / 过), not before it: 我去过**两次**上海.",
+      "**次 (cì)** counts occurrences: 'I went twice'. **遍 (biàn)** stresses doing something **all the way through**, from start to finish: 这个电影我看了三遍; 请再说一遍.",
+      "A noun object usually comes after the count (看了三遍电影, 去过两次上海), but a **pronoun** comes **before** it: 我见过**他**两次."
+    ],
+    "mistakes": [
+      "✗ 我两次去过北京。 → ✓ 我去过两次北京 / 我去过北京两次。 The count goes after the verb.",
+      "✗ 我见过两次他。 → ✓ 我见过他两次。 A pronoun goes before the count."
+    ],
+    "examples": [
+      {
+        "hanzi": "我去过两次上海。",
+        "pinyin": "Wǒ qù guo liǎng cì Shànghǎi.",
+        "english": "I've been to Shanghai twice."
+      },
+      {
+        "hanzi": "这个电影我看了三遍。",
+        "pinyin": "Zhège diànyǐng wǒ kàn le sān biàn.",
+        "english": "I've watched this movie three times (all the way through)."
+      },
+      {
+        "hanzi": "请再说一遍。",
+        "pinyin": "Qǐng zài shuō yí biàn.",
+        "english": "Please say it again."
+      },
+      {
+        "hanzi": "我找过他几次，他都不在。",
+        "pinyin": "Wǒ zhǎo guo tā jǐ cì, tā dōu bú zài.",
+        "english": "I went looking for him a few times, but he was never there.",
+        "note": "Pronoun 他 before 几次."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这个故事我从开始到最后听了三___。",
+        "english": "I listened to this story from beginning to end three times.",
+        "options": [
+          "遍",
+          "本",
+          "个",
+          "条"
+        ],
+        "answer": 0,
+        "explanation": "遍 = one complete time through, from start to finish."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我见过他两___。",
+        "english": "I've met him twice.",
+        "options": [
+          "遍",
+          "本",
+          "次",
+          "张"
+        ],
+        "answer": 2,
+        "explanation": "Meeting someone is an occurrence, so use 次."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我",
+          "去过",
+          "他",
+          "家",
+          "三",
+          "次"
+        ],
+        "alternatives": [
+          [
+            "我",
+            "去过",
+            "三",
+            "次",
+            "他",
+            "家"
+          ]
+        ],
+        "english": "I've been to his home three times.",
+        "pinyin": "Wǒ qù guo tā jiā sān cì.",
+        "explanation": "Verb + 过, with the count after the verb. A place can go before or after the count."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "我吃过一次北京烤鸭。",
+          "这首歌我听了好几遍。",
+          "我两次看过这个电影。",
+          "我见过他一次。"
+        ],
+        "answer": 2,
+        "explanation": "The count goes after the verb: 我看过两次这个电影。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Please read the text once more.",
+        "optionScript": "hanzi",
+        "options": [
+          "请把课文一遍再读。",
+          "请再一遍读课文。",
+          "请把课文再读一遍。",
+          "请读一遍再课文。"
+        ],
+        "answer": 2,
+        "explanation": "再 + verb + 一遍: 请把课文再读一遍。"
+      }
+    ]
+  },
+  {
+    "id": "g3-lian-dou",
+    "hskLevel": 3,
+    "title": "连…都 / 也: even",
+    "titleHanzi": "连…都",
+    "pattern": "连 + X + 都 / 也 + Verb  ·  Subject + 连 + X + 都 / 也 + 不 / 没 + Verb",
+    "summary": "Stress an extreme case: 连孩子都知道, 他连饭都没吃.",
+    "explanation": [
+      "**连 (lián) … 都 / 也** = 'even'. 连 marks the surprising or extreme case, and 都 or 也 comes right before the verb: 这个问题**连**孩子**都**知道 = Even kids know this.",
+      "It's very common in negative sentences: 他**连**饭**都**没吃就走了 = He left without even eating.",
+      "With 一 + measure word it means 'not even one': 他连一个汉字也不认识 = He doesn't know a single Chinese character."
+    ],
+    "mistakes": [
+      "✗ 连孩子知道。 → ✓ 连孩子都知道。 连 needs 都 or 也 before the verb.",
+      "✗ 他都连早饭没吃。 → ✓ 他连早饭都没吃。 连 + X comes first, then 都."
+    ],
+    "examples": [
+      {
+        "hanzi": "他连饭都没吃就走了。",
+        "pinyin": "Tā lián fàn dōu méi chī jiù zǒu le.",
+        "english": "He left without even eating."
+      },
+      {
+        "hanzi": "这个问题连孩子都知道。",
+        "pinyin": "Zhège wèntí lián háizi dōu zhīdào.",
+        "english": "Even kids know the answer to this question."
+      },
+      {
+        "hanzi": "我太累了，连话也不想说。",
+        "pinyin": "Wǒ tài lèi le, lián huà yě bù xiǎng shuō.",
+        "english": "I'm so tired I don't even want to talk."
+      },
+      {
+        "hanzi": "他连一个汉字也不认识。",
+        "pinyin": "Tā lián yí gè Hànzì yě bú rènshi.",
+        "english": "He doesn't know even a single Chinese character.",
+        "note": "连 + 一 + measure word: not even one."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这么简单的题，连小孩子___会做。",
+        "english": "Even little kids can do such an easy question.",
+        "options": [
+          "都",
+          "还",
+          "就",
+          "才"
+        ],
+        "answer": 0,
+        "explanation": "连 + X + 都 + verb."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我忙得连吃饭的时间___没有。",
+        "english": "I'm so busy I don't even have time to eat.",
+        "options": [
+          "就",
+          "也",
+          "才",
+          "再"
+        ],
+        "answer": 1,
+        "explanation": "连 + X + 也 + negative verb."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "他",
+          "连",
+          "一",
+          "分",
+          "钱",
+          "都",
+          "没有"
+        ],
+        "english": "He doesn't have a single cent.",
+        "pinyin": "Tā lián yì fēn qián dōu méiyǒu.",
+        "explanation": "Subject + 连 + 一分钱 + 都 + 没有."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "连老师都不知道。",
+          "我连他的名字也忘了。",
+          "他连早饭没吃。",
+          "这个字连我都会写。"
+        ],
+        "answer": 2,
+        "explanation": "连 needs 都 / 也: 他连早饭都没吃。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Even my grandma knows how to use a phone.",
+        "optionScript": "pinyin",
+        "options": [
+          "Wǒ nǎinai lián huì yòng shǒujī.",
+          "Lián wǒ nǎinai dōu huì yòng shǒujī.",
+          "Lián wǒ nǎinai huì yòng shǒujī dōu.",
+          "Dōu lián wǒ nǎinai huì yòng shǒujī."
+        ],
+        "answer": 1,
+        "explanation": "连 + 我奶奶 + 都 + 会用手机."
+      }
+    ]
+  },
+  {
+    "id": "g3-jile-dehen",
+    "hskLevel": 3,
+    "title": "极了 and 得很: extremely",
+    "titleHanzi": "极了 · 得很",
+    "pattern": "Adjective + 极了  ·  Adjective + 得很  ·  Adjective + 死了",
+    "summary": "Make adjectives stronger after them: 好极了, 忙得很, 累死了.",
+    "explanation": [
+      "Besides 很 and 非常 **before** an adjective, Chinese can strengthen it with words **after** it.",
+      "**极了 (jí le)** = extremely: 好**极了** (fantastic), 好吃**极了** (incredibly tasty). It's lively and works for good and bad things.",
+      "**得很 (de hěn)** = very, quite: 他最近忙**得很**. In casual speech, **死了 (sǐ le)** exaggerates something unpleasant: 累死了 = dead tired, 饿死了 = starving.",
+      "Since these already mean 'very', don't add 很 or 非常 in front: 很好极了 is wrong."
+    ],
+    "mistakes": [
+      "✗ 今天很好极了。 → ✓ 今天好极了。 Don't combine 很 with 极了.",
+      "✗ 今天极了好。 → ✓ 今天好极了。 极了 comes after the adjective."
+    ],
+    "examples": [
+      {
+        "hanzi": "今天的天气好极了！",
+        "pinyin": "Jīntiān de tiānqì hǎo jí le!",
+        "english": "The weather today is fantastic!"
+      },
+      {
+        "hanzi": "这个菜好吃极了。",
+        "pinyin": "Zhège cài hǎochī jí le.",
+        "english": "This dish is incredibly tasty."
+      },
+      {
+        "hanzi": "他最近忙得很。",
+        "pinyin": "Tā zuìjìn máng de hěn.",
+        "english": "He's been very busy lately."
+      },
+      {
+        "hanzi": "走了一天，我累死了。",
+        "pinyin": "Zǒu le yì tiān, wǒ lèi sǐ le.",
+        "english": "After walking all day, I'm dead tired.",
+        "note": "死了 is casual and exaggerating."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "她考得很好，高兴___。",
+        "english": "She did well in the exam and is extremely happy.",
+        "options": [
+          "很",
+          "极了",
+          "非常",
+          "真"
+        ],
+        "answer": 1,
+        "explanation": "极了 comes after the adjective; 很 / 非常 / 真 go before it."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "这里的东西便宜极了。",
+          "他忙得很。",
+          "这个电影很有意思极了。",
+          "我饿死了。"
+        ],
+        "answer": 2,
+        "explanation": "Don't use 很 with 极了: 这个电影有意思极了。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "这儿",
+          "的",
+          "冬天",
+          "冷",
+          "得很"
+        ],
+        "english": "Winters here are very cold.",
+        "pinyin": "Zhèr de dōngtiān lěng de hěn.",
+        "explanation": "Adjective + 得很."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "This song is really great!",
+        "optionScript": "hanzi",
+        "options": [
+          "这首歌极了好！",
+          "这首歌很极了好！",
+          "极了这首歌好！",
+          "这首歌好极了！"
+        ],
+        "answer": 3,
+        "explanation": "Adjective + 极了: 好极了."
+      }
+    ]
+  },
+  {
+    "id": "g3-shi-bu-shi",
+    "hskLevel": 3,
+    "title": "是不是: checking a guess",
+    "titleHanzi": "是不是",
+    "pattern": "Statement，是不是？  ·  Subject + 是不是 + Verb Phrase？  ·  是不是 + Statement？",
+    "summary": "Ask 'right?' or 'isn't it?': 你是不是感冒了？",
+    "explanation": [
+      "**是不是 (shì bu shì)** turns a guess into a question, like 'right?', 'isn't it?' or 'is it that …?': 你**是不是**感冒了? = Have you caught a cold? (You look like it.)",
+      "It can go **at the end** after a comma, **before the verb phrase**, or **at the start**. Placed before a part of the sentence, it checks that part: 是不是**明天**考试?",
+      "Similar tags: **对不对** (correct?), **好不好 / 行不行** (OK?, for suggestions).",
+      "Because 是不是 already makes a question, **don't add 吗**."
+    ],
+    "mistakes": [
+      "✗ 你是不是累了吗？ → ✓ 你是不是累了？ No 吗 with 是不是."
+    ],
+    "examples": [
+      {
+        "hanzi": "你是不是感冒了？",
+        "pinyin": "Nǐ shì bu shì gǎnmào le?",
+        "english": "Have you caught a cold?"
+      },
+      {
+        "hanzi": "他是中国人，是不是？",
+        "pinyin": "Tā shì Zhōngguó rén, shì bu shì?",
+        "english": "He's Chinese, isn't he?"
+      },
+      {
+        "hanzi": "是不是明天考试？",
+        "pinyin": "Shì bu shì míngtiān kǎoshì?",
+        "english": "The exam is tomorrow, right?"
+      },
+      {
+        "hanzi": "我们明天一起去，好不好？",
+        "pinyin": "Wǒmen míngtiān yìqǐ qù, hǎo bu hǎo?",
+        "english": "Let's go together tomorrow, OK?",
+        "note": "好不好 checks a suggestion."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "你___不喜欢吃辣的？",
+        "english": "You don't like spicy food, do you?",
+        "options": [
+          "吗",
+          "呢",
+          "是不是",
+          "什么"
+        ],
+        "answer": 2,
+        "explanation": "Subject + 是不是 + verb phrase checks a guess."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "你是不是生病了？",
+          "这是你的书，是不是？",
+          "你是不是明天走吗？",
+          "是不是要下雨了？"
+        ],
+        "answer": 2,
+        "explanation": "Don't add 吗 to a 是不是 question: 你是不是明天走？"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "你",
+          "是不是",
+          "忘",
+          "了",
+          "带",
+          "钥匙"
+        ],
+        "alternatives": [
+          [
+            "是不是",
+            "你",
+            "忘",
+            "了",
+            "带",
+            "钥匙"
+          ]
+        ],
+        "english": "Did you forget to bring your keys?",
+        "pinyin": "Nǐ shì bu shì wàng le dài yàoshi?",
+        "explanation": "是不是 goes before the verb phrase (or at the very start)."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "We're meeting at eight, right?",
+        "optionScript": "pinyin",
+        "options": [
+          "Wǒmen bā diǎn jiànmiàn, shì bu shì ma?",
+          "Wǒmen shì bā diǎn bu jiànmiàn?",
+          "Wǒmen bā diǎn jiànmiàn, shì bu shì?",
+          "Shì wǒmen bā diǎn bu shì jiànmiàn?"
+        ],
+        "answer": 2,
+        "explanation": "Statement + 是不是, without 吗."
+      }
+    ]
+  },
+  {
+    "id": "g3-question-word-indefinite",
+    "hskLevel": 3,
+    "title": "什么都, 谁都, 哪儿都: everything, everyone, anywhere",
+    "titleHanzi": "什么都 · 谁都",
+    "pattern": "Question Word + 都 / 也 + Verb  ·  Question Word + 都 / 也 + 不 / 没 + Verb",
+    "summary": "Question word + 都 means 'every / any': 他什么都吃, 谁也没来.",
+    "explanation": [
+      "A question word followed by **都 (or 也)** stops being a question and means **every / any**: 什么都 = everything, 谁都 = everyone, 哪儿都 = everywhere, 什么时候都 = any time.",
+      "In negative sentences it means **nothing / no one / nowhere**, and 也 is very common: 我什么**也**没做 = I didn't do anything; 谁也没来 = No one came.",
+      "Unlike in normal questions, the question word **moves before the verb**: 我什么都不吃, never 我不吃什么都."
+    ],
+    "mistakes": [
+      "✗ 我不吃什么都。 → ✓ 我什么都不吃。 Question word + 都 comes before the verb.",
+      "✗ 我都什么不吃。 → ✓ 我什么都不吃。 The question word comes before 都."
+    ],
+    "examples": [
+      {
+        "hanzi": "他什么都吃。",
+        "pinyin": "Tā shénme dōu chī.",
+        "english": "He eats everything."
+      },
+      {
+        "hanzi": "谁都知道这件事。",
+        "pinyin": "Shéi dōu zhīdào zhè jiàn shì.",
+        "english": "Everyone knows about this."
+      },
+      {
+        "hanzi": "我今天哪儿也不想去。",
+        "pinyin": "Wǒ jīntiān nǎr yě bù xiǎng qù.",
+        "english": "I don't want to go anywhere today."
+      },
+      {
+        "hanzi": "你什么时候来都可以。",
+        "pinyin": "Nǐ shénme shíhou lái dōu kěyǐ.",
+        "english": "You can come any time."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "我昨天太累了，___也没做。",
+        "english": "I was so tired yesterday that I didn't do anything.",
+        "options": [
+          "什么",
+          "谁",
+          "哪儿",
+          "怎么"
+        ],
+        "answer": 0,
+        "explanation": "什么也没做 = didn't do anything."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "这个问题很简单，谁___会。",
+        "english": "This question is easy, anyone can do it.",
+        "options": [
+          "就",
+          "才",
+          "都",
+          "还"
+        ],
+        "answer": 2,
+        "explanation": "谁都 = everyone / anyone."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "他",
+          "什么",
+          "也",
+          "没",
+          "说"
+        ],
+        "english": "He didn't say anything.",
+        "pinyin": "Tā shénme yě méi shuō.",
+        "explanation": "Question word + 也 + 没 + verb."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "这儿谁都认识他。",
+          "我什么都不想吃。",
+          "我不想吃什么都。",
+          "他哪儿都去过。"
+        ],
+        "answer": 2,
+        "explanation": "什么都 goes before the verb: 我什么都不想吃。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Nobody came.",
+        "optionScript": "hanzi",
+        "options": [
+          "都谁没来。",
+          "谁都没来。",
+          "没来谁都。",
+          "谁没都来。"
+        ],
+        "answer": 1,
+        "explanation": "谁 + 都 + 没 + verb = nobody."
+      }
+    ]
+  },
+  {
+    "id": "g3-weile",
+    "hskLevel": 3,
+    "title": "为了: in order to, for the sake of",
+    "titleHanzi": "为了",
+    "pattern": "为了 + Goal，Subject + Action  ·  Subject + Action + 是为了 + Goal",
+    "summary": "Give the purpose of an action: 为了学好汉语，他每天听中文歌.",
+    "explanation": [
+      "**为了 (wèile)** introduces a **goal or purpose**. The goal usually comes **first**: 为了学好汉语，他每天听中文歌 = To learn Chinese well, he listens to Chinese songs every day.",
+      "To give the purpose at the end, use **是为了**: 我来这儿**是为了**见你 = I came here to see you.",
+      "为了 can also take a person: 妈妈为了我们… = Mom, for our sake, …",
+      "Don't mix it up with **因为**: 因为 gives a **cause** (because it rained), 为了 gives a **goal** (in order to stay dry)."
+    ],
+    "mistakes": [
+      "✗ 为了下雨，我们没去。 → ✓ 因为下雨，我们没去。 Rain is a cause, not a goal.",
+      "✗ 我每天跑步为了健康。 → ✓ 为了健康，我每天跑步。 / 我每天跑步是为了健康。 Put 为了 first, or use 是为了."
+    ],
+    "examples": [
+      {
+        "hanzi": "为了学好汉语，他每天听中文歌。",
+        "pinyin": "Wèile xuéhǎo Hànyǔ, tā měi tiān tīng Zhōngwén gē.",
+        "english": "To learn Chinese well, he listens to Chinese songs every day."
+      },
+      {
+        "hanzi": "为了身体健康，我每天跑步。",
+        "pinyin": "Wèile shēntǐ jiànkāng, wǒ měi tiān pǎobù.",
+        "english": "I run every day to stay healthy."
+      },
+      {
+        "hanzi": "我来这儿是为了见你。",
+        "pinyin": "Wǒ lái zhèr shì wèile jiàn nǐ.",
+        "english": "I came here to see you."
+      },
+      {
+        "hanzi": "妈妈为了我们，每天工作到很晚。",
+        "pinyin": "Māma wèile wǒmen, měi tiān gōngzuò dào hěn wǎn.",
+        "english": "Mom works late every day for our sake."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___买到便宜的票，他早上五点就起床了。",
+        "english": "To get cheap tickets, he got up at five in the morning.",
+        "options": [
+          "因为",
+          "为了",
+          "所以",
+          "虽然"
+        ],
+        "answer": 1,
+        "explanation": "Buying cheap tickets is the goal, so use 为了."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "___他病了，所以没来上课。",
+        "english": "Because he was ill, he didn't come to class.",
+        "options": [
+          "如果",
+          "除了",
+          "为了",
+          "因为"
+        ],
+        "answer": 3,
+        "explanation": "Being ill is a cause, not a goal: 因为 … 所以."
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我",
+          "学",
+          "汉语",
+          "是",
+          "为了",
+          "去",
+          "中国",
+          "工作"
+        ],
+        "english": "I'm learning Chinese so that I can work in China.",
+        "pinyin": "Wǒ xué Hànyǔ shì wèile qù Zhōngguó gōngzuò.",
+        "explanation": "Action + 是为了 + goal."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "为了考好，他每天都学习。",
+          "为了天气不好，我们没出去。",
+          "我来北京是为了学汉语。"
+        ],
+        "answer": 1,
+        "explanation": "Bad weather is a cause: 因为天气不好，我们没出去。"
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "We took a taxi to get there early.",
+        "optionScript": "pinyin",
+        "options": [
+          "Yīnwèi zǎo diǎnr dào, wǒmen zuò le chūzūchē.",
+          "Wǒmen zuò le chūzūchē, wèile shì zǎo diǎnr dào.",
+          "Wèile zǎo diǎnr dào, wǒmen zuò le chūzūchē.",
+          "Wèile wǒmen zǎo diǎnr dào chūzūchē zuò le."
+        ],
+        "answer": 2,
+        "explanation": "为了 + goal first, then the action."
+      }
+    ]
+  },
+  {
+    "id": "g3-dui-vs-gei",
+    "hskLevel": 3,
+    "title": "对 vs 给: toward vs to / for",
+    "titleHanzi": "对 · 给",
+    "pattern": "A + 对 + B + Attitude / 说 / 笑  ·  A + 对 + Thing + 感兴趣  ·  A + 给 + B + Verb + (Object)",
+    "summary": "对 = toward / about (attitude, speaking face to face); 给 = something goes to or is done for someone.",
+    "explanation": [
+      "**对 (duì)** points an attitude or action **toward** someone or something: 老师**对**我们很好 (good to us), **对**他笑 (smile at him), **对**我说 (say to me), **对**身体好 (good for your health).",
+      "Fixed phrase: **对 + thing + 感兴趣** = be interested in: 我对历史很感兴趣.",
+      "**给 (gěi)** is used when something **goes to** someone or is done **for** them: **给**妈妈打电话 (call Mom), **给**她写信 (write to her), **给**我们做饭 (cook for us).",
+      "Rule of thumb: feelings, attitude and face-to-face talk → 对; calling, sending, giving, doing a favour → 给."
+    ],
+    "mistakes": [
+      "✗ 我给历史很感兴趣。 → ✓ 我对历史很感兴趣。 'Interested in' is always 对…感兴趣.",
+      "✗ 我对你打电话。 → ✓ 我给你打电话。 A phone call goes to someone, so use 给."
+    ],
+    "examples": [
+      {
+        "hanzi": "老师对我们很好。",
+        "pinyin": "Lǎoshī duì wǒmen hěn hǎo.",
+        "english": "The teacher is very good to us."
+      },
+      {
+        "hanzi": "我对历史很感兴趣。",
+        "pinyin": "Wǒ duì lìshǐ hěn gǎn xìngqù.",
+        "english": "I'm very interested in history."
+      },
+      {
+        "hanzi": "我给妈妈写了一封信。",
+        "pinyin": "Wǒ gěi māma xiě le yì fēng xìn.",
+        "english": "I wrote a letter to Mom."
+      },
+      {
+        "hanzi": "他笑着对我说：“你好！”",
+        "pinyin": "Tā xiào zhe duì wǒ shuō: “Nǐ hǎo!”",
+        "english": "He smiled and said to me, 'Hello!'"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "多运动___身体好。",
+        "english": "Exercising a lot is good for your health.",
+        "options": [
+          "给",
+          "对",
+          "跟",
+          "把"
+        ],
+        "answer": 1,
+        "explanation": "对 + 身体好 = good for your health."
+      },
+      {
+        "type": "choice",
+        "prompt": "Fill in the blank.",
+        "sentence": "到了以后，我___你打电话。",
+        "english": "I'll call you when I arrive.",
+        "options": [
+          "对",
+          "把",
+          "给",
+          "被"
+        ],
+        "answer": 2,
+        "explanation": "A phone call goes to someone: 给 + person + 打电话."
+      },
+      {
+        "type": "error",
+        "prompt": "Which sentence is wrong?",
+        "options": [
+          "他对我笑了笑。",
+          "我给朋友买了一本书。",
+          "她给音乐很感兴趣。",
+          "你对他说什么了？"
+        ],
+        "answer": 2,
+        "explanation": "'Interested in' = 对…感兴趣: 她对音乐很感兴趣。"
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "tokens": [
+          "我",
+          "对",
+          "中国",
+          "文化",
+          "很",
+          "感兴趣"
+        ],
+        "english": "I'm very interested in Chinese culture.",
+        "pinyin": "Wǒ duì Zhōngguó wénhuà hěn gǎn xìngqù.",
+        "explanation": "Subject + 对 + thing + 很感兴趣."
+      },
+      {
+        "type": "translate",
+        "prompt": "Choose the correct translation.",
+        "english": "Dad cooked dinner for us.",
+        "optionScript": "hanzi",
+        "options": [
+          "爸爸对我们做了晚饭。",
+          "爸爸给我们做了晚饭。",
+          "爸爸做了晚饭对我们。",
+          "我们给爸爸做了晚饭。"
+        ],
+        "answer": 1,
+        "explanation": "Doing something for someone's benefit uses 给."
+      }
+    ]
+  }
+]

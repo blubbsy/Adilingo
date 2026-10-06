@@ -1,0 +1,207 @@
+[
+  {
+    "id": "hsk1-foundations",
+    "title": "HSK 1 Foundations",
+    "description": "Your first steps: greetings, people, numbers, food and time, with the core sentence patterns that hold them together.",
+    "icon": "sprout",
+    "units": [
+      {
+        "id": "u1",
+        "title": "Hello!",
+        "goal": "Greet people, apologise, and say who you are with 是 and 吗.",
+        "steps": [
+          { "id": "u1-vocab", "type": "vocab", "title": "Greetings", "wordIds": ["hsk1-nihao", "hsk1-xiexie", "hsk1-zaijian", "hsk1-duibuqi", "hsk1-meiguanxi"] },
+          { "id": "u1-g-shi", "type": "grammar", "grammarId": "g-shi" },
+          { "id": "u1-g-ma", "type": "grammar", "grammarId": "g-ma" }
+        ]
+      },
+      {
+        "id": "u2",
+        "title": "People & feelings",
+        "goal": "Talk about family and friends and describe them with 很 and 的.",
+        "steps": [
+          { "id": "u2-vocab", "type": "vocab", "title": "People", "wordIds": ["hsk1-pengyou", "hsk1-xuesheng", "hsk1-mama", "hsk1-nver", "hsk1-renshi"] },
+          { "id": "u2-vocab2", "type": "vocab", "title": "Describing", "wordIds": ["hsk1-gaoxing", "hsk1-piaoliang"] },
+          { "id": "u2-g-hen", "type": "grammar", "grammarId": "g-hen-adj" },
+          { "id": "u2-g-de", "type": "grammar", "grammarId": "g-de" }
+        ]
+      },
+      {
+        "id": "u3",
+        "title": "Numbers & counting",
+        "goal": "Count things with measure words and ask 'how many?'.",
+        "steps": [
+          { "id": "u3-vocab", "type": "vocab", "title": "Numbers", "wordIds": ["hsk1-yi", "hsk1-san", "hsk1-shi", "hsk1-ji"] },
+          { "id": "u3-g-measure", "type": "grammar", "grammarId": "g-measure" },
+          { "id": "u3-g-qw", "type": "grammar", "grammarId": "g-question-words" }
+        ]
+      },
+      {
+        "id": "u4",
+        "title": "Food & drink",
+        "goal": "Say what you eat and drink, what you have, and what you don't.",
+        "steps": [
+          { "id": "u4-vocab", "type": "vocab", "title": "Food & drink", "wordIds": ["hsk1-shui", "hsk1-mifan", "hsk1-cha", "hsk1-chi", "hsk1-he", "hsk1-pingguo"] },
+          { "id": "u4-g-bu", "type": "grammar", "grammarId": "g-bu" },
+          { "id": "u4-g-you", "type": "grammar", "grammarId": "g-you" },
+          { "id": "u4-g-modals", "type": "grammar", "grammarId": "g-modals" }
+        ]
+      },
+      {
+        "id": "u5",
+        "title": "Time & events",
+        "goal": "Talk about today and tomorrow, finished actions, and what didn't happen.",
+        "steps": [
+          { "id": "u5-vocab", "type": "vocab", "title": "Time", "wordIds": ["hsk1-jintian", "hsk1-mingtian", "hsk1-xianzai", "hsk1-xingqi"] },
+          { "id": "u5-g-le", "type": "grammar", "grammarId": "g-le" },
+          { "id": "u5-g-bumei", "type": "grammar", "grammarId": "g-bu-mei" },
+          { "id": "u5-g-tai", "type": "grammar", "grammarId": "g-tai-le" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "survival-traveller",
+    "title": "Survival Traveller",
+    "description": "The essentials for a trip: be polite, find your way, order food and drinks, and make small talk.",
+    "icon": "plane",
+    "units": [
+      {
+        "id": "u1",
+        "title": "Polite basics",
+        "goal": "Say hello, thank you, sorry and goodbye, and ask simple yes/no questions.",
+        "steps": [
+          { "id": "u1-vocab", "type": "vocab", "title": "Courtesy", "wordIds": ["hsk1-nihao", "hsk1-xiexie", "hsk1-duibuqi", "hsk1-meiguanxi", "hsk1-zaijian"] },
+          { "id": "u1-g-ma", "type": "grammar", "grammarId": "g-ma" }
+        ]
+      },
+      {
+        "id": "u2",
+        "title": "Getting around",
+        "goal": "Ask where the station or a taxi is.",
+        "steps": [
+          { "id": "u2-vocab", "type": "vocab", "title": "Transport", "wordIds": ["hsk1-feiji", "hsk1-chuzuche", "hsk2-huochezhan", "hsk2-lu", "hsk2-lvyou"] },
+          { "id": "u2-g-zai", "type": "grammar", "grammarId": "g-zai" },
+          { "id": "u2-g-qw", "type": "grammar", "grammarId": "g-question-words" }
+        ]
+      },
+      {
+        "id": "u3",
+        "title": "Ordering",
+        "goal": "Order a cup of tea or coffee and say what you'd like.",
+        "steps": [
+          { "id": "u3-vocab", "type": "vocab", "title": "At the café", "wordIds": ["hsk1-shui", "hsk1-cha", "hsk2-kafei", "hsk1-mifan", "hsk2-jidan", "hsk2-liang"] },
+          { "id": "u3-g-measure", "type": "grammar", "grammarId": "g-measure" },
+          { "id": "u3-g-modals", "type": "grammar", "grammarId": "g-modals" }
+        ]
+      },
+      {
+        "id": "u4",
+        "title": "Small talk",
+        "goal": "Bounce questions back, react with 'great!', and make suggestions.",
+        "steps": [
+          { "id": "u4-vocab", "type": "vocab", "title": "Time talk", "wordIds": ["hsk1-jintian", "hsk1-mingtian", "hsk1-xianzai", "hsk1-renshi", "hsk1-gaoxing"] },
+          { "id": "u4-g-ne", "type": "grammar", "grammarId": "g-ne" },
+          { "id": "u4-g-tai", "type": "grammar", "grammarId": "g-tai-le" },
+          { "id": "u4-g-ba", "type": "grammar", "grammarId": "g-ba" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hsk2-bridge",
+    "title": "HSK 2 Bridge",
+    "description": "Move beyond the basics: past experiences, actions in progress, comparisons and reasons.",
+    "icon": "bridge",
+    "units": [
+      {
+        "id": "u1",
+        "title": "Done & experienced",
+        "goal": "Tell finished actions (了) apart from life experiences (过).",
+        "steps": [
+          { "id": "u1-vocab", "type": "vocab", "title": "Trips & time", "wordIds": ["hsk2-lvyou", "hsk2-shijian", "hsk2-zaoshang", "hsk1-feiji"] },
+          { "id": "u1-g-le", "type": "grammar", "grammarId": "g-le" },
+          { "id": "u1-g-guo", "type": "grammar", "grammarId": "g-guo" }
+        ]
+      },
+      {
+        "id": "u2",
+        "title": "Right now",
+        "goal": "Describe what people are doing at the moment.",
+        "steps": [
+          { "id": "u2-vocab", "type": "vocab", "title": "Activities", "wordIds": ["hsk2-changge", "hsk1-xianzai", "hsk1-chi", "hsk1-he"] },
+          { "id": "u2-g-zhengzai", "type": "grammar", "grammarId": "g-zhengzai" }
+        ]
+      },
+      {
+        "id": "u3",
+        "title": "Comparing",
+        "goal": "Compare prices, speeds and ages with 比 and 没有.",
+        "steps": [
+          { "id": "u3-vocab", "type": "vocab", "title": "Things to compare", "wordIds": ["hsk2-kafei", "hsk1-cha", "hsk2-huochezhan", "hsk2-liang", "hsk2-jidan"] },
+          { "id": "u3-g-bi", "type": "grammar", "grammarId": "g-bi" }
+        ]
+      },
+      {
+        "id": "u4",
+        "title": "Reasons & suggestions",
+        "goal": "Explain why with 因为…所以 and suggest plans with 吧.",
+        "steps": [
+          { "id": "u4-vocab", "type": "vocab", "title": "Out and about", "wordIds": ["hsk2-lu", "hsk1-chuzuche", "hsk1-mingtian", "hsk1-pengyou"] },
+          { "id": "u4-g-yinwei", "type": "grammar", "grammarId": "g-yinwei-suoyi" },
+          { "id": "u4-g-ba", "type": "grammar", "grammarId": "g-ba" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tone-mastery",
+    "title": "Tone Mastery",
+    "description": "Train your ear tone by tone with words grouped by their tones, then learn the tone changes of 不 and 一.",
+    "icon": "music",
+    "units": [
+      {
+        "id": "u1",
+        "title": "1st tone: high & level",
+        "goal": "Hold a high, flat pitch: sān, hē, fēijī, kāfēi.",
+        "steps": [
+          { "id": "u1-vocab", "type": "vocab", "title": "Level-tone words", "wordIds": ["hsk1-san", "hsk1-he", "hsk1-chi", "hsk1-feiji", "hsk2-kafei", "hsk1-xingqi", "hsk1-jintian"] }
+        ]
+      },
+      {
+        "id": "u2",
+        "title": "2nd tone: rising",
+        "goal": "Rise like a question: chá, shí, míngtiān.",
+        "steps": [
+          { "id": "u2-vocab", "type": "vocab", "title": "Rising-tone words", "wordIds": ["hsk1-cha", "hsk1-shi", "hsk1-mingtian", "hsk1-xuesheng", "hsk1-pengyou", "hsk2-shijian", "hsk1-meiguanxi"] }
+        ]
+      },
+      {
+        "id": "u3",
+        "title": "3rd tone: low",
+        "goal": "Keep it low, and turn the first of two 3rd tones into a 2nd: nǐ hǎo → ní hǎo.",
+        "steps": [
+          { "id": "u3-vocab", "type": "vocab", "title": "Low-tone words", "wordIds": ["hsk1-nihao", "hsk1-shui", "hsk1-ji", "hsk2-liang", "hsk2-zaoshang", "hsk1-nver", "hsk1-mifan", "hsk2-lvyou"] }
+        ]
+      },
+      {
+        "id": "u4",
+        "title": "4th tone: falling",
+        "goal": "Drop sharply from high to low: zài jiàn, lù, xiànzài.",
+        "steps": [
+          { "id": "u4-vocab", "type": "vocab", "title": "Falling-tone words", "wordIds": ["hsk1-xiexie", "hsk1-zaijian", "hsk2-lu", "hsk1-xianzai", "hsk1-renshi", "hsk1-piaoliang", "hsk2-changge"] }
+        ]
+      },
+      {
+        "id": "u5",
+        "title": "Tone changes: 不 & 一",
+        "goal": "Master bú shì, yí gè and yì bēi, the tone changes you'll hear every day.",
+        "steps": [
+          { "id": "u5-vocab", "type": "vocab", "title": "Mixed tones", "wordIds": ["hsk1-yi", "hsk1-duibuqi", "hsk1-gaoxing", "hsk1-pingguo", "hsk2-huochezhan", "hsk2-jidan", "hsk1-mama"] },
+          { "id": "u5-g-bu", "type": "grammar", "grammarId": "g-bu" },
+          { "id": "u5-g-measure", "type": "grammar", "grammarId": "g-measure" }
+        ]
+      }
+    ]
+  }
+]
