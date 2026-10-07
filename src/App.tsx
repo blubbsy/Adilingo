@@ -29,6 +29,7 @@ import { TopicTraining } from './components/TopicTraining';
 import { SettingsModal } from './components/SettingsModal';
 import { SyncModal } from './components/SyncModal';
 import { EnglishGrammarGuide } from './components/EnglishGrammarGuide';
+import { EnglishLearningHub } from './components/EnglishLearningHub';
 import { IrregularVerbsTrainer } from './components/IrregularVerbsTrainer';
 import { t, type UiLanguage } from './utils/i18n';
 import type { CardResult } from './components/ReviewCard';
@@ -206,13 +207,10 @@ export default function App() {
     (newCourse: CourseId) => {
       if (newCourse === activeCourse) return;
 
-      // Sanitize route to prevent route bleed between courses
+      // Sanitize route to prevent route bleed between courses (grammar & irregular are English-only)
       if (newCourse === 'chinese' && (view === 'grammar' || view === 'irregular')) {
         if (window.location.hash !== '#/learn') window.location.hash = '/learn';
         setView('learn');
-      } else if (newCourse === 'english' && view === 'learn') {
-        if (window.location.hash !== '#/grammar') window.location.hash = '/grammar';
-        setView('grammar');
       }
 
       update((s) => {
@@ -376,7 +374,14 @@ export default function App() {
             onReview={handleReview}
             onUndo={handleUndo}
             onExit={() => navigate(session.returnTo === 'study' ? 'home' : session.returnTo)}
-            onRestart={() => startSession(session.request)}
+            onRestart={() =>
+              startSession({
+                ...session.request,
+                includeNotDue: true,
+                ignoreCap: true,
+                limit: session.request.limit || 15,
+              })
+            }
           />
         ) : null;
       case 'grammar':
@@ -409,7 +414,15 @@ export default function App() {
         return <IrregularVerbsTrainer speech={speech} onBack={() => navigate('home')} />;
       case 'learn':
         if (activeCourse === 'english') {
-          return <EnglishGrammarGuide speech={speech} onOpenIrregularVerbs={() => navigate('irregular')} />;
+          return (
+            <EnglishLearningHub
+              vocab={vocab}
+              state={state}
+              speech={speech}
+              onStartVocabSession={startSession}
+              onNavigate={(v) => navigate(v as NavView)}
+            />
+          );
         }
         return (
           <GrammarHub
@@ -458,6 +471,7 @@ export default function App() {
     if (activeCourse === 'english') {
       return [
         { id: 'home' as NavView, label: t('nav.dashboard', lang), short: 'Home', icon: Home },
+        { id: 'learn' as NavView, label: lang === 'zh' ? '分级路径' : 'Paths', short: 'Paths', icon: BookOpenCheck },
         { id: 'grammar' as NavView, label: t('nav.grammar', lang), short: 'Grammar', icon: BookOpen },
         { id: 'irregular' as NavView, label: t('nav.irregular', lang), short: 'Verbs', icon: Zap },
         { id: 'topics' as NavView, label: t('nav.topics', lang), short: 'Topics', icon: Layers },
@@ -481,9 +495,9 @@ export default function App() {
     if (activeCourse === 'english') {
       return [
         { id: 'home' as NavView, short: lang === 'zh' ? '首页' : 'Home', icon: Home },
+        { id: 'learn' as NavView, short: lang === 'zh' ? '路径' : 'Paths', icon: BookOpenCheck },
         { id: 'grammar' as NavView, short: lang === 'zh' ? '语法' : 'Grammar', icon: BookOpen },
         { id: 'irregular' as NavView, short: lang === 'zh' ? '动词' : 'Verbs', icon: Zap },
-        { id: 'topics' as NavView, short: lang === 'zh' ? '主题' : 'Topics', icon: Layers },
         { id: 'dictionary' as NavView, short: lang === 'zh' ? '词典' : 'Words', icon: BookMarked },
       ];
     }

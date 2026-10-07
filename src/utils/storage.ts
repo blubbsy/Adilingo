@@ -1,5 +1,5 @@
 import { createStore, get, set, type UseStore } from 'idb-keyval';
-import type { CardProgress, Curriculum, HskLevel, PromptKind, ThemePref, ToneKey, UserState } from '../types';
+import type { CardProgress, CourseId, Curriculum, HskLevel, PromptKind, ThemePref, ToneKey, UserState } from '../types';
 import legacyIds from '../data/legacyIds.json';
 
 export const SCHEMA_VERSION = 3;
@@ -257,6 +257,7 @@ function sanitize(s: Raw): UserState {
       modeCounts,
       toneConfusion,
       daily: sanitizeDaily(stats.daily),
+      dailyByCourse: sanitizeDailyByCourse(stats.dailyByCourse),
     },
     unlockedBadges: Array.isArray(s.unlockedBadges) ? s.unlockedBadges.filter((b: unknown) => typeof b === 'string') : [],
     starredWords: Array.isArray(s.starredWords) ? s.starredWords.filter((w: unknown) => typeof w === 'string') : [],
@@ -283,6 +284,17 @@ function sanitizeDaily(raw: unknown): UserState['stats']['daily'] {
   for (const [day, log] of Object.entries(raw)) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(day) || !isObj(log)) continue;
     out[day] = { reviewed: num(log.reviewed, 0), correct: num(log.correct, 0), newCards: num(log.newCards, 0) };
+  }
+  return out;
+}
+
+function sanitizeDailyByCourse(raw: unknown): UserState['stats']['dailyByCourse'] {
+  if (!isObj(raw)) return undefined;
+  const out: NonNullable<UserState['stats']['dailyByCourse']> = {};
+  for (const [c, days] of Object.entries(raw)) {
+    if (c === 'chinese' || c === 'english') {
+      out[c as CourseId] = sanitizeDaily(days);
+    }
   }
   return out;
 }

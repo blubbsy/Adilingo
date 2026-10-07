@@ -118,6 +118,8 @@ export interface UserState {
     toneConfusion: Record<ToneKey, Record<ToneKey, number>>;
     /** Keyed by local date YYYY-MM-DD. */
     daily: Record<string, DailyLog>;
+    /** Isolated daily logs per course track. */
+    dailyByCourse?: Partial<Record<CourseId, Record<string, DailyLog>>>;
   };
   unlockedBadges: string[];
   starredWords: string[];

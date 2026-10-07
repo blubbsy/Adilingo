@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { checkEnglish, stem, cleanEnglish, normEnglish, maxTypoTolerance } from './pinyinHelper';
-import { buildSession, applyGrade, recordReview, newDirectionProgress, promptFor, promptForDirection, bulkMarkLevelKnown, calculateTrueRetention } from './srsEngine';
+import { buildSession, applyGrade, recordReview, newDirectionProgress, promptFor, promptForDirection, bulkMarkLevelKnown, calculateTrueRetention, queueSummary } from './srsEngine';
+import { dayKey } from './dates';
 import type { SessionRequest, UserState, VocabItem } from '../types';
 
 describe('English stemmer and normalization', () => {
@@ -354,5 +355,110 @@ describe('SRS Overdue Backlog Throttling & Grading', () => {
 
     const prog5 = { ...newDirectionProgress(new Date()), stability: 5 };
     expect(promptForDirection('recognition', prog5, undefined, englishItem, 'english')).toBe('cloze');
+  });
+
+  it('buildSession fills cards reliably when ignoreCap or includeNotDue is requested on fresh words', () => {
+    const today = dayKey(new Date());
+    // Simulate user who maxed out daily cards
+    const state: UserState = {
+      version: 3,
+      settings: {
+        speechRate: 1,
+        colorTones: true,
+        dailyCap: 20,
+        defaultMode: 'mixed',
+        newCardsPerDay: 5,
+        curriculum: 'cefr',
+        theme: 'system',
+        soundEffects: true,
+        course: 'english',
+      },
+      progress: {},
+      stats: {
+        currentStreak: 1,
+        longestStreak: 1,
+        lastActiveDate: today,
+        totalReviewed: 20,
+        toneAccuracy: {} as any,
+        totalCorrect: 20,
+        totalLatencyMs: 0,
+        latencySamples: 0,
+        modeCounts: {} as any,
+        toneConfusion: {} as any,
+        daily: {
+          [today]: { reviewed: 20, correct: 20, newCards: 5 },
+        },
+      },
+      unlockedBadges: [],
+      starredWords: [],
+    };
+
+    // Standard session without ignoreCap has 0 available due to daily cap
+    const normalCards = buildSession(dummyVocab, state, {
+      label: 'Standard',
+      mode: 'mixed',
+      levels: [],
+      topics: [],
+    });
+    expect(normalCards.length).toBe(0);
+
+    // Extra practice or level practice with ignoreCap / includeNotDue MUST return cards
+    const extraCards = buildSession(dummyVocab, state, {
+      label: 'Extra Practice',
+      mode: 'mixed',
+      levels: [],
+      topics: [],
+      ignoreCap: true,
+      includeNotDue: true,
+      limit: 2,
+    });
+    expect(extraCards.length).toBe(2);
+    expect(extraCards[0].item.id).toBe('1');
+    expect(extraCards[1].item.id).toBe('2');
+  });
+
+  it('queueSummary isolates daily limits between courses using dailyByCourse', () => {
+    const today = dayKey(new Date());
+    const state: UserState = {
+      version: 3,
+      settings: {
+        speechRate: 1,
+        colorTones: true,
+        dailyCap: 20,
+        defaultMode: 'mixed',
+        newCardsPerDay: 5,
+        curriculum: 'cefr',
+        theme: 'system',
+        soundEffects: true,
+        course: 'english',
+      },
+      progress: {},
+      stats: {
+        currentStreak: 1,
+        longestStreak: 1,
+        lastActiveDate: today,
+        totalReviewed: 20,
+        toneAccuracy: {} as any,
+        totalCorrect: 20,
+        totalLatencyMs: 0,
+        latencySamples: 0,
+        modeCounts: {} as any,
+        toneConfusion: {} as any,
+        daily: {
+          [today]: { reviewed: 20, correct: 20, newCards: 5 },
+        },
+        dailyByCourse: {
+          chinese: { [today]: { reviewed: 20, correct: 20, newCards: 5 } },
+          english: { [today]: { reviewed: 0, correct: 0, newCards: 0 } },
+        },
+      },
+      unlockedBadges: [],
+      starredWords: [],
+    };
+
+    // In English course, today's quota is fresh because chinese reviews are isolated
+    const summary = queueSummary(dummyVocab, state);
+    expect(summary.newAvailable).toBe(4); // 4 dummy words unstarted <= newCardsPerDay (5)
+    expect(summary.remainingToday).toBe(20);
   });
 });

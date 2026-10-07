@@ -218,6 +218,17 @@ export function recordReview(
   }
 
   const day = s.daily[today] ?? { reviewed: 0, correct: 0, newCards: 0 };
+  const course = state.settings.course ?? 'chinese';
+  const dailyByCourse = { ...(s.dailyByCourse ?? {}) };
+  const courseDailyMap = { ...(dailyByCourse[course] ?? {}) };
+  const cDay = courseDailyMap[today] ?? { reviewed: 0, correct: 0, newCards: 0 };
+  courseDailyMap[today] = {
+    reviewed: cDay.reviewed + (learning ? 0 : 1),
+    correct: cDay.correct + (isCorrect ? 1 : 0),
+    newCards: cDay.newCards + (isNew ? 1 : 0),
+  };
+  dailyByCourse[course] = courseDailyMap;
+
   const latencyOk = ev.latencyMs > 0 && ev.latencyMs < 120_000;
 
   return {
@@ -243,6 +254,7 @@ export function recordReview(
           newCards: day.newCards + (isNew ? 1 : 0),
         },
       },
+      dailyByCourse,
     },
   };
 }
@@ -347,7 +359,8 @@ export function queueSummary(vocab: VocabItem[], state: UserState, req?: Partial
   const topics = req?.topics ?? [];
   const wordIds = req?.wordIds;
   const pool = filterPool(vocab, { levels, topics, wordIds });
-  const today = state.stats.daily[dayKey(now)] ?? { reviewed: 0, correct: 0, newCards: 0 };
+  const course = state.settings.course ?? 'chinese';
+  const today = state.stats.dailyByCourse?.[course]?.[dayKey(now)] ?? state.stats.daily[dayKey(now)] ?? { reviewed: 0, correct: 0, newCards: 0 };
   const newLeft = Math.max(0, state.settings.newCardsPerDay - today.newCards);
 
   let dueCount = 0;
@@ -399,7 +412,10 @@ export function buildSession(vocab: VocabItem[], state: UserState, req: SessionR
   dueCards.sort((a, b) => a.dueTime.localeCompare(b.dueTime));
 
   const hasBacklog = dueCards.length >= summary.remainingToday;
-  const newAllowed = hasBacklog ? 0 : summary.newAvailable;
+  const isCustomOrExtra = Boolean(req.ignoreCap || req.wordIds?.length || req.includeNotDue);
+  const newAllowed = isCustomOrExtra
+    ? Math.max(0, (limit || 20) - dueCards.length)
+    : (hasBacklog ? 0 : summary.newAvailable);
 
   const fresh = pool
     .map((v, i) => ({ v, i }))
@@ -420,15 +436,28 @@ export function buildSession(vocab: VocabItem[], state: UserState, req: SessionR
     }
   }
 
-  if (req.includeNotDue && ordered.length < limit) {
+  // If user requested extra practice, specific wordIds, or includeNotDue, ensure we fill up to limit
+  if (isCustomOrExtra && ordered.length < limit) {
     const taken = new Set(ordered.map((o) => `${o.item.id}:${o.direction}`));
+    // 1. Add already studied cards (not currently due)
     for (const v of pool) {
       const wp = state.progress[v.id];
       if (!wp) continue;
       if (wp.recognition && !taken.has(`${v.id}:recognition`)) {
         ordered.push({ item: v, direction: 'recognition', isNew: false, p: wp.recognition });
+        taken.add(`${v.id}:recognition`);
       }
       if (ordered.length >= limit) break;
+    }
+    // 2. If still below limit, fill with remaining unstudied words in pool
+    if (ordered.length < limit) {
+      for (const v of pool) {
+        if (!isWordStudied(state.progress[v.id]) && !taken.has(`${v.id}:recognition`)) {
+          ordered.push({ item: v, direction: 'recognition', isNew: true });
+          taken.add(`${v.id}:recognition`);
+        }
+        if (ordered.length >= limit) break;
+      }
     }
   }
 

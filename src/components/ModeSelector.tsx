@@ -121,18 +121,21 @@ export function ModeSelector({ vocab, state, onStart }: Props) {
         <div className="flex gap-2">
           {available === 0 && (
             <button
-              onClick={() => onStart({ ...base, label: `${label || 'Extra'} · extra practice`, includeNotDue: true, ignoreCap: true, limit: 10 })}
+              onClick={() => onStart({ ...base, label: `${label || 'Practice'} · extra`, includeNotDue: true, ignoreCap: true, limit: 10 })}
               className="rounded-xl border border-slate-300 px-4 py-2.5 text-sm font-medium hover:bg-slate-50 dark:border-slate-600 dark:hover:bg-slate-700"
             >
               Extra practice (10)
             </button>
           )}
           <button
-            disabled={available === 0}
-            onClick={() => onStart({ ...base, label: label || 'Review' })}
-            className="inline-flex items-center justify-center gap-2 rounded-xl bg-rose-600 px-5 py-2.5 font-semibold text-white transition hover:bg-rose-700 disabled:cursor-not-allowed disabled:opacity-40"
+            onClick={() => onStart({
+              ...base,
+              label: label || 'Practice',
+              ...(available === 0 ? { includeNotDue: true, ignoreCap: true, limit: 15 } : {}),
+            })}
+            className="inline-flex items-center justify-center gap-2 rounded-xl bg-rose-600 px-5 py-2.5 font-semibold text-white transition hover:bg-rose-700"
           >
-            <Play className="h-4 w-4" /> Start {available > 0 ? `(${available})` : ''}
+            <Play className="h-4 w-4" /> Start {available > 0 ? `(${available})` : '(15)'}
           </button>
         </div>
       </div>
