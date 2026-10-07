@@ -44,6 +44,7 @@ function mockState(overrides: Partial<UserState> = {}): UserState {
         english: 0,
         audio: 0,
         tone: 0,
+        cloze: 0,
       },
       daily: {},
     },

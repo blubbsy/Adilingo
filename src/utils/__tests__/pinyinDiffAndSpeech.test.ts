@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { checkPinyin, numberedToMarked } from '../pinyinHelper';
+import { buildAudioUrls, findVoice } from '../speech';
 
 function computePinyinDiff(typed: string, target: string): Array<{ char: string; match: boolean }> {
   const a = typed;
@@ -75,5 +76,73 @@ describe('Pinyin diff and autocomplete helpers', () => {
     const res2 = checkPinyin('nǐ hǎo', mockItem);
     expect(res2.correct).toBe(true);
     expect(res2.tonesWrong).toBe(false);
+  });
+});
+
+describe('Multilingual TTS URL Generation & Fallbacks', () => {
+  it('generates multi-tiered endpoints for short Chinese words including Youdao & Google lr-tts', () => {
+    const urls = buildAudioUrls('苹果', 'zh');
+    expect(urls.length).toBeGreaterThanOrEqual(3);
+    // Short word includes Youdao dictionary voice
+    expect(urls.some((u) => u.includes('dict.youdao.com/dictvoice') && u.includes('le=zh'))).toBe(true);
+    // Includes Google lr-language-tts endpoint which is immune to Referer blocking
+    expect(urls.some((u) => u.includes('google.com/speech-api/v1/synthesize') && u.includes('lang=zh-CN'))).toBe(true);
+    // Includes Google translate TTS
+    expect(urls.some((u) => u.includes('translate.google.com/translate_tts'))).toBe(true);
+  });
+
+  it('generates proper endpoints for Chinese full sentences without crashing Youdao', () => {
+    const urls = buildAudioUrls('今天天气很好，我们一起去公园散步吧。', 'zh');
+    expect(urls.length).toBeGreaterThanOrEqual(3);
+    // Sentences with punctuation should exclude Youdao dictvoice (which returns 500 on sentences)
+    expect(urls.some((u) => u.includes('dict.youdao.com/dictvoice'))).toBe(false);
+    // Uses Google lr-language-tts & Google Translate & Baidu
+    expect(urls.some((u) => u.includes('google.com/speech-api/v1/synthesize') && u.includes('lang=zh-CN'))).toBe(true);
+    expect(urls.some((u) => u.includes('fanyi.baidu.com/gettts') && u.includes('lan=zh'))).toBe(true);
+  });
+
+  it('generates multi-tiered endpoints for English vocabulary and sentences', () => {
+    const wordUrls = buildAudioUrls('apple', 'en');
+    expect(wordUrls.some((u) => u.includes('dict.youdao.com/dictvoice') && u.includes('type=2'))).toBe(true);
+    expect(wordUrls.some((u) => u.includes('google.com/speech-api/v1/synthesize') && u.includes('lang=en'))).toBe(true);
+
+    const sentenceUrls = buildAudioUrls('He wrote a letter to his friend yesterday.', 'en');
+    expect(sentenceUrls.some((u) => u.includes('google.com/speech-api/v1/synthesize') && u.includes('lang=en'))).toBe(true);
+    expect(sentenceUrls.some((u) => u.includes('translate.google.com/translate_tts') && u.includes('tl=en'))).toBe(true);
+  });
+
+  it('auto-detects Chinese characters in text regardless of default targetLang', () => {
+    // If text contains Hanzi characters, it should automatically route to Chinese endpoints
+    const urls = buildAudioUrls('学习', 'en');
+    expect(urls.some((u) => u.includes('lang=zh-CN') || u.includes('le=zh'))).toBe(true);
+  });
+
+  it('findVoice returns null when no language-matching voice is present (preventing silent English default voice usage)', () => {
+    // Mock speechSynthesis with only English voices
+    const mockEnglishVoices = [
+      { name: 'Microsoft David Desktop', lang: 'en-US', localService: true, default: true, voiceURI: 'david' },
+      { name: 'Microsoft Zira Desktop', lang: 'en-US', localService: true, default: false, voiceURI: 'zira' },
+    ] as unknown as SpeechSynthesisVoice[];
+
+    const origWindow = (globalThis as unknown as { window?: unknown }).window;
+    try {
+      (globalThis as unknown as { window: unknown }).window = {
+        speechSynthesis: {
+          getVoices: () => mockEnglishVoices,
+        },
+        SpeechSynthesisUtterance: class {},
+      };
+
+      // When looking for Chinese, it MUST return null (not David or Zira) so it falls back to streaming
+      const zhVoice = findVoice('zh');
+      expect(zhVoice).toBeNull();
+
+      // When looking for English, it finds David or Zira
+      const enVoice = findVoice('en');
+      expect(enVoice).not.toBeNull();
+      expect(enVoice?.lang).toBe('en-US');
+    } finally {
+      (globalThis as unknown as { window?: unknown }).window = origWindow;
+    }
   });
 });

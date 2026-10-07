@@ -1414,6 +1414,110 @@ export const BADGES: Badge[] = [
       return avg <= 1800 ? 1 : frac(1800, avg);
     },
   },
+  // ==========================================
+  // 9. CLOZE & SENTENCE EXERCISES
+  // ==========================================
+  {
+    id: 'cloze-first',
+    title: 'First Gap Filled',
+    description: 'Complete your first fill-in-the-gap sentence card.',
+    emoji: '🧩',
+    category: 'special',
+    tier: 'bronze',
+    metric: {
+      current: (s) => s.stats.modeCounts.cloze ?? 0,
+      target: 1,
+      unit: 'cards',
+    },
+    progress: (s) => frac(s.stats.modeCounts.cloze ?? 0, 1),
+  },
+  {
+    id: 'cloze-10',
+    title: 'Sentence Mason',
+    description: 'Complete 10 fill-in-the-gap sentence cards.',
+    emoji: '🧱',
+    category: 'reviews',
+    tier: 'bronze',
+    metric: {
+      current: (s) => s.stats.modeCounts.cloze ?? 0,
+      target: 10,
+      unit: 'cards',
+    },
+    progress: (s) => frac(s.stats.modeCounts.cloze ?? 0, 10),
+  },
+  {
+    id: 'cloze-50',
+    title: 'Sentence Architect',
+    description: 'Complete 50 fill-in-the-gap sentence cards.',
+    emoji: '🏛️',
+    category: 'reviews',
+    tier: 'silver',
+    metric: {
+      current: (s) => s.stats.modeCounts.cloze ?? 0,
+      target: 50,
+      unit: 'cards',
+    },
+    progress: (s) => frac(s.stats.modeCounts.cloze ?? 0, 50),
+  },
+  {
+    id: 'cloze-150',
+    title: 'Master of Context',
+    description: 'Complete 150 fill-in-the-gap sentence cards.',
+    emoji: '📜',
+    category: 'reviews',
+    tier: 'gold',
+    metric: {
+      current: (s) => s.stats.modeCounts.cloze ?? 0,
+      target: 150,
+      unit: 'cards',
+    },
+    progress: (s) => frac(s.stats.modeCounts.cloze ?? 0, 150),
+  },
+  // ==========================================
+  // 10. MULTI-COURSE & POLYGLOT
+  // ==========================================
+  {
+    id: 'course-polyglot',
+    title: 'Bridge of Tongues',
+    description: 'Study vocabulary across both Chinese and English courses.',
+    emoji: '🌐',
+    category: 'special',
+    tier: 'silver',
+    metric: {
+      current: (s) => {
+        const hasZh = Object.keys(s.courseProgress?.chinese ?? s.progress ?? {}).length > 0;
+        const hasEn = Object.keys(s.courseProgress?.english ?? (s.settings.course === 'english' ? s.progress : {}) ?? {}).length > 0;
+        return (hasZh ? 1 : 0) + (hasEn ? 1 : 0);
+      },
+      target: 2,
+      unit: 'courses',
+    },
+    progress: (s) => {
+      const hasZh = Object.keys(s.courseProgress?.chinese ?? s.progress ?? {}).length > 0;
+      const hasEn = Object.keys(s.courseProgress?.english ?? (s.settings.course === 'english' ? s.progress : {}) ?? {}).length > 0;
+      return frac((hasZh ? 1 : 0) + (hasEn ? 1 : 0), 2);
+    },
+  },
+  {
+    id: 'course-english-scholar',
+    title: 'Global Communicator',
+    description: 'Learn at least 15 English words in the English track.',
+    emoji: '🇬🇧',
+    category: 'special',
+    tier: 'gold',
+    metric: {
+      current: (s) => {
+        const enProg = s.settings.course === 'english' ? s.progress : (s.courseProgress?.english ?? {});
+        return Object.values(enProg).filter(isWordLearned).length;
+      },
+      target: 15,
+      unit: 'words',
+    },
+    progress: (s) => {
+      const enProg = s.settings.course === 'english' ? s.progress : (s.courseProgress?.english ?? {});
+      return frac(Object.values(enProg).filter(isWordLearned).length, 15);
+    },
+  },
 ];
 
 /** Badges that apply to the current curriculum (unlocked ones always stay visible). */

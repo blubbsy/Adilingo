@@ -337,40 +337,82 @@ function OptionBody({
         </p>
       )}
 
-      <div role="radiogroup" aria-label="Answer options" className={`grid gap-2 ${sentenceMode || pinyinOpts ? 'grid-cols-1' : 'grid-cols-2'}`}>
-        {perm.map((orig, i) => {
-          const isSel = selected === i;
-          const isAnswer = orig === ex.answer;
-          let tone =
-            'border-slate-200 bg-white text-slate-800 hover:border-rose-300 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:border-rose-700';
-          if (!answered && isSel) tone = 'border-rose-500 bg-rose-50 text-rose-800 ring-1 ring-rose-500 dark:bg-rose-950/40 dark:text-rose-100';
-          if (answered && isAnswer)
-            tone =
-              ex.type === 'error'
-                ? 'border-amber-500 bg-amber-50 text-amber-900 dark:bg-amber-950/40 dark:text-amber-100'
-                : 'border-emerald-500 bg-emerald-50 text-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-100';
-          else if (answered && isSel) tone = 'border-rose-500 bg-rose-50 text-rose-900 line-through decoration-rose-400 dark:bg-rose-950/40 dark:text-rose-100';
-          else if (answered) tone = 'border-slate-200 bg-white text-slate-400 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-500';
-          return (
-            <button
-              key={`${orig}-${i}`}
-              type="button"
-              role="radio"
-              aria-checked={isSel}
-              disabled={answered}
-              onClick={() => onSelect(i)}
-              className={`flex min-h-[3rem] items-center gap-3 rounded-xl border px-3 py-2.5 text-left transition disabled:cursor-default ${tone} ${focusRing}`}
-            >
-              <kbd className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md border border-slate-300 text-xs dark:border-slate-600 font-medium opacity-60" aria-hidden>
-                {i + 1}
-              </kbd>
-              <span className={pinyinOpts ? 'text-base' : 'font-hanzi text-lg'} lang={pinyinOpts ? undefined : 'zh-CN'}>
-                {ex.options[orig]}
-              </span>
-            </button>
-          );
-        })}
-      </div>
+      {/* Choice fill-the-gap uses small cards */}
+      {ex.type === 'choice' ? (
+        <div>
+          <p className="mb-2 text-xs text-slate-500 dark:text-slate-400">Select a card to fill the blank:</p>
+          <div role="radiogroup" aria-label="Answer cards" className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+            {perm.map((orig, i) => {
+              const isSel = selected === i;
+              const isAnswer = orig === ex.answer;
+              let cardTone =
+                'border-slate-200 bg-white text-slate-800 shadow-sm hover:border-rose-400 hover:bg-rose-50/40 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:border-rose-700';
+              if (!answered && isSel)
+                cardTone = 'border-rose-500 bg-rose-50 text-rose-800 ring-2 ring-rose-400/40 shadow dark:bg-rose-950/60 dark:text-rose-100';
+              if (answered && isAnswer)
+                cardTone = 'border-emerald-500 bg-emerald-50 text-emerald-900 ring-2 ring-emerald-400/30 shadow dark:bg-emerald-950/60 dark:text-emerald-100 font-bold';
+              else if (answered && isSel)
+                cardTone = 'border-rose-500 bg-rose-50 text-rose-900 line-through decoration-rose-400 dark:bg-rose-950/40 dark:text-rose-100';
+              else if (answered)
+                cardTone = 'border-slate-200 bg-white opacity-40 text-slate-400 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-500';
+
+              return (
+                <button
+                  key={`${orig}-${i}`}
+                  type="button"
+                  role="radio"
+                  aria-checked={isSel}
+                  disabled={answered}
+                  onClick={() => onSelect(i)}
+                  className={`group relative flex flex-col items-center justify-center rounded-xl border-2 px-3 py-3 text-center transition-all duration-150 active:scale-95 disabled:cursor-default ${cardTone} ${focusRing}`}
+                >
+                  <span className="absolute top-1.5 left-2 rounded bg-slate-100 px-1.5 py-0.2 text-[10px] font-semibold text-slate-500 group-hover:bg-rose-100 group-hover:text-rose-700 dark:bg-slate-750 dark:text-slate-400" aria-hidden>
+                    {i + 1}
+                  </span>
+                  <span className="mt-1 font-hanzi text-lg" lang="zh-CN">
+                    {ex.options[orig]}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      ) : (
+        <div role="radiogroup" aria-label="Answer options" className={`grid gap-2 ${sentenceMode || pinyinOpts ? 'grid-cols-1' : 'grid-cols-2'}`}>
+          {perm.map((orig, i) => {
+            const isSel = selected === i;
+            const isAnswer = orig === ex.answer;
+            let tone =
+              'border-slate-200 bg-white text-slate-800 hover:border-rose-300 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:border-rose-700';
+            if (!answered && isSel) tone = 'border-rose-500 bg-rose-50 text-rose-800 ring-1 ring-rose-500 dark:bg-rose-950/40 dark:text-rose-100';
+            if (answered && isAnswer)
+              tone =
+                ex.type === 'error'
+                  ? 'border-amber-500 bg-amber-50 text-amber-900 dark:bg-amber-950/40 dark:text-amber-100'
+                  : 'border-emerald-500 bg-emerald-50 text-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-100';
+            else if (answered && isSel) tone = 'border-rose-500 bg-rose-50 text-rose-900 line-through decoration-rose-400 dark:bg-rose-950/40 dark:text-rose-100';
+            else if (answered) tone = 'border-slate-200 bg-white text-slate-400 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-500';
+            return (
+              <button
+                key={`${orig}-${i}`}
+                type="button"
+                role="radio"
+                aria-checked={isSel}
+                disabled={answered}
+                onClick={() => onSelect(i)}
+                className={`flex min-h-[3rem] items-center gap-3 rounded-xl border px-3 py-2.5 text-left transition disabled:cursor-default ${tone} ${focusRing}`}
+              >
+                <kbd className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md border border-slate-300 text-xs dark:border-slate-600 font-medium opacity-60" aria-hidden>
+                  {i + 1}
+                </kbd>
+                <span className={pinyinOpts ? 'text-base' : 'font-hanzi text-lg'} lang={pinyinOpts ? undefined : 'zh-CN'}>
+                  {ex.options[orig]}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }

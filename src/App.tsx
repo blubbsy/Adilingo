@@ -1,11 +1,25 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Award, BarChart3, BookMarked, BookOpenCheck, Flame, Home, Layers, Loader2, Settings as SettingsIcon, Zap } from 'lucide-react';
+import {
+  Award,
+  BarChart3,
+  BookMarked,
+  BookOpen,
+  BookOpenCheck,
+  Flame,
+  Home,
+  Languages,
+  Layers,
+  Loader2,
+  Settings as SettingsIcon,
+  Zap,
+} from 'lucide-react';
 import type { Grade, SessionCard, SessionRequest, Settings, UserState } from './types';
 import { useUserState } from './hooks/useUserState';
 import { useSpeech } from './utils/speech';
 import { buildSession, effectiveStreak, recordReview } from './utils/srsEngine';
 import { newlyUnlocked, type Badge } from './utils/analytics';
 import { curriculumInfo, loadLibrary, vocabForCurriculum, type VocabLibrary } from './data/vocab';
+import { getCourseConfig, type CourseId } from './data/courses';
 import { Dashboard } from './components/Dashboard';
 import { StudySession } from './components/StudySession';
 import { Insights } from './components/Insights';
@@ -14,6 +28,9 @@ import { Dictionary } from './components/Dictionary';
 import { TopicTraining } from './components/TopicTraining';
 import { SettingsModal } from './components/SettingsModal';
 import { SyncModal } from './components/SyncModal';
+import { EnglishGrammarGuide } from './components/EnglishGrammarGuide';
+import { IrregularVerbsTrainer } from './components/IrregularVerbsTrainer';
+import { t, type UiLanguage } from './utils/i18n';
 import type { CardResult } from './components/ReviewCard';
 import { GrammarHub } from './grammar';
 import {
@@ -24,24 +41,15 @@ import {
   DeviceRevokedError,
 } from './utils/syncService';
 
-type View = 'home' | 'learn' | 'topics' | 'dictionary' | 'study' | 'insights' | 'achievements';
+type View = 'home' | 'learn' | 'grammar' | 'irregular' | 'topics' | 'dictionary' | 'study' | 'insights' | 'achievements';
 type NavView = Exclude<View, 'study'>;
-const NAV_IDS: NavView[] = ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements'];
+const NAV_IDS: NavView[] = ['home', 'grammar', 'irregular', 'learn', 'topics', 'dictionary', 'insights', 'achievements'];
 
 /** "#/dictionary" → "dictionary"; anything unknown → home. */
 function viewFromHash(): NavView {
   const id = window.location.hash.replace(/^#\/?/, '') as NavView;
   return NAV_IDS.includes(id) ? id : 'home';
 }
-
-const NAV: { id: NavView; label: string; short: string; icon: typeof Home }[] = [
-  { id: 'home', label: 'Dashboard', short: 'Home', icon: Home },
-  { id: 'learn', label: 'Paths & Grammar', short: 'Learn', icon: BookOpenCheck },
-  { id: 'topics', label: 'Topic Training', short: 'Topics', icon: Layers },
-  { id: 'dictionary', label: 'Dictionary', short: 'Words', icon: BookMarked },
-  { id: 'insights', label: 'Insights', short: 'Stats', icon: BarChart3 },
-  { id: 'achievements', label: 'Badges', short: 'Badges', icon: Award },
-];
 
 /** Applies the theme preference to <html> and follows the OS setting in "system" mode. */
 function useTheme(pref: Settings['theme']) {
@@ -61,19 +69,23 @@ function useTheme(pref: Settings['theme']) {
 
 export default function App() {
   const { state, ready, backend, loadWarning, update, replace, allowSave } = useUserState();
-  const speech = useSpeech(state.settings.speechRate);
+  const activeCourse = state.settings.course ?? 'chinese';
+  const courseConfig = getCourseConfig(activeCourse);
+  const speech = useSpeech(state.settings.speechRate, courseConfig.speechVoiceLang);
   const [library, setLibrary] = useState<VocabLibrary | null>(null);
   const [libraryError, setLibraryError] = useState<string | null>(null);
   const [view, setView] = useState<View>(viewFromHash);
-  const [session, setSession] = useState<{ request: SessionRequest; cards: SessionCard[]; key: number; returnTo: NavView } | null>(null);
+  const [session, setSession] = useState<{ request: SessionRequest; cards: SessionCard[]; key: number; returnTo: View } | null>(null);
   const [showSettings, setShowSettings] = useState(false);
   const [showSyncModal, setShowSyncModal] = useState(false);
   const [toasts, setToasts] = useState<Badge[]>([]);
   const undoSnapshot = useRef<UserState | null>(null);
-  const syncPushTimer = useRef<number>();
+
+  const lang: UiLanguage = state.settings.uiLanguage ?? (activeCourse === 'english' ? 'zh' : 'en');
+
   useTheme(state.settings.theme);
 
-  // Auto-detect pairing key from URL (e.g. from QR scan #/sync-pair?key=... or ?syncKey=...)
+  // Auto-pair if URL contains syncKey (from QR code scan)
   useEffect(() => {
     const checkPairingParam = async () => {
       let pairKey: string | null = null;
@@ -95,8 +107,8 @@ export default function App() {
           allowSave();
           window.history.replaceState(null, '', window.location.pathname + '#/home');
           setView('home');
-          setToasts((t) => [
-            ...t,
+          setToasts((tList) => [
+            ...tList,
             {
               id: `sync-paired-${Date.now()}`,
               title: 'Device Linked & Synced!',
@@ -130,75 +142,130 @@ export default function App() {
         })
         .catch((err) => {
           if (err instanceof DeviceRevokedError || err?.name === 'DeviceRevokedError') {
-            setToasts((t) => [
-              ...t,
+            setToasts((tList) => [
+              ...tList,
               {
                 id: `sync-revoked-${Date.now()}`,
                 title: 'Device Unlinked',
-                description: 'This device was unpaired by another linked device.',
-                emoji: '🔌',
+                description: 'Sync pairing was revoked on another device.',
+                emoji: '⚠️',
                 category: 'special',
-                tier: 'silver',
+                tier: 'bronze',
                 progress: () => 1,
               },
             ]);
+            setStoredSyncKey(null);
           }
         });
     };
 
     runBackgroundSync();
-
-    const onVisible = () => {
-      if (document.visibilityState === 'visible') {
-        runBackgroundSync();
-      }
+    const onVisibility = () => {
+      if (document.visibilityState === 'visible') runBackgroundSync();
     };
+    document.addEventListener('visibilitychange', onVisibility);
+    return () => document.removeEventListener('visibilitychange', onVisibility);
+  }, [ready, state, replace, allowSave]);
 
-    document.addEventListener('visibilitychange', onVisible);
-    return () => document.removeEventListener('visibilitychange', onVisible);
-  }, [ready]);
-
-  // Auto-push reviews to cloud vault
+  // Auto-backup to vault on local progress updates (debounced)
+  const prevSyncStateRef = useRef<string>('');
   useEffect(() => {
     if (!ready) return;
     const key = getStoredSyncKey();
     if (!key) return;
 
-    window.clearTimeout(syncPushTimer.current);
-    syncPushTimer.current = window.setTimeout(() => {
+    const stateStr = JSON.stringify({ p: state.progress, s: state.stats.totalReviewed });
+    if (prevSyncStateRef.current === stateStr) return;
+    prevSyncStateRef.current = stateStr;
+
+    const tTimer = setTimeout(() => {
       pushVault(key, state).catch(() => {});
-    }, 2000);
+    }, 4000);
+    return () => clearTimeout(tTimer);
+  }, [ready, state]);
 
-    return () => window.clearTimeout(syncPushTimer.current);
-  }, [state, ready]);
-
+  // Load the active course's vocabulary library
   useEffect(() => {
-    loadLibrary()
-      .then(setLibrary)
-      .catch((e: Error) => setLibraryError(e.message));
-  }, []);
+    let cancelled = false;
+    setLibrary(null);
+    setLibraryError(null);
+    loadLibrary(activeCourse)
+      .then((lib) => {
+        if (!cancelled) setLibrary(lib);
+      })
+      .catch((err) => {
+        if (!cancelled) setLibraryError((err as Error).message);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [activeCourse]);
+
+  // Course switching logic
+  const switchCourse = useCallback(
+    (newCourse: CourseId) => {
+      if (newCourse === activeCourse) return;
+      update((s) => {
+        const curCourse = s.settings.course ?? 'chinese';
+        const courseProgress = {
+          ...(s.courseProgress ?? {}),
+          [curCourse]: s.progress,
+        };
+        const knownLevelsByCourse = {
+          ...(s.knownLevelsByCourse ?? {}),
+          [curCourse]: s.knownLevels ?? [],
+        };
+        const starredWordsByCourse = {
+          ...(s.starredWordsByCourse ?? {}),
+          [curCourse]: s.starredWords ?? [],
+        };
+
+        const targetProg = courseProgress[newCourse] ?? {};
+        const targetKnown = knownLevelsByCourse[newCourse] ?? [];
+        const targetStarred = starredWordsByCourse[newCourse] ?? [];
+        const newCourseConfig = getCourseConfig(newCourse);
+        const defaultLang: UiLanguage = newCourse === 'english' ? 'zh' : 'en';
+
+        return {
+          ...s,
+          settings: {
+            ...s.settings,
+            course: newCourse,
+            curriculum: newCourseConfig.defaultCurriculum,
+            uiLanguage: s.settings.uiLanguage ?? defaultLang,
+          },
+          progress: targetProg,
+          courseProgress,
+          knownLevels: targetKnown,
+          knownLevelsByCourse,
+          starredWords: targetStarred,
+          starredWordsByCourse,
+        };
+      });
+    },
+    [activeCourse, update],
+  );
 
   const curriculum = state.settings.curriculum;
   const vocab = useMemo(() => (library ? vocabForCurriculum(library, curriculum) : []), [library, curriculum]);
   const loaded = ready && library !== null;
 
-  // Badge unlocks are derived from state, so they also fire after imports.
+  // Badge unlocks
   useEffect(() => {
     if (!loaded) return;
     const fresh = newlyUnlocked(state, vocab);
     if (!fresh.length) return;
     update((s) => ({ ...s, unlockedBadges: [...s.unlockedBadges, ...fresh.map((b) => b.id)] }));
-    setToasts((t) => [...t, ...fresh]);
+    setToasts((tList) => [...tList, ...fresh]);
   }, [state, loaded, vocab, update]);
 
   useEffect(() => {
     if (!toasts.length) return;
-    const t = window.setTimeout(() => setToasts((ts) => ts.slice(1)), 4000);
-    return () => window.clearTimeout(t);
+    const tTimer = window.setTimeout(() => setToasts((ts) => ts.slice(1)), 4000);
+    return () => window.clearTimeout(tTimer);
   }, [toasts]);
 
-  // Hash routing: deep links, and the browser / Android back button moves between views
-  // (leaving a study session with "back" returns to where it was started).
+  // Hash routing
   useEffect(() => {
     const onHash = () => {
       setView(window.location.hash === '#/study' ? 'study' : viewFromHash());
@@ -263,7 +330,7 @@ export default function App() {
   );
 
   const streak = effectiveStreak(state);
-  // A reload on #/study has no session to resume: fall back to the dashboard.
+
   useEffect(() => {
     if (view === 'study' && !session) navigate('home');
   }, [view, session, navigate]);
@@ -282,7 +349,7 @@ export default function App() {
       return (
         <div className="flex flex-col items-center gap-3 py-24 text-slate-500">
           <Loader2 className="h-8 w-8 animate-spin" aria-hidden />
-          Loading {library ? 'your progress' : 'the HSK word list'}…
+          Loading {library ? 'your progress' : 'vocabulary list'}…
         </div>
       );
     }
@@ -298,11 +365,18 @@ export default function App() {
             speech={speech}
             onReview={handleReview}
             onUndo={handleUndo}
-            onExit={() => navigate(session.returnTo)}
+            onExit={() => navigate(session.returnTo === 'study' ? 'home' : session.returnTo)}
             onRestart={() => startSession(session.request)}
           />
         ) : null;
+      case 'grammar':
+        return <EnglishGrammarGuide speech={speech} onOpenIrregularVerbs={() => navigate('irregular')} />;
+      case 'irregular':
+        return <IrregularVerbsTrainer speech={speech} onBack={() => navigate('home')} />;
       case 'learn':
+        if (activeCourse === 'english') {
+          return <EnglishGrammarGuide speech={speech} onOpenIrregularVerbs={() => navigate('irregular')} />;
+        }
         return (
           <GrammarHub
             vocab={vocab}
@@ -331,11 +405,66 @@ export default function App() {
       case 'achievements':
         return <Achievements vocab={vocab} state={state} />;
       default:
-        return <Dashboard vocab={vocab} state={state} onStart={startSession} onNavigate={navigate} onUpdateState={(ns) => update(() => ns)} />;
+        return (
+          <Dashboard
+            vocab={vocab}
+            state={state}
+            onStart={startSession}
+            onNavigate={navigate}
+            onUpdateState={(ns) => update(() => ns)}
+            onOpenGrammarGuide={() => navigate('grammar')}
+            onOpenIrregularVerbs={() => navigate('irregular')}
+          />
+        );
     }
-  }, [libraryError, loaded, library, view, session, vocab, state, speech, handleReview, handleUndo, handleToggleStar, navigate, startSession, curriculum, update]);
+  }, [libraryError, loaded, library, view, session, vocab, state, speech, handleReview, handleUndo, handleToggleStar, navigate, startSession, curriculum, update, activeCourse]);
 
-  const navButton = (n: (typeof NAV)[number], variant: 'side' | 'top') => {
+  // Desktop Navigation items
+  const navItems = useMemo(() => {
+    if (activeCourse === 'english') {
+      return [
+        { id: 'home' as NavView, label: t('nav.dashboard', lang), short: 'Home', icon: Home },
+        { id: 'grammar' as NavView, label: t('nav.grammar', lang), short: 'Grammar', icon: BookOpen },
+        { id: 'irregular' as NavView, label: t('nav.irregular', lang), short: 'Verbs', icon: Zap },
+        { id: 'topics' as NavView, label: t('nav.topics', lang), short: 'Topics', icon: Layers },
+        { id: 'dictionary' as NavView, label: t('nav.dictionary', lang), short: 'Words', icon: BookMarked },
+        { id: 'insights' as NavView, label: t('nav.insights', lang), short: 'Stats', icon: BarChart3 },
+        { id: 'achievements' as NavView, label: t('nav.badges', lang), short: 'Badges', icon: Award },
+      ];
+    }
+    return [
+      { id: 'home' as NavView, label: t('nav.dashboard', lang), short: 'Home', icon: Home },
+      { id: 'learn' as NavView, label: t('nav.learn', lang), short: 'Learn', icon: BookOpenCheck },
+      { id: 'topics' as NavView, label: t('nav.topics', lang), short: 'Topics', icon: Layers },
+      { id: 'dictionary' as NavView, label: t('nav.dictionary', lang), short: 'Words', icon: BookMarked },
+      { id: 'insights' as NavView, label: t('nav.insights', lang), short: 'Stats', icon: BarChart3 },
+      { id: 'achievements' as NavView, label: t('nav.badges', lang), short: 'Badges', icon: Award },
+    ];
+  }, [activeCourse, lang]);
+
+  // Mobile Bottom Navigation items
+  const mobileNavItems = useMemo(() => {
+    if (activeCourse === 'english') {
+      return [
+        { id: 'home' as NavView, short: lang === 'zh' ? '首页' : 'Home', icon: Home },
+        { id: 'grammar' as NavView, short: lang === 'zh' ? '语法百科' : 'Grammar', icon: BookOpen },
+        { id: 'irregular' as NavView, short: lang === 'zh' ? '动词特训' : 'Verbs', icon: Zap },
+        { id: 'topics' as NavView, short: lang === 'zh' ? '主题' : 'Topics', icon: Layers },
+        { id: 'dictionary' as NavView, short: lang === 'zh' ? '词典' : 'Words', icon: BookMarked },
+        { id: 'insights' as NavView, short: lang === 'zh' ? '统计' : 'Stats', icon: BarChart3 },
+      ];
+    }
+    return [
+      { id: 'home' as NavView, short: lang === 'zh' ? '首页' : 'Home', icon: Home },
+      { id: 'learn' as NavView, short: lang === 'zh' ? '学习' : 'Learn', icon: BookOpenCheck },
+      { id: 'topics' as NavView, short: lang === 'zh' ? '主题' : 'Topics', icon: Layers },
+      { id: 'dictionary' as NavView, short: lang === 'zh' ? '词典' : 'Words', icon: BookMarked },
+      { id: 'insights' as NavView, short: lang === 'zh' ? '统计' : 'Stats', icon: BarChart3 },
+      { id: 'achievements' as NavView, short: lang === 'zh' ? '勋章' : 'Badges', icon: Award },
+    ];
+  }, [activeCourse, lang]);
+
+  const navButton = (n: (typeof navItems)[number], variant: 'side' | 'top') => {
     const Icon = n.icon;
     const active = view === n.id || (view === 'study' && session?.returnTo === n.id);
     return (
@@ -361,17 +490,69 @@ export default function App() {
     <div className="min-h-dvh lg:flex">
       {/* Desktop / large tablet landscape: persistent sidebar */}
       <aside className="sticky top-0 hidden h-dvh w-64 shrink-0 flex-col border-r border-slate-200 bg-white px-4 py-5 lg:flex xl:w-72 dark:border-slate-800 dark:bg-slate-900">
-        <button onClick={() => navigate('home')} className="mb-6 flex items-center gap-3 px-2" aria-label="Adilingo home">
-          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-rose-600 font-hanzi text-2xl font-bold text-white">汉</span>
-          <span className="text-left">
-            <span className="block text-lg font-bold leading-tight tracking-tight">Adilingo</span>
-            <span className="block text-xs text-slate-500">{info.short}</span>
+        <div className="mb-4 flex items-center justify-between px-2">
+          <button onClick={() => navigate('home')} className="flex items-center gap-3" aria-label="Adilingo home">
+            <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-rose-600 font-hanzi text-2xl font-bold text-white">
+              {activeCourse === 'chinese' ? '汉' : 'A'}
+            </span>
+            <span className="text-left">
+              <span className="block text-lg font-bold leading-tight tracking-tight">Adilingo</span>
+              <span className="block text-xs text-slate-500">{courseConfig.nativeName}</span>
+            </span>
+          </button>
+        </div>
+
+        {/* Course Track Switcher Tab */}
+        <div className="mb-3 rounded-2xl bg-slate-100 p-1 dark:bg-slate-800">
+          <div className="grid grid-cols-2 gap-1">
+            <button
+              type="button"
+              onClick={() => switchCourse('chinese')}
+              className={`flex items-center justify-center gap-1.5 rounded-xl py-1.5 text-xs font-semibold transition ${
+                activeCourse === 'chinese'
+                  ? 'bg-white shadow text-slate-900 dark:bg-slate-700 dark:text-white'
+                  : 'text-slate-500 hover:text-slate-700 dark:text-slate-400'
+              }`}
+            >
+              <span>🇨🇳</span>
+              <span>中文 HSK</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => switchCourse('english')}
+              className={`flex items-center justify-center gap-1.5 rounded-xl py-1.5 text-xs font-semibold transition ${
+                activeCourse === 'english'
+                  ? 'bg-white shadow text-slate-900 dark:bg-slate-700 dark:text-white'
+                  : 'text-slate-500 hover:text-slate-700 dark:text-slate-400'
+              }`}
+            >
+              <span>🇬🇧</span>
+              <span>英语 CEFR</span>
+            </button>
+          </div>
+        </div>
+
+        {/* UI Language Quick Switcher */}
+        <div className="mb-4 flex items-center justify-between px-2 text-xs text-slate-500">
+          <span className="flex items-center gap-1.5 font-medium">
+            <Languages className="h-3.5 w-3.5" /> {t('header.lang', lang)}
           </span>
-        </button>
-        <nav className="flex flex-col gap-1" aria-label="Main">
-          {NAV.map((n) => navButton(n, 'side'))}
+          <button
+            type="button"
+            onClick={() => {
+              const nextLang: UiLanguage = lang === 'zh' ? 'en' : 'zh';
+              update((s) => ({ ...s, settings: { ...s.settings, uiLanguage: nextLang } }));
+            }}
+            className="rounded-lg border border-slate-200 bg-slate-50 px-2 py-0.5 font-bold text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
+          >
+            {lang === 'zh' ? '🇨🇳 简体中文' : '🇬🇧 English'}
+          </button>
+        </div>
+
+        <nav className="flex flex-col gap-1 overflow-y-auto" aria-label="Main">
+          {navItems.map((n) => navButton(n, 'side'))}
         </nav>
-        <div className="mt-auto space-y-2">
+        <div className="mt-auto space-y-2 pt-2">
           <div className="flex items-center gap-3 rounded-xl bg-orange-50 px-3 py-2.5 text-orange-700 dark:bg-orange-950/40 dark:text-orange-300">
             <Flame className="h-5 w-5" aria-hidden />
             <span className="text-sm font-semibold">{streak}-day streak</span>
@@ -381,7 +562,7 @@ export default function App() {
             className="flex w-full items-center justify-between rounded-xl px-3 py-2 text-[14px] font-medium text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"
           >
             <span className="flex items-center gap-3">
-              <Zap className="h-5 w-5 text-rose-500" aria-hidden /> Cloud Sync
+              <Zap className="h-5 w-5 text-rose-500" aria-hidden /> {t('header.sync', lang)}
             </span>
             {getStoredSyncKey() && (
               <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" title="Sync active" />
@@ -391,7 +572,7 @@ export default function App() {
             onClick={() => setShowSettings(true)}
             className="flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-[15px] font-medium text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"
           >
-            <SettingsIcon className="h-5 w-5" aria-hidden /> Settings
+            <SettingsIcon className="h-5 w-5" aria-hidden /> {t('nav.settings', lang)}
           </button>
         </div>
       </aside>
@@ -401,11 +582,37 @@ export default function App() {
         <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/90 pt-[env(safe-area-inset-top)] backdrop-blur lg:hidden dark:border-slate-800 dark:bg-slate-900/90">
           <div className="mx-auto flex max-w-6xl items-center gap-2 px-4 py-2.5 sm:px-6">
             <button onClick={() => navigate('home')} className="flex items-center gap-2" aria-label="Adilingo home">
-              <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-rose-600 font-hanzi text-xl font-bold text-white">汉</span>
+              <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-rose-600 font-hanzi text-xl font-bold text-white">
+                {activeCourse === 'chinese' ? '汉' : 'A'}
+              </span>
               <span className="text-base font-bold tracking-tight md:hidden">Adilingo</span>
             </button>
+
+            <button
+              type="button"
+              onClick={() => switchCourse(activeCourse === 'chinese' ? 'english' : 'chinese')}
+              className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs font-semibold hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:hover:bg-slate-700"
+              title={`Switch course (Current: ${courseConfig.name})`}
+            >
+              <span>{activeCourse === 'chinese' ? '🇨🇳' : '🇬🇧'}</span>
+              <span>{activeCourse === 'chinese' ? 'HSK' : 'CEFR'}</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                const nextLang: UiLanguage = lang === 'zh' ? 'en' : 'zh';
+                update((s) => ({ ...s, settings: { ...s.settings, uiLanguage: nextLang } }));
+              }}
+              className="inline-flex items-center gap-1 rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs font-semibold hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:hover:bg-slate-700"
+              title="Interface language"
+            >
+              <Languages className="h-3 w-3 text-slate-500" />
+              <span>{lang === 'zh' ? '中文' : 'EN'}</span>
+            </button>
+
             <nav className="ml-2 hidden flex-1 gap-1 overflow-x-auto md:flex" aria-label="Main">
-              {NAV.map((n) => navButton(n, 'top'))}
+              {navItems.map((n) => navButton(n, 'top'))}
             </nav>
             <span className="ml-auto inline-flex items-center gap-1 text-sm font-semibold tabular-nums text-orange-500 md:ml-0" title={`${streak}-day streak`}>
               <Flame className="h-5 w-5" aria-hidden /> {streak}
@@ -425,10 +632,9 @@ export default function App() {
         </header>
 
         {loadWarning && (
-          <div className="mx-auto mt-4 max-w-6xl px-4 sm:px-6 lg:px-10">
-            <div role="alert" className="rounded-xl border border-amber-300 bg-amber-50 p-3 text-sm text-amber-900 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-200">
-              <p>{loadWarning}</p>
-              <p className="mt-1">Saving is paused so nothing is overwritten. Import a backup in Settings, or start fresh (the unreadable data stays stored under a separate key).</p>
+          <div role="alert" className="border-b border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900 dark:border-amber-900 dark:bg-amber-950/60 dark:text-amber-200">
+            <div className="mx-auto flex max-w-6xl items-center justify-between gap-4">
+              <span>{loadWarning}</span>
               <button onClick={allowSave} className="mt-2 rounded-lg bg-amber-600 px-3 py-1.5 font-medium text-white hover:bg-amber-700">
                 Start fresh
               </button>
@@ -456,7 +662,7 @@ export default function App() {
           className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-6 border-t border-slate-200 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden dark:border-slate-800 dark:bg-slate-900/95"
           aria-label="Main"
         >
-          {NAV.map((n) => {
+          {mobileNavItems.map((n) => {
             const Icon = n.icon;
             const active = view === n.id;
             return (
@@ -480,6 +686,7 @@ export default function App() {
           backend={backend}
           speech={speech}
           onChangeSettings={(settings: Settings) => update((s) => ({ ...s, settings }))}
+          onSwitchCourse={switchCourse}
           onReplaceState={(s) => {
             replace(s);
             allowSave();

@@ -1,14 +1,16 @@
-/** 1–6, plus 7 = the HSK 3.0 advanced band (levels 7–9 share one word list). */
+export type CourseId = 'chinese' | 'english';
+
+/** 1–6, plus 7 = the HSK 3.0 advanced band (levels 7–9 share one word list) or CEFR 1–6 (A1 to C2). */
 export type HskLevel = 1 | 2 | 3 | 4 | 5 | 6 | 7;
-export type Curriculum = 'hsk3_2026' | 'hsk3_2021' | 'hsk2';
+export type Curriculum = 'hsk3_2026' | 'hsk3_2021' | 'hsk2' | 'cefr' | 'cet';
 export type ThemePref = 'system' | 'light' | 'dark';
 export type ToneKey = '1' | '2' | '3' | '4' | '0';
-export type StudyMode = 'mixed' | 'hanzi' | 'pinyin' | 'audio' | 'tone' | 'english';
+export type StudyMode = 'mixed' | 'hanzi' | 'pinyin' | 'audio' | 'tone' | 'english' | 'cloze';
 /** The concrete prompt shown on a single card. */
-export type PromptKind = 'hanzi' | 'pinyin' | 'english' | 'audio' | 'tone';
+export type PromptKind = 'hanzi' | 'pinyin' | 'english' | 'audio' | 'tone' | 'cloze';
 export type Grade = 1 | 2 | 3 | 4;
 
-/** Direction of study: recognition (Hanzi -> Meaning) vs recall (Meaning -> Hanzi). */
+/** Direction of study: recognition (Target -> Meaning) vs recall (Meaning -> Target). */
 export type CardDirection = 'recognition' | 'recall';
 
 export interface VocabItem {
@@ -84,6 +86,8 @@ export interface ToneTally {
 }
 
 export interface Settings {
+  course?: CourseId;
+  uiLanguage?: 'en' | 'zh';
   speechRate: number;
   colorTones: boolean;
   dailyCap: number;
@@ -98,6 +102,8 @@ export interface UserState {
   version: number;
   settings: Settings;
   progress: Record<string, CardProgress>;
+  /** Course-namespaced progress cache for seamless switching */
+  courseProgress?: Partial<Record<CourseId, Record<string, CardProgress>>>;
   stats: {
     currentStreak: number;
     longestStreak: number;
@@ -115,8 +121,10 @@ export interface UserState {
   };
   unlockedBadges: string[];
   starredWords: string[];
+  starredWordsByCourse?: Partial<Record<CourseId, string[]>>;
   /** Levels bulk marked as known by user */
   knownLevels?: HskLevel[];
+  knownLevelsByCourse?: Partial<Record<CourseId, HskLevel[]>>;
   /** Outcome of placement test */
   placementResult?: {
     estimatedLevel: HskLevel;

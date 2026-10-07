@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Database, Download, QrCode, Trash2, Upload, X, Zap } from 'lucide-react';
-import type { Curriculum, Settings, StudyMode, ThemePref, UserState } from '../types';
-import { CURRICULA } from '../data/vocab';
+import type { CourseId, Curriculum, Settings, StudyMode, ThemePref, UserState } from '../types';
+import { getCourseConfig } from '../data/courses';
 import { SPEECH_RATES, type SpeechApi } from '../utils/speech';
 import { createDefaultState, exportBackup, parseBackup, type StorageBackend } from '../utils/storage';
 import { createEmptyGrammarProgress, exportableGrammarProgress, importGrammarProgress, saveGrammarProgress } from '../grammar';
@@ -17,6 +17,7 @@ interface Props {
   onReplaceState: (s: UserState) => void;
   onClose: () => void;
   onOpenSyncModal: () => void;
+  onSwitchCourse?: (course: CourseId) => void;
 }
 
 const BACKEND_LABEL: Record<StorageBackend, string> = {
@@ -25,7 +26,16 @@ const BACKEND_LABEL: Record<StorageBackend, string> = {
   memory: 'Memory only — progress will be lost on reload!',
 };
 
-export function SettingsModal({ state, backend, speech, onChangeSettings, onReplaceState, onClose, onOpenSyncModal }: Props) {
+export function SettingsModal({
+  state,
+  backend,
+  speech,
+  onChangeSettings,
+  onReplaceState,
+  onClose,
+  onOpenSyncModal,
+  onSwitchCourse,
+}: Props) {
   const syncKey = getStoredSyncKey();
   const s = state.settings;
   const set = (patch: Partial<Settings>) => onChangeSettings({ ...s, ...patch });
@@ -78,9 +88,83 @@ export function SettingsModal({ state, backend, speech, onChangeSettings, onRepl
           </button>
         </div>
 
-        <Group title="Curriculum">
+        <Group title="Course & Language Track">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2" role="radiogroup" aria-label="Course Track">
+            <button
+              type="button"
+              role="radio"
+              aria-checked={(s.course ?? 'chinese') === 'chinese'}
+              onClick={() => onSwitchCourse?.('chinese')}
+              className={`rounded-xl border-2 p-3 text-left transition ${
+                (s.course ?? 'chinese') === 'chinese' ? 'border-rose-500 bg-rose-50 dark:bg-rose-950/40' : 'border-slate-200 hover:border-slate-300 dark:border-slate-700'
+              }`}
+            >
+              <div className="flex items-center gap-2">
+                <span className="text-xl">🇨🇳</span>
+                <span className="font-bold">Mandarin (HSK)</span>
+              </div>
+              <span className="mt-1 block text-xs text-slate-500 dark:text-slate-400">HSK 1–9 Syllabus · 汉字 & Pinyin</span>
+            </button>
+            <button
+              type="button"
+              role="radio"
+              aria-checked={s.course === 'english'}
+              onClick={() => onSwitchCourse?.('english')}
+              className={`rounded-xl border-2 p-3 text-left transition ${
+                s.course === 'english' ? 'border-rose-500 bg-rose-50 dark:bg-rose-950/40' : 'border-slate-200 hover:border-slate-300 dark:border-slate-700'
+              }`}
+            >
+              <div className="flex items-center gap-2">
+                <span className="text-xl">🇬🇧</span>
+                <span className="font-bold">English (英语)</span>
+              </div>
+              <span className="mt-1 block text-xs text-slate-500 dark:text-slate-400">CEFR A1–C2 · 中考·高考·四六级</span>
+            </button>
+          </div>
+        </Group>
+
+        <Group title="Interface Language (界面语言)">
+          <div className="grid grid-cols-2 gap-2" role="radiogroup" aria-label="Interface Language">
+            <button
+              type="button"
+              role="radio"
+              aria-checked={(s.uiLanguage ?? (s.course === 'english' ? 'zh' : 'en')) === 'en'}
+              onClick={() => set({ uiLanguage: 'en' })}
+              className={`rounded-xl border-2 p-3 text-left transition ${
+                (s.uiLanguage ?? (s.course === 'english' ? 'zh' : 'en')) === 'en'
+                  ? 'border-rose-500 bg-rose-50 dark:bg-rose-950/40'
+                  : 'border-slate-200 hover:border-slate-300 dark:border-slate-700'
+              }`}
+            >
+              <div className="flex items-center gap-2">
+                <span className="text-xl">🇬🇧</span>
+                <span className="font-bold">English</span>
+              </div>
+              <span className="mt-1 block text-xs text-slate-500 dark:text-slate-400">English interface</span>
+            </button>
+            <button
+              type="button"
+              role="radio"
+              aria-checked={(s.uiLanguage ?? (s.course === 'english' ? 'zh' : 'en')) === 'zh'}
+              onClick={() => set({ uiLanguage: 'zh' })}
+              className={`rounded-xl border-2 p-3 text-left transition ${
+                (s.uiLanguage ?? (s.course === 'english' ? 'zh' : 'en')) === 'zh'
+                  ? 'border-rose-500 bg-rose-50 dark:bg-rose-950/40'
+                  : 'border-slate-200 hover:border-slate-300 dark:border-slate-700'
+              }`}
+            >
+              <div className="flex items-center gap-2">
+                <span className="text-xl">🇨🇳</span>
+                <span className="font-bold">简体中文</span>
+              </div>
+              <span className="mt-1 block text-xs text-slate-500 dark:text-slate-400">中文交互界面</span>
+            </button>
+          </div>
+        </Group>
+
+        <Group title="Curriculum & Syllabus">
           <div className="grid gap-2" role="radiogroup" aria-label="Curriculum">
-            {CURRICULA.map((c) => (
+            {getCourseConfig(s.course ?? 'chinese').curricula.map((c) => (
               <button
                 key={c.id}
                 role="radio"
@@ -142,16 +226,18 @@ export function SettingsModal({ state, backend, speech, onChangeSettings, onRepl
               ))}
             </div>
           </div>
-          <label className="flex items-center justify-between gap-4">
-            <span>
-              Tone colours
-              <span className="ml-2 text-sm">
-                <span className="text-tone1">mā</span> <span className="text-tone2">má</span> <span className="text-tone3">mǎ</span>{' '}
-                <span className="text-tone4">mà</span> <span className="text-tone0">ma</span>
+          {s.course !== 'english' && (
+            <label className="flex items-center justify-between gap-4">
+              <span>
+                Tone colours
+                <span className="ml-2 text-sm">
+                  <span className="text-tone1">mā</span> <span className="text-tone2">má</span> <span className="text-tone3">mǎ</span>{' '}
+                  <span className="text-tone4">mà</span> <span className="text-tone0">ma</span>
+                </span>
               </span>
-            </span>
-            <Toggle checked={s.colorTones} onChange={(v) => set({ colorTones: v })} label="Tone colours" />
-          </label>
+              <Toggle checked={s.colorTones} onChange={(v) => set({ colorTones: v })} label="Tone colours" />
+            </label>
+          )}
         </Group>
 
         <Group title="Study">

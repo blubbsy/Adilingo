@@ -1,15 +1,16 @@
 import { useMemo, useState, type ReactNode } from 'react';
-import { BookOpen, Ear, Languages, Music, Play, Shuffle, Type } from 'lucide-react';
+import { BookOpen, Ear, Languages, Layers, Music, Play, Shuffle, Type } from 'lucide-react';
 import type { HskLevel, SessionRequest, StudyMode, UserState, VocabItem } from '../types';
 import { allTopics } from '../utils/analytics';
 import { levelLabel } from '../data/vocab';
 import { queueSummary } from '../utils/srsEngine';
 
 export const MODES: { id: StudyMode; title: string; desc: string; icon: typeof Type }[] = [
-  { id: 'mixed', title: 'Mixed', desc: 'Hànzì, pinyin & English prompts interleaved', icon: Shuffle },
-  { id: 'hanzi', title: 'Characters', desc: 'See 汉字 → type pinyin + meaning', icon: BookOpen },
-  { id: 'pinyin', title: 'Pinyin', desc: 'See pinyin → pick 汉字 + meaning', icon: Type },
-  { id: 'english', title: 'Meaning', desc: 'See English → pick 汉字 + pinyin', icon: Languages },
+  { id: 'mixed', title: 'Mixed', desc: 'Interleaved cards for balanced memory', icon: Shuffle },
+  { id: 'cloze', title: 'Cloze Gaps', desc: 'Fill missing words into sentences with cards', icon: Layers },
+  { id: 'hanzi', title: 'Headword', desc: 'See word → test recall and meaning', icon: BookOpen },
+  { id: 'pinyin', title: 'Phonetic', desc: 'See pronunciation → identify meaning', icon: Type },
+  { id: 'english', title: 'Meaning', desc: 'See meaning → recall target word', icon: Languages },
   { id: 'audio', title: 'Listening', desc: 'Hear it → identify the meaning', icon: Ear },
   { id: 'tone', title: 'Tone drill', desc: 'Tap the tone of every syllable', icon: Music },
 ];

@@ -293,6 +293,7 @@ export function promptForDirection(
   direction: CardDirection,
   p: DirectionProgress | undefined,
   overrideMode?: PromptKind,
+  item?: VocabItem,
 ): PromptKind {
   if (overrideMode && overrideMode !== 'english' && overrideMode !== 'hanzi') {
     return overrideMode;
@@ -300,6 +301,7 @@ export function promptForDirection(
   const stability = p?.stability ?? 0;
   if (direction === 'recognition') {
     if (stability < 3) return 'hanzi';
+    if (item?.exampleSentence && stability >= 3 && stability < 7) return 'cloze';
     if (stability < 14) return 'pinyin';
     return 'audio';
   } else {
@@ -420,7 +422,7 @@ export function buildSession(vocab: VocabItem[], state: UserState, req: SessionR
   return picked.map((o) => {
     const prompt = req.mode !== 'mixed'
       ? (req.mode as PromptKind)
-      : promptForDirection(o.direction, o.p);
+      : promptForDirection(o.direction, o.p, undefined, o.item);
 
     return {
       item: o.item,

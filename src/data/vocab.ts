@@ -46,13 +46,39 @@ export const CURRICULA: CurriculumInfo[] = [
     description: 'The classic six-level exam (~5,000 words).',
     levels: [1, 2, 3, 4, 5, 6],
   },
+  {
+    id: 'cefr',
+    name: 'CEFR (A1–C2 Framework)',
+    short: 'CEFR A1–C2',
+    description: 'International scale aligned with Oxford 3000/5000 and Cambridge benchmarks.',
+    levels: [1, 2, 3, 4, 5, 6],
+  },
+  {
+    id: 'cet',
+    name: '中国英语考级标准 (中考·高考·四六级)',
+    short: '中考 / 高考 / 四六级',
+    description: '中国全国标准：初中中考、高中高考、大学英语四级(CET-4)、六级(CET-6)与考研。',
+    levels: [1, 2, 3, 4, 5, 6],
+  },
 ];
 
 export function curriculumInfo(id: Curriculum): CurriculumInfo {
   return CURRICULA.find((c) => c.id === id) ?? CURRICULA[0];
 }
 
-export function levelLabel(level: number): string {
+const ENGLISH_LEVEL_LABELS: Record<number, string> = {
+  1: 'A1 · 基础',
+  2: 'A2 · 中考',
+  3: 'B1 · 高考',
+  4: 'B2 · 四级',
+  5: 'C1 · 六级',
+  6: 'C2 · 考研',
+};
+
+export function levelLabel(level: number, courseId?: 'chinese' | 'english' | number): string {
+  if (courseId === 'english') {
+    return ENGLISH_LEVEL_LABELS[level] ?? `Level ${level}`;
+  }
   return level === 7 ? 'HSK 7–9' : `HSK ${level}`;
 }
 
@@ -62,7 +88,11 @@ export interface VocabLibrary {
 }
 
 /** Loads the bundled word list lazily (separate chunks, cached by the browser / service worker). */
-export async function loadLibrary(): Promise<VocabLibrary> {
+export async function loadLibrary(courseId: 'chinese' | 'english' = 'chinese'): Promise<VocabLibrary> {
+  if (courseId === 'english') {
+    const { ENGLISH_VOCABULARY } = await import('./englishVocab');
+    return { all: ENGLISH_VOCABULARY };
+  }
   const [words, examples, measure] = await Promise.all([
     import('./hsk/words.json').then((m) => m.default as unknown as WordRecord[]),
     import('./hsk/examples.json').then((m) => m.default as unknown as [string, string, string, string][]),
@@ -93,8 +123,13 @@ export async function loadLibrary(): Promise<VocabLibrary> {
  * syllabus: level → hand-curated starter words → corpus frequency.
  */
 export function vocabForCurriculum(lib: VocabLibrary, curriculum: Curriculum): VocabItem[] {
+  // If the library is English and curriculum isn't set, fallback to cefr
+  const activeCurriculum = (curriculum === 'cefr' || curriculum === 'cet')
+    ? curriculum
+    : (lib.all[0]?.id.startsWith('en-') ? 'cefr' : curriculum);
+
   return lib.all
-    .filter((v) => v.levels[curriculum] !== undefined)
-    .map((v) => ({ ...v, hskLevel: v.levels[curriculum]! }))
+    .filter((v) => v.levels[activeCurriculum] !== undefined || (activeCurriculum === 'cefr' && v.levels.cet !== undefined))
+    .map((v) => ({ ...v, hskLevel: (v.levels[activeCurriculum] ?? v.hskLevel) as HskLevel }))
     .sort((a, b) => a.hskLevel - b.hskLevel || Number(b.frequency === 0) - Number(a.frequency === 0) || a.frequency - b.frequency);
 }

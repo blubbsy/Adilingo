@@ -1,14 +1,14 @@
 import { createStore, get, set, type UseStore } from 'idb-keyval';
-import type { CardProgress, Curriculum, PromptKind, ThemePref, ToneKey, UserState } from '../types';
+import type { CardProgress, Curriculum, HskLevel, PromptKind, ThemePref, ToneKey, UserState } from '../types';
 import legacyIds from '../data/legacyIds.json';
 
 export const SCHEMA_VERSION = 3;
-const CURRICULUM_IDS: Curriculum[] = ['hsk3_2026', 'hsk3_2021', 'hsk2'];
+const CURRICULUM_IDS: Curriculum[] = ['hsk3_2026', 'hsk3_2021', 'hsk2', 'cefr', 'cet'];
 const THEMES: ThemePref[] = ['system', 'light', 'dark'];
 const KEY = 'adilingo:state';
 const LEGACY_KEY = 'hanzi-flow:state';
 const TONES: ToneKey[] = ['1', '2', '3', '4', '0'];
-const PROMPTS: PromptKind[] = ['hanzi', 'pinyin', 'english', 'audio', 'tone'];
+const PROMPTS: PromptKind[] = ['hanzi', 'pinyin', 'english', 'audio', 'tone', 'cloze'];
 
 export type StorageBackend = 'indexeddb' | 'localstorage' | 'memory';
 
@@ -34,6 +34,8 @@ export function createDefaultState(): UserState {
   return {
     version: SCHEMA_VERSION,
     settings: {
+      course: 'chinese',
+      uiLanguage: 'en',
       speechRate: 1,
       colorTones: true,
       dailyCap: 30,
@@ -223,10 +225,15 @@ function sanitize(s: Raw): UserState {
   const modeCounts = { ...d.stats.modeCounts };
   for (const p of PROMPTS) modeCounts[p] = num(isObj(stats.modeCounts) ? stats.modeCounts[p] : 0, 0);
 
-  const modes = ['mixed', 'hanzi', 'pinyin', 'audio', 'tone', 'english'];
+  const modes = ['mixed', 'hanzi', 'pinyin', 'audio', 'tone', 'english', 'cloze'];
+  const course = settings.course === 'english' ? 'english' : 'chinese';
+  const defaultUiLang = course === 'english' ? 'zh' : 'en';
+  const uiLanguage = settings.uiLanguage === 'zh' || settings.uiLanguage === 'en' ? settings.uiLanguage : defaultUiLang;
   return {
     version: SCHEMA_VERSION,
     settings: {
+      course,
+      uiLanguage,
       speechRate: Math.min(1.5, Math.max(0.5, num(settings.speechRate, d.settings.speechRate))),
       colorTones: typeof settings.colorTones === 'boolean' ? settings.colorTones : d.settings.colorTones,
       dailyCap: Math.min(500, Math.max(1, num(settings.dailyCap, d.settings.dailyCap))),
@@ -237,6 +244,7 @@ function sanitize(s: Raw): UserState {
       soundEffects: typeof settings.soundEffects === 'boolean' ? settings.soundEffects : d.settings.soundEffects,
     },
     progress,
+    courseProgress: isObj(s.courseProgress) ? s.courseProgress : undefined,
     stats: {
       currentStreak: num(stats.currentStreak, 0),
       longestStreak: num(stats.longestStreak, 0),
@@ -252,6 +260,20 @@ function sanitize(s: Raw): UserState {
     },
     unlockedBadges: Array.isArray(s.unlockedBadges) ? s.unlockedBadges.filter((b: unknown) => typeof b === 'string') : [],
     starredWords: Array.isArray(s.starredWords) ? s.starredWords.filter((w: unknown) => typeof w === 'string') : [],
+    starredWordsByCourse: isObj(s.starredWordsByCourse) ? s.starredWordsByCourse : undefined,
+    knownLevels: Array.isArray(s.knownLevels)
+      ? (s.knownLevels.filter((l: unknown) => typeof l === 'number' && l >= 1 && l <= 7) as HskLevel[])
+      : [],
+    knownLevelsByCourse: isObj(s.knownLevelsByCourse) ? s.knownLevelsByCourse : undefined,
+    placementResult:
+      isObj(s.placementResult) && typeof s.placementResult.date === 'string'
+        ? {
+            estimatedLevel: (num(s.placementResult.estimatedLevel, 1) as HskLevel),
+            date: s.placementResult.date,
+            score: num(s.placementResult.score, 0),
+            total: num(s.placementResult.total, 0),
+          }
+        : undefined,
   };
 }
 

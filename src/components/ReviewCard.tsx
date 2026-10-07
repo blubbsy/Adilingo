@@ -8,6 +8,8 @@ import type { SpeechApi } from '../utils/speech';
 import { AudioButton } from './AudioButton';
 import { FreePinyin } from './ToneText';
 import { playCorrect, playError } from '../utils/sound';
+import { ClozeExerciseView } from './ClozeExerciseView';
+import { buildClozeExercise } from '../exercises/types';
 
 export function formatInterval(days: number): string {
   if (days <= 0) return 'today';
@@ -306,12 +308,30 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
 
   const correctIndex = useMemo(() => options.findIndex((o) => o.id === item.id), [options, item.id]);
 
+  const clozeData = useMemo(() => {
+    if (prompt !== 'cloze') return null;
+    return buildClozeExercise(item, vocab);
+  }, [prompt, item, vocab]);
+
   // Focus typing input
   useEffect(() => {
     if (prompt === 'pinyin' && !revealed) {
       inputRef.current?.focus();
     }
   }, [prompt, revealed]);
+
+  function handleClozeAnswer(choiceIdx: number) {
+    if (revealed || !clozeData) return;
+    const ok = choiceIdx === clozeData.correctIndex;
+    setSelectedIdx(choiceIdx);
+    setIsCorrect(ok);
+    setRevealed(true);
+
+    if (settings.soundEffects) {
+      if (ok) playCorrect();
+      else playError();
+    }
+  }
 
   function handleAnswer(choiceIdx: number) {
     if (revealed) return;
@@ -382,6 +402,14 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
               handleAnswer(idx);
             }
           }
+        } else if (prompt === 'cloze' && clozeData) {
+          if (['1', '2', '3', '4'].includes(e.key)) {
+            e.preventDefault();
+            const idx = parseInt(e.key, 10) - 1;
+            if (idx >= 0 && idx < clozeData.options.length) {
+              handleClozeAnswer(idx);
+            }
+          }
         }
         if (e.key === ' ' || e.key === 'Enter') {
           if (prompt !== 'pinyin') {
@@ -403,7 +431,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
 
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
-  }, [revealed, isCorrect, prompt, options.length]);
+  }, [revealed, isCorrect, prompt, options.length, clozeData]);
 
   const suggestedGrade: Grade = isCorrect ? 3 : 1;
 
@@ -414,10 +442,18 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
         <div className="flex items-center justify-between gap-2 text-xs">
           <div className="flex items-center gap-2">
             <span className="rounded-full bg-slate-100 px-2.5 py-1 font-semibold text-slate-700 dark:bg-slate-700 dark:text-slate-300">
-              {levelLabel(item.hskLevel)}
+              {levelLabel(item.hskLevel, settings.course ?? 'chinese')}
             </span>
             <span className="rounded-full bg-rose-50 px-2.5 py-1 font-medium text-rose-700 dark:bg-rose-950/40 dark:text-rose-300">
-              {direction === 'recall' ? 'Recall (Meaning → Hanzi)' : prompt === 'audio' ? 'Listening' : prompt === 'pinyin' ? 'Pinyin Typing' : 'Recognition'}
+              {direction === 'recall'
+                ? 'Recall (Meaning → Target)'
+                : prompt === 'audio'
+                ? 'Listening'
+                : prompt === 'pinyin'
+                ? 'Pronunciation / Typing'
+                : prompt === 'cloze'
+                ? 'Cloze · Fill the Blank'
+                : 'Recognition'}
             </span>
             {dirProgress?.isLeech && (
               <span className="inline-flex items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 font-semibold text-amber-800 dark:bg-amber-950/40 dark:text-amber-300">
@@ -437,45 +473,59 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
           </a>
         </div>
 
-        {/* Central Question Prompt */}
-        <div className="my-8 text-center">
-          {prompt === 'audio' && (
-            <div className="flex flex-col items-center">
-              <button
-                type="button"
-                onClick={() => speech.speak(item.hanzi, settings.speechRate)}
-                className="flex h-24 w-24 items-center justify-center rounded-3xl bg-rose-500 text-white shadow-xl shadow-rose-500/25 transition active:scale-95 hover:bg-rose-600"
-                aria-label="Replay audio"
-              >
-                <Volume2 className="h-10 w-10 animate-pulse" />
-              </button>
-              <p className="mt-4 text-sm font-medium text-slate-500">Listen and select the meaning</p>
-            </div>
-          )}
+        {/* Central Question Prompt / Cloze Exercise */}
+        {prompt === 'cloze' && clozeData ? (
+          <div className="my-6">
+            <ClozeExerciseView
+              data={clozeData}
+              revealed={revealed}
+              selectedIdx={selectedIdx}
+              isCorrect={isCorrect}
+              speech={speech}
+              speechRate={settings.speechRate}
+              onSelect={handleClozeAnswer}
+            />
+          </div>
+        ) : (
+          <div className="my-8 text-center">
+            {prompt === 'audio' && (
+              <div className="flex flex-col items-center">
+                <button
+                  type="button"
+                  onClick={() => speech.speak(item.hanzi, settings.speechRate)}
+                  className="flex h-24 w-24 items-center justify-center rounded-3xl bg-rose-500 text-white shadow-xl shadow-rose-500/25 transition active:scale-95 hover:bg-rose-600"
+                  aria-label="Replay audio"
+                >
+                  <Volume2 className="h-10 w-10 animate-pulse" />
+                </button>
+                <p className="mt-4 text-sm font-medium text-slate-500">Listen and select the meaning</p>
+              </div>
+            )}
 
-          {prompt === 'english' && (
-            <div className="space-y-3">
-              <div className="text-2xl font-bold text-slate-900 dark:text-slate-100 sm:text-3xl">
-                {item.english.slice(0, 2).join('; ')}
+            {prompt === 'english' && (
+              <div className="space-y-3">
+                <div className="text-2xl font-bold text-slate-900 dark:text-slate-100 sm:text-3xl">
+                  {item.english.slice(0, 2).join('; ')}
+                </div>
+                <p className="text-sm text-slate-500">Select the matching character</p>
               </div>
-              <p className="text-sm text-slate-500">Select the matching character</p>
-            </div>
-          )}
+            )}
 
-          {(prompt === 'hanzi' || prompt === 'pinyin') && (
-            <div className="space-y-3">
-              <div className="font-hanzi text-6xl font-bold tracking-wide text-slate-900 dark:text-slate-100 sm:text-7xl">
-                {item.hanzi}
+            {(prompt === 'hanzi' || prompt === 'pinyin') && (
+              <div className="space-y-3">
+                <div className="font-hanzi text-6xl font-bold tracking-wide text-slate-900 dark:text-slate-100 sm:text-7xl">
+                  {item.hanzi}
+                </div>
+                <div className="flex items-center justify-center gap-2">
+                  <AudioButton speech={speech} text={item.hanzi} rate={settings.speechRate} />
+                  <span className="text-sm text-slate-500">
+                    {prompt === 'pinyin' ? 'Type the pinyin with tones' : 'What does this mean?'}
+                  </span>
+                </div>
               </div>
-              <div className="flex items-center justify-center gap-2">
-                <AudioButton speech={speech} text={item.hanzi} rate={settings.speechRate} />
-                <span className="text-sm text-slate-500">
-                  {prompt === 'pinyin' ? 'Type the pinyin with tones' : 'What does this mean?'}
-                </span>
-              </div>
-            </div>
-          )}
-        </div>
+            )}
+          </div>
+        )}
 
         {/* Multiple Choice Answers */}
         {(prompt === 'hanzi' || prompt === 'english' || prompt === 'audio') && (
