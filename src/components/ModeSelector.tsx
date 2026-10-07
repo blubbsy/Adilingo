@@ -5,15 +5,25 @@ import { allTopics } from '../utils/analytics';
 import { levelLabel } from '../data/vocab';
 import { queueSummary } from '../utils/srsEngine';
 
-export const MODES: { id: StudyMode; title: string; desc: string; icon: typeof Type }[] = [
+export const CHINESE_MODES: { id: StudyMode; title: string; desc: string; icon: typeof Type }[] = [
   { id: 'mixed', title: 'Mixed', desc: 'Interleaved cards for balanced memory', icon: Shuffle },
   { id: 'cloze', title: 'Cloze Gaps', desc: 'Fill missing words into sentences with cards', icon: Layers },
-  { id: 'hanzi', title: 'Headword', desc: 'See word → test recall and meaning', icon: BookOpen },
-  { id: 'pinyin', title: 'Phonetic', desc: 'See pronunciation → identify meaning', icon: Type },
+  { id: 'hanzi', title: 'Hanzi (Word)', desc: 'See character → test recall and meaning', icon: BookOpen },
+  { id: 'pinyin', title: 'Pinyin', desc: 'See pronunciation → identify meaning', icon: Type },
   { id: 'english', title: 'Meaning', desc: 'See meaning → recall target word', icon: Languages },
   { id: 'audio', title: 'Listening', desc: 'Hear it → identify the meaning', icon: Ear },
   { id: 'tone', title: 'Tone drill', desc: 'Tap the tone of every syllable', icon: Music },
 ];
+
+export const ENGLISH_MODES: { id: StudyMode; title: string; desc: string; icon: typeof Type }[] = [
+  { id: 'mixed', title: 'Mixed', desc: 'Interleaved cards for balanced memory', icon: Shuffle },
+  { id: 'cloze', title: 'Cloze Gaps', desc: 'Fill missing words into sentences with cards', icon: Layers },
+  { id: 'hanzi', title: 'Target Word', desc: 'See English word → identify meaning', icon: BookOpen },
+  { id: 'english', title: 'Meaning Recall', desc: 'See definition → recall English word', icon: Languages },
+  { id: 'audio', title: 'Listening', desc: 'Hear pronunciation → identify meaning', icon: Ear },
+];
+
+export const MODES = CHINESE_MODES;
 
 interface Props {
   vocab: VocabItem[];
@@ -22,7 +32,18 @@ interface Props {
 }
 
 export function ModeSelector({ vocab, state, onStart }: Props) {
-  const [mode, setMode] = useState<StudyMode>(state.settings.defaultMode);
+  const isEnglishCourse = state.settings.course === 'english';
+  const availableModes = isEnglishCourse ? ENGLISH_MODES : CHINESE_MODES;
+
+  const [mode, setMode] = useState<StudyMode>(() => {
+    const cur = state.settings.defaultMode;
+    // Fall back to mixed if the defaultMode is not available in English course (e.g. tone or pinyin)
+    if (isEnglishCourse && (cur === 'tone' || cur === 'pinyin')) {
+      return 'mixed';
+    }
+    return cur;
+  });
+
   const [levels, setLevels] = useState<HskLevel[]>([]);
   const [topics, setTopics] = useState<string[]>([]);
   const levelOptions = useMemo(() => [...new Set(vocab.map((v) => v.hskLevel))].sort((a, b) => a - b), [vocab]);
@@ -31,7 +52,12 @@ export function ModeSelector({ vocab, state, onStart }: Props) {
   const base: SessionRequest = { label: '', mode, levels, topics };
   const summary = queueSummary(vocab, state, base);
   const available = Math.min(summary.dueCount + summary.newAvailable, summary.remainingToday);
-  const label = [MODES.find((m) => m.id === mode)!.title, levels.length ? levels.map(levelLabel).join(', ') : '', topics.join(', ')]
+  const activeModeItem = availableModes.find((m) => m.id === mode) ?? availableModes[0];
+  const label = [
+    activeModeItem.title,
+    levels.length ? levels.map((l) => levelLabel(l, state.settings.course)).join(', ') : '',
+    topics.join(', '),
+  ]
     .filter(Boolean)
     .join(' · ');
 
@@ -41,8 +67,12 @@ export function ModeSelector({ vocab, state, onStart }: Props) {
     <section className="rounded-3xl border border-slate-200 bg-white p-5 sm:p-6 dark:border-slate-700 dark:bg-slate-800/70">
       <h2 className="text-lg font-semibold">Practice</h2>
 
-      <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6" role="radiogroup" aria-label="Practice mode">
-        {MODES.map((m) => {
+      <div
+        className={`mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3 ${isEnglishCourse ? 'lg:grid-cols-5' : 'lg:grid-cols-7'}`}
+        role="radiogroup"
+        aria-label="Practice mode"
+      >
+        {availableModes.map((m) => {
           const Icon = m.icon;
           const active = m.id === mode;
           return (
@@ -58,7 +88,7 @@ export function ModeSelector({ vocab, state, onStart }: Props) {
               }`}
             >
               <Icon className={`h-5 w-5 ${active ? 'text-rose-600 dark:text-rose-400' : 'text-slate-400'}`} />
-              <div className="mt-1.5 font-semibold">{m.title}</div>
+              <div className="mt-1.5 font-semibold text-sm">{m.title}</div>
               <div className="text-xs leading-snug text-slate-500 dark:text-slate-400">{m.desc}</div>
             </button>
           );
@@ -69,7 +99,7 @@ export function ModeSelector({ vocab, state, onStart }: Props) {
         <FilterRow label="Level">
           {levelOptions.map((l) => (
             <Chip key={l} active={levels.includes(l)} onClick={() => setLevels((ls) => toggle(ls, l))}>
-              {levelLabel(l)}
+              {levelLabel(l, state.settings.course)}
             </Chip>
           ))}
         </FilterRow>

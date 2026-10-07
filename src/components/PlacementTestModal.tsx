@@ -1,11 +1,12 @@
 import { useState, useMemo } from 'react';
 import { X, Award, CheckCircle2, ChevronRight, Sparkles } from 'lucide-react';
-import type { HskLevel, VocabItem } from '../types';
+import type { CourseId, HskLevel, VocabItem } from '../types';
 import { levelLabel } from '../data/vocab';
 
 interface Props {
   vocab: VocabItem[];
   isOpen: boolean;
+  course?: CourseId;
   onClose: () => void;
   onComplete: (estimatedLevel: HskLevel, markLevelsKnown: HskLevel[]) => void;
 }
@@ -19,7 +20,7 @@ interface Question {
 
 const TOTAL_QUESTIONS = 15;
 
-export function PlacementTestModal({ vocab, isOpen, onClose, onComplete }: Props) {
+export function PlacementTestModal({ vocab, isOpen, course = 'chinese', onClose, onComplete }: Props) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentLevel, setCurrentLevel] = useState<HskLevel>(2);
   const [history, setHistory] = useState<{ level: HskLevel; correct: boolean }[]>([]);
@@ -171,10 +172,12 @@ export function PlacementTestModal({ vocab, isOpen, onClose, onComplete }: Props
             {question && (
               <div className="mt-8 text-center">
                 <span className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-700 dark:text-slate-300">
-                  Testing {levelLabel(question.level)}
+                  Testing {levelLabel(question.level, course)}
                 </span>
 
-                <div className="my-6 text-6xl font-bold tracking-wide text-slate-900 dark:text-slate-100 font-hanzi">
+                <div className={`my-6 text-6xl font-bold tracking-wide text-slate-900 dark:text-slate-100 ${
+                  /[\u4e00-\u9fa5]/.test(question.item.hanzi) ? 'font-hanzi' : 'font-sans'
+                }`}>
                   {question.item.hanzi}
                 </div>
 
@@ -218,12 +221,12 @@ export function PlacementTestModal({ vocab, isOpen, onClose, onComplete }: Props
             </div>
 
             <h3 className="mt-4 text-2xl font-bold text-slate-900 dark:text-slate-100">
-              Recommended: {levelLabel(estimatedLevel)}
+              Recommended: {levelLabel(estimatedLevel, course)}
             </h3>
 
             <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
               Based on your adaptive responses, you have demonstrated solid knowledge of vocabulary up to{' '}
-              {estimatedLevel > 1 ? levelLabel(estimatedLevel - 1) : 'beginner'} level.
+              {estimatedLevel > 1 ? levelLabel(estimatedLevel - 1, course) : 'beginner'} level.
             </p>
 
             {priorLevelsToMark.length > 0 && (
@@ -232,7 +235,7 @@ export function PlacementTestModal({ vocab, isOpen, onClose, onComplete }: Props
                   <CheckCircle2 className="h-5 w-5" /> Skip beginner grind
                 </div>
                 <p className="mt-1 text-xs text-emerald-700 dark:text-emerald-400">
-                  Mark all {priorLevelsToMark.map(levelLabel).join(', ')} words as already known so your daily queue starts directly at {levelLabel(estimatedLevel)}.
+                  Mark all {priorLevelsToMark.map((l) => levelLabel(l, course)).join(', ')} words as already known so your daily queue starts directly at {levelLabel(estimatedLevel, course)}.
                 </p>
               </div>
             )}
@@ -243,7 +246,7 @@ export function PlacementTestModal({ vocab, isOpen, onClose, onComplete }: Props
                   onClick={() => handleApplyPlacement(true)}
                   className="flex w-full items-center justify-center gap-2 rounded-xl bg-rose-600 px-5 py-3 font-semibold text-white shadow-lg shadow-rose-600/20 hover:bg-rose-700 transition"
                 >
-                  Mark {priorLevelsToMark.map(levelLabel).join(', ')} as Known & Start
+                  Mark {priorLevelsToMark.map((l) => levelLabel(l, course)).join(', ')} as Known & Start
                   <ChevronRight className="h-4 w-4" />
                 </button>
               )}

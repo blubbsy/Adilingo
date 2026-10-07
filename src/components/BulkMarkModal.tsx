@@ -1,5 +1,5 @@
 import { X, Check } from 'lucide-react';
-import type { HskLevel, UserState, VocabItem } from '../types';
+import type { CourseId, HskLevel, UserState, VocabItem } from '../types';
 import { levelLabel } from '../data/vocab';
 import { bulkMarkLevelKnown } from '../utils/srsEngine';
 
@@ -7,13 +7,15 @@ interface Props {
   vocab: VocabItem[];
   state: UserState;
   isOpen: boolean;
+  course?: CourseId;
   onClose: () => void;
   onUpdateState: (newState: UserState) => void;
 }
 
-export function BulkMarkModal({ vocab, state, isOpen, onClose, onUpdateState }: Props) {
+export function BulkMarkModal({ vocab, state, isOpen, course = state.settings.course ?? 'chinese', onClose, onUpdateState }: Props) {
   if (!isOpen) return null;
 
+  const isEnglish = course === 'english';
   const levels: HskLevel[] = [1, 2, 3, 4, 5, 6];
 
   function isLevelFullyKnown(lvl: HskLevel): boolean {
@@ -40,10 +42,12 @@ export function BulkMarkModal({ vocab, state, isOpen, onClose, onUpdateState }: 
         </button>
 
         <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">
-          I already know this
+          {isEnglish ? 'Mark Known Levels' : 'I already know this'}
         </h3>
         <p className="mt-1 text-sm text-slate-500">
-          Already study Chinese? Mark completed levels as known to skip beginner vocabulary and immediately schedule intermediate words.
+          {isEnglish
+            ? 'Already proficient in English? Mark completed CEFR levels as known to skip beginner vocabulary and immediately schedule intermediate words.'
+            : 'Already study Chinese? Mark completed levels as known to skip beginner vocabulary and immediately schedule intermediate words.'}
         </p>
 
         <div className="mt-6 space-y-2.5">
@@ -59,7 +63,7 @@ export function BulkMarkModal({ vocab, state, isOpen, onClose, onUpdateState }: 
               >
                 <div>
                   <div className="font-semibold text-slate-900 dark:text-slate-100">
-                    {levelLabel(lvl)}
+                    {levelLabel(lvl, course)}
                   </div>
                   <div className="text-xs text-slate-500">
                     {count.toLocaleString('en')} words

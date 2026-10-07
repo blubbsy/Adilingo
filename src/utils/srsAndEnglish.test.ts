@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { checkEnglish, stem, cleanEnglish, normEnglish, maxTypoTolerance } from './pinyinHelper';
-import { buildSession, applyGrade, recordReview, newDirectionProgress, promptFor, bulkMarkLevelKnown, calculateTrueRetention } from './srsEngine';
+import { buildSession, applyGrade, recordReview, newDirectionProgress, promptFor, promptForDirection, bulkMarkLevelKnown, calculateTrueRetention } from './srsEngine';
 import type { SessionRequest, UserState, VocabItem } from '../types';
 
 describe('English stemmer and normalization', () => {
@@ -304,5 +304,55 @@ describe('SRS Overdue Backlog Throttling & Grading', () => {
     const reverted = bulkMarkLevelKnown(updated, dummyVocab, 1, false);
     expect(reverted.progress['1']).toBeUndefined();
     expect(reverted.knownLevels).not.toContain(1);
+  });
+
+  it('promptForDirection strictly avoids pinyin in English course even at high stability', () => {
+    const englishItem: VocabItem = {
+      id: 'en-apple',
+      hanzi: 'apple',
+      pinyin: '/ˈæpl/',
+      pinyinNumbered: '',
+      english: ['苹果'],
+      hskLevel: 1,
+      levels: { cefr: 1 },
+      frequency: 1,
+      topics: ['Food'],
+      exampleSentence: {
+        hanzi: 'She eats an apple.',
+        pinyin: '',
+        english: '她吃一个苹果。',
+      },
+    };
+
+    // Chinese item at stability 10 returns pinyin
+    const chineseItem: VocabItem = {
+      id: 'zh-apple',
+      hanzi: '苹果',
+      pinyin: 'píng guǒ',
+      pinyinNumbered: 'ping2 guo3',
+      english: ['apple'],
+      hskLevel: 1,
+      levels: { hsk3_2026: 1 },
+      frequency: 1,
+      topics: ['Food'],
+    };
+
+    const prog10 = { ...newDirectionProgress(new Date()), stability: 10 };
+
+    // In Chinese, stability 10 gives pinyin drill
+    const zhPrompt = promptForDirection('recognition', prog10, undefined, chineseItem, 'chinese');
+    expect(zhPrompt).toBe('pinyin');
+
+    // In English, stability 10 gives audio drill (never pinyin)
+    const enPrompt = promptForDirection('recognition', prog10, undefined, englishItem, 'english');
+    expect(enPrompt).toBe('audio');
+    expect(enPrompt).not.toBe('pinyin');
+
+    // In English, low stability gives headword or cloze
+    const prog1 = { ...newDirectionProgress(new Date()), stability: 1 };
+    expect(promptForDirection('recognition', prog1, undefined, englishItem, 'english')).toBe('hanzi');
+
+    const prog5 = { ...newDirectionProgress(new Date()), stability: 5 };
+    expect(promptForDirection('recognition', prog5, undefined, englishItem, 'english')).toBe('cloze');
   });
 });

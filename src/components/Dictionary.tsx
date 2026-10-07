@@ -215,7 +215,7 @@ export function Dictionary({ vocab, state, speech, onStart, onToggleStar }: Prop
                     <span className="block truncate text-sm text-slate-600 dark:text-slate-300">{item.english.slice(0, 3).join('; ')}</span>
                   </span>
                   <span className="shrink-0 rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-600 dark:bg-slate-700 dark:text-slate-300">
-                    {levelLabel(item.hskLevel)}
+                    {levelLabel(item.hskLevel, state.settings.course)}
                   </span>
                 </button>
                 <button
@@ -328,12 +328,19 @@ function WordDetail({
         ))}
       </ol>
       <dl className="grid grid-cols-2 gap-2 text-sm">
-        {CURRICULA.map((c) => (
-          <div key={c.id} className="rounded-xl bg-slate-50 p-2.5 dark:bg-slate-900/60">
-            <dt className="text-[11px] uppercase tracking-wide text-slate-500">{c.short}</dt>
-            <dd className="font-medium">{item.levels[c.id as Curriculum] ? levelLabel(item.levels[c.id as Curriculum]!) : '—'}</dd>
+        {(state.settings.course ?? 'chinese') === 'chinese' ? (
+          CURRICULA.map((c) => (
+            <div key={c.id} className="rounded-xl bg-slate-50 p-2.5 dark:bg-slate-900/60">
+              <dt className="text-[11px] uppercase tracking-wide text-slate-500">{c.short}</dt>
+              <dd className="font-medium">{item.levels[c.id as Curriculum] ? levelLabel(item.levels[c.id as Curriculum]!, 'chinese') : '—'}</dd>
+            </div>
+          ))
+        ) : (
+          <div className="rounded-xl bg-slate-50 p-2.5 dark:bg-slate-900/60">
+            <dt className="text-[11px] uppercase tracking-wide text-slate-500">CEFR Standard</dt>
+            <dd className="font-medium">{levelLabel(item.hskLevel, 'english')}</dd>
           </div>
-        ))}
+        )}
         {item.radical && (
           <div className="rounded-xl bg-slate-50 p-2.5 dark:bg-slate-900/60">
             <dt className="text-[11px] uppercase tracking-wide text-slate-500">Radical</dt>
@@ -359,8 +366,10 @@ function WordDetail({
         <div className="rounded-xl border border-slate-200 p-3 dark:border-slate-700">
           <div className="flex items-start justify-between gap-2">
             <p
-              className="font-hanzi text-lg cursor-pointer hover:opacity-80 transition"
-              lang="zh-CN"
+              className={`cursor-pointer hover:opacity-80 transition ${
+                /[\u4e00-\u9fa5]/.test(ex.hanzi) ? 'font-hanzi text-lg' : 'font-sans text-base font-semibold'
+              }`}
+              lang={/[\u4e00-\u9fa5]/.test(ex.hanzi) ? 'zh-CN' : 'en'}
               onClick={() => speech.speak(ex.hanzi, state.settings.speechRate)}
               title="Click to hear example sentence"
             >
@@ -368,7 +377,7 @@ function WordDetail({
             </p>
             <AudioButton speech={speech} text={ex.hanzi} rate={state.settings.speechRate} />
           </div>
-          <FreePinyin text={ex.pinyin} color={color} className="block text-sm" />
+          {ex.pinyin && <FreePinyin text={ex.pinyin} color={color} className="block text-sm" />}
           <p className="text-sm text-slate-600 dark:text-slate-300">{ex.english}</p>
           {ex.source && (
             <p className="mt-1 text-[11px] text-slate-400">

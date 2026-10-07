@@ -33,16 +33,17 @@ export function Insights({ vocab, state, onStart }: Props) {
   const days = activity(state, 14);
   const leechList = leeches(state, vocab);
   const failures = frequentFailures(state, vocab);
+  const isEnglish = state.settings.course === 'english';
   const color = state.settings.colorTones;
 
   return (
     <div className="space-y-6">
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
         <section className={card}>
-          <h2 className="font-semibold">Accuracy by HSK level</h2>
+          <h2 className="font-semibold">{isEnglish ? 'Accuracy by CEFR level' : 'Accuracy by HSK level'}</h2>
           <div className="mt-4 space-y-3">
             {levels.map((l) => (
-              <BarRow key={l.level} label={levelLabel(l.level)} ratio={l.ratio} extra={`${l.learned}/${l.words} learned`} />
+              <BarRow key={l.level} label={levelLabel(l.level, state.settings.course)} ratio={l.ratio} extra={`${l.learned}/${l.words} learned`} />
             ))}
           </div>
         </section>
@@ -53,21 +54,23 @@ export function Insights({ vocab, state, onStart }: Props) {
         </section>
       </div>
 
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-        <section className={card}>
-          <h2 className="font-semibold">Tone accuracy</h2>
-          <div className="mt-4 space-y-3">
-            {tones.map((t) => (
-              <BarRow key={t.tone} label={TONE_NAMES[t.tone]} ratio={t.ratio} barClass={TONE_BG_CLASS[t.tone]} />
-            ))}
-          </div>
-        </section>
-        <section className={card}>
-          <h2 className="font-semibold">Tone confusion</h2>
-          <p className="text-xs text-slate-500">Rows: correct tone · columns: what you answered</p>
-          <ConfusionMatrix matrix={state.stats.toneConfusion} />
-        </section>
-      </div>
+      {!isEnglish && (
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+          <section className={card}>
+            <h2 className="font-semibold">Tone accuracy</h2>
+            <div className="mt-4 space-y-3">
+              {tones.map((t) => (
+                <BarRow key={t.tone} label={TONE_NAMES[t.tone]} ratio={t.ratio} barClass={TONE_BG_CLASS[t.tone]} />
+              ))}
+            </div>
+          </section>
+          <section className={card}>
+            <h2 className="font-semibold">Tone confusion</h2>
+            <p className="text-xs text-slate-500">Rows: correct tone · columns: what you answered</p>
+            <ConfusionMatrix matrix={state.stats.toneConfusion} />
+          </section>
+        </div>
+      )}
 
       <section className={card}>
         <h2 className="font-semibold">Topics — weakest first</h2>

@@ -390,6 +390,7 @@ export function Dashboard({
       <PlacementTestModal
         vocab={vocab}
         isOpen={showPlacementTest}
+        course={state.settings.course}
         onClose={() => setShowPlacementTest(false)}
         onComplete={handlePlacementComplete}
       />
@@ -398,6 +399,7 @@ export function Dashboard({
         vocab={vocab}
         state={state}
         isOpen={showBulkMark}
+        course={state.settings.course}
         onClose={() => setShowBulkMark(false)}
         onUpdateState={onUpdateState}
       />

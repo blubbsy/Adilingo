@@ -498,7 +498,9 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                 >
                   <Volume2 className="h-10 w-10 animate-pulse" />
                 </button>
-                <p className="mt-4 text-sm font-medium text-slate-500">Listen and select the meaning</p>
+                <p className="mt-4 text-sm font-medium text-slate-500">
+                  {settings.course === 'english' ? 'Listen and select the definition' : 'Listen and select the meaning'}
+                </p>
               </div>
             )}
 
@@ -507,13 +509,15 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                 <div className="text-2xl font-bold text-slate-900 dark:text-slate-100 sm:text-3xl">
                   {item.english.slice(0, 2).join('; ')}
                 </div>
-                <p className="text-sm text-slate-500">Select the matching character</p>
+                <p className="text-sm text-slate-500">
+                  {settings.course === 'english' ? 'Select the matching English word' : 'Select the matching character'}
+                </p>
               </div>
             )}
 
             {(prompt === 'hanzi' || prompt === 'pinyin') && (
               <div className="space-y-3">
-                <div className="font-hanzi text-6xl font-bold tracking-wide text-slate-900 dark:text-slate-100 sm:text-7xl">
+                <div className={`${/[\u4e00-\u9fa5]/.test(item.hanzi) ? 'font-hanzi' : 'font-sans'} text-6xl font-bold tracking-wide text-slate-900 dark:text-slate-100 sm:text-7xl`}>
                   {item.hanzi}
                 </div>
                 <div className="flex items-center justify-center gap-2">
@@ -553,7 +557,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                   onClick={() => handleAnswer(idx)}
                   className={`flex items-center justify-between rounded-2xl border-2 px-4 py-3.5 text-left text-sm transition ${btnStyle}`}
                 >
-                  <span className={prompt === 'english' ? 'font-hanzi text-lg' : ''}>{label}</span>
+                  <span className={prompt === 'english' && /[\u4e00-\u9fa5]/.test(label) ? 'font-hanzi text-lg' : ''}>{label}</span>
                   <kbd className="ml-2 rounded bg-slate-100 px-1.5 py-0.5 text-[11px] font-semibold text-slate-500 dark:bg-slate-700 dark:text-slate-400">
                     {idx + 1}
                   </kbd>
@@ -658,7 +662,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
             )}
             <div className="rounded-2xl bg-slate-50 p-4 dark:bg-slate-800/50">
               <div className="flex flex-wrap items-baseline gap-3">
-                <span className="font-hanzi text-3xl font-bold text-slate-900 dark:text-slate-100">
+                <span className={`${/[\u4e00-\u9fa5]/.test(item.hanzi) ? 'font-hanzi' : 'font-sans'} text-3xl font-bold text-slate-900 dark:text-slate-100`}>
                   {item.hanzi}
                 </span>
                 <span className="text-lg font-medium text-slate-600 dark:text-slate-300">

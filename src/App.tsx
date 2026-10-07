@@ -201,10 +201,20 @@ export default function App() {
     };
   }, [activeCourse]);
 
-  // Course switching logic
+  // Course switching logic with route sanitization
   const switchCourse = useCallback(
     (newCourse: CourseId) => {
       if (newCourse === activeCourse) return;
+
+      // Sanitize route to prevent route bleed between courses
+      if (newCourse === 'chinese' && (view === 'grammar' || view === 'irregular')) {
+        if (window.location.hash !== '#/learn') window.location.hash = '/learn';
+        setView('learn');
+      } else if (newCourse === 'english' && view === 'learn') {
+        if (window.location.hash !== '#/grammar') window.location.hash = '/grammar';
+        setView('grammar');
+      }
+
       update((s) => {
         const curCourse = s.settings.course ?? 'chinese';
         const courseProgress = {
@@ -243,7 +253,7 @@ export default function App() {
         };
       });
     },
-    [activeCourse, update],
+    [activeCourse, update, view],
   );
 
   const curriculum = state.settings.curriculum;
@@ -370,8 +380,32 @@ export default function App() {
           />
         ) : null;
       case 'grammar':
+        if (activeCourse === 'chinese') {
+          return (
+            <GrammarHub
+              vocab={vocab}
+              progress={state.progress}
+              colorTones={state.settings.colorTones}
+              speech={speech}
+              speechRate={state.settings.speechRate}
+              onStartVocabSession={startSession}
+              curriculum={curriculum}
+            />
+          );
+        }
         return <EnglishGrammarGuide speech={speech} onOpenIrregularVerbs={() => navigate('irregular')} />;
       case 'irregular':
+        if (activeCourse === 'chinese') {
+          return (
+            <Dashboard
+              vocab={vocab}
+              state={state}
+              onStart={startSession}
+              onNavigate={navigate}
+              onUpdateState={(next) => replace(next)}
+            />
+          );
+        }
         return <IrregularVerbsTrainer speech={speech} onBack={() => navigate('home')} />;
       case 'learn':
         if (activeCourse === 'english') {
@@ -442,16 +476,15 @@ export default function App() {
     ];
   }, [activeCourse, lang]);
 
-  // Mobile Bottom Navigation items
+  // Mobile Bottom Navigation items (5 focused tabs for comfortable thumb reach)
   const mobileNavItems = useMemo(() => {
     if (activeCourse === 'english') {
       return [
         { id: 'home' as NavView, short: lang === 'zh' ? '首页' : 'Home', icon: Home },
-        { id: 'grammar' as NavView, short: lang === 'zh' ? '语法百科' : 'Grammar', icon: BookOpen },
-        { id: 'irregular' as NavView, short: lang === 'zh' ? '动词特训' : 'Verbs', icon: Zap },
+        { id: 'grammar' as NavView, short: lang === 'zh' ? '语法' : 'Grammar', icon: BookOpen },
+        { id: 'irregular' as NavView, short: lang === 'zh' ? '动词' : 'Verbs', icon: Zap },
         { id: 'topics' as NavView, short: lang === 'zh' ? '主题' : 'Topics', icon: Layers },
         { id: 'dictionary' as NavView, short: lang === 'zh' ? '词典' : 'Words', icon: BookMarked },
-        { id: 'insights' as NavView, short: lang === 'zh' ? '统计' : 'Stats', icon: BarChart3 },
       ];
     }
     return [
@@ -460,7 +493,6 @@ export default function App() {
       { id: 'topics' as NavView, short: lang === 'zh' ? '主题' : 'Topics', icon: Layers },
       { id: 'dictionary' as NavView, short: lang === 'zh' ? '词典' : 'Words', icon: BookMarked },
       { id: 'insights' as NavView, short: lang === 'zh' ? '统计' : 'Stats', icon: BarChart3 },
-      { id: 'achievements' as NavView, short: lang === 'zh' ? '勋章' : 'Badges', icon: Award },
     ];
   }, [activeCourse, lang]);
 
@@ -659,7 +691,7 @@ export default function App() {
       {/* Phones: bottom tab bar (hidden while studying to keep the card and grade buttons in reach) */}
       {!studying && (
         <nav
-          className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-6 border-t border-slate-200 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden dark:border-slate-800 dark:bg-slate-900/95"
+          className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-5 border-t border-slate-200 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden dark:border-slate-800 dark:bg-slate-900/95"
           aria-label="Main"
         >
           {mobileNavItems.map((n) => {

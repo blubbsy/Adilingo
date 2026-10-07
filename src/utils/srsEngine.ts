@@ -2,6 +2,7 @@ import { fsrs, generatorParameters, createEmptyCard, type Card as FSRSCard } fro
 import type {
   CardDirection,
   CardProgress,
+  CourseId,
   DirectionProgress,
   Grade,
   HistoryEntry,
@@ -294,11 +295,25 @@ export function promptForDirection(
   p: DirectionProgress | undefined,
   overrideMode?: PromptKind,
   item?: VocabItem,
+  course?: CourseId,
 ): PromptKind {
   if (overrideMode && overrideMode !== 'english' && overrideMode !== 'hanzi') {
     return overrideMode;
   }
+  const isEnglishCourse = course === 'english' || (item && !/[\u4e00-\u9fa5]/.test(item.hanzi) && !item.pinyinNumbered);
   const stability = p?.stability ?? 0;
+
+  if (isEnglishCourse) {
+    if (direction === 'recognition') {
+      if (stability < 3) return 'hanzi'; // Recognition: see English word -> pick Chinese definition
+      if (item?.exampleSentence && stability >= 3 && stability < 8) return 'cloze'; // Cloze gap fill in sentence
+      return 'audio'; // Audio listening drill: hear English word -> pick definition
+    } else {
+      return 'english'; // Recall: see definition -> recall English word
+    }
+  }
+
+  // Chinese course progression
   if (direction === 'recognition') {
     if (stability < 3) return 'hanzi';
     if (item?.exampleSentence && stability >= 3 && stability < 7) return 'cloze';
@@ -422,7 +437,7 @@ export function buildSession(vocab: VocabItem[], state: UserState, req: SessionR
   return picked.map((o) => {
     const prompt = req.mode !== 'mixed'
       ? (req.mode as PromptKind)
-      : promptForDirection(o.direction, o.p, undefined, o.item);
+      : promptForDirection(o.direction, o.p, undefined, o.item, state.settings.course);
 
     return {
       item: o.item,

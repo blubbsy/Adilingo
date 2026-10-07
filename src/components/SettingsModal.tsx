@@ -6,7 +6,7 @@ import { SPEECH_RATES, type SpeechApi } from '../utils/speech';
 import { createDefaultState, exportBackup, parseBackup, type StorageBackend } from '../utils/storage';
 import { createEmptyGrammarProgress, exportableGrammarProgress, importGrammarProgress, saveGrammarProgress } from '../grammar';
 import { AudioButton } from './AudioButton';
-import { MODES } from './ModeSelector';
+import { CHINESE_MODES, ENGLISH_MODES } from './ModeSelector';
 import { getStoredSyncKey } from '../utils/syncService';
 
 interface Props {
@@ -196,7 +196,12 @@ export function SettingsModal({
                 {r}×
               </button>
             ))}
-            <AudioButton speech={speech} text="你好，欢迎！" rate={s.speechRate} label="Test" />
+            <AudioButton
+              speech={speech}
+              text={(s.course ?? 'chinese') === 'english' ? 'Hello, welcome to English training!' : '你好，欢迎！'}
+              rate={s.speechRate}
+              label="Test"
+            />
           </div>
           <label className="mt-3 flex items-center justify-between gap-4">
             <span>Sound effects & haptics</span>
@@ -205,7 +210,7 @@ export function SettingsModal({
           <p className="mt-2 text-xs text-slate-500">
             {speech.voice
               ? `Local voice: ${speech.voice.name} (${speech.voice.lang})`
-              : 'Audio source: Studio native Mandarin audio stream (crystal-clear pronunciation)'}
+              : `Audio source: Studio native ${(s.course ?? 'chinese') === 'english' ? 'English' : 'Mandarin'} audio stream (crystal-clear pronunciation)`}
           </p>
         </Group>
 
@@ -250,7 +255,7 @@ export function SettingsModal({
               onChange={(e) => set({ defaultMode: e.target.value as StudyMode })}
               className="rounded-lg border border-slate-300 bg-white px-2 py-1.5 dark:border-slate-600 dark:bg-slate-900"
             >
-              {MODES.map((m) => (
+              {((s.course ?? 'chinese') === 'english' ? ENGLISH_MODES : CHINESE_MODES).map((m) => (
                 <option key={m.id} value={m.id}>
                   {m.title}
                 </option>

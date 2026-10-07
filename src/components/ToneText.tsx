@@ -34,6 +34,14 @@ export function PinyinText({ item, color, className = '' }: { item: VocabItem; c
 
 /** Characters coloured by their syllable's tone (when char count matches syllable count). */
 export function HanziText({ item, color, className = '' }: { item: VocabItem; color: boolean; className?: string }) {
+  const isChinese = /[\u4e00-\u9fa5]/.test(item.hanzi);
+  if (!isChinese) {
+    return (
+      <span lang="en" className={`font-sans tracking-normal ${className}`}>
+        {item.hanzi}
+      </span>
+    );
+  }
   const chars = [...item.hanzi];
   const tones = parseNumbered(item.pinyinNumbered).map((s) => s.tone);
   const aligned = color && chars.length === tones.length;
