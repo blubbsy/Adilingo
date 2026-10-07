@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Award, BarChart3, BookMarked, BookOpenCheck, Flame, Home, Layers, Loader2, Settings as SettingsIcon } from 'lucide-react';
+import { Award, BarChart3, BookMarked, BookOpenCheck, Flame, Home, Layers, Loader2, Settings as SettingsIcon, Zap } from 'lucide-react';
 import type { Grade, SessionCard, SessionRequest, Settings, UserState } from './types';
 import { useUserState } from './hooks/useUserState';
 import { useSpeech } from './utils/speech';
@@ -13,8 +13,10 @@ import { Achievements } from './components/Achievements';
 import { Dictionary } from './components/Dictionary';
 import { TopicTraining } from './components/TopicTraining';
 import { SettingsModal } from './components/SettingsModal';
+import { SyncModal } from './components/SyncModal';
 import type { CardResult } from './components/ReviewCard';
 import { GrammarHub } from './grammar';
+import { getStoredSyncKey, setStoredSyncKey, syncBidirectional, pushVault } from './utils/syncService';
 
 type View = 'home' | 'learn' | 'topics' | 'dictionary' | 'study' | 'insights' | 'achievements';
 type NavView = Exclude<View, 'study'>;
@@ -59,9 +61,95 @@ export default function App() {
   const [view, setView] = useState<View>(viewFromHash);
   const [session, setSession] = useState<{ request: SessionRequest; cards: SessionCard[]; key: number; returnTo: NavView } | null>(null);
   const [showSettings, setShowSettings] = useState(false);
+  const [showSyncModal, setShowSyncModal] = useState(false);
   const [toasts, setToasts] = useState<Badge[]>([]);
   const undoSnapshot = useRef<UserState | null>(null);
+  const syncPushTimer = useRef<number>();
   useTheme(state.settings.theme);
+
+  // Auto-detect pairing key from URL (e.g. from QR scan #/sync-pair?key=... or ?syncKey=...)
+  useEffect(() => {
+    const checkPairingParam = async () => {
+      let pairKey: string | null = null;
+      const hash = window.location.hash;
+      if (hash.includes('sync-pair') || hash.includes('key=')) {
+        const m = hash.match(/[?&]key=([^&]+)/);
+        if (m) pairKey = decodeURIComponent(m[1]);
+      }
+      if (!pairKey) {
+        const sp = new URLSearchParams(window.location.search);
+        pairKey = sp.get('syncKey') || sp.get('key');
+      }
+
+      if (pairKey) {
+        try {
+          const res = await syncBidirectional(pairKey, state);
+          setStoredSyncKey(pairKey);
+          replace(res.mergedState);
+          allowSave();
+          window.history.replaceState(null, '', window.location.pathname + '#/home');
+          setView('home');
+          setToasts((t) => [
+            ...t,
+            {
+              id: `sync-paired-${Date.now()}`,
+              title: 'Device Linked & Synced!',
+              description: 'All flashcards and progress synchronized.',
+              emoji: '⚡',
+              category: 'special',
+              tier: 'gold',
+              progress: () => 1,
+            },
+          ]);
+        } catch (e) {
+          console.warn('Auto-pair failed:', e);
+        }
+      }
+    };
+    checkPairingParam();
+  }, [state, replace, allowSave]);
+
+  // Background sync on app mount & tab visibility change
+  useEffect(() => {
+    if (!ready) return;
+    const runBackgroundSync = () => {
+      const key = getStoredSyncKey();
+      if (!key) return;
+      syncBidirectional(key, state)
+        .then((res) => {
+          if (res.updated) {
+            replace(res.mergedState);
+            allowSave();
+          }
+        })
+        .catch(() => {});
+    };
+
+    runBackgroundSync();
+
+    const onVisible = () => {
+      if (document.visibilityState === 'visible') {
+        runBackgroundSync();
+      }
+    };
+
+    document.addEventListener('visibilitychange', onVisible);
+    return () => document.removeEventListener('visibilitychange', onVisible);
+  }, [ready]);
+
+  // Auto-push reviews to cloud vault
+  useEffect(() => {
+    if (!ready) return;
+    const key = getStoredSyncKey();
+    if (!key) return;
+
+    window.clearTimeout(syncPushTimer.current);
+    syncPushTimer.current = window.setTimeout(() => {
+      pushVault(key, state).catch(() => {});
+    }, 2000);
+
+    return () => window.clearTimeout(syncPushTimer.current);
+  }, [state, ready]);
 
   useEffect(() => {
     loadLibrary()
@@ -268,6 +356,17 @@ export default function App() {
             <span className="text-sm font-semibold">{streak}-day streak</span>
           </div>
           <button
+            onClick={() => setShowSyncModal(true)}
+            className="flex w-full items-center justify-between rounded-xl px-3 py-2 text-[14px] font-medium text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"
+          >
+            <span className="flex items-center gap-3">
+              <Zap className="h-5 w-5 text-rose-500" aria-hidden /> Cloud Sync
+            </span>
+            {getStoredSyncKey() && (
+              <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" title="Sync active" />
+            )}
+          </button>
+          <button
             onClick={() => setShowSettings(true)}
             className="flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-[15px] font-medium text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"
           >
@@ -290,6 +389,14 @@ export default function App() {
             <span className="ml-auto inline-flex items-center gap-1 text-sm font-semibold tabular-nums text-orange-500 md:ml-0" title={`${streak}-day streak`}>
               <Flame className="h-5 w-5" aria-hidden /> {streak}
             </span>
+            <button
+              onClick={() => setShowSyncModal(true)}
+              className="rounded-lg p-2 text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"
+              aria-label="Cloud sync"
+              title="Cloud sync"
+            >
+              <Zap className="h-5 w-5 text-rose-500" />
+            </button>
             <button onClick={() => setShowSettings(true)} className="rounded-lg p-2 text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800" aria-label="Settings">
               <SettingsIcon className="h-5 w-5" />
             </button>
@@ -357,6 +464,22 @@ export default function App() {
             allowSave();
           }}
           onClose={() => setShowSettings(false)}
+          onOpenSyncModal={() => {
+            setShowSettings(false);
+            setShowSyncModal(true);
+          }}
+        />
+      )}
+
+      {showSyncModal && (
+        <SyncModal
+          state={state}
+          isOpen={showSyncModal}
+          onClose={() => setShowSyncModal(false)}
+          onStateMerged={(mergedState) => {
+            replace(mergedState);
+            allowSave();
+          }}
         />
       )}
 
