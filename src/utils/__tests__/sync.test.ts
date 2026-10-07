@@ -1,7 +1,27 @@
 import { describe, expect, it } from 'vitest';
 import { generateSyncKey, deriveRoomId, encryptData, decryptData, normalizeSyncKey } from '../syncCrypto';
 import { mergeUserStates, mergeGrammar } from '../syncMerge';
+import {
+  getOrCreateDeviceId,
+  getDeviceName,
+  setDeviceName,
+  DeviceRevokedError,
+  type SyncDevice,
+} from '../syncService';
 import type { UserState } from '../../types';
+
+const mockStorage = new Map<string, string>();
+const localStorageMock = {
+  getItem: (key: string) => mockStorage.get(key) ?? null,
+  setItem: (key: string, value: string) => mockStorage.set(key, value),
+  removeItem: (key: string) => mockStorage.delete(key),
+  clear: () => mockStorage.clear(),
+  get length() {
+    return mockStorage.size;
+  },
+  key: (index: number) => Array.from(mockStorage.keys())[index] ?? null,
+};
+globalThis.localStorage = localStorageMock as unknown as Storage;
 
 function createDummyState(overrides: Partial<UserState> = {}): UserState {
   return {
@@ -206,5 +226,68 @@ describe('Sync Crypto & Merging', () => {
     expect(merged?.points['g1'].attempts).toBe(6);
     expect(merged?.points['g2']).toBeDefined();
     expect(merged?.paths['p1'].completedSteps.sort()).toEqual(['s1', 's2', 's3']);
+  });
+
+  it('manages device identities and names cleanly', () => {
+    localStorage.clear();
+    const id1 = getOrCreateDeviceId();
+    expect(id1).toMatch(/^dev_/);
+
+    // Subsequent calls return the same ID
+    const id2 = getOrCreateDeviceId();
+    expect(id2).toBe(id1);
+
+    // Naming
+    const defaultName = getDeviceName();
+    expect(defaultName).toBeTruthy();
+
+    setDeviceName('My Work Laptop');
+    expect(getDeviceName()).toBe('My Work Laptop');
+
+    setDeviceName('');
+    expect(getDeviceName()).toBe(defaultName);
+  });
+
+  it('properly encrypts and decrypts payloads containing device lists', async () => {
+    const key = generateSyncKey();
+    const myId = getOrCreateDeviceId();
+    const devices: Record<string, SyncDevice> = {
+      [myId]: {
+        id: myId,
+        name: 'MacBook Pro',
+        type: 'desktop',
+        registeredAt: '2026-10-07T12:00:00Z',
+        lastActiveAt: '2026-10-07T12:05:00Z',
+        revoked: false,
+      },
+      dev_remote_iphone: {
+        id: 'dev_remote_iphone',
+        name: 'iPhone 15',
+        type: 'mobile',
+        registeredAt: '2026-10-07T12:02:00Z',
+        lastActiveAt: '2026-10-07T12:04:00Z',
+        revoked: false,
+      },
+    };
+
+    const payload = {
+      state: createDummyState(),
+      version: 1,
+      updatedAt: '2026-10-07T12:05:00Z',
+      devices,
+    };
+
+    const { ciphertext, iv } = await encryptData(key, payload);
+    const decrypted = await decryptData<typeof payload>(key, ciphertext, iv);
+
+    expect(decrypted.devices).toBeDefined();
+    expect(decrypted.devices?.[myId].name).toBe('MacBook Pro');
+    expect(decrypted.devices?.dev_remote_iphone.type).toBe('mobile');
+  });
+
+  it('identifies revoked devices and throws DeviceRevokedError', () => {
+    const err = new DeviceRevokedError();
+    expect(err.name).toBe('DeviceRevokedError');
+    expect(err.message).toContain('unlinked');
   });
 });

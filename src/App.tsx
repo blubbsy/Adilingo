@@ -16,7 +16,13 @@ import { SettingsModal } from './components/SettingsModal';
 import { SyncModal } from './components/SyncModal';
 import type { CardResult } from './components/ReviewCard';
 import { GrammarHub } from './grammar';
-import { getStoredSyncKey, setStoredSyncKey, syncBidirectional, pushVault } from './utils/syncService';
+import {
+  getStoredSyncKey,
+  setStoredSyncKey,
+  syncBidirectional,
+  pushVault,
+  DeviceRevokedError,
+} from './utils/syncService';
 
 type View = 'home' | 'learn' | 'topics' | 'dictionary' | 'study' | 'insights' | 'achievements';
 type NavView = Exclude<View, 'study'>;
@@ -122,7 +128,22 @@ export default function App() {
             allowSave();
           }
         })
-        .catch(() => {});
+        .catch((err) => {
+          if (err instanceof DeviceRevokedError || err?.name === 'DeviceRevokedError') {
+            setToasts((t) => [
+              ...t,
+              {
+                id: `sync-revoked-${Date.now()}`,
+                title: 'Device Unlinked',
+                description: 'This device was unpaired by another linked device.',
+                emoji: '🔌',
+                category: 'special',
+                tier: 'silver',
+                progress: () => 1,
+              },
+            ]);
+          }
+        });
     };
 
     runBackgroundSync();
