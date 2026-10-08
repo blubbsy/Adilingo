@@ -31,8 +31,7 @@ export interface CourseConfig {
   /** Course card in Settings. */
   cardTitle: string;
   cardSubtitle: string;
-  /** Name of the spoken language and a sample phrase for the audio test button. */
-  languageName: string;
+  /** Sample phrase for the audio test button. */
   speechSample: string;
   /** Screens available in this course, in navigation order. Anything else redirects. */
   views: ViewId[];
@@ -83,7 +82,6 @@ export const COURSES: Record<CourseId, CourseConfig> = {
     chipLabel: 'HSK',
     cardTitle: 'Mandarin (HSK)',
     cardSubtitle: 'HSK 1–9 Syllabus · 汉字 & Pinyin',
-    languageName: 'Mandarin',
     speechSample: '你好，欢迎！',
     views: ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements'],
     mobileViews: ['home', 'learn', 'topics', 'dictionary', 'insights'],
@@ -153,7 +151,6 @@ export const COURSES: Record<CourseId, CourseConfig> = {
     chipLabel: 'CEFR',
     cardTitle: 'English (英语)',
     cardSubtitle: 'CEFR A1–C2 · 中考·高考·四六级',
-    languageName: 'English',
     speechSample: 'Hello, welcome to English training!',
     views: ['home', 'learn', 'grammar', 'irregular', 'topics', 'dictionary', 'insights', 'achievements'],
     mobileViews: ['home', 'learn', 'grammar', 'irregular', 'dictionary'],

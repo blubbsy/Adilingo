@@ -1,5 +1,4 @@
 {
-  "src/App.tsx": 30,
   "src/components/Achievements.tsx": 16,
   "src/components/AudioButton.tsx": 4,
   "src/components/BulkMarkModal.tsx": 9,
@@ -13,7 +12,7 @@
   "src/components/ModeSelector.tsx": 11,
   "src/components/PlacementTestModal.tsx": 14,
   "src/components/ReviewCard.tsx": 82,
-  "src/components/SettingsModal.tsx": 58,
+  "src/components/SettingsModal.tsx": 6,
   "src/components/SpeedControl.tsx": 2,
   "src/components/StudySession.tsx": 19,
   "src/components/SyncModal.tsx": 41,

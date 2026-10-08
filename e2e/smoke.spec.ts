@@ -91,3 +91,45 @@ test('an English-only deep link survives a reload (guard waits for the saved cou
   await expect(page).toHaveURL(/#\/grammar$/);
   await expect(page.getByText(/Grammar Wiki/).first()).toBeVisible();
 });
+
+test.describe('Interface language', () => {
+  test('can be switched to German, updates <html lang> and survives a reload', async ({ page }) => {
+    await page.goto('/');
+    await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+    await expect(page.getByRole('navigation', { name: 'Main navigation' }).first()).toBeVisible();
+
+    await page.getByRole('button', { name: 'Interface language' }).first().click();
+    await page.getByRole('menuitemradio', { name: /Deutsch/ }).click();
+
+    await expect(page.locator('html')).toHaveAttribute('lang', 'de');
+    await expect(page.getByRole('navigation', { name: 'Hauptnavigation' }).first()).toBeVisible();
+    await expect(page.getByRole('button', { name: 'Übersicht' }).first()).toBeVisible();
+
+    await page.waitForTimeout(900); // settings are saved with a 400 ms debounce
+    await page.reload();
+    await expect(page.locator('html')).toHaveAttribute('lang', 'de');
+    await expect(page.getByRole('button', { name: 'Übersicht' }).first()).toBeVisible();
+  });
+
+  test('switches to Chinese and back to English without a blank screen', async ({ page }) => {
+    await page.goto('/');
+    await page.getByRole('button', { name: 'Interface language' }).first().click();
+    await page.getByRole('menuitemradio', { name: /简体中文/ }).click();
+    await expect(page.locator('html')).toHaveAttribute('lang', 'zh-CN');
+    await expect(page.getByRole('button', { name: '控制面板' }).first()).toBeVisible();
+
+    await page.getByRole('button', { name: '界面语言' }).first().click();
+    await page.getByRole('menuitemradio', { name: /English/ }).click();
+    await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+    await expect(page.getByRole('button', { name: 'Dashboard' }).first()).toBeVisible();
+  });
+
+  test('the Settings modal offers every language and the choice applies immediately', async ({ page }) => {
+    await page.goto('/');
+    await page.getByRole('button', { name: 'Settings' }).first().click();
+    const group = page.getByRole('radiogroup', { name: 'Interface language' });
+    await expect(group.getByRole('radio')).toHaveCount(3);
+    await group.getByRole('radio', { name: /Deutsch/ }).click();
+    await expect(page.getByRole('heading', { name: 'Einstellungen' })).toBeVisible();
+  });
+});

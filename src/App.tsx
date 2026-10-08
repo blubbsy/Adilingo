@@ -19,7 +19,9 @@ import { SyncModal } from './components/SyncModal';
 import { EnglishGrammarGuide } from './components/EnglishGrammarGuide';
 import { EnglishLearningHub } from './components/EnglishLearningHub';
 import { IrregularVerbsTrainer } from './components/IrregularVerbsTrainer';
-import { t, type UiLanguage } from './i18n';
+import { type UiLanguage } from './i18n';
+import { I18nContext, createI18n, useDocumentLanguage, useLoadedLanguage } from './i18n/react';
+import { LanguageMenu } from './components/LanguageMenu';
 import type { CardResult } from './components/ReviewCard';
 import { GrammarHub } from './grammar';
 import {
@@ -74,7 +76,15 @@ export default function App() {
   const [toasts, setToasts] = useState<Badge[]>([]);
   const undoSnapshot = useRef<UserState | null>(null);
 
-  const lang: UiLanguage = state.settings.uiLanguage ?? courseConfig.defaultUiLanguage;
+  // The language the learner wants, and the one whose strings are loaded and can be shown right now
+  const wantedLang: UiLanguage = state.settings.uiLanguage ?? courseConfig.defaultUiLanguage;
+  const { shown: lang, ready: langReady } = useLoadedLanguage(wantedLang);
+  const i18n = useMemo(() => createI18n(lang), [lang]);
+  const { t } = i18n;
+  const tRef = useRef(t);
+  tRef.current = t;
+  useDocumentLanguage(lang);
+  const setUiLanguage = useCallback((next: UiLanguage) => update((s) => ({ ...s, settings: { ...s.settings, uiLanguage: next } })), [update]);
 
   useTheme(state.settings.theme);
 
@@ -104,8 +114,8 @@ export default function App() {
             ...tList,
             {
               id: `sync-paired-${Date.now()}`,
-              title: 'Device Linked & Synced!',
-              description: 'All flashcards and progress synchronized.',
+              title: tRef.current('app.syncPaired.title'),
+              description: tRef.current('app.syncPaired.desc'),
               emoji: '⚡',
               category: 'special',
               tier: 'gold',
@@ -139,8 +149,8 @@ export default function App() {
               ...tList,
               {
                 id: `sync-revoked-${Date.now()}`,
-                title: 'Device Unlinked',
-                description: 'Sync pairing was revoked on another device.',
+                title: tRef.current('app.syncRevoked.title'),
+                description: tRef.current('app.syncRevoked.desc'),
                 emoji: '⚠️',
                 category: 'special',
                 tier: 'bronze',
@@ -242,7 +252,10 @@ export default function App() {
 
   const curriculum = state.settings.curriculum;
   const vocab = useMemo(() => (library ? vocabForCurriculum(library, curriculum) : []), [library, curriculum]);
-  const loaded = ready && library !== null;
+  // Show the app once state, vocabulary and the interface language are ready; later language switches never blank the screen
+  const booted = useRef(false);
+  const loaded = ready && library !== null && (langReady || booted.current);
+  if (loaded) booted.current = true;
 
   // Badge unlocks
   useEffect(() => {
@@ -344,7 +357,7 @@ export default function App() {
     if (libraryError) {
       return (
         <div role="alert" className="mx-auto max-w-md rounded-2xl border border-red-200 bg-red-50 p-6 text-red-800 dark:border-red-900 dark:bg-red-950/40 dark:text-red-200">
-          The word list could not be loaded ({libraryError}). Check your connection and reload.
+          {t('app.loadError', { error: libraryError })}
         </div>
       );
     }
@@ -352,7 +365,7 @@ export default function App() {
       return (
         <div className="flex flex-col items-center gap-3 py-24 text-slate-500">
           <Loader2 className="h-8 w-8 animate-spin" aria-hidden />
-          Loading {library ? 'your progress' : 'vocabulary list'}…
+          {library ? t('app.loadingProgress') : t('app.loadingVocabulary')}
         </div>
       );
     }
@@ -435,7 +448,7 @@ export default function App() {
           />
         );
     }
-  }, [libraryError, loaded, library, shownView, session, vocab, state, speech, handleReview, handleUndo, handleToggleStar, navigate, startSession, curriculum, update, courseConfig.track]);
+  }, [libraryError, loaded, library, shownView, session, vocab, state, speech, handleReview, handleUndo, handleToggleStar, navigate, startSession, curriculum, update, courseConfig.track, t]);
 
   // Navigation is derived from the views the active course declares
   const navItems = useMemo(() => navItemsFor(activeCourse, lang), [activeCourse, lang]);
@@ -464,11 +477,12 @@ export default function App() {
   };
 
   return (
+    <I18nContext.Provider value={i18n}>
     <div className="min-h-dvh lg:flex">
       {/* Desktop / large tablet landscape: persistent sidebar */}
       <aside className="sticky top-0 hidden h-dvh w-64 shrink-0 flex-col border-r border-slate-200 bg-white px-4 py-5 lg:flex xl:w-72 dark:border-slate-800 dark:bg-slate-900">
         <div className="mb-4 flex items-center justify-between px-2">
-          <button onClick={() => navigate('home')} className="flex items-center gap-3" aria-label="Adilingo home">
+          <button onClick={() => navigate('home')} className="flex items-center gap-3" aria-label={t('app.home')}>
             <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-rose-600 font-hanzi text-2xl font-bold text-white">
               {courseConfig.badge}
             </span>
@@ -504,44 +518,35 @@ export default function App() {
         {/* UI Language Quick Switcher */}
         <div className="mb-4 flex items-center justify-between px-2 text-xs text-slate-500">
           <span className="flex items-center gap-1.5 font-medium">
-            <Languages className="h-3.5 w-3.5" /> {t('header.lang', lang)}
+            <Languages className="h-3.5 w-3.5" /> {t('header.lang')}
           </span>
-          <button
-            type="button"
-            onClick={() => {
-              const nextLang: UiLanguage = lang === 'zh' ? 'en' : 'zh';
-              update((s) => ({ ...s, settings: { ...s.settings, uiLanguage: nextLang } }));
-            }}
-            className="rounded-lg border border-slate-200 bg-slate-50 px-2 py-0.5 font-bold text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
-          >
-            {lang === 'zh' ? '🇨🇳 简体中文' : '🇬🇧 English'}
-          </button>
+          <LanguageMenu value={wantedLang} onChange={setUiLanguage} />
         </div>
 
-        <nav className="flex flex-col gap-1 overflow-y-auto" aria-label="Main">
+        <nav className="flex flex-col gap-1 overflow-y-auto" aria-label={t('app.mainNav')}>
           {navItems.map((n) => navButton(n, 'side'))}
         </nav>
         <div className="mt-auto space-y-2 pt-2">
           <div className="flex items-center gap-3 rounded-xl bg-orange-50 px-3 py-2.5 text-orange-700 dark:bg-orange-950/40 dark:text-orange-300">
             <Flame className="h-5 w-5" aria-hidden />
-            <span className="text-sm font-semibold">{streak}-day streak</span>
+            <span className="text-sm font-semibold">{t('app.streak', { count: streak })}</span>
           </div>
           <button
             onClick={() => setShowSyncModal(true)}
             className="flex w-full items-center justify-between rounded-xl px-3 py-2 text-[14px] font-medium text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"
           >
             <span className="flex items-center gap-3">
-              <Zap className="h-5 w-5 text-rose-500" aria-hidden /> {t('header.sync', lang)}
+              <Zap className="h-5 w-5 text-rose-500" aria-hidden /> {t('header.sync')}
             </span>
             {getStoredSyncKey() && (
-              <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" title="Sync active" />
+              <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" title={t('app.syncActive')} />
             )}
           </button>
           <button
             onClick={() => setShowSettings(true)}
             className="flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-[15px] font-medium text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"
           >
-            <SettingsIcon className="h-5 w-5" aria-hidden /> {t('nav.settings', lang)}
+            <SettingsIcon className="h-5 w-5" aria-hidden /> {t('nav.settings')}
           </button>
         </div>
       </aside>
@@ -550,7 +555,7 @@ export default function App() {
         {/* Phones & tablets: top bar (with inline nav from md up) */}
         <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/90 pt-[env(safe-area-inset-top)] backdrop-blur lg:hidden dark:border-slate-800 dark:bg-slate-900/90">
           <div className="mx-auto flex max-w-6xl items-center gap-2 px-4 py-2.5 sm:px-6">
-            <button onClick={() => navigate('home')} className="flex items-center gap-2" aria-label="Adilingo home">
+            <button onClick={() => navigate('home')} className="flex items-center gap-2" aria-label={t('app.home')}>
               <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-rose-600 font-hanzi text-xl font-bold text-white">
                 {courseConfig.badge}
               </span>
@@ -565,40 +570,29 @@ export default function App() {
                 switchCourse(list[(idx + 1) % list.length].id);
               }}
               className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs font-semibold hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:hover:bg-slate-700"
-              title={`Switch course (Current: ${courseConfig.name})`}
+              title={t('app.switchCourse', { name: courseConfig.name })}
             >
               <span>{courseConfig.flag}</span>
               <span>{courseConfig.chipLabel}</span>
             </button>
 
-            <button
-              type="button"
-              onClick={() => {
-                const nextLang: UiLanguage = lang === 'zh' ? 'en' : 'zh';
-                update((s) => ({ ...s, settings: { ...s.settings, uiLanguage: nextLang } }));
-              }}
-              className="inline-flex items-center gap-1 rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs font-semibold hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:hover:bg-slate-700"
-              title="Interface language"
-            >
-              <Languages className="h-3 w-3 text-slate-500" />
-              <span>{lang === 'zh' ? '中文' : 'EN'}</span>
-            </button>
+            <LanguageMenu variant="compact" value={wantedLang} onChange={setUiLanguage} />
 
-            <nav className="ml-2 hidden flex-1 gap-1 overflow-x-auto md:flex" aria-label="Main">
+            <nav className="ml-2 hidden flex-1 gap-1 overflow-x-auto md:flex" aria-label={t('app.mainNav')}>
               {navItems.map((n) => navButton(n, 'top'))}
             </nav>
-            <span className="ml-auto inline-flex items-center gap-1 text-sm font-semibold tabular-nums text-orange-500 md:ml-0" title={`${streak}-day streak`}>
+            <span className="ml-auto inline-flex items-center gap-1 text-sm font-semibold tabular-nums text-orange-500 md:ml-0" title={t('app.streak', { count: streak })}>
               <Flame className="h-5 w-5" aria-hidden /> {streak}
             </span>
             <button
               onClick={() => setShowSyncModal(true)}
               className="rounded-lg p-2 text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"
-              aria-label="Cloud sync"
-              title="Cloud sync"
+              aria-label={t('app.cloudSync')}
+              title={t('app.cloudSync')}
             >
               <Zap className="h-5 w-5 text-rose-500" />
             </button>
-            <button onClick={() => setShowSettings(true)} className="rounded-lg p-2 text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800" aria-label="Settings">
+            <button onClick={() => setShowSettings(true)} className="rounded-lg p-2 text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800" aria-label={t('nav.settings')}>
               <SettingsIcon className="h-5 w-5" />
             </button>
           </div>
@@ -609,7 +603,7 @@ export default function App() {
             <div className="mx-auto flex max-w-6xl items-center justify-between gap-4">
               <span>{loadWarning}</span>
               <button onClick={allowSave} className="mt-2 rounded-lg bg-amber-600 px-3 py-1.5 font-medium text-white hover:bg-amber-700">
-                Start fresh
+                {t('app.startFresh')}
               </button>
             </div>
           </div>
@@ -624,8 +618,7 @@ export default function App() {
         </main>
 
         <footer className={`mx-auto max-w-6xl px-4 pb-8 text-center text-xs text-slate-400 ${studying || !loaded ? 'hidden' : 'hidden md:block'}`}>
-          {vocab.length.toLocaleString('en')} words · {info.name} · word data: complete-hsk-vocabulary (MIT), CC-CEDICT · example sentences: Tatoeba (CC-BY 2.0 FR) ·
-          all progress stays on this device
+          {t(courseConfig.track === 'english' ? 'app.footer.english' : 'app.footer.chinese', { words: vocab.length, curriculum: info.name })}
         </footer>
       </div>
 
@@ -633,7 +626,7 @@ export default function App() {
       {!studying && (
         <nav
           className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-5 border-t border-slate-200 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden dark:border-slate-800 dark:bg-slate-900/95"
-          aria-label="Main"
+          aria-label={t('app.mainNav')}
         >
           {mobileNavItems.map((n) => {
             const Icon = n.icon;
@@ -694,12 +687,13 @@ export default function App() {
               {b.emoji}
             </span>
             <div>
-              <p className="text-xs uppercase tracking-wide opacity-70">Achievement unlocked</p>
+              <p className="text-xs uppercase tracking-wide opacity-70">{t('app.achievementUnlocked')}</p>
               <p className="font-semibold">{b.title}</p>
             </div>
           </div>
         ))}
       </div>
     </div>
+    </I18nContext.Provider>
   );
 }

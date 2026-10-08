@@ -8,7 +8,9 @@ import { createEmptyGrammarProgress, exportableGrammarProgress, importGrammarPro
 import { AudioButton } from './AudioButton';
 import { CHINESE_MODES, ENGLISH_MODES } from './ModeSelector';
 import { getStoredSyncKey } from '../utils/syncService';
-import { t } from '../i18n';
+import type { MessageKey } from '../i18n';
+import { useI18n } from '../i18n/react';
+import { LanguageMenu } from './LanguageMenu';
 
 interface Props {
   state: UserState;
@@ -21,10 +23,10 @@ interface Props {
   onSwitchCourse?: (course: CourseId) => void;
 }
 
-const BACKEND_LABEL: Record<StorageBackend, string> = {
-  indexeddb: 'IndexedDB (recommended)',
-  localstorage: 'localStorage (fallback)',
-  memory: 'Memory only — progress will be lost on reload!',
+const BACKEND_LABEL: Record<StorageBackend, MessageKey> = {
+  indexeddb: 'settings.backend.indexeddb',
+  localstorage: 'settings.backend.localstorage',
+  memory: 'settings.backend.memory',
 };
 
 export function SettingsModal({
@@ -40,7 +42,7 @@ export function SettingsModal({
   const syncKey = getStoredSyncKey();
   const s = state.settings;
   const course = getCourseConfig(s.course);
-  const lang = s.uiLanguage ?? course.defaultUiLanguage;
+  const { t } = useI18n();
   const set = (patch: Partial<Settings>) => onChangeSettings({ ...s, ...patch });
   const fileRef = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState<{ ok: boolean; text: string } | null>(null);
@@ -57,20 +59,20 @@ export function SettingsModal({
     try {
       const { state: imported, grammar } = await parseBackup(file);
       const words = Object.keys(imported.progress).length;
-      if (!window.confirm(`Replace your current progress with this backup (${words} words, ${imported.stats.totalReviewed} reviews)?`)) return;
+      if (!window.confirm(t('settings.import.confirm', { words, reviews: imported.stats.totalReviewed }))) return;
       onReplaceState(imported);
       const grammarOk = grammar !== undefined && (await importGrammarProgress(grammar)) !== null;
-      setMessage({ ok: true, text: `Backup restored: ${words} words${grammarOk ? ' + grammar progress' : ''}.` });
+      setMessage({ ok: true, text: t(grammarOk ? 'settings.import.doneGrammar' : 'settings.import.done', { words }) });
     } catch (e) {
       setMessage({ ok: false, text: (e as Error).message });
     }
   }
 
   async function handleReset() {
-    if (!window.confirm('Erase all progress and statistics? Consider exporting a backup first.')) return;
+    if (!window.confirm(t('settings.reset.confirm'))) return;
     onReplaceState({ ...createDefaultState(), settings: s });
     await saveGrammarProgress(createEmptyGrammarProgress());
-    setMessage({ ok: true, text: 'Progress reset.' });
+    setMessage({ ok: true, text: t('settings.reset.done') });
   }
 
   return (
@@ -85,14 +87,14 @@ export function SettingsModal({
         className="animate-pop max-h-[92dvh] w-full max-w-lg overflow-y-auto rounded-t-3xl bg-white p-6 pb-[calc(1.5rem+env(safe-area-inset-bottom))] shadow-xl outline-none sm:rounded-3xl sm:pb-6 lg:max-w-2xl dark:bg-slate-800"
       >
         <div className="flex items-center justify-between">
-          <h2 id="settings-title" className="text-xl font-bold">Settings</h2>
-          <button onClick={onClose} className="rounded-lg p-1.5 hover:bg-slate-100 dark:hover:bg-slate-700" aria-label="Close settings">
+          <h2 id="settings-title" className="text-xl font-bold">{t('settings.heading')}</h2>
+          <button onClick={onClose} className="rounded-lg p-1.5 hover:bg-slate-100 dark:hover:bg-slate-700" aria-label={t('settings.closeAria')}>
             <X className="h-5 w-5" />
           </button>
         </div>
 
-        <Group title="Course & Language Track">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2" role="radiogroup" aria-label="Course Track">
+        <Group title={t('settings.group.course')}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2" role="radiogroup" aria-label={t('settings.course')}>
             {languageCourses().map((c) => {
               const selected = course.id === c.id;
               return (
@@ -117,47 +119,13 @@ export function SettingsModal({
           </div>
         </Group>
 
-        <Group title="Interface Language (界面语言)">
-          <div className="grid grid-cols-2 gap-2" role="radiogroup" aria-label="Interface Language">
-            <button
-              type="button"
-              role="radio"
-              aria-checked={(s.uiLanguage ?? course.defaultUiLanguage) === 'en'}
-              onClick={() => set({ uiLanguage: 'en' })}
-              className={`rounded-xl border-2 p-3 text-left transition ${
-                (s.uiLanguage ?? course.defaultUiLanguage) === 'en'
-                  ? 'border-rose-500 bg-rose-50 dark:bg-rose-950/40'
-                  : 'border-slate-200 hover:border-slate-300 dark:border-slate-700'
-              }`}
-            >
-              <div className="flex items-center gap-2">
-                <span className="text-xl">🇬🇧</span>
-                <span className="font-bold">English</span>
-              </div>
-              <span className="mt-1 block text-xs text-slate-500 dark:text-slate-400">English interface</span>
-            </button>
-            <button
-              type="button"
-              role="radio"
-              aria-checked={(s.uiLanguage ?? course.defaultUiLanguage) === 'zh'}
-              onClick={() => set({ uiLanguage: 'zh' })}
-              className={`rounded-xl border-2 p-3 text-left transition ${
-                (s.uiLanguage ?? course.defaultUiLanguage) === 'zh'
-                  ? 'border-rose-500 bg-rose-50 dark:bg-rose-950/40'
-                  : 'border-slate-200 hover:border-slate-300 dark:border-slate-700'
-              }`}
-            >
-              <div className="flex items-center gap-2">
-                <span className="text-xl">🇨🇳</span>
-                <span className="font-bold">简体中文</span>
-              </div>
-              <span className="mt-1 block text-xs text-slate-500 dark:text-slate-400">中文交互界面</span>
-            </button>
-          </div>
+        <Group title={t('settings.group.language')}>
+          <LanguageMenu variant="inline" value={s.uiLanguage ?? course.defaultUiLanguage} onChange={(next) => set({ uiLanguage: next })} />
+          <p className="mt-2 text-xs text-slate-500">{t('settings.uiLanguageDesc')}</p>
         </Group>
 
-        <Group title="Curriculum & Syllabus">
-          <div className="grid gap-2" role="radiogroup" aria-label="Curriculum">
+        <Group title={t('settings.group.curriculum')}>
+          <div className="grid gap-2" role="radiogroup" aria-label={t('settings.curriculum')}>
             {course.curricula.map((c) => (
               <button
                 key={c.id}
@@ -173,10 +141,10 @@ export function SettingsModal({
               </button>
             ))}
           </div>
-          <p className="mt-2 text-xs text-slate-500">Switching keeps all progress: words shared between standards stay learned.</p>
+          <p className="mt-2 text-xs text-slate-500">{t('settings.curriculumNote')}</p>
         </Group>
 
-        <Group title="Audio">
+        <Group title={t('settings.group.audio')}>
           <div className="flex flex-wrap items-center gap-2">
             {SPEECH_RATES.map((r) => (
               <button
@@ -194,33 +162,33 @@ export function SettingsModal({
               speech={speech}
               text={course.speechSample}
               rate={s.speechRate}
-              label="Test"
+              label={t('settings.audioTest')}
             />
           </div>
           <label className="mt-3 flex items-center justify-between gap-4">
-            <span>Sound effects & haptics</span>
-            <Toggle checked={s.soundEffects} onChange={(v) => set({ soundEffects: v })} label="Sound effects" />
+            <span>{t('settings.soundEffectsHaptics')}</span>
+            <Toggle checked={s.soundEffects} onChange={(v) => set({ soundEffects: v })} label={t('settings.soundEffects')} />
           </label>
           <p className="mt-2 text-xs text-slate-500">
             {speech.voice
-              ? `Local voice: ${speech.voice.name} (${speech.voice.lang})`
-              : `Audio source: Studio native ${course.languageName} audio stream (crystal-clear pronunciation)`}
+              ? t('settings.voice.local', { name: speech.voice.name, lang: speech.voice.lang })
+              : t(course.track === 'english' ? 'settings.voice.stream.english' : 'settings.voice.stream.chinese')}
           </p>
         </Group>
 
-        <Group title="Display">
+        <Group title={t('settings.group.display')}>
           <div className="mb-3 flex items-center justify-between gap-4">
-            <span>Theme</span>
-            <div className="inline-flex rounded-lg border border-slate-300 p-0.5 dark:border-slate-600" role="radiogroup" aria-label="Theme">
-              {(['system', 'light', 'dark'] as ThemePref[]).map((t) => (
+            <span>{t('settings.theme')}</span>
+            <div className="inline-flex rounded-lg border border-slate-300 p-0.5 dark:border-slate-600" role="radiogroup" aria-label={t('settings.theme')}>
+              {(['system', 'light', 'dark'] as ThemePref[]).map((theme) => (
                 <button
-                  key={t}
+                  key={theme}
                   role="radio"
-                  aria-checked={s.theme === t}
-                  onClick={() => set({ theme: t })}
-                  className={`rounded-md px-3 py-1 text-sm capitalize ${s.theme === t ? 'bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900' : ''}`}
+                  aria-checked={s.theme === theme}
+                  onClick={() => set({ theme })}
+                  className={`rounded-md px-3 py-1 text-sm ${s.theme === theme ? 'bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900' : ''}`}
                 >
-                  {t}
+                  {t(`settings.theme.${theme}`)}
                 </button>
               ))}
             </div>
@@ -228,29 +196,29 @@ export function SettingsModal({
           {course.features.tones && (
             <label className="flex items-center justify-between gap-4">
               <span>
-                Tone colours
+                {t('settings.colorTones')}
                 <span className="ml-2 text-sm">
                   <span className="text-tone1">mā</span> <span className="text-tone2">má</span> <span className="text-tone3">mǎ</span>{' '}
                   <span className="text-tone4">mà</span> <span className="text-tone0">ma</span>
                 </span>
               </span>
-              <Toggle checked={s.colorTones} onChange={(v) => set({ colorTones: v })} label="Tone colours" />
+              <Toggle checked={s.colorTones} onChange={(v) => set({ colorTones: v })} label={t('settings.colorTones')} />
             </label>
           )}
         </Group>
 
-        <Group title={t('settings.pace', lang)}>
+        <Group title={t('settings.pace')}>
           {/* Quick Presets */}
           <div className="mb-4">
             <span className="mb-1.5 block text-xs font-medium text-slate-500 dark:text-slate-400">
-              {lang === 'zh' ? '预设学习节奏' : 'Quick Pace Presets'}
+              {t('settings.pace.presets')}
             </span>
             <div className="grid grid-cols-2 gap-1.5 sm:grid-cols-4">
               {[
-                { id: 'casual', label: t('settings.pace.casual', lang), newCards: 5, dailyCap: 25, sessionSize: 10, icon: '🐢' },
-                { id: 'steady', label: t('settings.pace.steady', lang), newCards: 10, dailyCap: 50, sessionSize: 15, icon: '🚶' },
-                { id: 'ambitious', label: t('settings.pace.ambitious', lang), newCards: 20, dailyCap: 100, sessionSize: 20, icon: '🏃' },
-                { id: 'intensive', label: t('settings.pace.intensive', lang), newCards: 35, dailyCap: 200, sessionSize: 30, icon: '🚀' },
+                { id: 'casual', label: t('settings.pace.casual'), newCards: 5, dailyCap: 25, sessionSize: 10, icon: '🐢' },
+                { id: 'steady', label: t('settings.pace.steady'), newCards: 10, dailyCap: 50, sessionSize: 15, icon: '🚶' },
+                { id: 'ambitious', label: t('settings.pace.ambitious'), newCards: 20, dailyCap: 100, sessionSize: 20, icon: '🏃' },
+                { id: 'intensive', label: t('settings.pace.intensive'), newCards: 35, dailyCap: 200, sessionSize: 30, icon: '🚀' },
               ].map((p) => {
                 const isActive =
                   s.newCardsPerDay === p.newCards &&
@@ -277,40 +245,40 @@ export function SettingsModal({
           </div>
 
           <RangeSlider
-            label={t('settings.newCards', lang)}
+            label={t('settings.newCards')}
             value={s.newCardsPerDay}
             min={0}
             max={50}
             step={1}
-            unit={lang === 'zh' ? '词/天' : 'words/day'}
-            description={t('settings.newCardsDesc', lang)}
+            unit={t('settings.unit.wordsPerDay')}
+            description={t('settings.newCardsDesc')}
             onChange={(v) => set({ newCardsPerDay: v })}
           />
 
           <RangeSlider
-            label={t('settings.dailyCap', lang)}
+            label={t('settings.dailyCap')}
             value={s.dailyCap}
             min={10}
             max={300}
             step={5}
-            unit={lang === 'zh' ? '词/天' : 'cards/day'}
-            description={t('settings.dailyCapDesc', lang)}
+            unit={t('settings.unit.cardsPerDay')}
+            description={t('settings.dailyCapDesc')}
             onChange={(v) => set({ dailyCap: v })}
           />
 
           <RangeSlider
-            label={t('settings.sessionSize', lang)}
+            label={t('settings.sessionSize')}
             value={s.sessionSize ?? 15}
             min={5}
             max={40}
             step={5}
-            unit={lang === 'zh' ? '题/次' : 'cards'}
-            description={t('settings.sessionSizeDesc', lang)}
+            unit={t('settings.unit.cards')}
+            description={t('settings.sessionSizeDesc')}
             onChange={(v) => set({ sessionSize: v })}
           />
 
           <label className="mt-3 flex items-center justify-between gap-4">
-            <span className="text-sm font-medium">{lang === 'zh' ? '默认练习题型' : 'Default mode'}</span>
+            <span className="text-sm font-medium">{t('settings.defaultMode')}</span>
             <select
               value={s.defaultMode}
               onChange={(e) => set({ defaultMode: e.target.value as StudyMode })}
@@ -326,35 +294,35 @@ export function SettingsModal({
         </Group>
 
         {course.features.pinyin && (
-          <Group title={t('settings.pinyinHelper', lang)}>
+          <Group title={t('settings.pinyinHelper')}>
             <p className="mb-3 text-xs text-slate-500 dark:text-slate-400">
-              {t('settings.pinyinHelperDesc', lang)}
+              {t('settings.pinyinHelperDesc')}
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2" role="radiogroup" aria-label="Pinyin helper mode">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2" role="radiogroup" aria-label={t('settings.pinyinMode')}>
               {[
                 {
                   id: 'adaptive',
-                  title: t('settings.pinyinMode.adaptive', lang),
-                  desc: lang === 'zh' ? '智能分析错题：失误达到门槛后自动呈现拼音，未失误词保留纯汉字测试' : 'Intelligent scaffold: Automatically reveals Pinyin for difficult words, pure character immersion otherwise',
+                  title: t('settings.pinyinMode.adaptive'),
+                  desc: t('settings.pinyinMode.adaptive.desc'),
                   icon: '🧠',
                 },
                 {
                   id: 'flip',
-                  title: t('settings.pinyinMode.flip', lang),
-                  desc: lang === 'zh' ? '纯汉字沉浸测试，随时可点击卡片 3D 翻转查看拼音' : 'Pure immersion by default, click character anytime to flip card and peek Pinyin',
+                  title: t('settings.pinyinMode.flip'),
+                  desc: t('settings.pinyinMode.flip.desc'),
                   icon: '🃏',
                 },
                 {
                   id: 'always',
-                  title: t('settings.pinyinMode.always', lang),
-                  desc: lang === 'zh' ? '练习中始终在汉字旁显示拼音' : 'Always display Pinyin alongside Chinese characters',
+                  title: t('settings.pinyinMode.always'),
+                  desc: t('settings.pinyinMode.always.desc'),
                   icon: '👁️',
                 },
                 {
                   id: 'never',
-                  title: t('settings.pinyinMode.never', lang),
-                  desc: lang === 'zh' ? '完全关闭卡片翻转与拼音提示，直至点击提交答案' : 'Disable peek flip; Pinyin is only revealed after answering',
+                  title: t('settings.pinyinMode.never'),
+                  desc: t('settings.pinyinMode.never.desc'),
                   icon: '🔒',
                 },
               ].map((opt) => (
@@ -384,13 +352,13 @@ export function SettingsModal({
             {(s.pinyinHelperMode ?? 'adaptive') === 'adaptive' && (
               <div className="mt-3 rounded-2xl border border-amber-200/80 bg-amber-50/50 p-3.5 dark:border-amber-900/60 dark:bg-amber-950/20">
                 <RangeSlider
-                  label={t('settings.pinyinThreshold', lang)}
+                  label={t('settings.pinyinThreshold')}
                   value={s.pinyinAdaptiveThreshold ?? 2}
                   min={1}
                   max={5}
                   step={1}
-                  unit={lang === 'zh' ? '次失误' : 'mistakes'}
-                  description={t('settings.pinyinThresholdDesc', lang)}
+                  unit={t('settings.unit.mistakes')}
+                  description={t('settings.pinyinThresholdDesc')}
                   onChange={(v) => set({ pinyinAdaptiveThreshold: v })}
                 />
               </div>
@@ -398,7 +366,7 @@ export function SettingsModal({
           </Group>
         )}
 
-        <Group title="Multi-Device Cloud Sync">
+        <Group title={t('settings.group.sync')}>
           <div className="rounded-2xl border border-slate-200 p-4 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/40 space-y-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2.5">
@@ -407,16 +375,16 @@ export function SettingsModal({
                 </span>
                 <div>
                   <h4 className="text-sm font-semibold text-slate-900 dark:text-white">
-                    {syncKey ? 'Cloud Sync Active' : 'Sync Between Devices'}
+                    {t(syncKey ? 'settings.sync.activeTitle' : 'settings.sync.inactiveTitle')}
                   </h4>
                   <p className="text-xs text-slate-500 dark:text-slate-400">
-                    {syncKey ? 'End-to-end encrypted · Auto-syncs progress' : 'Zero-login sync via QR code or pairing key'}
+                    {t(syncKey ? 'settings.sync.activeDesc' : 'settings.sync.inactiveDesc')}
                   </p>
                 </div>
               </div>
               {syncKey && (
                 <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2.5 py-0.5 text-[11px] font-semibold text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300">
-                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" /> Active
+                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" /> {t('settings.sync.badge')}
                 </span>
               )}
             </div>
@@ -426,21 +394,21 @@ export function SettingsModal({
               className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-3.5 py-2 text-xs font-semibold text-white hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900"
             >
               <QrCode className="h-3.5 w-3.5" />
-              {syncKey ? 'Manage Sync / Show QR Code' : 'Link This Device (QR Code)'}
+              {t(syncKey ? 'settings.sync.manage' : 'settings.sync.link')}
             </button>
           </div>
         </Group>
 
-        <Group title="Data & backup">
+        <Group title={t('settings.group.data')}>
           <p className="mb-3 flex items-center gap-1.5 text-xs text-slate-500">
-            <Database className="h-3.5 w-3.5" /> Stored in: {BACKEND_LABEL[backend]}
+            <Database className="h-3.5 w-3.5" /> {t('settings.storedIn', { backend: t(BACKEND_LABEL[backend]) })}
           </p>
           <div className="flex flex-wrap gap-2">
             <button onClick={async () => exportBackup(state, await exportableGrammarProgress())} className="inline-flex items-center gap-1.5 rounded-lg bg-slate-900 px-3 py-2 text-sm font-medium text-white hover:bg-slate-700 dark:bg-slate-100 dark:text-slate-900">
-              <Download className="h-4 w-4" /> Export backup (JSON)
+              <Download className="h-4 w-4" /> {t('settings.export')}
             </button>
             <button onClick={() => fileRef.current?.click()} className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 px-3 py-2 text-sm font-medium hover:bg-slate-50 dark:border-slate-600 dark:hover:bg-slate-700">
-              <Upload className="h-4 w-4" /> Import backup
+              <Upload className="h-4 w-4" /> {t('settings.import')}
             </button>
             <input
               ref={fileRef}
@@ -454,7 +422,7 @@ export function SettingsModal({
               }}
             />
             <button onClick={handleReset} className="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-red-600 hover:bg-red-50 dark:hover:bg-red-950/40">
-              <Trash2 className="h-4 w-4" /> Reset progress
+              <Trash2 className="h-4 w-4" /> {t('settings.reset')}
             </button>
           </div>
           {message && (
