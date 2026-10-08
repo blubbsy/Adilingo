@@ -15,6 +15,7 @@ const loaders: Record<UiLanguage, () => Promise<Messages>> = {
   en: async () => en,
   zh: () => import('./locales/zh').then((m) => m.zh),
   de: () => import('./locales/de').then((m) => m.de),
+  xa: () => import('./pseudo').then((p) => p.pseudoLocalizeAll(en)),
 };
 
 /** Whether the English source table has this key (used for keys built from data ids, e.g. `badge.<id>.title`). */

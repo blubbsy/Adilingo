@@ -20,6 +20,7 @@ import {
 import { en } from '../locales/en';
 import { zh } from '../locales/zh';
 import { de } from '../locales/de';
+import { pseudoLocalize, pseudoLocalizeAll } from '../pseudo';
 
 describe('message format', () => {
   it('fills variables and leaves unknown ones visible', () => {
@@ -178,5 +179,32 @@ describe('language packs and selection', () => {
     const date = new Date(Date.UTC(2026, 9, 8, 12));
     expect(formatDate('en', date, { dateStyle: 'medium', timeZone: 'UTC' })).toBe('Oct 8, 2026');
     expect(formatDate('de', date, { dateStyle: 'medium', timeZone: 'UTC' })).toBe('08.10.2026');
+  });
+});
+
+describe('pseudo-locale (layout stress test)', () => {
+  it('accents and expands text but leaves placeholders, plurals and tags alone', () => {
+    const out = pseudoLocalize('Save {count, plural, one {# card} other {# cards}} <b>now</b>');
+    expect(out.startsWith('[') && out.endsWith(']')).toBe(true);
+    expect(out).toContain('{count, plural, one {# card} other {# cards}}');
+    expect(out).toContain('<b>');
+    expect(out).toContain('</b>');
+    expect(out).not.toContain('Save');
+    expect(out.length).toBeGreaterThan('Save {count, plural, one {# card} other {# cards}} <b>now</b>'.length);
+  });
+
+  it('keeps every English message valid: same arguments and tags, still formattable', () => {
+    const pseudo = pseudoLocalizeAll(en as Record<string, string>);
+    for (const [key, value] of Object.entries(pseudo)) {
+      expect(messageArguments(value), key).toEqual(messageArguments((en as Record<string, string>)[key]));
+      expect(messageTags(value), key).toEqual(messageTags((en as Record<string, string>)[key]));
+    }
+    expect(formatMessage(pseudo['dashboard.dueAndNew'], { due: 3, new: 2 }, 'en')).toMatch(/3/);
+  });
+
+  it('is only a selectable language in development builds', () => {
+    expect(UI_LANGUAGES).toContain('xa'); // vitest runs with import.meta.env.DEV
+    expect(isUiLanguage('xa')).toBe(true);
+    expect(LOCALE_META.xa.pseudo).toBe(true);
   });
 });

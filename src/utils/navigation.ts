@@ -27,7 +27,7 @@ function label(view: ViewId, track: 'chinese' | 'english', lang: UiLanguage): st
     case 'home':
       return t('nav.dashboard', lang);
     case 'learn':
-      return track === 'english' ? (lang === 'zh' ? '分级路径' : 'Paths') : t('nav.learn', lang);
+      return track === 'english' ? t('nav.paths', lang) : t('nav.learn', lang);
     case 'grammar':
       return t('nav.grammar', lang);
     case 'irregular':
@@ -44,24 +44,23 @@ function label(view: ViewId, track: 'chinese' | 'english', lang: UiLanguage): st
 }
 
 function short(view: ViewId, track: 'chinese' | 'english', lang: UiLanguage): string {
-  const zh = lang === 'zh';
   switch (view) {
     case 'home':
-      return zh ? '首页' : 'Home';
+      return t('nav.short.home', lang);
     case 'learn':
-      return track === 'english' ? (zh ? '路径' : 'Paths') : zh ? '学习' : 'Learn';
+      return track === 'english' ? t('nav.short.paths', lang) : t('nav.short.learn', lang);
     case 'grammar':
-      return zh ? '语法' : 'Grammar';
+      return t('nav.short.grammar', lang);
     case 'irregular':
-      return zh ? '动词' : 'Verbs';
+      return t('nav.short.irregular', lang);
     case 'topics':
-      return zh ? '主题' : 'Topics';
+      return t('nav.short.topics', lang);
     case 'dictionary':
-      return zh ? '词典' : 'Words';
+      return t('nav.short.dictionary', lang);
     case 'insights':
-      return zh ? '统计' : 'Stats';
+      return t('nav.short.insights', lang);
     case 'achievements':
-      return zh ? '徽章' : 'Badges';
+      return t('nav.short.badges', lang);
   }
 }
 

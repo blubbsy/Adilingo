@@ -19,7 +19,7 @@ import { SyncModal } from './components/SyncModal';
 import { EnglishGrammarGuide } from './components/EnglishGrammarGuide';
 import { EnglishLearningHub } from './components/EnglishLearningHub';
 import { IrregularVerbsTrainer } from './components/IrregularVerbsTrainer';
-import { type UiLanguage } from './i18n';
+import { isUiLanguage, type UiLanguage } from './i18n';
 import { I18nContext, createI18n, useDocumentLanguage, useLoadedLanguage } from './i18n/react';
 import { LanguageMenu } from './components/LanguageMenu';
 import { describeMessage } from './i18n/errors';
@@ -79,7 +79,9 @@ export default function App() {
   const undoSnapshot = useRef<UserState | null>(null);
 
   // The language the learner wants, and the one whose strings are loaded and can be shown right now
-  const wantedLang: UiLanguage = state.settings.uiLanguage ?? courseConfig.defaultUiLanguage;
+  // `?lang=xa` (development builds only) previews another language, e.g. the pseudo-locale for layout checks
+  const urlLang = import.meta.env.DEV ? new URLSearchParams(window.location.search).get('lang') : null;
+  const wantedLang: UiLanguage = isUiLanguage(urlLang) ? urlLang : (state.settings.uiLanguage ?? courseConfig.defaultUiLanguage);
   const { shown: lang, ready: langReady } = useLoadedLanguage(wantedLang);
   const i18n = useMemo(() => createI18n(lang), [lang]);
   const { t } = i18n;
@@ -556,12 +558,12 @@ export default function App() {
       <div className="min-w-0 flex-1">
         {/* Phones & tablets: top bar (with inline nav from md up) */}
         <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/90 pt-[env(safe-area-inset-top)] backdrop-blur lg:hidden dark:border-slate-800 dark:bg-slate-900/90">
-          <div className="mx-auto flex max-w-6xl items-center gap-2 px-4 py-2.5 sm:px-6">
+          <div className="mx-auto flex max-w-6xl items-center gap-1.5 px-3 py-2.5 sm:gap-2 sm:px-6">
             <button onClick={() => navigate('home')} className="flex items-center gap-2" aria-label={t('app.home')}>
               <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-rose-600 font-hanzi text-xl font-bold text-white">
                 {courseConfig.badge}
               </span>
-              <span className="text-base font-bold tracking-tight md:hidden">Adilingo</span>
+              <span className="hidden text-base font-bold tracking-tight sm:inline md:hidden">Adilingo</span>
             </button>
 
             <button
@@ -588,13 +590,13 @@ export default function App() {
             </span>
             <button
               onClick={() => setShowSyncModal(true)}
-              className="rounded-lg p-2 text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"
+              className="rounded-lg p-1.5 text-slate-600 hover:bg-slate-100 sm:p-2 dark:text-slate-300 dark:hover:bg-slate-800"
               aria-label={t('app.cloudSync')}
               title={t('app.cloudSync')}
             >
               <Zap className="h-5 w-5 text-rose-500" />
             </button>
-            <button onClick={() => setShowSettings(true)} className="rounded-lg p-2 text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800" aria-label={t('nav.settings')}>
+            <button onClick={() => setShowSettings(true)} className="rounded-lg p-1.5 text-slate-600 hover:bg-slate-100 sm:p-2 dark:text-slate-300 dark:hover:bg-slate-800" aria-label={t('nav.settings')}>
               <SettingsIcon className="h-5 w-5" />
             </button>
           </div>

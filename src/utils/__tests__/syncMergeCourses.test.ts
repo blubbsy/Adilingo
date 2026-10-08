@@ -125,6 +125,56 @@ describe('mergeUserStates is course-aware', () => {
     expect(ab.courseProgress?.english?.en1.recognition?.reps).toBe(4);
   });
 
+  it('prefers the more recent review timestamp even if the other device has higher reps', () => {
+    // Device A reviewed on Oct 10 with 2 reps (e.g. reset or recent review)
+    const freshReview = card(2, '2026-10-10T12:00:00Z');
+    freshReview.recognition!.due = '2026-10-15';
+    // Device B reviewed on Oct 01 with 10 reps (older review schedule)
+    const staleReview = card(10, '2026-10-01T12:00:00Z');
+    staleReview.recognition!.due = '2026-10-06';
+
+    const a = device('chinese', { w1: freshReview });
+    const b = device('chinese', { w1: staleReview });
+
+    const merged = mergeUserStates(a, b);
+    // Base must be taken from A because Oct 10 > Oct 01, while reps is max(2, 10) = 10
+    expect(merged.progress.w1.recognition?.last_review).toBe('2026-10-10T12:00:00Z');
+    expect(merged.progress.w1.recognition?.due).toBe('2026-10-15');
+    expect(merged.progress.w1.recognition?.reps).toBe(10);
+
+    // Symmetric test: remote fresher than local
+    const mergedReverse = mergeUserStates(b, a);
+    expect(mergedReverse.progress.w1.recognition?.last_review).toBe('2026-10-10T12:00:00Z');
+    expect(mergedReverse.progress.w1.recognition?.due).toBe('2026-10-15');
+    expect(mergedReverse.progress.w1.recognition?.reps).toBe(10);
+  });
+
+  it('breaks ties using reps when review timestamps are equal', () => {
+    const a = device('chinese', { w1: card(5, '2026-10-05T00:00:00Z') });
+    a.progress.w1.recognition!.due = '2026-10-12';
+    const b = device('chinese', { w1: card(3, '2026-10-05T00:00:00Z') });
+    b.progress.w1.recognition!.due = '2026-10-08';
+
+    const merged = mergeUserStates(a, b);
+    expect(merged.progress.w1.recognition?.due).toBe('2026-10-12');
+    expect(merged.progress.w1.recognition?.reps).toBe(5);
+
+    const mergedReverse = mergeUserStates(b, a);
+    expect(mergedReverse.progress.w1.recognition?.due).toBe('2026-10-12');
+    expect(mergedReverse.progress.w1.recognition?.reps).toBe(5);
+  });
+
+  it('backfills legacy daily stats into the active course when dailyByCourse is merged', () => {
+    const a = device('chinese', {});
+    a.stats.daily = { '2026-10-01': { reviewed: 8, correct: 6, newCards: 2 } };
+    const b = device('english', {});
+    b.stats.dailyByCourse = { english: { '2026-10-01': { reviewed: 3, correct: 3, newCards: 1 } } };
+
+    const merged = mergeUserStates(a, b);
+    expect(merged.stats.dailyByCourse?.chinese?.['2026-10-01']).toEqual({ reviewed: 8, correct: 6, newCards: 2 });
+    expect(merged.stats.dailyByCourse?.english?.['2026-10-01']).toEqual({ reviewed: 3, correct: 3, newCards: 1 });
+  });
+
   it('keeps old single-course states working (no course data on either side)', () => {
     const a = createDefaultState();
     a.progress = { w1: card(1, '2026-10-01T00:00:00Z') };
@@ -135,3 +185,4 @@ describe('mergeUserStates is course-aware', () => {
     expect(merged.stats.dailyByCourse).toBeUndefined();
   });
 });
+

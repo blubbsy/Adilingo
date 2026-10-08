@@ -9,8 +9,15 @@ function mergeDirection(local?: DirectionProgress, remote?: DirectionProgress): 
   const localTime = local.last_review ? new Date(local.last_review).getTime() : 0;
   const remoteTime = remote.last_review ? new Date(remote.last_review).getTime() : 0;
 
-  // Use base from whichever was reviewed more recently, or has higher reps
-  const base = localTime >= remoteTime ? (local.reps >= remote.reps ? local : remote) : remote;
+  // Whichever was reviewed more recently wins; reps breaks ties symmetrically
+  const base =
+    localTime > remoteTime
+      ? local
+      : remoteTime > localTime
+        ? remote
+        : local.reps >= remote.reps
+          ? local
+          : remote;
 
   // Merge histories without duplicate dates
   const historyMap = new Map<string, HistoryEntry>();
@@ -81,7 +88,10 @@ function perCourse(s: UserState) {
     progress: { ...(s.courseProgress ?? {}), [active]: s.progress ?? {} } as Partial<Record<CourseId, ProgressMap>>,
     starred: { ...(s.starredWordsByCourse ?? {}), [active]: s.starredWords ?? [] } as Partial<Record<CourseId, string[]>>,
     known: { ...(s.knownLevelsByCourse ?? {}), [active]: s.knownLevels ?? [] } as Partial<Record<CourseId, HskLevel[]>>,
-    daily: (s.stats.dailyByCourse ?? {}) as Partial<Record<CourseId, DailyMap>>,
+    daily: {
+      ...(s.stats.dailyByCourse ?? {}),
+      [active]: { ...(s.stats.dailyByCourse?.[active] ?? {}), ...(s.stats.daily ?? {}) },
+    } as Partial<Record<CourseId, DailyMap>>,
   };
 }
 
