@@ -1,46 +1,39 @@
 import { useMemo, useState } from 'react';
 import { Award, CheckCircle2, Lock, Search, Sparkles, Trophy, X, Zap, Flame, Clock, BookOpen, Brain, Music, GraduationCap, Layers } from 'lucide-react';
 import type { UserState, VocabItem } from '../types';
-import {
-  badgesFor,
-  CATEGORY_LABELS,
-  TIER_POINTS,
-  type BadgeCategory,
-  type BadgeTier,
-} from '../utils/analytics';
+import { badgesFor, TIER_POINTS, type BadgeCategory, type BadgeTier } from '../utils/analytics';
+import { badgeDescription, badgeTitle, metricUnit } from '../utils/badgeText';
+import { useI18n } from '../i18n/react';
+
+const CATEGORIES: BadgeCategory[] = ['streaks', 'reviews', 'words', 'memory', 'tones', 'grammar', 'levels', 'special'];
 
 const TIER_ORDER: BadgeTier[] = ['bronze', 'silver', 'gold', 'diamond', 'legendary'];
 
-const TIER_STYLES: Record<BadgeTier, { pill: string; cardBorder: string; dot: string; label: string }> = {
+const TIER_STYLES: Record<BadgeTier, { pill: string; cardBorder: string; dot: string }> = {
   bronze: {
     pill: 'bg-amber-100/90 text-amber-800 border-amber-300/80 dark:bg-amber-950/50 dark:text-amber-300 dark:border-amber-800/80',
     cardBorder: 'border-amber-200 dark:border-amber-900/50',
     dot: 'bg-amber-500',
-    label: 'Bronze',
   },
   silver: {
     pill: 'bg-slate-100 text-slate-700 border-slate-300 dark:bg-slate-800 dark:text-slate-300 dark:border-slate-700',
     cardBorder: 'border-slate-200 dark:border-slate-700/60',
     dot: 'bg-slate-400',
-    label: 'Silver',
   },
   gold: {
     pill: 'bg-yellow-100 text-yellow-800 border-yellow-300 dark:bg-yellow-950/50 dark:text-yellow-300 dark:border-yellow-700/80',
     cardBorder: 'border-yellow-300 dark:border-yellow-800/60',
     dot: 'bg-yellow-500',
-    label: 'Gold',
   },
   diamond: {
     pill: 'bg-cyan-100 text-cyan-800 border-cyan-300 dark:bg-cyan-950/50 dark:text-cyan-300 dark:border-cyan-700/80',
     cardBorder: 'border-cyan-300 dark:border-cyan-800/60',
     dot: 'bg-cyan-400',
-    label: 'Diamond',
   },
   legendary: {
     pill: 'bg-purple-100 text-purple-800 border-purple-300 dark:bg-purple-950/50 dark:text-purple-300 dark:border-purple-700/80',
     cardBorder: 'border-purple-300 dark:border-purple-800/60',
     dot: 'bg-purple-500',
-    label: 'Legendary',
   },
 };
 
@@ -55,16 +48,19 @@ const CATEGORY_ICONS: Record<BadgeCategory, React.ComponentType<{ className?: st
   special: Sparkles,
 };
 
-function getScholarRank(points: number): { title: string; nextThreshold: number | null } {
-  if (points < 250) return { title: 'Novice Scholar', nextThreshold: 250 };
-  if (points < 750) return { title: 'Diligent Apprentice', nextThreshold: 750 };
-  if (points < 1500) return { title: 'Adept Linguist', nextThreshold: 1500 };
-  if (points < 3000) return { title: 'Senior Scholar', nextThreshold: 3000 };
-  if (points < 5000) return { title: 'Master Sinologist', nextThreshold: 5000 };
-  return { title: 'Grandmaster of Mandarin', nextThreshold: null };
+/** Rank number 1–6 (see `achievements.rank.<n>`) and the points needed for the next one. */
+function getScholarRank(points: number): { rank: 1 | 2 | 3 | 4 | 5 | 6; nextThreshold: number | null } {
+  if (points < 250) return { rank: 1, nextThreshold: 250 };
+  if (points < 750) return { rank: 2, nextThreshold: 750 };
+  if (points < 1500) return { rank: 3, nextThreshold: 1500 };
+  if (points < 3000) return { rank: 4, nextThreshold: 3000 };
+  if (points < 5000) return { rank: 5, nextThreshold: 5000 };
+  return { rank: 6, nextThreshold: null };
 }
 
 export function Achievements({ state, vocab }: { state: UserState; vocab: VocabItem[] }) {
+  const i18n = useI18n();
+  const { t, formatNumber } = i18n;
   const [selectedCategory, setSelectedCategory] = useState<BadgeCategory | 'all'>('all');
   const [selectedTier, setSelectedTier] = useState<BadgeTier | 'all'>('all');
   const [statusFilter, setStatusFilter] = useState<'all' | 'unlocked' | 'in_progress' | 'locked'>('all');
@@ -156,17 +152,17 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
 
       // Search query filter
       if (q) {
-        const catLabel = CATEGORY_LABELS[badge.category].toLowerCase();
-        const matchTitle = badge.title.toLowerCase().includes(q);
-        const matchDesc = badge.description.toLowerCase().includes(q);
+        const catLabel = t(`badge.category.${badge.category}`).toLowerCase();
+        const matchTitle = badgeTitle(i18n, badge).toLowerCase().includes(q);
+        const matchDesc = badgeDescription(i18n, badge).toLowerCase().includes(q);
         const matchCat = catLabel.includes(q);
-        const matchTier = badge.tier.toLowerCase().includes(q);
+        const matchTier = badge.tier.toLowerCase().includes(q) || t(`badge.tier.${badge.tier}`).toLowerCase().includes(q);
         if (!matchTitle && !matchDesc && !matchCat && !matchTier) return false;
       }
 
       return true;
     });
-  }, [badgeData, selectedCategory, selectedTier, statusFilter, search]);
+  }, [badgeData, selectedCategory, selectedTier, statusFilter, search, i18n, t]);
 
   const completionPct = summary.totalCount > 0 ? Math.round((summary.unlockedCount / summary.totalCount) * 100) : 0;
   const pointsPct = summary.totalPoints > 0 ? Math.round((summary.earnedPoints / summary.totalPoints) * 100) : 0;
@@ -182,14 +178,14 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
                 <Trophy className="h-5 w-5" aria-hidden />
               </span>
               <div>
-                <h1 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">Achievements & Milestones</h1>
+                <h1 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">{t('achievements.heading')}</h1>
                 <p className="text-xs font-semibold uppercase tracking-wider text-amber-600 dark:text-amber-400">
-                  {rank.title} · {summary.earnedPoints.toLocaleString()} XP
+                  {t('achievements.rankLine', { rank: t(`achievements.rank.${rank.rank}`), points: formatNumber(summary.earnedPoints) })}
                 </p>
               </div>
             </div>
             <p className="max-w-xl text-sm text-slate-600 dark:text-slate-300">
-              Track your journey from first characters to legendary fluency. Unlock badges across daily streaks, vocabulary volume, deep SRS stability, and auditory tone drills.
+              {t('achievements.intro')}
             </p>
           </div>
 
@@ -197,9 +193,9 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
           <div className="flex flex-col gap-3 rounded-2xl border border-slate-200/80 bg-white/80 p-4 backdrop-blur dark:border-slate-800 dark:bg-slate-900/80 sm:flex-row sm:items-center sm:gap-6">
             <div className="space-y-1">
               <div className="flex items-baseline justify-between gap-4 text-xs font-medium text-slate-500 dark:text-slate-400">
-                <span>Total Badges</span>
+                <span>{t('achievements.totalBadges')}</span>
                 <span className="font-semibold text-slate-900 dark:text-white">
-                  {summary.unlockedCount} / {summary.totalCount} ({completionPct}%)
+                  {t('achievements.badgeProgress', { unlocked: summary.unlockedCount, total: summary.totalCount, pct: completionPct })}
                 </span>
               </div>
               <div className="h-2 w-48 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
@@ -214,9 +210,9 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
 
             <div className="space-y-1">
               <div className="flex items-baseline justify-between gap-4 text-xs font-medium text-slate-500 dark:text-slate-400">
-                <span>Achievement XP</span>
+                <span>{t('achievements.xpTitle')}</span>
                 <span className="font-semibold text-amber-600 dark:text-amber-400">
-                  {summary.earnedPoints.toLocaleString()} / {summary.totalPoints.toLocaleString()} XP
+                  {t('achievements.xpProgress', { earned: formatNumber(summary.earnedPoints), total: formatNumber(summary.totalPoints) })}
                 </span>
               </div>
               <div className="h-2 w-48 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
@@ -231,7 +227,7 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
 
         {/* Tier Milestones Quick Filter Pills */}
         <div className="mt-6 flex flex-wrap items-center gap-2 border-t border-slate-200/60 pt-4 dark:border-slate-800/80">
-          <span className="text-xs font-medium text-slate-500 dark:text-slate-400 mr-1">Tiers:</span>
+          <span className="text-xs font-medium text-slate-500 dark:text-slate-400 mr-1">{t('achievements.tiers')}</span>
           <button
             onClick={() => setSelectedTier('all')}
             className={`rounded-full px-3 py-1 text-xs font-semibold transition ${
@@ -240,7 +236,7 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
                 : 'bg-white/70 text-slate-600 hover:bg-slate-100 dark:bg-slate-800/60 dark:text-slate-300 dark:hover:bg-slate-800'
             }`}
           >
-            All Tiers ({summary.totalCount})
+            {t('achievements.allTiers', { count: summary.totalCount })}
           </button>
           {TIER_ORDER.map((tier) => {
             const count = summary.tierCount[tier];
@@ -257,7 +253,7 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
                 }`}
               >
                 <span className={`h-1.5 w-1.5 rounded-full ${style.dot}`} />
-                {style.label} (+{TIER_POINTS[tier]})
+                {t('achievements.tierChip', { tier: t(`badge.tier.${tier}`), points: TIER_POINTS[tier] })}
                 <span className="opacity-75">
                   {count.unlocked}/{count.total}
                 </span>
@@ -277,14 +273,14 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="Search badges, goals, categories, tiers..."
+              placeholder={t('achievements.search.placeholder')}
               className="w-full rounded-xl border border-slate-200 bg-white py-2 pl-9 pr-9 text-sm text-slate-800 placeholder-slate-400 focus:border-rose-500 focus:outline-none focus:ring-2 focus:ring-rose-500/20 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100 dark:placeholder-slate-500"
             />
             {search && (
               <button
                 onClick={() => setSearch('')}
                 className="absolute right-2.5 top-1/2 -translate-y-1/2 p-1 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
-                aria-label="Clear search"
+                aria-label={t('topics.search.clear')}
               >
                 <X className="h-3.5 w-3.5" />
               </button>
@@ -295,10 +291,10 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
           <div className="flex items-center gap-1 overflow-x-auto rounded-xl border border-slate-200 bg-slate-50 p-1 dark:border-slate-800 dark:bg-slate-900/60">
             {(
               [
-                { id: 'all', label: 'All Status' },
-                { id: 'unlocked', label: 'Unlocked' },
-                { id: 'in_progress', label: 'In Progress' },
-                { id: 'locked', label: 'Locked' },
+                { id: 'all', label: t('achievements.status.all') },
+                { id: 'unlocked', label: t('achievements.status.unlocked') },
+                { id: 'in_progress', label: t('achievements.status.in_progress') },
+                { id: 'locked', label: t('achievements.status.locked') },
               ] as const
             ).map((st) => (
               <button
@@ -327,9 +323,9 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
             }`}
           >
             <Zap className="h-3.5 w-3.5" aria-hidden />
-            All Categories ({summary.totalCount})
+            {t('achievements.allCategories', { count: summary.totalCount })}
           </button>
-          {(Object.keys(CATEGORY_LABELS) as BadgeCategory[]).map((cat) => {
+          {CATEGORIES.map((cat) => {
             const count = summary.categoryCount[cat];
             const active = selectedCategory === cat;
             const Icon = CATEGORY_ICONS[cat];
@@ -344,7 +340,7 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
                 }`}
               >
                 <Icon className="h-3.5 w-3.5" aria-hidden />
-                {CATEGORY_LABELS[cat]}
+                {t(`badge.category.${cat}`)}
                 <span className={`ml-1 rounded-full px-1.5 py-0.2 text-[10px] ${
                   active
                     ? 'bg-white/20 text-white dark:bg-slate-900/20 dark:text-slate-900'
@@ -362,9 +358,9 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
       {filtered.length === 0 ? (
         <div className="flex flex-col items-center justify-center rounded-3xl border border-dashed border-slate-300 py-16 text-center dark:border-slate-700">
           <Award className="h-10 w-10 text-slate-300 dark:text-slate-600" aria-hidden />
-          <h3 className="mt-3 text-base font-semibold text-slate-800 dark:text-slate-200">No achievements found</h3>
+          <h3 className="mt-3 text-base font-semibold text-slate-800 dark:text-slate-200">{t('achievements.empty.title')}</h3>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-            Try adjusting your search query, tier filter, or category selection.
+            {t('achievements.empty.desc')}
           </p>
           <button
             onClick={() => {
@@ -375,7 +371,7 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
             }}
             className="mt-4 rounded-xl bg-slate-900 px-4 py-2 text-xs font-semibold text-white hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900"
           >
-            Reset Filters
+            {t('topics.empty.reset')}
           </button>
         </div>
       ) : (
@@ -410,18 +406,18 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
                     <div className="flex flex-col items-end gap-1.5">
                       <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[11px] font-semibold ${tierStyle.pill}`}>
                         <span className={`h-1.5 w-1.5 rounded-full ${tierStyle.dot}`} />
-                        {tierStyle.label} · +{TIER_POINTS[badge.tier]}
+                        {t('achievements.tierPoints', { tier: t(`badge.tier.${badge.tier}`), points: TIER_POINTS[badge.tier] })}
                       </span>
 
                       {isUnlocked ? (
                         <span className="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-600 dark:text-emerald-400">
                           <CheckCircle2 className="h-3.5 w-3.5" aria-hidden />
-                          Unlocked
+                          {t('achievements.status.unlocked')}
                         </span>
                       ) : (
                         <span className="inline-flex items-center gap-1 text-[11px] font-medium text-slate-400 dark:text-slate-500">
                           <Lock className="h-3 w-3" aria-hidden />
-                          {pct > 0 ? `${pct}%` : 'Locked'}
+                          {pct > 0 ? `${pct}%` : t('achievements.status.locked')}
                         </span>
                       )}
                     </div>
@@ -430,10 +426,10 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
                   {/* Title & Description */}
                   <div className="space-y-1">
                     <h3 className="font-bold text-[15px] leading-snug text-slate-900 dark:text-white">
-                      {badge.title}
+                      {badgeTitle(i18n, badge)}
                     </h3>
                     <p className="text-xs text-slate-600 dark:text-slate-300 line-clamp-2 leading-relaxed">
-                      {badge.description}
+                      {badgeDescription(i18n, badge)}
                     </p>
                   </div>
                 </div>
@@ -442,11 +438,11 @@ export function Achievements({ state, vocab }: { state: UserState; vocab: VocabI
                 <div className="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 space-y-1.5">
                   <div className="flex items-center justify-between text-[11px] text-slate-500 dark:text-slate-400">
                     <span className="font-medium text-slate-400 dark:text-slate-500">
-                      {CATEGORY_LABELS[badge.category]}
+                      {t(`badge.category.${badge.category}`)}
                     </span>
                     <span className="font-semibold text-slate-700 dark:text-slate-300">
                       {badge.metric && metricCurrent !== null ? (
-                        `${Math.min(metricCurrent, badge.metric.target).toLocaleString()} / ${badge.metric.target.toLocaleString()} ${badge.metric.unit}`
+                        t('achievements.metricProgress', { current: formatNumber(Math.min(metricCurrent, badge.metric.target)), target: formatNumber(badge.metric.target), unit: metricUnit(i18n, badge.metric.unit) })
                       ) : (
                         `${pct}%`
                       )}

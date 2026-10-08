@@ -3,6 +3,7 @@ import { addDays, dayKey } from './dates';
 import { tonesOf } from './pinyinHelper';
 import { calculateTrueRetention, dailyLogFor, effectiveStreak, isDue, isWordLearned, isWordStudied, itemHasTone, weakness, MATURE_STABILITY_DAYS } from './srsEngine';
 import { levelLabel } from '../data/vocab';
+import { createT, formatList, type TFunction } from '../i18n';
 
 export const TONE_KEYS: ToneKey[] = ['1', '2', '3', '4', '0'];
 export const TONE_NAMES: Record<ToneKey, string> = {
@@ -118,7 +119,25 @@ export interface Recommendation {
   action?: { label: string; request: SessionRequest };
 }
 
-export function recommendations(state: UserState, vocab: VocabItem[], now = new Date()): Recommendation[] {
+/** What `recommendations` needs from the UI language (defaults to English, e.g. in tests). */
+export interface RecommendationText {
+  t: TFunction;
+  formatList: (items: string[]) => string;
+}
+
+const ENGLISH_TEXT: RecommendationText = {
+  t: createT('en'),
+  formatList: (items) => formatList('en', items),
+};
+
+export function recommendations(
+  state: UserState,
+  vocab: VocabItem[],
+  now = new Date(),
+  text: RecommendationText = ENGLISH_TEXT,
+): Recommendation[] {
+  const { t } = text;
+  const toneName = (tone: ToneKey) => t(`insights.tone.${tone}`);
   const recs: Recommendation[] = [];
   const studied = vocab.filter((v) => isWordStudied(state.progress[v.id]));
 
@@ -146,12 +165,12 @@ export function recommendations(state: UserState, vocab: VocabItem[], now = new 
       recs.push({
         id: 'tone',
         kind: 'tone',
-        title: `${TONE_NAMES[weakTone.tone]} needs attention`,
-        body: `Your ${TONE_NAMES[weakTone.tone]} accuracy is ${weakTone.ratio.pct}%, with most misses in ${levelLabel(worst.level)} ${worst.topic} words. Start a 3-minute targeted review?`,
+        title: t('recs.tone.title', { tone: toneName(weakTone.tone) }),
+        body: t('recs.tone.body', { tone: toneName(weakTone.tone), pct: weakTone.ratio.pct ?? 0, level: levelLabel(worst.level), topic: worst.topic }),
         action: {
-          label: '3-min tone drill',
+          label: t('recs.tone.action'),
           request: {
-            label: `${TONE_NAMES[weakTone.tone]} · ${levelLabel(worst.level)} ${worst.topic}`,
+            label: t('recs.tone.label', { tone: toneName(weakTone.tone), level: levelLabel(worst.level), topic: worst.topic }),
             mode: 'tone',
             levels: [],
             topics: [],
@@ -171,11 +190,11 @@ export function recommendations(state: UserState, vocab: VocabItem[], now = new 
     recs.push({
       id: 'leech',
       kind: 'leech',
-      title: `${leechList.length} leech${leechList.length > 1 ? 'es' : ''} detected`,
-      body: `${leechList.map((l) => l.hanzi).join('、')} keep slipping away. Review them slowly with example sentences.`,
+      title: t('recs.leech.title', { count: leechList.length }),
+      body: t('recs.leech.body', { words: text.formatList(leechList.map((l) => l.hanzi)) }),
       action: {
-        label: 'Leech clinic',
-        request: { label: 'Leech clinic', mode: 'hanzi', levels: [], topics: [], wordIds: leechList.map((l) => l.id), includeNotDue: true, ignoreCap: true, limit: 10 },
+        label: t('insights.leechClinicLabel'),
+        request: { label: t('insights.leechClinicLabel'), mode: 'hanzi', levels: [], topics: [], wordIds: leechList.map((l) => l.id), includeNotDue: true, ignoreCap: true, limit: 10 },
       },
     });
   }
@@ -188,10 +207,10 @@ export function recommendations(state: UserState, vocab: VocabItem[], now = new 
     recs.push({
       id: 'topic',
       kind: 'topic',
-      title: `Shore up “${weakTopic.topic}”`,
-      body: `Only ${weakTopic.ratio.pct}% correct across ${weakTopic.ratio.total} ${weakTopic.topic} reviews — your lowest topic.`,
+      title: t('recs.topic.title', { topic: weakTopic.topic }),
+      body: t('recs.topic.body', { pct: weakTopic.ratio.pct ?? 0, total: weakTopic.ratio.total, topic: weakTopic.topic }),
       action: {
-        label: 'Review topic',
+        label: t('recs.topic.action'),
         request: { label: weakTopic.topic, mode: 'mixed', levels: [], topics: [weakTopic.topic], includeNotDue: true, ignoreCap: true, limit: 12 },
       },
     });
@@ -204,11 +223,11 @@ export function recommendations(state: UserState, vocab: VocabItem[], now = new 
     recs.push({
       id: 'due',
       kind: 'due',
-      title: `${due} card${due > 1 ? 's' : ''} due`,
-      body: 'Clearing due reviews first gives spaced repetition the biggest payoff.',
+      title: t('recs.due.title', { count: due }),
+      body: t('recs.due.body'),
       action: {
-        label: 'Review now',
-        request: { label: 'Due reviews', mode: state.settings.defaultMode, levels: [], topics: [] },
+        label: t('recs.due.action'),
+        request: { label: t('recs.due.label'), mode: state.settings.defaultMode, levels: [], topics: [] },
       },
     });
   }
@@ -218,11 +237,11 @@ export function recommendations(state: UserState, vocab: VocabItem[], now = new 
     recs.push({
       id: 'listening',
       kind: 'listening',
-      title: 'Train your ear',
-      body: `Only ${state.stats.modeCounts.audio} of your ${state.stats.totalReviewed} reviews were listening drills. Recognising words by sound is key for conversation.`,
+      title: t('recs.listening.title'),
+      body: t('recs.listening.body', { audio: state.stats.modeCounts.audio, total: state.stats.totalReviewed }),
       action: {
-        label: 'Listening drill',
-        request: { label: 'Listening drill', mode: 'audio', levels: [], topics: [], includeNotDue: true, ignoreCap: true, limit: 10 },
+        label: t('topics.mode.listening'),
+        request: { label: t('topics.mode.listening'), mode: 'audio', levels: [], topics: [], includeNotDue: true, ignoreCap: true, limit: 10 },
       },
     });
   }
@@ -235,11 +254,11 @@ export function recommendations(state: UserState, vocab: VocabItem[], now = new 
     recs.push({
       id: 'new',
       kind: 'new',
-      title: `Daily intake: ${intake} new words`,
-      body: `Ready for your next set of ${levelLabel(level)} vocabulary (${unseen.slice(0, 3).map((u) => u.hanzi).join('、')}).`,
+      title: t('recs.new.title', { count: intake }),
+      body: t('recs.new.body', { level: levelLabel(level, state.settings.course), words: text.formatList(unseen.slice(0, 3).map((u) => u.hanzi)) }),
       action: {
-        label: `Learn ${intake} new words`,
-        request: { label: `New ${levelLabel(level)} words`, mode: 'hanzi', levels: [level as HskLevel], topics: [], limit: intake },
+        label: t('recs.new.action', { count: intake }),
+        request: { label: t('recs.new.label', { level: levelLabel(level, state.settings.course) }), mode: 'hanzi', levels: [level as HskLevel], topics: [], limit: intake },
       },
     });
   }
@@ -250,8 +269,8 @@ export function recommendations(state: UserState, vocab: VocabItem[], now = new 
     recs.push({
       id: 'streak',
       kind: 'streak',
-      title: `Keep your ${streak}-day streak alive`,
-      body: 'One short review today keeps the flame burning.',
+      title: t('recs.streak.title', { count: streak }),
+      body: t('recs.streak.body'),
     });
   }
 

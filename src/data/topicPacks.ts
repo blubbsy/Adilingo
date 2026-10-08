@@ -33,6 +33,8 @@ export interface TopicPack {
   curatedWords: string[];
   /** Supplementary full items for essential real-world terms not in core HSK lists. */
   supplementaryWords?: VocabItem[];
+  /** Built from the course's own word topics; the description is generated when shown (localized). */
+  derived?: boolean;
 }
 
 export const TOPIC_PACKS: TopicPack[] = [
@@ -543,7 +545,8 @@ export function packsForCourse(course: CourseId | undefined, vocab: VocabItem[])
       chineseTitle: topic,
       emoji: '📚',
       theme: 'lifestyle' as TopicTheme,
-      description: `${words.length} words about ${topic.toLowerCase()}.`,
+      description: '',
+      derived: true,
       curatedWords: [],
       supplementaryWords: words,
     }));

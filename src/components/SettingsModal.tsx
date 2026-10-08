@@ -29,6 +29,15 @@ const BACKEND_LABEL: Record<StorageBackend, MessageKey> = {
   memory: 'settings.backend.memory',
 };
 
+/** Syllables shown next to the tone-color switch, with the CSS class of their tone. */
+const TONE_DEMO: [string, string][] = [
+  ['mā', 'text-tone1'],
+  ['má', 'text-tone2'],
+  ['mǎ', 'text-tone3'],
+  ['mà', 'text-tone4'],
+  ['ma', 'text-tone0'],
+];
+
 export function SettingsModal({
   state,
   backend,
@@ -198,8 +207,11 @@ export function SettingsModal({
               <span>
                 {t('settings.colorTones')}
                 <span className="ml-2 text-sm">
-                  <span className="text-tone1">mā</span> <span className="text-tone2">má</span> <span className="text-tone3">mǎ</span>{' '}
-                  <span className="text-tone4">mà</span> <span className="text-tone0">ma</span>
+                  {TONE_DEMO.map(([syllable, className]) => (
+                    <span key={syllable} className={`${className} mr-1`}>
+                      {syllable}
+                    </span>
+                  ))}
                 </span>
               </span>
               <Toggle checked={s.colorTones} onChange={(v) => set({ colorTones: v })} label={t('settings.colorTones')} />

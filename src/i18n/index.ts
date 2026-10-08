@@ -17,6 +17,11 @@ const loaders: Record<UiLanguage, () => Promise<Messages>> = {
   de: () => import('./locales/de').then((m) => m.de),
 };
 
+/** Whether the English source table has this key (used for keys built from data ids, e.g. `badge.<id>.title`). */
+export function hasMessage(key: string): boolean {
+  return Object.prototype.hasOwnProperty.call(en, key);
+}
+
 export function isLocaleLoaded(lang: UiLanguage): boolean {
   return loaded[lang] !== undefined;
 }
@@ -103,6 +108,12 @@ export function detectUiLanguage(
 
 export function formatNumber(lang: UiLanguage, value: number, options?: Intl.NumberFormatOptions): string {
   return options ? new Intl.NumberFormat(lang, options).format(value) : numberFormatFor(lang).format(value);
+}
+
+/** "a, b and c" in the language's own style (Chinese uses 、). */
+export function formatList(lang: UiLanguage, items: string[], type: 'conjunction' | 'unit' = 'unit'): string {
+  const ListFormat = (Intl as unknown as { ListFormat?: new (l: string, o: object) => { format: (i: string[]) => string } }).ListFormat;
+  return ListFormat ? new ListFormat(LOCALE_META[lang].htmlLang, { style: 'narrow', type }).format(items) : items.join(', ');
 }
 
 export function formatDate(lang: UiLanguage, value: Date | number, options: Intl.DateTimeFormatOptions = { dateStyle: 'medium' }): string {

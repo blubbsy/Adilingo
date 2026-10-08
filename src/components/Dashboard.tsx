@@ -64,9 +64,10 @@ export function Dashboard({
 
   const courseConfig = getCourseConfig(state.settings.course);
   const isEnglishCourse = courseConfig.track === 'english';
-  const { t, rich, formatNumber } = useI18n();
+  const i18n = useI18n();
+  const { t, rich, formatNumber } = i18n;
 
-  const recs = useMemo(() => recommendations(state, vocab), [state, vocab]);
+  const recs = useMemo(() => recommendations(state, vocab, new Date(), i18n), [state, vocab, i18n]);
   const levels = useMemo(() => accuracyByLevel(state, vocab), [state, vocab]);
   const streak = effectiveStreak(state);
   const latency = averageLatencySec(state);

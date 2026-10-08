@@ -22,6 +22,7 @@ import { IrregularVerbsTrainer } from './components/IrregularVerbsTrainer';
 import { type UiLanguage } from './i18n';
 import { I18nContext, createI18n, useDocumentLanguage, useLoadedLanguage } from './i18n/react';
 import { LanguageMenu } from './components/LanguageMenu';
+import { badgeTitle } from './utils/badgeText';
 import type { CardResult } from './components/ReviewCard';
 import { GrammarHub } from './grammar';
 import {
@@ -688,7 +689,7 @@ export default function App() {
             </span>
             <div>
               <p className="text-xs uppercase tracking-wide opacity-70">{t('app.achievementUnlocked')}</p>
-              <p className="font-semibold">{b.title}</p>
+              <p className="font-semibold">{badgeTitle(i18n, b)}</p>
             </div>
           </div>
         ))}

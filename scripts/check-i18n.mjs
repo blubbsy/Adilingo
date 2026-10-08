@@ -28,7 +28,7 @@ const baselineFile = path.join(root, 'scripts', 'i18n-baseline.json');
 
 const args = new Set(process.argv.slice(2));
 const ATTRS = new Set(['aria-label', 'title', 'placeholder', 'alt', 'label', 'aria-description', 'aria-roledescription']);
-const LETTER = /[A-Za-zÀ-ɏ㐀-鿿]/;
+const LETTER = /[A-Za-z\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f\u3400-\u9fff]/;
 /** Skipped directories (content/data, locale tables, tests). */
 const SKIP_DIRS = new Set(['__tests__', 'locales', 'data', 'node_modules']);
 /** Text that is not language. */

@@ -1,0 +1,25 @@
+import type { recs as en } from '../en/recs';
+
+export const recs: Partial<Record<keyof typeof en, string>> = {
+  'recs.tone.title': '{tone} braucht Aufmerksamkeit',
+  'recs.tone.body': 'Deine Genauigkeit bei {tone} liegt bei {pct} %, die meisten Fehler passieren bei {level}-Wörtern zum Thema {topic}. Eine gezielte 3-Minuten-Wiederholung starten?',
+  'recs.tone.action': '3-Minuten-Tontraining',
+  'recs.tone.label': '{tone} · {level} {topic}',
+  'recs.leech.title': '{count, plural, one {# Problemwort erkannt} other {# Problemwörter erkannt}}',
+  'recs.leech.body': '{words} entwischen dir immer wieder. Wiederhole sie in Ruhe mit Beispielsätzen.',
+  'recs.topic.title': '„{topic}“ aufarbeiten',
+  'recs.topic.body': 'Nur {pct} % richtig bei {total} Wiederholungen zum Thema {topic} — dein schwächstes Thema.',
+  'recs.topic.action': 'Thema wiederholen',
+  'recs.due.title': '{count, plural, one {# Karte fällig} other {# Karten fällig}}',
+  'recs.due.body': 'Zuerst die fälligen Wiederholungen abzuarbeiten bringt dir mit Spaced Repetition den größten Nutzen.',
+  'recs.due.action': 'Jetzt wiederholen',
+  'recs.due.label': 'Fällige Wiederholungen',
+  'recs.listening.title': 'Trainiere dein Gehör',
+  'recs.listening.body': 'Nur {audio} deiner {total} Wiederholungen waren Hörübungen. Wörter am Klang zu erkennen ist entscheidend für Gespräche.',
+  'recs.new.title': 'Tagesportion: {count, plural, one {# neues Wort} other {# neue Wörter}}',
+  'recs.new.body': 'Bereit für die nächste Gruppe {level}-Wortschatz ({words}).',
+  'recs.new.action': '{count, plural, one {# neues Wort} other {# neue Wörter}} lernen',
+  'recs.new.label': 'Neue {level}-Wörter',
+  'recs.streak.title': 'Halte deine {count}-Tage-Serie am Leben',
+  'recs.streak.body': 'Eine kurze Wiederholung heute hält die Flamme am Brennen.',
+};

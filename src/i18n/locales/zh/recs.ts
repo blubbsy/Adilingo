@@ -1,0 +1,25 @@
+import type { recs as en } from '../en/recs';
+
+export const recs: Record<keyof typeof en, string> = {
+  'recs.tone.title': '{tone}需要加强',
+  'recs.tone.body': '你的{tone}正确率为 {pct}%，错误主要出现在 {level} {topic}词汇中。要开始 3 分钟针对性复习吗？',
+  'recs.tone.action': '3 分钟声调训练',
+  'recs.tone.label': '{tone} · {level} {topic}',
+  'recs.leech.title': '发现 {count} 个顽固词',
+  'recs.leech.body': '{words} 总是记不住。请结合例句慢慢复习。',
+  'recs.topic.title': '加强“{topic}”',
+  'recs.topic.body': '{topic}的 {total} 次复习中仅答对 {pct}%——这是你最薄弱的主题。',
+  'recs.topic.action': '复习该主题',
+  'recs.due.title': '{count} 张卡片待复习',
+  'recs.due.body': '先清掉到期的复习，间隔复习的收益最大。',
+  'recs.due.action': '立即复习',
+  'recs.due.label': '到期复习',
+  'recs.listening.title': '训练你的耳朵',
+  'recs.listening.body': '你的 {total} 次复习中只有 {audio} 次是听力练习。听音识词对会话至关重要。',
+  'recs.new.title': '今日新词：{count} 个',
+  'recs.new.body': '准备学习下一组 {level} 词汇（{words}）。',
+  'recs.new.action': '学习 {count} 个新词',
+  'recs.new.label': '新的 {level} 词汇',
+  'recs.streak.title': '保住你的 {count} 天连续学习',
+  'recs.streak.body': '今天做一次简短复习，就能让火焰继续燃烧。',
+};
