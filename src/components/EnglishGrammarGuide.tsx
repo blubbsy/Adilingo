@@ -27,6 +27,7 @@ import {
 } from '../data/englishGrammarWiki';
 import type { SpeechApi } from '../utils/speech';
 import { SpeedControl } from './SpeedControl';
+import { useI18n } from '../i18n/react';
 
 interface Props {
   speech: SpeechApi;
@@ -35,21 +36,17 @@ interface Props {
 
 type MainTab = 'wiki' | 'tenses' | 'passive';
 
-const TENSE_GROUPS: { id: TenseGroup | 'all'; labelZh: string; labelEn: string }[] = [
-  { id: 'all', labelZh: '全部时态 (13类)', labelEn: 'All Tenses' },
-  { id: 'present', labelZh: '现在时态 (4类)', labelEn: 'Present' },
-  { id: 'past', labelZh: '过去时态 (4类)', labelEn: 'Past' },
-  { id: 'future', labelZh: '将来时态 (3类)', labelEn: 'Future' },
-  { id: 'conditional', labelZh: '条件与虚拟 (2类)', labelEn: 'Conditional' },
-];
+const TENSE_GROUPS: (TenseGroup | 'all')[] = ['all', 'present', 'past', 'future', 'conditional'];
 
-const PERSON_TABS: { id: PersonGroup; labelZh: string; subjectName: string }[] = [
-  { id: 'first', labelZh: '第一人称 (I)', subjectName: 'I' },
-  { id: 'third_singular', labelZh: '第三人称单数 (He / She / It)', subjectName: 'He / She / It' },
-  { id: 'plural', labelZh: '复数 / 第二人称 (They / We)', subjectName: 'We / They' },
+/** Subject pronouns are English example text, not interface text. */
+const PERSON_TABS: { id: PersonGroup; subjectName: string }[] = [
+  { id: 'first', subjectName: 'I' },
+  { id: 'third_singular', subjectName: 'He / She / It' },
+  { id: 'plural', subjectName: 'We / They' },
 ];
 
 export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
+  const { t, rich } = useI18n();
   const [activeTab, setActiveTab] = useState<MainTab>('wiki');
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -80,14 +77,14 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
 
   // Filtered Tenses
   const filteredTenses = useMemo(() => {
-    return ENGLISH_TENSES.filter((t) => {
-      const matchGrp = selectedGroup === 'all' || t.group === selectedGroup;
+    return ENGLISH_TENSES.filter((tense) => {
+      const matchGrp = selectedGroup === 'all' || tense.group === selectedGroup;
       const q = searchQuery.trim().toLowerCase();
       const matchSearch =
         !q ||
-        t.nameEn.toLowerCase().includes(q) ||
-        t.nameZh.toLowerCase().includes(q) ||
-        t.signalWords.some((w) => w.toLowerCase().includes(q));
+        tense.nameEn.toLowerCase().includes(q) ||
+        tense.nameZh.toLowerCase().includes(q) ||
+        tense.signalWords.some((w) => w.toLowerCase().includes(q));
       return matchGrp && matchSearch;
     });
   }, [selectedGroup, searchQuery]);
@@ -99,17 +96,16 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div className="max-w-2xl">
             <div className="inline-flex items-center gap-1.5 rounded-full bg-rose-100 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-rose-800 dark:bg-rose-950/60 dark:text-rose-300">
-              <Sparkles className="h-3.5 w-3.5" /> English Grammar Wikipedia & Blueprint
+              <Sparkles className="h-3.5 w-3.5" /> {t('english.guide.badge')}
             </div>
             <h1 className="mt-3 text-2xl font-black tracking-tight text-slate-900 dark:text-slate-100 sm:text-3xl">
-              英语语法百科全书与时态速查
+              {t('english.guide.title')}
             </h1>
             <p className="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
-              权威完整的英语语法百科库：涵盖<strong>五大核心句型、定状名三大从句、非谓语动词、虚拟语气、情态推测</strong>，以及以单一经典例句（
-              <span className="font-semibold text-rose-600 dark:text-rose-400">
-                &ldquo;write a letter&rdquo; / 写信
-              </span>
-              ）贯通的 <strong>13大时态 SPO (主谓宾) 蓝图</strong>。
+              {rich('english.guide.intro', undefined, {
+                strong: (text) => <strong>{text}</strong>,
+                hl: (text) => <span className="font-semibold text-rose-600 dark:text-rose-400">{text}</span>,
+              })}
             </p>
           </div>
 
@@ -119,7 +115,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
               className="inline-flex items-center gap-2 rounded-2xl bg-rose-600 px-5 py-3 text-sm font-bold text-white shadow-lg shadow-rose-600/20 transition hover:bg-rose-700 active:scale-95"
             >
               <Zap className="h-4 w-4" />
-              不规则动词专项特训 (V₁ / V₂ / V₃)
+              {t('english.guide.irregularBtn')}
             </button>
           )}
         </div>
@@ -131,7 +127,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="搜索任何英语语法点，例如：定语从句、虚拟语气、倒装句、不定式、现在完成时、happen被动..."
+            placeholder={t('english.guide.searchPlaceholder')}
             className="w-full rounded-2xl border border-slate-200 bg-white/95 py-3.5 pl-12 pr-4 text-sm text-slate-900 shadow-sm placeholder:text-slate-400 focus:border-rose-500 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
           />
         </div>
@@ -147,7 +143,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
             }`}
           >
             <BookOpen className="h-4 w-4" />
-            📖 语法百科速查库 (Grammar Wiki)
+            📖 {t('english.guide.tab.wiki')}
           </button>
           <button
             onClick={() => setActiveTab('tenses')}
@@ -158,7 +154,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
             }`}
           >
             <TableIcon className="h-4 w-4" />
-            ⏱️ 13大时态与SPO总表 (Tenses Blueprint)
+            ⏱️ {t('english.guide.tab.tenses')}
           </button>
           <button
             onClick={() => setActiveTab('passive')}
@@ -169,7 +165,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
             }`}
           >
             <Layers className="h-4 w-4" />
-            🔄 主动与被动语态蜕变规则
+            🔄 {t('english.guide.tab.passive')}
           </button>
           <SpeedControl speech={speech} variant="compact" className="ml-auto" />
         </div>
@@ -193,7 +189,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                   }`}
                 >
                   <span>{cat.icon}</span>
-                  <span>{cat.labelZh}</span>
+                  <span>{t(`english.wiki.category.${cat.id}`)}</span>
                 </button>
               );
             })}
@@ -203,7 +199,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
           <div className="space-y-4">
             {filteredWikiArticles.length === 0 ? (
               <div className="rounded-3xl border border-slate-200 bg-white p-8 text-center text-slate-500 dark:border-slate-700 dark:bg-slate-800">
-                未找到与 &ldquo;{searchQuery}&rdquo; 匹配的语法百科条目。尝试搜索其它关键词。
+                {t('english.wiki.empty', { query: searchQuery })}
               </div>
             ) : (
               filteredWikiArticles.map((art: GrammarWikiArticle) => {
@@ -221,7 +217,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                       <div className="min-w-0 flex-1">
                         <div className="flex flex-wrap items-center gap-2">
                           <span className="rounded-lg bg-rose-100 px-2 py-0.5 text-xs font-bold text-rose-700 dark:bg-rose-950/60 dark:text-rose-300">
-                            CEFR {art.level}
+                            {t('english.wiki.level', { level: art.level })}
                           </span>
                           <h2 className="text-base font-bold text-slate-900 dark:text-slate-100 sm:text-lg">
                             {art.titleZh}
@@ -233,7 +229,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                         </p>
                         {art.formula && (
                           <div className="mt-2 inline-block rounded-lg bg-slate-100 px-2.5 py-1 text-xs font-mono font-semibold text-slate-800 dark:bg-slate-900/60 dark:text-slate-200">
-                            核心公式：{art.formula}
+                            {t('english.wiki.formula', { formula: art.formula })}
                           </div>
                         )}
                       </div>
@@ -243,7 +239,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                           type="button"
                           className="inline-flex items-center gap-1 rounded-xl border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200"
                         >
-                          {isExpanded ? '收起详情' : '展开规则与例句'}
+                          {isExpanded ? t('english.wiki.collapse') : t('english.wiki.expand')}
                           <ChevronDown
                             className={`h-3.5 w-3.5 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
                           />
@@ -270,7 +266,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                                 <button
                                   onClick={() => speech.speak(rule.exampleEn)}
                                   className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-100 hover:text-slate-700 dark:hover:bg-slate-700 dark:hover:text-slate-200"
-                                  title="朗读"
+                                  title={t('topics.listen')}
                                 >
                                   <Volume2 className="h-4 w-4" />
                                 </button>
@@ -285,7 +281,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                           <div className="flex items-start gap-2.5 rounded-2xl border border-amber-200 bg-amber-50/70 p-4 text-xs text-amber-900 dark:border-amber-900/50 dark:bg-amber-950/30 dark:text-amber-200">
                             <AlertTriangle className="h-4 w-4 shrink-0 text-amber-600 dark:text-amber-400 mt-0.5" />
                             <div>
-                              <strong>易错陷阱与避坑准则：</strong> {art.pitfallsZh}
+                              <strong>{t('english.wiki.pitfalls')}</strong> {art.pitfallsZh}
                             </div>
                           </div>
                         )}
@@ -305,20 +301,20 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
           {/* Controls: Tense Group & Person & View */}
           <div className="flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-700 dark:bg-slate-800/80">
             <div className="flex flex-wrap items-center gap-1.5">
-              <span className="mr-1 text-xs font-semibold text-slate-500">时态分组:</span>
+              <span className="mr-1 text-xs font-semibold text-slate-500">{t('english.tense.group')}</span>
               {TENSE_GROUPS.map((g) => {
-                const active = selectedGroup === g.id;
+                const active = selectedGroup === g;
                 return (
                   <button
-                    key={g.id}
-                    onClick={() => setSelectedGroup(g.id)}
+                    key={g}
+                    onClick={() => setSelectedGroup(g)}
                     className={`rounded-xl px-3 py-1.5 text-xs font-bold transition ${
                       active
                         ? 'bg-rose-600 text-white shadow-sm'
                         : 'bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600'
                     }`}
                   >
-                    {g.labelZh}
+                    {t(`english.tenseGroup.${g}`)}
                   </button>
                 );
               })}
@@ -338,9 +334,9 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                           ? 'bg-white font-bold text-rose-600 shadow-sm dark:bg-slate-800 dark:text-rose-400'
                           : 'text-slate-500 hover:text-slate-800 dark:text-slate-400'
                       }`}
-                      title={p.labelZh}
+                      title={t(`english.person.${p.id}`)}
                     >
-                      主语: {p.subjectName}
+                      {t('english.person.subject', { name: p.subjectName })}
                     </button>
                   );
                 })}
@@ -356,7 +352,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                       : 'text-slate-500 hover:text-slate-800 dark:text-slate-400'
                   }`}
                 >
-                  <BookOpen className="h-3.5 w-3.5" /> 结构卡片
+                  <BookOpen className="h-3.5 w-3.5" /> {t('english.tense.viewCards')}
                 </button>
                 <button
                   onClick={() => setTenseViewMode('spo_table')}
@@ -366,7 +362,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                       : 'text-slate-500 hover:text-slate-800 dark:text-slate-400'
                   }`}
                 >
-                  <TableIcon className="h-3.5 w-3.5" /> SPO 主谓宾总表
+                  <TableIcon className="h-3.5 w-3.5" /> {t('english.tense.viewTable')}
                 </button>
               </div>
             </div>
@@ -404,7 +400,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                           onClick={() => setExpandedTenseId(isExpanded ? null : tense.id)}
                           className="inline-flex items-center gap-1 rounded-xl border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-600 dark:text-slate-300 dark:hover:bg-slate-700"
                         >
-                          {isExpanded ? '收起详情' : '展开规则与标志词'}
+                          {isExpanded ? t('english.wiki.collapse') : t('english.tense.expand')}
                           <ChevronDown
                             className={`h-3.5 w-3.5 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
                           />
@@ -418,12 +414,12 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                         <div className="rounded-2xl border border-emerald-100 bg-emerald-50/40 p-4 dark:border-emerald-950/40 dark:bg-emerald-950/20">
                           <div className="flex items-center justify-between">
                             <span className="rounded-md bg-emerald-100 px-2 py-0.5 text-xs font-bold text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-300">
-                              主动语态 (Active Voice)
+                              {t('english.tense.active')}
                             </span>
                             <button
                               onClick={() => speech.speak(conj.fullActive)}
                               className="rounded-lg p-1 text-emerald-700 hover:bg-emerald-100 dark:text-emerald-300 dark:hover:bg-emerald-900/50"
-                              title="听发音"
+                              title={t('topics.listen')}
                             >
                               <Volume2 className="h-4 w-4" />
                             </button>
@@ -439,10 +435,10 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                           <p className="mt-1 text-xs text-slate-600 dark:text-slate-300">{conj.translation}</p>
 
                           <div className="mt-3 text-xs text-emerald-800 dark:text-emerald-300">
-                            <strong>主动公式：</strong> <code className="font-mono">{tense.formulaActive}</code>
+                            <strong>{t('english.tense.activeFormula')}</strong> <code className="font-mono">{tense.formulaActive}</code>
                           </div>
                           <div className="mt-1 text-xs text-slate-500">
-                            动词变化特征：<span className="font-semibold text-emerald-700 dark:text-emerald-400">{conj.changedPart}</span>
+                            {t('english.tense.verbChange')} <span className="font-semibold text-emerald-700 dark:text-emerald-400">{conj.changedPart}</span>
                           </div>
                         </div>
 
@@ -450,33 +446,34 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                         <div className="rounded-2xl border border-sky-100 bg-sky-50/40 p-4 dark:border-sky-950/40 dark:bg-sky-950/20">
                           <div className="flex items-center justify-between">
                             <span className="rounded-md bg-sky-100 px-2 py-0.5 text-xs font-bold text-sky-800 dark:bg-sky-900/60 dark:text-sky-300">
-                              被动语态 (Passive Voice)
+                              {t('english.tense.passive')}
                             </span>
                             <button
                               onClick={() => speech.speak(tense.passive.sentence)}
                               className="rounded-lg p-1 text-sky-700 hover:bg-sky-100 dark:text-sky-300 dark:hover:bg-sky-900/50"
-                              title="听发音"
+                              title={t('topics.listen')}
                             >
                               <Volume2 className="h-4 w-4" />
                             </button>
                           </div>
 
                           <div className="mt-3 text-lg font-bold text-slate-900 dark:text-white">
+                            {/* i18n-ignore: English example sentence */}
                             <span className="text-slate-500">A letter </span>
                             <span className="rounded bg-sky-200/80 px-1.5 py-0.5 text-sky-900 dark:bg-sky-800/80 dark:text-sky-100">
                               {tense.passive.verbPart}
                             </span>{' '}
                             <span className="text-slate-500">
-                              {tense.passive.sentence.includes('by') ? 'by him.' : '.'}
+                              {tense.passive.sentence.includes('by') ? 'by him.' : '.' /* i18n-ignore: English example sentence */}
                             </span>
                           </div>
                           <p className="mt-1 text-xs text-slate-600 dark:text-slate-300">{tense.passive.translation}</p>
 
                           <div className="mt-3 text-xs text-sky-800 dark:text-sky-300">
-                            <strong>被动公式：</strong> <code className="font-mono">{tense.formulaPassive}</code>
+                            <strong>{t('english.tense.passiveFormula')}</strong> <code className="font-mono">{tense.formulaPassive}</code>
                           </div>
                           <div className="mt-1 text-xs text-slate-500">
-                            语态转换关键：<span className="font-medium text-sky-700 dark:text-sky-300">{tense.passive.whatChangedZh}</span>
+                            {t('english.tense.passiveKey')} <span className="font-medium text-sky-700 dark:text-sky-300">{tense.passive.whatChangedZh}</span>
                           </div>
                         </div>
                       </div>
@@ -484,7 +481,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                       {isExpanded && (
                         <div className="mt-5 rounded-2xl border border-slate-100 bg-slate-50/70 p-4 dark:border-slate-700/60 dark:bg-slate-900/40">
                           <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500">
-                            常见时间状语与标志词 (Signal Words):
+                            {t('english.tense.signalWords')}
                           </h3>
                           <div className="mt-2 flex flex-wrap gap-1.5">
                             {tense.signalWords.map((word) => (
@@ -509,13 +506,13 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
               <table className="w-full min-w-[760px] text-left text-xs sm:text-sm">
                 <thead className="border-b border-slate-200 bg-slate-50/80 text-slate-700 dark:border-slate-700 dark:bg-slate-900/50 dark:text-slate-300">
                   <tr>
-                    <th className="px-4 py-3.5 font-bold">时态 (Tense)</th>
-                    <th className="px-3 py-3.5 font-bold">主语 (S)</th>
-                    <th className="px-4 py-3.5 font-bold">谓语动词结构 (V)</th>
-                    <th className="px-3 py-3.5 font-bold">宾语 (O)</th>
-                    <th className="px-4 py-3.5 font-bold">例句 (SPO Complete)</th>
-                    <th className="px-4 py-3.5 font-bold">被动语态对应句</th>
-                    <th className="px-4 py-3.5 font-bold">核心标志词</th>
+                    <th className="px-4 py-3.5 font-bold">{t('english.table.tense')}</th>
+                    <th className="px-3 py-3.5 font-bold">{t('english.table.subject')}</th>
+                    <th className="px-4 py-3.5 font-bold">{t('english.table.verb')}</th>
+                    <th className="px-3 py-3.5 font-bold">{t('english.table.object')}</th>
+                    <th className="px-4 py-3.5 font-bold">{t('english.table.example')}</th>
+                    <th className="px-4 py-3.5 font-bold">{t('english.table.passive')}</th>
+                    <th className="px-4 py-3.5 font-bold">{t('english.table.signal')}</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-100 dark:divide-slate-700/60">
@@ -544,6 +541,8 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                             <button
                               onClick={() => speech.speak(conj.fullActive)}
                               className="text-slate-400 hover:text-slate-700 dark:hover:text-slate-200"
+                              title={t('topics.listen')}
+                              aria-label={t('topics.listen')}
                             >
                               <Volume2 className="h-3.5 w-3.5" />
                             </button>
@@ -576,11 +575,11 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
             <div className="flex items-center gap-2">
               <Layers className="h-5 w-5 text-rose-600 dark:text-rose-400" />
               <h2 className="text-lg font-bold text-slate-900 dark:text-slate-100 sm:text-xl">
-                主动语态 ➔ 被动语态三大黄金蜕变法则
+                {t('english.passive.title')}
               </h2>
             </div>
             <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
-              任何英语主动句转换成被动语态，都严格遵循以下三步流水线：
+              {t('english.passive.intro')}
             </p>
           </div>
 
@@ -601,7 +600,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                 </div>
 
                 <div className="mt-4 rounded-xl border border-slate-200 bg-white p-3 text-xs dark:border-slate-700 dark:bg-slate-800">
-                  <div className="font-semibold text-slate-500">示例演变：</div>
+                  <div className="font-semibold text-slate-500">{t('english.passive.example')}</div>
                   <div className="mt-1 text-slate-800 dark:text-slate-200">{rule.exampleActive}</div>
                   <div className="mt-1 flex items-center gap-1 font-bold text-rose-600 dark:text-rose-400">
                     <ArrowRight className="h-3 w-3" />

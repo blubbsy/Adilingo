@@ -255,10 +255,10 @@ export function recommendations(
       id: 'new',
       kind: 'new',
       title: t('recs.new.title', { count: intake }),
-      body: t('recs.new.body', { level: levelLabel(level, state.settings.course), words: text.formatList(unseen.slice(0, 3).map((u) => u.hanzi)) }),
+      body: t('recs.new.body', { level: levelLabel(level, state.settings.course, t), words: text.formatList(unseen.slice(0, 3).map((u) => u.hanzi)) }),
       action: {
         label: t('recs.new.action', { count: intake }),
-        request: { label: t('recs.new.label', { level: levelLabel(level, state.settings.course) }), mode: 'hanzi', levels: [level as HskLevel], topics: [], limit: intake },
+        request: { label: t('recs.new.label', { level: levelLabel(level, state.settings.course, t) }), mode: 'hanzi', levels: [level as HskLevel], topics: [], limit: intake },
       },
     });
   }

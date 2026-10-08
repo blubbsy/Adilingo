@@ -3,6 +3,7 @@ import type { CardProgress, CourseId, Curriculum, HskLevel, PromptKind, ThemePre
 import legacyIds from '../data/legacyIds.json';
 import { getCourseConfig, isCourseId } from '../data/courses';
 import { detectUiLanguage, isUiLanguage } from '../i18n';
+import { LocalizedError, type LocalizedMessage } from '../i18n/errors';
 
 export const SCHEMA_VERSION = 3;
 const CURRICULUM_IDS: Curriculum[] = ['hsk3_2026', 'hsk3_2021', 'hsk2', 'cefr', 'cet'];
@@ -330,11 +331,11 @@ function sanitizeDailyByCourse(raw: unknown): UserState['stats']['dailyByCourse'
 }
 
 export function migrate(raw: unknown): UserState {
-  if (!isObj(raw)) throw new Error('State is not an object.');
+  if (!isObj(raw)) throw new LocalizedError('errors.storage.notObject');
   let s: Raw = raw;
   let v = num(s.version, 0);
   if (v > SCHEMA_VERSION) {
-    throw new Error(`This backup was made by a newer version of Adilingo (schema v${v}).`);
+    throw new LocalizedError('errors.storage.newerVersion', { version: v });
   }
   while (v < SCHEMA_VERSION) {
     v += 1;
@@ -380,7 +381,7 @@ function readLocal(): unknown {
   }
 }
 
-export async function loadState(): Promise<{ state: UserState; backend: StorageBackend; warning?: string }> {
+export async function loadState(): Promise<{ state: UserState; backend: StorageBackend; warning?: LocalizedMessage }> {
   let raw: unknown;
   const store = getIdbStore();
   if (store) {
@@ -422,7 +423,7 @@ export async function loadState(): Promise<{ state: UserState; backend: StorageB
     return {
       state: createDefaultState(),
       backend,
-      warning: `Saved progress could not be read (${(e as Error).message}). A copy was kept under "${parkedKey}".`,
+      warning: { key: 'errors.storage.unreadable', vars: { storageKey: parkedKey }, cause: e },
     };
   }
 }
@@ -504,9 +505,9 @@ export async function parseBackup(file: File): Promise<{ state: UserState; gramm
   try {
     data = JSON.parse(await file.text());
   } catch {
-    throw new Error('The file is not valid JSON.');
+    throw new LocalizedError('errors.backup.invalidJson');
   }
   if (isObj(data) && (data.app === 'adilingo' || data.app === 'hanzi-flow') && isObj(data.state)) return { state: migrate(data.state), grammar: data.grammar };
   if (isObj(data) && ('progress' in data || 'settings' in data)) return { state: migrate(data) };
-  throw new Error('This does not look like an Adilingo backup.');
+  throw new LocalizedError('errors.backup.notBackup');
 }

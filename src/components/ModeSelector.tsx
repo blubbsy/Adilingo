@@ -66,7 +66,7 @@ export function ModeSelector({ vocab, state, onStart }: Props) {
   const activeModeItem = availableModes.find((m) => m.id === mode) ?? availableModes[0];
   const label = [
     t(activeModeItem.titleKey),
-    levels.length ? levels.map((l) => levelLabel(l, state.settings.course)).join(', ') : '',
+    levels.length ? levels.map((l) => levelLabel(l, state.settings.course, t)).join(', ') : '',
     topics.join(', '),
   ]
     .filter(Boolean)
@@ -110,7 +110,7 @@ export function ModeSelector({ vocab, state, onStart }: Props) {
         <FilterRow label={t('modes.filter.level')}>
           {levelOptions.map((l) => (
             <Chip key={l} active={levels.includes(l)} onClick={() => setLevels((ls) => toggle(ls, l))}>
-              {levelLabel(l, state.settings.course)}
+              {levelLabel(l, state.settings.course, t)}
             </Chip>
           ))}
         </FilterRow>

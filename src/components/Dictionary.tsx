@@ -148,7 +148,7 @@ export function Dictionary({ vocab, state, speech, onStart, onToggleStar }: Prop
               <option value="all">{t('dictionary.filter.allLevels')}</option>
               {levels.map((l) => (
                 <option key={l} value={l}>
-                  {levelLabel(l, state.settings.course)}
+                  {levelLabel(l, state.settings.course, t)}
                 </option>
               ))}
             </select>
@@ -219,7 +219,7 @@ export function Dictionary({ vocab, state, speech, onStart, onToggleStar }: Prop
                     <span className="block truncate text-sm text-slate-600 dark:text-slate-300">{item.english.slice(0, 3).join('; ')}</span>
                   </span>
                   <span className="shrink-0 rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-600 dark:bg-slate-700 dark:text-slate-300">
-                    {levelLabel(item.hskLevel, state.settings.course)}
+                    {levelLabel(item.hskLevel, state.settings.course, t)}
                   </span>
                 </button>
                 <button
@@ -342,14 +342,14 @@ function WordDetail({
         {trackOf(state.settings.course) === 'chinese' ? (
           CURRICULA.map((c) => (
             <div key={c.id} className="rounded-xl bg-slate-50 p-2.5 dark:bg-slate-900/60">
-              <dt className="text-[11px] uppercase tracking-wide text-slate-500">{c.short}</dt>
+              <dt className="text-[11px] uppercase tracking-wide text-slate-500">{t(`curriculum.${c.id}.short`)}</dt>
               <dd className="font-medium">{item.levels[c.id as Curriculum] ? levelLabel(item.levels[c.id as Curriculum]!, 'chinese') : '—'}</dd>
             </div>
           ))
         ) : (
           <div className="rounded-xl bg-slate-50 p-2.5 dark:bg-slate-900/60">
             <dt className="text-[11px] uppercase tracking-wide text-slate-500">{t('dictionary.cefrStandard')}</dt>
-            <dd className="font-medium">{levelLabel(item.hskLevel, state.settings.course)}</dd>
+            <dd className="font-medium">{levelLabel(item.hskLevel, state.settings.course, t)}</dd>
           </div>
         )}
         {item.radical && (

@@ -15,4 +15,5 @@ export const common = {
   'common.close': 'Close',
   'common.cancel': 'Cancel',
   'common.done': 'Done',
+  'common.quote': '“{text}”',
 } as const;

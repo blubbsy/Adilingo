@@ -475,7 +475,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
         <div className="flex items-center justify-between gap-2 text-xs">
           <div className="flex items-center gap-2">
             <span className="rounded-full bg-slate-100 px-2.5 py-1 font-semibold text-slate-700 dark:bg-slate-700 dark:text-slate-300">
-              {levelLabel(item.hskLevel, settings.course ?? 'chinese')}
+              {levelLabel(item.hskLevel, settings.course ?? 'chinese', t)}
             </span>
             <span className="rounded-full bg-rose-50 px-2.5 py-1 font-medium text-rose-700 dark:bg-rose-950/40 dark:text-rose-300">
               {direction === 'recall'

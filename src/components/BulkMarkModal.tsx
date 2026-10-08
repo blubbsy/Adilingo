@@ -64,7 +64,7 @@ export function BulkMarkModal({ vocab, state, isOpen, course = state.settings.co
               >
                 <div>
                   <div className="font-semibold text-slate-900 dark:text-slate-100">
-                    {levelLabel(lvl, course)}
+                    {levelLabel(lvl, course, t)}
                   </div>
                   <div className="text-xs text-slate-500">
                     {t('dictionary.wordCount', { count })}

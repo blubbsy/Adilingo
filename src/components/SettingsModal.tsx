@@ -10,6 +10,7 @@ import { CHINESE_MODES, ENGLISH_MODES } from './ModeSelector';
 import { getStoredSyncKey } from '../utils/syncService';
 import type { MessageKey } from '../i18n';
 import { useI18n } from '../i18n/react';
+import { errorText } from '../i18n/errors';
 import { LanguageMenu } from './LanguageMenu';
 
 interface Props {
@@ -73,7 +74,7 @@ export function SettingsModal({
       const grammarOk = grammar !== undefined && (await importGrammarProgress(grammar)) !== null;
       setMessage({ ok: true, text: t(grammarOk ? 'settings.import.doneGrammar' : 'settings.import.done', { words }) });
     } catch (e) {
-      setMessage({ ok: false, text: (e as Error).message });
+      setMessage({ ok: false, text: errorText(t, e) });
     }
   }
 
@@ -119,9 +120,9 @@ export function SettingsModal({
                 >
                   <div className="flex items-center gap-2">
                     <span className="text-xl">{c.flag}</span>
-                    <span className="font-bold">{c.cardTitle}</span>
+                    <span className="font-bold">{t(c.cardTitleKey)}</span>
                   </div>
-                  <span className="mt-1 block text-xs text-slate-500 dark:text-slate-400">{c.cardSubtitle}</span>
+                  <span className="mt-1 block text-xs text-slate-500 dark:text-slate-400">{t(c.cardSubtitleKey)}</span>
                 </button>
               );
             })}
@@ -145,8 +146,8 @@ export function SettingsModal({
                   s.curriculum === c.id ? 'border-rose-500 bg-rose-50 dark:bg-rose-950/40' : 'border-slate-200 hover:border-slate-300 dark:border-slate-700'
                 }`}
               >
-                <span className="block font-medium">{c.name}</span>
-                <span className="block text-xs text-slate-500 dark:text-slate-400">{c.description}</span>
+                <span className="block font-medium">{t(`curriculum.${c.id}.name`)}</span>
+                <span className="block text-xs text-slate-500 dark:text-slate-400">{t(`curriculum.${c.id}.desc`)}</span>
               </button>
             ))}
           </div>

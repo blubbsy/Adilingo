@@ -17,4 +17,5 @@ export const common: Record<keyof typeof en, string> = {
   'common.close': '关闭',
   'common.cancel': '取消',
   'common.done': '完成',
+  'common.quote': '“{text}”',
 };

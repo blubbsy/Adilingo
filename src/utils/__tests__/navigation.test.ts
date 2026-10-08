@@ -41,7 +41,7 @@ describe('navigation is derived from the course registry', () => {
   it('offers every language course in the quick switchers', () => {
     expect(languageCourses().map((c) => c.id)).toEqual(['chinese', 'english']);
     for (const c of languageCourses()) {
-      expect(c.switcherLabel && c.chipLabel && c.badge && c.cardTitle && c.speechSample).toBeTruthy();
+      expect(c.switcherKey && c.chipLabel && c.badge && c.cardTitleKey && c.cardSubtitleKey && c.nameKey && c.nativeKey && c.speechSample).toBeTruthy();
     }
   });
 });

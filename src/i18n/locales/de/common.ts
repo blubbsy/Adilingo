@@ -17,4 +17,5 @@ export const common: Partial<Record<keyof typeof en, string>> = {
   'common.close': 'Schließen',
   'common.cancel': 'Abbrechen',
   'common.done': 'Fertig',
+  'common.quote': '„{text}“',
 };

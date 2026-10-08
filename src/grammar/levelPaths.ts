@@ -72,7 +72,7 @@ export function buildLevelPaths(
     return {
       id,
       title: t('grammar.paths.syllabusTitle', { level: levelLabel(level) }),
-      description: t('grammar.paths.syllabusDesc', { words: words.length, points: points.length, curriculum: info.short }),
+      description: t('grammar.paths.syllabusDesc', { words: words.length, points: points.length, curriculum: t(`curriculum.${curriculum}.short`) }),
       icon: LEVEL_ICON[level],
       units,
     };

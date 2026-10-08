@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { UserState } from '../types';
+import type { LocalizedMessage } from '../i18n/errors';
 import { createDefaultState, loadState, onRemoteSave, requestStoragePersistence, saveState, type StorageBackend } from '../utils/storage';
 
 export interface UserStateApi {
@@ -7,7 +8,7 @@ export interface UserStateApi {
   ready: boolean;
   backend: StorageBackend;
   /** Set when saved data could not be read; saving stays paused until allowSave(). */
-  loadWarning?: string;
+  loadWarning?: LocalizedMessage;
   update: (fn: (s: UserState) => UserState) => void;
   replace: (s: UserState) => void;
   allowSave: () => void;
@@ -18,7 +19,7 @@ export function useUserState(): UserStateApi {
   const [state, setState] = useState<UserState>(createDefaultState);
   const [ready, setReady] = useState(false);
   const [backend, setBackend] = useState<StorageBackend>('memory');
-  const [loadWarning, setLoadWarning] = useState<string>();
+  const [loadWarning, setLoadWarning] = useState<LocalizedMessage>();
   const latest = useRef(state);
   const dirty = useRef(false);
   const blocked = useRef(false);

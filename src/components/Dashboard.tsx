@@ -20,7 +20,7 @@ import {
 import type { HskLevel, SessionRequest, UserState, VocabItem } from '../types';
 import { accuracyByLevel, averageLatencySec, calculateTrueRetention, recommendations, type Recommendation } from '../utils/analytics';
 import { bulkMarkLevelKnown, dailyLogFor, effectiveStreak, isWordStudied, queueSummary } from '../utils/srsEngine';
-import { curriculumInfo, levelLabel } from '../data/vocab';
+import { levelLabel } from '../data/vocab';
 import { useI18n } from '../i18n/react';
 import { ModeSelector } from './ModeSelector';
 import { PlacementTestModal } from './PlacementTestModal';
@@ -73,7 +73,6 @@ export function Dashboard({
   const latency = averageLatencySec(state);
   const today = dailyLogFor(state).reviewed;
   const seen = useMemo(() => vocab.filter((v) => isWordStudied(state.progress[v.id])).length, [vocab, state.progress]);
-  const info = curriculumInfo(state.settings.curriculum);
   const currentLevel = levels.find((l) => l.learned < l.words) ?? levels[levels.length - 1];
 
   const summary = useMemo(() => queueSummary(vocab, state), [vocab, state]);
@@ -326,7 +325,7 @@ export function Dashboard({
         <section className={`${panel} p-5`}>
           <div className="flex items-baseline justify-between gap-2">
             <h2 className="font-semibold">{t('dashboard.syllabusProgress')}</h2>
-            <span className="text-xs text-slate-500">{info.short}</span>
+            <span className="text-xs text-slate-500">{t(`curriculum.${state.settings.curriculum}.short`)}</span>
           </div>
           <p className="mt-0.5 text-xs text-slate-500">
             {t('dashboard.wordsLearned', {
@@ -339,7 +338,7 @@ export function Dashboard({
             {levels.map((l) => {
               const pct = l.words ? Math.round((l.learned / l.words) * 100) : 0;
               const isCurrent = l.level === currentLevel?.level;
-              const lvlName = levelLabel(l.level, state.settings.course);
+              const lvlName = levelLabel(l.level, state.settings.course, t);
               return (
                 <li key={l.level} className="group rounded-xl p-1 transition hover:bg-slate-50 dark:hover:bg-slate-800/50" title={t('dashboard.levelWordsLearned', { learned: l.learned, total: l.words, level: lvlName })}>
                   <div className="flex items-baseline justify-between text-sm">

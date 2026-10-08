@@ -14,6 +14,8 @@ import {
 } from '../data/irregularVerbs';
 import type { SpeechApi } from '../utils/speech';
 import { SpeedControl } from './SpeedControl';
+import type { MessageKey } from '../i18n';
+import { useI18n } from '../i18n/react';
 
 interface Props {
   speech: SpeechApi;
@@ -22,30 +24,31 @@ interface Props {
 
 type DrillMode = 'cards' | 'cloze' | 'browse';
 
-const PATTERN_LABELS: Record<IrregularPattern, { label: string; desc: string; color: string }> = {
+const PATTERN_LABELS: Record<IrregularPattern, { label: MessageKey; desc: MessageKey; color: string }> = {
   AAA: {
-    label: 'AAA 模式',
-    desc: '原形 = 过去式 = 过去分词 (如 cut - cut - cut)',
+    label: 'english.irregular.pattern.AAA.label',
+    desc: 'english.irregular.pattern.AAA.desc',
     color: 'bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-950/40 dark:text-emerald-300 dark:border-emerald-800',
   },
   ABB: {
-    label: 'ABB 模式',
-    desc: '过去式 = 过去分词 (如 buy - bought - bought)',
+    label: 'english.irregular.pattern.ABB.label',
+    desc: 'english.irregular.pattern.ABB.desc',
     color: 'bg-amber-50 text-amber-700 border-amber-200 dark:bg-amber-950/40 dark:text-amber-300 dark:border-amber-800',
   },
   ABC: {
-    label: 'ABC 模式',
-    desc: '三态各不相同 (如 write - wrote - written)',
+    label: 'english.irregular.pattern.ABC.label',
+    desc: 'english.irregular.pattern.ABC.desc',
     color: 'bg-rose-50 text-rose-700 border-rose-200 dark:bg-rose-950/40 dark:text-rose-300 dark:border-rose-800',
   },
   ABA: {
-    label: 'ABA 模式',
-    desc: '原形 = 过去分词 (如 become - became - become)',
+    label: 'english.irregular.pattern.ABA.label',
+    desc: 'english.irregular.pattern.ABA.desc',
     color: 'bg-purple-50 text-purple-700 border-purple-200 dark:bg-purple-950/40 dark:text-purple-300 dark:border-purple-800',
   },
 };
 
 export function IrregularVerbsTrainer({ speech, onBack }: Props) {
+  const { t, rich } = useI18n();
   const [drillMode, setDrillMode] = useState<DrillMode>('cards');
   const [selectedPattern, setSelectedPattern] = useState<IrregularPattern | 'all'>('all');
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -136,17 +139,17 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
             <button
               onClick={onBack}
               className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
-              title="返回"
+              title={t('common.back')}
             >
               <ArrowLeft className="h-4 w-4" />
             </button>
           )}
           <div>
             <div className="inline-flex items-center gap-1.5 rounded-full bg-rose-100 px-3 py-0.5 text-xs font-semibold text-rose-800 dark:bg-rose-950/60 dark:text-rose-300">
-              <Zap className="h-3 w-3" /> 不规则动词突破库 (V₁ · V₂ · V₃)
+              <Zap className="h-3 w-3" /> {t('english.irregular.badge')}
             </div>
             <h1 className="mt-1 text-2xl font-black text-slate-900 dark:text-slate-100">
-              英语不规则动词四维规律特训
+              {t('english.irregular.title')}
             </h1>
           </div>
         </div>
@@ -164,7 +167,7 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
                 : 'text-slate-500 hover:text-slate-900 dark:text-slate-400'
             }`}
           >
-            三态卡片记忆
+            {t('english.irregular.mode.cards')}
           </button>
           <button
             onClick={() => {
@@ -177,7 +180,7 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
                 : 'text-slate-500 hover:text-slate-900 dark:text-slate-400'
             }`}
           >
-            语境填空特训
+            {t('english.irregular.mode.cloze')}
           </button>
           <button
             onClick={() => setDrillMode('browse')}
@@ -187,14 +190,14 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
                 : 'text-slate-500 hover:text-slate-900 dark:text-slate-400'
             }`}
           >
-            分类词典全览
+            {t('english.irregular.mode.browse')}
           </button>
         </div>
       </header>
 
       {/* Pattern Filter Bar */}
       <section className="flex flex-wrap items-center gap-2">
-        <span className="text-xs font-semibold text-slate-500">记忆模型:</span>
+        <span className="text-xs font-semibold text-slate-500">{t('english.irregular.models')}</span>
         <button
           onClick={() => {
             setSelectedPattern('all');
@@ -207,7 +210,7 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
               : 'border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300'
           }`}
         >
-          全部规律 ({IRREGULAR_VERBS.length})
+          {t('english.irregular.allPatterns', { count: IRREGULAR_VERBS.length })}
         </button>
 
         {(['AAA', 'ABB', 'ABC', 'ABA'] as IrregularPattern[]).map((pat) => {
@@ -227,7 +230,7 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
                   : PATTERN_LABELS[pat].color
               }`}
             >
-              {pat} ({count}词)
+              {t('english.irregular.patternCount', { pattern: pat, count })}
             </button>
           );
         })}
@@ -238,12 +241,12 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
         <section className="mx-auto max-w-2xl space-y-5">
           <div className="flex items-center justify-between text-xs text-slate-500">
             <span>
-              进度: <strong className="text-slate-900 dark:text-slate-100">{currentIndex + 1}</strong> / {filteredVerbs.length}
+              {rich('english.irregular.progress', { current: currentIndex + 1, total: filteredVerbs.length }, { strong: (text) => <strong className="text-slate-900 dark:text-slate-100">{text}</strong> })}
             </span>
             <span className="inline-flex items-center gap-2">
               <SpeedControl speech={speech} variant="compact" />
               <span className="rounded-lg border px-2 py-0.5 font-semibold text-xs border-slate-200 dark:border-slate-700">
-                {PATTERN_LABELS[currentVerb.pattern].label}
+                {t(PATTERN_LABELS[currentVerb.pattern].label)}
               </span>
             </span>
           </div>
@@ -251,7 +254,7 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
           <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm dark:border-slate-700 dark:bg-slate-800">
             {/* Front: Prompt Base Verb */}
             <div className="p-8 text-center sm:p-12">
-              <span className="text-xs uppercase tracking-widest text-slate-400">Base Form (V₁)</span>
+              <span className="text-xs uppercase tracking-widest text-slate-400">{t('english.irregular.baseForm')}</span>
               <div className="mt-2 flex items-center justify-center gap-3">
                 <h2 className="text-4xl font-black text-slate-900 dark:text-slate-100 sm:text-5xl">
                   {currentVerb.v1}
@@ -259,7 +262,7 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
                 <button
                   onClick={() => speech.speak(currentVerb.v1)}
                   className="rounded-full bg-slate-100 p-2 text-slate-600 hover:bg-slate-200 dark:bg-slate-700 dark:text-slate-300"
-                  title="朗读"
+                  title={t('topics.listen')}
                 >
                   <Volume2 className="h-5 w-5" />
                 </button>
@@ -275,7 +278,7 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
                     onClick={() => setRevealed(true)}
                     className="rounded-2xl bg-slate-900 px-8 py-3.5 text-sm font-bold text-white shadow-md hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-white"
                   >
-                    查看三态变换 (Space / 点击)
+                    {t('english.irregular.reveal')}
                   </button>
                 </div>
               ) : (
@@ -285,7 +288,7 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
                     {/* Past Form V2 */}
                     <div className="rounded-2xl border border-amber-200 bg-amber-50/60 p-4 text-left dark:border-amber-900/40 dark:bg-amber-950/20">
                       <div className="flex items-center justify-between text-xs font-bold text-amber-800 dark:text-amber-300">
-                        <span>过去式 (V₂ / Past)</span>
+                        <span>{t('english.irregular.past')}</span>
                         <button
                           onClick={() => speech.speak(currentVerb.v2)}
                           className="text-amber-700 hover:text-amber-900 dark:text-amber-300"
@@ -298,14 +301,14 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
                       </div>
                       <div className="text-xs text-slate-500">{currentVerb.ipaV2}</div>
                       <div className="mt-2 text-xs italic text-slate-600 dark:text-slate-300">
-                        &ldquo;{currentVerb.exampleSentence.v2}&rdquo;
+                        {t('common.quote', { text: currentVerb.exampleSentence.v2 })}
                       </div>
                     </div>
 
                     {/* Past Participle V3 */}
                     <div className="rounded-2xl border border-emerald-200 bg-emerald-50/60 p-4 text-left dark:border-emerald-900/40 dark:bg-emerald-950/20">
                       <div className="flex items-center justify-between text-xs font-bold text-emerald-800 dark:text-emerald-300">
-                        <span>过去分词 (V₃ / Participle)</span>
+                        <span>{t('english.irregular.participle')}</span>
                         <button
                           onClick={() => speech.speak(currentVerb.v3)}
                           className="text-emerald-700 hover:text-emerald-900 dark:text-emerald-300"
@@ -318,7 +321,7 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
                       </div>
                       <div className="text-xs text-slate-500">{currentVerb.ipaV3}</div>
                       <div className="mt-2 text-xs italic text-slate-600 dark:text-slate-300">
-                        &ldquo;{currentVerb.exampleSentence.v3}&rdquo;
+                        {t('common.quote', { text: currentVerb.exampleSentence.v3 })}
                       </div>
                     </div>
                   </div>
@@ -326,7 +329,7 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
                   {/* Pattern Advice */}
                   <div className="rounded-xl bg-slate-50 p-3 text-xs text-slate-600 dark:bg-slate-900/50 dark:text-slate-400">
                     <Sparkles className="mr-1 inline-block h-3.5 w-3.5 text-amber-500" />
-                    <strong>规律解析：</strong> {PATTERN_LABELS[currentVerb.pattern].desc}
+                    <strong>{t('english.irregular.advice')}</strong> {t(PATTERN_LABELS[currentVerb.pattern].desc)}
                   </div>
                 </div>
               )}
@@ -338,13 +341,13 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
                 onClick={handlePrev}
                 className="rounded-xl border border-slate-200 bg-white px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
               >
-                上一个
+                {t('english.irregular.prev')}
               </button>
               <button
                 onClick={handleNext}
                 className="rounded-xl bg-rose-600 px-6 py-2 text-xs font-bold text-white hover:bg-rose-700 shadow-sm"
               >
-                下一个动词 ➔
+                {t('english.irregular.next')}
               </button>
             </div>
           </div>
@@ -356,21 +359,25 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
         <section className="mx-auto max-w-2xl space-y-6">
           <div className="flex items-center justify-between text-xs text-slate-500">
             <span>
-              题量: <strong className="text-slate-900 dark:text-slate-100">{currentIndex + 1}</strong> / {filteredVerbs.length}
+              {rich('english.irregular.questions', { current: currentIndex + 1, total: filteredVerbs.length }, { strong: (text) => <strong className="text-slate-900 dark:text-slate-100">{text}</strong> })}
             </span>
             <span>
-              目标考核: <strong className="text-rose-600 dark:text-rose-400">{clozeData.targetType === 'v2' ? '过去式 (V₂)' : '过去分词 (V₃)'}</strong>
+              {rich(
+                'english.irregular.target',
+                { form: t(clozeData.targetType === 'v2' ? 'english.irregular.formV2' : 'english.irregular.formV3') },
+                { strong: (text) => <strong className="text-rose-600 dark:text-rose-400">{text}</strong> },
+              )}
             </span>
           </div>
 
           <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-800 sm:p-8">
             <div className="text-xs font-semibold uppercase tracking-wider text-slate-400">
-              请选择正确的动词形态填入句中：
+              {t('english.irregular.choose')}
             </div>
 
             <div className="mt-4 text-center">
               <span className="rounded-lg bg-rose-50 px-3 py-1 text-sm font-bold text-rose-700 dark:bg-rose-950/60 dark:text-rose-300">
-                原形动词: {currentVerb.v1} ({currentVerb.meaningZh})
+                {t('english.irregular.baseVerb', { verb: currentVerb.v1, meaning: currentVerb.meaningZh })}
               </span>
             </div>
 
@@ -430,11 +437,11 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
                 <div className="flex items-center gap-2">
                   {clozeAnswerState.isCorrect ? (
                     <div className="flex items-center gap-1.5 text-sm font-bold text-emerald-600 dark:text-emerald-400">
-                      <CheckCircle2 className="h-5 w-5" /> 正确！
+                      <CheckCircle2 className="h-5 w-5" /> {t('grammar.exercise.correct')}
                     </div>
                   ) : (
                     <div className="flex items-center gap-1.5 text-sm font-bold text-rose-600 dark:text-rose-400">
-                      <XCircle className="h-5 w-5" /> 正确答案是: {clozeData.targetWord}
+                      <XCircle className="h-5 w-5" /> {t('english.irregular.wrong', { answer: clozeData.targetWord })}
                     </div>
                   )}
                 </div>
@@ -443,7 +450,7 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
                   onClick={handleNext}
                   className="rounded-xl bg-slate-900 px-6 py-2.5 text-xs font-bold text-white hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-white"
                 >
-                  下一题 ➔
+                  {t('english.irregular.nextQuestion')}
                 </button>
               </div>
             )}
@@ -459,7 +466,7 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="搜索原形、过去式、分词或中文释义..."
+              placeholder={t('english.irregular.search')}
               className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 shadow-sm placeholder:text-slate-400 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
             />
           </div>
@@ -468,12 +475,12 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
             <table className="w-full min-w-[680px] text-left text-xs sm:text-sm">
               <thead className="border-b border-slate-200 bg-slate-50/80 text-slate-700 dark:border-slate-700 dark:bg-slate-900/50 dark:text-slate-300">
                 <tr>
-                  <th className="px-4 py-3.5 font-bold">模式</th>
-                  <th className="px-4 py-3.5 font-bold">原形 (Base V₁)</th>
-                  <th className="px-4 py-3.5 font-bold">过去式 (Past V₂)</th>
-                  <th className="px-4 py-3.5 font-bold">过去分词 (Participle V₃)</th>
-                  <th className="px-4 py-3.5 font-bold">释义</th>
-                  <th className="px-4 py-3.5 font-bold">发音</th>
+                  <th className="px-4 py-3.5 font-bold">{t('english.irregular.col.pattern')}</th>
+                  <th className="px-4 py-3.5 font-bold">{t('english.irregular.col.base')}</th>
+                  <th className="px-4 py-3.5 font-bold">{t('english.irregular.col.past')}</th>
+                  <th className="px-4 py-3.5 font-bold">{t('english.irregular.col.participle')}</th>
+                  <th className="px-4 py-3.5 font-bold">{t('english.irregular.col.meaning')}</th>
+                  <th className="px-4 py-3.5 font-bold">{t('english.irregular.col.pronunciation')}</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100 dark:divide-slate-700/60">
@@ -503,7 +510,7 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
                       <button
                         onClick={() => speech.speak(`${v.v1}, ${v.v2}, ${v.v3}`)}
                         className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-100 hover:text-slate-700 dark:hover:bg-slate-700 dark:hover:text-slate-200"
-                        title="朗读三态"
+                        title={t('english.irregular.speakAll')}
                       >
                         <Volume2 className="h-4 w-4" />
                       </button>

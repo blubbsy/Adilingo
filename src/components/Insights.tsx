@@ -45,7 +45,7 @@ export function Insights({ vocab, state, onStart }: Props) {
           <h2 className="font-semibold">{t(isEnglish ? 'insights.accuracy.cefr' : 'insights.accuracy.hsk')}</h2>
           <div className="mt-4 space-y-3">
             {levels.map((l) => (
-              <BarRow key={l.level} label={levelLabel(l.level, state.settings.course)} ratio={l.ratio} extra={t('insights.learnedOf', { learned: l.learned, total: l.words })} />
+              <BarRow key={l.level} label={levelLabel(l.level, state.settings.course, t)} ratio={l.ratio} extra={t('insights.learnedOf', { learned: l.learned, total: l.words })} />
             ))}
           </div>
         </section>

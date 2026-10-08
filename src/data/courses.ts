@@ -1,5 +1,6 @@
 import type { CourseId, Curriculum, HskLevel, TrackId } from '../types';
 import type { UiLanguage } from '../i18n/types';
+import type { MessageKey } from '../i18n';
 
 export type { CourseId, TrackId };
 
@@ -24,13 +25,15 @@ export interface CourseConfig {
   track: TrackId;
   /** Interface language used until the learner picks one. */
   defaultUiLanguage: UiLanguage;
-  /** Short texts for the logo tile and course switchers. */
+  /** Logo tile and the short, language-neutral chip in the top bar. */
   badge: string;
-  switcherLabel: string;
   chipLabel: string;
-  /** Course card in Settings. */
-  cardTitle: string;
-  cardSubtitle: string;
+  /** Display texts, as message keys so they follow the interface language. */
+  nameKey: MessageKey;
+  nativeKey: MessageKey;
+  switcherKey: MessageKey;
+  cardTitleKey: MessageKey;
+  cardSubtitleKey: MessageKey;
   /** Sample phrase for the audio test button. */
   speechSample: string;
   /** Screens available in this course, in navigation order. Anything else redirects. */
@@ -78,10 +81,12 @@ export const COURSES: Record<CourseId, CourseConfig> = {
     track: 'chinese',
     defaultUiLanguage: 'en',
     badge: '汉',
-    switcherLabel: '中文 HSK',
     chipLabel: 'HSK',
-    cardTitle: 'Mandarin (HSK)',
-    cardSubtitle: 'HSK 1–9 Syllabus · 汉字 & Pinyin',
+    nameKey: 'course.chinese.name',
+    nativeKey: 'course.chinese.native',
+    switcherKey: 'course.chinese.switcher',
+    cardTitleKey: 'course.chinese.cardTitle',
+    cardSubtitleKey: 'course.chinese.cardSubtitle',
     speechSample: '你好，欢迎！',
     views: ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements'],
     mobileViews: ['home', 'learn', 'topics', 'dictionary', 'insights'],
@@ -147,10 +152,12 @@ export const COURSES: Record<CourseId, CourseConfig> = {
     track: 'english',
     defaultUiLanguage: 'zh',
     badge: 'A',
-    switcherLabel: '英语 CEFR',
     chipLabel: 'CEFR',
-    cardTitle: 'English (英语)',
-    cardSubtitle: 'CEFR A1–C2 · 中考·高考·四六级',
+    nameKey: 'course.english.name',
+    nativeKey: 'course.english.native',
+    switcherKey: 'course.english.switcher',
+    cardTitleKey: 'course.english.cardTitle',
+    cardSubtitleKey: 'course.english.cardSubtitle',
     speechSample: 'Hello, welcome to English training!',
     views: ['home', 'learn', 'grammar', 'irregular', 'topics', 'dictionary', 'insights', 'achievements'],
     mobileViews: ['home', 'learn', 'grammar', 'irregular', 'dictionary'],

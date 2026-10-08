@@ -3,8 +3,11 @@ import { achievements } from './achievements';
 import { badges } from './badges';
 import { bulk } from './bulk';
 import { common } from './common';
+import { courses } from './courses';
 import { dashboard } from './dashboard';
 import { dictionary } from './dictionary';
+import { english } from './english';
+import { errors } from './errors';
 import { grammar } from './grammar';
 import { insights } from './insights';
 import { modes } from './modes';
@@ -21,8 +24,11 @@ export const zh: Record<MessageKey, string> = {
   ...badges,
   ...bulk,
   ...common,
+  ...courses,
   ...dashboard,
   ...dictionary,
+  ...english,
+  ...errors,
   ...grammar,
   ...insights,
   ...modes,

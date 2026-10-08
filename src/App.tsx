@@ -5,7 +5,7 @@ import { useUserState } from './hooks/useUserState';
 import { useSpeech } from './utils/speech';
 import { buildSession, effectiveStreak, recordReview } from './utils/srsEngine';
 import { newlyUnlocked, type Badge } from './utils/analytics';
-import { curriculumInfo, loadLibrary, vocabForCurriculum, type VocabLibrary } from './data/vocab';
+import { loadLibrary, vocabForCurriculum, type VocabLibrary } from './data/vocab';
 import { ALL_VIEW_IDS, fallbackView, getCourseConfig, isViewAvailable, languageCourses, type CourseId, type ViewId } from './data/courses';
 import { mobileNavItemsFor, navItemsFor, type NavItem } from './utils/navigation';
 import { Dashboard } from './components/Dashboard';
@@ -22,6 +22,7 @@ import { IrregularVerbsTrainer } from './components/IrregularVerbsTrainer';
 import { type UiLanguage } from './i18n';
 import { I18nContext, createI18n, useDocumentLanguage, useLoadedLanguage } from './i18n/react';
 import { LanguageMenu } from './components/LanguageMenu';
+import { describeMessage } from './i18n/errors';
 import { badgeTitle } from './utils/badgeText';
 import type { CardResult } from './components/ReviewCard';
 import { GrammarHub } from './grammar';
@@ -352,7 +353,6 @@ export default function App() {
     if (view === 'study' && !session) navigate('home');
   }, [view, session, navigate]);
   const studying = view === 'study' && session !== null;
-  const info = curriculumInfo(curriculum);
 
   const content = useMemo(() => {
     if (libraryError) {
@@ -489,7 +489,7 @@ export default function App() {
             </span>
             <span className="text-left">
               <span className="block text-lg font-bold leading-tight tracking-tight">Adilingo</span>
-              <span className="block text-xs text-slate-500">{courseConfig.nativeName}</span>
+              <span className="block text-xs text-slate-500">{t(courseConfig.nativeKey)}</span>
             </span>
           </button>
         </div>
@@ -502,6 +502,7 @@ export default function App() {
                 key={c.id}
                 type="button"
                 onClick={() => switchCourse(c.id)}
+                data-course={c.id}
                 aria-pressed={activeCourse === c.id}
                 className={`flex items-center justify-center gap-1.5 rounded-xl py-1.5 text-xs font-semibold transition ${
                   activeCourse === c.id
@@ -510,7 +511,7 @@ export default function App() {
                 }`}
               >
                 <span>{c.flag}</span>
-                <span>{c.switcherLabel}</span>
+                <span>{t(c.switcherKey)}</span>
               </button>
             ))}
           </div>
@@ -571,7 +572,7 @@ export default function App() {
                 switchCourse(list[(idx + 1) % list.length].id);
               }}
               className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs font-semibold hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:hover:bg-slate-700"
-              title={t('app.switchCourse', { name: courseConfig.name })}
+              title={t('app.switchCourse', { name: t(courseConfig.nameKey) })}
             >
               <span>{courseConfig.flag}</span>
               <span>{courseConfig.chipLabel}</span>
@@ -602,7 +603,7 @@ export default function App() {
         {loadWarning && (
           <div role="alert" className="border-b border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900 dark:border-amber-900 dark:bg-amber-950/60 dark:text-amber-200">
             <div className="mx-auto flex max-w-6xl items-center justify-between gap-4">
-              <span>{loadWarning}</span>
+              <span>{describeMessage(t, loadWarning)}</span>
               <button onClick={allowSave} className="mt-2 rounded-lg bg-amber-600 px-3 py-1.5 font-medium text-white hover:bg-amber-700">
                 {t('app.startFresh')}
               </button>
@@ -619,7 +620,7 @@ export default function App() {
         </main>
 
         <footer className={`mx-auto max-w-6xl px-4 pb-8 text-center text-xs text-slate-400 ${studying || !loaded ? 'hidden' : 'hidden md:block'}`}>
-          {t(courseConfig.track === 'english' ? 'app.footer.english' : 'app.footer.chinese', { words: vocab.length, curriculum: info.name })}
+          {t(courseConfig.track === 'english' ? 'app.footer.english' : 'app.footer.chinese', { words: vocab.length, curriculum: t(`curriculum.${curriculum}.name`) })}
         </footer>
       </div>
 

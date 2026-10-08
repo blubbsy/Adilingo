@@ -1,5 +1,6 @@
 import type { CourseId, Curriculum, HskLevel, VocabItem } from '../types';
 import { trackOf } from './courses';
+import type { TFunction } from '../i18n';
 
 /** Compact record produced by scripts/build-vocab.mjs. */
 export interface WordRecord {
@@ -76,8 +77,13 @@ const ENGLISH_LEVEL_LABELS: Record<number, string> = {
   6: 'C2 · 考研',
 };
 
-export function levelLabel(level: number, courseId?: CourseId | number): string {
+/**
+ * Display name of a level. Pass the translator (`t` from `useI18n`) to get the interface language for the
+ * English course's exam-based levels ("B1 · Gaokao" / "B1 · 高考"); without it the Chinese labels are used.
+ */
+export function levelLabel(level: number, courseId?: CourseId | number, t?: TFunction): string {
   if (typeof courseId === 'string' && trackOf(courseId) === 'english') {
+    if (t && level >= 1 && level <= 6) return t(`level.english.${level as 1 | 2 | 3 | 4 | 5 | 6}`);
     return ENGLISH_LEVEL_LABELS[level] ?? `Level ${level}`;
   }
   return level === 7 ? 'HSK 7–9' : `HSK ${level}`;

@@ -174,7 +174,7 @@ export function PlacementTestModal({ vocab, isOpen, course = 'chinese', onClose,
             {question && (
               <div className="mt-8 text-center">
                 <span className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-700 dark:text-slate-300">
-                  {t('placement.testing', { level: levelLabel(question.level, course) })}
+                  {t('placement.testing', { level: levelLabel(question.level, course, t) })}
                 </span>
 
                 <div className={`my-6 text-6xl font-bold tracking-wide text-slate-900 dark:text-slate-100 ${
@@ -223,12 +223,12 @@ export function PlacementTestModal({ vocab, isOpen, course = 'chinese', onClose,
             </div>
 
             <h3 className="mt-4 text-2xl font-bold text-slate-900 dark:text-slate-100">
-              {t('placement.recommended', { level: levelLabel(estimatedLevel, course) })}
+              {t('placement.recommended', { level: levelLabel(estimatedLevel, course, t) })}
             </h3>
 
             <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
               {estimatedLevel > 1
-                ? t('placement.basis', { level: levelLabel(estimatedLevel - 1, course) })
+                ? t('placement.basis', { level: levelLabel(estimatedLevel - 1, course, t) })
                 : t('placement.basisBeginner')}
             </p>
 
@@ -238,7 +238,7 @@ export function PlacementTestModal({ vocab, isOpen, course = 'chinese', onClose,
                   <CheckCircle2 className="h-5 w-5" /> {t('placement.skip.title')}
                 </div>
                 <p className="mt-1 text-xs text-emerald-700 dark:text-emerald-400">
-                  {t('placement.skip.desc', { levels: formatList(priorLevelsToMark.map((l) => levelLabel(l, course))), start: levelLabel(estimatedLevel, course) })}
+                  {t('placement.skip.desc', { levels: formatList(priorLevelsToMark.map((l) => levelLabel(l, course, t))), start: levelLabel(estimatedLevel, course, t) })}
                 </p>
               </div>
             )}
@@ -249,7 +249,7 @@ export function PlacementTestModal({ vocab, isOpen, course = 'chinese', onClose,
                   onClick={() => handleApplyPlacement(true)}
                   className="flex w-full items-center justify-center gap-2 rounded-xl bg-rose-600 px-5 py-3 font-semibold text-white shadow-lg shadow-rose-600/20 hover:bg-rose-700 transition"
                 >
-                  {t('placement.markAndStart', { levels: formatList(priorLevelsToMark.map((l) => levelLabel(l, course))) })}
+                  {t('placement.markAndStart', { levels: formatList(priorLevelsToMark.map((l) => levelLabel(l, course, t))) })}
                   <ChevronRight className="h-4 w-4" />
                 </button>
               )}
