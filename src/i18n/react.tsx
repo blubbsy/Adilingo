@@ -6,6 +6,7 @@ import {
   formatDate,
   formatList,
   formatNumber,
+  formatRelative,
   hasMessage,
   isLocaleLoaded,
   loadLocale,
@@ -28,6 +29,7 @@ export interface I18n {
   /** Lookup for keys built from data ids (e.g. `badge.${id}.title`); returns `fallback` when the key does not exist. */
   tx: (key: string, fallback: string, vars?: MessageVars) => string;
   formatList: (items: string[]) => string;
+  formatRelative: (value: number, unit: Intl.RelativeTimeFormatUnit) => string;
   formatNumber: (value: number, options?: Intl.NumberFormatOptions) => string;
   formatDate: (value: Date | number, options?: Intl.DateTimeFormatOptions) => string;
 }
@@ -47,6 +49,7 @@ export function createI18n(lang: UiLanguage): I18n {
       ),
     tx: (key, fallback, vars) => (hasMessage(key) ? translateUnsafe(lang, key, vars) : fallback),
     formatList: (items) => formatList(lang, items),
+    formatRelative: (value, unit) => formatRelative(lang, value, unit),
     formatNumber: (value, options) => formatNumber(lang, value, options),
     formatDate: (value, options) => formatDate(lang, value, options),
   };

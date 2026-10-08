@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { X, Award, CheckCircle2, ChevronRight, Sparkles } from 'lucide-react';
 import type { CourseId, HskLevel, VocabItem } from '../types';
 import { levelLabel } from '../data/vocab';
+import { useI18n } from '../i18n/react';
 
 interface Props {
   vocab: VocabItem[];
@@ -21,6 +22,7 @@ interface Question {
 const TOTAL_QUESTIONS = 15;
 
 export function PlacementTestModal({ vocab, isOpen, course = 'chinese', onClose, onComplete }: Props) {
+  const { t, formatList } = useI18n();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentLevel, setCurrentLevel] = useState<HskLevel>(2);
   const [history, setHistory] = useState<{ level: HskLevel; correct: boolean }[]>([]);
@@ -145,7 +147,7 @@ export function PlacementTestModal({ vocab, isOpen, course = 'chinese', onClose,
         <button
           onClick={onClose}
           className="absolute right-4 top-4 rounded-xl p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-600 dark:hover:bg-slate-700"
-          aria-label="Close"
+          aria-label={t('common.close')}
         >
           <X className="h-5 w-5" />
         </button>
@@ -154,7 +156,7 @@ export function PlacementTestModal({ vocab, isOpen, course = 'chinese', onClose,
           <div>
             <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-slate-500">
               <span className="flex items-center gap-1.5">
-                <Sparkles className="h-4 w-4 text-rose-500" /> Adaptive Placement Test
+                <Sparkles className="h-4 w-4 text-rose-500" /> {t('placement.title')}
               </span>
               <span>
                 {currentIndex + 1} / {TOTAL_QUESTIONS}
@@ -172,7 +174,7 @@ export function PlacementTestModal({ vocab, isOpen, course = 'chinese', onClose,
             {question && (
               <div className="mt-8 text-center">
                 <span className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-700 dark:text-slate-300">
-                  Testing {levelLabel(question.level, course)}
+                  {t('placement.testing', { level: levelLabel(question.level, course) })}
                 </span>
 
                 <div className={`my-6 text-6xl font-bold tracking-wide text-slate-900 dark:text-slate-100 ${
@@ -181,7 +183,7 @@ export function PlacementTestModal({ vocab, isOpen, course = 'chinese', onClose,
                   {question.item.hanzi}
                 </div>
 
-                <p className="mb-6 text-sm text-slate-500">What does this word mean?</p>
+                <p className="mb-6 text-sm text-slate-500">{t('placement.question')}</p>
 
                 <div className="grid grid-cols-1 gap-2.5 text-left">
                   {question.options.map((opt, idx) => {
@@ -221,21 +223,22 @@ export function PlacementTestModal({ vocab, isOpen, course = 'chinese', onClose,
             </div>
 
             <h3 className="mt-4 text-2xl font-bold text-slate-900 dark:text-slate-100">
-              Recommended: {levelLabel(estimatedLevel, course)}
+              {t('placement.recommended', { level: levelLabel(estimatedLevel, course) })}
             </h3>
 
             <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
-              Based on your adaptive responses, you have demonstrated solid knowledge of vocabulary up to{' '}
-              {estimatedLevel > 1 ? levelLabel(estimatedLevel - 1, course) : 'beginner'} level.
+              {estimatedLevel > 1
+                ? t('placement.basis', { level: levelLabel(estimatedLevel - 1, course) })
+                : t('placement.basisBeginner')}
             </p>
 
             {priorLevelsToMark.length > 0 && (
               <div className="mt-6 rounded-2xl border border-emerald-200 bg-emerald-50/50 p-4 text-left dark:border-emerald-900/50 dark:bg-emerald-950/20">
                 <div className="flex items-center gap-2 font-semibold text-emerald-800 dark:text-emerald-300">
-                  <CheckCircle2 className="h-5 w-5" /> Skip beginner grind
+                  <CheckCircle2 className="h-5 w-5" /> {t('placement.skip.title')}
                 </div>
                 <p className="mt-1 text-xs text-emerald-700 dark:text-emerald-400">
-                  Mark all {priorLevelsToMark.map((l) => levelLabel(l, course)).join(', ')} words as already known so your daily queue starts directly at {levelLabel(estimatedLevel, course)}.
+                  {t('placement.skip.desc', { levels: formatList(priorLevelsToMark.map((l) => levelLabel(l, course))), start: levelLabel(estimatedLevel, course) })}
                 </p>
               </div>
             )}
@@ -246,7 +249,7 @@ export function PlacementTestModal({ vocab, isOpen, course = 'chinese', onClose,
                   onClick={() => handleApplyPlacement(true)}
                   className="flex w-full items-center justify-center gap-2 rounded-xl bg-rose-600 px-5 py-3 font-semibold text-white shadow-lg shadow-rose-600/20 hover:bg-rose-700 transition"
                 >
-                  Mark {priorLevelsToMark.map((l) => levelLabel(l, course)).join(', ')} as Known & Start
+                  {t('placement.markAndStart', { levels: formatList(priorLevelsToMark.map((l) => levelLabel(l, course))) })}
                   <ChevronRight className="h-4 w-4" />
                 </button>
               )}
@@ -255,7 +258,7 @@ export function PlacementTestModal({ vocab, isOpen, course = 'chinese', onClose,
                 onClick={() => handleApplyPlacement(false)}
                 className="w-full rounded-xl border border-slate-200 px-5 py-2.5 text-sm font-medium text-slate-600 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-700 transition"
               >
-                Keep all cards as new
+                {t('placement.keepNew')}
               </button>
             </div>
           </div>

@@ -11,6 +11,7 @@ import { buildLevelPaths } from './levelPaths';
 import { stepWordIds, unrecordedDoneSteps, type PathContext } from './pathLogic';
 import type { LearningPath, PathUnit, VocabStep } from './types';
 import { focusRing } from './ui';
+import { useI18n } from '../i18n/react';
 
 type Tab = 'paths' | 'grammar';
 
@@ -66,6 +67,8 @@ export interface GrammarHubProps {
 
 export function GrammarHub(props: GrammarHubProps): JSX.Element {
   const { vocab, progress: vocabProgress, colorTones, speech, speechRate, onStartVocabSession, curriculum = 'hsk3_2026' } = props;
+  const i18n = useI18n();
+  const { t } = i18n;
   const grammar = useGrammarProgress();
   const [ui, setUi] = useState<UiState>(loadUi);
   const tabRefs = useRef<Record<Tab, HTMLButtonElement | null>>({ paths: null, grammar: null });
@@ -73,7 +76,7 @@ export function GrammarHub(props: GrammarHubProps): JSX.Element {
   useEffect(() => saveUi(ui), [ui]);
 
   const vocabById = useMemo(() => new Map(vocab.map((v) => [v.id, v])), [vocab]);
-  const paths = useMemo(() => [...buildLevelPaths(vocab, GRAMMAR_POINTS, curriculum), ...LEARNING_PATHS], [vocab, curriculum]);
+  const paths = useMemo(() => [...buildLevelPaths(vocab, GRAMMAR_POINTS, curriculum, i18n), ...LEARNING_PATHS], [vocab, curriculum, i18n]);
   const ctx: PathContext = useMemo(
     () => ({ vocabById, vocabProgress, grammar: grammar.progress }),
     [vocabById, vocabProgress, grammar.progress],
@@ -114,13 +117,13 @@ export function GrammarHub(props: GrammarHubProps): JSX.Element {
   const lessonFromPath = ui.lesson?.from === 'paths' ? paths.find((p) => p.id === ui.pathId) : undefined;
 
   const tabs: { id: Tab; label: string; icon: typeof Route }[] = [
-    { id: 'paths', label: 'Learning Paths', icon: Route },
-    { id: 'grammar', label: 'Grammar', icon: GraduationCap },
+    { id: 'paths', label: t('grammar.tab.paths'), icon: Route },
+    { id: 'grammar', label: t('grammar.tab.grammar'), icon: GraduationCap },
   ];
 
   return (
     <div className="mx-auto w-full max-w-5xl space-y-4">
-      <div role="tablist" aria-label="Grammar sections" className="grid grid-cols-2 gap-1 rounded-2xl bg-slate-100 p-1 dark:bg-slate-800/70">
+      <div role="tablist" aria-label={t('grammar.tabs.aria')} className="grid grid-cols-2 gap-1 rounded-2xl bg-slate-100 p-1 dark:bg-slate-800/70">
         {tabs.map(({ id, label, icon: Icon }) => {
           const active = ui.tab === id;
           return (
@@ -159,7 +162,7 @@ export function GrammarHub(props: GrammarHubProps): JSX.Element {
             colorTones={colorTones}
             speech={speech}
             speechRate={speechRate}
-            backLabel={lessonFromPath ? `Back to ${lessonFromPath.title}` : 'All grammar'}
+            backLabel={lessonFromPath ? t('grammar.backTo', { title: lessonFromPath.title }) : t('grammar.allGrammar')}
             onBack={() => setUi((u) => ({ ...u, lesson: null }))}
             onSessionDone={(correct, total) => grammar.recordSession(lessonPoint.id, correct, total)}
           />

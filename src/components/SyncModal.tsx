@@ -38,6 +38,7 @@ import {
   unlinkAllOtherDevices,
   type SyncDevice,
 } from '../utils/syncService';
+import { useI18n, type I18n } from '../i18n/react';
 
 interface Props {
   state: UserState;
@@ -46,24 +47,26 @@ interface Props {
   onStateMerged: (mergedState: UserState) => void;
 }
 
-function formatRelativeTime(isoString: string): string {
+/** "Active now", "5 min. ago", … or the date, in the interface language. */
+function formatRelativeTime(isoString: string, i18n: I18n): string {
   try {
-    const diffMs = Date.now() - new Date(isoString).getTime();
-    const diffSec = Math.floor(diffMs / 1000);
-    if (diffSec < 45) return 'Active now';
+    const diffSec = Math.floor((Date.now() - new Date(isoString).getTime()) / 1000);
+    if (diffSec < 45) return i18n.t('sync.activeNow');
     const diffMin = Math.floor(diffSec / 60);
-    if (diffMin < 60) return `${diffMin}m ago`;
+    if (diffMin < 60) return i18n.formatRelative(-diffMin, 'minute');
     const diffHours = Math.floor(diffMin / 60);
-    if (diffHours < 24) return `${diffHours}h ago`;
+    if (diffHours < 24) return i18n.formatRelative(-diffHours, 'hour');
     const diffDays = Math.floor(diffHours / 24);
-    if (diffDays < 7) return `${diffDays}d ago`;
-    return new Date(isoString).toLocaleDateString();
+    if (diffDays < 7) return i18n.formatRelative(-diffDays, 'day');
+    return i18n.formatDate(new Date(isoString));
   } catch {
-    return 'Recently';
+    return i18n.t('sync.recently');
   }
 }
 
 export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
+  const i18n = useI18n();
+  const { t } = i18n;
   const [syncKey, setSyncKey] = useState<string | null>(getStoredSyncKey);
   const [lastSynced, setLastSynced] = useState<string | null>(getLastSyncedTime);
   const [inputCode, setInputCode] = useState('');
@@ -129,9 +132,9 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
       setDevices(res.devices);
       setLastSynced(new Date().toISOString());
       onStateMerged(res.mergedState);
-      setSuccessMsg('Sync initialized! Scan the QR code or share the link on your other device.');
+      setSuccessMsg(t('sync.ok.initialized'));
     } catch (err) {
-      setErrorMsg(`Failed to initialize sync: ${(err as Error).message}`);
+      setErrorMsg(t('sync.error.init', { message: (err as Error).message }));
     } finally {
       setSyncing(false);
     }
@@ -140,7 +143,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
   const handleConnectWithCode = async () => {
     const clean = normalizeSyncKey(inputCode);
     if (!clean || clean.length < 10) {
-      setErrorMsg('Please enter a valid pairing code (e.g. AD-8B4K-9M2P-4W1Q).');
+      setErrorMsg(t('sync.error.invalidCode'));
       return;
     }
     setErrorMsg(null);
@@ -154,9 +157,9 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
       setLastSynced(new Date().toISOString());
       onStateMerged(res.mergedState);
       setInputCode('');
-      setSuccessMsg('Device connected and synchronized successfully!');
+      setSuccessMsg(t('sync.ok.connected'));
     } catch (err) {
-      setErrorMsg(`Failed to link device: ${(err as Error).message}`);
+      setErrorMsg(t('sync.error.link', { message: (err as Error).message }));
     } finally {
       setSyncing(false);
     }
@@ -171,9 +174,9 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
       setDevices(res.devices);
       setLastSynced(new Date().toISOString());
       onStateMerged(res.mergedState);
-      setSuccessMsg('All flashcards and progress synchronized!');
+      setSuccessMsg(t('sync.ok.synced'));
     } catch (err) {
-      setErrorMsg(`Sync failed: ${(err as Error).message}`);
+      setErrorMsg(t('sync.error.sync', { message: (err as Error).message }));
     } finally {
       setSyncing(false);
     }
@@ -199,7 +202,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
 
   const handleRevokeRemote = async (targetId: string, targetName: string) => {
     if (!syncKey) return;
-    if (!window.confirm(`Unlink "${targetName}"?\n\nThis device will lose sync access immediately upon its next sync.`)) {
+    if (!window.confirm(t('sync.confirm.revoke', { name: targetName }))) {
       return;
     }
     setUnlinkingDeviceId(targetId);
@@ -207,9 +210,9 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
     try {
       const updatedDevices = await revokeDevice(syncKey, targetId, state);
       setDevices(updatedDevices);
-      setSuccessMsg(`"${targetName}" has been unlinked.`);
+      setSuccessMsg(t('sync.ok.unlinked', { name: targetName }));
     } catch (err) {
-      setErrorMsg(`Failed to unlink device: ${(err as Error).message}`);
+      setErrorMsg(t('sync.error.unlink', { message: (err as Error).message }));
     } finally {
       setUnlinkingDeviceId(null);
     }
@@ -217,11 +220,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
 
   const handleRotateAndUnlinkOthers = async () => {
     if (!syncKey) return;
-    if (
-      !window.confirm(
-        'Are you sure you want to unlink all other devices?\n\nThis will generate a brand new sync key for this device. Any other phones or computers will be disconnected immediately and must re-scan your new QR code to sync.'
-      )
-    ) {
+    if (!window.confirm(t('sync.confirm.rotate'))) {
       return;
     }
     setRotatingKey(true);
@@ -231,27 +230,23 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
       setSyncKey(newKey);
       setDevices(freshDevices);
       setLastSynced(new Date().toISOString());
-      setSuccessMsg('All other devices disconnected! A new pairing key has been generated.');
+      setSuccessMsg(t('sync.ok.rotated'));
     } catch (err) {
-      setErrorMsg(`Failed to unlink other devices: ${(err as Error).message}`);
+      setErrorMsg(t('sync.error.unlinkOthers', { message: (err as Error).message }));
     } finally {
       setRotatingKey(false);
     }
   };
 
   const handleUnlink = () => {
-    if (
-      window.confirm(
-        'Are you sure you want to disconnect this device?\n\nYour local flashcards and review history will remain intact, but future reviews will no longer sync with other devices.'
-      )
-    ) {
+    if (window.confirm(t('sync.confirm.disconnect'))) {
       if (syncKey) {
         revokeDevice(syncKey, myDeviceId, state).catch(() => {});
       }
       setStoredSyncKey(null);
       setSyncKey(null);
       setLastSynced(null);
-      setSuccessMsg('This device was disconnected from cloud sync.');
+      setSuccessMsg(t('sync.ok.disconnected'));
     }
   };
 
@@ -286,15 +281,15 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
             </span>
             <div>
               <div className="flex items-center gap-2">
-                <h2 className="text-xl font-bold text-slate-900 dark:text-white">Multi-Device Cloud Sync</h2>
+                <h2 className="text-xl font-bold text-slate-900 dark:text-white">{t('settings.group.sync')}</h2>
                 {syncKey && (
                   <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2.5 py-0.5 text-xs font-semibold text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300">
-                    <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" /> Active
+                    <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" /> {t('settings.sync.badge')}
                   </span>
                 )}
               </div>
               <p className="text-xs text-slate-500 dark:text-slate-400">
-                End-to-end encrypted · No account or passwords required
+                {t('sync.tagline')}
               </p>
             </div>
           </div>
@@ -302,7 +297,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
           <button
             onClick={onClose}
             className="rounded-xl p-2 text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800"
-            aria-label="Close modal"
+            aria-label={t('common.close')}
           >
             <X className="h-5 w-5" />
           </button>
@@ -329,9 +324,9 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
               {/* Sync Actions Bar */}
               <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-slate-200/80 bg-slate-50/70 p-4 dark:border-slate-800 dark:bg-slate-800/40">
                 <div className="space-y-0.5">
-                  <div className="text-xs font-medium text-slate-500 dark:text-slate-400">Last Synchronized</div>
+                  <div className="text-xs font-medium text-slate-500 dark:text-slate-400">{t('sync.lastSynced')}</div>
                   <div className="text-xs font-semibold text-slate-800 dark:text-slate-200">
-                    {lastSynced ? new Date(lastSynced).toLocaleString() : 'Just now'}
+                    {lastSynced ? i18n.formatDate(new Date(lastSynced), { dateStyle: 'medium', timeStyle: 'short' }) : t('sync.justNow')}
                   </div>
                 </div>
 
@@ -342,13 +337,13 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                     className="inline-flex items-center gap-1.5 rounded-xl bg-slate-900 px-3.5 py-2 text-xs font-semibold text-white shadow-sm hover:bg-slate-800 disabled:opacity-50 dark:bg-slate-100 dark:text-slate-900"
                   >
                     {syncing ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <RefreshCw className="h-3.5 w-3.5" />}
-                    Sync Now
+                    {t('sync.syncNow')}
                   </button>
                   <button
                     onClick={handleUnlink}
                     className="rounded-xl border border-slate-200 p-2 text-slate-400 hover:text-red-600 hover:bg-red-50 dark:border-slate-700 dark:hover:bg-red-950/40"
-                    title="Disconnect this device"
-                    aria-label="Disconnect this device"
+                    title={t('sync.disconnect')}
+                    aria-label={t('sync.disconnect')}
                   >
                     <Trash2 className="h-4 w-4" />
                   </button>
@@ -361,10 +356,10 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                   <div className="flex items-center gap-2">
                     <Laptop className="h-4 w-4 text-slate-600 dark:text-slate-400" />
                     <h3 className="text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300">
-                      Linked Devices ({activeDeviceList.length})
+                      {t('sync.linkedDevices', { count: activeDeviceList.length })}
                     </h3>
                   </div>
-                  <span className="text-[11px] text-slate-400">Manage paired devices</span>
+                  <span className="text-[11px] text-slate-400">{t('sync.manageHint')}</span>
                 </div>
 
                 <div className="divide-y divide-slate-100 dark:divide-slate-800/70 border-t border-slate-100 dark:border-slate-800/70">
@@ -400,14 +395,14 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                                 <button
                                   onClick={handleSaveDeviceName}
                                   className="rounded-lg p-1 text-emerald-600 hover:bg-emerald-50 dark:hover:bg-emerald-950/40"
-                                  title="Save name"
+                                  title={t('sync.saveName')}
                                 >
                                   <Check className="h-3.5 w-3.5" />
                                 </button>
                                 <button
                                   onClick={() => setEditingDeviceName(false)}
                                   className="rounded-lg p-1 text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800"
-                                  title="Cancel"
+                                  title={t('common.cancel')}
                                 >
                                   <X className="h-3.5 w-3.5" />
                                 </button>
@@ -420,7 +415,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                                 {isCurrent && (
                                   <>
                                     <span className="rounded-md bg-rose-100 px-1.5 py-0.5 text-[10px] font-bold text-rose-700 dark:bg-rose-950/60 dark:text-rose-300">
-                                      This device
+                                      {t('sync.thisDevice')}
                                     </span>
                                     <button
                                       onClick={() => {
@@ -428,7 +423,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                                         setEditingDeviceName(true);
                                       }}
                                       className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-300"
-                                      title="Rename this device"
+                                      title={t('sync.rename')}
                                     >
                                       <Edit2 className="h-3 w-3" />
                                     </button>
@@ -438,7 +433,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                             )}
 
                             <div className="text-[11px] text-slate-400">
-                              {isCurrent ? 'Active now' : `Last active: ${formatRelativeTime(dev.lastActiveAt)}`}
+                              {isCurrent ? t('sync.activeNow') : t('sync.lastActive', { time: formatRelativeTime(dev.lastActiveAt, i18n) })}
                             </div>
                           </div>
                         </div>
@@ -448,14 +443,14 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                             onClick={() => handleRevokeRemote(dev.id, dev.name)}
                             disabled={isUnlinking}
                             className="inline-flex items-center gap-1 rounded-lg border border-slate-200 px-2.5 py-1 text-[11px] font-medium text-slate-600 hover:bg-red-50 hover:text-red-600 hover:border-red-200 disabled:opacity-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-red-950/40 dark:hover:text-red-400"
-                            title="Unlink this device"
+                            title={t('sync.unlinkTitle')}
                           >
                             {isUnlinking ? (
                               <Loader2 className="h-3 w-3 animate-spin text-red-500" />
                             ) : (
                               <Trash2 className="h-3 w-3" />
                             )}
-                            <span>Unlink</span>
+                            <span>{t('sync.unlink')}</span>
                           </button>
                         )}
                       </div>
@@ -467,12 +462,12 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
               {/* QR Code Card */}
               <div className="flex flex-col items-center justify-center rounded-3xl border border-slate-200 bg-white p-6 text-center dark:border-slate-800 dark:bg-slate-800/60 shadow-sm">
                 <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-rose-600 dark:text-rose-400 mb-3">
-                  <Smartphone className="h-4 w-4" /> Scan to Link Another Device
+                  <Smartphone className="h-4 w-4" /> {t('sync.scanTitle')}
                 </div>
 
                 {qrDataUrl ? (
                   <div className="overflow-hidden rounded-2xl border-4 border-white bg-white p-2 shadow-md">
-                    <img src={qrDataUrl} alt="Pairing QR Code" className="h-48 w-48" />
+                    <img src={qrDataUrl} alt={t('sync.qrAlt')} className="h-48 w-48" />
                   </div>
                 ) : (
                   <div className="flex h-48 w-48 items-center justify-center rounded-2xl bg-slate-100 dark:bg-slate-800">
@@ -481,7 +476,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                 )}
 
                 <p className="mt-3 max-w-sm text-xs text-slate-500 dark:text-slate-400">
-                  Open your camera on your phone to instantly link Adilingo. No login or app store download required.
+                  {t('sync.scanHint')}
                 </p>
 
                 {/* 1-Click Link Copy */}
@@ -494,7 +489,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                     className="ml-2 inline-flex items-center gap-1 rounded-lg bg-white px-2.5 py-1 font-semibold text-slate-700 shadow-sm hover:bg-slate-100 dark:bg-slate-800 dark:text-slate-200"
                   >
                     {copiedLink ? <Check className="h-3.5 w-3.5 text-emerald-500" /> : <Copy className="h-3.5 w-3.5" />}
-                    {copiedLink ? 'Copied' : 'Copy'}
+                    {copiedLink ? t('sync.copied') : t('sync.copy')}
                   </button>
                 </div>
               </div>
@@ -503,7 +498,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
               <div className="rounded-2xl border border-slate-200 p-4 dark:border-slate-800">
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="text-xs font-medium text-slate-500 dark:text-slate-400">Pairing Code</div>
+                    <div className="text-xs font-medium text-slate-500 dark:text-slate-400">{t('sync.pairingCode')}</div>
                     <div className="font-mono text-base font-bold tracking-wider text-slate-900 dark:text-white">
                       {syncKey}
                     </div>
@@ -513,7 +508,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                     className="inline-flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-700 shadow-sm hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
                   >
                     {copiedCode ? <Check className="h-3.5 w-3.5 text-emerald-500" /> : <Copy className="h-3.5 w-3.5" />}
-                    {copiedCode ? 'Copied' : 'Copy Code'}
+                    {copiedCode ? t('sync.copied') : t('sync.copyCode')}
                   </button>
                 </div>
               </div>
@@ -524,10 +519,10 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                   <div className="space-y-1">
                     <div className="flex items-center gap-1.5 text-xs font-semibold text-slate-800 dark:text-slate-200">
                       <ShieldAlert className="h-3.5 w-3.5 text-amber-500" />
-                      <span>Security & Unlink All</span>
+                      <span>{t('sync.security.title')}</span>
                     </div>
                     <p className="text-[11px] text-slate-500 dark:text-slate-400 leading-relaxed">
-                      Lost a phone or want to disconnect all other devices? This generates a brand new sync key and cuts off access for all other devices immediately.
+                      {t('sync.security.desc')}
                     </p>
                   </div>
                   <button
@@ -536,7 +531,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                     className="shrink-0 inline-flex items-center gap-1.5 rounded-xl border border-amber-200 bg-amber-50 px-3 py-1.5 text-xs font-semibold text-amber-800 hover:bg-amber-100 disabled:opacity-50 dark:border-amber-900/60 dark:bg-amber-950/40 dark:text-amber-300"
                   >
                     {rotatingKey ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <KeyRound className="h-3.5 w-3.5" />}
-                    Unlink All Others
+                    {t('sync.security.action')}
                   </button>
                 </div>
               </div>
@@ -549,9 +544,9 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                 <div className="flex items-start gap-3">
                   <ShieldCheck className="h-5 w-5 text-rose-600 dark:text-rose-400 shrink-0 mt-0.5" />
                   <div className="space-y-1 text-xs">
-                    <div className="font-semibold text-slate-900 dark:text-white">Zero-Knowledge Private Sync</div>
+                    <div className="font-semibold text-slate-900 dark:text-white">{t('sync.intro.title')}</div>
                     <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-                      Your vocabulary progress is encrypted with <strong>AES-256</strong> on your device before leaving your browser. You can seamlessly switch between phone, laptop, and tablet.
+                      {i18n.rich('sync.intro.desc', undefined, { strong: (text) => <strong>{text}</strong> })}
                     </p>
                   </div>
                 </div>
@@ -562,9 +557,9 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                 <div className="flex items-center gap-2.5">
                   <Laptop className="h-5 w-5 text-slate-700 dark:text-slate-300" />
                   <div>
-                    <h3 className="text-sm font-bold text-slate-900 dark:text-white">Start New Device Sync</h3>
+                    <h3 className="text-sm font-bold text-slate-900 dark:text-white">{t('sync.new.title')}</h3>
                     <p className="text-xs text-slate-500 dark:text-slate-400">
-                      Generates a private QR code and pairing key for your devices.
+                      {t('sync.new.desc')}
                     </p>
                   </div>
                 </div>
@@ -575,7 +570,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                   className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-rose-600 px-4 py-2.5 text-xs font-semibold text-white shadow-sm hover:bg-rose-700 disabled:opacity-50"
                 >
                   {syncing ? <Loader2 className="h-4 w-4 animate-spin" /> : <QrCode className="h-4 w-4" />}
-                  Generate Sync QR Code
+                  {t('sync.new.action')}
                 </button>
               </div>
 
@@ -584,9 +579,9 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                 <div className="flex items-center gap-2.5">
                   <Smartphone className="h-5 w-5 text-slate-700 dark:text-slate-300" />
                   <div>
-                    <h3 className="text-sm font-bold text-slate-900 dark:text-white">Link with an Existing Code</h3>
+                    <h3 className="text-sm font-bold text-slate-900 dark:text-white">{t('sync.existing.title')}</h3>
                     <p className="text-xs text-slate-500 dark:text-slate-400">
-                      Already have a code from your PC or other device?
+                      {t('sync.existing.desc')}
                     </p>
                   </div>
                 </div>
@@ -596,7 +591,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                     type="text"
                     value={inputCode}
                     onChange={(e) => setInputCode(e.target.value)}
-                    placeholder="e.g. AD-8B4K-9M2P-4W1Q"
+                    placeholder={t('sync.existing.placeholder')}
                     className="flex-1 rounded-xl border border-slate-200 bg-white px-3 py-2 text-xs font-mono uppercase tracking-wider text-slate-900 placeholder-slate-400 focus:border-rose-500 focus:outline-none focus:ring-1 focus:ring-rose-500 dark:border-slate-700 dark:bg-slate-800 dark:text-white"
                   />
                   <button
@@ -604,7 +599,7 @@ export function SyncModal({ state, isOpen, onClose, onStateMerged }: Props) {
                     disabled={syncing || !inputCode.trim()}
                     className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-slate-900 px-4 py-2 text-xs font-semibold text-white hover:bg-slate-800 disabled:opacity-50 dark:bg-slate-100 dark:text-slate-900"
                   >
-                    {syncing ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : 'Connect'}
+                    {syncing ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : t('sync.existing.connect')}
                   </button>
                 </div>
               </div>

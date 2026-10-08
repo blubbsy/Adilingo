@@ -3,6 +3,7 @@ import type { CourseId, HskLevel, UserState, VocabItem } from '../types';
 import { levelLabel } from '../data/vocab';
 import { bulkMarkLevelKnown } from '../utils/srsEngine';
 import { trackOf } from '../data/courses';
+import { useI18n } from '../i18n/react';
 
 interface Props {
   vocab: VocabItem[];
@@ -14,6 +15,7 @@ interface Props {
 }
 
 export function BulkMarkModal({ vocab, state, isOpen, course = state.settings.course ?? 'chinese', onClose, onUpdateState }: Props) {
+  const { t } = useI18n();
   if (!isOpen) return null;
 
   const isEnglish = trackOf(course) === 'english';
@@ -37,18 +39,16 @@ export function BulkMarkModal({ vocab, state, isOpen, course = state.settings.co
         <button
           onClick={onClose}
           className="absolute right-4 top-4 rounded-xl p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-600 dark:hover:bg-slate-700"
-          aria-label="Close"
+          aria-label={t('common.close')}
         >
           <X className="h-5 w-5" />
         </button>
 
         <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">
-          {isEnglish ? 'Mark Known Levels' : 'I already know this'}
+          {t(isEnglish ? 'bulk.title.english' : 'bulk.title.chinese')}
         </h3>
         <p className="mt-1 text-sm text-slate-500">
-          {isEnglish
-            ? 'Already proficient in English? Mark completed CEFR levels as known to skip beginner vocabulary and immediately schedule intermediate words.'
-            : 'Already study Chinese? Mark completed levels as known to skip beginner vocabulary and immediately schedule intermediate words.'}
+          {t(isEnglish ? 'bulk.desc.english' : 'bulk.desc.chinese')}
         </p>
 
         <div className="mt-6 space-y-2.5">
@@ -67,7 +67,7 @@ export function BulkMarkModal({ vocab, state, isOpen, course = state.settings.co
                     {levelLabel(lvl, course)}
                   </div>
                   <div className="text-xs text-slate-500">
-                    {count.toLocaleString('en')} words
+                    {t('dictionary.wordCount', { count })}
                   </div>
                 </div>
 
@@ -82,10 +82,10 @@ export function BulkMarkModal({ vocab, state, isOpen, course = state.settings.co
                   >
                     {known ? (
                       <>
-                        <Check className="h-3.5 w-3.5" /> Marked known
+                        <Check className="h-3.5 w-3.5" /> {t('bulk.markedKnown')}
                       </>
                     ) : (
-                      'Mark as known'
+                      t('bulk.markKnown')
                     )}
                   </button>
                 </div>
@@ -99,7 +99,7 @@ export function BulkMarkModal({ vocab, state, isOpen, course = state.settings.co
             onClick={onClose}
             className="rounded-xl bg-slate-900 px-5 py-2.5 text-sm font-semibold text-white hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-white transition"
           >
-            Done
+            {t('common.done')}
           </button>
         </div>
       </div>

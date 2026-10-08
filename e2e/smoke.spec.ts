@@ -136,7 +136,7 @@ test.describe('Interface language', () => {
 
 test.describe('No untranslated keys on screen', () => {
   // A raw message key such as "study.leech" or "dashboard.todayCounts" means a string was never translated.
-  const RAW_KEY = /\b(?:app|card|common|dashboard|dictionary|header|lang|modes|nav|settings|speed|study)\.[a-zA-Z][\w.]*\b/;
+  const RAW_KEY = /\b(?:achievements|app|badge|bulk|card|common|dashboard|dictionary|grammar|header|insights|lang|modes|nav|placement|recs|settings|speed|study|sync|topics)\.[a-zA-Z][\w.]*\b/;
 
   for (const lang of ['English', 'Deutsch', '简体中文']) {
     for (const course of ['chinese', 'english'] as const) {
@@ -160,4 +160,19 @@ test.describe('No untranslated keys on screen', () => {
       });
     }
   }
+});
+
+test('grammar lesson and practice show no untranslated keys (German)', async ({ page }) => {
+  const RAW_KEY = /\b(?:grammar|common|study|topics|dictionary)\.[a-zA-Z][\w.]*\b/;
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Interface language' }).first().click();
+  await page.getByRole('menuitemradio', { name: /Deutsch/ }).click();
+  await page.goto('/#/learn');
+  await page.getByRole('tab', { name: 'Grammatik' }).click();
+  await page.locator('ul li button').first().click(); // first grammar lesson
+  await expect(page.getByRole('button', { name: /Übung starten|Noch einmal üben/ })).toBeVisible();
+  expect((await page.locator('body').innerText()).match(RAW_KEY)).toBeNull();
+  await page.getByRole('button', { name: /Übung starten|Noch einmal üben/ }).click();
+  await expect(page.getByRole('button', { name: 'Prüfen' })).toBeVisible();
+  expect((await page.locator('body').innerText()).match(RAW_KEY)).toBeNull();
 });

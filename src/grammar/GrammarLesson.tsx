@@ -8,6 +8,7 @@ import { ExercisePlayer } from './ExercisePlayer';
 import type { GrammarPointProgress } from './grammarStorage';
 import type { GrammarPoint } from './types';
 import { HskBadge, PatternFormula, RichText, card, focusRing, primaryBtn } from './ui';
+import { useI18n } from '../i18n/react';
 
 interface Props {
   point: GrammarPoint;
@@ -21,6 +22,7 @@ interface Props {
 }
 
 export function GrammarLesson({ point, pointProgress, colorTones, speech, speechRate, backLabel, onBack, onSessionDone }: Props) {
+  const { t } = useI18n();
   const [practicing, setPracticing] = useState(false);
   const topRef = useRef<HTMLDivElement>(null);
 
@@ -34,7 +36,7 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
     <div ref={topRef} tabIndex={-1} className="space-y-4 outline-none">
       <button type="button" onClick={practicing ? () => setPracticing(false) : onBack} className={`inline-flex items-center gap-1 rounded-lg py-1 pr-2 text-sm font-medium text-slate-600 hover:text-rose-600 dark:text-slate-300 ${focusRing}`}>
         <ChevronLeft className="h-4 w-4" aria-hidden />
-        {practicing ? 'Back to lesson' : backLabel}
+        {practicing ? t('grammar.lesson.backToLesson') : backLabel}
       </button>
 
       <header className="flex flex-wrap items-start justify-between gap-2">
@@ -42,11 +44,11 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
           <div className="mb-1 flex flex-wrap items-center gap-2">
             <HskBadge level={point.hskLevel} />
             <span className="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-600 dark:bg-slate-700 dark:text-slate-300">
-              Unreviewed (AI draft)
+              {t('grammar.lesson.unreviewed')}
             </span>
             {pointProgress?.completed && (
               <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 text-[11px] font-semibold text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300">
-                <CircleCheck className="h-3 w-3" aria-hidden /> Completed
+                <CircleCheck className="h-3 w-3" aria-hidden /> {t('grammar.lesson.completed')}
               </span>
             )}
             <a
@@ -55,7 +57,7 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
               rel="noopener noreferrer"
               className="ml-auto inline-flex items-center gap-1 text-xs text-slate-400 underline hover:text-rose-600 dark:hover:text-rose-400"
             >
-              Report an issue
+              {t('grammar.lesson.report')}
             </a>
           </div>
           <h2 className="text-xl font-bold text-slate-900 dark:text-slate-100 sm:text-2xl">
@@ -77,14 +79,14 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
         <>
           <section className={`${card} p-4 sm:p-5`} aria-labelledby="gl-pattern">
             <h3 id="gl-pattern" className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-              Pattern
+              {t('grammar.lesson.pattern')}
             </h3>
             <PatternFormula pattern={point.pattern} />
           </section>
 
           <section className={`${card} space-y-3 p-4 text-[15px] leading-relaxed text-slate-700 dark:text-slate-300 sm:p-5`} aria-labelledby="gl-explain">
             <h3 id="gl-explain" className="flex items-center gap-2 text-sm font-semibold text-slate-900 dark:text-slate-100">
-              <Lightbulb className="h-4 w-4 text-amber-500" aria-hidden /> How it works
+              <Lightbulb className="h-4 w-4 text-amber-500" aria-hidden /> {t('grammar.lesson.howItWorks')}
             </h3>
             {point.explanation.map((p, i) => (
               <p key={i}>
@@ -94,7 +96,7 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
             {point.mistakes.length > 0 && (
               <div className="rounded-xl border border-amber-200 bg-amber-50 p-3 dark:border-amber-900 dark:bg-amber-950/30">
                 <h4 className="mb-1.5 flex items-center gap-2 text-sm font-semibold text-amber-800 dark:text-amber-200">
-                  <TriangleAlert className="h-4 w-4" aria-hidden /> Common mistakes & notes
+                  <TriangleAlert className="h-4 w-4" aria-hidden /> {t('grammar.lesson.mistakes')}
                 </h4>
                 <ul className="space-y-1.5 text-sm text-amber-900 dark:text-amber-100">
                   {point.mistakes.map((m, i) => (
@@ -110,7 +112,7 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
           <section aria-labelledby="gl-examples">
             <div className="mb-2 flex items-center justify-between gap-2 px-1">
               <h3 id="gl-examples" className="text-sm font-semibold text-slate-900 dark:text-slate-100">
-                Examples
+                {t('grammar.lesson.examples')}
               </h3>
               <SpeedControl speech={speech} variant="compact" />
             </div>
@@ -141,15 +143,19 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
 
           <section className={`${card} flex flex-col items-start gap-3 p-4 sm:flex-row sm:items-center sm:justify-between sm:p-5`}>
             <div>
-              <h3 className="font-semibold text-slate-900 dark:text-slate-100">Practice</h3>
+              <h3 className="font-semibold text-slate-900 dark:text-slate-100">{t('common.practice')}</h3>
               <p className="text-sm text-slate-500 dark:text-slate-400">
-                {point.exercises.length} exercises · score 80 % to complete
-                {pointProgress?.bestScore !== undefined && ` · best ${Math.round(pointProgress.bestScore * 100)} %`}
+                {[
+                  t('grammar.lesson.practiceInfo', { count: point.exercises.length, pct: 80 }),
+                  pointProgress?.bestScore !== undefined ? t('grammar.lesson.best', { pct: Math.round(pointProgress.bestScore * 100) }) : '',
+                ]
+                  .filter(Boolean)
+                  .join(' · ')}
               </p>
             </div>
             <button type="button" className={`${primaryBtn} w-full sm:w-auto`} onClick={() => setPracticing(true)} disabled={!point.exercises.length}>
               <Dumbbell className="h-4 w-4" aria-hidden />
-              {pointProgress?.completed ? 'Practice again' : 'Start practice'}
+              {pointProgress?.completed ? t('grammar.lesson.practiceAgain') : t('grammar.lesson.startPractice')}
             </button>
           </section>
         </>

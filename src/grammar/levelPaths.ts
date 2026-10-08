@@ -1,5 +1,6 @@
 import type { Curriculum, HskLevel, VocabItem } from '../types';
 import { curriculumInfo, levelLabel } from '../data/vocab';
+import { createT, formatList, type TFunction } from '../i18n';
 import type { GrammarPoint, LearningPath, PathIcon, PathStep, PathUnit } from './types';
 
 /** Words per unit in generated syllabus paths. */
@@ -12,7 +13,21 @@ const LEVEL_ICON: Record<HskLevel, PathIcon> = { 1: 'sprout', 2: 'sprout', 3: 'b
  * curriculum order (curated starters, then by frequency), 10 per unit, with that level's
  * grammar points spread evenly across the units.
  */
-export function buildLevelPaths(vocab: VocabItem[], grammar: GrammarPoint[], curriculum: Curriculum): LearningPath[] {
+/** Language helpers for the generated texts (English by default, e.g. in tests). */
+export interface PathText {
+  t: TFunction;
+  formatList: (items: string[]) => string;
+}
+
+const ENGLISH_PATH_TEXT: PathText = { t: createT('en'), formatList: (items) => formatList('en', items) };
+
+export function buildLevelPaths(
+  vocab: VocabItem[],
+  grammar: GrammarPoint[],
+  curriculum: Curriculum,
+  text: PathText = ENGLISH_PATH_TEXT,
+): LearningPath[] {
+  const { t } = text;
   const info = curriculumInfo(curriculum);
   const maxLevel = Math.max(...info.levels);
   return info.levels.map((level) => {
@@ -35,7 +50,7 @@ export function buildLevelPaths(vocab: VocabItem[], grammar: GrammarPoint[], cur
         steps.push({
           id: `${id}-u${u + 1}-words`,
           type: 'vocab',
-          title: `Words ${u * UNIT_SIZE + 1}–${u * UNIT_SIZE + chunk.length}`,
+          title: t('grammar.paths.words', { from: u * UNIT_SIZE + 1, to: u * UNIT_SIZE + chunk.length }),
           wordIds: chunk.map((w) => w.id),
         });
       }
@@ -46,8 +61,8 @@ export function buildLevelPaths(vocab: VocabItem[], grammar: GrammarPoint[], cur
         id: `${id}-u${u + 1}`,
         title: preview || unitGrammar.map((g) => g.titleHanzi ?? g.title).join(' · '),
         goal: [
-          chunk.length ? `${chunk.length} words` : '',
-          unitGrammar.length ? `grammar: ${unitGrammar.map((g) => g.titleHanzi ?? g.title).join(', ')}` : '',
+          chunk.length ? t('dictionary.wordCount', { count: chunk.length }) : '',
+          unitGrammar.length ? t('grammar.paths.goalGrammar', { list: text.formatList(unitGrammar.map((g) => g.titleHanzi ?? g.title)) }) : '',
         ]
           .filter(Boolean)
           .join(' · '),
@@ -56,8 +71,8 @@ export function buildLevelPaths(vocab: VocabItem[], grammar: GrammarPoint[], cur
     }
     return {
       id,
-      title: `${levelLabel(level)} syllabus`,
-      description: `${words.length.toLocaleString('en')} words and ${points.length} grammar points of ${info.short}, most frequent words first.`,
+      title: t('grammar.paths.syllabusTitle', { level: levelLabel(level) }),
+      description: t('grammar.paths.syllabusDesc', { words: words.length, points: points.length, curriculum: info.short }),
       icon: LEVEL_ICON[level],
       units,
     };

@@ -15,4 +15,6 @@ export const common: Partial<Record<keyof typeof en, string>> = {
   'common.interval.months': '{months} Mon.',
   'common.interval.short': '{days} T.',
   'common.close': 'Schließen',
+  'common.cancel': 'Abbrechen',
+  'common.done': 'Fertig',
 };

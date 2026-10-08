@@ -33,6 +33,7 @@ import {
 } from './pathLogic';
 import type { GrammarStep, LearningPath, PathIcon, PathUnit, VocabStep } from './types';
 import { PatternFormula, ProgressBar, RichText, card, focusRing, primaryBtn, secondaryBtn } from './ui';
+import { useI18n } from '../i18n/react';
 
 const ICONS: Record<PathIcon, LucideIcon> = { sprout: Sprout, plane: Plane, bridge: Milestone, music: Music, mountain: Mountain, crown: Crown };
 
@@ -49,6 +50,7 @@ interface Props {
 }
 
 export function LearningPathsView({ paths, ctx, selectedPathId, onSelectPath, onOpenGrammar, onPracticeVocab }: Props) {
+  const { t } = useI18n();
   const path = paths.find((p) => p.id === selectedPathId);
   if (!path) {
     const syllabus = paths.filter((p) => p.id.startsWith('level-'));
@@ -56,12 +58,12 @@ export function LearningPathsView({ paths, ctx, selectedPathId, onSelectPath, on
     return (
       <div className="space-y-6">
         {[
-          { title: 'Syllabus paths', hint: 'Every word and grammar point, level by level.', list: syllabus },
-          { title: 'Themed paths', hint: 'Short, hand-picked routes.', list: themed },
+          { id: 'syllabus', title: t('grammar.paths.syllabus'), hint: t('grammar.paths.syllabusHint'), list: syllabus },
+          { id: 'themed', title: t('grammar.paths.themed'), hint: t('grammar.paths.themedHint'), list: themed },
         ]
           .filter((g) => g.list.length)
           .map((g) => (
-            <section key={g.title}>
+            <section key={g.id}>
               <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">{g.title}</h2>
               <p className="mb-3 text-sm text-slate-500 dark:text-slate-400">{g.hint}</p>
               <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-3">
@@ -80,6 +82,7 @@ export function LearningPathsView({ paths, ctx, selectedPathId, onSelectPath, on
 }
 
 function PathCard({ path, ctx, onOpen }: { path: LearningPath; ctx: PathContext; onOpen: () => void }) {
+  const { t, formatNumber } = useI18n();
   const Icon = ICONS[path.icon];
   const stats = pathStats(path, ctx);
   const pct = Math.round(stats.ratio * 100);
@@ -103,11 +106,11 @@ function PathCard({ path, ctx, onOpen }: { path: LearningPath; ctx: PathContext;
       <span className="mt-auto block">
         <span className="mb-1 flex justify-between text-xs text-slate-500 dark:text-slate-400">
           <span>
-            {unitsDone} / {path.units.length} units
+            {t('grammar.paths.unitsDone', { done: unitsDone, total: path.units.length })}
           </span>
-          <span className="font-medium">{pct} %</span>
+          <span className="font-medium">{formatNumber(pct / 100, { style: 'percent' })}</span>
         </span>
-        <ProgressBar value={stats.ratio} label={`${path.title} progress`} />
+        <ProgressBar value={stats.ratio} label={t('grammar.paths.progressLabel', { title: path.title })} />
       </span>
     </button>
   );
@@ -126,6 +129,7 @@ function PathDetail({
   onOpenGrammar: (id: string) => void;
   onPracticeVocab: Props['onPracticeVocab'];
 }) {
+  const { t, formatNumber } = useI18n();
   const Icon = ICONS[path.icon];
   const stats = pathStats(path, ctx);
   const unlocked = path.units.map((_, i) => isUnitUnlocked(path, i, ctx));
@@ -145,7 +149,7 @@ function PathDetail({
   return (
     <div className="space-y-4">
       <button type="button" onClick={onBack} className={`inline-flex items-center gap-1 rounded-lg py-1 pr-2 text-sm font-medium text-slate-600 hover:text-rose-600 dark:text-slate-300 ${focusRing}`}>
-        <ChevronLeft className="h-4 w-4" aria-hidden /> All paths
+        <ChevronLeft className="h-4 w-4" aria-hidden /> {t('grammar.paths.allPaths')}
       </button>
 
       <header className={`${card} p-4 sm:p-5`}>
@@ -159,14 +163,14 @@ function PathDetail({
           </div>
         </div>
         <div className="mt-3 flex items-center gap-3">
-          <ProgressBar value={stats.ratio} label={`${path.title} progress`} />
-          <span className="shrink-0 text-sm font-medium text-slate-600 dark:text-slate-300">{Math.round(stats.ratio * 100)} %</span>
+          <ProgressBar value={stats.ratio} label={t('grammar.paths.progressLabel', { title: path.title })} />
+          <span className="shrink-0 text-sm font-medium text-slate-600 dark:text-slate-300">{formatNumber(stats.ratio, { style: 'percent', maximumFractionDigits: 0 })}</span>
         </div>
       </header>
 
       {start > 0 && (
         <button type="button" onClick={() => setStart(Math.max(0, start - UNIT_PAGE))} className={`${secondaryBtn} w-full`}>
-          Show earlier units ({start} before)
+          {t('grammar.paths.showEarlier', { count: start })}
         </button>
       )}
       <ol className="space-y-3" start={start + 1}>
@@ -185,7 +189,7 @@ function PathDetail({
                 aria-expanded={unlocked[i] ? isOpen : undefined}
                 aria-controls={unlocked[i] ? panelId : undefined}
                 aria-disabled={!unlocked[i]}
-                title={isPendingReview ? 'Review words twice to master them and unlock the next unit.' : undefined}
+                title={isPendingReview ? t('grammar.paths.pendingReview') : undefined}
                 className={`flex w-full items-start gap-3 p-4 text-left ${unlocked[i] ? '' : 'cursor-not-allowed'} ${focusRing} focus-visible:ring-inset`}
               >
                 <span
@@ -202,8 +206,8 @@ function PathDetail({
                 </span>
                 <span className="min-w-0 flex-1">
                   <span className="block text-xs font-medium uppercase tracking-wide text-slate-400">
-                    Unit {i + 1}
-                    <span className="sr-only">{done ? ', completed' : unlocked[i] ? ', unlocked' : ', locked'}</span>
+                    {t('grammar.paths.unitLabel', { n: i + 1 })}
+                    <span className="sr-only">{done ? t('grammar.paths.status.done') : unlocked[i] ? t('grammar.paths.status.unlocked') : t('grammar.paths.status.locked')}</span>
                   </span>
                   <span className="block font-semibold text-slate-900 dark:text-slate-100">{unit.title}</span>
                   <span className="mt-0.5 block text-sm text-slate-500 dark:text-slate-400">
@@ -211,10 +215,10 @@ function PathDetail({
                   </span>
                   <span className={`mt-1 block text-xs ${isPendingReview ? 'font-medium text-amber-600 dark:text-amber-400' : 'text-slate-400'}`}>
                     {unlocked[i]
-                      ? `${doneSteps} / ${unit.steps.length} steps done`
+                      ? t('grammar.paths.stepsDone', { done: doneSteps, total: unit.steps.length })
                       : isPendingReview
-                        ? 'Review words twice to master them and unlock the next unit.'
-                        : 'Complete the previous unit to unlock'}
+                        ? t('grammar.paths.pendingReview')
+                        : t('grammar.paths.completePrevious')}
                   </span>
                 </span>
                 {unlocked[i] && (
@@ -240,7 +244,7 @@ function PathDetail({
       </ol>
       {end < path.units.length && (
         <button type="button" onClick={() => setEnd(end + UNIT_PAGE)} className={`${secondaryBtn} w-full`}>
-          Show more units ({path.units.length - end} left)
+          {t('grammar.paths.showMore', { count: path.units.length - end })}
         </button>
       )}
     </div>
@@ -248,6 +252,7 @@ function PathDetail({
 }
 
 function StepShell({ icon: Icon, done, children }: { icon: LucideIcon; done: boolean; children: ReactNode }) {
+  const { t } = useI18n();
   return (
     <div
       className={`flex flex-col gap-3 rounded-xl border p-3 sm:flex-row sm:items-center ${
@@ -260,7 +265,7 @@ function StepShell({ icon: Icon, done, children }: { icon: LucideIcon; done: boo
             done ? 'bg-emerald-100 text-emerald-600 dark:bg-emerald-900/50 dark:text-emerald-300' : 'bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-400'
           }`}
         >
-          {done ? <CircleCheck className="h-4 w-4" aria-label="Done" /> : <Icon className="h-4 w-4" aria-hidden />}
+          {done ? <CircleCheck className="h-4 w-4" aria-label={t('common.done')} /> : <Icon className="h-4 w-4" aria-hidden />}
         </span>
         {children}
       </div>
@@ -269,6 +274,7 @@ function StepShell({ icon: Icon, done, children }: { icon: LucideIcon; done: boo
 }
 
 function VocabStepRow({ step, done, ctx, onPractice }: { step: VocabStep; done: boolean; ctx: PathContext; onPractice: () => void }) {
+  const { t } = useI18n();
   const ids = stepWordIds(step, ctx);
   const repStats = stepRepetitionStats(step, ctx);
   const learned = repStats.learned;
@@ -278,21 +284,21 @@ function VocabStepRow({ step, done, ctx, onPractice }: { step: VocabStep; done: 
       <div className="min-w-0 flex-1">
         <div className="flex flex-wrap items-baseline justify-between gap-x-2 gap-y-1">
           <p className="font-medium text-slate-900 dark:text-slate-100">
-            <span className="sr-only">Vocabulary: </span>
+            <span className="sr-only">{t('grammar.paths.vocabulary')} </span>
             {step.title}
           </p>
           <div className="flex flex-wrap items-center gap-2">
             {!done && partiallyLearned > 0 && (
               <span className="rounded-full bg-sky-100 px-2 py-0.5 text-[11px] font-medium text-sky-800 dark:bg-sky-900/50 dark:text-sky-300">
-                1/2 reviews • practice again to master
+                {t('grammar.paths.halfReviewed')}
               </span>
             )}
             <p className="text-xs text-slate-500 dark:text-slate-400">
-              {learned} / {ids.length} words learned
+              {t('grammar.paths.wordsLearned', { learned, total: ids.length })}
             </p>
           </div>
         </div>
-        <ul className="mt-2 flex flex-wrap gap-1.5" aria-label="Words in this step">
+        <ul className="mt-2 flex flex-wrap gap-1.5" aria-label={t('grammar.paths.wordsInStep')}>
           {ids.map((id) => {
             const w = ctx.vocabById.get(id);
             if (!w) return null;
@@ -302,7 +308,7 @@ function VocabStepRow({ step, done, ctx, onPractice }: { step: VocabStep; done: 
             return (
               <li
                 key={id}
-                title={`${w.pinyin}: ${w.english.join(', ')} (${reps}/2 reviews)`}
+                title={t('grammar.paths.wordTitle', { pinyin: w.pinyin, meaning: w.english.join(', '), reps })}
                 className={`rounded-lg border px-2 py-1 text-center leading-tight transition ${
                   ok
                     ? 'border-emerald-200 bg-emerald-50 text-emerald-800 dark:border-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-200'
@@ -320,17 +326,17 @@ function VocabStepRow({ step, done, ctx, onPractice }: { step: VocabStep; done: 
                 </span>
                 <span className="sr-only">
                   {w.english[0]}
-                  {ok ? ' (learned)' : partial ? ` (${reps}/2 reviews)` : ''}
+                  {ok ? ` ${t('grammar.paths.srLearned')}` : partial ? ` ${t('grammar.paths.srReps', { reps })}` : ''}
                 </span>
               </li>
             );
           })}
         </ul>
-        {ids.length === 0 && <p className="mt-1 text-xs text-slate-400">These words aren't in your word list.</p>}
+        {ids.length === 0 && <p className="mt-1 text-xs text-slate-400">{t('grammar.paths.noWords')}</p>}
         <div className="mt-3">
           <button type="button" className={`${done ? secondaryBtn : primaryBtn} w-full sm:w-auto`} disabled={!ids.length} onClick={onPractice}>
             <Play className="h-4 w-4" aria-hidden />
-            {done ? 'Review words' : partiallyLearned > 0 ? 'Practice again (review 2 of 2)' : `Practice ${ids.length} words`}
+            {done ? t('grammar.paths.reviewWords') : partiallyLearned > 0 ? t('grammar.paths.practiceAgain') : t('grammar.paths.practiceWords', { count: ids.length })}
             <span className="sr-only">: {step.title}</span>
           </button>
         </div>
@@ -340,13 +346,14 @@ function VocabStepRow({ step, done, ctx, onPractice }: { step: VocabStep; done: 
 }
 
 function GrammarStepRow({ step, done, onOpen }: { step: GrammarStep; done: boolean; onOpen: () => void }) {
+  const { t } = useI18n();
   const g = GRAMMAR_BY_ID.get(step.grammarId);
   if (!g) return null;
   return (
     <StepShell icon={GraduationCap} done={done}>
       <div className="min-w-0 flex-1">
         <p className="font-medium text-slate-900 dark:text-slate-100">
-          <span className="sr-only">Grammar: </span>
+          <span className="sr-only">{t('grammar.paths.grammarLabel')} </span>
           <RichText text={g.title} />
         </p>
         <div className="mt-1.5">
@@ -355,7 +362,7 @@ function GrammarStepRow({ step, done, onOpen }: { step: GrammarStep; done: boole
         <div className="mt-3">
           <button type="button" className={`${done ? secondaryBtn : primaryBtn} w-full sm:w-auto`} onClick={onOpen}>
             <GraduationCap className="h-4 w-4" aria-hidden />
-            {done ? 'Review lesson' : 'Start lesson'}
+            {done ? t('grammar.paths.reviewLesson') : t('grammar.paths.startLesson')}
             <span className="sr-only">: {g.title}</span>
           </button>
         </div>

@@ -13,4 +13,6 @@ export const common = {
   'common.interval.months': '{months} mo',
   'common.interval.short': '{days}d',
   'common.close': 'Close',
+  'common.cancel': 'Cancel',
+  'common.done': 'Done',
 } as const;

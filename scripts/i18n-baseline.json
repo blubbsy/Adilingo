@@ -1,13 +1,5 @@
 {
-  "src/components/BulkMarkModal.tsx": 9,
   "src/components/EnglishGrammarGuide.tsx": 47,
   "src/components/EnglishLearningHub.tsx": 42,
-  "src/components/IrregularVerbsTrainer.tsx": 39,
-  "src/components/PlacementTestModal.tsx": 14,
-  "src/components/SyncModal.tsx": 41,
-  "src/grammar/ExercisePlayer.tsx": 26,
-  "src/grammar/GrammarHub.tsx": 1,
-  "src/grammar/GrammarLesson.tsx": 13,
-  "src/grammar/GrammarList.tsx": 7,
-  "src/grammar/LearningPathsView.tsx": 31
+  "src/components/IrregularVerbsTrainer.tsx": 39
 }

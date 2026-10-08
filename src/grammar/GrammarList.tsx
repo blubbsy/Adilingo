@@ -4,6 +4,7 @@ import { ChevronRight, CircleCheck } from 'lucide-react';
 import type { GrammarProgress } from './grammarStorage';
 import type { GrammarPoint } from './types';
 import { HskBadge, PatternFormula, RichText, card, focusRing } from './ui';
+import { useI18n } from '../i18n/react';
 
 export type LevelFilter = 'all' | number;
 
@@ -16,6 +17,7 @@ interface Props {
 }
 
 export function GrammarList({ points, progress, level, onLevelChange, onOpen }: Props) {
+  const { t } = useI18n();
   const levels = useMemo(() => [...new Set(points.map((p) => p.hskLevel))].sort((a, b) => a - b), [points]);
   const shown = level === 'all' ? points : points.filter((p) => p.hskLevel === level);
   const doneCount = shown.filter((p) => progress.points[p.id]?.completed).length;
@@ -24,7 +26,7 @@ export function GrammarList({ points, progress, level, onLevelChange, onOpen }: 
   return (
     <div className="space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <div role="group" aria-label="Filter by HSK level" className="flex flex-wrap gap-1.5">
+        <div role="group" aria-label={t('grammar.list.filterAria')} className="flex flex-wrap gap-1.5">
           {filters.map((f) => {
             const active = f === level;
             return (
@@ -39,13 +41,13 @@ export function GrammarList({ points, progress, level, onLevelChange, onOpen }: 
                     : 'bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700'
                 }`}
               >
-                {f === 'all' ? 'All' : levelLabel(f)}
+                {f === 'all' ? t('common.all') : levelLabel(f)}
               </button>
             );
           })}
         </div>
         <p className="text-sm text-slate-500 dark:text-slate-400">
-          {doneCount} / {shown.length} completed
+          {t('grammar.list.completedCount', { done: doneCount, total: shown.length })}
         </p>
       </div>
 
@@ -68,19 +70,19 @@ export function GrammarList({ points, progress, level, onLevelChange, onOpen }: 
                   }`}
                   aria-hidden
                 >
-                  {(p.titleHanzi ?? '').split(/[\s/…]+/)[0] || '文'}
+                  {(p.titleHanzi ?? '').split(/[\s/…]+/)[0] || '文' /* i18n-ignore: placeholder glyph */}
                 </span>
                 <span className="min-w-0 flex-1">
                   <span className="flex flex-wrap items-center gap-1.5">
                     <HskBadge level={p.hskLevel} />
                     {pr?.completed ? (
                       <span className="inline-flex items-center gap-1 text-xs font-medium text-emerald-600 dark:text-emerald-400">
-                        <CircleCheck className="h-3.5 w-3.5" aria-hidden /> Completed
+                        <CircleCheck className="h-3.5 w-3.5" aria-hidden /> {t('grammar.lesson.completed')}
                       </span>
                     ) : pr?.bestScore !== undefined ? (
-                      <span className="text-xs text-slate-500 dark:text-slate-400">Best {Math.round(pr.bestScore * 100)} %</span>
+                      <span className="text-xs text-slate-500 dark:text-slate-400">{t('grammar.list.best', { pct: Math.round(pr.bestScore * 100) })}</span>
                     ) : (
-                      <span className="text-xs text-slate-400">New</span>
+                      <span className="text-xs text-slate-400">{t('topics.new')}</span>
                     )}
                   </span>
                   <span className="mt-1 block font-semibold text-slate-900 dark:text-slate-100">

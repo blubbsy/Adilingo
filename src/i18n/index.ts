@@ -116,6 +116,11 @@ export function formatList(lang: UiLanguage, items: string[], type: 'conjunction
   return ListFormat ? new ListFormat(LOCALE_META[lang].htmlLang, { style: 'narrow', type }).format(items) : items.join(', ');
 }
 
+/** "5 min. ago" / "vor 5 Min." — `value` is negative for the past. */
+export function formatRelative(lang: UiLanguage, value: number, unit: Intl.RelativeTimeFormatUnit): string {
+  return new Intl.RelativeTimeFormat(LOCALE_META[lang].htmlLang, { numeric: 'auto', style: 'short' }).format(value, unit);
+}
+
 export function formatDate(lang: UiLanguage, value: Date | number, options: Intl.DateTimeFormatOptions = { dateStyle: 'medium' }): string {
   return new Intl.DateTimeFormat(LOCALE_META[lang].htmlLang, options).format(value);
 }

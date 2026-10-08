@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Check, Delete, Keyboard, RotateCcw, Trophy, X } from 'lucide-react';
 import { AudioButton } from '../components/AudioButton';
 import { SpeedControl } from '../components/SpeedControl';
+import { useI18n } from '../i18n/react';
 import type { SpeechApi } from '../utils/speech';
 import { PASS_RATIO } from './grammarStorage';
 import type { GrammarExercise, GrammarPoint, OptionExercise, OrderExercise } from './types';
@@ -63,6 +64,7 @@ function speakableAnswer(ex: GrammarExercise): string | null {
 }
 
 export function ExercisePlayer({ point, speech, onFinish, onExit }: Props) {
+  const { t } = useI18n();
   const exercises = point.exercises;
   const [run, setRun] = useState(0);
   const [idx, setIdx] = useState(0);
@@ -182,19 +184,19 @@ export function ExercisePlayer({ point, speech, onFinish, onExit }: Props) {
           {passed ? <Trophy className="h-7 w-7" aria-hidden /> : <RotateCcw className="h-7 w-7" aria-hidden />}
         </div>
         <h3 id="gx-result" className="text-xl font-bold text-slate-900 dark:text-slate-100">
-          {correct} / {total} correct
+          {t('grammar.exercise.result', { correct, total })}
         </h3>
         <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
           {passed
-            ? `${Math.round(ratio * 100)} %: lesson complete!`
-            : `${Math.round(ratio * 100)} %. Get ${Math.round(PASS_RATIO * 100)} % or more to complete this lesson.`}
+            ? t('grammar.exercise.passed', { pct: Math.round(ratio * 100) })
+            : t('grammar.exercise.failed', { pct: Math.round(ratio * 100), needed: Math.round(PASS_RATIO * 100) })}
         </p>
         <div className="mt-5 flex flex-col justify-center gap-2 sm:flex-row">
           <button type="button" className={secondaryBtn} onClick={restart}>
-            <RotateCcw className="h-4 w-4" aria-hidden /> Practice again
+            <RotateCcw className="h-4 w-4" aria-hidden /> {t('grammar.lesson.practiceAgain')}
           </button>
           <button type="button" className={primaryBtn} onClick={onExit} autoFocus>
-            Back to lesson
+            {t('grammar.lesson.backToLesson')}
           </button>
         </div>
       </section>
@@ -204,13 +206,13 @@ export function ExercisePlayer({ point, speech, onFinish, onExit }: Props) {
   const speakText = phase === 'feedback' ? speakableAnswer(ex) : null;
 
   return (
-    <section className={`${card} p-4 sm:p-6`} aria-label={`Practice: ${point.title}`}>
+    <section className={`${card} p-4 sm:p-6`} aria-label={t('grammar.exercise.practiceAria', { title: point.title })}>
       <div className="mb-4 flex items-center gap-3">
         <span className="shrink-0 text-xs font-medium text-slate-500 dark:text-slate-400">
           {idx + 1} / {exercises.length}
         </span>
-        <ProgressBar value={(idx + (phase === 'feedback' ? 1 : 0)) / exercises.length} label="Practice progress" />
-        <button type="button" onClick={onExit} className={`shrink-0 rounded-lg p-1.5 text-slate-500 hover:text-rose-600 ${focusRing}`} aria-label="Quit practice">
+        <ProgressBar value={(idx + (phase === 'feedback' ? 1 : 0)) / exercises.length} label={t('grammar.exercise.progress')} />
+        <button type="button" onClick={onExit} className={`shrink-0 rounded-lg p-1.5 text-slate-500 hover:text-rose-600 ${focusRing}`} aria-label={t('grammar.exercise.quit')}>
           <X className="h-5 w-5" aria-hidden />
         </button>
       </div>
@@ -237,10 +239,10 @@ export function ExercisePlayer({ point, speech, onFinish, onExit }: Props) {
         <div className="mt-5 flex items-center justify-between gap-3">
           <p className="hidden items-center gap-1.5 text-xs text-slate-400 sm:flex">
             <Keyboard className="h-3.5 w-3.5" aria-hidden />
-            {ex.type === 'order' ? '1–9 pick · Backspace undo · Enter check' : `1–${ex.options.length} choose · Enter check`}
+            {ex.type === 'order' ? t('grammar.exercise.keysOrder') : t('grammar.exercise.keysChoose', { max: ex.options.length })}
           </p>
           <button type="button" className={`${primaryBtn} w-full sm:w-auto`} disabled={!canCheck} onClick={check}>
-            Check
+            {t('grammar.exercise.check')}
           </button>
         </div>
       ) : (
@@ -255,7 +257,7 @@ export function ExercisePlayer({ point, speech, onFinish, onExit }: Props) {
         >
           <p className={`flex items-center gap-2 font-semibold ${lastCorrect ? 'text-emerald-700 dark:text-emerald-300' : 'text-rose-700 dark:text-rose-300'}`}>
             {lastCorrect ? <Check className="h-5 w-5" aria-hidden /> : <X className="h-5 w-5" aria-hidden />}
-            {lastCorrect ? 'Correct!' : 'Not quite'}
+            {lastCorrect ? t('grammar.exercise.correct') : t('grammar.exercise.notQuite')}
           </p>
           {ex.type === 'order' && (
             <div className="mt-2 text-slate-800 dark:text-slate-200">
@@ -267,7 +269,7 @@ export function ExercisePlayer({ point, speech, onFinish, onExit }: Props) {
           )}
           {ex.type !== 'order' && !lastCorrect && (
             <p className="mt-2 text-sm text-slate-700 dark:text-slate-300">
-              {ex.type === 'error' ? 'The wrong sentence: ' : 'Answer: '}
+              {ex.type === 'error' ? t('grammar.exercise.wrongSentence') : t('grammar.exercise.answer')}{' '}
               <span className={ex.type === 'translate' && ex.optionScript === 'pinyin' ? 'font-medium' : 'font-hanzi text-base font-medium'}>
                 <Zh text={ex.options[ex.answer]} />
               </span>
@@ -286,7 +288,7 @@ export function ExercisePlayer({ point, speech, onFinish, onExit }: Props) {
               <span />
             )}
             <button ref={continueRef} type="button" className={primaryBtn} onClick={next}>
-              {idx + 1 < exercises.length ? 'Continue' : 'See results'}
+              {idx + 1 < exercises.length ? t('grammar.exercise.continue') : t('grammar.exercise.seeResults')}
             </button>
           </div>
         </div>
@@ -308,6 +310,7 @@ function OptionBody({
   phase: Phase;
   onSelect: (i: number) => void;
 }) {
+  const { t } = useI18n();
   const answered = phase !== 'answering';
   const sentenceMode = ex.type === 'error' || (ex.type === 'translate' && ex.optionScript === 'hanzi');
   const pinyinOpts = ex.type === 'translate' && ex.optionScript === 'pinyin';
@@ -348,8 +351,8 @@ function OptionBody({
       {/* Choice fill-the-gap uses small cards */}
       {ex.type === 'choice' ? (
         <div>
-          <p className="mb-2 text-xs text-slate-500 dark:text-slate-400">Select a card to fill the blank:</p>
-          <div role="radiogroup" aria-label="Answer cards" className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+          <p className="mb-2 text-xs text-slate-500 dark:text-slate-400">{t('grammar.exercise.selectCard')}</p>
+          <div role="radiogroup" aria-label={t('grammar.exercise.answerCards')} className="grid grid-cols-2 gap-2 sm:grid-cols-4">
             {perm.map((orig, i) => {
               const isSel = selected === i;
               const isAnswer = orig === ex.answer;
@@ -386,7 +389,7 @@ function OptionBody({
           </div>
         </div>
       ) : (
-        <div role="radiogroup" aria-label="Answer options" className={`grid gap-2 ${sentenceMode || pinyinOpts ? 'grid-cols-1' : 'grid-cols-2'}`}>
+        <div role="radiogroup" aria-label={t('grammar.exercise.answerOptions')} className={`grid gap-2 ${sentenceMode || pinyinOpts ? 'grid-cols-1' : 'grid-cols-2'}`}>
           {perm.map((orig, i) => {
             const isSel = selected === i;
             const isAnswer = orig === ex.answer;
@@ -442,25 +445,26 @@ function OrderBody({
   onRemove: (position: number) => void;
   onClear: () => void;
 }) {
+  const { t } = useI18n();
   return (
     <div>
       <p className="mb-3 rounded-xl bg-slate-50 px-4 py-3 text-base font-medium text-slate-900 dark:bg-slate-800/60 dark:text-slate-100">
         “{ex.english}”
       </p>
       <div
-        aria-label="Your sentence"
+        aria-label={t('grammar.exercise.yourSentence')}
         className={`flex min-h-[3.75rem] flex-wrap items-center gap-2 rounded-xl border-2 border-dashed p-2 ${
           locked ? 'border-slate-200 dark:border-slate-700' : 'border-slate-300 dark:border-slate-600'
         }`}
       >
-        {picked.length === 0 && <span className="px-2 text-sm text-slate-400">Tap the words below in order…</span>}
+        {picked.length === 0 && <span className="px-2 text-sm text-slate-400">{t('grammar.exercise.tapWords')}</span>}
         {picked.map((b, pos) => (
           <button
             key={`${b}-${pos}`}
             type="button"
             disabled={locked}
             onClick={() => onRemove(pos)}
-            aria-label={`Remove ${bank[b]}`}
+            aria-label={t('grammar.exercise.remove', { word: bank[b] })}
             className={`animate-pop rounded-lg bg-rose-600 px-3 py-1.5 font-hanzi text-lg text-white disabled:bg-slate-600 dark:disabled:bg-slate-700 ${focusRing}`}
             lang="zh-CN"
           >
@@ -468,21 +472,21 @@ function OrderBody({
           </button>
         ))}
         {!locked && picked.length > 0 && (
-          <button type="button" onClick={onClear} className={`ml-auto rounded-lg p-1.5 text-slate-400 hover:text-rose-600 ${focusRing}`} aria-label="Clear sentence">
+          <button type="button" onClick={onClear} className={`ml-auto rounded-lg p-1.5 text-slate-400 hover:text-rose-600 ${focusRing}`} aria-label={t('grammar.exercise.clear')}>
             <Delete className="h-5 w-5" aria-hidden />
           </button>
         )}
       </div>
-      <div className="mt-3 flex flex-wrap gap-2" aria-label="Word bank">
-        {bank.map((t, i) => {
+      <div className="mt-3 flex flex-wrap gap-2" aria-label={t('grammar.exercise.wordBank')}>
+        {bank.map((token, i) => {
           const used = picked.includes(i);
           return (
             <button
-              key={`${t}-${i}`}
+              key={`${token}-${i}`}
               type="button"
               disabled={locked || used}
               onClick={() => onPick(i)}
-              aria-label={`${t} (key ${i + 1})`}
+              aria-label={t('grammar.exercise.wordKey', { word: token, n: i + 1 })}
               className={`relative rounded-lg border px-3 py-1.5 font-hanzi text-lg transition ${
                 used
                   ? 'border-dashed border-slate-200 text-transparent dark:border-slate-700'
@@ -490,7 +494,7 @@ function OrderBody({
               } ${focusRing}`}
               lang="zh-CN"
             >
-              {t}
+              {token}
               {!used && !locked && i < 9 && (
                 <span className="absolute -right-1 -top-1.5 rounded bg-slate-100 px-1 font-sans text-[10px] leading-4 text-slate-500 dark:bg-slate-800 dark:text-slate-400" aria-hidden>
                   {i + 1}
