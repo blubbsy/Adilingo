@@ -41,6 +41,9 @@ export function createDefaultState(): UserState {
       dailyCap: 30,
       defaultMode: 'mixed',
       newCardsPerDay: 10,
+      sessionSize: 15,
+      pinyinHelperMode: 'adaptive',
+      pinyinAdaptiveThreshold: 2,
       curriculum: 'hsk3_2026',
       theme: 'system',
       soundEffects: true,
@@ -242,6 +245,11 @@ function sanitize(s: Raw): UserState {
       curriculum: CURRICULUM_IDS.includes(settings.curriculum) ? settings.curriculum : d.settings.curriculum,
       theme: THEMES.includes(settings.theme) ? settings.theme : d.settings.theme,
       soundEffects: typeof settings.soundEffects === 'boolean' ? settings.soundEffects : d.settings.soundEffects,
+      sessionSize: Math.min(100, Math.max(5, num(settings.sessionSize, d.settings.sessionSize ?? 15))),
+      pinyinHelperMode: ['adaptive', 'flip', 'always', 'never'].includes(settings.pinyinHelperMode)
+        ? settings.pinyinHelperMode
+        : (d.settings.pinyinHelperMode ?? 'adaptive'),
+      pinyinAdaptiveThreshold: Math.min(10, Math.max(1, num(settings.pinyinAdaptiveThreshold, d.settings.pinyinAdaptiveThreshold ?? 2))),
     },
     progress,
     courseProgress: isObj(s.courseProgress) ? s.courseProgress : undefined,

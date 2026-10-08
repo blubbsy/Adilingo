@@ -424,7 +424,8 @@ export function queueSummary(vocab: VocabItem[], state: UserState, req?: Partial
 export function buildSession(vocab: VocabItem[], state: UserState, req: SessionRequest, now = new Date()): SessionCard[] {
   const pool = filterPool(vocab, req);
   const summary = queueSummary(vocab, state, req, now);
-  const limit = req.ignoreCap ? (req.limit ?? 20) : Math.min(req.limit ?? Infinity, summary.remainingToday);
+  const userSessionSize = state.settings.sessionSize ?? 15;
+  const limit = req.ignoreCap ? (req.limit ?? userSessionSize) : Math.min(req.limit ?? userSessionSize, summary.remainingToday);
 
   const dueCards: { item: VocabItem; direction: CardDirection; dueTime: string; p?: DirectionProgress }[] = [];
 

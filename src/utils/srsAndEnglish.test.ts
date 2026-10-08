@@ -3,6 +3,7 @@ import { checkEnglish, stem, cleanEnglish, normEnglish, maxTypoTolerance } from 
 import { buildSession, applyGrade, recordReview, newDirectionProgress, promptFor, promptForDirection, bulkMarkLevelKnown, calculateTrueRetention, queueSummary, isDirectionDue } from './srsEngine';
 import { dayKey } from './dates';
 import type { SessionRequest, UserState, VocabItem } from '../types';
+import { createDefaultState } from './storage';
 
 describe('English stemmer and normalization', () => {
   it('does not stem protected words', () => {
@@ -479,5 +480,57 @@ describe('SRS Overdue Backlog Throttling & Grading', () => {
     // On the scheduled due date in the future (e.g. 2 days later), it becomes due
     const futureDate = new Date('2026-10-10T09:00:00Z');
     expect(isDirectionDue(progGood, futureDate)).toBe(true);
+  });
+
+  it('buildSession respects customizable sessionSize setting as default limit', () => {
+    const state: UserState = {
+      version: 3,
+      settings: {
+        speechRate: 1,
+        colorTones: true,
+        dailyCap: 50,
+        defaultMode: 'mixed',
+        newCardsPerDay: 20,
+        sessionSize: 2,
+        pinyinHelperMode: 'adaptive',
+        pinyinAdaptiveThreshold: 2,
+        curriculum: 'hsk3_2026',
+        theme: 'system',
+        soundEffects: true,
+      },
+      progress: {},
+      stats: {
+        currentStreak: 0,
+        longestStreak: 0,
+        lastActiveDate: '',
+        totalReviewed: 0,
+        toneAccuracy: {} as any,
+        totalCorrect: 0,
+        totalLatencyMs: 0,
+        latencySamples: 0,
+        modeCounts: {} as any,
+        toneConfusion: {} as any,
+        daily: {},
+      },
+      unlockedBadges: [],
+      starredWords: [],
+    };
+
+    const session = buildSession(dummyVocab, state, {
+      label: 'Sprint',
+      mode: 'hanzi',
+      levels: [1],
+      topics: [],
+    });
+
+    // Should build session with user-defined sessionSize limit (2)
+    expect(session.length).toBe(2);
+  });
+
+  it('createDefaultState initializes sessionSize, pinyinHelperMode, and pinyinAdaptiveThreshold', () => {
+    const def = createDefaultState();
+    expect(def.settings.sessionSize).toBe(15);
+    expect(def.settings.pinyinHelperMode).toBe('adaptive');
+    expect(def.settings.pinyinAdaptiveThreshold).toBe(2);
   });
 });

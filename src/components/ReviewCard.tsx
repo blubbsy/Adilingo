@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent } from 'react';
-import { AlertTriangle, ArrowRight, Flag, Volume2, X } from 'lucide-react';
+import { AlertTriangle, ArrowRight, Flag, RotateCcw, Sparkles, Volume2, X } from 'lucide-react';
 import type { CardProgress, DirectionProgress, Grade, SessionCard, Settings, ToneKey, VocabItem } from '../types';
 import { checkPinyin, markSyllable, numberedToMarked, parseNumbered, stripTones } from '../utils/pinyinHelper';
 import { GRADE_LABELS, nextInterval } from '../utils/srsEngine';
 import { levelLabel } from '../data/vocab';
 import type { SpeechApi } from '../utils/speech';
 import { AudioButton } from './AudioButton';
-import { FreePinyin } from './ToneText';
+import { FreePinyin, PinyinText } from './ToneText';
 import { playCorrect, playError } from '../utils/sound';
 import { ClozeExerciseView } from './ClozeExerciseView';
 import { buildClozeExercise } from '../exercises/types';
@@ -276,6 +276,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
   const dirProgress: DirectionProgress | undefined = direction === 'recall' ? progress?.recall : progress?.recognition;
 
   const [revealed, setRevealed] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false);
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
   const [pinyinInput, setPinyinInput] = useState('');
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
@@ -284,6 +285,19 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
   const inputRef = useRef<HTMLInputElement>(null);
   const speechRef = useRef(speech);
   speechRef.current = speech;
+
+  // Reset flip when card item changes
+  useEffect(() => {
+    setIsFlipped(false);
+  }, [item.id]);
+
+  const isChineseWord = (settings.course ?? 'chinese') === 'chinese' && /[\u4e00-\u9fa5]/.test(item.hanzi);
+  const failureCount = dirProgress?.failureCount ?? 0;
+  const pinyinHelperMode = settings.pinyinHelperMode ?? 'adaptive';
+  const threshold = settings.pinyinAdaptiveThreshold ?? 2;
+  const isAdaptiveTriggered = pinyinHelperMode === 'adaptive' && (failureCount >= threshold || Boolean(dirProgress?.isLeech));
+  const autoShowPinyin = isChineseWord && (pinyinHelperMode === 'always' || isAdaptiveTriggered);
+  const allowFlip = isChineseWord && pinyinHelperMode !== 'never';
 
   // Play audio automatically for listening drill once per card (without self-cancellation on speech state changes)
   useEffect(() => {
@@ -394,6 +408,12 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
       }
 
       if (!revealed) {
+        if ((e.key === 'f' || e.key === 'F' || e.key === 'p' || e.key === 'P') && allowFlip && !(e.target instanceof HTMLInputElement)) {
+          e.preventDefault();
+          setIsFlipped((f) => !f);
+          return;
+        }
+
         if (prompt === 'hanzi' || prompt === 'english' || prompt === 'audio') {
           if (['1', '2', '3', '4'].includes(e.key)) {
             e.preventDefault();
@@ -431,7 +451,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
 
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
-  }, [revealed, isCorrect, prompt, options.length, clozeData]);
+  }, [revealed, isCorrect, prompt, options.length, clozeData, allowFlip]);
 
   const suggestedGrade: Grade = isCorrect ? 3 : 1;
 
@@ -517,15 +537,132 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
 
             {(prompt === 'hanzi' || prompt === 'pinyin') && (
               <div className="space-y-3">
-                <div className={`${/[\u4e00-\u9fa5]/.test(item.hanzi) ? 'font-hanzi' : 'font-sans'} text-6xl font-bold tracking-wide text-slate-900 dark:text-slate-100 sm:text-7xl`}>
-                  {item.hanzi}
-                </div>
-                <div className="flex items-center justify-center gap-2">
-                  <AudioButton speech={speech} text={item.hanzi} rate={settings.speechRate} />
-                  <span className="text-sm text-slate-500">
-                    {prompt === 'pinyin' ? 'Type the pinyin with tones' : 'What does this mean?'}
-                  </span>
-                </div>
+                {isChineseWord && allowFlip && prompt === 'hanzi' ? (
+                  <div className="flex flex-col items-center">
+                    {/* Adaptive Scaffold Pill if auto-triggered */}
+                    {autoShowPinyin && (
+                      <div className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-amber-50 border border-amber-200/80 px-3 py-1 text-xs font-semibold text-amber-900 dark:border-amber-900/60 dark:bg-amber-950/40 dark:text-amber-200 shadow-sm animate-fade-in">
+                        <Sparkles className="h-3.5 w-3.5 text-amber-600 dark:text-amber-400" />
+                        <span>
+                          {isAdaptiveTriggered
+                            ? (settings.uiLanguage === 'zh'
+                                ? `智能辅助：已失误 ${failureCount} 次 · 自动显示拼音`
+                                : `Adaptive helper: ${failureCount} mistake${failureCount === 1 ? '' : 's'} · Pinyin shown`)
+                            : (settings.uiLanguage === 'zh' ? '拼音常驻辅助已开启' : 'Pinyin always visible')}
+                        </span>
+                      </div>
+                    )}
+
+                    {/* Stumbled notice if 1 mistake and not yet auto-shown */}
+                    {!autoShowPinyin && failureCount > 0 && (
+                      <div className="mb-2 text-[11px] font-medium text-amber-600/90 dark:text-amber-400">
+                        {settings.uiLanguage === 'zh'
+                          ? `提示：该词曾失误 ${failureCount} 次 · 可点击汉字翻转查看拼音`
+                          : `Stumbled ${failureCount}× · Tap character to peek Pinyin`}
+                      </div>
+                    )}
+
+                    {/* 3D Flip Card */}
+                    <div
+                      className="flip-card-container group relative mx-auto w-full max-w-xs cursor-pointer select-none"
+                      onClick={() => setIsFlipped((f) => !f)}
+                      role="button"
+                      tabIndex={0}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                          e.preventDefault();
+                          setIsFlipped((f) => !f);
+                        }
+                      }}
+                      title={
+                        isFlipped
+                          ? (settings.uiLanguage === 'zh' ? '点击翻回汉字' : 'Click to flip back')
+                          : (settings.uiLanguage === 'zh' ? '点击翻转查看拼音' : 'Click to peek Pinyin')
+                      }
+                      aria-label={
+                        isFlipped
+                          ? 'Card flipped to Pinyin. Click to view Chinese character.'
+                          : 'Chinese character card. Click to flip and peek Pinyin.'
+                      }
+                    >
+                      <div className={`flip-card-inner ${isFlipped ? 'is-flipped' : ''}`}>
+                        {/* FRONT FACE: Chinese Symbol */}
+                        <div className="flip-card-front flex min-h-[160px] flex-col items-center justify-center rounded-3xl border-2 border-slate-200/90 bg-gradient-to-b from-white to-slate-50 p-6 shadow-sm transition group-hover:border-rose-400 group-hover:shadow-md dark:border-slate-700 dark:from-slate-800/90 dark:to-slate-850 dark:group-hover:border-rose-500">
+                          <div className="font-hanzi text-6xl font-bold tracking-wide text-slate-900 dark:text-slate-100 sm:text-7xl">
+                            {item.hanzi}
+                          </div>
+
+                          {/* If autoShowPinyin is active, display the tone-accented pinyin subtitle on front */}
+                          {autoShowPinyin && (
+                            <div className="mt-2 text-xl font-bold text-rose-600 dark:text-rose-400">
+                              <PinyinText item={item} color={settings.colorTones} />
+                            </div>
+                          )}
+
+                          <div className="mt-3 flex items-center gap-1.5 text-xs font-medium text-slate-400 transition group-hover:text-rose-600 dark:text-slate-500 dark:group-hover:text-rose-400">
+                            <RotateCcw className="h-3 w-3" />
+                            <span>{settings.uiLanguage === 'zh' ? '点击翻转 · 查看拼音' : 'Tap to flip · Peek Pinyin'}</span>
+                            <kbd className="ml-1 hidden rounded bg-slate-200/70 px-1 py-0.5 text-[10px] text-slate-600 sm:inline dark:bg-slate-700 dark:text-slate-300">F</kbd>
+                          </div>
+                        </div>
+
+                        {/* BACK FACE: Pinyin, Tone Accents & Audio */}
+                        <div className="flip-card-back flex min-h-[160px] flex-col items-center justify-center rounded-3xl border-2 border-rose-300 bg-rose-50/95 p-6 shadow-md dark:border-rose-800 dark:bg-rose-950/70">
+                          <span className="font-hanzi text-lg font-medium text-rose-700/80 dark:text-rose-300/80">
+                            {item.hanzi}
+                          </span>
+                          <div className="my-1 text-3xl font-bold text-rose-950 dark:text-rose-100 sm:text-4xl">
+                            <PinyinText item={item} color={settings.colorTones} />
+                          </div>
+                          <div className="mt-2 flex items-center gap-2" onClick={(e) => e.stopPropagation()}>
+                            <AudioButton speech={speech} text={item.hanzi} rate={settings.speechRate} />
+                            <span className="text-xs text-rose-600 dark:text-rose-400">
+                              {settings.uiLanguage === 'zh' ? '点击卡片翻回汉字' : 'Tap card to flip back'}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="mt-4 flex items-center justify-center gap-2">
+                      <AudioButton speech={speech} text={item.hanzi} rate={settings.speechRate} />
+                      <button
+                        type="button"
+                        onClick={() => setIsFlipped((f) => !f)}
+                        className="inline-flex items-center gap-1 rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-600 shadow-xs hover:border-rose-300 hover:text-rose-600 active:scale-95 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
+                      >
+                        <RotateCcw className="h-3 w-3" />
+                        <span>
+                          {isFlipped
+                            ? (settings.uiLanguage === 'zh' ? '查看汉字' : 'Show Hanzi')
+                            : (settings.uiLanguage === 'zh' ? '拼音提示' : 'Peek Pinyin')}
+                        </span>
+                      </button>
+                      <span className="text-sm text-slate-500">
+                        {settings.uiLanguage === 'zh' ? '这个词是什么意思？' : 'What does this mean?'}
+                      </span>
+                    </div>
+                  </div>
+                ) : (
+                  <>
+                    <div className={`${/[\u4e00-\u9fa5]/.test(item.hanzi) ? 'font-hanzi' : 'font-sans'} text-6xl font-bold tracking-wide text-slate-900 dark:text-slate-100 sm:text-7xl`}>
+                      {item.hanzi}
+                    </div>
+                    {isChineseWord && autoShowPinyin && (
+                      <div className="text-xl font-bold text-rose-600 dark:text-rose-400">
+                        <PinyinText item={item} color={settings.colorTones} />
+                      </div>
+                    )}
+                    <div className="flex items-center justify-center gap-2">
+                      <AudioButton speech={speech} text={item.hanzi} rate={settings.speechRate} />
+                      <span className="text-sm text-slate-500">
+                        {prompt === 'pinyin'
+                          ? (settings.uiLanguage === 'zh' ? '拼写带声调的拼音' : 'Type the pinyin with tones')
+                          : (settings.uiLanguage === 'zh' ? '这个词是什么意思？' : 'What does this mean?')}
+                      </span>
+                    </div>
+                  </>
+                )}
               </div>
             )}
           </div>

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Database, Download, QrCode, Trash2, Upload, X, Zap } from 'lucide-react';
-import type { CourseId, Curriculum, Settings, StudyMode, ThemePref, UserState } from '../types';
+import type { CourseId, Curriculum, PinyinHelperMode, Settings, StudyMode, ThemePref, UserState } from '../types';
 import { getCourseConfig } from '../data/courses';
 import { SPEECH_RATES, type SpeechApi } from '../utils/speech';
 import { createDefaultState, exportBackup, parseBackup, type StorageBackend } from '../utils/storage';
@@ -8,6 +8,7 @@ import { createEmptyGrammarProgress, exportableGrammarProgress, importGrammarPro
 import { AudioButton } from './AudioButton';
 import { CHINESE_MODES, ENGLISH_MODES } from './ModeSelector';
 import { getStoredSyncKey } from '../utils/syncService';
+import { t } from '../utils/i18n';
 
 interface Props {
   state: UserState;
@@ -38,6 +39,7 @@ export function SettingsModal({
 }: Props) {
   const syncKey = getStoredSyncKey();
   const s = state.settings;
+  const lang = s.uiLanguage ?? (s.course === 'english' ? 'zh' : 'en');
   const set = (patch: Partial<Settings>) => onChangeSettings({ ...s, ...patch });
   const fileRef = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState<{ ok: boolean; text: string } | null>(null);
@@ -245,15 +247,82 @@ export function SettingsModal({
           )}
         </Group>
 
-        <Group title="Study">
-          <NumberField label="Daily review cap" value={s.dailyCap} min={5} max={500} onChange={(v) => set({ dailyCap: v })} />
-          <NumberField label="New cards per day" value={s.newCardsPerDay} min={0} max={100} onChange={(v) => set({ newCardsPerDay: v })} />
+        <Group title={t('settings.pace', lang)}>
+          {/* Quick Presets */}
+          <div className="mb-4">
+            <span className="mb-1.5 block text-xs font-medium text-slate-500 dark:text-slate-400">
+              {lang === 'zh' ? '预设学习节奏' : 'Quick Pace Presets'}
+            </span>
+            <div className="grid grid-cols-2 gap-1.5 sm:grid-cols-4">
+              {[
+                { id: 'casual', label: t('settings.pace.casual', lang), newCards: 5, dailyCap: 25, sessionSize: 10, icon: '🐢' },
+                { id: 'steady', label: t('settings.pace.steady', lang), newCards: 10, dailyCap: 50, sessionSize: 15, icon: '🚶' },
+                { id: 'ambitious', label: t('settings.pace.ambitious', lang), newCards: 20, dailyCap: 100, sessionSize: 20, icon: '🏃' },
+                { id: 'intensive', label: t('settings.pace.intensive', lang), newCards: 35, dailyCap: 200, sessionSize: 30, icon: '🚀' },
+              ].map((p) => {
+                const isActive =
+                  s.newCardsPerDay === p.newCards &&
+                  s.dailyCap === p.dailyCap &&
+                  (s.sessionSize ?? 15) === p.sessionSize;
+                return (
+                  <button
+                    key={p.id}
+                    type="button"
+                    onClick={() => set({ newCardsPerDay: p.newCards, dailyCap: p.dailyCap, sessionSize: p.sessionSize })}
+                    className={`flex flex-col items-center justify-center rounded-xl border p-2 text-center transition ${
+                      isActive
+                        ? 'border-rose-500 bg-rose-50 font-semibold text-rose-800 shadow-xs dark:bg-rose-950/40 dark:text-rose-200'
+                        : 'border-slate-200 hover:border-slate-300 dark:border-slate-700 dark:hover:bg-slate-700/40'
+                    }`}
+                  >
+                    <span className="text-base">{p.icon}</span>
+                    <span className="text-xs font-medium">{p.label}</span>
+                    <span className="text-[10px] text-slate-400 tabular-nums">+{p.newCards} / {p.dailyCap}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          <RangeSlider
+            label={t('settings.newCards', lang)}
+            value={s.newCardsPerDay}
+            min={0}
+            max={50}
+            step={1}
+            unit={lang === 'zh' ? '词/天' : 'words/day'}
+            description={t('settings.newCardsDesc', lang)}
+            onChange={(v) => set({ newCardsPerDay: v })}
+          />
+
+          <RangeSlider
+            label={t('settings.dailyCap', lang)}
+            value={s.dailyCap}
+            min={10}
+            max={300}
+            step={5}
+            unit={lang === 'zh' ? '词/天' : 'cards/day'}
+            description={t('settings.dailyCapDesc', lang)}
+            onChange={(v) => set({ dailyCap: v })}
+          />
+
+          <RangeSlider
+            label={t('settings.sessionSize', lang)}
+            value={s.sessionSize ?? 15}
+            min={5}
+            max={40}
+            step={5}
+            unit={lang === 'zh' ? '题/次' : 'cards'}
+            description={t('settings.sessionSizeDesc', lang)}
+            onChange={(v) => set({ sessionSize: v })}
+          />
+
           <label className="mt-3 flex items-center justify-between gap-4">
-            <span>Default mode</span>
+            <span className="text-sm font-medium">{lang === 'zh' ? '默认练习题型' : 'Default mode'}</span>
             <select
               value={s.defaultMode}
               onChange={(e) => set({ defaultMode: e.target.value as StudyMode })}
-              className="rounded-lg border border-slate-300 bg-white px-2 py-1.5 dark:border-slate-600 dark:bg-slate-900"
+              className="rounded-lg border border-slate-300 bg-white px-2 py-1.5 text-sm dark:border-slate-600 dark:bg-slate-900"
             >
               {((s.course ?? 'chinese') === 'english' ? ENGLISH_MODES : CHINESE_MODES).map((m) => (
                 <option key={m.id} value={m.id}>
@@ -263,6 +332,79 @@ export function SettingsModal({
             </select>
           </label>
         </Group>
+
+        {(s.course ?? 'chinese') === 'chinese' && (
+          <Group title={t('settings.pinyinHelper', lang)}>
+            <p className="mb-3 text-xs text-slate-500 dark:text-slate-400">
+              {t('settings.pinyinHelperDesc', lang)}
+            </p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2" role="radiogroup" aria-label="Pinyin helper mode">
+              {[
+                {
+                  id: 'adaptive',
+                  title: t('settings.pinyinMode.adaptive', lang),
+                  desc: lang === 'zh' ? '智能分析错题：失误达到门槛后自动呈现拼音，未失误词保留纯汉字测试' : 'Intelligent scaffold: Automatically reveals Pinyin for difficult words, pure character immersion otherwise',
+                  icon: '🧠',
+                },
+                {
+                  id: 'flip',
+                  title: t('settings.pinyinMode.flip', lang),
+                  desc: lang === 'zh' ? '纯汉字沉浸测试，随时可点击卡片 3D 翻转查看拼音' : 'Pure immersion by default, click character anytime to flip card and peek Pinyin',
+                  icon: '🃏',
+                },
+                {
+                  id: 'always',
+                  title: t('settings.pinyinMode.always', lang),
+                  desc: lang === 'zh' ? '练习中始终在汉字旁显示拼音' : 'Always display Pinyin alongside Chinese characters',
+                  icon: '👁️',
+                },
+                {
+                  id: 'never',
+                  title: t('settings.pinyinMode.never', lang),
+                  desc: lang === 'zh' ? '完全关闭卡片翻转与拼音提示，直至点击提交答案' : 'Disable peek flip; Pinyin is only revealed after answering',
+                  icon: '🔒',
+                },
+              ].map((opt) => (
+                <button
+                  key={opt.id}
+                  type="button"
+                  role="radio"
+                  aria-checked={(s.pinyinHelperMode ?? 'adaptive') === opt.id}
+                  onClick={() => set({ pinyinHelperMode: opt.id as PinyinHelperMode })}
+                  className={`rounded-xl border-2 p-3 text-left transition ${
+                    (s.pinyinHelperMode ?? 'adaptive') === opt.id
+                      ? 'border-rose-500 bg-rose-50 dark:bg-rose-950/40 shadow-xs'
+                      : 'border-slate-200 hover:border-slate-300 dark:border-slate-700'
+                  }`}
+                >
+                  <div className="flex items-center gap-1.5 font-semibold text-sm">
+                    <span>{opt.icon}</span>
+                    <span>{opt.title}</span>
+                  </div>
+                  <span className="mt-1 block text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                    {opt.desc}
+                  </span>
+                </button>
+              ))}
+            </div>
+
+            {(s.pinyinHelperMode ?? 'adaptive') === 'adaptive' && (
+              <div className="mt-3 rounded-2xl border border-amber-200/80 bg-amber-50/50 p-3.5 dark:border-amber-900/60 dark:bg-amber-950/20">
+                <RangeSlider
+                  label={t('settings.pinyinThreshold', lang)}
+                  value={s.pinyinAdaptiveThreshold ?? 2}
+                  min={1}
+                  max={5}
+                  step={1}
+                  unit={lang === 'zh' ? '次失误' : 'mistakes'}
+                  description={t('settings.pinyinThresholdDesc', lang)}
+                  onChange={(v) => set({ pinyinAdaptiveThreshold: v })}
+                />
+              </div>
+            )}
+          </Group>
+        )}
 
         <Group title="Multi-Device Cloud Sync">
           <div className="rounded-2xl border border-slate-200 p-4 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/40 space-y-3">
@@ -357,21 +499,52 @@ function Toggle({ checked, onChange, label }: { checked: boolean; onChange: (v: 
   );
 }
 
-function NumberField({ label, value, min, max, onChange }: { label: string; value: number; min: number; max: number; onChange: (v: number) => void }) {
+function RangeSlider({
+  label,
+  value,
+  min,
+  max,
+  step = 1,
+  unit = '',
+  description,
+  onChange,
+}: {
+  label: string;
+  value: number;
+  min: number;
+  max: number;
+  step?: number;
+  unit?: string;
+  description?: string;
+  onChange: (v: number) => void;
+}) {
   return (
-    <label className="mt-2 flex items-center justify-between gap-4">
-      <span>{label}</span>
-      <input
-        type="number"
-        min={min}
-        max={max}
-        value={value}
-        onChange={(e) => {
-          const v = Number(e.target.value);
-          if (Number.isFinite(v)) onChange(Math.max(min, Math.min(max, Math.round(v))));
-        }}
-        className="w-24 rounded-lg border border-slate-300 bg-white px-2 py-1.5 text-right tabular-nums dark:border-slate-600 dark:bg-slate-900"
-      />
-    </label>
+    <div className="mt-3 space-y-1.5">
+      <div className="flex items-center justify-between">
+        <span className="text-sm font-medium text-slate-800 dark:text-slate-200">{label}</span>
+        <span className="rounded-md bg-rose-50 px-2 py-0.5 text-xs font-bold text-rose-700 tabular-nums dark:bg-rose-950/60 dark:text-rose-300">
+          {value} {unit}
+        </span>
+      </div>
+      <div className="flex items-center gap-3">
+        <span className="text-[11px] font-semibold text-slate-400 tabular-nums">{min}</span>
+        <input
+          type="range"
+          min={min}
+          max={max}
+          step={step}
+          value={value}
+          onChange={(e) => {
+            const numVal = Number(e.target.value);
+            if (Number.isFinite(numVal)) {
+              onChange(Math.max(min, Math.min(max, numVal)));
+            }
+          }}
+          className="h-2 w-full cursor-pointer appearance-none rounded-lg bg-slate-200 dark:bg-slate-700"
+        />
+        <span className="text-[11px] font-semibold text-slate-400 tabular-nums">{max}</span>
+      </div>
+      {description && <p className="text-xs text-slate-500 dark:text-slate-400">{description}</p>}
+    </div>
   );
 }

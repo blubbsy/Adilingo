@@ -85,6 +85,8 @@ export interface ToneTally {
   total: number;
 }
 
+export type PinyinHelperMode = 'adaptive' | 'flip' | 'always' | 'never';
+
 export interface Settings {
   course?: CourseId;
   uiLanguage?: 'en' | 'zh';
@@ -96,6 +98,12 @@ export interface Settings {
   curriculum: Curriculum;
   theme: ThemePref;
   soundEffects: boolean;
+  /** Chinese character helper mode: adaptive (mistake-dependent), flip (click to peek), always, never */
+  pinyinHelperMode?: PinyinHelperMode;
+  /** Number of review failures before pinyin auto-reveals in adaptive mode (default: 2) */
+  pinyinAdaptiveThreshold?: number;
+  /** Number of cards per quick study session sprint (default: 15) */
+  sessionSize?: number;
 }
 
 export interface UserState {

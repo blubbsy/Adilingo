@@ -79,25 +79,27 @@ export function Dashboard({
 
   const activeDailyCount = Math.min(summary.dueCount + summary.newAvailable, summary.remainingToday);
 
+  const sessionBatch = state.settings.sessionSize ?? 15;
+
   function handleStartDailySession() {
     if (activeDailyCount > 0) {
       onStart({
         label: t('dashboard.startSession', lang),
-        mode: 'mixed',
+        mode: state.settings.defaultMode,
         levels: [],
         topics: [],
-        limit: activeDailyCount,
+        limit: Math.min(activeDailyCount, sessionBatch),
       });
     } else {
       // Extra practice
       onStart({
-        label: t('dashboard.extraPractice', lang, { count: 10 }),
+        label: t('dashboard.extraPractice', lang, { count: sessionBatch }),
         mode: 'mixed',
         levels: [],
         topics: [],
         includeNotDue: true,
         ignoreCap: true,
-        limit: 10,
+        limit: sessionBatch,
       });
     }
   }
@@ -172,7 +174,7 @@ export function Dashboard({
               <Play className="h-5 w-5 fill-current" />
               {activeDailyCount > 0
                 ? t('dashboard.startSession', lang)
-                : t('dashboard.extraPractice', lang, { count: 10 })}
+                : t('dashboard.extraPractice', lang, { count: sessionBatch })}
             </button>
           </div>
 
