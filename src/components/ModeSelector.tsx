@@ -4,6 +4,7 @@ import type { HskLevel, SessionRequest, StudyMode, UserState, VocabItem } from '
 import { allTopics } from '../utils/analytics';
 import { levelLabel } from '../data/vocab';
 import { queueSummary } from '../utils/srsEngine';
+import { trackOf } from '../data/courses';
 
 export const CHINESE_MODES: { id: StudyMode; title: string; desc: string; icon: typeof Type }[] = [
   { id: 'mixed', title: 'Mixed', desc: 'Interleaved cards for balanced memory', icon: Shuffle },
@@ -32,7 +33,7 @@ interface Props {
 }
 
 export function ModeSelector({ vocab, state, onStart }: Props) {
-  const isEnglishCourse = state.settings.course === 'english';
+  const isEnglishCourse = trackOf(state.settings.course) === 'english';
   const availableModes = isEnglishCourse ? ENGLISH_MODES : CHINESE_MODES;
 
   const [mode, setMode] = useState<StudyMode>(() => {

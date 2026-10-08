@@ -1,25 +1,13 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import {
-  Award,
-  BarChart3,
-  BookMarked,
-  BookOpen,
-  BookOpenCheck,
-  Flame,
-  Home,
-  Languages,
-  Layers,
-  Loader2,
-  Settings as SettingsIcon,
-  Zap,
-} from 'lucide-react';
+import { Flame, Languages, Loader2, Settings as SettingsIcon, Zap } from 'lucide-react';
 import type { Grade, SessionCard, SessionRequest, Settings, UserState } from './types';
 import { useUserState } from './hooks/useUserState';
 import { useSpeech } from './utils/speech';
 import { buildSession, effectiveStreak, recordReview } from './utils/srsEngine';
 import { newlyUnlocked, type Badge } from './utils/analytics';
 import { curriculumInfo, loadLibrary, vocabForCurriculum, type VocabLibrary } from './data/vocab';
-import { getCourseConfig, type CourseId } from './data/courses';
+import { ALL_VIEW_IDS, fallbackView, getCourseConfig, isViewAvailable, languageCourses, type CourseId, type ViewId } from './data/courses';
+import { mobileNavItemsFor, navItemsFor, type NavItem } from './utils/navigation';
 import { Dashboard } from './components/Dashboard';
 import { StudySession } from './components/StudySession';
 import { Insights } from './components/Insights';
@@ -42,9 +30,9 @@ import {
   DeviceRevokedError,
 } from './utils/syncService';
 
-type View = 'home' | 'learn' | 'grammar' | 'irregular' | 'topics' | 'dictionary' | 'study' | 'insights' | 'achievements';
-type NavView = Exclude<View, 'study'>;
-const NAV_IDS: NavView[] = ['home', 'grammar', 'irregular', 'learn', 'topics', 'dictionary', 'insights', 'achievements'];
+type View = ViewId | 'study';
+type NavView = ViewId;
+const NAV_IDS: NavView[] = ALL_VIEW_IDS;
 
 /** "#/dictionary" → "dictionary"; anything unknown → home. */
 function viewFromHash(): NavView {
@@ -86,7 +74,7 @@ export default function App() {
   const [toasts, setToasts] = useState<Badge[]>([]);
   const undoSnapshot = useRef<UserState | null>(null);
 
-  const lang: UiLanguage = state.settings.uiLanguage ?? (activeCourse === 'english' ? 'zh' : 'en');
+  const lang: UiLanguage = state.settings.uiLanguage ?? courseConfig.defaultUiLanguage;
 
   useTheme(state.settings.theme);
 
@@ -211,12 +199,6 @@ export default function App() {
     (newCourse: CourseId) => {
       if (newCourse === activeCourse) return;
 
-      // Sanitize route to prevent route bleed between courses (grammar & irregular are English-only)
-      if (newCourse === 'chinese' && (view === 'grammar' || view === 'irregular')) {
-        if (window.location.hash !== '#/learn') window.location.hash = '/learn';
-        setView('learn');
-      }
-
       update((s) => {
         const curCourse = s.settings.course ?? 'chinese';
         const courseProgress: NonNullable<UserState['courseProgress']> = {
@@ -236,7 +218,7 @@ export default function App() {
         const targetKnown = knownLevelsByCourse[newCourse] ?? [];
         const targetStarred = starredWordsByCourse[newCourse] ?? [];
         const newCourseConfig = getCourseConfig(newCourse);
-        const defaultLang: UiLanguage = newCourse === 'english' ? 'zh' : 'en';
+        const defaultLang: UiLanguage = newCourseConfig.defaultUiLanguage;
 
         return {
           ...s,
@@ -255,7 +237,7 @@ export default function App() {
         };
       });
     },
-    [activeCourse, update, view],
+    [activeCourse, update],
   );
 
   const curriculum = state.settings.curriculum;
@@ -292,6 +274,15 @@ export default function App() {
     setView(v);
     window.scrollTo({ top: 0 });
   }, []);
+
+  // Route guard: a screen the active course does not offer redirects (never renders another course's content).
+  useEffect(() => {
+    if (!ready || view === 'study' || isViewAvailable(activeCourse, view)) return;
+    const target = fallbackView(activeCourse);
+    if (window.location.hash !== `#/${target}`) window.location.hash = `/${target}`;
+    setView(target);
+  }, [ready, view, activeCourse]);
+  const shownView: View = !ready || view === 'study' || isViewAvailable(activeCourse, view) ? view : fallbackView(activeCourse);
 
   const startSession = useCallback(
     (request: SessionRequest) => {
@@ -365,7 +356,7 @@ export default function App() {
         </div>
       );
     }
-    switch (view) {
+    switch (shownView) {
       case 'study':
         return session ? (
           <StudySession
@@ -389,35 +380,11 @@ export default function App() {
           />
         ) : null;
       case 'grammar':
-        if (activeCourse === 'chinese') {
-          return (
-            <GrammarHub
-              vocab={vocab}
-              progress={state.progress}
-              colorTones={state.settings.colorTones}
-              speech={speech}
-              speechRate={state.settings.speechRate}
-              onStartVocabSession={startSession}
-              curriculum={curriculum}
-            />
-          );
-        }
         return <EnglishGrammarGuide speech={speech} onOpenIrregularVerbs={() => navigate('irregular')} />;
       case 'irregular':
-        if (activeCourse === 'chinese') {
-          return (
-            <Dashboard
-              vocab={vocab}
-              state={state}
-              onStart={startSession}
-              onNavigate={navigate}
-              onUpdateState={(next) => replace(next)}
-            />
-          );
-        }
         return <IrregularVerbsTrainer speech={speech} onBack={() => navigate('home')} />;
       case 'learn':
-        if (activeCourse === 'english') {
+        if (courseConfig.track === 'english') {
           return (
             <EnglishLearningHub
               vocab={vocab}
@@ -468,55 +435,15 @@ export default function App() {
           />
         );
     }
-  }, [libraryError, loaded, library, view, session, vocab, state, speech, handleReview, handleUndo, handleToggleStar, navigate, startSession, curriculum, update, activeCourse]);
+  }, [libraryError, loaded, library, shownView, session, vocab, state, speech, handleReview, handleUndo, handleToggleStar, navigate, startSession, curriculum, update, courseConfig.track]);
 
-  // Desktop Navigation items
-  const navItems = useMemo(() => {
-    if (activeCourse === 'english') {
-      return [
-        { id: 'home' as NavView, label: t('nav.dashboard', lang), short: 'Home', icon: Home },
-        { id: 'learn' as NavView, label: lang === 'zh' ? '分级路径' : 'Paths', short: 'Paths', icon: BookOpenCheck },
-        { id: 'grammar' as NavView, label: t('nav.grammar', lang), short: 'Grammar', icon: BookOpen },
-        { id: 'irregular' as NavView, label: t('nav.irregular', lang), short: 'Verbs', icon: Zap },
-        { id: 'topics' as NavView, label: t('nav.topics', lang), short: 'Topics', icon: Layers },
-        { id: 'dictionary' as NavView, label: t('nav.dictionary', lang), short: 'Words', icon: BookMarked },
-        { id: 'insights' as NavView, label: t('nav.insights', lang), short: 'Stats', icon: BarChart3 },
-        { id: 'achievements' as NavView, label: t('nav.badges', lang), short: 'Badges', icon: Award },
-      ];
-    }
-    return [
-      { id: 'home' as NavView, label: t('nav.dashboard', lang), short: 'Home', icon: Home },
-      { id: 'learn' as NavView, label: t('nav.learn', lang), short: 'Learn', icon: BookOpenCheck },
-      { id: 'topics' as NavView, label: t('nav.topics', lang), short: 'Topics', icon: Layers },
-      { id: 'dictionary' as NavView, label: t('nav.dictionary', lang), short: 'Words', icon: BookMarked },
-      { id: 'insights' as NavView, label: t('nav.insights', lang), short: 'Stats', icon: BarChart3 },
-      { id: 'achievements' as NavView, label: t('nav.badges', lang), short: 'Badges', icon: Award },
-    ];
-  }, [activeCourse, lang]);
+  // Navigation is derived from the views the active course declares
+  const navItems = useMemo(() => navItemsFor(activeCourse, lang), [activeCourse, lang]);
+  const mobileNavItems = useMemo(() => mobileNavItemsFor(activeCourse, lang), [activeCourse, lang]);
 
-  // Mobile Bottom Navigation items (5 focused tabs for comfortable thumb reach)
-  const mobileNavItems = useMemo(() => {
-    if (activeCourse === 'english') {
-      return [
-        { id: 'home' as NavView, short: lang === 'zh' ? '首页' : 'Home', icon: Home },
-        { id: 'learn' as NavView, short: lang === 'zh' ? '路径' : 'Paths', icon: BookOpenCheck },
-        { id: 'grammar' as NavView, short: lang === 'zh' ? '语法' : 'Grammar', icon: BookOpen },
-        { id: 'irregular' as NavView, short: lang === 'zh' ? '动词' : 'Verbs', icon: Zap },
-        { id: 'dictionary' as NavView, short: lang === 'zh' ? '词典' : 'Words', icon: BookMarked },
-      ];
-    }
-    return [
-      { id: 'home' as NavView, short: lang === 'zh' ? '首页' : 'Home', icon: Home },
-      { id: 'learn' as NavView, short: lang === 'zh' ? '学习' : 'Learn', icon: BookOpenCheck },
-      { id: 'topics' as NavView, short: lang === 'zh' ? '主题' : 'Topics', icon: Layers },
-      { id: 'dictionary' as NavView, short: lang === 'zh' ? '词典' : 'Words', icon: BookMarked },
-      { id: 'insights' as NavView, short: lang === 'zh' ? '统计' : 'Stats', icon: BarChart3 },
-    ];
-  }, [activeCourse, lang]);
-
-  const navButton = (n: (typeof navItems)[number], variant: 'side' | 'top') => {
+  const navButton = (n: NavItem, variant: 'side' | 'top') => {
     const Icon = n.icon;
-    const active = view === n.id || (view === 'study' && session?.returnTo === n.id);
+    const active = shownView === n.id || (shownView === 'study' && session?.returnTo === n.id);
     return (
       <button
         key={n.id}
@@ -543,7 +470,7 @@ export default function App() {
         <div className="mb-4 flex items-center justify-between px-2">
           <button onClick={() => navigate('home')} className="flex items-center gap-3" aria-label="Adilingo home">
             <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-rose-600 font-hanzi text-2xl font-bold text-white">
-              {activeCourse === 'chinese' ? '汉' : 'A'}
+              {courseConfig.badge}
             </span>
             <span className="text-left">
               <span className="block text-lg font-bold leading-tight tracking-tight">Adilingo</span>
@@ -554,31 +481,23 @@ export default function App() {
 
         {/* Course Track Switcher Tab */}
         <div className="mb-3 rounded-2xl bg-slate-100 p-1 dark:bg-slate-800">
-          <div className="grid grid-cols-2 gap-1">
-            <button
-              type="button"
-              onClick={() => switchCourse('chinese')}
-              className={`flex items-center justify-center gap-1.5 rounded-xl py-1.5 text-xs font-semibold transition ${
-                activeCourse === 'chinese'
-                  ? 'bg-white shadow text-slate-900 dark:bg-slate-700 dark:text-white'
-                  : 'text-slate-500 hover:text-slate-700 dark:text-slate-400'
-              }`}
-            >
-              <span>🇨🇳</span>
-              <span>中文 HSK</span>
-            </button>
-            <button
-              type="button"
-              onClick={() => switchCourse('english')}
-              className={`flex items-center justify-center gap-1.5 rounded-xl py-1.5 text-xs font-semibold transition ${
-                activeCourse === 'english'
-                  ? 'bg-white shadow text-slate-900 dark:bg-slate-700 dark:text-white'
-                  : 'text-slate-500 hover:text-slate-700 dark:text-slate-400'
-              }`}
-            >
-              <span>🇬🇧</span>
-              <span>英语 CEFR</span>
-            </button>
+          <div className="grid gap-1" style={{ gridTemplateColumns: `repeat(${languageCourses().length}, minmax(0, 1fr))` }}>
+            {languageCourses().map((c) => (
+              <button
+                key={c.id}
+                type="button"
+                onClick={() => switchCourse(c.id)}
+                aria-pressed={activeCourse === c.id}
+                className={`flex items-center justify-center gap-1.5 rounded-xl py-1.5 text-xs font-semibold transition ${
+                  activeCourse === c.id
+                    ? 'bg-white shadow text-slate-900 dark:bg-slate-700 dark:text-white'
+                    : 'text-slate-500 hover:text-slate-700 dark:text-slate-400'
+                }`}
+              >
+                <span>{c.flag}</span>
+                <span>{c.switcherLabel}</span>
+              </button>
+            ))}
           </div>
         </div>
 
@@ -633,19 +552,23 @@ export default function App() {
           <div className="mx-auto flex max-w-6xl items-center gap-2 px-4 py-2.5 sm:px-6">
             <button onClick={() => navigate('home')} className="flex items-center gap-2" aria-label="Adilingo home">
               <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-rose-600 font-hanzi text-xl font-bold text-white">
-                {activeCourse === 'chinese' ? '汉' : 'A'}
+                {courseConfig.badge}
               </span>
               <span className="text-base font-bold tracking-tight md:hidden">Adilingo</span>
             </button>
 
             <button
               type="button"
-              onClick={() => switchCourse(activeCourse === 'chinese' ? 'english' : 'chinese')}
+              onClick={() => {
+                const list = languageCourses();
+                const idx = list.findIndex((c) => c.id === activeCourse);
+                switchCourse(list[(idx + 1) % list.length].id);
+              }}
               className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs font-semibold hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:hover:bg-slate-700"
               title={`Switch course (Current: ${courseConfig.name})`}
             >
-              <span>{activeCourse === 'chinese' ? '🇨🇳' : '🇬🇧'}</span>
-              <span>{activeCourse === 'chinese' ? 'HSK' : 'CEFR'}</span>
+              <span>{courseConfig.flag}</span>
+              <span>{courseConfig.chipLabel}</span>
             </button>
 
             <button
@@ -714,7 +637,7 @@ export default function App() {
         >
           {mobileNavItems.map((n) => {
             const Icon = n.icon;
-            const active = view === n.id;
+            const active = shownView === n.id;
             return (
               <button
                 key={n.id}

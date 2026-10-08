@@ -23,6 +23,16 @@ export interface CourseConfig {
   track: TrackId;
   /** Interface language used until the learner picks one. */
   defaultUiLanguage: 'en' | 'zh';
+  /** Short texts for the logo tile and course switchers. */
+  badge: string;
+  switcherLabel: string;
+  chipLabel: string;
+  /** Course card in Settings. */
+  cardTitle: string;
+  cardSubtitle: string;
+  /** Name of the spoken language and a sample phrase for the audio test button. */
+  languageName: string;
+  speechSample: string;
   /** Screens available in this course, in navigation order. Anything else redirects. */
   views: ViewId[];
   /** Subset shown in the phone bottom bar. */
@@ -67,6 +77,13 @@ export const COURSES: Record<CourseId, CourseConfig> = {
     kind: 'language',
     track: 'chinese',
     defaultUiLanguage: 'en',
+    badge: '汉',
+    switcherLabel: '中文 HSK',
+    chipLabel: 'HSK',
+    cardTitle: 'Mandarin (HSK)',
+    cardSubtitle: 'HSK 1–9 Syllabus · 汉字 & Pinyin',
+    languageName: 'Mandarin',
+    speechSample: '你好，欢迎！',
     views: ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements'],
     mobileViews: ['home', 'learn', 'topics', 'dictionary', 'insights'],
     name: 'Mandarin Chinese',
@@ -130,6 +147,13 @@ export const COURSES: Record<CourseId, CourseConfig> = {
     kind: 'language',
     track: 'english',
     defaultUiLanguage: 'zh',
+    badge: 'A',
+    switcherLabel: '英语 CEFR',
+    chipLabel: 'CEFR',
+    cardTitle: 'English (英语)',
+    cardSubtitle: 'CEFR A1–C2 · 中考·高考·四六级',
+    languageName: 'English',
+    speechSample: 'Hello, welcome to English training!',
     views: ['home', 'learn', 'grammar', 'irregular', 'topics', 'dictionary', 'insights', 'achievements'],
     mobileViews: ['home', 'learn', 'grammar', 'irregular', 'dictionary'],
     name: 'English for Chinese Learners',
@@ -182,7 +206,16 @@ export const COURSES: Record<CourseId, CourseConfig> = {
   },
 };
 
-export const BASE_COURSE_IDS: TrackId[] = ['chinese', 'english'];
+/** Courses shown in the quick switchers (full language tracks, in display order). */
+export function languageCourses(): CourseConfig[] {
+  return Object.values(COURSES).filter((c) => c.kind === 'language');
+}
+
+/** The view to show when the requested one is not available in the course. */
+export function fallbackView(courseId: CourseId | undefined): ViewId {
+  const views = getCourseConfig(courseId).views;
+  return views.includes('learn') ? 'learn' : views[0];
+}
 
 /** True for ids that exist in the registry. Unknown ids (e.g. from a newer app version) are not courses here. */
 export function isCourseId(value: unknown): value is CourseId {

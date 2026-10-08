@@ -14,6 +14,7 @@ import {
 } from '../utils/analytics';
 import { levelLabel } from '../data/vocab';
 import { HanziText, PinyinText, TONE_BG_CLASS } from './ToneText';
+import { trackOf } from '../data/courses';
 
 interface Props {
   vocab: VocabItem[];
@@ -33,7 +34,7 @@ export function Insights({ vocab, state, onStart }: Props) {
   const days = activity(state, 14);
   const leechList = leeches(state, vocab);
   const failures = frequentFailures(state, vocab);
-  const isEnglish = state.settings.course === 'english';
+  const isEnglish = trackOf(state.settings.course) === 'english';
   const color = state.settings.colorTones;
 
   return (

@@ -74,7 +74,13 @@ Audio pronunciation is mission-critical for language learners. The browser audio
      - English Course: Render [`EnglishGrammarGuide`](file:///C:/Users/Sibby/Documents/Projekte/Vocubulary/src/components/EnglishGrammarGuide.tsx) (Tenses Blueprint, Active/Passive, Grammar Wikipedia).
      - Chinese Course: Render [`GrammarHub`](file:///C:/Users/Sibby/Documents/Projekte/Vocubulary/src/components/GrammarHub.tsx) (HSK 1–6 Grammar Points).
    - Never allow HSK content to appear in English mode, or CEFR/irregular verbs to bleed into Chinese mode.
-2. **Dashboard & Sidebar Context**:
+2. **Course Registry Rules (`src/data/courses.ts`)**:
+   - **Never branch on course id strings** (`course === 'english'`). Use `getCourseConfig(id).track`, `.features.*`, `trackOf(id)` or `isViewAvailable(id, view)`.
+   - Navigation, the route guard in `App.tsx` and the quick switchers are derived from `CourseConfig.views`, `mobileViews` and `languageCourses()`. A screen a course does not list must redirect (`fallbackView`) and never render another course's content.
+   - Adding a course = adding a registry entry (+ its vocabulary loader), not editing UI branches.
+   - Persisted state may contain course ids this build does not know: `storage.sanitize` keeps their data under their own id and activates the default course. Never coerce unknown ids into `'chinese'`.
+   - Daily limits come from `dailyLogFor(state)` (per course). Never read `stats.daily` directly for limits.
+3. **Dashboard & Sidebar Context**:
    - Dashboard buttons, progress bars, and sidebar links must display language-appropriate labels and targets (e.g. "HSK 语法点" vs. "语法百科与时态").
 
 ---

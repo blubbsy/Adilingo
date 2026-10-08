@@ -9,6 +9,7 @@ import type { SpeechApi } from '../utils/speech';
 import { formatInterval } from './ReviewCard';
 import { AudioButton } from './AudioButton';
 import { FreePinyin, HanziText, PinyinText } from './ToneText';
+import { trackOf } from '../data/courses';
 
 interface Props {
   vocab: VocabItem[];
@@ -328,7 +329,7 @@ function WordDetail({
         ))}
       </ol>
       <dl className="grid grid-cols-2 gap-2 text-sm">
-        {(state.settings.course ?? 'chinese') === 'chinese' ? (
+        {trackOf(state.settings.course) === 'chinese' ? (
           CURRICULA.map((c) => (
             <div key={c.id} className="rounded-xl bg-slate-50 p-2.5 dark:bg-slate-900/60">
               <dt className="text-[11px] uppercase tracking-wide text-slate-500">{c.short}</dt>
@@ -338,7 +339,7 @@ function WordDetail({
         ) : (
           <div className="rounded-xl bg-slate-50 p-2.5 dark:bg-slate-900/60">
             <dt className="text-[11px] uppercase tracking-wide text-slate-500">CEFR Standard</dt>
-            <dd className="font-medium">{levelLabel(item.hskLevel, 'english')}</dd>
+            <dd className="font-medium">{levelLabel(item.hskLevel, state.settings.course)}</dd>
           </div>
         )}
         {item.radical && (

@@ -25,6 +25,7 @@ import { t, type UiLanguage } from '../utils/i18n';
 import { ModeSelector } from './ModeSelector';
 import { PlacementTestModal } from './PlacementTestModal';
 import { BulkMarkModal } from './BulkMarkModal';
+import { getCourseConfig } from '../data/courses';
 
 interface Props {
   vocab: VocabItem[];
@@ -61,8 +62,9 @@ export function Dashboard({
   const [showBulkMark, setShowBulkMark] = useState(false);
   const [showCustomPractice, setShowCustomPractice] = useState(false);
 
-  const isEnglishCourse = state.settings.course === 'english';
-  const lang: UiLanguage = state.settings.uiLanguage ?? (isEnglishCourse ? 'zh' : 'en');
+  const courseConfig = getCourseConfig(state.settings.course);
+  const isEnglishCourse = courseConfig.track === 'english';
+  const lang: UiLanguage = state.settings.uiLanguage ?? courseConfig.defaultUiLanguage;
 
   const recs = useMemo(() => recommendations(state, vocab), [state, vocab]);
   const levels = useMemo(() => accuracyByLevel(state, vocab), [state, vocab]);

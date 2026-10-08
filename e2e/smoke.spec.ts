@@ -54,3 +54,40 @@ test.describe('Topic training', () => {
     });
   }
 });
+
+test.describe('Course routing', () => {
+  test('screens of another course redirect instead of rendering', async ({ page }) => {
+    // Chinese course: the English-only grammar guide and verb trainer must not open
+    await page.goto('/#/grammar');
+    await expect(page.getByRole('tab', { name: 'Learning Paths' })).toBeVisible();
+    await expect(page).toHaveURL(/#\/learn$/);
+    await page.goto('/#/irregular');
+    await expect(page).toHaveURL(/#\/learn$/);
+
+    // English course: both screens exist
+    await page.getByRole('button', { name: /英语 CEFR/ }).first().click();
+    await page.goto('/#/irregular');
+    await expect(page).toHaveURL(/#\/irregular$/);
+    await expect(page.getByRole('navigation', { name: 'Main' }).first()).toBeVisible();
+  });
+
+  test('switching to Chinese while on an English-only screen lands on the learn screen', async ({ page }) => {
+    await page.goto('/');
+    await page.getByRole('button', { name: /英语 CEFR/ }).first().click();
+    await page.goto('/#/grammar');
+    await expect(page).toHaveURL(/#\/grammar$/);
+    await page.getByRole('button', { name: /中文 HSK/ }).first().click();
+    await expect(page).toHaveURL(/#\/learn$/);
+    await expect(page.getByRole('tab', { name: 'Learning Paths' })).toBeVisible();
+  });
+});
+
+test('an English-only deep link survives a reload (guard waits for the saved course)', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: /英语 CEFR/ }).first().click();
+  await page.goto('/#/grammar');
+  await page.waitForTimeout(900); // settings are saved with a 400 ms debounce
+  await page.reload();
+  await expect(page).toHaveURL(/#\/grammar$/);
+  await expect(page.getByText(/Grammar Wiki/).first()).toBeVisible();
+});

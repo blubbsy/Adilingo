@@ -4,6 +4,7 @@ import type { CardProgress, DirectionProgress, Grade, SessionCard, Settings, Ton
 import { checkPinyin, markSyllable, numberedToMarked, parseNumbered, stripTones } from '../utils/pinyinHelper';
 import { GRADE_LABELS, nextInterval } from '../utils/srsEngine';
 import { levelLabel } from '../data/vocab';
+import { getCourseConfig, trackOf } from '../data/courses';
 import { nextSpeechRate, type SpeechApi } from '../utils/speech';
 import { AudioButton } from './AudioButton';
 import { FreePinyin, PinyinText } from './ToneText';
@@ -291,7 +292,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
     setIsFlipped(false);
   }, [item.id]);
 
-  const isChineseWord = (settings.course ?? 'chinese') === 'chinese' && /[\u4e00-\u9fa5]/.test(item.hanzi);
+  const isChineseWord = getCourseConfig(settings.course).features.pinyin && /[\u4e00-\u9fa5]/.test(item.hanzi);
   const failureCount = dirProgress?.failureCount ?? 0;
   const pinyinHelperMode = settings.pinyinHelperMode ?? 'adaptive';
   const threshold = settings.pinyinAdaptiveThreshold ?? 2;
@@ -529,7 +530,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                   <Volume2 className="h-10 w-10 animate-pulse" />
                 </button>
                 <p className="mt-4 text-sm font-medium text-slate-500">
-                  {settings.course === 'english' ? 'Listen and select the definition' : 'Listen and select the meaning'}
+                  {trackOf(settings.course) === 'english' ? 'Listen and select the definition' : 'Listen and select the meaning'}
                 </p>
               </div>
             )}
@@ -540,7 +541,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                   {item.english.slice(0, 2).join('; ')}
                 </div>
                 <p className="text-sm text-slate-500">
-                  {settings.course === 'english' ? 'Select the matching English word' : 'Select the matching character'}
+                  {trackOf(settings.course) === 'english' ? 'Select the matching English word' : 'Select the matching character'}
                 </p>
               </div>
             )}

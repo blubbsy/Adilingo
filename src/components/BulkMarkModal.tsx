@@ -2,6 +2,7 @@ import { X, Check } from 'lucide-react';
 import type { CourseId, HskLevel, UserState, VocabItem } from '../types';
 import { levelLabel } from '../data/vocab';
 import { bulkMarkLevelKnown } from '../utils/srsEngine';
+import { trackOf } from '../data/courses';
 
 interface Props {
   vocab: VocabItem[];
@@ -15,7 +16,7 @@ interface Props {
 export function BulkMarkModal({ vocab, state, isOpen, course = state.settings.course ?? 'chinese', onClose, onUpdateState }: Props) {
   if (!isOpen) return null;
 
-  const isEnglish = course === 'english';
+  const isEnglish = trackOf(course) === 'english';
   const levels: HskLevel[] = [1, 2, 3, 4, 5, 6];
 
   function isLevelFullyKnown(lvl: HskLevel): boolean {
