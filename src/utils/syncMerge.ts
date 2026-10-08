@@ -1,4 +1,4 @@
-import type { CardProgress, DirectionProgress, HistoryEntry, UserState } from '../types';
+import type { CardProgress, CourseId, DailyLog, DirectionProgress, HistoryEntry, HskLevel, UserState } from '../types';
 import type { GrammarProgress, GrammarPointProgress, PathProgress } from '../grammar/grammarStorage';
 
 function mergeDirection(local?: DirectionProgress, remote?: DirectionProgress): DirectionProgress | undefined {
@@ -42,15 +42,75 @@ function mergeCardProgress(local?: CardProgress, remote?: CardProgress): CardPro
   };
 }
 
-/** Merges two UserState trees without data loss. */
-export function mergeUserStates(local: UserState, remote: UserState): UserState {
-  // 1. Merge progress cards
-  const allWordIds = new Set([...Object.keys(local.progress || {}), ...Object.keys(remote.progress || {})]);
-  const mergedProgress: Record<string, CardProgress> = {};
-  for (const id of allWordIds) {
-    const card = mergeCardProgress(local.progress?.[id], remote.progress?.[id]);
-    if (card) mergedProgress[id] = card;
+type ProgressMap = Record<string, CardProgress>;
+type DailyMap = Record<string, DailyLog>;
+
+const courseOf = (s: UserState): CourseId => s.settings.course ?? 'chinese';
+
+function mergeProgressMaps(a: ProgressMap = {}, b: ProgressMap = {}): ProgressMap {
+  const merged: ProgressMap = {};
+  for (const id of new Set([...Object.keys(a), ...Object.keys(b)])) {
+    const card = mergeCardProgress(a[id], b[id]);
+    if (card) merged[id] = card;
   }
+  return merged;
+}
+
+function mergeDailyMaps(a: DailyMap = {}, b: DailyMap = {}): DailyMap {
+  const merged: DailyMap = {};
+  for (const day of new Set([...Object.keys(a), ...Object.keys(b)])) {
+    merged[day] = {
+      reviewed: Math.max(a[day]?.reviewed ?? 0, b[day]?.reviewed ?? 0),
+      correct: Math.max(a[day]?.correct ?? 0, b[day]?.correct ?? 0),
+      newCards: Math.max(a[day]?.newCards ?? 0, b[day]?.newCards ?? 0),
+    };
+  }
+  return merged;
+}
+
+const union = <T>(a: T[] = [], b: T[] = []): T[] => Array.from(new Set([...a, ...b]));
+
+/**
+ * Per-course view of a state. The flat `progress` / `starredWords` / `knownLevels` always belong to the
+ * state's *own* active course, so they are filed under that course before merging; merging two states
+ * with different active courses must never mix their flat fields.
+ */
+function perCourse(s: UserState) {
+  const active = courseOf(s);
+  return {
+    progress: { ...(s.courseProgress ?? {}), [active]: s.progress ?? {} } as Partial<Record<CourseId, ProgressMap>>,
+    starred: { ...(s.starredWordsByCourse ?? {}), [active]: s.starredWords ?? [] } as Partial<Record<CourseId, string[]>>,
+    known: { ...(s.knownLevelsByCourse ?? {}), [active]: s.knownLevels ?? [] } as Partial<Record<CourseId, HskLevel[]>>,
+    daily: (s.stats.dailyByCourse ?? {}) as Partial<Record<CourseId, DailyMap>>,
+  };
+}
+
+function mergeByCourse<V>(
+  a: Partial<Record<CourseId, V>>,
+  b: Partial<Record<CourseId, V>>,
+  merge: (x: V | undefined, y: V | undefined) => V,
+): Partial<Record<CourseId, V>> {
+  const out: Partial<Record<CourseId, V>> = {};
+  for (const key of new Set([...Object.keys(a), ...Object.keys(b)])) {
+    const course = key as CourseId;
+    out[course] = merge(a[course], b[course]);
+  }
+  return out;
+}
+
+/** Merges two UserState trees without data loss. The result keeps the local device's active course. */
+export function mergeUserStates(local: UserState, remote: UserState): UserState {
+  const active = courseOf(local);
+  const l = perCourse(local);
+  const r = perCourse(remote);
+
+  // 1. Merge progress, stars, known levels and daily logs per course
+  const mergedProgressByCourse = mergeByCourse(l.progress, r.progress, mergeProgressMaps);
+  const mergedStarredByCourse = mergeByCourse(l.starred, r.starred, (x, y) => union(x, y));
+  const mergedKnownByCourse = mergeByCourse(l.known, r.known, (x, y) => union(x, y));
+  const hasDailyByCourse = Boolean(local.stats.dailyByCourse || remote.stats.dailyByCourse);
+  const mergedDailyByCourse = hasDailyByCourse ? mergeByCourse(l.daily, r.daily, mergeDailyMaps) : undefined;
+  const mergedProgress = mergedProgressByCourse[active] ?? {};
 
   // 2. Merge daily logs
   const allDates = new Set([...Object.keys(local.stats.daily || {}), ...Object.keys(remote.stats.daily || {})]);
@@ -67,8 +127,8 @@ export function mergeUserStates(local: UserState, remote: UserState): UserState 
 
   // 3. Union unlocked badges & stars
   const unlockedBadges = Array.from(new Set([...(local.unlockedBadges || []), ...(remote.unlockedBadges || [])]));
-  const starredWords = Array.from(new Set([...(local.starredWords || []), ...(remote.starredWords || [])]));
-  const knownLevels = Array.from(new Set([...(local.knownLevels || []), ...(remote.knownLevels || [])]));
+  const starredWords = mergedStarredByCourse[active] ?? [];
+  const knownLevels = mergedKnownByCourse[active] ?? [];
 
   // 4. Tone accuracy
   const toneAccuracy = { ...local.stats.toneAccuracy };
@@ -83,7 +143,7 @@ export function mergeUserStates(local: UserState, remote: UserState): UserState 
 
   // 5. Mode counts
   const modeCounts = { ...local.stats.modeCounts };
-  for (const m of ['hanzi', 'pinyin', 'english', 'audio', 'tone'] as const) {
+  for (const m of ['hanzi', 'pinyin', 'english', 'audio', 'tone', 'cloze'] as const) {
     modeCounts[m] = Math.max(local.stats.modeCounts?.[m] ?? 0, remote.stats.modeCounts?.[m] ?? 0);
   }
 
@@ -92,6 +152,9 @@ export function mergeUserStates(local: UserState, remote: UserState): UserState 
   return {
     ...local,
     progress: mergedProgress,
+    courseProgress: mergedProgressByCourse,
+    starredWordsByCourse: mergedStarredByCourse,
+    knownLevelsByCourse: mergedKnownByCourse,
     stats: {
       ...local.stats,
       currentStreak: Math.max(local.stats.currentStreak, remote.stats.currentStreak),
@@ -102,6 +165,7 @@ export function mergeUserStates(local: UserState, remote: UserState): UserState 
       totalLatencyMs: Math.max(local.stats.totalLatencyMs, remote.stats.totalLatencyMs),
       latencySamples: Math.max(local.stats.latencySamples, remote.stats.latencySamples),
       daily: mergedDaily,
+      dailyByCourse: mergedDailyByCourse,
       toneAccuracy,
       modeCounts,
     },
