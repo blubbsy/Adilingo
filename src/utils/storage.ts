@@ -1,6 +1,7 @@
 import { createStore, get, set, type UseStore } from 'idb-keyval';
 import type { CardProgress, CourseId, Curriculum, HskLevel, PromptKind, ThemePref, ToneKey, UserState } from '../types';
 import legacyIds from '../data/legacyIds.json';
+import { getCourseConfig, isCourseId } from '../data/courses';
 
 export const SCHEMA_VERSION = 3;
 const CURRICULUM_IDS: Curriculum[] = ['hsk3_2026', 'hsk3_2021', 'hsk2', 'cefr', 'cet'];
@@ -229,8 +230,29 @@ function sanitize(s: Raw): UserState {
   for (const p of PROMPTS) modeCounts[p] = num(isObj(stats.modeCounts) ? stats.modeCounts[p] : 0, 0);
 
   const modes = ['mixed', 'hanzi', 'pinyin', 'audio', 'tone', 'english', 'cloze'];
-  const course = settings.course === 'english' ? 'english' : 'chinese';
-  const defaultUiLang = course === 'english' ? 'zh' : 'en';
+  // An unknown course id (e.g. one this build no longer ships) must neither reset the learner's data nor
+  // pollute another course: its flat fields are filed under its own id and the default course becomes active.
+  const rawCourse: unknown = settings.course;
+  const course: CourseId = isCourseId(rawCourse) ? rawCourse : 'chinese';
+  const unknownCourse = typeof rawCourse === 'string' && rawCourse.length > 0 && !isCourseId(rawCourse) ? rawCourse : undefined;
+  const defaultUiLang = getCourseConfig(course).defaultUiLanguage;
+
+  let courseProgress: Record<string, any> | undefined = isObj(s.courseProgress) ? { ...s.courseProgress } : undefined;
+  let starredWordsByCourse: Record<string, any> | undefined = isObj(s.starredWordsByCourse) ? { ...s.starredWordsByCourse } : undefined;
+  let knownLevelsByCourse: Record<string, any> | undefined = isObj(s.knownLevelsByCourse) ? { ...s.knownLevelsByCourse } : undefined;
+  let activeProgress = progress;
+  let activeStarred: string[] = Array.isArray(s.starredWords) ? s.starredWords.filter((w: unknown) => typeof w === 'string') : [];
+  let activeKnown = Array.isArray(s.knownLevels)
+    ? (s.knownLevels.filter((l: unknown) => typeof l === 'number' && l >= 1 && l <= 7) as HskLevel[])
+    : [];
+  if (unknownCourse) {
+    courseProgress = { ...(courseProgress ?? {}), [unknownCourse]: progress };
+    starredWordsByCourse = { ...(starredWordsByCourse ?? {}), [unknownCourse]: activeStarred };
+    knownLevelsByCourse = { ...(knownLevelsByCourse ?? {}), [unknownCourse]: activeKnown };
+    activeProgress = isObj(courseProgress[course]) ? (courseProgress[course] as Record<string, CardProgress>) : {};
+    activeStarred = Array.isArray(starredWordsByCourse[course]) ? starredWordsByCourse[course] : [];
+    activeKnown = Array.isArray(knownLevelsByCourse[course]) ? knownLevelsByCourse[course] : [];
+  }
   const uiLanguage = settings.uiLanguage === 'zh' || settings.uiLanguage === 'en' ? settings.uiLanguage : defaultUiLang;
   return {
     version: SCHEMA_VERSION,
@@ -251,8 +273,8 @@ function sanitize(s: Raw): UserState {
         : (d.settings.pinyinHelperMode ?? 'adaptive'),
       pinyinAdaptiveThreshold: Math.min(10, Math.max(1, num(settings.pinyinAdaptiveThreshold, d.settings.pinyinAdaptiveThreshold ?? 2))),
     },
-    progress,
-    courseProgress: isObj(s.courseProgress) ? s.courseProgress : undefined,
+    progress: activeProgress,
+    courseProgress,
     stats: {
       currentStreak: num(stats.currentStreak, 0),
       longestStreak: num(stats.longestStreak, 0),
@@ -268,12 +290,10 @@ function sanitize(s: Raw): UserState {
       dailyByCourse: sanitizeDailyByCourse(stats.dailyByCourse),
     },
     unlockedBadges: Array.isArray(s.unlockedBadges) ? s.unlockedBadges.filter((b: unknown) => typeof b === 'string') : [],
-    starredWords: Array.isArray(s.starredWords) ? s.starredWords.filter((w: unknown) => typeof w === 'string') : [],
-    starredWordsByCourse: isObj(s.starredWordsByCourse) ? s.starredWordsByCourse : undefined,
-    knownLevels: Array.isArray(s.knownLevels)
-      ? (s.knownLevels.filter((l: unknown) => typeof l === 'number' && l >= 1 && l <= 7) as HskLevel[])
-      : [],
-    knownLevelsByCourse: isObj(s.knownLevelsByCourse) ? s.knownLevelsByCourse : undefined,
+    starredWords: activeStarred,
+    starredWordsByCourse,
+    knownLevels: activeKnown,
+    knownLevelsByCourse,
     placementResult:
       isObj(s.placementResult) && typeof s.placementResult.date === 'string'
         ? {
@@ -300,7 +320,8 @@ function sanitizeDailyByCourse(raw: unknown): UserState['stats']['dailyByCourse'
   if (!isObj(raw)) return undefined;
   const out: NonNullable<UserState['stats']['dailyByCourse']> = {};
   for (const [c, days] of Object.entries(raw)) {
-    if (c === 'chinese' || c === 'english') {
+    // Keep logs of any well-formed course id, including ones this build does not know.
+    if (/^(chinese|english)(:[\w.-]+)?$/.test(c)) {
       out[c as CourseId] = sanitizeDaily(days);
     }
   }

@@ -219,15 +219,15 @@ export default function App() {
 
       update((s) => {
         const curCourse = s.settings.course ?? 'chinese';
-        const courseProgress = {
+        const courseProgress: NonNullable<UserState['courseProgress']> = {
           ...(s.courseProgress ?? {}),
           [curCourse]: s.progress,
         };
-        const knownLevelsByCourse = {
+        const knownLevelsByCourse: NonNullable<UserState['knownLevelsByCourse']> = {
           ...(s.knownLevelsByCourse ?? {}),
           [curCourse]: s.knownLevels ?? [],
         };
-        const starredWordsByCourse = {
+        const starredWordsByCourse: NonNullable<UserState['starredWordsByCourse']> = {
           ...(s.starredWordsByCourse ?? {}),
           [curCourse]: s.starredWords ?? [],
         };

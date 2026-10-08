@@ -1,4 +1,5 @@
 import type { CourseId, SessionRequest, StudyMode, VocabItem } from '../types';
+import { getCourseConfig } from './courses';
 
 export type TopicTheme =
   | 'home'
@@ -524,7 +525,7 @@ export function resolveTopicWords(pack: TopicPack, allVocab: VocabItem[]): Vocab
  * topic found on their own vocabulary.
  */
 export function packsForCourse(course: CourseId | undefined, vocab: VocabItem[]): TopicPack[] {
-  if ((course ?? 'chinese') === 'chinese') return TOPIC_PACKS;
+  if (getCourseConfig(course).features.topics === 'curated-packs') return TOPIC_PACKS;
 
   const byTopic = new Map<string, VocabItem[]>();
   for (const item of vocab) {

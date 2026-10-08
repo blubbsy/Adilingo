@@ -1,4 +1,5 @@
-import type { Curriculum, HskLevel, VocabItem } from '../types';
+import type { CourseId, Curriculum, HskLevel, VocabItem } from '../types';
+import { trackOf } from './courses';
 
 /** Compact record produced by scripts/build-vocab.mjs. */
 export interface WordRecord {
@@ -75,8 +76,8 @@ const ENGLISH_LEVEL_LABELS: Record<number, string> = {
   6: 'C2 · 考研',
 };
 
-export function levelLabel(level: number, courseId?: 'chinese' | 'english' | number): string {
-  if (courseId === 'english') {
+export function levelLabel(level: number, courseId?: CourseId | number): string {
+  if (typeof courseId === 'string' && trackOf(courseId) === 'english') {
     return ENGLISH_LEVEL_LABELS[level] ?? `Level ${level}`;
   }
   return level === 7 ? 'HSK 7–9' : `HSK ${level}`;
@@ -88,8 +89,8 @@ export interface VocabLibrary {
 }
 
 /** Loads the bundled word list lazily (separate chunks, cached by the browser / service worker). */
-export async function loadLibrary(courseId: 'chinese' | 'english' = 'chinese'): Promise<VocabLibrary> {
-  if (courseId === 'english') {
+export async function loadLibrary(courseId: CourseId = 'chinese'): Promise<VocabLibrary> {
+  if (trackOf(courseId) === 'english') {
     const { ENGLISH_VOCABULARY } = await import('./englishVocab');
     return { all: ENGLISH_VOCABULARY };
   }

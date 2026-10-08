@@ -1,4 +1,7 @@
-export type CourseId = 'chinese' | 'english';
+/** Language machinery a course builds on (TTS, pinyin, card directions). */
+export type TrackId = 'chinese' | 'english';
+/** A base language course (`chinese`, `english`) or a namespaced course on top of a track (`chinese:emotor-design`). */
+export type CourseId = TrackId | `${TrackId}:${string}`;
 
 /** 1–6, plus 7 = the HSK 3.0 advanced band (levels 7–9 share one word list) or CEFR 1–6 (A1 to C2). */
 export type HskLevel = 1 | 2 | 3 | 4 | 5 | 6 | 7;

@@ -17,6 +17,7 @@ import type {
   WordProgress,
 } from '../types';
 import { addDays, dayKey, daysBetween } from './dates';
+import { trackOf } from '../data/courses';
 import { tonesOf } from './pinyinHelper';
 
 export const fsrsEngine = fsrs(generatorParameters({ request_retention: 0.9 }));
@@ -343,7 +344,7 @@ export function promptForDirection(
   if (overrideMode && overrideMode !== 'english' && overrideMode !== 'hanzi') {
     return overrideMode;
   }
-  const isEnglishCourse = course === 'english' || (item && !/[\u4e00-\u9fa5]/.test(item.hanzi) && !item.pinyinNumbered);
+  const isEnglishCourse = (course !== undefined && trackOf(course) === 'english') || (item && !/[\u4e00-\u9fa5]/.test(item.hanzi) && !item.pinyinNumbered);
   const stability = p?.stability ?? 0;
 
   if (isEnglishCourse) {

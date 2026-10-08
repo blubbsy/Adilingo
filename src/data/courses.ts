@@ -1,6 +1,10 @@
-import type { Curriculum, HskLevel } from '../types';
+import type { CourseId, Curriculum, HskLevel, TrackId } from '../types';
 
-export type CourseId = 'chinese' | 'english';
+export type { CourseId, TrackId };
+
+/** Top-level screens (hash routes). `study` is a session and is always reachable. */
+export type ViewId = 'home' | 'learn' | 'grammar' | 'irregular' | 'topics' | 'dictionary' | 'insights' | 'achievements';
+export const ALL_VIEW_IDS: ViewId[] = ['home', 'learn', 'grammar', 'irregular', 'topics', 'dictionary', 'insights', 'achievements'];
 
 export interface CourseLevelInfo {
   level: HskLevel;
@@ -13,6 +17,16 @@ export interface CourseLevelInfo {
 
 export interface CourseConfig {
   id: CourseId;
+  /** `language` = a full language track; `specialty` = a domain course built on a track. */
+  kind: 'language' | 'specialty';
+  /** Language machinery of this course; replaces checks like `course === 'english'`. */
+  track: TrackId;
+  /** Interface language used until the learner picks one. */
+  defaultUiLanguage: 'en' | 'zh';
+  /** Screens available in this course, in navigation order. Anything else redirects. */
+  views: ViewId[];
+  /** Subset shown in the phone bottom bar. */
+  mobileViews: ViewId[];
   name: string;
   nativeName: string;
   flag: string;
@@ -42,12 +56,19 @@ export interface CourseConfig {
     tones: boolean;
     measureWords: boolean;
     radicals: boolean;
+    /** `curated-packs` = hand-made packs of this course's words; `item-topics` = derived from each word's topics. */
+    topics: 'curated-packs' | 'item-topics';
   };
 }
 
 export const COURSES: Record<CourseId, CourseConfig> = {
   chinese: {
     id: 'chinese',
+    kind: 'language',
+    track: 'chinese',
+    defaultUiLanguage: 'en',
+    views: ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements'],
+    mobileViews: ['home', 'learn', 'topics', 'dictionary', 'insights'],
     name: 'Mandarin Chinese',
     nativeName: '中文 (HSK)',
     flag: '🇨🇳',
@@ -101,10 +122,16 @@ export const COURSES: Record<CourseId, CourseConfig> = {
       tones: true,
       measureWords: true,
       radicals: true,
+      topics: 'curated-packs',
     },
   },
   english: {
     id: 'english',
+    kind: 'language',
+    track: 'english',
+    defaultUiLanguage: 'zh',
+    views: ['home', 'learn', 'grammar', 'irregular', 'topics', 'dictionary', 'insights', 'achievements'],
+    mobileViews: ['home', 'learn', 'grammar', 'irregular', 'dictionary'],
     name: 'English for Chinese Learners',
     nativeName: '英语 (CEFR / 四六级)',
     flag: '🇬🇧',
@@ -150,12 +177,31 @@ export const COURSES: Record<CourseId, CourseConfig> = {
       tones: false,
       measureWords: false,
       radicals: false,
+      topics: 'item-topics',
     },
   },
 };
 
+export const BASE_COURSE_IDS: TrackId[] = ['chinese', 'english'];
+
+/** True for ids that exist in the registry. Unknown ids (e.g. from a newer app version) are not courses here. */
+export function isCourseId(value: unknown): value is CourseId {
+  return typeof value === 'string' && Object.prototype.hasOwnProperty.call(COURSES, value);
+}
+
 export function getCourseConfig(courseId: CourseId = 'chinese'): CourseConfig {
   return COURSES[courseId] ?? COURSES.chinese;
+}
+
+/** Language track of any course id, including ones this build does not know (`english:foo` -> `english`). */
+export function trackOf(courseId: string | undefined): TrackId {
+  const base = (courseId ?? 'chinese').split(':')[0];
+  return base === 'english' ? 'english' : 'chinese';
+}
+
+/** Whether `view` may be shown in the course. Unavailable views must redirect, never render another course's content. */
+export function isViewAvailable(courseId: CourseId | undefined, view: ViewId): boolean {
+  return getCourseConfig(courseId).views.includes(view);
 }
 
 export function courseLevelLabel(course: CourseConfig, level: number): string {
