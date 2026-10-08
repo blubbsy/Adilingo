@@ -1,4 +1,4 @@
-import type { VocabItem } from '../types';
+import type { CourseId, SessionRequest, StudyMode, VocabItem } from '../types';
 
 export type TopicTheme =
   | 'home'
@@ -516,4 +516,58 @@ export function resolveTopicWords(pack: TopicPack, allVocab: VocabItem[]): Vocab
   }
 
   return results;
+}
+
+/**
+ * Packs for the active course. Curated packs list Chinese words, so they exist only for the Chinese
+ * course (never show Chinese-script words in the English course). Other courses get one pack per
+ * topic found on their own vocabulary.
+ */
+export function packsForCourse(course: CourseId | undefined, vocab: VocabItem[]): TopicPack[] {
+  if ((course ?? 'chinese') === 'chinese') return TOPIC_PACKS;
+
+  const byTopic = new Map<string, VocabItem[]>();
+  for (const item of vocab) {
+    for (const topic of item.topics) {
+      const list = byTopic.get(topic) ?? [];
+      list.push(item);
+      byTopic.set(topic, list);
+    }
+  }
+  return [...byTopic.entries()]
+    .sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]))
+    .map(([topic, words]) => ({
+      id: `topic:${topic.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
+      title: topic,
+      chineseTitle: topic,
+      emoji: '📚',
+      theme: 'lifestyle' as TopicTheme,
+      description: `${words.length} words about ${topic.toLowerCase()}.`,
+      curatedWords: [],
+      supplementaryWords: words,
+    }));
+}
+
+/**
+ * The session request for drilling a topic pack. Pack words are matched by id only (a `topics` filter
+ * would drop curated words that do not carry the pack title) and supplementary words that are not in
+ * the course library travel with the request so the session pool can contain them.
+ */
+export function buildTopicSessionRequest(
+  words: VocabItem[],
+  mode: StudyMode,
+  label: string,
+  limit?: number,
+): SessionRequest {
+  return {
+    label,
+    mode,
+    levels: [],
+    topics: [],
+    wordIds: words.map((w) => w.id),
+    extraItems: words,
+    includeNotDue: true,
+    ignoreCap: true,
+    limit,
+  };
 }

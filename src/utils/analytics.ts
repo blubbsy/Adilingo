@@ -1,7 +1,7 @@
 import type { HskLevel, SessionRequest, ToneKey, UserState, VocabItem } from '../types';
 import { addDays, dayKey } from './dates';
 import { tonesOf } from './pinyinHelper';
-import { calculateTrueRetention, effectiveStreak, isDue, isWordLearned, isWordStudied, itemHasTone, weakness, MATURE_STABILITY_DAYS } from './srsEngine';
+import { calculateTrueRetention, dailyLogFor, effectiveStreak, isDue, isWordLearned, isWordStudied, itemHasTone, weakness, MATURE_STABILITY_DAYS } from './srsEngine';
 import { levelLabel } from '../data/vocab';
 
 export const TONE_KEYS: ToneKey[] = ['1', '2', '3', '4', '0'];
@@ -199,7 +199,7 @@ export function recommendations(state: UserState, vocab: VocabItem[], now = new 
 
   // 4. Due cards.
   const due = vocab.filter((v) => isDue(state.progress[v.id], now)).length;
-  const capLeft = state.settings.dailyCap - (state.stats.daily[dayKey(now)]?.reviewed ?? 0);
+  const capLeft = state.settings.dailyCap - dailyLogFor(state, now).reviewed;
   if (due > 0 && capLeft > 0) {
     recs.push({
       id: 'due',

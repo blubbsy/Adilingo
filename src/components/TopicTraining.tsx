@@ -19,7 +19,8 @@ import type { SpeechApi } from '../utils/speech';
 import { isWordLearned, isWordStudied } from '../utils/srsEngine';
 import {
   THEME_LABELS,
-  TOPIC_PACKS,
+  buildTopicSessionRequest,
+  packsForCourse,
   resolveTopicWords,
   type TopicPack,
   type TopicTheme,
@@ -37,10 +38,11 @@ export function TopicTraining({ vocab, state, speech, onStartSession, onToggleSt
   const [selectedTheme, setSelectedTheme] = useState<TopicTheme | 'all'>('all');
   const [search, setSearch] = useState('');
   const [activePack, setActivePack] = useState<TopicPack | null>(null);
+  const packs = useMemo(() => packsForCourse(state.settings.course, vocab), [state.settings.course, vocab]);
 
   // Pre-resolve words and progress for each pack
   const packData = useMemo(() => {
-    return TOPIC_PACKS.map((pack) => {
+    return packs.map((pack) => {
       const words = resolveTopicWords(pack, vocab);
       const learnedCount = words.filter((w) => isWordLearned(state.progress[w.id])).length;
       const studiedCount = words.filter((w) => isWordStudied(state.progress[w.id])).length;
@@ -53,7 +55,7 @@ export function TopicTraining({ vocab, state, speech, onStartSession, onToggleSt
         pct,
       };
     });
-  }, [vocab, state.progress]);
+  }, [packs, vocab, state.progress]);
 
   // Overall statistics
   const stats = useMemo(() => {
@@ -111,16 +113,7 @@ export function TopicTraining({ vocab, state, speech, onStartSession, onToggleSt
         ? 'Recognition Drill'
         : 'Smart Practice';
 
-    onStartSession({
-      label: `${pack.title} · ${modeLabel}`,
-      mode,
-      levels: [],
-      topics: [pack.title],
-      wordIds: words.map((w) => w.id),
-      includeNotDue: true,
-      ignoreCap: true,
-      limit,
-    });
+    onStartSession(buildTopicSessionRequest(words, mode, `${pack.title} · ${modeLabel}`, limit));
   };
 
   return (
@@ -181,11 +174,11 @@ export function TopicTraining({ vocab, state, speech, onStartSession, onToggleSt
                 : 'bg-white/70 text-slate-600 hover:bg-slate-100 dark:bg-slate-800/60 dark:text-slate-300 dark:hover:bg-slate-800'
             }`}
           >
-            All Themes ({TOPIC_PACKS.length})
+            All Themes ({packs.length})
           </button>
           {(Object.keys(THEME_LABELS) as TopicTheme[]).map((theme) => {
             const active = selectedTheme === theme;
-            const count = TOPIC_PACKS.filter((p) => p.theme === theme).length;
+            const count = packs.filter((p) => p.theme === theme).length;
             return (
               <button
                 key={theme}

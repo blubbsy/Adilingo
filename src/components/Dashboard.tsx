@@ -19,8 +19,7 @@ import {
 } from 'lucide-react';
 import type { HskLevel, SessionRequest, UserState, VocabItem } from '../types';
 import { accuracyByLevel, averageLatencySec, calculateTrueRetention, recommendations, type Recommendation } from '../utils/analytics';
-import { dayKey } from '../utils/dates';
-import { bulkMarkLevelKnown, effectiveStreak, isWordStudied, queueSummary } from '../utils/srsEngine';
+import { bulkMarkLevelKnown, dailyLogFor, effectiveStreak, isWordStudied, queueSummary } from '../utils/srsEngine';
 import { curriculumInfo, levelLabel } from '../data/vocab';
 import { t, type UiLanguage } from '../utils/i18n';
 import { ModeSelector } from './ModeSelector';
@@ -69,7 +68,7 @@ export function Dashboard({
   const levels = useMemo(() => accuracyByLevel(state, vocab), [state, vocab]);
   const streak = effectiveStreak(state);
   const latency = averageLatencySec(state);
-  const today = state.stats.daily[dayKey()]?.reviewed ?? 0;
+  const today = dailyLogFor(state).reviewed;
   const seen = useMemo(() => vocab.filter((v) => isWordStudied(state.progress[v.id])).length, [vocab, state.progress]);
   const info = curriculumInfo(state.settings.curriculum);
   const currentLevel = levels.find((l) => l.learned < l.words) ?? levels[levels.length - 1];

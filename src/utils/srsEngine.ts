@@ -3,6 +3,7 @@ import type {
   CardDirection,
   CardProgress,
   CourseId,
+  DailyLog,
   DirectionProgress,
   Grade,
   HistoryEntry,
@@ -384,13 +385,31 @@ export interface QueueSummary {
   estimatedMinutes: number;
 }
 
+/**
+ * Today's review log for one course. Per-course tracking is authoritative: a course without an entry
+ * for today has done nothing today, even if another course already hit its limits. Only states that
+ * predate per-course tracking (no `dailyByCourse` at all) fall back to the global log.
+ */
+export function dailyLogFor(state: UserState, now: Date = new Date(), course: CourseId = state.settings.course ?? 'chinese'): DailyLog {
+  const day = dayKey(now);
+  const none: DailyLog = { reviewed: 0, correct: 0, newCards: 0 };
+  if (!state.stats.dailyByCourse) return state.stats.daily[day] ?? none;
+  return state.stats.dailyByCourse[course]?.[day] ?? none;
+}
+
+/** Library words plus any request-specific extras (deduplicated by id). */
+function poolSource(vocab: VocabItem[], req: Partial<Pick<SessionRequest, 'extraItems'>>): VocabItem[] {
+  if (!req.extraItems?.length) return vocab;
+  const have = new Set(vocab.map((v) => v.id));
+  return [...vocab, ...req.extraItems.filter((v) => !have.has(v.id))];
+}
+
 export function queueSummary(vocab: VocabItem[], state: UserState, req?: Partial<SessionRequest>, now = new Date()): QueueSummary {
   const levels = req?.levels ?? [];
   const topics = req?.topics ?? [];
   const wordIds = req?.wordIds;
-  const pool = filterPool(vocab, { levels, topics, wordIds });
-  const course = state.settings.course ?? 'chinese';
-  const today = state.stats.dailyByCourse?.[course]?.[dayKey(now)] ?? state.stats.daily[dayKey(now)] ?? { reviewed: 0, correct: 0, newCards: 0 };
+  const pool = filterPool(poolSource(vocab, req ?? {}), { levels, topics, wordIds });
+  const today = dailyLogFor(state, now);
   const newLeft = Math.max(0, state.settings.newCardsPerDay - today.newCards);
 
   let dueCount = 0;
@@ -422,7 +441,7 @@ export function queueSummary(vocab: VocabItem[], state: UserState, req?: Partial
 }
 
 export function buildSession(vocab: VocabItem[], state: UserState, req: SessionRequest, now = new Date()): SessionCard[] {
-  const pool = filterPool(vocab, req);
+  const pool = filterPool(poolSource(vocab, req), req);
   const summary = queueSummary(vocab, state, req, now);
   const userSessionSize = state.settings.sessionSize ?? 15;
   const limit = req.ignoreCap ? (req.limit ?? userSessionSize) : Math.min(req.limit ?? userSessionSize, summary.remainingToday);

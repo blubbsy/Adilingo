@@ -156,6 +156,11 @@ export interface SessionRequest {
   /** Ignore the daily cap (explicit targeted reviews). */
   ignoreCap?: boolean;
   limit?: number;
+  /**
+   * Words that are not part of the course library (e.g. a topic pack's supplementary terms).
+   * They are added to the session pool; without this `wordIds` could never match them.
+   */
+  extraItems?: VocabItem[];
 }
 
 export interface SessionCard {

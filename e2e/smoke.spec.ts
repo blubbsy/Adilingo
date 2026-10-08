@@ -38,3 +38,19 @@ test.describe('Audio speed control', () => {
     });
   }
 });
+
+test.describe('Topic training', () => {
+  for (const course of ['chinese', 'english'] as const) {
+    test(`a topic practice session always has cards (${course})`, async ({ page }) => {
+      await page.goto('/');
+      if (course === 'english') {
+        await page.getByRole('button', { name: /英语 CEFR/ }).first().click();
+      }
+      await page.goto('/#/topics');
+      await page.getByRole('button', { name: 'Practice', exact: true }).first().click();
+      await expect(page.getByText('Nothing to study here right now.')).toHaveCount(0);
+      await expect(page.getByRole('button', { name: 'End session' })).toBeVisible();
+      await expect(page.getByText(/^1 \/ \d+$/)).toBeVisible();
+    });
+  }
+});
