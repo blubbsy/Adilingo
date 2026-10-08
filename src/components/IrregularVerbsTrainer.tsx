@@ -13,6 +13,7 @@ import {
   type IrregularVerb,
 } from '../data/irregularVerbs';
 import type { SpeechApi } from '../utils/speech';
+import { SpeedControl } from './SpeedControl';
 
 interface Props {
   speech: SpeechApi;
@@ -239,8 +240,11 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
             <span>
               进度: <strong className="text-slate-900 dark:text-slate-100">{currentIndex + 1}</strong> / {filteredVerbs.length}
             </span>
-            <span className="rounded-lg border px-2 py-0.5 font-semibold text-xs border-slate-200 dark:border-slate-700">
-              {PATTERN_LABELS[currentVerb.pattern].label}
+            <span className="inline-flex items-center gap-2">
+              <SpeedControl speech={speech} variant="compact" lang="zh" />
+              <span className="rounded-lg border px-2 py-0.5 font-semibold text-xs border-slate-200 dark:border-slate-700">
+                {PATTERN_LABELS[currentVerb.pattern].label}
+              </span>
             </span>
           </div>
 

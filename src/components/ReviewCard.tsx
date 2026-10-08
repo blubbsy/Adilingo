@@ -4,7 +4,7 @@ import type { CardProgress, DirectionProgress, Grade, SessionCard, Settings, Ton
 import { checkPinyin, markSyllable, numberedToMarked, parseNumbered, stripTones } from '../utils/pinyinHelper';
 import { GRADE_LABELS, nextInterval } from '../utils/srsEngine';
 import { levelLabel } from '../data/vocab';
-import type { SpeechApi } from '../utils/speech';
+import { nextSpeechRate, type SpeechApi } from '../utils/speech';
 import { AudioButton } from './AudioButton';
 import { FreePinyin, PinyinText } from './ToneText';
 import { playCorrect, playError } from '../utils/sound';
@@ -302,9 +302,10 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
   // Play audio automatically for listening drill once per card (without self-cancellation on speech state changes)
   useEffect(() => {
     if (prompt === 'audio') {
-      speechRef.current.speak(item.hanzi, settings.speechRate);
+      // Uses the live saved speed (read inside speak) so changing speed does not re-trigger autoplay.
+      speechRef.current.speak(item.hanzi);
     }
-  }, [prompt, item.id, item.hanzi, direction, settings.speechRate]);
+  }, [prompt, item.id, item.hanzi, direction]);
 
   // Clean up speech only when this card unmounts
   useEffect(() => {
@@ -407,6 +408,15 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
         if (e.key === 'Enter') return; // let form handle submit
       }
 
+      // S cycles the playback speed (never while typing an answer). On a listening prompt it replays at the new speed.
+      if ((e.key === 's' || e.key === 'S') && !e.ctrlKey && !e.metaKey && !e.altKey && !(e.target instanceof HTMLInputElement) && !(e.target instanceof HTMLTextAreaElement)) {
+        e.preventDefault();
+        const sp = speechRef.current;
+        sp.setRate(nextSpeechRate(sp.rate));
+        if (prompt === 'audio' && !revealed) sp.speak(item.hanzi);
+        return;
+      }
+
       if (!revealed) {
         if ((e.key === 'f' || e.key === 'F' || e.key === 'p' || e.key === 'P') && allowFlip && !(e.target instanceof HTMLInputElement)) {
           e.preventDefault();
@@ -451,7 +461,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
 
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
-  }, [revealed, isCorrect, prompt, options.length, clozeData, allowFlip]);
+  }, [revealed, isCorrect, prompt, options.length, clozeData, allowFlip, item.hanzi]);
 
   const suggestedGrade: Grade = isCorrect ? 3 : 1;
 

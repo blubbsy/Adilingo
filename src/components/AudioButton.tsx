@@ -1,18 +1,35 @@
+import { useRef } from 'react';
 import { Volume2, VolumeX } from 'lucide-react';
 import type { SpeechApi } from '../utils/speech';
+import { t, type UiLanguage } from '../utils/i18n';
+
+/** Press-and-hold duration that triggers a one-shot slow replay. */
+const LONG_PRESS_MS = 500;
 
 interface Props {
   speech: SpeechApi;
   text: string;
-  rate: number;
+  /** Optional override; defaults to the saved speech speed (`speech.rate`). */
+  rate?: number;
+  lang?: UiLanguage;
   size?: 'sm' | 'lg';
   label?: string;
   onPlay?: () => void;
 }
 
 /** Speaker button with an animated waveform while speech is playing. */
-export function AudioButton({ speech, text, rate, size = 'sm', label, onPlay }: Props) {
+export function AudioButton({ speech, text, rate: rateOverride, lang = 'en', size = 'sm', label, onPlay }: Props) {
   const big = size === 'lg';
+  const rate = rateOverride ?? speech.rate;
+  const pressTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const longPressed = useRef(false);
+
+  const clearPress = () => {
+    if (pressTimer.current) {
+      clearTimeout(pressTimer.current);
+      pressTimer.current = null;
+    }
+  };
   const active = speech.speakingText === text;
   if (!speech.supported) {
     return (
@@ -24,12 +41,32 @@ export function AudioButton({ speech, text, rate, size = 'sm', label, onPlay }: 
   return (
     <button
       type="button"
-      onClick={() => {
-        speech.speak(text, rate);
+      onPointerDown={() => {
+        longPressed.current = false;
+        clearPress();
+        pressTimer.current = setTimeout(() => {
+          longPressed.current = true;
+          speech.speakSlow(text);
+          onPlay?.();
+        }, LONG_PRESS_MS);
+      }}
+      onPointerUp={clearPress}
+      onPointerLeave={clearPress}
+      onPointerCancel={clearPress}
+      onContextMenu={(e) => {
+        if (longPressed.current) e.preventDefault();
+      }}
+      onClick={(e) => {
+        if (longPressed.current) {
+          longPressed.current = false;
+          return;
+        }
+        if (e.shiftKey) speech.speakSlow(text);
+        else speech.speak(text, rate);
         onPlay?.();
       }}
       aria-label={label ?? `Play pronunciation (${rate}×)`}
-      title={`Play (${rate}×) — shortcut: Space`}
+      title={`Play (${rate}×) — ${t('speed.slowHint', lang)}`}
       className={`group inline-flex items-center gap-2 rounded-full border transition ${
         active
           ? 'border-rose-300 bg-rose-50 text-rose-600 dark:border-rose-700 dark:bg-rose-950/50 dark:text-rose-300'

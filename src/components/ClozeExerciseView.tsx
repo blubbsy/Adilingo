@@ -1,7 +1,8 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { Check, Volume2, X } from 'lucide-react';
 import type { ClozeExerciseData } from '../exercises/types';
 import type { SpeechApi } from '../utils/speech';
+import { SpeedControl } from './SpeedControl';
 
 interface Props {
   data: ClozeExerciseData;
@@ -19,16 +20,18 @@ export function ClozeExerciseView({
   selectedIdx,
   isCorrect,
   speech,
-  speechRate = 1,
   onSelect,
 }: Props) {
 
-  // Play audio of the complete sentence once answered correctly
+  // Play the complete sentence once when answered correctly. `speech` changes identity whenever playback
+  // state or speed changes, so it is read through a ref to avoid replaying the sentence in a loop.
+  const speechRef = useRef(speech);
+  speechRef.current = speech;
   useEffect(() => {
     if (revealed && isCorrect) {
-      speech.speak(data.sentence, speechRate);
+      speechRef.current.speak(data.sentence);
     }
-  }, [revealed, isCorrect, data.sentence, speech, speechRate]);
+  }, [revealed, isCorrect, data.sentence]);
 
   const slottedWord = selectedIdx !== null ? data.options[selectedIdx] : null;
 
@@ -42,13 +45,14 @@ export function ClozeExerciseView({
           </span>
           <button
             type="button"
-            onClick={() => speech.speak(data.sentence, speechRate)}
+            onClick={() => speech.speak(data.sentence)}
             className="inline-flex items-center gap-1 rounded-full bg-slate-200/80 px-2 py-0.5 text-xs text-slate-700 hover:bg-slate-300 dark:bg-slate-700 dark:text-slate-200 dark:hover:bg-slate-600"
             title="Listen to full sentence"
           >
             <Volume2 className="h-3.5 w-3.5" />
             <span>Audio</span>
           </button>
+          <SpeedControl speech={speech} variant="compact" />
         </div>
 
         {/* The Sentence with the Slot */}

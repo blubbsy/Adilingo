@@ -56,6 +56,14 @@ Audio pronunciation is mission-critical for language learners. The browser audio
    - Audio elements must have a 5-second per-URL timeout to prevent hanging on stalled networks.
    - `NotAllowedError` (autoplay restrictions prior to user interaction) must abort the cascade cleanly rather than firing repeated failed network requests.
 
+### 🐢 Playback Speed Rules
+
+1. **One source of truth**: the saved speed is `settings.speechRate`, exposed as `speech.rate` / `speech.setRate()` from `useSpeech`. New audio UI must read `speech.rate` (do not prop-drill a separate rate) and use `<SpeedControl>` / `<AudioButton>`.
+2. **One mechanism per tier**: WebSpeech uses `utterance.rate`; streamed audio uses `applyAudioRate()` (`playbackRate` + `defaultPlaybackRate` + `preservesPitch`). Never set `audio.playbackRate` directly.
+3. **Live changes**: stream audio changes speed immediately; WebSpeech restarts the current text at the new speed. Changing speed must never re-trigger card autoplay by itself.
+4. **Slow replay** (`Shift+click`, long-press, `SLOW_REPLAY_RATE`) must not change the saved speed. Keyboard: `S` cycles speed (ignored while typing).
+5. ⚠ Open item: `buildAudioUrls` hard-codes `speed=0.5` (Google lr-language-tts) and `spd=5` (Baidu). Verify in a browser whether this makes the fallback tier slower than WebSpeech at the same setting before changing it.
+
 ---
 
 ## 3. Course Isolation & Navigation Routing

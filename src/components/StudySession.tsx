@@ -5,6 +5,7 @@ import type { SpeechApi } from '../utils/speech';
 import { ReviewCard, type CardResult } from './ReviewCard';
 import { HanziText } from './ToneText';
 import { playFanfare } from '../utils/sound';
+import { SpeedControl } from './SpeedControl';
 
 interface Props {
   request: SessionRequest;
@@ -119,6 +120,7 @@ export function StudySession({ request, initialCards, vocab, state, speech, onRe
             <div className="h-full rounded-full bg-rose-500 transition-all" style={{ width: `${(index / queue.length) * 100}%` }} />
           </div>
         </div>
+        <SpeedControl speech={speech} variant="compact" lang={state.settings.uiLanguage} />
         <button
           onClick={toggleFullscreen}
           className="inline-flex items-center gap-1 rounded-lg p-2 text-sm text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800"

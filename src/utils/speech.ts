@@ -1,6 +1,35 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
-export const SPEECH_RATES = [0.5, 0.75, 1, 1.25];
+export const SPEECH_RATES = [0.5, 1, 1.5];
+
+/** One-shot "slow replay" speed; does not change the saved setting. */
+export const SLOW_REPLAY_RATE = 0.6;
+
+/** Cycles to the next speed in SPEECH_RATES (wraps around; unknown values snap to the nearest step first). */
+export function nextSpeechRate(current: number): number {
+  let nearest = 0;
+  for (let i = 1; i < SPEECH_RATES.length; i++) {
+    if (Math.abs(SPEECH_RATES[i] - current) < Math.abs(SPEECH_RATES[nearest] - current)) nearest = i;
+  }
+  return SPEECH_RATES[(nearest + 1) % SPEECH_RATES.length];
+}
+
+/**
+ * Applies a playback rate to an <audio> element in a way that survives the browser's load algorithm
+ * (defaultPlaybackRate) and keeps the pitch natural so tones stay recognisable at slow speeds.
+ */
+export function applyAudioRate(audio: HTMLAudioElement, rate: number): void {
+  try {
+    audio.defaultPlaybackRate = rate;
+    audio.playbackRate = rate;
+    const a = audio as HTMLAudioElement & { webkitPreservesPitch?: boolean; mozPreservesPitch?: boolean };
+    a.preservesPitch = true;
+    a.webkitPreservesPitch = true;
+    a.mozPreservesPitch = true;
+  } catch {
+    /* some environments reject unsupported rates; playback continues at the default speed */
+  }
+}
 
 export function speechSupported(): boolean {
   return typeof window !== 'undefined';
@@ -107,7 +136,13 @@ export interface SpeechApi {
   voicesLoaded: boolean;
   speaking: boolean;
   speakingText: string | null;
+  /** Current playback speed (the saved setting). */
+  rate: number;
+  /** Changes the saved speed; restarts the current item at the new speed if something is playing. */
+  setRate: (rate: number) => void;
   speak: (text: string, rate?: number) => boolean;
+  /** Plays once at SLOW_REPLAY_RATE without touching the saved speed. */
+  speakSlow: (text: string) => boolean;
   cancel: () => void;
 }
 
@@ -179,7 +214,7 @@ function playNativeAudioStream(
     const url = urls[index++];
     try {
       const audio = new Audio(url);
-      audio.playbackRate = rate;
+      applyAudioRate(audio, rate);
       currentAudio = audio;
 
       let settled = false;
@@ -251,8 +286,17 @@ function playNativeAudioStream(
   return true;
 }
 
-export function useSpeech(defaultRate = 1, targetLang: 'zh' | 'en' | string = 'zh'): SpeechApi {
+export function useSpeech(
+  defaultRate = 1,
+  targetLang: 'zh' | 'en' | string = 'zh',
+  onRateChange?: (rate: number) => void,
+): SpeechApi {
   const supported = speechSupported();
+  // Always read the latest rate/callback from refs so `speak` stays referentially stable.
+  const rateRef = useRef(defaultRate);
+  rateRef.current = defaultRate;
+  const onRateChangeRef = useRef(onRateChange);
+  onRateChangeRef.current = onRateChange;
   const [voice, setVoice] = useState<SpeechSynthesisVoice | null>(() => findVoice(targetLang));
   const [voicesLoaded, setVoicesLoaded] = useState(() => hasWebSpeechSynthesis() && window.speechSynthesis.getVoices().length > 0);
   const [speakingText, setSpeakingText] = useState<string | null>(null);
@@ -310,7 +354,7 @@ export function useSpeech(defaultRate = 1, targetLang: 'zh' | 'en' | string = 'z
   }, []);
 
   const speak = useCallback(
-    (text: string, rate = defaultRate) => {
+    (text: string, rate = rateRef.current) => {
       if (!text || !text.trim()) return false;
 
       // Stop any prior playback
@@ -405,7 +449,27 @@ export function useSpeech(defaultRate = 1, targetLang: 'zh' | 'en' | string = 'z
       // Stream directly from high-fidelity native audio endpoints.
       return playNativeAudioStream(text, rate, done, done, effectiveLang);
     },
-    [voice, defaultRate, targetLang],
+    [voice, targetLang],
+  );
+
+  const speakSlow = useCallback((text: string) => speak(text, SLOW_REPLAY_RATE), [speak]);
+
+  const setRate = useCallback(
+    (next: number) => {
+      const clamped = Math.min(1.5, Math.max(0.5, next));
+      rateRef.current = clamped;
+      onRateChangeRef.current?.(clamped);
+      const playing = speakingRef.current;
+      if (!playing) return;
+      if (currentAudio) {
+        // Streamed audio can change speed live without restarting.
+        applyAudioRate(currentAudio, clamped);
+      } else {
+        // WebSpeech cannot change rate mid-utterance: restart the same text at the new speed.
+        speak(playing, clamped);
+      }
+    },
+    [speak],
   );
 
   return useMemo<SpeechApi>(
@@ -415,9 +479,12 @@ export function useSpeech(defaultRate = 1, targetLang: 'zh' | 'en' | string = 'z
       voicesLoaded,
       speaking: speakingText !== null,
       speakingText,
+      rate: defaultRate,
+      setRate,
       speak,
+      speakSlow,
       cancel,
     }),
-    [supported, voice, voicesLoaded, speakingText, speak, cancel],
+    [supported, voice, voicesLoaded, speakingText, defaultRate, setRate, speak, speakSlow, cancel],
   );
 }

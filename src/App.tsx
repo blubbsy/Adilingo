@@ -72,7 +72,11 @@ export default function App() {
   const { state, ready, backend, loadWarning, update, replace, allowSave } = useUserState();
   const activeCourse = state.settings.course ?? 'chinese';
   const courseConfig = getCourseConfig(activeCourse);
-  const speech = useSpeech(state.settings.speechRate, courseConfig.speechVoiceLang);
+  const handleSpeechRateChange = useCallback(
+    (rate: number) => update((s) => (s.settings.speechRate === rate ? s : { ...s, settings: { ...s.settings, speechRate: rate } })),
+    [update],
+  );
+  const speech = useSpeech(state.settings.speechRate, courseConfig.speechVoiceLang, handleSpeechRateChange);
   const [library, setLibrary] = useState<VocabLibrary | null>(null);
   const [libraryError, setLibraryError] = useState<string | null>(null);
   const [view, setView] = useState<View>(viewFromHash);

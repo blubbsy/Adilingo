@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { ChevronLeft, CircleCheck, Dumbbell, Lightbulb, TriangleAlert } from 'lucide-react';
 import { AudioButton } from '../components/AudioButton';
+import { SpeedControl } from '../components/SpeedControl';
 import { FreePinyin } from '../components/ToneText';
 import type { SpeechApi } from '../utils/speech';
 import { ExercisePlayer } from './ExercisePlayer';
@@ -107,9 +108,12 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
           </section>
 
           <section aria-labelledby="gl-examples">
-            <h3 id="gl-examples" className="mb-2 px-1 text-sm font-semibold text-slate-900 dark:text-slate-100">
-              Examples
-            </h3>
+            <div className="mb-2 flex items-center justify-between gap-2 px-1">
+              <h3 id="gl-examples" className="text-sm font-semibold text-slate-900 dark:text-slate-100">
+                Examples
+              </h3>
+              <SpeedControl speech={speech} variant="compact" />
+            </div>
             <ul className="space-y-2">
               {point.examples.map((ex, i) => (
                 <li key={i} className={`${card} flex items-start gap-3 p-3 sm:p-4`}>
@@ -128,7 +132,7 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
                     )}
                   </div>
                   <div className="shrink-0">
-                    <AudioButton speech={speech} text={ex.hanzi} rate={speechRate} />
+                    <AudioButton speech={speech} text={ex.hanzi} />
                   </div>
                 </li>
               ))}

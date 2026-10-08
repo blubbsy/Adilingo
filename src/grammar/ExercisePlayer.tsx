@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Check, Delete, Keyboard, RotateCcw, Trophy, X } from 'lucide-react';
 import { AudioButton } from '../components/AudioButton';
+import { SpeedControl } from '../components/SpeedControl';
 import type { SpeechApi } from '../utils/speech';
 import { PASS_RATIO } from './grammarStorage';
 import type { GrammarExercise, GrammarPoint, OptionExercise, OrderExercise } from './types';
@@ -61,7 +62,7 @@ function speakableAnswer(ex: GrammarExercise): string | null {
   }
 }
 
-export function ExercisePlayer({ point, speech, speechRate, onFinish, onExit }: Props) {
+export function ExercisePlayer({ point, speech, onFinish, onExit }: Props) {
   const exercises = point.exercises;
   const [run, setRun] = useState(0);
   const [idx, setIdx] = useState(0);
@@ -276,7 +277,14 @@ export function ExercisePlayer({ point, speech, speechRate, onFinish, onExit }: 
             <RichText text={ex.explanation} />
           </p>
           <div className="mt-3 flex flex-wrap items-center justify-between gap-2">
-            {speakText ? <AudioButton speech={speech} text={speakText} rate={speechRate} /> : <span />}
+            {speakText ? (
+              <span className="inline-flex items-center gap-2">
+                <AudioButton speech={speech} text={speakText} />
+                <SpeedControl speech={speech} variant="compact" />
+              </span>
+            ) : (
+              <span />
+            )}
             <button ref={continueRef} type="button" className={primaryBtn} onClick={next}>
               {idx + 1 < exercises.length ? 'Continue' : 'See results'}
             </button>

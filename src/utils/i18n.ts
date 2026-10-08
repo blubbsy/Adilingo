@@ -109,6 +109,12 @@ export const TRANSLATIONS: Record<UiLanguage, Record<string, string>> = {
     'common.finish': 'Finish',
     'common.loading': 'Loading...',
     'common.practice': 'Practice',
+
+    // Audio speed
+    'speed.label': 'Playback speed',
+    'speed.slow': 'Slow replay',
+    'speed.slowHint': 'Hold or Shift+click to replay slowly once',
+    'speed.cycle': 'Speed {rate}× — press S to change',
   },
   zh: {
     // Navigation
@@ -218,6 +224,12 @@ export const TRANSLATIONS: Record<UiLanguage, Record<string, string>> = {
     'common.finish': '完成',
     'common.loading': '加载中...',
     'common.practice': '开始练习',
+
+    // Audio speed
+    'speed.label': '播放速度',
+    'speed.slow': '慢速重播',
+    'speed.slowHint': '长按或 Shift+点击可慢速重播一次',
+    'speed.cycle': '速度 {rate}× — 按 S 切换',
   },
 };
 

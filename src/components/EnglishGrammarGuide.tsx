@@ -26,6 +26,7 @@ import {
   type GrammarWikiArticle,
 } from '../data/englishGrammarWiki';
 import type { SpeechApi } from '../utils/speech';
+import { SpeedControl } from './SpeedControl';
 
 interface Props {
   speech: SpeechApi;
@@ -170,6 +171,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
             <Layers className="h-4 w-4" />
             🔄 主动与被动语态蜕变规则
           </button>
+          <SpeedControl speech={speech} variant="compact" lang="zh" className="ml-auto" />
         </div>
       </header>
 
