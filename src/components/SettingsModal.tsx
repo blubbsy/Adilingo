@@ -286,7 +286,7 @@ export function SettingsModal({
             >
               {(course.track === 'english' ? ENGLISH_MODES : CHINESE_MODES).map((m) => (
                 <option key={m.id} value={m.id}>
-                  {m.title}
+                  {t(m.titleKey)}
                 </option>
               ))}
             </select>

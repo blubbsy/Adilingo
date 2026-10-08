@@ -241,7 +241,7 @@ export function IrregularVerbsTrainer({ speech, onBack }: Props) {
               进度: <strong className="text-slate-900 dark:text-slate-100">{currentIndex + 1}</strong> / {filteredVerbs.length}
             </span>
             <span className="inline-flex items-center gap-2">
-              <SpeedControl speech={speech} variant="compact" lang="zh" />
+              <SpeedControl speech={speech} variant="compact" />
               <span className="rounded-lg border px-2 py-0.5 font-semibold text-xs border-slate-200 dark:border-slate-700">
                 {PATTERN_LABELS[currentVerb.pattern].label}
               </span>

@@ -387,7 +387,7 @@ export default function App() {
                 ...session.request,
                 includeNotDue: true,
                 ignoreCap: true,
-                limit: session.request.limit || 15,
+                limit: session.request.limit || (state.settings.sessionSize ?? 15),
               })
             }
           />

@@ -12,6 +12,8 @@ import {
   loadLocale,
   matchUiLanguage,
   messageArguments,
+  messageTags,
+  splitRich,
   translate,
   translateUnsafe,
 } from '../index';
@@ -63,6 +65,14 @@ describe('message format', () => {
   });
 });
 
+describe('rich text', () => {
+  it('splits tags from plain text and keeps unknown text intact', () => {
+    expect(splitRich('<b>3</b> due · <i>5</i> new')).toEqual([{ tag: 'b', text: '3' }, ' due · ', { tag: 'i', text: '5' }, ' new']);
+    expect(splitRich('no tags & a < b')).toEqual(['no tags & a < b']);
+    expect(messageTags('<b>x</b> <b>y</b> <em>z</em>')).toEqual(['b', 'em']);
+  });
+});
+
 describe('translation lookup', () => {
   beforeAll(async () => {
     await Promise.all([loadLocale('zh'), loadLocale('de')]);
@@ -102,6 +112,15 @@ describe('locale tables', () => {
   it('the German table only contains known keys', () => {
     const unknown = Object.keys(de).filter((k) => !(k in en));
     expect(unknown).toEqual([]);
+  });
+
+  it('every translation uses exactly the rich-text tags of the English source', () => {
+    for (const [lang, table] of Object.entries({ zh, de }) as [string, Record<string, string | undefined>][]) {
+      for (const [key, value] of Object.entries(table)) {
+        if (value === undefined) continue;
+        expect(messageTags(value), `${lang}:${key}`).toEqual(messageTags((en as Record<string, string>)[key]));
+      }
+    }
   });
 
   it('no string is empty or has stray whitespace', () => {

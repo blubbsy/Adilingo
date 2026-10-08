@@ -32,4 +32,12 @@ export const dashboard: Record<keyof typeof en, string> = {
   'dashboard.learningPaths': '进阶学习路线',
   'dashboard.topicTrainingBtn': '主题场景词汇',
   'dashboard.bulkMarkLevels': '批量标记掌握',
+  'dashboard.todayCounts': '<due>{due}</due> 个待复习 + <new>{new}</new> 个新词',
+  'dashboard.grammarHeroDesc': '一个经典例句通关13类时态与SPO主谓宾',
+  'dashboard.irregularHeroDesc': 'AAA / ABB / ABC / ABA 四维规律特训',
+  'dashboard.levelWordsLearned': '{level} 词汇已学 {learned}/{total}',
+  'dashboard.practiceLevel': '练习 {level}',
+  'dashboard.levelProgress': '{level} 进度',
+  'dashboard.levelPracticeLabel': '{level} · 练习',
+  'dashboard.grammarGuideBtn': '时态与语法百科',
 };

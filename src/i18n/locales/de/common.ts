@@ -10,4 +10,9 @@ export const common: Partial<Record<keyof typeof en, string>> = {
   'common.finish': 'Fertig',
   'common.loading': 'Wird geladen …',
   'common.practice': 'Üben',
+  'common.interval.today': 'heute',
+  'common.interval.days': '{days, plural, one {# Tag} other {# Tage}}',
+  'common.interval.months': '{months} Mon.',
+  'common.interval.short': '{days} T.',
+  'common.close': 'Schließen',
 };

@@ -10,4 +10,9 @@ export const common: Record<keyof typeof en, string> = {
   'common.finish': '完成',
   'common.loading': '加载中...',
   'common.practice': '开始练习',
+  'common.interval.today': '今天',
+  'common.interval.days': '{days} 天',
+  'common.interval.months': '{months} 个月',
+  'common.interval.short': '{days}天',
+  'common.close': '关闭',
 };

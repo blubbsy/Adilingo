@@ -30,4 +30,12 @@ export const dashboard = {
   'dashboard.learningPaths': 'Learning paths',
   'dashboard.topicTrainingBtn': 'Topic training',
   'dashboard.bulkMarkLevels': 'Bulk mark levels',
+  'dashboard.todayCounts': '<due>{due, plural, one {# review} other {# reviews}}</due> + <new>{new}</new> new',
+  'dashboard.grammarHeroDesc': 'Master all 13 tenses and the SPO skeleton with one classic example sentence',
+  'dashboard.irregularHeroDesc': 'Drill the four patterns: AAA / ABB / ABC / ABA',
+  'dashboard.levelWordsLearned': '{learned} of {total} {level} words learned',
+  'dashboard.practiceLevel': 'Practice {level}',
+  'dashboard.levelProgress': '{level} progress',
+  'dashboard.levelPracticeLabel': '{level} · Practice',
+  'dashboard.grammarGuideBtn': 'Grammar guide',
 } as const;

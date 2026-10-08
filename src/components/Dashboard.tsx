@@ -21,7 +21,7 @@ import type { HskLevel, SessionRequest, UserState, VocabItem } from '../types';
 import { accuracyByLevel, averageLatencySec, calculateTrueRetention, recommendations, type Recommendation } from '../utils/analytics';
 import { bulkMarkLevelKnown, dailyLogFor, effectiveStreak, isWordStudied, queueSummary } from '../utils/srsEngine';
 import { curriculumInfo, levelLabel } from '../data/vocab';
-import { t, type UiLanguage } from '../i18n';
+import { useI18n } from '../i18n/react';
 import { ModeSelector } from './ModeSelector';
 import { PlacementTestModal } from './PlacementTestModal';
 import { BulkMarkModal } from './BulkMarkModal';
@@ -64,7 +64,7 @@ export function Dashboard({
 
   const courseConfig = getCourseConfig(state.settings.course);
   const isEnglishCourse = courseConfig.track === 'english';
-  const lang: UiLanguage = state.settings.uiLanguage ?? courseConfig.defaultUiLanguage;
+  const { t, rich, formatNumber } = useI18n();
 
   const recs = useMemo(() => recommendations(state, vocab), [state, vocab]);
   const levels = useMemo(() => accuracyByLevel(state, vocab), [state, vocab]);
@@ -85,7 +85,7 @@ export function Dashboard({
   function handleStartDailySession() {
     if (activeDailyCount > 0) {
       onStart({
-        label: t('dashboard.startSession', lang),
+        label: t('dashboard.startSession'),
         mode: state.settings.defaultMode,
         levels: [],
         topics: [],
@@ -94,7 +94,7 @@ export function Dashboard({
     } else {
       // Extra practice
       onStart({
-        label: t('dashboard.extraPractice', lang, { count: sessionBatch }),
+        label: t('dashboard.extraPractice', { count: sessionBatch }),
         mode: 'mixed',
         levels: [],
         topics: [],
@@ -134,7 +134,6 @@ export function Dashboard({
             trueRetentionRate={trueRet.rate}
             matureTotal={trueRet.matureTotal}
             latency={latency}
-            lang={lang}
           />
         </section>
 
@@ -143,28 +142,30 @@ export function Dashboard({
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
               <span className="inline-flex items-center gap-1.5 rounded-full bg-rose-100 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-rose-800 dark:bg-rose-950/60 dark:text-rose-300">
-                <Sparkles className="h-3.5 w-3.5" /> {t('dashboard.dailySchedule', lang)}
+                <Sparkles className="h-3.5 w-3.5" /> {t('dashboard.dailySchedule')}
               </span>
               <h2 className="mt-3 text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100 sm:text-3xl">
                 {activeDailyCount > 0 ? (
-                  <>
-                    <span className="text-rose-600 dark:text-rose-400">{summary.dueCount}</span>{' '}
-                    {lang === 'zh' ? '个待复习 + ' : 'reviews + '}
-                    <span className="text-slate-900 dark:text-slate-100">{summary.newAvailable}</span>{' '}
-                    {lang === 'zh' ? '个新词' : 'new'}
-                  </>
+                  rich(
+                    'dashboard.todayCounts',
+                    { due: summary.dueCount, new: summary.newAvailable },
+                    {
+                      due: (text) => <span className="text-rose-600 dark:text-rose-400">{text}</span>,
+                      new: (text) => <span className="text-slate-900 dark:text-slate-100">{text}</span>,
+                    },
+                  )
                 ) : (
-                  t('dashboard.allCaughtUp', lang)
+                  t('dashboard.allCaughtUp')
                 )}
               </h2>
               <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
                 {activeDailyCount > 0
-                  ? t('dashboard.estimatedTime', lang, {
+                  ? t('dashboard.estimatedTime', {
                       min: summary.estimatedMinutes,
                       reviewed: summary.reviewedToday,
                       cap: state.settings.dailyCap,
                     })
-                  : t('dashboard.restMessage', lang)}
+                  : t('dashboard.restMessage')}
               </p>
             </div>
 
@@ -174,8 +175,8 @@ export function Dashboard({
             >
               <Play className="h-5 w-5 fill-current" />
               {activeDailyCount > 0
-                ? t('dashboard.startSession', lang)
-                : t('dashboard.extraPractice', lang, { count: sessionBatch })}
+                ? t('dashboard.startSession')
+                : t('dashboard.extraPractice', { count: sessionBatch })}
             </button>
           </div>
 
@@ -192,10 +193,10 @@ export function Dashboard({
                   </div>
                   <div className="min-w-0">
                     <div className="font-bold text-sm text-slate-900 dark:text-slate-100">
-                      {t('dashboard.grammarHero', lang)}
+                      {t('dashboard.grammarHero')}
                     </div>
                     <div className="text-xs text-slate-500 dark:text-slate-400">
-                      一个经典例句通关13类时态与SPO主谓宾
+                      {t('dashboard.grammarHeroDesc')}
                     </div>
                   </div>
                 </button>
@@ -211,10 +212,10 @@ export function Dashboard({
                   </div>
                   <div className="min-w-0">
                     <div className="font-bold text-sm text-slate-900 dark:text-slate-100">
-                      {t('dashboard.irregularVerbsHero', lang)}
+                      {t('dashboard.irregularVerbsHero')}
                     </div>
                     <div className="text-xs text-slate-500 dark:text-slate-400">
-                      AAA / ABB / ABC / ABA 四维规律特训
+                      {t('dashboard.irregularHeroDesc')}
                     </div>
                   </div>
                 </button>
@@ -229,7 +230,7 @@ export function Dashboard({
               className="inline-flex items-center gap-1.5 rounded-xl border border-indigo-200 bg-indigo-50/70 px-3 py-2 font-medium text-indigo-700 hover:bg-indigo-100 dark:border-indigo-900/60 dark:bg-indigo-950/40 dark:text-indigo-300"
             >
               <Compass className="h-4 w-4 text-indigo-600 dark:text-indigo-400" />
-              {t('dashboard.learningPaths', lang)}
+              {t('dashboard.learningPaths')}
             </button>
 
             <button
@@ -237,7 +238,7 @@ export function Dashboard({
               className="inline-flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white/80 px-3 py-2 font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800/80 dark:text-slate-200"
             >
               <Award className="h-4 w-4 text-amber-500" />
-              {t('dashboard.placementTest', lang)}
+              {t('dashboard.placementTest')}
             </button>
 
             <button
@@ -245,7 +246,7 @@ export function Dashboard({
               className="inline-flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white/80 px-3 py-2 font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800/80 dark:text-slate-200"
             >
               <CheckCheck className="h-4 w-4 text-emerald-500" />
-              {t('dashboard.bulkMark', lang)}
+              {t('dashboard.bulkMark')}
             </button>
 
             <button
@@ -253,7 +254,7 @@ export function Dashboard({
               className="inline-flex items-center gap-1.5 rounded-xl border border-rose-200 bg-rose-50/70 px-3 py-2 font-medium text-rose-700 hover:bg-rose-100 dark:border-rose-900/60 dark:bg-rose-950/40 dark:text-rose-300"
             >
               <Layers className="h-4 w-4 text-rose-600 dark:text-rose-400" />
-              {t('dashboard.topicTraining', lang)}
+              {t('dashboard.topicTraining')}
             </button>
 
             <button
@@ -262,8 +263,8 @@ export function Dashboard({
             >
               <SlidersHorizontal className="h-4 w-4 text-slate-400" />
               {showCustomPractice
-                ? t('dashboard.hideCustomPractice', lang)
-                : t('dashboard.customPractice', lang)}
+                ? t('dashboard.hideCustomPractice')
+                : t('dashboard.customPractice')}
             </button>
           </div>
         </section>
@@ -278,7 +279,7 @@ export function Dashboard({
         {/* Recommendations */}
         {recs.length > 0 && (
           <section>
-            <h2 className="mb-3 text-lg font-semibold">{t('dashboard.recommended', lang)}</h2>
+            <h2 className="mb-3 text-lg font-semibold">{t('dashboard.recommended')}</h2>
             <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
               {recs.slice(0, 4).map((r) => {
                 const Icon = REC_ICON[r.kind];
@@ -318,19 +319,18 @@ export function Dashboard({
             trueRetentionRate={trueRet.rate}
             matureTotal={trueRet.matureTotal}
             latency={latency}
-            lang={lang}
           />
         </section>
 
         <section className={`${panel} p-5`}>
           <div className="flex items-baseline justify-between gap-2">
-            <h2 className="font-semibold">{t('dashboard.syllabusProgress', lang)}</h2>
+            <h2 className="font-semibold">{t('dashboard.syllabusProgress')}</h2>
             <span className="text-xs text-slate-500">{info.short}</span>
           </div>
           <p className="mt-0.5 text-xs text-slate-500">
-            {t('dashboard.wordsLearned', lang, {
-              seen: seen.toLocaleString('en'),
-              total: vocab.length.toLocaleString('en'),
+            {t('dashboard.wordsLearned', {
+              seen: formatNumber(seen),
+              total: formatNumber(vocab.length),
             })}
           </p>
 
@@ -340,24 +340,24 @@ export function Dashboard({
               const isCurrent = l.level === currentLevel?.level;
               const lvlName = levelLabel(l.level, state.settings.course);
               return (
-                <li key={l.level} className="group rounded-xl p-1 transition hover:bg-slate-50 dark:hover:bg-slate-800/50" title={`${l.learned} of ${l.words} ${lvlName} words learned`}>
+                <li key={l.level} className="group rounded-xl p-1 transition hover:bg-slate-50 dark:hover:bg-slate-800/50" title={t('dashboard.levelWordsLearned', { learned: l.learned, total: l.words, level: lvlName })}>
                   <div className="flex items-baseline justify-between text-sm">
                     <span className={isCurrent ? 'font-semibold' : ''}>
                       {lvlName}{' '}
                       {isCurrent && (
                         <span className="ml-1 rounded bg-rose-100 px-1.5 text-[10px] font-semibold uppercase text-rose-700 dark:bg-rose-900/50 dark:text-rose-200">
-                          {t('dashboard.currentLevel', lang)}
+                          {t('dashboard.currentLevel')}
                         </span>
                       )}
                     </span>
                     <div className="flex items-center gap-2">
                       <span className="tabular-nums text-slate-500 text-xs">
-                        {l.learned.toLocaleString('en')}/{l.words.toLocaleString('en')}
+                        {formatNumber(l.learned)}/{formatNumber(l.words)}
                       </span>
                       <button
                         onClick={() =>
                           onStart({
-                            label: `${lvlName} · Practice`,
+                            label: t('dashboard.levelPracticeLabel', { level: lvlName }),
                             mode: 'mixed',
                             levels: [l.level],
                             topics: [],
@@ -367,9 +367,9 @@ export function Dashboard({
                           })
                         }
                         className="rounded-lg bg-rose-100 px-2 py-0.5 text-[11px] font-bold text-rose-700 opacity-80 transition hover:bg-rose-600 hover:text-white group-hover:opacity-100 dark:bg-rose-950/60 dark:text-rose-300 dark:hover:bg-rose-600 dark:hover:text-white"
-                        title={`Practice ${lvlName}`}
+                        title={t('dashboard.practiceLevel', { level: lvlName })}
                       >
-                        {lang === 'zh' ? '练习' : 'Practice'}
+                        {t('common.practice')}
                       </button>
                     </div>
                   </div>
@@ -379,7 +379,7 @@ export function Dashboard({
                     aria-valuenow={pct}
                     aria-valuemin={0}
                     aria-valuemax={100}
-                    aria-label={`${lvlName} progress`}
+                    aria-label={t('dashboard.levelProgress', { level: lvlName })}
                   >
                     <div
                       className="h-full rounded-full bg-emerald-500 transition-all"
@@ -396,7 +396,7 @@ export function Dashboard({
               onClick={() => onNavigate('learn')}
               className="inline-flex items-center gap-1 rounded-xl bg-rose-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-rose-700 shadow-sm"
             >
-              {t('dashboard.learningPaths', lang)}{' '}
+              {t('dashboard.learningPaths')}{' '}
               <ChevronRight className="h-3.5 w-3.5" aria-hidden />
             </button>
             {isEnglishCourse && (
@@ -404,20 +404,20 @@ export function Dashboard({
                 onClick={() => onNavigate('grammar')}
                 className="inline-flex items-center gap-1 rounded-xl border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
               >
-                {lang === 'zh' ? '时态与语法百科' : 'Grammar Guide'}
+                {t('dashboard.grammarGuideBtn')}
               </button>
             )}
             <button
               onClick={() => onNavigate('topics')}
               className="inline-flex items-center gap-1 rounded-xl border border-rose-200 bg-rose-50 px-3 py-1.5 text-xs font-semibold text-rose-700 hover:bg-rose-100 dark:border-rose-900/50 dark:bg-rose-950/40 dark:text-rose-300"
             >
-              {t('dashboard.topicTrainingBtn', lang)} <ChevronRight className="h-3.5 w-3.5" aria-hidden />
+              {t('dashboard.topicTrainingBtn')} <ChevronRight className="h-3.5 w-3.5" aria-hidden />
             </button>
             <button
               onClick={() => setShowBulkMark(true)}
               className="rounded-xl border border-slate-300 px-3 py-1.5 text-xs font-medium hover:bg-slate-50 dark:border-slate-600 dark:hover:bg-slate-700"
             >
-              {t('dashboard.bulkMarkLevels', lang)}
+              {t('dashboard.bulkMarkLevels')}
             </button>
           </div>
         </section>
@@ -452,7 +452,6 @@ function Tiles({
   trueRetentionRate,
   matureTotal,
   latency,
-  lang = 'en',
 }: {
   streak: number;
   best: number;
@@ -461,42 +460,42 @@ function Tiles({
   trueRetentionRate: number | null;
   matureTotal: number;
   latency: number | null;
-  lang?: UiLanguage;
 }) {
+  const { t } = useI18n();
   return (
     <>
       <Tile
         icon={Flame}
-        label={t('dashboard.streak', lang)}
+        label={t('dashboard.streak')}
         value={String(streak)}
-        sub={t('dashboard.bestDays', lang, { best })}
+        sub={t('dashboard.bestDays', { best })}
         accent="text-orange-500"
         highlight={streak > 0}
       />
       <RadialTile
-        label={t('dashboard.today', lang)}
+        label={t('dashboard.today')}
         value={today}
         max={cap}
-        sub={t('dashboard.ofGoal', lang, { cap })}
+        sub={t('dashboard.ofGoal', { cap })}
         accent="text-rose-500"
       />
       <Tile
         icon={Target}
-        label={t('dashboard.trueRetention', lang)}
+        label={t('dashboard.trueRetention')}
         value={trueRetentionRate === null ? '—' : `${trueRetentionRate}%`}
         sub={
           matureTotal > 0
-            ? t('dashboard.matureCards', lang, { count: matureTotal })
-            : t('dashboard.needsMatureCards', lang)
+            ? t('dashboard.matureCards', { count: matureTotal })
+            : t('dashboard.needsMatureCards')
         }
         accent="text-emerald-500"
-        title={t('dashboard.retentionTooltip', lang)}
+        title={t('dashboard.retentionTooltip')}
       />
       <Tile
         icon={Timer}
-        label={t('dashboard.speed', lang)}
-        value={latency === null ? '—' : `${latency.toFixed(1)}s`}
-        sub={t('dashboard.perCard', lang)}
+        label={t('dashboard.speed')}
+        value={latency === null ? '—' : t('study.summary.seconds', { value: latency.toFixed(1) })}
+        sub={t('dashboard.perCard')}
         accent="text-sky-500"
       />
     </>

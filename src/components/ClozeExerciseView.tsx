@@ -3,6 +3,7 @@ import { Check, Volume2, X } from 'lucide-react';
 import type { ClozeExerciseData } from '../exercises/types';
 import type { SpeechApi } from '../utils/speech';
 import { SpeedControl } from './SpeedControl';
+import { useI18n } from '../i18n/react';
 
 interface Props {
   data: ClozeExerciseData;
@@ -22,6 +23,7 @@ export function ClozeExerciseView({
   speech,
   onSelect,
 }: Props) {
+  const { t } = useI18n();
 
   // Play the complete sentence once when answered correctly. `speech` changes identity whenever playback
   // state or speed changes, so it is read through a ref to avoid replaying the sentence in a loop.
@@ -41,16 +43,16 @@ export function ClozeExerciseView({
       <div className="rounded-2xl border border-slate-200 bg-slate-50/80 p-5 text-center dark:border-slate-700/80 dark:bg-slate-800/40 sm:p-7">
         <div className="mb-2 flex items-center justify-center gap-2">
           <span className="text-xs font-semibold uppercase tracking-wider text-rose-600 dark:text-rose-400">
-            Fill in the blank · 填空练习
+            {t('study.cloze.heading')}
           </span>
           <button
             type="button"
             onClick={() => speech.speak(data.sentence)}
             className="inline-flex items-center gap-1 rounded-full bg-slate-200/80 px-2 py-0.5 text-xs text-slate-700 hover:bg-slate-300 dark:bg-slate-700 dark:text-slate-200 dark:hover:bg-slate-600"
-            title="Listen to full sentence"
+            title={t('study.cloze.listen')}
           >
             <Volume2 className="h-3.5 w-3.5" />
-            <span>Audio</span>
+            <span>{t('study.cloze.audio')}</span>
           </button>
           <SpeedControl speech={speech} variant="compact" />
         </div>
@@ -84,7 +86,7 @@ export function ClozeExerciseView({
         {/* Translation / Meaning Hint */}
         {data.translation && (
           <div className="mt-3.5 text-sm text-slate-500 dark:text-slate-400">
-            <span>Hint: </span>
+            <span>{t('study.cloze.hint')} </span>
             <span className="font-medium text-slate-700 dark:text-slate-300">{data.translation}</span>
           </div>
         )}
@@ -93,8 +95,8 @@ export function ClozeExerciseView({
       {/* 2. Small Option Cards */}
       <div>
         <div className="mb-2 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
-          <span>Choose a card to complete the sentence:</span>
-          <span className="hidden sm:inline">Press 1–4 to pick</span>
+          <span>{t('study.cloze.choose')}</span>
+          <span className="hidden sm:inline">{t('study.cloze.pressKeys')}</span>
         </div>
 
         <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-4">

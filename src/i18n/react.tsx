@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
+import { Fragment, createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import {
   FALLBACK_LANGUAGE,
   LOCALE_META,
@@ -7,21 +7,38 @@ import {
   formatNumber,
   isLocaleLoaded,
   loadLocale,
+  type MessageKey,
+  type MessageVars,
   type TFunction,
   type UiLanguage,
 } from './index';
+import { splitRich } from './format';
+
+/** Renderers for the `<tag>…</tag>` parts of a message. Unknown tags render as plain text. */
+export type RichTags = Record<string, (text: string) => ReactNode>;
 
 export interface I18n {
   lang: UiLanguage;
   t: TFunction;
+  /** Like `t`, for messages that contain `<tag>` markup, e.g. `rich('x', { n }, { b: (s) => <b>{s}</b> })`. */
+  rich: (key: MessageKey, vars: MessageVars | undefined, tags: RichTags) => ReactNode;
   formatNumber: (value: number, options?: Intl.NumberFormatOptions) => string;
   formatDate: (value: Date | number, options?: Intl.DateTimeFormatOptions) => string;
 }
 
 export function createI18n(lang: UiLanguage): I18n {
+  const t = createT(lang);
   return {
     lang,
-    t: createT(lang),
+    t,
+    rich: (key, vars, tags) =>
+      splitRich(t(key, vars)).map((part, i) =>
+        typeof part === 'string' ? (
+          <Fragment key={i}>{part}</Fragment>
+        ) : (
+          <Fragment key={i}>{tags[part.tag] ? tags[part.tag](part.text) : part.text}</Fragment>
+        ),
+      ),
     formatNumber: (value, options) => formatNumber(lang, value, options),
     formatDate: (value, options) => formatDate(lang, value, options),
   };

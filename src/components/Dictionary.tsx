@@ -10,6 +10,8 @@ import { formatInterval } from './ReviewCard';
 import { AudioButton } from './AudioButton';
 import { FreePinyin, HanziText, PinyinText } from './ToneText';
 import { trackOf } from '../data/courses';
+import type { TFunction } from '../i18n';
+import { useI18n } from '../i18n/react';
 
 interface Props {
   vocab: VocabItem[];
@@ -45,6 +47,7 @@ const STATUS_STYLE: Record<SrsStatus, string> = {
 };
 
 export function Dictionary({ vocab, state, speech, onStart, onToggleStar }: Props) {
+  const { t, formatNumber } = useI18n();
   const [query, setQuery] = useState('');
   const [level, setLevel] = useState<HskLevel | 'all'>('all');
   const [status, setStatus] = useState<Status>('all');
@@ -132,51 +135,51 @@ export function Dictionary({ vocab, state, speech, onStart, onToggleStar }: Prop
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search 汉字, pinyin (hao3 / hǎo / hao) or English…"
+              placeholder={t(trackOf(state.settings.course) === 'english' ? 'dictionary.placeholder.english' : 'dictionary.placeholder.chinese')}
               className="w-full rounded-2xl border border-slate-300 bg-white py-3 pl-10 pr-4 text-base outline-none focus:border-rose-400 focus:ring-2 focus:ring-rose-200 dark:border-slate-600 dark:bg-slate-900 dark:focus:ring-rose-900"
-              aria-label="Search words"
+              aria-label={t('dictionary.searchAria')}
               autoCapitalize="off"
               autoCorrect="off"
               spellCheck={false}
             />
           </label>
           <div className="mt-2 flex flex-wrap gap-2">
-            <select value={level} onChange={(e) => setLevel(e.target.value === 'all' ? 'all' : (Number(e.target.value) as HskLevel))} className={selectClass} aria-label="Level">
-              <option value="all">All levels</option>
+            <select value={level} onChange={(e) => setLevel(e.target.value === 'all' ? 'all' : (Number(e.target.value) as HskLevel))} className={selectClass} aria-label={t('dictionary.filter.level')}>
+              <option value="all">{t('dictionary.filter.allLevels')}</option>
               {levels.map((l) => (
                 <option key={l} value={l}>
-                  {levelLabel(l)}
+                  {levelLabel(l, state.settings.course)}
                 </option>
               ))}
             </select>
-            <select value={status} onChange={(e) => setStatus(e.target.value as Status)} className={selectClass} aria-label="Status">
-              <option value="all">Any status</option>
-              <option value="starred">Starred ({state.starredWords?.length ?? 0})</option>
-              <option value="new">Not started</option>
-              <option value="learning">Learning</option>
-              <option value="learned">Learned</option>
-              <option value="leech">Leeches</option>
+            <select value={status} onChange={(e) => setStatus(e.target.value as Status)} className={selectClass} aria-label={t('dictionary.filter.status')}>
+              <option value="all">{t('dictionary.filter.anyStatus')}</option>
+              <option value="starred">{t('dictionary.filter.starred', { count: state.starredWords?.length ?? 0 })}</option>
+              <option value="new">{t('dictionary.status.new')}</option>
+              <option value="learning">{t('dictionary.status.learning')}</option>
+              <option value="learned">{t('dictionary.status.learned')}</option>
+              <option value="leech">{t('dictionary.status.leech')}</option>
             </select>
-            <select value={topic} onChange={(e) => setTopic(e.target.value)} className={selectClass} aria-label="Category">
-              <option value="all">All categories</option>
-              {topics.map((t) => (
-                <option key={t} value={t}>
-                  {t}
+            <select value={topic} onChange={(e) => setTopic(e.target.value)} className={selectClass} aria-label={t('dictionary.filter.category')}>
+              <option value="all">{t('dictionary.filter.allCategories')}</option>
+              {topics.map((topicName) => (
+                <option key={topicName} value={topicName}>
+                  {topicName}
                 </option>
               ))}
             </select>
-            <span className="ml-auto self-center text-sm tabular-nums text-slate-500">{results.length.toLocaleString('en')} words</span>
+            <span className="ml-auto self-center text-sm tabular-nums text-slate-500">{t('dictionary.wordCount', { count: results.length })}</span>
           </div>
           {status === 'starred' && results.length > 0 && (
             <div className="mt-2 flex items-center justify-between rounded-2xl border border-amber-200 bg-amber-50/90 p-3 text-sm text-amber-900 dark:border-amber-900/60 dark:bg-amber-950/40 dark:text-amber-200">
               <span className="font-medium">
-                {results.length} starred {results.length === 1 ? 'word' : 'words'}
+                {t('dictionary.starredCount', { count: results.length })}
               </span>
               <button
                 type="button"
                 onClick={() =>
                   onStart({
-                    label: `Starred words (${results.length})`,
+                    label: t('dictionary.starredLabel', { count: results.length }),
                     mode: state.settings.defaultMode,
                     levels: [],
                     topics: [],
@@ -188,7 +191,7 @@ export function Dictionary({ vocab, state, speech, onStart, onToggleStar }: Prop
                 }
                 className="inline-flex items-center gap-1.5 rounded-xl bg-amber-600 px-3.5 py-1.5 font-semibold text-white shadow-sm transition hover:bg-amber-700 dark:bg-amber-500 dark:hover:bg-amber-600"
               >
-                <Play className="h-4 w-4" aria-hidden /> Practice starred ({results.length})
+                <Play className="h-4 w-4" aria-hidden /> {t('dictionary.practiceStarred', { count: results.length })}
               </button>
             </div>
           )}
@@ -209,7 +212,7 @@ export function Dictionary({ vocab, state, speech, onStart, onToggleStar }: Prop
                     active ? 'bg-rose-50 dark:bg-rose-950/30' : ''
                   }`}
                 >
-                  <span className={`h-2.5 w-2.5 shrink-0 rounded-full ${STATUS_STYLE[st]}`} title={st} aria-label={st} />
+                  <span className={`h-2.5 w-2.5 shrink-0 rounded-full ${STATUS_STYLE[st]}`} title={t(`dictionary.status.${st}`)} aria-label={t(`dictionary.status.${st}`)} />
                   <HanziText item={item} color={color} className="min-w-[3.5rem] shrink-0 text-2xl" />
                   <span className="min-w-0 flex-1">
                     <PinyinText item={item} color={color} className="block text-sm" />
@@ -222,8 +225,8 @@ export function Dictionary({ vocab, state, speech, onStart, onToggleStar }: Prop
                 <button
                   type="button"
                   onClick={() => onToggleStar(item.id)}
-                  aria-label={isStarred ? `Unstar ${item.hanzi}` : `Star ${item.hanzi}`}
-                  title={isStarred ? 'Unstar word' : 'Star word'}
+                  aria-label={isStarred ? t('dictionary.unstar', { word: item.hanzi }) : t('dictionary.star', { word: item.hanzi })}
+                  title={isStarred ? t('dictionary.unstarTitle') : t('dictionary.starTitle')}
                   className="px-3.5 py-3 text-slate-400 hover:text-amber-500 focus-visible:outline-none focus-visible:text-amber-500 transition"
                 >
                   <Star
@@ -237,12 +240,12 @@ export function Dictionary({ vocab, state, speech, onStart, onToggleStar }: Prop
               </li>
             );
           })}
-          {results.length === 0 && <li className="p-6 text-center text-slate-500">No words match.</li>}
+          {results.length === 0 && <li className="p-6 text-center text-slate-500">{t('dictionary.empty')}</li>}
         </ul>
         {limit < results.length && (
           <div ref={sentinel} className="py-4 text-center">
             <button type="button" onClick={() => setLimit((l) => l + PAGE)} className="rounded-xl border border-slate-300 px-4 py-2 text-sm dark:border-slate-600">
-              Show more ({(results.length - limit).toLocaleString('en')} left)
+              {t('dictionary.showMore', { count: formatNumber(results.length - limit) })}
             </button>
           </div>
         )}
@@ -256,7 +259,7 @@ export function Dictionary({ vocab, state, speech, onStart, onToggleStar }: Prop
           ) : (
             <div className="flex flex-col items-center gap-2 rounded-2xl border border-dashed border-slate-300 p-10 text-center text-slate-500 dark:border-slate-700">
               <BookMarked className="h-8 w-8" aria-hidden />
-              Select a word to see details.
+              {t('dictionary.selectWord')}
             </div>
           )}
         </div>
@@ -266,12 +269,12 @@ export function Dictionary({ vocab, state, speech, onStart, onToggleStar }: Prop
           <div
             role="dialog"
             aria-modal="true"
-            aria-label={`${selected.hanzi} details`}
+            aria-label={t('dictionary.detailsAria', { word: selected.hanzi })}
             onClick={(e) => e.stopPropagation()}
             className="animate-pop max-h-[88dvh] w-full overflow-y-auto rounded-t-3xl bg-white pb-[env(safe-area-inset-bottom)] dark:bg-slate-800 sm:mx-auto sm:max-w-xl"
           >
             <div className="flex justify-end p-2">
-              <button type="button" onClick={() => setSelectedId(null)} className="rounded-lg p-2 hover:bg-slate-100 dark:hover:bg-slate-700" aria-label="Close">
+              <button type="button" onClick={() => setSelectedId(null)} className="rounded-lg p-2 hover:bg-slate-100 dark:hover:bg-slate-700" aria-label={t('common.close')}>
                 <X className="h-5 w-5" />
               </button>
             </div>
@@ -283,6 +286,12 @@ export function Dictionary({ vocab, state, speech, onStart, onToggleStar }: Prop
       )}
     </div>
   );
+}
+
+/** "next in 3 days" / "due today" for a card's due date. */
+function nextReviewText(due: string, t: TFunction): string {
+  const days = Math.max(0, Math.round((new Date(due).getTime() - Date.now()) / 86_400_000));
+  return days === 0 ? t('dictionary.dueToday') : t('dictionary.nextIn', { interval: formatInterval(days, t) });
 }
 
 function WordDetail({
@@ -302,6 +311,7 @@ function WordDetail({
   onToggleStar: (wordId: string) => void;
   bare?: boolean;
 }) {
+  const { t, rich } = useI18n();
   const color = state.settings.colorTones;
   const ex = item.exampleSentence;
   const isStarred = (state.starredWords ?? []).includes(item.id);
@@ -315,8 +325,8 @@ function WordDetail({
           <button
             type="button"
             onClick={() => onToggleStar(item.id)}
-            title={isStarred ? 'Remove from starred' : 'Add to starred'}
-            aria-label={isStarred ? 'Remove from starred' : 'Add to starred'}
+            title={isStarred ? t('dictionary.removeStarred') : t('dictionary.addStarred')}
+            aria-label={isStarred ? t('dictionary.removeStarred') : t('dictionary.addStarred')}
             className="rounded-full p-2 text-slate-400 hover:bg-slate-100 hover:text-amber-500 transition dark:hover:bg-slate-700"
           >
             <Star className={`h-6 w-6 transition ${isStarred ? 'fill-amber-400 text-amber-400' : 'text-slate-400'}`} />
@@ -338,13 +348,13 @@ function WordDetail({
           ))
         ) : (
           <div className="rounded-xl bg-slate-50 p-2.5 dark:bg-slate-900/60">
-            <dt className="text-[11px] uppercase tracking-wide text-slate-500">CEFR Standard</dt>
+            <dt className="text-[11px] uppercase tracking-wide text-slate-500">{t('dictionary.cefrStandard')}</dt>
             <dd className="font-medium">{levelLabel(item.hskLevel, state.settings.course)}</dd>
           </div>
         )}
         {item.radical && (
           <div className="rounded-xl bg-slate-50 p-2.5 dark:bg-slate-900/60">
-            <dt className="text-[11px] uppercase tracking-wide text-slate-500">Radical</dt>
+            <dt className="text-[11px] uppercase tracking-wide text-slate-500">{t('dictionary.radical')}</dt>
             <dd>
               <span className="font-hanzi text-lg">{item.radical}</span> <span className="text-slate-500">{RADICAL_MEANINGS[item.radical] ?? ''}</span>
             </dd>
@@ -352,14 +362,14 @@ function WordDetail({
         )}
         {item.measureWord && (
           <div className="rounded-xl bg-slate-50 p-2.5 dark:bg-slate-900/60">
-            <dt className="text-[11px] uppercase tracking-wide text-slate-500">Measure word</dt>
+            <dt className="text-[11px] uppercase tracking-wide text-slate-500">{t('dictionary.measureWord')}</dt>
             <dd>
               <span className="font-hanzi text-lg">{item.measureWord.hanzi}</span> <FreePinyin text={item.measureWord.pinyin} color={color} />
             </dd>
           </div>
         )}
         <div className="rounded-xl bg-slate-50 p-2.5 dark:bg-slate-900/60">
-          <dt className="text-[11px] uppercase tracking-wide text-slate-500">Category</dt>
+          <dt className="text-[11px] uppercase tracking-wide text-slate-500">{t('dictionary.category')}</dt>
           <dd>{item.topics.join(', ')}</dd>
         </div>
       </dl>
@@ -372,7 +382,7 @@ function WordDetail({
               }`}
               lang={/[\u4e00-\u9fa5]/.test(ex.hanzi) ? 'zh-CN' : 'en'}
               onClick={() => speech.speak(ex.hanzi, state.settings.speechRate)}
-              title="Click to hear example sentence"
+              title={t('dictionary.hearExample')}
             >
               {ex.hanzi}
             </p>
@@ -382,10 +392,13 @@ function WordDetail({
           <p className="text-sm text-slate-600 dark:text-slate-300">{ex.english}</p>
           {ex.source && (
             <p className="mt-1 text-[11px] text-slate-400">
-              <a href={`https://tatoeba.org/sentences/show/${ex.source}`} target="_blank" rel="noreferrer" className="underline">
-                Tatoeba #{ex.source}
-              </a>{' '}
-              · CC-BY 2.0 FR · pinyin auto-generated
+              {rich('dictionary.tatoeba', { id: ex.source }, {
+                link: (text) => (
+                  <a href={`https://tatoeba.org/sentences/show/${ex.source}`} target="_blank" rel="noreferrer" className="underline">
+                    {text}
+                  </a>
+                ),
+              })}
             </p>
           )}
         </div>
@@ -394,20 +407,20 @@ function WordDetail({
         {progress && (progress.recognition || progress.recall || progress.manuallyMarkedKnown) ? (
           <p>
             {progress.manuallyMarkedKnown ? (
-              <span className="font-medium text-emerald-600 dark:text-emerald-400">Marked as already known</span>
+              <span className="font-medium text-emerald-600 dark:text-emerald-400">{t('dictionary.known')}</span>
             ) : (
-              <>
-                {(progress.recognition?.isLeech || progress.recall?.isLeech) ? 'Leech · ' : ''}
-                Reviewed {((progress.recognition?.history.length ?? 0) + (progress.recall?.history.length ?? 0))}× ·
-                stability {(progress.recognition?.stability ?? progress.recall?.stability ?? 0).toFixed(1)}d
-                {progress.recognition?.due && (
-                  <> · next in {formatInterval(Math.max(0, Math.round((new Date(progress.recognition.due).getTime() - Date.now()) / 86_400_000)))}</>
-                )}
-              </>
+              [
+                progress.recognition?.isLeech || progress.recall?.isLeech ? t('study.leech') : '',
+                t('dictionary.reviewed', { count: (progress.recognition?.history.length ?? 0) + (progress.recall?.history.length ?? 0) }),
+                t('dictionary.stability', { days: (progress.recognition?.stability ?? progress.recall?.stability ?? 0).toFixed(1) }),
+                progress.recognition?.due ? nextReviewText(progress.recognition.due, t) : '',
+              ]
+                .filter(Boolean)
+                .join(' · ')
             )}
           </p>
         ) : (
-          <p className="text-slate-500">Not studied yet.</p>
+          <p className="text-slate-500">{t('dictionary.notStudied')}</p>
         )}
       </div>
       <button
@@ -417,7 +430,7 @@ function WordDetail({
         }
         className="inline-flex min-h-[44px] w-full items-center justify-center gap-2 rounded-xl bg-rose-600 px-4 py-2.5 font-semibold text-white hover:bg-rose-700"
       >
-        <Play className="h-4 w-4" aria-hidden /> Practice this word
+        <Play className="h-4 w-4" aria-hidden /> {t('dictionary.practiceWord')}
       </button>
     </div>
   );

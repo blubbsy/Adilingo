@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState, type FormEvent } from 'react';
 import { AlertTriangle, ArrowRight, Flag, RotateCcw, Sparkles, Volume2, X } from 'lucide-react';
 import type { CardProgress, DirectionProgress, Grade, SessionCard, Settings, ToneKey, VocabItem } from '../types';
 import { checkPinyin, markSyllable, numberedToMarked, parseNumbered, stripTones } from '../utils/pinyinHelper';
-import { GRADE_LABELS, nextInterval } from '../utils/srsEngine';
+import { nextInterval } from '../utils/srsEngine';
 import { levelLabel } from '../data/vocab';
 import { getCourseConfig, trackOf } from '../data/courses';
 import { nextSpeechRate, type SpeechApi } from '../utils/speech';
@@ -11,13 +11,13 @@ import { FreePinyin, PinyinText } from './ToneText';
 import { playCorrect, playError } from '../utils/sound';
 import { ClozeExerciseView } from './ClozeExerciseView';
 import { buildClozeExercise } from '../exercises/types';
+import type { TFunction } from '../i18n';
+import { useI18n } from '../i18n/react';
 
-export function formatInterval(days: number): string {
-  if (days <= 0) return 'today';
-  if (days === 1) return '1 day';
-  if (days < 30) return `${days} days`;
-  const months = Math.round(days / 30);
-  return `${months} mo`;
+export function formatInterval(days: number, t: TFunction): string {
+  if (days <= 0) return t('common.interval.today');
+  if (days < 30) return t('common.interval.days', { days });
+  return t('common.interval.months', { months: Math.round(days / 30) });
 }
 
 export interface CardResult {
@@ -106,6 +106,7 @@ function PinyinSuggestions({
   value: string;
   onSelect: (val: string) => void;
 }) {
+  const { t } = useI18n();
   const syllables = useMemo(() => {
     return parseNumbered(item.pinyinNumbered).map((s) => ({
       base: s.base,
@@ -128,7 +129,7 @@ function PinyinSuggestions({
     if (!hasVowels || untonedToken.length < 1) return [];
     const t1 = markSyllable(untonedToken, 1);
     if (t1 === untonedToken) return [];
-    return [1, 2, 3, 4].map((t) => markSyllable(untonedToken, t));
+    return [1, 2, 3, 4].map((tone) => markSyllable(untonedToken, tone));
   }, [untonedToken, hasVowels]);
 
   function handleSyllableSelect(toned: string) {
@@ -148,7 +149,7 @@ function PinyinSuggestions({
       {activeSyllableTones.length > 0 && (
         <div className="flex flex-wrap items-center gap-1.5 rounded-xl border border-rose-200 bg-rose-50/70 p-2 text-xs dark:border-rose-900/50 dark:bg-rose-950/30">
           <span className="font-medium text-rose-800 dark:text-rose-200">
-            Tones for “{untonedToken}”:
+            {t('study.tones.forToken', { token: untonedToken })}
           </span>
           {activeSyllableTones.map((toned, i) => (
             <button
@@ -167,7 +168,7 @@ function PinyinSuggestions({
       {/* 2. Word Tone Pattern Choices */}
       <div>
         <span className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">
-          Tone choices:
+          {t('study.tones.choices')}
         </span>
         <div className="grid grid-cols-2 gap-1.5 sm:grid-cols-4">
           {wordToneOptions.map((opt) => (
@@ -189,7 +190,7 @@ function PinyinSuggestions({
 
       {/* 3. Tone Accents Toolbar for manual letter insertion */}
       <div className="flex flex-wrap items-center gap-1 text-[11px] text-slate-500 dark:text-slate-400">
-        <span className="text-slate-400 dark:text-slate-500">Accents:</span>
+        <span className="text-slate-400 dark:text-slate-500">{t('study.tones.accents')}</span>
         {['ā', 'á', 'ǎ', 'à', 'ē', 'é', 'ě', 'è', 'ī', 'í', 'ǐ', 'ì', 'ō', 'ó', 'ǒ', 'ò', 'ū', 'ú', 'ǔ', 'ù', 'ü'].map((char) => (
           <button
             key={char}
@@ -273,6 +274,7 @@ function PinyinDiffText({
 }
 
 export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }: Props) {
+  const { t, rich } = useI18n();
   const { item, direction, prompt } = card;
   const dirProgress: DirectionProgress | undefined = direction === 'recall' ? progress?.recall : progress?.recognition;
 
@@ -477,18 +479,18 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
             </span>
             <span className="rounded-full bg-rose-50 px-2.5 py-1 font-medium text-rose-700 dark:bg-rose-950/40 dark:text-rose-300">
               {direction === 'recall'
-                ? 'Recall (Meaning → Target)'
+                ? t('study.kind.recall')
                 : prompt === 'audio'
-                ? 'Listening'
+                ? t('study.kind.listening')
                 : prompt === 'pinyin'
-                ? 'Pronunciation / Typing'
+                ? t('study.kind.pinyin')
                 : prompt === 'cloze'
-                ? 'Cloze · Fill the Blank'
-                : 'Recognition'}
+                ? t('study.kind.cloze')
+                : t('study.kind.recognition')}
             </span>
             {dirProgress?.isLeech && (
               <span className="inline-flex items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 font-semibold text-amber-800 dark:bg-amber-950/40 dark:text-amber-300">
-                <AlertTriangle className="h-3 w-3" /> Leech
+                <AlertTriangle className="h-3 w-3" /> {t('study.leech')}
               </span>
             )}
           </div>
@@ -498,9 +500,9 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
-            title="Report an error with this word"
+            title={t('study.report.title')}
           >
-            <Flag className="h-3.5 w-3.5" /> <span className="hidden sm:inline">Report</span>
+            <Flag className="h-3.5 w-3.5" /> <span className="hidden sm:inline">{t('study.report')}</span>
           </a>
         </div>
 
@@ -525,12 +527,12 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                   type="button"
                   onClick={() => speech.speak(item.hanzi, settings.speechRate)}
                   className="flex h-24 w-24 items-center justify-center rounded-3xl bg-rose-500 text-white shadow-xl shadow-rose-500/25 transition active:scale-95 hover:bg-rose-600"
-                  aria-label="Replay audio"
+                  aria-label={t('study.replayAudio')}
                 >
                   <Volume2 className="h-10 w-10 animate-pulse" />
                 </button>
                 <p className="mt-4 text-sm font-medium text-slate-500">
-                  {trackOf(settings.course) === 'english' ? 'Listen and select the definition' : 'Listen and select the meaning'}
+                  {t(trackOf(settings.course) === 'english' ? 'study.listen.definition' : 'study.listen.meaning')}
                 </p>
               </div>
             )}
@@ -541,7 +543,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                   {item.english.slice(0, 2).join('; ')}
                 </div>
                 <p className="text-sm text-slate-500">
-                  {trackOf(settings.course) === 'english' ? 'Select the matching English word' : 'Select the matching character'}
+                  {t(trackOf(settings.course) === 'english' ? 'study.pick.englishWord' : 'study.pick.character')}
                 </p>
               </div>
             )}
@@ -555,11 +557,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                       <div className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-amber-50 border border-amber-200/80 px-3 py-1 text-xs font-semibold text-amber-900 dark:border-amber-900/60 dark:bg-amber-950/40 dark:text-amber-200 shadow-sm animate-fade-in">
                         <Sparkles className="h-3.5 w-3.5 text-amber-600 dark:text-amber-400" />
                         <span>
-                          {isAdaptiveTriggered
-                            ? (settings.uiLanguage === 'zh'
-                                ? `智能辅助：已失误 ${failureCount} 次 · 自动显示拼音`
-                                : `Adaptive helper: ${failureCount} mistake${failureCount === 1 ? '' : 's'} · Pinyin shown`)
-                            : (settings.uiLanguage === 'zh' ? '拼音常驻辅助已开启' : 'Pinyin always visible')}
+                          {isAdaptiveTriggered ? t('card.adaptiveScaffold', { count: failureCount }) : t('card.pinyinAlways')}
                         </span>
                       </div>
                     )}
@@ -567,9 +565,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                     {/* Stumbled notice if 1 mistake and not yet auto-shown */}
                     {!autoShowPinyin && failureCount > 0 && (
                       <div className="mb-2 text-[11px] font-medium text-amber-600/90 dark:text-amber-400">
-                        {settings.uiLanguage === 'zh'
-                          ? `提示：该词曾失误 ${failureCount} 次 · 可点击汉字翻转查看拼音`
-                          : `Stumbled ${failureCount}× · Tap character to peek Pinyin`}
+                        {t('card.stumbledNotice', { count: failureCount })}
                       </div>
                     )}
 
@@ -585,16 +581,8 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                           setIsFlipped((f) => !f);
                         }
                       }}
-                      title={
-                        isFlipped
-                          ? (settings.uiLanguage === 'zh' ? '点击翻回汉字' : 'Click to flip back')
-                          : (settings.uiLanguage === 'zh' ? '点击翻转查看拼音' : 'Click to peek Pinyin')
-                      }
-                      aria-label={
-                        isFlipped
-                          ? 'Card flipped to Pinyin. Click to view Chinese character.'
-                          : 'Chinese character card. Click to flip and peek Pinyin.'
-                      }
+                      title={isFlipped ? t('card.flipBackTitle') : t('card.flipTitle')}
+                      aria-label={isFlipped ? t('card.ariaFlipped') : t('card.ariaFront')}
                     >
                       <div className={`flip-card-inner ${isFlipped ? 'is-flipped' : ''}`}>
                         {/* FRONT FACE: Chinese Symbol */}
@@ -612,7 +600,8 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
 
                           <div className="mt-3 flex items-center gap-1.5 text-xs font-medium text-slate-400 transition group-hover:text-rose-600 dark:text-slate-500 dark:group-hover:text-rose-400">
                             <RotateCcw className="h-3 w-3" />
-                            <span>{settings.uiLanguage === 'zh' ? '点击翻转 · 查看拼音' : 'Tap to flip · Peek Pinyin'}</span>
+                            <span>{t('card.tapToFlip')}</span>
+                            {/* i18n-ignore: key cap */}
                             <kbd className="ml-1 hidden rounded bg-slate-200/70 px-1 py-0.5 text-[10px] text-slate-600 sm:inline dark:bg-slate-700 dark:text-slate-300">F</kbd>
                           </div>
                         </div>
@@ -628,7 +617,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                           <div className="mt-2 flex items-center gap-2" onClick={(e) => e.stopPropagation()}>
                             <AudioButton speech={speech} text={item.hanzi} rate={settings.speechRate} />
                             <span className="text-xs text-rose-600 dark:text-rose-400">
-                              {settings.uiLanguage === 'zh' ? '点击卡片翻回汉字' : 'Tap card to flip back'}
+                              {t('card.tapToFlipBack')}
                             </span>
                           </div>
                         </div>
@@ -644,14 +633,10 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                       >
                         <RotateCcw className="h-3 w-3" />
                         <span>
-                          {isFlipped
-                            ? (settings.uiLanguage === 'zh' ? '查看汉字' : 'Show Hanzi')
-                            : (settings.uiLanguage === 'zh' ? '拼音提示' : 'Peek Pinyin')}
+                          {isFlipped ? t('card.showHanziBtn') : t('card.peekPinyinBtn')}
                         </span>
                       </button>
-                      <span className="text-sm text-slate-500">
-                        {settings.uiLanguage === 'zh' ? '这个词是什么意思？' : 'What does this mean?'}
-                      </span>
+                      <span className="text-sm text-slate-500">{t('card.whatMeans')}</span>
                     </div>
                   </div>
                 ) : (
@@ -667,9 +652,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                     <div className="flex items-center justify-center gap-2">
                       <AudioButton speech={speech} text={item.hanzi} rate={settings.speechRate} />
                       <span className="text-sm text-slate-500">
-                        {prompt === 'pinyin'
-                          ? (settings.uiLanguage === 'zh' ? '拼写带声调的拼音' : 'Type the pinyin with tones')
-                          : (settings.uiLanguage === 'zh' ? '这个词是什么意思？' : 'What does this mean?')}
+                        {prompt === 'pinyin' ? t('card.typePinyin') : t('card.whatMeans')}
                       </span>
                     </div>
                   </>
@@ -725,14 +708,14 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                 autoFocus
                 value={pinyinInput}
                 onChange={(e) => handlePinyinInputChange(e.target.value)}
-                placeholder="Type pinyin or tone numbers, e.g. ni3 hao3"
+                placeholder={t('card.pinyinPlaceholder')}
                 className="w-full rounded-2xl border-2 border-slate-300 px-4 py-3 text-lg font-medium outline-none focus:border-rose-500 dark:border-slate-600 dark:bg-slate-800"
               />
               <button
                 type="submit"
                 className="rounded-2xl bg-slate-900 px-6 font-semibold text-white hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-white"
               >
-                Check
+                {t('card.check')}
               </button>
             </form>
             <PinyinSuggestions item={item} value={pinyinInput} onSelect={setPinyinInput} />
@@ -746,7 +729,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
               <div className="mb-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-700 dark:bg-slate-800">
                 <div className="flex items-center justify-between pb-2 mb-3 border-b border-slate-100 dark:border-slate-700/60">
                   <span className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
-                    Pinyin Check & Diff
+                    {t('card.pinyinCheckTitle')}
                   </span>
                   <span
                     className={`inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold ${
@@ -755,24 +738,24 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                         : 'bg-rose-100 text-rose-800 dark:bg-rose-950/60 dark:text-rose-300'
                     }`}
                   >
-                    {isCorrect ? '✓ Correct' : '✗ Needs Practice'}
+                    {isCorrect ? `✓ ${t('card.correct')}` : `✗ ${t('card.needsPractice')}`}
                   </span>
                 </div>
 
                 <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                   <div className="rounded-xl bg-slate-50 p-3 dark:bg-slate-900/60">
-                    <div className="text-xs font-medium text-slate-500 dark:text-slate-400">What you typed:</div>
+                    <div className="text-xs font-medium text-slate-500 dark:text-slate-400">{t('card.youTyped')}</div>
                     <div className="mt-1 font-mono text-xl">
                       {pinyinInput.trim() ? (
                         <PinyinDiffText typed={numberedToMarked(pinyinInput.trim())} target={item.pinyin} isCorrect={Boolean(isCorrect)} />
                       ) : (
-                        <span className="font-sans text-sm italic text-slate-400">(no answer entered)</span>
+                        <span className="font-sans text-sm italic text-slate-400">{t('card.noAnswer')}</span>
                       )}
                     </div>
                   </div>
 
                   <div className="rounded-xl bg-slate-50 p-3 dark:bg-slate-900/60">
-                    <div className="text-xs font-medium text-slate-500 dark:text-slate-400">Target pinyin:</div>
+                    <div className="text-xs font-medium text-slate-500 dark:text-slate-400">{t('card.targetPinyin')}</div>
                     <div className="mt-1 font-mono text-xl font-bold">
                       <FreePinyin text={item.pinyin} color={settings.colorTones} />
                     </div>
@@ -784,26 +767,26 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                     {pinyinCheck.tonesWrong && (
                       <p className="flex items-start gap-1.5 font-medium text-amber-700 dark:text-amber-300">
                         <AlertTriangle className="mt-0.5 h-3.5 w-3.5 shrink-0" />
-                        <span>Letters are correct, but tone marks are wrong. Check the tones above!</span>
+                        <span>{t('card.tonesWrong')}</span>
                       </p>
                     )}
                     {pinyinCheck.umlautMissing && (
                       <p className="flex items-start gap-1.5 font-medium text-amber-700 dark:text-amber-300">
                         <AlertTriangle className="mt-0.5 h-3.5 w-3.5 shrink-0" />
-                        <span>Needs <strong>ü</strong> (type <em>v</em> or <em>u:</em>) — <strong>u</strong> and <strong>ü</strong> are distinct sounds.</span>
+                        <span>{rich('card.umlautMissing', undefined, { strong: (text) => <strong>{text}</strong>, em: (text) => <em>{text}</em> })}</span>
                       </p>
                     )}
                     {!pinyinCheck.tonesWrong && !pinyinCheck.umlautMissing && pinyinInput.trim() && (
                       <p className="flex items-start gap-1.5 font-medium text-rose-600 dark:text-rose-400">
                         <X className="mt-0.5 h-3.5 w-3.5 shrink-0" />
-                        <span>Pronunciation spelling differs from the expected pinyin.</span>
+                        <span>{t('card.spellingDiffers')}</span>
                       </p>
                     )}
                   </div>
                 )}
                 {pinyinCheck?.variant && (
                   <p className="mt-2 text-xs text-sky-700 dark:text-sky-300">
-                    Accepted variant pronunciation (standard dictionary citation is {item.pinyin}).
+                    {t('card.variant', { pinyin: item.pinyin })}
                   </p>
                 )}
               </div>
@@ -853,9 +836,9 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                     : 'bg-rose-600 hover:bg-rose-700 shadow-rose-600/20'
                 }`}
               >
-                <span>{isCorrect ? 'Next (Good)' : 'Review Again'}</span>
+                <span>{isCorrect ? t('card.nextGood') : t('card.reviewAgain')}</span>
                 <ArrowRight className="h-4 w-4" />
-                <kbd className="ml-2 rounded bg-black/20 px-1.5 py-0.5 text-xs font-normal">Space / Enter</kbd>
+                <kbd className="ml-2 rounded bg-black/20 px-1.5 py-0.5 text-xs font-normal">{t('card.spaceEnter')}</kbd>
               </button>
 
               {/* FSRS 4-grade breakdown preview */}
@@ -875,8 +858,8 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                           : 'border-slate-200 hover:bg-slate-50 dark:border-slate-700 dark:hover:bg-slate-700/50'
                       }`}
                     >
-                      <div className="text-xs font-semibold">{GRADE_LABELS[g]}</div>
-                      <div className="text-[11px] text-slate-500 dark:text-slate-400">{days}d</div>
+                      <div className="text-xs font-semibold">{t(`study.grade.${g}`)}</div>
+                      <div className="text-[11px] text-slate-500 dark:text-slate-400">{t('common.interval.short', { days })}</div>
                       <kbd className="mt-1 text-[10px] text-slate-400">[{g}]</kbd>
                     </button>
                   );
@@ -893,7 +876,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
               onClick={handleRevealWithoutAnswer}
               className="text-xs font-medium text-slate-400 hover:text-slate-600 dark:hover:text-slate-300"
             >
-              Don't know? Reveal answer {prompt !== 'pinyin' ? '(Space)' : ''}
+              {t(prompt !== 'pinyin' ? 'card.revealAnswerKey' : 'card.revealAnswer')}
             </button>
           </div>
         )}

@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { Volume2, VolumeX } from 'lucide-react';
 import type { SpeechApi } from '../utils/speech';
-import { t, type UiLanguage } from '../i18n';
+import { useI18n } from '../i18n/react';
 
 /** Press-and-hold duration that triggers a one-shot slow replay. */
 const LONG_PRESS_MS = 500;
@@ -11,14 +11,14 @@ interface Props {
   text: string;
   /** Optional override; defaults to the saved speech speed (`speech.rate`). */
   rate?: number;
-  lang?: UiLanguage;
   size?: 'sm' | 'lg';
   label?: string;
   onPlay?: () => void;
 }
 
 /** Speaker button with an animated waveform while speech is playing. */
-export function AudioButton({ speech, text, rate: rateOverride, lang = 'en', size = 'sm', label, onPlay }: Props) {
+export function AudioButton({ speech, text, rate: rateOverride, size = 'sm', label, onPlay }: Props) {
+  const { t } = useI18n();
   const big = size === 'lg';
   const rate = rateOverride ?? speech.rate;
   const pressTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -33,8 +33,8 @@ export function AudioButton({ speech, text, rate: rateOverride, lang = 'en', siz
   const active = speech.speakingText === text;
   if (!speech.supported) {
     return (
-      <span className="inline-flex items-center gap-1 text-xs text-slate-400" title="Speech synthesis is not available in this browser">
-        <VolumeX className="h-4 w-4" /> no audio
+      <span className="inline-flex items-center gap-1 text-xs text-slate-400" title={t('study.audio.unsupportedTitle')}>
+        <VolumeX className="h-4 w-4" /> {t('study.audio.none')}
       </span>
     );
   }
@@ -65,8 +65,8 @@ export function AudioButton({ speech, text, rate: rateOverride, lang = 'en', siz
         else speech.speak(text, rate);
         onPlay?.();
       }}
-      aria-label={label ?? `Play pronunciation (${rate}×)`}
-      title={`Play (${rate}×) — ${t('speed.slowHint', lang)}`}
+      aria-label={label ?? t('study.audio.play', { rate })}
+      title={t('study.audio.playTitle', { rate })}
       className={`group inline-flex items-center gap-2 rounded-full border transition ${
         active
           ? 'border-rose-300 bg-rose-50 text-rose-600 dark:border-rose-700 dark:bg-rose-950/50 dark:text-rose-300'

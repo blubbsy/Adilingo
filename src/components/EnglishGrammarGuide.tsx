@@ -171,7 +171,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
             <Layers className="h-4 w-4" />
             🔄 主动与被动语态蜕变规则
           </button>
-          <SpeedControl speech={speech} variant="compact" lang="zh" className="ml-auto" />
+          <SpeedControl speech={speech} variant="compact" className="ml-auto" />
         </div>
       </header>
 

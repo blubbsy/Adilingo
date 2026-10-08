@@ -138,3 +138,28 @@ export function messageArguments(template: string): string[] {
   scan(template);
   return [...names].sort();
 }
+
+export type RichPart = string | { tag: string; text: string };
+
+/**
+ * Splits a formatted message into plain text and `<tag>text</tag>` parts so the UI can style them
+ * (`'<b>{n}</b> due'`). Tags do not nest. Because the tags live inside the translation, translators can
+ * move them to wherever the word order of their language needs them.
+ */
+export function splitRich(text: string): RichPart[] {
+  const parts: RichPart[] = [];
+  const pattern = /<([a-zA-Z][\w-]*)>([\s\S]*?)<\/\1>/g;
+  let last = 0;
+  for (let m = pattern.exec(text); m; m = pattern.exec(text)) {
+    if (m.index > last) parts.push(text.slice(last, m.index));
+    parts.push({ tag: m[1], text: m[2] });
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return parts;
+}
+
+/** Names of the rich tags a template uses (for tag-parity checks across languages). */
+export function messageTags(template: string): string[] {
+  return [...new Set(splitRich(template).flatMap((p) => (typeof p === 'string' ? [] : [p.tag])))].sort();
+}

@@ -4,7 +4,7 @@ import { FALLBACK_LANGUAGE, LOCALE_META, isUiLanguage, type MessageVars, type Ui
 
 export { LOCALE_META, UI_LANGUAGES, FALLBACK_LANGUAGE, isUiLanguage, type UiLanguage, type MessageVars } from './types';
 export type { MessageKey } from './locales/en';
-export { formatMessage, messageArguments } from './format';
+export { formatMessage, messageArguments, messageTags, splitRich } from './format';
 
 type Messages = Partial<Record<MessageKey, string>>;
 

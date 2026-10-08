@@ -8,4 +8,9 @@ export const common = {
   'common.finish': 'Finish',
   'common.loading': 'Loading...',
   'common.practice': 'Practice',
+  'common.interval.today': 'today',
+  'common.interval.days': '{days, plural, one {# day} other {# days}}',
+  'common.interval.months': '{months} mo',
+  'common.interval.short': '{days}d',
+  'common.close': 'Close',
 } as const;

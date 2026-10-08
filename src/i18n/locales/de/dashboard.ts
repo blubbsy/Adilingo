@@ -32,4 +32,12 @@ export const dashboard: Partial<Record<keyof typeof en, string>> = {
   'dashboard.learningPaths': 'Lernpfade',
   'dashboard.topicTrainingBtn': 'Themen-Training',
   'dashboard.bulkMarkLevels': 'Stufen markieren',
+  'dashboard.todayCounts': '<due>{due, plural, one {# Wiederholung} other {# Wiederholungen}}</due> + <new>{new}</new> neu',
+  'dashboard.grammarHeroDesc': 'Alle 13 Zeiten und das SPO-Gerüst an einem klassischen Beispielsatz meistern',
+  'dashboard.irregularHeroDesc': 'Die vier Muster trainieren: AAA / ABB / ABC / ABA',
+  'dashboard.levelWordsLearned': '{learned} von {total} Wörtern ({level}) gelernt',
+  'dashboard.practiceLevel': '{level} üben',
+  'dashboard.levelProgress': 'Fortschritt {level}',
+  'dashboard.levelPracticeLabel': '{level} · Üben',
+  'dashboard.grammarGuideBtn': 'Zeiten & Grammatik-Wiki',
 };

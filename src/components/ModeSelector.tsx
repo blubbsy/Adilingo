@@ -5,23 +5,32 @@ import { allTopics } from '../utils/analytics';
 import { levelLabel } from '../data/vocab';
 import { queueSummary } from '../utils/srsEngine';
 import { trackOf } from '../data/courses';
+import type { MessageKey } from '../i18n';
+import { useI18n } from '../i18n/react';
 
-export const CHINESE_MODES: { id: StudyMode; title: string; desc: string; icon: typeof Type }[] = [
-  { id: 'mixed', title: 'Mixed', desc: 'Interleaved cards for balanced memory', icon: Shuffle },
-  { id: 'cloze', title: 'Cloze Gaps', desc: 'Fill missing words into sentences with cards', icon: Layers },
-  { id: 'hanzi', title: 'Hanzi (Word)', desc: 'See character → test recall and meaning', icon: BookOpen },
-  { id: 'pinyin', title: 'Pinyin', desc: 'See pronunciation → identify meaning', icon: Type },
-  { id: 'english', title: 'Meaning', desc: 'See meaning → recall target word', icon: Languages },
-  { id: 'audio', title: 'Listening', desc: 'Hear it → identify the meaning', icon: Ear },
-  { id: 'tone', title: 'Tone drill', desc: 'Tap the tone of every syllable', icon: Music },
+export interface ModeOption {
+  id: StudyMode;
+  titleKey: MessageKey;
+  descKey: MessageKey;
+  icon: typeof Type;
+}
+
+export const CHINESE_MODES: ModeOption[] = [
+  { id: 'mixed', titleKey: 'modes.mixed.title', descKey: 'modes.mixed.desc', icon: Shuffle },
+  { id: 'cloze', titleKey: 'modes.cloze.title', descKey: 'modes.cloze.desc', icon: Layers },
+  { id: 'hanzi', titleKey: 'modes.chinese.hanzi.title', descKey: 'modes.chinese.hanzi.desc', icon: BookOpen },
+  { id: 'pinyin', titleKey: 'modes.chinese.pinyin.title', descKey: 'modes.chinese.pinyin.desc', icon: Type },
+  { id: 'english', titleKey: 'modes.chinese.english.title', descKey: 'modes.chinese.english.desc', icon: Languages },
+  { id: 'audio', titleKey: 'modes.chinese.audio.title', descKey: 'modes.chinese.audio.desc', icon: Ear },
+  { id: 'tone', titleKey: 'modes.chinese.tone.title', descKey: 'modes.chinese.tone.desc', icon: Music },
 ];
 
-export const ENGLISH_MODES: { id: StudyMode; title: string; desc: string; icon: typeof Type }[] = [
-  { id: 'mixed', title: 'Mixed', desc: 'Interleaved cards for balanced memory', icon: Shuffle },
-  { id: 'cloze', title: 'Cloze Gaps', desc: 'Fill missing words into sentences with cards', icon: Layers },
-  { id: 'hanzi', title: 'Target Word', desc: 'See English word → identify meaning', icon: BookOpen },
-  { id: 'english', title: 'Meaning Recall', desc: 'See definition → recall English word', icon: Languages },
-  { id: 'audio', title: 'Listening', desc: 'Hear pronunciation → identify meaning', icon: Ear },
+export const ENGLISH_MODES: ModeOption[] = [
+  { id: 'mixed', titleKey: 'modes.mixed.title', descKey: 'modes.mixed.desc', icon: Shuffle },
+  { id: 'cloze', titleKey: 'modes.cloze.title', descKey: 'modes.cloze.desc', icon: Layers },
+  { id: 'hanzi', titleKey: 'modes.english.hanzi.title', descKey: 'modes.english.hanzi.desc', icon: BookOpen },
+  { id: 'english', titleKey: 'modes.english.english.title', descKey: 'modes.english.english.desc', icon: Languages },
+  { id: 'audio', titleKey: 'modes.english.audio.title', descKey: 'modes.english.audio.desc', icon: Ear },
 ];
 
 export const MODES = CHINESE_MODES;
@@ -33,6 +42,7 @@ interface Props {
 }
 
 export function ModeSelector({ vocab, state, onStart }: Props) {
+  const { t, rich } = useI18n();
   const isEnglishCourse = trackOf(state.settings.course) === 'english';
   const availableModes = isEnglishCourse ? ENGLISH_MODES : CHINESE_MODES;
 
@@ -55,7 +65,7 @@ export function ModeSelector({ vocab, state, onStart }: Props) {
   const available = Math.min(summary.dueCount + summary.newAvailable, summary.remainingToday);
   const activeModeItem = availableModes.find((m) => m.id === mode) ?? availableModes[0];
   const label = [
-    activeModeItem.title,
+    t(activeModeItem.titleKey),
     levels.length ? levels.map((l) => levelLabel(l, state.settings.course)).join(', ') : '',
     topics.join(', '),
   ]
@@ -66,12 +76,12 @@ export function ModeSelector({ vocab, state, onStart }: Props) {
 
   return (
     <section className="rounded-3xl border border-slate-200 bg-white p-5 sm:p-6 dark:border-slate-700 dark:bg-slate-800/70">
-      <h2 className="text-lg font-semibold">Practice</h2>
+      <h2 className="text-lg font-semibold">{t('common.practice')}</h2>
 
       <div
         className={`mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3 ${isEnglishCourse ? 'lg:grid-cols-5' : 'lg:grid-cols-7'}`}
         role="radiogroup"
-        aria-label="Practice mode"
+        aria-label={t('modes.aria')}
       >
         {availableModes.map((m) => {
           const Icon = m.icon;
@@ -89,25 +99,25 @@ export function ModeSelector({ vocab, state, onStart }: Props) {
               }`}
             >
               <Icon className={`h-5 w-5 ${active ? 'text-rose-600 dark:text-rose-400' : 'text-slate-400'}`} />
-              <div className="mt-1.5 font-semibold text-sm">{m.title}</div>
-              <div className="text-xs leading-snug text-slate-500 dark:text-slate-400">{m.desc}</div>
+              <div className="mt-1.5 font-semibold text-sm">{t(m.titleKey)}</div>
+              <div className="text-xs leading-snug text-slate-500 dark:text-slate-400">{t(m.descKey)}</div>
             </button>
           );
         })}
       </div>
 
       <div className="mt-5 space-y-3">
-        <FilterRow label="Level">
+        <FilterRow label={t('modes.filter.level')}>
           {levelOptions.map((l) => (
             <Chip key={l} active={levels.includes(l)} onClick={() => setLevels((ls) => toggle(ls, l))}>
               {levelLabel(l, state.settings.course)}
             </Chip>
           ))}
         </FilterRow>
-        <FilterRow label="Topic">
-          {topicOptions.map((t) => (
-            <Chip key={t} active={topics.includes(t)} onClick={() => setTopics((ts) => toggle(ts, t))}>
-              {t}
+        <FilterRow label={t('modes.filter.topic')}>
+          {topicOptions.map((topic) => (
+            <Chip key={topic} active={topics.includes(topic)} onClick={() => setTopics((ts) => toggle(ts, topic))}>
+              {topic}
             </Chip>
           ))}
         </FilterRow>
@@ -115,34 +125,36 @@ export function ModeSelector({ vocab, state, onStart }: Props) {
 
       <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-sm text-slate-500 dark:text-slate-400">
-          <b className="text-slate-800 dark:text-slate-100">{summary.dueCount}</b> due ·{' '}
-          <b className="text-slate-800 dark:text-slate-100">{summary.newAvailable}</b> new ·{' '}
-          {summary.reviewedToday}/{state.settings.dailyCap} reviewed today
+          {rich(
+            'modes.summary',
+            { due: summary.dueCount, new: summary.newAvailable, reviewed: summary.reviewedToday, cap: state.settings.dailyCap },
+            { b: (text) => <b className="text-slate-800 dark:text-slate-100">{text}</b> },
+          )}
         </p>
         <div className="flex gap-2">
           {available === 0 && (
             <button
-              onClick={() => onStart({ ...base, label: `${label || 'Practice'} · extra`, includeNotDue: true, ignoreCap: true, limit: 10 })}
+              onClick={() => onStart({ ...base, label: t('modes.extraLabel', { name: label || t('common.practice') }), includeNotDue: true, ignoreCap: true, limit: 10 })}
               className="rounded-xl border border-slate-300 px-4 py-2.5 text-sm font-medium hover:bg-slate-50 dark:border-slate-600 dark:hover:bg-slate-700"
             >
-              Extra practice (10)
+              {t('modes.extra', { count: 10 })}
             </button>
           )}
           <button
             onClick={() => onStart({
               ...base,
-              label: label || 'Practice',
+              label: label || t('common.practice'),
               ...(available === 0 ? { includeNotDue: true, ignoreCap: true, limit: 15 } : {}),
             })}
             className="inline-flex items-center justify-center gap-2 rounded-xl bg-rose-600 px-5 py-2.5 font-semibold text-white transition hover:bg-rose-700"
           >
-            <Play className="h-4 w-4" /> Start {available > 0 ? `(${available})` : '(15)'}
+            <Play className="h-4 w-4" /> {t('modes.start', { count: available > 0 ? available : 15 })}
           </button>
         </div>
       </div>
       {summary.remainingToday === 0 && (
         <p className="mt-2 text-xs text-amber-700 dark:text-amber-300">
-          Daily cap of {state.settings.dailyCap} reached — great work! Rest helps memory consolidate. You can still do extra practice or raise the cap in Settings.
+          {t('modes.capReached', { cap: state.settings.dailyCap })}
         </p>
       )}
     </section>
@@ -153,7 +165,7 @@ export function ModeSelector({ vocab, state, onStart }: Props) {
 function FilterRow({ label, children }: { label: string; children: ReactNode }) {
   return (
     <div className="flex items-start gap-2">
-      <span className="w-12 shrink-0 pt-1.5 text-xs font-medium uppercase tracking-wide text-slate-500">{label}</span>
+      <span className="min-w-[3rem] shrink-0 pt-1.5 text-xs font-medium uppercase tracking-wide text-slate-500">{label}</span>
       <div className="-mr-5 flex min-w-0 flex-1 gap-2 overflow-x-auto pb-1 pr-5 sm:mr-0 sm:flex-wrap sm:overflow-visible sm:pr-0">{children}</div>
     </div>
   );

@@ -133,3 +133,31 @@ test.describe('Interface language', () => {
     await expect(page.getByRole('heading', { name: 'Einstellungen' })).toBeVisible();
   });
 });
+
+test.describe('No untranslated keys on screen', () => {
+  // A raw message key such as "study.leech" or "dashboard.todayCounts" means a string was never translated.
+  const RAW_KEY = /\b(?:app|card|common|dashboard|dictionary|header|lang|modes|nav|settings|speed|study)\.[a-zA-Z][\w.]*\b/;
+
+  for (const lang of ['English', 'Deutsch', '简体中文']) {
+    for (const course of ['chinese', 'english'] as const) {
+      test(`${course} course in ${lang}`, async ({ page }) => {
+        await page.goto('/');
+        if (course === 'english') await page.getByRole('button', { name: /英语 CEFR/ }).first().click();
+        await page.getByRole('button', { name: /^(Interface language|Oberflächensprache|界面语言)$/ }).first().click();
+        await page.getByRole('menuitemradio', { name: new RegExp(lang) }).click();
+        await page.waitForTimeout(300);
+
+        const routes = ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements', ...(course === 'english' ? ['grammar', 'irregular'] : [])];
+        for (const route of routes) {
+          await page.goto(`/#/${route}`);
+          await page.waitForTimeout(150);
+          const text = await page.locator('body').innerText();
+          const raw = text.match(RAW_KEY);
+          expect(raw, `${course}/${lang}/#/${route} shows an untranslated key`).toBeNull();
+        }
+        await page.getByRole('button', { name: /(Settings|Einstellungen|设置)$/ }).first().click();
+        expect((await page.locator('body').innerText()).match(RAW_KEY), `${course}/${lang} settings`).toBeNull();
+      });
+    }
+  }
+});
