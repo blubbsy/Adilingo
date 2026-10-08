@@ -96,23 +96,39 @@ export function applyGrade(
     curedLeech = true;
   }
 
+  // Adaptive graduation for daily lessons:
+  // Cards graduate into future calendar days rather than 10-minute intraday loops.
+  let scheduledDays: number;
+  if (base.reps === 0) {
+    // First exposure / graduation
+    if (grade === 1) scheduledDays = 1;
+    else if (grade === 2) scheduledDays = 1;
+    else if (grade === 3) scheduledDays = 2;
+    else scheduledDays = 4;
+  } else {
+    // Subsequent review
+    if (grade === 1) scheduledDays = 1;
+    else scheduledDays = Math.max(1, Math.round(updatedCard.scheduled_days || 1));
+  }
+  const dueDate = addDays(now, scheduledDays);
+
   const historyEntry: HistoryEntry = {
     date: now.toISOString(),
     grade,
     correct: grade >= 2,
     mode: meta.mode,
     latencyMs: meta.latencyMs,
-    stability: base.stability,
+    stability: updatedCard.stability,
   };
 
   const history = [...base.history, historyEntry].slice(-MAX_HISTORY);
 
   return {
-    due: updatedCard.due.toISOString(),
+    due: dueDate.toISOString(),
     stability: updatedCard.stability,
     difficulty: updatedCard.difficulty,
     elapsed_days: updatedCard.elapsed_days,
-    scheduled_days: updatedCard.scheduled_days,
+    scheduled_days: scheduledDays,
     reps: updatedCard.reps,
     lapses: updatedCard.lapses,
     state: updatedCard.state,
@@ -127,8 +143,12 @@ export function applyGrade(
 
 export function isDirectionDue(p: DirectionProgress | undefined, now: Date = new Date()): boolean {
   if (!p) return false;
-  // Anything due on or before today
-  return new Date(p.due) <= addDays(new Date(now.toDateString()), 1);
+  // If already reviewed on this calendar day, it is not due again today in standard sessions
+  if (p.last_review && dayKey(new Date(p.last_review)) === dayKey(now)) {
+    return false;
+  }
+  // Otherwise, it is due if scheduled on or before today
+  return dayKey(new Date(p.due)) <= dayKey(now);
 }
 
 export function isWordDue(p: CardProgress | undefined, now: Date = new Date()): boolean {
@@ -231,9 +251,19 @@ export function recordReview(
 
   const latencyOk = ev.latencyMs > 0 && ev.latencyMs < 120_000;
 
+  const updatedProgress = { ...state.progress, [ev.item.id]: updatedWord };
+  const updatedCourseProgress = {
+    ...(state.courseProgress ?? {}),
+    [course]: {
+      ...(state.courseProgress?.[course] ?? state.progress),
+      [ev.item.id]: updatedWord,
+    },
+  };
+
   return {
     ...state,
-    progress: { ...state.progress, [ev.item.id]: updatedWord },
+    progress: updatedProgress,
+    courseProgress: updatedCourseProgress,
     stats: {
       ...s,
       currentStreak,
@@ -413,9 +443,16 @@ export function buildSession(vocab: VocabItem[], state: UserState, req: SessionR
 
   const hasBacklog = dueCards.length >= summary.remainingToday;
   const isCustomOrExtra = Boolean(req.ignoreCap || req.wordIds?.length || req.includeNotDue);
-  const newAllowed = isCustomOrExtra
-    ? Math.max(0, (limit || 20) - dueCards.length)
-    : (hasBacklog ? 0 : summary.newAvailable);
+  let newAllowed = 0;
+  if (isCustomOrExtra) {
+    newAllowed = Math.max(0, (limit || 20) - dueCards.length);
+  } else if (!hasBacklog) {
+    newAllowed = summary.newAvailable;
+  } else if (limit >= 10 && summary.newAvailable > 0) {
+    // When clearing a large backlog in a full session, guarantee a modest intake of new cards
+    // so learners continuously make tangible forward progress in the curriculum
+    newAllowed = Math.min(summary.newAvailable, Math.min(state.settings.newCardsPerDay, 3));
+  }
 
   const fresh = pool
     .map((v, i) => ({ v, i }))
@@ -424,12 +461,16 @@ export function buildSession(vocab: VocabItem[], state: UserState, req: SessionR
     .map(({ v }) => v)
     .slice(0, newAllowed);
 
+  const pickedDue = isCustomOrExtra
+    ? dueCards
+    : dueCards.slice(0, Math.max(0, limit - fresh.length));
+
   const ordered: { item: VocabItem; direction: CardDirection; isNew: boolean; p?: DirectionProgress }[] = [];
   let di = 0;
   let ni = 0;
-  while (di < dueCards.length || ni < fresh.length) {
-    for (let k = 0; k < 2 && di < dueCards.length; k++) {
-      ordered.push({ ...dueCards[di++], isNew: false });
+  while (di < pickedDue.length || ni < fresh.length) {
+    for (let k = 0; k < 2 && di < pickedDue.length; k++) {
+      ordered.push({ ...pickedDue[di++], isNew: false });
     }
     if (ni < fresh.length) {
       ordered.push({ item: fresh[ni++], direction: 'recognition', isNew: true });

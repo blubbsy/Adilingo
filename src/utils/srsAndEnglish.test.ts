@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { checkEnglish, stem, cleanEnglish, normEnglish, maxTypoTolerance } from './pinyinHelper';
-import { buildSession, applyGrade, recordReview, newDirectionProgress, promptFor, promptForDirection, bulkMarkLevelKnown, calculateTrueRetention, queueSummary } from './srsEngine';
+import { buildSession, applyGrade, recordReview, newDirectionProgress, promptFor, promptForDirection, bulkMarkLevelKnown, calculateTrueRetention, queueSummary, isDirectionDue } from './srsEngine';
 import { dayKey } from './dates';
 import type { SessionRequest, UserState, VocabItem } from '../types';
 
@@ -460,5 +460,24 @@ describe('SRS Overdue Backlog Throttling & Grading', () => {
     const summary = queueSummary(dummyVocab, state);
     expect(summary.newAvailable).toBe(4); // 4 dummy words unstarted <= newCardsPerDay (5)
     expect(summary.remainingToday).toBe(20);
+  });
+
+  it('applyGrade graduates new words to future days and prevents same-day re-review in isDirectionDue', () => {
+    const now = new Date('2026-10-08T09:00:00Z');
+    // First review with Good (grade 3)
+    const progGood = applyGrade(undefined, 3, { now, correct: true, mode: 'hanzi' });
+    expect(progGood.scheduled_days).toBeGreaterThanOrEqual(1);
+    expect(new Date(progGood.due).getTime()).toBeGreaterThan(now.getTime());
+
+    // Because it was reviewed today, isDirectionDue MUST return false on the same day
+    expect(isDirectionDue(progGood, now)).toBe(false);
+
+    // Later on the same calendar day (e.g. 2 hours later), it should still NOT be due
+    const laterToday = new Date('2026-10-08T11:00:00Z');
+    expect(isDirectionDue(progGood, laterToday)).toBe(false);
+
+    // On the scheduled due date in the future (e.g. 2 days later), it becomes due
+    const futureDate = new Date('2026-10-10T09:00:00Z');
+    expect(isDirectionDue(progGood, futureDate)).toBe(true);
   });
 });

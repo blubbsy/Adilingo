@@ -71,9 +71,31 @@ export function isUnitDone(path: LearningPath, unit: PathUnit, ctx: PathContext)
   return unitDoneCount(path, unit, ctx) === unit.steps.length;
 }
 
-/** A unit unlocks when the previous unit is complete; the first unit is always open. */
+/** A step is studied once its words have been practiced at least once. */
+export function isStepStudied(step: PathStep, ctx: PathContext): boolean {
+  if (step.type === 'grammar') return ctx.grammar.points[step.grammarId]?.completed === true;
+  const ids = stepWordIds(step, ctx);
+  return ids.length > 0 && ids.some((id) => Boolean(ctx.vocabProgress[id]));
+}
+
+/** A unit is studied once its vocabulary has been practiced. */
+export function isUnitStudied(unit: PathUnit, ctx: PathContext): boolean {
+  const vocabSteps = unit.steps.filter((s) => s.type === 'vocab');
+  if (vocabSteps.length > 0) {
+    return vocabSteps.every((s) => {
+      const ids = stepWordIds(s, ctx);
+      const studiedCount = ids.filter((id) => Boolean(ctx.vocabProgress[id])).length;
+      return studiedCount >= Math.min(ids.length, 5);
+    });
+  }
+  return unit.steps.every((s) => isStepStudied(s, ctx));
+}
+
+/** A unit unlocks when the previous unit is complete or has been practiced, allowing natural course advancement. */
 export function isUnitUnlocked(path: LearningPath, index: number, ctx: PathContext): boolean {
-  return index === 0 || isUnitDone(path, path.units[index - 1], ctx);
+  if (index === 0) return true;
+  const prevUnit = path.units[index - 1];
+  return isUnitDone(path, prevUnit, ctx) || isUnitStudied(prevUnit, ctx);
 }
 
 /**

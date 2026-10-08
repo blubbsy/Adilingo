@@ -229,7 +229,7 @@ export function recommendations(state: UserState, vocab: VocabItem[], now = new 
 
   // 6. Unstarted words / Daily intake.
   const unseen = vocab.filter((v) => !isWordStudied(state.progress[v.id]));
-  if (unseen.length && due === 0) {
+  if (unseen.length && capLeft > 0) {
     const level = Math.min(...unseen.map((u) => u.hskLevel));
     const intake = Math.min(state.settings.newCardsPerDay, unseen.length);
     recs.push({
