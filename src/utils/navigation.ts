@@ -1,6 +1,6 @@
 import { Award, BarChart3, BookMarked, BookOpen, BookOpenCheck, Home, Layers, Zap, type LucideIcon } from 'lucide-react';
 import { getCourseConfig, type CourseId, type ViewId } from '../data/courses';
-import { t, type UiLanguage } from './i18n';
+import { t, type UiLanguage } from '../i18n';
 
 export interface NavItem {
   id: ViewId;

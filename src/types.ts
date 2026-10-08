@@ -1,3 +1,5 @@
+import type { UiLanguage } from './i18n/types';
+
 /** Language machinery a course builds on (TTS, pinyin, card directions). */
 export type TrackId = 'chinese' | 'english';
 /** A base language course (`chinese`, `english`) or a namespaced course on top of a track (`chinese:emotor-design`). */
@@ -92,7 +94,7 @@ export type PinyinHelperMode = 'adaptive' | 'flip' | 'always' | 'never';
 
 export interface Settings {
   course?: CourseId;
-  uiLanguage?: 'en' | 'zh';
+  uiLanguage?: UiLanguage;
   speechRate: number;
   colorTones: boolean;
   dailyCap: number;

@@ -37,6 +37,9 @@ jobs:
       - name: Unit tests
         run: npm test
 
+      - name: Hardcoded UI text check
+        run: npm run check:i18n
+
       - name: Validate grammar content
         run: node scripts/validate-grammar.mjs
 

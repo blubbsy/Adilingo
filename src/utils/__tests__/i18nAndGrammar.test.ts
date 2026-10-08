@@ -1,5 +1,5 @@
-import { describe, expect, it } from 'vitest';
-import { t } from '../i18n';
+import { beforeAll, describe, expect, it } from 'vitest';
+import { loadLocale, t, translateUnsafe } from '../../i18n';
 import {
   ACTIVE_PASSIVE_RULES,
   ENGLISH_TENSES,
@@ -9,6 +9,10 @@ import { IRREGULAR_VERBS } from '../../data/irregularVerbs';
 import { ENGLISH_GRAMMAR_WIKI, GRAMMAR_CATEGORIES } from '../../data/englishGrammarWiki';
 
 describe('i18n system', () => {
+  beforeAll(async () => {
+    await loadLocale('zh');
+  });
+
   it('translates navigation and dashboard keys in English and Chinese', () => {
     expect(t('nav.dashboard', 'en')).toBe('Dashboard');
     expect(t('nav.dashboard', 'zh')).toBe('控制面板');
@@ -26,7 +30,7 @@ describe('i18n system', () => {
   });
 
   it('falls back gracefully to English when key is missing in target language', () => {
-    expect(t('nonexistent_key_123', 'zh')).toBe('nonexistent_key_123');
+    expect(translateUnsafe('zh', 'nonexistent_key_123')).toBe('nonexistent_key_123');
   });
 });
 

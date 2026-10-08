@@ -1,4 +1,5 @@
 import type { CourseId, Curriculum, HskLevel, TrackId } from '../types';
+import type { UiLanguage } from '../i18n/types';
 
 export type { CourseId, TrackId };
 
@@ -22,7 +23,7 @@ export interface CourseConfig {
   /** Language machinery of this course; replaces checks like `course === 'english'`. */
   track: TrackId;
   /** Interface language used until the learner picks one. */
-  defaultUiLanguage: 'en' | 'zh';
+  defaultUiLanguage: UiLanguage;
   /** Short texts for the logo tile and course switchers. */
   badge: string;
   switcherLabel: string;

@@ -1,0 +1,16 @@
+export const shell = {
+  'nav.dashboard': 'Dashboard',
+  'nav.learn': 'Paths & Grammar',
+  'nav.topics': 'Topic Training',
+  'nav.dictionary': 'Dictionary',
+  'nav.insights': 'Insights',
+  'nav.badges': 'Badges',
+  'nav.settings': 'Settings',
+  'nav.irregular': 'Irregular Verbs',
+  'nav.grammar': 'Grammar Wikipedia',
+  'header.course': 'Course',
+  'header.course.chinese': 'Chinese (HSK)',
+  'header.course.english': 'English (CEFR/CET)',
+  'header.lang': 'Language',
+  'header.sync': 'Sync',
+} as const;

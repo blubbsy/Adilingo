@@ -2,6 +2,7 @@ import { createStore, get, set, type UseStore } from 'idb-keyval';
 import type { CardProgress, CourseId, Curriculum, HskLevel, PromptKind, ThemePref, ToneKey, UserState } from '../types';
 import legacyIds from '../data/legacyIds.json';
 import { getCourseConfig, isCourseId } from '../data/courses';
+import { detectUiLanguage, isUiLanguage } from '../i18n';
 
 export const SCHEMA_VERSION = 3;
 const CURRICULUM_IDS: Curriculum[] = ['hsk3_2026', 'hsk3_2021', 'hsk2', 'cefr', 'cet'];
@@ -253,7 +254,7 @@ function sanitize(s: Raw): UserState {
     activeStarred = Array.isArray(starredWordsByCourse[course]) ? starredWordsByCourse[course] : [];
     activeKnown = Array.isArray(knownLevelsByCourse[course]) ? knownLevelsByCourse[course] : [];
   }
-  const uiLanguage = settings.uiLanguage === 'zh' || settings.uiLanguage === 'en' ? settings.uiLanguage : defaultUiLang;
+  const uiLanguage = isUiLanguage(settings.uiLanguage) ? settings.uiLanguage : defaultUiLang;
   return {
     version: SCHEMA_VERSION,
     settings: {
@@ -401,7 +402,12 @@ export async function loadState(): Promise<{ state: UserState; backend: StorageB
     raw = readLocal();
     if (backend !== 'indexeddb') backend = typeof localStorage !== 'undefined' ? 'localstorage' : 'memory';
   }
-  if (raw === undefined) return { state: createDefaultState(), backend };
+  if (raw === undefined) {
+    // First run: start in the browser's language when it is a supported non-English one.
+    const fresh = createDefaultState();
+    fresh.settings.uiLanguage = detectUiLanguage() ?? fresh.settings.uiLanguage;
+    return { state: fresh, backend };
+  }
   try {
     return { state: migrate(raw), backend };
   } catch (e) {

@@ -21,7 +21,7 @@ import type { HskLevel, SessionRequest, UserState, VocabItem } from '../types';
 import { accuracyByLevel, averageLatencySec, calculateTrueRetention, recommendations, type Recommendation } from '../utils/analytics';
 import { bulkMarkLevelKnown, dailyLogFor, effectiveStreak, isWordStudied, queueSummary } from '../utils/srsEngine';
 import { curriculumInfo, levelLabel } from '../data/vocab';
-import { t, type UiLanguage } from '../utils/i18n';
+import { t, type UiLanguage } from '../i18n';
 import { ModeSelector } from './ModeSelector';
 import { PlacementTestModal } from './PlacementTestModal';
 import { BulkMarkModal } from './BulkMarkModal';

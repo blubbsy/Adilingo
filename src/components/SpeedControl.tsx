@@ -1,6 +1,6 @@
 import { Gauge } from 'lucide-react';
 import { SPEECH_RATES, nextSpeechRate, type SpeechApi } from '../utils/speech';
-import { t, type UiLanguage } from '../utils/i18n';
+import { t, type UiLanguage } from '../i18n';
 
 interface Props {
   speech: Pick<SpeechApi, 'rate' | 'setRate'>;

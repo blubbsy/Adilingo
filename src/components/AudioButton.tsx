@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { Volume2, VolumeX } from 'lucide-react';
 import type { SpeechApi } from '../utils/speech';
-import { t, type UiLanguage } from '../utils/i18n';
+import { t, type UiLanguage } from '../i18n';
 
 /** Press-and-hold duration that triggers a one-shot slow replay. */
 const LONG_PRESS_MS = 500;

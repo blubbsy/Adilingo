@@ -19,7 +19,7 @@ import { SyncModal } from './components/SyncModal';
 import { EnglishGrammarGuide } from './components/EnglishGrammarGuide';
 import { EnglishLearningHub } from './components/EnglishLearningHub';
 import { IrregularVerbsTrainer } from './components/IrregularVerbsTrainer';
-import { t, type UiLanguage } from './utils/i18n';
+import { t, type UiLanguage } from './i18n';
 import type { CardResult } from './components/ReviewCard';
 import { GrammarHub } from './grammar';
 import {

@@ -1,6 +1,6 @@
-import { describe, expect, it } from 'vitest';
+import { beforeAll, describe, expect, it } from 'vitest';
 import { SLOW_REPLAY_RATE, SPEECH_RATES, applyAudioRate, buildAudioUrls, nextSpeechRate } from '../speech';
-import { t } from '../i18n';
+import { loadLocale, t } from '../../i18n';
 
 describe('nextSpeechRate', () => {
   it('cycles through every configured speed and wraps around', () => {
@@ -70,6 +70,10 @@ describe('speech fallback cascade is unchanged by speed support (GEMINI §2 regr
 });
 
 describe('speed control i18n', () => {
+  beforeAll(async () => {
+    await loadLocale('zh');
+  });
+
   it('has English and Chinese labels with the rate placeholder', () => {
     expect(t('speed.label', 'en')).toBe('Playback speed');
     expect(t('speed.label', 'zh')).toBe('播放速度');

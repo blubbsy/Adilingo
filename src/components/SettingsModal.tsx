@@ -8,7 +8,7 @@ import { createEmptyGrammarProgress, exportableGrammarProgress, importGrammarPro
 import { AudioButton } from './AudioButton';
 import { CHINESE_MODES, ENGLISH_MODES } from './ModeSelector';
 import { getStoredSyncKey } from '../utils/syncService';
-import { t } from '../utils/i18n';
+import { t } from '../i18n';
 
 interface Props {
   state: UserState;
