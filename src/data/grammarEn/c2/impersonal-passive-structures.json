@@ -1,0 +1,130 @@
+{
+  "id": "e6-impersonal-passive-structures",
+  "cefr": 6,
+  "title": "Impersonal passive structures · 非人称被动结构（学术语体）",
+  "tag": "impersonal",
+  "pattern": "It + is / was + V3 + that-clause  ·  Subject + is / was + V3 + to + have + V3",
+  "summary": "学术和正式写作中常用 It is believed that… 或 X is thought to… 这类非人称被动句，既客观又能省略具体的说话人。",
+  "wikiId": "passive-voice-rules",
+  "explanation": [
+    "在学术论文、新闻报道和正式报告中，作者往往不想突出“是谁认为”，而是强调观点或事实本身。这时常用**非人称被动**：It is believed that the species became extinct about 10,000 years ago.（据信该物种约在一万年前灭绝。）句首的 It 只是形式主语，没有实际意义。",
+    "常见的动词包括 believe、think、say、expect、report、suggest、argue、claim、know 等。它们可以构成两种结构：一是 **It + be + V3 + that 从句**，如 It is expected that prices will rise.；二是 **主语 + be + V3 + to 不定式**，如 The bridge is thought to date from the twelfth century.。后者更加简洁，也更常见于学术文本。",
+    "表示过去发生的事情时，要用**完成式不定式**（to have + V3）：He is reported to have left the country last week.（据报道他上周已离开该国。）动作与说话时间一致，则用一般现在时的 to + 动词原形：The result is thought to be reliable.。中国学生常把 to 后面的动词写成过去式，或者漏掉 be。",
+    "还有一种 **There is thought to be…** 的结构，用于说明某处存在某物：There is thought to be a problem with the data.（据认为数据存在问题。）此处 is 与后面的名词单复数一致，不要混淆。",
+    "这类结构还经常与**无施动者被动**（agentless passive）一起使用：The samples were analysed carefully.，作者不写明是谁做的，有时是为了客观，有时是为了避免承担责任，如 Mistakes were made.。写作时要注意，过多使用此类句子会让文章显得含糊，学术写作中应在合适的地方点明来源或责任人。"
+  ],
+  "mistakes": [
+    "✗ It is believed the theory is correct. → ✓ It is believed that the theory is correct. 用 It is believed 引出一个完整句子时，that 虽然可以省略，但在正式写作中通常保留，使结构更清楚。",
+    "✗ The meeting is thought be cancelled. → ✓ The meeting is thought to be cancelled. be thought 之后必须加不定式符号 to，不能直接接动词原形。",
+    "✗ He is reported to left the country last week. → ✓ He is reported to have left the country last week. 表示过去的动作要用 to have + V3，而不是 to + 过去式。"
+  ],
+  "examples": [
+    { "text": "It is believed that the species became extinct about 10,000 years ago.", "translation": "据信该物种约在一万年前灭绝。", "note": "It is believed that… 是典型的学术表达。" },
+    { "text": "The old bridge is thought to date from the twelfth century.", "translation": "这座老桥据信建于十二世纪。", "note": "is thought to + 动词原形，表示与现在相关的推测。" },
+    { "text": "There is thought to be a hidden tunnel under the castle.", "translation": "据说城堡下面有一条暗道。", "note": "There is thought to be + 名词。" },
+    { "text": "The results were analysed using a standard statistical method.", "translation": "研究结果采用标准统计方法进行分析。", "note": "无施动者被动，强调方法而不是执行人。" },
+    { "text": "It has been suggested that the policy should be reviewed.", "translation": "有人建议应当重新审视这项政策。", "note": "It has been suggested that… 用于提出观点。" },
+    { "text": "Mistakes were made during the early stages of the project.", "translation": "项目初期出现了一些失误。", "note": "agentless passive，没有指出责任人。" },
+    { "text": "He is reported to have left the country last week.", "translation": "据报道他上周已离开该国。", "note": "to have + V3 表示过去的动作。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "It is ___ that the company will announce new results next month.",
+      "translation": "据预计，公司下个月将公布新的业绩。",
+      "options": ["expected", "expecting", "to expect", "expect"],
+      "answer": 0,
+      "explanation": "It is expected that… 是非人称被动结构，用过去分词 expected。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The painting is ___ to have been stolen in 1998.",
+      "translation": "据信这幅画在1998年被盗了。",
+      "options": ["think", "thinking", "thought", "thinks"],
+      "answer": 2,
+      "explanation": "is thought to have been stolen 是固定的被动结构，thought 为 think 的过去分词。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "There ___ thought to be a hidden door in the library wall.",
+      "translation": "据认为图书馆的墙上有一扇暗门。",
+      "options": ["are", "were", "be", "is"],
+      "answer": 3,
+      "explanation": "There is thought to be 中，is 与单数的 a hidden door 保持一致。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Last month, the samples ___ with special software.",
+      "translation": "上个月，样本用专业软件进行了分析。",
+      "options": ["are analysed", "were analysed", "analysed", "analysing"],
+      "answer": 1,
+      "explanation": "Last month 表示过去，主语 samples 为复数，应用 were analysed。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The problem ___ in several recent studies.",
+      "translation": "这个问题在最近的几项研究中已被发现。",
+      "options": ["has identified", "has been identified", "identified", "is identify"],
+      "answer": 1,
+      "explanation": "被动语态用 has been + V3，识别问题的人不重要，故省略施动者。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "据报道，这家公司去年亏损了。",
+      "options": [
+        "It reports that the company lost money last year.",
+        "It is report that the company lost money last year.",
+        "It is reported that the company lost money last year.",
+        "The company is reported lost money last year."
+      ],
+      "answer": 2,
+      "explanation": "非人称被动应为 It is reported that…；第三句之外的选项要么动词形式错误，要么缺少 to；第四句缺少 to have，表示过去的动作不能只用 to lost。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "有人认为，这一理论需要重新修订。",
+      "options": [
+        "It is argued that the theory needs revising.",
+        "It argues that the theory need revising.",
+        "It is argue that the theory needs to revise.",
+        "The theory is argued need revise."
+      ],
+      "answer": 0,
+      "explanation": "It is argued that… 表示“有人认为”，revising 是 need 后面的动名词形式。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The results are thought to be reliable.",
+        "The meeting is thought be cancelled.",
+        "The treaty is believed to have been signed in 1990."
+      ],
+      "answer": 1,
+      "explanation": "is thought 之后需要 to，应为 The meeting is thought to be cancelled."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["It", "is", "believed", "that", "the", "theory", "is", "correct."],
+      "alternatives": [],
+      "translation": "人们认为这一理论是正确的。",
+      "explanation": "It is believed that… 句型：形式主语 It 在句首，that 从句放在后面。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["There", "is", "thought", "to", "be", "a", "problem", "with", "the", "data."],
+      "alternatives": [],
+      "translation": "据认为数据存在问题。",
+      "explanation": "There is thought to be + 名词短语，结构固定，不要颠倒 be 与 to 的位置。"
+    }
+  ]
+}

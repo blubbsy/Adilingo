@@ -1,5 +1,6 @@
 import rawGrammar from '../data/grammarData.json';
 import rawPaths from '../data/learningPaths.json';
+import rawPathsEn from '../data/learningPathsEn.json';
 import legacyIds from '../data/legacyIds.json';
 import type { HskLevel } from '../types';
 import type {
@@ -92,6 +93,7 @@ function parsePoint(v: unknown): GrammarPoint | null {
   exercises.forEach((e, i) => e === null && warn(`${pointId}: invalid exercise #${i}`));
   return {
     id: pointId,
+    track: 'chinese',
     hskLevel,
     title: v.title,
     titleHanzi: optStr(v.titleHanzi),
@@ -104,12 +106,51 @@ function parsePoint(v: unknown): GrammarPoint | null {
   };
 }
 
-export function parseGrammarData(raw: unknown): GrammarPoint[] {
+/**
+ * English lesson (authored in content/README.md §5) -> the shared lesson shape: the English sentence goes to `hanzi`,
+ * its Chinese translation to `english`; exercises keep their option lists.
+ */
+function parseEnglishPoint(v: unknown): GrammarPoint | null {
+  if (!isObj(v) || !isStr(v.id) || !isStr(v.title) || !isStr(v.pattern)) return null;
+  const level = HSK.find((l) => l === v.cefr);
+  if (!level || level > 6) return null;
+  const pointId = v.id;
+  const examples: GrammarExample[] = [];
+  (Array.isArray(v.examples) ? v.examples : []).forEach((e, i) => {
+    if (isObj(e) && isStr(e.text) && isStr(e.translation)) examples.push({ hanzi: e.text, pinyin: '', english: e.translation, note: optStr(e.note) });
+    else warn(`${pointId}: invalid example #${i}`);
+  });
+  const exercises: GrammarExercise[] = [];
+  (Array.isArray(v.exercises) ? v.exercises : []).forEach((e, i) => {
+    const id = `${pointId}-${i}`;
+    // `translate` keeps the Chinese source in `english`; `choice` / `order` keep the Chinese translation there.
+    const mapped = isObj(e) ? { ...e, english: e.source ?? e.translation, optionScript: 'hanzi' } : e;
+    const parsed = parseExercise(mapped, id);
+    if (parsed) exercises.push(parsed);
+    else warn(`${pointId}: invalid exercise #${i}`);
+  });
+  return {
+    id: pointId,
+    track: 'english',
+    hskLevel: level,
+    wikiId: optStr(v.wikiId),
+    title: v.title,
+    titleHanzi: optStr(v.tag),
+    pattern: v.pattern,
+    summary: optStr(v.summary) ?? '',
+    explanation: isStrArr(v.explanation) ? v.explanation : [],
+    mistakes: isStrArr(v.mistakes) ? v.mistakes : [],
+    examples,
+    exercises,
+  };
+}
+
+export function parseGrammarData(raw: unknown, parse: (v: unknown) => GrammarPoint | null = parsePoint): GrammarPoint[] {
   if (!Array.isArray(raw)) return [];
   const seen = new Set<string>();
   const out: GrammarPoint[] = [];
   raw.forEach((r, i) => {
-    const p = parsePoint(r);
+    const p = parse(r);
     if (!p) return warn(`grammar point #${i} is invalid`);
     if (seen.has(p.id)) return warn(`duplicate grammar id ${p.id}`);
     seen.add(p.id);
@@ -166,8 +207,20 @@ const allRawGrammar: unknown[] = [
 ];
 
 export const GRAMMAR_POINTS: GrammarPoint[] = parseGrammarData(allRawGrammar).sort((a, b) => a.hskLevel - b.hskLevel);
-export const GRAMMAR_BY_ID: ReadonlyMap<string, GrammarPoint> = new Map(GRAMMAR_POINTS.map((g) => [g.id, g]));
+
+/** English lessons: one JSON object per file under data/grammarEn/<a1…c2>/ (ordered by level, then file name). */
+const englishFiles = import.meta.glob<unknown>('../data/grammarEn/*/*.json', { eager: true, import: 'default' });
+export const ENGLISH_GRAMMAR_POINTS: GrammarPoint[] = parseGrammarData(
+  Object.keys(englishFiles)
+    .sort()
+    .map((k) => englishFiles[k]),
+  parseEnglishPoint,
+).sort((a, b) => a.hskLevel - b.hskLevel);
+
+/** Every lesson of every track (ids never overlap: Chinese `g…`, English `e…`). */
+export const GRAMMAR_BY_ID: ReadonlyMap<string, GrammarPoint> = new Map([...GRAMMAR_POINTS, ...ENGLISH_GRAMMAR_POINTS].map((g) => [g.id, g]));
 export const LEARNING_PATHS: LearningPath[] = parseLearningPaths(rawPaths, new Set(GRAMMAR_BY_ID.keys()));
+export const ENGLISH_LEARNING_PATHS: LearningPath[] = parseLearningPaths(rawPathsEn, new Set(GRAMMAR_BY_ID.keys()));
 
 if (import.meta.env.DEV && problems.length) {
   console.warn('[grammar] content problems:', problems);

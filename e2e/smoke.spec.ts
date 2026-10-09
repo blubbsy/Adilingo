@@ -57,7 +57,7 @@ test.describe('Topic training', () => {
 
 test.describe('Course routing', () => {
   test('screens of another course redirect instead of rendering', async ({ page }) => {
-    // Chinese course: the English-only grammar guide and verb trainer must not open
+    // Chinese course: the English-only verb trainer must not open; the old grammar bookmark opens the learning screen
     await page.goto('/#/grammar');
     await expect(page.getByRole('tab', { name: 'Learning Paths' })).toBeVisible();
     await expect(page).toHaveURL(/#\/learn$/);
@@ -74,8 +74,8 @@ test.describe('Course routing', () => {
   test('switching to Chinese while on an English-only screen lands on the learn screen', async ({ page }) => {
     await page.goto('/');
     await page.locator('[data-course="english"]').first().click();
-    await page.goto('/#/grammar');
-    await expect(page).toHaveURL(/#\/grammar$/);
+    await page.goto('/#/irregular');
+    await expect(page).toHaveURL(/#\/irregular$/);
     await page.locator('[data-course="chinese"]').first().click();
     await expect(page).toHaveURL(/#\/learn$/);
     await expect(page.getByRole('tab', { name: 'Learning Paths' })).toBeVisible();
@@ -85,11 +85,10 @@ test.describe('Course routing', () => {
 test('an English-only deep link survives a reload (guard waits for the saved course)', async ({ page }) => {
   await page.goto('/');
   await page.locator('[data-course="english"]').first().click();
-  await page.goto('/#/grammar');
+  await page.goto('/#/irregular');
   await page.waitForTimeout(900); // settings are saved with a 400 ms debounce
   await page.reload();
-  await expect(page).toHaveURL(/#\/grammar$/);
-  await expect(page.getByText(/Grammar Wiki/).first()).toBeVisible();
+  await expect(page).toHaveURL(/#\/irregular$/);
 });
 
 test.describe('Interface language', () => {
@@ -148,7 +147,7 @@ test.describe('No untranslated keys on screen', () => {
         await page.getByRole('menuitemradio', { name: new RegExp(lang) }).click();
         await page.waitForTimeout(300);
 
-        const routes = ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements', ...(course === 'english' ? ['grammar', 'irregular'] : [])];
+        const routes = ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements', ...(course === 'english' ? ['irregular'] : [])];
         for (const route of routes) {
           await page.goto(`/#/${route}`);
           await page.waitForTimeout(150);

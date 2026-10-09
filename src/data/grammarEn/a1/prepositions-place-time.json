@@ -1,0 +1,106 @@
+{
+  "id": "e1-prepositions-place-time",
+  "cefr": 1,
+  "title": "Prepositions of place & time: in, on, at · 介词 in / on / at",
+  "tag": "in / on / at",
+  "pattern": "in + area / month · on + surface / day · at + point / time",
+  "summary": "in 指“里面、大范围”，on 指“表面上、具体的日子”，at 指“某个点、具体时刻”。",
+  "explanation": [
+    "表示**地点**时：**in** 指在某个空间或范围的内部（in the room、in China）；**on** 指在某个表面上（on the table、on the wall）；**at** 指在某个点或某个地方（at the bus stop、at home、at school）。中文都说“在”，英语必须选对介词。",
+    "表示**时间**时：**in** 用于较长的时间段，如月份、季节、年份和一天中的某段时间（in May、in winter、in 2020、in the morning）；**on** 用于具体的某一天（on Monday、on May 1st、on my birthday）；**at** 用于具体的时刻（at 8 o'clock、at noon、at night）。",
+    "一些固定搭配要单独记：at home、at work、at school 中名词前不加冠词；in bed（在床上）、on foot（步行）。坐小轿车用 in the car，乘公交车或火车用 on the bus、on the train。",
+    "选择介词可以问自己三个问题：是在“里面”（in）、“上面”（on）还是“某个点”（at）？是“某个时刻”、“某一天”还是“较长的一段时间”？这样能避免直接把中文“在”翻译成英语的错误。",
+    "需要注意 at night（晚上）是固定说法，不用 in the night；on time 表示“准时”，不要写成 in time（那表示“及时、来得及”）。"
+  ],
+  "mistakes": [
+    "✗ I get up in 7 o'clock. → ✓ I get up at 7 o'clock. 具体的钟点用 at，不用 in。",
+    "✗ My birthday is in June 5th. → ✓ My birthday is on June 5th. 具体的某一天要用 on。",
+    "✗ She is on school now. → ✓ She is at school now. 表示“在学校”这个地点时用 at school。",
+    "✗ I sit on the car. → ✓ I sit in the car. 小轿车是封闭空间，用 in；大巴、火车等用 on。"
+  ],
+  "examples": [
+    { "text": "I live in Shanghai.", "translation": "我住在上海。" },
+    { "text": "The book is on the desk.", "translation": "书在桌子上。" },
+    { "text": "We meet at the station at nine.", "translation": "我们九点在车站见面。" },
+    { "text": "School starts in September.", "translation": "学校九月开学。" },
+    { "text": "The shop is closed on Sunday.", "translation": "商店周日关门。" },
+    { "text": "I usually wake up at half past six.", "translation": "我通常六点半起床。" },
+    { "text": "He sat in the car and waited.", "translation": "他坐在车里等着。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的介词。",
+      "sentence": "The keys are ___ the table.",
+      "translation": "钥匙在桌子上。",
+      "options": ["in", "on", "at", "to"],
+      "answer": 1,
+      "explanation": "桌面是表面，用 on the table。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的介词。",
+      "sentence": "We have a test ___ Monday.",
+      "translation": "我们周一有考试。",
+      "options": ["in", "at", "on", "for"],
+      "answer": 2,
+      "explanation": "具体的某一天用 on Monday。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的介词。",
+      "sentence": "The meeting starts ___ 3 o'clock.",
+      "translation": "会议三点开始。",
+      "options": ["on", "at", "in", "by"],
+      "answer": 1,
+      "explanation": "具体钟点用 at 3 o'clock。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的介词。",
+      "sentence": "She is ___ school now.",
+      "translation": "她现在在学校。",
+      "options": ["on", "to", "at", "in"],
+      "answer": 2,
+      "explanation": "“在学校”用 at school。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我的生日在五月。",
+      "options": ["My birthday is on May.", "My birthday is in May.", "My birthday is at May.", "My birthday is in the May 5th."],
+      "answer": 1,
+      "explanation": "月份前用 in。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们晚上七点在车站见面。",
+      "options": ["We meet at the station in seven.", "We meet on the station at 7 p.m.", "We meet at the station at 7 p.m.", "We meet at the station on 7 p.m."],
+      "answer": 2,
+      "explanation": "地点用 at the station，具体时刻用 at 7 p.m.。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["The class starts in 8 o'clock.", "I usually sleep at night.", "The cat is on the sofa."],
+      "answer": 0,
+      "explanation": "具体钟点用 at，应写成 The class starts at 8 o'clock."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I sit in the chair.", "We go on the bus.", "The party is at Sunday."],
+      "answer": 2,
+      "explanation": "具体的某一天用 on，应写成 The party is on Sunday."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "shop", "opens", "at", "nine", "o'clock."],
+      "alternatives": [],
+      "translation": "商店九点开门。",
+      "explanation": "具体时刻用 at nine o'clock。"
+    }
+  ]
+}

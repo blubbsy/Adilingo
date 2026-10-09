@@ -29,6 +29,8 @@ export function buildLevelPaths(
 ): LearningPath[] {
   const { t } = text;
   const info = curriculumInfo(curriculum);
+  const english = curriculum === 'cefr' || curriculum === 'cet';
+  const label = (level: number) => (english ? levelLabel(level, 'english', t) : levelLabel(level));
   const maxLevel = Math.max(...info.levels);
   return info.levels.map((level) => {
     const words = vocab.filter((v) => v.hskLevel === level);
@@ -71,9 +73,51 @@ export function buildLevelPaths(
     }
     return {
       id,
-      title: t('grammar.paths.syllabusTitle', { level: levelLabel(level) }),
+      title: t('grammar.paths.syllabusTitle', { level: label(level) }),
       description: t('grammar.paths.syllabusDesc', { words: words.length, points: points.length, curriculum: t(`curriculum.${curriculum}.short`) }),
       icon: LEVEL_ICON[level],
+      units,
+    };
+  });
+}
+
+const TIER_ICON: Record<number, PathIcon> = { 1: 'sprout', 2: 'bridge', 3: 'mountain' };
+
+/**
+ * Paths of a specialty course: one per tier (Essentials / Professional / Expert); every unit is one sub-topic of the
+ * field, split into steps of {@link UNIT_SIZE} terms. Vocabulary only – specialty courses have no grammar.
+ */
+export function buildDomainPaths(vocab: VocabItem[], text: PathText = ENGLISH_PATH_TEXT): LearningPath[] {
+  const { t } = text;
+  const tiers = [...new Set(vocab.map((v) => v.hskLevel))].sort((a, b) => a - b);
+  return tiers.map((tier) => {
+    const words = vocab.filter((v) => v.hskLevel === tier);
+    const byTopic = new Map<string, VocabItem[]>();
+    for (const w of words) {
+      const topic = w.topics[0] ?? '';
+      byTopic.set(topic, [...(byTopic.get(topic) ?? []), w]);
+    }
+    const id = `level-domain-${tier}`;
+    const units: PathUnit[] = [];
+    for (const [topic, items] of byTopic) {
+      const parts = Math.ceil(items.length / UNIT_SIZE);
+      for (let part = 0; part < parts; part++) {
+        const chunk = items.slice(part * UNIT_SIZE, (part + 1) * UNIT_SIZE);
+        const n = units.length + 1;
+        units.push({
+          id: `${id}-u${n}`,
+          title: parts > 1 ? t('grammar.paths.topicPart', { topic, n: part + 1, total: parts }) : topic,
+          goal: chunk.slice(0, 4).map((w) => w.hanzi).join(' · '),
+          steps: [{ id: `${id}-u${n}-words`, type: 'vocab', title: t('grammar.paths.words', { from: part * UNIT_SIZE + 1, to: part * UNIT_SIZE + chunk.length }), wordIds: chunk.map((w) => w.id) }],
+        });
+      }
+    }
+    const tierName = t(`level.domain.${Math.min(3, Math.max(1, tier)) as 1 | 2 | 3}`);
+    return {
+      id,
+      title: tierName,
+      description: t('grammar.paths.domainDesc', { words: words.length, topics: byTopic.size }),
+      icon: TIER_ICON[tier] ?? 'sprout',
       units,
     };
   });

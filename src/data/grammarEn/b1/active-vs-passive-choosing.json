@@ -1,0 +1,121 @@
+{
+  "id": "e3-active-vs-passive-choosing",
+  "cefr": 3,
+  "title": "Choosing active or passive · 主动还是被动",
+  "tag": "choose voice",
+  "pattern": "Active: Subject + V + Object  ·  Passive: Object + be + V3 (+ by Agent)",
+  "summary": "英语选择主动还是被动，取决于句子的焦点：执行者是谁不重要或不知道时用被动，要强调谁做了什么时用主动。",
+  "wikiId": "passive-voice-rules",
+  "explanation": [
+    "主动句和被动句通常都正确，选择取决于**句子的焦点**。主动句把执行者放在句首：Someone **stole** my bike. 被动句把承受者放在句首：My bike **was stolen**. 当你想谈论自行车的遭遇时用后者，想强调“小偷”时用前者。",
+    "被动语态常见的情况有：执行者不知道或没必要说（My bike **was stolen** yesterday.）；执行者显而易见（The president **was elected** in 2020.）；执行者不重要（English **is spoken** in many countries.）；以及为了让话题前后连贯（Our teacher gave us a test. We **were asked** to bring pencils.）。",
+    "改写的方法：主动句的宾语变成被动句的主语，动词改为 be + V3（时态保持一致），原来的主语如果需要保留，就放在 **by** 后面：Ms Li wrote this novel. → This novel **was written by** Ms Li.",
+    "英语中有两个宾语的动词（give、send、show、tell、offer、buy）可以有两种被动形式。通常把表示“人”的宾语放在主语位置，此时不需要加 to：The company **gave** Lily a prize. → Lily **was given** a prize by the company.",
+    "中文的“被”字句有时带有负面意思，但英语的被动语态并不限于坏事，正式写作、新闻和说明文中都大量使用。翻译时先判断执行者是否必要，再决定用主动还是被动。"
+  ],
+  "mistakes": [
+    "✗ Me was given a book by her. → ✓ I was given a book by her. 被动句中的主语是人称代词时，要用主格 I，而不是宾格 me。",
+    "✗ The thief was caught by. → ✓ The thief was caught. by 后面必须有执行者；不知道或不重要时，直接省略 by。",
+    "✗ I was given to a gift. → ✓ I was given a gift. 双宾语被动句中，人作主语，宾语前面不能加 to。",
+    "✗ The report was wrote by Lily. → ✓ The report was written by Lily. 被动句要用过去分词 written，而不是过去式 wrote。"
+  ],
+  "examples": [
+    { "text": "My bike was stolen yesterday.", "translation": "我的自行车昨天被偷了。", "note": "不关心是谁偷的，焦点在自行车上。" },
+    { "text": "The Great Wall was built more than two thousand years ago.", "translation": "长城是两千多年前修建的。", "note": "执行者不重要，省略 by。" },
+    { "text": "The novel was written by a young Chinese writer.", "translation": "这部小说是一位年轻的中国作家写的。", "note": "执行者是新信息，保留 by。" },
+    { "text": "The company gave Lily a prize.", "translation": "公司给了莉莉一个奖。", "note": "主动句：强调“公司”做了什么。" },
+    { "text": "Lily was given a prize by the company.", "translation": "莉莉获得了公司颁发的一个奖。", "note": "被动句：把“莉莉”放在句首。" },
+    { "text": "She was asked to speak at the meeting.", "translation": "她被邀请在会议上发言。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The bridge ___ in 1932.",
+      "translation": "这座桥建于1932年。",
+      "options": ["built", "is building", "was built", "has been building"],
+      "answer": 2,
+      "explanation": "桥是被建造的，过去的时间用 was built。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I ___ a free ticket by my friend.",
+      "translation": "我的朋友送给了我一张免费票。",
+      "options": ["was give", "was given", "gave", "have given"],
+      "answer": 1,
+      "explanation": "双宾语被动句中，人作主语：I was given a free ticket。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这本字典是在上海印刷的。",
+      "options": [
+        "This dictionary printed in Shanghai.",
+        "This dictionary was print in Shanghai.",
+        "This dictionary is printing in Shanghai.",
+        "This dictionary was printed in Shanghai."
+      ],
+      "answer": 3,
+      "explanation": "“被印刷”是被动，过去时用 was printed。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The window was broken last night.",
+        "Me was invited to the party.",
+        "A new bridge was built in our city."
+      ],
+      "answer": 1,
+      "explanation": "被动句中的人称代词作主语要用 I，应改为 I was invited to the party。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["I", "was", "offered", "a", "job", "in", "Beijing."],
+      "alternatives": [],
+      "translation": "我得到了一份北京的工作机会。",
+      "explanation": "双宾语 offer 的被动：人作主语，job 作宾语，不加 to。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The thief ___ by the police last week.",
+      "translation": "小偷上周被警察抓住了。",
+      "options": ["caught", "was catching", "has caught", "was caught"],
+      "answer": 3,
+      "explanation": "小偷是被抓的，应使用 was caught。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我的护照被偷了。",
+      "options": [
+        "My passport was stolen.",
+        "My passport stole.",
+        "My passport has steal.",
+        "My passport was steal."
+      ],
+      "answer": 0,
+      "explanation": "steal 的过去分词是 stolen，被动句用 was stolen。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Lily ___ to speak at the meeting.",
+      "translation": "莉莉被邀请在会议上发言。",
+      "options": ["asked", "was asked", "was ask", "is asking"],
+      "answer": 1,
+      "explanation": "被邀请是被动，应使用 was asked。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "museum", "was", "founded", "in", "1905."],
+      "alternatives": [],
+      "translation": "这家博物馆建于1905年。",
+      "explanation": "被动句结构：主语 + was + 过去分词 + in + 时间。"
+    }
+  ]
+}

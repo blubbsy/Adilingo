@@ -1,0 +1,172 @@
+{
+  "id": "e1-be-present",
+  "cefr": 1,
+  "title": "Be (present): am, is, are · be 动词（一般现在时）",
+  "tag": "am/is/are",
+  "pattern": "Subject + am / is / are + (not) + complement",
+  "summary": "be 动词表示“是、在”，要跟着主语变化：I am, he is, they are.",
+  "explanation": [
+    "英语的 be 动词有三种现在时形式：**am**（只和 I 连用）、**is**（和 he、she、it 以及单数名词连用）、**are**（和 you、we、they 以及复数名词连用）。它相当于中文的“是、在”，但英语里 be 不能省略：She **is** a teacher，不能说 She a teacher。",
+    "否定句很简单，在 be 后面加 **not**：I am not tired. / She is not at home. 口语中常用缩写：isn't、aren't。am 没有常用的缩写形式，只说 I'm not。",
+    "一般疑问句把 be 动词提到句首：Are you ready? / Is he your brother? 回答时直接用 be 动词：Yes, I am. / No, she isn't. 不要回答成 Yes, I do，因为 do 不用在 be 句中。",
+    "用 wh- 疑问词提问时，疑问词放在最前面，然后是 be 动词，再接主语：Where is my bag? / What are these? 注意 be 动词一定在主语前面。",
+    "中文里的“是”不一定对应 be。年龄、天气和感觉在英语里也常用 be：I am ten years old（我十岁）、It is cold today（今天很冷）、He is hungry（他饿了）。这些都要记得带上 be 动词。"
+  ],
+  "mistakes": [
+    "✗ She are my friend. → ✓ She is my friend. she 是第三人称单数，要用 is；are 只和 you、we、they 以及复数名词连用。",
+    "✗ I am agree with you. → ✓ I agree with you. 中文“同意”是动词，agree 本身就是动词，前面不需要 am。",
+    "✗ I am like pizza. → ✓ I like pizza. like 是普通动词，表示“喜欢”，不要在它前面加 be 动词。",
+    "✗ Are you tired? Yes, I do. → ✓ Are you tired? Yes, I am. 只要是 be 动词的问句，回答也要用 be 动词，而不是 do。"
+  ],
+  "examples": [
+    {
+      "text": "I am from China.",
+      "translation": "我来自中国。"
+    },
+    {
+      "text": "She is my best friend.",
+      "translation": "她是我最好的朋友。"
+    },
+    {
+      "text": "We are not late.",
+      "translation": "我们没有迟到。",
+      "note": "否定：are + not。"
+    },
+    {
+      "text": "Is your bag under the table?",
+      "translation": "你的包在桌子下面吗？"
+    },
+    {
+      "text": "Where are my keys?",
+      "translation": "我的钥匙在哪里？"
+    },
+    {
+      "text": "It is very cold today.",
+      "translation": "今天非常冷。"
+    },
+    {
+      "text": "They aren't at school now.",
+      "translation": "他们现在不在学校。",
+      "note": "aren't 是 are not 的缩写。"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的 be 动词。",
+      "sentence": "My brother ___ a doctor.",
+      "translation": "我哥哥是医生。",
+      "options": [
+        "am",
+        "are",
+        "is",
+        "be"
+      ],
+      "answer": 2,
+      "explanation": "brother 是单数第三人称，用 is。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的 be 动词。",
+      "sentence": "We ___ in the same class.",
+      "translation": "我们在同一个班。",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer": 1,
+      "explanation": "we 要和 are 连用。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的疑问句。",
+      "sentence": "___ you hungry?",
+      "translation": "你饿了吗？",
+      "options": [
+        "Do",
+        "Am",
+        "Is",
+        "Are"
+      ],
+      "answer": 3,
+      "explanation": "主语是 you，be 动词疑问句要用 Are 放在句首。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的 be 动词。",
+      "sentence": "The cat ___ under the bed.",
+      "translation": "猫在床下。",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "cat 是单数，用 is。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "她不是我的老师。",
+      "options": [
+        "She not is my teacher.",
+        "She isn't my teacher.",
+        "She don't my teacher.",
+        "She is not my teachers."
+      ],
+      "answer": 1,
+      "explanation": "否定句用 is + not 或 isn't；teacher 是单数，不能写成 teachers。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们都很开心。",
+      "options": [
+        "We all is happy.",
+        "We all am happy.",
+        "We are all happy.",
+        "We all happy."
+      ],
+      "answer": 2,
+      "explanation": "we 要用 are，all 放在 are 后面。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "My sister are tall.",
+        "Tom is at school.",
+        "We are happy today."
+      ],
+      "answer": 0,
+      "explanation": "sister 是单数，应写成 My sister is tall."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Are you from Japan?",
+        "I am agree with you.",
+        "It is a nice day."
+      ],
+      "answer": 1,
+      "explanation": "agree 是动词，不需要 am，应写成 I agree with you."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": [
+        "Where",
+        "is",
+        "the",
+        "station?"
+      ],
+      "alternatives": [],
+      "translation": "车站在哪里？",
+      "explanation": "特殊疑问句结构：疑问词 + be 动词 + 主语。"
+    }
+  ]
+}

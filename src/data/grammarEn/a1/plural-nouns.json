@@ -1,0 +1,172 @@
+{
+  "id": "e1-plural-nouns",
+  "cefr": 1,
+  "title": "Plural nouns · 名词复数",
+  "tag": "-s / -es",
+  "pattern": "Noun + -s / -es / irregular form (two or more)",
+  "summary": "两个或以上的可数名词要变成复数，大多数加 -s，少数要特殊处理。",
+  "explanation": [
+    "英语的可数名词分单数和复数。中文说“两个苹果”时“个”不变，英语却必须改变名词本身：one apple，two apples。只要数量是两个或以上，就要用复数形式。",
+    "规则复数：大多数名词直接加 **-s**（cats、books）。以 s、x、ch、sh、o 结尾的名词一般加 **-es**：buses、boxes、watches、dishes、tomatoes。",
+    "以“辅音字母 + y”结尾的名词，把 y 改成 **i** 再加 **-es**：city → cities，baby → babies。以“元音字母 + y”结尾的名词只加 -s：boy → boys，day → days。",
+    "有些名词是**不规则复数**，需要单独记：man → men，woman → women，child → children，person → people，foot → feet，tooth → teeth，mouse → mice。fish 和 sheep 的单复数形式相同。",
+    "复数名词前不用 a / an，数字和 many、some、a lot of 后面要用复数：three books、many students、some eggs。不可数名词（如 water、milk、information、homework）没有复数形式。"
+  ],
+  "mistakes": [
+    "✗ I have two book. → ✓ I have two books. 两个或以上要用复数形式，数字后面的名词也要加 -s。",
+    "✗ There are many childs. → ✓ There are many children. child 的复数是不规则形式 children。",
+    "✗ Three peoples came. → ✓ Three people came. people 本身已经是复数，不能再加 -s。",
+    "✗ I have a lot of homeworks. → ✓ I have a lot of homework. homework 是不可数名词，没有复数形式。"
+  ],
+  "examples": [
+    {
+      "text": "I have three brothers.",
+      "translation": "我有三个兄弟。"
+    },
+    {
+      "text": "She bought two boxes of tea.",
+      "translation": "她买了两盒茶。"
+    },
+    {
+      "text": "There are five babies in the room.",
+      "translation": "房间里有五个婴儿。"
+    },
+    {
+      "text": "The children are playing outside.",
+      "translation": "孩子们正在外面玩。"
+    },
+    {
+      "text": "Many people like fish.",
+      "translation": "很多人喜欢吃鱼。",
+      "note": "fish 的复数形式与单数相同。"
+    },
+    {
+      "text": "Two women and one man are waiting here.",
+      "translation": "两个女人和一个男人在这里等。"
+    },
+    {
+      "text": "The shops are closed on Sunday.",
+      "translation": "商店周日关门。"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的复数形式。",
+      "sentence": "I have two ___.",
+      "translation": "我有两只猫。",
+      "options": [
+        "cat",
+        "cats",
+        "catss",
+        "cates"
+      ],
+      "answer": 1,
+      "explanation": "两个以上的可数名词加 -s：cats。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的复数形式。",
+      "sentence": "There are many ___ in the park.",
+      "translation": "公园里有很多孩子。",
+      "options": [
+        "child",
+        "childs",
+        "children",
+        "childrens"
+      ],
+      "answer": 2,
+      "explanation": "child 的不规则复数是 children。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的复数形式。",
+      "sentence": "We visited three ___ in Japan.",
+      "translation": "我们在日本参观了三座城市。",
+      "options": [
+        "cities",
+        "citys",
+        "cityes",
+        "citties"
+      ],
+      "answer": 0,
+      "explanation": "以辅音字母 + y 结尾，y 改成 i 再加 -es：cities。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的复数形式。",
+      "sentence": "Look at those ___!",
+      "translation": "看那些鞋子！",
+      "options": [
+        "shoe",
+        "shoes",
+        "shoees",
+        "shoe's"
+      ],
+      "answer": 1,
+      "explanation": "those 后面的名词要用复数：shoes。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我的盘子里有三个西红柿。",
+      "options": [
+        "There are three tomato on my plate.",
+        "There is three tomatoes on my plate.",
+        "There are three tomatos on my plate.",
+        "There are three tomatoes on my plate."
+      ],
+      "answer": 3,
+      "explanation": "tomato 以 o 结尾要加 -es；three 后面用复数，动词用 are。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "很多人喜欢鱼。",
+      "options": [
+        "Many person likes fish.",
+        "Many people like fishes.",
+        "Many people like fish.",
+        "Much people like fish."
+      ],
+      "answer": 2,
+      "explanation": "people 是复数，fish 的复数形式不变。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Two mans are here.",
+        "I bought three apples.",
+        "She has two dogs."
+      ],
+      "answer": 0,
+      "explanation": "man 的复数是 men，应写成 Two men are here."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "He has many friends.",
+        "I need some informations.",
+        "The bus is late."
+      ],
+      "answer": 1,
+      "explanation": "information 是不可数名词，不能加 -s，应写成 some information。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": [
+        "The",
+        "children",
+        "like",
+        "the",
+        "toys."
+      ],
+      "alternatives": [],
+      "translation": "孩子们喜欢这些玩具。",
+      "explanation": "主语 children 是复数，动词用原形 like。"
+    }
+  ]
+}

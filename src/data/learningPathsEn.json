@@ -1,0 +1,550 @@
+[
+  {
+    "id": "en-voice",
+    "title": "Active & passive voice · 主动与被动",
+    "description": "Choose between active and passive, build the passive in every tense and use it the way formal English does.",
+    "icon": "bridge",
+    "units": [
+      {
+        "id": "u1",
+        "title": "The passive: is / was + V3",
+        "goal": "Turn simple present and past sentences into the passive.",
+        "steps": [
+          {
+            "id": "u1-g",
+            "type": "grammar",
+            "grammarId": "e3-passive-simple"
+          }
+        ]
+      },
+      {
+        "id": "u2",
+        "title": "The passive in every tense",
+        "goal": "Continuous, perfect, future and modal passives, with questions and negatives.",
+        "steps": [
+          {
+            "id": "u2-g",
+            "type": "grammar",
+            "grammarId": "e3-passive-all-tenses"
+          }
+        ]
+      },
+      {
+        "id": "u3",
+        "title": "Active or passive?",
+        "goal": "Decide which voice fits: unknown agent, focus, style.",
+        "steps": [
+          {
+            "id": "u3-g",
+            "type": "grammar",
+            "grammarId": "e3-active-vs-passive-choosing"
+          }
+        ]
+      },
+      {
+        "id": "u4",
+        "title": "Reporting passives & have something done",
+        "goal": "It is said that…, He is said to…, get your hair cut.",
+        "steps": [
+          {
+            "id": "u4-g",
+            "type": "grammar",
+            "grammarId": "e4-passive-reporting-causative"
+          }
+        ]
+      },
+      {
+        "id": "u5",
+        "title": "Impersonal passives in academic style",
+        "goal": "Write agentless, formal sentences.",
+        "steps": [
+          {
+            "id": "u5-g",
+            "type": "grammar",
+            "grammarId": "e6-impersonal-passive-structures"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "en-tenses",
+    "title": "Tenses step by step · 时态通关",
+    "description": "From the present simple to the perfect continuous forms – one tense at a time.",
+    "icon": "sprout",
+    "units": [
+      {
+        "id": "u1",
+        "title": "Present simple",
+        "goal": "Facts and routines.",
+        "steps": [
+          {
+            "id": "u1-g",
+            "type": "grammar",
+            "grammarId": "e1-present-simple"
+          }
+        ]
+      },
+      {
+        "id": "u2",
+        "title": "Present continuous",
+        "goal": "What is happening now.",
+        "steps": [
+          {
+            "id": "u2-g",
+            "type": "grammar",
+            "grammarId": "e1-present-continuous"
+          }
+        ]
+      },
+      {
+        "id": "u3",
+        "title": "Past simple",
+        "goal": "Finished events.",
+        "steps": [
+          {
+            "id": "u3-g",
+            "type": "grammar",
+            "grammarId": "e2-past-simple"
+          }
+        ]
+      },
+      {
+        "id": "u4",
+        "title": "Past continuous",
+        "goal": "Actions in progress in the past.",
+        "steps": [
+          {
+            "id": "u4-g",
+            "type": "grammar",
+            "grammarId": "e2-past-continuous"
+          }
+        ]
+      },
+      {
+        "id": "u5",
+        "title": "Present perfect",
+        "goal": "Experience and recent news.",
+        "steps": [
+          {
+            "id": "u5-g",
+            "type": "grammar",
+            "grammarId": "e2-present-perfect-intro"
+          }
+        ]
+      },
+      {
+        "id": "u6",
+        "title": "Present perfect or past simple?",
+        "goal": "for / since and finished vs unfinished time.",
+        "steps": [
+          {
+            "id": "u6-g",
+            "type": "grammar",
+            "grammarId": "e3-present-perfect-vs-past-simple"
+          }
+        ]
+      },
+      {
+        "id": "u7",
+        "title": "Present perfect continuous",
+        "goal": "Ongoing actions up to now.",
+        "steps": [
+          {
+            "id": "u7-g",
+            "type": "grammar",
+            "grammarId": "e3-present-perfect-continuous"
+          }
+        ]
+      },
+      {
+        "id": "u8",
+        "title": "Past perfect",
+        "goal": "The earlier of two past events.",
+        "steps": [
+          {
+            "id": "u8-g",
+            "type": "grammar",
+            "grammarId": "e3-past-perfect"
+          }
+        ]
+      },
+      {
+        "id": "u9",
+        "title": "Future continuous & perfect",
+        "goal": "will be doing, will have done.",
+        "steps": [
+          {
+            "id": "u9-g",
+            "type": "grammar",
+            "grammarId": "e4-future-continuous-perfect"
+          }
+        ]
+      },
+      {
+        "id": "u10",
+        "title": "Past perfect continuous",
+        "goal": "Ongoing actions before a past moment.",
+        "steps": [
+          {
+            "id": "u10-g",
+            "type": "grammar",
+            "grammarId": "e4-past-perfect-continuous"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "en-adverbs-adjectives",
+    "title": "Adverbs & adjectives · 副词与形容词",
+    "description": "Describe things and actions precisely: position, form, comparison and the typical adverb traps.",
+    "icon": "plane",
+    "units": [
+      {
+        "id": "u1",
+        "title": "Adjectives",
+        "goal": "Position and very / too / not very.",
+        "steps": [
+          {
+            "id": "u1-g",
+            "type": "grammar",
+            "grammarId": "e1-adjectives-basic"
+          }
+        ]
+      },
+      {
+        "id": "u2",
+        "title": "Adverbs of manner & frequency",
+        "goal": "quickly, always, usually – and where they go.",
+        "steps": [
+          {
+            "id": "u2-g",
+            "type": "grammar",
+            "grammarId": "e2-adverbs-manner-frequency"
+          }
+        ]
+      },
+      {
+        "id": "u3",
+        "title": "Adjective or adverb?",
+        "goal": "good / well, fast / hard, look / feel.",
+        "steps": [
+          {
+            "id": "u3-g",
+            "type": "grammar",
+            "grammarId": "e2-adjective-vs-adverb"
+          }
+        ]
+      },
+      {
+        "id": "u4",
+        "title": "Comparatives & superlatives",
+        "goal": "-er / -est, more / most, as … as.",
+        "steps": [
+          {
+            "id": "u4-g",
+            "type": "grammar",
+            "grammarId": "e2-comparatives-superlatives"
+          }
+        ]
+      },
+      {
+        "id": "u5",
+        "title": "Adverb types & placement",
+        "goal": "Manner, place, time, degree and sentence adverbs.",
+        "steps": [
+          {
+            "id": "u5-g",
+            "type": "grammar",
+            "grammarId": "e3-adverbs-types-placement"
+          }
+        ]
+      },
+      {
+        "id": "u6",
+        "title": "Advanced comparisons",
+        "goal": "the more … the more, far / slightly + comparative.",
+        "steps": [
+          {
+            "id": "u6-g",
+            "type": "grammar",
+            "grammarId": "e4-comparatives-advanced"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "en-conditionals",
+    "title": "Conditionals & wishes · 条件句与虚拟",
+    "description": "Real and unreal conditions from zero conditional to mixed forms and the subjunctive.",
+    "icon": "mountain",
+    "units": [
+      {
+        "id": "u1",
+        "title": "Zero & first conditional",
+        "goal": "If it rains, we will stay.",
+        "steps": [
+          {
+            "id": "u1-g",
+            "type": "grammar",
+            "grammarId": "e2-zero-first-conditional"
+          }
+        ]
+      },
+      {
+        "id": "u2",
+        "title": "Second conditional",
+        "goal": "If I had more time, I would…",
+        "steps": [
+          {
+            "id": "u2-g",
+            "type": "grammar",
+            "grammarId": "e3-second-conditional"
+          }
+        ]
+      },
+      {
+        "id": "u3",
+        "title": "Third & mixed conditionals",
+        "goal": "Regrets about the past.",
+        "steps": [
+          {
+            "id": "u3-g",
+            "type": "grammar",
+            "grammarId": "e4-third-and-mixed-conditionals"
+          }
+        ]
+      },
+      {
+        "id": "u4",
+        "title": "Wish & if only",
+        "goal": "I wish I were taller.",
+        "steps": [
+          {
+            "id": "u4-g",
+            "type": "grammar",
+            "grammarId": "e4-wish-if-only"
+          }
+        ]
+      },
+      {
+        "id": "u5",
+        "title": "The subjunctive",
+        "goal": "suggest that he be…, it is vital that…",
+        "steps": [
+          {
+            "id": "u5-g",
+            "type": "grammar",
+            "grammarId": "e5-subjunctive"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "en-clauses",
+    "title": "Clauses & participles · 从句与分词",
+    "description": "Join ideas: relative, noun and adverbial clauses, then participle clauses for a concise style.",
+    "icon": "bridge",
+    "units": [
+      {
+        "id": "u1",
+        "title": "Defining relative clauses",
+        "goal": "who, which, that, whose.",
+        "steps": [
+          {
+            "id": "u1-g",
+            "type": "grammar",
+            "grammarId": "e3-defining-relative-clauses"
+          }
+        ]
+      },
+      {
+        "id": "u2",
+        "title": "Non-defining relative clauses",
+        "goal": "Extra information in commas.",
+        "steps": [
+          {
+            "id": "u2-g",
+            "type": "grammar",
+            "grammarId": "e3-non-defining-relative-clauses"
+          }
+        ]
+      },
+      {
+        "id": "u3",
+        "title": "Noun clauses",
+        "goal": "that-clauses, wh-clauses and indirect questions.",
+        "steps": [
+          {
+            "id": "u3-g",
+            "type": "grammar",
+            "grammarId": "e4-noun-clauses"
+          }
+        ]
+      },
+      {
+        "id": "u4",
+        "title": "Adverbial clauses",
+        "goal": "Time, reason, purpose and result.",
+        "steps": [
+          {
+            "id": "u4-g",
+            "type": "grammar",
+            "grammarId": "e4-adverbial-clauses"
+          }
+        ]
+      },
+      {
+        "id": "u5",
+        "title": "Participle clauses",
+        "goal": "Having finished, I left.",
+        "steps": [
+          {
+            "id": "u5-g",
+            "type": "grammar",
+            "grammarId": "e4-participle-clauses"
+          }
+        ]
+      },
+      {
+        "id": "u6",
+        "title": "Absolute constructions",
+        "goal": "with + object + participle.",
+        "steps": [
+          {
+            "id": "u6-g",
+            "type": "grammar",
+            "grammarId": "e5-participle-absolute"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "en-modals",
+    "title": "Modal verbs · 情态动词",
+    "description": "Ability, obligation, probability and the finer shades of can, may, should and would.",
+    "icon": "music",
+    "units": [
+      {
+        "id": "u1",
+        "title": "can / can't",
+        "goal": "Ability and requests.",
+        "steps": [
+          {
+            "id": "u1-g",
+            "type": "grammar",
+            "grammarId": "e1-can-ability"
+          }
+        ]
+      },
+      {
+        "id": "u2",
+        "title": "must, have to, should",
+        "goal": "Obligation and advice.",
+        "steps": [
+          {
+            "id": "u2-g",
+            "type": "grammar",
+            "grammarId": "e2-modals-obligation"
+          }
+        ]
+      },
+      {
+        "id": "u3",
+        "title": "Probability",
+        "goal": "must be, might be, can't be.",
+        "steps": [
+          {
+            "id": "u3-g",
+            "type": "grammar",
+            "grammarId": "e3-modals-probability"
+          }
+        ]
+      },
+      {
+        "id": "u4",
+        "title": "Modals in the past",
+        "goal": "should have, could have, needn't have.",
+        "steps": [
+          {
+            "id": "u4-g",
+            "type": "grammar",
+            "grammarId": "e4-modals-past"
+          }
+        ]
+      },
+      {
+        "id": "u5",
+        "title": "Advanced modals",
+        "goal": "dare, ought to, be to, would rather.",
+        "steps": [
+          {
+            "id": "u5-g",
+            "type": "grammar",
+            "grammarId": "e5-modals-advanced"
+          }
+        ]
+      },
+      {
+        "id": "u6",
+        "title": "Modal nuances",
+        "goal": "shall / will, may / might, tentativeness.",
+        "steps": [
+          {
+            "id": "u6-g",
+            "type": "grammar",
+            "grammarId": "e6-modal-nuances"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "en-reported-phrasal",
+    "title": "Reported speech & phrasal verbs · 转述与短语动词",
+    "description": "Report what others said and master the most common phrasal verbs.",
+    "icon": "plane",
+    "units": [
+      {
+        "id": "u1",
+        "title": "Reported statements",
+        "goal": "Backshift and pronoun changes.",
+        "steps": [
+          {
+            "id": "u1-g",
+            "type": "grammar",
+            "grammarId": "e3-reported-statements"
+          }
+        ]
+      },
+      {
+        "id": "u2",
+        "title": "Reported questions & commands",
+        "goal": "asked if, told me to.",
+        "steps": [
+          {
+            "id": "u2-g",
+            "type": "grammar",
+            "grammarId": "e3-reported-questions-commands"
+          }
+        ]
+      },
+      {
+        "id": "u3",
+        "title": "Phrasal verbs",
+        "goal": "Separable and inseparable verbs.",
+        "steps": [
+          {
+            "id": "u3-g",
+            "type": "grammar",
+            "grammarId": "e3-phrasal-verbs-basics"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "id": "e3-passive-all-tenses",
+  "cefr": 3,
+  "title": "Passive voice in all tenses & modals · 各时态与情态动词的被动语态",
+  "tag": "all tenses",
+  "pattern": "Subject + be (+ being / been / will be / can be) + Past participle",
+  "summary": "被动语态可以与各种时态和情态动词组合：is being done、has been done、will be done、can be done。",
+  "wikiId": "passive-voice-rules",
+  "explanation": [
+    "被动语态的核心始终是 **be + V3**，变化的只是 be 的形式：一般现在时 is / are，一般过去时 was / were，进行时 is / are / was / were **being** + V3，完成时 has / have / had **been** + V3，将来时 will **be** + V3，情态动词后面则是 can / must / should **be** + V3。",
+    "进行时被动常用于描述“正在发生”的事：The bridge **is being repaired** this week.（这座桥本周正在维修）。完成时被动强调“已经完成”的结果：Many trees **have been cut down** in the park.（公园里不少树已经被砍掉了）。",
+    "将来时被动的结构是 will be + V3：The new library **will be opened** next spring. 情态动词的被动同理：This question **can be answered** in two minutes.（这道题两分钟内可以作答）。",
+    "否定句要把 not 放在 be 或情态动词之后，疑问句则把助动词或情态动词提到主语前：The windows **must not be opened** during the test. / **Will** the results **be announced** today? / **Has** the package **been sent**?",
+    "注意 be 的形式：进行时用 being，完成时用 been，两者不能混用；而 will、can、must 之后永远是 be 的原形。翻译时先确定动作的承受者，再选择合适的时态和情态动词。"
+  ],
+  "mistakes": [
+    "✗ The bridge is being build now. → ✓ The bridge is being built now. 过去分词 built 不能写成原形 build。",
+    "✗ The homework has been finish. → ✓ The homework has been finished. been 之后必须接过去分词，而不是动词原形。",
+    "✗ The results will be announce tomorrow. → ✓ The results will be announced tomorrow. 情态动词后的 be 之后同样要接过去分词。",
+    "✗ The car is being repairing. → ✓ The car is being repaired. being 之后接的是过去分词，不能用 -ing 形式。"
+  ],
+  "examples": [
+    { "text": "The bridge is being repaired this week.", "translation": "这座桥本周正在维修。", "note": "现在进行时的被动：is being + V3。" },
+    { "text": "Many trees have been cut down in the park.", "translation": "公园里有很多树已经被砍掉了。", "note": "现在完成时的被动：have been + V3。" },
+    { "text": "The new library will be opened next spring.", "translation": "新图书馆明年春天将会开放。" },
+    { "text": "This question can be answered in two minutes.", "translation": "这道题两分钟内就可以作答。", "note": "情态动词的被动：can be + V3。" },
+    { "text": "Will the results be announced today?", "translation": "结果今天会公布吗？", "note": "疑问句：把 will 提到主语之前。" },
+    { "text": "The windows must not be opened during the test.", "translation": "考试期间不准打开窗户。", "note": "must not 表示禁止。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的被动形式。",
+      "sentence": "The letters ___ by the secretary right now.",
+      "translation": "秘书现在正在打这些信件。",
+      "options": ["are typing", "will be typed", "are being typed", "typed"],
+      "answer": 2,
+      "explanation": "right now 表示正在进行，应使用 are being typed。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的被动形式。",
+      "sentence": "The results ___ next Friday.",
+      "translation": "结果将在下周五公布。",
+      "options": ["will announce", "will be announced", "are announced", "have been announced"],
+      "answer": 1,
+      "explanation": "next Friday 是将来时间，应使用 will be announced。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这些书已经被翻译成了十种语言。",
+      "options": [
+        "These books have been translated into ten languages.",
+        "These books have translated into ten languages.",
+        "These books are translated into ten languages.",
+        "These books were been translated into ten languages."
+      ],
+      "answer": 0,
+      "explanation": "“已经被翻译”是完成时被动语态：have been translated。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The meal is being cooked now.",
+        "The meal has been cooked already.",
+        "The meal can cooked by him."
+      ],
+      "answer": 2,
+      "explanation": "情态动词后要用 be + 过去分词，应改为 The meal can be cooked by him。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "problem", "can", "be", "solved", "easily."],
+      "alternatives": [],
+      "translation": "这个问题可以很容易地解决。",
+      "explanation": "情态动词 can 之后接 be + 过去分词 solved。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的被动形式。",
+      "sentence": "Will the package ___ tomorrow?",
+      "translation": "包裹明天会被送到吗？",
+      "options": ["be delivered", "delivered", "deliver", "be delivering"],
+      "answer": 0,
+      "explanation": "将来时被动疑问句：Will + 主语 + be + 过去分词 delivered。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这些照片已经被删除了。",
+      "options": [
+        "These photos have deleted.",
+        "These photos are deleting.",
+        "These photos were been deleted.",
+        "These photos have been deleted."
+      ],
+      "answer": 3,
+      "explanation": "“已经被删除”是完成时被动：have been deleted。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的被动形式。",
+      "sentence": "The new road ___ at the moment.",
+      "translation": "新公路目前正在修建。",
+      "options": ["is built", "has built", "will be built", "is being built"],
+      "answer": 3,
+      "explanation": "at the moment 表示正在进行，应使用 is being built。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The documents will be signed tomorrow.",
+        "The documents will be sign tomorrow.",
+        "The documents have been signed."
+      ],
+      "answer": 1,
+      "explanation": "will be 之后要接过去分词 signed，应改为 The documents will be signed tomorrow。"
+    }
+  ]
+}

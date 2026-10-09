@@ -1,0 +1,120 @@
+{
+  "id": "e3-used-to-would",
+  "cefr": 3,
+  "title": "Used to, would & be used to · 过去习惯与适应",
+  "tag": "used to",
+  "pattern": "Subject + used to + V (past habit)  ·  Subject + be used to + V-ing (accustomed)",
+  "summary": "used to 表示过去的习惯或状态（现在已不再如此）；be used to + -ing 表示“习惯于”，get used to 表示“逐渐适应”。",
+  "explanation": [
+    "**used to + 动词原形**表示过去经常做某事，或过去一直是某种状态，现在已经不再如此：I **used to live** in a small town.（我以前住在一个小镇，现在已经不住了）。否定和疑问要借助 did，并且 use 不加 d：I **didn't use to** ... / **Did** you **use to** ...?",
+    "**would** 也可以表示过去的习惯，但只用于动作，不能用于过去的状态：When I was a child, we **would play** outside every evening.（我小时候，我们每天晚上都在外面玩）。描述过去的状态（如 be 动词）时只能用 used to。",
+    "**be used to + -ing（或名词）**表示“习惯于”，描述现在的状态，此时 used 是形容词，前面的 be 动词要随主语变化：I **am used to getting up** early.（我习惯早起）。它与 used to + 动词原形的意思完全不同，不能混用。",
+    "**get used to + -ing（或名词）**强调“逐渐适应”的过程：It took me a month to **get used to** the cold winters here.（我花了一个月才适应这里寒冷的冬天）。",
+    "中文的“习惯了”在英语里要区分三种情况：过去的习惯、现在的习惯、适应的过程。翻译时先问自己：说的是过去已经结束的习惯吗？还是现在已经习以为常？这是中国学生最容易混淆的地方。"
+  ],
+  "mistakes": [
+    "✗ I use to play basketball every day. → ✓ I used to play basketball every day. used to 中的 used 要加 -d，表示过去的习惯。",
+    "✗ I am used to get up early. → ✓ I am used to getting up early. be used to 后面要接 -ing 形式或名词，不接动词原形。",
+    "✗ My grandfather would be a teacher. → ✓ My grandfather used to be a teacher. 表示过去的状态时不能用 would，要用 used to。",
+    "✗ Did you used to smoke? → ✓ Did you use to smoke? 疑问句中 did 之后要接动词原形 use，不能再加 -d。"
+  ],
+  "examples": [
+    { "text": "I used to live in a small town when I was young.", "translation": "我年轻的时候住在一个小镇。" },
+    { "text": "We would visit my grandparents every summer.", "translation": "我们每年夏天都去看望外公外婆。", "note": "would 表示过去的动作习惯。" },
+    { "text": "There used to be a river behind our house.", "translation": "我们房子后面以前有一条河。", "note": "描述过去的状态，只能用 used to。" },
+    { "text": "She is used to working late.", "translation": "她已经习惯加班了。", "note": "be used to + -ing：现在的习惯。" },
+    { "text": "It took me a while to get used to the noise.", "translation": "我花了一段时间才习惯这种噪音。" },
+    { "text": "Did you use to play the piano?", "translation": "你以前弹过钢琴吗？" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I ___ go to the gym every morning, but now I don't have time.",
+      "translation": "我以前每天早上都去健身房，但现在没有时间了。",
+      "options": ["used to", "am used to", "use to", "was used"],
+      "answer": 0,
+      "explanation": "表示过去的习惯，用 used to + 动词原形。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "She is not ___ speaking in public yet.",
+      "translation": "她还不习惯在公众场合讲话。",
+      "options": ["use to", "using to", "used to", "use"],
+      "answer": 2,
+      "explanation": "表示“习惯于”，用 be used to + -ing（speaking）。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们以前每个周末都去公园。",
+      "options": [
+        "We are used to go to the park every weekend.",
+        "We used to going to the park every weekend.",
+        "We use to go to the park every weekend.",
+        "We used to go to the park every weekend."
+      ],
+      "answer": 3,
+      "explanation": "过去的习惯用 used to + 动词原形 go。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I used to live in Beijing.",
+        "She is used to cooking every day.",
+        "My father would be a driver when he was young."
+      ],
+      "answer": 2,
+      "explanation": "would 不能用于过去的状态，应改为 My father used to be a driver when he was young。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["There", "used", "to", "be", "a", "small", "shop", "here."],
+      "alternatives": [],
+      "translation": "这里以前有一家小店。",
+      "explanation": "There used to be 表示过去存在的事物。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "After a few weeks, I got ___ the new office.",
+      "translation": "几周之后，我适应了新办公室。",
+      "options": ["use to", "used with", "used to", "using"],
+      "answer": 2,
+      "explanation": "get used to + 名词，表示逐渐适应。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "When I was a child, we ___ fishing in the lake every summer.",
+      "translation": "我小时候，我们每年夏天都去湖里钓鱼。",
+      "options": ["would be", "use to go", "used go", "would go"],
+      "answer": 3,
+      "explanation": "表示过去的动作习惯，可以用 would go。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我已经习惯了这里的生活。",
+      "options": [
+        "I am used to the life here.",
+        "I used to the life here.",
+        "I used to living here.",
+        "I use to the life here."
+      ],
+      "answer": 0,
+      "explanation": "表示现在已经习惯，用 am used to + 名词 the life。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["I", "used", "to", "have", "long", "hair", "when", "I", "was", "young."],
+      "alternatives": [],
+      "translation": "我年轻的时候留过长发。",
+      "explanation": "used to have 表示过去的状态，when 从句说明时间。"
+    }
+  ]
+}

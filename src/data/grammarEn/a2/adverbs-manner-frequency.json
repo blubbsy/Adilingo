@@ -1,0 +1,113 @@
+{
+  "id": "e2-adverbs-manner-frequency",
+  "cefr": 2,
+  "title": "Adverbs of manner & frequency · 方式与频率副词",
+  "tag": "adverbs",
+  "pattern": "Subject + adverb of frequency + verb  Subject + verb + adverb of manner",
+  "summary": "方式副词修饰动词（多为 -ly 形式）放在句末；频率副词 always、never 等放在实义动词之前。",
+  "explanation": [
+    "**副词**用来修饰动词、形容词或其他副词。**方式副词**说明动作“怎么做”，大多由形容词加 **-ly** 构成：quick → **quickly**，careful → **carefully**。中文“她流利地说英语”里的“地”，在英语中通常对应 -ly 副词：She speaks English **fluently**.",
+    "有些方式副词不是 -ly 形式，需要单独记忆。最常见的是 good 的副词形式 **well**：She speaks English **well**，不能说 speaks English good。fast、hard、early 的副词形式与形容词相同，不加 -ly，详见形容词与副词一课。",
+    "**频率副词**表示动作“多久一次”，包括 always、usually、often、sometimes、never。它们通常放在**实义动词之前**，放在 be 动词之后：I **always** walk to school. / She is **never** late. 如果句子里有助动词（如 can、will、have），频率副词放在助动词之后：I can **often** see the sea from here.",
+    "**never** 本身已经表示否定，所以句子里不能再加 not：I **never** eat meat，不能说 I don't never eat meat。这是中文“从来不”的直接对应，学习时要注意不要双重否定。在问“多久一次”时，常用 How often 提问，回答时使用频率副词或 once a week 这样的短语。",
+    "**方式副词的位置**通常在动词之后或句末，不能插在动词和宾语之间：She speaks English **fluently**，不能说 She speaks fluently English。与中文语序相似，但英语的句子结构要求更固定。"
+  ],
+  "mistakes": [
+    "✗ He speaks English good. → ✓ He speaks English well. 修饰动词要用副词 well，不用形容词 good。",
+    "✗ I go always to school. → ✓ I always go to school. 频率副词放在实义动词之前。",
+    "✗ I don't never eat meat. → ✓ I never eat meat. never 已经表示否定，不能再和 not 连用。",
+    "✗ She sings beautiful. → ✓ She sings beautifully. 修饰动词 sing 要用副词 beautifully。"
+  ],
+  "examples": [
+    { "text": "She speaks English fluently.", "translation": "她英语说得很流利。", "note": "方式副词放在动词之后。" },
+    { "text": "He drove carefully in the rain.", "translation": "他在雨中小心地开车。" },
+    { "text": "You did very well in the test.", "translation": "你考试考得很好。", "note": "well 是 good 的副词形式。" },
+    { "text": "We usually have lunch at noon.", "translation": "我们通常中午吃午饭。", "note": "频率副词放在 have 之前。" },
+    { "text": "My brother is always late for school.", "translation": "我弟弟上学总是迟到。", "note": "be 动词之后、形容词之前。" },
+    { "text": "I never watch TV before breakfast.", "translation": "早饭前我从不看电视。", "note": "never 本身表示否定，不加 not。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的副词。",
+      "sentence": "She ___ answers the questions in class.",
+      "translation": "她总是在课堂上回答问题。",
+      "options": ["always", "is always", "always is", "does always"],
+      "answer": 0,
+      "explanation": "频率副词 always 放在实义动词 answers 之前。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的副词。",
+      "sentence": "He can play the piano very ___.",
+      "translation": "他钢琴弹得非常好。",
+      "options": ["good", "well", "best", "goodly"],
+      "answer": 1,
+      "explanation": "修饰动词 play 要用副词 well。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的副词。",
+      "sentence": "We ___ go to the cinema on Friday nights.",
+      "translation": "我们周五晚上通常去电影院。",
+      "options": ["usual", "is usually", "usually", "usualy"],
+      "answer": 2,
+      "explanation": "频率副词 usually 放在实义动词 go 之前。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的副词。",
+      "sentence": "Please write your name ___.",
+      "translation": "请清楚地写下你的名字。",
+      "options": ["clearly", "clear", "clearer", "more clear"],
+      "answer": 0,
+      "explanation": "修饰动词 write 要用副词 clearly。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他总是迟到。",
+      "options": ["He late always.", "He is late always.", "He is always late.", "He always are late."],
+      "answer": 2,
+      "explanation": "频率副词 always 放在 be 动词之后、形容词之前：is always late。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我从来不喝咖啡。",
+      "options": ["I don't never drink coffee.", "I never drink coffee.", "I drink never coffee.", "I never not drink coffee."],
+      "answer": 1,
+      "explanation": "never 已表示否定，直接放在实义动词之前，不加 not。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["She plays tennis well.", "She sings beautiful.", "He is never late."],
+      "answer": 1,
+      "explanation": "修饰动词要用副词，应写成 She sings beautifully."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I don't never lie.", "We often eat out.", "They arrived safely."],
+      "answer": 0,
+      "explanation": "never 和 not 不能同时使用，应写成 I never lie."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["She", "always", "walks", "to", "school."],
+      "alternatives": [],
+      "translation": "她总是步行去学校。",
+      "explanation": "频率副词 always 放在实义动词 walks 之前。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["They", "speak", "English", "very", "quickly."],
+      "alternatives": [],
+      "translation": "他们说英语说得很快。",
+      "explanation": "方式副词 quickly 放在动词和宾语之后。"
+    }
+  ]
+}

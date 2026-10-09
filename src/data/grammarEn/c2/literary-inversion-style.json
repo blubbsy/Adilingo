@@ -1,0 +1,131 @@
+{
+  "id": "e6-literary-inversion-style",
+  "cefr": 6,
+  "title": "Stylistic inversion and fronting · 倒装与前置（书面与文学语体）",
+  "tag": "inversion",
+  "pattern": "Never + auxiliary + subject + verb  ·  Adverb phrase + verb + subject",
+  "summary": "句首放入否定词或表示方式、地点的状语时，要把助动词或动词提到主语前面，使句子更正式、更有修辞效果。",
+  "wikiId": "inverted-sentences",
+  "explanation": [
+    "英语的普通语序是「主语 + 谓语」，例如 I have never seen such a mess.。但在书面语、文学作品、正式演讲和评论中，作者常把某些词语移到句首以加强语气，这就是**倒装**（inversion）或**前置**（fronting）。Never have I seen such a mess. 的意思相同，语气却更郑重。",
+    "最常见的一类是**否定词或否定短语**位于句首，例如 never、rarely、seldom、hardly、little、not only、no sooner、under no circumstances。此时要把助动词（do / does / did、have / has / had、be）放到主语前面：Seldom **does** he complain. 如果原句没有助动词，先借助 do / does / did：He seldom complains → Seldom **does** he complain.",
+    "另一类是**方位或方向副词**前置，多用于描写场景，动词通常是不及物动词，且主语是名词时才倒装：Down came the rain. / Into the room walked a tall stranger. 如果主语是人称代词，则不倒装：Here **he** comes. 而不是 Here comes he.",
+    "还有 only + 时间状语 + 倒装句 的结构，表示“直到……才……”：Only after the funeral **did** she realise how much he had meant to her. 另外，hardly / scarcely … when 表示“刚一……就……”，要用 had + 过去分词倒装：Hardly **had** we arrived when the phone rang. Hence、Thus 放在句首时后面通常不倒装，而是接名词短语：Hence the importance of early diagnosis.",
+    "使用时要注意语体：倒装主要见于书面语和文学、演讲、正式评论，日常口语中很少这样说，写作中也不宜滥用，否则会显得做作。中文没有这种语序变化，所以中国学生最容易漏掉助动词，或者把倒装和普通语序混在一起。"
+  ],
+  "mistakes": [
+    "✗ Never I have seen such a chaotic meeting. → ✓ Never have I seen such a chaotic meeting. 否定副词 never 位于句首时，助动词要提到主语前面。",
+    "✗ Not only he apologised, but he also paid for the damage. → ✓ Not only did he apologise, but he also paid for the damage. 句首是 not only 时，后面的主语与助动词同样要倒装，原句没有助动词就补上 did。",
+    "✗ Hardly had we arrived, the phone rang. → ✓ Hardly had we arrived when the phone rang. hardly … when 是固定搭配，when 不能省略，否则句子不完整。"
+  ],
+  "examples": [
+    { "text": "Down came the rain, and the match was abandoned.", "translation": "大雨倾盆而下，比赛被取消了。", "note": "方向副词 down 前置，主语是名词 the rain，所以动词 came 在主语前。" },
+    { "text": "Never have I seen such a chaotic meeting.", "translation": "我从没见过如此混乱的会议。", "note": "否定副词 never 前置，倒装。" },
+    { "text": "Hardly had we arrived when the phone rang.", "translation": "我们刚到，电话就响了。" },
+    { "text": "Not only did the company cut costs, but it also improved quality.", "translation": "公司不但削减了成本，还提高了质量。" },
+    { "text": "Only after the funeral did she realise how much he had meant to her.", "translation": "直到葬礼之后，她才意识到他对自己有多重要。", "note": "only + 状语从句前置，主句倒装。" },
+    { "text": "Seldom does a novel capture everyday life so faithfully.", "translation": "很少有小说能如此真实地描绘日常生活。", "note": "原句 A novel seldom captures… 需借助 does 才能倒装。" },
+    { "text": "Hence the importance of clear communication in any team.", "translation": "这就是为什么任何团队都需要清晰的沟通。", "note": "hence 后接名词短语，没有动词，无需倒装。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "___ have I heard such nonsense.",
+      "translation": "我从没听过这么荒唐的话。",
+      "options": ["Never I", "Not never", "Never", "Never has"],
+      "answer": 2,
+      "explanation": "句首的 Never 是否定副词，后面要倒装：Never have I heard…。其余选项都会破坏倒装结构。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Little ___ she know at the time that the letter was a forgery.",
+      "translation": "当时她根本不知道那封信是伪造的。",
+      "options": ["does", "was", "had", "did"],
+      "answer": 3,
+      "explanation": "Little 位于句首表示否定，要倒装；语境是过去，所以用 did：Little did she know…。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Hardly ___ we arrived when the phone rang.",
+      "translation": "我们刚到，电话就响了。",
+      "options": ["were", "did", "is", "had"],
+      "answer": 3,
+      "explanation": "hardly … when 结构要用 had + 过去分词倒装：Hardly had we arrived…。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "直到演出结束，他才意识到自己错了。",
+      "options": [
+        "Did only after the show had ended he realise he was wrong.",
+        "Only after the show had ended did he realise he was wrong.",
+        "Only after the show had ended did he realised he was wrong.",
+        "Only after the show had ended he was realising he was wrong."
+      ],
+      "answer": 1,
+      "explanation": "Only 短语放在句首时，主句要倒装：did he realise。第三句 realised 形式错误，第四句 was realising 意思也不对。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "很少有小说能如此真实地描写日常生活。",
+      "options": [
+        "Seldom a novel does capture everyday life so faithfully.",
+        "Seldom does a novel captures everyday life so faithfully.",
+        "Seldom does a novel capture everyday life so faithfully.",
+        "A novel seldom does capture everyday life so faithful."
+      ],
+      "answer": 2,
+      "explanation": "Seldom 置于句首，后接 does + 主语 + 动词原形；副词应为 faithfully，不能用形容词 faithful。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Little did they expect such a warm welcome.",
+        "Never I have seen such a chaotic meeting.",
+        "Hardly had she sat down when the bell rang."
+      ],
+      "answer": 1,
+      "explanation": "Never 位于句首时要倒装，应为 Never have I seen such a chaotic meeting."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Under no circumstances should the door be left open.",
+        "Rarely does a day pass without some news.",
+        "Not only he apologised, but he also paid for the damage."
+      ],
+      "answer": 2,
+      "explanation": "Not only 位于句首时，后面要倒装：Not only did he apologise…。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Down", "came", "the", "rain,", "and", "the", "match", "was", "abandoned."],
+      "alternatives": [],
+      "translation": "大雨倾盆而下，比赛被取消了。",
+      "explanation": "方位副词 down 前置，动词 came 放在名词主语 the rain 之前。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Hardly", "had", "we", "arrived", "when", "the", "phone", "rang."],
+      "alternatives": [],
+      "translation": "我们刚到，电话就响了。",
+      "explanation": "hardly 位于句首，助动词 had 提到主语 we 之前，when 从句紧随其后。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Seldom", "does", "he", "complain", "about", "the", "food."],
+      "alternatives": [],
+      "translation": "他很少抱怨饭菜。",
+      "explanation": "否定副词 seldom 前置，原句 He seldom complains 需借助 does 倒装。"
+    }
+  ]
+}

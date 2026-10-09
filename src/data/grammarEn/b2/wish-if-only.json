@@ -1,0 +1,146 @@
+{
+  "id": "e4-wish-if-only",
+  "cefr": 4,
+  "title": "Wishes with wish and if only · 表达愿望：wish 与 if only",
+  "tag": "wish/if only",
+  "pattern": "wish + past simple (现在)  ·  wish + past perfect (过去)  ·  wish + would + V (希望别人/事物改变)",
+  "summary": "wish 和 if only 表达与现实相反的愿望：说现在用过去式，说过去用过去完成式，希望别人改变用 would。",
+  "wikiId": "conditionals-and-subjunctive",
+  "explanation": [
+    "**wish** 和 **if only** 都用来表达“与现实相反的愿望”，中文常说“真希望……”“要是……就好了”。if only 语气更强烈、更带感情，后面的结构与 wish 相同，只是位置不同：I wish I **could** swim. = If only I **could** swim!",
+    "**谈论现在做不到的事**，用 wish + 一般过去时：I wish I **knew** the answer.（我真希望知道答案。）be 动词统一用 were：I wish I **were** taller. 这里的过去式并不表示过去，而是表示“与现实不符”。",
+    "**谈论过去的遗憾**，用 wish + 过去完成时（had + 过去分词）：I wish I **had listened** to my parents.（我真希望当时听了父母的话。）中文说“当时”，英语就要把 wish 后面的动作推到更早的过去。",
+    "**希望别人或事物改变**，用 wish + would + 动词原形：I wish you **would take** this more seriously.（我真希望你能更认真地对待这件事。）注意：如果主语是 I，通常不用 would 表示自己的愿望（不要说 I wish I would…）；但可以说 I wish it would stop raining，表示希望天气改变。",
+    "与中文不同，英语的 wish 后面不能直接跟将来时：不要说 I wish it will stop。另外，wish 表示“希望能做到的事”时用 hope：I hope it will stop raining.（我希望雨会停。）两者语气不同，要根据“是否与现实相反”来选择。"
+  ],
+  "mistakes": [
+    "✗ I wish I didn't go to the party yesterday. → ✓ I wish I hadn't gone to the party yesterday. 对过去的遗憾要用过去完成式 hadn't gone，不能用 didn't go。",
+    "✗ I wish I can speak French. → ✓ I wish I could speak French. 表示现在做不到的愿望，wish 后面要用过去式 could，而不是 can。",
+    "✗ I wish it will stop raining. → ✓ I wish it would stop raining. 中文“真希望雨停”容易直译成 will，但 wish 后面应该用 would，而且不能用 will。",
+    "✗ I wish I would be taller. → ✓ I wish I were taller. 说自己做不到的事时，wish 后面用 were / could，不用 would。"
+  ],
+  "examples": [
+    { "text": "I wish I knew how to play the piano.", "translation": "我真希望会弹钢琴。", "note": "现在不会弹，用过去式 knew。" },
+    { "text": "I wish I had listened to my parents.", "translation": "我真希望当时听了父母的话。", "note": "过去的遗憾，用 had + 过去分词。" },
+    { "text": "If only it would stop raining!", "translation": "要是雨能停就好了！", "note": "if only 语气更强烈，would 表示希望事情改变。" },
+    { "text": "I wish you would take this more seriously.", "translation": "我真希望你能更认真地对待这件事。", "note": "wish + would 表达对他人的不满或期待。" },
+    { "text": "She wishes she had not said such a thing to her boss.", "translation": "她希望自己没有对老板说那种话。" },
+    { "text": "If only we had booked the tickets earlier!", "translation": "要是我们早点订票就好了！" },
+    { "text": "I wish I were living closer to my family.", "translation": "我真希望自己住得离家人近一些。", "note": "wish 后面的进行时表示现在的状态与愿望相反。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I wish I ___ the answer to that question.",
+      "translation": "我真希望知道那个问题的答案。",
+      "options": ["knew", "know", "would know", "have known"],
+      "answer": 0,
+      "explanation": "表示现在的遗憾用 wish + 过去式 knew。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I wish I ___ more time to prepare for the presentation yesterday.",
+      "translation": "我真希望昨天准备演示时有更多时间。",
+      "options": ["have", "would have", "had", "had had"],
+      "answer": 3,
+      "explanation": "yesterday 指过去，wish 后面要用过去完成式 had had（have 的过去分词是 had）。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I wish you ___ talking so loudly in the library.",
+      "translation": "我真希望你在图书馆别大声说话。",
+      "options": ["will stop", "would stop", "stop", "to stop"],
+      "answer": 1,
+      "explanation": "希望别人改变用 wish + would + 动词原形。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "If only I ___ my passport with me when I flew to Paris.",
+      "translation": "要是我去巴黎时带了护照就好了。",
+      "options": ["had brought", "brought", "would bring", "have brought"],
+      "answer": 0,
+      "explanation": "if only 表达过去的遗憾，要用过去完成式 had brought。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我真希望我没有在会议上说那句话。",
+      "options": [
+        "I wish I didn't say that at the meeting.",
+        "I wish I hadn't said that at the meeting.",
+        "I wish I wouldn't say that at the meeting.",
+        "I wish I haven't said that at the meeting."
+      ],
+      "answer": 1,
+      "explanation": "对过去行为的遗憾用 wish + hadn't said。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我真希望明天能下雪。",
+      "options": [
+        "I wish it would snow tomorrow.",
+        "I wish it will snow tomorrow.",
+        "I wish it snow tomorrow.",
+        "I wish it to snow tomorrow."
+      ],
+      "answer": 0,
+      "explanation": "wish 后面不能用 will；表示希望天气等事物有变化时用 would + 动词原形。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "要是我当初没有辞职就好了。",
+      "options": [
+        "If only I didn't quit my job.",
+        "If only I haven't quit my job.",
+        "If only I wouldn't quit my job.",
+        "If only I hadn't quit my job."
+      ],
+      "answer": 3,
+      "explanation": "“当初”指过去，if only 后面用过去完成式 hadn't quit。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I wish I had studied harder for the test.",
+        "I wish I can speak three languages.",
+        "If only I had listened to his advice."
+      ],
+      "answer": 1,
+      "explanation": "wish 表示现在的愿望要用 could，不能用 can，应写成 I wish I could speak three languages。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I wish I would be taller.",
+        "She wishes she had not missed the train.",
+        "We wish we could go to the beach today."
+      ],
+      "answer": 0,
+      "explanation": "说自己的外貌等状态时，wish 后面用 were，不能用 would：I wish I were taller."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["I", "wish", "I", "had", "stayed", "at", "home", "last", "night."],
+      "alternatives": [],
+      "translation": "我真希望昨晚待在家里。",
+      "explanation": "表示过去的遗憾：wish + 主语 + had + 过去分词。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["If", "only", "she", "would", "listen", "to", "me", "for", "once."],
+      "alternatives": [],
+      "translation": "要是她能听我一次就好了。",
+      "explanation": "if only 后面接 would + 动词原形，表示希望别人改变。"
+    }
+  ]
+}

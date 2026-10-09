@@ -6,7 +6,7 @@ import { useSpeech } from './utils/speech';
 import { buildSession, effectiveStreak, recordReview } from './utils/srsEngine';
 import { newlyUnlocked, type Badge } from './utils/analytics';
 import { loadLibrary, vocabForCurriculum, type VocabLibrary } from './data/vocab';
-import { ALL_VIEW_IDS, courseVars, fallbackView, getCourseConfig, isViewAvailable, languageCourses, type CourseId, type ViewId } from './data/courses';
+import { ALL_VIEW_IDS, courseVars, effectiveCurriculum, fallbackView, getCourseConfig, isViewAvailable, languageCourses, type CourseId, type ViewId } from './data/courses';
 import { parseDomainCourse } from './data/domains';
 import { CourseCatalogue } from './components/CourseCatalogue';
 import { mobileNavItemsFor, navItemsFor, type NavItem } from './utils/navigation';
@@ -18,8 +18,6 @@ import { Dictionary } from './components/Dictionary';
 import { TopicTraining } from './components/TopicTraining';
 import { SettingsModal } from './components/SettingsModal';
 import { SyncModal } from './components/SyncModal';
-import { EnglishGrammarGuide } from './components/EnglishGrammarGuide';
-import { EnglishLearningHub } from './components/EnglishLearningHub';
 import { IrregularVerbsTrainer } from './components/IrregularVerbsTrainer';
 import { isUiLanguage, type UiLanguage } from './i18n';
 import { I18nContext, createI18n, useDocumentLanguage, useLoadedLanguage } from './i18n/react';
@@ -27,7 +25,7 @@ import { LanguageMenu } from './components/LanguageMenu';
 import { describeMessage } from './i18n/errors';
 import { badgeTitle } from './utils/badgeText';
 import type { CardResult } from './components/ReviewCard';
-import { GrammarHub } from './grammar';
+import { GrammarHub, presetGrammarTab } from './grammar';
 import {
   getStoredSyncKey,
   setStoredSyncKey,
@@ -40,9 +38,11 @@ type View = ViewId | 'study';
 type NavView = ViewId;
 const NAV_IDS: NavView[] = ALL_VIEW_IDS;
 
-/** "#/dictionary" → "dictionary"; anything unknown → home. */
+/** "#/dictionary" → "dictionary"; anything unknown → home (the old "#/grammar" bookmark opens the learning screen). */
 function viewFromHash(): NavView {
-  const id = window.location.hash.replace(/^#\/?/, '') as NavView;
+  const raw = window.location.hash.replace(/^#\/?/, '');
+  if (raw === 'grammar') window.history.replaceState(null, '', '#/learn');
+  const id = (raw === 'grammar' ? 'learn' : raw) as NavView;
   return NAV_IDS.includes(id) ? id : 'home';
 }
 
@@ -257,7 +257,7 @@ export default function App() {
     [activeCourse, update],
   );
 
-  const curriculum = state.settings.curriculum;
+  const curriculum = effectiveCurriculum(activeCourse, state.settings.curriculum);
   const vocab = useMemo(() => (library ? vocabForCurriculum(library, curriculum) : []), [library, curriculum]);
   // Show the app once state, vocabulary and the interface language are ready; later language switches never blank the screen
   const booted = useRef(false);
@@ -398,30 +398,19 @@ export default function App() {
             }
           />
         ) : null;
-      case 'grammar':
-        return <EnglishGrammarGuide speech={speech} onOpenIrregularVerbs={() => navigate('irregular')} />;
       case 'irregular':
-        return <IrregularVerbsTrainer speech={speech} onBack={() => navigate('home')} />;
+        return <IrregularVerbsTrainer speech={speech} onBack={() => navigate('learn')} />;
       case 'learn':
-        if (courseConfig.track === 'english') {
-          return (
-            <EnglishLearningHub
-              vocab={vocab}
-              state={state}
-              speech={speech}
-              onStartVocabSession={startSession}
-              onNavigate={(v) => navigate(v as NavView)}
-            />
-          );
-        }
         return (
           <GrammarHub
+            course={activeCourse}
             vocab={vocab}
             progress={state.progress}
             colorTones={state.settings.colorTones}
             speech={speech}
             speechRate={state.settings.speechRate}
             onStartVocabSession={startSession}
+            onOpenIrregularVerbs={() => navigate('irregular')}
             curriculum={curriculum}
           />
         );
@@ -449,7 +438,10 @@ export default function App() {
             onStart={startSession}
             onNavigate={navigate}
             onUpdateState={(ns) => update(() => ns)}
-            onOpenGrammarGuide={() => navigate('grammar')}
+            onOpenGrammarGuide={() => {
+              presetGrammarTab('wiki');
+              navigate('learn');
+            }}
             onOpenIrregularVerbs={() => navigate('irregular')}
           />
         );

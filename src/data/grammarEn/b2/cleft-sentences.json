@@ -1,0 +1,136 @@
+{
+  "id": "e4-cleft-sentences",
+  "cefr": 4,
+  "title": "Cleft sentences · 分裂句（强调句）",
+  "tag": "It was…that",
+  "pattern": "It is/was + emphasised part + that/who + rest  ·  What + clause + is + emphasised part",
+  "summary": "分裂句用 It is/was … that 或 What … is 把想强调的部分突出出来，相当于中文的“是……的”或“……的是……”。",
+  "explanation": [
+    "**分裂句**是把句子中想强调的部分单独放进一个 **It is / was … that（或 who、which）** 结构里。例如普通句 My sister broke the vase yesterday. 可以强调不同部分：**It was my sister who** broke the vase.（是我妹妹打破了花瓶。）**It was yesterday that** my sister broke the vase.（是昨天，我妹妹打破了花瓶。）中文常用“是……的”来强调，英语则靠 it be … that 结构。",
+    "**强调对象决定连接词**：强调人用 who（或 that），强调物、时间、地点用 that（或 which、when、where 在某些情况下也可以）：It was **in the park that** we first met.（我们是在公园里第一次见面的。）强调的部分可以是主语、宾语、时间或地点，中间的动词形式不随强调的成分改变，而是要和 it 后面的 be 动词保持一致，并跟随原句的时态。",
+    "**What … is 结构** 也能强调：What I need **is** a quiet room to study.（我需要的是一个安静的学习房间。）前半句 what 从句作主语，后面的 be 动词 is 与后面的强调成分有时需要一致，但在此类句子中，单数是 is，复数则是 are，要看强调部分是复数还是单数：What I want **are** new shoes.（我想要的是新鞋。）",
+    "学习者常见的问题是：把分裂句的结构写成两个句子，或在 that 后面再加一个宾语代词。例如 It was the book that I bought it yesterday. 中，it 是多余的；正确的写法是 It was the book that I bought yesterday.（我昨天买的是这本书。）",
+    "如果要强调的是对象的否定，常用 not … but 或 not … but rather 来形成对比：It was the teacher, not the students, who chose the topic.（选这个题目的是老师，不是学生。）分裂句在口语和书面中都很常用，能让信息的重心更清楚，但不要滥用，否则句子会显得冗长。"
+  ],
+  "mistakes": [
+    "✗ It was the book that I bought it yesterday. → ✓ It was the book that I bought yesterday. that 从句中已经有了宾语的位置，不要再加代词 it。",
+    "✗ It is my sister who broke the vase yesterday. → ✓ It was my sister who broke the vase yesterday. 分裂句中的 be 动词要和原句的时态一致，昨天的事用 was。",
+    "✗ It was in the park that happened the accident. → ✓ It was in the park that the accident happened. 强调地点后，that 从句仍然是正常的主谓语序，主语 the accident 不能省略。",
+    "✗ It is Tom who are coming tonight. → ✓ It is Tom who is coming tonight. who 从句的动词要与强调的人（Tom）保持单数一致，用 is。"
+  ],
+  "examples": [
+    { "text": "It was my brother who cooked dinner last night.", "translation": "昨晚做饭的是我弟弟。" },
+    { "text": "It was in 1998 that the company was founded.", "translation": "这家公司是1998年成立的。" },
+    { "text": "What I need most is a quiet place to study.", "translation": "我最需要的是一个安静的学习场所。" },
+    { "text": "It was the teacher, not the students, who chose the topic.", "translation": "选这个题目的是老师，而不是学生。", "note": "not … but 结构用来对比。" },
+    { "text": "What surprised me was how calm she remained.", "translation": "让我吃惊的是她竟然如此镇定。" },
+    { "text": "It was on the train that I lost my phone.", "translation": "我是在火车上丢了手机的。" },
+    { "text": "It is the taste that people remember, not the price.", "translation": "人们记住的是味道，而不是价格。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "It was in the park ___ we first met.",
+      "translation": "我们是在公园第一次见面的。",
+      "options": ["what", "who", "that", "whom"],
+      "answer": 2,
+      "explanation": "强调地点用 that 引导强调句的从句。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "It was Anna ___ won the prize last year.",
+      "translation": "去年赢得奖项的是安娜。",
+      "options": ["who", "which", "what", "whom"],
+      "answer": 0,
+      "explanation": "强调的是人，后面用 who 引导从句，作主语。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "What I need ___ a quiet room to study in.",
+      "translation": "我需要的是一个安静的学习房间。",
+      "options": ["are", "is", "be", "were"],
+      "answer": 1,
+      "explanation": "强调的是单数名词 a quiet room，所以用 is。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "是我妹妹打破了那只花瓶。",
+      "options": [
+        "It is my sister who broke the vase.",
+        "It was my sister whom broke the vase.",
+        "My sister was who broke the vase.",
+        "It was my sister who broke the vase."
+      ],
+      "answer": 3,
+      "explanation": "事件发生在过去，it 后面用 was；强调人用 who。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我需要的是更多的时间，而不是更多的钱。",
+      "options": [
+        "What I need are more time, not more money.",
+        "What I need is more time, not more money.",
+        "What I need is more times, not more money.",
+        "It is more time what I need, not more money."
+      ],
+      "answer": 1,
+      "explanation": "What 从句后用 is，time 是不可数名词，不加 s。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "是在那家咖啡馆里，我第一次遇见了她。",
+      "options": [
+        "It was in that café that I first met her.",
+        "It was that café that I first met her.",
+        "It was in that café when I first met her.",
+        "In that café I was first met her."
+      ],
+      "answer": 0,
+      "explanation": "强调地点用 in that café that…，介词 in 不能省略。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "It is my brother who are coming tonight.",
+        "It was the manager who made the decision.",
+        "What I want is a cup of tea."
+      ],
+      "answer": 0,
+      "explanation": "who 指代 my brother（单数），从句动词应为 is coming。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "It was in 2010 that the bridge was built.",
+        "What surprised me was her honesty.",
+        "It was in 2010 that the bridge built."
+      ],
+      "answer": 2,
+      "explanation": "that 从句的谓语 built 缺少助动词，应写成 was built。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["It", "was", "in", "the", "village", "that", "she", "grew", "up."],
+      "alternatives": [],
+      "translation": "她是在这个村子里长大的。",
+      "explanation": "强调地点 in the village，用 It was … that 结构，that 后面是原句的主谓语。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["What", "the", "children", "need", "is", "more", "time", "to", "play."],
+      "alternatives": [],
+      "translation": "孩子们需要的是更多玩耍的时间。",
+      "explanation": "What 从句作主语，is 后面接强调的内容 more time to play。"
+    }
+  ]
+}

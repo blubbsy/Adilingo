@@ -37,6 +37,7 @@ export function WikiView({ ui, onUiChange, colorTones, speech, onOpenLesson }: P
   const [articles, setArticles] = useState<WikiArticle[] | null>(null);
   const [failed, setFailed] = useState(false);
   const topRef = useRef<HTMLDivElement>(null);
+  const backRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -50,6 +51,9 @@ export function WikiView({ ui, onUiChange, colorTones, speech, onOpenLesson }: P
 
   useEffect(() => {
     topRef.current?.scrollIntoView?.({ block: 'start' });
+    if (ui.article) {
+      backRef.current?.focus();
+    }
   }, [ui.article]);
 
   const matches = useMemo(() => {
@@ -70,6 +74,7 @@ export function WikiView({ ui, onUiChange, colorTones, speech, onOpenLesson }: P
     return (
       <div ref={topRef} className="space-y-4" data-wiki-article={article.id}>
         <button
+          ref={backRef}
           type="button"
           onClick={() => onUiChange({ ...ui, article: null })}
           className={`inline-flex items-center gap-1 rounded-lg py-1 pr-2 text-sm font-medium text-slate-600 hover:text-rose-600 dark:text-slate-300 ${focusRing}`}

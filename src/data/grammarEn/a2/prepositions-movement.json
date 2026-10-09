@@ -1,0 +1,113 @@
+{
+  "id": "e2-prepositions-movement",
+  "cefr": 2,
+  "title": "Prepositions of movement · 表示移动的介词",
+  "tag": "in / out of",
+  "pattern": "Subject + verb + to / into / out of / across / along / through + place",
+  "summary": "表示移动路线和方向的介词：to 表示到达，into 表示进入，out of 表示离开，across、along、through、towards 分别表示横穿、沿着、穿过和朝向。",
+  "explanation": [
+    "表示**移动**的介词说明动作的方向和路线。**to** 表示“到……去”，强调目的地：We walked **to** the station. **into** 表示“进入……里面”，**out of** 表示“从……里面出来”：She put the letter **into** the envelope. / He took the book **out of** his bag.",
+    "**into 与 in 的区别**是最容易混淆的地方。in 表示位置，是静止的状态；into 表示动作，是运动的过程：The cat is **in** the box.（猫在箱子里。）/ The cat jumped **into** the box.（猫跳进了箱子。）中文“在”和“进”在英语中要区分开。",
+    "**out of 与 out 的区别**也很重要。out 可以单独作副词：Please go **out**. 但 out of 后面必须接名词或代词，表示“从……里面出去”：She walked **out of** the room. 不能说 She jumped out the car，要写成 jumped out of the car。",
+    "**across、along、through、towards** 分别表示“横穿”“沿着”“穿过内部”和“朝……方向”：We walked **across** the bridge.（从桥的一端走到另一端）/ We drove **along** the coast.（沿着海岸）/ The river flows **through** the city.（穿过城市）/ The children ran **towards** their mother.（朝妈妈跑去，未必已经到达）。",
+    "学习时要根据**路线**来选择介词：先想象动作的路径，是“到达一个地方”，还是“从一边到另一边”，或者“沿着某物”。路线清楚，介词的选择就会比较自然。"
+  ],
+  "mistakes": [
+    "✗ He went in the room. → ✓ He went into the room. 表示“走进”这个动作要用 into，in 只表示位置。",
+    "✗ She jumped out the car. → ✓ She jumped out of the car. out 后面接名词时要加 of。",
+    "✗ He walked the street. → ✓ He walked along the street. 沿着街走要用 along，直接加名词会错。"
+  ],
+  "examples": [
+    { "text": "We walked to the station together.", "translation": "我们一起走到车站。", "note": "to 表示到达的目的地。" },
+    { "text": "She put the letter into the envelope.", "translation": "她把信放进信封里。", "note": "into 表示动作的进入。" },
+    { "text": "He took the book out of his bag.", "translation": "他从包里拿出书。", "note": "out of 后接名词。" },
+    { "text": "They walked across the bridge.", "translation": "他们走过了那座桥。", "note": "across 表示从一端到另一端。" },
+    { "text": "We drove along the coast.", "translation": "我们沿着海岸开车。", "note": "along 表示沿着。" },
+    { "text": "The river flows through the city.", "translation": "这条河流经城市。", "note": "through 表示穿过内部。" },
+    { "text": "The children ran towards their mother.", "translation": "孩子们朝妈妈跑去。", "note": "towards 强调方向。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的介词。",
+      "sentence": "The cat jumped ___ the box.",
+      "translation": "猫跳进了箱子里。",
+      "options": ["in", "at", "into", "out of"],
+      "answer": 2,
+      "explanation": "表示“跳进”这个动作用 into。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的介词。",
+      "sentence": "She walked ___ the room and sat down.",
+      "translation": "她走出房间，然后坐下了。",
+      "options": ["out of", "into", "to", "onto"],
+      "answer": 0,
+      "explanation": "“走出房间”要用 out of，后接名词 the room。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的介词。",
+      "sentence": "The river flows ___ the city centre.",
+      "translation": "这条河流经市中心。",
+      "options": ["into", "out of", "towards", "through"],
+      "answer": 3,
+      "explanation": "“流经城市”表示穿过内部，用 through。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的介词。",
+      "sentence": "He ran ___ the station when he saw the train.",
+      "translation": "他看见火车时朝车站跑去。",
+      "options": ["towards", "out of", "along", "outside"],
+      "answer": 0,
+      "explanation": "“朝……跑去”表示方向，用 towards。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他从包里拿出了钥匙。",
+      "options": ["He took the keys out the bag.", "He took the keys out of the bag.", "He took the keys from out the bag.", "He took out of the keys the bag."],
+      "answer": 1,
+      "explanation": "“从……里出来”用 out of the bag。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们沿着河边散步。",
+      "options": ["We walked along the river.", "We walked the river.", "We walked across the river.", "We walked into the river."],
+      "answer": 0,
+      "explanation": "“沿着”用 along。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["She went into the kitchen.", "He jumped out the window.", "They walked across the road."],
+      "answer": 1,
+      "explanation": "out 后接名词要加 of，应写成 He jumped out of the window."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I put the cup in the table.", "The boat sailed under the bridge.", "He came out of the house."],
+      "answer": 0,
+      "explanation": "“放在桌子上”要用 on the table，应写成 I put the cup on the table."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["They", "walked", "into", "the", "shop."],
+      "alternatives": [],
+      "translation": "他们走进了商店。",
+      "explanation": "表示进入用 walked into + 地点。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "train", "went", "through", "the", "tunnel."],
+      "alternatives": [],
+      "translation": "火车穿过了隧道。",
+      "explanation": "表示穿过用 through + 地点。"
+    }
+  ]
+}

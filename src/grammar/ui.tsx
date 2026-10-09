@@ -1,5 +1,7 @@
 import { levelLabel } from '../data/vocab';
 import type { ReactNode } from 'react';
+import type { TrackId } from '../types';
+import { useI18n } from '../i18n/react';
 
 const CJK_RUN = /([㐀-鿿　-〿！-？…]+)/;
 const HAS_CJK = /[㐀-鿿]/;
@@ -49,7 +51,7 @@ export function RichText({ text }: { text: string }) {
 }
 
 /** Structure formula: chunks with hanzi are highlighted, placeholders are neutral. */
-export function PatternFormula({ pattern, size = 'lg' }: { pattern: string; size?: 'sm' | 'lg' }) {
+export function PatternFormula({ pattern, size = 'lg', track = 'chinese' }: { pattern: string; size?: 'sm' | 'lg'; track?: TrackId }) {
   const alternatives = pattern.split(/\s{2,}·\s{2,}/);
   const big = size === 'lg';
   return (
@@ -58,7 +60,7 @@ export function PatternFormula({ pattern, size = 'lg' }: { pattern: string; size
         <span key={ai} className="flex flex-wrap items-center gap-1.5">
           {alt.split(' + ').map((chunk, ci) => (
             <FormulaChunkWithPlus key={ci} first={ci === 0} big={big}>
-              <FormulaChunk chunk={chunk} big={big} />
+              <FormulaChunk chunk={chunk} big={big} track={track} />
             </FormulaChunkWithPlus>
           ))}
         </span>
@@ -80,7 +82,10 @@ function FormulaChunkWithPlus({ first, big, children }: { first: boolean; big: b
   );
 }
 
-function FormulaChunk({ chunk, big }: { chunk: string; big: boolean }) {
+/** Fixed words stand out: hanzi in Chinese patterns, lower-case words and parentheses in English ones (slots are capitalised). */
+const isFixedChunk = (s: string, track: TrackId) => (track === 'english' ? /^[a-z(]/.test(s) : hasHanzi(s));
+
+function FormulaChunk({ chunk, big, track }: { chunk: string; big: boolean; track: TrackId }) {
   const pad = big ? 'px-2.5 py-1 text-sm' : 'px-1.5 py-0.5 text-xs';
   // Split "想 / 要 / 会" or "Number / 这 / 那" so each alternative is styled on its own.
   const subs = chunk.split(' / ');
@@ -89,7 +94,7 @@ function FormulaChunk({ chunk, big }: { chunk: string; big: boolean }) {
       {subs.map((s, i) => (
         <span key={i} className="inline-flex items-center gap-1">
           {i > 0 && <span className="text-slate-400">/</span>}
-          {hasHanzi(s) ? (
+          {isFixedChunk(s, track) ? (
             <span
               className={`rounded-lg bg-rose-100 font-semibold text-rose-700 dark:bg-rose-900/40 dark:text-rose-200 ${pad} ${big ? 'text-base' : ''}`}
             >
@@ -120,10 +125,11 @@ export function ProgressBar({ value, label, className = '' }: { value: number; l
   );
 }
 
-export function HskBadge({ level }: { level: number }) {
+export function HskBadge({ level, track = 'chinese' }: { level: number; track?: TrackId }) {
+  const { t } = useI18n();
   return (
     <span className="inline-flex items-center rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-slate-600 dark:bg-slate-800 dark:text-slate-300">
-      {levelLabel(level)}
+      {track === 'english' ? levelLabel(level, 'english', t) : levelLabel(level)}
     </span>
   );
 }

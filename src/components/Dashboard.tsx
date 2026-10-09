@@ -25,13 +25,13 @@ import { useI18n } from '../i18n/react';
 import { ModeSelector } from './ModeSelector';
 import { PlacementTestModal } from './PlacementTestModal';
 import { BulkMarkModal } from './BulkMarkModal';
-import { getCourseConfig } from '../data/courses';
+import { effectiveCurriculum, getCourseConfig } from '../data/courses';
 
 interface Props {
   vocab: VocabItem[];
   state: UserState;
   onStart: (req: SessionRequest) => void;
-  onNavigate: (view: 'learn' | 'grammar' | 'irregular' | 'topics' | 'dictionary' | 'insights' | 'achievements') => void;
+  onNavigate: (view: 'learn' | 'irregular' | 'topics' | 'dictionary' | 'insights' | 'achievements') => void;
   onUpdateState: (newState: UserState) => void;
   onOpenGrammarGuide?: () => void;
   onOpenIrregularVerbs?: () => void;
@@ -329,7 +329,7 @@ export function Dashboard({
         <section className={`${panel} p-5`}>
           <div className="flex items-baseline justify-between gap-2">
             <h2 className="font-semibold">{t('dashboard.syllabusProgress')}</h2>
-            <span className="text-xs text-slate-500">{t(`curriculum.${state.settings.curriculum}.short`)}</span>
+            <span className="text-xs text-slate-500">{t(`curriculum.${effectiveCurriculum(state.settings.course, state.settings.curriculum)}.short`)}</span>
           </div>
           <p className="mt-0.5 text-xs text-slate-500">
             {t('dashboard.wordsLearned', {
@@ -407,7 +407,7 @@ export function Dashboard({
             )}
             {isEnglishCourse && (
               <button
-                onClick={() => onNavigate('grammar')}
+                onClick={() => onOpenGrammarGuide?.()}
                 className="inline-flex items-center gap-1 rounded-xl border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
               >
                 {t('dashboard.grammarGuideBtn')}

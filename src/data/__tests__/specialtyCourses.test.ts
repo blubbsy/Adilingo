@@ -21,9 +21,11 @@ describe('specialty course registry', () => {
     }
   });
 
-  it('shows no language-course screens (grammar, learning paths, irregular verbs) and no placement test', () => {
+  it('shows learning paths but no grammar, irregular verbs or placement test', () => {
     for (const c of specialtyCourses()) {
-      for (const view of ['grammar', 'learn', 'irregular'] as const) expect(isViewAvailable(c.id, view), `${c.id}/${view}`).toBe(false);
+      expect(isViewAvailable(c.id, 'irregular'), `${c.id}/irregular`).toBe(false);
+      expect(isViewAvailable(c.id, 'learn'), `${c.id}/learn`).toBe(true);
+      expect(c.features.grammar).toBe(false);
       expect(c.features.placement).toBe(false);
       expect(c.features.topics).toBe('item-topics');
       expect(c.views).toContain('home');
@@ -31,7 +33,7 @@ describe('specialty course registry', () => {
     }
     // the language courses are unchanged
     expect(isViewAvailable('chinese', 'learn')).toBe(true);
-    expect(isViewAvailable('english', 'grammar')).toBe(true);
+    expect(getCourseConfig('english').features.grammar).toBe(true);
   });
 
   it('keeps the track machinery of the language (pinyin for Chinese terms, IPA for English terms)', () => {

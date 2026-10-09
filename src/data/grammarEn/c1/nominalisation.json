@@ -1,0 +1,131 @@
+{
+  "id": "e5-nominalisation",
+  "cefr": 5,
+  "title": "Nominalisation · 名词化表达",
+  "tag": "Noun phrases",
+  "pattern": "The + adjective + noun + of + ...  ·  The + noun + to-infinitive / of + ...",
+  "summary": "正式写作常把动词或形容词变成名词，使句子更简洁、客观，例如 The growth of the city。",
+  "explanation": [
+    "英语正式书面语（学术论文、新闻报道、商务报告）偏爱用**名词**来表达动作和状态：把“城市快速发展”写成 The rapid growth of the city，而不是 The city grows rapidly。这种把动词或形容词变成名词的方法叫做**名词化**（nominalisation）。它让句子更简洁，语气也更客观。",
+    "常见的名词后缀有：**-tion / -sion**（produce → production，decide → decision）；**-ment**（develop → development）；**-ance / -ence**（perform → performance）；**-ity**（possible → possibility）；**-ness**（happy → happiness）；**-th**（grow → growth）。中文的“增长”“发展”“决定”本身就是名词，因此很多学习者在这方面有天然的理解优势。",
+    "名词化后，原句的主语和宾语通常变成 **of 短语**或 **'s 所有格**。例如 The government decided to raise taxes → **The government's decision** to raise taxes；They analysed the data carefully → **Their careful analysis** of the data。注意，名词化之后，句子的主语常常是一个名词短语，谓语动词用 be、has、was 等。",
+    "名词化要和固定搭配一起用，不能只靠换后缀。英语中常说 make a decision、carry out research、take action、reach a conclusion，而不是 do a decision 或 make an investigate。学习时应把名词和它的常见动词放在一起记忆。",
+    "注意：名词化并不是越多越好。口语和一般对话中，动词形式通常更自然、更直接，例如 I decided to go 比 My decision was to go 更自然。只有在正式写作或需要客观陈述时，才有必要把动词转为名词。"
+  ],
+  "mistakes": [
+    "✗ The government's decide to build a new road was criticised. → ✓ The government's decision to build a new road was criticised. 名词化后要用名词 decision，而不是动词 decide。",
+    "✗ The grow of the economy is fast. → ✓ The growth of the economy is fast. grow 的名词形式是 growth，不能直接把动词当名词使用。",
+    "✗ We made an investigate into the accident. → ✓ We carried out an investigation into the accident. 中文说“做调查”，英语搭配是 carry out an investigation。"
+  ],
+  "examples": [
+    { "text": "The rapid growth of the city has put pressure on housing.", "translation": "城市的快速发展给住房带来了压力。" },
+    { "text": "The government's decision to raise taxes was widely criticised.", "translation": "政府提高税收的决定遭到了广泛批评。" },
+    { "text": "Her careful analysis of the data revealed a serious error.", "translation": "她对数据的仔细分析揭示了一个严重错误。" },
+    { "text": "The company's failure to meet its targets led to a loss of confidence.", "translation": "公司未能达成目标，导致信心丧失。", "note": "fail to 变为 failure to，形容词 careful 也可以作前置修饰。" },
+    { "text": "Their arrival caused considerable excitement among the fans.", "translation": "他们的到来在粉丝中引起了相当大的兴奋。" },
+    { "text": "The improvement in living standards has been remarkable.", "translation": "生活水平的提高非常显著。" },
+    { "text": "Public awareness of climate change has increased considerably.", "translation": "公众对气候变化的认识显著提高。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的名词形式。",
+      "sentence": "The ___ of the company's profits surprised investors.",
+      "translation": "公司利润的增长令投资者感到惊讶。",
+      "options": ["grow", "growth", "growing", "grew"],
+      "answer": 1,
+      "explanation": "The growth of ... 是名词化的正确形式；grow、growing、grew 都不能作主语中心词。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的名词形式。",
+      "sentence": "We need to make a ___ about the new office by Friday.",
+      "translation": "我们必须在周五前就新办公室做出决定。",
+      "options": ["decisive", "decide", "decided", "decision"],
+      "answer": 3,
+      "explanation": "make a decision 是固定搭配，decision 是名词。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的名词形式。",
+      "sentence": "The ___ of the new software took three months.",
+      "translation": "新软件的安装用了三个月。",
+      "options": ["install", "installing", "installation", "installed"],
+      "answer": 2,
+      "explanation": "installation 是 install 的名词形式，可以作主语。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的名词形式。",
+      "sentence": "Her ___ to the project was immediate and generous.",
+      "translation": "她对这个项目的投入迅速而慷慨。",
+      "options": ["commit", "commitment", "committed", "commitments"],
+      "answer": 1,
+      "explanation": "commitment 表示“投入、承诺”，单数形式 Her commitment 指她的投入态度。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "城市的快速增长给交通带来了压力。",
+      "options": [
+        "The city grows rapid and puts pressure on transport.",
+        "The rapid grow of the city has put pressure on transport.",
+        "The rapid growth of the city has put pressure on transport.",
+        "The city's rapidly growing puts pressure on transport."
+      ],
+      "answer": 2,
+      "explanation": "rapid 修饰名词 growth，形成 The rapid growth of the city 结构。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "公众对这一问题的关注明显增加。",
+      "options": [
+        "Public attend to the issue has increased noticeably.",
+        "Public attention to the issue has increased noticeably.",
+        "The public attentive to the issue increase noticeably.",
+        "Publicly attention the issue increased noticeable."
+      ],
+      "answer": 1,
+      "explanation": "attention 是 attend 的名词形式，搭配 to the issue，句子用 has increased。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The importance of education is widely recognised.",
+        "We made an investigate into the accident.",
+        "Her happiness was obvious to everyone."
+      ],
+      "answer": 1,
+      "explanation": "investigate 是动词，应写成 We carried out an investigation into the accident.。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The government's decide to build a new road was criticised.",
+        "The government's decision to build a new road was welcomed.",
+        "The growth of the economy has been steady."
+      ],
+      "answer": 0,
+      "explanation": "所有格后要接名词 decision，不能接动词 decide。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "rapid", "development", "of", "technology", "has", "changed", "our", "lives."],
+      "alternatives": [],
+      "translation": "科技的快速发展改变了我们的生活。",
+      "explanation": "名词化主语 The rapid development of technology，谓语用现在完成时 has changed。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Her", "careful", "analysis", "revealed", "an", "important", "pattern."],
+      "alternatives": [],
+      "translation": "她的细致分析揭示了一个重要规律。",
+      "explanation": "名词 analysis 作主语，revealed 作谓语，an important pattern 作宾语。"
+    }
+  ]
+}

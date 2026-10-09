@@ -1,0 +1,115 @@
+{
+  "id": "e3-phrasal-verbs-basics",
+  "cefr": 3,
+  "title": "Phrasal verbs basics · 短语动词入门",
+  "tag": "phrasal verb",
+  "pattern": "Verb + particle + Object  ·  Verb + Object + particle (pronoun: Verb + it + particle)",
+  "summary": "短语动词由动词加副词或介词构成，整体意思常常无法从单词推断；有的可以分开（turn it on），有的不能分开（look after the baby）。",
+  "explanation": [
+    "**短语动词**由“动词 + 副词”或“动词 + 介词”构成，整体意思可能与单词本义完全不同：look up（查阅）、give up（放弃）、turn on（打开）。学习时要把它们当作一个整体来记，而不是逐个单词翻译。",
+    "**可以分开的短语动词**：宾语可以放在中间，也可以放在后面，如 turn **the light** on 与 turn on **the light** 都正确。但如果宾语是代词（it、them、me 等），就必须放在中间：turn **it** on，不能说 turn on it。",
+    "**不能分开的短语动词**，通常是“动词 + 介词”的结构，宾语必须紧跟在后面：look **after** the baby（照顾婴儿）、look **for** my keys（找我的钥匙）。不能写成 look the baby after。",
+    "常见的可以分开的短语动词有 look up（查）、give up（放弃）、put on（穿上）、take off（脱下）、turn off（关掉）、fill in（填写）。常见的不能分开的有 look after（照顾）、look for（寻找）、get on（上车）、run into（偶遇）。",
+    "很多短语动词有多种意思，需要结合语境。比如 pick up 可以是“捡起”，也可以是“去接（人）”或“学会”。翻译时先判断是否是短语动词，再选择合适的中文意思，记单词时最好连同例句一起记。"
+  ],
+  "mistakes": [
+    "✗ Please turn on it. → ✓ Please turn it on. 宾语是代词时必须放在短语动词中间。",
+    "✗ I looked the baby after. → ✓ I looked after the baby. look after 不能分开，宾语必须放在介词 after 之后。",
+    "✗ I am looking my keys for. → ✓ I am looking for my keys. look for 是不能分开的，宾语应紧跟在 for 之后。"
+  ],
+  "examples": [
+    { "text": "Please turn off the light before you go to bed.", "translation": "睡觉前请关灯。", "note": "turn off 可以分开：turn the light off。" },
+    { "text": "Can you turn it off? It's too loud.", "translation": "你能把它关掉吗？太吵了。", "note": "代词 it 放在 turn 和 off 之间。" },
+    { "text": "I looked up the word in a dictionary.", "translation": "我在词典里查了这个单词。" },
+    { "text": "She looks after her younger brother.", "translation": "她照顾她的弟弟。", "note": "look after 不能分开。" },
+    { "text": "Don't give up. You can do it.", "translation": "别放弃，你一定能做到。" },
+    { "text": "He picked up the phone and answered it.", "translation": "他拿起电话接了。", "note": "pick up 表示“拿起、接（电话）”，宾语放在后面。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的短语动词。",
+      "sentence": "Please ___ the form before you leave.",
+      "translation": "离开之前请填写这张表格。",
+      "options": ["fill on", "fill to", "fill in", "fill at"],
+      "answer": 2,
+      "explanation": "填写表格的短语动词是 fill in。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的短语动词。",
+      "sentence": "I'm looking ___ my glasses. Have you seen them?",
+      "translation": "我在找我的眼镜，你看见了吗？",
+      "options": ["for", "at", "after", "up"],
+      "answer": 0,
+      "explanation": "“寻找”是 look for，不能分开。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "请帮我照顾我的猫。",
+      "options": [
+        "Please look my cat after.",
+        "Please look after my cat.",
+        "Please after look my cat.",
+        "Please look for my cat."
+      ],
+      "answer": 1,
+      "explanation": "“照顾”是 look after，宾语紧跟在 after 之后。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I'll pick it up later.",
+        "She gave up her job.",
+        "I'm looking after for my bag."
+      ],
+      "answer": 2,
+      "explanation": "“找”是 look for，应改为 I'm looking for my bag。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Can", "you", "turn", "it", "on?"],
+      "alternatives": [],
+      "translation": "你能把它打开吗？",
+      "explanation": "代词 it 必须放在 turn 和 on 之间。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的短语动词。",
+      "sentence": "She took ___ her coat when she came in.",
+      "translation": "她一进门就脱下了外套。",
+      "options": ["off", "up", "after", "on"],
+      "answer": 0,
+      "explanation": "“脱下”是 take off，可以放在宾语 her coat 之后。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的短语动词。",
+      "sentence": "Don't ___ your dreams, even when it's hard.",
+      "translation": "即使很难，也不要放弃你的梦想。",
+      "options": ["give up", "give off", "give to", "give on"],
+      "answer": 0,
+      "explanation": "“放弃”是 give up。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["She", "picked", "up", "the", "phone."],
+      "alternatives": [],
+      "translation": "她接了电话。",
+      "explanation": "pick up 表示“拿起、接（电话）”，宾语可以放在后面。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的短语动词。",
+      "sentence": "Please ___ the music, I want to sleep.",
+      "translation": "请把音乐关掉，我想睡觉了。",
+      "options": ["turn in", "turn on", "turn to", "turn off"],
+      "answer": 3,
+      "explanation": "“关掉”是 turn off；turn on 是“打开”，意思相反。"
+    }
+  ]
+}

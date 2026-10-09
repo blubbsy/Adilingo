@@ -1,0 +1,170 @@
+{
+  "id": "e1-question-words",
+  "cefr": 1,
+  "title": "Question words: what, where, who, when, why, how · 特殊疑问句",
+  "tag": "wh- + verb",
+  "pattern": "Question word + be / do / does / can + subject + (verb)",
+  "summary": "特殊疑问句以疑问词开头，后面的词序和一般疑问句相同：疑问词 + 助动词 + 主语。",
+  "explanation": [
+    "**特殊疑问句**以疑问词开头，常用的有 what（什么）、where（哪里）、who（谁）、when（什么时候）、why（为什么）、how（怎样）、which（哪一个）。疑问词必须放在句首，这一点和中文的语序不同。",
+    "疑问词后面的结构取决于动词：be 动词句用 **疑问词 + be + 主语**，如 What is your name? / Where are you from?；实义动词句要加 **do / does**，如 What do you want? / Where does he work?。注意助动词后面的动词要用原形。",
+    "**who** 询问人，它可以直接做主语，后面不用 do：Who is that man? / Who likes pizza? 只有当 who 作宾语时，才需要 do：Who do you like?",
+    "**how** 常见搭配：how old（多大）、how much（多少钱，用于不可数名词）、how many（多少个，用于可数名词复数）、how often（多久一次）、how long（多长时间）。How are you? 是最常用的问候语。",
+    "why 的问题通常用 because 来回答：Why are you late? — Because the bus was late. 中文的“因为”放在句中，而英语的 because 通常只用于回答。"
+  ],
+  "mistakes": [
+    "✗ Where you live? → ✓ Where do you live? 实义动词的问句要加助动词 do 或 does。",
+    "✗ How many money do you have? → ✓ How much money do you have? money 是不可数名词，要用 how much。",
+    "✗ Why you are late? → ✓ Why are you late? be 动词要放在主语前面，形成倒装。",
+    "✗ How old your sister is? → ✓ How old is your sister? 句中 be 动词要放在主语前面。"
+  ],
+  "examples": [
+    {
+      "text": "What is your favorite color?",
+      "translation": "你最喜欢的颜色是什么？"
+    },
+    {
+      "text": "Where do you live?",
+      "translation": "你住在哪里？"
+    },
+    {
+      "text": "Who is your English teacher?",
+      "translation": "你的英语老师是谁？"
+    },
+    {
+      "text": "When does the shop open?",
+      "translation": "这家店什么时候开门？"
+    },
+    {
+      "text": "Why are you so happy today?",
+      "translation": "你今天为什么这么开心？"
+    },
+    {
+      "text": "How do you go to school?",
+      "translation": "你怎么去学校？"
+    },
+    {
+      "text": "How much is this bag?",
+      "translation": "这个包多少钱？"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的疑问词。",
+      "sentence": "___ is your phone number?",
+      "translation": "你的电话号码是多少？",
+      "options": [
+        "What",
+        "Where",
+        "Who",
+        "When"
+      ],
+      "answer": 0,
+      "explanation": "问号码、信息等用 What。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的疑问词。",
+      "sentence": "___ do you live?",
+      "translation": "你住在哪里？",
+      "options": [
+        "What",
+        "Why",
+        "Where",
+        "Who"
+      ],
+      "answer": 2,
+      "explanation": "问地点用 Where。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的疑问词。",
+      "sentence": "___ are you crying?",
+      "translation": "你为什么哭？",
+      "options": [
+        "Who",
+        "Why",
+        "When",
+        "Which"
+      ],
+      "answer": 1,
+      "explanation": "问原因用 Why。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的疑问词。",
+      "sentence": "___ does the film start?",
+      "translation": "电影什么时候开始？",
+      "options": [
+        "Where",
+        "How",
+        "When",
+        "Who"
+      ],
+      "answer": 2,
+      "explanation": "问时间用 When。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "你的弟弟多大了？",
+      "options": [
+        "How old your brother is?",
+        "How old is your brother?",
+        "How your brother old is?",
+        "How old brother is your?"
+      ],
+      "answer": 1,
+      "explanation": "问年龄用 How old，后面 be 动词在主语前。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这本书多少钱？",
+      "options": [
+        "How many is this book?",
+        "How much is this book?",
+        "How much this book is?",
+        "How is this book much?"
+      ],
+      "answer": 1,
+      "explanation": "问价格用 How much，句子结构为 How much + be + 主语。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Where is the library?",
+        "What you like to eat?",
+        "Who is that girl?"
+      ],
+      "answer": 1,
+      "explanation": "实义动词问句要加 do，应写成 What do you like to eat?"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "How often do you swim?",
+        "Why you are sad?",
+        "Which is your bag?"
+      ],
+      "answer": 1,
+      "explanation": "be 动词要在主语前，应写成 Why are you sad?"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": [
+        "Where",
+        "does",
+        "she",
+        "work?"
+      ],
+      "alternatives": [],
+      "translation": "她在哪里工作？",
+      "explanation": "疑问词 + does + 主语 + 动词原形。"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "e6-collocation-delexical",
+  "cefr": 6,
+  "title": "Delexical verbs and strong collocations · 搭配：make / do / take / have / give",
+  "tag": "collocation",
+  "pattern": "make / do / take / have / give + (a / an / some) + Noun  ·  fixed pair: X and Y",
+  "summary": "英语中很多动词本身意思很弱，要和特定名词固定搭配，例如 make a decision、do research、take a look，不能按中文“做”字直译。",
+  "explanation": [
+    "英语中有一组动作意义较弱的动词，叫做**弱义动词**（delexical verbs），最常见的是 make、do、take、have、give。它们的具体含义主要由后面的名词决定：**make** 表示“产生、制造出某种结果”，如 make a decision、make progress；**do** 表示“进行某种工作或任务”，如 do research、do homework；**take** 表示“采取某个动作”，如 take a look、take a break。",
+    "这类搭配没有统一的逻辑，只能按固定组合记忆，不能用中文的“做”字去替换。中文说“做决定、做调查、做饭、做朋友”，英语分别是 make a decision、do research、cook、make friends。所以看到“做”不能直接想到 do，要先想清楚这个名词在英语里习惯用哪个动词。",
+    "**have** 和 **give** 也很常见。have 常用于洗澡、聊天、休息等经历性动作：have a bath、have a chat；give 用于给予或表达，如 give advice、give support、give a lecture。注意 give advice 中的 advice 是不可数名词，不能说 a good advice。",
+    "**固定并列结构**（binomials）也是高级词汇的重要部分，它们通常以 and 连接，顺序固定，不能随意颠倒：by and large（总体而言）、pros and cons（利弊）、rules and regulations（规章制度）。写作时使用这些搭配会显得地道，但要注意只在语境合适时使用。",
+    "学习搭配的最好办法是把“动词 + 名词”当作一个整体来背，而不是逐词翻译。遇到拿不准的时候，可以查询语料库或词典中的 collocation 栏目。在正式写作中，选择恰当的搭配往往比使用生僻词更能体现 C2 水平。"
+  ],
+  "mistakes": [
+    "✗ I will do a decision next week. → ✓ I will make a decision next week. 英语的“做决定”用 make a decision，中文“做”字不能一律对应 do。",
+    "✗ She gave a look at the report. → ✓ She took a look at the report. 看一眼要用 take a look，give 不能用于这个搭配。",
+    "✗ She gave me a good advice. → ✓ She gave me good advice. advice 是不可数名词，没有复数，也不能加不定冠词 a。"
+  ],
+  "examples": [
+    { "text": "We need to make a decision before the deadline.", "translation": "我们需要在截止日期前做出决定。", "note": "make a decision，不用 do。" },
+    { "text": "I need to do some research before the meeting.", "translation": "开会前我需要做些调研。", "note": "do research 是固定搭配。" },
+    { "text": "She took a close look at the contract.", "translation": "她仔细看了看合同。", "note": "take a look 表示看一看。" },
+    { "text": "We had a brief discussion about the budget.", "translation": "我们就预算简短地讨论了一下。", "note": "have a discussion，have 用于经历式的动作。" },
+    { "text": "The chairman gave a speech about the company's future.", "translation": "董事长就公司的未来发表了讲话。", "note": "give a speech 是常用搭配。" },
+    { "text": "They have made progress on the project, but there is still a long way to go.", "translation": "他们在项目上取得了进展，但仍有很长的路要走。", "note": "make progress 表示取得进展。" },
+    { "text": "The new rules are, by and large, fair to everyone.", "translation": "总体而言，新规则对每个人都是公平的。", "note": "by and large 是固定并列表达。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的动词。",
+      "sentence": "We need to ___ a decision before the deadline.",
+      "translation": "我们需要在截止日期前做出决定。",
+      "options": ["do", "make", "have", "bring"],
+      "answer": 1,
+      "explanation": "“做决定”在英语中用 make a decision。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的动词。",
+      "sentence": "Could you ___ me a favour and close the door?",
+      "translation": "你能帮我个忙把门关上吗？",
+      "options": ["make", "take", "have", "do"],
+      "answer": 3,
+      "explanation": "“帮忙”的固定说法是 do someone a favour。make a favour 是错误的。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的动词。",
+      "sentence": "Can you ___ me some advice on this matter?",
+      "translation": "这件事你能给我一些建议吗？",
+      "options": ["make", "give", "do", "have"],
+      "answer": 1,
+      "explanation": "“提供建议”是 give advice，advice 与 make、do、have 都不搭配。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的动词。",
+      "sentence": "I need to ___ some research before I write the report.",
+      "translation": "写报告之前我需要做一些调研。",
+      "options": ["make", "take", "do", "give"],
+      "answer": 2,
+      "explanation": "research 通常与 do 搭配：do research。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的动词。",
+      "sentence": "Let's ___ a chat over coffee.",
+      "translation": "我们边喝咖啡边聊聊吧。",
+      "options": ["do", "take", "have", "make"],
+      "answer": 2,
+      "explanation": "“聊天”用 have a chat。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The new rules are, by and ___, fair to everyone.",
+      "translation": "总体而言，新规则对每个人都是公平的。",
+      "options": ["far", "large", "most", "wide"],
+      "answer": 1,
+      "explanation": "固定并列结构是 by and large，意思是“总体而言”。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他们在这个项目上取得了一些进展。",
+      "options": [
+        "They have done some progress on the project.",
+        "They have made some progress on the project.",
+        "They have taken some progress on the project.",
+        "They have had some progress on the project."
+      ],
+      "answer": 1,
+      "explanation": "“取得进展”是 make progress，其他动词都不能与 progress 搭配。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "请你仔细看一下这份报告。",
+      "options": [
+        "Please give a close look at this report.",
+        "Please take a close look at this report.",
+        "Please make a close look at this report.",
+        "Please do a close look at this report."
+      ],
+      "answer": 1,
+      "explanation": "“仔细看一下”是 take a close look at。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I will make a decision tomorrow.",
+        "She gave me a good advice.",
+        "We need to do some research first."
+      ],
+      "answer": 1,
+      "explanation": "advice 是不可数名词，不能加 a，应为 She gave me good advice."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["They", "made", "good", "progress", "this", "year."],
+      "alternatives": [],
+      "translation": "他们今年取得了很大进展。",
+      "explanation": "make progress 是固定搭配，good 作为修饰语放在 progress 之前。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["I", "had", "a", "long", "chat", "with", "the", "manager", "yesterday."],
+      "alternatives": [],
+      "translation": "我昨天和经理聊了很久。",
+      "explanation": "“聊天”用 have a chat，修饰语 long 放在 chat 之前。"
+    }
+  ]
+}

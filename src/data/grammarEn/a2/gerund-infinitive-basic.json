@@ -1,0 +1,114 @@
+{
+  "id": "e2-gerund-infinitive-basic",
+  "cefr": 2,
+  "title": "Gerund or infinitive (basic) · 动名词与不定式（入门）",
+  "tag": "-ing / to do",
+  "pattern": "Subject + enjoy / finish + V-ing  Subject + want / would like + to + V",
+  "summary": "有些动词后接 -ing，有些接 to + 动词原形；这一般靠搭配记忆，不能按中文直译。",
+  "wikiId": "infinitives-to-do",
+  "explanation": [
+    "英语动词后面接**动名词**（V-ing）还是**不定式**（to + 动词原形），中文没有对应的规律，只能按搭配来记。很多学习者会把“喜欢做某事”一律说成 like to do，或者把所有动词都接 to，这样就会出错。",
+    "**接 -ing** 的常见动词有 enjoy、finish、keep、mind、avoid、suggest、practise：I **enjoy reading** in the evening. / She **finished cleaning** the kitchen. 还有 like、love、hate、start 也可以接 -ing：I like **swimming**。这类动词后面的动作通常是“一般做的事”或“已经在做的事”。",
+    "**接 to + 动词原形**的常见动词有 want、decide、hope、plan、need、would like：She **wants to become** a teacher. / He **hopes to pass** the exam. 这类动词后面的动作通常是“打算做的事”或“未来的事”。",
+    "**like 和 would like 的区别**很值得注意：like doing 表示“一般喜欢做某事”，would like to do 表示“想要做某事（这次）”，语气也更礼貌：I like **cooking**.（我喜欢做饭。）/ I'd like **to cook** dinner tonight.（我今晚想做饭。）邀请别人时，常说 Would you like to ...?",
+    "**注意**：有些动词不能接 to，如 enjoy、finish、avoid，这些词一定要接 -ing。动名词也可以放在句首作主语，表示“做某事这件事”：**Swimming** is good for your health. 这时同样不需要 to。"
+  ],
+  "mistakes": [
+    "✗ I enjoy to read books. → ✓ I enjoy reading books. enjoy 后面接 -ing 形式，不接 to do。",
+    "✗ I want going to Beijing. → ✓ I want to go to Beijing. want 后面接 to + 动词原形。",
+    "✗ She finished to write the letter. → ✓ She finished writing the letter. finish 后面用 -ing 形式。",
+    "✗ I'd like going to the party. → ✓ I'd like to go to the party. would like 表示“想做”，后面接 to + 动词原形。"
+  ],
+  "examples": [
+    { "text": "I enjoy reading in the evening.", "translation": "我喜欢晚上看书。", "note": "enjoy 后接 -ing。" },
+    { "text": "She wants to become a teacher.", "translation": "她想当老师。", "note": "want 后接 to + 动词原形。" },
+    { "text": "We finished cleaning the kitchen.", "translation": "我们打扫完了厨房。", "note": "finish 后接 -ing。" },
+    { "text": "Would you like to join us for dinner?", "translation": "你想和我们一起吃晚饭吗？", "note": "would like 后接 to + 动词原形，语气礼貌。" },
+    { "text": "He hopes to pass the exam next month.", "translation": "他希望下个月通过考试。" },
+    { "text": "I don't mind waiting for a few minutes.", "translation": "我不介意等几分钟。", "note": "mind 后接 -ing。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I enjoy ___ music on the weekend.",
+      "translation": "周末我喜欢听音乐。",
+      "options": ["listen", "to listen", "listening", "listened"],
+      "answer": 2,
+      "explanation": "enjoy 后面接动名词 listening。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "They decided ___ a new car.",
+      "translation": "他们决定买一辆新车。",
+      "options": ["buying", "buy to", "to buying", "to buy"],
+      "answer": 3,
+      "explanation": "decide 后面接 to + 动词原形 buy。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "We ___ to the cinema tonight. Would you come?",
+      "translation": "今晚我们想去电影院。你来吗？",
+      "options": ["would like go", "would likes to go", "would like to go", "would to go"],
+      "answer": 2,
+      "explanation": "would like 后面接 to + 动词原形 go。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "She finished ___ the dishes before dinner.",
+      "translation": "晚饭前她洗完了碗。",
+      "options": ["to wash", "washed", "wash", "washing"],
+      "answer": 3,
+      "explanation": "finish 后面接动名词 washing。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我希望明年去中国旅游。",
+      "options": ["I hope travel to China next year.", "I hope to travel to China next year.", "I hope traveling to China next year.", "I hope to traveling to China next year."],
+      "answer": 1,
+      "explanation": "hope 后面接 to + 动词原形 travel。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我想学习游泳。",
+      "options": ["I want learn swimming.", "I want learning swimming.", "I want to learn swimming.", "I want to learning swimming."],
+      "answer": 2,
+      "explanation": "want 后面接 to + 动词原形 learn，宾语是 swimming。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I enjoy watching films.", "She decided to leave early.", "He avoids to talk about it."],
+      "answer": 2,
+      "explanation": "avoid 后面要接 -ing 形式，应写成 He avoids talking about it."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["They finished to eat.", "We hope to see you soon.", "I'd like a cup of tea."],
+      "answer": 0,
+      "explanation": "finish 后面接 -ing，应写成 They finished eating."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["I", "want", "to", "learn", "French."],
+      "alternatives": [],
+      "translation": "我想学法语。",
+      "explanation": "want 后面接 to + 动词原形。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["She", "enjoys", "cooking", "for", "her", "family."],
+      "alternatives": [],
+      "translation": "她喜欢为家人做饭。",
+      "explanation": "enjoy 后面接 -ing 形式 cooking。"
+    }
+  ]
+}

@@ -144,13 +144,8 @@ export async function loadLibrary(courseId: CourseId = 'chinese'): Promise<Vocab
  * syllabus: level → hand-curated starter words → corpus frequency.
  */
 export function vocabForCurriculum(lib: VocabLibrary, curriculum: Curriculum): VocabItem[] {
-  // If the library is English and curriculum isn't set, fallback to cefr
-  const activeCurriculum = (curriculum === 'cefr' || curriculum === 'cet' || curriculum === 'domain')
-    ? curriculum
-    : (lib.all[0]?.id.startsWith('en-') ? 'cefr' : curriculum);
-
   return lib.all
-    .filter((v) => v.levels[activeCurriculum] !== undefined || (activeCurriculum === 'cefr' && v.levels.cet !== undefined))
-    .map((v) => ({ ...v, hskLevel: (v.levels[activeCurriculum] ?? v.hskLevel) as HskLevel }))
+    .filter((v) => v.levels[curriculum] !== undefined || (curriculum === 'cefr' && v.levels.cet !== undefined))
+    .map((v) => ({ ...v, hskLevel: (v.levels[curriculum] ?? v.hskLevel) as HskLevel }))
     .sort((a, b) => a.hskLevel - b.hskLevel || Number(b.frequency === 0) - Number(a.frequency === 0) || a.frequency - b.frequency);
 }

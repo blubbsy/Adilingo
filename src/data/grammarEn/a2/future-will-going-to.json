@@ -1,0 +1,113 @@
+{
+  "id": "e2-future-will-going-to",
+  "cefr": 2,
+  "title": "Future: will & going to · 将来时：will 与 be going to",
+  "tag": "will / plans",
+  "pattern": "Subject + will + V  Subject + am / is / are + going to + V",
+  "summary": "will 多用于当场决定、承诺和个人看法；going to 多用于已有计划和根据眼前迹象的预测。",
+  "explanation": [
+    "英语谈论将来有好几种说法，中文里常常都说成“要”或“会”，所以学习者容易混淆。**will** 常用于说话的那一刻做出的决定、承诺，或基于个人看法的预测；**be going to** 常用于事先已经计划好的事，或根据眼前迹象做出的预测。",
+    "**will 的结构**是 subject + will + 动词原形，不加 to，也不随人称变化：I **will call** you tomorrow. 否定是 will not，缩写为 won't：She **won't be** late. 缩写形式 I'll、you'll、we'll 在口语和书面中都很常见。",
+    "**going to 的结构**是 am / is / are + going to + 动词原形：We **are going to move** to Shanghai next year. 这里的 be 动词要和主语一致。注意 going to 中的 to 后面是动词原形，不能加 -s 或 -ing。",
+    "**预测的区别**：如果你看到了眼前的迹象，就用 going to：Look at those clouds. It's **going to rain**. 如果只是个人想法或主观判断，用 will：I think you **will enjoy** the trip. 中文“我觉得它会……”有时可以对应 will，但要看是否有明显的迹象。",
+    "在时间和条件从句（when、if、before、after、as soon as 等引导的从句）中，即使表示将来，也要用一般现在时而不是 will：**When** she **arrives**, we will start the meeting. 这是很多中国学生容易忽略的地方，需要特别记住。"
+  ],
+  "mistakes": [
+    "✗ I will to go home tomorrow. → ✓ I will go home tomorrow. will 后面直接接动词原形，不加 to。",
+    "✗ When he will come, we will eat. → ✓ When he comes, we will eat. 时间从句中表示将来也要用一般现在时。",
+    "✗ It's going to rains tomorrow. → ✓ It's going to rain tomorrow. going to 后面用动词原形，不加 -s。",
+    "✗ I will meeting her tomorrow. → ✓ I will meet her tomorrow. will 后面是动词原形 meet，不能用 -ing 形式。"
+  ],
+  "examples": [
+    { "text": "I'll help you with your homework.", "translation": "我来帮你做作业。", "note": "说话时当场做出的承诺，用 will。" },
+    { "text": "The phone is ringing. I'll answer it.", "translation": "电话响了，我去接。", "note": "当场决定，用 'll（will 的缩写）。" },
+    { "text": "We are going to move to Shanghai next year.", "translation": "我们明年打算搬到上海。", "note": "事先已有的计划，用 going to。" },
+    { "text": "Look at those black clouds. It's going to rain.", "translation": "你看那些乌云，要下雨了。", "note": "根据眼前的迹象做预测。" },
+    { "text": "I think you will enjoy the trip.", "translation": "我觉得你会喜欢这次旅行。", "note": "个人看法，用 will。" },
+    { "text": "When she arrives, we will start the meeting.", "translation": "等她到了，我们就开始开会。", "note": "时间从句用一般现在时表示将来。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Look at the sky! It ___ rain soon.",
+      "translation": "你看天空！很快要下雨了。",
+      "options": ["will to", "is going", "is going to", "is will"],
+      "answer": 2,
+      "explanation": "根据眼前的迹象做预测，用 is going to rain。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Don't worry, I ___ help you tomorrow.",
+      "translation": "别担心，我明天会帮你的。",
+      "options": ["will to help", "will help", "help", "am help"],
+      "answer": 1,
+      "explanation": "承诺用 will + 动词原形 help。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Look out! That glass ___ fall!",
+      "translation": "小心！那个杯子要掉下来了！",
+      "options": ["will to fall", "fall", "falls", "is going to fall"],
+      "answer": 3,
+      "explanation": "眼前的迹象表明即将发生，用 is going to fall。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Hold on, I ___ get the door.",
+      "translation": "等一下，我去开门。",
+      "options": ["gets", "will getting", "will get", "get will"],
+      "answer": 2,
+      "explanation": "当场做出的决定用 will + 动词原形 get。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们打算明年学习法语。",
+      "options": ["We will going to learn French next year.", "We are going to learn French next year.", "We going to learn French next year.", "We will learning French next year."],
+      "answer": 1,
+      "explanation": "已有的计划用 are going to learn。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我会在你到家之后给你打电话。",
+      "options": ["I will call you after you will get home.", "I call you after you get home.", "I will call you after you get home.", "I will calling you after you get home."],
+      "answer": 2,
+      "explanation": "after 引导的时间从句用一般现在时 get 表示将来，主句用 will call。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I will call you tonight.", "We're going to buy a new car.", "When he will arrive, we'll eat."],
+      "answer": 2,
+      "explanation": "时间从句中不用 will，应写成 When he arrives, we'll eat."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["It's going to snows later.", "She will be a doctor one day.", "I'll help you with it."],
+      "answer": 0,
+      "explanation": "going to 后面用动词原形，应写成 It's going to snow later."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["I'm", "going", "to", "visit", "my", "grandmother", "on", "Sunday."],
+      "alternatives": [],
+      "translation": "周日我打算去看望奶奶。",
+      "explanation": "已有的计划用 be going to + 动词原形。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Don't", "worry,", "I'll", "fix", "it."],
+      "alternatives": [],
+      "translation": "别担心，我来修。",
+      "explanation": "当场做出的决定和承诺用 will。"
+    }
+  ]
+}

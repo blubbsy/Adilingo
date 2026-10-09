@@ -1,0 +1,113 @@
+{
+  "id": "e2-present-perfect-intro",
+  "cefr": 2,
+  "title": "Present perfect (intro) · 现在完成时入门",
+  "tag": "have + V3",
+  "pattern": "Subject + have / has + past participle (V3)  Subject + have / has + never / ever + V3",
+  "summary": "have / has + 过去分词，表示过去的经历或对现在有影响的动作；ever、never、just、already、yet 是常用的搭配词。",
+  "explanation": [
+    "**现在完成时**把过去和现在连接起来。它强调的是“到现在为止”的经历，或过去的动作对现在有影响，不强调具体发生在什么时候：I **have visited** Japan three times.（我去过日本三次。）这句话说的是经历，没有说具体哪一年去的。中文里“我去过”“我吃过”的意思，通常都用现在完成时来表达。",
+    "**构成**是 have / has + 过去分词（V3）。I、you、we、they 用 have，he、she、it 用 has：She **has finished**. 规则动词的 V3 与 -ed 过去式相同，不规则动词需要单独记：see → seen，eat → eaten，write → written，go → gone 或 been。",
+    "**经历**的常见搭配是 **ever**（疑问句，表示“曾经”）和 **never**（否定，表示“从来没有”）。它们放在 have 和过去分词之间：**Have** you **ever** been to London? / I have **never** tried durian. 这是很多学生容易忽略的语序。",
+    "**just、already、yet** 也常和现在完成时一起使用。just 表示“刚刚”，放在 have 和 V3 之间；already 表示“已经”，常用于肯定句；yet 表示“还（没）”，用于否定句和疑问句末尾：I have **just** finished my homework. / I haven't finished it **yet**. / Have you finished it **yet**?",
+    "**注意**：一旦句子中出现明确的过去时间（yesterday、last year、in 2019、three days ago），就要改用一般过去时：I **visited** Paris last year.，不能说 I have visited Paris last year. 现在完成时关注的是“经历”或“现在的结果”，而不是具体的过去时间点。"
+  ],
+  "mistakes": [
+    "✗ I have see this movie. → ✓ I have seen this movie. have 后面要用过去分词 seen，不是动词原形 see。",
+    "✗ I have visited Paris last year. → ✓ I visited Paris last year. 有具体过去时间时要用一般过去时。",
+    "✗ She has went to Shanghai. → ✓ She has gone to Shanghai. went 是过去式，不能与 have 连用；go 的过去分词是 gone。",
+    "✗ I haven't finish my homework yet. → ✓ I haven't finished my homework yet. 否定形式 haven't 后面同样要用过去分词 finished。"
+  ],
+  "examples": [
+    { "text": "I have visited London twice.", "translation": "我去过伦敦两次。", "note": "表示经历，没有具体时间。" },
+    { "text": "Have you ever tried Peking duck?", "translation": "你吃过北京烤鸭吗？", "note": "ever 放在 have 和 V3 之间。" },
+    { "text": "She has never flown in a plane.", "translation": "她从来没有坐过飞机。", "note": "never 表示从未有过的经历。" },
+    { "text": "I have just finished my homework.", "translation": "我刚做完作业。", "note": "just 表示刚刚发生。" },
+    { "text": "He has already left the office.", "translation": "他已经离开办公室了。", "note": "already 用于肯定句。" },
+    { "text": "Have you finished the report yet?", "translation": "你报告写完了吗？", "note": "yet 用于疑问句末尾。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的过去分词形式。",
+      "sentence": "Have you ever ___ a panda?",
+      "translation": "你见过熊猫吗？",
+      "options": ["see", "saw", "seen", "seeing"],
+      "answer": 2,
+      "explanation": "现在完成时用过去分词 seen。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "She ___ to Japan three times.",
+      "translation": "她去过日本三次。",
+      "options": ["has been", "has went", "went", "was"],
+      "answer": 0,
+      "explanation": "表示经历用 has been to，went 不能与 has 连用。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的副词。",
+      "sentence": "I haven't finished the report ___.",
+      "translation": "我还没写完报告。",
+      "options": ["already", "yet", "ever", "never"],
+      "answer": 1,
+      "explanation": "否定句末尾用 yet 表示“还没有”。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "He ___ in London since 2010.",
+      "translation": "他自2010年起就一直住在伦敦。",
+      "options": ["lived", "has lived", "lives", "is living"],
+      "answer": 1,
+      "explanation": "since 表示从过去持续到现在，用现在完成时 has lived。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我从来没有吃过榴莲。",
+      "options": ["I have never eat durian.", "I have eaten never durian.", "I have never eaten durian.", "I have ever eaten durian never."],
+      "answer": 2,
+      "explanation": "现在完成时用 have never + 过去分词 eaten。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他刚刚到家。",
+      "options": ["He has just arrived home.", "He just has arrive home.", "He has arrived home just yet.", "He has arrive home."],
+      "answer": 0,
+      "explanation": "just 放在 has 和过去分词 arrived 之间，表示“刚刚”。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I have finished my work.", "She has went home.", "They have already eaten."],
+      "answer": 1,
+      "explanation": "went 不能用于现在完成时，应写成 She has gone home."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["We have lived here since 2015.", "I have visited Paris last summer.", "He has seen that movie."],
+      "answer": 1,
+      "explanation": "last summer 是明确的过去时间，应写成 I visited Paris last summer."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["I", "have", "never", "seen", "snow."],
+      "alternatives": [],
+      "translation": "我从来没有见过雪。",
+      "explanation": "never 放在 have 和过去分词 seen 之间。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Have", "you", "finished", "your", "homework", "yet?"],
+      "alternatives": [],
+      "translation": "你作业做完了吗？",
+      "explanation": "疑问句中 yet 放在句末，表示“已经”的疑问。"
+    }
+  ]
+}

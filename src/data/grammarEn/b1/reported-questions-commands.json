@@ -1,0 +1,120 @@
+{
+  "id": "e3-reported-questions-commands",
+  "cefr": 3,
+  "title": "Reported questions & commands · 间接引语（疑问句与祈使句）",
+  "tag": "asked if",
+  "pattern": "Subject + asked + if / whether + Subject + Verb  ·  Subject + told + Object + to + Verb",
+  "summary": "转述疑问句时用 if / whether 或疑问词加陈述语序；转述命令时用 tell / ask + 人 + to + 动词原形。",
+  "explanation": [
+    "转述**一般疑问句**（能用 yes 或 no 回答的问题）时，要用 if 或 whether 引导，后面改成**陈述语序**，句末不用问号：“Are you ready?” → She asked **if** I **was** ready.（她问我准备好了没有）。注意不能写成 asked if was I ready。",
+    "转述**特殊疑问句**时保留疑问词，同样改成陈述语序，时态也要后移：“Where do you live?” → He asked me **where** I **lived**. 中文的“问他住哪里”在英语里要把 where 放在前面，后面接陈述句。",
+    "转述**命令、请求和建议**时，用 tell 或 ask 加上人，再接 **to + 动词原形**；否定时在 to 前加 not：“Close the door.” → She told me **to close** the door. “Don't be late.” → He told us **not to be** late.",
+    "英语的动词选择比中文更严格：ask 常用于问题和请求，tell 常用于命令和指示。不能用 say 直接接人，例如 He said me to go. 是错误的，应该说 He told me to go.",
+    "时态与人称的变化和陈述句的间接引语相同：“Will you come?” → She asked whether I **would** come. 另外，whether 还可以与 or not 搭配，表示“是否”：I don't know whether he will come **or not**."
+  ],
+  "mistakes": [
+    "✗ She asked me where was I. → ✓ She asked me where I was. 间接问句要用陈述语序，主语要放在动词之前。",
+    "✗ He asked if did I know the answer. → ✓ He asked if I knew the answer. 转述时不保留 did，而是把动词改为过去式 knew。",
+    "✗ The teacher said me to sit down. → ✓ The teacher told me to sit down. 转述命令要用 tell + 人 + to，不能用 say + 人。",
+    "✗ She told me don't be late. → ✓ She told me not to be late. 否定的命令用 not to + 动词原形，而不是直接用 don't。"
+  ],
+  "examples": [
+    { "text": "She asked if I was ready.", "translation": "她问我准备好了没有。", "note": "一般疑问句：if + 陈述语序。" },
+    { "text": "He asked me where I lived.", "translation": "他问我住在哪里。", "note": "特殊疑问句：保留疑问词 where。" },
+    { "text": "The teacher asked whether we had finished the exercise.", "translation": "老师问我们练习做完了没有。" },
+    { "text": "Mum told me to wash my hands before dinner.", "translation": "妈妈叫我吃饭前洗手。", "note": "tell + 人 + to + 动词原形。" },
+    { "text": "The doctor told him not to eat too much salt.", "translation": "医生叫他不要吃太多盐。", "note": "否定命令：not to + 动词原形。" },
+    { "text": "I don't know whether she will come or not.", "translation": "我不知道她会不会来。", "note": "whether ... or not 表示“是否”。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的疑问词。",
+      "sentence": "She asked me ___ I lived.",
+      "translation": "她问我住在哪里。",
+      "options": ["who", "what", "where", "which"],
+      "answer": 2,
+      "explanation": "问的是地点，应使用 where，后面接陈述语序 I lived。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The manager told us ___ late for the meeting.",
+      "translation": "经理叫我们开会不要迟到。",
+      "options": ["don't be", "not be", "no to be", "not to be"],
+      "answer": 3,
+      "explanation": "转述否定命令要用 not to + 动词原形 be。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他问我是否去过北京。",
+      "options": [
+        "He asked me if I had been to Beijing.",
+        "He asked me if had I been to Beijing.",
+        "He asked if I have been to Beijing.",
+        "He asks me if I had been to Beijing."
+      ],
+      "answer": 0,
+      "explanation": "转述的疑问句用 if + 陈述语序，时态后移为 had been。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "She asked where he lived.",
+        "Dad told me to clean my room.",
+        "He said me to wait outside."
+      ],
+      "answer": 2,
+      "explanation": "say 后面不能直接接人，应改为 He told me to wait outside。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "teacher", "asked", "us", "whether", "we", "understood."],
+      "alternatives": [],
+      "translation": "老师问我们是否听懂了。",
+      "explanation": "whether 引导的间接问句使用陈述语序 we understood。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的引导词。",
+      "sentence": "Tom asked his sister ___ she had seen his phone.",
+      "translation": "汤姆问他妹妹有没有看到他的手机。",
+      "options": ["if", "that", "what", "who"],
+      "answer": 0,
+      "explanation": "一般疑问句的转述使用 if，后面接陈述语序。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The nurse told the patient ___ the medicine twice a day.",
+      "translation": "护士叫病人每天吃两次药。",
+      "options": ["take", "to take", "taking", "takes"],
+      "answer": 1,
+      "explanation": "tell + 人 + to + 动词原形 take。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "妈妈叫我把房间收拾干净。",
+      "options": [
+        "Mum told me to clean my room.",
+        "Mum said me clean my room.",
+        "Mum asked me clean my room.",
+        "Mum told me cleaning my room."
+      ],
+      "answer": 0,
+      "explanation": "转述命令用 told me to clean，ask 后面不能直接跟不带 to 的动词。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["She", "asked", "me", "if", "I", "had", "finished", "my", "homework."],
+      "alternatives": [],
+      "translation": "她问我作业做完了没有。",
+      "explanation": "if 引导的间接问句中，主语 I 在助动词 had 之后，使用陈述语序。"
+    }
+  ]
+}

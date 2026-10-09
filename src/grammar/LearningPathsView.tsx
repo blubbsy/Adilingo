@@ -44,12 +44,14 @@ interface Props {
   paths: LearningPath[];
   ctx: PathContext;
   selectedPathId: string | null;
+  /** Specialty courses: the paths only teach terms, so the hint does not mention grammar. */
+  wordsOnly?: boolean;
   onSelectPath: (id: string | null) => void;
   onOpenGrammar: (grammarId: string) => void;
   onPracticeVocab: (path: LearningPath, unit: PathUnit, step: VocabStep) => void;
 }
 
-export function LearningPathsView({ paths, ctx, selectedPathId, onSelectPath, onOpenGrammar, onPracticeVocab }: Props) {
+export function LearningPathsView({ paths, ctx, selectedPathId, wordsOnly = false, onSelectPath, onOpenGrammar, onPracticeVocab }: Props) {
   const { t } = useI18n();
   const path = paths.find((p) => p.id === selectedPathId);
   if (!path) {
@@ -58,7 +60,7 @@ export function LearningPathsView({ paths, ctx, selectedPathId, onSelectPath, on
     return (
       <div className="space-y-6">
         {[
-          { id: 'syllabus', title: t('grammar.paths.syllabus'), hint: t('grammar.paths.syllabusHint'), list: syllabus },
+          { id: 'syllabus', title: t('grammar.paths.syllabus'), hint: t(wordsOnly ? 'grammar.paths.syllabusHintWords' : 'grammar.paths.syllabusHint'), list: syllabus },
           { id: 'themed', title: t('grammar.paths.themed'), hint: t('grammar.paths.themedHint'), list: themed },
         ]
           .filter((g) => g.list.length)

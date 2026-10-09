@@ -1,0 +1,172 @@
+{
+  "id": "e1-have-got",
+  "cefr": 1,
+  "title": "Have got & have: possession · have got 与 have",
+  "tag": "have got",
+  "pattern": "Subject + have / has got + noun · Subject + have / has + noun",
+  "summary": "have got 和 have 都表示“有”；have got 偏口语，have 更通用。",
+  "explanation": [
+    "中文“有”在英语里有两种常见说法：**have got / has got** 和 **have / has**。两者意思相同，都表示拥有、关系或特征。have got 更口语，英式英语中很常见；have 更通用。I have a bike. 和 I've got a bike. 意思一样。",
+    "have got 的形式：I、you、we、they 用 have got，he、she、it 用 has got。缩写是 I've got、she's got（注意这个 's 也可能是 is，要看上下文）。否定形式是 haven't got / hasn't got：We haven't got any milk.",
+    "疑问句把 have 或 has 提到主语前面：Have you got a pen? / Has she got a car? 回答时用 Yes, I have. / No, she hasn't.",
+    "用 **have** 作普通动词时，否定和疑问要借助 do / does：I don't have a car. / Do you have a pen? 第三人称单数要用 does 和 has：Does he have a computer? 美式口语中 have 的疑问句通常用 do。",
+    "have 还有很多日常用法，比如 have breakfast（吃早饭）、have a shower（洗澡）、have a good time（玩得开心）。这些 have 不表示“拥有”，不能换成 have got。"
+  ],
+  "mistakes": [
+    "✗ She have got a dog. → ✓ She has got a dog. 第三人称单数要用 has，不用 have。",
+    "✗ I don't have got a book. → ✓ I haven't got a book. have got 的否定是 haven't got，不要再加 don't。",
+    "✗ I have got breakfast at seven. → ✓ I have breakfast at seven. 吃早饭这类 have 的日常用法不表示拥有，不能用 have got。",
+    "✗ Have you a pen? (美式口语) → ✓ Do you have a pen? 在美式口语中，have 作实义动词时要用 do 来构成疑问句。"
+  ],
+  "examples": [
+    {
+      "text": "I have a new bike.",
+      "translation": "我有一辆新自行车。"
+    },
+    {
+      "text": "She has got two brothers.",
+      "translation": "她有两个哥哥或弟弟。"
+    },
+    {
+      "text": "We haven't got any milk.",
+      "translation": "我们没有牛奶了。"
+    },
+    {
+      "text": "Has he got a computer?",
+      "translation": "他有电脑吗？"
+    },
+    {
+      "text": "Do you have a pen I can use?",
+      "translation": "你有笔借我用吗？"
+    },
+    {
+      "text": "I have breakfast at seven.",
+      "translation": "我七点吃早饭。",
+      "note": "这里的 have 不表示拥有。"
+    },
+    {
+      "text": "They've got a big garden.",
+      "translation": "他们有一个大花园。"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "She ___ a black cat.",
+      "translation": "她有一只黑猫。",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "does"
+      ],
+      "answer": 1,
+      "explanation": "第三人称单数用 has。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "We ___ got a car.",
+      "translation": "我们有一辆车。",
+      "options": [
+        "has",
+        "is",
+        "do",
+        "have"
+      ],
+      "answer": 3,
+      "explanation": "主语 we 用 have got。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的疑问形式。",
+      "sentence": "___ you got a pencil?",
+      "translation": "你有铅笔吗？",
+      "options": [
+        "Do",
+        "Has",
+        "Have",
+        "Are"
+      ],
+      "answer": 2,
+      "explanation": "have got 疑问句把 have 放在主语前。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的否定形式。",
+      "sentence": "I ___ got time now.",
+      "translation": "我现在没有时间。",
+      "options": [
+        "haven't",
+        "don't",
+        "hasn't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation": "I 用 haven't got 表示否定。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他有一个妹妹。",
+      "options": [
+        "He have a sister.",
+        "He has got a sister.",
+        "He has a sister got.",
+        "He got has a sister."
+      ],
+      "answer": 1,
+      "explanation": "第三人称单数用 has got a sister。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我每天早上吃早饭。",
+      "options": [
+        "I have got breakfast every morning.",
+        "I have breakfast every morning.",
+        "I am have breakfast every morning.",
+        "I have breakfast every morning got."
+      ],
+      "answer": 1,
+      "explanation": "吃早饭用 have breakfast，不用 have got。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I've got a red bag.",
+        "They haven't got any money.",
+        "She have got a dog."
+      ],
+      "answer": 2,
+      "explanation": "第三人称单数用 has，应写成 She has got a dog."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Has she got a brother?",
+        "I don't have got a phone.",
+        "We have a big house."
+      ],
+      "answer": 1,
+      "explanation": "have got 的否定是 haven't got，应写成 I haven't got a phone."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": [
+        "Have",
+        "you",
+        "got",
+        "a",
+        "pen?"
+      ],
+      "alternatives": [],
+      "translation": "你有笔吗？",
+      "explanation": "have got 疑问句：Have + 主语 + got + 宾语。"
+    }
+  ]
+}

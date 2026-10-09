@@ -1,0 +1,113 @@
+{
+  "id": "e2-zero-first-conditional",
+  "cefr": 2,
+  "title": "Zero & first conditional · 零条件句与第一条件句",
+  "tag": "if + present",
+  "pattern": "If + subject + present simple, subject + will + V  If + subject + present simple, imperative",
+  "summary": "零条件句说明一般规律，第一条件句说明真实可能的将来；if 从句都用一般现在时，主句中用 will 或祈使句。",
+  "wikiId": "conditionals-and-subjunctive",
+  "explanation": [
+    "**零条件句**表示一般事实、科学规律或习惯，两个分句都用**一般现在时**：**If** you heat ice, it **melts**. 这表示“每次都是这样”，所以不用 will。中文“如果……就……”在这种句子中表示普遍规律，英语的结构与此相同。",
+    "**第一条件句**表示真实可能发生的将来情况：if 从句用**一般现在时**，主句用 **will / won't + 动词原形**：**If** it rains tomorrow, we **will stay** indoors. 关键点是：if 从句中即使说的是将来，也不用 will。",
+    "**最常见的错误**是在 if 从句中写 will：If it will rain…。中文“如果明天下雨”里的“下雨”是将来的事，但在英语条件句中要写成 if it rains。这一点与时间从句的规则相同。",
+    "**主句并不总是用 will**。它也可以是祈使句，或者使用 can、should、may、might 等情态动词：**If** you finish early, you **can** go home. / Call me **if** you need help. 祈使句的主句常见于给出指示或建议的场合。",
+    "**if 的位置**可以放在句首，也可以放在句中。if 从句在句首时后面要加逗号，放在句末时一般不加逗号：We will call you **if** we need help. / **If** we need help, we will call you."
+  ],
+  "mistakes": [
+    "✗ If it will rain, I will stay home. → ✓ If it rains, I will stay home. if 从句中用一般现在时，不用 will。",
+    "✗ If you heat water, it will boils. → ✓ If you heat water, it boils. 零条件句的主句也用一般现在时，不用 will。",
+    "✗ If you will see him, tell him hi. → ✓ If you see him, tell him hi. if 从句中即使表示将来，也要用一般现在时 see。"
+  ],
+  "examples": [
+    { "text": "If you heat ice, it melts.", "translation": "冰加热就会融化。", "note": "零条件句，表示一般规律。" },
+    { "text": "If it rains tomorrow, we will stay indoors.", "translation": "如果明天下雨，我们就待在室内。", "note": "第一条件句，if 从句用一般现在时。" },
+    { "text": "If you finish early, you can leave.", "translation": "如果你提前完成，就可以走了。", "note": "主句用 can 表示许可。" },
+    { "text": "Call me if you need help.", "translation": "需要帮助就给我打电话。", "note": "主句是祈使句。" },
+    { "text": "If you see Tom, tell him to call me.", "translation": "如果你看见汤姆，告诉他给我打电话。" },
+    { "text": "If the bus is late, we won't be on time.", "translation": "如果公交车晚了，我们就赶不上了。", "note": "否定结果用 won't。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "If it ___ tomorrow, we will cancel the picnic.",
+      "translation": "如果明天下雨，我们就取消野餐。",
+      "options": ["will rain", "rains", "rain", "is rain"],
+      "answer": 1,
+      "explanation": "if 从句用一般现在时 rains，不用 will。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "If you heat water to 100 degrees, it ___.",
+      "translation": "水加热到100度就会沸腾。",
+      "options": ["boiling", "will boil", "boils", "is boil"],
+      "answer": 2,
+      "explanation": "零条件句的主句也用一般现在时 boils。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "If you ___ hungry, there is some bread in the kitchen.",
+      "translation": "如果你饿了，厨房里有些面包。",
+      "options": ["will be", "be", "are", "were going"],
+      "answer": 2,
+      "explanation": "if 从句中表示现在的状态用 are。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的连词。",
+      "sentence": "Please call me ___ you need any help.",
+      "translation": "如果你需要帮助，请给我打电话。",
+      "options": ["if", "because", "so", "but"],
+      "answer": 0,
+      "explanation": "表示条件用 if。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "如果明天天气好，我们就去爬山。",
+      "options": ["If the weather will be good tomorrow, we will go hiking.", "If the weather is good tomorrow, we will go hiking.", "If the weather be good tomorrow, we will go hiking.", "If the weather good tomorrow, we will go hiking."],
+      "answer": 1,
+      "explanation": "if 从句用一般现在时 is good，主句用 will go。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "如果你看见他，请告诉他我在等他。",
+      "options": ["If you will see him, tell him I am waiting.", "If you saw him, tell him I am waiting.", "If you see him, tell him I wait.", "If you see him, tell him I am waiting."],
+      "answer": 3,
+      "explanation": "if 从句用 see，主句用祈使句 tell him，宾语从句用 I am waiting。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["If it is cold, wear a coat.", "If it will snow, we will play outside.", "If you study hard, you will pass."],
+      "answer": 1,
+      "explanation": "if 从句不用 will，应写成 If it snows, we will play outside."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["If you heat ice, it melts.", "If you are late, call me.", "If you will need help, ask me."],
+      "answer": 2,
+      "explanation": "if 从句不用 will，应写成 If you need help, ask me."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["If", "it", "rains,", "we", "will", "stay", "inside."],
+      "alternatives": [],
+      "translation": "如果下雨，我们就待在屋里。",
+      "explanation": "if 从句在句首时后面加逗号，主句用 will。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["If", "you", "feel", "tired,", "have", "a", "rest."],
+      "alternatives": [],
+      "translation": "如果你累了，就休息一下。",
+      "explanation": "主句使用祈使句 have a rest。"
+    }
+  ]
+}

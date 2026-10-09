@@ -1,0 +1,172 @@
+{
+  "id": "e1-imperatives",
+  "cefr": 1,
+  "title": "Imperatives & Let's · 祈使句与 Let's",
+  "tag": "V! / Don't V",
+  "pattern": "(Please) + V (base form) · Don't + V · Let's + V",
+  "summary": "祈使句省略主语 you，直接用动词原形开头；否定用 Don't，Let's 表示“我们一起……吧”。",
+  "explanation": [
+    "祈使句用于命令、请求、提醒和指示。它**省略了主语 you**，直接用动词原形开头：Open the door. / Sit down, please. 中文里的“请……”或“你……”在英语中不需要主语。",
+    "否定祈使句在动词前加 **Don't**，相当于中文的“不要……”：Don't touch that! 如果是 be 动词，同样用 Don't be：Don't be late. 注意 Don't 后面的动词要用原形，不加 to。",
+    "**please** 可以让语气更礼貌，放在句首或句末都可以：Please sit down. / Sit down, please. 英语的礼貌主要靠 please 和语调，而不是改变动词的形式。",
+    "**Let's + 动词原形**表示“我们……吧”，是对别人的提议。否定形式是 Let's not：Let's go to the cinema tonight. / Let's not wait for him。注意 Let's 的 's 是 us 的缩写，不要和 Let 混淆。",
+    "语气强的命令可以用感叹号，如 Stop! 一般的指示用句号：Close the window. 很多中文句子里会出现“你”，但英语的祈使句只需要动词原形，不要写成 You open the door!"
+  ],
+  "mistakes": [
+    "✗ You open the window! → ✓ Open the window! 祈使句不用主语 you，直接用动词原形开头。",
+    "✗ Don't to touch it. → ✓ Don't touch it. Don't 后面直接跟动词原形，中间不加 to。",
+    "✗ Let's to go home. → ✓ Let's go home. Let's 后面直接跟动词原形。",
+    "✗ Not run here! → ✓ Don't run here! 表示禁止时要用 Don't，而不是单独的 Not。"
+  ],
+  "examples": [
+    {
+      "text": "Open your books, please.",
+      "translation": "请打开书。"
+    },
+    {
+      "text": "Listen carefully and repeat after me.",
+      "translation": "仔细听，跟着我重复。"
+    },
+    {
+      "text": "Don't be late for class.",
+      "translation": "上课别迟到。"
+    },
+    {
+      "text": "Don't use your phone in the library.",
+      "translation": "在图书馆里不要用手机。"
+    },
+    {
+      "text": "Let's go to the cinema tonight.",
+      "translation": "我们今晚去看电影吧。"
+    },
+    {
+      "text": "Let's not wait for him.",
+      "translation": "我们别等他了。"
+    },
+    {
+      "text": "Be careful! The road is wet.",
+      "translation": "小心！路很湿。"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的祈使句。",
+      "sentence": "___ the window, please.",
+      "translation": "请把窗户打开。",
+      "options": [
+        "Open",
+        "You open",
+        "Opens",
+        "To open"
+      ],
+      "answer": 0,
+      "explanation": "祈使句不用主语，直接用动词原形 Open。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的否定祈使句。",
+      "sentence": "___ late for school.",
+      "translation": "上学别迟到。",
+      "options": [
+        "Not be",
+        "Don't to be",
+        "Don't be",
+        "Doesn't be"
+      ],
+      "answer": 2,
+      "explanation": "否定祈使句用 Don't be，不用 Doesn't。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的提议。",
+      "sentence": "___ go to the park this afternoon.",
+      "translation": "我们今天下午去公园吧。",
+      "options": [
+        "Let's to",
+        "Lets",
+        "Let's",
+        "Let's going"
+      ],
+      "answer": 2,
+      "explanation": "Let's 后面直接接动词原形 go。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的祈使句。",
+      "sentence": "___ your shoes at the door.",
+      "translation": "请在门口脱鞋。",
+      "options": [
+        "Takes off",
+        "You take off",
+        "Take off",
+        "Taking off"
+      ],
+      "answer": 2,
+      "explanation": "祈使句用动词原形 Take off。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "别担心！",
+      "options": [
+        "Not worry!",
+        "You don't worry!",
+        "Don't to worry!",
+        "Don't worry!"
+      ],
+      "answer": 3,
+      "explanation": "否定祈使句：Don't + 动词原形。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们别在这里停车吧。",
+      "options": [
+        "Let's don't park here.",
+        "Let's not to park here.",
+        "Let's not park here.",
+        "Let not park here."
+      ],
+      "answer": 2,
+      "explanation": "Let's not 后面直接接动词原形 park。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Close the door, please.",
+        "You sit down here.",
+        "Don't touch the cake."
+      ],
+      "answer": 1,
+      "explanation": "祈使句不用主语 you，应写成 Sit down here."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Let's go for a walk.",
+        "Be quiet, please.",
+        "Not run in the hall!"
+      ],
+      "answer": 2,
+      "explanation": "禁止要用 Don't，应写成 Don't run in the hall!"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": [
+        "Please",
+        "wait",
+        "here",
+        "for",
+        "a",
+        "moment."
+      ],
+      "alternatives": [],
+      "translation": "请在这里稍等一下。",
+      "explanation": "请求的祈使句：Please + 动词原形 + 其他成分。"
+    }
+  ]
+}

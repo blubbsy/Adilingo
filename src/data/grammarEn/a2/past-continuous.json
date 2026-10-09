@@ -1,0 +1,113 @@
+{
+  "id": "e2-past-continuous",
+  "cefr": 2,
+  "title": "Past continuous · 过去进行时",
+  "tag": "was + -ing",
+  "pattern": "Subject + was / were + V-ing",
+  "summary": "描述过去某一时刻正在进行的动作；与一般过去时搭配时，用 when / while 表示背景和打断。",
+  "explanation": [
+    "**过去进行时**表示过去某个时间点或某段时间里正在进行的动作，强调“过程”而不是“结果”：At 8 p.m. last night, I **was watching** TV. 中文说“我昨晚八点正在看电视”，英语的结构也是“过去的某一时刻 + 正在进行”。",
+    "**构成**：was（用于 I、he、she、it）或 were（用于 you、we、they）加上动词的 **-ing** 形式：She **was cooking** dinner at six. 否定句在 was / were 后加 not，写成 wasn't 或 weren't：They **weren't sleeping**. 疑问句把 was / were 提到主语前：**Were** you working at nine?",
+    "**与一般过去时搭配**是这个时态最重要的用法。正在进行的动作（背景）用过去进行时，突然发生或打断它的动作用一般过去时，两者常用 when 或 while 连接：I **was walking** home **when** it started to rain. / **While** I **was cooking**, the phone **rang**. 注意：when 引导的一般过去时从句表示短动作，while 引导的进行时从句表示长背景。",
+    "**不是所有动词都能用进行时**。表示状态或感觉的动词，如 know、like、want、have（表示拥有）、believe，通常只用一般过去时：I **knew** the answer. 不说 I was knowing the answer. 中文的“我知道”“我喜欢”在过去时里也直接用简单过去式即可。",
+    "学习时可以问自己两个问题：这个动作是“正在进行”还是“已经完成”？它是背景，还是突然插进来的事件？回答清楚了，时态就基本确定了。"
+  ],
+  "mistakes": [
+    "✗ I was watch TV at 8 p.m. → ✓ I was watching TV at 8 p.m. 进行时的结构是 was / were + V-ing，不能漏掉 -ing。",
+    "✗ I was knowing the answer. → ✓ I knew the answer. know 是表示状态的动词，一般不用进行时。",
+    "✗ When I was walking home, I was seeing an old friend. → ✓ When I was walking home, I saw an old friend. 突然发生的动作用一般过去时 saw，而不是进行时。",
+    "✗ They was playing football. → ✓ They were playing football. 主语 they 要搭配复数 were，不用 was。"
+  ],
+  "examples": [
+    { "text": "I was reading a book at 9 p.m. last night.", "translation": "昨晚九点我正在看书。" },
+    { "text": "They were playing football in the park when it started to rain.", "translation": "天开始下雨的时候，他们正在公园里踢足球。", "note": "进行中的动作被突然发生的事情打断。" },
+    { "text": "She wasn't listening to the teacher.", "translation": "她当时没有在听老师讲课。" },
+    { "text": "Were you sleeping when I called?", "translation": "我打电话的时候你在睡觉吗？", "note": "疑问句把 were 提到主语前。" },
+    { "text": "While my father was cooking, I was setting the table.", "translation": "爸爸做饭的时候，我在摆餐桌。", "note": "两个动作同时进行，都用过去进行时。" },
+    { "text": "I knew the answer, but I didn't say it.", "translation": "我知道答案，但是没有说出来。", "note": "know 是状态动词，用一般过去时。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "At this time yesterday, we ___ dinner.",
+      "translation": "昨天这个时候，我们正在吃晚饭。",
+      "options": ["ate", "eat", "are eating", "were eating"],
+      "answer": 3,
+      "explanation": "yesterday 的某个时刻正在进行，用过去进行时 were eating。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "They ___ dinner when the guests arrived.",
+      "translation": "客人到的时候他们正在吃晚饭。",
+      "options": ["have had", "are having", "were having", "was had"],
+      "answer": 2,
+      "explanation": "过去某一时刻正在进行的动作用 were having。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "While I ___ my homework, my brother watched TV.",
+      "translation": "我在做作业的时候，我弟弟在看电视。",
+      "options": ["am doing", "do", "done", "was doing"],
+      "answer": 3,
+      "explanation": "while 引导的背景动作用过去进行时 was doing。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "At 7 p.m. yesterday, the children ___ in the garden.",
+      "translation": "昨天晚上七点，孩子们正在花园里玩。",
+      "options": ["is playing", "play", "were playing", "are playing"],
+      "answer": 2,
+      "explanation": "主语 children 是复数，过去进行时用 were playing。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "昨天下午我正在写信。",
+      "options": ["I was write a letter yesterday afternoon.", "I was writing a letter yesterday afternoon.", "I wrote a letter yesterday afternoon while.", "I am writing a letter yesterday afternoon."],
+      "answer": 1,
+      "explanation": "过去某一时段正在进行，用 was + writing。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我正在做饭的时候，电话响了。",
+      "options": ["I was cooking when the phone rang.", "I was cook when the phone rang.", "I am cooking when the phone rang.", "I cooking when the phone rang."],
+      "answer": 0,
+      "explanation": "背景动作用过去进行时 was cooking，突然发生的动作用一般过去时 rang。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["They were sleeping at midnight.", "I was knowing the truth.", "We were watching a film at 9."],
+      "answer": 1,
+      "explanation": "know 是状态动词，一般不用进行时，应写成 I knew the truth."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["He was play football yesterday.", "She was walking to school when it started to rain.", "The bus was coming at that moment."],
+      "answer": 0,
+      "explanation": "进行时要用 was + V-ing，应写成 He was playing football yesterday."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["I", "was", "reading", "when", "you", "called."],
+      "alternatives": [],
+      "translation": "你打电话来的时候我正在看书。",
+      "explanation": "背景动作用过去进行时，when 从句中的打断动作用一般过去时。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["While", "they", "were", "talking,", "the", "lights", "went", "out."],
+      "alternatives": [],
+      "translation": "他们聊天的时候灯灭了。",
+      "explanation": "while 从句用过去进行时表示背景，主句用一般过去时表示突然发生的事。"
+    }
+  ]
+}

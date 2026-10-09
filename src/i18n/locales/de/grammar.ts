@@ -52,7 +52,7 @@ export const grammar: Partial<Record<keyof typeof en, string>> = {
   'grammar.lesson.best': 'Bestwert {pct} %',
   'grammar.lesson.practiceAgain': 'Noch einmal üben',
   'grammar.lesson.startPractice': 'Übung starten',
-  'grammar.list.filterAria': 'Nach HSK-Stufe filtern',
+  'grammar.list.filterAria': 'Nach Stufe filtern',
   'grammar.list.completedCount': '{done} / {total} abgeschlossen',
   'grammar.list.best': 'Bestwert {pct} %',
   'grammar.exercise.result': '{correct} / {total} richtig',
@@ -79,4 +79,8 @@ export const grammar: Partial<Record<keyof typeof en, string>> = {
   'grammar.exercise.clear': 'Satz leeren',
   'grammar.exercise.wordBank': 'Wortvorrat',
   'grammar.exercise.wordKey': '{word} (Taste {n})',
+  'grammar.paths.topicPart': '{topic} ({n}/{total})',
+  'grammar.paths.domainDesc': '{words, plural, one {# Begriff} other {# Begriffe}} in {topics, plural, one {# Thema} other {# Themen}}, nach Unterthemen geordnet.',
+  'grammar.paths.syllabusHintWords': 'Jeder Begriff, Stufe für Stufe und Thema für Thema.',
+  'grammar.lesson.readWiki': 'Wiki-Artikel lesen',
 };

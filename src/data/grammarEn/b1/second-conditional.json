@@ -1,0 +1,120 @@
+{
+  "id": "e3-second-conditional",
+  "cefr": 3,
+  "title": "Second conditional · 第二条件句（与现在相反的假设）",
+  "tag": "if V2, would",
+  "pattern": "If + Subject + Past simple, Subject + would + V (base)",
+  "summary": "第二条件句谈论现在或将来不太可能发生、或与事实相反的情况：if + 一般过去时，主句用 would + 动词原形。",
+  "wikiId": "conditionals-and-subjunctive",
+  "explanation": [
+    "第二条件句用来谈论**现在或将来不太可能发生、或与事实相反**的情况。结构是 **if + 一般过去时（V2），主语 + would + 动词原形**：If I **had** more time, I **would travel** more.（如果我有更多时间，我会多去旅行，但现在时间并不多）。",
+    "注意：if 从句里的过去式**并不表示过去的时间**，只表示“假设”。这一点和中文不同：中文说“如果我是你”，动词没有变化，英语则借用过去式来标记虚拟语气。",
+    "be 动词在虚拟条件句中通常用 **were**，不论主语是什么：If I **were** you, I **would apologise**. 口语中 was 也很常见，但考试和正式写作中应该使用 were。",
+    "主句中除了 would 之外，还可以用 could（能够）或 might（可能）：If she **knew** the answer, she **could tell** us. 但主句不能用 will，因为 will 表示真实的将来，而第二条件句表示假设。",
+    "如果是对过去的假设，要用第三条件句（would have + V3），这一点在后面的课程中会学到。另外，if 从句可以放在句首（需要逗号）或句末（不需要逗号）：We would be happy if it **stopped** raining."
+  ],
+  "mistakes": [
+    "✗ If I have money, I would buy a car. → ✓ If I had money, I would buy a car. 表示与现在相反的假设，if 从句要用一般过去时 had，而不是现在时 have。",
+    "✗ If I would be you, I would say sorry. → ✓ If I were you, I would say sorry. if 从句中不能用 would，要用 were 来表示假设。",
+    "✗ If she knew the answer, she will tell us. → ✓ If she knew the answer, she would tell us. 第二条件句的主句要用 would，而不是 will。"
+  ],
+  "examples": [
+    { "text": "If I had more free time, I would learn the guitar.", "translation": "如果我有更多空闲时间，我就去学吉他。" },
+    { "text": "If it didn't rain so much, we could go hiking.", "translation": "如果雨没有下这么多，我们就能去远足了。" },
+    { "text": "If I were you, I would talk to her.", "translation": "如果我是你，我会和她谈一谈。", "note": "be 动词用 were。" },
+    { "text": "What would you do if you won the lottery?", "translation": "如果你中了彩票，你会做什么？" },
+    { "text": "She would be happier if she lived closer to her family.", "translation": "如果她住得离家人近一些，她会更开心。" },
+    { "text": "If the bus came now, we might catch the train.", "translation": "如果公交车现在来，我们可能赶得上那班火车。", "note": "might 表示可能性。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "If I ___ a bird, I would fly to you.",
+      "translation": "如果我是一只鸟，我就会飞到你身边。",
+      "options": ["am", "will be", "had been", "were"],
+      "answer": 3,
+      "explanation": "与事实相反的假设中，be 动词用 were。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "If we ___ earlier, we would catch the bus.",
+      "translation": "如果我们早点走，就能赶上那班公交车。",
+      "options": ["left", "leave", "have left", "will leave"],
+      "answer": 0,
+      "explanation": "if 从句用一般过去时 left 表示假设。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "如果我会说法语，我就能在巴黎找到工作。",
+      "options": [
+        "If I can speak French, I could find a job in Paris.",
+        "If I could speak French, I would find a job in Paris.",
+        "If I speak French, I would find a job in Paris.",
+        "If I could speak French, I will find a job in Paris."
+      ],
+      "answer": 1,
+      "explanation": "与现在事实相反的假设：if 从句用 could speak，主句用 would find。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "If I had time, I would help you.",
+        "If I knew her number, I will call her.",
+        "If they were here, they would enjoy it."
+      ],
+      "answer": 1,
+      "explanation": "第二条件句的主句要用 would，应改为 If I knew her number, I would call her。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["What", "would", "you", "do", "if", "you", "won", "the", "lottery?"],
+      "alternatives": [],
+      "translation": "如果你中了彩票，你会做什么？",
+      "explanation": "特殊疑问词 What 放在句首，主句的 would 放在主语之前。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I ___ you if I had your phone number.",
+      "translation": "如果我有你的电话号码，我就会给你打电话。",
+      "options": ["called", "calling", "will call", "would call"],
+      "answer": 3,
+      "explanation": "主句用 would + 动词原形 call。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "If he ___ harder, he would pass the exam.",
+      "translation": "如果他更努力地学习，他就能通过考试。",
+      "options": ["studies", "will study", "studied", "has studied"],
+      "answer": 2,
+      "explanation": "与现在的实际情况相反，if 从句用一般过去时 studied。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "如果我是老板，我会给大家放一天假。",
+      "options": [
+        "If I am the boss, I would give everyone a day off.",
+        "If I were the boss, I would give everyone a day off.",
+        "If I were the boss, I will give everyone a day off.",
+        "If I the boss were, I would give everyone a day off."
+      ],
+      "answer": 1,
+      "explanation": "假设现在的情况，if 从句用 were，主句用 would give。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["She", "would", "be", "happier", "if", "she", "lived", "closer", "to", "her", "family."],
+      "alternatives": [],
+      "translation": "如果她住得离家人近一些，她会更开心。",
+      "explanation": "主句 She would be happier 在前，if 从句 if she lived closer to her family 在后。"
+    }
+  ]
+}

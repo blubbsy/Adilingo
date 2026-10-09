@@ -1,0 +1,136 @@
+{
+  "id": "e4-comparatives-advanced",
+  "cefr": 4,
+  "title": "Advanced comparatives · 比较级进阶",
+  "tag": "more…more",
+  "pattern": "The + comparative, the + comparative  ·  far / much / twice + as + adj + as  ·  not nearly as + adj + as",
+  "summary": "用 the + 比较级 … the + 比较级 表达“越……越……”；用 far、much、twice、not nearly 等修饰比较级，表示差距大小。",
+  "explanation": [
+    "**the + 比较级, the + 比较级** 表示“越……就越……”，对应中文“越……越……”的结构：**The more** you practise, **the better** you become.（你练得越多，就越好。）前半句和后半句各有一个 the，比较级都要放在句首或句中的合适位置。注意：不要再在比较级前加 more 或 most，英语中不存在“more better”这样的双重比较。",
+    "**修饰比较级** 要用 far、much、a lot、still、even、slightly、a bit 等词，而不能用 very：This phone is **far more expensive** than the old one.（这部手机比旧的贵得多。）中文“很”“非常”后面可以直接接形容词，但英语的 very 只能修饰原级，不能修饰比较级。",
+    "**倍数比较** 用 twice / three times + as + 形容词 + as：The new library is **twice as large as** the old one.（新图书馆的面积是旧的两倍。）也可以用 twice the size of：It is twice the size of the old one.",
+    "**远不如** 的否定比较要用 **not nearly as … as**，或 not nearly so … as：My English is **not nearly as good as** yours.（我的英语远不如你的。）中文的“不如”只需要一个比较词，英语却要用 as … as 的完整结构。",
+    "**越来越……** 的表达是 **比较级 and 比较级**，如 Prices are getting higher and higher.（物价越来越高。）这种结构适合描述变化的趋势，比单纯用一个比较级更生动。学会这些结构后，写作和口语会更灵活，也更符合英语母语者的表达习惯。"
+  ],
+  "mistakes": [
+    "✗ The more you practise, the more better you become. → ✓ The more you practise, the better you become. 句子中已经有比较级 more，后半句只需要 better，不能再加 more。",
+    "✗ This road is very longer than that one. → ✓ This road is much longer than that one. very 不能修饰比较级，应改用 much、far 或 a lot。",
+    "✗ It is twice bigger than mine. → ✓ It is twice as big as mine. “两倍大”要用 twice as … as 结构，不能只用 twice + 比较级。",
+    "✗ She is not as tall than her sister. → ✓ She is not as tall as her sister. as … as 结构中的第二个 as 不能换成 than。"
+  ],
+  "examples": [
+    { "text": "The more you practise, the better you become.", "translation": "你练得越多，就越好。" },
+    { "text": "The harder I work, the luckier I feel.", "translation": "我越努力，就越觉得幸运。" },
+    { "text": "This phone is far more expensive than the old one.", "translation": "这部手机比旧的贵得多。" },
+    { "text": "The new library is twice as large as the old one.", "translation": "新图书馆的面积是旧的两倍。" },
+    { "text": "My English is not nearly as good as yours.", "translation": "我的英语远不如你的好。" },
+    { "text": "The situation is slightly better than last month.", "translation": "情况比上个月稍好一点。", "note": "slightly 修饰比较级，表示差距很小。" },
+    { "text": "Prices are getting higher and higher.", "translation": "物价越来越高。", "note": "比较级 and 比较级，表示持续变化。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The ___ you save, the more you can spend later.",
+      "translation": "你存得越多，以后就能花得越多。",
+      "options": ["more", "most", "many", "much more"],
+      "answer": 0,
+      "explanation": "the + 比较级 the + 比较级 结构中，这里用 more。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "This book is ___ more interesting than the film.",
+      "translation": "这本书比电影有意思得多。",
+      "options": ["very", "more", "far", "so"],
+      "answer": 2,
+      "explanation": "修饰比较级要用 far（或 much），不能用 very。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The new stadium is twice ___ the old one.",
+      "translation": "新体育场的面积是旧的两倍。",
+      "options": ["so large as", "as large", "as large as", "more large than"],
+      "answer": 2,
+      "explanation": "倍数比较用 twice as large as。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "你越早开始学习，就越容易取得进步。",
+      "options": [
+        "The earlier you start studying, the more easy it is to make progress.",
+        "The earlier you start studying, the easier it is to make progress.",
+        "The more early you start studying, the easier it is to make progress.",
+        "The earlier you start studying, easier it is to make progress."
+      ],
+      "answer": 1,
+      "explanation": "the earlier … the easier 结构中，比较级不能再加 more。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这台电脑比那台快得多。",
+      "options": [
+        "This computer is very faster than that one.",
+        "This computer is more fast than that one.",
+        "This computer is much more faster than that one.",
+        "This computer is far faster than that one."
+      ],
+      "answer": 3,
+      "explanation": "far 修饰比较级 faster，表示差距大。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我的英语远不如你的好。",
+      "options": [
+        "My English is not nearly as good as yours.",
+        "My English is not nearly so good than yours.",
+        "My English is nearly not as good as yours.",
+        "My English is not near as good than yours."
+      ],
+      "answer": 0,
+      "explanation": "“远不如”用 not nearly as … as，比较时用 as，不用 than。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The sooner we leave, the sooner we arrive.",
+        "She is slightly taller than her brother.",
+        "This road is very longer than the other one."
+      ],
+      "answer": 2,
+      "explanation": "very 不能修饰比较级，应改为 much longer。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The more I thought about it, the more more confused I became.",
+        "The older she gets, the wiser she becomes.",
+        "It is twice as heavy as mine."
+      ],
+      "answer": 0,
+      "explanation": "比较级 more 后面不能再加 more，应写成 the more confused I became。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "more", "carefully", "you", "plan", "your", "trip,", "the", "smoother", "it", "will", "be."],
+      "alternatives": [],
+      "translation": "你越仔细地规划行程，行程就越顺利。",
+      "explanation": "the more + 副词修饰的完整句 + the + 比较级 smoother。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Prices", "are", "getting", "higher", "and", "higher", "every", "year."],
+      "alternatives": [],
+      "translation": "物价每年都在越来越高。",
+      "explanation": "比较级 and 比较级 表示持续上升，higher and higher。"
+    }
+  ]
+}

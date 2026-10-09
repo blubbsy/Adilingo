@@ -1,0 +1,131 @@
+{
+  "id": "e5-future-in-the-past",
+  "cefr": 5,
+  "title": "Future in the past · 过去的将来",
+  "tag": "Past future",
+  "pattern": "was / were going to + base verb  ·  was / were about to + base verb  ·  would + base verb  ·  was / were to (have) + V3",
+  "summary": "从过去的某个时间点看将来，要用 was going to、was about to、would 或 was to，而不是 will。",
+  "explanation": [
+    "说话的时间点不同，“将来”的形式也不同。如果叙述的是过去的事情，而事情在那个时刻之后才发生，英语不用 will，而要用过去将来的形式。中文会说“那时他打算……”“他当时就要……”，英语则根据语境选择 was going to、was about to、would 或 was to。",
+    "**was / were going to + 动词原形**表示过去的计划或根据迹象作出的预测：It **was going to rain**, so we took umbrellas.（看样子要下雨，所以我们带了伞。）与 would 相比，going to 更强调已有的打算或迹象，因此常用于有明显依据的情况。",
+    "**was / were about to + 动词原形**表示“正要做某事”，几乎立刻就会发生，常与 when 连用：I **was about to leave** when the boss asked me to stay.。注意：about to 后面不能再接具体的时间状语，如 tomorrow，也不能写成 about leaving。",
+    "**would** 用作过去将来时，常出现在间接引语和叙述中，表示“那之后将会”：She told me she **would call** back in ten minutes.。当主句是过去时，宾语从句中的 will 必须改为 would，时间副词也要相应调整，例如 tomorrow 变为 the next day。",
+    "**was / were to (have) + V3**表示原定的安排，但最后没有实现，或者表示命中注定的事。例如：The concert **was to have started** at eight, but it was postponed.（音乐会原定八点开始。）He **was never to see** his homeland again.（他再也没能回到故乡。）这种结构带有一定的正式或文学色彩。"
+  ],
+  "mistakes": [
+    "✗ I was go to the station. → ✓ I was going to go to the station. be going to 中的 going 不能省略，后面接动词原形 go。",
+    "✗ I was about leave when she called. → ✓ I was about to leave when she called. be about to 之后要用不定式 to，不能直接接动词原形。",
+    "✗ He said he will come the next day. → ✓ He said he would come the next day. 在过去时的间接引语中，will 要改为 would。"
+  ],
+  "examples": [
+    { "text": "It was going to rain, so we decided to stay indoors.", "translation": "天看起来要下雨，所以我们决定待在室内。" },
+    { "text": "I was about to leave the office when the boss asked me to stay.", "translation": "我正要下班，老板却让我留下。" },
+    { "text": "She told me she would call back in ten minutes.", "translation": "她告诉我她十分钟后回电话。" },
+    { "text": "The concert was to have started at eight, but it was postponed.", "translation": "音乐会原定八点开始，但被推迟了。", "note": "was to have + V3：原定的安排，未能实现。" },
+    { "text": "He was never to see his homeland again.", "translation": "他再也没能回到自己的故乡。", "note": "was to 表示命中注定。" },
+    { "text": "They were going to get married in June, but they changed their minds.", "translation": "他们原本打算六月结婚，但改变了主意。" },
+    { "text": "We were about to order dinner when the electricity went out.", "translation": "我们正准备点晚餐，电突然断了。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的过去将来形式。",
+      "sentence": "The train ___ leave at six, but it was delayed.",
+      "translation": "火车原定六点开，但晚点了。",
+      "options": ["is going to", "will be going to", "was going to", "going to"],
+      "answer": 2,
+      "explanation": "叙述的是过去的计划，应用 was going to leave。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I ___ the door when the phone rang.",
+      "translation": "我正要关门时，电话响了。",
+      "options": ["was about closing", "was about to close", "was going close", "had about to close"],
+      "answer": 1,
+      "explanation": "表示“正要做某事”，结构是 was about to + 动词原形。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "He promised he ___ help us the next day.",
+      "translation": "他答应第二天会帮我们。",
+      "options": ["will", "is going to", "would", "shall"],
+      "answer": 2,
+      "explanation": "主句 promised 是过去时，间接引语中的 will 要改为 would。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The meeting ___ held in Paris, but it was moved to London.",
+      "translation": "会议原定在巴黎举行，后来改到了伦敦。",
+      "options": ["is to be", "will be", "was to be", "was going"],
+      "answer": 2,
+      "explanation": "was to be held 表示过去的原定安排，其余选项不符合时态或结构。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我正要睡觉时，朋友打来了电话。",
+      "options": [
+        "I was about sleeping when my friend called.",
+        "I about to sleep when my friend called.",
+        "I was about sleep when my friend called.",
+        "I was about to sleep when my friend called."
+      ],
+      "answer": 3,
+      "explanation": "表示“正要做某事”用 was about to sleep。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他说他第二天会给我回电话。",
+      "options": [
+        "He said he will call me back the following week.",
+        "He said he would call me back the following week.",
+        "He said he would call me back last week.",
+        "He says he will call me back next week."
+      ],
+      "answer": 1,
+      "explanation": "过去时的间接引语中，will 改为 would，the following week 表示“下一周”，与原句含义相符。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "She was going to visits her aunt.",
+        "She was going to visit her aunt.",
+        "The train was to have left at six."
+      ],
+      "answer": 0,
+      "explanation": "be going to 之后要接动词原形 visit，不能用 visits。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "We were about to order dinner when the power failed.",
+        "We were about order dinner when the power failed.",
+        "The concert was to have started at eight."
+      ],
+      "answer": 1,
+      "explanation": "be about 之后要加不定式 to，应为 We were about to order dinner.。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["We", "were", "about", "to", "leave", "when", "it", "started", "to", "rain."],
+      "alternatives": [],
+      "translation": "我们正要出发，天就开始下雨了。",
+      "explanation": "were about to + 动词原形 leave，when 引导的从句表示紧接着发生的事。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["She", "was", "going", "to", "tell", "me", "the", "news,", "but", "she", "forgot."],
+      "alternatives": [],
+      "translation": "她本打算把消息告诉我，但她忘了。",
+      "explanation": "was going to 表示过去的打算，but 之后转折，说明计划未能实现。"
+    }
+  ]
+}

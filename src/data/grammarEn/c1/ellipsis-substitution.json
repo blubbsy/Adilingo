@@ -1,0 +1,127 @@
+{
+  "id": "e5-ellipsis-substitution",
+  "cefr": 5,
+  "title": "Ellipsis & substitution · 省略与替代",
+  "tag": "Ellipsis",
+  "pattern": "do so / do it  ·  one / ones  ·  so / not  ·  auxiliary + too / so",
+  "summary": "英语用 do so、one、so、not 等替代词避免重复，省略掉已经清楚的部分。",
+  "explanation": [
+    "英语很少把同一个词或短语重复说两遍。中文习惯把话说全，例如“我喜欢红色的裙子，不喜欢蓝色的裙子”；英语则会说 I like the red dress, not the blue **one**.。这种用替代词或省略来避免重复的方法，叫做**替代**（substitution）和**省略**（ellipsis）。",
+    "**do so** 可以替代“动词 + 其他成分”，语气比 do it 更正式：He was asked to leave early, and he **did so** without complaint.（他被要求早退，他没有抱怨就照做了。）**one / ones** 替代前面已经出现的可数名词，并保留修饰语：Which bag do you want, the black **one** or the brown **ones**? 注意：one 只能替代可数名词，不能替代不可数名词。",
+    "**so / not** 常用来替代整个从句，尤其在 think、hope、believe、expect、assume、afraid 等动词之后：Will it rain? I hope **not**.（我希望不会。）I think **so**.（我想是的。）注意：hope 之后用 not，而不是 no；否定 think 时，要写成 I don't think so，而不是 I think not so。",
+    "**助动词与 too / so / either** 也能省略重复的动词：She speaks English fluently, and her brother **does** too.。如果前一句是 can、will、have 等助动词，后一句就用对应的助动词，不要重复实义动词。在 if 或 when 引导的从句中，也常用 if so、if not 等省略形式。",
+    "省略虽然简洁，却要保证意思清楚，否则会产生歧义。中国学习者常在不该省略的地方省略，例如两句主语不同、动词不同时，仍要写完整。写作中可以多用替代词来增强书面感，但口语中简单地用 yes、no、I think so 就足够自然了。"
+  ],
+  "mistakes": [
+    "✗ I hope no. → ✓ I hope not. 替代整个从句时，hope 之后用 not，不用 no。",
+    "✗ I like the red dress, but I don't like the blue dress one. → ✓ I like the red dress, but I don't like the blue one. one 已经替代了名词 dress，之后不能再重复名词。",
+    "✗ I didn't go to the party, but she did go to the party. → ✓ I didn't go to the party, but she did. 助动词 did 已经替代了动词，后面不要再重复 go to the party。"
+  ],
+  "examples": [
+    { "text": "\"Is it going to snow tomorrow?\" \"I think so, but I hope not.\"", "translation": "“明天会下雪吗？”“我想会，但我希望不会。”" },
+    { "text": "He was asked to leave early, and he did so without complaint.", "translation": "他被要求早退，他没有抱怨就照做了。", "note": "did so 替代 was asked to leave early 的动作。" },
+    { "text": "Would you prefer the red bag or the black one?", "translation": "你想要红包还是黑包？", "note": "one 替代前面的 bag。" },
+    { "text": "She speaks English fluently, and her brother does too.", "translation": "她英语说得很流利，她哥哥也是。" },
+    { "text": "Are you coming with us? If so, bring your passport.", "translation": "你跟我们一起去吗？如果去，就带上护照。", "note": "if so 相当于 if you are coming with us。" },
+    { "text": "The new model is faster than the old one.", "translation": "新型号比旧型号快。" },
+    { "text": "Please sign the form, if you have not already done so.", "translation": "如果你还没签字，请签一下表格。", "note": "done so 替代 signed the form。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的替代词。",
+      "sentence": "She is a teacher, and her husband ___.",
+      "translation": "她是老师，她丈夫也是。",
+      "options": ["is too", "was too", "did too", "has too"],
+      "answer": 0,
+      "explanation": "too 替代前面的 is a teacher，只有 is too 与主语和时态相符。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的省略形式。",
+      "sentence": "I didn't finish the report, but my colleague ___.",
+      "translation": "我没完成报告，但我同事完成了。",
+      "options": ["does", "done", "did", "didn't"],
+      "answer": 2,
+      "explanation": "but 表示对比，所以后半句要用肯定的 did 省略 finish the report。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的替代词。",
+      "sentence": "Which pen do you want, the blue ___ or the black one?",
+      "translation": "你想要哪支笔，蓝色的还是黑色的？",
+      "options": ["ones", "it", "one", "that"],
+      "answer": 2,
+      "explanation": "pen 是单数可数名词，替代它用单数 one。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的替代词。",
+      "sentence": "Will the shop be open on Sunday? I expect ___.",
+      "translation": "周日店铺会开门吗？我想会的。",
+      "options": ["then", "too", "so", "no"],
+      "answer": 2,
+      "explanation": "expect 之后用 so 替代肯定的从句。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "“他会参加会议吗？”“我想会的。”",
+      "options": [
+        "\"Will he attend the meeting?\" \"I think it.\"",
+        "\"Will he attend the meeting?\" \"I think yes.\"",
+        "\"Will he attend the meeting?\" \"I think he.\"",
+        "\"Will he attend the meeting?\" \"I think so.\""
+      ],
+      "answer": 3,
+      "explanation": "表示“我想会”时用 I think so，不能用 I think yes 或 I think it。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我的车比你的快。",
+      "options": [
+        "My car is faster than you.",
+        "My car faster than yours.",
+        "My car is faster than your.",
+        "My car is faster than yours."
+      ],
+      "answer": 3,
+      "explanation": "yours 替代 your car，是省略名词的所有格代词；your 后面必须有名词。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I hope not.", "I think so.", "I think not so."],
+      "answer": 2,
+      "explanation": "think 否定时应说 I don't think so，I think not so 是错误的。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Which bag is yours? The black one.",
+        "I like the red bag, not the blue bag one.",
+        "These photos are nice; I'll keep the best ones."
+      ],
+      "answer": 1,
+      "explanation": "one 已经替代了 bag，之后不要再重复名词，应为 not the blue one。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["He", "was", "invited", "to", "speak", "and", "he", "did", "so", "gladly."],
+      "alternatives": [],
+      "translation": "他受邀发言，并欣然照办。",
+      "explanation": "did so 替代 was invited to speak 所指的动作，句末 gladly 作方式状语。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["If", "so,", "please", "let", "me", "know", "as", "soon", "as", "possible."],
+      "alternatives": [],
+      "translation": "如果是这样，请尽快告诉我。",
+      "explanation": "if so 是省略的条件从句，意思是 if that is the case。"
+    }
+  ]
+}

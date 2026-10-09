@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Search, X } from 'lucide-react';
 import type { CourseId, UserState } from '../types';
 import { DOMAIN_FAMILIES, DOMAINS, FAMILY_ICON, domainCourseId, domainName, type DomainInfo } from '../data/domains';
@@ -17,15 +17,31 @@ export function CourseCatalogue({ state, activeCourse, onSelect, onClose }: Prop
   const { t, lang, formatNumber } = useI18n();
   const [query, setQuery] = useState('');
 
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [onClose]);
+
   const name = (d: DomainInfo) => domainName(d, lang);
-  const progressOf = (course: CourseId): number => {
-    const progress = course === activeCourse ? state.progress : state.courseProgress?.[course];
-    return progress ? Object.values(progress).filter(isWordLearned).length : 0;
-  };
-  const started = (course: CourseId): boolean => {
-    const progress = course === activeCourse ? state.progress : state.courseProgress?.[course];
-    return !!progress && Object.keys(progress).length > 0;
-  };
+
+  const courseStats = useMemo(() => {
+    const stats = new Map<CourseId, { learned: number; started: boolean }>();
+    for (const d of DOMAINS) {
+      for (const track of ['chinese', 'english'] as const) {
+        const id = domainCourseId(d.id, track);
+        const progress = id === activeCourse ? state.progress : state.courseProgress?.[id];
+        const words = progress ? Object.values(progress) : [];
+        stats.set(id, {
+          learned: words.filter(isWordLearned).length,
+          started: words.length > 0,
+        });
+      }
+    }
+    return stats;
+  }, [state.progress, state.courseProgress, activeCourse]);
 
   const groups = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -37,8 +53,17 @@ export function CourseCatalogue({ state, activeCourse, onSelect, onClose }: Prop
   }, [query]);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end justify-center bg-slate-900/60 p-0 backdrop-blur-sm sm:items-center sm:p-4" role="dialog" aria-modal="true" aria-labelledby="catalogue-title">
-      <div className="relative flex max-h-[92dvh] w-full max-w-3xl flex-col rounded-t-3xl border border-slate-200 bg-white shadow-2xl sm:rounded-3xl dark:border-slate-700 dark:bg-slate-800">
+    <div
+      className="fixed inset-0 z-50 flex items-end justify-center bg-slate-900/60 p-0 backdrop-blur-sm sm:items-center sm:p-4"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="catalogue-title"
+      onClick={onClose}
+    >
+      <div
+        className="relative flex max-h-[92dvh] w-full max-w-3xl flex-col rounded-t-3xl border border-slate-200 bg-white shadow-2xl sm:rounded-3xl dark:border-slate-700 dark:bg-slate-800"
+        onClick={(e) => e.stopPropagation()}
+      >
         <div className="flex items-start justify-between gap-3 border-b border-slate-100 p-5 dark:border-slate-700">
           <div className="min-w-0">
             <h2 id="catalogue-title" className="text-xl font-bold">{t('catalogue.title')}</h2>
@@ -99,8 +124,8 @@ export function CourseCatalogue({ state, activeCourse, onSelect, onClose }: Prop
                             <span className="block text-xs text-slate-500 dark:text-slate-400">
                               {active
                                 ? t('catalogue.active')
-                                : started(id)
-                                  ? t('catalogue.progress', { learned: formatNumber(progressOf(id)), total: formatNumber(d.count) })
+                                : courseStats.get(id)?.started
+                                  ? t('catalogue.progress', { learned: formatNumber(courseStats.get(id)?.learned ?? 0), total: formatNumber(d.count) })
                                   : t('catalogue.start')}
                             </span>
                           </button>

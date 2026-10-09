@@ -1,0 +1,171 @@
+{
+  "id": "e1-adjectives-basic",
+  "cefr": 1,
+  "title": "Basic adjectives: position & very / too / not very · 基础形容词",
+  "tag": "adj. + noun",
+  "pattern": "a + adjective + noun · be + (very / too / not very) + adjective",
+  "summary": "形容词放在名词前，或放在 be 动词后；英语形容词没有单复数和性别变化。",
+  "explanation": [
+    "形容词用来描述名词的特征，如 big、red、happy。英语形容词**没有单复数、性别和人称的变化**：a big house、big houses、a big dog、a big girl 中的 big 始终不变，不要随意改写形式。",
+    "形容词通常**放在名词前面**作定语：a red car、a happy child。如果形容词作表语，要放在 be 动词之后：The car is red.（车是红色的）。中文“红色的车”和 a red car 语序一致，但“车是红的”要用 is 连接。",
+    "**very、too、so、really** 可以修饰形容词：very hot（很热）、too expensive（太贵）、so beautiful（如此漂亮）。too 通常表示“过于”，带有负面意思，后面常接 for 说明对象：too big for me。",
+    "**not very** 表示“不太”，比单纯的 not 更委婉：The room is not very big.（房间不太大。）注意不要说 very not big，否定词必须放在 very 之前。",
+    "形容词不能直接放在 be 动词之前，中文“很高兴”要用 I am happy，不能说 I happy。如果有多个形容词，先记住一个形容词放在名词前的规则，逐步再学习更复杂的顺序。"
+  ],
+  "mistakes": [
+    "✗ a car red → ✓ a red car. 形容词作定语时放在名词前面，而不是后面。",
+    "✗ She is beautifull. → ✓ She is beautiful. beautiful 的拼写只有一个 l 结尾，注意拼写。",
+    "✗ I very happy. → ✓ I am very happy. 形容词作表语时，中间要有 be 动词。",
+    "✗ This job is very difficulty. → ✓ This job is very difficult. 形容词不能改成名词形式，difficulty 是名词，difficult 才是形容词。"
+  ],
+  "examples": [
+    {
+      "text": "She has a new red bike.",
+      "translation": "她有一辆新的红色自行车。"
+    },
+    {
+      "text": "The soup is very hot.",
+      "translation": "汤很烫。"
+    },
+    {
+      "text": "This question is too difficult for me.",
+      "translation": "这道题对我来说太难了。"
+    },
+    {
+      "text": "The old house is not very big.",
+      "translation": "那座旧房子不太大。"
+    },
+    {
+      "text": "My teacher is kind and funny.",
+      "translation": "我的老师又好心又幽默。"
+    },
+    {
+      "text": "The children are happy today.",
+      "translation": "今天孩子们很开心。"
+    },
+    {
+      "text": "Your bag is heavy. Let me help you.",
+      "translation": "你的包很重，我来帮你拿。"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的短语。",
+      "sentence": "She has a ___.",
+      "translation": "她有一只小狗。",
+      "options": [
+        "dog small",
+        "small dog",
+        "smalls dog",
+        "small dogs"
+      ],
+      "answer": 1,
+      "explanation": "形容词放在名词前，且 a 后面接单数名词：a small dog。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形容词形式。",
+      "sentence": "The box is ___.",
+      "translation": "箱子很重。",
+      "options": [
+        "heavy",
+        "heavily",
+        "heaviness",
+        "heavying"
+      ],
+      "answer": 0,
+      "explanation": "此处需要形容词 heavy，而不是副词或名词。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的程度词。",
+      "sentence": "This food is ___ spicy for me.",
+      "translation": "这种食物对我来说太辣了。",
+      "options": [
+        "to",
+        "much",
+        "too",
+        "also"
+      ],
+      "answer": 2,
+      "explanation": "too 修饰形容词 spicy，表示“太……”。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的程度词。",
+      "sentence": "I am ___ tired today.",
+      "translation": "我今天很累。",
+      "options": [
+        "very",
+        "very much",
+        "many",
+        "much"
+      ],
+      "answer": 0,
+      "explanation": "very 修饰形容词 tired；very much 不能修饰形容词。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这个房间不太大。",
+      "options": [
+        "This room is not very big.",
+        "This room is very not big.",
+        "This room not is very big.",
+        "This room is not much big."
+      ],
+      "answer": 0,
+      "explanation": "not very 的正确顺序是 is not very big。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "那是一本有趣的书。",
+      "options": [
+        "That is a book interesting.",
+        "That is an interest book.",
+        "That is an interesting book.",
+        "That is interesting a book."
+      ],
+      "answer": 2,
+      "explanation": "形容词 interesting 放在名词 book 前，且 an 用于元音音素开头的词。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The room is very clean.",
+        "She is beautifull.",
+        "He is a tall boy."
+      ],
+      "answer": 1,
+      "explanation": "beautiful 的拼写错误，应写成 She is beautiful."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "This job is very difficulty.",
+        "It is a red car.",
+        "I am happy today."
+      ],
+      "answer": 0,
+      "explanation": "此处需要形容词 difficult，应写成 This job is very difficult."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": [
+        "My",
+        "new",
+        "bag",
+        "is",
+        "red."
+      ],
+      "alternatives": [],
+      "translation": "我的新包是红色的。",
+      "explanation": "名词前有 my 和形容词 new，表语 red 放在 be 动词后。"
+    }
+  ]
+}

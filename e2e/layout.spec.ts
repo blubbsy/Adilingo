@@ -15,10 +15,10 @@ const VIEWPORTS = [
   { name: 'tablet', width: 768, height: 1024 },
   { name: 'desktop', width: 1280, height: 800 },
 ];
-const SPECIALTY_ROUTES = ['home', 'topics', 'dictionary', 'insights', 'achievements'];
+const SPECIALTY_ROUTES = ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements'];
 const ROUTES = {
   chinese: ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements'],
-  english: ['home', 'learn', 'grammar', 'irregular', 'topics', 'dictionary', 'insights', 'achievements'],
+  english: ['home', 'learn', 'irregular', 'topics', 'dictionary', 'insights', 'achievements'],
   'chinese:emotor': SPECIALTY_ROUTES,
   'english:power-electronics': SPECIALTY_ROUTES,
 } as const;

@@ -1,0 +1,136 @@
+{
+  "id": "e4-past-perfect-continuous",
+  "cefr": 4,
+  "title": "Past perfect continuous and past perfect · 过去完成进行时与过去完成时",
+  "tag": "had been",
+  "pattern": "had been + V-ing (强调过程/时长)  ·  had + past participle (强调结果/完成)",
+  "summary": "过去完成进行时强调一个过去动作持续到另一个过去时刻之前；过去完成时强调在那个时刻之前已经完成。",
+  "explanation": [
+    "**过去完成时**（had + 过去分词）表示：在过去的某个时间点之前，一个动作已经完成：By the time I arrived, the film **had started**.（我到的时候，电影已经开始了。）它关注的是“完成”和“结果”，两个时间点之间的过程并不重要。",
+    "**过去完成进行时**（had been + 动词-ing）表示：一个动作在过去某个时间点之前一直在进行，并持续到那个时间点（或者刚刚结束）。它强调“过程”和“时长”：She **had been waiting** for an hour when the bus finally came.（公交车终于来了，她已经等了一个小时。）",
+    "判断的关键是：**强调过程和时长，用进行式；强调完成和结果，用完成式**。例如 The ground was wet because it **had been raining**.（地面是湿的，因为一直在下雨。）说明“雨下了很久”这个过程造成了现在的结果；而 He had written three letters before lunch. 则强调已经写完了三封信。",
+    "和中文不同，英语中的动词 know、like、have、believe、belong 等表示状态，通常不用进行时，因此要用过去完成时：I **had known** him for ten years.（不说 I had been knowing him。）同样，for 和 since 也要分清：for two hours 表示时长，since 2 o'clock 表示起点，不能写成 since two hours。",
+    "在叙述过去的故事时，先发生的事用过去完成时（或过去完成进行时），后发生的事用一般过去时，这样时间顺序一目了然。如果两个动作没有先后关系，或者只是简单叙述，就直接用一般过去时，不必都改成过去完成式。"
+  ],
+  "mistakes": [
+    "✗ I had been knowing him for ten years. → ✓ I had known him for ten years. 表示状态的动词 know 不用进行时，中文“认识很久了”应直接用 had known。",
+    "✗ She had been finished the report before lunch. → ✓ She had finished the report before lunch. 完成式是 had + 过去分词，不能在 had 后面再加 been。",
+    "✗ He had been waiting since two hours. → ✓ He had been waiting for two hours. 中文“等了两个小时”要用 for 加时长，since 后面接的是起点时间，如 since 2 o'clock。",
+    "✗ When I got to the station, the train had been left. → ✓ When I got to the station, the train had left. 说“火车已经开走了”是不及物动词 leave 的完成形式，不用被动语态 been left。"
+  ],
+  "examples": [
+    { "text": "She had been waiting for an hour when the bus finally came.", "translation": "公交车终于来了，她已经等了一个小时。", "note": "强调等待的过程和时长。" },
+    { "text": "The ground was wet because it had been raining all night.", "translation": "地面湿漉漉的，因为整夜都在下雨。" },
+    { "text": "By the time I arrived, the film had already started.", "translation": "我到的时候，电影已经开始了。", "note": "强调“开始”这个已完成的动作。" },
+    { "text": "He was out of breath, so he had obviously been running.", "translation": "他上气不接下气，显然他刚才一直在跑。" },
+    { "text": "How long had you been living in London before you moved to Paris?", "translation": "你搬到巴黎之前在伦敦住了多久？" },
+    { "text": "I had known him for ten years before we finally quarrelled.", "translation": "我们终于吵架之前，我已经认识他十年了。", "note": "状态动词 know 用过去完成时，不用进行时。" },
+    { "text": "They had been arguing for hours, so nobody wanted to speak.", "translation": "他们已经吵了好几个小时，所以没人想说话了。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "When the police arrived, the thieves ___ for almost an hour.",
+      "translation": "警察到达时，小偷已经等了将近一个小时。",
+      "options": ["have been waiting", "waits", "had been waiting", "had be waiting"],
+      "answer": 2,
+      "explanation": "过去某时之前一直在进行的动作用过去完成进行时 had been waiting。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "My hands were black because I ___ the car all morning.",
+      "translation": "我的手很黑，因为我整个上午都在修车。",
+      "options": ["have fixed", "have been fixing", "had be fixing", "had been fixing"],
+      "answer": 3,
+      "explanation": "强调整个上午的过程，用过去完成进行时 had been fixing；have 与过去的 were 不协调。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "By the time we arrived, the concert ___.",
+      "translation": "我们到达时，音乐会已经开始了。",
+      "options": ["has started", "had started", "starts", "had be started"],
+      "answer": 1,
+      "explanation": "强调过去某时之前已经完成的动作，用过去完成时 had started。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们到的时候，她已经哭了很久了。",
+      "options": [
+        "When we arrived, she has been crying for a long time.",
+        "When we arrived, she cried for a long time.",
+        "When we arrived, she had been crying for a long time.",
+        "When we arrived, she had be crying for a long time."
+      ],
+      "answer": 2,
+      "explanation": "过去某时之前持续的动作，用过去完成进行时 had been crying。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "在他们到达之前，我已经把房间打扫干净了。",
+      "options": [
+        "I have cleaned the room before they arrived.",
+        "I had clean the room before they arrived.",
+        "I had cleaned the room before they arrived.",
+        "I had been clean the room before they arrived."
+      ],
+      "answer": 2,
+      "explanation": "过去某时之前已完成的动作，用过去完成时 had cleaned。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "那辆车已经坏了好几天了，所以我们只好走路。",
+      "options": [
+        "The car has broke for days, so we had to walk.",
+        "The car had been broken for days, so we had to walk.",
+        "The car had be broken for days, so we had to walk.",
+        "The car was broke for days, so we had to walk."
+      ],
+      "answer": 1,
+      "explanation": "“坏了好几天”是过去某时之前已持续的状态，用 had been broken；broke 不能作过去分词。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The room smelled of paint because they had been painting all day.",
+        "The room smelled of paint because they had being painting all day.",
+        "The room smelled of paint because they had been painting all day long."
+      ],
+      "answer": 1,
+      "explanation": "had been 后面要接 painting，不能写成 had being painting。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I have known her since we were children.",
+        "I had known him for ten years before he moved.",
+        "I had been knowing him for ten years."
+      ],
+      "answer": 2,
+      "explanation": "know 是状态动词，不用进行时，应写成 I had known him for ten years。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["By", "the", "time", "I", "got", "there,", "my", "train", "had", "left."],
+      "alternatives": [],
+      "translation": "我到那里的时候，火车已经开走了。",
+      "explanation": "by the time 从句用一般过去时 got，主句用过去完成时 had already left。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["We", "had", "been", "walking", "for", "hours", "when", "we", "finally", "found", "a", "cafe."],
+      "alternatives": [],
+      "translation": "我们走了好几个小时，才终于找到一家咖啡馆。",
+      "explanation": "过去完成进行时 had been walking 表示持续的过程，when 之后用一般过去时表示发生的事。"
+    }
+  ]
+}

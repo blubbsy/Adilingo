@@ -1,0 +1,132 @@
+{
+  "id": "e5-subjunctive",
+  "cefr": 5,
+  "title": "Subjunctive mood · 虚拟语气",
+  "tag": "that + base",
+  "pattern": "suggest / insist / demand + that + subject + base verb  ·  It is vital + that + subject + base verb  ·  If + subject + were",
+  "summary": "表示建议、要求、必要时，that 从句中用动词原形；假设“如果是……”用 were。",
+  "wikiId": "conditionals-and-subjunctive",
+  "explanation": [
+    "**虚拟语气**表示说话人的建议、要求、必要或假设，描述的并不是已经发生的事实。中文不需要改变动词形式，英语则在一些固定结构中使用动词原形，这就是“that 从句中的原形”：The doctor insisted that he **stay** in bed for a week.",
+    "常用的触发动词包括 suggest（建议）、insist（坚持）、demand（要求）、request（请求）、recommend（推荐）、propose（提议）、require（规定）。它们后面的 that 从句用**主语 + 动词原形**，即使主语是第三人称单数也不加 -s：I suggest that she **not go** alone.（否定时 not 放在原形前面。）",
+    "“It is + 形容词 + that”结构同样使用原形，常见形容词有 vital、essential、necessary、crucial、important、advisable：It is vital that every passenger **keep** the ticket. 这类句子的重点是“有必要做某事”，而不是“某人确实在做某事”。",
+    "注意区分：suggest 表示“暗示、表明”时，后面的从句用陈述语气，动词正常变化：His silence suggests that he **is** hiding something.（这里是“暗示”，不是“建议”。）同时，“如果我是你”这类假设句用 **if I were you**，were 不随人称变化，中文里没有这种形式。",
+    "中国学习者常把这种原形误认为错误，或者在 that 从句里照搬中文的时态和人称变化。记住：只要句子的核心意思是“建议、要求、坚持、必须”，that 从句就用原形；只有陈述事实时，才恢复正常的动词形式。"
+  ],
+  "mistakes": [
+    "✗ I suggest that he goes to the hospital. → ✓ I suggest that he go to the hospital. suggest 之后的 that 从句用动词原形，不加 -es。",
+    "✗ It is vital that she is informed. → ✓ It is vital that she be informed. it is vital 之后要用 be 的原形，而不是 is。",
+    "✗ If I was you, I would take the job. → ✓ If I were you, I would take the job. 表示假设的“如果我是你”要用 were，这是正式英语的标准形式。"
+  ],
+  "examples": [
+    { "text": "The doctor insisted that he stay in bed for a week.", "translation": "医生坚持要他卧床休息一周。" },
+    { "text": "I suggest that we book a table before the concert.", "translation": "我建议我们在音乐会开始前订个座位。" },
+    { "text": "It is vital that every passenger keep their ticket until the end of the journey.", "translation": "每位乘客都必须在旅途结束前保管好车票，这一点至关重要。" },
+    { "text": "The committee recommended that the project not be cancelled.", "translation": "委员会建议不要取消这个项目。", "note": "否定形式：not + 动词原形。" },
+    { "text": "If I were you, I would apologise to her at once.", "translation": "要是我是你，我会马上向她道歉。", "note": "假设语气，were 不随人称变化。" },
+    { "text": "The union demanded that the working hours be reduced.", "translation": "工会要求缩短工作时间。" },
+    { "text": "His silence suggests that he is hiding something.", "translation": "他的沉默表明他在隐瞒什么。", "note": "suggest 表示“暗示”时，从句用陈述语气。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The teacher recommended that every student ___ the book before the test.",
+      "translation": "老师建议每个学生在考试前都读一读这本书。",
+      "options": ["reads", "read", "reading", "will read"],
+      "answer": 1,
+      "explanation": "recommend 之后的 that 从句用动词原形 read，不用 reads，也不用 will read。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "It is essential that the form ___ signed by both parties.",
+      "translation": "双方都必须在这份表格上签字，这一点至关重要。",
+      "options": ["is", "be", "to be", "being"],
+      "answer": 1,
+      "explanation": "It is essential that 之后用原形 be，而不是 is 或 to be。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "If I ___ you, I would take the job.",
+      "translation": "要是我是你，我会接受这份工作。",
+      "options": ["am", "be", "were", "shall be"],
+      "answer": 2,
+      "explanation": "表示假设的 if I were you 中要用 were。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们坚持要他立即离开。",
+      "options": [
+        "We insisted that he leaves immediately.",
+        "We insisted that he left immediately.",
+        "We insisted that he leave immediately.",
+        "We insisted that he is leaving immediately."
+      ],
+      "answer": 2,
+      "explanation": "insist 之后的 that 从句用动词原形 leave，表示“坚持要求”。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "医生建议病人不要服用这种药。",
+      "options": [
+        "The doctor suggested that the patient doesn't take this medicine.",
+        "The doctor suggested the patient to not take this medicine.",
+        "The doctor suggested that the patient take not this medicine.",
+        "The doctor suggested that the patient not take this medicine."
+      ],
+      "answer": 3,
+      "explanation": "否定形式是 that 从句中 not 放在动词原形之前：that the patient not take。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The manager proposed that the meeting be postponed.",
+        "I request that you returns the files by Friday.",
+        "It is crucial that everyone attend the training."
+      ],
+      "answer": 1,
+      "explanation": "request 之后的 that 从句要用动词原形 return，应为 I request that you return the files by Friday.。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "He demanded that the report be finished today.",
+        "It is vital that she informing the board.",
+        "She suggested that we take a break."
+      ],
+      "answer": 1,
+      "explanation": "it is vital 之后要用 that she inform the board 的原形，informing 形式错误。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The rules require that all members ___ their own equipment.",
+      "translation": "规则要求所有成员自备装备。",
+      "options": ["bring", "brings", "to bring", "brought"],
+      "answer": 0,
+      "explanation": "require 之后的 that 从句用动词原形 bring。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["I", "suggest", "that", "he", "see", "a", "doctor", "as", "soon", "as", "possible."],
+      "alternatives": [],
+      "translation": "我建议他尽快去看医生。",
+      "explanation": "suggest that + 主语 + 动词原形 see，句末 as soon as possible 作状语。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["It", "is", "vital", "that", "every", "student", "be", "present", "at", "the", "exam."],
+      "alternatives": [],
+      "translation": "每位学生都必须到场参加考试，这一点至关重要。",
+      "explanation": "It is vital that + 主语 + be（原形），表示必要性。"
+    }
+  ]
+}

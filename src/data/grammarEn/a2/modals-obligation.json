@@ -1,0 +1,113 @@
+{
+  "id": "e2-modals-obligation",
+  "cefr": 2,
+  "title": "Modals of obligation · 表示义务的情态动词",
+  "tag": "must/have to",
+  "pattern": "Subject + must / mustn't + V  Subject + have to / don't have to + V",
+  "summary": "must 和 have to 表示“必须”，mustn't 表示“禁止”，don't have to 表示“不必”，should 表示建议。",
+  "explanation": [
+    "**must** 表示说话人认为“必须”，多来自个人判断或重要的要求；**mustn't** 表示“禁止、不准”：You **mustn't** use your phone in the exam room. **should** 语气较轻，表示“最好”“应该”，是建议而不是强制：You **should** drink more water in summer.",
+    "**have to** 表示由外部规定或客观情况造成的必要性，如学校规定、工作需要。它有人称和时态变化：I **have to** wear a uniform at school. / He **has to** leave early. 中文“不得不”“必须”常用它来表达，因为它比 must 更偏向客观要求。",
+    "**don't have to** 表示“不必”，这与 mustn't 的“禁止”意思完全不同，是中文学习者最容易混淆的地方：You **mustn't** come on Sunday 是“不许来”，You **don't have to** come on Sunday 是“不用来”。否定句中一定要先判断说的是“禁止”还是“没有必要”。",
+    "**must 没有过去式和将来式**。谈论过去的义务要用 **had to**，谈论将来用 **will have to**：I **had to** finish the report yesterday. / We **will have to** take a taxi tomorrow. must 后面直接接动词原形，不加 to，也不随主语变化。",
+    "疑问句中，have to 需要借助 do / does / did：**Do** I **have to** sign this? 中文“我必须签吗？”在英语中常用 have to 而不是 must，因为 must 的疑问形式比较正式，日常口语很少使用。"
+  ],
+  "mistakes": [
+    "✗ You must not to smoke here. → ✓ You must not smoke here. must 后面直接接动词原形，不加 to。",
+    "✗ He musts go now. → ✓ He must go now. must 没有人称变化，第三人称单数也不加 -s。",
+    "✗ You mustn't come on Sunday; it's your day off. → ✓ You don't have to come on Sunday. 表示“不必”要用 don't have to，mustn't 表示禁止。",
+    "✗ Yesterday I must go to the bank. → ✓ Yesterday I had to go to the bank. must 没有过去式，谈论过去的义务要用 had to。"
+  ],
+  "examples": [
+    { "text": "You must wear a seat belt in the car.", "translation": "在车里必须系安全带。" },
+    { "text": "You mustn't use your phone in the exam room.", "translation": "考场里不准使用手机。", "note": "mustn't 表示禁止。" },
+    { "text": "I have to get up at six every morning.", "translation": "我每天早上六点必须起床。", "note": "have to 表示客观要求。" },
+    { "text": "You don't have to pay for the ticket; it's free.", "translation": "你不用付票钱，票是免费的。", "note": "don't have to 表示不必。" },
+    { "text": "She had to stay at the hospital last night.", "translation": "她昨晚不得不待在医院。", "note": "过去的义务用 had to。" },
+    { "text": "You should drink more water in summer.", "translation": "夏天你最好多喝水。", "note": "should 表示建议，语气较轻。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的情态动词形式。",
+      "sentence": "You ___ park here. It's a no-parking zone.",
+      "translation": "你不能在这里停车，这是禁停区。",
+      "options": ["don't have to", "mustn't", "has to", "musts"],
+      "answer": 1,
+      "explanation": "禁停区表示禁止，用 mustn't。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的情态动词形式。",
+      "sentence": "We ___ wear uniforms at this school.",
+      "translation": "我们这所学校必须穿校服。",
+      "options": ["have to", "has to", "must to", "musts"],
+      "answer": 0,
+      "explanation": "主语 we 搭配 have to；has to 用于第三人称单数，must 后不接 to。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的情态动词形式。",
+      "sentence": "You ___ come tomorrow. It's optional.",
+      "translation": "你明天不必来，这是可选的。",
+      "options": ["mustn't", "doesn't have to", "don't have to", "have not to"],
+      "answer": 2,
+      "explanation": "主语 you 搭配 don't have to，表示“不必”。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的情态动词形式。",
+      "sentence": "Yesterday I ___ finish the report before 5 p.m.",
+      "translation": "昨天我不得不在下午五点前完成报告。",
+      "options": ["must", "musted", "have to", "had to"],
+      "answer": 3,
+      "explanation": "yesterday 表示过去，must 没有过去式，用 had to。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "你不应该熬夜。",
+      "options": ["You should not stays up late.", "You shouldn't stay up late.", "You must not to stay up late.", "You don't should stay up late."],
+      "answer": 1,
+      "explanation": "表示建议用 shouldn't + 动词原形。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们必须在周五之前交作业。",
+      "options": ["We have to hand in the homework before Friday.", "We has to hand in the homework before Friday.", "We must to hand in the homework before Friday.", "We will must hand in the homework before Friday."],
+      "answer": 0,
+      "explanation": "主语 we 搭配 have to；must 后不加 to，也不能和 will 连用。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I must go now.", "He musts finish the work.", "She had to stay home."],
+      "answer": 1,
+      "explanation": "must 没有人称变化，应写成 He must finish the work."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["You don't have to pay.", "We must not to be late.", "They have to leave early."],
+      "answer": 1,
+      "explanation": "must not 后直接接动词原形，应写成 We must not be late."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["You", "must", "wear", "a", "helmet."],
+      "alternatives": [],
+      "translation": "你必须戴头盔。",
+      "explanation": "must + 动词原形 wear，后接宾语。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["We", "don't", "have", "to", "wear", "a", "suit", "today."],
+      "alternatives": [],
+      "translation": "我们今天不用穿西装。",
+      "explanation": "don't have to 表示不必，后接动词原形。"
+    }
+  ]
+}

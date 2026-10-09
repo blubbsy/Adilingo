@@ -1,0 +1,136 @@
+{
+  "id": "e4-adverbial-clauses",
+  "cefr": 4,
+  "title": "Adverbial clauses of time, reason, purpose and result · 状语从句",
+  "tag": "so…that",
+  "pattern": "when / as soon as + present  ·  because / since + clause  ·  in order to / so that + clause  ·  so / such … that + clause",
+  "summary": "状语从句用连词说明时间、原因、目的和结果；时间从句用一般现在时代替将来时，目的用 so that 或 in order to，结果用 so / such … that。",
+  "explanation": [
+    "**时间状语从句** 由 when、while、as soon as、until、before、after 等引导，表示“……的时候”“一……就……”“直到……”。英语的规则是：**表示将来的时间从句中，要用一般现在时代替 will**：I will call you **when I get** home.（我到家的时候会给你打电话。）中文没有这种限制，学习者容易写成 when I will arrive。",
+    "**原因状语从句** 常用 because、as、since，三者都表示“因为”，但语气有差别。because 强调直接原因，最常用；since、as 多用于句首，表示大家已经知道的原因：**Since** you are here, let's start the meeting.（既然你来了，我们开始开会吧。）要注意：because 和 so 不能同时用在一个句子里，只保留一个。",
+    "**目的状语** 表示“为了……”，可用 in order to / so as to + 动词原形，也可用 so that + 从句（从句中常用 can、could、will、would）：He studied hard **in order to** get into a good university.（他努力学习，以便考上一所好大学。）She spoke slowly **so that** everyone could understand her.（她说得很慢，好让每个人都能听懂。）",
+    "**结果状语** 表示“如此……以至于……”。**so + 形容词 / 副词 + that** 与 **such + (a/an) + 形容词 + 名词 + that** 是两种固定结构：It was **so** cold **that** we stayed inside.（天气太冷，我们只好待在屋里。）It was **such a** cold day **that** we stayed inside.（那天太冷了，我们一直待在屋里。）",
+    "注意 such 后面要接名词短语，中文“这么……的一天”要写成 such a + 形容词 + 名词，而不能写成 such + 形容词 + 名词的倒装形式。另外，so as to 后面不能接 -ed 或 -ing，只接动词原形。学习这些结构时，要把它们和中文的关联词语一一对应起来。"
+  ],
+  "mistakes": [
+    "✗ Because it was raining, so we stayed at home. → ✓ Because it was raining, we stayed at home. 中文“因为……所以……”不能在英语中同时使用 because 和 so，只保留一个。",
+    "✗ I will call you when I will arrive. → ✓ I will call you when I arrive. when 引导的时间从句表示将来时，要用一般现在时 arrive。",
+    "✗ It was such cold a day that we stayed inside. → ✓ It was such a cold day that we stayed inside. such 后面要接 a + 形容词 + 名词，不能把形容词放在 a 前面。",
+    "✗ I studied hard so as passed the exam. → ✓ I studied hard so as to pass the exam. so as 后面要用 to 加动词原形，表示目的。"
+  ],
+  "examples": [
+    { "text": "I will call you as soon as I get home.", "translation": "我一到家就给你打电话。" },
+    { "text": "Since you are here, let's start the meeting.", "translation": "既然你来了，我们开始开会吧。" },
+    { "text": "He studied hard in order to get into a good university.", "translation": "他努力学习，以便考上一所好大学。" },
+    { "text": "She spoke slowly so that everyone could understand her.", "translation": "她说得很慢，好让每个人都能听懂。" },
+    { "text": "The film was so moving that many people cried.", "translation": "这部电影非常感人，许多人都哭了。" },
+    { "text": "It was such a hot day that we stayed in the shade.", "translation": "天气太热了，我们一直待在阴凉处。" },
+    { "text": "While I was cooking, the children were doing their homework.", "translation": "我做饭的时候，孩子们在做作业。", "note": "while 表示同时发生的动作。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I'll wait here ___ you finish your meeting.",
+      "translation": "你开完会之前，我会在这里等着。",
+      "options": ["because", "so that", "until", "in order"],
+      "answer": 2,
+      "explanation": "“直到……”用时间连词 until。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "He was ___ tired that he fell asleep on the sofa.",
+      "translation": "他太累了，以至于在沙发上睡着了。",
+      "options": ["so", "such", "too", "very much"],
+      "answer": 0,
+      "explanation": "tired 是形容词，结构是 so + 形容词 + that。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Please speak clearly ___ everyone can hear you.",
+      "translation": "请说清楚一点，好让每个人都能听到你。",
+      "options": ["so as", "so that", "so", "in order"],
+      "answer": 1,
+      "explanation": "表示目的并接完整从句，要用 so that。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "为了赶上末班车，他跑得很快。",
+      "options": [
+        "He ran fast in order catching the last bus.",
+        "He ran fast so that catches the last bus.",
+        "He ran fast in order to catching the last bus.",
+        "He ran fast in order to catch the last bus."
+      ],
+      "answer": 3,
+      "explanation": "in order to 后面接动词原形 catch。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他太累了，以至于一句话都说不出来。",
+      "options": [
+        "He was so tired that he could not say a word.",
+        "He was such tired that he could not say a word.",
+        "He was so tired as he could not say a word.",
+        "He was too tired that he could not say a word."
+      ],
+      "answer": 0,
+      "explanation": "表示结果用 so tired that，形容词 tired 前面用 so。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "既然我们已经到了，那就进去吧。",
+      "options": [
+        "Until we have arrived, let's go in.",
+        "As soon as we arrived, let's go in.",
+        "Since we have arrived, let's go in.",
+        "Once we arrive, let's go in."
+      ],
+      "answer": 2,
+      "explanation": "表示“既然”用 since；until 表示直到，once 表示一旦，意思不符。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "It was such cold a day that we stayed inside.",
+        "It was such a cold day that we stayed inside.",
+        "It was so cold that we stayed inside."
+      ],
+      "answer": 0,
+      "explanation": "such 后面要接 a + 形容词 + 名词，应写成 such a cold day。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I will call you when I arrive.",
+        "I will call you when I will arrive.",
+        "I will call you as soon as I get home."
+      ],
+      "answer": 1,
+      "explanation": "when 引导的时间从句中用一般现在时，应写成 when I arrive。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Because", "the", "shop", "was", "closed,", "we", "bought", "our", "food", "online."],
+      "alternatives": [],
+      "translation": "因为商店关门了，我们在网上买了食物。",
+      "explanation": "Because 引导原因从句，主句前不再使用 so。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["He", "saved", "money", "so", "that", "he", "could", "buy", "a", "bike."],
+      "alternatives": [],
+      "translation": "他攒钱是为了买一辆自行车。",
+      "explanation": "so that 引导目的从句，从句中用 could 表示目的。"
+    }
+  ]
+}

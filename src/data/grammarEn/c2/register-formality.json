@@ -1,0 +1,111 @@
+{
+  "id": "e6-register-formality",
+  "cefr": 6,
+  "title": "Register and formality · 语体与正式程度：口语与书面语的语法选择",
+  "tag": "register",
+  "pattern": "Formal: whom / postpone / implementation of  ·  Informal: who / put off / implement",
+  "summary": "同一个意思在正式书面语和口语中常有不同的语法和词汇选择：whom、拉丁词源动词、名词化结构都是正式语体的标志。",
+  "explanation": [
+    "英语的语体大致分为口语、日常书面语和正式语体。C2 水平的学习者要能根据场合选择合适的语法形式。例如“你把信寄给了谁”，口语可以说 Who did you send the letter to?，正式书面语则应写作 To whom did you send the letter?，其中 whom 作介词宾语，不能省略。",
+    "**短语动词与拉丁词源动词**是另一组重要对比。put off、go on with、find out 等短语动词多用于口语，而 postpone、continue、ascertain 更常见于正式文件：The board decided to postpone the meeting.（董事会决定推迟会议。）中文学生常把“推迟”直译成 put off，在正式信函中会显得不够得体。",
+    "**名词化结构**（nominal style）是书面语的典型特点：The implementation of the new policy caused confusion. 比 When they implemented the new policy, people were confused. 更简洁、更客观。名词化的代价是句子变长、动作感变弱，因此写作时要在“正式”与“清晰”之间取得平衡。",
+    "**缩略形式**（can't、I'm、won't）在日常对话和非正式邮件中很自然，但在正式信函、报告和学术论文中通常写全形式：I am unable to attend the conference. 同样，split infinitive（分裂不定式，如 to clearly define）在现代英语中已被广泛接受，但在最严格的正式文本中仍有人避免，可以根据读者选择。",
+    "语体选择没有绝对的对错，关键是读者与场合。写给上司、客户或机构的正式信件，应避免口语化结构；写给朋友的邮件则不需要过于拘谨。学会在两种风格之间切换，是 C2 水平的重要标志。"
+  ],
+  "mistakes": [
+    "✗ The report was written by who? → ✓ By whom was the report written? 正式书面语中，介词后的疑问代词要用 whom。",
+    "✗ I can't attend the meeting, so I will put off the decision until we know more. → ✓ I am unable to attend the meeting, so I will postpone the decision until we have more information. 正式场合应避免缩略形式和口语化的短语动词，改用 unable、postpone 等词。",
+    "✗ The committee have investigate the matter. → ✓ The committee has investigated the matter. committee 作为整体使用时通常视为单数，且 investigate 要用过去分词 investigated 构成现在完成时。"
+  ],
+  "examples": [
+    { "text": "To whom should I address this application?", "translation": "这份申请应该写给谁？", "note": "whom 用于介词之后，是正式用法。" },
+    { "text": "I would be grateful if you could forward the documents at your earliest convenience.", "translation": "如您能尽快转交这些文件，我将不胜感激。", "note": "礼貌的正式书信用语。" },
+    { "text": "The board has decided to terminate the agreement.", "translation": "董事会已决定终止这项协议。", "note": "terminate 比 end 更正式。" },
+    { "text": "The implementation of the new policy caused considerable confusion.", "translation": "新政策的实施造成了相当大的混乱。", "note": "名词化结构，是书面语的典型特点。" },
+    { "text": "I am unable to attend the conference, as I will be abroad.", "translation": "我无法出席会议，因为我将在国外。", "note": "正式场合不用缩略形式。" },
+    { "text": "The committee will investigate the matter thoroughly.", "translation": "委员会将彻底调查此事。", "note": "investigate 替代口语中的 find out about。" },
+    { "text": "It is essential to clearly define the scope of the study.", "translation": "明确界定研究范围至关重要。", "note": "分裂不定式 to clearly define，现代英语中可以接受。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式（正式书面语）。",
+      "sentence": "By ___ was the report written?",
+      "translation": "这份报告是由谁撰写的？",
+      "options": ["who", "whom", "whose", "which"],
+      "answer": 1,
+      "explanation": "介词 by 之后的疑问代词用 whom，正式书面语中尤其如此。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的词语（正式用语）。",
+      "sentence": "The board decided to ___ the meeting until next year.",
+      "translation": "董事会决定将会议推迟到明年。",
+      "options": ["put up with", "go on with", "postpone", "come up with"],
+      "answer": 2,
+      "explanation": "postpone 是“推迟”的正式说法；put up with 意为“忍受”，go on with 意为“继续”，come up with 意为“想出”，都不符合语境。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的名词形式。",
+      "sentence": "The ___ of the new policy has caused confusion.",
+      "translation": "新政策的实施引起了混乱。",
+      "options": ["implementing", "implement", "implemented", "implementation"],
+      "answer": 3,
+      "explanation": "正式书面语常用名词化结构 the implementation of…，implement 是动词，不能直接放在 the 之后。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "委员会将彻底调查此事。",
+      "options": [
+        "The committee will investigates the matter thoroughly.",
+        "The committee will investigate the matter thoroughly.",
+        "The committee will investigation the matter thoroughly.",
+        "The committee will investigating the matter thoroughly."
+      ],
+      "answer": 1,
+      "explanation": "will 之后接动词原形 investigate。investigation 是名词，investigating 与 investigates 形式都不对。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "如您能尽快转交这些文件，我将不胜感激。",
+      "options": [
+        "I would grateful if you could forward the documents as soon as possible.",
+        "I would be grateful if you could forwards the documents as soon as possible.",
+        "I would be grateful if you could forward the documents as soon as possible.",
+        "I would be grateful if you could to forward the documents as soon as possible."
+      ],
+      "answer": 2,
+      "explanation": "be grateful 的结构要完整，could 后接动词原形 forward，不能加 to 或 -s。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "By whom was the decision made?",
+        "The implementation of the reforms was delayed.",
+        "The committee have investigate the matter."
+      ],
+      "answer": 2,
+      "explanation": "investigate 应改为过去分词 investigated 构成现在完成时，committee 作为整体视为单数，应写作 The committee has investigated the matter."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Please", "do", "not", "hesitate", "to", "contact", "us", "if", "you", "have", "questions."],
+      "alternatives": [],
+      "translation": "如有任何疑问，请随时与我们联系。",
+      "explanation": "do not hesitate to + 动词原形，是正式书信中常见的礼貌表达。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["It", "is", "essential", "to", "clearly", "define", "the", "scope", "of", "the", "study."],
+      "alternatives": [],
+      "translation": "明确界定研究范围至关重要。",
+      "explanation": "副词 clearly 插在 to 与动词之间，即分裂不定式，在现代正式英语中可以接受。"
+    }
+  ]
+}

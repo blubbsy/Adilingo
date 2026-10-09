@@ -1,0 +1,122 @@
+{
+  "id": "e3-present-perfect-continuous",
+  "cefr": 3,
+  "title": "Present perfect continuous · 现在完成进行时",
+  "tag": "been + V-ing",
+  "pattern": "Subject + have/has been + V-ing (+ for / since)",
+  "summary": "现在完成进行时强调动作从过去开始、一直持续到现在的过程：I have been waiting for an hour.",
+  "explanation": [
+    "现在完成进行时由 **have/has been + 动词-ing** 构成，表示动作从过去某时开始，**一直持续到现在**，并且强调“过程”和“持续性”：It **has been raining** since this morning.（从早上起一直在下雨，现在还在下）。",
+    "它和现在完成时的区别在于侧重点。现在完成时强调结果或经历，现在完成进行时强调过程：I **have read** three chapters.（读完了三章，关注结果）；I **have been reading** all morning.（一上午一直在读，关注过程）。",
+    "常见用法有两种：一是动作仍在进行（I **have been studying** English for three years. 现在仍在学）；二是动作刚刚结束，但从结果能看出它的痕迹（Your hands are dirty. What **have** you **been doing**?）。",
+    "常与 for（一段时间）、since（起始点）、all day / all morning、lately、recently 搭配。注意：know、like、have、believe、understand 等**状态动词**通常不用进行式，要用现在完成时：I **have known** her for years.，不能说 I have been knowing her.",
+    "中文常用“一直……”“已经……了”来表达这种时态。翻译时可以先问自己两个问题：动作是否持续到现在？我想强调的是过程还是结果？如果两者都是肯定的，就用现在完成进行时。"
+  ],
+  "mistakes": [
+    "✗ I am studying English for three years. → ✓ I have been studying English for three years. 从过去持续到现在的动作要用 have been + V-ing，不能用现在进行时。",
+    "✗ I have been knowing him since 2010. → ✓ I have known him since 2010. know 是状态动词，中文的“认识”不要译成进行式。",
+    "✗ It has been raining since two hours. → ✓ It has been raining for two hours. 表示一段时间用 for；since 后面接的是起始时间点。",
+    "✗ How long have you been wait here? → ✓ How long have you been waiting here? been 后面必须接 -ing 形式，不能用动词原形。"
+  ],
+  "examples": [
+    { "text": "I have been waiting for you for half an hour.", "translation": "我已经等你半个小时了。" },
+    { "text": "She has been working in this company since 2018.", "translation": "她从2018年起一直在这家公司工作。" },
+    { "text": "It has been snowing all day.", "translation": "雪下了一整天。", "note": "all day 与进行式搭配，强调过程。" },
+    { "text": "What have you been doing? Your clothes are wet.", "translation": "你一直在做什么？你的衣服都湿了。", "note": "从结果（衣服湿了）推断过程。" },
+    { "text": "We have been learning English together for a year.", "translation": "我们一起学英语已经一年了。" },
+    { "text": "How long have you been living in Shanghai?", "translation": "你在上海住了多久了？" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的时态。",
+      "sentence": "It ___ since last night, and the streets are wet.",
+      "translation": "从昨晚开始一直在下雨，街道都湿了。",
+      "options": ["has been raining", "is raining", "rained", "raining"],
+      "answer": 0,
+      "explanation": "since last night 表示从过去持续到现在，应用现在完成进行时 has been raining。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的时态。",
+      "sentence": "He ___ on the computer since breakfast.",
+      "translation": "他从吃早饭起就一直在用电脑。",
+      "options": ["is working", "worked", "has been working", "works"],
+      "answer": 2,
+      "explanation": "since breakfast 表示持续到现在的动作，应使用 has been working。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们已经讨论这个问题两个小时了。",
+      "options": [
+        "We discussed the problem for two hours.",
+        "We will discuss the problem for two hours.",
+        "We have been discussing the problem for two hours.",
+        "We are discussing the problem since two hours."
+      ],
+      "answer": 2,
+      "explanation": "“已经……两个小时了”表示动作持续到现在，用 have been discussing + for two hours。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I have been living here since 2015.",
+        "I have been knowing him for ten years.",
+        "She has been working here since May."
+      ],
+      "answer": 1,
+      "explanation": "know 是状态动词，不用进行式，应改为 I have known him for ten years。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["It", "has", "been", "snowing", "since", "morning."],
+      "alternatives": [],
+      "translation": "从早上开始就一直在下雪。",
+      "explanation": "结构为 It + has been + V-ing，since 后接起始时间 morning。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的时态。",
+      "sentence": "Tom ___ football since he was a child.",
+      "translation": "汤姆从小就一直踢足球。",
+      "options": ["played", "plays", "has been playing", "is playing"],
+      "answer": 2,
+      "explanation": "从小到现在一直持续，应使用 has been playing；is playing 不能与 since 连用。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我从去年起一直在这家餐厅工作。",
+      "options": [
+        "I worked at this restaurant since last year.",
+        "I have been working at this restaurant since last year.",
+        "I am working at this restaurant since last year.",
+        "I will work at this restaurant since last year."
+      ],
+      "answer": 1,
+      "explanation": "表示从过去持续到现在的动作，且强调过程，应用 have been working。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["How", "long", "have", "you", "been", "learning", "English?"],
+      "alternatives": [],
+      "translation": "你学英语学了多久了？",
+      "explanation": "询问持续时长时用 How long + have + 主语 + been + V-ing。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "He has been sleeping since noon.",
+        "She has been study since Monday.",
+        "They have been playing since two o'clock."
+      ],
+      "answer": 1,
+      "explanation": "been 后面要接 -ing 形式，应改为 She has been studying since Monday。"
+    }
+  ]
+}

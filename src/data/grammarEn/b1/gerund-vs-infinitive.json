@@ -1,0 +1,117 @@
+{
+  "id": "e3-gerund-vs-infinitive",
+  "cefr": 3,
+  "title": "Gerund vs infinitive · 动名词与不定式的搭配",
+  "tag": "-ing or to",
+  "pattern": "Verb + V-ing (enjoy, finish, avoid)  ·  Verb + to + V (want, decide, hope)",
+  "summary": "有些动词后面只接 -ing，有些只接 to + 动词原形；少数动词两者都能接，但意思不同，例如 stop、remember、try。",
+  "wikiId": "infinitives-to-do",
+  "explanation": [
+    "英语动词后面接的形式并不固定，必须按搭配来记。**只接 -ing** 的动词很多，常见的有 enjoy、finish、avoid、mind、practise、suggest、consider：I **enjoy reading** before bed.（我喜欢睡前看书）。这些动词的宾语表示“做某件事”这个动作。",
+    "**只接 to + 动词原形**的动词常见的有 want、decide、hope、plan、promise、afford、choose：We **decided to move** to Shanghai.（我们决定搬到上海）。通常表示“想要做”“打算做”这类以目标或将来为导向的动作。",
+    "有些动词两种形式都能接，但**意思不同**。stop doing 表示“停止正在做的事”，stop to do 表示“停下来去做另一件事”：She **stopped to buy** a coffee.（她停下来买了杯咖啡）。remember doing 表示“记得做过”，remember to do 表示“记得去做”：Please **remember to lock** the door.（请记得锁门）。",
+    "try 也是如此：try doing 表示“试着做，看看效果”，try to do 表示“努力去做，但不一定做成”。like、love、hate、prefer 后面两种形式都可以，意思相近；而 enjoy、finish、avoid 只能接 -ing。",
+    "中国学生常把“喜欢做”“希望做”一律写成 to 结构，这是最常见的错误。学习时要把动词和后面的形式当作一个整体来记，并通过例句反复练习。"
+  ],
+  "mistakes": [
+    "✗ I enjoy to read books. → ✓ I enjoy reading books. enjoy 后面只接 -ing 形式，不接 to 结构。",
+    "✗ She decided going abroad. → ✓ She decided to go abroad. decide 后面要接 to + 动词原形。",
+    "✗ I stopped to smoke last year. → ✓ I stopped smoking last year. 表示“戒掉某个习惯”时用 stop doing，stop to do 是“停下来去做”。",
+    "✗ Don't forget lock the door. → ✓ Don't forget to lock the door. forget 后面接 to 才表示“忘记去做某事”。"
+  ],
+  "examples": [
+    { "text": "I enjoy listening to music on the train.", "translation": "我喜欢在火车上听音乐。" },
+    { "text": "We decided to move to a bigger flat.", "translation": "我们决定搬到一个更大的公寓。" },
+    { "text": "Please remember to turn off the lights.", "translation": "请记得关灯。", "note": "remember to do：记得去做。" },
+    { "text": "She stopped smoking after the baby was born.", "translation": "孩子出生后她就戒烟了。", "note": "stop doing：不再做某事。" },
+    { "text": "He stopped to check his phone on the way.", "translation": "他在路上停下来看了一下手机。", "note": "stop to do：停下来去做另一件事。" },
+    { "text": "Would you mind opening the window?", "translation": "你介意打开窗户吗？", "note": "mind 后面只接 -ing。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I enjoy ___ to new music on long trips.",
+      "translation": "长途旅行时我喜欢听新音乐。",
+      "options": ["listen", "listening", "to listen", "listened"],
+      "answer": 1,
+      "explanation": "enjoy 后面接 -ing 形式 listening。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "They have decided ___ a new house.",
+      "translation": "他们已经决定买一栋新房子。",
+      "options": ["buy", "buying", "to buy", "bought"],
+      "answer": 2,
+      "explanation": "decide 后面接 to + 动词原形。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "请记得明天带上你的护照。",
+      "options": [
+        "Please remember bringing your passport tomorrow.",
+        "Please remember to bring your passport tomorrow.",
+        "Please remember bring your passport tomorrow.",
+        "Please remember to bringing your passport tomorrow."
+      ],
+      "answer": 1,
+      "explanation": "remember to do 表示“记得去做”，之后接动词原形 bring。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "She avoids talking about it.",
+        "He hopes to see you soon.",
+        "We finished to clean the kitchen."
+      ],
+      "answer": 2,
+      "explanation": "finish 后面要接 -ing 形式，应改为 We finished cleaning the kitchen。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["I", "don't", "mind", "waiting", "for", "you."],
+      "alternatives": [],
+      "translation": "我不介意等你。",
+      "explanation": "mind 后面接 -ing 形式 waiting。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "He stopped ___ hello to his friend.",
+      "translation": "他停下来和朋友打了个招呼。",
+      "options": ["say", "saying", "to say", "said"],
+      "answer": 2,
+      "explanation": "stop to do 表示“停下来去做另一件事”，应使用 to say。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "We agreed ___ the report by Friday.",
+      "translation": "我们同意周五前完成报告。",
+      "options": ["to finish", "finishing", "finish", "finished"],
+      "answer": 0,
+      "explanation": "agree 后面接 to + 动词原形。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["She", "avoided", "answering", "the", "question."],
+      "alternatives": [],
+      "translation": "她避而不答这个问题。",
+      "explanation": "avoid 后面接 -ing 形式 answering。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Would you mind ___ the door?",
+      "translation": "你介意把门关上吗？",
+      "options": ["close", "to close", "closing", "closed"],
+      "answer": 2,
+      "explanation": "mind 后面接 -ing 形式 closing。"
+    }
+  ]
+}

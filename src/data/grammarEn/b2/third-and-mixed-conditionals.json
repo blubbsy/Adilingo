@@ -1,0 +1,147 @@
+{
+  "id": "e4-third-and-mixed-conditionals",
+  "cefr": 4,
+  "title": "Third and mixed conditionals · 第三条件句与混合条件句",
+  "tag": "3rd / mixed",
+  "pattern": "If + had + V3, would have + V3  ·  If + past, would have + V3 / would + V",
+  "summary": "第三条件句谈论过去没有发生的假设；混合条件句则让条件和结果分属不同的时间。",
+  "wikiId": "conditionals-and-subjunctive",
+  "explanation": [
+    "**第三条件句**用来假设过去的情况没有发生，因此结果也无法实现。结构是 **if + had + 过去分词，would/could/might + have + 过去分词**：If I **had left** earlier, I **would have caught** the train.（要是我早点走，就赶上火车了。）句子里两个动作都发生在过去，而且和事实相反。",
+    "**混合条件句**是条件与结果的时间不一致的情况。第一种：条件是过去的，结果是现在的，写成 **if + had + V3，would + 动词原形**：If I had taken the earlier flight, I would be at home now.（要是我当时坐了早一点的航班，现在就该在家了。）第二种：条件是现在的状态，结果是过去的，写成 **if + 过去式，would have + V3**：If she were more patient, she would not have argued with the manager yesterday.",
+    "中文没有时态变化，常常靠“要是……就……”的语境来理解，所以学习者容易把两边的时间都写成同一个时态。英语里要分别判断：**条件发生在什么时候？结果发生在什么时候？** 然后再分别选择 had + V3 或过去式，以及 would have + V3 或 would + 动词原形。",
+    "注意几个细节：if 从句中不能用 would；虚拟语气的 be 动词多用 were（If I were you…），但在第三条件句中统一用 had + V3，无论主语是谁；could 和 might 可以替代 would，表示“本来可以”或“也许会”，如 You **could have called** me.（你本来可以给我打电话。）",
+    "学习时可以先看结果从句的时间词：yesterday、last year 等过去时间词说明结果在过去，通常用 would have + V3；now、today、still 等说明结果在现在，应使用 would + 动词原形。把时间词放在脑海里，就能迅速判断混合条件句的形式。"
+  ],
+  "mistakes": [
+    "✗ If I had known, I would go. → ✓ If I had known, I would have gone. 中文“要是我知道，我就去了”指过去的结果，主句必须用 would have + V3，不能只写 would + 动词原形。",
+    "✗ If I would have time, I would have helped. → ✓ If I had had time, I would have helped. if 从句里不能用 would；“有时间”的过去形式是 had had（have 的过去分词是 had）。",
+    "✗ If I had studied medicine, I am a doctor now. → ✓ If I had studied medicine, I would be a doctor now. 混合条件句的现在结果要用 would + 动词原形，不能直接用一般现在时。",
+    "✗ If he studied harder, he would have passed the exam last month. → ✓ If he had studied harder, he would have passed the exam last month. 描述过去没发生的条件，if 从句要用 had + V3，而不是过去式 studied。"
+  ],
+  "examples": [
+    { "text": "If I had left five minutes earlier, I would have caught the train.", "translation": "要是我早五分钟出门，就赶上火车了。" },
+    { "text": "If she had not missed the bus, she would not have been late for the interview.", "translation": "要是她没错过公交车，面试就不会迟到。" },
+    { "text": "We would have won the match if the referee had not made that mistake.", "translation": "要不是裁判那个错误判罚，我们本来能赢得比赛。" },
+    { "text": "If I had accepted that job offer, I would be living in Shanghai now.", "translation": "要是我当年接受了那份工作，现在就住在上海了。", "note": "条件在过去，结果在现在：混合条件句。" },
+    { "text": "If he were more patient, he would not have lost his temper at the meeting yesterday.", "translation": "要是他更有耐心，昨天开会时就不会发脾气了。", "note": "条件是现在的性格，结果是过去的事：另一种混合条件句。" },
+    { "text": "You could have called me if you had needed help.", "translation": "你需要帮忙的话，本来可以给我打电话。", "note": "could have 表示过去本来有可能做到。" },
+    { "text": "If I had known you were coming, I would have baked a cake.", "translation": "要是我知道你要来，我就会烤个蛋糕了。" },
+    { "text": "Had I known about the traffic, I would have taken the subway.", "translation": "要是我早知道会堵车，就坐地铁了。", "note": "省略 if，把 had 提到句首，是正式的倒装形式。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "If she ___ earlier, she would have caught the bus.",
+      "translation": "如果她早点出发，本来能赶上公交车。",
+      "options": ["left", "would leave", "had left", "has left"],
+      "answer": 2,
+      "explanation": "过去的假设条件要用 had + 过去分词 left；would leave 和 has left 都不能用在 if 从句中。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "If we ___ the map, we would not be lost right now.",
+      "translation": "要是我们当时带了地图，现在就不会迷路了。",
+      "options": ["bring", "brought", "would bring", "had brought"],
+      "answer": 3,
+      "explanation": "条件是过去的，要用 had brought；结果是现在的，所以主句用 would not be lost。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "___ earlier, I would have seen the beginning of the film.",
+      "translation": "要是我早点到，就能看到电影的开头了。",
+      "options": ["Had I arrived", "I would arrive", "I arrived", "I have arrived"],
+      "answer": 0,
+      "explanation": "第三条件句的省略 if 形式是 Had I arrived，倒装后的 had 放在句首。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "If I had known the date, I ___ to the wedding.",
+      "translation": "要是我知道婚礼的日期，我就去参加了。",
+      "options": ["would go", "had gone", "would have gone", "go"],
+      "answer": 2,
+      "explanation": "if 从句是过去的假设，主句要用 would have gone 表示过去的结果。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "要是他昨天听了医生的话，现在就不会这么难受了。",
+      "options": [
+        "If he listened to the doctor yesterday, he would not feel so bad now.",
+        "If he had listened to the doctor yesterday, he would not have felt so bad now.",
+        "If he had listened to the doctor yesterday, he would not feel so bad now.",
+        "If he would have listened to the doctor yesterday, he would not feel so bad now."
+      ],
+      "answer": 2,
+      "explanation": "条件在过去（had listened），结果在现在（would not feel），这是混合条件句。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "要不是那场大雨，我们本来能准时到达机场。",
+      "options": [
+        "If it had not rained so heavily, we would have reached the airport on time.",
+        "If it did not rain so heavily, we would reach the airport on time.",
+        "If it had not rained so heavily, we would reach the airport on time.",
+        "If it would not have rained so heavily, we had reached the airport on time."
+      ],
+      "answer": 0,
+      "explanation": "“本来能”指过去没实现的结果，所以主句用 would have reached；if 从句用 had not rained。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "要是我们订了位，现在就不用在门口排队了。",
+      "options": [
+        "If we booked a table, we would not be waiting in line now.",
+        "If we had booked a table, we would not be waiting in line now.",
+        "If we had booked a table, we would not have waited in line now.",
+        "If we have booked a table, we would not be waiting in line now."
+      ],
+      "answer": 1,
+      "explanation": "订位是过去的条件，排队是现在的结果：had booked + would not be waiting。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "If we had left earlier, we would have arrived on time.",
+        "If we left earlier, we would have arrived on time.",
+        "We would have arrived on time if we had left earlier."
+      ],
+      "answer": 1,
+      "explanation": "假设过去没有发生的事，if 从句要用 had left，不能用一般过去时 left。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I would have been happier if I had taken that job.",
+        "If I had not missed the bus, I would not have been late.",
+        "If I had went to the party, I would have met her."
+      ],
+      "answer": 2,
+      "explanation": "had 后面要接过去分词 gone，应写成 If I had gone to the party。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["If", "I", "had", "known,", "I", "would", "have", "taken", "another", "route."],
+      "alternatives": [],
+      "translation": "要是我早知道，就会走另一条路了。",
+      "explanation": "if 从句用 had known，主句用 would have taken，两个部分之间用逗号隔开。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["They", "would", "not", "have", "missed", "the", "flight", "if", "they", "had", "left", "early."],
+      "alternatives": [],
+      "translation": "要是他们早点出发，就不会误了航班。",
+      "explanation": "主句 would not have missed 与 if 从句 had left 组成第三条件句。"
+    }
+  ]
+}

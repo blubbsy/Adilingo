@@ -1,0 +1,105 @@
+{
+  "id": "e3-passive-simple",
+  "cefr": 3,
+  "title": "Passive voice: present & past simple · 被动语态（一般现在时/一般过去时）",
+  "tag": "be + V3",
+  "pattern": "Object + am / is / are / was / were + Past participle + (by Agent)",
+  "summary": "当动作的承受者比执行者更重要时，用 be + 过去分词：The window was broken.",
+  "wikiId": "passive-voice-rules",
+  "explanation": [
+    "**主动句**强调“谁做了什么”：The kids ate the cake。**被动句**把动作的承受者放到句首，强调“什么事发生了”：The cake **was eaten** (by the kids)。",
+    "构成公式：**be + 过去分词（V3）**。be 动词要和新主语的人称、数以及时态一致：The room **is** cleaned every day.（一般现在时）/ The rooms **were** cleaned yesterday.（一般过去时）。",
+    "把主动句改成被动句只需三步：① 宾语变主语；② 动词变成 be + V3（be 的时态与原句动词一致）；③ 原主语放到 **by** 后面——如果它不重要、不知道或显而易见，就直接省略。",
+    "什么时候用被动？执行者不明或不重要（My bike **was stolen**.）、想强调结果（The bridge **was built** in 1990.）、正式书面语和说明文（Rice **is grown** in southern China.）。",
+    "和中文“被”字句不同，英语被动句**非常常见**，而且并不限于不好的事情。中文常用“主动形式表被动意思”（门开了），英语则必须写成 The door **was opened** / **is closed** 这类形式。"
+  ],
+  "mistakes": [
+    "✗ The window broke by him. → ✓ The window was broken by him. 被动句不能漏掉 be 动词，且动词必须用过去分词（broken，不是 broke）。",
+    "✗ English is speaking here. → ✓ English is spoken here. 被动句要用过去分词 spoken，而不是 -ing 形式。",
+    "✗ The accident was happened last night. → ✓ The accident happened last night. happen、arrive、die、fall 等不及物动词没有被动语态。",
+    "✗ The cake was ate by the kids. → ✓ The cake was eaten by the kids. 不规则动词要记住过去分词：eat → eaten，write → written。"
+  ],
+  "examples": [
+    { "text": "English is spoken in many countries.", "translation": "很多国家都说英语。", "note": "执行者是“人们”，不重要，所以省略 by。" },
+    { "text": "The room is cleaned every day.", "translation": "房间每天都有人打扫。" },
+    { "text": "My phone was stolen on the bus.", "translation": "我的手机在公交车上被偷了。", "note": "不知道是谁偷的，所以不写 by。" },
+    { "text": "These photos were taken by my sister.", "translation": "这些照片是我姐姐拍的。", "note": "执行者有新信息价值，所以保留 by my sister。" },
+    { "text": "Tea is grown in the south of China.", "translation": "中国南方种植茶叶。" },
+    { "text": "The letters were not delivered on time.", "translation": "这些信没有按时送到。", "note": "否定：be + not + V3。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的被动形式。",
+      "sentence": "The letter ___ yesterday.",
+      "translation": "这封信是昨天寄出的。",
+      "options": ["sent", "was sent", "was send", "is sent"],
+      "answer": 1,
+      "explanation": "yesterday 表示过去，所以用 was + 过去分词 sent。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的被动形式。",
+      "sentence": "Many cars ___ in this factory every year.",
+      "translation": "这家工厂每年生产很多汽车。",
+      "options": ["are made", "is made", "made", "are making"],
+      "answer": 0,
+      "explanation": "主语 cars 是复数，every year 表示一般现在时：are made。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的被动形式。",
+      "sentence": "The museum ___ by thousands of visitors last month.",
+      "translation": "上个月有数千名游客参观了这座博物馆。",
+      "options": ["visited", "was visiting", "was visited", "is visited"],
+      "answer": 2,
+      "explanation": "last month 是过去，主语 museum 是单数：was visited。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这座桥建于1990年。",
+      "options": ["The bridge built in 1990.", "The bridge was built in 1990.", "The bridge is built in 1990.", "The bridge was build in 1990."],
+      "answer": 1,
+      "explanation": "过去的事件用 was built；built 是 build 的过去分词。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这些书在中国是不卖的。",
+      "options": ["These books are not sold in China.", "These books not sell in China.", "These books are not selling in China.", "These books does not sold in China."],
+      "answer": 0,
+      "explanation": "一般现在时被动语态的否定：are not + sold。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["The window was broken by a ball.", "The accident was happened at night.", "The cake was eaten by the kids."],
+      "answer": 1,
+      "explanation": "happen 是不及物动词，不能用被动语态，应写成 The accident happened at night."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["Spanish is speaking in Mexico.", "Rice is grown in many countries.", "The report was written last week."],
+      "answer": 0,
+      "explanation": "被动语态要用过去分词：Spanish is spoken in Mexico."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "cake", "was", "eaten", "by", "the", "kids."],
+      "alternatives": [],
+      "translation": "蛋糕被孩子们吃掉了。",
+      "explanation": "被动句结构：主语 + was + 过去分词 + by + 执行者。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Coffee", "is", "grown", "in", "Brazil."],
+      "alternatives": [],
+      "translation": "巴西种植咖啡。",
+      "explanation": "一般现在时被动语态：is / are + 过去分词。"
+    }
+  ]
+}

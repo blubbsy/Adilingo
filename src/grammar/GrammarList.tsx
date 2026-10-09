@@ -18,6 +18,7 @@ interface Props {
 
 export function GrammarList({ points, progress, level, onLevelChange, onOpen }: Props) {
   const { t } = useI18n();
+  const english = points[0]?.track === 'english';
   const levels = useMemo(() => [...new Set(points.map((p) => p.hskLevel))].sort((a, b) => a - b), [points]);
   const shown = level === 'all' ? points : points.filter((p) => p.hskLevel === level);
   const doneCount = shown.filter((p) => progress.points[p.id]?.completed).length;
@@ -41,7 +42,7 @@ export function GrammarList({ points, progress, level, onLevelChange, onOpen }: 
                     : 'bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700'
                 }`}
               >
-                {f === 'all' ? t('common.all') : levelLabel(f)}
+                {f === 'all' ? t('common.all') : english ? levelLabel(f, 'english', t) : levelLabel(f)}
               </button>
             );
           })}
@@ -62,19 +63,19 @@ export function GrammarList({ points, progress, level, onLevelChange, onOpen }: 
                 className={`${card} group flex h-full w-full items-start gap-3 p-4 text-left transition hover:border-rose-300 dark:hover:border-rose-800 ${focusRing}`}
               >
                 <span
-                  lang="zh-CN"
-                  className={`flex h-11 min-w-[2.75rem] shrink-0 items-center justify-center rounded-xl px-1.5 font-hanzi text-lg ${
+                  lang={english ? 'en' : 'zh-CN'}
+                  className={`flex h-11 min-w-[2.75rem] shrink-0 items-center justify-center rounded-xl px-1.5 ${english ? 'text-xs font-semibold' : 'font-hanzi text-lg'} ${
                     pr?.completed
                       ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300'
                       : 'bg-rose-50 text-rose-700 dark:bg-rose-950/40 dark:text-rose-300'
                   }`}
                   aria-hidden
                 >
-                  {(p.titleHanzi ?? '').split(/[\s/…]+/)[0] || '文' /* i18n-ignore: placeholder glyph */}
+                  {english ? (p.titleHanzi ?? 'Aa') /* i18n-ignore: placeholder glyph */ : (p.titleHanzi ?? '').split(/[\s/…]+/)[0] || '文' /* i18n-ignore: placeholder glyph */}
                 </span>
                 <span className="min-w-0 flex-1">
                   <span className="flex flex-wrap items-center gap-1.5">
-                    <HskBadge level={p.hskLevel} />
+                    <HskBadge level={p.hskLevel} track={p.track} />
                     {pr?.completed ? (
                       <span className="inline-flex items-center gap-1 text-xs font-medium text-emerald-600 dark:text-emerald-400">
                         <CircleCheck className="h-3.5 w-3.5" aria-hidden /> {t('grammar.lesson.completed')}
@@ -92,7 +93,7 @@ export function GrammarList({ points, progress, level, onLevelChange, onOpen }: 
                     <RichText text={p.summary} />
                   </span>
                   <span className="mt-2 block">
-                    <PatternFormula pattern={p.pattern} size="sm" />
+                    <PatternFormula pattern={p.pattern} size="sm" track={p.track} />
                   </span>
                 </span>
                 <ChevronRight className="mt-1 h-4 w-4 shrink-0 text-slate-300 group-hover:text-rose-500" aria-hidden />

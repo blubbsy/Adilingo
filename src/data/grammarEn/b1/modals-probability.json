@@ -1,0 +1,113 @@
+{
+  "id": "e3-modals-probability",
+  "cefr": 3,
+  "title": "Modals of deduction · 情态动词表推测",
+  "tag": "must / can't",
+  "pattern": "Subject + must / may / might / could / can't + be (V3 for past)",
+  "summary": "情态动词可以表示推测：must 表示很有把握的肯定推测，can't 表示很有把握的否定推测，may / might / could 表示可能性。",
+  "wikiId": "modal-verbs-deduction",
+  "explanation": [
+    "情态动词不仅能表示义务和能力，还能表示说话人对事情的**推测**和把握程度。肯定推测：**must**（一定是）；可能推测：**may、might、could**（也许、可能）；否定推测：**can't / couldn't**（不可能）。例如：He **must be** tired.（他一定很累）。",
+    "推测现在的情况时，结构是 **情态动词 + be / 动词原形**：She **might be** at the library now.（她现在可能在图书馆）。推测过去的情况时，结构是 **情态动词 + have + V3**：They **must have left** before we arrived.（我们到之前他们一定已经走了）。",
+    "注意：**must** 表示推测时只用于肯定句，否定推测要用 **can't**，而不是 mustn't。mustn't 表示禁止，意思完全不同：That **can't be** true.（那不可能是真的）。中文的“不可能”在英语里也对应 can't。",
+    "may 和 might 都表示“可能”，但 might 通常表示把握更小。could 也可以表示推测，但它常与 may 一样用于不确定的情况。这些词后面都不能再接 will 或加 -s，只能接动词原形。",
+    "推测的依据通常是眼前的证据：The lights are on, so someone **must be** at home.（灯亮着，所以一定有人在家）。如果你对事实非常确定，就直接用一般现在时，不需要使用情态动词。"
+  ],
+  "mistakes": [
+    "✗ She mustn't be at home now. → ✓ She can't be at home now. 表示“不可能在家”的推测要用 can't；mustn't 表示禁止。",
+    "✗ He must goes home now. → ✓ He must be at home now. 情态动词后面要接动词原形，不能加 -s。",
+    "✗ He must be leave early yesterday. → ✓ He must have left early yesterday. 推测过去的事情要用 must have + V3。",
+    "✗ He might be is at home now. → ✓ He might be at home now. 情态动词后面只保留 be，不能再加 is。"
+  ],
+  "examples": [
+    { "text": "He must be very tired after the long flight.", "translation": "长途飞行之后，他一定很累。" },
+    { "text": "She might be at the library now.", "translation": "她现在可能在图书馆。", "note": "might 表示把握较小的可能性。" },
+    { "text": "That can't be right. The shop closed an hour ago.", "translation": "那不可能对。这家店一小时前就关门了。", "note": "can't 表示有把握的否定推测。" },
+    { "text": "They must have left before we arrived.", "translation": "我们到之前他们一定已经走了。", "note": "推测过去：must have + V3。" },
+    { "text": "The lights are on, so someone may be at home.", "translation": "灯亮着，所以可能有人在家。" },
+    { "text": "He couldn't have known the answer; he didn't study.", "translation": "他不可能知道答案，他没有复习。", "note": "couldn't have + V3：对过去的否定推测。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的情态动词。",
+      "sentence": "The ground is wet. It ___ have rained last night.",
+      "translation": "地面是湿的，昨晚一定下过雨。",
+      "options": ["must", "mustn't", "can't", "shall"],
+      "answer": 0,
+      "explanation": "对过去的肯定推测用 must have + V3。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的情态动词。",
+      "sentence": "You ___ be serious! This is a joke.",
+      "translation": "你不可能是认真的吧！这是个玩笑。",
+      "options": ["mustn't", "can't", "shall", "must"],
+      "answer": 1,
+      "explanation": "表示“不可能是认真的”，要用否定推测 can't be serious。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他一定是在开会，所以没接电话。",
+      "options": [
+        "He can't be in a meeting, so he didn't answer the phone.",
+        "He mustn't be in a meeting, so he didn't answer the phone.",
+        "He must be in a meeting, so he didn't answer the phone.",
+        "He must have in a meeting, so he didn't answer the phone."
+      ],
+      "answer": 2,
+      "explanation": "对现在的肯定推测用 must be in a meeting。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "She must be tired after the trip.",
+        "He might be at home now.",
+        "They must been at school yesterday."
+      ],
+      "answer": 2,
+      "explanation": "推测过去要用 must have been，应改为 They must have been at school yesterday。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["It", "must", "have", "been", "very", "cold", "last", "night."],
+      "alternatives": [],
+      "translation": "昨晚一定非常冷。",
+      "explanation": "对过去的推测结构是 must have been。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的情态动词。",
+      "sentence": "The baby ___ be hungry; she has just eaten.",
+      "translation": "宝宝不可能饿，她刚吃过东西。",
+      "options": ["must", "shall", "can't", "mustn't"],
+      "answer": 2,
+      "explanation": "她刚吃过，所以“饿”是不可能的，应使用 can't be hungry。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的情态动词。",
+      "sentence": "He ___ be the thief. He was in hospital at that time.",
+      "translation": "他不可能是小偷，那时他正在住院。",
+      "options": ["might", "must", "may", "can't"],
+      "answer": 3,
+      "explanation": "根据“那时他在住院”的证据，只能用否定推测 can't be。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他昨天一定很晚才到家。",
+      "options": [
+        "He must have got home very late yesterday.",
+        "He must got home very late yesterday.",
+        "He must be got home late yesterday.",
+        "He can get home very late yesterday."
+      ],
+      "answer": 0,
+      "explanation": "对过去的推测用 must have + 过去分词 got。"
+    }
+  ]
+}

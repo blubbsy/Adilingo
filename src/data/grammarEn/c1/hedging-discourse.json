@@ -1,0 +1,131 @@
+{
+  "id": "e5-hedging-discourse",
+  "cefr": 5,
+  "title": "Hedging & discourse markers · 模糊语与论证衔接",
+  "tag": "Hedging",
+  "pattern": "It seems / appears + that  ·  subject + tend to + verb  ·  Arguably / to some extent  ·  However / Nevertheless / Consequently",
+  "summary": "学术写作中用模糊语表达谨慎的判断，并用论证标记语把观点、让步和结论连接起来。",
+  "explanation": [
+    "学术写作和正式讨论中，英语者很少使用绝对的断言，而是通过**模糊语**（hedging）表达谨慎：It **seems** that the policy has not worked.（政策似乎没有奏效。）中文常用“可能”“似乎”“在一定程度上”，英语则有更多固定的说法，让语气更客观。",
+    "常用的模糊结构包括：**It seems / appears / would appear that ...**；**tend to + 动词**（Young people **tend to** check their phones often.）；**arguably**（可以说）；**to some extent / to a certain degree**（在某种程度上）；**in most cases / generally speaking**（在大多数情况下）。这些说法能让观点更有余地，避免过于武断。",
+    "**论证标记语**（discourse markers）用来连接观点之间的关系。表示递进的有 moreover、furthermore；表示对比或转折的有 however、nevertheless；表示让步的有 admittedly；表示结果的有 consequently、therefore。它们通常位于句首，后面用逗号分开；如果连接两个独立句子，要用分号：The plan is cheap; **however**, it is risky.",
+    "写作中常见的组合是“先承认，再反驳”：**Admittedly**, the plan is expensive; **nevertheless**, it is worth considering.。这种结构能显示你考虑了不同观点，但也要保证主要立场明确，不要用太多模糊语，否则文章会显得犹豫不决。",
+    "中国学习者常把 however 当成普通的连词，用逗号直接连接两个句子，或者把模糊语写成 maybe 那样的口语说法。学习时要记住：在书面语中，应该使用固定的搭配，并把标记语放在合适的位置。"
+  ],
+  "mistakes": [
+    "✗ However, the plan is cheap, it is risky. → ✓ The plan is cheap; however, it is risky. however 作连接副词时不能用逗号连接两个独立句子，要用分号。",
+    "✗ Young people tend very to use their phones. → ✓ Young people tend to use their phones a lot. tend to 是固定搭配，副词 a lot 要放在句末。",
+    "✗ He seems to be to know the answer. → ✓ He seems to know the answer. seem to 之后直接接动词原形，不要再加 to be to。"
+  ],
+  "examples": [
+    { "text": "It seems that the new policy has not worked as planned.", "translation": "新政策似乎没有达到预期效果。" },
+    { "text": "The results appear to support our original hypothesis.", "translation": "结果似乎支持了我们最初的假设。" },
+    { "text": "Students tend to underestimate how long a project will take.", "translation": "学生往往低估完成一个项目所需的时间。" },
+    { "text": "Arguably, the most important factor is the quality of teaching.", "translation": "可以说，最重要的因素是教学质量。" },
+    { "text": "The theory is, to some extent, supported by recent evidence.", "translation": "在某种程度上，这一理论得到了近期证据的支持。" },
+    { "text": "Admittedly, the plan is expensive; nevertheless, it is worth considering.", "translation": "诚然，这个计划成本很高；但仍然值得考虑。" },
+    { "text": "Consequently, the company decided to cut its budget for next year.", "translation": "因此，公司决定削减明年的预算。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的模糊结构。",
+      "sentence": "The new evidence ___ contradict the earlier findings.",
+      "translation": "新证据似乎与早期的发现相矛盾。",
+      "options": ["appears to", "appears", "appear", "to appear"],
+      "answer": 0,
+      "explanation": "appear to + 动词原形是固定搭配；单独的 appears 后面不能直接接动词原形。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Young children ___ learn languages more quickly than adults.",
+      "translation": "幼儿学习语言通常比成年人快。",
+      "options": ["tends to", "tend", "tend to", "tending to"],
+      "answer": 2,
+      "explanation": "主语 children 是复数，tend to 为正确搭配，表示“往往”。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的词。",
+      "sentence": "___, the proposal has several serious weaknesses.",
+      "translation": "可以说，这个提案有几处严重缺陷。",
+      "options": ["Argue", "Arguing", "Argued", "Arguably"],
+      "answer": 3,
+      "explanation": "Arguably 是副词，用来表达“可以说”的谨慎观点，放在句首并用逗号分开。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的论证标记语。",
+      "sentence": "The plan is useful; ___, it is very expensive.",
+      "translation": "这个计划很有用；然而，它的成本非常高。",
+      "options": ["moreover", "however", "therefore", "similarly"],
+      "answer": 1,
+      "explanation": "此处表示转折，应使用 however。moreover 表示递进，therefore 表示结果，similarly 表示相似。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这个结论在一定程度上是有道理的。",
+      "options": [
+        "The conclusion makes sense in some extent.",
+        "The conclusion is sense to some extent.",
+        "The conclusion makes sense to some extend.",
+        "The conclusion makes sense to some extent."
+      ],
+      "answer": 3,
+      "explanation": "to some extent 表示“在一定程度上”，extent 是正确拼写，且固定搭配用 to。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他们似乎忘了开会的时间。",
+      "options": [
+        "They seem to forget the meeting time.",
+        "They seem forgetting the meeting time.",
+        "They seem to have forgotten the meeting time.",
+        "They seem to forgot the meeting time."
+      ],
+      "answer": 2,
+      "explanation": "表示过去的“似乎忘了”，要用 seem to have + V3。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Students tend to underestimate their workload.",
+        "Students tend very to underestimate their workload.",
+        "Students often tend to underestimate their workload."
+      ],
+      "answer": 1,
+      "explanation": "tend to 是固定搭配，中间不能插入 very，应为 Students tend to underestimate their workload.。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The plan is cheap; however, it is risky.",
+        "However, the plan is cheap, it is risky.",
+        "Admittedly, the plan is cheap; nevertheless, it is risky."
+      ],
+      "answer": 1,
+      "explanation": "however 与句子之间用分号或句中逗号，不能只用逗号连接两个独立句子（逗号连接错误）。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Arguably,", "the", "most", "important", "factor", "is", "trust."],
+      "alternatives": [],
+      "translation": "可以说，最重要的因素是信任。",
+      "explanation": "Arguably 作句首的模糊语，后面接主谓结构。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "results", "seem", "to", "support", "this", "view", "to", "some", "extent."],
+      "alternatives": [],
+      "translation": "这些结果在一定程度上支持这一观点。",
+      "explanation": "seem to 支持动词，to some extent 作程度状语放在句末。"
+    }
+  ]
+}

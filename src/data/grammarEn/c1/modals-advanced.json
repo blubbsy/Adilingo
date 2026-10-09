@@ -1,0 +1,132 @@
+{
+  "id": "e5-modals-advanced",
+  "cefr": 5,
+  "title": "Advanced modal verbs · 进阶情态动词",
+  "tag": "Modal verbs",
+  "pattern": "needn't + V  ·  ought to + V  ·  be to + V  ·  would rather + V  ·  had better + V",
+  "summary": "needn't 表示“没必要”，had better 表示“最好”，would rather 表示“宁愿”，它们后面都接动词原形。",
+  "explanation": [
+    "英语情态动词不只有 can、must、should。考试和正式写作中常见的还有 **needn't**（没必要）、**dare**（敢）、**ought to**（应该）、**be to**（安排、命令）、**be bound to**（一定会）、**would rather**（宁愿）、**had better**（最好）。它们的共同点是后面接动词原形，不带 to（ought to 和 be to 除外）。",
+    "**needn't** 表示“没有必要”，与 mustn't（禁止）完全不同：You **needn't** reply today.（你今天不用回复。）还可以用 **needn't have + V3** 表示“本来没必要做，却做了”：You needn't have bought flowers.（你本来不必买花的。）",
+    "**ought to** 表示义务或合理的推断，语气比 should 稍强：We **ought to** protect the environment.；否定是 ought not to。**be to** 表示正式安排或命令，常用于新闻和正式场合：The minister **is to** announce the policy on Monday.。**be bound to** 表示“一定会”：Prices are **bound to** rise.（不能写成 bound rise）。",
+    "**would rather** 表示“宁愿”，后接原形；如果后面的动作主语与前面不同，要用过去式表示与现在相反的愿望：I'd **rather you didn't smoke** here.。**had better** 表示“最好”，带有明显的警告或紧迫感，不要用于对长辈或上级的一般建议，否则会显得不礼貌。",
+    "中国学习者常把这些结构当作普通的 should 或 must 来用。选择时先问自己：是“没必要”“敢不敢”“正式安排”还是“宁愿”？语义不同，结构也不同，不能只靠中文直译。"
+  ],
+  "mistakes": [
+    "✗ You needn't to come today. → ✓ You needn't come today. needn't 后直接接动词原形，不加 to。",
+    "✗ You had better to leave now. → ✓ You had better leave now. had better 后面同样接不带 to 的原形。",
+    "✗ I would rather to stay at home. → ✓ I would rather stay at home. would rather 之后不加 to，直接用原形。"
+  ],
+  "examples": [
+    { "text": "You needn't reply to this email today.", "translation": "你今天不必回复这封邮件。" },
+    { "text": "You needn't have bought me a present.", "translation": "你本来不必给我买礼物的。", "note": "needn't have + V3：本来没必要，却做了。" },
+    { "text": "Nobody dared to question the director's decision.", "translation": "没有人敢质疑主任的决定。" },
+    { "text": "We ought to protect the environment for future generations.", "translation": "我们应该为子孙后代保护环境。" },
+    { "text": "The minister is to announce the new policy on Monday.", "translation": "部长将于周一宣布新政策。", "note": "be to 表示正式安排。" },
+    { "text": "Prices are bound to rise after the harvest fails.", "translation": "收成不好之后，价格一定会上涨。" },
+    { "text": "I'd rather walk than take a taxi in this weather.", "translation": "这种天气我宁愿步行，也不坐出租车。" },
+    { "text": "You'd better take an umbrella; it looks like rain.", "translation": "你最好带把伞，看样子要下雨。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的情态动词。",
+      "sentence": "You ___ worry about the exam; you have already prepared well.",
+      "translation": "你不必担心考试，你已经准备得很充分了。",
+      "options": ["mustn't", "needn't", "don't", "wouldn't"],
+      "answer": 1,
+      "explanation": "表示“没有必要”用 needn't；mustn't 表示禁止，语义不符。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "You ___; I already paid for the tickets.",
+      "translation": "你本来不必付票钱的，我已经付过了。",
+      "options": ["needn't to have paid", "needn't have paid", "didn't need", "mustn't have paid"],
+      "answer": 1,
+      "explanation": "needn't have + V3 表示本来没必要做却做了；mustn't have paid 表示“一定没有付款”，语义不符。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的情态结构。",
+      "sentence": "We ___ leave early, or we will miss the first train.",
+      "translation": "我们最好早点出发，否则会错过头班车。",
+      "options": ["would rather", "dare", "had better", "bound"],
+      "answer": 2,
+      "explanation": "had better 表示“最好”，带有紧迫感，与后面的“否则”相呼应。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The new bridge ___ open to traffic next month.",
+      "translation": "新桥下个月将开放通车。",
+      "options": ["is bound", "would rather", "dares", "is to be"],
+      "answer": 3,
+      "explanation": "be to 表示按计划的安排，应为 is to be open。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我宁愿现在就知道真相。",
+      "options": [
+        "I would better know the truth now.",
+        "I'd rather to know the truth now.",
+        "I'd rather knowing the truth now.",
+        "I'd rather know the truth now."
+      ],
+      "answer": 3,
+      "explanation": "would rather 之后直接接动词原形 know，不加 to，也不用 -ing。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "你最好别迟到。",
+      "options": [
+        "You'd better not to be late.",
+        "You'd better be not late.",
+        "You'd better not be late.",
+        "You had better late not."
+      ],
+      "answer": 2,
+      "explanation": "had better 的否定是 had better not + 原形，即 You'd better not be late.。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "You needn't come to the office today.",
+        "Nobody dared to challenge the rules.",
+        "You needn't to pay for the parking."
+      ],
+      "answer": 2,
+      "explanation": "needn't 后直接接动词原形，应为 You needn't pay for the parking.。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "They are bound to win the match.",
+        "You had better to hurry up.",
+        "We ought to recycle more paper."
+      ],
+      "answer": 1,
+      "explanation": "had better 后接不带 to 的原形，应为 You had better hurry up.。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["You", "needn't", "wait", "for", "me", "tonight."],
+      "alternatives": [],
+      "translation": "今晚你不用等我。",
+      "explanation": "needn't + 动词原形 wait，表示没有必要。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["I'd", "rather", "stay", "at", "home", "than", "go", "out", "tonight."],
+      "alternatives": [],
+      "translation": "今晚我宁愿待在家里，也不出去。",
+      "explanation": "would rather + 原形 stay，than 后同样接原形 go。"
+    }
+  ]
+}

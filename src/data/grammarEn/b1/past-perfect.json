@@ -1,0 +1,121 @@
+{
+  "id": "e3-past-perfect",
+  "cefr": 3,
+  "title": "Past perfect · 过去完成时",
+  "tag": "had + V3",
+  "pattern": "Subject + had + Past participle (earlier past)  ·  Past simple (later past)",
+  "summary": "过去完成时表示“过去的过去”：先发生的动作用 had + V3，后发生的动作用一般过去时。",
+  "explanation": [
+    "**过去完成时** had + V3 用来回顾比另一个过去时间点更早发生的动作：When I arrived, the film **had already started**.（我到的时候，电影已经开始了。）它的作用是给“过去的过去”加上一个时间标记。",
+    "当一句话里出现两个过去动作时，先发生的用过去完成时，后发生的用一般过去时：She **had finished** her homework before she **went** out. 如果 before、after、when 等词已经把先后顺序说得很清楚，口语中也常只用一般过去时：She finished her homework, then went out.",
+    "常和过去完成时搭配的词有 by the time（到……的时候）、already、just、never、before、until 等：By the time we got to the station, the train **had left**. 注意这些词通常放在 had 之后、过去分词之前。",
+    "中文常说“我到的时候他已经走了”，英语只需要把“走了”改成 had left，不需要额外加词。中文不区分两个过去动作的先后，英语却会明确地用 had + V3 标出先发生的那个动作。",
+    "写作和正式表达中，如果两件事的先后顺序需要强调，一定要使用过去完成时。例如 After he **had eaten**, he went to bed. 这样读者一眼就能看出“先吃饭，后睡觉”。"
+  ],
+  "mistakes": [
+    "✗ When I arrived, the film already started. → ✓ When I arrived, the film had already started. 中文的“已经开始了”容易漏掉 had，先发生的动作要用 had + V3。",
+    "✗ She had went home before the rain. → ✓ She had gone home before the rain. had 后面要接过去分词 gone，不能用过去式 went。",
+    "✗ When I got home, my parents had already ate dinner. → ✓ When I got home, my parents had already eaten dinner. ate 是过去式，过去分词是 eaten，不能混用。"
+  ],
+  "examples": [
+    { "text": "When I arrived, the film had already started.", "translation": "我到的时候，电影已经开始了。" },
+    { "text": "She had finished her homework before she went out.", "translation": "她出门之前已经写完了作业。" },
+    { "text": "By the time we got to the station, the train had left.", "translation": "我们到车站的时候，火车已经开走了。", "note": "by the time 句型中常用过去完成时。" },
+    { "text": "After he had eaten, he went to bed.", "translation": "他吃完饭以后就去睡觉了。", "note": "after 句中用过去完成时，先后关系更清楚。" },
+    { "text": "I had never seen snow before I moved to Harbin.", "translation": "搬到哈尔滨之前，我从来没见过雪。" },
+    { "text": "The shop had closed, so we went home.", "translation": "商店已经关门了，所以我们回家了。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "When I arrived, the meeting had already ___.",
+      "translation": "我到的时候，会议已经开始了。",
+      "options": ["start", "starting", "begin", "begun"],
+      "answer": 3,
+      "explanation": "had + 过去分词，begin 的过去分词是 begun。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们到达的时候，火车已经开走了。",
+      "options": [
+        "When we arrived, the train has left.",
+        "When we arrived, the train was leaving.",
+        "When we arrived, the train had left.",
+        "When we arrived, the train had leave."
+      ],
+      "answer": 2,
+      "explanation": "“已经开走了”发生在过去的“到达”之前，应用过去完成时 had left。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "He had left before I arrived.",
+        "She had did her homework before dinner.",
+        "They had seen the film already."
+      ],
+      "answer": 1,
+      "explanation": "had 后面要接过去分词 done，应改为 She had done her homework before dinner。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["She", "had", "already", "left", "when", "I", "called."],
+      "alternatives": [],
+      "translation": "我打电话的时候她已经走了。",
+      "explanation": "先发生的动作 had already left 放在 when 从句所表示的过去时间之前。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "When the teacher came in, the students ___ their tests.",
+      "translation": "老师走进来的时候，学生们已经做完了试卷。",
+      "options": ["had finished", "finishing", "finish", "has finished"],
+      "answer": 0,
+      "explanation": "“做完”发生在老师进来之前，用过去完成时 had finished。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "商店已经关门了，所以我们回家了。",
+      "options": [
+        "The shop had closed, so we went home.",
+        "The shop is closed, so we went home.",
+        "The shop was closing, so we went home.",
+        "The shop closes, so we went home."
+      ],
+      "answer": 0,
+      "explanation": "关门发生在“我们回家”之前，应用 had closed。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The baby ___ asleep when I got home.",
+      "translation": "我到家的时候，宝宝已经睡着了。",
+      "options": ["has fallen", "falling", "had fallen", "fall"],
+      "answer": 2,
+      "explanation": "“睡着”发生在我到家之前，应使用过去完成时 had fallen。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["They", "had", "never", "seen", "snow", "before."],
+      "alternatives": [],
+      "translation": "他们以前从来没有见过雪。",
+      "explanation": "never 放在 had 之后、过去分词 seen 之前。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The meal had been ready before the guests came.",
+        "I had met him once before the party.",
+        "We had went to the zoo before it rained."
+      ],
+      "answer": 2,
+      "explanation": "had 后面要接过去分词 gone，应改为 We had been to the zoo before it rained。"
+    }
+  ]
+}

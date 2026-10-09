@@ -1,0 +1,112 @@
+{
+  "id": "e2-linking-words",
+  "cefr": 2,
+  "title": "Linking words · 连接词",
+  "tag": "and/but/so",
+  "pattern": "Clause + and / but / so + clause  Clause + because + clause",
+  "summary": "and 表示并列，but 表示转折，so 表示结果，because 表示原因；同一句中不要同时用“because”和“so”。",
+  "explanation": [
+    "**连接词**能把两个句子或短语连在一起，让表达更流畅。**and** 表示并列或顺接，**but** 表示转折，**or** 表示选择，**so** 表示结果，**because** 表示原因。中文的“而且”“但是”“所以”“因为”分别对应这些词，但英语的语序和搭配要求更严格。",
+    "**because 和 so 不能同时出现在同一句里**，这是中国学生最常见的错误。中文习惯说“因为……所以……”，英语只用其中一个：I stayed home **because** I was tired. 或者 I was tired, **so** I stayed home. 如果把 because 放在句首，后面也不要再加 so。",
+    "**but 和 although 都表示转折**，但不能同时使用。although 引导的从句放在前面，后面直接接主句：**Although** it was raining, we went out. 不能写成 Although it was raining, but we went out.",
+    "**时间与条件连词**，如 when、before、after、as soon as，用来说明两个动作的先后。它们引导的从句，即使表示将来，也要用一般现在时，这与将来时一课中学过的规则相同：**When** I finish work, I'll call you. 条件连词 if 将在第十三课的条件句中详细学习，这里先注意时间从句的写法。",
+    "**标点与位置**：连接两个完整句子时，and、but、so 前面通常加逗号（句子很短时可省略）；because 从句可以放在句末，也可以放在句首，放在句首时后面要加逗号：We stayed home **because** it rained. / **Because** it rained, we stayed home."
+  ],
+  "mistakes": [
+    "✗ Because it was raining, so we took a taxi. → ✓ Because it was raining, we took a taxi. 中文“因为……所以……”在英语中只用一个连词。",
+    "✗ Although it was raining, but we went out. → ✓ Although it was raining, we went out. although 和 but 表示相同的转折，不能同时使用。",
+    "✗ I will call you when I will arrive home. → ✓ I will call you when I arrive home. when 引导的时间从句中表示将来，要用一般现在时。"
+  ],
+  "examples": [
+    { "text": "I went to the shop and bought some milk.", "translation": "我去商店买了一些牛奶。", "note": "and 表示顺接。" },
+    { "text": "I wanted to go out, but it was raining.", "translation": "我想出去，但是下雨了。", "note": "but 表示转折。" },
+    { "text": "It was late, so we took a taxi home.", "translation": "已经很晚了，所以我们打车回家。", "note": "so 引出结果。" },
+    { "text": "She stayed at home because she was ill.", "translation": "她因为生病待在家里。", "note": "because 引出原因。" },
+    { "text": "Would you like tea or coffee?", "translation": "你想喝茶还是咖啡？", "note": "or 表示选择。" },
+    { "text": "Before you leave, please turn off the light.", "translation": "你离开之前，请关灯。", "note": "before 表示先后顺序。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的连接词。",
+      "sentence": "Do you want to walk ___ take the bus?",
+      "translation": "你想走路还是坐公交车？",
+      "options": ["and", "but", "or", "so"],
+      "answer": 2,
+      "explanation": "表示选择用 or。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的连接词。",
+      "sentence": "I wanted to buy the bag, ___ it was too expensive.",
+      "translation": "我想买那个包，但它太贵了。",
+      "options": ["so", "but", "or", "if"],
+      "answer": 1,
+      "explanation": "前后是转折关系，用 but。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的连接词。",
+      "sentence": "I was hungry, ___ I made a sandwich.",
+      "translation": "我饿了，所以做了一个三明治。",
+      "options": ["or", "if", "so", "when"],
+      "answer": 2,
+      "explanation": "前一句是原因，后一句是结果，用 so。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的连接词。",
+      "sentence": "___ the film finished, we went home.",
+      "translation": "电影结束后，我们回家了。",
+      "options": ["After", "Because", "But", "Or"],
+      "answer": 0,
+      "explanation": "表示时间先后用 After，句首大写。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我很累，所以早早睡了。",
+      "options": ["I was tired, because I went to bed early.", "I was tired, so I went to bed early.", "I was tired, but I went to bed early.", "Because I was tired, so I went to bed early."],
+      "answer": 1,
+      "explanation": "结果用 so；Because 与 so 不能同时出现。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我因为没带伞，所以淋湿了。",
+      "options": ["I got wet because I didn't bring an umbrella.", "I got wet so I didn't bring an umbrella.", "Because I didn't bring an umbrella, so I got wet.", "I got wet, but I didn't bring an umbrella."],
+      "answer": 0,
+      "explanation": "用 because 表示原因，只用一个连词。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I like tea and coffee.", "Although it was cold, but we went out.", "We can walk or take a taxi."],
+      "answer": 1,
+      "explanation": "although 与 but 不能同时使用，应写成 Although it was cold, we went out."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I will call you when I arrive.", "When I will arrive, I will call you.", "She cooked dinner and washed the dishes."],
+      "answer": 1,
+      "explanation": "时间从句中不用 will，应写成 When I arrive, I will call you."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["I", "was", "tired,", "so", "I", "went", "to", "bed."],
+      "alternatives": [],
+      "translation": "我累了，所以去睡觉了。",
+      "explanation": "前后句之间用逗号加 so 表示结果。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Because", "it", "was", "raining,", "we", "stayed", "home."],
+      "alternatives": [],
+      "translation": "因为下雨，我们待在家里。",
+      "explanation": "句首的 because 从句后加逗号，主句不再加 so。"
+    }
+  ]
+}

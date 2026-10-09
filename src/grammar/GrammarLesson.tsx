@@ -19,12 +19,15 @@ interface Props {
   backLabel: string;
   onBack: () => void;
   onSessionDone: (correct: number, total: number) => void;
+  /** English lessons: jumps to the wiki article the lesson practises. */
+  onOpenWiki?: () => void;
 }
 
-export function GrammarLesson({ point, pointProgress, colorTones, speech, speechRate, backLabel, onBack, onSessionDone }: Props) {
+export function GrammarLesson({ point, pointProgress, colorTones, speech, speechRate, backLabel, onBack, onSessionDone, onOpenWiki }: Props) {
   const { t } = useI18n();
   const [practicing, setPracticing] = useState(false);
   const topRef = useRef<HTMLDivElement>(null);
+  const english = point.track === 'english';
 
   useEffect(() => {
     topRef.current?.scrollIntoView?.({ block: 'start' });
@@ -42,7 +45,7 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
       <header className="flex flex-wrap items-start justify-between gap-2">
         <div className="min-w-0">
           <div className="mb-1 flex flex-wrap items-center gap-2">
-            <HskBadge level={point.hskLevel} />
+            <HskBadge level={point.hskLevel} track={point.track} />
             <span className="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-600 dark:bg-slate-700 dark:text-slate-300">
               {t('grammar.lesson.unreviewed')}
             </span>
@@ -50,6 +53,15 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
               <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 text-[11px] font-semibold text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300">
                 <CircleCheck className="h-3 w-3" aria-hidden /> {t('grammar.lesson.completed')}
               </span>
+            )}
+            {onOpenWiki && (
+              <button
+                type="button"
+                onClick={onOpenWiki}
+                className={`rounded-full bg-rose-50 px-2.5 py-0.5 text-[11px] font-semibold text-rose-700 hover:bg-rose-100 dark:bg-rose-950/40 dark:text-rose-300 ${focusRing}`}
+              >
+                {t('grammar.lesson.readWiki')}
+              </button>
             )}
             <a
               href={`https://github.com/blubbsy/Adilingo/issues/new?title=${encodeURIComponent(`[Grammar] ${point.id}: ${point.title}`)}&body=${encodeURIComponent(`### Grammar Point: ${point.id} - ${point.title}\n\n**Issue Description:**\n\n**Suggested Correction:**\n`)}`}
@@ -81,7 +93,7 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
             <h3 id="gl-pattern" className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
               {t('grammar.lesson.pattern')}
             </h3>
-            <PatternFormula pattern={point.pattern} />
+            <PatternFormula pattern={point.pattern} track={point.track} />
           </section>
 
           <section className={`${card} space-y-3 p-4 text-[15px] leading-relaxed text-slate-700 dark:text-slate-300 sm:p-5`} aria-labelledby="gl-explain">
@@ -120,13 +132,15 @@ export function GrammarLesson({ point, pointProgress, colorTones, speech, speech
               {point.examples.map((ex, i) => (
                 <li key={i} className={`${card} flex items-start gap-3 p-3 sm:p-4`}>
                   <div className="min-w-0 flex-1">
-                    <p lang="zh-CN" className="font-hanzi text-xl text-slate-900 dark:text-slate-100 sm:text-2xl">
+                    <p lang={english ? 'en' : 'zh-CN'} className={`${english ? '' : 'font-hanzi '}text-xl text-slate-900 dark:text-slate-100 sm:text-2xl`}>
                       {ex.hanzi}
                     </p>
-                    <p className="mt-0.5 text-sm">
-                      <FreePinyin text={ex.pinyin} color={colorTones} className="text-slate-600 dark:text-slate-300" />
-                    </p>
-                    <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{ex.english}</p>
+                    {!english && (
+                      <p className="mt-0.5 text-sm">
+                        <FreePinyin text={ex.pinyin} color={colorTones} className="text-slate-600 dark:text-slate-300" />
+                      </p>
+                    )}
+                    <p lang={english ? 'zh-CN' : undefined} className="mt-1 text-sm text-slate-500 dark:text-slate-400">{ex.english}</p>
                     {ex.note && (
                       <p className="mt-1.5 text-xs text-slate-500 dark:text-slate-400">
                         <RichText text={ex.note} />

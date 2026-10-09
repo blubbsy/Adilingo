@@ -1,0 +1,173 @@
+{
+  "id": "e1-pronouns-possessives",
+  "cefr": 1,
+  "title": "Pronouns & possessives: I, me, my, mine · 人称代词与所有格",
+  "tag": "I/me/my/mine",
+  "pattern": "I (subject) + me (object) + my (before a noun) + mine (alone)",
+  "summary": "做主语用 I，做宾语用 me，“我的”后接名词用 my，单独使用用 mine。",
+  "explanation": [
+    "英语的代词会随着它在句中的作用而变化。中文“我”“我的”在英语里分成几种形式：**I** 做主语（I like music.），**me** 做宾语（Give me the pen.），**my** 表示“我的”后面接名词（my book），**mine** 表示“我的（东西）”单独使用（This bag is mine.）。",
+    "**I** 永远要大写，不论它在句子的什么位置：Yesterday I went home. 宾格 **me** 用在动词或介词后面，例如 help me、for me、with me。中文可以说“帮我”“给我”，英语的 me 位置固定。",
+    "**my** 是形容词性物主代词，后面必须接名词：my book、my friends。**mine** 是名词性物主代词，单独使用，后面不接名词，相当于“我的东西”：This pen is mine. 不能说 This pen is my。",
+    "其他人称可以类推：you / your / yours，he / him / his / his，she / her / hers，we / us / our / ours，they / them / their / theirs。注意 her 既可以是宾格（I know her.），也可以是所有格（Her name is Lily.），要看它后面有没有名词。",
+    "列举多人时，英语习惯把自己放在最后，这和中文“我和我的朋友”的顺序不同：My friend and I go shopping. 不要说 I and my friend，那是中文思维的直译。"
+  ],
+  "mistakes": [
+    "✗ Me like apples. → ✓ I like apples. 做主语要用主格 I，宾格 me 不能作主语。",
+    "✗ Give the book to I. → ✓ Give the book to me. 介词 to 后面要用宾格 me。",
+    "✗ This is mine book. → ✓ This is my book. mine 后面不能接名词，修饰名词时要用 my。",
+    "✗ I and my friend go shopping. → ✓ My friend and I go shopping. 英语习惯把自己放在并列结构的最后。"
+  ],
+  "examples": [
+    {
+      "text": "I am a student.",
+      "translation": "我是学生。"
+    },
+    {
+      "text": "Can you help me with my homework?",
+      "translation": "你能帮我做作业吗？"
+    },
+    {
+      "text": "This pen is mine. Where is yours?",
+      "translation": "这支笔是我的，你的在哪儿？",
+      "note": "yours 相当于 your pen。"
+    },
+    {
+      "text": "My sister and I like music.",
+      "translation": "我姐姐和我都喜欢音乐。"
+    },
+    {
+      "text": "The bag on the chair is mine.",
+      "translation": "椅子上的包是我的。"
+    },
+    {
+      "text": "Her name is Lily. I know her well.",
+      "translation": "她的名字叫莉莉，我很了解她。",
+      "note": "her 在 name 前是所有格，在 know 后是宾格。"
+    },
+    {
+      "text": "Our house is big, but theirs is small.",
+      "translation": "我们的房子很大，但他们的很小。"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的代词。",
+      "sentence": "___ am a teacher.",
+      "translation": "我是一名老师。",
+      "options": [
+        "Me",
+        "My",
+        "I",
+        "Mine"
+      ],
+      "answer": 2,
+      "explanation": "做主语要用 I。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的代词。",
+      "sentence": "Please give ___ the book.",
+      "translation": "请把书给我。",
+      "options": [
+        "I",
+        "my",
+        "mine",
+        "me"
+      ],
+      "answer": 3,
+      "explanation": "give 后面接的是宾语，要用宾格 me。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的代词。",
+      "sentence": "This is not your bag. It is ___.",
+      "translation": "这不是你的包，它是我的。",
+      "options": [
+        "my",
+        "mine",
+        "me",
+        "I"
+      ],
+      "answer": 1,
+      "explanation": "句末单独使用“我的（东西）”，用 mine。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的代词。",
+      "sentence": "Ms. Li is my teacher. I know ___ very well.",
+      "translation": "李老师是我的老师，我非常了解她。",
+      "options": [
+        "she",
+        "her",
+        "hers",
+        "I"
+      ],
+      "answer": 1,
+      "explanation": "know 后面是宾语，要用宾格 her。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我的朋友和我一起去公园。",
+      "options": [
+        "Me and my friend go to the park.",
+        "My friend and me go to the park.",
+        "I and my friend go to the park.",
+        "My friend and I go to the park."
+      ],
+      "answer": 3,
+      "explanation": "英语习惯把 I 放在并列结构的最后，且做主语要用 I。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这些书是他们的。",
+      "options": [
+        "These books are their.",
+        "These books are them.",
+        "These books are theirs.",
+        "These books are they."
+      ],
+      "answer": 2,
+      "explanation": "“他们的（东西）”单独使用，用 theirs。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Me am happy today.",
+        "She likes her new bike.",
+        "This phone is mine."
+      ],
+      "answer": 0,
+      "explanation": "主语要用 I，应写成 I am happy today."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Give the pen to him.",
+        "This is my book.",
+        "This book is mine book."
+      ],
+      "answer": 2,
+      "explanation": "mine 后面不能接名词，应写成 This book is mine. 或 This is my book."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": [
+        "Please",
+        "give",
+        "me",
+        "the",
+        "book."
+      ],
+      "alternatives": [],
+      "translation": "请把书给我。",
+      "explanation": "祈使句以动词原形开头，me 作间接宾语。"
+    }
+  ]
+}

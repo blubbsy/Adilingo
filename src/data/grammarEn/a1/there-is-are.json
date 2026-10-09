@@ -1,0 +1,174 @@
+{
+  "id": "e1-there-is-are",
+  "cefr": 1,
+  "title": "There is / There are · 存在句",
+  "tag": "there is/are",
+  "pattern": "There + is / are + (a / some / any / number) + noun + place",
+  "summary": "There is 后接单数，There are 后接复数，表示“某处有……”。",
+  "explanation": [
+    "**There is / There are** 用来说“某个地方有某物”，相当于中文的“有”或“这里有”。这里的 there 没有“那里”的意思，只是句子的引导词：There is a bank near here（这附近有一家银行）。",
+    "be 动词要看它后面的名词：单数名词和不可数名词用 **is / was**，复数名词用 **are / were**：There is a book on the desk. There are two books on the desk. There is some water in the glass.",
+    "否定句在 be 后面加 not：There isn't any milk. / There aren't many students. 疑问句把 be 动词提到 there 前面：Is there a supermarket near here? / Are there any apples?",
+    "回答这类问题时，要用 there 来回答，而不是 it：Yes, there is. / No, there isn't. 不要说 Yes, it is。",
+    "数量词的选择有一个小规律：肯定句常用 some、a / an、two 等；否定句和疑问句里常用 any：There are some eggs. / Are there any eggs?"
+  ],
+  "mistakes": [
+    "✗ There has a bank here. → ✓ There is a bank here. 中文“这里有”不能翻成 has，要用 there + be 动词。",
+    "✗ There are a cat under the bed. → ✓ There is a cat under the bed. 单数名词要用 is，不能用 are。",
+    "✗ Is there many students? → ✓ Are there many students? 后面是复数名词，问句的 be 动词要用 are。",
+    "✗ There is not some water. → ✓ There isn't any water. 否定句中 some 通常要换成 any。"
+  ],
+  "examples": [
+    {
+      "text": "There is a bank near my home.",
+      "translation": "我家附近有一家银行。"
+    },
+    {
+      "text": "There are two chairs in the room.",
+      "translation": "房间里有两把椅子。"
+    },
+    {
+      "text": "There is some milk in the fridge.",
+      "translation": "冰箱里有一些牛奶。"
+    },
+    {
+      "text": "There isn't any sugar in my coffee.",
+      "translation": "我的咖啡里没有糖。"
+    },
+    {
+      "text": "Are there any shops near here?",
+      "translation": "这附近有商店吗？"
+    },
+    {
+      "text": "Yes, there are. There are two on the left.",
+      "translation": "有的，左边有两家。"
+    },
+    {
+      "text": "There was a school here ten years ago.",
+      "translation": "十年前这里有一所学校。",
+      "note": "过去时用 was / were。"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的句型。",
+      "sentence": "___ a pen on the table.",
+      "translation": "桌子上有一支笔。",
+      "options": [
+        "There is",
+        "There are",
+        "It is",
+        "There has"
+      ],
+      "answer": 0,
+      "explanation": "a pen 是单数，用 There is。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的 be 动词。",
+      "sentence": "There ___ three apples in the box.",
+      "translation": "盒子里有三个苹果。",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "be"
+      ],
+      "answer": 1,
+      "explanation": "three apples 是复数，用 are。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的疑问形式。",
+      "sentence": "___ there any milk in the fridge?",
+      "translation": "冰箱里有牛奶吗？",
+      "options": [
+        "Do",
+        "Has",
+        "Are",
+        "Is"
+      ],
+      "answer": 3,
+      "explanation": "milk 是不可数名词，用 Is there。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的否定形式。",
+      "sentence": "There ___ any bread.",
+      "translation": "没有面包了。",
+      "options": [
+        "doesn't",
+        "isn't",
+        "aren't",
+        "hasn't"
+      ],
+      "answer": 1,
+      "explanation": "There 句的否定用 isn't，bread 是不可数名词。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "学校旁边有一个公园。",
+      "options": [
+        "It has a park near the school.",
+        "There has a park near the school.",
+        "There is a park near the school.",
+        "There are a park near the school."
+      ],
+      "answer": 2,
+      "explanation": "表示“有”的存在句用 There is，a park 是单数。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "椅子上有两只猫。",
+      "options": [
+        "There is two cats on the chair.",
+        "There are two cats on the chair.",
+        "There has two cats on the chair.",
+        "There are two cat on the chair."
+      ],
+      "answer": 1,
+      "explanation": "two cats 是复数，用 There are，cats 也要加 -s。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "There is a clock on the wall.",
+        "There are many students in the class.",
+        "There are a bag on the sofa."
+      ],
+      "answer": 2,
+      "explanation": "a bag 是单数，应写成 There is a bag on the sofa."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "There isn't any money in my bag.",
+        "There is not some water.",
+        "Are there any eggs?"
+      ],
+      "answer": 1,
+      "explanation": "否定句中 some 要换成 any，应写成 There isn't any water."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": [
+        "There",
+        "is",
+        "a",
+        "bus",
+        "stop",
+        "near",
+        "here."
+      ],
+      "alternatives": [],
+      "translation": "这附近有一个公交车站。",
+      "explanation": "存在句结构：There + is + 名词 + 地点。"
+    }
+  ]
+}

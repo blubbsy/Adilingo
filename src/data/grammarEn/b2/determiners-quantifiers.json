@@ -1,0 +1,136 @@
+{
+  "id": "e4-determiners-quantifiers",
+  "cefr": 4,
+  "title": "Determiners and quantifiers · 限定词与数量词",
+  "tag": "each/every",
+  "pattern": "each / every + singular noun  ·  both / either / neither + plural noun  ·  few + countable  ·  little + uncountable",
+  "summary": "每个数量词都有固定搭配：each 与 every 指“每一个”，few 与 little 分别接可数与不可数名词，enough 与 too 的位置也有规定。",
+  "explanation": [
+    "**each 与 every** 都表示“每一个”，但 **each** 更强调个体，可单独使用，也可接 of 短语：**Each** of the students received a certificate.（每位学生都拿到了证书。）**every** 强调整体中的每一个，后面直接接单数名词，不能接 of：Every student in the class passed.（班上每个学生都通过了。）因此不要说 Every of the students。",
+    "**all 与 whole** 都能表示“全部”，但搭配不同：all 后面接复数或不可数名词（all the time、all my friends），whole 后面接单数名词（the whole day）。中文说“整个下午”，英语应写 **the whole afternoon** 或 all afternoon，不能写 whole the afternoon 或 whole of day。",
+    "**both、either、neither** 只用于两者之间：**both** 表示“两者都”，**either** 表示“两者中的任一个”，**neither** 表示“两者都不”。这三个词作主语时，要和谓语保持一致的单数或复数形式：Neither of the answers **is** correct.（两个答案都不对。）",
+    "**few 与 little** 的区别在于名词类型：few 接可数名词，表示“很少”；little 接不可数名词，表示“很少”。带 a 时意思变成“有一些”，语气更积极：I have **a few** friends in Berlin.（我在柏林有几个朋友。）I have **little** money left.（我几乎没钱了。）",
+    "**enough 与 too**：enough 可以修饰名词（enough time），放在名词前；修饰形容词或副词时要放在其后（tall enough）。too 则放在形容词或副词前，表示“过于”：The water is **too cold** for swimming.（水太凉，不能游泳。）中文的“足够”“太”位置相同，但英语对词序要求很严格。"
+  ],
+  "mistakes": [
+    "✗ Every of the students passed the exam. → ✓ Each of the students passed the exam. every 后面不能直接接 of，要用 each of 或 every one of。",
+    "✗ I waited whole the afternoon. → ✓ I waited the whole afternoon. whole 要放在定冠词 the 之后，修饰名词 afternoon。",
+    "✗ I have few money, so I cannot buy lunch. → ✓ I have little money, so I cannot buy lunch. few 只接可数名词，money 是不可数名词，应用 little。",
+    "✗ He is enough tall to play basketball. → ✓ He is tall enough to play basketball. enough 修饰形容词时要放在形容词之后。"
+  ],
+  "examples": [
+    { "text": "Each student received a certificate at the end of the course.", "translation": "课程结束时，每位学生都拿到了一张证书。" },
+    { "text": "Every room in the hotel has a sea view.", "translation": "酒店的每个房间都能看到海景。" },
+    { "text": "I waited for the whole morning.", "translation": "我整个上午都在等。", "note": "whole + 单数名词。" },
+    { "text": "Both my parents work in the hospital.", "translation": "我父母俩都在医院工作。" },
+    { "text": "Neither of the answers is correct.", "translation": "两个答案都不对。", "note": "neither 作主语时，谓语多用单数。" },
+    { "text": "I have a few friends in Berlin, so I am not lonely.", "translation": "我在柏林有几个朋友，所以我不孤单。" },
+    { "text": "We have enough time to have a quick coffee before the meeting.", "translation": "我们在开会前有足够的时间喝杯咖啡。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "___ of the two answers is correct.",
+      "translation": "这两个答案都不对。",
+      "options": ["Both", "Every", "Neither", "Whole"],
+      "answer": 2,
+      "explanation": "表示“两者都不”用 neither，作主语时谓语用单数 is。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I have ___ money left, so I can't buy lunch.",
+      "translation": "我几乎没钱了，所以买不起午饭。",
+      "options": ["few", "little", "many", "a few"],
+      "answer": 1,
+      "explanation": "money 是不可数名词，表示“很少”用 little。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The water is ___ cold for swimming.",
+      "translation": "水太凉，不能游泳。",
+      "options": ["enough", "very much", "so many", "too"],
+      "answer": 3,
+      "explanation": "“太……”用 too 修饰形容词 cold。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我整个下午都在写报告。",
+      "options": [
+        "I spent whole afternoon writing the report.",
+        "I spent all afternoon the writing report.",
+        "I spent the whole afternoon writing the report.",
+        "I spent every the afternoon writing the report."
+      ],
+      "answer": 2,
+      "explanation": "“整个下午”用 the whole afternoon，whole 放在 the 之后。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "房间里有足够的椅子。",
+      "options": [
+        "There are enough chairs in the room.",
+        "There are enough of chairs in the room.",
+        "There are enough chair in the room.",
+        "There is enough chairs in the room."
+      ],
+      "answer": 0,
+      "explanation": "enough 修饰复数可数名词 chairs，放在名词前；谓语用 are。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我的朋友个个都很友好。",
+      "options": [
+        "Every of my friends are friendly.",
+        "Each my friends is friendly.",
+        "Each of my friends are friendly.",
+        "Each of my friends is friendly."
+      ],
+      "answer": 3,
+      "explanation": "each of 后面接复数名词，但 each 作主语时谓语用单数 is。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I have few time to relax this week.",
+        "She has a few close friends.",
+        "We have little time left."
+      ],
+      "answer": 0,
+      "explanation": "time 是不可数名词，应写成 little time。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "There are too many people in the room.",
+        "He is old enough to vote.",
+        "The kids are enough old to go alone."
+      ],
+      "answer": 2,
+      "explanation": "enough 修饰形容词时要放在形容词之后，应写成 old enough。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Every", "room", "in", "the", "building", "has", "its", "own", "balcony."],
+      "alternatives": [],
+      "translation": "这栋楼的每个房间都有自己的阳台。",
+      "explanation": "every 后面直接接单数名词 room，谓语用 has。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["We", "had", "enough", "food", "for", "the", "whole", "week."],
+      "alternatives": [],
+      "translation": "我们的食物足够吃一整个星期。",
+      "explanation": "enough 修饰名词 food 时放在名词前；the whole week 表示整个星期。"
+    }
+  ]
+}

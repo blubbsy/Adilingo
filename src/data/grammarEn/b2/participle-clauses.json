@@ -1,0 +1,137 @@
+{
+  "id": "e4-participle-clauses",
+  "cefr": 4,
+  "title": "Participle clauses · 分词短语（-ing / -ed 从句）",
+  "tag": "-ing/-ed",
+  "pattern": "V-ing / Having + V3 / V3 ( …), + main clause (主语相同)",
+  "summary": "用 -ing、Having + 过去分词或过去分词开头的短语代替从句，使句子更简洁，但必须与主句共用同一个主语。",
+  "wikiId": "gerunds-and-participles",
+  "explanation": [
+    "**分词短语**是用 -ing 或过去分词代替状语从句的简洁写法，常用来表示时间、原因、条件或伴随。中文常用“……的时候”“因为……”“……之后”来译，英语则把这些关系藏在短语里：**Walking** home from school, I met an old friend.（放学走路回家时，我遇到了一位老朋友。）等于 When I was walking home...",
+    "**现在分词（V-ing）** 表示主动，并且与主句动作基本同时发生：**Smiling**, she opened the door.（她微笑着打开了门。）**Having + 过去分词** 表示动作发生在主句之前：**Having finished** the report, she sent it to her boss.（报告写完后，她把它发给了老板。）",
+    "**过去分词（V3）** 表示被动，相当于 which is / was…或 when it was…：**Built** in 1920, the house still looks elegant.（这座房子建于1920年，至今仍很优雅。）**Covered** with snow, the mountains looked beautiful.（群山覆盖着白雪，显得很美。）",
+    "最重要的规则是：**分词短语的逻辑主语必须与主句主语一致**。如果说“走路回家的是我”，就应写 Walking home, I got caught in the rain.，而不能写 Walking home, the rain started.，否则句子会让人误以为是“雨在走路”。中文常省略主语，英语却必须保证逻辑关系正确。",
+    "否定形式是把 not 放在分词前：**Not knowing** what to say, she remained silent.（不知道该说什么，她保持沉默。）分词短语在正式书面语中很常见，但口语中更常用 when、because、after 等从句。写作时可以适当使用，说话时则要注意清楚自然。"
+  ],
+  "mistakes": [
+    "✗ Walking home, the rain started. → ✓ Walking home, I got caught in the rain. 分词短语的逻辑主语应是主句的主语：走路的是“我”，不是“雨”。",
+    "✗ Finished my homework, I went to bed. → ✓ Having finished my homework, I went to bed. 表示“我主动完成作业”是主动关系，应使用 Having + 过去分词，而不是直接用过去分词。",
+    "✗ Living in the countryside, the air is fresh. → ✓ Living in the countryside, you can enjoy fresh air. 住在乡下的是人，分词短语的主语应是 you，而不是 air。",
+    "✗ Written in English, I cannot understand the letter. → ✓ Written in English, the letter is hard for me to understand. 过去分词表示被动，修饰的应是 the letter（被写成英文），而不是 I。"
+  ],
+  "examples": [
+    { "text": "Walking home from school, I met an old friend.", "translation": "放学走路回家时，我遇到了一位老朋友。" },
+    { "text": "Having finished the report, she sent it to her boss.", "translation": "报告写完后，她把它发给了老板。", "note": "先完成报告，再发送，动作有先后。" },
+    { "text": "Not knowing what to say, he stayed silent.", "translation": "不知道该说什么，他沉默了。" },
+    { "text": "Built in 1920, the house still looks elegant.", "translation": "这座房子建于1920年，至今仍然很优雅。", "note": "过去分词表示被动：房子是被建造的。" },
+    { "text": "Given more time, we could have finished the project.", "translation": "如果有更多时间，我们本可以完成这个项目。" },
+    { "text": "Left alone in the room, the child began to cry.", "translation": "孩子独自留在房间里，开始哭了起来。" },
+    { "text": "Having been told the news, she burst into tears.", "translation": "得知这个消息后，她哭了起来。", "note": "完成被动：Having been + 过去分词。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "___ to the post office, I realised I had left my wallet at home.",
+      "translation": "我正要去邮局时，才发现钱包忘在家里了。",
+      "options": ["Went", "Going", "Gone", "To go"],
+      "answer": 1,
+      "explanation": "主语“我”正在去邮局，用现在分词 Going 表示主动和同时发生。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "___ by a famous artist, the painting sold for millions of dollars.",
+      "translation": "这幅画由一位著名画家创作，卖出了数百万美元。",
+      "options": ["Painted", "Painting", "Having painted", "To paint"],
+      "answer": 0,
+      "explanation": "画是被画的，表示被动，用过去分词 Painted。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "___ what to say, she remained silent.",
+      "translation": "她不知道该说什么，于是保持沉默。",
+      "options": ["Not know", "Don't knowing", "Not knowing", "Didn't know"],
+      "answer": 2,
+      "explanation": "否定分词短语用 not + 现在分词 knowing。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "放学走路回家时，我遇到了一位老同学。",
+      "options": [
+        "Walked home from school, I ran into an old classmate.",
+        "Walking home from school, I ran into an old classmate.",
+        "Walking home from school, an old classmate ran into me.",
+        "Walked home from school, an old classmate ran into me."
+      ],
+      "answer": 1,
+      "explanation": "走路的是“我”，而且是主动、同时发生的动作，用 Walking home from school。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "得知这个消息后，她非常激动。",
+      "options": [
+        "Hear the news, she was very excited.",
+        "Having hear the news, she was very excited.",
+        "Having heard the news, she was very excited of it.",
+        "Having heard the news, she was very excited."
+      ],
+      "answer": 3,
+      "explanation": "“得知”发生在“激动”之前，用 Having heard；excited 后面不接 of it。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这座房子建于1920年，至今仍然很漂亮。",
+      "options": [
+        "Built in 1920, the house is still beautiful.",
+        "Building in 1920, the house is still beautiful.",
+        "Built in 1920, the house still beautiful.",
+        "Having built in 1920, the house is still beautiful."
+      ],
+      "answer": 0,
+      "explanation": "房子是被建造的，用过去分词 Built in 1920 作为分词短语。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Feeling tired, she went to bed early.",
+        "Having finished dinner, we went for a walk.",
+        "Finished dinner, we went for a walk."
+      ],
+      "answer": 2,
+      "explanation": "“吃完饭”是我们主动完成的动作，应使用 Having finished dinner。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Built by the Romans, the road is still in use.",
+        "Built by the Romans, we still use the road.",
+        "Covered with snow, the mountains looked beautiful."
+      ],
+      "answer": 1,
+      "explanation": "分词短语 Built by the Romans 修饰的是 the road，不能与主语 we 搭配。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Having", "finished", "the", "meeting,", "they", "went", "out", "for", "lunch."],
+      "alternatives": [],
+      "translation": "会议结束后，他们出去吃午饭了。",
+      "explanation": "Having finished 表示先完成会议，再去吃午饭，分词短语的主语是 they。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Surrounded", "by", "tall", "trees,", "the", "small", "village", "was", "very", "quiet."],
+      "alternatives": [],
+      "translation": "这个小村庄被高大的树木包围着，非常安静。",
+      "explanation": "village 被树木包围，所以用过去分词 Surrounded 表示被动。"
+    }
+  ]
+}

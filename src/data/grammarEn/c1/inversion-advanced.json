@@ -1,0 +1,123 @@
+{
+  "id": "e5-inversion-advanced",
+  "cefr": 5,
+  "title": "Inversion: advanced · 倒装句（进阶）",
+  "tag": "Inversion",
+  "pattern": "Negative adverbial + auxiliary + subject + verb  ·  Had + subject + V3  ·  Should + subject + base verb",
+  "summary": "句首放否定词或条件时，助动词要提到主语前面：Never have I seen it.",
+  "wikiId": "inverted-sentences",
+  "explanation": [
+    "英语的正常语序是“主语 + 助动词 + 动词”。但当否定副词（never、rarely、seldom、hardly、no sooner 等）放在句首时，句子要**倒装**：助动词或 be 动词移到主语前面。这种结构强调语气，多见于正式书面语和演讲：**Never have I** seen such a beautiful sunset.",
+    "常见的倒装结构有：**Not only ... but also**（Not only **did she** pass the exam, but she also won a scholarship.）；**Hardly ... when**（Hardly **had he** arrived when it started to rain.）；**No sooner ... than**（No sooner **had we sat down** than the phone rang.）；**Not until / Only after / Only then**（Not until midnight **did she** return.）。注意：如果 never 不在句首，就不需要倒装：I have **never** seen it.",
+    "**条件句省略 if 时的倒装**：把 had、should、were 提到主语前面，就可以不用 if：Had I known（= If I had known）；Should you need help（= If you should need help）；Were he to apologise（= If he were to apologise）。这种写法比 if 句更正式。中文里没有对应结构，理解时要先把它还原成 if 句。",
+    "**So / Such ... that** 也能倒装：So quickly **did the news spread** that the whole street knew by noon.（句首是 so + 副词，后面倒装。）否定的“也不”结构 neither / nor 同样倒装：I don't like it, and neither **do you**.",
+    "**不要滥用倒装**。中文习惯把“从不”“很少”放在动词前，英语在普通陈述句中不需要倒装，只有否定词位于句首，或句子以 so、such、only 开头时才倒装。倒装句中的助动词要和主语、时态一致，动词保持原形或 V3。"
+  ],
+  "mistakes": [
+    "✗ Never I have seen such a view. → ✓ Never have I seen such a view. 否定词在句首时，助动词要放到主语前面。",
+    "✗ Rarely we go to the cinema. → ✓ Rarely do we go to the cinema. 句子没有助动词时，要先加 do / does / did 再倒装。",
+    "✗ Hardly I had arrived when it started raining. → ✓ Hardly had I arrived when it started raining. hardly 要倒装，并且与 when 搭配；no sooner 才与 than 搭配。"
+  ],
+  "examples": [
+    { "text": "Never have I seen such a beautiful sunset.", "translation": "我从未见过如此美丽的日落。", "note": "Never 位于句首，助动词 have 提到主语前面。" },
+    { "text": "Rarely do the trains run late on this line.", "translation": "这条线的火车很少晚点。" },
+    { "text": "Not only did she pass the exam, but she also won a scholarship.", "translation": "她不仅通过了考试，还拿到了奖学金。" },
+    { "text": "Had I known about the strike, I would have taken the earlier train.", "translation": "要是我早知道有罢工，就会坐早一班的火车了。", "note": "Had I known 相当于 If I had known。" },
+    { "text": "Should you need any further information, please contact our office.", "translation": "如果您需要更多信息，请联系我们的办公室。", "note": "Should you need 相当于 If you need，语气更正式。" },
+    { "text": "No sooner had we sat down than the phone rang.", "translation": "我们刚坐下，电话就响了。" },
+    { "text": "So rapidly did the fire spread that the whole street was evacuated.", "translation": "火势蔓延得如此之快，整条街都被疏散了。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "___ have I heard such nonsense.",
+      "translation": "我从没听过这么荒唐的话。",
+      "options": ["Never I", "Never have I", "I have never", "Never I have"],
+      "answer": 1,
+      "explanation": "否定副词 never 位于句首时要倒装，应为 Never have I heard ...。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Had I ___ about the delay, I would have left earlier.",
+      "translation": "要是我早知道会延误，我就会早点出发了。",
+      "options": ["know", "knew", "knowing", "known"],
+      "answer": 3,
+      "explanation": "Had I known 相当于 If I had known，倒装条件句中要用过去分词 known。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Not until the last minute ___ she decide to join us.",
+      "translation": "直到最后一刻，她才决定加入我们。",
+      "options": ["does", "did", "has", "was"],
+      "answer": 1,
+      "explanation": "Not until 引导的句子要倒装，过去时用助动词 did，后面的动词用原形 decide。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "要是你需要帮助，请随时给我们打电话。",
+      "options": [
+        "Should you need help, please call us at any time.",
+        "Should you needed help, please call us at any time.",
+        "Need you should help, please call us at any time.",
+        "Should you need help, please calling us at any time."
+      ],
+      "answer": 0,
+      "explanation": "Should you need 是 if you need 的倒装形式，动词用原形 need；calling 与 needed 的用法都是错的。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他一到家，雨就开始下了。",
+      "options": [
+        "Hardly he had arrived home when it started to rain.",
+        "Hardly had he arrived home than it started to rain.",
+        "Hardly had he arrived home when it started to rain.",
+        "Hardly he arrived home when it started to rain."
+      ],
+      "answer": 2,
+      "explanation": "hardly 位于句首时要倒装为 Hardly had he arrived，并与 when 搭配，不能用 than。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["Rarely the trains are late here.", "Seldom do we see snow in this city.", "Not only did he call, but he also visited."],
+      "answer": 0,
+      "explanation": "Rarely 位于句首，必须倒装为 Rarely are the trains late here.，不能保持陈述语序。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["Never before have I felt so nervous.", "Never before I have felt so nervous.", "Not only is it cheap, but it is also tasty."],
+      "answer": 1,
+      "explanation": "Never before 位于句首，必须倒装；正确形式是 Never before have I felt so nervous.。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Never", "have", "I", "seen", "such", "a", "beautiful", "view."],
+      "alternatives": [],
+      "translation": "我从未见过如此美丽的景色。",
+      "explanation": "否定副词 never 置于句首，之后是“助动词 + 主语 + 过去分词”。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Had", "I", "known", "about", "the", "delay,", "I", "would", "have", "left", "earlier."],
+      "alternatives": [],
+      "translation": "要是我早知道会延误，我早就走了。",
+      "explanation": "省略 if 的倒装条件句：Had + 主语 + V3，主句仍用 would have + V3。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["So", "loudly", "did", "the", "band", "play", "that", "the", "neighbours", "complained."],
+      "alternatives": [],
+      "translation": "乐队演奏得如此响亮，邻居们都投诉了。",
+      "explanation": "So + 副词位于句首时，后面要倒装：So loudly did ... that ...。"
+    }
+  ]
+}

@@ -59,6 +59,7 @@ export async function loadDomainItems(domain: string, track: TrackId): Promise<V
       topics: [topic],
       definition: def,
       abbr: abbr || undefined,
+      speakAs: speak || undefined,
       domain,
     };
     if (track === 'chinese') {
@@ -79,7 +80,6 @@ export async function loadDomainItems(domain: string, track: TrackId): Promise<V
       pinyin: '',
       pinyinNumbered: '',
       english: [zh],
-      speakAs: speak || undefined,
       exampleSentence: { hanzi: exEn, pinyin: '', english: exZh },
     };
   });

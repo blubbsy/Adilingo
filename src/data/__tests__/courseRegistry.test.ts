@@ -18,10 +18,8 @@ describe('course registry', () => {
     }
   });
 
-  it('keeps course content isolated: grammar and irregular verbs exist only in the English course', () => {
-    expect(isViewAvailable('chinese', 'grammar')).toBe(false);
+  it('keeps course content isolated: irregular verbs exist only in the English course, both language courses share the same screens', () => {
     expect(isViewAvailable('chinese', 'irregular')).toBe(false);
-    expect(isViewAvailable('english', 'grammar')).toBe(true);
     expect(isViewAvailable('english', 'irregular')).toBe(true);
     for (const v of ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements'] as const) {
       expect(isViewAvailable('chinese', v), v).toBe(true);

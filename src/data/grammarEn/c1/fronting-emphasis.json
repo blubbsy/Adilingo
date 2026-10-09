@@ -1,0 +1,131 @@
+{
+  "id": "e5-fronting-emphasis",
+  "cefr": 5,
+  "title": "Emphasis: fronting & cleft sentences · 强调句型",
+  "tag": "Emphasis",
+  "pattern": "Object + Subject + Verb  ·  do / does / did + base verb  ·  It is / was + focus + that / who + ...",
+  "summary": "英语用前置、do 加动词原形、分裂句等结构来强调信息，而不是只靠语气。",
+  "explanation": [
+    "中文强调常靠语气词、“是……的”或把话题提前。英语则有固定的强调结构：**前置**（把宾语或补语放到句首）、**do / does / did + 动词原形**（强调“确实”）、**分裂句**（It was ... that ...）和**反身代词**（myself、herself）。选择哪一种，取决于你想突出的是动作、对象、人物还是时间地点。",
+    "**前置**是把宾语、表语或状语放到句首，主语和动词之后不一定倒装：This film **I really enjoyed**. 这种结构常见于口语和文学作品，书面表达中要注意句子的平衡，不要连续使用过多前置。另外，形容词前置时用 though 或 as 连接：Tired **as she was**, she went out for a walk.（虽然她很累，还是出去散步了。）",
+    "**do / does / did** 放在动词前，表示“确实”“的确”，只用于肯定句，并且后面的动词必须保持原形：I **do** believe you were right. 如果用于一般现在时，主语是第三人称单数时用 does；过去时统一用 did。否定句和疑问句不需要这种强调。",
+    "**what 从句分裂句**：What I need is a long holiday.（我需要的是一个长假。）这里 what 从句作主语，is 之后接名词或名词短语，不能再接完整的句子。**It was ... that ...** 分裂句用来强调人、时间、地点或原因：It was the manager **who** agreed to the plan.（强调人）；It was in the library **that** I found the letters.（强调地点）。",
+    "**反身代词**可以强调“亲自”：The director **herself** checked every report.。注意它与做宾语的反身代词不同：I hurt **myself**.（我弄伤了自己）中的 myself 是宾语，不能用来强调。中国学习者常因为中文的强调习惯，在英语中加入多余的 very 或重复主语，反而显得不自然。"
+  ],
+  "mistakes": [
+    "✗ It was my sister who she broke the vase. → ✓ It was my sister who broke the vase. 分裂句中 who 之后直接接动词，不能再加一个主语。",
+    "✗ I did enjoyed the film. → ✓ I did enjoy the film. do / did 之后的动词一律用原形。",
+    "✗ What I need is I need a rest. → ✓ What I need is a rest. What 从句之后，is 后面只接名词或名词短语，不能再接完整的句子。"
+  ],
+  "examples": [
+    { "text": "This film I really enjoyed.", "translation": "这部电影我真的很喜欢。", "note": "宾语前置，强调 this film。" },
+    { "text": "Tired as she was, she still went out for a walk.", "translation": "虽然她很累，还是出去散步了。" },
+    { "text": "I do believe you were right about the timing.", "translation": "我确实认为你在时机上是对的。", "note": "do + 原形，表示强调。" },
+    { "text": "What I really need is a long holiday.", "translation": "我真正需要的是一个长假。" },
+    { "text": "It was the manager who finally agreed to the plan.", "translation": "最终同意这个计划的是经理。" },
+    { "text": "It was in the library that I found the old letters.", "translation": "我是在图书馆找到那些旧信的。" },
+    { "text": "The director herself checked every single report.", "translation": "主任亲自检查了每一份报告。", "note": "herself 表示“亲自”。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的强调形式。",
+      "sentence": "I ___ enjoy the concert last night, even though it was raining.",
+      "translation": "尽管昨晚下着雨，我的确很享受那场音乐会。",
+      "options": ["do", "doing", "did", "to"],
+      "answer": 2,
+      "explanation": "last night 是过去时间，用 did enjoy 表示强调。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "What I ___ is a quiet place to think.",
+      "translation": "我需要的是一个安静思考的地方。",
+      "options": ["needs", "need", "needed", "to need"],
+      "answer": 1,
+      "explanation": "What 从句的主语是 I，动词用 need，不用 needs。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的关系词。",
+      "sentence": "It was the manager ___ decided to close the shop.",
+      "translation": "决定关闭这家商店的是经理。",
+      "options": ["which", "where", "who", "whose"],
+      "answer": 2,
+      "explanation": "分裂句强调的是人时，关系词用 who（或 that），不用 which 或 where。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我亲自去机场接了他。",
+      "options": [
+        "I went the airport myself to pick him up.",
+        "I myself went to the airport to pick him up.",
+        "I went to the airport to pick himself up.",
+        "I went myself the airport to pick him up."
+      ],
+      "answer": 1,
+      "explanation": "myself 用于强调主语“亲自”，放在 I 之后；went to the airport 中的介词 to 不能省略。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们确实很感谢你的帮助。",
+      "options": [
+        "We appreciate do your help.",
+        "We do appreciating your help.",
+        "We are do appreciate your help.",
+        "We do appreciate your help."
+      ],
+      "answer": 3,
+      "explanation": "强调用 do + 动词原形 appreciate，do 与 appreciate 之间不要加其他成分。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "It was my sister who broke the vase.",
+        "It was my sister who she broke the vase.",
+        "It was my sister who broke the vase, not me."
+      ],
+      "answer": 1,
+      "explanation": "分裂句中 who 后面直接接动词 broke，不能再加 she。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I did enjoy the film a lot.",
+        "I did enjoyed the film a lot.",
+        "Honest though he was, he made mistakes."
+      ],
+      "answer": 1,
+      "explanation": "did 之后的动词要用原形 enjoy，不能用 enjoyed。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "She ___ apologise to him, even though she was angry.",
+      "translation": "尽管她当时很生气，她还是确实向他道了歉。",
+      "options": ["did", "does", "doing", "to"],
+      "answer": 0,
+      "explanation": "句子是过去时，强调肯定用助动词 did 加动词原形 apologise；does、doing、to 都不符合。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["It", "was", "the", "rain", "that", "stopped", "our", "picnic."],
+      "alternatives": [],
+      "translation": "是雨毁了我们的野餐。",
+      "explanation": "分裂句结构：It was + 强调成分 + that + 句子的其余部分。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["What", "she", "needs", "is", "a", "good", "night's", "sleep."],
+      "alternatives": [],
+      "translation": "她需要的是一个好好的睡眠。",
+      "explanation": "What 从句作主语，is 之后接名词短语 a good night's sleep。"
+    }
+  ]
+}

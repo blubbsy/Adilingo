@@ -1,0 +1,137 @@
+{
+  "id": "e4-noun-clauses",
+  "cefr": 4,
+  "title": "Noun clauses · 名词性从句",
+  "tag": "that/wh-/if",
+  "pattern": "that + clause  ·  wh-word + clause  ·  if / whether + clause  ·  (间接问句用陈述语序)",
+  "summary": "名词性从句相当于一个名词，可以做主语、宾语或表语；间接问句要用陈述语序，不用疑问语序。",
+  "wikiId": "noun-clauses",
+  "explanation": [
+    "**名词性从句**在句中起名词的作用，可以做主语、宾语、表语或同位语。常见的引导词有三类：**that**（表示陈述，如 I think **that** he is right.）；**wh- 词**（what、where、when、how、who 等，如 What she said surprised me.）；**if / whether**（表示“是否”，如 I don't know **whether** she will come.）。",
+    "**做宾语时**，that 可以省略：I think (that) he will pass the exam.（我觉得他会通过考试。）但做主语、表语时 that 通常不能省略：The problem is **that** we have no money.（问题在于我们没有钱。）",
+    "**间接问句的语序是陈述语序，不是疑问语序。** 中文没有语序的变化，所以学习者常会写成 I don't know where is the bank.，正确的是 I don't know where the bank **is**.（我不知道银行在哪里。）如果直接问句是 Where is the bank?，嵌入句子中就要把 is 放到主语 the bank 后面。助动词也是如此：Do you know where she **lives**?",
+    "**whether 和 if 的区别**：在主语从句、介词之后，以及 or not 之前，只能用 whether：It is not clear **whether** she will come **or not**.；在 know、ask、wonder 等动词后，两者都可以，但 whether 更正式。注意 if 从句中不要加 will：I wonder if he **will** come.",
+    "**时态呼应**：当主句是过去时（said、asked、knew），从句里的时态可以相应后移，如 He asked me what time the train **left**.（他问我火车几点开。）但如果说的是普遍事实，时态不必改变，如 She told me that water **boils** at 100 degrees.（她告诉我水在一百度沸腾。）"
+  ],
+  "mistakes": [
+    "✗ I don't know where is the bank. → ✓ I don't know where the bank is. 间接问句要用陈述语序，主语 the bank 放在动词 is 之前。",
+    "✗ Do you know where does she live? → ✓ Do you know where she lives? 不要在嵌入的疑问句里再用 does，助动词已被去掉，直接写 she lives。",
+    "✗ I wonder if will he come. → ✓ I wonder if he will come. 从句中仍然是陈述语序，助动词 will 放在主语 he 之后。",
+    "✗ I asked him if did he like the film. → ✓ I asked him if he liked the film. 间接引语中，if 从句不用疑问语序，过去时的 liked 也不能再用 did。"
+  ],
+  "examples": [
+    { "text": "What she said at the meeting surprised everyone.", "translation": "她在会上说的话让所有人都吃惊。", "note": "wh-从句做主语。" },
+    { "text": "I think (that) he will pass the exam.", "translation": "我觉得他会通过考试。", "note": "that 做宾语从句的引导词，可省略。" },
+    { "text": "Nobody knows where the money went.", "translation": "没人知道钱去了哪里。" },
+    { "text": "Could you tell me how much this costs?", "translation": "你能告诉我这个多少钱吗？" },
+    { "text": "The question is whether we can afford a new car.", "translation": "问题是我们是否买得起一辆新车。", "note": "whether 做表语从句。" },
+    { "text": "He asked me what time the train left.", "translation": "他问我火车几点开。", "note": "主句是过去时，从句时态后移。" },
+    { "text": "It is not clear whether she will come or not.", "translation": "她是否会来还不清楚。", "note": "or not 之前只能用 whether。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I don't know ___.",
+      "translation": "我不知道图书馆在哪里。",
+      "options": ["where is the library", "where does the library", "where the library is", "is where the library"],
+      "answer": 2,
+      "explanation": "间接问句用陈述语序：where the library is。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "She asked me ___ I could help her with the form.",
+      "translation": "她问我能不能帮她填表。",
+      "options": ["that", "which", "whether", "what time"],
+      "answer": 2,
+      "explanation": "“是否”的意思用 whether 引导从句。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Nobody knows ___.",
+      "translation": "没人知道钱去了哪里。",
+      "options": ["where the money went", "where did the money go", "the money went where", "where the money go"],
+      "answer": 0,
+      "explanation": "wh- 从句内部用陈述语序，went 保持原形式。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "你知道他是什么时候来的吗？",
+      "options": [
+        "Do you know when did he come?",
+        "Do you know when came he?",
+        "Do you know when he came?",
+        "Do you know when he comes?"
+      ],
+      "answer": 2,
+      "explanation": "间接问句用陈述语序 when he came，过去的时间用过去时。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我想知道这个包多少钱。",
+      "options": [
+        "I would like to know how much this bag costs.",
+        "I would like to know how much does this bag cost.",
+        "I would like to know how much costs this bag.",
+        "I would like to know how much this bag cost."
+      ],
+      "answer": 0,
+      "explanation": "how much 从句用陈述语序 this bag costs，不用 does。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们是否能按时完成任务还不确定。",
+      "options": [
+        "It is not certain if can we finish the task on time.",
+        "It is not certain that can we finish the task on time.",
+        "It is not certain what we can finish the task on time.",
+        "It is not certain whether we can finish the task on time."
+      ],
+      "answer": 3,
+      "explanation": "表示“是否”的主语从句用 whether，后面保持陈述语序。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I wonder whether she will accept the offer.",
+        "I wonder whether will she accept the offer.",
+        "I wonder if she will accept the offer."
+      ],
+      "answer": 1,
+      "explanation": "从句中应使用陈述语序，应写成 whether she will accept。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Please tell me what you want for dinner.",
+        "Could you tell me where the station is?",
+        "She asked me where did I put the keys."
+      ],
+      "answer": 2,
+      "explanation": "间接问句不能用 did 加主语的疑问语序，应写成 where I put the keys。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Can", "you", "tell", "me", "where", "the", "nearest", "bank", "is?"],
+      "alternatives": [],
+      "translation": "你能告诉我最近的银行在哪里吗？",
+      "explanation": "tell me 后面接 where 引导的间接问句，使用陈述语序 the nearest bank is。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["What", "he", "wanted", "to", "know", "was", "whether", "we", "had", "already", "paid."],
+      "alternatives": [],
+      "translation": "他想知道的是我们是否已经付款了。",
+      "explanation": "What 从句作主语，was 后面是表语 whether 从句，从句用陈述语序。"
+    }
+  ]
+}

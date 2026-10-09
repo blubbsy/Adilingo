@@ -1,5 +1,5 @@
-import { Award, BarChart3, BookMarked, BookOpen, BookOpenCheck, Home, Layers, Zap, type LucideIcon } from 'lucide-react';
-import { getCourseConfig, type CourseId, type ViewId } from '../data/courses';
+import { Award, BarChart3, BookMarked, BookOpenCheck, Home, Layers, Zap, type LucideIcon } from 'lucide-react';
+import { SECONDARY_VIEWS, getCourseConfig, type CourseId, type ViewId } from '../data/courses';
 import { t, type UiLanguage } from '../i18n';
 
 export interface NavItem {
@@ -14,7 +14,6 @@ export interface NavItem {
 const ICONS: Record<ViewId, LucideIcon> = {
   home: Home,
   learn: BookOpenCheck,
-  grammar: BookOpen,
   irregular: Zap,
   topics: Layers,
   dictionary: BookMarked,
@@ -22,14 +21,13 @@ const ICONS: Record<ViewId, LucideIcon> = {
   achievements: Award,
 };
 
-function label(view: ViewId, track: 'chinese' | 'english', lang: UiLanguage): string {
+/** Both language courses call the learning screen "Paths & Grammar"; courses without grammar just "Paths". */
+function label(view: ViewId, grammar: boolean, lang: UiLanguage): string {
   switch (view) {
     case 'home':
       return t('nav.dashboard', lang);
     case 'learn':
-      return track === 'english' ? t('nav.paths', lang) : t('nav.learn', lang);
-    case 'grammar':
-      return t('nav.grammar', lang);
+      return grammar ? t('nav.learn', lang) : t('nav.paths', lang);
     case 'irregular':
       return t('nav.irregular', lang);
     case 'topics':
@@ -43,14 +41,12 @@ function label(view: ViewId, track: 'chinese' | 'english', lang: UiLanguage): st
   }
 }
 
-function short(view: ViewId, track: 'chinese' | 'english', lang: UiLanguage): string {
+function short(view: ViewId, grammar: boolean, lang: UiLanguage): string {
   switch (view) {
     case 'home':
       return t('nav.short.home', lang);
     case 'learn':
-      return track === 'english' ? t('nav.short.paths', lang) : t('nav.short.learn', lang);
-    case 'grammar':
-      return t('nav.short.grammar', lang);
+      return grammar ? t('nav.short.learn', lang) : t('nav.short.paths', lang);
     case 'irregular':
       return t('nav.short.irregular', lang);
     case 'topics':
@@ -65,8 +61,10 @@ function short(view: ViewId, track: 'chinese' | 'english', lang: UiLanguage): st
 }
 
 function build(views: ViewId[], courseId: CourseId | undefined, lang: UiLanguage): NavItem[] {
-  const { track } = getCourseConfig(courseId);
-  return views.map((id) => ({ id, label: label(id, track, lang), short: short(id, track, lang), icon: ICONS[id] }));
+  const { features } = getCourseConfig(courseId);
+  return views
+    .filter((id) => !SECONDARY_VIEWS.includes(id))
+    .map((id) => ({ id, label: label(id, features.grammar, lang), short: short(id, features.grammar, lang), icon: ICONS[id] }));
 }
 
 /** Navigation for the sidebar / top bar, derived from the views the course declares. */

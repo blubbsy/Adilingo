@@ -1,0 +1,120 @@
+{
+  "id": "e3-present-perfect-vs-past-simple",
+  "cefr": 3,
+  "title": "Present perfect vs past simple · 现在完成时与一般过去时",
+  "tag": "have + V3",
+  "pattern": "Subject + have/has + Past participle  ·  Subject + Past simple (finished time)",
+  "summary": "现在完成时连接过去与现在：经历、持续到现在用 have + V3；有明确的已结束时间点时用一般过去时。",
+  "explanation": [
+    "英语的**一般过去时**（V2）描述已经结束的动作，常常带有明确的过去时间：I **visited** Paris in 2019.（2019 年去过巴黎，这件事已经结束）。",
+    "**现在完成时** have/has + V3 连接过去和现在，主要用于三种情况：经历（I **have seen** that film.）、从过去持续到现在的状态（I **have lived** here for ten years. 现在仍住在这里）、刚刚发生的事（She **has just arrived**.）。它关心的是“到现在为止的情况”，而不是某个具体的时间点。",
+    "判断的关键是**时间状语**。for（一段时间）和 since（起始时间点）要与现在完成时搭配：We **have known** each other **since** 2015. 而 yesterday、last week、in 2010、two hours ago 这类已经结束的时间，必须用一般过去时：I **saw** him yesterday. 不能说 I **have seen** him yesterday.",
+    "中文说“我去过北京”和“我去了北京”时都可以不加时间词，英语却要区分。问题 Have you ever ...? 和陈述句中的 ever、never、already、yet、just 通常用现在完成时；而询问具体过去事件的 When did you ...? 则用一般过去时。",
+    "否定句中 yet 通常与 haven't 连用，表示“还没有”：I **haven't finished** the book **yet**. 在中文里很自然的“还没做完”，在英语中要用现在完成时，而不是 didn't。"
+  ],
+  "mistakes": [
+    "✗ I have seen him yesterday. → ✓ I saw him yesterday. yesterday 指向已经结束的时间，要用一般过去时。",
+    "✗ I lived here for ten years, and I still live here. → ✓ I have lived here for ten years. 仍然住在这里、强调持续到现在时，要用 have lived。",
+    "✗ Did you ever eat sushi? → ✓ Have you ever eaten sushi? 问“有没有过某种经历”时，用现在完成时，动词用过去分词 eaten。",
+    "✗ I am living here since 2018. → ✓ I have lived here since 2018. 中文的“从2018年起一直住在这里”要用 have lived，since 不能与现在进行时搭配。"
+  ],
+  "examples": [
+    { "text": "I have visited London twice.", "translation": "我去过伦敦两次。", "note": "经历：到现在为止去过两次，没有说明具体时间。" },
+    { "text": "She has worked at this hospital since 2015.", "translation": "她从2015年起就在这家医院工作，现在仍然在那里。", "note": "since 后接起始时间点，动作持续到现在。" },
+    { "text": "I bought this bag last week.", "translation": "我上周买了这个包。", "note": "last week 是已经结束的时间，用一般过去时。" },
+    { "text": "Have you ever tried Sichuan food?", "translation": "你吃过四川菜吗？" },
+    { "text": "He has just finished his report.", "translation": "他刚刚写完了报告。", "note": "just 表示刚发生的事，通常用现在完成时。" },
+    { "text": "I haven't finished the book yet.", "translation": "我还没有读完这本书。", "note": "否定句中 yet 与 haven't 连用。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的时态。",
+      "sentence": "I ___ this book since last Monday.",
+      "translation": "从上周一开始我就一直在读这本书。",
+      "options": ["read", "have read", "was reading", "am reading"],
+      "answer": 1,
+      "explanation": "since 后接起始时间点，且动作持续到现在，应使用现在完成时 have read。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的时态。",
+      "sentence": "We ___ dinner at seven o'clock last night.",
+      "translation": "昨晚七点我们吃了晚饭。",
+      "options": ["have had", "had", "have", "are having"],
+      "answer": 1,
+      "explanation": "last night 是已经结束的时间，用一般过去时 had。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我昨天在图书馆学习了两个小时。",
+      "options": [
+        "I have studied at the library for two hours yesterday.",
+        "I studied at the library for two hours yesterday.",
+        "I have studied at the library yesterday for two hours.",
+        "I am studying at the library for two hours yesterday."
+      ],
+      "answer": 1,
+      "explanation": "yesterday 表示已经结束的时间，不能与现在完成时搭配，应使用 studied。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Jack has gone to the shop.",
+        "Jack has gone to the shop an hour ago.",
+        "Jack went to the shop an hour ago."
+      ],
+      "answer": 1,
+      "explanation": "an hour ago 是具体的过去时间，应改为 Jack went to the shop an hour ago。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的时态。",
+      "sentence": "The train ___ at 6:15 yesterday.",
+      "translation": "昨天六点十五分火车到站了。",
+      "options": ["arrives", "is arriving", "has arrived", "arrived"],
+      "answer": 3,
+      "explanation": "yesterday 加上具体时间点，要用一般过去时 arrived。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们已经认识五年了。",
+      "options": [
+        "We have known each other for five years.",
+        "We knew each other for five years.",
+        "We have known each other five years ago.",
+        "We are knowing each other for five years."
+      ],
+      "answer": 0,
+      "explanation": "“已经认识五年”表示持续到现在，用现在完成时 have known；know 是状态动词，不用进行时。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Have", "you", "ever", "eaten", "sushi?"],
+      "alternatives": [],
+      "translation": "你吃过寿司吗？",
+      "explanation": "询问经历时的结构：Have + 主语 + ever + 过去分词。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的时态。",
+      "sentence": "He ___ to Italy in 2020.",
+      "translation": "他2020年去过意大利。",
+      "options": ["has gone", "is going", "has been", "went"],
+      "answer": 3,
+      "explanation": "in 2020 是一个具体的过去年份，用一般过去时 went。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["I", "haven't", "finished", "the", "book", "yet."],
+      "alternatives": [],
+      "translation": "我还没有读完这本书。",
+      "explanation": "否定句使用 haven't + 过去分词，yet 放在句末。"
+    }
+  ]
+}

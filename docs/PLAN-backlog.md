@@ -18,7 +18,8 @@ Backlog:
 > (e-motor, power electronics, mechanical, medicine, football, Pilates), each in a Chinese-terms and an English-terms course, catalogue modal,
 > `speakAs`/definition support, tier badges. Schema stays v3 (no migration was needed). Topic packs: 18 Chinese packs (4,000 words) and
 > 29 English topics (5,200 words). **Content is machine-drafted and still needs subject-matter review**; learning paths for specialty
-> courses (E5) and the `vocabForCurriculum` `en-` fallback cleanup remain open.
+> courses (E5) and the `vocabForCurriculum` `en-` fallback cleanup are done now: specialty courses have tier/topic paths, the `en-` hack is replaced by `effectiveCurriculum`.
+> Both language courses share one "Paths & Grammar" screen (Paths | Grammar | Wiki); the English course has 74 trainable grammar lessons (`src/data/grammarEn`, format in `content/README.md` §5) and 7 themed paths (voice, tenses, adverbs …).
 
 ## 0. What the code looks like today (findings that shape the plan)
 

@@ -1,0 +1,132 @@
+{
+  "id": "e5-participle-absolute",
+  "cefr": 5,
+  "title": "Participle & absolute constructions · 分词与独立主格",
+  "tag": "Participles",
+  "pattern": "Having + V3, subject + verb  ·  Noun + participle, subject + verb  ·  With + noun + participle / adjective",
+  "summary": "用分词短语和独立主格代替从句，使句子紧凑、正式；分词的逻辑主语必须是主句主语。",
+  "wikiId": "gerunds-and-participles",
+  "explanation": [
+    "分词短语可以代替状语从句，使书面语更紧凑。现在分词（V-ing）表示主动或同时进行，过去分词（V3）表示被动或已经完成。中文通常用“因为……”“随着……”“在……的时候”来表达，英语则用分词结构：**Walking** along the river, we saw a heron.（我们沿着河边走时，看到一只苍鹭。）",
+    "表示动作先于主句发生，常用 **Having + V3**：**Having finished** her homework, she turned on the TV.（写完作业后，她打开了电视。）如果分词是被动的，要写成 Having been + V3，如 Having been warned twice, he stopped smoking.。注意：分词短语的逻辑主语必须与主句主语一致，否则会出现“悬垂分词”错误。",
+    "**独立主格**是“名词或代词 + 分词”的结构，它的主语与主句主语不同，两者在语法上没有直接联系，相当于一个完整的伴随状况：**The weather permitting**, we will go hiking on Sunday.（如果天气允许，我们周日去徒步。）**The meeting over**, the managers returned to their offices.。这种结构在正式英语中很常见，中文往往用“如果……”“……之后”来表达。",
+    "**with + 名词 + 分词/形容词/介词短语**也表示伴随状况：She sat by the window **with her eyes closed**.（她闭着眼睛坐在窗边。）With the sun **shining**, we went for a walk.。当宾语与分词之间是主动关系用 -ing，是被动或状态关系用 V3 或形容词。",
+    "使用分词结构时要特别注意：不要把分词短语放在一个无法与之搭配的主语旁边，例如 Walking home, the rain started to fall. 的意思会变成“雨在走路”。中文句子常常省略主语，英语则必须明确分词所指的人或物。"
+  ],
+  "mistakes": [
+    "✗ Walking home, the rain started to fall. → ✓ Walking home, we got caught in the rain. 分词的逻辑主语必须是主句主语，不能是 the rain。",
+    "✗ Having been finished the work, we left. → ✓ The work having been finished, we left. 独立主格中要用 The work + having been + V3，而不是 Having been finished。",
+    "✗ With the window broke, we felt cold. → ✓ With the window broken, we felt cold. 表示状态时用过去分词 broken，不能用过去式 broke。"
+  ],
+  "examples": [
+    { "text": "Having finished her homework, she turned on the TV.", "translation": "写完作业后，她打开了电视。" },
+    { "text": "Walking along the beach, we noticed a strange shell.", "translation": "沿着海滩散步时，我们注意到一个奇怪的贝壳。" },
+    { "text": "The exam having been postponed, we had an extra week to revise.", "translation": "考试被推迟了，我们多了一周复习时间。", "note": "独立主格的完成被动式。" },
+    { "text": "Weather permitting, the match will go ahead as planned.", "translation": "如果天气允许，比赛将按计划进行。" },
+    { "text": "The meeting over, the managers returned to their offices.", "translation": "会议结束后，经理们回到了各自的办公室。" },
+    { "text": "She sat by the window with her eyes closed.", "translation": "她闭着眼睛坐在窗边。", "note": "with + 名词 + 过去分词，表示状态。" },
+    { "text": "Written in a hurry, the letter contained several mistakes.", "translation": "这封信写得匆忙，有几处错误。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的分词形式。",
+      "sentence": "___ the report, she sent it to the director.",
+      "translation": "写完报告后，她把它发给了主任。",
+      "options": ["Having finish", "Having finished", "Finish", "To finish"],
+      "answer": 1,
+      "explanation": "Having finished 表示动作先于主句发生，是正确的完成式分词。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的分词形式。",
+      "sentence": "___ by heavy rain, the match was postponed.",
+      "translation": "由于大雨，比赛被推迟了。",
+      "options": ["Delayed", "Delaying", "To delay", "Having delayed"],
+      "answer": 0,
+      "explanation": "比赛是被推迟的，因此用过去分词 Delayed。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的分词形式。",
+      "sentence": "She waited by the door, ___ at the clock every minute.",
+      "translation": "她站在门边，每分钟都看一次钟。",
+      "options": ["look", "looked", "looking", "to look"],
+      "answer": 2,
+      "explanation": "表示伴随的同时动作，用现在分词 looking。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "With the sun ___, we went for a walk.",
+      "translation": "阳光灿烂，我们出去散步了。",
+      "options": ["shine", "shining", "to shine", "shone"],
+      "answer": 1,
+      "explanation": "with + 名词 + 现在分词 shining，表示“阳光照耀着”的伴随状况。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "考试结束后，学生们陆续离开了教室。",
+      "options": [
+        "The exam finished, the students leaves the classroom one by one.",
+        "The exam over, the students leaves the classroom one by one.",
+        "The exam over, the students left the classroom one by one.",
+        "Exam over the students leave the classroom one by one."
+      ],
+      "answer": 2,
+      "explanation": "独立主格 The exam over 之后，主句的主语 the students 用复数，谓语 left 用过去时。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他闭着眼睛躺在沙发上。",
+      "options": [
+        "He lay on the sofa, with his eyes to close.",
+        "He lay on the sofa with his eyes close.",
+        "He lay on the sofa with his eyes closed.",
+        "He lay on the sofa with his eyes closes."
+      ],
+      "answer": 2,
+      "explanation": "with + 名词 + 过去分词 closed，表示“眼睛是闭着的”。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Having read the book, I could answer all the questions.",
+        "Walking home, the rain started to fall.",
+        "The work being finished, we went out for dinner."
+      ],
+      "answer": 1,
+      "explanation": "Walking home 的逻辑主语是 the rain，这是悬垂分词错误，应改为 we 作主语。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "With the window broke, we felt cold.",
+        "With the window closed, we felt cold.",
+        "Having been warned twice, he stopped smoking."
+      ],
+      "answer": 0,
+      "explanation": "表示状态的分词要用过去分词 broken，不能用过去式 broke。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Having", "finished", "her", "lunch,", "Anna", "went", "back", "to", "work."],
+      "alternatives": [],
+      "translation": "吃完午饭后，安娜回去工作了。",
+      "explanation": "Having + V3 作时间状语，主语 Anna 与分词的逻辑主语一致。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "weather", "permitting,", "we", "will", "go", "hiking", "on", "Sunday."],
+      "alternatives": [],
+      "translation": "如果天气允许，我们周日去徒步。",
+      "explanation": "独立主格 The weather permitting 放在句首，后面接主句。"
+    }
+  ]
+}

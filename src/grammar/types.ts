@@ -1,10 +1,15 @@
-import type { HskLevel } from '../types';
+import type { HskLevel, TrackId } from '../types';
 
 // ---------- Grammar content ----------
 
+/**
+ * A sentence of the studied language. Chinese: `hanzi` + `pinyin` + English translation in `english`.
+ * English (track `english`): `hanzi` holds the English sentence, `pinyin` is empty and `english` holds the Chinese translation
+ * (the same reuse of the word fields as in the English vocabulary).
+ */
 export interface GrammarExample {
   hanzi: string;
-  /** Marked pinyin (tone marks), word-segmented. */
+  /** Marked pinyin (tone marks), word-segmented. Empty for English lessons. */
   pinyin: string;
   english: string;
   note?: string;
@@ -62,7 +67,12 @@ export type ExerciseType = GrammarExercise['type'];
 
 export interface GrammarPoint {
   id: string;
+  /** Language track the lesson teaches; decides fonts, pinyin and speech. */
+  track: TrackId;
+  /** HSK level (Chinese) or CEFR band 1–6 (English). */
   hskLevel: HskLevel;
+  /** English lessons: the wiki article this lesson practises. */
+  wikiId?: string;
   title: string;
   /** Short Chinese label, e.g. "是". */
   titleHanzi?: string;

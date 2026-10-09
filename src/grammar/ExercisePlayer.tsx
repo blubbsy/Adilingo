@@ -47,11 +47,11 @@ function orderIsCorrect(ex: OrderExercise, picked: string[]): boolean {
   return accepted.some((a) => a.length === picked.length && a.every((t, i) => t === picked[i]));
 }
 
-/** Chinese text worth reading aloud after answering. */
-function speakableAnswer(ex: GrammarExercise): string | null {
+/** Text of the studied language worth reading aloud after answering. */
+function speakableAnswer(ex: GrammarExercise, joiner: string): string | null {
   switch (ex.type) {
     case 'order':
-      return ex.tokens.join('');
+      return ex.tokens.join(joiner);
     case 'choice':
       return ex.sentence.includes('___') && ex.sentence !== '___'
         ? ex.sentence.replace('___', ex.options[ex.answer])
@@ -66,6 +66,7 @@ function speakableAnswer(ex: GrammarExercise): string | null {
 export function ExercisePlayer({ point, speech, onFinish, onExit }: Props) {
   const { t } = useI18n();
   const exercises = point.exercises;
+  const english = point.track === 'english';
   const [run, setRun] = useState(0);
   const [idx, setIdx] = useState(0);
   const [phase, setPhase] = useState<Phase>(exercises.length ? 'answering' : 'done');
@@ -203,7 +204,7 @@ export function ExercisePlayer({ point, speech, onFinish, onExit }: Props) {
     );
   }
 
-  const speakText = phase === 'feedback' ? speakableAnswer(ex) : null;
+  const speakText = phase === 'feedback' ? speakableAnswer(ex, english ? ' ' : '') : null;
 
   return (
     <section className={`${card} p-4 sm:p-6`} aria-label={t('grammar.exercise.practiceAria', { title: point.title })}>
@@ -227,12 +228,13 @@ export function ExercisePlayer({ point, speech, onFinish, onExit }: Props) {
           bank={orderTokens}
           picked={picked}
           locked={phase !== 'answering'}
+          english={english}
           onPick={pickToken}
           onRemove={(pos) => setPicked((p) => p.filter((_, i) => i !== pos))}
           onClear={() => setPicked([])}
         />
       ) : (
-        <OptionBody ex={ex} perm={perm} selected={selected} phase={phase} onSelect={setSelected} />
+        <OptionBody ex={ex} perm={perm} selected={selected} phase={phase} english={english} onSelect={setSelected} />
       )}
 
       {phase === 'answering' ? (
@@ -261,8 +263,8 @@ export function ExercisePlayer({ point, speech, onFinish, onExit }: Props) {
           </p>
           {ex.type === 'order' && (
             <div className="mt-2 text-slate-800 dark:text-slate-200">
-              <p lang="zh-CN" className="font-hanzi text-lg">
-                {ex.tokens.join('')}
+              <p lang={english ? 'en' : 'zh-CN'} className={english ? 'text-lg' : 'font-hanzi text-lg'}>
+                {ex.tokens.join(english ? ' ' : '')}
               </p>
               {ex.pinyin && <p className="text-sm text-slate-500 dark:text-slate-400">{ex.pinyin}</p>}
             </div>
@@ -270,7 +272,7 @@ export function ExercisePlayer({ point, speech, onFinish, onExit }: Props) {
           {ex.type !== 'order' && !lastCorrect && (
             <p className="mt-2 text-sm text-slate-700 dark:text-slate-300">
               {ex.type === 'error' ? t('grammar.exercise.wrongSentence') : t('grammar.exercise.answer')}{' '}
-              <span className={ex.type === 'translate' && ex.optionScript === 'pinyin' ? 'font-medium' : 'font-hanzi text-base font-medium'}>
+              <span className={english || (ex.type === 'translate' && ex.optionScript === 'pinyin') ? 'font-medium' : 'font-hanzi text-base font-medium'}>
                 <Zh text={ex.options[ex.answer]} />
               </span>
             </p>
@@ -302,12 +304,14 @@ function OptionBody({
   perm,
   selected,
   phase,
+  english,
   onSelect,
 }: {
   ex: OptionExercise;
   perm: number[];
   selected: number | null;
   phase: Phase;
+  english: boolean;
   onSelect: (i: number) => void;
 }) {
   const { t } = useI18n();
@@ -315,12 +319,14 @@ function OptionBody({
   const sentenceMode = ex.type === 'error' || (ex.type === 'translate' && ex.optionScript === 'hanzi');
   const pinyinOpts = ex.type === 'translate' && ex.optionScript === 'pinyin';
   const filled = selected !== null ? ex.options[perm[selected]] : null;
+  const script = english ? 'text-lg' : 'font-hanzi text-lg';
+  const scriptLang = english ? 'en' : 'zh-CN';
 
   return (
     <div>
       {ex.type === 'choice' && ex.sentence !== '___' && (
         <div className="mb-4 rounded-xl bg-slate-50 px-4 py-3 dark:bg-slate-800/60">
-          <p lang="zh-CN" className="font-hanzi text-2xl leading-relaxed text-slate-900 dark:text-slate-100">
+          <p lang={scriptLang} className={`${english ? 'text-xl' : 'font-hanzi text-2xl'} leading-relaxed text-slate-900 dark:text-slate-100`}>
             {ex.sentence.split('___').map((part, i, arr) => (
               <span key={i}>
                 {part}
@@ -336,14 +342,14 @@ function OptionBody({
               </span>
             ))}
           </p>
-          {ex.english && <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{ex.english}</p>}
+          {ex.english && <p lang={english ? 'zh-CN' : undefined} className="mt-1 text-sm text-slate-500 dark:text-slate-400">{ex.english}</p>}
         </div>
       )}
       {ex.type === 'choice' && ex.sentence === '___' && ex.english && (
         <p className="mb-4 text-sm text-slate-500 dark:text-slate-400">{ex.english}</p>
       )}
       {ex.type === 'translate' && (
-        <p className="mb-4 rounded-xl bg-slate-50 px-4 py-3 text-lg font-medium text-slate-900 dark:bg-slate-800/60 dark:text-slate-100">
+        <p lang={english ? 'zh-CN' : undefined} className="mb-4 rounded-xl bg-slate-50 px-4 py-3 text-lg font-medium text-slate-900 dark:bg-slate-800/60 dark:text-slate-100">
           “{ex.english}”
         </p>
       )}
@@ -380,7 +386,7 @@ function OptionBody({
                   <span className="absolute top-1.5 left-2 rounded bg-slate-100 px-1.5 py-0.2 text-[10px] font-semibold text-slate-500 group-hover:bg-rose-100 group-hover:text-rose-700 dark:bg-slate-750 dark:text-slate-400" aria-hidden>
                     {i + 1}
                   </span>
-                  <span className="mt-1 font-hanzi text-lg" lang="zh-CN">
+                  <span className={`mt-1 ${script}`} lang={scriptLang}>
                     {ex.options[orig]}
                   </span>
                 </button>
@@ -416,7 +422,7 @@ function OptionBody({
                 <kbd className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md border border-slate-300 text-xs dark:border-slate-600 font-medium opacity-60" aria-hidden>
                   {i + 1}
                 </kbd>
-                <span className={pinyinOpts ? 'text-base' : 'font-hanzi text-lg'} lang={pinyinOpts ? undefined : 'zh-CN'}>
+                <span className={pinyinOpts ? 'text-base' : script} lang={pinyinOpts ? undefined : scriptLang}>
                   {ex.options[orig]}
                 </span>
               </button>
@@ -433,6 +439,7 @@ function OrderBody({
   bank,
   picked,
   locked,
+  english,
   onPick,
   onRemove,
   onClear,
@@ -441,14 +448,17 @@ function OrderBody({
   bank: string[];
   picked: number[];
   locked: boolean;
+  english: boolean;
   onPick: (bankIndex: number) => void;
   onRemove: (position: number) => void;
   onClear: () => void;
 }) {
   const { t } = useI18n();
+  const script = english ? 'text-lg' : 'font-hanzi text-lg';
+  const scriptLang = english ? 'en' : 'zh-CN';
   return (
     <div>
-      <p className="mb-3 rounded-xl bg-slate-50 px-4 py-3 text-base font-medium text-slate-900 dark:bg-slate-800/60 dark:text-slate-100">
+      <p lang={english ? 'zh-CN' : undefined} className="mb-3 rounded-xl bg-slate-50 px-4 py-3 text-base font-medium text-slate-900 dark:bg-slate-800/60 dark:text-slate-100">
         “{ex.english}”
       </p>
       <div
@@ -465,8 +475,8 @@ function OrderBody({
             disabled={locked}
             onClick={() => onRemove(pos)}
             aria-label={t('grammar.exercise.remove', { word: bank[b] })}
-            className={`animate-pop rounded-lg bg-rose-600 px-3 py-1.5 font-hanzi text-lg text-white disabled:bg-slate-600 dark:disabled:bg-slate-700 ${focusRing}`}
-            lang="zh-CN"
+            className={`animate-pop rounded-lg bg-rose-600 px-3 py-1.5 ${script} text-white disabled:bg-slate-600 dark:disabled:bg-slate-700 ${focusRing}`}
+            lang={scriptLang}
           >
             {bank[b]}
           </button>
@@ -487,12 +497,12 @@ function OrderBody({
               disabled={locked || used}
               onClick={() => onPick(i)}
               aria-label={t('grammar.exercise.wordKey', { word: token, n: i + 1 })}
-              className={`relative rounded-lg border px-3 py-1.5 font-hanzi text-lg transition ${
+              className={`relative rounded-lg border px-3 py-1.5 ${script} transition ${
                 used
                   ? 'border-dashed border-slate-200 text-transparent dark:border-slate-700'
                   : 'border-slate-200 bg-white text-slate-800 hover:border-rose-300 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100'
               } ${focusRing}`}
-              lang="zh-CN"
+              lang={scriptLang}
             >
               {token}
               {!used && !locked && i < 9 && (

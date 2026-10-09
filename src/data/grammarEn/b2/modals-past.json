@@ -1,0 +1,137 @@
+{
+  "id": "e4-modals-past",
+  "cefr": 4,
+  "title": "Modal verbs + have + past participle · 情态动词的过去形式",
+  "tag": "modal + V3",
+  "pattern": "should / could / might / must / can't / needn't + have + past participle",
+  "summary": "情态动词加 have + 过去分词，用来评价过去的事：后悔、可惜、推测或“其实没必要”。",
+  "wikiId": "modal-verbs-deduction",
+  "explanation": [
+    "**情态动词 + have + 过去分词** 用来谈论过去。它不表示“过去做了”，而是表示说话人对过去事情的态度或判断。例如 You **should have told** me.（你本该告诉我。）说的是没有做到的事，带有批评或遗憾的意味。",
+    "**should have / could have** 用来表达“本来应该 / 本来可以，但实际没有做”：I **could have taken** the earlier train.（我本来可以坐早一班的火车。）should have 带有后悔或责备，could have 则只是说“当时有这个可能”。",
+    "**might have / must have / can't have** 用来对过去的情况做推测。might have 表示“也许……”（He **might have forgotten** the meeting.）；must have 表示“一定……”（She **must have been** very tired.）；can't have 表示“不可能……”（They **can't have finished** so quickly.）。注意：表示肯定推测用 must have，can 只用于否定句和疑问句。",
+    "**needn't have + 过去分词** 表示“本来没必要做，却做了”：You **needn't have bought** such an expensive gift.（你没必要买这么贵的礼物。）对比 didn't need to buy，后者表示“没有去买”，前者则表示“买了，但没必要”，中文都可能译成“没必要”，所以要特别留意。",
+    "中文的“应该、可能、一定”没有时态区分，学习者常常直接把 should、might、must 后面接一般过去时。实际上，只要说的是过去的事，就要在情态动词后面加 have + 过去分词，这一点不能省略。"
+  ],
+  "mistakes": [
+    "✗ You should have went there. → ✓ You should have gone there. have 后面必须接过去分词 gone，不能用过去式 went。",
+    "✗ He might to have forgotten. → ✓ He might have forgotten. 情态动词后面不加 to，直接接 have + 过去分词。",
+    "✗ You needn't bought the tickets. → ✓ You needn't have bought the tickets. 表示“本没必要做却做了”，要用 needn't have + 过去分词。",
+    "✗ She can have been at home when I called. → ✓ She must have been at home when I called. 肯定的推测用 must have，can 通常只用于否定句或疑问句。"
+  ],
+  "examples": [
+    { "text": "You should have told me earlier.", "translation": "你早就该告诉我的。" },
+    { "text": "I should have listened to your advice.", "translation": "我当初应该听你的建议。" },
+    { "text": "We could have taken the earlier train, but we decided to walk.", "translation": "我们本来可以坐早一班火车，但我们决定走路。" },
+    { "text": "He might have forgotten the appointment.", "translation": "他可能忘了约会。" },
+    { "text": "She must have been very tired after the long flight.", "translation": "长途飞行后她一定很累。" },
+    { "text": "They can't have finished the project so quickly.", "translation": "他们不可能这么快就完成了项目。", "note": "can't have 表示对过去的否定推测。" },
+    { "text": "You needn't have bought such an expensive gift.", "translation": "你没必要买这么贵的礼物。", "note": "礼物已经买了，但并不需要。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The lights were off when I arrived, so they ___ home by then.",
+      "translation": "我到的时候灯是关着的，所以那时他们一定已经回家了。",
+      "options": ["should have went", "have must gone", "must have gone", "must gone"],
+      "answer": 2,
+      "explanation": "对过去情况的肯定推测用 must have + 过去分词 gone。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I ___ the train, but I decided to take the bus instead.",
+      "translation": "我本来可以坐火车，但我还是决定坐公交车。",
+      "options": ["should have to take", "could have taken", "could took", "must taken"],
+      "answer": 1,
+      "explanation": "表示过去本来有可能做到却没做，用 could have taken。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "You ___ so much money on this camera. It was cheap!",
+      "translation": "你没必要在这台相机上花这么多钱，它很便宜！",
+      "options": ["needn't spent", "needn't have spent", "mustn't spent", "needn't to spend"],
+      "answer": 1,
+      "explanation": "表示“本没必要却花了”，用 needn't have spent。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他可能没听到你的电话。",
+      "options": [
+        "He might not have heard your call.",
+        "He might not to hear your call.",
+        "He must not have heard your call.",
+        "He might not heard your call."
+      ],
+      "answer": 0,
+      "explanation": "“可能没有……”用 might not have + 过去分词；must not 表示“一定没有”，语气不同。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他一定很累，因为他一整天都在工作。",
+      "options": [
+        "He might be very tired because he is working all day.",
+        "He can have been very tired because he had been working all day.",
+        "He must have been very tired because he had been working all day.",
+        "He should have been very tired because he had been working all day."
+      ],
+      "answer": 2,
+      "explanation": "对过去的肯定推测用 must have been；should have been 表示“本该如此”，意思不同。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "你本该早点告诉我这件事。",
+      "options": [
+        "You should have telling me about this earlier.",
+        "You should have told me about this earlier.",
+        "You should tell me about this earlier.",
+        "You must have told me about this earlier."
+      ],
+      "answer": 1,
+      "explanation": "“本该做却没做”用 should have + 过去分词 told。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "She must have been at the meeting yesterday.",
+        "He must have knew the answer.",
+        "They might have missed the last train."
+      ],
+      "answer": 1,
+      "explanation": "have 后面要接过去分词 known，应写成 He must have known the answer。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "You needn't bought a ticket, because it was free.",
+        "You needn't have bought a ticket, because it was free.",
+        "You didn't need to buy a ticket, because it was free."
+      ],
+      "answer": 0,
+      "explanation": "needn't 后面要用 have + 过去分词，应写成 You needn't have bought a ticket。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["You", "should", "have", "asked", "for", "help", "earlier."],
+      "alternatives": [],
+      "translation": "你早就该请求帮助了。",
+      "explanation": "should have + 过去分词 asked，表示过去本该做却没做。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["They", "must", "have", "missed", "the", "bus", "because", "they", "left", "home", "late."],
+      "alternatives": [],
+      "translation": "他们一定是因为出门太晚而错过了公交车。",
+      "explanation": "must have missed 表示对过去的肯定推测，because 引出原因。"
+    }
+  ]
+}

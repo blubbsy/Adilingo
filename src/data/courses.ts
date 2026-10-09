@@ -6,8 +6,10 @@ import { DOMAINS, FAMILY_ICON, domainCourseId, domainName, getDomain, type Domai
 export type { CourseId, TrackId };
 
 /** Top-level screens (hash routes). `study` is a session and is always reachable. */
-export type ViewId = 'home' | 'learn' | 'grammar' | 'irregular' | 'topics' | 'dictionary' | 'insights' | 'achievements';
-export const ALL_VIEW_IDS: ViewId[] = ['home', 'learn', 'grammar', 'irregular', 'topics', 'dictionary', 'insights', 'achievements'];
+export type ViewId = 'home' | 'learn' | 'irregular' | 'topics' | 'dictionary' | 'insights' | 'achievements';
+export const ALL_VIEW_IDS: ViewId[] = ['home', 'learn', 'irregular', 'topics', 'dictionary', 'insights', 'achievements'];
+/** Screens reached from inside another screen (not listed in the navigation). */
+export const SECONDARY_VIEWS: ViewId[] = ['irregular'];
 
 export interface CourseLevelInfo {
   level: HskLevel;
@@ -76,6 +78,8 @@ export interface CourseConfig {
     topics: 'curated-packs' | 'item-topics';
     /** Level-estimation test (built on the language syllabus; not for specialty courses). */
     placement: boolean;
+    /** Grammar lessons and the grammar wiki next to the learning paths (language courses only). */
+    grammar: boolean;
   };
 }
 
@@ -150,6 +154,7 @@ export const COURSES: Record<CourseId, CourseConfig> = {
       radicals: true,
       topics: 'curated-packs',
       placement: true,
+      grammar: true,
     },
   },
   english: {
@@ -165,8 +170,8 @@ export const COURSES: Record<CourseId, CourseConfig> = {
     cardTitleKey: 'course.english.cardTitle',
     cardSubtitleKey: 'course.english.cardSubtitle',
     speechSample: 'Hello, welcome to English training!',
-    views: ['home', 'learn', 'grammar', 'irregular', 'topics', 'dictionary', 'insights', 'achievements'],
-    mobileViews: ['home', 'learn', 'grammar', 'irregular', 'dictionary'],
+    views: ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements', 'irregular'],
+    mobileViews: ['home', 'learn', 'topics', 'dictionary', 'insights'],
     name: 'English for Chinese Learners',
     nativeName: '英语 (CEFR / 四六级)',
     flag: '🇬🇧',
@@ -214,6 +219,7 @@ export const COURSES: Record<CourseId, CourseConfig> = {
       radicals: false,
       topics: 'item-topics',
       placement: true,
+      grammar: true,
     },
   },
 };
@@ -242,8 +248,8 @@ function specialtyCourse(domain: DomainInfo, track: TrackId): CourseConfig {
     switcherKey: `course.specialty.${t}.switcher`,
     cardTitleKey: `course.specialty.${t}.cardTitle`,
     cardSubtitleKey: `course.specialty.${t}.cardSubtitle`,
-    views: ['home', 'topics', 'dictionary', 'insights', 'achievements'],
-    mobileViews: ['home', 'topics', 'dictionary', 'insights'],
+    views: ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements'],
+    mobileViews: ['home', 'learn', 'topics', 'dictionary', 'insights'],
     name: domain.name.en,
     nativeName: domain.name.zh,
     defaultCurriculum: 'domain',
@@ -261,7 +267,7 @@ function specialtyCourse(domain: DomainInfo, track: TrackId): CourseConfig {
       ...base.labels,
       levelPrefix: 'Tier',
     },
-    features: { ...base.features, topics: 'item-topics', placement: false },
+    features: { ...base.features, topics: 'item-topics', placement: false, grammar: false },
   };
 }
 
@@ -287,6 +293,12 @@ export function courseVars(course: CourseConfig, lang: UiLanguage): MessageVars 
 /** Courses shown in the quick switchers (full language tracks, in display order). */
 export function languageCourses(): CourseConfig[] {
   return Object.values(COURSES).filter((c) => c.kind === 'language');
+}
+
+/** The stored curriculum if the course offers it, else the course's own default (e.g. a stale HSK setting in the English course). */
+export function effectiveCurriculum(courseId: CourseId | undefined, curriculum: Curriculum | undefined): Curriculum {
+  const course = getCourseConfig(courseId);
+  return curriculum && course.curricula.some((c) => c.id === curriculum) ? curriculum : course.defaultCurriculum;
 }
 
 /** The view to show when the requested one is not available in the course. */

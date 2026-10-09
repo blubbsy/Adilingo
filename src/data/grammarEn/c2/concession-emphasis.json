@@ -1,0 +1,140 @@
+{
+  "id": "e6-concession-emphasis",
+  "cefr": 6,
+  "title": "Concession and emphasis · 让步与强调（虽然……但是……）",
+  "tag": "concession",
+  "pattern": "Despite + Noun  ·  However + adj / adv + S + V  ·  No matter + wh-word + S + V",
+  "summary": "英语表达“虽然……但是……”时，不能像中文那样同时用两个连接词；要选用 despite、however、no matter how 等专门的让步结构。",
+  "explanation": [
+    "中文说“虽然下雨，但是我们还是去了”，习惯用“虽然……但是……”成对出现。英语中 although、though 与 but 不能同时使用：应该只保留其中一个，Although it was raining, we went out. 或 It was raining, but we went out.。这是中国学生最常见的问题之一。",
+    "**despite / in spite of** 后面接**名词、代词或动名词**，不接从句；如果要接从句，要用 despite the fact that…。例如 Despite the rain, we went out.，不要写成 Despite of the rain。更正式的说法还有 notwithstanding，常放在名词后或句末：The festival went ahead, notwithstanding the rain.",
+    "**however / no matter how / whatever** 用于让步时，要和形容词、副词或名词搭配。**However + 形容词/副词 + 主语 + 动词**表示“无论多么……”：However hard I tried, I could not finish on time.。No matter how 也是同样的意思；Whatever happens 则表示“无论发生什么”，后面接的是从句而不是形容词。",
+    "较为书面的让步结构包括 **Much as I admire her…**（尽管我很钦佩她……）、**Try as he might…**（无论他怎样努力……）、**Be that as it may…**（尽管如此，……），以及插入的 **albeit**（虽然），如 The plan, albeit imperfect, is the best we have.。这些表达都带有明显的书面色彩，适合论文、评论和正式信件，口语里一般用 although 或 even though 即可。",
+    "学习时要注意：让步结构强调的是“即使有某种障碍，结果仍然成立”，而不是单纯的对比。写作中，同一句里只需要一个让步标记，多用 despite、however 等固定结构，句子会更简洁、更有力。"
+  ],
+  "mistakes": [
+    "✗ Although it was raining, but we went out. → ✓ Although it was raining, we went out. 中文的“虽然……但是……”不能直译成两个连接词，只保留一个即可。",
+    "✗ Despite of the rain, we went out. → ✓ Despite the rain, we went out. despite 后面直接接名词，不加 of。",
+    "✗ However I tried hard, I failed. → ✓ However hard I tried, I failed. However 后面直接接形容词或副词，然后才是主语和动词。"
+  ],
+  "examples": [
+    { "text": "Be that as it may, we still have to finish the project by Friday.", "translation": "不管怎样，我们周五前仍得完成这个项目。", "note": "承接前文，表示“尽管如此”。" },
+    { "text": "Much as I admire her, I cannot agree with her conclusions.", "translation": "尽管我很钦佩她，我还是不能同意她的结论。", "note": "Much as + 从句，书面语。" },
+    { "text": "However hard I tried, I could not solve the puzzle.", "translation": "无论我怎么努力，都解不开这道题。", "note": "However + 副词 hard + 主语 + 动词。" },
+    { "text": "No matter how tired you are, please finish the report.", "translation": "无论你多累，请把报告写完。" },
+    { "text": "Whatever happens, I will support you.", "translation": "无论发生什么，我都会支持你。", "note": "whatever 引导让步从句。" },
+    { "text": "The plan, albeit imperfect, is the best we have.", "translation": "这个方案虽不完美，却是我们手头最好的。", "note": "albeit 插入语，非常正式。" },
+    { "text": "Notwithstanding the rain, the festival went ahead as planned.", "translation": "尽管下雨，庆典仍按计划举行。", "note": "notwithstanding + 名词。" },
+    { "text": "Try as she might, she could not remember his name.", "translation": "她怎么努力也想不起他的名字。", "note": "Try as + 主语 + might，相当于 however hard she tried。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "___ the weather, we decided to go hiking.",
+      "translation": "尽管天气不好，我们还是决定去徒步。",
+      "options": ["Although of", "Despite of", "Although", "Despite"],
+      "answer": 3,
+      "explanation": "despite 后接名词，不加 of，也不能与 although 连用。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "___ hard I tried, I could not finish the exam on time.",
+      "translation": "无论我怎么努力，都无法按时完成考试。",
+      "options": ["However", "Whatever", "No matter", "Ever"],
+      "answer": 0,
+      "explanation": "However + 副词 + 主语 + 动词，表示“无论多么”。Whatever 后不接形容词，No matter 后要接 how。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The project failed. ___, we learned a great deal from it.",
+      "translation": "项目失败了。不过，我们从中学到了很多。",
+      "options": ["Be that as it may", "Be as that it may", "Be it as that may", "Be as it may that"],
+      "answer": 0,
+      "explanation": "固定表达 Be that as it may 意为“尽管如此”，其他顺序都不对。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "___ as I admire her courage, I cannot agree with her decision.",
+      "translation": "尽管我很钦佩她的勇气，我还是无法同意她的决定。",
+      "options": ["Many", "Much", "Such", "Little"],
+      "answer": 1,
+      "explanation": "固定结构 Much as + 从句，表示“尽管……”。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "___ happens, please stay calm and wait for instructions.",
+      "translation": "无论发生什么，请保持冷静，等待指示。",
+      "options": ["However", "Wherever", "Whichever", "Whatever"],
+      "answer": 3,
+      "explanation": "Whatever happens 表示“无论发生什么”。Whichever 指从几个选项中选择，Wherever 指地点，However 后不能直接跟动词。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "The plan, ___ imperfect, is still the best option we have.",
+      "translation": "这个方案虽不完美，却仍是我们最好的选择。",
+      "options": ["despite", "whereas", "unless", "albeit"],
+      "answer": 3,
+      "explanation": "albeit 可以接形容词作插入语，表示“虽然”。其他选项在此处都不合语法。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "尽管下着大雨，比赛还是照常进行。",
+      "options": [
+        "Despite of the heavy rain, the match went ahead.",
+        "Despite the heavy rain, the match went ahead.",
+        "Although the heavy rain, the match went ahead.",
+        "Even the heavy rain, the match went ahead."
+      ],
+      "answer": 1,
+      "explanation": "despite 直接接名词 the heavy rain，不加 of。Although 后需要完整的从句。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他怎么努力也想不起她的名字。",
+      "options": [
+        "Try as he might, he could not remember her name.",
+        "Try he as might, he could not remember her name.",
+        "Trying as he might, he could not remembers her name.",
+        "Try as he might, he could remember not her name."
+      ],
+      "answer": 0,
+      "explanation": "Try as he might 表示“无论他怎样努力”，could not remember 是正确的否定形式。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "However hard she tried, she failed.",
+        "Whatever you decide, I will support you.",
+        "No matter how cold it is, we swim every morning.",
+        "Although it was late, but we kept working."
+      ],
+      "answer": 3,
+      "explanation": "although 与 but 不能同时使用，应删去 but，写成 Although it was late, we kept working."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["No", "matter", "how", "tired", "you", "are,", "please", "finish", "the", "report."],
+      "alternatives": [],
+      "translation": "无论你多累，请把报告写完。",
+      "explanation": "No matter how + 形容词 + 主语 + 动词，逗号后接祈使句。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Much", "as", "I", "admire", "her,", "I", "cannot", "agree", "with", "her", "decision."],
+      "alternatives": [],
+      "translation": "尽管我很钦佩她，我还是不能同意她的决定。",
+      "explanation": "Much as + 主语 + 动词，是书面的让步结构。"
+    }
+  ]
+}

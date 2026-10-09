@@ -1,0 +1,131 @@
+{
+  "id": "e5-complex-noun-phrases",
+  "cefr": 5,
+  "title": "Complex noun phrases · 复杂名词短语",
+  "tag": "Noun phrases",
+  "pattern": "Determiner + premodifier + head noun + postmodifier  ·  Noun, appositive, + verb",
+  "summary": "英语名词前后都能加修饰语，形容词有固定顺序，后置修饰语放在名词之后。",
+  "explanation": [
+    "英语名词短语可以很长：名词前面可以放形容词、名词和分词（**前置修饰**），名词后面可以放介词短语、分词短语和定语从句（**后置修饰**）。中文修饰语几乎都放在名词前面，英语则有前后两个位置，这是中国学习者最容易出错的地方。",
+    "**前置修饰**包括形容词、分词和名词。多个形容词有固定顺序：观点 → 大小 → 年龄 → 形状 → 颜色 → 来源 → 材料，例如 a beautiful small old Italian wooden table。名词也可以修饰名词，构成复合名词，如 a coffee shop、a car accident。分词同样可以前置，如 a rapidly growing city。",
+    "**后置修饰**常用于较长的修饰语，包括介词短语（the man **in the grey coat**）、过去分词短语（the report **written by the team**）、现在分词短语（the students **waiting outside**）和定语从句（the goods **that we ordered**）。形容词短语也要放在名词后面，如 someone **responsible**、the students **eager to learn**。",
+    "**同位语**（appositive）用逗号把名词和它的解释说明隔开：Mr Taylor, **our finance director**, will chair the meeting.（我们的财务总监泰勒先生将主持会议。）同位语与前面的名词指的是同一个人或同一件事，中文通常用“……，即……”或直接并列来表达。",
+    "英语有时会用很长的**主语**，把修饰语全部放在中心名词后面，如 The decision **by the board** to close two factories was announced yesterday.。长主语的关键是找到真正的中心名词，谓语动词必须与中心名词一致，而不是与离它最近的名词一致。"
+  ],
+  "mistakes": [
+    "✗ a book old interesting → ✓ an interesting old book. 多个形容词的顺序：观点（interesting）在年龄（old）之前；元音开头的词前用 an。",
+    "✗ The people wait for the bus were angry. → ✓ The people waiting for the bus were angry. 后置修饰的分词短语要放在名词之后，主句谓语仍是 were。",
+    "✗ The money from the sales of the products were lost. → ✓ The money from the sales of the products was lost. 主谓一致看中心名词 money，而不是靠近谓语的 products。"
+  ],
+  "examples": [
+    { "text": "She is an interesting young writer from Scotland.", "translation": "她是一位来自苏格兰的有趣的年轻作家。", "note": "形容词顺序：观点 + 年龄 + 来源。" },
+    { "text": "The man in the grey coat is our new head of department.", "translation": "穿灰色外套的那个男人是我们新任的系主任。" },
+    { "text": "The report written by the research team was published last month.", "translation": "研究团队撰写的那份报告上个月发表了。" },
+    { "text": "Mr Taylor, our finance director, will chair the meeting.", "translation": "我们的财务总监泰勒先生将主持会议。", "note": "同位语放在逗号之间。" },
+    { "text": "The decision by the board to close two factories was announced yesterday.", "translation": "董事会关闭两家工厂的决定昨天公布了。", "note": "长主语的中心名词是 decision，谓语用 was。" },
+    { "text": "A new coffee shop opened next to the station.", "translation": "一家新的咖啡店在车站旁边开业了。" },
+    { "text": "The students eager to learn English often join the evening class.", "translation": "渴望学英语的学生常常参加晚间班。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形容词顺序。",
+      "sentence": "She bought a ___ dress for the wedding.",
+      "translation": "她为婚礼买了一条长款红色丝绸连衣裙。",
+      "options": ["red silk long", "long red silk", "silk long red", "long silk red"],
+      "answer": 1,
+      "explanation": "形状或长度（long）在颜色（red）之前，颜色在材料（silk）之前。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的分词形式。",
+      "sentence": "The man ___ by the blue car is my neighbour.",
+      "translation": "站在蓝色汽车旁边的那个男人是我的邻居。",
+      "options": ["stand by", "standing by", "stood by", "stands by"],
+      "answer": 1,
+      "explanation": "后置修饰 the man 要用现在分词 standing by，表示“正站在旁边的人”。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的谓语动词。",
+      "sentence": "The price of the tickets ___ too high for most families.",
+      "translation": "对大多数家庭来说，这些票价太高了。",
+      "options": ["were", "are", "is", "be"],
+      "answer": 2,
+      "explanation": "中心名词是 price（单数），谓语应为 is，而不是跟随 tickets 用复数。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形容词顺序。",
+      "sentence": "They live in a ___ house near the river.",
+      "translation": "他们住在河边一座老旧的白色木房子里。",
+      "options": ["old white wooden", "white old wooden", "wooden old white", "old wooden white"],
+      "answer": 0,
+      "explanation": "正确顺序为年龄（old）→ 颜色（white）→ 材料（wooden）。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们昨天收到的那封信很重要。",
+      "options": [
+        "The letter received we yesterday is important.",
+        "The letter we receive yesterday is important.",
+        "The letter we received yesterday is important.",
+        "The letter we received yesterday are important."
+      ],
+      "answer": 2,
+      "explanation": "定语从句 we received yesterday 放在名词 letter 之后，中心名词 letter 为单数，谓语用 is。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "坐在窗边的那个女孩是我的妹妹。",
+      "options": [
+        "The girl sits by the window is my sister.",
+        "The girl by the window sitting is my sister.",
+        "The girl sitting by the window is my sister.",
+        "The girl sat by the window is my sister."
+      ],
+      "answer": 2,
+      "explanation": "后置修饰的现在分词短语 sitting by the window 修饰 the girl。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "A teacher in the classroom explains the rules.",
+        "The students eager to learn English join the class.",
+        "The students eager to learn English joins the class."
+      ],
+      "answer": 2,
+      "explanation": "中心名词 students 是复数，谓语应为 join，不能用 joins。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The money from the sales of the products was lost.",
+        "The money from the sales of the products were lost.",
+        "Mr Taylor, our finance director, will chair the meeting."
+      ],
+      "answer": 1,
+      "explanation": "中心名词 money 是单数，应使用 was lost。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "report", "written", "by", "the", "team", "was", "published", "yesterday."],
+      "alternatives": [],
+      "translation": "团队撰写的那份报告昨天发表了。",
+      "explanation": "过去分词短语 written by the team 放在中心名词 report 之后。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["A", "new", "coffee", "shop", "opened", "next", "to", "the", "station."],
+      "alternatives": [],
+      "translation": "一家新咖啡店在车站旁边开业了。",
+      "explanation": "复合名词 coffee shop 作中心名词，前面加形容词 new 和不定冠词 A。"
+    }
+  ]
+}

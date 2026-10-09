@@ -1,0 +1,136 @@
+{
+  "id": "e4-future-continuous-perfect",
+  "cefr": 4,
+  "title": "Future continuous and future perfect · 将来进行时与将来完成时",
+  "tag": "will be/have",
+  "pattern": "will be + V-ing (将来某时正在进行)  ·  will have + past participle (将来某时前已完成)",
+  "summary": "将来进行时说“那个时间点正在做”，将来完成时说“那个时间点之前已经做完”。",
+  "explanation": [
+    "**将来进行时** 的结构是 **will be + 动词-ing**，表示“将来某个时间点正在进行的动作”：At 8 o'clock tomorrow, I **will be sitting** in the exam room.（明天八点，我正坐在考场里。）重点不是动作什么时候开始，而是“那个时刻它正在发生”。",
+    "**将来完成时** 的结构是 **will have + 过去分词**，表示“到将来某个时间点为止，动作已经完成”：By next June, I **will have finished** my master's degree.（到明年六月，我的硕士学位就已经修完了。）常用 by + 时间（by Friday、by next year）或 by the time + 从句作为时间界限。",
+    "两者的时间标志词很重要：at this time tomorrow、at 9 p.m. tomorrow、this time next week 通常搭配将来进行时；by next year、by then、by the time you get home 则常搭配将来完成时。中文“到……为止”往往对应完成时，“那时候正在……”往往对应进行时。",
+    "在 **by the time、when、after、as soon as** 引导的时间状语从句中，要用一般现在时代替将来时：By the time you **get** home, the kids **will have gone** to bed.（不说 By the time you will get home。）主句用将来完成时，从句用一般现在时。",
+    "注意：will be doing 有时也可以表示“按计划或正常情况会发生”（I will be seeing him tomorrow anyway.），但在练习中更常见的仍是“某一时刻正在进行”的含义。学会根据时间状语判断，就不容易混淆这两种时态。"
+  ],
+  "mistakes": [
+    "✗ At 8 o'clock tomorrow, I will work. → ✓ At 8 o'clock tomorrow, I will be working. 中文“那时候正在工作”要用将来进行时 will be working，不能只用一般将来时。",
+    "✗ By next June, I will finish my degree. → ✓ By next June, I will have finished my degree. 表示“到某时为止已经完成”要用将来完成时 will have finished。",
+    "✗ By the time you will arrive, I will have finished dinner. → ✓ By the time you arrive, I will have finished dinner. by the time 引导的时间从句里要用一般现在时，不能用 will。",
+    "✗ By next Monday, I will have be finished the project. → ✓ By next Monday, I will have finished the project. have 后面直接接过去分词 finished，不能再加 be。"
+  ],
+  "examples": [
+    { "text": "This time next week, we will be lying on a beach in Thailand.", "translation": "下周这个时候，我们将躺在泰国的海滩上。" },
+    { "text": "At 9 p.m. tomorrow, she will be flying to Tokyo.", "translation": "明天晚上九点，她应该正在飞往东京的航班上。" },
+    { "text": "By next June, I will have finished my master's degree.", "translation": "到明年六月，我的硕士学位就已经修完了。" },
+    { "text": "By the time you get home, the kids will have gone to bed.", "translation": "等你回到家时，孩子们应该已经睡了。", "note": "by the time 从句用一般现在时。" },
+    { "text": "Will you be working late tonight?", "translation": "你今晚会加班吗？", "note": "将来进行时的疑问句：Will + 主语 + be + V-ing。" },
+    { "text": "By 2030, many cities will have banned petrol cars.", "translation": "到2030年，许多城市将已经禁止燃油车。" },
+    { "text": "At this time tomorrow, I will be sitting in the exam room.", "translation": "明天这个时候，我正坐在考场里。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "At this time tomorrow, I ___ to Berlin.",
+      "translation": "明天这个时候，我应该正在飞往柏林。",
+      "options": ["flew", "have flown", "will be flying", "fly"],
+      "answer": 2,
+      "explanation": "“那个时间点正在进行”用将来进行时 will be flying。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "By next June, I ___ my degree.",
+      "translation": "到明年六月，我就已经修完学位了。",
+      "options": ["finished", "will be finishing", "will have finished", "have finished"],
+      "answer": 2,
+      "explanation": "by next June 表示到某时为止已完成，用将来完成时 will have finished。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "At 8 o'clock tomorrow, she ___ for the bus.",
+      "translation": "明天八点，她正在等公交车。",
+      "options": ["waits", "has waited", "waited", "will be waiting"],
+      "answer": 3,
+      "explanation": "tomorrow 的某个具体时刻正在进行，用 will be waiting。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "到明年六月，我们就已经搬进新房子了。",
+      "options": [
+        "By next June, we will move into the new house.",
+        "By next June, we will have moved into the new house.",
+        "By next June, we will be moving into the new house.",
+        "By next June, we will have move into the new house."
+      ],
+      "answer": 1,
+      "explanation": "“已经搬进”是到某时已完成的动作，用 will have moved。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "明天这个时候，我们应该正在飞往上海的飞机上。",
+      "options": [
+        "At this time tomorrow, we flew to Shanghai.",
+        "At this time tomorrow, we will have flown to Shanghai.",
+        "At this time tomorrow, we was flying to Shanghai.",
+        "At this time tomorrow, we will be flying to Shanghai."
+      ],
+      "answer": 3,
+      "explanation": "“正在”的将来时点用将来进行时 will be flying。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "等你到家的时候，孩子们应该已经睡了。",
+      "options": [
+        "By the time you get home, the kids will have gone to bed.",
+        "By the time you will get home, the kids will have gone to bed.",
+        "By the time you get home, the kids will go to bed.",
+        "By the time you get home, the kids will be gone to bed."
+      ],
+      "answer": 0,
+      "explanation": "by the time 从句用一般现在时 get，主句用将来完成时 will have gone。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "At this time next year, I will be studying in London.",
+        "By 2028, the company will have opened ten new stores.",
+        "By next Monday, I will be finish the project."
+      ],
+      "answer": 2,
+      "explanation": "will be 后面要接 V-ing，应写成 will be finishing；但表示“到周一已完成”时应使用 will have finished。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "When you arrive, I will have cooked dinner.",
+        "When you will arrive, I will have cooked dinner.",
+        "By the time you arrive, I will have cooked dinner."
+      ],
+      "answer": 1,
+      "explanation": "when 引导的时间从句中不能用 will，应写成 When you arrive。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["At", "this", "time", "tomorrow,", "we", "will", "be", "walking", "along", "the", "Great", "Wall."],
+      "alternatives": [],
+      "translation": "明天这个时候，我们应该正在长城上散步。",
+      "explanation": "时间状语 at this time tomorrow 加 will be + V-ing 表示将来某时正在进行。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["By", "next", "year,", "I", "will", "have", "saved", "enough", "money."],
+      "alternatives": [],
+      "translation": "到明年，我就攒够钱了。",
+      "explanation": "by next year 搭配将来完成时 will have saved，表示到那时为止已完成。"
+    }
+  ]
+}

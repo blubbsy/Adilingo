@@ -1,0 +1,106 @@
+{
+  "id": "e1-can-ability",
+  "cefr": 1,
+  "title": "Can: ability & requests · 情态动词 can",
+  "tag": "can / can't",
+  "pattern": "Subject + can / can't + V (base form)",
+  "summary": "can 表示能力或许可，后面直接接动词原形，任何人称都不变。",
+  "explanation": [
+    "**can** 表示能力或可能性，意思是“会、能”。它是情态动词，后面直接接动词原形，不加 to，也不随人称变化：I can swim. / She can speak English. 中文说“会”对应 can，说“能”时有时也用 can。",
+    "否定形式是 **can't**（cannot 的缩写，较正式的写法也可以写成 cannot 一个词）：I can't drive. 注意它没有 -s，也不用 do、does 来构成否定。",
+    "疑问句把 can 提到主语前面：Can you help me? 回答时用 Yes, I can. / No, I can't。不要说 Yes, I can do 或 Do you can?，这些都是错误的。",
+    "can 也用于请求和许可：Can I open the window? / Can I borrow your pen? 这种说法在日常口语里很常见。比它更礼貌的形式是 Could I...?，现阶段先掌握 can 就足够了。",
+    "can 只有 can 和 could 两种形式，没有 -s 形式，也不能和 to 连用。He can play the piano，不要说 He cans 或 He can to play。"
+  ],
+  "mistakes": [
+    "✗ She cans sing well. → ✓ She can sing well. can 没有 -s 变化，任何人称都是 can。",
+    "✗ I can to swim. → ✓ I can swim. can 后面直接跟动词原形，中间不加 to。",
+    "✗ Can you to help me? → ✓ Can you help me? 疑问句中同样不加 to。",
+    "✗ I can't not understand. → ✓ I can't understand. can't 已经表示否定，后面不要再加 not。"
+  ],
+  "examples": [
+    { "text": "I can speak a little English.", "translation": "我会说一点英语。" },
+    { "text": "She can play the piano very well.", "translation": "她钢琴弹得很好。" },
+    { "text": "We can't go out today; it's raining.", "translation": "今天我们不能出去，外面在下雨。" },
+    { "text": "Can you swim?", "translation": "你会游泳吗？" },
+    { "text": "Yes, I can. I swim every Sunday.", "translation": "会，我每个星期天都游泳。" },
+    { "text": "Can I borrow your pen, please?", "translation": "请问我可以借用你的笔吗？" },
+    { "text": "Can you help me with my homework?", "translation": "你能帮我做作业吗？" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "My brother ___ drive a car.",
+      "translation": "我哥哥会开车。",
+      "options": ["can", "cans", "can to", "is can"],
+      "answer": 0,
+      "explanation": "can 没有 -s 变化，后面直接接动词原形。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的表达。",
+      "sentence": "I ___ very well.",
+      "translation": "我游得很好。",
+      "options": ["swim can", "can swim", "can to swim", "cans swim"],
+      "answer": 1,
+      "explanation": "正确结构是 I can swim very well。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的疑问句。",
+      "sentence": "___ you help me?",
+      "translation": "你能帮我一下吗？",
+      "options": ["Are", "Do", "Can", "Cans"],
+      "answer": 2,
+      "explanation": "问能力或请求用 Can 放在句首。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的否定形式。",
+      "sentence": "They ___ come to the party tonight.",
+      "translation": "他们今晚不能来参加聚会。",
+      "options": ["cannot to", "doesn't can", "can't", "cans not"],
+      "answer": 2,
+      "explanation": "can't 是 can not 的缩写，后面接动词原形。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我不会做饭。",
+      "options": ["I can't cooking.", "I can't cook.", "I can to cook.", "I don't can cook."],
+      "answer": 1,
+      "explanation": "can't 后面接动词原形 cook。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我可以用一下你的手机吗？",
+      "options": ["Can I to use your phone?", "Can I use your phone?", "Can I using your phone?", "Can you use I phone?"],
+      "answer": 1,
+      "explanation": "请求许可用 Can I + 动词原形。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["She can speak three languages.", "He cans swim fast.", "We can help you."],
+      "answer": 1,
+      "explanation": "can 没有 -s 形式，应写成 He can swim fast."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I can't not hear you.", "Can she play tennis?", "They can dance well."],
+      "answer": 0,
+      "explanation": "can't 已经是否定，不能再加 not，应写成 I can't hear you."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Can", "you", "open", "the", "door?"],
+      "alternatives": [],
+      "translation": "你能开一下门吗？",
+      "explanation": "疑问句结构：Can + 主语 + 动词原形。"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "e2-countable-uncountable",
+  "cefr": 2,
+  "title": "Countable & uncountable nouns · 可数与不可数名词",
+  "tag": "some / any",
+  "pattern": "some / any + plural or uncountable noun  many / much / a lot of + noun",
+  "summary": "可数名词有复数，不可数名词没有；many 修饰可数名词，much 修饰不可数名词，some 多用于肯定句，any 多用于否定和疑问句。",
+  "explanation": [
+    "英语名词分为**可数名词**和**不可数名词**。可数名词有单复数，如 a book、two books；不可数名词没有复数，如 water、rice、information。中文里“很多书”“很多水”都说“很多”，英语却要区分 **many**（可数）和 **much**（不可数）。",
+    "**many** 修饰可数名词复数：many friends、many apples；**much** 修饰不可数名词：much time、much money。在肯定句中，口语里更常用 **a lot of** 或 lots of，它们对两类名词都适用：There is **a lot of** water. / There are **a lot of** books. 否定句和疑问句中，much 和 many 仍然很常见。",
+    "**some** 与 **any** 都表示“一些”，但用法不同。肯定句用 some：I have **some** friends. 否定句和一般疑问句多用 any：I don't have **any** money. / Do you have **any** questions? 表示提议或请求时，some 也可以用于疑问句：Would you like **some** tea?",
+    "**a little / a few** 表示“一点”“几个”，是肯定意义。a little 修饰不可数名词，a few 修饰可数名词复数：I have **a few** close friends. 注意 little 和 few 不带 a 时表示否定的“很少”：I have **few** friends（几乎没有朋友）。这一区别很容易被忽略。",
+    "**常见的不可数名词**有 information、advice、news、furniture、homework、luggage 等。它们没有复数形式，不能直接加 -s，也不能用 a / an 修饰，要用 a piece of advice、a lot of homework 这样的结构来表达“一条建议”“很多作业”。"
+  ],
+  "mistakes": [
+    "✗ I have many homework. → ✓ I have a lot of homework. homework 是不可数名词，不能用 many，也不能加 -s。",
+    "✗ There are much people here. → ✓ There are many people here. people 是可数名词复数，要用 many。",
+    "✗ I need informations. → ✓ I need some information. information 没有复数形式，要直接用 information。",
+    "✗ I don't have some money. → ✓ I don't have any money. 否定句中通常用 any 而不是 some。"
+  ],
+  "examples": [
+    { "text": "I need some information about the train.", "translation": "我需要一些关于火车的信息。", "note": "information 不可数，不加 -s。" },
+    { "text": "There are many students in the library.", "translation": "图书馆里有很多学生。" },
+    { "text": "We don't have much time.", "translation": "我们没有太多时间。", "note": "否定句中 much 修饰不可数名词 time。" },
+    { "text": "Do you have any milk?", "translation": "你有牛奶吗？", "note": "疑问句用 any。" },
+    { "text": "She has a few close friends.", "translation": "她有几个亲密的朋友。", "note": "a few 修饰可数名词复数。" },
+    { "text": "There is a little water left in the bottle.", "translation": "瓶子里还剩一点水。", "note": "a little 修饰不可数名词 water。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的词。",
+      "sentence": "There are ___ apples in the basket.",
+      "translation": "篮子里有很多苹果。",
+      "options": ["much", "a little", "many", "informations"],
+      "answer": 2,
+      "explanation": "apples 是可数名词复数，要用 many。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的词。",
+      "sentence": "I don't have ___ money with me.",
+      "translation": "我身上没带钱。",
+      "options": ["any", "many", "some", "few"],
+      "answer": 0,
+      "explanation": "否定句中用 any，money 是不可数名词。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的词。",
+      "sentence": "She gave me ___ about my essay.",
+      "translation": "她就我的作文给了我一些建议。",
+      "options": ["advices", "an advice", "some advice", "a advice"],
+      "answer": 2,
+      "explanation": "advice 是不可数名词，用 some advice 表示“一些建议”。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的词。",
+      "sentence": "We have ___ time before the train leaves.",
+      "translation": "火车开之前我们还有一点时间。",
+      "options": ["a few", "a little", "few", "a lot"],
+      "answer": 1,
+      "explanation": "time 是不可数名词，肯定的“一点”用 a little。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们没有很多时间。",
+      "options": ["We don't have many time.", "We don't have much time.", "We don't have a much time.", "We haven't many times."],
+      "answer": 1,
+      "explanation": "time 不可数，否定句用 much time。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "桌子上有一些牛奶。",
+      "options": ["There is some milk on the table.", "There are some milk on the table.", "There is many milk on the table.", "There is a milks on the table."],
+      "answer": 0,
+      "explanation": "milk 不可数，要用 is 和 some milk。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I have a lot of friends.", "He gave me some useful advices.", "She has a few books."],
+      "answer": 1,
+      "explanation": "advice 不可数，不加 -s，应写成 some useful advice."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["There is many snow.", "We need some help.", "I have a little time today."],
+      "answer": 0,
+      "explanation": "snow 是不可数名词，应写成 There is a lot of snow 或 There is much snow."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["I", "have", "a", "lot", "of", "homework", "today."],
+      "alternatives": [],
+      "translation": "我今天有很多作业。",
+      "explanation": "肯定句中用 a lot of 修饰不可数名词 homework。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Do", "you", "have", "any", "questions?"],
+      "alternatives": [],
+      "translation": "你有什么问题吗？",
+      "explanation": "疑问句中用 any，questions 是可数名词复数。"
+    }
+  ]
+}

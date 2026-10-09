@@ -1,0 +1,137 @@
+{
+  "id": "e4-inversion-intro",
+  "cefr": 4,
+  "title": "Introductory inversion · 句首倒装入门",
+  "tag": "Never have I",
+  "pattern": "Negative adverb + auxiliary + subject + verb  ·  Hardly had + subject + V3 + when…",
+  "summary": "否定副词或否定意义的词放在句首时，要把助动词提到主语前面，用来加强语气，多见于书面语。",
+  "wikiId": "inverted-sentences",
+  "explanation": [
+    "**句首倒装**是为了强调：把否定或限制性的词（never、rarely、seldom、hardly、little、only、not only 等）放在句首，后面的助动词要提到主语之前。例如普通句 I have never seen such a sunset. 强调的是“我从没见过”，而 **Never have I seen** such a sunset. 语气更重，也更有文学或演讲的感觉。",
+    "**倒装的基本规则**：句首否定词 + 助动词 / be 动词 + 主语 + 动词。如果原句没有助动词，就要借助 do、does 或 did：Rarely **does** he complain.（他很少抱怨。）原句 He rarely complains. 注意倒装后，主要动词恢复原形，不再加 -s 或 -ed。如果原句是 be 动词，就直接把 be 提前：Never **was** I so happy.",
+    "**hardly / scarcely / barely** 与 when 连用时，结构固定为 **Hardly had + 主语 + 过去分词 + when + 从句**：Hardly had we sat down **when** the phone rang.（我们刚坐下，电话就响了。）同样，**no sooner … than** 也要倒装：No sooner had she left **than** it started to rain.（她刚走，雨就下了起来。）",
+    "**not only … but also** 倒装时，只有前半句的助动词需要提前，后半句保持正常语序：Not only **did** she speak English, but she also speaks French.（她不仅会说英语，还会说法语。）如果前半句没有助动词，要借助 do 来倒装。",
+    "中文的否定词没有位置限制，学习者容易写成 Never I have seen 这样保留原语序的句子。学习倒装的关键是先识别句首的否定意义，再记住“助动词放到主语前”这个规则。日常口语里较少使用，但阅读和写作中非常常见。"
+  ],
+  "mistakes": [
+    "✗ Never I have seen such a beautiful view. → ✓ Never have I seen such a beautiful view. 否定词放句首后，助动词 have 必须提到主语 I 之前。",
+    "✗ Hardly I had arrived when it started raining. → ✓ Hardly had I arrived when it started raining. hardly 后面的倒装是 had + 主语，不能保留陈述语序。",
+    "✗ Rarely she goes out at night. → ✓ Rarely does she go out at night. 原句没有助动词，要用 does 倒装，动词恢复原形 go。",
+    "✗ Not only he is clever, but also he is kind. → ✓ Not only is he clever, but he is also kind. 中文“不但……而且……”常直译成 not only he is，但英语只有前半句需要倒装，应写成 Not only is he…"
+  ],
+  "examples": [
+    { "text": "Never have I seen such a beautiful sunset.", "translation": "我从未见过如此美丽的日落。" },
+    { "text": "Rarely does he complain about his work.", "translation": "他很少抱怨自己的工作。" },
+    { "text": "Hardly had we sat down when the waiter brought the menu.", "translation": "我们刚坐下，服务员就拿来了菜单。" },
+    { "text": "No sooner had she left the office than it started to rain.", "translation": "她刚离开办公室，雨就下了起来。" },
+    { "text": "Not only did the film win an award, but it also became a huge hit.", "translation": "这部电影不仅获奖，还大受欢迎。" },
+    { "text": "Only after the exam did I realise how much I had forgotten.", "translation": "考完试之后，我才意识到自己忘了多少。", "note": "only + 时间状语放句首，也要倒装。" },
+    { "text": "Little did he know that the letter would change his life.", "translation": "他完全没想到，那封信会改变他的一生。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "___ felt so happy in my whole life.",
+      "translation": "我这辈子从未感到如此快乐。",
+      "options": ["Never I have", "Never have I", "I never have", "Never I"],
+      "answer": 1,
+      "explanation": "否定词 never 放句首，助动词 have 要提到主语 I 之前：Never have I。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Rarely ___ late for work.",
+      "translation": "他很少上班迟到。",
+      "options": ["he is", "he was", "does he be", "is he"],
+      "answer": 3,
+      "explanation": "Rarely 放句首，be 动词 is 要提到主语 he 之前：Rarely is he late。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Hardly ___ when the phone rang.",
+      "translation": "我刚坐下，电话就响了。",
+      "options": ["had I sat down", "I had sat down", "had sat I down", "I sat down"],
+      "answer": 0,
+      "explanation": "hardly … when 的固定倒装结构是 Hardly had + 主语 + 过去分词。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我从未听说过这样的事。",
+      "options": [
+        "Never I have heard of such a thing.",
+        "Never have heard I of such a thing.",
+        "Never have I heard of such a thing.",
+        "Never did I have heard of such a thing."
+      ],
+      "answer": 2,
+      "explanation": "Never 放句首后用 have + 主语 + 过去分词：Never have I heard。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们刚到家，电话就响了。",
+      "options": [
+        "Hardly had we arrived home when the phone rang.",
+        "Hardly we had arrived home when the phone rang.",
+        "Hardly had we arrived home than the phone rang.",
+        "Hardly had we arrived home, the phone rang."
+      ],
+      "answer": 0,
+      "explanation": "hardly 与 when 搭配，倒装成 Hardly had we arrived home when…；than 只用于 no sooner。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "她不仅会说英语，还会说法语。",
+      "options": [
+        "Not only she speaks English, but she also speaks French.",
+        "Not only does she speak English, but she also speaks French.",
+        "Not only does she speaks English, but she also speaks French.",
+        "Not only does she speak English but also she speaks French."
+      ],
+      "answer": 1,
+      "explanation": "只需倒装前半句：Not only does she speak English，后半句保持正常语序。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Rarely does she complain about the noise.",
+        "Rarely she complains about the noise.",
+        "Seldom does he visit his grandparents."
+      ],
+      "answer": 1,
+      "explanation": "Rarely 放句首时要用 does 倒装，应写成 Rarely does she complain。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "No sooner had he left than the phone rang.",
+        "Only after the meeting did we understand the plan.",
+        "Not only he is clever, but also he is kind."
+      ],
+      "answer": 2,
+      "explanation": "not only 放句首要倒装前半句，应写成 Not only is he clever, but he is also kind。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Never", "before", "had", "I", "seen", "such", "a", "huge", "crowd."],
+      "alternatives": [],
+      "translation": "我以前从未见过这么大的人群。",
+      "explanation": "Never before 放句首，助动词 had 提到主语 I 之前，构成 had + 主语 + 过去分词。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["No", "sooner", "had", "the", "bus", "left", "than", "it", "started", "to", "snow."],
+      "alternatives": [],
+      "translation": "公交车刚开走，就下起雪来了。",
+      "explanation": "No sooner … than 结构要倒装：No sooner had + 主语 + 过去分词 than…。"
+    }
+  ]
+}

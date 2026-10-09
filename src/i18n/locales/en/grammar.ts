@@ -50,7 +50,7 @@ export const grammar = {
   'grammar.lesson.best': 'best {pct} %',
   'grammar.lesson.practiceAgain': 'Practice again',
   'grammar.lesson.startPractice': 'Start practice',
-  'grammar.list.filterAria': 'Filter by HSK level',
+  'grammar.list.filterAria': 'Filter by level',
   'grammar.list.completedCount': '{done} / {total} completed',
   'grammar.list.best': 'Best {pct} %',
   'grammar.exercise.result': '{correct} / {total} correct',
@@ -77,4 +77,8 @@ export const grammar = {
   'grammar.exercise.clear': 'Clear sentence',
   'grammar.exercise.wordBank': 'Word bank',
   'grammar.exercise.wordKey': '{word} (key {n})',
+  'grammar.paths.topicPart': '{topic} ({n}/{total})',
+  'grammar.paths.domainDesc': '{words, plural, one {# term} other {# terms}} in {topics, plural, one {# topic} other {# topics}}, grouped by sub-topic.',
+  'grammar.paths.syllabusHintWords': 'Every term, tier by tier and topic by topic.',
+  'grammar.lesson.readWiki': 'Read the wiki article',
 } as const;

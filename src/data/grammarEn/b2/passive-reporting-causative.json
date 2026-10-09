@@ -1,0 +1,137 @@
+{
+  "id": "e4-passive-reporting-causative",
+  "cefr": 4,
+  "title": "Reporting passive and causative have/get · 报道型被动与使役结构",
+  "tag": "is said to",
+  "pattern": "It is said that + clause  ·  Subject + is said to + V  ·  have + object + past participle",
+  "summary": "报道型被动用于转述“据说、据信”；have / get + 宾语 + 过去分词表示“请别人做某事”。",
+  "wikiId": "passive-voice-rules",
+  "explanation": [
+    "**报道型被动**用来转述“人们普遍认为、据说、据报道”的信息。常见动词有 say、believe、think、know、report、expect、consider 等。结构有两种：**It is said that + 从句**，如 It is said that the old bridge was built by a famous architect.（据说这座老桥是一位著名建筑师建造的。）以及 **主语 + is said to + 动词**，如 He is said to be the best chef in the city.（据说他是城里最好的厨师。）",
+    "**to 不定式的时态要跟随说话的时间**。讲现在或将来的事，用 to + 动词原形：He is said **to live** in Paris.；讲过去的事，用 to have + 过去分词：He is said **to have lived** in Paris for ten years.（据说他在巴黎住过十年。）中文“据说他曾经……”的时间感，英语要通过 to have + 过去分词来表达。",
+    "**使役结构 have / get + 宾语 + 过去分词** 表示“请别人做某事，自己是安排者，而不是动作的执行者”：I had my hair **cut**.（我请人剪了头发。）We had the roof **repaired** after the storm.（暴风雨后，我们请人修了屋顶。）get 也可以这样用，语气更口语化：I'll get the car **serviced** next week.",
+    "要区分 have something done 和 have someone do：前者是“让别人做某事（事情本身是被动的）”，后者是“让某人去做某事（人是执行者）”，例如 She had her son **clean** the room.（她让儿子打扫房间。）中文“请人做”常常不分这两种，英语却要严格区分。",
+    "注意：如果主语是 he、she 这样的人，报道型被动一般不能直接说 He is said that…，而要写成 It is said that… 或 He is said to…。使役结构中，宾语和过去分词之间是被动关系，所以不能用主动形式 have my hair cutting。"
+  ],
+  "mistakes": [
+    "✗ He is said that he is rich. → ✓ It is said that he is rich. / He is said to be rich. 主语 he 不能直接放在 is said 后面接 that 从句；应使用 It is said that 或 He is said to…。",
+    "✗ He is said to has moved to Canada. → ✓ He is said to have moved to Canada. 讲过去的事要用 to have + 过去分词，不用 to has。",
+    "✗ I had the car wash yesterday. → ✓ I had the car washed yesterday. 中文“请人洗车”是使役，车被洗，所以要用过去分词 washed。",
+    "✗ I had my hair cutted yesterday. → ✓ I had my hair cut yesterday. cut 是不规则动词，过去分词仍是 cut，不能加 -ted。"
+  ],
+  "examples": [
+    { "text": "It is said that the old bridge was built by a famous architect.", "translation": "据说这座老桥是一位著名建筑师建造的。" },
+    { "text": "He is said to be the best chef in the city.", "translation": "据说他是城里最好的厨师。" },
+    { "text": "The workers are believed to have left the country last year.", "translation": "据信这些工人去年已经离开了这个国家。", "note": "讲过去的事，用 to have + 过去分词。" },
+    { "text": "We had the roof repaired after the storm.", "translation": "暴风雨过后，我们请人修了屋顶。" },
+    { "text": "I'd like to have my photo taken in front of the castle.", "translation": "我想请人在城堡前给我拍张照。" },
+    { "text": "She had her son clean the room before dinner.", "translation": "晚饭前，她让儿子打扫房间。", "note": "have + 人 + 动词原形：人是执行者。" },
+    { "text": "The manager had the staff trained in customer service.", "translation": "经理安排员工接受了客户服务培训。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "He is said ___ in Paris for ten years.",
+      "translation": "据说他在巴黎住过十年。",
+      "options": ["to have live", "to have lived", "lived", "living"],
+      "answer": 1,
+      "explanation": "讲过去的事用 to have + 过去分词 lived。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I want to have my hair ___ before the wedding.",
+      "translation": "我想在婚礼前请人剪个头发。",
+      "options": ["cut", "to cut", "cutting", "cuts"],
+      "answer": 0,
+      "explanation": "have + 宾语 + 过去分词：头发被剪，所以用 cut。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "It ___ that the new bridge will open next spring.",
+      "translation": "据说这座新桥明年春天开通。",
+      "options": ["says", "is said", "is said to", "said"],
+      "answer": 1,
+      "explanation": "It is said that + 从句 是报道型被动的标准结构。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "据说他年轻时是一名优秀的运动员。",
+      "options": [
+        "It is said that he is a talented athlete when he was young.",
+        "He says to have been a talented athlete when he was young.",
+        "He is said to be a talented athlete when he was young.",
+        "He is said to have been a talented athlete when he was young."
+      ],
+      "answer": 3,
+      "explanation": "“年轻时”是过去，所以用 is said to have been。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我下周要请人给车做保养。",
+      "options": [
+        "I am going to have my car service next week.",
+        "I am going to have my car serviced by yesterday.",
+        "I am going to have my car serviced next week.",
+        "I am going to service my car next week."
+      ],
+      "answer": 2,
+      "explanation": "“请人做保养”用 have + 宾语 + 过去分词 serviced；service my car 表示自己动手。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我想请人在城堡前给我拍张照。",
+      "options": [
+        "I'd like to have my photo take in front of the castle.",
+        "I'd like to have my photo taken in front of the castle.",
+        "I'd like to get my photo to take in front of the castle.",
+        "I'd like to take my photo in front of the castle."
+      ],
+      "answer": 1,
+      "explanation": "照片被拍，要用过去分词 taken；take my photo 表示自己拍。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "It is believed that the treasure is hidden in the mountains.",
+        "He is believed to be lost in the forest.",
+        "He is believed that to be lost in the forest."
+      ],
+      "answer": 2,
+      "explanation": "主语 he 不能和 that 从句这样连用，应写成 He is believed to be lost in the forest。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I had my hair cutted yesterday.",
+        "I had my hair cut yesterday.",
+        "She had her bag stolen on the bus."
+      ],
+      "answer": 0,
+      "explanation": "cut 是不规则动词，过去分词仍是 cut，应写成 I had my hair cut yesterday。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["It", "is", "said", "that", "the", "museum", "will", "reopen", "next", "month."],
+      "alternatives": [],
+      "translation": "据说博物馆下个月将重新开放。",
+      "explanation": "报道型被动 It is said that + 从句，从句中用一般将来时 will reopen。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["She", "had", "her", "computer", "repaired", "by", "a", "technician", "yesterday."],
+      "alternatives": [],
+      "translation": "她昨天请技术员修了电脑。",
+      "explanation": "使役结构 have + 宾语 + 过去分词，由技术员执行，所以用 by 引出执行者。"
+    }
+  ]
+}

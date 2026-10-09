@@ -1,0 +1,119 @@
+{
+  "id": "e3-reported-statements",
+  "cefr": 3,
+  "title": "Reported statements · 间接引语（陈述句）",
+  "tag": "backshift",
+  "pattern": "Subject + said / told + (that) + Subject + backshifted verb",
+  "summary": "转述别人的话时，通常把时态往过去推一级，同时调整人称与时间词：She said (that) she was tired.",
+  "explanation": [
+    "**直接引语**是照原话复述，**间接引语**是用自己的话转述，通常使用 said 或 told，that 可以省略：She said **(that)** she **was** tired.（她说她累了）。中文不需要改动动词，英语却要把时态“往过去推”一级。",
+    "这种变化叫做**时态后移**（backshift）：一般现在时变为一般过去时（is → was，do → did）；现在进行时变为过去进行时；现在完成时变为过去完成时（have → had）；一般过去时变为过去完成时；will 变为 would，can 变为 could。例如：“I **am** tired,” she said. → She said she **was** tired.",
+    "人称、时间和地点词也要随着说话人的位置而改变：I 变为 he 或 she，my 变为 his 或 her；now 变为 then，today 变为 that day，tomorrow 变为 the next day，yesterday 变为 the day before，here 变为 there。",
+    "如果转述的内容至今仍然是真理或长期有效的事实，可以不改时态：The teacher said the Earth **goes** around the Sun.（地球绕着太阳转，这是一个不变的事实）。中文里的“他说……”在英语里需要根据内容判断，不能机械地全部后移。",
+    "注意 say 与 tell 的区别：say 后面通常不直接接人，可以说 say to somebody 或 say that；tell 后面必须接人，表示“告诉某人”：She **told** me that she was tired. 不能写成 She said me that ... 。"
+  ],
+  "mistakes": [
+    "✗ He said me he is busy. → ✓ He told me (that) he was busy. tell 后面要直接接人，同时动词 is 应后移为 was。",
+    "✗ She said that she will come tomorrow. → ✓ She said that she would come the next day. will 要变为 would，tomorrow 要变为 the next day。",
+    "✗ She said me that she was sick yesterday. → ✓ She told me that she was sick the day before. say 后面不能直接接人，同时 yesterday 要改为 the day before。"
+  ],
+  "examples": [
+    { "text": "She said (that) she was tired.", "translation": "她说她很累。", "note": "原话是 I am tired。" },
+    { "text": "He told me he would call me the next day.", "translation": "他告诉我第二天会给我打电话。", "note": "will 变为 would，tomorrow 变为 the next day。" },
+    { "text": "They said they had already finished the work.", "translation": "他们说他们已经完成了工作。", "note": "现在完成时后移为过去完成时。" },
+    { "text": "Tom told me that he had lost his phone the day before.", "translation": "汤姆告诉我他前一天把手机弄丢了。" },
+    { "text": "The teacher said the Earth goes around the Sun.", "translation": "老师说地球绕着太阳转。", "note": "科学事实，时态可以保持不变。" },
+    { "text": "She told us she could not come to the party.", "translation": "她告诉我们她不能来参加聚会。", "note": "can 变为 could。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "He said he ___ very busy that week.",
+      "translation": "他说那一周他非常忙。",
+      "options": ["is", "was", "will be", "be"],
+      "answer": 1,
+      "explanation": "say 是过去式，间接引语中的 is 要后移为 was。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "She told me she ___ the city the following day.",
+      "translation": "她告诉我第二天她会去那座城市。",
+      "options": ["visits", "will visit", "would visit", "visiting"],
+      "answer": 2,
+      "explanation": "will 后移为 would，构成 would visit。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他说他昨天已经回家了。",
+      "options": [
+        "He said he had gone home the day before.",
+        "He said he has gone home yesterday.",
+        "He says he went home yesterday.",
+        "He said he goes home the day before."
+      ],
+      "answer": 0,
+      "explanation": "转述的过去动作“已经回家”用过去完成时 had gone，yesterday 改为 the day before。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "She said she was hungry.",
+        "He told that he was happy.",
+        "They said they would come later."
+      ],
+      "answer": 1,
+      "explanation": "tell 后面要接人，应改为 He told me that he was happy 或 He said that he was happy。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Tom", "said", "that", "he", "had", "seen", "the", "film."],
+      "alternatives": [],
+      "translation": "汤姆说他看过那部电影。",
+      "explanation": "一般过去时 saw 后移为过去完成时 had seen。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "“I can help you,” he said. → He said he ___ help us.",
+      "translation": "他说他可以帮我们。",
+      "options": ["could", "can", "would", "did"],
+      "answer": 0,
+      "explanation": "can 后移为 could。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "“I will call you tomorrow,” Ben said. → Ben said he ___ me the next day.",
+      "translation": "本说他第二天会给我打电话。",
+      "options": ["calls", "called", "will call", "would call"],
+      "answer": 3,
+      "explanation": "will 后移为 would，tomorrow 改为 the next day。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "她说她明天会来参加会议。",
+      "options": [
+        "She said she will come to the meeting tomorrow.",
+        "She said she would come to the meeting the next day.",
+        "She said she would come to the meeting yesterday.",
+        "She says she comes to the meeting the next day."
+      ],
+      "answer": 1,
+      "explanation": "will 后移为 would，tomorrow 改为 the next day。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["She", "told", "me", "that", "she", "was", "sick", "the", "day", "before."],
+      "alternatives": [],
+      "translation": "她告诉我她前一天病了。",
+      "explanation": "tell 后面接人 me，then that 从句的时态后移为 was。"
+    }
+  ]
+}

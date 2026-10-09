@@ -10,7 +10,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "validate-grammar": "node scripts/validate-grammar.mjs",
+    "validate-grammar": "node scripts/validate-grammar.mjs && node scripts/validate-grammar-en.mjs",
     "validate-pinyin": "node scripts/validate-grammar-pinyin.mjs",
     "check:i18n": "node scripts/check-i18n.mjs",
     "build:content": "node scripts/build-content.mjs",

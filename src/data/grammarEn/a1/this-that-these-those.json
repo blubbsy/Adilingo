@@ -1,0 +1,172 @@
+{
+  "id": "e1-this-that-these-those",
+  "cefr": 1,
+  "title": "This, that, these, those · 指示代词",
+  "tag": "this/these",
+  "pattern": "this / that + singular · these / those + plural (near / far)",
+  "summary": "this / these 指近处，that / those 指远处；单数用 this / that，复数用 these / those。",
+  "explanation": [
+    "**this / that** 指单数，**these / those** 指复数。this 和 these 指离说话人近的（这、这些），that 和 those 指离说话人较远的（那、那些）。中文的“这、那”区分相同，但英语还要看单复数。",
+    "作限定词修饰名词时，this / that 后接单数名词：this book、that car；these / those 后接复数名词：these shoes、those students。注意名词也要对应单复数，不要说 this books。",
+    "单独使用时，它们可以直接代替名词：What is this? — It's my pen. / Who are those? — They are my friends. 这时 this 和 that 也可以用来指代一件事情，如 That is a great idea。",
+    "介绍人或打电话时也用 this：This is my sister.（介绍）、This is Anna speaking.（打电话）。问别人是谁，指远处的人时用 Who is that？注意电话里说自己是谁要用 This is...，不说 I am...。",
+    "距离是相对的：在同一地方，离你近的用 this / these，离你远的用 that / those。看图片时，画面里靠近说话人的东西也可以用 this。"
+  ],
+  "mistakes": [
+    "✗ This books are new. → ✓ These books are new. 复数要用 these，名词也要用复数形式。",
+    "✗ Those is my bag. → ✓ That is my bag. 单数要用 that，不能用 those。",
+    "✗ That are my shoes. → ✓ Those are my shoes. 复数要用 those，不能用 that。",
+    "✗ This is my friends. → ✓ These are my friends. 介绍多人时要用 these，并且 be 动词用 are。"
+  ],
+  "examples": [
+    {
+      "text": "This is my new phone.",
+      "translation": "这是我的新手机。"
+    },
+    {
+      "text": "That is my school over there.",
+      "translation": "那边那所是我的学校。"
+    },
+    {
+      "text": "These apples are sweet.",
+      "translation": "这些苹果很甜。"
+    },
+    {
+      "text": "Those people over there are my parents.",
+      "translation": "那边那些人是我的父母。"
+    },
+    {
+      "text": "What is this?",
+      "translation": "这是什么？"
+    },
+    {
+      "text": "Who is that man?",
+      "translation": "那个男人是谁？"
+    },
+    {
+      "text": "This is Anna speaking.",
+      "translation": "我是安娜。（打电话时的说法）"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的指示词。",
+      "sentence": "___ trees over there are very tall.",
+      "translation": "那边那些树很高。",
+      "options": [
+        "This",
+        "These",
+        "That",
+        "Those"
+      ],
+      "answer": 3,
+      "explanation": "trees 是复数，over there 表示远处，用 Those。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的指示词。",
+      "sentence": "Look at ___ bird in my hand!",
+      "translation": "看我手里的这只鸟！",
+      "options": [
+        "those",
+        "this",
+        "these",
+        "that"
+      ],
+      "answer": 1,
+      "explanation": "bird 是单数，在我手里说明距离很近，用 this。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的指示词。",
+      "sentence": "Who is ___ man over there?",
+      "translation": "那边那个男人是谁？",
+      "options": [
+        "this",
+        "those",
+        "that",
+        "these"
+      ],
+      "answer": 2,
+      "explanation": "man 是单数，over there 表示远处，用 that。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的指示词。",
+      "sentence": "___ is a great idea!",
+      "translation": "这是个好主意！",
+      "options": [
+        "These",
+        "This",
+        "Those",
+        "Are"
+      ],
+      "answer": 1,
+      "explanation": "idea 是单数，表示眼前的想法，用 This。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这些是我的朋友。",
+      "options": [
+        "This are my friends.",
+        "These is my friends.",
+        "Those is my friends.",
+        "These are my friends."
+      ],
+      "answer": 3,
+      "explanation": "复数的近指用 These，be 动词用 are。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "那是我的汽车。",
+      "options": [
+        "This is my car.",
+        "Those is my car.",
+        "That is my car.",
+        "That are my car."
+      ],
+      "answer": 2,
+      "explanation": "单数的远指用 That is，表示“那是”。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Those is my pen.",
+        "This is my new bag.",
+        "These are my keys."
+      ],
+      "answer": 0,
+      "explanation": "pen 是单数，应写成 That is my pen. 或 This is my pen."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "That apples are red.",
+        "Who is that boy?",
+        "These books are interesting."
+      ],
+      "answer": 0,
+      "explanation": "apples 是复数，应写成 Those apples are red."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": [
+        "Those",
+        "are",
+        "my",
+        "parents",
+        "over",
+        "there."
+      ],
+      "alternatives": [],
+      "translation": "那边那些人是我的父母。",
+      "explanation": "远处的复数用 Those are，地点放在句末。"
+    }
+  ]
+}

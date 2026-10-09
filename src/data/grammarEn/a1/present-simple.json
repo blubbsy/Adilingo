@@ -1,0 +1,171 @@
+{
+  "id": "e1-present-simple",
+  "cefr": 1,
+  "title": "Present simple · 一般现在时",
+  "tag": "V-s / don't",
+  "pattern": "Subject + V (he / she / it: V-s) · do / does + not + V",
+  "summary": "一般现在时说习惯、事实和常规的事；he、she、it 的动词要加 -s。",
+  "explanation": [
+    "一般现在时表示**习惯、经常发生的事和普遍的事实**：I get up at seven. The sun rises in the east. 它不强调“此刻正在做”，那是现在进行时的内容。",
+    "主语是 he、she、it 或单数名词时，动词要加 **-s / -es**：He works in a hospital. She watches TV every night。规则是多数直接加 -s，以 s、x、ch、sh、o 结尾的加 -es：go → goes，watch → watches。",
+    "否定句使用 **do not / does not**（缩写 don't / doesn't），后面的动词回到原形，不加 s：I don't like coffee. She doesn't like coffee。注意 I、you、we、they 用 do，he、she、it 用 does。",
+    "疑问句把 **Do** 或 **Does** 放在句首，动词同样用原形：Do you play football? Does he live here? 回答时：Yes, I do. / No, she doesn't.",
+    "常见的频率词有 always、usually、often、sometimes、never，它们一般放在实义动词前、be 动词后：She often reads books. / She is always late. 中文“经常”的位置比较灵活，英语要注意这个顺序。"
+  ],
+  "mistakes": [
+    "✗ He go to school every day. → ✓ He goes to school every day. 第三人称单数的动词要加 -es。",
+    "✗ She doesn't likes tea. → ✓ She doesn't like tea. 用了 doesn't 之后，动词要回到原形，不再加 s。",
+    "✗ Does she likes music? → ✓ Does she like music? 问句中同样要用动词原形。",
+    "✗ I am go to bed at ten. → ✓ I go to bed at ten. 一般现在时不需要 am，am 是 be 动词，不能和实义动词 go 连用。"
+  ],
+  "examples": [
+    {
+      "text": "I drink milk every morning.",
+      "translation": "我每天早上喝牛奶。"
+    },
+    {
+      "text": "She works at a big hospital.",
+      "translation": "她在一家大医院工作。"
+    },
+    {
+      "text": "The shop opens at nine.",
+      "translation": "商店九点开门。"
+    },
+    {
+      "text": "We don't watch TV on weekdays.",
+      "translation": "工作日我们不看电视。"
+    },
+    {
+      "text": "Does your father drive to work?",
+      "translation": "你父亲开车上班吗？"
+    },
+    {
+      "text": "He always plays chess on Sundays.",
+      "translation": "他总是在周日下棋。"
+    },
+    {
+      "text": "Water boils at 100 degrees.",
+      "translation": "水在100度沸腾。",
+      "note": "科学事实用一般现在时。"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的动词形式。",
+      "sentence": "She ___ English every day.",
+      "translation": "她每天学英语。",
+      "options": [
+        "study",
+        "studies",
+        "studys",
+        "is study"
+      ],
+      "answer": 1,
+      "explanation": "she 是第三人称单数，studies 中 y 变 i 再加 -es。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的动词形式。",
+      "sentence": "We ___ to school by bus.",
+      "translation": "我们坐公交车去上学。",
+      "options": [
+        "goes",
+        "go",
+        "is going",
+        "going"
+      ],
+      "answer": 1,
+      "explanation": "主语 we 用动词原形 go。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的疑问形式。",
+      "sentence": "___ your brother play football?",
+      "translation": "你弟弟踢足球吗？",
+      "options": [
+        "Do",
+        "Is",
+        "Does",
+        "Has"
+      ],
+      "answer": 2,
+      "explanation": "brother 是单数第三人称，疑问句用 Does。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的否定形式。",
+      "sentence": "My cat ___ fish.",
+      "translation": "我的猫不喜欢鱼。",
+      "options": [
+        "doesn't like",
+        "don't like",
+        "doesn't likes",
+        "isn't like"
+      ],
+      "answer": 0,
+      "explanation": "第三人称单数的否定用 doesn't，后面动词用原形 like。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他每天早上跑步。",
+      "options": [
+        "He run every morning.",
+        "He runs every morning.",
+        "He is run every morning.",
+        "He running every morning."
+      ],
+      "answer": 1,
+      "explanation": "习惯性动作用一般现在时，he 要求动词加 -s。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我妈妈不喝咖啡。",
+      "options": [
+        "My mother doesn't drink coffee.",
+        "My mother don't drinks coffee.",
+        "My mother isn't drink coffee.",
+        "My mother doesn't drinks coffee."
+      ],
+      "answer": 0,
+      "explanation": "第三人称单数用 doesn't，动词回到原形 drink。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The train leaves at six.",
+        "She don't like cake.",
+        "They play tennis on Sundays."
+      ],
+      "answer": 1,
+      "explanation": "she 要用 doesn't，应写成 She doesn't like cake."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Does he speak French?",
+        "Water boils at 100 degrees.",
+        "Do she live here?"
+      ],
+      "answer": 2,
+      "explanation": "she 要用 Does，应写成 Does she live here?"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": [
+        "She",
+        "doesn't",
+        "eat",
+        "meat."
+      ],
+      "alternatives": [],
+      "translation": "她不吃肉。",
+      "explanation": "否定句结构：主语 + doesn't + 动词原形。"
+    }
+  ]
+}

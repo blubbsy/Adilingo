@@ -5,9 +5,9 @@ import {
   BookOpen,
   CheckCircle2,
   ChevronDown,
+  Dumbbell,
   Layers,
   Search,
-  Sparkles,
   Table as TableIcon,
   Volume2,
   Zap,
@@ -26,15 +26,32 @@ import {
   type GrammarWikiArticle,
 } from '../data/englishGrammarWiki';
 import type { SpeechApi } from '../utils/speech';
+import { ENGLISH_GRAMMAR_POINTS } from '../grammar/grammarData';
 import { SpeedControl } from './SpeedControl';
 import { useI18n } from '../i18n/react';
 
-interface Props {
-  speech: SpeechApi;
-  onOpenIrregularVerbs?: () => void;
+export type EnglishGuideTab = 'wiki' | 'tenses' | 'passive';
+
+/** What the learner has open in the guide; kept by the parent so it survives opening a lesson and coming back. */
+export interface EnglishGuideUi {
+  tab: EnglishGuideTab;
+  query: string;
+  category: GrammarCategory | 'all';
+  article: string | null;
 }
 
-type MainTab = 'wiki' | 'tenses' | 'passive';
+export const DEFAULT_ENGLISH_GUIDE_UI: EnglishGuideUi = { tab: 'wiki', query: '', category: 'all', article: null };
+
+interface Props {
+  speech: SpeechApi;
+  ui: EnglishGuideUi;
+  onUiChange: (ui: EnglishGuideUi) => void;
+  onOpenIrregularVerbs?: () => void;
+  /** Opens a grammar lesson that practises the article. */
+  onOpenLesson?: (lessonId: string) => void;
+}
+
+type MainTab = EnglishGuideTab;
 
 const TENSE_GROUPS: (TenseGroup | 'all')[] = ['all', 'present', 'past', 'future', 'conditional'];
 
@@ -45,14 +62,23 @@ const PERSON_TABS: { id: PersonGroup; subjectName: string }[] = [
   { id: 'plural', subjectName: 'We / They' },
 ];
 
-export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
+export function EnglishGrammarGuide({ speech, ui, onUiChange, onOpenIrregularVerbs, onOpenLesson }: Props) {
   const { t, rich } = useI18n();
-  const [activeTab, setActiveTab] = useState<MainTab>('wiki');
-  const [searchQuery, setSearchQuery] = useState('');
+  const activeTab = ui.tab;
+  const searchQuery = ui.query;
+  const selectedWikiCategory = ui.category;
+  const expandedWikiId = ui.article;
+  const setActiveTab = (tab: MainTab) => onUiChange({ ...ui, tab });
+  const setSearchQuery = (query: string) => onUiChange({ ...ui, query });
+  const setSelectedWikiCategory = (category: GrammarCategory | 'all') => onUiChange({ ...ui, category });
+  const setExpandedWikiId = (article: string | null) => onUiChange({ ...ui, article });
 
-  // Wikipedia filter state
-  const [selectedWikiCategory, setSelectedWikiCategory] = useState<GrammarCategory | 'all'>('all');
-  const [expandedWikiId, setExpandedWikiId] = useState<string | null>(null);
+  /** Lessons per wiki article (the lesson names the article it practises). */
+  const lessonsByArticle = useMemo(() => {
+    const map = new Map<string, typeof ENGLISH_GRAMMAR_POINTS>();
+    for (const p of ENGLISH_GRAMMAR_POINTS) if (p.wikiId) map.set(p.wikiId, [...(map.get(p.wikiId) ?? []), p]);
+    return map;
+  }, []);
 
   // Tense guide state
   const [selectedGroup, setSelectedGroup] = useState<TenseGroup | 'all'>('all');
@@ -90,29 +116,20 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
   }, [selectedGroup, searchQuery]);
 
   return (
-    <div className="mx-auto max-w-6xl space-y-6 px-2 py-4 sm:px-4">
-      {/* Header Banner */}
-      <header className="relative overflow-hidden rounded-3xl border border-rose-200/80 bg-gradient-to-br from-rose-50 via-white to-amber-50/40 p-6 shadow-sm dark:border-rose-900/50 dark:from-slate-800 dark:via-slate-800 dark:to-rose-950/20 sm:p-8">
-        <div className="flex flex-wrap items-center justify-between gap-4">
-          <div className="max-w-2xl">
-            <div className="inline-flex items-center gap-1.5 rounded-full bg-rose-100 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-rose-800 dark:bg-rose-950/60 dark:text-rose-300">
-              <Sparkles className="h-3.5 w-3.5" /> {t('english.guide.badge')}
-            </div>
-            <h1 className="mt-3 text-2xl font-black tracking-tight text-slate-900 dark:text-slate-100 sm:text-3xl">
-              {t('english.guide.title')}
-            </h1>
-            <p className="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
-              {rich('english.guide.intro', undefined, {
-                strong: (text) => <strong>{text}</strong>,
-                hl: (text) => <span className="font-semibold text-rose-600 dark:text-rose-400">{text}</span>,
-              })}
-            </p>
-          </div>
+    <div className="space-y-6">
+      <header className="rounded-3xl border border-rose-200/80 bg-gradient-to-br from-rose-50 via-white to-amber-50/40 p-4 shadow-sm dark:border-rose-900/50 dark:from-slate-800 dark:via-slate-800 dark:to-rose-950/20 sm:p-5">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <p className="max-w-2xl text-sm leading-relaxed text-slate-600 dark:text-slate-300">
+            {rich('english.guide.intro', undefined, {
+              strong: (text) => <strong>{text}</strong>,
+              hl: (text) => <span className="font-semibold text-rose-600 dark:text-rose-400">{text}</span>,
+            })}
+          </p>
 
           {onOpenIrregularVerbs && (
             <button
               onClick={onOpenIrregularVerbs}
-              className="inline-flex items-center gap-2 rounded-2xl bg-rose-600 px-5 py-3 text-sm font-bold text-white shadow-lg shadow-rose-600/20 transition hover:bg-rose-700 active:scale-95"
+              className="inline-flex items-center gap-2 rounded-2xl bg-rose-600 px-4 py-2.5 text-sm font-bold text-white shadow-lg shadow-rose-600/20 transition hover:bg-rose-700 active:scale-95"
             >
               <Zap className="h-4 w-4" />
               {t('english.guide.irregularBtn')}
@@ -121,7 +138,7 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
         </div>
 
         {/* Universal Search Bar */}
-        <div className="mt-6 relative">
+        <div className="mt-4 relative">
           <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400" />
           <input
             type="text"
@@ -275,6 +292,23 @@ export function EnglishGrammarGuide({ speech, onOpenIrregularVerbs }: Props) {
                             </div>
                           ))}
                         </div>
+
+                        {(lessonsByArticle.get(art.id)?.length ?? 0) > 0 && onOpenLesson && (
+                          <div className="flex flex-wrap items-center gap-2">
+                            <span className="text-xs font-semibold text-slate-500">{t('english.wiki.practise')}</span>
+                            {lessonsByArticle.get(art.id)!.map((lesson) => (
+                              <button
+                                key={lesson.id}
+                                type="button"
+                                onClick={() => onOpenLesson(lesson.id)}
+                                className="inline-flex items-center gap-1.5 rounded-xl bg-rose-600 px-3 py-1.5 text-xs font-semibold text-white shadow-sm transition hover:bg-rose-700"
+                              >
+                                <Dumbbell className="h-3.5 w-3.5" aria-hidden />
+                                {lesson.title.split(' · ')[0]}
+                              </button>
+                            ))}
+                          </div>
+                        )}
 
                         {/* Pitfalls & Traps */}
                         {art.pitfallsZh && (

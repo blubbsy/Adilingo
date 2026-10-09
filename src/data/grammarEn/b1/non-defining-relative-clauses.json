@@ -1,0 +1,121 @@
+{
+  "id": "e3-non-defining-relative-clauses",
+  "cefr": 3,
+  "title": "Non-defining relative clauses · 非限定性定语从句",
+  "tag": "non-defining",
+  "pattern": "Noun, who / which / whose + clause, (comma before and after)",
+  "summary": "非限定性定语从句对名词作补充说明，前后用逗号隔开，不能用 that，去掉它句子的基本意思仍然完整。",
+  "wikiId": "attributive-clauses",
+  "explanation": [
+    "**非限定性定语从句**只是对前面的名词作补充说明，去掉它，句子的基本意思依然完整。它与限定性从句最大的区别是**前后要加逗号**：My sister, **who lives in Canada**, is coming home next week.（我姐姐住在加拿大，她下周回家）。",
+    "非限定性从句中的关系代词只能是 **who、whom、whose、which**，**不能用 that**。先行词是人时用 who（作主语）或 whom（作宾语），表示“……的”用 whose，先行词是物时用 which：The phone, **which** I bought last year, is broken.",
+    "which 还可以指代前面的整个句子，相当于中文里的“这件事”：He failed the exam, **which** surprised everyone.（他没通过考试，这让大家都很吃惊）。中文常用“这/那”来承接，英语直接用 which 引出补充说明。",
+    "非限定性从句中的关系代词**不能省略**，这一点与限定性从句不同。例如 My uncle, is a pilot. 是错误的，应写成 My uncle, **who** is a pilot, ...（关系代词 who 作主语，不能去掉）。",
+    "非限定性从句多见于书面语，口语里也常用。写作时要注意逗号的位置：逗号必须成对出现，而且从句结束后也要有逗号，除非它处在句末。翻译时，如果中文是“……，他/它……”这样的补充说明，就要用非限定性从句。"
+  ],
+  "mistakes": [
+    "✗ My teacher, that is from London, is kind. → ✓ My teacher, who is from London, is kind. 非限定性从句不能用 that，指人要用 who。",
+    "✗ Tom, lives in Shanghai, is my friend. → ✓ Tom, who lives in Shanghai, is my friend. 非限定性从句中关系代词不能省略，否则主语缺失。",
+    "✗ The bag, which I bought it yesterday, is cheap. → ✓ The bag, which I bought yesterday, is cheap. which 已经作宾语，后面不能再加 it。",
+    "✗ He lost his keys, that made him angry. → ✓ He lost his keys, which made him angry. 指前面的整件事时要用 which，不用 that。"
+  ],
+  "examples": [
+    { "text": "My sister, who lives in Canada, is coming home next week.", "translation": "我姐姐住在加拿大，她下周回家。" },
+    { "text": "The new museum, which opened last year, is very popular.", "translation": "这家新博物馆去年开放，非常受欢迎。" },
+    { "text": "Mr Wang, whose son is a pilot, lives next door.", "translation": "王先生住在隔壁，他的儿子是飞行员。", "note": "whose 后面直接接名词 son。" },
+    { "text": "She passed the test, which made her parents very proud.", "translation": "她通过了考试，这让她的父母非常自豪。", "note": "which 指代前面的整件事。" },
+    { "text": "Paris, which is famous for its art, attracts millions of tourists.", "translation": "巴黎以艺术闻名，每年吸引数百万游客。" },
+    { "text": "Mrs Chen, whom we met at the party, is a famous designer.", "translation": "我们在聚会上见到的陈女士是一位著名设计师。", "note": "whom 作宾语，指人。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的关系代词。",
+      "sentence": "My grandmother, ___ lives in the countryside, still grows her own vegetables.",
+      "translation": "我的奶奶住在乡下，她仍然自己种菜。",
+      "options": ["that", "who", "which", "whose"],
+      "answer": 1,
+      "explanation": "非限定性从句指人且作主语，用 who；不能用 that。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的关系代词。",
+      "sentence": "The concert, ___ was cancelled, will be held next month.",
+      "translation": "那场被取消的音乐会将在下个月举行。",
+      "options": ["that", "who", "which", "whose"],
+      "answer": 2,
+      "explanation": "先行词 concert 是物，非限定性从句用 which。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这部电影很好看，它是去年拍的。",
+      "options": [
+        "The film, which was made last year, is very good.",
+        "The film, that was made last year, is very good.",
+        "The film which was made last year, is very good.",
+        "The film, who was made last year, is very good."
+      ],
+      "answer": 0,
+      "explanation": "非限定性从句前后都要有逗号，指物用 which。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "My cousin, who is a nurse, lives in Beijing.",
+        "My cousin, is a nurse, lives in Beijing.",
+        "My cousin, who lives in Beijing, is a nurse."
+      ],
+      "answer": 1,
+      "explanation": "缺少关系代词 who，应改为 My cousin, who is a nurse, lives in Beijing。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["My", "father,", "who", "is", "a", "driver,", "is", "tired."],
+      "alternatives": [],
+      "translation": "我的父亲是司机，他很累。",
+      "explanation": "who 引导的补充说明夹在两个逗号之间。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的关系代词。",
+      "sentence": "The film, ___ we saw last night, was very long.",
+      "translation": "我们昨晚看的那部电影很长。",
+      "options": ["that", "who", "whom", "which"],
+      "answer": 3,
+      "explanation": "先行词是物，且在从句中作宾语，非限定性从句用 which。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的关系代词。",
+      "sentence": "He missed the bus, ___ made him late.",
+      "translation": "他错过了公交车，这让他迟到了。",
+      "options": ["what", "that", "who", "which"],
+      "answer": 3,
+      "explanation": "which 可以指代前面的整件事；that 不能用于非限定性从句。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "李老师（她教我们英语）今天没有来。",
+      "options": [
+        "Mrs Li, who teaches us English, did not come today.",
+        "Mrs Li, who teaches us English did not come today.",
+        "Mrs Li, that teaches us English, did not come today.",
+        "Mrs Li, whom teaches us English, did not come today."
+      ],
+      "answer": 0,
+      "explanation": "指人作主语用 who，且前后都要用逗号隔开。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "hotel,", "which", "is", "near", "the", "station,", "is", "new."],
+      "alternatives": [],
+      "translation": "这家酒店靠近车站，是新开的。",
+      "explanation": "which 从句 which is near the station 放在两个逗号之间。"
+    }
+  ]
+}

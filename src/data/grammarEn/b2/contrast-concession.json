@@ -1,0 +1,136 @@
+{
+  "id": "e4-contrast-concession",
+  "cefr": 4,
+  "title": "Contrast and concession · 让步与对比",
+  "tag": "although",
+  "pattern": "Although / Even though + clause, clause  ·  Despite / In spite of + noun / -ing, clause  ·  clause; however, clause",
+  "summary": "although 等连词后面接从句，despite 等介词后面接名词或动名词；however、nevertheless 等副词连接两个独立句子。",
+  "explanation": [
+    "**让步状语** 表示“虽然……但是……”，中文常用“虽然”“尽管”“即使”。英语里有两类词：**连词**（although、though、even though）后面接 **主语 + 谓语** 的从句：**Although** it was cold, we went swimming.（虽然天气很冷，我们还是去游泳了。）**介词**（despite、in spite of）后面接 **名词、代词或动名词**：**Despite** the heavy traffic, we arrived on time.（尽管交通拥堵，我们还是准时到了。）",
+    "注意：**despite 后面不能加 of**，正确的是 despite the rain，不是 despite of the rain。另外，**in spite of the fact that** 后面接从句，比 despite 更正式。学习者最容易犯的错误是把两类结构混在一起，写出 Despite he was tired 这样的句子。",
+    "**although 与 but 不能同时使用**。中文“虽然……但是……”很容易让人写成 Although … but …，这在英语中是错误的，只需要保留其中一个。同样，even though 也只出现在从句前，不能与 despite 连用。",
+    "**however、nevertheless、nonetheless** 是副词，用来连接两个独立的句子，前面要用分号或句号，后面用逗号：The food was delicious; **however**, the service was slow.（食物很美味，但服务很慢。）**whereas** 与 **while** 也可以表示对比，但它们是连词，后面直接接从句，不要和 however 同时使用。",
+    "**对比与让步的语气不同**：although 强调“虽然事实如此，但结果仍然……”；whereas 则是单纯对比两件事，如 Tom likes jazz, **whereas** his brother prefers rock.（汤姆喜欢爵士，而他哥哥更喜欢摇滚。）选择时要看中文语境是“让步”还是单纯“对比”。"
+  ],
+  "mistakes": [
+    "✗ Although it was raining, but we went out. → ✓ Although it was raining, we went out. 中文“虽然……但是……”只能保留一个连接词，不能同时用 although 和 but。",
+    "✗ Despite of the rain, we went out. → ✓ Despite the rain, we went out. despite 是介词，后面不能加 of。",
+    "✗ Despite he was tired, he kept working. → ✓ Although he was tired, he kept working. despite 后面要接名词或动名词，接从句时要用 although。",
+    "✗ The food was delicious, however the service was slow. → ✓ The food was delicious; however, the service was slow. however 是副词，不能直接用逗号连接两个独立句子，应使用分号。"
+  ],
+  "examples": [
+    { "text": "Although it was cold, we went swimming.", "translation": "虽然天气很冷，我们还是去游泳了。" },
+    { "text": "Even though she was exhausted, she finished the marathon.", "translation": "尽管她已经筋疲力尽，还是跑完了马拉松。" },
+    { "text": "Despite the heavy traffic, we arrived on time.", "translation": "尽管交通拥堵，我们还是准时到了。" },
+    { "text": "In spite of having little experience, he got the job.", "translation": "尽管经验不多，他还是得到了这份工作。", "note": "in spite of 后接动名词。" },
+    { "text": "The plan was risky; nevertheless, we decided to try it.", "translation": "这个计划有风险，但我们还是决定试一试。" },
+    { "text": "Tom likes coffee, whereas his sister prefers tea.", "translation": "汤姆喜欢咖啡，而他妹妹更喜欢茶。", "note": "whereas 单纯表示对比。" },
+    { "text": "The food was delicious; however, the service was slow.", "translation": "食物很美味，但服务很慢。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "___ it was raining, we decided to go for a walk.",
+      "translation": "虽然下着雨，我们还是决定去散步。",
+      "options": ["Despite", "Although", "In spite", "However"],
+      "answer": 1,
+      "explanation": "后面接主谓从句，要用连词 although。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "___ the bad weather, the match went ahead.",
+      "translation": "尽管天气很糟，比赛还是照常进行。",
+      "options": ["Although", "However", "Even though", "Despite"],
+      "answer": 3,
+      "explanation": "后面接名词短语 the bad weather，要用介词 despite。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Tom likes jazz, ___ his brother prefers rock.",
+      "translation": "汤姆喜欢爵士乐，而他哥哥更喜欢摇滚。",
+      "options": ["whereas", "despite", "however", "in spite of"],
+      "answer": 0,
+      "explanation": "单纯对比两件事，用连词 whereas，后面接完整的从句。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "尽管下着大雨，我们还是准时到了。",
+      "options": [
+        "Despite the heavy rain, but we arrived on time.",
+        "Despite the heavy rain, we arrived on time.",
+        "Despite of the heavy rain, we arrived on time.",
+        "Despite it rained heavily, we arrived on time."
+      ],
+      "answer": 1,
+      "explanation": "despite 后接名词短语 the heavy rain，后面直接接主句，不能再加 but 或 of。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "虽然他很努力，但是没有通过考试。",
+      "options": [
+        "Although he worked hard, but he did not pass the exam.",
+        "Despite he worked hard, he did not pass the exam.",
+        "Although he worked hard, he did not pass the exam.",
+        "In spite he worked hard, he did not pass the exam."
+      ],
+      "answer": 2,
+      "explanation": "although 后接完整从句，主句前不再加 but。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这座城市很大，然而交通却很方便。",
+      "options": [
+        "The city is big, however transport is convenient.",
+        "The city is big, but however transport is convenient.",
+        "The city is big, however is transport convenient.",
+        "The city is big; however, transport is convenient."
+      ],
+      "answer": 3,
+      "explanation": "however 连接两个独立句子，前面用分号，后面用逗号。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "Although the road was closed, we found another way.",
+        "Despite of the rain, the children played outside.",
+        "Even though he was ill, he went to work."
+      ],
+      "answer": 1,
+      "explanation": "despite 是介词，后面不能加 of，应写成 Despite the rain。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "In spite of the delay, the concert was great.",
+        "Despite having little money, she bought a gift.",
+        "Although it was late, but we kept talking."
+      ],
+      "answer": 2,
+      "explanation": "although 和 but 不能同时使用，应删去 but。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Although", "the", "film", "was", "long,", "I", "enjoyed", "it", "very", "much."],
+      "alternatives": [],
+      "translation": "虽然这部电影很长，我还是非常喜欢。",
+      "explanation": "Although 引导让步从句，主句中不再使用 but。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Despite", "all", "the", "warnings,", "they", "decided", "to", "climb", "the", "mountain."],
+      "alternatives": [],
+      "translation": "尽管有各种警告，他们还是决定去爬那座山。",
+      "explanation": "Despite 后接名词短语 all the warnings，主句是 they decided to climb。"
+    }
+  ]
+}

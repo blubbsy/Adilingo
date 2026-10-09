@@ -1,0 +1,173 @@
+{
+  "id": "e1-present-continuous",
+  "cefr": 1,
+  "title": "Present continuous · 现在进行时",
+  "tag": "be + V-ing",
+  "pattern": "Subject + am / is / are + (not) + V-ing",
+  "summary": "现在进行时表示此刻正在进行的动作：be + 动词-ing。",
+  "explanation": [
+    "现在进行时表示**此刻正在进行**的动作，或“这段时间内正在做”的事。结构是 **am / is / are + 动词-ing**。中文“正在”可以对应它，但英语的 -ing 必须和 be 动词一起使用，不能单独出现。",
+    "动词加 -ing 的拼写规则：一般直接加 -ing（play → playing）；以不发音的 e 结尾，去掉 e 再加 -ing（write → writing，make → making）；短元音加单辅音结尾的，双写末尾辅音（run → running，swim → swimming）。",
+    "否定句在 be 动词后加 not：She isn't sleeping. 疑问句把 be 动词提到句首：Are they working now? 回答用 Yes, they are. / No, they aren't.",
+    "它和一般现在时的区别在于：一般现在时说**习惯**（I usually walk to school），现在进行时说**此刻或当前阶段**（I'm walking to school now；We are living in Beijing these days）。",
+    "有些动词通常不用进行时，比如 like、want、know、understand，以及表示拥有的 have。要说 I like this song，而不是 I am liking this song。这类动词表示状态，不是动作。"
+  ],
+  "mistakes": [
+    "✗ I am eat dinner now. → ✓ I am eating dinner now. 进行时的动词要用 -ing 形式。",
+    "✗ They are play football. → ✓ They are playing football. be 动词后面要接 -ing，不能用原形。",
+    "✗ He is writeing a letter. → ✓ He is writing a letter. 以不发音的 e 结尾，去掉 e 再加 -ing。",
+    "✗ I am knowing the answer. → ✓ I know the answer. know 是表示状态的动词，一般不用进行时。"
+  ],
+  "examples": [
+    {
+      "text": "I am reading a book now.",
+      "translation": "我现在正在看书。"
+    },
+    {
+      "text": "She is cooking dinner.",
+      "translation": "她正在做晚饭。"
+    },
+    {
+      "text": "They are not watching TV.",
+      "translation": "他们没有在看电视。"
+    },
+    {
+      "text": "Are you listening to me?",
+      "translation": "你在听我说话吗？"
+    },
+    {
+      "text": "We are living in Beijing these days.",
+      "translation": "这段时间我们住在北京。",
+      "note": "these days 表示“最近这段时间”。"
+    },
+    {
+      "text": "It is raining, so take an umbrella.",
+      "translation": "正在下雨，带把伞吧。"
+    },
+    {
+      "text": "The children are running in the park.",
+      "translation": "孩子们正在公园里跑。"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的时态。",
+      "sentence": "Look! The baby ___.",
+      "translation": "看！宝宝正在睡觉。",
+      "options": [
+        "sleeps",
+        "is sleeping",
+        "sleeping",
+        "sleep"
+      ],
+      "answer": 1,
+      "explanation": "Look! 提示此刻正在发生的事，用 is sleeping。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的时态。",
+      "sentence": "We ___ lunch at the moment.",
+      "translation": "我们现在正在吃午饭。",
+      "options": [
+        "are having",
+        "have",
+        "is having",
+        "having"
+      ],
+      "answer": 0,
+      "explanation": "at the moment 表示此刻，用现在进行时，主语 we 用 are。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Tom ___ a letter now.",
+      "translation": "汤姆现在正在写一封信。",
+      "options": [
+        "is write",
+        "writing",
+        "is writing",
+        "writes"
+      ],
+      "answer": 2,
+      "explanation": "now 提示进行时，结构是 is + writing。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Are they ___ TV?",
+      "translation": "他们在看电视吗？",
+      "options": [
+        "watching",
+        "watch",
+        "watches",
+        "to watch"
+      ],
+      "answer": 0,
+      "explanation": "进行时的疑问句中，动词用 -ing 形式。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我现在正在写作业。",
+      "options": [
+        "I write my homework now.",
+        "I am write my homework now.",
+        "I am writing my homework now.",
+        "I writing my homework now."
+      ],
+      "answer": 2,
+      "explanation": "now 提示进行时，结构是 am writing。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他们现在不在吃饭。",
+      "options": [
+        "They don't eating now.",
+        "They aren't eating now.",
+        "They not eat now.",
+        "They isn't eating now."
+      ],
+      "answer": 1,
+      "explanation": "进行时的否定：are + not + -ing，缩写为 aren't。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "I am knowing the answer.",
+        "She is singing a song.",
+        "He is running fast."
+      ],
+      "answer": 0,
+      "explanation": "know 通常不用进行时，应写成 I know the answer."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "We are waiting for the bus.",
+        "It is rain now.",
+        "My mother is cooking."
+      ],
+      "answer": 1,
+      "explanation": "进行时要用 raining，应写成 It is raining now."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": [
+        "My",
+        "father",
+        "is",
+        "reading",
+        "a",
+        "newspaper."
+      ],
+      "alternatives": [],
+      "translation": "我爸爸正在读报纸。",
+      "explanation": "结构是主语 + be + 动词-ing + 宾语。"
+    }
+  ]
+}

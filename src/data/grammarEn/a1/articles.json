@@ -1,0 +1,116 @@
+{
+  "id": "e1-articles",
+  "cefr": 1,
+  "title": "Articles: a, an, the · 冠词",
+  "tag": "a / an / the",
+  "pattern": "a / an (any one) · the (specific) · no article (general plural / uncountable)",
+  "summary": "a / an 表示“一个”，the 表示“那个特定的”，泛指复数和不可数名词通常不加冠词。",
+  "wikiId": "articles-rules",
+  "explanation": [
+    "英语有三种冠词：**a / an**（不定冠词，表示“一个”，只用于可数名词单数）和 **the**（定冠词，表示“那个、这个”，指双方都知道的特定事物）。中文没有冠词，所以要特别留意。",
+    "选 a 还是 an 看**读音**，不看拼写：元音音素开头用 an，如 an apple、an hour（h 不发音）、an umbrella；辅音音素开头用 a，如 a book、a university（读 /ju/，以辅音开头）、a one-day trip。",
+    "**the** 用于：说话双方都知道的东西（Please close the door.）、前面已经提到过的人或物（I bought a car. The car is red.）、独一无二的事物（the sun、the moon）以及序数和方位（the first floor）。",
+    "**不加冠词**的常见情况：泛指的复数名词或不可数名词（Dogs are friendly. / Milk is good for you.），以及一些固定搭配，如 go to school、have breakfast、by bus、at home。",
+    "中文说“我喜欢狗”，英语是 I like dogs，这里是泛指一类动物，不加冠词；而 I like the dog 指的是某一只特定的狗。泛指还是特指，是使用冠词的核心。"
+  ],
+  "mistakes": [
+    "✗ I have a apple. → ✓ I have an apple. apple 以元音音素开头，要用 an。",
+    "✗ I like the dogs. → ✓ I like dogs. 泛指一类事物时，复数名词前不加 the。",
+    "✗ She goes to school by the bus. → ✓ She goes to school by bus. by + 交通工具的结构中，名词前不加冠词。",
+    "✗ A sun is very hot. → ✓ The sun is very hot. 独一无二的事物（太阳）前要用 the。"
+  ],
+  "examples": [
+    { "text": "I have a pen and an eraser.", "translation": "我有一支钢笔和一块橡皮。" },
+    { "text": "She is an engineer.", "translation": "她是工程师。" },
+    { "text": "Please open the window.", "translation": "请打开窗户。", "note": "说话双方都知道是哪扇窗。" },
+    { "text": "I saw a dog. The dog was very big.", "translation": "我看见一只狗，那只狗很大。", "note": "第一次提到用 a，再次提到用 the。" },
+    { "text": "Dogs are my favorite animals.", "translation": "狗是我最喜欢的动物。", "note": "泛指复数，不加冠词。" },
+    { "text": "We have breakfast at seven.", "translation": "我们七点吃早饭。" },
+    { "text": "He comes to school by bike.", "translation": "他骑自行车来学校。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的冠词。",
+      "sentence": "I need ___ umbrella today.",
+      "translation": "我今天需要一把雨伞。",
+      "options": ["a", "an", "the", "some"],
+      "answer": 1,
+      "explanation": "umbrella 以元音音素开头，且是可数名词单数，用 an。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的冠词。",
+      "sentence": "___ sun rises in the east.",
+      "translation": "太阳从东方升起。",
+      "options": ["A", "An", "The", "Some"],
+      "answer": 2,
+      "explanation": "太阳是独一无二的，用 the。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的冠词。",
+      "sentence": "I have a cat. ___ cat is black.",
+      "translation": "我有一只猫，这只猫是黑色的。",
+      "options": ["Cat", "A", "An", "The"],
+      "answer": 3,
+      "explanation": "前面已经提到过这只猫，第二次提到用 the。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的表达。",
+      "sentence": "We go to ___ by bus.",
+      "translation": "我们坐公交车去学校。",
+      "options": ["the school", "a school", "school", "schools"],
+      "answer": 2,
+      "explanation": "go to school 表示“去上学”，school 前不加冠词。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的冠词。",
+      "sentence": "She is ___ honest girl.",
+      "translation": "她是一个诚实的女孩。",
+      "options": ["an", "a", "the", "some"],
+      "answer": 0,
+      "explanation": "honest 的 h 不发音，以元音音素开头，用 an。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我喜欢狗。",
+      "options": ["I like dog.", "I like the dogs.", "I like dogs.", "I like a dog."],
+      "answer": 2,
+      "explanation": "泛指一类动物用复数，不加冠词。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们每天吃早饭。",
+      "options": ["We have the breakfast every day.", "We have breakfast every day.", "We has breakfast every day.", "We have a breakfast every day."],
+      "answer": 1,
+      "explanation": "have breakfast 是固定搭配，breakfast 前不加冠词。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I have a apple.", "He is an honest man.", "The sun is hot today."],
+      "answer": 0,
+      "explanation": "apple 以元音音素开头，应写成 an apple。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["Dogs are friendly animals.", "She goes to school by the bus.", "We live in a big city."],
+      "answer": 1,
+      "explanation": "by bus 中交通工具前不加冠词，应写成 by bus。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "bird", "is", "in", "the", "tree."],
+      "alternatives": [],
+      "translation": "鸟在树上。",
+      "explanation": "第一个 the 指特定的鸟和树，句首要大写。"
+    }
+  ]
+}

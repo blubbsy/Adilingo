@@ -1,0 +1,113 @@
+{
+  "id": "e2-past-simple",
+  "cefr": 2,
+  "title": "Past simple · 一般过去时",
+  "tag": "V2 / did",
+  "pattern": "Subject + V2 + object  Did + subject + V? ",
+  "summary": "谈论过去已经结束的动作：规则动词加 -ed，不规则动词要单独记，疑问和否定借助 did。",
+  "explanation": [
+    "**一般过去时**表示过去某个时间发生并且已经结束的动作，常和 yesterday、last week、in 2010、two days ago 等时间词一起出现：I **visited** my grandmother last weekend. 中文没有时态变化，常用“了”“过”来表示过去；英语则要改变动词本身的形式。",
+    "**规则动词**在词尾加 **-ed**：walk → walked，play → played。以辅音字母加 y 结尾的词要把 y 改成 i 再加 -ed：study → studied。以一个不发音的 e 结尾，只加 -d：live → lived。单音节且末尾是“一个元音加一个辅音”的词要双写末尾辅音：stop → stopped。",
+    "**不规则动词**没有固定规律，必须逐个记住：go → went，have → had，see → saw，buy → bought，take → took。好消息是，无论主语是 I、he 还是 they，过去式的形式都不变，不需要像一般现在时那样加 -s。",
+    "**疑问句和否定句**要借助 **did**（否定是 didn't）。助动词 did 已经带上了过去的信息，所以后面的实义动词要还原成**原形**：Did she **go** to Beijing? / I didn't **see** the film. 常见错误是在 did 后面再用过去式，因此不能写成 Did she went?。be 动词是例外：was 和 were 本身就是过去式，它们的疑问和否定直接用 Was/Were 和 wasn't/weren't，不需要 did。",
+    "学习时可以把一般过去时想成“过去的一个完整事件”：先判断动作是否已经结束、时间是否明确，再决定用哪种形式。如果动作与现在仍有联系，或者没有明确的过去时间，就不要用一般过去时（这部分在现在完成时一课中会学到）。"
+  ],
+  "mistakes": [
+    "✗ I goed to school yesterday. → ✓ I went to school yesterday. go 是不规则动词，过去式是 went，不能再加 -ed。",
+    "✗ Did she went to Beijing? → ✓ Did she go to Beijing? 句中已经有 did，后面的动词必须用原形 go。",
+    "✗ I didn't saw the film. → ✓ I didn't see the film. 否定句同样要用原形 see，不能用过去式 saw。",
+    "✗ Yesterday I am at home. → ✓ Yesterday I was at home. 表示过去状态的 be 动词要用 was 或 were，不能用 am。"
+  ],
+  "examples": [
+    { "text": "We played football after school yesterday.", "translation": "昨天放学后我们踢了足球。" },
+    { "text": "She studied English for three years.", "translation": "她学了三年英语。", "note": "study 的过去式是 studied，y 要改成 i。" },
+    { "text": "I bought a new bag last week.", "translation": "我上周买了一个新包。", "note": "buy 是不规则动词，过去式是 bought。" },
+    { "text": "Did you see the news this morning?", "translation": "你今天早上看到那条新闻了吗？", "note": "疑问句用 did + 原形 see。" },
+    { "text": "He didn't come to the party.", "translation": "他没有来参加聚会。" },
+    { "text": "They were tired after the long trip.", "translation": "长途旅行后他们很累。", "note": "was / were 本身就是过去式，不需要 did。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的过去式。",
+      "sentence": "We ___ to the zoo last Sunday.",
+      "translation": "上周日我们去了动物园。",
+      "options": ["go", "goed", "went", "are going"],
+      "answer": 2,
+      "explanation": "last Sunday 表示过去，go 的过去式是不规则形式 went。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的疑问形式。",
+      "sentence": "___ you finish your homework last night?",
+      "translation": "你昨晚做完作业了吗？",
+      "options": ["Do", "Were", "Did", "Have"],
+      "answer": 2,
+      "explanation": "一般过去时的疑问句用 Did + 主语 + 动词原形。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的过去式。",
+      "sentence": "She ___ her keys yesterday and couldn't open the door.",
+      "translation": "她昨天把钥匙弄丢了，所以开不了门。",
+      "options": ["loses", "has lost", "is losing", "lost"],
+      "answer": 3,
+      "explanation": "yesterday 是明确的过去时间，应用一般过去时 lost，而不是现在完成时 has lost。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的过去式。",
+      "sentence": "I ___ to bed early last night because I was sick.",
+      "translation": "我昨晚因为生病，很早就上床睡觉了。",
+      "options": ["went", "go", "goes", "going"],
+      "answer": 0,
+      "explanation": "go 的过去式是 went，表示昨晚已经发生的动作。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我上个月没有看那部电影。",
+      "options": ["I didn't saw that film last month.", "I didn't see that film last month.", "I don't see that film last month.", "I didn't seen that film last month."],
+      "answer": 1,
+      "explanation": "否定句用 didn't + 动词原形 see。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "你什么时候学的中文？",
+      "options": ["When did you learned Chinese?", "When you learned Chinese?", "When did you learn Chinese?", "When were you learn Chinese?"],
+      "answer": 2,
+      "explanation": "did 之后动词用原形 learn，不能再用 learned。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["We watched a film on Friday.", "He didn't called me last night.", "They bought a car last year."],
+      "answer": 1,
+      "explanation": "didn't 之后要用动词原形 call，应写成 He didn't call me last night."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["She didn't took the bus.", "It rained a lot last week.", "We had a great time."],
+      "answer": 0,
+      "explanation": "didn't 之后用原形 take，应写成 She didn't take the bus."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Did", "you", "see", "the", "news", "this", "morning?"],
+      "alternatives": [],
+      "translation": "你今天早上看到新闻了吗？",
+      "explanation": "一般过去时的疑问句：Did + 主语 + 动词原形。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["We", "visited", "our", "grandparents", "on", "Sunday."],
+      "alternatives": [],
+      "translation": "周日我们去看望了祖父母。",
+      "explanation": "肯定句：主语 + 动词过去式 + 宾语 + 时间状语。"
+    }
+  ]
+}

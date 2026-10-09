@@ -1,0 +1,115 @@
+{
+  "id": "e3-adverbs-types-placement",
+  "cefr": 3,
+  "title": "Adverbs: types & placement · 副词的种类与位置",
+  "tag": "adverbs",
+  "pattern": "Subject + Verb + adverb of manner  ·  Subject + adverb of frequency + Verb",
+  "summary": "副词修饰动词、形容词或整句；多数方式副词由形容词加 -ly 构成，位置要根据副词的种类来决定。",
+  "explanation": [
+    "副词可以修饰动词、形容词、其他副词，也可以修饰整个句子。常见类型有：**方式副词**（quickly、carefully、well）说明“怎样做”，**地点副词**（here、there、outside）说明“在哪里”，**时间副词**（yesterday、now、soon）说明“什么时候”，**程度副词**（very、quite、too）说明“程度如何”，**频率副词**（always、often、never）说明“多久一次”。",
+    "大多数方式副词由形容词加 **-ly** 构成：quick → quickly，careful → carefully。注意：以辅音字母加 y 结尾的形容词要变为 -ily（happy → happily）；以 -le 结尾的变为 -ly（gentle → gently）；good 的副词是 **well**，不能写成 goodly。",
+    "方式副词通常放在动词之后，如果有宾语，则放在宾语之后：She speaks English **fluently**. / She sings **beautifully**. 地点和时间副词一般放在句末：I live **here**. / We'll meet **tomorrow**. 如果两者同时出现，通常是“方式 → 地点 → 时间”的顺序：She works **hard** at school **every day**.",
+    "频率副词（always、usually、often、sometimes、never）放在实义动词之前，但放在 be 动词之后：She **often** works late. / She **is** always happy.（不要写成 She is happy always。）助动词 have 或 be 的进行时之后，频率副词则放在助动词与实义动词之间：I have **never** seen that film.",
+    "形容词修饰名词，副词修饰动词、形容词或副词，中文的“的”和“地”在这里起了区分作用：a quick answer（一个快速的回答）与 answer quickly（快速地回答）。注意 fast、hard、early、late 既是形容词也是副词，形式相同，但 hardly 是“几乎不”的意思，不要混淆。"
+  ],
+  "mistakes": [
+    "✗ She speaks English very good. → ✓ She speaks English very well. 修饰动词的方式副词要用 well，不能用形容词 good。",
+    "✗ He runs quick. → ✓ He runs quickly. 修饰动词要用副词 quickly，形容词 quick 不能直接修饰动词。",
+    "✗ She often is late. → ✓ She is often late. 频率副词位于 be 动词之后、实义动词之前。"
+  ],
+  "examples": [
+    { "text": "She speaks English fluently.", "translation": "她英语说得很流利。", "note": "方式副词放在动词之后。" },
+    { "text": "He drove carefully through the snow.", "translation": "他小心地在雪地里开车。" },
+    { "text": "I'll call you later.", "translation": "我待会儿给你打电话。", "note": "时间副词放在句末。" },
+    { "text": "They usually have lunch at noon.", "translation": "他们通常在中午吃午饭。", "note": "频率副词放在实义动词之前。" },
+    { "text": "The concert was extremely loud.", "translation": "这场音乐会的声音非常大。", "note": "程度副词修饰形容词。" },
+    { "text": "Please put the bags here.", "translation": "请把包放在这里。", "note": "地点副词放在句末。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的副词形式。",
+      "sentence": "She sings ___ at the school concert.",
+      "translation": "她在学校音乐会上唱得非常优美。",
+      "options": ["beautiful", "beautifully", "beauty", "beautifuly"],
+      "answer": 1,
+      "explanation": "修饰动词 sings 要用副词 beautifully；y 结尾的形容词变为 -ily。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的副词位置。",
+      "sentence": "I ___ forget my keys.",
+      "translation": "我从来不会忘记带钥匙。",
+      "options": ["forget never", "never forget", "never forgets", "forgets never"],
+      "answer": 1,
+      "explanation": "频率副词 never 放在实义动词 forget 之前，且 I 后面动词不加 -s。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "她很快地回了我的邮件。",
+      "options": [
+        "She answered my email quickly.",
+        "She answered quick my email.",
+        "She quick answered my email.",
+        "She answered my email quick."
+      ],
+      "answer": 0,
+      "explanation": "修饰动词 answered 的方式副词要用 quickly，并放在宾语之后。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "He plays the piano well.",
+        "He drives very careful.",
+        "She is always happy."
+      ],
+      "answer": 1,
+      "explanation": "修饰动词要用副词，应改为 He drives very carefully。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["They", "usually", "have", "lunch", "at", "noon."],
+      "alternatives": [],
+      "translation": "他们通常在中午吃午饭。",
+      "explanation": "频率副词 usually 放在实义动词 have 之前。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的副词。",
+      "sentence": "The film was ___ interesting.",
+      "translation": "这部电影非常有意思。",
+      "options": ["very", "much", "many", "enough"],
+      "answer": 0,
+      "explanation": "程度副词 very 修饰形容词 interesting。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的副词形式。",
+      "sentence": "They walked ___ through the quiet village.",
+      "translation": "他们慢慢地走过安静的村庄。",
+      "options": ["slow", "slowly", "slowness", "slower"],
+      "answer": 1,
+      "explanation": "修饰动词 walked 要用副词 slowly。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["She", "answered", "my", "question", "carefully."],
+      "alternatives": [],
+      "translation": "她仔细地回答了我的问题。",
+      "explanation": "方式副词 carefully 放在宾语 my question 之后。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的副词。",
+      "sentence": "We ___ play tennis on Sundays.",
+      "translation": "我们星期天通常打网球。",
+      "options": ["often", "usual", "sometime", "is often"],
+      "answer": 0,
+      "explanation": "频率副词 often 放在实义动词 play 之前。"
+    }
+  ]
+}

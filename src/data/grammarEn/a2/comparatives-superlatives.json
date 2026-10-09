@@ -1,0 +1,113 @@
+{
+  "id": "e2-comparatives-superlatives",
+  "cefr": 2,
+  "title": "Comparatives & superlatives · 比较级与最高级",
+  "tag": "-er / more",
+  "pattern": "Adjective-er + than  the + adjective-est  more / most + adjective",
+  "summary": "两者比较用比较级加 than，三者以上比较用最高级；短词加 -er / -est，长词前加 more / most。",
+  "explanation": [
+    "**比较级**用于两个事物之间的比较，后面接 **than**：My room is **bigger than** yours. **最高级**用于三个或三个以上事物中“最……”，前面要加定冠词 the：This river is **the longest** in the country. 中文的“更”“最”对应英语的比较级和最高级，但英语要加上 than 或 the。",
+    "**单音节词和以 -y 结尾的双音节词**加 -er / -est：tall → taller → the tallest；easy → easier → the easiest。以不发音的 e 结尾的词只加 -r / -st：nice → nicer。以“一个元音加一个辅音”结尾的单音节词要双写末尾辅音：big → bigger → the biggest，hot → hotter → the hottest。注意：单音节词不能和 more / most 同时使用。",
+    "**多音节词**（一般三个音节或更多，还有大部分双音节形容词）前面加 **more / most**：beautiful → more beautiful → the most beautiful；difficult → more difficult → the most difficult。中文学习者常常想当然地把 more 加在所有形容词前，这需要按音节数来判断。",
+    "**同等程度**用 **as ... as**，表示“和……一样”：She is **as tall as** her mother. 否定时用 not as ... as，表示“没有……那么”：This bag is not as heavy as that one. 注意 as...as 中间是形容词原形，不加比较级形式。",
+    "有几个词的比较级和最高级是**不规则**的，需要单独记：good → better → the best；bad → worse → the worst；far → farther / further → the farthest / furthest。其中 good 的比较级 better 最常用，中文“更好”就对应 better，不能说 more good。"
+  ],
+  "mistakes": [
+    "✗ My sister is more tall than me. → ✓ My sister is taller than me. 单音节词用 -er，不要和 more 同时使用。",
+    "✗ This test is the most easy. → ✓ This test is the easiest. easy 是 -y 结尾的双音节词，最高级用 the easiest。",
+    "✗ My English is more good than yours. → ✓ My English is better than yours. good 的比较级是不规则形式 better。",
+    "✗ She is as tall than her brother. → ✓ She is as tall as her brother. 表示同等程度要用 as ... as，不用 than。"
+  ],
+  "examples": [
+    { "text": "My house is bigger than yours.", "translation": "我的房子比你的大。" },
+    { "text": "This river is the longest in the country.", "translation": "这条河是全国最长的。" },
+    { "text": "English is more difficult than I expected.", "translation": "英语比我预想的难。", "note": "多音节词用 more。" },
+    { "text": "She is as tall as her mother.", "translation": "她和她妈妈一样高。", "note": "同等程度用 as ... as。" },
+    { "text": "This is the best day of my life.", "translation": "这是我一生中最美好的一天。", "note": "good 的最高级是不规则的 best。" },
+    { "text": "Public transport is often faster than driving in the city.", "translation": "在城市里，公共交通通常比开车快。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的比较级。",
+      "sentence": "My new bag is ___ than my old one.",
+      "translation": "我的新包比旧的大。",
+      "options": ["big", "bigger", "more big", "biggest"],
+      "answer": 1,
+      "explanation": "单音节词 big 的比较级是 bigger，要双写 g 再加 -er。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的最高级。",
+      "sentence": "This is ___ restaurant in the city.",
+      "translation": "这是城里最贵的餐厅。",
+      "options": ["the most expensive", "the expensivest", "most expensive", "more expensive"],
+      "answer": 0,
+      "explanation": "expensive 是多音节词，最高级是 the most expensive。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的比较结构。",
+      "sentence": "Today's weather is ___ yesterday.",
+      "translation": "今天的天气和昨天一样好。",
+      "options": ["good than", "better as", "as good as", "as good than"],
+      "answer": 2,
+      "explanation": "表示同等程度用 as good as。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的比较级。",
+      "sentence": "He runs ___ than his brother.",
+      "translation": "他跑得比他哥哥快。",
+      "options": ["fastest", "more fast", "faster", "most fast"],
+      "answer": 2,
+      "explanation": "fast 是单音节词，比较级用 faster，后接 than。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我的英语比你的好。",
+      "options": ["My English is more good than yours.", "My English is better than yours.", "My English is gooder than yours.", "My English is best than yours."],
+      "answer": 1,
+      "explanation": "good 的比较级是 better，后接 than。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这是我见过的最有趣的电影。",
+      "options": ["This is the interestingest film I have ever seen.", "This is the most interesting film I have ever seen.", "This is most interesting film I have ever seen.", "This is the more interesting film I have ever seen."],
+      "answer": 1,
+      "explanation": "interesting 是多音节词，最高级用 the most interesting。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["Tom is taller than Mike.", "This road is more narrow than that one.", "She is as clever as her sister."],
+      "answer": 1,
+      "explanation": "narrow 是单音节词，比较级应写成 narrower。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["It is the hottest day this year.", "This exam is the most easy.", "Our house is bigger than theirs."],
+      "answer": 1,
+      "explanation": "easy 的最高级是 the easiest，不能用 the most easy。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["This", "is", "the", "best", "meal", "I've", "had", "this", "year."],
+      "alternatives": [],
+      "translation": "这是我今年吃过的最好的一餐。",
+      "explanation": "good 的最高级 the best，修饰 meal 后接定语从句 I've had this year。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["My", "brother", "is", "as", "tall", "as", "my", "father."],
+      "alternatives": [],
+      "translation": "我哥哥和我爸爸一样高。",
+      "explanation": "同等程度的结构是 as + 形容词原形 + as。"
+    }
+  ]
+}

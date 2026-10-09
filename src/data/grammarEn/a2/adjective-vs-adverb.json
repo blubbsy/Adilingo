@@ -1,0 +1,113 @@
+{
+  "id": "e2-adjective-vs-adverb",
+  "cefr": 2,
+  "title": "Adjective or adverb · 形容词与副词",
+  "tag": "adj / adv",
+  "pattern": "Subject + be / look / feel / seem + adjective  Subject + verb + adverb",
+  "summary": "形容词修饰名词或描述主语状态（be、look、feel 之后）；副词修饰动词，多数由形容词加 -ly 构成。",
+  "explanation": [
+    "**形容词**修饰名词，或在 be、look、feel、seem、taste、sound、smell 之后描述主语的状态；**副词**修饰动词、形容词或其他副词，说明动作“怎么样”。中文用“的”和“地”来区分，英语则直接换成两种不同的词形。",
+    "**系动词之后用形容词**：The soup **tastes good**. / She **looks happy**. / I **feel tired**. 这些句子描述的是主语本身的状态，所以后面是形容词，不能用副词。很多学生会误以为 feel 后面要用副词，这是错误的。",
+    "**大多数副词由形容词加 -ly 构成**：quick → quickly，careful → carefully，happy → happily。注意，有一些以 -ly 结尾的词本身是形容词，如 friendly、lovely、lonely，它们不能直接当副词用，需要改用 in a friendly way 之类的短语。",
+    "**有些词的形容词和副词形式相同**：fast、hard、early、late 等。He is a **fast** runner.（形容词）/ He runs **fast**.（副词）。hard 的副词是 hard，表示“努力地”：I worked **hard**. 而 hardly 意思是“几乎不”，与 hard 完全不同：I can **hardly** hear you.",
+    "**good 与 well**：good 只能作形容词，well 通常作副词，表示“做得好”：She plays the piano **well**. 但 well 也可以作形容词，表示“身体好”：I feel **well**. 因此，“我感觉很好”通常说 I feel good 或 I feel well，要按语境选择。"
+  ],
+  "mistakes": [
+    "✗ She sings very good. → ✓ She sings very well. 修饰动词 sing 要用副词 well，不用形容词 good。",
+    "✗ He is a fastly runner. → ✓ He is a fast runner. fast 修饰名词 runner 时要用形容词，而且 fast 没有 -ly 形式。",
+    "✗ I feel happily today. → ✓ I feel happy today. feel 后面接形容词，描述主语的状态。",
+    "✗ She works hardly. → ✓ She works hard. hardly 意思是“几乎不”，“努力地工作”要用 hard。"
+  ],
+  "examples": [
+    { "text": "The soup smells delicious.", "translation": "汤闻起来很香。", "note": "smell 之后用形容词 delicious。" },
+    { "text": "She speaks English very well.", "translation": "她英语说得很好。", "note": "修饰动词用副词 well。" },
+    { "text": "He is a fast runner.", "translation": "他是个跑得快的人。", "note": "修饰名词用形容词 fast。" },
+    { "text": "He runs fast.", "translation": "他跑得很快。", "note": "修饰动词用副词 fast。" },
+    { "text": "I worked hard all week.", "translation": "整个星期我都很努力地工作。", "note": "hard 作副词，意思是“努力地”。" },
+    { "text": "I hardly ever eat breakfast.", "translation": "我几乎从不吃早饭。", "note": "hardly 意思是“几乎不”。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "She looks ___ today.",
+      "translation": "她今天看起来很开心。",
+      "options": ["happily", "happy", "happiness", "happyly"],
+      "answer": 1,
+      "explanation": "look 之后用形容词 happy 描述主语状态。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "He plays the guitar ___.",
+      "translation": "他吉他弹得很好。",
+      "options": ["good", "goodly", "gooder", "well"],
+      "answer": 3,
+      "explanation": "修饰动词 plays 要用副词 well。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "We had a ___ time at the party.",
+      "translation": "我们在派对上玩得很开心。",
+      "options": ["good", "well", "goodly", "happily"],
+      "answer": 0,
+      "explanation": "time 是名词，前面要用形容词 good。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I ___ get up early on Sundays.",
+      "translation": "我周日几乎不早起。",
+      "options": ["hard", "hardly", "hardy", "hardily"],
+      "answer": 1,
+      "explanation": "hardly 表示“几乎不”，修饰动词 get up。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他跑得很快。",
+      "options": ["He is running fastly.", "He runs fast.", "He runs fastly.", "He is a fastly runner."],
+      "answer": 1,
+      "explanation": "修饰动词 runs 要用副词 fast，fast 没有 fastly 形式。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这首歌听起来很好听。",
+      "options": ["This song sounds beautifully.", "This song sounds beauty.", "This song sounds beautiful.", "This song sound beautiful."],
+      "answer": 2,
+      "explanation": "sound 是系动词，后面接形容词 beautiful。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["He drives careful.", "She feels happy.", "The coffee smells good."],
+      "answer": 0,
+      "explanation": "修饰动词 drives 要用副词，应写成 He drives carefully."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I work hard every day.", "He is a friendly neighbor.", "She dances good."],
+      "answer": 2,
+      "explanation": "修饰动词 dances 要用副词，应写成 She dances well."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["She", "speaks", "English", "fluently."],
+      "alternatives": [],
+      "translation": "她英语说得很流利。",
+      "explanation": "修饰动词 speaks 的方式副词 fluently 放在句末。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "food", "tastes", "really", "good."],
+      "alternatives": [],
+      "translation": "这食物尝起来真好吃。",
+      "explanation": "taste 是系动词，后面接形容词 good。"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "e3-defining-relative-clauses",
+  "cefr": 3,
+  "title": "Defining relative clauses · 限定性定语从句",
+  "tag": "who/which",
+  "pattern": "Noun + who / which / that / whose + clause (no commas)",
+  "summary": "限定性定语从句紧跟在名词后面，说明“是哪一个、哪一些”，前后不加逗号：The man who lives next door is a doctor.",
+  "wikiId": "attributive-clauses",
+  "explanation": [
+    "**定语从句**像形容词一样修饰前面的名词。限定性定语从句说明“哪一个”或“哪一类”，是句子意思不可缺少的部分，因此**前后不加逗号**：The student **who sits by the window** is my friend.（坐在窗边的那个学生是我的朋友）。去掉这个从句，别人就不知道你说的是哪一位学生。",
+    "关系代词的选择取决于先行词和从句的成分：指人用 **who** 或 **that**，如 the woman **who** helped me；指物用 **which** 或 **that**，如 the book **which** I bought；表示“……的”用 **whose**，后面直接接名词，如 the boy **whose** bike was stolen。whose 之后必须是名词，不能再加 his 或 her。",
+    "当关系代词在从句中作**宾语**时，可以省略：The book (**that**) I bought yesterday is interesting. 但如果关系代词在从句中作**主语**，就不能省略，例如 The man **who** lives here is kind.",
+    "中文的定语放在名词前面，英语的定语从句放在名词后面。翻译时先找到被修饰的名词，再把修饰成分放到它后面，并检查从句中是否缺少主语或宾语，由关系代词来补足。",
+    "不要用 what 来引导定语从句，因为 what 不能修饰名词；也不要在指物时用 who。区分限定性从句与非限定性从句的关键，是看前后有没有逗号，这一点将在下一课学习。"
+  ],
+  "mistakes": [
+    "✗ The book who I bought is useful. → ✓ The book (that) I bought is useful. 指物时不用 who，应使用 which 或 that，或直接省略。",
+    "✗ The man which lives next door is a doctor. → ✓ The man who lives next door is a doctor. 指人时不用 which，要用 who 或 that。",
+    "✗ The house that's roof is red is ours. → ✓ The house whose roof is red is ours. 表示“……的”要用 whose，不能用 that's 这样的缩写。",
+    "✗ I know the reason what he left. → ✓ I know the reason (that) he left. what 不能引导定语从句，修饰 reason 时用 that 或省略。"
+  ],
+  "examples": [
+    { "text": "The man who lives next door is a doctor.", "translation": "住在隔壁的那个男人是医生。", "note": "who 作主语，不能省略。" },
+    { "text": "This is the book (that) I told you about.", "translation": "这就是我跟你提过的那本书。", "note": "that 作宾语，可以省略。" },
+    { "text": "She is the teacher whose classes are always fun.", "translation": "她就是那位课总是很有意思的老师。", "note": "whose 表示“……的”。" },
+    { "text": "The train which goes to Hangzhou leaves at nine.", "translation": "开往杭州的那趟火车九点出发。" },
+    { "text": "The restaurant we went to last night was expensive.", "translation": "我们昨晚去的那家餐厅很贵。", "note": "介词 to 留在从句末尾。" },
+    { "text": "Anyone who wants to join the club should sign up today.", "translation": "任何想加入俱乐部的人今天都应该报名。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的关系代词。",
+      "sentence": "The woman ___ called the police is my neighbour.",
+      "translation": "报警的那个女人是我的邻居。",
+      "options": ["which", "whose", "when", "who"],
+      "answer": 3,
+      "explanation": "先行词是 woman（人），且在从句中作主语，用 who。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的关系代词。",
+      "sentence": "The students ___ parents are teachers are very clever.",
+      "translation": "父母是老师的那些学生都很聪明。",
+      "options": ["who", "whose", "that's", "which"],
+      "answer": 1,
+      "explanation": "表示“学生的父母”，用 whose，后面直接接 parents。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "这就是我在网上买的那台相机。",
+      "options": [
+        "This is the camera which I bought online.",
+        "This is the camera who I bought online.",
+        "This is the camera whose I bought online.",
+        "This is the camera what I bought online."
+      ],
+      "answer": 0,
+      "explanation": "指物的先行词 camera，用 which（或 that）引导从句。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "The boy who sits there is my cousin.",
+        "The cup which is on the table is mine.",
+        "The man which lives upstairs is a singer."
+      ],
+      "answer": 2,
+      "explanation": "指人要用 who，应改为 The man who lives upstairs is a singer。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["The", "bag", "that", "I", "bought", "is", "red."],
+      "alternatives": [],
+      "translation": "我买的那个包是红色的。",
+      "explanation": "定语从句 that I bought 紧跟在名词 bag 后面。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的关系代词。",
+      "sentence": "I don't like the film ___ we watched yesterday.",
+      "translation": "我不喜欢我们昨天看的那部电影。",
+      "options": ["what", "when", "which", "where"],
+      "answer": 2,
+      "explanation": "先行词 film 是物，用 which（或 that）；what 和 when 都不能修饰名词。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的关系代词。",
+      "sentence": "Do you know the girl ___ is standing by the door?",
+      "translation": "你认识站在门边的那个女孩吗？",
+      "options": ["which", "whose", "what", "who"],
+      "answer": 3,
+      "explanation": "先行词 girl 指人，在从句中作主语，用 who。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "那些住在海边的人很幸福。",
+      "options": [
+        "People who live by the sea are happy.",
+        "People which live by the sea are happy.",
+        "People whose live by the sea are happy.",
+        "People live who by the sea are happy."
+      ],
+      "answer": 0,
+      "explanation": "指人且作主语，用 who；whose 后面必须接名词。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Anyone", "who", "wants", "to", "join", "should", "register."],
+      "alternatives": [],
+      "translation": "任何想加入的人都应该登记。",
+      "explanation": "who 引导的从句修饰 Anyone，作主语，不能省略。"
+    }
+  ]
+}

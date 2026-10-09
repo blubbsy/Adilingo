@@ -52,7 +52,7 @@ export const grammar: Record<keyof typeof en, string> = {
   'grammar.lesson.best': '最高 {pct} %',
   'grammar.lesson.practiceAgain': '再练一次',
   'grammar.lesson.startPractice': '开始练习',
-  'grammar.list.filterAria': '按 HSK 等级筛选',
+  'grammar.list.filterAria': '按等级筛选',
   'grammar.list.completedCount': '已完成 {done} / {total}',
   'grammar.list.best': '最高 {pct} %',
   'grammar.exercise.result': '答对 {correct} / {total}',
@@ -79,4 +79,8 @@ export const grammar: Record<keyof typeof en, string> = {
   'grammar.exercise.clear': '清空句子',
   'grammar.exercise.wordBank': '词库',
   'grammar.exercise.wordKey': '{word}（按键 {n}）',
+  'grammar.paths.topicPart': '{topic}（{n}/{total}）',
+  'grammar.paths.domainDesc': '{words} 个词条，{topics} 个主题，按子主题分组。',
+  'grammar.paths.syllabusHintWords': '按级别和主题学习每一个术语。',
+  'grammar.lesson.readWiki': '阅读百科文章',
 };

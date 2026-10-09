@@ -89,6 +89,39 @@ A JSON array of articles (pretty-printed, UTF-8):
 - Long domain files may be split into part files `content/domains/_<domain>-2.txt` … (no header line); the builder appends them to `<domain>.txt`.
 - Fields are split at every `|`; a missing last field (`speak_en`) counts as empty.
 
+## 5. English grammar lessons (for Chinese learners) – `src/data/grammarEn/<level>/<slug>.json`
+
+One JSON **object per lesson** (so authors never edit the same file). `<level>` ∈ `a1 a2 b1 b2 c1 c2`; ids start with `e<1-6>-` (a1 = e1 … c2 = e6) and
+the file name is the id without that prefix (`e3-passive-simple` → `b1/passive-simple.json`).
+Explanations are written in **simplified Chinese** (the course's content language, like the English wiki); every example sentence is **English**.
+Original wording; natural, current English; every example carries the target structure.
+
+```json
+{
+  "id": "e3-passive-simple",
+  "cefr": 3,
+  "title": "Passive voice (present & past simple) · 被动语态",
+  "tag": "be + V3",
+  "pattern": "Object + am/is/are/was/were + Past participle + (by Agent)",
+  "summary": "一句话概括（中文）。",
+  "wikiId": "passive-voice-rules",
+  "explanation": ["中文段落，可含 **加粗** 和英文例子。", "…"],
+  "mistakes": ["✗ The window broke by him. → ✓ The window was broken by him. 中文说明原因。"],
+  "examples": [ { "text": "The room is cleaned every day.", "translation": "房间每天都有人打扫。", "note": "可选中文提示" } ],
+  "exercises": [
+    { "type": "choice", "prompt": "选择正确的形式。", "sentence": "The letter ___ yesterday.", "translation": "信是昨天寄出的。", "options": ["was sent", "sent", "is send", "was send"], "answer": 0, "explanation": "中文解释。" },
+    { "type": "translate", "prompt": "选出正确的英文翻译。", "source": "这座桥建于1990年。", "options": ["The bridge was built in 1990.", "…"], "answer": 0, "explanation": "…" },
+    { "type": "error", "prompt": "哪一句是错误的？", "options": ["…", "…", "…"], "answer": 1, "explanation": "…" },
+    { "type": "order", "prompt": "把单词排成正确的句子。", "tokens": ["The", "cake", "was", "eaten", "by", "the", "kids."], "alternatives": [], "translation": "蛋糕被孩子们吃掉了。", "explanation": "…" }
+  ]
+}
+```
+- `tag`: ≤ 12 characters, shown on the lesson tile (e.g. `be + V3`, `a / an / the`). `pattern`: tokens separated by ` + `, alternatives by two spaces, `·`, two spaces.
+- `wikiId` (optional): id of an article in `src/data/englishGrammarWiki.ts` that this lesson practises (valid ids: `five-sentence-patterns attributive-clauses noun-clauses infinitives-to-do gerunds-and-participles conditionals-and-subjunctive modal-verbs-deduction inverted-sentences passive-voice-rules articles-rules`).
+- 4–6 `explanation` paragraphs (the *why*, contrast with Chinese habits, when NOT to use it), 2–4 `mistakes` typical for Chinese speakers (each `✗ wrong → ✓ right` + short reason), **5–8 examples** (easy → hard), **8–12 exercises** using at least 3 of the 4 types with the correct answer at varied positions (not always index 0).
+- `choice`: exactly one `___`; exactly one option fits; distractors are realistic learner errors. `translate`/`error`: options are full English sentences; the `error` answer is the *wrong* sentence. `order`: 3–12 tokens in the correct order (punctuation attached to the last word, first word capitalised); list other fully correct orders in `alternatives`.
+- Check with `node scripts/validate-grammar-en.mjs <level>` (e.g. `b1`) – it must report no problems for your level.
+
 ## Rules for authors (subagents)
 - Write only your assigned files in `content/`. Do not touch `src/`, `scripts/`, git, or other authors' files.
 - Work in several passes (draft in chunks of ~60–100 lines per write, append with further edits) so that no single write is huge.

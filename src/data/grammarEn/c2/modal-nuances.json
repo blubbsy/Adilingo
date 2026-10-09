@@ -1,0 +1,127 @@
+{
+  "id": "e6-modal-nuances",
+  "cefr": 6,
+  "title": "Modal nuances: shall, may, would, ought to · 情态动词的细微差别",
+  "tag": "modal nuance",
+  "pattern": "Modal + bare infinitive  ·  Would + bare infinitive (habit / polite request)",
+  "summary": "同一个情态动词在不同语境下语气不同：shall 表示正式规定或提议，would 表示过去习惯或委婉请求，might 比 may 更委婉。",
+  "explanation": [
+    "情态动词本身不随人称变化，后面一律接**动词原形**，不加 to，也不加 -ing 或 -ed：May I **come** in? 而不是 May I to come in? 很多中国学生的问题不在于不认识情态动词，而在于忽略了它们在语气上的细微差别。",
+    "**shall** 在现代英语中已经不常用，但有两种场合仍然地道：一是提议或征求意见，用于第一人称问句，如 Shall I open the window? （我把窗户打开好吗？）；二是正式的规定、合同或法规，表示“必须”，如 The tenant **shall** give one month's notice.（承租人须提前一个月通知。）",
+    "**may** 和 **might** 都表示可能性或许可。may 较正式，多用于许可：You may leave when you have finished.；might 则更不确定、更委婉：It might rain later. 注意 may well 表示“很可能”：It may well rain this afternoon.，语气比单用 may 更肯定。",
+    "**would** 有两个重要用法。第一，表示过去的习惯，但只能与**动作动词**搭配：When we were children, we **would** spend hours by the river.；描述状态时要用 used to 或一般过去时，不能说 would have a garden。第二，用于委婉请求：Would you mind waiting a moment?（mind 后面接动名词，不接不定式。）",
+    "**ought to** 与 should 都表示义务或建议，ought to 语气略强，在否定和疑问句中远不如 should 常见（日常多说 You shouldn't…，而不是 You oughtn't to…）：You ought to apologise. 中文学生常把 ought to 写成 ought + -ing，或者漏掉 to。另外，表示委婉的态度时，常用 I was wondering whether you could… 或 It would seem that… 之类的句型，让请求和判断显得更礼貌、更谨慎。"
+  ],
+  "mistakes": [
+    "✗ May I to come in? → ✓ May I come in? 情态动词后面直接接动词原形，中文的“可以去”不要译成 to + 动词。",
+    "✗ When I was young, we would have a big garden. → ✓ When I was young, we had a big garden. would 表示过去习惯只能搭配动作动词，描述状态时用 had 或 used to have。",
+    "✗ I ought telling him the truth. → ✓ I ought to tell him the truth. ought 后面必须跟 to 再接动词原形，不能跟动名词。"
+  ],
+  "examples": [
+    { "text": "Shall I open the window? It's rather warm in here.", "translation": "我把窗户打开好吗？这里有点热。", "note": "shall 用于第一人称提议或征求意见。" },
+    { "text": "The tenant shall give the landlord one month's notice.", "translation": "承租人须提前一个月通知房东。", "note": "shall 在合同和法规中表示强制性要求。" },
+    { "text": "You may leave the room when you have finished.", "translation": "你完成后可以离开房间。", "note": "may 表示正式的许可。" },
+    { "text": "It may well rain this afternoon, so take an umbrella.", "translation": "今天下午很可能下雨，带把伞吧。", "note": "may well 表示“很可能”。" },
+    { "text": "When we were children, we would spend hours by the river.", "translation": "小时候我们常常在河边待上好几个小时。", "note": "would 表示过去的习惯动作。" },
+    { "text": "Would you mind waiting a moment? I'm just finishing a call.", "translation": "您介意稍等一下吗？我正在打电话。", "note": "Would you mind + 动名词，是礼貌的请求。" },
+    { "text": "I was wondering whether you could possibly look over this draft.", "translation": "不知道您能否抽空看看这份草稿。", "note": "过去进行时 + could，语气更加委婉。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Would you mind ___ the door for me?",
+      "translation": "您介意帮我把门关上吗？",
+      "options": ["close", "to close", "closing", "closed"],
+      "answer": 2,
+      "explanation": "mind 后面接动名词 closing，不接不定式或原形。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "When I was a child, we ___ spend every summer at the seaside.",
+      "translation": "小时候，我们每个夏天都会去海边度过。",
+      "options": ["might", "would", "should", "must"],
+      "answer": 1,
+      "explanation": "表示过去反复发生的动作习惯，用 would；might 表示可能，must 表示义务或推断，should 表示建议，都不合适。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "I'm not sure, but it ___ rain later, so take an umbrella just in case.",
+      "translation": "我不确定，但稍后可能会下雨，所以带把伞以防万一。",
+      "options": ["must", "could be", "shall", "might"],
+      "answer": 3,
+      "explanation": "说话人并不确定，应用表示弱可能性的 might。must 表示很有把握，与 not sure 矛盾。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "You ___ apologise to her, although it is up to you.",
+      "translation": "你应该向她道歉，不过这由你决定。",
+      "options": ["ought", "oughtn't", "ought to", "oughting"],
+      "answer": 2,
+      "explanation": "ought 后面必须接 to 再接动词原形：ought to apologise。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的形式。",
+      "sentence": "Under the regulations, all staff ___ wear a badge at all times.",
+      "translation": "根据规定，全体员工任何时候都必须佩戴工作证。",
+      "options": ["might", "shall", "would", "ought"],
+      "answer": 1,
+      "explanation": "法规和规定中的强制要求常用 shall。might 表示可能，would 表示习惯，ought 后面不能直接接动词原形。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我想知道您能否抽空看看这份草稿。",
+      "options": [
+        "I was wondering whether you possibly could to look over this draft.",
+        "I was wondering whether you would possibly looked over this draft.",
+        "I was wondering whether you could possibly look over this draft.",
+        "I was wondering whether you could possibly looked over this draft."
+      ],
+      "answer": 2,
+      "explanation": "could 后面接动词原形 look，possibly 放在 could 与动词之间。其余选项分别有 to、looked 等错误。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "You ought to tell him the truth.",
+        "She may to be right about the price.",
+        "Would you mind sending me the file?"
+      ],
+      "answer": 1,
+      "explanation": "情态动词 may 后面不能加 to，应为 She may be right about the price."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": [
+        "When I was young, we would have a huge garden.",
+        "Would you mind closing the window?",
+        "It might rain later today."
+      ],
+      "answer": 0,
+      "explanation": "would 表示习惯时不能与状态动词 have 搭配，应改为 we had a huge garden。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Would", "you", "mind", "holding", "this", "for", "a", "moment?"],
+      "alternatives": [],
+      "translation": "您介意稍微拿一下这个吗？",
+      "explanation": "Would you mind + 动名词，是委婉的请求句型。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["You", "ought", "to", "check", "the", "figures", "again."],
+      "alternatives": [],
+      "translation": "你应该再核对一下这些数字。",
+      "explanation": "ought to + 动词原形，表示较强的义务或建议。"
+    }
+  ]
+}

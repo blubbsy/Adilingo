@@ -1,0 +1,112 @@
+{
+  "id": "e2-object-pronouns-reflexives",
+  "cefr": 2,
+  "title": "Object pronouns & reflexives · 宾格代词与反身代词",
+  "tag": "me / myself",
+  "pattern": "Subject + verb + me / him / her / us / them  Subject + verb + myself / themselves",
+  "summary": "动词或介词后用宾格（me、him、them）；动作落在主语自身上用反身代词（myself、themselves）；互相关系用 each other。",
+  "explanation": [
+    "**宾格代词**是 me、you、him、her、it、us、them，用在**动词之后**或**介词之后**，表示动作的承受者。中文“帮我”“给他”“和她”里的“我”“他”“她”，在英语中要换成宾格：Can you help **me**? / Give the book to **him**. / I'm going with **them**. 不能说 help I 或 with they。",
+    "**主格与宾格**是最容易混淆的地方。I、he、she、we、they 只做主语，不做宾语。句子中只要出现在动词或介词后面，就必须用宾格。例如 Me and my friend 在正式英语中通常写作 My friend and I，因为它做的是主语。",
+    "**反身代词**是 myself、yourself、himself、herself、itself、ourselves、yourselves、themselves。它们表示动作落在主语自己身上，或表示“亲自”“自己做”：She cut **herself** while cooking. / We made this website **ourselves**. 中文“自己”通常对应反身代词，但不是所有“自己”都要用它，例如 “给自己买” 要说 bought a gift for herself。",
+    "**each other 与 one another** 表示“互相”，用于两个或更多人之间的相互动作：The two sisters often help **each other**. 注意 They like themselves 的意思是“他们各自喜欢自己”，而不是“他们互相喜欢”，两者不能混用。",
+    "学习时可以先判断句子中的代词在做什么：如果它是主语，用主格；如果它被动词或介词“接住”，用宾格；如果它与主语指向同一个人，用反身代词。"
+  ],
+  "mistakes": [
+    "✗ Please help I. → ✓ Please help me. 动词后面要用宾格 me，不用主格 I。",
+    "✗ She hurt her. → ✓ She hurt herself. 表示“伤害了自己”时要用反身代词 herself，不能用 her。",
+    "✗ They like themself. → ✓ They like themselves. 复数主语要用复数的反身代词 themselves。"
+  ],
+  "examples": [
+    { "text": "Can you help me with this box?", "translation": "你能帮我搬这个箱子吗？", "note": "help 后面接宾格 me。" },
+    { "text": "I saw them at the station yesterday.", "translation": "我昨天在车站见到了他们。" },
+    { "text": "This present is for you.", "translation": "这份礼物是给你的。", "note": "介词 for 后面用宾格 you。" },
+    { "text": "She cut herself while cooking.", "translation": "她做饭时把自己割伤了。", "note": "动作的承受者是主语自己。" },
+    { "text": "We made this website ourselves.", "translation": "这个网站是我们自己做的。", "note": "ourselves 表示“亲自”。" },
+    { "text": "The two sisters often help each other.", "translation": "这对姐妹经常互相帮助。", "note": "each other 表示“互相”。" }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "选择正确的代词。",
+      "sentence": "Can you tell ___ the answer?",
+      "translation": "你能告诉我答案吗？",
+      "options": ["I", "me", "my", "myself"],
+      "answer": 1,
+      "explanation": "tell 后面接宾格 me。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的代词。",
+      "sentence": "The teacher gave ___ a lot of homework.",
+      "translation": "老师给了他们很多作业。",
+      "options": ["they", "their", "them", "themselves"],
+      "answer": 2,
+      "explanation": "gave 后面接宾格 them 作间接宾语。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的代词。",
+      "sentence": "Please be careful. Don't hurt ___.",
+      "translation": "小心点，别伤着自己。",
+      "options": ["yours", "you", "yourself", "your"],
+      "answer": 2,
+      "explanation": "“伤着自己”要用反身代词 yourself。"
+    },
+    {
+      "type": "choice",
+      "prompt": "选择正确的代词。",
+      "sentence": "My parents bought the house ___.",
+      "translation": "我父母是他们自己买的这套房子。",
+      "options": ["themselves", "them", "their", "theirs"],
+      "answer": 0,
+      "explanation": "“自己买”表示亲自做，用反身代词 themselves。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "他总是为我着想。",
+      "options": ["He always thinks of I.", "He always thinks of me.", "He always thinks of myself.", "He always think of me."],
+      "answer": 1,
+      "explanation": "介词 of 后面用宾格 me。"
+    },
+    {
+      "type": "translate",
+      "prompt": "选出正确的英文翻译。",
+      "source": "我们互相帮助。",
+      "options": ["We help us.", "We help each other.", "We help ourselves each other.", "We help one myself."],
+      "answer": 1,
+      "explanation": "“互相”用 each other。"
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["Give it to him.", "She looked at I.", "They enjoyed themselves."],
+      "answer": 1,
+      "explanation": "介词 at 后面要用宾格，应写成 She looked at me."
+    },
+    {
+      "type": "error",
+      "prompt": "哪一句是错误的？",
+      "options": ["I made it myself.", "They like themself.", "Please call us later."],
+      "answer": 1,
+      "explanation": "复数主语要用 themselves，应写成 They like themselves."
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["Can", "you", "help", "me", "with", "my", "homework?"],
+      "alternatives": [],
+      "translation": "你能帮我做作业吗？",
+      "explanation": "help 后面接宾格 me，介词 with 后的名词前用 my。"
+    },
+    {
+      "type": "order",
+      "prompt": "把单词排成正确的句子。",
+      "tokens": ["She", "bought", "a", "gift", "for", "herself."],
+      "alternatives": [],
+      "translation": "她给自己买了一件礼物。",
+      "explanation": "介词 for 后面用反身代词 herself，表示“为自己”。"
+    }
+  ]
+}

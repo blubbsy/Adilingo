@@ -15,10 +15,14 @@ test.describe('Specialty courses', () => {
     await openCatalogue(page);
     await page.locator('[data-course="chinese:emotor"]').click();
 
-    // The specialty course has its own screens: no learning paths / grammar, but topics and dictionary
+    // The specialty course has paths (no grammar), topics and a dictionary
     await expect(page.getByRole('dialog')).toHaveCount(0);
     const nav = page.getByRole('navigation').first();
-    await expect(nav.getByRole('button', { name: /Learn|学习/ })).toHaveCount(0);
+    await expect(nav.getByRole('button', { name: /Paths|学习路径|分级路径/ }).first()).toBeVisible();
+    await page.goto('/#/learn');
+    await expect(page.getByRole('tab')).toHaveCount(0);
+    await expect(page.getByText('Essentials').first()).toBeVisible();
+    await page.goto('/#/home');
     await expect(page.getByText('Essentials').first()).toBeVisible();
 
     await page.getByRole('button', { name: /start today's session|开始今日/i }).first().click();
@@ -27,8 +31,10 @@ test.describe('Specialty courses', () => {
     await page.getByRole('button', { name: /End session|结束/ }).click();
 
     // Unreachable language-course screens redirect
-    await page.goto('/#/grammar');
+    await page.goto('/#/irregular');
+    await expect(page).toHaveURL(/#\/learn$/);
     await expect(page.locator('text=Irregular')).toHaveCount(0);
+    await page.goto('/#/home');
 
     // Back to the plain Chinese course: its own dashboard, nothing from the specialty course
     await page.locator('[data-course="chinese"]').first().click();
@@ -79,10 +85,14 @@ test.describe('Chinese grammar wiki', () => {
     await expect(page.locator('[data-wiki-article]')).toBeVisible();
   });
 
-  test('the English course has no wiki', async ({ page }) => {
+  test('the English course has the same Paths, Grammar and Wiki tabs and trainable lessons', async ({ page }) => {
     await page.goto('/');
     await page.locator('[data-course="english"]').first().click();
     await page.goto('/#/learn');
-    await expect(page.getByRole('tab', { name: /Wiki|语法百科/ })).toHaveCount(0);
+    await expect(page.getByRole('tab')).toHaveCount(3);
+    await page.getByRole('tab').nth(1).click();
+    await page.locator('ul li button').first().click(); // first English lesson
+    await page.getByRole('button', { name: /Start practice|开始练习|Üben|Practice/i }).first().click();
+    await expect(page.getByRole('button', { name: /^Check$|检查|Prüfen/ })).toBeVisible();
   });
 });
