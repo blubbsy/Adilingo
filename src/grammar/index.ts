@@ -12,5 +12,5 @@ export {
   type GrammarPointProgress,
   type PathProgress,
 } from './grammarStorage';
-export { GRAMMAR_POINTS, ENGLISH_GRAMMAR_POINTS, LEARNING_PATHS, ENGLISH_LEARNING_PATHS } from './grammarData';
+export { GRAMMAR_POINTS, LEARNING_PATHS } from './grammarData';
 export type * from './types';

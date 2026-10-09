@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import rawPathsEn from '../../data/learningPathsEn.json';
-import { ENGLISH_GRAMMAR_POINTS, ENGLISH_LEARNING_PATHS, GRAMMAR_BY_ID, GRAMMAR_POINTS } from '../grammarData';
+import { GRAMMAR_BY_ID, GRAMMAR_POINTS } from '../grammarData';
+import { ENGLISH_GRAMMAR_BY_ID, ENGLISH_GRAMMAR_POINTS, ENGLISH_LEARNING_PATHS } from '../englishGrammarData';
 import { ENGLISH_GRAMMAR_WIKI } from '../../data/englishGrammarWiki';
 import { loadLibrary, vocabForCurriculum } from '../../data/vocab';
 import { buildDomainPaths, buildLevelPaths } from '../levelPaths';
@@ -20,7 +21,9 @@ describe('English grammar lessons', () => {
 
   it('keeps Chinese and English lesson ids apart', () => {
     expect(GRAMMAR_POINTS.every((p) => p.track === 'chinese')).toBe(true);
-    expect(GRAMMAR_BY_ID.size).toBe(GRAMMAR_POINTS.length + ENGLISH_GRAMMAR_POINTS.length);
+    expect(GRAMMAR_BY_ID.size).toBe(GRAMMAR_POINTS.length);
+    expect(ENGLISH_GRAMMAR_BY_ID.size).toBe(ENGLISH_GRAMMAR_POINTS.length);
+    for (const id of ENGLISH_GRAMMAR_BY_ID.keys()) expect(GRAMMAR_BY_ID.has(id)).toBe(false);
   });
 
   it('links lessons to existing wiki articles', () => {

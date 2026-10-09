@@ -4,14 +4,15 @@ import type { CourseId, Curriculum, SessionRequest, UserState, VocabItem } from 
 import type { SpeechApi } from '../utils/speech';
 import { getCourseConfig } from '../data/courses';
 import { DEFAULT_ENGLISH_GUIDE_UI, EnglishGrammarGuide, type EnglishGuideUi } from '../components/EnglishGrammarGuide';
-import { ENGLISH_GRAMMAR_POINTS, ENGLISH_LEARNING_PATHS, GRAMMAR_BY_ID, GRAMMAR_POINTS, LEARNING_PATHS } from './grammarData';
+import { GRAMMAR_BY_ID, GRAMMAR_POINTS, LEARNING_PATHS } from './grammarData';
+import { useEnglishGrammar } from './useEnglishGrammar';
 import { GrammarLesson } from './GrammarLesson';
 import { GrammarList, type LevelFilter } from './GrammarList';
 import { useGrammarProgress } from './grammarStorage';
 import { LearningPathsView } from './LearningPathsView';
 import { buildDomainPaths, buildLevelPaths } from './levelPaths';
 import { stepWordIds, unrecordedDoneSteps, type PathContext } from './pathLogic';
-import type { LearningPath, PathUnit, VocabStep } from './types';
+import type { GrammarPoint, LearningPath, PathUnit, VocabStep } from './types';
 import { card, focusRing } from './ui';
 import { WikiView, type WikiUiState } from './WikiView';
 import { WIKI_CATEGORIES } from './wikiData';
@@ -44,7 +45,7 @@ function loadUi(): UiState {
     const pathId = typeof raw.pathId === 'string' ? raw.pathId : null;
     const level: LevelFilter = typeof raw.level === 'number' ? raw.level : 'all';
     const lesson =
-      raw.lesson && typeof raw.lesson.id === 'string' && GRAMMAR_BY_ID.has(raw.lesson.id)
+      raw.lesson && typeof raw.lesson.id === 'string'
         ? { id: raw.lesson.id, from: raw.lesson.from === 'grammar' || raw.lesson.from === 'wiki' ? raw.lesson.from : ('paths' as const) }
         : null;
     const w = raw.wiki as Partial<WikiUiState> | undefined;
@@ -101,7 +102,14 @@ export function GrammarHub(props: GrammarHubProps): JSX.Element {
   const config = getCourseConfig(course);
   const hasGrammar = config.features.grammar;
   const english = config.track === 'english';
-  const points = english ? ENGLISH_GRAMMAR_POINTS : GRAMMAR_POINTS;
+  const en = useEnglishGrammar(english && hasGrammar);
+  // English lessons arrive as a separate chunk; until then the grammar-dependent panels show a loading note.
+  const grammarLoading = english && hasGrammar && !en.data;
+  const points = useMemo(() => (english ? (en.data?.ENGLISH_GRAMMAR_POINTS ?? []) : GRAMMAR_POINTS), [english, en.data]);
+  const lessonById = useMemo<ReadonlyMap<string, GrammarPoint>>(
+    () => (english ? (en.data?.ENGLISH_GRAMMAR_BY_ID ?? new Map()) : GRAMMAR_BY_ID),
+    [english, en.data],
+  );
   const i18n = useI18n();
   const { t } = i18n;
   const grammar = useGrammarProgress();
@@ -117,9 +125,9 @@ export function GrammarHub(props: GrammarHubProps): JSX.Element {
   const paths = useMemo(
     () =>
       hasGrammar
-        ? [...buildLevelPaths(vocab, points, curriculum, i18n), ...(english ? ENGLISH_LEARNING_PATHS : LEARNING_PATHS)]
+        ? [...buildLevelPaths(vocab, points, curriculum, i18n), ...(english ? (en.data?.ENGLISH_LEARNING_PATHS ?? []) : LEARNING_PATHS)]
         : buildDomainPaths(vocab, i18n),
-    [hasGrammar, vocab, points, curriculum, i18n, english],
+    [hasGrammar, vocab, points, curriculum, i18n, english, en.data],
   );
   const ctx: PathContext = useMemo(
     () => ({ vocabById, vocabProgress, grammar: grammar.progress }),
@@ -158,7 +166,7 @@ export function GrammarHub(props: GrammarHubProps): JSX.Element {
     });
   };
 
-  const found = ui.lesson ? GRAMMAR_BY_ID.get(ui.lesson.id) : undefined;
+  const found = ui.lesson ? lessonById.get(ui.lesson.id) : undefined;
   // A remembered lesson of the other language course is ignored.
   const lessonPoint = found && found.track === config.track ? found : undefined;
   const lessonFromPath = ui.lesson?.from === 'paths' ? paths.find((p) => p.id === ui.pathId) : undefined;
@@ -210,7 +218,11 @@ export function GrammarHub(props: GrammarHubProps): JSX.Element {
       )}
 
       <div role="tabpanel" id={`grammar-panel-${ui.tab}`} aria-labelledby={`grammar-tab-${ui.tab}`}>
-        {lessonPoint ? (
+        {grammarLoading && ui.tab !== 'wiki' ? (
+          <p role="status" className="py-10 text-center text-sm text-slate-500">
+            {en.failed ? t('wiki.error') : t('common.loading')}
+          </p>
+        ) : lessonPoint ? (
           <GrammarLesson
             key={lessonPoint.id}
             point={lessonPoint}
@@ -226,6 +238,7 @@ export function GrammarHub(props: GrammarHubProps): JSX.Element {
         ) : ui.tab === 'paths' ? (
           <LearningPathsView
             paths={paths}
+            lessons={lessonById}
             ctx={ctx}
             selectedPathId={ui.pathId}
             wordsOnly={!hasGrammar}
@@ -238,6 +251,7 @@ export function GrammarHub(props: GrammarHubProps): JSX.Element {
             <EnglishGrammarGuide
               speech={speech}
               ui={ui.enGuide}
+              lessons={points}
               onUiChange={(enGuide) => setUi((u) => ({ ...u, enGuide }))}
               onOpenIrregularVerbs={onOpenIrregularVerbs}
               onOpenLesson={(id) => setUi((u) => ({ ...u, lesson: { id, from: 'wiki' } }))}

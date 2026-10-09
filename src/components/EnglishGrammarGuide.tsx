@@ -26,7 +26,7 @@ import {
   type GrammarWikiArticle,
 } from '../data/englishGrammarWiki';
 import type { SpeechApi } from '../utils/speech';
-import { ENGLISH_GRAMMAR_POINTS } from '../grammar/grammarData';
+import type { GrammarPoint } from '../grammar/types';
 import { SpeedControl } from './SpeedControl';
 import { useI18n } from '../i18n/react';
 
@@ -47,6 +47,8 @@ interface Props {
   ui: EnglishGuideUi;
   onUiChange: (ui: EnglishGuideUi) => void;
   onOpenIrregularVerbs?: () => void;
+  /** The English lessons (their `wikiId` ties them to articles). */
+  lessons: GrammarPoint[];
   /** Opens a grammar lesson that practises the article. */
   onOpenLesson?: (lessonId: string) => void;
 }
@@ -62,7 +64,7 @@ const PERSON_TABS: { id: PersonGroup; subjectName: string }[] = [
   { id: 'plural', subjectName: 'We / They' },
 ];
 
-export function EnglishGrammarGuide({ speech, ui, onUiChange, onOpenIrregularVerbs, onOpenLesson }: Props) {
+export function EnglishGrammarGuide({ speech, ui, lessons, onUiChange, onOpenIrregularVerbs, onOpenLesson }: Props) {
   const { t, rich } = useI18n();
   const activeTab = ui.tab;
   const searchQuery = ui.query;
@@ -75,10 +77,10 @@ export function EnglishGrammarGuide({ speech, ui, onUiChange, onOpenIrregularVer
 
   /** Lessons per wiki article (the lesson names the article it practises). */
   const lessonsByArticle = useMemo(() => {
-    const map = new Map<string, typeof ENGLISH_GRAMMAR_POINTS>();
-    for (const p of ENGLISH_GRAMMAR_POINTS) if (p.wikiId) map.set(p.wikiId, [...(map.get(p.wikiId) ?? []), p]);
+    const map = new Map<string, GrammarPoint[]>();
+    for (const p of lessons) if (p.wikiId) map.set(p.wikiId, [...(map.get(p.wikiId) ?? []), p]);
     return map;
-  }, []);
+  }, [lessons]);
 
   // Tense guide state
   const [selectedGroup, setSelectedGroup] = useState<TenseGroup | 'all'>('all');

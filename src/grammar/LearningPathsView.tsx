@@ -17,7 +17,6 @@ import {
   Sprout,
   type LucideIcon,
 } from 'lucide-react';
-import { GRAMMAR_BY_ID } from './grammarData';
 import {
   isStepDone,
   isUnitDone,
@@ -31,7 +30,7 @@ import {
   wordRepetitions,
   type PathContext,
 } from './pathLogic';
-import type { GrammarStep, LearningPath, PathIcon, PathUnit, VocabStep } from './types';
+import type { GrammarPoint, LearningPath, PathIcon, PathUnit, VocabStep } from './types';
 import { PatternFormula, ProgressBar, RichText, card, focusRing, primaryBtn, secondaryBtn } from './ui';
 import { useI18n } from '../i18n/react';
 
@@ -42,6 +41,8 @@ const UNIT_PAGE = 15;
 
 interface Props {
   paths: LearningPath[];
+  /** Lessons of the active course, by id (names of the grammar steps). */
+  lessons: ReadonlyMap<string, GrammarPoint>;
   ctx: PathContext;
   selectedPathId: string | null;
   /** Specialty courses: the paths only teach terms, so the hint does not mention grammar. */
@@ -51,7 +52,7 @@ interface Props {
   onPracticeVocab: (path: LearningPath, unit: PathUnit, step: VocabStep) => void;
 }
 
-export function LearningPathsView({ paths, ctx, selectedPathId, wordsOnly = false, onSelectPath, onOpenGrammar, onPracticeVocab }: Props) {
+export function LearningPathsView({ paths, lessons, ctx, selectedPathId, wordsOnly = false, onSelectPath, onOpenGrammar, onPracticeVocab }: Props) {
   const { t } = useI18n();
   const path = paths.find((p) => p.id === selectedPathId);
   if (!path) {
@@ -80,7 +81,7 @@ export function LearningPathsView({ paths, ctx, selectedPathId, wordsOnly = fals
       </div>
     );
   }
-  return <PathDetail key={path.id} path={path} ctx={ctx} onBack={() => onSelectPath(null)} onOpenGrammar={onOpenGrammar} onPracticeVocab={onPracticeVocab} />;
+  return <PathDetail key={path.id} path={path} lessons={lessons} ctx={ctx} onBack={() => onSelectPath(null)} onOpenGrammar={onOpenGrammar} onPracticeVocab={onPracticeVocab} />;
 }
 
 function PathCard({ path, ctx, onOpen }: { path: LearningPath; ctx: PathContext; onOpen: () => void }) {
@@ -119,6 +120,7 @@ function PathCard({ path, ctx, onOpen }: { path: LearningPath; ctx: PathContext;
 }
 
 function PathDetail({
+  lessons,
   path,
   ctx,
   onBack,
@@ -128,6 +130,7 @@ function PathDetail({
   path: LearningPath;
   ctx: PathContext;
   onBack: () => void;
+  lessons: ReadonlyMap<string, GrammarPoint>;
   onOpenGrammar: (id: string) => void;
   onPracticeVocab: Props['onPracticeVocab'];
 }) {
@@ -234,7 +237,7 @@ function PathDetail({
                       {step.type === 'vocab' ? (
                         <VocabStepRow step={step} done={isStepDone(path, step, ctx)} ctx={ctx} onPractice={() => onPracticeVocab(path, unit, step)} />
                       ) : (
-                        <GrammarStepRow step={step} done={isStepDone(path, step, ctx)} onOpen={() => onOpenGrammar(step.grammarId)} />
+                        <GrammarStepRow lesson={lessons.get(step.grammarId)} done={isStepDone(path, step, ctx)} onOpen={() => onOpenGrammar(step.grammarId)} />
                       )}
                     </li>
                   ))}
@@ -347,9 +350,8 @@ function VocabStepRow({ step, done, ctx, onPractice }: { step: VocabStep; done: 
   );
 }
 
-function GrammarStepRow({ step, done, onOpen }: { step: GrammarStep; done: boolean; onOpen: () => void }) {
+function GrammarStepRow({ lesson: g, done, onOpen }: { lesson: GrammarPoint | undefined; done: boolean; onOpen: () => void }) {
   const { t } = useI18n();
-  const g = GRAMMAR_BY_ID.get(step.grammarId);
   if (!g) return null;
   return (
     <StepShell icon={GraduationCap} done={done}>

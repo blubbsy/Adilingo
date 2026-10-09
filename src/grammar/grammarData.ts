@@ -1,6 +1,5 @@
 import rawGrammar from '../data/grammarData.json';
 import rawPaths from '../data/learningPaths.json';
-import rawPathsEn from '../data/learningPathsEn.json';
 import legacyIds from '../data/legacyIds.json';
 import type { HskLevel } from '../types';
 import type {
@@ -20,15 +19,15 @@ import type {
  */
 
 type Obj = Record<string, unknown>;
-const isObj = (v: unknown): v is Obj => typeof v === 'object' && v !== null && !Array.isArray(v);
-const isStr = (v: unknown): v is string => typeof v === 'string' && v.length > 0;
-const isStrArr = (v: unknown): v is string[] => Array.isArray(v) && v.every((x) => typeof x === 'string');
-const optStr = (v: unknown): string | undefined => (isStr(v) ? v : undefined);
-const HSK: HskLevel[] = [1, 2, 3, 4, 5, 6, 7];
+export const isObj = (v: unknown): v is Obj => typeof v === 'object' && v !== null && !Array.isArray(v);
+export const isStr = (v: unknown): v is string => typeof v === 'string' && v.length > 0;
+export const isStrArr = (v: unknown): v is string[] => Array.isArray(v) && v.every((x) => typeof x === 'string');
+export const optStr = (v: unknown): string | undefined => (isStr(v) ? v : undefined);
+export const HSK: HskLevel[] = [1, 2, 3, 4, 5, 6, 7];
 const ICONS: PathIcon[] = ['sprout', 'plane', 'bridge', 'music', 'mountain', 'crown'];
 
 const problems: string[] = [];
-function warn(msg: string) {
+export function warn(msg: string) {
   problems.push(msg);
 }
 
@@ -49,7 +48,7 @@ function validOptions(v: Obj): v is Obj & { options: string[]; answer: number } 
   );
 }
 
-function parseExercise(v: unknown, id: string): GrammarExercise | null {
+export function parseExercise(v: unknown, id: string): GrammarExercise | null {
   if (!isObj(v) || !isStr(v.prompt) || !isStr(v.explanation)) return null;
   const base = { id, prompt: v.prompt, explanation: v.explanation };
   switch (v.type) {
@@ -103,45 +102,6 @@ function parsePoint(v: unknown): GrammarPoint | null {
     mistakes: isStrArr(v.mistakes) ? v.mistakes : [],
     examples: examples.filter((e): e is GrammarExample => e !== null),
     exercises: exercises.filter((e): e is GrammarExercise => e !== null),
-  };
-}
-
-/**
- * English lesson (authored in content/README.md §5) -> the shared lesson shape: the English sentence goes to `hanzi`,
- * its Chinese translation to `english`; exercises keep their option lists.
- */
-function parseEnglishPoint(v: unknown): GrammarPoint | null {
-  if (!isObj(v) || !isStr(v.id) || !isStr(v.title) || !isStr(v.pattern)) return null;
-  const level = HSK.find((l) => l === v.cefr);
-  if (!level || level > 6) return null;
-  const pointId = v.id;
-  const examples: GrammarExample[] = [];
-  (Array.isArray(v.examples) ? v.examples : []).forEach((e, i) => {
-    if (isObj(e) && isStr(e.text) && isStr(e.translation)) examples.push({ hanzi: e.text, pinyin: '', english: e.translation, note: optStr(e.note) });
-    else warn(`${pointId}: invalid example #${i}`);
-  });
-  const exercises: GrammarExercise[] = [];
-  (Array.isArray(v.exercises) ? v.exercises : []).forEach((e, i) => {
-    const id = `${pointId}-${i}`;
-    // `translate` keeps the Chinese source in `english`; `choice` / `order` keep the Chinese translation there.
-    const mapped = isObj(e) ? { ...e, english: e.source ?? e.translation, optionScript: 'hanzi' } : e;
-    const parsed = parseExercise(mapped, id);
-    if (parsed) exercises.push(parsed);
-    else warn(`${pointId}: invalid exercise #${i}`);
-  });
-  return {
-    id: pointId,
-    track: 'english',
-    hskLevel: level,
-    wikiId: optStr(v.wikiId),
-    title: v.title,
-    titleHanzi: optStr(v.tag),
-    pattern: v.pattern,
-    summary: optStr(v.summary) ?? '',
-    explanation: isStrArr(v.explanation) ? v.explanation : [],
-    mistakes: isStrArr(v.mistakes) ? v.mistakes : [],
-    examples,
-    exercises,
   };
 }
 
@@ -208,19 +168,9 @@ const allRawGrammar: unknown[] = [
 
 export const GRAMMAR_POINTS: GrammarPoint[] = parseGrammarData(allRawGrammar).sort((a, b) => a.hskLevel - b.hskLevel);
 
-/** English lessons: one JSON object per file under data/grammarEn/<a1…c2>/ (ordered by level, then file name). */
-const englishFiles = import.meta.glob<unknown>('../data/grammarEn/*/*.json', { eager: true, import: 'default' });
-export const ENGLISH_GRAMMAR_POINTS: GrammarPoint[] = parseGrammarData(
-  Object.keys(englishFiles)
-    .sort()
-    .map((k) => englishFiles[k]),
-  parseEnglishPoint,
-).sort((a, b) => a.hskLevel - b.hskLevel);
-
-/** Every lesson of every track (ids never overlap: Chinese `g…`, English `e…`). */
-export const GRAMMAR_BY_ID: ReadonlyMap<string, GrammarPoint> = new Map([...GRAMMAR_POINTS, ...ENGLISH_GRAMMAR_POINTS].map((g) => [g.id, g]));
+/** Chinese lessons by id. English lessons live in `englishGrammarData` (loaded on demand). */
+export const GRAMMAR_BY_ID: ReadonlyMap<string, GrammarPoint> = new Map(GRAMMAR_POINTS.map((g) => [g.id, g]));
 export const LEARNING_PATHS: LearningPath[] = parseLearningPaths(rawPaths, new Set(GRAMMAR_BY_ID.keys()));
-export const ENGLISH_LEARNING_PATHS: LearningPath[] = parseLearningPaths(rawPathsEn, new Set(GRAMMAR_BY_ID.keys()));
 
 if (import.meta.env.DEV && problems.length) {
   console.warn('[grammar] content problems:', problems);
