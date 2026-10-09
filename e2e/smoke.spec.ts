@@ -128,7 +128,8 @@ test.describe('Interface language', () => {
     await page.goto('/');
     await page.getByRole('button', { name: 'Settings' }).first().click();
     const group = page.getByRole('radiogroup', { name: 'Interface language' });
-    await expect(group.getByRole('radio')).toHaveCount(3);
+    // The three real languages are always offered; the pseudo-locale only exists in development builds
+    for (const name of [/English/, /简体中文/, /Deutsch/]) await expect(group.getByRole('radio', { name })).toBeVisible();
     await group.getByRole('radio', { name: /Deutsch/ }).click();
     await expect(page.getByRole('heading', { name: 'Einstellungen' })).toBeVisible();
   });
