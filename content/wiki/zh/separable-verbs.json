@@ -1,0 +1,83 @@
+[
+  {
+    "id": "pattern-separable-verbs",
+    "title": "离合词 (Separable Verbs)",
+    "titleHanzi": "离合词",
+    "category": "sentence-patterns",
+    "hskRange": [2, 4],
+    "summary": "Separable verbs (离合词 líhécí) consist of an action verb and an internal object (e.g. 睡觉, 见面, 洗澡). They behave like single words in English, but in Chinese they separate to insert aspect particles (了/过), duration, frequency, or reduplication, and cannot take another direct object.",
+    "pattern": "Verb + 了 / 过 + Object  ·  Verb + duration / frequency + Object  ·  AAB reduplication (散散步)  ·  跟 + person + Separable Verb",
+    "rules": [
+      {
+        "rule": "**Internal Verb + Object structure.** Separable verbs (such as 见面, 睡觉, 洗澡, 唱歌, 跳舞) are composed of a verb and its internal object. Because the object slot is already filled, they cannot take an additional direct object after them. Use a coverb like 跟 or 和 to introduce the person or target.",
+        "highlight": "跟…见面",
+        "examples": [
+          { "hanzi": "我明天要跟他见面。", "pinyin": "Wǒ míngtiān yào gēn tā jiànmiàn.", "english": "I am going to meet him tomorrow." },
+          { "hanzi": "她喜欢在周末去跳舞。", "pinyin": "Tā xǐhuan zài zhōumò qù tiàowǔ.", "english": "She likes going dancing on weekends." },
+          { "hanzi": "你想跟他结婚吗？", "pinyin": "Nǐ xiǎng gēn tā jiéhūn ma?", "english": "Do you want to marry him?" }
+        ]
+      },
+      {
+        "rule": "**Inserting aspect particles 了 and 过.** Aspect particles 了 (completed event) and 过 (past experience) attach directly after the verb root, placing them between the verb and the internal object: Verb + 了 / 过 + (Number + Measure) + Object.",
+        "highlight": "洗了个澡",
+        "examples": [
+          { "hanzi": "他洗了个热水澡。", "pinyin": "Tā xǐ le gè rèshuǐ zǎo.", "english": "He took a hot bath." },
+          { "hanzi": "我昨天晚上睡了一个好觉。", "pinyin": "Wǒ zuótiān wǎnshang shuì le yí gè hǎo jiào.", "english": "I had a good sleep last night." },
+          { "hanzi": "你游过泳吗？", "pinyin": "Nǐ yóu guò yǒng ma?", "english": "Have you ever swum?" }
+        ]
+      },
+      {
+        "rule": "**Duration and frequency placement.** Expressions of time duration (e.g. 一个小时) or frequency (e.g. 两次, 一趟) describe the action verb, so they are inserted inside the verb-object compound (Verb + duration / frequency + Object), or the verb must be repeated (Verb + Object + Verb + duration).",
+        "highlight": "游了一个小时泳",
+        "examples": [
+          { "hanzi": "他在游泳池游了一个小时泳。", "pinyin": "Tā zài yóuyǒngchí yóu le yí gè xiǎoshí yǒng.", "english": "He swam for an hour in the swimming pool." },
+          { "hanzi": "他们昨天聊了两个小时天。", "pinyin": "Tāmen zuótiān liáo le liǎng gè xiǎoshí tiān.", "english": "They chatted for two hours yesterday." },
+          { "hanzi": "他上个月请了三次假。", "pinyin": "Tā shàng gè yuè qǐng le sān cì jià.", "english": "He asked for leave three times last month." }
+        ]
+      },
+      {
+        "rule": "**AAB reduplication pattern.** Standard two-syllable verbs reduplicate in the ABAB pattern (学习 ➔ 学习学习). In contrast, separable verbs reduplicate only the verb component in the AAB pattern (散步 ➔ 散散步, 游泳 ➔ 游游泳, 跳舞 ➔ 跳跳舞), meaning to perform the action casually or for a short while.",
+        "highlight": "散散步",
+        "examples": [
+          { "hanzi": "晚饭后我们去公园散散步吧。", "pinyin": "Wǎnfàn hòu wǒmen qù gōngyuán sànsàn bù ba.", "english": "Let's go take a walk in the park after dinner." },
+          { "hanzi": "周末我想去游游泳。", "pinyin": "Zhōumò wǒ xiǎng qù yóuyou yǒng.", "english": "On the weekend I want to swim a bit." },
+          { "hanzi": "大家一起来跳跳舞吧。", "pinyin": "Dàjiā yìqǐ lái tiàotiao wǔ ba.", "english": "Let's all dance a bit together." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "Separable verb (AAB) vs standard verb (ABAB)", "text": "Separable verbs reduplicate as AAB (散散步, 游游泳, 洗洗澡) because only the first character is the verb. Ordinary two-syllable verbs reduplicate as ABAB (学习 ➔ 学习学习, 准备 ➔ 准备准备)." },
+      { "vs": "Coverb phrase vs direct object", "text": "Standard transitive verbs take direct objects (认识他). Separable verbs already contain their object, so a person or partner must be introduced with a coverb (跟他见面, 帮他忙, 给他打电话)." },
+      { "vs": "Duration insertion vs verb repetition", "text": "You can insert the duration inside the verb (游了一个小时泳) or repeat the verb (游泳游了一个小时). You cannot place duration directly after the unseparated compound (*游泳了一个小时)." }
+    ],
+    "pitfalls": [
+      "✗ 我明天见面他。 → ✓ 我明天跟他见面。 见面 is a separable verb (见 + 面) and cannot take a direct object. Use 跟 or 和 to introduce the person.",
+      "✗ 他洗澡了一个小时。 → ✓ 他洗了一个小时澡。 (or 他洗澡洗了一个小时。) Duration cannot follow the unseparated compound without repeating the verb.",
+      "✗ 我游了一个小时的游泳。 → ✓ 我游了一个小时泳。 Insert the duration between the verb 游 and the object 泳, or repeat the verb (游泳游了一个小时).",
+      "✗ 我想散步散步。 → ✓ 我想散散步。 Separable verbs reduplicate in the AAB pattern (散散步), never ABAB.",
+      "✗ 他结婚了五年了。 → ✓ 他结婚五年了。 (or 他结了五年婚了。) For an ongoing state after a separable verb, say 结婚 + duration + 了 or insert the duration between 结 and 婚."
+    ],
+    "relatedPointIds": [
+      "g2-reduplication",
+      "g3-verbal-measure",
+      "g2-yijing-le",
+      "g1-gen-gei",
+      "g1-time-position"
+    ],
+    "keywords": [
+      "离合词",
+      "separable verbs",
+      "liheci",
+      "散步",
+      "洗澡",
+      "睡觉",
+      "见面",
+      "游泳",
+      "跳舞",
+      "结婚",
+      "AAB reduplication",
+      "duration"
+    ],
+    "status": "draft"
+  }
+]

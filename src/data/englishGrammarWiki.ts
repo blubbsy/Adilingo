@@ -238,25 +238,25 @@ export const ENGLISH_GRAMMAR_WIKI: GrammarWikiArticle[] = [
         ruleZh: '0类条件句 (客观规律/真理)：If + 一般现在时, 主句一般现在时。',
         exampleEn: 'If you heat water to 100°C, it boils.',
         exampleZh: '如果你把水加热到100度，它就会沸腾。',
-        highlight: 'heats / boils',
+        highlight: 'boils',
       },
       {
         ruleZh: '1类条件句 (将来真实可能)：主将从现 (If从句一般现在时，主句will+原形)。',
         exampleEn: 'If it rains tomorrow, we will stay at home.',
         exampleZh: '如果明天下雨，我们就会待在家里。',
-        highlight: 'If it rains ... will stay',
+        highlight: 'will stay',
       },
       {
         ruleZh: '2类条件句 (与现在事实相反虚拟)：从句用过去式(be用were)，主句用 would/could + 原形。',
         exampleEn: 'If I were you, I would accept the offer immediately.',
         exampleZh: '如果我是你，我就会立刻接受这份录用通知。',
-        highlight: 'If I were you ... would accept',
+        highlight: 'would accept',
       },
       {
         ruleZh: '3类条件句 (与过去事实相反虚拟)：从句用 had done，主句用 would have done。',
         exampleEn: 'If she had studied harder, she would have passed the exam.',
         exampleZh: '如果她当时更努力学习，她那时就能通过考试了。',
-        highlight: 'had studied ... would have passed',
+        highlight: 'would have passed',
       },
     ],
     pitfallsZh: '建议/要求/命令类词(suggest, demand, require)后的宾语从句中，谓语动词必须用 (should) + 动词原形！如: He suggested that we (should) leave early。',
@@ -374,9 +374,9 @@ export const ENGLISH_GRAMMAR_WIKI: GrammarWikiArticle[] = [
     rules: [
       {
         ruleZh: 'a vs an 看发音音素而非字母：元音音素(a, e, i, o, u发音)前用 an。',
-        exampleEn: 'an hour (/aʊər/), a university (/juːnɪ.../), an honest man.',
-        exampleZh: '一小时(元音开头用an)；一所大学(辅音/j/开头用a)；一个诚实的人。',
-        highlight: 'an hour / a university',
+        exampleEn: 'It took an hour to drive to a university with an honest guide.',
+        exampleZh: '花了一个小时开车去一所大学，还配有一位诚实的向导。(元音发音前用an，辅音/j/前用a)',
+        highlight: 'an hour',
       },
       {
         ruleZh: '定冠词 the：双方已知、特指某人某物、世界上独一无二的事物(the sun, the moon)。',

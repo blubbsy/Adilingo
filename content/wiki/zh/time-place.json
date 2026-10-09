@@ -268,7 +268,7 @@
         "highlight": "了…了",
         "examples": [
           { "hanzi": "我学了两年汉语了。", "pinyin": "Wǒ xué le liǎng nián Hànyǔ le.", "english": "I have been studying Chinese for two years." },
-          { "hanzi": "他结婚了五年了。", "pinyin": "Tā jiéhūn le wǔ nián le.", "english": "He has been married for five years." }
+          { "hanzi": "他结婚五年了。", "pinyin": "Tā jiéhūn wǔ nián le.", "english": "He has been married for five years." }
         ]
       },
       {
@@ -281,7 +281,7 @@
       }
     ],
     "contrasts": [
-      { "vs": "Point (我七点起床) vs duration (我起床了一个小时)", "text": "七点 places the event on the clock; 一个小时 measures how much time it took. The same verb works with both, but the time word moves from before the verb to after it." },
+      { "vs": "Point (我七点起床) vs duration (我起来一个小时了)", "text": "七点 places the event on the clock; 一个小时 measures how much time it took. The same verb works with both, but the time word moves from before the verb to after it." },
       { "vs": "了 after the verb vs 了 at the end", "text": "我学了两年汉语 closes the duration; 我学了两年汉语了 adds that it is still going on. See the 了 aspect articles." }
     ],
     "pitfalls": [

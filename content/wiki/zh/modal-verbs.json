@@ -105,7 +105,7 @@
     "pitfalls": [
       "✗ 我不要去。 (meant: I don't want to go) → ✓ 我不想去。 不要 as a command means 'don't'; for a refusal use 不想.",
       "✗ 我得不去。 → ✓ 我不用去。 or 我不得不去。 得 is not negated with 不 after it.",
-      "✗ 我想要去北京。 → ✓ 我想去北京。 Only use 想要 with nouns (我想要一杯水) or for emphasis, not before a plain verb.",
+      "✗ 我想要去北京。 → ✓ 我想去北京。 想要 + Verb is common and emphatic, while 想 is the standard everyday auxiliary for 'want to'.",
       "✗ 我需要去吃饭。 → ✓ 我得去吃饭。 In speech 需要 sounds too formal for ordinary chores."
     ],
     "relatedPointIds": ["g2-yao-le", "g1-bie", "g6-budebu-budeyi", "g6-hendebu-badebu"],

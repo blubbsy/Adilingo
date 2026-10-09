@@ -40,7 +40,7 @@
       { "vs": "Coverb vs 把 / 被", "text": "把 also sits before the verb, but it marks the object being handled. 被 marks the passive. Other coverbs mark recipient, target, companion or method." }
     ],
     "pitfalls": [
-      "✗ 我去北京用火车。 → ✓ 我用火车去北京。 English puts 'by train' after the verb; Chinese puts the coverb phrase 用火车 before the main verb.",
+      "✗ 我去北京坐火车。 → ✓ 我坐火车去北京。 English puts 'by train' after the verb; Chinese puts the coverb phrase 坐火车 before the main verb.",
       "✗ 跟他，我一起吃饭。 → ✓ 我跟他一起吃饭。 The subject comes first when it is the actor; the coverb phrase follows it and then the verb.",
       "✗ 我给他不写信。 → ✓ 我不给他写信。 The negation 不 goes before the coverb, so the whole phrase is negated."
     ],
@@ -169,7 +169,7 @@
         "examples": [
           { "hanzi": "我用筷子吃饭。", "pinyin": "Wǒ yòng kuàizi chīfàn.", "english": "I eat with chopsticks." },
           { "hanzi": "他用手机拍照。", "pinyin": "Tā yòng shǒujī pāizhào.", "english": "He takes photos with his phone." },
-          { "hanzi": "我用汽车去上班。", "pinyin": "Wǒ yòng qìchē qù shàngbān.", "english": "I drive my car to work." }
+          { "hanzi": "我用电脑工作。", "pinyin": "Wǒ yòng diànnǎo gōngzuò.", "english": "I work with a computer." }
         ]
       },
       {
@@ -194,7 +194,7 @@
       { "vs": "用 vs 拿", "text": "用 marks the means or tool in general. 拿 is the everyday 'take in hand' verb and is used when the object is physically held." }
     ],
     "pitfalls": [
-      "✗ 我去上班用汽车。 → ✓ 我用汽车去上班。 English puts 'by car' after the verb; the means phrase 用汽车 goes before the main verb 去.",
+      "✗ 我去上班坐地铁。 → ✓ 我坐地铁去上班。 English puts 'by subway' after the verb; the transport coverb phrase 坐地铁 goes before the main verb 去.",
       "✗ 按天气预报，明天会下雨。 → ✓ 根据天气预报，明天会下雨。 A forecast is information, so it takes 根据; 按 is for rules and plans.",
       "✗ 根据我，他很好。 → ✓ 根据我的看法，他很好。 根据 needs a basis (information or evidence), so add 的看法 or 的经验 after the pronoun."
     ],
@@ -215,7 +215,7 @@
         "rule": "**关于 = about (the topic of a text, talk or question).** It frames what a book, report or discussion is concerned with, and it is the natural choice for titles and headings.",
         "highlight": "关于",
         "examples": [
-          { "hanzi": "这本书关于中国历史。", "pinyin": "Zhè běn shū guānyú Zhōngguó lìshǐ.", "english": "This book is about Chinese history." },
+          { "hanzi": "这本书是关于中国历史的。", "pinyin": "Zhè běn shū shì guānyú Zhōngguó lìshǐ de.", "english": "This book is about Chinese history." },
           { "hanzi": "关于这个问题，我们需要讨论。", "pinyin": "Guānyú zhège wèntí, wǒmen xūyào tǎolùn.", "english": "Regarding this question, we need to discuss it." },
           { "hanzi": "关于环境保护的报告", "pinyin": "Guānyú huánjìng bǎohù de bàogào.", "english": "A report on environmental protection" }
         ]
@@ -244,7 +244,7 @@
     "pitfalls": [
       "✗ 我关于中国很感兴趣。 → ✓ 我对中国很感兴趣。 关于 does not express a personal feeling. Use 对 for interest and attitude.",
       "✗ 对于这本书讲中国历史。 → ✓ 关于这本书，讲的是中国历史。 对于 needs a judgement or comment after the comma; to say what a book is about use 关于.",
-      "✗ 这篇文章对于中国历史。 → ✓ 这篇文章关于中国历史。 A bare topic after 对于 is ungrammatical; the sentence needs a verb such as 讲 or 谈 or a comment."
+      "✗ 这篇文章对于中国历史。 → ✓ 这篇文章是关于中国历史的。 A bare topic after 对于 is ungrammatical; the sentence needs a verb or use 是关于…的 to state what it is about."
     ],
     "relatedPointIds": ["g4-duiyu-guanyu", "g7-yu-preposition", "g4-suizhe"],
     "keywords": ["关于", "对于", "guanyu", "duiyu", "about", "regarding", "as for", "topic", "judgement", "formal", "comment"],

@@ -22,7 +22,7 @@
         "highlight": "其",
         "examples": [
           { "hanzi": "其中一位是我的老师。", "pinyin": "Qízhōng yí wèi shì wǒ de lǎoshī.", "english": "One of them is my teacher." },
-          { "hanzi": "这本书其意义深远。", "pinyin": "Zhè běn shū qí yìyì shēnyuǎn.", "english": "The meaning of this book is far-reaching." },
+          { "hanzi": "这项研究，其意义深远。", "pinyin": "Zhè xiàng yánjiū, qí yìyì shēnyuǎn.", "english": "This research is of profound significance." },
           { "hanzi": "其他同学都去了。", "pinyin": "Qítā tóngxué dōu qù le.", "english": "All the other students went." }
         ]
       },
@@ -89,7 +89,7 @@
         "examples": [
           { "hanzi": "不努力则无法进步。", "pinyin": "Bù nǔlì zé wúfǎ jìnbù.", "english": "Without effort, one cannot make progress." },
           { "hanzi": "有困难则想办法解决。", "pinyin": "Yǒu kùnnan zé xiǎng bànfǎ jiějué.", "english": "When there are difficulties, find a way to solve them." },
-          { "hanzi": "这乃我们的责任。", "pinyin": "Zhè nǎi wǒmen de zérèn.", "english": "This is our responsibility." }
+          { "hanzi": "此乃我们的责任。", "pinyin": "Cǐ nǎi wǒmen de zérèn.", "english": "This is our responsibility." }
         ]
       }
     ],
@@ -122,7 +122,7 @@
         "examples": [
           { "hanzi": "我所知道的很有限。", "pinyin": "Wǒ suǒ zhīdào de hěn yǒuxiàn.", "english": "What I know is very limited." },
           { "hanzi": "他所说的话很有道理。", "pinyin": "Tā suǒ shuō de huà hěn yǒu dàolǐ.", "english": "What he said makes a lot of sense." },
-          { "hanzi": "所有的人都同意。", "pinyin": "Suǒyǒu de rén dōu tóngyì.", "english": "Everyone agreed." }
+          { "hanzi": "这是大家所关心的核心问题。", "pinyin": "Zhè shì dàjiā suǒ guānxīn de héxīn wèntí.", "english": "This is the core issue that everyone is concerned about." }
         ]
       },
       {
@@ -240,7 +240,7 @@
         "highlight": "予以",
         "examples": [
           { "hanzi": "政府予以支持。", "pinyin": "Zhèngfǔ yǔyǐ zhīchí.", "english": "The government gives its support." },
-          { "hanzi": "对问题要加以改进。", "pinyin": "Duì wèntí yào jiāyǐ gǎijìn.", "english": "The problem must be improved." }
+          { "hanzi": "对问题要加以分析与解决。", "pinyin": "Duì wèntí yào jiāyǐ fēnxī yǔ jiějué.", "english": "The problem must be analyzed and solved." }
         ]
       },
       {

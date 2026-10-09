@@ -212,7 +212,7 @@
     "pitfalls": [
       "✗ 三个书 → ✓ 三本书。 Books always take 本.",
       "✗ 一个猫 → ✓ 一只猫。 Animals: 只 (or 条 for dogs and fish, 头 for big animals).",
-      "✗ 一条裙子 → ✓ 一条裙子 / 一件衣服。 Skirts and trousers use 条, shirts and coats use 件; check which is long and which has sleeves.",
+      "✗ 一件裙子 → ✓ 一条裙子 / 一件衣服。 Skirts and trousers use 条, shirts and coats use 件; check which is long and which has sleeves.",
       "✗ 一张车 → ✓ 一辆车。 Vehicles take 辆 (planes and boats: 架 and 艘)."
     ],
     "relatedPointIds": [

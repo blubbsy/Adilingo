@@ -41,6 +41,7 @@ function write(name, data) {
 const PUNCT = { '，': ',', '。': '.', '！': '!', '？': '?', '、': ',', '；': ';', '：': ':', '（': '(', '）': ')', '“': '"', '”': '"' };
 const ZI_NEXT = new Set([...'女弹孙宫夜时']);
 const SCIENTIFIC_ZI = new Set(['分子', '原子', '电子', '粒子', '离子', '质子', '中子', '量子', '光子', '孔子', '君子', '太子', '王子', '因子', '男子', '女子', '弟子', '父子', '母子', '才子', '卵子', '精子', '莲子', '骰子']);
+const ZANG_PREV = new Set([...'心肝脾肺肾内']);
 /** Splits text into pinyin syllables (Chinese characters) and verbatim runs (latin letters, digits, punctuation). */
 function tokens(text) {
   const out = [];
@@ -57,6 +58,11 @@ function tokens(text) {
       if (it.origin === '子' && isHan(chars[i - 1]) && !SCIENTIFIC_ZI.has(chars[i - 1] + '子') && !ZI_NEXT.has(chars[i + 1] ?? '')) {
         symbol = 'zi';
         num = 5;
+      }
+      // 脏 is 4th tone (zàng / zang4) when referring to internal organs (preceded by 心, 肝, 脾, 肺, 肾, 内)
+      if (it.origin === '脏' && ZANG_PREV.has(chars[i - 1] ?? '')) {
+        symbol = 'zàng';
+        num = 4;
       }
       out.push({ symbol, numbered: `${pinyin(it.origin, { toneType: 'none' })}${num}` });
       if (symbol === 'zi') out[out.length - 1].numbered = 'zi5';
@@ -165,10 +171,18 @@ function buildEnTopics() {
       if (!(level >= 1 && level <= 6)) { err(rel(file), n, `level "${lvl}" must be 1-6 (${word})`); continue; }
       if (!/^\/.+\/$/.test(ipa)) warn(rel(file), n, `IPA of "${word}" should be written /…/`);
       const key = slug(word);
-      if (seen.has(key)) { warn(rel(file), n, `"${word}" already in ${seen.get(key)}`); continue; }
+      if (seen.has(key)) {
+        const existing = all.find((r) => r[0] === `en-${key}`);
+        if (existing) {
+          const list = Array.isArray(existing[5]) ? existing[5] : (existing[5] = [existing[5]]);
+          if (!list.includes(topic.name)) list.push(topic.name);
+        }
+        count++;
+        continue;
+      }
       seen.set(key, rel(file));
       if (!ex.toLowerCase().includes(word.toLowerCase().split(' ')[0].slice(0, Math.max(3, word.length - 3)))) warn(rel(file), n, `example may not contain "${word}"`);
-      all.push([`en-${slug(word)}`, word, ipa, zh.split(';').map((s) => s.trim()).filter(Boolean), level, topic.name, ex, exZh]);
+      all.push([`en-${slug(word)}`, word, ipa, zh.split(';').map((s) => s.trim()).filter(Boolean), level, [topic.name], ex, exZh]);
       count++;
     }
     if (count < 100) warn(rel(file), 0, `only ${count} words`);

@@ -203,10 +203,10 @@ export const ENGLISH_TENSES: EnglishTenseRecord[] = [
       },
     },
     passive: {
-      sentence: 'A letter has been in progress of being written. (常用：has been written)',
+      sentence: 'A letter has been being written.',
       translation: '一封信一直在被撰写中。',
       verbPart: 'has been being written (理论形式)',
-      whatChangedZh: '强调持续过程；因语音赘述，实际口语常直接用现在完成时被动 has been written 表达。',
+      whatChangedZh: '口语中极少使用此被动式，通常简化为现在完成时被动 has been written。',
     },
   },
 
@@ -371,10 +371,10 @@ export const ENGLISH_TENSES: EnglishTenseRecord[] = [
       },
     },
     passive: {
-      sentence: 'A letter had been written for an hour. (常直接转为完成时被动)',
+      sentence: 'A letter had been being written for an hour.',
       translation: '在停电前，写信的工作已经持续进行了一个小时。',
       verbPart: 'had been written',
-      whatChangedZh: '英语习惯中避免连续两个 be 动词形式 (had been being written)，日常均转换为 had been written。',
+      whatChangedZh: '英语习惯中避免连续两个 be 动词形式 (had been being written)，口语中通常直接使用过去完成时被动 had been written。',
     },
   },
 

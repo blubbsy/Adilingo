@@ -214,7 +214,7 @@
 淀粉 | starch | 勾芡要用淀粉。 | Thickening requires starch.
 饮料 | drink; beverage | 你想喝什么饮料？ | What drink would you like?
 饮品 | beverages | 这家店的饮品很多。 | This shop has many beverages.
-果汁 | fruit juice | 我要一杯橙汁。 | I would like a glass of orange juice.
+果汁 | fruit juice | 我要一杯新鲜的果汁。 | I would like a glass of fresh fruit juice.
 橙汁 | orange juice | 早餐有橙汁和面包。 | Breakfast has orange juice and bread.
 可乐 | cola | 孩子们爱喝可乐。 | The kids love drinking cola.
 汽水 | soda | 夏天喝冰汽水很爽。 | A cold soda is refreshing in summer.
@@ -262,7 +262,7 @@
 加热 | to heat up | 请帮我加热这碗汤。 | Please heat up this bowl of soup for me.
 解冻 | to thaw | 肉要提前一晚解冻。 | The meat needs to be thawed the night before.
 冷冻 | to freeze | 剩下的饺子冷冻起来。 | Freeze the leftover dumplings.
-放盐 | to add salt | 汤里别放太多盐。 | Do not add too much salt to the soup.
+放盐 | to add salt | 做汤时记得放盐。 | Remember to add salt when making soup.
 熟 | cooked; ripe | 这块肉还没熟。 | This piece of meat is not cooked yet.
 生 | raw | 生鱼片要吃新鲜的。 | Sashimi must be eaten fresh.
 烤熟 | to roast until done | 红薯已经烤熟了。 | The sweet potato is already roasted through.
@@ -333,9 +333,9 @@
 素食者 | vegetarian | 我是素食者，不吃肉。 | I am a vegetarian and do not eat meat.
 过敏 | allergic; allergy | 我对海鲜过敏。 | I am allergic to seafood.
 忌口 | dietary restriction | 你有什么忌口吗？ | Do you have any dietary restrictions?
-上菜 | to serve dishes | 菜上齐了，请慢用。 | All dishes have been served, please enjoy.
+上菜 | to serve dishes | 服务员，请快点上菜。 | Waiter, please serve the dishes quickly.
 慢用 | enjoy your meal | 菜都上齐了，请慢用。 | Your dishes are all here, please enjoy.
-加菜 | to order more dishes | 我们想再加一个菜。 | We would like to add another dish.
+加菜 | to order more dishes | 菜不够吃的话，我们可以再加菜。 | If there is not enough food, we can order more dishes.
 续杯 | refill | 咖啡可以免费续杯。 | Coffee refills are free.
 结账 | to settle the bill | 我们要结账。 | We would like to settle the bill.
 账单 | bill | 请把账单给我。 | Please give me the bill.

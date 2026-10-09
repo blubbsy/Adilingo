@@ -111,7 +111,7 @@ control | /kənˈtroʊl/ | 对照; 控制 | The control group received no medici
 statistics | /stəˈtɪstɪks/ | 统计学; 统计数据 | Statistics show that crime is falling. | 统计数据表明犯罪在下降。 | 4
 survey | /ˈsɜːrveɪ/ | 调查 | A survey of 1,000 people was carried out. | 对一千人进行了调查。 | 4
 sample size | /ˈsæmpl saɪz/ | 样本量 | A larger sample size gives better results. | 更大的样本量会带来更好的结果。 | 5
-correlation | /ˌkɔːrəˈleɪʃn/ | 相关性 | There is a link between sleep and memory. | 睡眠和记忆之间存在关联。 | 6
+correlation | /ˌkɔːrəˈleɪʃn/ | 相关性 | There is a strong correlation between sleep and memory. | 睡眠和记忆之间存在关联。 | 6
 accurate | /ˈækjərət/ | 准确的 | The scale gives accurate readings. | 这台秤读数准确。 | 4
 precise | /prɪˈsaɪs/ | 精确的 | We need a precise measurement. | 我们需要精确的测量。 | 4
 accuracy | /ˈækjərəsi/ | 准确性 | Accuracy is vital in science. | 准确性在科学中至关重要。 | 5

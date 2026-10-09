@@ -344,7 +344,7 @@ groin-strain | 3 | Injuries | groin strain | 腹股沟拉伤 |  | A strain of th
 calf-strain | 3 | Injuries | calf strain | 小腿拉伤 |  | A stretching or tearing of the calf muscle. | A calf strain kept him out for two weeks. | 小腿拉伤让他缺阵两周。 |
 acl-injury | 2 | Injuries | ACL tear | 前交叉韧带撕裂 | ACL | A rupture of the main stabilising ligament inside the knee. | An ACL tear can end a season. | 前交叉韧带撕裂可能让球员报销整个赛季。 | ay see el
 meniscus | 3 | Injuries | meniscus injury | 半月板损伤 |  | Damage to the cartilage cushion in the knee. | A meniscus injury needed surgery. | 半月板损伤需要手术。 |
-fracture | 2 | Injuries | fracture | 骨折 |  | A broken bone. | The tackle caused a fracture of the leg. | 这次铲球造成了腿部骨折。 |
+fracture | 2 | Injuries | fracture | 骨折 |  | A crack or break in a bone, commonly caused by high-impact collisions or severe tackles. | The tackle caused a fracture of the leg. | 这次铲球造成了腿部骨折。 |
 concussion | 2 | Injuries | concussion | 脑震荡 |  | A temporary brain injury caused by a blow to the head. | He was substituted with a suspected concussion. | 他因疑似脑震荡被换下场。 |
 dislocation | 3 | Injuries | dislocation | 脱臼 |  | A joint forced out of its normal position. | The keeper had a shoulder dislocation. | 门将肩膀脱臼了。 |
 cramp | 1 | Injuries | cramp | 抽筋 |  | A sudden painful tightening of a muscle. | He went down with cramp in the 85th minute. | 他在第85分钟因抽筋倒地。 |
