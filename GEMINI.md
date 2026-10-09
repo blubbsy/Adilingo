@@ -98,9 +98,13 @@ Audio pronunciation is mission-critical for language learners. The browser audio
 
 ## 5. UI, Accessibility & Internationalization (i18n)
 
-1. **Dual Language Interface (`src/utils/i18n.ts`)**:
-   - The UI supports Chinese and English interfaces. Use `t(key, lang)` for UI strings.
-   - Ensure all new headings, modal labels, and button tooltips have corresponding keys in `i18n.ts`.
+1. **Localization rules (`src/i18n`, full guide in `docs/i18n.md`)**:
+   - The interface supports `en`, `zh`, `de` (and a dev-only pseudo-locale `xa`). **Never write UI text inline** – not in JSX, `aria-label`/`title`/`placeholder`, nor `lang === 'zh' ? … : …`. Use `const { t } = useI18n(); t('area.key', vars)`. `npm run check:i18n` must stay at **0**.
+   - Add every new string to `src/i18n/locales/en/<area>.ts` **and** `zh` (compile-time complete) **and** `de`. One key per sentence (no concatenation), plurals via `{n, plural, one {…} other {…}}`, styled parts via `<tag>…</tag>` + `rich()`.
+   - Numbers/dates/lists go through `formatNumber` / `formatDate` / `formatList` / `formatRelative`, never `toLocaleString('en')`.
+   - Data-driven text (badges, levels, course names) uses keys built from ids (`tx`, `levelLabel(level, course, t)`); utilities throw `LocalizedError`, never English-only `Error`s for user-visible problems.
+   - Course *content* (grammar articles, glosses) is not translated through these tables.
+   - **Layout**: no fixed widths on text, allow wrapping, test with `?lang=xa`; `e2e/layout.spec.ts` fails on sideways scroll, controls outside the viewport and clipped labels at 360 / 768 / 1280 px.
 2. **Accessibility & Dark Mode**:
    - Maintain full dark mode support via Tailwind `dark:` variants.
    - Keep interactive elements accessible with `aria-label`, visible focus rings (`focus:ring-2`), and keyboard shortcuts (`1-4`, `Space`, `Enter`).
