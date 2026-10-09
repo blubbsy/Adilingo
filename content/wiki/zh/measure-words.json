@@ -1,0 +1,476 @@
+[
+  {
+    "id": "classifier-basics",
+    "title": "Measure words: why Chinese counts with a classifier",
+    "titleHanzi": "量词 · 个",
+    "category": "measure-words",
+    "hskRange": [
+      1,
+      3
+    ],
+    "summary": "Chinese cannot join a number or 这 / 那 directly to a noun. A measure word (classifier) must sit between them: 三个人, 这本书. 个 is the all-purpose default.",
+    "pattern": "Number / 这 / 那 / 几 / 每 + Measure word + Noun",
+    "rules": [
+      {
+        "rule": "A number or demonstrative **always** needs a measure word before the noun, like \"three **pieces of** paper\" in English, but here it applies to every noun, even people.",
+        "highlight": "个 / 本",
+        "examples": [
+          {
+            "hanzi": "我有三个朋友。",
+            "pinyin": "Wǒ yǒu sān gè péngyǒu.",
+            "english": "I have three friends."
+          },
+          {
+            "hanzi": "这本书很有意思。",
+            "pinyin": "Zhè běn shū hěn yǒuyìsī.",
+            "english": "This book is very interesting."
+          }
+        ]
+      },
+      {
+        "rule": "**个** is the default and the safe choice in speech; it is also what 几 and 每 most often combine with. Prefer the specific classifier when you know it, but a learner who says 个 is understood.",
+        "highlight": "个",
+        "examples": [
+          {
+            "hanzi": "你要几个?",
+            "pinyin": "Nǐ yào jǐ gè?",
+            "english": "How many do you want?"
+          },
+          {
+            "hanzi": "每个人都有一张票。",
+            "pinyin": "Měi gè rén dōu yǒu yì zhāng piào.",
+            "english": "Everybody has a ticket."
+          }
+        ]
+      },
+      {
+        "rule": "Use **两** (not 二) before a measure word to say \"two\": 两个人, 两本书. 二 appears in counting, numbers and ordinals (第二个, 二十二).",
+        "highlight": "两 / 二",
+        "examples": [
+          {
+            "hanzi": "我有两个孩子。",
+            "pinyin": "Wǒ yǒu liǎng gè háizi.",
+            "english": "I have two children."
+          },
+          {
+            "hanzi": "他是第二个到的。",
+            "pinyin": "Tā shì dì èr gè dào de.",
+            "english": "He was the second to arrive."
+          }
+        ]
+      },
+      {
+        "rule": "**Vague quantity words** such as 很多, 一些, 不少, 几 usually go straight to the noun or take a measure word only in the 一些 / 一点 pattern; 很多 never takes one.",
+        "highlight": "很多",
+        "examples": [
+          {
+            "hanzi": "教室里有很多人。",
+            "pinyin": "Jiàoshì lǐ yǒu hěnduō rén.",
+            "english": "There are many people in the classroom."
+          },
+          {
+            "hanzi": "我想问你一些问题。",
+            "pinyin": "Wǒ xiǎng wèn nǐ yìxiē wèntí.",
+            "english": "I would like to ask you a few questions."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "English countable nouns",
+        "text": "English says \"three people\", \"two books\". Chinese says \"three [unit] people\", \"two [unit] books\". The measure word names the unit used for counting, similar to \"three sheets of paper\"."
+      },
+      {
+        "vs": "这个 vs 这",
+        "text": "这 alone is a pronoun (这是书). With a noun it needs a measure word: 这本书. Colloquially 这个 / 那个 can also stand for \"this one / that one\"."
+      }
+    ],
+    "pitfalls": [
+      "✗ 三朋友 → ✓ 三个朋友。 A number cannot touch a noun.",
+      "✗ 二个孩子 → ✓ 两个孩子。 Use 两 before a measure word.",
+      "✗ 很多个人 → ✓ 很多人。 Quantity words like 很多 do not take 个.",
+      "✗ 这书很有意思。(rare in speech) → ✓ 这本书很有意思。 Add the classifier before the noun."
+    ],
+    "relatedPointIds": [
+      "g1-ji-duoshao",
+      "g2-reduplication"
+    ],
+    "keywords": [
+      "量词",
+      "liangci",
+      "measure word",
+      "classifier",
+      "个",
+      "ge",
+      "两",
+      "liang",
+      "counting",
+      "numerals",
+      "一些",
+      "几个"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "classifier-categories",
+    "title": "Choosing classifiers: shape, kind and function",
+    "titleHanzi": "张 · 条 · 只 · 本 · 件 · 把",
+    "category": "measure-words",
+    "hskRange": [
+      1,
+      5
+    ],
+    "summary": "Classifiers group nouns by shape (flat, long, round), by kind (animal, vehicle, garment, book) or by function (sets, pairs, containers). Learn the 15 most common ones and attach them to the nouns.",
+    "pattern": "Number + 张 / 条 / 只 / 本 / 件 / 把 / 辆 / 杯 / 瓶 / 位 / 家 … + Noun",
+    "rules": [
+      {
+        "rule": "**Shape**: **张** for flat things (paper, table, bed, ticket, face), **条** for long, thin, flexible things (road, river, fish, trousers, scarf), **把** for things with a handle (chair, knife, umbrella), **块** for lumps and pieces.",
+        "highlight": "张 / 条 / 把",
+        "examples": [
+          {
+            "hanzi": "桌子上有一张地图。",
+            "pinyin": "Zhuōzi shàng yǒu yì zhāng dìtú.",
+            "english": "There is a map on the table."
+          },
+          {
+            "hanzi": "他养了两条鱼。",
+            "pinyin": "Tā yǎng le liǎng tiáo yú.",
+            "english": "He keeps two fish."
+          },
+          {
+            "hanzi": "我买了一把新雨伞。",
+            "pinyin": "Wǒ mǎi le yì bǎ xīn yǔsǎn.",
+            "english": "I bought a new umbrella."
+          }
+        ]
+      },
+      {
+        "rule": "**Kind**: **本** for books and booklets, **件** for clothes (upper body) and matters, **辆** for vehicles, **只** for most animals and one of a pair, **头** for large animals, **棵** for plants, **朵** for flowers, **座** for large fixed objects (mountain, bridge).",
+        "highlight": "本 / 件 / 辆 / 只",
+        "examples": [
+          {
+            "hanzi": "我借了三本书。",
+            "pinyin": "Wǒ jiè le sān běn shū.",
+            "english": "I borrowed three books."
+          },
+          {
+            "hanzi": "院子里有一只小猫。",
+            "pinyin": "Yuànzi lǐ yǒu yì zhī xiǎo māo.",
+            "english": "There is a small cat in the yard."
+          },
+          {
+            "hanzi": "那辆红色的车是我的。",
+            "pinyin": "Nà liàng hóngsè de chē shì wǒ de.",
+            "english": "That red car is mine."
+          }
+        ]
+      },
+      {
+        "rule": "**Containers and measures**: 杯 (cup, glass), 瓶 (bottle), 碗 (bowl), 盘 (plate) are borrowed from the vessel; 双 and 对 label pairs and 套 sets.",
+        "highlight": "杯 / 双",
+        "examples": [
+          {
+            "hanzi": "请给我一杯水。",
+            "pinyin": "Qǐng gěi wǒ yì bēi shuǐ.",
+            "english": "Please give me a glass of water."
+          },
+          {
+            "hanzi": "她买了一双新鞋。",
+            "pinyin": "Tā mǎi le yì shuāng xīn xié.",
+            "english": "She bought a new pair of shoes."
+          }
+        ]
+      },
+      {
+        "rule": "**People and places**: 位 is polite for people (一位老师), 名 is formal for professions, 家 for businesses and families, 所 for schools and hospitals, 个 stays the neutral option.",
+        "highlight": "位 / 家",
+        "examples": [
+          {
+            "hanzi": "这位是我们的老师。",
+            "pinyin": "Zhè wèi shì wǒmen de lǎoshī.",
+            "english": "This is our teacher."
+          },
+          {
+            "hanzi": "街角有一家咖啡馆。",
+            "pinyin": "Jiējiǎo yǒu yì jiā kāfēiguǎn.",
+            "english": "There is a café on the street corner."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "个 vs the specific one",
+        "text": "个 is correct but plain. In careful speech and writing, a specific classifier shows you know the noun: 三本书 sounds better than 三个书, and 三个书 is wrong."
+      },
+      {
+        "vs": "英语 \"a piece of / a pair of\"",
+        "text": "English only uses unit words with some nouns (a pair of shoes, a slice of bread). Chinese uses them with all nouns, and the choice carries information about the noun."
+      }
+    ],
+    "pitfalls": [
+      "✗ 三个书 → ✓ 三本书。 Books always take 本.",
+      "✗ 一个猫 → ✓ 一只猫。 Animals: 只 (or 条 for dogs and fish, 头 for big animals).",
+      "✗ 一条裙子 → ✓ 一条裙子 / 一件衣服。 Skirts and trousers use 条, shirts and coats use 件; check which is long and which has sleeves.",
+      "✗ 一张车 → ✓ 一辆车。 Vehicles take 辆 (planes and boats: 架 and 艘)."
+    ],
+    "relatedPointIds": [
+      "g1-ji-duoshao",
+      "g2-reduplication"
+    ],
+    "keywords": [
+      "量词分类",
+      "classifier categories",
+      "张",
+      "条",
+      "只",
+      "本",
+      "件",
+      "把",
+      "辆",
+      "杯",
+      "位",
+      "家",
+      "measure word list",
+      "shape classifier",
+      "zhang",
+      "tiao"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "verbal-measure-words",
+    "title": "Verbal measure words: counting actions",
+    "titleHanzi": "次 · 遍 · 趟 · 下 · 场 · 顿",
+    "category": "measure-words",
+    "hskRange": [
+      2,
+      5
+    ],
+    "summary": "Measure words that count actions, not things. They go after the verb to say how many times: 看了一遍, 去了一趟, 等一下, 下了一场雨.",
+    "pattern": "Verb + (了 / 过) + Number + 次 / 遍 / 趟 / 回 / 下 / 场 / 顿 + (Object)",
+    "rules": [
+      {
+        "rule": "**次** is the general \"time\" for repeatable events. **回** is the colloquial equivalent. Choose these when you simply count occasions.",
+        "highlight": "次 / 回",
+        "examples": [
+          {
+            "hanzi": "这个月我去了三次医院。",
+            "pinyin": "Zhège yuè wǒ qù le sān cì yīyuàn.",
+            "english": "This month I have been to the hospital three times."
+          },
+          {
+            "hanzi": "我只见过他一回。",
+            "pinyin": "Wǒ zhǐ jiànguò tā yì huí.",
+            "english": "I have met him only once."
+          }
+        ]
+      },
+      {
+        "rule": "**遍** counts a whole action from start to finish (read a text, watch a film, say a sentence), while **趟** counts a trip there and back.",
+        "highlight": "遍 / 趟",
+        "examples": [
+          {
+            "hanzi": "这篇课文我读了三遍。",
+            "pinyin": "Zhè piān kèwén wǒ dú le sān biàn.",
+            "english": "I read this text three times through."
+          },
+          {
+            "hanzi": "他今天去了一趟超市。",
+            "pinyin": "Tā jīntiān qù le yí tàng chāoshì.",
+            "english": "He went to the supermarket once today."
+          }
+        ]
+      },
+      {
+        "rule": "**下** means a brief, light action (a knock, a pat, \"have a go\"). It is also the softener in requests: 等一下, 看一下.",
+        "highlight": "下",
+        "examples": [
+          {
+            "hanzi": "请等一下。",
+            "pinyin": "Qǐng děng yí xià.",
+            "english": "Please wait a moment."
+          },
+          {
+            "hanzi": "有人敲了三下门。",
+            "pinyin": "Yǒu rén qiāo le sān xià mén.",
+            "english": "Someone knocked three times on the door."
+          }
+        ]
+      },
+      {
+        "rule": "Events take their own counters: **场** for rain, games, shows, exams and illness; **顿** for meals, scoldings and beatings; **声** for calls and sounds; **眼** for glances.",
+        "highlight": "场 / 顿 / 声",
+        "examples": [
+          {
+            "hanzi": "昨天下了一场大雨。",
+            "pinyin": "Zuótiān xià le yì chǎng dàyǔ.",
+            "english": "There was a big rainstorm yesterday."
+          },
+          {
+            "hanzi": "我们一起吃了一顿晚饭。",
+            "pinyin": "Wǒmen yìqǐ chī le yí dùn wǎnfàn.",
+            "english": "We ate a dinner together."
+          },
+          {
+            "hanzi": "她看了我一眼,没说话。",
+            "pinyin": "Tā kàn le wǒ yì yǎn, méi shuōhuà.",
+            "english": "She glanced at me and said nothing."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "次 vs 遍",
+        "text": "次 simply counts occurrences; 遍 needs an action with a beginning and an end. 看一次电影 and 看一遍电影 are close, but you cannot say 敲一遍门."
+      },
+      {
+        "vs": "Noun measure words",
+        "text": "Noun classifiers sit before the noun (三本书). Verbal ones follow the verb (看三遍). Compare 我看了三本书 (three books) with 我看了三遍 (three times)."
+      }
+    ],
+    "pitfalls": [
+      "✗ 我去过三次北京了。 → ✓ 我去过三次北京。 / 我去过北京三次。 No extra 了 for a plain experience.",
+      "✗ 我找了三次他。 → ✓ 我找了他三次。 A pronoun object comes before the verbal measure.",
+      "✗ 我们吃了一次晚饭。 → ✓ 我们吃了一顿晚饭。 Meals take 顿.",
+      "✗ 下了一场雨。(for drizzle) fine, but ✗ 下了一次雨 → ✓ 下了一场雨。 Rain is counted with 场."
+    ],
+    "relatedPointIds": [
+      "g3-verbal-measure",
+      "g1-yixia",
+      "g2-reduplication"
+    ],
+    "keywords": [
+      "动量词",
+      "dongliangci",
+      "verbal measure word",
+      "次",
+      "遍",
+      "趟",
+      "下",
+      "场",
+      "顿",
+      "回",
+      "声",
+      "眼",
+      "times",
+      "occasions",
+      "一下"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "measure-reduplication",
+    "title": "Doubling measure words: 个个, 一个个, 一个比一个",
+    "titleHanzi": "个个 · 一个个",
+    "category": "measure-words",
+    "hskRange": [
+      3,
+      6
+    ],
+    "summary": "Doubling a measure word or noun expresses \"every single one\" (个个都), while the 一…一… frames mean \"one by one\", \"again and again\" and \"each more than the last\".",
+    "pattern": "Measure word + Measure word + 都 + Predicate  ·  一 + M + 一 + M + 地 + Verb  ·  一 + M + 比 + 一 + M + Adjective",
+    "rules": [
+      {
+        "rule": "**Doubled measure words** (个个, 条条, 件件) or nouns (人人, 天天) mean \"every single one\" and are almost always followed by **都**.",
+        "highlight": "个个都",
+        "examples": [
+          {
+            "hanzi": "这些学生个个都很聪明。",
+            "pinyin": "Zhèxiē xuéshēng gègè dōu hěn cōngming.",
+            "english": "All of these students are very clever."
+          },
+          {
+            "hanzi": "他天天早上六点起床。",
+            "pinyin": "Tā tiāntiān zǎoshàng liùdiǎn qǐchuáng.",
+            "english": "He gets up at six every morning."
+          }
+        ]
+      },
+      {
+        "rule": "**一个一个地 / 一件一件地** means \"one at a time\". It modifies the verb with 地 and stresses carefulness or sequence.",
+        "highlight": "一个一个地",
+        "examples": [
+          {
+            "hanzi": "请大家一个一个地进来。",
+            "pinyin": "Qǐng dàjiā yí gè yi gè de jìnlái.",
+            "english": "Please come in one at a time."
+          },
+          {
+            "hanzi": "她把衣服一件一件地放进箱子里。",
+            "pinyin": "Tā bǎ yīfu yíjiàn yijiàn de fàngjìn xiāngzǐ lǐ.",
+            "english": "She put the clothes in the suitcase one by one."
+          }
+        ]
+      },
+      {
+        "rule": "**一 + M + 又 + 一 + M** signals repetition (\"again and again\") and **一点一点地** gradually. Both are common with 遍, 次, 天, 步.",
+        "highlight": "一遍又一遍",
+        "examples": [
+          {
+            "hanzi": "他一遍又一遍地练习发音。",
+            "pinyin": "Tā yíbiàn yòu yíbiàn de liànxí fāyīn.",
+            "english": "He practised the pronunciation over and over again."
+          },
+          {
+            "hanzi": "孩子一点一点地长大了。",
+            "pinyin": "Háizi yìdiǎn yidiǎn de zhǎngdà le.",
+            "english": "The child grew up little by little."
+          }
+        ]
+      },
+      {
+        "rule": "**一个比一个 + adjective** says each is more than the one before, in a series: the quality escalates.",
+        "highlight": "一个比一个",
+        "examples": [
+          {
+            "hanzi": "这几个问题一个比一个难。",
+            "pinyin": "Zhè jǐ gè wèntí yí gè bǐ yí gè nán.",
+            "english": "Each of these questions is harder than the last."
+          },
+          {
+            "hanzi": "孩子们一个比一个高。",
+            "pinyin": "Háizimen yí gè bǐ yí gè gāo.",
+            "english": "The children are each taller than the one before."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "每 + M",
+        "text": "每个人都 and 人人都 are close. 每个 lets you add a clause; the doubled form is fixed and more emphatic. Both need 都."
+      },
+      {
+        "vs": "Verb reduplication",
+        "text": "看看, 试试 mean \"try briefly\" and double the verb (see 看看). Measure-word doubling counts items, not actions."
+      }
+    ],
+    "pitfalls": [
+      "✗ 我喜欢个个学生。 → ✓ 个个学生都很聪明。 / 我喜欢每个学生。 A doubled measure word works as a subject with 都, not as an object.",
+      "✗ 个个学生很聪明。 → ✓ 个个学生都很聪明。 Do not forget 都.",
+      "✗ 一遍一遍练习。 → ✓ 一遍又一遍地练习。 Add 又 and 地.",
+      "✗ 一个一个比。 → ✓ 一个比一个好。 The pattern needs 比 and an adjective."
+    ],
+    "relatedPointIds": [
+      "g2-reduplication",
+      "g1-ji-duoshao",
+      "g3-question-word-indefinite"
+    ],
+    "keywords": [
+      "量词重叠",
+      "liangci chongdie",
+      "reduplication",
+      "个个",
+      "一个一个",
+      "一遍又一遍",
+      "一个比一个",
+      "every one",
+      "one by one",
+      "again and again"
+    ],
+    "status": "draft"
+  }
+]

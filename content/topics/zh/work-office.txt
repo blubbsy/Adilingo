@@ -1,0 +1,238 @@
+@pack | work-office | Work & Office | 职场与办公 | 💼 | work | Workplace communication, office equipment, meetings, and business terms.
+工作 | work; job | 我的工作很忙。 | My job is very busy.
+公司 | company | 他在一家大公司工作。 | He works at a big company.
+办公室 | office | 我的办公室在三楼。 | My office is on the third floor.
+电脑 | computer | 我用电脑写报告。 | I write reports on the computer.
+笔记本 | laptop; notebook | 他每天带笔记本去公司。 | He takes his laptop to the company every day.
+打印机 | printer | 打印机没纸了。 | The printer is out of paper.
+屏幕 | screen | 这个屏幕太小了。 | This screen is too small.
+键盘 | keyboard | 我的键盘坏了。 | My keyboard is broken.
+鼠标 | mouse | 请把鼠标给我。 | Please give me the mouse.
+笔 | pen | 我需要一支笔。 | I need a pen.
+纸 | paper | 请给我几张纸。 | Please give me a few sheets of paper.
+文件 | document; file | 请把文件发给我。 | Please send me the document.
+邮件 | email | 我每天看邮件。 | I check email every day.
+会议 | meeting | 会议下午两点开始。 | The meeting starts at two p.m.
+开会 | have a meeting | 我们明天上午开会。 | We have a meeting tomorrow morning.
+同事 | colleague | 我的同事很友好。 | My colleagues are friendly.
+老板 | boss | 老板今天不在。 | The boss is away today.
+经理 | manager | 经理在办公室里。 | The manager is in the office.
+客户 | client | 我今天要见一位客户。 | I'm meeting a client today.
+项目 | project | 这个项目下个月完成。 | This project will be finished next month.
+报告 | report | 他正在写报告。 | He is writing a report.
+计划 | plan | 我们有一个新计划。 | We have a new plan.
+合同 | contract | 请在合同上签字。 | Please sign the contract.
+工资 | salary | 这个月的工资发了。 | This month's salary has been paid.
+面试 | interview | 我明天有一个面试。 | I have an interview tomorrow.
+简历 | resume | 请把简历发到我的邮箱。 | Please send your resume to my mailbox.
+职业 | profession | 你的职业是什么？ | What is your profession?
+加班 | work overtime | 我今晚要加班。 | I have to work overtime tonight.
+休假 | take leave | 他下周休假。 | He is on leave next week.
+上班 | go to work | 我每天八点上班。 | I go to work at eight every day.
+下班 | finish work | 我六点下班。 | I get off work at six.
+迟到 | be late | 今天我上班迟到了。 | I was late for work today.
+早退 | leave early | 他今天早退了。 | He left early today.
+请假 | ask for leave | 我想请假一天。 | I'd like to ask for a day off.
+出差 | business trip | 他明天去北京出差。 | He is going on a business trip to Beijing tomorrow.
+职员 | staff member | 她是公司的新职员。 | She is a new staff member of the company.
+员工 | employee | 公司有两百名员工。 | The company has two hundred employees.
+职位 | position | 他想申请这个职位。 | He wants to apply for this position.
+部门 | department | 他在销售部门工作。 | He works in the sales department.
+销售 | sales | 她负责销售工作。 | She is in charge of sales.
+市场 | market | 我们要开拓新市场。 | We need to open up new markets.
+产品 | product | 这个产品卖得很好。 | This product sells well.
+服务 | service | 他们的服务非常好。 | Their service is excellent.
+业务 | business | 他负责公司的海外业务。 | He is in charge of the company's overseas business.
+生意 | business; trade | 他的生意越做越大。 | His business keeps growing.
+订单 | order | 我们收到了一个大订单。 | We received a large order.
+价格 | price | 这个价格太高了。 | This price is too high.
+报价 | quotation | 请发给我最新的报价。 | Please send me the latest quotation.
+发票 | invoice | 请开一张发票。 | Please issue an invoice.
+付款 | pay | 请在月底前付款。 | Please pay before the end of the month.
+预算 | budget | 这个项目的预算不多。 | This project's budget is small.
+成本 | cost | 我们要降低成本。 | We need to reduce costs.
+利润 | profit | 今年公司的利润增加了。 | The company's profit rose this year.
+收入 | income | 他的月收入不高。 | His monthly income is not high.
+奖金 | bonus | 年底有奖金。 | There is a bonus at year-end.
+涨工资 | get a raise | 老板说明年给大家涨工资。 | The boss said everyone gets a raise next year.
+薪水 | pay | 这份工作的薪水不错。 | The pay for this job is good.
+福利 | benefits | 公司的福利很好。 | The company's benefits are good.
+保险 | insurance | 公司给员工买保险。 | The company buys insurance for its employees.
+合作 | cooperate | 我们公司想和你们合作。 | Our company wants to cooperate with you.
+合伙人 | partner | 他是公司的合伙人。 | He is a partner of the company.
+竞争 | compete; competition | 市场竞争很激烈。 | Market competition is fierce.
+对手 | rival | 他们是我们的主要对手。 | They are our main rival.
+谈判 | negotiate | 双方开始谈判。 | Both sides began negotiations.
+签字 | sign | 请在这里签字。 | Please sign here.
+盖章 | stamp | 合同需要盖章。 | The contract needs a stamp.
+复印 | photocopy | 请帮我复印这份文件。 | Please photocopy this document for me.
+扫描 | scan | 我把合同扫描了一份。 | I scanned a copy of the contract.
+传真 | fax | 请把文件传真给我。 | Please fax the document to me.
+打印 | print | 我要打印三份文件。 | I need to print three copies.
+文具 | stationery | 办公室的文具用完了。 | The office stationery has run out.
+文件夹 | folder | 文件放在蓝色文件夹里。 | The papers are in the blue folder.
+订书机 | stapler | 我找不到订书机。 | I can't find the stapler.
+胶水 | glue | 把纸用胶水粘好。 | Glue the paper together.
+剪刀 | scissors | 请借我一把剪刀。 | Please lend me a pair of scissors.
+便利贴 | sticky note | 我在屏幕上贴了一张便利贴。 | I stuck a sticky note on the screen.
+白板 | whiteboard | 他在白板上画图。 | He draws a diagram on the whiteboard.
+投影仪 | projector | 投影仪坏了。 | The projector is broken.
+会议室 | meeting room | 会议室在四楼。 | The meeting room is on the fourth floor.
+前台 | reception | 请把包裹放在前台。 | Please leave the parcel at reception.
+工位 | workstation | 我的工位靠窗。 | My workstation is by the window.
+茶水间 | pantry | 同事们在茶水间聊天。 | Colleagues chat in the pantry.
+电话 | telephone | 办公室的电话响了。 | The office phone is ringing.
+手机 | mobile phone | 开会时请关手机。 | Please turn off your phone during meetings.
+网络 | network; internet | 公司的网络很慢。 | The company's network is slow.
+软件 | software | 这个软件很好用。 | This software is easy to use.
+系统 | system | 系统升级了。 | The system has been upgraded.
+密码 | password | 我忘记了电脑密码。 | I forgot my computer password.
+账号 | account | 请告诉我你的账号。 | Please tell me your account name.
+登录 | log in | 请先登录系统。 | Please log in to the system first.
+文档 | document | 请把文档保存好。 | Please save the document.
+表格 | spreadsheet; form | 我做了一个表格。 | I made a spreadsheet.
+数据 | data | 这些数据很重要。 | This data is important.
+图表 | chart | 报告里有三个图表。 | The report has three charts.
+备份 | back up | 我每天备份文件。 | I back up my files every day.
+附件 | attachment | 邮件里有两个附件。 | The email has two attachments.
+抄送 | cc | 请把邮件抄送给经理。 | Please cc the email to the manager.
+回复 | reply | 我马上回复您的邮件。 | I'll reply to your email right away.
+转发 | forward | 请把邮件转发给我。 | Please forward the email to me.
+通知 | notice; notify | 公司发了一份通知。 | The company issued a notice.
+任务 | task | 这个任务很重要。 | This task is important.
+安排 | arrange; schedule | 经理安排我下周出差。 | The manager arranged for me to travel next week.
+日程 | schedule | 我的日程已经排满了。 | My schedule is fully booked.
+预约 | appointment | 我跟客户预约了明天见面。 | I made an appointment with the client for tomorrow.
+截止日期 | deadline | 截止日期是周五。 | The deadline is Friday.
+进度 | progress | 请汇报一下项目进度。 | Please report the project's progress.
+完成 | complete | 我已经完成了任务。 | I have completed the task.
+负责 | be responsible for | 他负责这个项目。 | He is responsible for this project.
+责任 | responsibility | 这是我们共同的责任。 | This is our shared responsibility.
+管理 | manage; management | 她负责公司的人员管理。 | She is in charge of the company's personnel management.
+领导 | leader; lead | 他是我们的直接领导。 | He is our direct superior.
+主管 | supervisor | 主管同意了我的申请。 | The supervisor approved my application.
+总经理 | general manager | 总经理明天来公司。 | The general manager comes to the company tomorrow.
+董事长 | chairman | 董事长在会上讲话。 | The chairman spoke at the meeting.
+助理 | assistant | 她是经理的助理。 | She is the manager's assistant.
+秘书 | secretary | 秘书负责安排会议。 | The secretary arranges the meetings.
+实习生 | intern | 公司来了三个实习生。 | Three interns have joined the company.
+前辈 | senior colleague | 前辈教了我很多经验。 | A senior colleague taught me a lot.
+新人 | newcomer | 新人需要多学习。 | Newcomers need to learn a lot.
+团队 | team | 我们是一个很好的团队。 | We are a very good team.
+小组 | group | 我们小组有五个人。 | Our group has five people.
+分工 | division of labor | 大家要明确分工。 | Everyone needs a clear division of work.
+沟通 | communicate | 同事之间要多沟通。 | Colleagues should communicate more.
+交流 | exchange | 我们和客户交流了意见。 | We exchanged opinions with the client.
+讨论 | discuss | 我们在会上讨论了方案。 | We discussed the proposal at the meeting.
+方案 | proposal; plan | 经理批准了我们的方案。 | The manager approved our proposal.
+建议 | suggestion; suggest | 我有一个小建议。 | I have a small suggestion.
+意见 | opinion | 请大家提意见。 | Please everyone give your opinions.
+决定 | decide; decision | 老板做了一个重要决定。 | The boss made an important decision.
+批准 | approve | 经理批准了我的假期。 | The manager approved my leave.
+申请 | apply; application | 我申请了一份新工作。 | I applied for a new job.
+审核 | review; audit | 合同要经过法务审核。 | The contract must be reviewed by legal.
+汇报 | report (to a superior) | 我向经理汇报了工作。 | I reported my work to the manager.
+总结 | summary; summarize | 年底要写工作总结。 | A work summary is due at year-end.
+记录 | record; minutes | 请做一下会议记录。 | Please take the meeting minutes.
+会议纪要 | meeting minutes | 会议纪要已经发给大家。 | The meeting minutes have been sent to everyone.
+议程 | agenda | 今天的议程有三项。 | Today's agenda has three items.
+发言 | speak (at a meeting) | 请经理先发言。 | Please let the manager speak first.
+演讲 | speech | 他在公司做了一次演讲。 | He gave a speech at the company.
+演示 | presentation; demo | 我给客户做了产品演示。 | I gave the client a product demo.
+幻灯片 | slides | 我正在做幻灯片。 | I'm making slides.
+提案 | proposal | 他提交了一个新提案。 | He submitted a new proposal.
+投票 | vote | 大家投票决定。 | Everyone votes to decide.
+目标 | goal | 我们的目标是年底完成销售计划。 | Our goal is to complete the sales plan by year-end.
+业绩 | performance | 他今年的业绩很好。 | His performance is very good this year.
+绩效 | performance appraisal | 绩效好的员工有奖金。 | Employees with good performance get bonuses.
+考核 | assess; evaluation | 公司每季度考核一次。 | The company evaluates staff each quarter.
+晋升 | promotion | 他因为表现好得到了晋升。 | He was promoted for good performance.
+升职 | get promoted | 她今年升职了。 | She got promoted this year.
+加薪 | pay raise | 他向老板要求加薪。 | He asked the boss for a raise.
+辞职 | resign | 他决定辞职。 | He decided to resign.
+解雇 | fire | 他被公司解雇了。 | He was fired by the company.
+裁员 | layoff | 公司宣布要裁员。 | The company announced layoffs.
+退休 | retire | 他明年退休。 | He retires next year.
+失业 | unemployed | 他失业了三个月。 | He has been unemployed for three months.
+招聘 | recruit | 公司正在招聘新员工。 | The company is hiring new staff.
+应聘 | apply for a job | 我去应聘一家公司。 | I went to apply to a company.
+求职 | job-seeking | 他正在求职。 | He is looking for a job.
+录用 | hire | 我被这家公司录用了。 | I was hired by this company.
+试用期 | probation | 试用期是三个月。 | The probation period is three months.
+入职 | join a company | 我下周一入职。 | I start my job next Monday.
+离职 | leave a job | 他上个月离职了。 | He left the company last month.
+跳槽 | switch jobs | 他想跳槽去大公司。 | He wants to switch to a big company.
+经验 | experience | 她有五年工作经验。 | She has five years' work experience.
+技能 | skill | 这份工作需要电脑技能。 | This job requires computer skills.
+能力 | ability | 他的工作能力很强。 | His work ability is strong.
+学历 | educational background | 这个职位要求本科学历。 | This position requires a bachelor's degree.
+专业 | specialty; professional | 他的专业是会计。 | His major is accounting.
+会计 | accountant | 她是公司的会计。 | She is the company's accountant.
+律师 | lawyer | 公司请了一位律师。 | The company hired a lawyer.
+工程师 | engineer | 他是软件工程师。 | He is a software engineer.
+设计师 | designer | 设计师正在画图。 | The designer is drawing.
+程序员 | programmer | 程序员经常加班。 | Programmers often work overtime.
+翻译 | translator | 她是一名翻译。 | She is a translator.
+销售员 | salesperson | 这个销售员很热情。 | This salesperson is very enthusiastic.
+人事 | human resources | 人事部在二楼。 | The HR department is on the second floor.
+财务 | finance | 财务部负责发工资。 | The finance department pays salaries.
+行政 | administration | 她在行政部工作。 | She works in administration.
+技术 | technology | 我们公司的技术很先进。 | Our company's technology is advanced.
+研发 | R&D | 他在研发部门工作。 | He works in the R&D department.
+客服 | customer service | 请联系客服。 | Please contact customer service.
+采购 | purchase | 他负责公司的采购。 | He is in charge of company purchasing.
+物流 | logistics | 物流公司明天送货。 | The logistics company delivers tomorrow.
+库存 | inventory | 仓库里的库存不多了。 | The inventory in the warehouse is low.
+仓库 | warehouse | 货物放在仓库里。 | The goods are in the warehouse.
+货物 | goods | 货物明天到。 | The goods arrive tomorrow.
+送货 | deliver goods | 我们免费送货。 | We deliver goods for free.
+快递 | express delivery | 我给客户寄了一个快递。 | I sent the client a parcel by express.
+品牌 | brand | 这是一个著名的品牌。 | This is a famous brand.
+广告 | advertisement | 公司做了一个新广告。 | The company made a new advertisement.
+宣传 | publicize | 我们要加强产品宣传。 | We need to strengthen product promotion.
+促销 | promotion | 商场正在做促销。 | The mall is running a promotion.
+折扣 | discount | 买得多可以打折扣。 | Buy more and you get a discount.
+利息 | interest | 银行的利息很低。 | Bank interest is low.
+贷款 | loan | 公司向银行申请了贷款。 | The company applied to the bank for a loan.
+投资 | invest; investment | 他投资了一家小公司。 | He invested in a small company.
+股票 | stock | 他买了一些股票。 | He bought some stocks.
+税 | tax | 公司每年都要交税。 | The company pays tax every year.
+账单 | bill | 请把账单寄给我。 | Please send me the bill.
+报销 | reimburse | 出差的费用可以报销。 | Business-trip expenses can be reimbursed.
+费用 | expense | 这次出差的费用很高。 | The expenses of this trip are high.
+营业额 | turnover | 公司今年的营业额增长了。 | The company's turnover grew this year.
+亏损 | loss | 公司今年亏损了。 | The company made a loss this year.
+破产 | go bankrupt | 那家公司破产了。 | That company went bankrupt.
+创业 | start a business | 他毕业后决定创业。 | He decided to start a business after graduation.
+行业 | industry | 他在金融行业工作。 | He works in the finance industry.
+企业 | enterprise | 这是一家大型企业。 | This is a large enterprise.
+总部 | headquarters | 公司总部在上海。 | The company's headquarters are in Shanghai.
+分公司 | branch office | 我们在广州有分公司。 | We have a branch office in Guangzhou.
+工厂 | factory | 他在一家工厂上班。 | He works in a factory.
+上司 | superior | 我的上司很严格。 | My superior is strict.
+下属 | subordinate | 他对下属很好。 | He treats his subordinates well.
+规定 | rule; stipulate | 公司规定九点上班。 | The company rules say work starts at nine.
+制度 | system; policy | 公司有严格的考勤制度。 | The company has a strict attendance policy.
+考勤 | attendance | 每天都要打卡考勤。 | You must clock in for attendance every day.
+打卡 | clock in | 我每天早上打卡。 | I clock in every morning.
+午休 | lunch break | 公司中午有一个小时午休。 | The company has a one-hour lunch break.
+周末 | weekend | 周末我不上班。 | I don't work on weekends.
+节日 | holiday | 公司在节日发礼物。 | The company gives gifts during holidays.
+年假 | annual leave | 我今年有十天年假。 | I have ten days of annual leave this year.
+病假 | sick leave | 他请了两天病假。 | He took two days of sick leave.
+产假 | maternity leave | 她正在休产假。 | She is on maternity leave.
+忙 | busy | 我最近很忙。 | I have been very busy recently.
+压力 | pressure | 工作压力很大。 | Work pressure is heavy.
+效率 | efficiency | 他的工作效率很高。 | His work efficiency is high.
+质量 | quality | 我们要保证产品质量。 | We must ensure product quality.
+错误 | mistake | 报告里有一个错误。 | There is a mistake in the report.
+修改 | revise | 请修改一下这份文件。 | Please revise this document.
+保存 | save | 记得保存文件。 | Remember to save the file.
+删除 | delete | 我不小心删除了文件。 | I deleted the file by accident.
+下载 | download | 请下载这个附件。 | Please download this attachment.
+上传 | upload | 我把文件上传到了系统里。 | I uploaded the file to the system.
+会客 | receive visitors | 经理正在会客。 | The manager is receiving visitors.
+名片 | business card | 请收下我的名片。 | Please accept my business card.
+握手 | shake hands | 他和客户握手。 | He shook hands with the client.
+礼貌 | polite | 对客户要有礼貌。 | You must be polite to clients.
+麻烦 | trouble; bother | 麻烦您帮我转一下电话。 | Could you please transfer the call for me?

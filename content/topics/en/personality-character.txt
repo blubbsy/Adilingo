@@ -1,0 +1,139 @@
+@topic | Personality & Character | 🧠
+personality | /ˌpɜːrsəˈnæləti/ | 个性; 性格 | She has a warm and friendly personality. | 她性格热情友好。 | 2
+character | /ˈkærəktər/ | 性格; 品格 | He has a strong character. | 他性格坚强。 | 2
+kind | /kaɪnd/ | 善良的 | The kind old man helped me with my bag. | 那位善良的老人帮我拿包。 | 1
+nice | /naɪs/ | 友善的; 好的 | Our new neighbor is very nice. | 我们的新邻居非常友善。 | 1
+friendly | /ˈfrendli/ | 友好的 | The staff are friendly and helpful. | 工作人员友好又乐于助人。 | 1
+funny | /ˈfʌni/ | 有趣的; 滑稽的 | He is a funny guy who loves jokes. | 他是个爱讲笑话的有趣的人。 | 1
+clever | /ˈklevər/ | 聪明的 | The clever girl solved the puzzle quickly. | 聪明的女孩很快解开了谜题。 | 2
+smart | /smɑːrt/ | 聪明的 | He is a smart student. | 他是个聪明的学生。 | 2
+lazy | /ˈleɪzi/ | 懒惰的 | My cat is lazy and sleeps all day. | 我的猫很懒，整天睡觉。 | 2
+quiet | /ˈkwaɪət/ | 安静的; 文静的 | She is a quiet and thoughtful girl. | 她是个安静又体贴的女孩。 | 2
+polite | /pəˈlaɪt/ | 有礼貌的 | The children were polite to the guests. | 孩子们对客人很有礼貌。 | 2
+rude | /ruːd/ | 粗鲁的 | It is rude to interrupt people. | 打断别人是不礼貌的。 | 2
+brave | /breɪv/ | 勇敢的 | The brave boy jumped into the river. | 勇敢的男孩跳进了河里。 | 2
+honest | /ˈɑːnɪst/ | 诚实的 | An honest person always tells the truth. | 诚实的人总是说真话。 | 2
+careful | /ˈkerfl/ | 小心的; 仔细的 | Be careful when you cross the road. | 过马路时要小心。 | 2
+careless | /ˈkerləs/ | 粗心的 | A careless mistake cost him the prize. | 一个粗心的错误使他丢掉了奖。 | 2
+patient | /ˈpeɪʃnt/ | 有耐心的 | A good teacher must be patient. | 好老师必须有耐心。 | 2
+generous | /ˈdʒenərəs/ | 慷慨的 | He is generous with his time. | 他对时间很慷慨。 | 3
+selfish | /ˈselfɪʃ/ | 自私的 | It was selfish of him to take it all. | 他把东西全拿走太自私了。 | 3
+shy | /ʃaɪ/ | 害羞的; 腼腆的 | The shy student rarely spoke in class. | 那个腼腆的学生很少在课上发言。 | 2
+outgoing | /ˈaʊtɡoʊɪŋ/ | 外向的; 开朗的 | She is outgoing and makes friends easily. | 她性格外向，容易交朋友。 | 3
+sociable | /ˈsoʊʃəbl/ | 好交际的 | He is a sociable person who loves parties. | 他是个爱交际、喜欢聚会的人。 | 4
+introvert | /ˈɪntrəvɜːrt/ | 内向的人 | As an introvert, she enjoys quiet evenings. | 作为内向的人，她喜欢安静的夜晚。 | 4
+extrovert | /ˈekstrəvɜːrt/ | 外向的人 | Her brother is a real extrovert. | 她哥哥是个地道的外向者。 | 4
+hard-working | /ˌhɑːrd ˈwɜːrkɪŋ/ | 勤奋的 | She is a hard-working student. | 她是个勤奋的学生。 | 2
+diligent | /ˈdɪlɪdʒənt/ | 勤勉的 | The diligent clerk checked every number. | 勤勉的职员核对了每个数字。 | 4
+reliable | /rɪˈlaɪəbl/ | 可靠的 | He is a reliable friend. | 他是个可靠的朋友。 | 3
+responsible | /rɪˈspɑːnsəbl/ | 负责任的 | She is a responsible and mature girl. | 她是个负责任而成熟的女孩。 | 3
+mature | /məˈtʃʊr/ | 成熟的 | He is very mature for his age. | 就他的年龄来说，他很成熟。 | 3
+childish | /ˈtʃaɪldɪʃ/ | 幼稚的 | Stop being so childish! | 别这么幼稚了！ | 3
+immature | /ˌɪməˈtʃʊr/ | 不成熟的 | His immature behavior annoyed everyone. | 他不成熟的行为惹恼了所有人。 | 4
+cheerful | /ˈtʃɪrfl/ | 开朗的 | She is a cheerful person who always smiles. | 她是个总是微笑的开朗的人。 | 3
+optimistic | /ˌɑːptɪˈmɪstɪk/ | 乐观的 | He is optimistic about the future. | 他对未来很乐观。 | 3
+pessimistic | /ˌpesɪˈmɪstɪk/ | 悲观的 | Don't be so pessimistic about it. | 别对这件事这么悲观。 | 4
+optimist | /ˈɑːptɪmɪst/ | 乐观主义者 | She is an eternal optimist. | 她是个永远的乐观主义者。 | 4
+pessimist | /ˈpesɪmɪst/ | 悲观主义者 | My uncle is a born pessimist. | 我叔叔天生是个悲观主义者。 | 5
+positive | /ˈpɑːzətɪv/ | 积极的 | He has a positive attitude to life. | 他对生活持积极的态度。 | 3
+negative | /ˈneɡətɪv/ | 消极的 | Try not to be so negative. | 尽量别这么消极。 | 3
+attitude | /ˈætɪtuːd/ | 态度 | A good attitude helps you succeed. | 好的态度能帮助你成功。 | 3
+confident | /ˈkɑːnfɪdənt/ | 自信的 | She felt confident before the interview. | 面试前她感到很自信。 | 3
+confidence | /ˈkɑːnfɪdəns/ | 自信 | Practice will give you more confidence. | 练习会给你更多自信。 | 3
+modest | /ˈmɑːdɪst/ | 谦虚的 | Despite his fame, he remains modest. | 尽管有名，他依然谦虚。 | 4
+humble | /ˈhʌmbl/ | 谦逊的 | The humble man refused all praise. | 这位谦逊的人拒绝了所有赞扬。 | 4
+arrogant | /ˈærəɡənt/ | 傲慢的 | The arrogant manager ignored our ideas. | 傲慢的经理无视我们的想法。 | 4
+proud | /praʊd/ | 骄傲自大的; 自豪的 | He is too proud to ask for help. | 他太骄傲，不愿求助。 | 3
+stubborn | /ˈstʌbərn/ | 固执的 | My father is too stubborn to listen. | 我父亲固执得听不进去。 | 4
+determined | /dɪˈtɜːrmɪnd/ | 坚定的; 有决心的 | She is determined to finish the race. | 她决心跑完全程。 | 4
+ambitious | /æmˈbɪʃəs/ | 有雄心的 | The ambitious young man wants to be a CEO. | 这个有雄心的年轻人想当首席执行官。 | 4
+motivated | /ˈmoʊtɪveɪtɪd/ | 有动力的 | She is highly motivated to learn. | 她学习的积极性很高。 | 4
+creative | /kriˈeɪtɪv/ | 有创造力的 | He is a creative and original thinker. | 他是个有创造力又独到的思想者。 | 3
+imaginative | /ɪˈmædʒɪnətɪv/ | 富有想象力的 | The imaginative child invented a new game. | 富有想象力的孩子发明了一个新游戏。 | 4
+intelligent | /ɪnˈtelɪdʒənt/ | 聪明的; 智力高的 | She is an intelligent and curious student. | 她是个聪明又好奇的学生。 | 3
+wise | /waɪz/ | 睿智的 | The wise old woman gave good advice. | 睿智的老太太给了好建议。 | 3
+sensible | /ˈsensəbl/ | 明智的; 通情达理的 | It was a sensible decision to wait. | 等待是个明智的决定。 | 4
+practical | /ˈpræktɪkl/ | 务实的 | She is practical and always plans ahead. | 她很务实，总是提前计划。 | 4
+pragmatic | /præɡˈmætɪk/ | 务实的 | He takes a pragmatic approach to problems. | 他用务实的方法对待问题。 | 6
+logical | /ˈlɑːdʒɪkl/ | 有逻辑的 | He has a very logical mind. | 他头脑非常有逻辑。 | 4
+rational | /ˈræʃnəl/ | 理性的 | A rational person weighs all the facts. | 理性的人会权衡所有事实。 | 5
+emotional | /ɪˈmoʊʃənl/ | 感情用事的 | She is an emotional person who cries easily. | 她是个容易流泪的感性的人。 | 4
+sensitive | /ˈsensətɪv/ | 敏感的; 体贴的 | He is a sensitive and caring friend. | 他是个敏感而体贴的朋友。 | 4
+thoughtful | /ˈθɔːtfl/ | 体贴的 | It was thoughtful of you to call. | 你打电话来真体贴。 | 3
+considerate | /kənˈsɪdərət/ | 体贴的; 考虑周到的 | He is considerate of other people's feelings. | 他会顾及别人的感受。 | 4
+caring | /ˈkerɪŋ/ | 关怀的 | She is a caring nurse. | 她是一位富有爱心的护士。 | 3
+loyal | /ˈlɔɪəl/ | 忠诚的 | A loyal friend never leaves you. | 忠诚的朋友永远不会离开你。 | 4
+faithful | /ˈfeɪθfl/ | 忠实的 | The dog was faithful to his owner. | 这只狗对主人很忠实。 | 4
+trustworthy | /ˈtrʌstwɜːrði/ | 值得信赖的 | He is honest and trustworthy. | 他诚实而值得信赖。 | 4
+sincere | /sɪnˈsɪr/ | 真诚的 | She gave me a sincere apology. | 她真诚地向我道歉。 | 4
+genuine | /ˈdʒenjuɪn/ | 真诚的; 真正的 | His interest in people is genuine. | 他对人的兴趣是真诚的。 | 4
+humorous | /ˈhjuːmərəs/ | 幽默的 | He gave a humorous speech. | 他发表了一场幽默的演讲。 | 4
+witty | /ˈwɪti/ | 机智风趣的 | She is a witty and charming speaker. | 她是个机智风趣又迷人的演讲者。 | 5
+sense of humor | /ˌsens əv ˈhjuːmər/ | 幽默感 | A sense of humor helps in hard times. | 幽默感在困难时期很有帮助。 | 4
+easygoing | /ˌiːziˈɡoʊɪŋ/ | 随和的 | My boss is easygoing and relaxed. | 我的老板随和又放松。 | 4
+laid-back | /ˌleɪd ˈbæk/ | 悠闲的; 随和的 | He has a laid-back style. | 他风格悠闲随性。 | 4
+calm | /kɑːm/ | 沉着的 | She stays calm under pressure. | 她在压力下保持沉着。 | 3
+nervous | /ˈnɜːrvəs/ | 容易紧张的 | He is a nervous person by nature. | 他天性容易紧张。 | 3
+moody | /ˈmuːdi/ | 情绪多变的 | My sister gets moody in the morning. | 我姐姐早上情绪多变。 | 4
+bad-tempered | /ˌbæd ˈtempərd/ | 脾气坏的 | The bad-tempered driver shouted at us. | 脾气坏的司机对我们大喊。 | 4
+short-tempered | /ˌʃɔːrt ˈtempərd/ | 急躁的 | He is short-tempered when hungry. | 他饿的时候脾气急躁。 | 5
+temper | /ˈtempər/ | 脾气 | He has a quick temper. | 他脾气急。 | 4
+impatient | /ɪmˈpeɪʃnt/ | 不耐烦的 | Don't be so impatient. | 别这么不耐烦。 | 3
+greedy | /ˈɡriːdi/ | 贪婪的 | The greedy man wanted all the gold. | 贪婪的人想要所有的金子。 | 3
+mean | /miːn/ | 吝啬的; 刻薄的 | Don't be mean to your little sister. | 别对你妹妹刻薄。 | 3
+cruel | /ˈkruːəl/ | 残忍的 | It is cruel to hurt animals. | 伤害动物是残忍的。 | 4
+unkind | /ʌnˈkaɪnd/ | 不友善的 | That was an unkind thing to say. | 那样说话不友善。 | 3
+dishonest | /dɪsˈɑːnɪst/ | 不诚实的 | The dishonest seller cheated us. | 不诚实的卖家欺骗了我们。 | 4
+lying | /ˈlaɪɪŋ/ | 撒谎的 | He is a lying and untrustworthy man. | 他是个爱撒谎、不值得信任的人。 | 4
+jealous | /ˈdʒeləs/ | 爱嫉妒的 | She is a jealous person by nature. | 她天性爱嫉妒。 | 4
+boastful | /ˈboʊstfl/ | 爱吹嘘的 | He is boastful about his money. | 他爱吹嘘自己的钱。 | 5
+conceited | /kənˈsiːtɪd/ | 自负的 | She is conceited about her looks. | 她为自己的外貌而自负。 | 6
+vain | /veɪn/ | 虚荣的 | He is vain and always checks the mirror. | 他很虚荣，总是照镜子。 | 5
+snobbish | /ˈsnɑːbɪʃ/ | 势利的 | The snobbish clerk ignored us. | 势利的店员不理我们。 | 6
+narrow-minded | /ˌnæroʊ ˈmaɪndɪd/ | 思想狭隘的 | He is narrow-minded about new ideas. | 他对新想法很狭隘。 | 5
+open-minded | /ˌoʊpən ˈmaɪndɪd/ | 思想开放的 | A good teacher is open-minded. | 好老师思想开放。 | 4
+broad-minded | /ˌbrɔːd ˈmaɪndɪd/ | 心胸宽广的 | My parents are broad-minded. | 我父母心胸开阔。 | 5
+tolerant | /ˈtɑːlərənt/ | 宽容的 | We should be tolerant of differences. | 我们应当宽容差异。 | 5
+forgiving | /fərˈɡɪvɪŋ/ | 宽容的; 肯原谅的 | She is a forgiving person. | 她是个肯原谅人的人。 | 5
+fair | /fer/ | 公平的 | A good judge must be fair. | 好法官必须公平。 | 3
+unfair | /ʌnˈfer/ | 不公平的 | It is unfair to treat them differently. | 区别对待他们是不公平的。 | 3
+independent | /ˌɪndɪˈpendənt/ | 独立的 | She is independent and lives alone. | 她很独立，独自生活。 | 4
+adventurous | /ədˈventʃərəs/ | 爱冒险的 | The adventurous girl tried skydiving. | 爱冒险的女孩尝试了跳伞。 | 4
+cautious | /ˈkɔːʃəs/ | 谨慎的 | He is cautious with money. | 他花钱很谨慎。 | 4
+reckless | /ˈrekləs/ | 鲁莽的 | Reckless driving causes many accidents. | 鲁莽驾驶会造成许多事故。 | 5
+impulsive | /ɪmˈpʌlsɪv/ | 冲动的 | He made an impulsive purchase. | 他冲动购买了东西。 | 5
+foolish | /ˈfuːlɪʃ/ | 愚蠢的 | It would be foolish to quit now. | 现在放弃就太愚蠢了。 | 4
+naive | /naɪˈiːv/ | 天真的; 幼稚的 | She was naive to trust him. | 她信任他太天真了。 | 5
+gullible | /ˈɡʌləbl/ | 轻信的 | Gullible people are easily tricked. | 轻信的人容易被骗。 | 6
+curious | /ˈkjʊriəs/ | 好奇的 | Curious children ask many questions. | 好奇的孩子会问许多问题。 | 3
+talkative | /ˈtɔːkətɪv/ | 健谈的 | Her talkative brother never stops speaking. | 她健谈的哥哥说个不停。 | 4
+chatty | /ˈtʃæti/ | 爱聊天的 | The chatty taxi driver told us stories. | 爱聊天的出租车司机给我们讲故事。 | 4
+reserved | /rɪˈzɜːrvd/ | 内敛的; 矜持的 | He is a reserved man who rarely smiles. | 他是个很少微笑的内敛的人。 | 5
+withdrawn | /wɪðˈdrɔːn/ | 孤僻的 | The withdrawn boy avoided his classmates. | 孤僻的男孩躲着同学。 | 6
+sophisticated | /səˈfɪstɪkeɪtɪd/ | 老练的; 见多识广的 | She is a sophisticated and elegant lady. | 她是位老练优雅的女士。 | 5
+charming | /ˈtʃɑːrmɪŋ/ | 迷人的 | He is a charming and polite man. | 他是个迷人又有礼貌的男人。 | 4
+charismatic | /ˌkærɪzˈmætɪk/ | 有魅力的 | The charismatic leader inspired the crowd. | 有魅力的领袖鼓舞了人群。 | 6
+likeable | /ˈlaɪkəbl/ | 讨人喜欢的 | He is a very likeable fellow. | 他是个很讨人喜欢的人。 | 4
+amiable | /ˈeɪmiəbl/ | 和蔼可亲的 | The amiable host welcomed us warmly. | 和蔼可亲的主人热情欢迎我们。 | 6
+gentle | /ˈdʒentl/ | 温柔的 | She has a gentle voice. | 她的声音很温柔。 | 3
+tender | /ˈtendər/ | 温柔的; 体贴的 | He gave her a tender smile. | 他给了她一个温柔的微笑。 | 5
+warm-hearted | /ˌwɔːrm ˈhɑːrtɪd/ | 热心的 | She is a warm-hearted woman. | 她是个热心肠的女人。 | 4
+selfless | /ˈselfləs/ | 无私的 | The nurse showed selfless care. | 护士表现出无私的关怀。 | 5
+unselfish | /ʌnˈselfɪʃ/ | 不自私的 | His unselfish act saved the child. | 他无私的行为救了那个孩子。 | 5
+courage | /ˈkɜːrɪdʒ/ | 勇气 | It took courage to speak the truth. | 说出真相需要勇气。 | 3
+bold | /boʊld/ | 大胆的 | It was a bold move to quit his job. | 辞职是个大胆的举动。 | 4
+fearless | /ˈfɪrləs/ | 无畏的 | The fearless firefighter entered the building. | 无畏的消防员冲进了大楼。 | 5
+cowardly | /ˈkaʊərdli/ | 懦弱的 | Running away was a cowardly act. | 逃跑是怯懦的行为。 | 5
+timid | /ˈtɪmɪd/ | 胆小的 | The timid puppy hid under the table. | 胆小的小狗躲在桌子底下。 | 5
+resilient | /rɪˈzɪliənt/ | 有韧性的 | Children are often more resilient than adults. | 孩子往往比成年人更有韧性。 | 6
+resilience | /rɪˈzɪliəns/ | 韧性; 复原力 | Her resilience helped her survive the hard years. | 她的韧性帮她度过了艰难岁月。 | 6
+persistent | /pərˈsɪstənt/ | 坚持不懈的 | She is a persistent and stubborn student. | 她是个坚持不懈又倔强的学生。 | 5
+perseverance | /ˌpɜːrsəˈvɪrəns/ | 毅力 | Success needs perseverance. | 成功需要毅力。 | 6
+disciplined | /ˈdɪsəplɪnd/ | 自律的 | He is a disciplined athlete. | 他是个自律的运动员。 | 5
+ambition | /æmˈbɪʃn/ | 雄心 | Her ambition is to become a doctor. | 她的雄心是成为医生。 | 4
+flexible | /ˈfleksəbl/ | 灵活的 | A flexible person adapts to change. | 灵活的人能适应变化。 | 4
+adaptable | /əˈdæptəbl/ | 适应力强的 | She is adaptable and learns fast. | 她适应力强，学得很快。 | 5
+conscientious | /ˌkɑːnʃiˈenʃəs/ | 认真负责的 | He is a conscientious worker. | 他是个认真负责的工人。 | 6
+meticulous | /məˈtɪkjələs/ | 一丝不苟的 | She is meticulous about details. | 她对细节一丝不苟。 | 6
+eccentric | /ɪkˈsentrɪk/ | 古怪的 | Her eccentric uncle collects old clocks. | 她古怪的叔叔收集旧钟表。 | 6
+quirky | /ˈkwɜːrki/ | 古怪有趣的 | The quirky shop sells odd gifts. | 这家古怪有趣的商店卖稀奇的礼物。 | 6

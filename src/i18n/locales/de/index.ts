@@ -2,6 +2,7 @@ import type { MessageKey } from '../en';
 import { achievements } from './achievements';
 import { badges } from './badges';
 import { bulk } from './bulk';
+import { catalogue } from './catalogue';
 import { common } from './common';
 import { courses } from './courses';
 import { dashboard } from './dashboard';
@@ -18,12 +19,14 @@ import { shell } from './shell';
 import { study } from './study';
 import { sync } from './sync';
 import { topics } from './topics';
+import { wiki } from './wiki';
 
 /** Machine-drafted starting point – strings missing here fall back to English. */
 export const de: Partial<Record<MessageKey, string>> = {
   ...achievements,
   ...badges,
   ...bulk,
+  ...catalogue,
   ...common,
   ...courses,
   ...dashboard,
@@ -40,4 +43,5 @@ export const de: Partial<Record<MessageKey, string>> = {
   ...study,
   ...sync,
   ...topics,
+  ...wiki,
 };

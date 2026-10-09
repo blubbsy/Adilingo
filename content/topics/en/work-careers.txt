@@ -1,0 +1,193 @@
+@topic | Work & Careers | 💼
+job | /dʒɒb/ | 工作; 职位 | He found a new job last month. | 他上个月找到了一份新工作。 | 1
+work | /wɜːk/ | 工作; 上班 | I work from nine to five. | 我从九点工作到五点。 | 1
+office | /ˈɒfɪs/ | 办公室 | The office is on the third floor. | 办公室在三楼。 | 1
+boss | /bɒs/ | 老板; 上司 | My boss is very friendly. | 我的老板非常友好。 | 1
+worker | /ˈwɜːkə/ | 工人; 员工 | Every worker gets a lunch break. | 每位员工都有午休时间。 | 1
+teacher | /ˈtiːtʃə/ | 教师 | My sister is a teacher. | 我姐姐是一名教师。 | 1
+doctor | /ˈdɒktə/ | 医生 | The doctor works at a big hospital. | 这位医生在一家大医院工作。 | 1
+nurse | /nɜːs/ | 护士 | The nurse is kind to every patient. | 这位护士对每位病人都很友善。 | 1
+driver | /ˈdraɪvə/ | 司机 | The bus driver waved at us. | 公交司机向我们挥了挥手。 | 1
+farmer | /ˈfɑːmə/ | 农民 | The farmer gets up very early. | 农民起得很早。 | 1
+cook | /kʊk/ | 厨师; 烹饪 | He works as a cook in a hotel. | 他在一家酒店当厨师。 | 1
+police officer | /pəˈliːs ˈɒfɪsə/ | 警察 | A police officer helped us find the way. | 一名警察帮我们找到了路。 | 1
+engineer | /ˌendʒɪˈnɪə/ | 工程师 | Her father is an engineer. | 她的父亲是一名工程师。 | 1
+salary | /ˈsæləri/ | 薪水; 工资 | The salary is paid at the end of the month. | 薪水在月底发放。 | 2
+colleague | /ˈkɒliːɡ/ | 同事 | My colleague sits next to me. | 我的同事坐在我旁边。 | 2
+manager | /ˈmænɪdʒə/ | 经理 | The manager called a short meeting. | 经理召开了一个简短的会议。 | 2
+meeting | /ˈmiːtɪŋ/ | 会议 | We have a meeting at ten o'clock. | 我们十点钟有个会议。 | 2
+career | /kəˈrɪə/ | 职业; 事业 | She started her career as a journalist. | 她以记者的身份开始了自己的职业生涯。 | 2
+employee | /ɪmˈplɔɪiː/ | 雇员; 员工 | The company has two hundred employees. | 这家公司有两百名员工。 | 2
+employer | /ɪmˈplɔɪə/ | 雇主 | My employer offers flexible hours. | 我的雇主提供弹性工作时间。 | 2
+interview | /ˈɪntəvjuː/ | 面试; 采访 | I have a job interview tomorrow. | 我明天有一场工作面试。 | 2
+apply | /əˈplaɪ/ | 申请; 应聘 | I want to apply for this position. | 我想应聘这个职位。 | 2
+resume | /ˈrezjumeɪ/ | 简历 | Please attach your resume to the email. | 请把你的简历附在邮件里。 | 2
+CV | /ˌsiː ˈviː/ | 简历 | Keep your CV to two pages. | 简历请控制在两页以内。 | 2
+position | /pəˈzɪʃn/ | 职位 | The position requires two years of experience. | 这个职位需要两年经验。 | 2
+vacancy | /ˈveɪkənsi/ | 空缺职位 | There is a vacancy in the sales team. | 销售团队有一个职位空缺。 | 3
+full-time | /ˌfʊl ˈtaɪm/ | 全职的 | She has a full-time job at a bank. | 她在银行有一份全职工作。 | 2
+part-time | /ˌpɑːt ˈtaɪm/ | 兼职的 | He does a part-time job on weekends. | 他周末做兼职工作。 | 2
+shift | /ʃɪft/ | 轮班; 班次 | I work the night shift this week. | 我这周上夜班。 | 3
+overtime | /ˈəʊvətaɪm/ | 加班; 加班费 | We had to work overtime on Friday. | 我们周五不得不加班。 | 3
+deadline | /ˈdedlaɪn/ | 截止日期 | The deadline for the report is Monday. | 报告的截止日期是周一。 | 3
+task | /tɑːsk/ | 任务 | Your first task is to answer the emails. | 你的第一项任务是回复邮件。 | 2
+team | /tiːm/ | 团队 | Our team meets every Monday. | 我们团队每周一开会。 | 1
+experience | /ɪkˈspɪəriəns/ | 经验; 经历 | Do you have any experience in teaching? | 你有教学经验吗？ | 2
+qualification | /ˌkwɒlɪfɪˈkeɪʃn/ | 资格; 资历 | A teaching qualification is required. | 需要教师资格证。 | 3
+training | /ˈtreɪnɪŋ/ | 培训 | New staff receive a week of training. | 新员工要接受为期一周的培训。 | 2
+promotion | /prəˈməʊʃn/ | 晋升; 升职 | He got a promotion after three years. | 他工作三年后得到了晋升。 | 3
+promote | /prəˈməʊt/ | 提拔; 晋升 | They decided to promote her to manager. | 他们决定提拔她当经理。 | 3
+raise | /reɪz/ | 加薪 | I asked my boss for a raise. | 我向老板要求加薪。 | 3
+bonus | /ˈbəʊnəs/ | 奖金 | Everyone received a bonus at New Year. | 新年时每个人都拿到了奖金。 | 3
+wage | /weɪdʒ/ | 工资 (按时薪或周薪) | The minimum wage went up this year. | 今年最低工资提高了。 | 3
+pension | /ˈpenʃn/ | 养老金 | He lives on a small pension. | 他靠一笔微薄的养老金生活。 | 4
+retire | /rɪˈtaɪə/ | 退休 | My father will retire next year. | 我父亲明年退休。 | 3
+retirement | /rɪˈtaɪəmənt/ | 退休 | She is looking forward to retirement. | 她期待着退休生活。 | 3
+resign | /rɪˈzaɪn/ | 辞职 | He decided to resign from his post. | 他决定辞去职务。 | 4
+resignation | /ˌrezɪɡˈneɪʃn/ | 辞职; 辞呈 | She handed in her resignation yesterday. | 她昨天递交了辞呈。 | 4
+quit | /kwɪt/ | 辞职; 放弃 | I want to quit my job and travel. | 我想辞掉工作去旅行。 | 3
+fire | /ˈfaɪə/ | 解雇 | The company had to fire ten workers. | 公司不得不解雇十名工人。 | 3
+dismiss | /dɪsˈmɪs/ | 解雇; 开除 | He was dismissed for being late too often. | 他因为经常迟到被解雇了。 | 5
+redundancy | /rɪˈdʌndənsi/ | 裁员; 冗员 | The factory announced fifty redundancies. | 工厂宣布裁员五十人。 | 5
+unemployed | /ˌʌnɪmˈplɔɪd/ | 失业的 | He has been unemployed for six months. | 他已经失业六个月了。 | 3
+unemployment | /ˌʌnɪmˈplɔɪmənt/ | 失业 | Unemployment is falling in the region. | 该地区的失业率在下降。 | 3
+hire | /ˈhaɪə/ | 雇用; 聘用 | We plan to hire three new engineers. | 我们计划聘用三名新工程师。 | 3
+recruit | /rɪˈkruːt/ | 招聘; 新员工 | The firm will recruit graduates this spring. | 公司今年春天将招聘毕业生。 | 4
+recruitment | /rɪˈkruːtmənt/ | 招聘 | The recruitment process takes about a month. | 招聘流程大约需要一个月。 | 4
+candidate | /ˈkændɪdət/ | 候选人; 应聘者 | The best candidate got the job. | 最佳应聘者得到了这份工作。 | 3
+applicant | /ˈæplɪkənt/ | 申请人; 应聘者 | Over a hundred applicants applied for the post. | 有一百多名应聘者申请这个职位。 | 4
+reference | /ˈrefrəns/ | 推荐信; 介绍人 | My old boss wrote me a reference. | 我的前老板给我写了一封推荐信。 | 4
+cover letter | /ˈkʌvə ˈletə/ | 求职信 | A good cover letter makes a strong first impression. | 好的求职信能留下深刻的第一印象。 | 4
+job offer | /dʒɒb ˈɒfə/ | 工作邀请; 录用通知 | She accepted the job offer yesterday. | 她昨天接受了这个录用通知。 | 3
+notice | /ˈnəʊtɪs/ | 通知; 预告期 | You must give a month's notice before leaving. | 离职前你必须提前一个月通知。 | 4
+internship | /ˈɪntɜːnʃɪp/ | 实习 | She did an internship at a magazine. | 她在一家杂志社实习过。 | 4
+intern | /ˈɪntɜːn/ | 实习生 | The intern helped with the filing. | 实习生帮忙整理文件。 | 4
+apprentice | /əˈprentɪs/ | 学徒 | He started as an apprentice in a garage. | 他在一家修车厂当学徒起步。 | 5
+trainee | /ˌtreɪˈniː/ | 受训者; 实习生 | Every trainee has a mentor. | 每位实习生都有一位导师。 | 4
+mentor | /ˈmentɔː/ | 导师; 指导者 | My mentor taught me how to negotiate. | 我的导师教我如何谈判。 | 5
+supervisor | /ˈsuːpəvaɪzə/ | 主管; 监督人 | Please ask your supervisor for permission. | 请向你的主管申请许可。 | 4
+executive | /ɪɡˈzekjətɪv/ | 高管; 行政人员 | She is a senior executive at a bank. | 她是一家银行的高级主管。 | 5
+CEO | /ˌsiː iː ˈəʊ/ | 首席执行官 | The CEO spoke at the annual meeting. | 首席执行官在年会上发言。 | 4
+assistant | /əˈsɪstənt/ | 助理 | The assistant booked the meeting room. | 助理预订了会议室。 | 2
+secretary | /ˈsekrətri/ | 秘书 | The secretary answers the phone. | 秘书负责接电话。 | 2
+receptionist | /rɪˈsepʃənɪst/ | 接待员; 前台 | Please speak to the receptionist. | 请找前台接待员。 | 3
+clerk | /klɑːk/ | 职员; 办事员 | A bank clerk checked my passport. | 一名银行职员检查了我的护照。 | 3
+accountant | /əˈkaʊntənt/ | 会计 | An accountant prepares our tax forms. | 会计负责准备我们的税表。 | 3
+architect | /ˈɑːkɪtekt/ | 建筑师 | The architect drew a plan of the house. | 建筑师画了房子的图纸。 | 3
+designer | /dɪˈzaɪnə/ | 设计师 | The designer chose bright colours. | 设计师选了明亮的颜色。 | 3
+electrician | /ɪˌlekˈtrɪʃn/ | 电工 | We called an electrician to fix the light. | 我们叫了电工来修灯。 | 3
+plumber | /ˈplʌmə/ | 水管工 | The plumber repaired the leaking pipe. | 水管工修好了漏水的管子。 | 3
+mechanic | /məˈkænɪk/ | 机修工 | The mechanic checked the engine. | 机修工检查了发动机。 | 3
+builder | /ˈbɪldə/ | 建筑工人; 建筑商 | The builder finished the roof in a week. | 建筑工人一周就完成了屋顶。 | 3
+waiter | /ˈweɪtə/ | 服务员 | The waiter brought us the menu. | 服务员给我们拿来了菜单。 | 1
+shop assistant | /ˈʃɒp əˌsɪstənt/ | 店员 | The shop assistant was very helpful. | 店员非常热心。 | 2
+cashier | /kæˈʃɪə/ | 收银员 | The cashier gave me my change. | 收银员把零钱找给了我。 | 2
+pilot | /ˈpaɪlət/ | 飞行员 | The pilot welcomed us on board. | 飞行员欢迎我们登机。 | 2
+dentist | /ˈdentɪst/ | 牙医 | I have an appointment with the dentist. | 我和牙医有个预约。 | 2
+scientist | /ˈsaɪəntɪst/ | 科学家 | The scientist published her findings. | 这位科学家发表了她的研究成果。 | 2
+freelancer | /ˈfriːlɑːnsə/ | 自由职业者 | As a freelancer, she chooses her own clients. | 作为自由职业者，她自己挑选客户。 | 5
+self-employed | /ˌself ɪmˈplɔɪd/ | 自雇的; 个体经营的 | He has been self-employed for ten years. | 他个体经营已有十年。 | 5
+profession | /prəˈfeʃn/ | 职业 (专业性) | Teaching is a respected profession. | 教书是一个受人尊敬的职业。 | 3
+professional | /prəˈfeʃənl/ | 专业的; 专业人士 | She gave a very professional presentation. | 她做了一场非常专业的演讲。 | 3
+occupation | /ˌɒkjuˈpeɪʃn/ | 职业 | Please write your occupation on the form. | 请在表格上填写你的职业。 | 4
+workplace | /ˈwɜːkpleɪs/ | 工作场所 | The workplace should be safe and clean. | 工作场所应当安全整洁。 | 4
+workload | /ˈwɜːkləʊd/ | 工作量 | My workload has doubled this year. | 我今年的工作量翻了一番。 | 5
+working hours | /ˈwɜːkɪŋ ˈaʊəz/ | 工作时间 | Our working hours are from nine to six. | 我们的工作时间是九点到六点。 | 3
+flexible hours | /ˈfleksəbl ˈaʊəz/ | 弹性工作时间 | Flexible hours help parents a lot. | 弹性工作时间对父母帮助很大。 | 4
+commute | /kəˈmjuːt/ | 通勤 | My commute takes forty minutes. | 我的通勤要花四十分钟。 | 4
+remote work | /rɪˈməʊt wɜːk/ | 远程办公 | Remote work saves me two hours a day. | 远程办公每天为我节省两小时。 | 4
+work from home | /wɜːk frəm həʊm/ | 在家办公 | I work from home on Fridays. | 我周五在家办公。 | 3
+day off | /deɪ ˈɒf/ | 休息日; 休假日 | Tuesday is my day off. | 周二是我的休息日。 | 2
+annual leave | /ˈænjuəl liːv/ | 年假 | I have twenty days of annual leave. | 我有二十天年假。 | 4
+sick leave | /sɪk liːv/ | 病假 | He took sick leave for a week. | 他请了一周病假。 | 4
+maternity leave | /məˈtɜːnəti liːv/ | 产假 | She is on maternity leave until June. | 她休产假到六月。 | 5
+paternity leave | /pəˈtɜːnəti liːv/ | 陪产假 | He took two weeks of paternity leave. | 他休了两周陪产假。 | 5
+holiday entitlement | /ˈhɒlədeɪ ɪnˈtaɪtlmənt/ | 休假权利; 年假天数 | Our holiday entitlement is 25 days a year. | 我们每年的年假是二十五天。 | 5
+payslip | /ˈpeɪslɪp/ | 工资单 | Check your payslip every month. | 每个月都要核对你的工资单。 | 5
+payroll | /ˈpeɪrəʊl/ | 工资单; 薪资总额 | The payroll is processed on the 25th. | 工资在二十五日处理发放。 | 6
+benefit | /ˈbenɪfɪt/ | 福利; 好处 | The job offers good health benefits. | 这份工作提供良好的医疗福利。 | 3
+achieve | /əˈtʃiːv/ | 实现; 取得 | She worked hard to achieve her goals. | 她努力工作以实现自己的目标。 | 3
+goal | /ɡəʊl/ | 目标 | My goal is to become a manager. | 我的目标是成为经理。 | 2
+target | /ˈtɑːɡɪt/ | 目标; 指标 | We met our sales target this month. | 我们这个月完成了销售指标。 | 3
+performance | /pəˈfɔːməns/ | 业绩; 表现 | His performance has improved a lot. | 他的表现进步了很多。 | 4
+appraisal | /əˈpreɪzl/ | 绩效评估 | I have my yearly appraisal next week. | 我下周有年度绩效评估。 | 5
+feedback | /ˈfiːdbæk/ | 反馈 | I asked my manager for feedback. | 我向经理征求反馈意见。 | 4
+responsibility | /rɪˌspɒnsəˈbɪləti/ | 责任; 职责 | Safety is everyone's responsibility. | 安全是每个人的责任。 | 3
+duty | /ˈdjuːti/ | 职责; 值班 | One of my duties is to greet visitors. | 我的职责之一是接待访客。 | 3
+job description | /dʒɒb dɪˈskrɪpʃn/ | 职位描述 | Read the job description carefully. | 请仔细阅读职位描述。 | 4
+career path | /kəˈrɪə pɑːθ/ | 职业发展路径 | He has a clear career path in mind. | 他心中有清晰的职业发展路径。 | 5
+career ladder | /kəˈrɪə ˈlædə/ | 晋升阶梯 | She climbed the career ladder quickly. | 她很快在职场上步步高升。 | 5
+networking | /ˈnetwɜːkɪŋ/ | 人脉拓展 | Networking helped me find my current job. | 拓展人脉帮我找到了现在的工作。 | 5
+teamwork | /ˈtiːmwɜːk/ | 团队合作 | Good teamwork saves a lot of time. | 良好的团队合作能节省大量时间。 | 3
+cooperate | /kəʊˈɒpəreɪt/ | 合作 | Departments must cooperate on this project. | 各部门必须在这个项目上合作。 | 4
+collaborate | /kəˈlæbəreɪt/ | 协作 | We collaborate with partners in Europe. | 我们与欧洲的伙伴协作。 | 5
+delegate | /ˈdelɪɡeɪt/ | 授权; 委派 | A good manager knows how to delegate. | 好的经理懂得如何授权。 | 6
+supervise | /ˈsuːpəvaɪz/ | 监督; 管理 | She supervises a team of five. | 她管理着五个人的团队。 | 5
+manage | /ˈmænɪdʒ/ | 管理; 经营 | He manages a small restaurant. | 他经营一家小餐馆。 | 3
+organise | /ˈɔːɡənaɪz/ | 组织; 安排 | I need to organise a team lunch. | 我需要安排一次团队午餐。 | 3
+schedule | /ˈʃedjuːl/ | 日程; 安排 | My schedule is full this week. | 我这周的日程排满了。 | 3
+appointment | /əˈpɔɪntmənt/ | 预约; 任命 | I made an appointment with the client. | 我和客户约好了见面。 | 3
+agenda | /əˈdʒendə/ | 议程 | What is on the agenda today? | 今天的议程是什么？ | 4
+minutes | /ˈmɪnɪts/ | 会议记录 | Who will take the minutes? | 谁来做会议记录？ | 5
+presentation | /ˌpreznˈteɪʃn/ | 演示; 报告 | She gave a clear presentation. | 她做了一场条理清晰的报告。 | 3
+proposal | /prəˈpəʊzl/ | 提案; 建议书 | The board accepted our proposal. | 董事会接受了我们的提案。 | 4
+negotiate | /nɪˈɡəʊʃieɪt/ | 谈判; 协商 | He tried to negotiate a higher salary. | 他试图协商更高的薪水。 | 5
+priority | /praɪˈɒrəti/ | 优先事项 | Customer service is our top priority. | 客户服务是我们的首要任务。 | 4
+multitask | /ˌmʌltiˈtɑːsk/ | 同时处理多项任务 | I cannot multitask when I am tired. | 我累的时候没法同时处理多件事。 | 6
+time management | /taɪm ˈmænɪdʒmənt/ | 时间管理 | Time management is a key skill. | 时间管理是一项关键技能。 | 4
+work-life balance | /ˌwɜːk laɪf ˈbæləns/ | 工作与生活的平衡 | Work-life balance matters to many young people. | 工作与生活的平衡对许多年轻人很重要。 | 5
+stress | /stres/ | 压力 | Too much stress is bad for your health. | 压力太大对健康有害。 | 3
+burnout | /ˈbɜːnaʊt/ | 职业倦怠 | Long hours can lead to burnout. | 长时间工作可能导致职业倦怠。 | 6
+motivation | /ˌməʊtɪˈveɪʃn/ | 动力; 积极性 | A friendly team improves motivation. | 友好的团队能提高积极性。 | 4
+ambitious | /æmˈbɪʃəs/ | 有雄心的 | She is young and ambitious. | 她年轻而有抱负。 | 4
+productive | /prəˈdʌktɪv/ | 有成效的; 高产的 | I am most productive in the morning. | 我早晨效率最高。 | 4
+productivity | /ˌprɒdʌkˈtɪvəti/ | 生产率; 效率 | New software raised our productivity. | 新软件提高了我们的效率。 | 5
+punctual | /ˈpʌŋktʃuəl/ | 守时的 | Please be punctual for the interview. | 面试请务必守时。 | 4
+deadline pressure | /ˈdedlaɪn ˈpreʃə/ | 截止日期压力 | Deadline pressure makes me tired. | 截止日期的压力让我很疲惫。 | 5
+hard-working | /ˌhɑːd ˈwɜːkɪŋ/ | 勤奋的 | He is a hard-working student and worker. | 他是个勤奋的学生和工作者。 | 2
+experienced | /ɪkˈspɪəriənst/ | 有经验的 | We are looking for an experienced chef. | 我们在招一位有经验的厨师。 | 3
+qualified | /ˈkwɒlɪfaɪd/ | 有资格的; 合格的 | She is fully qualified to teach. | 她完全有资格任教。 | 4
+skilled | /skɪld/ | 熟练的 | A skilled worker earns more. | 熟练工人挣得更多。 | 4
+unskilled | /ʌnˈskɪld/ | 不熟练的; 无技能的 | Unskilled jobs often pay little. | 无技能要求的工作往往工资很低。 | 5
+manual work | /ˈmænjuəl wɜːk/ | 体力劳动 | Manual work can be tiring. | 体力劳动可能很累。 | 5
+white-collar | /ˌwaɪt ˈkɒlə/ | 白领的 | White-collar jobs are mostly in offices. | 白领工作大多在办公室里。 | 6
+blue-collar | /ˌbluː ˈkɒlə/ | 蓝领的 | Blue-collar workers build our cities. | 蓝领工人建设我们的城市。 | 6
+labour | /ˈleɪbə/ | 劳动; 劳动力 | Labour costs are rising every year. | 劳动力成本逐年上升。 | 5
+workforce | /ˈwɜːkfɔːs/ | 劳动力; 员工总数 | The workforce is getting older. | 劳动力人口正在老龄化。 | 5
+staff | /stɑːf/ | 员工; 全体职员 | The hotel staff were very polite. | 酒店员工非常有礼貌。 | 2
+personnel | /ˌpɜːsəˈnel/ | 人事; 全体人员 | Contact the personnel department for details. | 详情请联系人事部门。 | 5
+human resources | /ˌhjuːmən rɪˈzɔːsɪz/ | 人力资源 | Human resources will call you next week. | 人力资源部会在下周联系你。 | 4
+trade union | /treɪd ˈjuːniən/ | 工会 | He joined the trade union last year. | 他去年加入了工会。 | 5
+strike | /straɪk/ | 罢工 | The workers went on strike for better pay. | 工人为了更高的工资而罢工。 | 4
+workshop | /ˈwɜːkʃɒp/ | 研讨会; 工作坊 | We attended a two-day workshop. | 我们参加了一个为期两天的研讨会。 | 4
+conference | /ˈkɒnfərəns/ | 大会; 会议 | She spoke at an international conference. | 她在一次国际会议上发言。 | 4
+business trip | /ˈbɪznəs trɪp/ | 出差 | He is on a business trip in Berlin. | 他正在柏林出差。 | 3
+expenses | /ɪkˈspensɪz/ | 开支; 报销费用 | The company pays my travel expenses. | 公司支付我的差旅费用。 | 4
+reimburse | /ˌriːɪmˈbɜːs/ | 报销; 偿还 | The firm will reimburse your hotel costs. | 公司会报销你的酒店费用。 | 6
+stationery | /ˈsteɪʃənri/ | 文具 | We order stationery every quarter. | 我们每季度订购文具。 | 4
+photocopier | /ˈfəʊtəʊkɒpiə/ | 复印机 | The photocopier is out of paper. | 复印机没纸了。 | 4
+desk | /desk/ | 办公桌 | There is a lamp on my desk. | 我的办公桌上有一盏灯。 | 1
+cubicle | /ˈkjuːbɪkl/ | 隔间工位 | He works in a small cubicle. | 他在一个小隔间里办公。 | 6
+break | /breɪk/ | 休息 | Let's take a break for ten minutes. | 我们休息十分钟吧。 | 1
+lunch break | /lʌntʃ breɪk/ | 午休 | My lunch break is one hour long. | 我的午休有一个小时。 | 2
+coffee break | /ˈkɒfi breɪk/ | 茶歇 | We chatted during the coffee break. | 我们在茶歇时聊了天。 | 3
+overtime pay | /ˈəʊvətaɪm peɪ/ | 加班费 | The overtime pay is one and a half times normal. | 加班费是正常工资的一点五倍。 | 5
+sick pay | /sɪk peɪ/ | 病假工资 | Do you get sick pay in this job? | 这份工作有病假工资吗？ | 5
+job security | /dʒɒb sɪˈkjʊərəti/ | 工作保障; 职业稳定性 | Many people value job security. | 许多人看重工作的稳定性。 | 5
+career change | /kəˈrɪə tʃeɪndʒ/ | 转行 | A career change at forty can be scary. | 四十岁转行可能令人害怕。 | 5
+gap year | /ɡæp jɪə/ | 空档年 | She took a gap year before university. | 她在上大学前休了一个空档年。 | 4
+headhunter | /ˈhedhʌntə/ | 猎头 | A headhunter called me about a new post. | 一位猎头打电话跟我谈一个新职位。 | 6
+job market | /dʒɒb ˈmɑːkɪt/ | 就业市场 | The job market is very competitive. | 就业市场竞争非常激烈。 | 4
+job satisfaction | /dʒɒb ˌsætɪsˈfækʃn/ | 工作满意度 | Job satisfaction matters more than pay for her. | 对她而言，工作满意度比薪水更重要。 | 5
+glass ceiling | /ɡlɑːs ˈsiːlɪŋ/ | 玻璃天花板 | Many women still face a glass ceiling. | 许多女性仍面临玻璃天花板。 | 6
+discrimination | /dɪˌskrɪmɪˈneɪʃn/ | 歧视 | Workplace discrimination is against the law. | 职场歧视是违法的。 | 5
+harassment | /ˈhærəsmənt/ | 骚扰 | The company has a strict harassment policy. | 公司有严格的反骚扰政策。 | 6
+equal pay | /ˈiːkwəl peɪ/ | 同工同酬 | They demand equal pay for equal work. | 他们要求同工同酬。 | 5
+side job | /saɪd dʒɒb/ | 副业 | He has a side job as a tutor. | 他有一份家教的副业。 | 4
+career fair | /kəˈrɪə feə/ | 招聘会 | We visited a career fair at the university. | 我们去了大学的招聘会。 | 4
+handover | /ˈhændəʊvə/ | 工作交接 | Please prepare a handover before you leave. | 离职前请做好工作交接。 | 6
+onboarding | /ˈɒnbɔːdɪŋ/ | 新员工入职培训 | Onboarding takes about two weeks. | 新员工入职培训约需两周。 | 6
+job title | /dʒɒb ˈtaɪtl/ | 职称; 职务名称 | What is your job title? | 你的职务名称是什么？ | 3
+rank | /ræŋk/ | 级别; 职级 | He rose to the rank of captain. | 他晋升到上尉军衔。 | 4
+hierarchy | /ˈhaɪərɑːki/ | 等级制度 | The company has a strict hierarchy. | 这家公司等级制度森严。 | 6
+workaholic | /ˌwɜːkəˈhɒlɪk/ | 工作狂 | My uncle is a real workaholic. | 我叔叔是个十足的工作狂。 | 6

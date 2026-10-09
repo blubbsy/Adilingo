@@ -1,0 +1,296 @@
+[
+  {
+    "id": "time-word-order",
+    "title": "Time words: where they go in the sentence",
+    "titleHanzi": "时间词",
+    "category": "time-place",
+    "hskRange": [1, 3],
+    "summary": "Chinese places a time word before the verb, never after it. Inside a time phrase the larger unit comes first, so the order runs from year or day down to the hour.",
+    "pattern": "Subject + Time + Verb + (Object)  ·  Time + Subject + Verb  ·  Subject + Time + 在 + Place + Verb",
+    "rules": [
+      {
+        "rule": "**Time before the verb.** A time word goes after the subject or in front of it, and always before the verb. English 'I go tomorrow' keeps the time at the end, but Chinese moves it in front of the verb.",
+        "highlight": "时间",
+        "examples": [
+          { "hanzi": "我明天去上海。", "pinyin": "Wǒ míngtiān qù Shànghǎi.", "english": "I am going to Shanghai tomorrow." },
+          { "hanzi": "明天我们去爬山。", "pinyin": "Míngtiān wǒmen qù páshān.", "english": "Tomorrow we are going hiking." },
+          { "hanzi": "他每天早上跑步。", "pinyin": "Tā měitiān zǎoshang pǎobù.", "english": "He goes running every morning." }
+        ]
+      },
+      {
+        "rule": "**Big to small.** Inside one time phrase the larger unit comes first: year, month, day, part of the day, then the hour. 下午 (afternoon) stands before 三点 (three o'clock).",
+        "highlight": "下午三点",
+        "examples": [
+          { "hanzi": "我们下个星期六下午三点见。", "pinyin": "Wǒmen xiàge xīngqīliù xiàwǔ sān diǎn jiàn.", "english": "See you at three o'clock on Saturday afternoon next week." },
+          { "hanzi": "她去年十月来的北京。", "pinyin": "Tā qùnián shíyuè lái de Běijīng.", "english": "She came to Beijing last October." },
+          { "hanzi": "昨天晚上十一点我才睡。", "pinyin": "Zuótiān wǎnshang shíyī diǎn wǒ cái shuì.", "english": "I did not go to sleep until eleven last night." }
+        ]
+      },
+      {
+        "rule": "**Time and place together.** When a sentence has both, the usual order is Subject + Time + 在 + Place + Verb. The time stays in front of the place, and the place stays right before the verb.",
+        "highlight": "在",
+        "examples": [
+          { "hanzi": "我下午在图书馆看书。", "pinyin": "Wǒ xiàwǔ zài túshūguǎn kànshū.", "english": "I read in the library in the afternoon." },
+          { "hanzi": "他每天在公司吃午饭。", "pinyin": "Tā měitiān zài gōngsī chī wǔfàn.", "english": "He eats lunch at the office every day." },
+          { "hanzi": "我们星期天在家休息。", "pinyin": "Wǒmen xīngqītiān zài jiā xiūxi.", "english": "We rest at home on Sundays." }
+        ]
+      },
+      {
+        "rule": "**Time as a topic.** A time word at the very start frames the whole sentence and is usually followed by a comma. Use it when you want to set the scene before you say what happens.",
+        "highlight": "，",
+        "examples": [
+          { "hanzi": "今天，我很忙。", "pinyin": "Jīntiān, wǒ hěn máng.", "english": "Today, I am very busy." },
+          { "hanzi": "现在，请大家安静。", "pinyin": "Xiànzài, qǐng dàjiā ānjìng.", "english": "Now, everyone please be quiet." },
+          { "hanzi": "从前，这里是一个小村子。", "pinyin": "Cóngqián, zhèlǐ shì yí ge xiǎo cūnzi.", "english": "Long ago, this place was a small village." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "English word order", "text": "English can end a sentence with a time phrase ('I go tomorrow'). In Chinese the time goes before the verb, so 'at three o'clock' is 三点 placed in front of the verb." },
+      { "vs": "Duration (时段)", "text": "A point in time (我七点起床) goes before the verb, while a duration (我学了两个小时) goes after it. See the duration article in this category." }
+    ],
+    "pitfalls": [
+      "✗ 我去北京明天。 → ✓ 我明天去北京。 A time word never closes the sentence; it goes before the verb.",
+      "✗ 九点上午明天。 → ✓ 明天上午九点。 Big units first: day, part of the day, then the hour.",
+      "✗ 我学习在图书馆今天。 → ✓ 我今天在图书馆学习。 Time comes before the place, and the place comes before the verb."
+    ],
+    "relatedPointIds": ["g1-time-position", "g1-zai-place-verb", "g2-jiu-cai"],
+    "keywords": ["shijian", "时间词", "time word", "time phrase", "word order", "time before verb", "big to small"],
+    "status": "draft"
+  },
+  {
+    "id": "coverbs-place-and-direction",
+    "title": "Place coverbs: 在, 从, 到, 离, 往, 向",
+    "titleHanzi": "在 / 从 / 到 / 离 / 往 / 向",
+    "category": "time-place",
+    "hskRange": [1, 4],
+    "summary": "Coverbs put a place, starting point, goal or direction in front of the main verb. Each has its own job: 在 locates, 从 starts, 到 arrives, 离 measures distance, and 往 and 向 point the way.",
+    "pattern": "在 + Place + Verb  ·  从 + Place + (到 + Place) + Verb  ·  A + 离 + B + Adjective  ·  往 / 向 + Direction + Verb",
+    "rules": [
+      {
+        "rule": "**在 + place** gives the location where an action happens. The place phrase sits before the verb: 我在家学习. For a thing rather than an action, 在 comes after the noun: 书在桌子上.",
+        "highlight": "在",
+        "examples": [
+          { "hanzi": "我在家学习。", "pinyin": "Wǒ zài jiā xuéxí.", "english": "I study at home." },
+          { "hanzi": "书在桌子上。", "pinyin": "Shū zài zhuōzi shang.", "english": "The book is on the table." },
+          { "hanzi": "她在北京学中文。", "pinyin": "Tā zài Běijīng xué Zhōngwén.", "english": "She studies Chinese in Beijing." }
+        ]
+      },
+      {
+        "rule": "**从 + start, 到 + goal.** 从 names where a movement begins and 到 names where it ends. When both appear, 从 always comes first. 到 can also be a plain verb meaning 'arrive'.",
+        "highlight": "从 / 到",
+        "examples": [
+          { "hanzi": "我从学校回家。", "pinyin": "Wǒ cóng xuéxiào huí jiā.", "english": "I go home from school." },
+          { "hanzi": "从这里到车站很远。", "pinyin": "Cóng zhèlǐ dào chēzhàn hěn yuǎn.", "english": "It is far from here to the station." },
+          { "hanzi": "他到了机场。", "pinyin": "Tā dào le jīchǎng.", "english": "He arrived at the airport." },
+          { "hanzi": "我们坐地铁到市中心。", "pinyin": "Wǒmen zuò dìtiě dào shìzhōngxīn.", "english": "We take the metro to the city centre." }
+        ]
+      },
+      {
+        "rule": "**A 离 B + adjective** says how far A is from B. Nothing else is needed: 学校离我家很近 = the school is close to my home. 离 can also count the time left before an event.",
+        "highlight": "离",
+        "examples": [
+          { "hanzi": "学校离我家很近。", "pinyin": "Xuéxiào lí wǒ jiā hěn jìn.", "english": "The school is very close to my home." },
+          { "hanzi": "离考试还有两个星期。", "pinyin": "Lí kǎoshì hái yǒu liǎng ge xīngqī.", "english": "There are still two weeks until the exam." }
+        ]
+      },
+      {
+        "rule": "**往 and 向 both mean 'toward'.** 往 suits physical movement toward a place (往左转, 往前走). 向 is more formal or abstract and can also mean 'to someone' (向老师请教).",
+        "highlight": "往 / 向",
+        "examples": [
+          { "hanzi": "往左转，就是图书馆。", "pinyin": "Wǎng zuǒ zhuǎn, jiù shì túshūguǎn.", "english": "Turn left and that is the library." },
+          { "hanzi": "向北走两百米。", "pinyin": "Xiàng běi zǒu liǎng bǎi mǐ.", "english": "Walk two hundred metres north." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "在 + place vs 在 + verb", "text": "在 + place + Verb says where the action happens (我在家学习). 在 directly before a verb with no place phrase marks the progressive (我在学习). Compare the progressive article." },
+      { "vs": "去 vs 到", "text": "去 means 'go' and describes the movement; 到 means 'arrive'. 我去北京 says you are on the way; 我到北京了 says you have arrived." },
+      { "vs": "从 vs 离", "text": "从 is the starting point of a movement (从北京出发). 离 is the distance between two things at rest (离北京很远)." }
+    ],
+    "pitfalls": [
+      "✗ 我学习在图书馆。 → ✓ 我在图书馆学习。 A place phrase with 在 goes before the verb, not after it.",
+      "✗ 我到北京从上海。 → ✓ 我从上海到北京。 The starting point (从) always comes before the goal (到).",
+      "✗ 学校离很近我家。 → ✓ 学校离我家很近。 Write A 离 B first, then the adjective.",
+      "✗ 我往北京学习。 → ✓ 我在北京学习。 往 only points a direction; for the place where you study, use 在."
+    ],
+    "relatedPointIds": ["g1-zai-place-verb", "g2-direction-lai-qu", "g1-time-position"],
+    "keywords": ["zai", "cong", "dao", "li", "wang", "xiang", "在", "从", "到", "离", "往", "向", "coverb", "place", "direction", "distance", "starting point"],
+    "status": "draft"
+  },
+  {
+    "id": "localizers-shang-xia-li-wai",
+    "title": "Localizers: 上, 下, 里, 外",
+    "titleHanzi": "上 / 下 / 里 / 外",
+    "category": "time-place",
+    "hskRange": [2, 4],
+    "summary": "Localizers turn a noun into a location: 桌子上 means 'on the table'. They correspond to on, under, inside and outside, and the two-syllable forms 上面, 下面, 里面 and 外面 can stand alone as place words.",
+    "pattern": "Noun + 上 / 下 / 里 / 外  ·  上面 / 下面 / 里面 / 外面 (+ 的 + Noun)  ·  在 + Noun + 上 (abstract area)",
+    "rules": [
+      {
+        "rule": "**Noun + localizer = a place.** 上 means on, 下 means under, 里 means inside and 外 means outside. The localizer always follows the noun: 桌子上, 床下, 房间里. 外 is often extended with 边 in speech.",
+        "highlight": "上 / 下 / 里 / 外",
+        "examples": [
+          { "hanzi": "书在桌子上。", "pinyin": "Shū zài zhuōzi shang.", "english": "The book is on the table." },
+          { "hanzi": "猫在床下。", "pinyin": "Māo zài chuáng xià.", "english": "The cat is under the bed." },
+          { "hanzi": "大家都在房间里。", "pinyin": "Dàjiā dōu zài fángjiān lǐ.", "english": "Everyone is in the room." },
+          { "hanzi": "学校外边有一个超市。", "pinyin": "Xuéxiào wàibian yǒu yí ge chāoshì.", "english": "There is a supermarket outside the school." }
+        ]
+      },
+      {
+        "rule": "**上面, 下面, 里面, 外面 are the full place words.** They can stand alone as a location or take a noun with 的. In everyday speech 上边, 下边, 里边 and 外边 are just as common.",
+        "highlight": "上面 / 里面",
+        "examples": [
+          { "hanzi": "外面下雨了。", "pinyin": "Wàimiàn xià yǔ le.", "english": "It's raining outside." },
+          { "hanzi": "我们在里面等你。", "pinyin": "Wǒmen zài lǐmiàn děng nǐ.", "english": "We are waiting for you inside." },
+          { "hanzi": "桌子上面的那本书是我的。", "pinyin": "Zhuōzi shàngmiàn de nà běn shū shì wǒ de.", "english": "That book on the table is mine." },
+          { "hanzi": "下面请大家发言。", "pinyin": "Xiàmiàn qǐng dàjiā fāyán.", "english": "Next, please, everyone speak up." }
+        ]
+      },
+      {
+        "rule": "**在 + noun + 上 can name an area, not a spot.** Here 上 means 'in terms of'. It is used for work, study and daily life, and no physical place is meant.",
+        "highlight": "在…上",
+        "examples": [
+          { "hanzi": "在学习上，他很努力。", "pinyin": "Zài xuéxí shang, tā hěn nǔlì.", "english": "In his studies he works very hard." },
+          { "hanzi": "在工作上，我们还需要帮助。", "pinyin": "Zài gōngzuò shang, wǒmen hái xūyào bāngzhù.", "english": "In our work we still need help." },
+          { "hanzi": "在生活上，她很照顾我。", "pinyin": "Zài shēnghuó shang, tā hěn zhàogù wǒ.", "english": "In daily life she takes good care of me." }
+        ]
+      },
+      {
+        "rule": "**Localizer phrase + 的 modifies a noun.** Put 的 after the place phrase to turn it into an adjective-like modifier: 房间里的人 = the people in the room.",
+        "highlight": "的",
+        "examples": [
+          { "hanzi": "房间里的人都很友好。", "pinyin": "Fángjiān lǐ de rén dōu hěn yǒuhǎo.", "english": "The people in the room are all very friendly." },
+          { "hanzi": "学校外的那家商店很便宜。", "pinyin": "Xuéxiào wài de nà jiā shāngdiàn hěn piányi.", "english": "The shop outside the school is very cheap." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "上面 vs 桌子上", "text": "桌子上 is a noun phrase and needs a noun in front of 上. 上面 can stand alone (上面有字). Use 上面 when there is no noun to attach to." },
+      { "vs": "在 vs 里", "text": "在 is a coverb of location (在教室学习). 里 is a localizer for inside (教室里). Both can meet in one sentence: 他在教室里。" }
+    ],
+    "pitfalls": [
+      "✗ 书在上桌子。 → ✓ 书在桌子上。 The localizer comes after the noun, not before it.",
+      "✗ 我在里面房间学习。 → ✓ 我在房间里学习。 里 belongs after the noun, not in front of it.",
+      "✗ 他的工作在学校上。 → ✓ 他的工作在学校。 上 does not mean 'at' for a place such as a school; 在 + noun is enough."
+    ],
+    "relatedPointIds": ["g1-zai-place-verb", "g2-zhe"],
+    "keywords": ["shang", "xia", "li", "wai", "上", "下", "里", "外", "localizer", "location word", "on", "under", "inside", "outside", "上面", "下面", "里面", "外面"],
+    "status": "draft"
+  },
+  {
+    "id": "existential-you-zai-shi",
+    "title": "Existence: 有, 在 and 是 for places",
+    "titleHanzi": "有 / 在 / 是",
+    "category": "time-place",
+    "hskRange": [2, 4],
+    "summary": "Chinese has three ways to say what is where. 有 introduces something that exists in a place, 在 says where a known thing is, and 是 describes what a place contains, mostly in descriptive style.",
+    "pattern": "Place + 有 + Thing  ·  Thing + 在 + Place  ·  Place + 是 + Thing  ·  Place + 没有 + Thing",
+    "rules": [
+      {
+        "rule": "**Place + 有 + thing = there is.** The place comes first, then 有, then the thing. Use it to introduce something new; the thing usually carries 一 or a number with a measure word.",
+        "highlight": "有",
+        "examples": [
+          { "hanzi": "桌子上有一本书。", "pinyin": "Zhuōzi shang yǒu yì běn shū.", "english": "There is a book on the table." },
+          { "hanzi": "教室里有二十个学生。", "pinyin": "Jiàoshì lǐ yǒu èrshí ge xuésheng.", "english": "There are twenty students in the classroom." },
+          { "hanzi": "我们学校附近有一家超市。", "pinyin": "Wǒmen xuéxiào fùjìn yǒu yì jiā chāoshì.", "english": "There is a supermarket near our school." }
+        ]
+      },
+      {
+        "rule": "**Thing + 在 + place = the thing is located there.** The known thing comes first. Use it when the listener already knows what you are talking about.",
+        "highlight": "在",
+        "examples": [
+          { "hanzi": "我的书在桌子上。", "pinyin": "Wǒ de shū zài zhuōzi shang.", "english": "My book is on the table." },
+          { "hanzi": "老师在教室里。", "pinyin": "Lǎoshī zài jiàoshì lǐ.", "english": "The teacher is in the classroom." },
+          { "hanzi": "超市在学校旁边。", "pinyin": "Chāoshì zài xuéxiào pángbiān.", "english": "The supermarket is next to the school." }
+        ]
+      },
+      {
+        "rule": "**Place + 是 + thing** describes what a place contains, typically a room, a street or a view. It is common in written and descriptive style: 门口是一个超市 = there is a supermarket at the entrance.",
+        "highlight": "是",
+        "examples": [
+          { "hanzi": "门口是一个超市。", "pinyin": "Ménkǒu shì yí ge chāoshì.", "english": "At the entrance there is a supermarket." },
+          { "hanzi": "前面是一座小山。", "pinyin": "Qiánmiàn shì yí zuò xiǎo shān.", "english": "In front there is a small hill." },
+          { "hanzi": "房间里是一张大床。", "pinyin": "Fángjiān lǐ shì yì zhāng dà chuáng.", "english": "The room has a big bed in it." }
+        ]
+      },
+      {
+        "rule": "**Negation: 没有 for 有, 不是 for 是.** 没有 says that a place contains nothing of the kind. For the location of a person, 不在 is used.",
+        "highlight": "没有 / 不在",
+        "examples": [
+          { "hanzi": "桌子上没有书。", "pinyin": "Zhuōzi shang méiyǒu shū.", "english": "There is no book on the table." },
+          { "hanzi": "他不在办公室。", "pinyin": "Tā bú zài bàngōngshì.", "english": "He is not in the office." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "有 vs 在", "text": "有 introduces something new in a place (桌子上有书). 在 says where a thing already known is (书在桌子上). Both describe the same scene from opposite ends." },
+      { "vs": "是 (existence) vs 是 (identity)", "text": "Place + 是 + thing is existential (门口是一个超市). 我是学生 is an identity sentence whose subject is a person, not a place." }
+    ],
+    "pitfalls": [
+      "✗ 桌子上在一本书。 → ✓ 桌子上有一本书。 For a new thing in a place, use 有, not 在.",
+      "✗ 书有桌子上。 → ✓ 书在桌子上。 For a known thing, use 在; 有 needs the place first.",
+      "✗ 教室里是很多人。 → ✓ 教室里有很多人。 With people and quantities, 有 is the usual choice; 是 mostly describes a place or a single notable item."
+    ],
+    "relatedPointIds": ["g1-zai-place-verb", "g2-zhe", "g1-ji-duoshao"],
+    "keywords": ["you", "zai", "shi", "有", "在", "是", "existence", "location", "there is", "existential"],
+    "status": "draft"
+  },
+  {
+    "id": "duration-vs-point-in-time",
+    "title": "Point in time vs duration: when and how long",
+    "titleHanzi": "时间点 / 时段",
+    "category": "time-place",
+    "hskRange": [2, 4],
+    "summary": "A point in time answers 'when?' and stands before the verb (七点起床). A duration answers 'how long?' and stands after the verb (学了两年).",
+    "pattern": "Time point + Verb + (Object)  ·  Verb + 了 + Duration + (Object)  ·  Verb + 了 + Duration + 了 (still going)",
+    "rules": [
+      {
+        "rule": "**Point in time = when.** A point such as 七点, 星期一 or 三月 is a moment on the calendar. It sits before the verb, like other time words.",
+        "highlight": "时间点",
+        "examples": [
+          { "hanzi": "我七点起床。", "pinyin": "Wǒ qī diǎn qǐchuáng.", "english": "I get up at seven." },
+          { "hanzi": "他星期一来上班。", "pinyin": "Tā xīngqīyī lái shàngbān.", "english": "He comes to work on Monday." },
+          { "hanzi": "我们三月去北京。", "pinyin": "Wǒmen sān yuè qù Běijīng.", "english": "We are going to Beijing in March." }
+        ]
+      },
+      {
+        "rule": "**Duration = how long, after the verb.** A span such as 两年, 八个小时 or 三天 follows the verb, and the object comes after it. The 了 sits right after the verb, before the duration.",
+        "highlight": "了",
+        "examples": [
+          { "hanzi": "我学了两年汉语。", "pinyin": "Wǒ xué le liǎng nián Hànyǔ.", "english": "I studied Chinese for two years." },
+          { "hanzi": "他昨天睡了八个小时。", "pinyin": "Tā zuótiān shuì le bā ge xiǎoshí.", "english": "He slept for eight hours yesterday." },
+          { "hanzi": "我们在北京住了三天。", "pinyin": "Wǒmen zài Běijīng zhù le sān tiān.", "english": "We stayed in Beijing for three days." }
+        ]
+      },
+      {
+        "rule": "**Verb + 了 + duration + 了 = still going on.** The second 了 at the end says the situation has lasted up to now and continues. It is the Chinese way of saying 'have been doing it for'.",
+        "highlight": "了…了",
+        "examples": [
+          { "hanzi": "我学了两年汉语了。", "pinyin": "Wǒ xué le liǎng nián Hànyǔ le.", "english": "I have been studying Chinese for two years." },
+          { "hanzi": "他结婚了五年了。", "pinyin": "Tā jiéhūn le wǔ nián le.", "english": "He has been married for five years." }
+        ]
+      },
+      {
+        "rule": "**Ask the right question.** 几点 asks for a point in time. 多长时间 or 多久 asks for a duration.",
+        "highlight": "几点 / 多久",
+        "examples": [
+          { "hanzi": "你几点下班？", "pinyin": "Nǐ jǐ diǎn xiàbān?", "english": "What time do you finish work?" },
+          { "hanzi": "你学了多长时间汉语？", "pinyin": "Nǐ xué le duō cháng shíjiān Hànyǔ?", "english": "How long have you been studying Chinese?" }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "Point (我七点起床) vs duration (我起床了一个小时)", "text": "七点 places the event on the clock; 一个小时 measures how much time it took. The same verb works with both, but the time word moves from before the verb to after it." },
+      { "vs": "了 after the verb vs 了 at the end", "text": "我学了两年汉语 closes the duration; 我学了两年汉语了 adds that it is still going on. See the 了 aspect articles." }
+    ],
+    "pitfalls": [
+      "✗ 我学习七点。 → ✓ 我七点学习。 A point in time goes before the verb; after the verb only a duration fits.",
+      "✗ 我学汉语了两年。 → ✓ 我学了两年汉语。 The 了 goes right after the verb, and the duration sits before the object.",
+      "✗ 我在两个小时学习。 → ✓ 我学习了两个小时。 A duration never takes 在 in front of it; it follows the verb."
+    ],
+    "relatedPointIds": ["g3-verbal-measure", "g2-yijing-le", "g1-time-position"],
+    "keywords": ["dian", "shijian", "duration", "point in time", "时段", "时间点", "how long", "until now", "多久"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,238 @@
+@pack | education | Education & Study | 学习与校园 | 🎓 | lifestyle | Classroom life, stationery, exams, degrees, language learning, and books.
+书 | book | 我桌子上有一本书。 | There is a book on my desk.
+老师 | teacher | 我们的老师很年轻。 | Our teacher is very young.
+学生 | student | 这个班有二十个学生。 | This class has twenty students.
+学校 | school | 我的学校离家很近。 | My school is close to home.
+同学 | classmate | 他是我的同学。 | He is my classmate.
+学习 | to study; to learn | 我每天晚上学习汉语。 | I study Chinese every evening.
+上课 | to attend class; to teach a class | 我们八点上课。 | We start class at eight.
+下课 | class is over; to finish class | 下课以后我们去吃饭。 | After class we go to eat.
+教室 | classroom | 教室里有很多桌子。 | There are many desks in the classroom.
+课本 | textbook | 请打开你的课本。 | Please open your textbook.
+本子 | notebook | 我买了两个新本子。 | I bought two new notebooks.
+笔 | pen; writing instrument | 你有笔吗？ | Do you have a pen?
+铅笔 | pencil | 他用铅笔写字。 | He writes with a pencil.
+钢笔 | fountain pen | 爷爷喜欢用钢笔写信。 | Grandpa likes writing letters with a fountain pen.
+圆珠笔 | ballpoint pen | 这支圆珠笔很好写。 | This ballpoint pen writes smoothly.
+橡皮 | eraser | 我的橡皮不见了。 | My eraser is missing.
+尺子 | ruler | 请用尺子画一条线。 | Please draw a line with a ruler.
+书包 | school bag | 他的书包很重。 | His school bag is very heavy.
+黑板 | blackboard | 老师在黑板上写字。 | The teacher writes on the blackboard.
+白板 | whiteboard | 她在白板上画了一张图。 | She drew a diagram on the whiteboard.
+粉笔 | chalk | 粉笔用完了。 | The chalk has run out.
+桌子 | desk; table | 教室里有三十张桌子。 | There are thirty desks in the classroom.
+椅子 | chair | 请坐在椅子上。 | Please sit on the chair.
+大学 | university | 她在北京上大学。 | She goes to university in Beijing.
+中学 | middle school; secondary school | 我弟弟在读中学。 | My younger brother is in middle school.
+小学 | primary school | 小学离我家很近。 | The primary school is near my home.
+幼儿园 | kindergarten | 妹妹每天去幼儿园。 | My little sister goes to kindergarten every day.
+初中 | junior high school | 他明年上初中。 | He will start junior high school next year.
+高中 | senior high school | 高中的功课很多。 | Senior high school has a lot of homework.
+图书馆 | library | 我常去图书馆看书。 | I often go to the library to read.
+操场 | playground; sports field | 学生们在操场上跑步。 | The students run on the sports field.
+食堂 | canteen | 学校食堂的饭很便宜。 | The school canteen food is cheap.
+宿舍 | dormitory | 我们四个人住一间宿舍。 | Four of us live in one dormitory room.
+校园 | campus | 这所大学的校园很漂亮。 | The campus of this university is beautiful.
+校长 | principal; president of a school | 校长在会上讲话。 | The principal spoke at the meeting.
+班主任 | class teacher; homeroom teacher | 我们的班主任很严格。 | Our homeroom teacher is very strict.
+教授 | professor | 他是一位有名的教授。 | He is a famous professor.
+班 | class (group of students) | 我们班有二十五个人。 | Our class has twenty-five people.
+年级 | grade; school year | 他是三年级的学生。 | He is a third-grade student.
+课 | lesson; class | 今天有三节课。 | There are three classes today.
+课程 | course; curriculum | 这门课程很有意思。 | This course is very interesting.
+课表 | timetable; class schedule | 我把课表贴在墙上。 | I pasted the class schedule on the wall.
+作业 | homework | 我还没写完作业。 | I haven't finished my homework yet.
+考试 | exam; to take an exam | 明天有一场考试。 | There is an exam tomorrow.
+成绩 | grades; results | 他的成绩进步了。 | His grades have improved.
+学期 | semester; term | 新学期九月开始。 | The new semester starts in September.
+假期 | holiday; vacation | 暑假是最长的假期。 | The summer break is the longest holiday.
+暑假 | summer vacation | 暑假我想去旅行。 | I want to travel during the summer vacation.
+寒假 | winter vacation | 寒假我回老家过年。 | In winter vacation I go home for the New Year.
+练习 | exercise; to practice | 每天练习写字很有用。 | Practicing writing every day is useful.
+复习 | to review | 考试前要好好复习。 | You should review well before the exam.
+预习 | to preview lessons | 上课前我先预习课文。 | Before class I preview the text first.
+问题 | question; problem | 我可以问一个问题吗？ | May I ask a question?
+答案 | answer | 这道题的答案是什么？ | What is the answer to this question?
+回答 | to answer; reply | 请回答老师的问题。 | Please answer the teacher's question.
+提问 | to ask a question | 有不懂的地方可以随时提问。 | If you don't understand, you can ask at any time.
+毕业 | to graduate | 他去年大学毕业了。 | He graduated from university last year.
+生词 | new word | 我每天记十个生词。 | I memorize ten new words every day.
+语法 | grammar | 汉语语法并不难。 | Chinese grammar is not that hard.
+发音 | pronunciation | 她的发音非常标准。 | Her pronunciation is very standard.
+字典 | dictionary (of characters) | 我不认识这个字，就查字典。 | I don't know this character, so I look it up in a dictionary.
+词典 | dictionary (of words) | 这本词典有很多例句。 | This dictionary has many example sentences.
+汉字 | Chinese character | 写汉字需要很多耐心。 | Writing Chinese characters takes a lot of patience.
+拼音 | pinyin | 先学拼音，再学汉字。 | Learn pinyin first, then characters.
+笔画 | stroke (of a character) | 这个字有八个笔画。 | This character has eight strokes.
+课文 | text of a lesson | 老师让我们朗读课文。 | The teacher asked us to read the text aloud.
+句子 | sentence | 请用这个词造一个句子。 | Please make a sentence with this word.
+词语 | word; phrase | 这个词语的意思是什么？ | What does this word mean?
+单词 | vocabulary word | 我在背英语单词。 | I am memorizing English words.
+外语 | foreign language | 他会说三门外语。 | He can speak three foreign languages.
+母语 | mother tongue | 我的母语是德语。 | My mother tongue is German.
+汉语 | Chinese language | 她的汉语说得很好。 | She speaks Chinese very well.
+英语 | English language | 英语是一门重要的语言。 | English is an important language.
+翻译 | to translate; translation | 请把这句话翻译成英文。 | Please translate this sentence into English.
+听力 | listening comprehension | 我的听力需要提高。 | My listening needs to improve.
+口语 | spoken language | 她的口语很流利。 | Her spoken language is very fluent.
+阅读 | reading; to read | 阅读能帮助我们学新词。 | Reading helps us learn new words.
+写作 | writing; composition | 他的写作水平很高。 | His writing level is high.
+作文 | composition; essay | 老师让我们写一篇作文。 | The teacher asked us to write an essay.
+朗读 | to read aloud | 她大声朗读课文。 | She reads the text aloud.
+背 | to recite; to memorize | 我要背这首诗。 | I have to recite this poem.
+记 | to remember; to note down | 请把这个电话号码记下来。 | Please note down this phone number.
+记忆 | memory | 他的记忆力很好。 | He has a good memory.
+理解 | to understand; comprehension | 我完全理解你的意思。 | I fully understand what you mean.
+懂 | to understand | 老师讲的我都懂了。 | I understood everything the teacher said.
+明白 | to understand; clear | 你明白这道题了吗？ | Do you understand this problem now?
+知识 | knowledge | 读书能增加知识。 | Reading increases knowledge.
+教育 | education | 教育对孩子很重要。 | Education is very important for children.
+教 | to teach | 王老师教我们数学。 | Teacher Wang teaches us math.
+学 | to learn | 我想学弹钢琴。 | I want to learn to play piano.
+数学 | mathematics | 他最喜欢数学。 | He likes math best.
+语文 | Chinese (school subject) | 语文课上我们学习古诗。 | In Chinese class we study ancient poems.
+科学 | science | 科学课很有趣。 | Science class is interesting.
+物理 | physics | 物理考试很难。 | The physics exam is hard.
+化学 | chemistry | 化学实验要注意安全。 | Chemistry experiments require safety.
+生物 | biology | 生物课上我们看显微镜。 | In biology class we look through microscopes.
+历史 | history | 他对历史很感兴趣。 | He is very interested in history.
+地理 | geography | 地理老师给我们看了地图。 | The geography teacher showed us a map.
+美术 | fine arts; art class | 她喜欢上美术课。 | She likes art class.
+体育 | physical education; sports | 体育课在操场上进行。 | PE class takes place on the sports field.
+政治 | politics (school subject) | 政治课讲社会和法律。 | Politics class covers society and law.
+文学 | literature | 她在大学学中国文学。 | She studies Chinese literature at university.
+哲学 | philosophy | 哲学让人学会思考。 | Philosophy teaches people to think.
+经济学 | economics | 他主修经济学。 | He majors in economics.
+计算机 | computer (science) | 他在大学学计算机。 | He studies computer science at university.
+专业 | major; specialty | 你的专业是什么？ | What is your major?
+主修 | to major in | 她主修法律。 | She majors in law.
+学科 | academic subject; discipline | 数学是一门基础学科。 | Mathematics is a basic discipline.
+基础 | foundation; basics | 学语言要先打好基础。 | In learning a language you must lay a good foundation first.
+水平 | level; standard | 我的汉语水平还不高。 | My Chinese level is not high yet.
+分数 | score; marks | 她的数学分数最高。 | Her math score is the highest.
+满分 | full marks | 他这次考试得了满分。 | He got full marks in this exam.
+及格 | to pass (a test) | 我的物理刚好及格。 | I just passed physics.
+不及格 | to fail | 他这次考试不及格。 | He failed this exam.
+通过 | to pass; to go through | 她顺利通过了考试。 | She passed the exam smoothly.
+成功 | success; to succeed | 努力学习才会成功。 | Only hard study brings success.
+失败 | failure; to fail | 失败是成功之母。 | Failure is the mother of success.
+排名 | ranking | 他的排名是全班第三。 | His ranking is third in the class.
+第一名 | first place | 她考了全班第一名。 | She came first in her class.
+奖学金 | scholarship | 他拿到了奖学金。 | He received a scholarship.
+学费 | tuition fee | 大学的学费不便宜。 | University tuition fees aren't cheap.
+报名 | to sign up; to register | 我想报名参加汉语班。 | I want to sign up for the Chinese class.
+注册 | to register; enroll | 新生要先注册。 | New students must register first.
+入学 | to enter school | 孩子六岁入学。 | Children start school at six.
+开学 | school starts; new term begins | 九月一号开学。 | School starts on September first.
+放学 | school is over for the day | 放学后我去踢球。 | After school I go play football.
+迟到 | to be late | 我今天上课迟到了。 | I was late for class today.
+早退 | to leave early | 他因为生病早退了。 | He left early because he was sick.
+缺席 | to be absent | 昨天他缺席了一节课。 | He was absent from a class yesterday.
+请假 | to ask for leave | 我病了，想请假一天。 | I am sick and want to ask for a day off.
+出勤 | attendance | 老师每天检查出勤。 | The teacher checks attendance every day.
+点名 | roll call; to call the roll | 老师开始点名了。 | The teacher began the roll call.
+举手 | to raise one's hand | 想回答问题请举手。 | Raise your hand if you want to answer.
+发言 | to speak up; statement | 他在课上积极发言。 | He actively speaks up in class.
+讨论 | to discuss; discussion | 我们小组讨论这个问题。 | Our group discusses this problem.
+小组 | group | 老师把学生分成四个小组。 | The teacher divided the students into four groups.
+合作 | to cooperate | 同学们合作完成了项目。 | The classmates cooperated to finish the project.
+讲座 | lecture; talk | 今天下午有一个讲座。 | There is a lecture this afternoon.
+讲 | to explain; to speak | 老师慢慢讲这个语法。 | The teacher slowly explains this grammar.
+讲课 | to give a lecture | 教授在大教室讲课。 | The professor lectures in the big classroom.
+课堂 | classroom (session); class | 课堂上请保持安静。 | Please keep quiet in class.
+笔记 | notes | 我上课认真记笔记。 | I take notes carefully in class.
+抄 | to copy | 请把黑板上的字抄下来。 | Please copy the words on the blackboard.
+写字 | to write characters | 孩子们在练习写字。 | The children are practicing writing.
+作者 | author | 这本书的作者是谁？ | Who is the author of this book?
+故事书 | storybook | 孩子喜欢看故事书。 | Children like reading storybooks.
+小说 | novel | 我在读一本中国小说。 | I am reading a Chinese novel.
+诗 | poem | 老师教我们背一首古诗。 | The teacher taught us to recite an ancient poem.
+课外书 | extracurricular book | 他喜欢看各种课外书。 | He likes reading all kinds of extracurricular books.
+参考书 | reference book | 图书馆里有很多参考书。 | The library has many reference books.
+教材 | teaching material | 这套教材很适合初学者。 | This set of materials suits beginners.
+练习册 | workbook | 我做完了练习册。 | I finished the workbook.
+试卷 | exam paper | 老师正在发试卷。 | The teacher is handing out the exam papers.
+题 | question; problem (in a test) | 这道题我不会做。 | I can't do this problem.
+选择题 | multiple-choice question | 选择题比较容易。 | Multiple-choice questions are easier.
+填空 | fill in the blank | 请完成这个填空练习。 | Please complete this fill-in-the-blank exercise.
+监考 | to proctor an exam | 老师在教室里监考。 | The teacher proctors the exam in the classroom.
+考场 | exam room | 考场里非常安静。 | The exam room is very quiet.
+考生 | examinee | 考生必须带身份证。 | Examinees must bring their ID.
+高考 | college entrance exam | 高考对学生很重要。 | The college entrance exam is important to students.
+中考 | senior-high entrance exam | 中考之后他们去旅游了。 | After the high-school entrance exam they went traveling.
+期末考试 | final exam | 期末考试在一月举行。 | The final exams take place in January.
+期中考试 | midterm exam | 期中考试快到了。 | The midterm exam is coming soon.
+小测验 | quiz | 老师今天有个小测验。 | The teacher has a quiz today.
+考研 | to take the postgraduate entrance exam | 她决定明年考研。 | She decided to take the postgraduate exam next year.
+成绩单 | report card; transcript | 学期末我们拿到成绩单。 | At the end of term we get our report cards.
+证书 | certificate | 他拿到了汉语证书。 | He got a Chinese certificate.
+文凭 | diploma | 她有大学文凭。 | She has a university diploma.
+学位 | academic degree | 他拿到了硕士学位。 | He earned a master's degree.
+学士 | bachelor | 她是文学学士。 | She holds a bachelor of arts.
+硕士 | master's degree | 他在读硕士。 | He is studying for a master's degree.
+博士 | doctor; PhD | 她是物理学博士。 | She is a doctor of physics.
+本科 | undergraduate course | 他的本科专业是历史。 | His undergraduate major was history.
+研究生 | graduate student | 研究生要写毕业论文。 | Graduate students need to write a thesis.
+留学 | to study abroad | 她想去德国留学。 | She wants to study in Germany.
+留学生 | international student | 我们学校有很多留学生。 | Our school has many international students.
+交换生 | exchange student | 他是去年的交换生。 | He was an exchange student last year.
+新生 | freshman; new student | 新生下周来报到。 | The new students come to register next week.
+毕业生 | graduate | 今年的毕业生很多。 | There are many graduates this year.
+校友 | alumnus | 他是我的校友。 | He is a fellow alumnus of mine.
+毕业典礼 | graduation ceremony | 毕业典礼在六月举行。 | The graduation ceremony is held in June.
+论文 | thesis; paper | 她正在写毕业论文。 | She is writing her graduation thesis.
+研究 | research; to study | 他研究中国历史。 | He researches Chinese history.
+实验 | experiment | 我们做了一个化学实验。 | We did a chemistry experiment.
+实验室 | laboratory | 实验室里有很多仪器。 | There are many instruments in the laboratory.
+课题 | research topic; project | 这个课题很新。 | This research topic is very new.
+学术 | academic | 他发表了一篇学术文章。 | He published an academic article.
+学者 | scholar | 这位学者研究古代文学。 | This scholar studies ancient literature.
+导师 | tutor; supervisor | 我的导师给了我很多建议。 | My supervisor gave me a lot of advice.
+辅导 | to tutor; coaching | 他请老师辅导数学。 | He asked a teacher to tutor him in math.
+补习 | to take extra lessons | 周末她去补习英语。 | On weekends she takes extra English lessons.
+培训 | training | 公司为新员工提供培训。 | The company provides training for new employees.
+培训班 | training class | 我报了一个写作培训班。 | I signed up for a writing training class.
+自学 | self-study | 他靠自学学会了编程。 | He learned programming through self-study.
+网课 | online course | 疫情期间我们上网课。 | During the pandemic we took online courses.
+学习方法 | study method | 好的学习方法很重要。 | A good study method is important.
+努力 | to work hard; hard-working | 他学习非常努力。 | He studies very hard.
+认真 | serious; conscientious | 她做作业很认真。 | She does her homework conscientiously.
+聪明 | smart; clever | 这个孩子很聪明。 | This child is very smart.
+勤奋 | diligent | 勤奋的学生进步很快。 | Diligent students make fast progress.
+专心 | to concentrate | 上课要专心听讲。 | Concentrate and listen in class.
+注意 | to pay attention | 请注意听老师说话。 | Please pay attention to what the teacher says.
+集中 | to concentrate; focus | 他很难集中注意力。 | It is hard for him to concentrate.
+进步 | progress; to improve | 你的汉语进步很快。 | Your Chinese is improving quickly.
+提高 | to improve; to raise | 多读书能提高写作水平。 | Reading more can improve your writing.
+困难 | difficulty | 学汉字有一点困难。 | Learning characters has some difficulty.
+容易 | easy | 这道题很容易。 | This question is very easy.
+难 | difficult | 这篇课文有点儿难。 | This text is a bit difficult.
+错误 | mistake; error | 请改正这个错误。 | Please correct this mistake.
+改 | to correct; to change | 老师在改作业。 | The teacher is grading homework.
+批评 | to criticize | 老师批评他不认真。 | The teacher criticized him for not being serious.
+表扬 | to praise | 老师表扬了她的作文。 | The teacher praised her essay.
+鼓励 | to encourage | 老师常常鼓励我们。 | The teacher often encourages us.
+奖 | prize; award | 他得了作文比赛的奖。 | He won a prize in the essay contest.
+演讲 | speech; to give a speech | 她在班上做了一个演讲。 | She gave a speech in class.
+社团 | student club; society | 我参加了摄影社团。 | I joined the photography club.
+课外活动 | extracurricular activity | 我喜欢参加课外活动。 | I like taking part in extracurricular activities.
+校服 | school uniform | 学生们都穿校服。 | The students all wear school uniforms.
+校规 | school rules | 同学们要遵守校规。 | Students must follow the school rules.
+铃声 | bell sound | 铃声一响，我们就进教室。 | When the bell rings, we go into the classroom.
+课间 | break between classes | 课间我们在走廊聊天。 | During the break we chat in the corridor.
+午休 | lunch break | 中午有一个小时的午休。 | There is a one-hour lunch break at noon.
+家长 | parent; guardian | 明天家长要来学校。 | Tomorrow the parents will come to school.
+家长会 | parent-teacher meeting | 妈妈去参加家长会。 | Mom is attending the parent-teacher meeting.
+家教 | private tutor | 他给小学生当家教。 | He works as a private tutor for primary pupils.
+文具 | stationery | 文具店里有很多笔。 | The stationery shop has many pens.
+文具盒 | pencil case | 我的文具盒里有三支笔。 | There are three pens in my pencil case.
+剪刀 | scissors | 请用剪刀剪这张纸。 | Please cut this paper with scissors.
+胶水 | glue | 做手工需要胶水。 | You need glue for crafts.
+订书机 | stapler | 请用订书机订在一起。 | Please staple them together with the stapler.
+荧光笔 | highlighter | 我用荧光笔标出重点。 | I mark key points with a highlighter.
+圆规 | compass (drawing) | 画圆要用圆规。 | You need a compass to draw a circle.
+计算器 | calculator | 考试时不能用计算器。 | You can't use a calculator in the exam.
+黑板擦 | blackboard eraser | 值日生用黑板擦擦黑板。 | The duty student wipes the board with the eraser.
+值日 | on duty (cleaning) | 今天轮到我值日。 | Today it is my turn to be on duty.
+投影仪 | projector | 老师用投影仪放图片。 | The teacher shows pictures with a projector.
+多媒体 | multimedia | 教室里有多媒体设备。 | The classroom has multimedia equipment.

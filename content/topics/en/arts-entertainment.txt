@@ -1,0 +1,186 @@
+@topic | Arts & Entertainment | 🎭
+art | /ɑːrt/ | 艺术; 美术 | She studies art at a famous college. | 她在一所著名的学院学习艺术。 | 1
+music | /ˈmjuːzɪk/ | 音乐 | I listen to music on the bus. | 我在公交车上听音乐。 | 1
+song | /sɔːŋ/ | 歌曲 | This song is very famous. | 这首歌非常有名。 | 1
+sing | /sɪŋ/ | 唱歌 | She likes to sing in the shower. | 她喜欢在淋浴时唱歌。 | 1
+dance | /dæns/ | 跳舞; 舞蹈 | They dance together at every party. | 他们在每次聚会上一起跳舞。 | 1
+film | /fɪlm/ | 电影 | We watched a funny film last night. | 我们昨晚看了一部有趣的电影。 | 1
+movie | /ˈmuːvi/ | 电影 | Let's go to the movies tonight. | 今晚我们去看电影吧。 | 1
+picture | /ˈpɪktʃər/ | 图画; 照片 | He drew a picture of his house. | 他画了一幅他家房子的画。 | 1
+paint | /peɪnt/ | 绘画; 颜料 | She likes to paint flowers. | 她喜欢画花。 | 1
+draw | /drɔː/ | 画（线条画） | The children draw animals in class. | 孩子们在课上画动物。 | 1
+piano | /piˈænoʊ/ | 钢琴 | He plays the piano very well. | 他钢琴弹得很好。 | 1
+guitar | /ɡɪˈtɑːr/ | 吉他 | My brother plays the guitar in a band. | 我哥哥在乐队里弹吉他。 | 1
+band | /bænd/ | 乐队 | The band played until midnight. | 乐队一直演奏到半夜。 | 1
+show | /ʃoʊ/ | 演出; 节目 | We saw a great show in London. | 我们在伦敦看了一场精彩的演出。 | 1
+TV | /ˌtiː ˈviː/ | 电视 | There is nothing good on TV tonight. | 今晚电视上没什么好看的。 | 1
+cinema | /ˈsɪnəmə/ | 电影院 | The new cinema has six screens. | 新电影院有六个放映厅。 | 2
+theater | /ˈθiːətər/ | 剧院 | We went to the theater on Friday. | 我们星期五去了剧院。 | 2
+concert | /ˈkɑːnsərt/ | 音乐会 | The concert starts at eight. | 音乐会八点开始。 | 2
+ticket | /ˈtɪkɪt/ | 票 | I bought two tickets for the play. | 我给这出戏买了两张票。 | 2
+museum | /mjuˈziːəm/ | 博物馆 | The museum is free on Sundays. | 博物馆星期天免费。 | 2
+gallery | /ˈɡæləri/ | 美术馆; 画廊 | The gallery shows modern paintings. | 这家美术馆展出现代绘画。 | 2
+painting | /ˈpeɪntɪŋ/ | 绘画作品; 油画 | This painting is over three hundred years old. | 这幅画有三百多年历史了。 | 2
+artist | /ˈɑːrtɪst/ | 艺术家; 画家 | The artist painted her portrait. | 这位艺术家画了她的肖像。 | 2
+singer | /ˈsɪŋər/ | 歌手 | She is a famous singer in China. | 她是中国一位著名歌手。 | 2
+actor | /ˈæktər/ | 男演员; 演员 | The actor won a big prize. | 这位演员获得了一个大奖。 | 2
+actress | /ˈæktrəs/ | 女演员 | The actress played a queen in the film. | 这位女演员在电影中扮演女王。 | 2
+star | /stɑːr/ | 明星 | He became a movie star at twenty. | 他二十岁就成了电影明星。 | 2
+musician | /mjuˈzɪʃn/ | 音乐家 | The street musician played the violin. | 街头音乐家拉着小提琴。 | 2
+violin | /ˌvaɪəˈlɪn/ | 小提琴 | She started learning the violin at six. | 她六岁开始学小提琴。 | 2
+drum | /drʌm/ | 鼓 | He plays the drums in a rock band. | 他在一支摇滚乐队里打鼓。 | 2
+instrument | /ˈɪnstrəmənt/ | 乐器 | Can you play a musical instrument? | 你会演奏乐器吗？ | 2
+pop | /pɑːp/ | 流行音乐 | She only listens to pop. | 她只听流行音乐。 | 2
+rock | /rɑːk/ | 摇滚乐 | My father loves old rock music. | 我父亲喜欢老摇滚乐。 | 2
+jazz | /dʒæz/ | 爵士乐 | They played jazz in the small club. | 他们在小俱乐部里演奏爵士乐。 | 2
+classical | /ˈklæsɪkl/ | 古典的 | I love classical music in the evening. | 我喜欢在晚上听古典音乐。 | 2
+comedy | /ˈkɑːmədi/ | 喜剧 | We watched a comedy to cheer up. | 我们看了一部喜剧来开心一下。 | 2
+drama | /ˈdrɑːmə/ | 戏剧; 剧集 | She loves watching Korean drama. | 她喜欢看韩剧。 | 2
+cartoon | /kɑːrˈtuːn/ | 卡通; 动画片 | Children love watching cartoons. | 孩子们爱看动画片。 | 2
+programme | /ˈproʊɡræm/ | 节目 | My favorite programme is on at nine. | 我最喜欢的节目九点播出。 | 2
+channel | /ˈtʃænl/ | 频道 | Which channel is the news on? | 新闻在哪个频道？ | 2
+news | /nuːz/ | 新闻 | I watch the news before dinner. | 我晚饭前看新闻。 | 2
+photo | /ˈfoʊtoʊ/ | 照片 | She took a photo of the sunset. | 她拍了一张日落的照片。 | 2
+camera | /ˈkæmərə/ | 照相机; 摄像机 | He bought a new camera for the trip. | 他为旅行买了一台新相机。 | 2
+poem | /ˈpoʊəm/ | 诗 | She wrote a poem about spring. | 她写了一首关于春天的诗。 | 2
+novel | /ˈnɑːvl/ | 小说 | I am reading a long novel. | 我正在读一本长篇小说。 | 2
+story | /ˈstɔːri/ | 故事 | Grandma told us a story. | 奶奶给我们讲了一个故事。 | 2
+writer | /ˈraɪtər/ | 作家 | The writer lives in a small village. | 这位作家住在一个小村庄里。 | 2
+character | /ˈkærəktər/ | 角色; 人物 | My favorite character dies in the end. | 我最喜欢的角色最后死了。 | 2
+audience | /ˈɔːdiəns/ | 观众 | The audience clapped for five minutes. | 观众鼓掌了五分钟。 | 3
+stage | /steɪdʒ/ | 舞台 | The singer walked onto the stage. | 歌手走上了舞台。 | 3
+perform | /pərˈfɔːrm/ | 表演; 演出 | The students will perform a play. | 学生们将演出一出戏。 | 3
+performance | /pərˈfɔːrməns/ | 表演; 演出 | The performance lasted two hours. | 这场演出持续了两个小时。 | 3
+play | /pleɪ/ | 戏剧; 话剧 | We saw a play by Shakespeare. | 我们看了一部莎士比亚的戏剧。 | 3
+musical | /ˈmjuːzɪkl/ | 音乐剧 | The musical was full of great songs. | 这部音乐剧里满是好听的歌。 | 3
+opera | /ˈɑːprə/ | 歌剧 | They went to the opera in Vienna. | 他们在维也纳看了歌剧。 | 3
+orchestra | /ˈɔːrkɪstrə/ | 管弦乐队 | The orchestra has eighty players. | 这个管弦乐队有八十名乐手。 | 3
+choir | /ˈkwaɪər/ | 合唱团 | She sings in the church choir. | 她在教堂合唱团里唱歌。 | 3
+conductor | /kənˈdʌktər/ | 指挥 | The conductor raised his arms. | 指挥举起了双臂。 | 3
+composer | /kəmˈpoʊzər/ | 作曲家 | Mozart was a great composer. | 莫扎特是一位伟大的作曲家。 | 3
+compose | /kəmˈpoʊz/ | 作曲 | He composed a song for his wife. | 他为妻子谱了一首曲子。 | 3
+lyrics | /ˈlɪrɪks/ | 歌词 | I know all the lyrics of this song. | 我知道这首歌的全部歌词。 | 3
+melody | /ˈmelədi/ | 旋律 | The melody is easy to remember. | 这个旋律很容易记住。 | 3
+rhythm | /ˈrɪðəm/ | 节奏 | Dance to the rhythm of the music. | 随着音乐的节奏跳舞。 | 3
+album | /ˈælbəm/ | 专辑 | Her new album comes out in May. | 她的新专辑五月发行。 | 3
+record | /rɪˈkɔːrd/ | 录制; 录音 | They record their songs at home. | 他们在家录制歌曲。 | 3
+single | /ˈsɪŋɡl/ | 单曲 | The band released a new single. | 乐队发行了一首新单曲。 | 3
+hit | /hɪt/ | 热门作品; 大热 | The song was a huge hit. | 这首歌大获成功。 | 3
+festival | /ˈfestɪvl/ | 艺术节; 节日 | The music festival lasts three days. | 音乐节持续三天。 | 3
+exhibition | /ˌeksɪˈbɪʃn/ | 展览 | We visited an exhibition of old maps. | 我们参观了一个古地图展览。 | 3
+exhibit | /ɪɡˈzɪbɪt/ | 展品; 展出 | The best exhibit was a golden mask. | 最好的展品是一个金面具。 | 3
+sculpture | /ˈskʌlptʃər/ | 雕塑 | The sculpture stands in the town square. | 这座雕塑矗立在镇广场上。 | 3
+statue | /ˈstætʃuː/ | 雕像 | A bronze statue stood in the garden. | 花园里立着一座铜像。 | 3
+portrait | /ˈpɔːrtrət/ | 肖像 | The portrait shows a young woman. | 这幅肖像画的是一位年轻女子。 | 3
+landscape | /ˈlændskeɪp/ | 风景画; 风景 | He paints landscapes of the mountains. | 他画山区的风景画。 | 3
+sketch | /sketʃ/ | 素描; 草图 | She made a quick sketch of the bridge. | 她给那座桥画了一幅速写。 | 3
+canvas | /ˈkænvəs/ | 画布 | The artist stretched a new canvas. | 艺术家绷好了一块新画布。 | 3
+brush | /brʌʃ/ | 画笔; 刷子 | Use a thin brush for small details. | 用细画笔画小细节。 | 3
+colour | /ˈkʌlər/ | 颜色 | Red is the main colour of the painting. | 红色是这幅画的主色。 | 3
+director | /dəˈrektər/ | 导演 | The director spent years on this film. | 导演在这部电影上花了好几年。 | 3
+producer | /prəˈduːsər/ | 制片人; 制作人 | The producer found money for the film. | 制片人为这部电影找到了资金。 | 3
+scene | /siːn/ | 场景; 一场戏 | The final scene made everyone cry. | 最后一场戏让所有人都哭了。 | 3
+role | /roʊl/ | 角色 | She played the main role in the play. | 她在剧中扮演主角。 | 3
+cast | /kæst/ | 演员阵容; 选角 | The cast includes several famous actors. | 演员阵容中有几位著名演员。 | 3
+plot | /plɑːt/ | 情节 | The plot of the film is simple. | 这部电影的情节很简单。 | 3
+hero | /ˈhɪroʊ/ | 英雄; 男主角 | The hero saves the village at the end. | 男主角最后拯救了村庄。 | 3
+villain | /ˈvɪlən/ | 反派 | The villain was played by a famous actor. | 反派由一位著名演员扮演。 | 3
+script | /skrɪpt/ | 剧本 | The script was written in only a week. | 剧本只用了一周就写好了。 | 3
+screen | /skriːn/ | 银幕; 屏幕 | The film was shown on a huge screen. | 这部电影在一块巨大的银幕上放映。 | 3
+subtitle | /ˈsʌbtaɪtl/ | 字幕 | I watch foreign films with subtitles. | 我看外国电影时带字幕。 | 3
+trailer | /ˈtreɪlər/ | 预告片 | The trailer made me want to see the film. | 预告片让我想去看这部电影。 | 3
+horror | /ˈhɔːrər/ | 恐怖片; 恐怖 | I never watch horror films at night. | 我晚上从不看恐怖片。 | 3
+thriller | /ˈθrɪlər/ | 惊悚片 | The thriller kept me awake all night. | 这部惊悚片让我整夜没睡。 | 3
+documentary | /ˌdɑːkjuˈmentri/ | 纪录片 | I watched a documentary about the ocean. | 我看了一部关于海洋的纪录片。 | 3
+animation | /ˌænɪˈmeɪʃn/ | 动画 | The animation was made by a small studio. | 这部动画由一家小工作室制作。 | 3
+series | /ˈsɪriːz/ | 连续剧; 系列 | Have you seen the new series? | 你看过那部新剧吗？ | 3
+episode | /ˈepɪsoʊd/ | 一集 | The last episode was the best. | 最后一集是最好的。 | 3
+presenter | /prɪˈzentər/ | 节目主持人 | The presenter welcomed the guests. | 主持人欢迎了来宾。 | 3
+host | /hoʊst/ | 主持; 主持人 | He will host the evening show. | 他将主持晚间节目。 | 3
+broadcast | /ˈbrɔːdkæst/ | 广播; 播出 | The match will be broadcast live. | 这场比赛将现场直播。 | 3
+celebrity | /səˈlebrəti/ | 名人 | The celebrity signed autographs for fans. | 这位名人为粉丝签名。 | 3
+fame | /feɪm/ | 名声; 名气 | Fame came to him very late in life. | 他很晚才成名。 | 3
+fashion | /ˈfæʃn/ | 时尚 | She works in the fashion industry. | 她在时尚行业工作。 | 3
+photograph | /ˈfoʊtəɡræf/ | 照片; 拍摄 | He took a photograph of the old church. | 他拍了一张老教堂的照片。 | 3
+photographer | /fəˈtɑːɡrəfər/ | 摄影师 | The photographer asked us to smile. | 摄影师叫我们笑一笑。 | 3
+entertain | /ˌentərˈteɪn/ | 娱乐; 使欢乐 | The clown entertained the children. | 小丑逗乐了孩子们。 | 3
+entertainment | /ˌentərˈteɪnmənt/ | 娱乐 | There is live entertainment every night. | 每晚都有现场娱乐节目。 | 3
+amusing | /əˈmjuːzɪŋ/ | 有趣的 | It was an amusing little story. | 那是一个有趣的小故事。 | 3
+clap | /klæp/ | 鼓掌 | Everyone began to clap at the end. | 结束时大家都开始鼓掌。 | 3
+applause | /əˈplɔːz/ | 掌声 | The applause went on for minutes. | 掌声持续了好几分钟。 | 3
+encore | /ˈɑːŋkɔːr/ | 加演; 安可 | The crowd shouted for an encore. | 人群喊着要求加演。 | 4
+rehearsal | /rɪˈhɜːrsl/ | 排练 | The rehearsal ran late into the night. | 排练一直持续到深夜。 | 4
+rehearse | /rɪˈhɜːrs/ | 排练 | The actors rehearse every afternoon. | 演员们每天下午排练。 | 4
+premiere | /prɪˈmɪr/ | 首映; 首演 | The premiere took place in Paris. | 首映式在巴黎举行。 | 4
+box office | /ˈbɑːks ɑːfɪs/ | 票房; 售票处 | The film was a big box office success. | 这部电影票房大获成功。 | 4
+blockbuster | /ˈblɑːkbʌstər/ | 大片 | The summer blockbuster earned a billion dollars. | 这部暑期大片收入了十亿美元。 | 4
+sequel | /ˈsiːkwəl/ | 续集 | The sequel was not as good as the first. | 续集没有第一部好。 | 4
+genre | /ˈʒɑːnrə/ | 类型; 体裁 | What genre of music do you like? | 你喜欢哪种类型的音乐？ | 4
+review | /rɪˈvjuː/ | 评论; 影评 | The film got excellent reviews. | 这部电影获得了极好的评价。 | 4
+critic | /ˈkrɪtɪk/ | 评论家 | The critic praised the young actor. | 评论家称赞了这位年轻演员。 | 4
+masterpiece | /ˈmæstərpiːs/ | 杰作 | The novel is regarded as a masterpiece. | 这部小说被视为杰作。 | 4
+creative | /kriˈeɪtɪv/ | 有创意的 | Her paintings are very creative. | 她的画作很有创意。 | 4
+imagination | /ɪˌmædʒɪˈneɪʃn/ | 想象力 | Children have a rich imagination. | 孩子们想象力丰富。 | 4
+inspire | /ɪnˈspaɪər/ | 激发灵感; 鼓舞 | Nature inspires many poets. | 大自然启发了许多诗人。 | 4
+inspiration | /ˌɪnspəˈreɪʃn/ | 灵感 | The sea gave him inspiration for his song. | 大海给了他创作歌曲的灵感。 | 4
+talent | /ˈtælənt/ | 才能; 天赋 | The girl has a great talent for music. | 这个女孩有很高的音乐天赋。 | 4
+gifted | /ˈɡɪftɪd/ | 有天赋的 | He is a gifted young pianist. | 他是一位有天赋的年轻钢琴家。 | 4
+talented | /ˈtæləntɪd/ | 有才华的 | She is a talented dancer. | 她是一位有才华的舞者。 | 4
+artwork | /ˈɑːrtwɜːrk/ | 艺术品; 美术作品 | The students displayed their artwork. | 学生们展出了他们的美术作品。 | 4
+collection | /kəˈlekʃn/ | 藏品; 系列 | The museum holds a huge collection of coins. | 博物馆收藏了大量硬币。 | 4
+curator | /kjʊˈreɪtər/ | 策展人; 馆长 | The curator explained each painting. | 策展人讲解了每一幅画。 | 4
+auction | /ˈɔːkʃn/ | 拍卖 | The painting was sold at auction. | 这幅画在拍卖会上售出。 | 4
+craft | /kræft/ | 手工艺 | She learned the craft of pottery. | 她学习了制陶工艺。 | 4
+pottery | /ˈpɑːtəri/ | 陶器; 制陶 | The shop sells handmade pottery. | 这家店出售手工陶器。 | 4
+ceramic | /səˈræmɪk/ | 陶瓷的 | He collects old ceramic bowls. | 他收集旧的陶瓷碗。 | 4
+sculptor | /ˈskʌlptər/ | 雕塑家 | The sculptor worked with marble. | 雕塑家用大理石创作。 | 4
+architecture | /ˈɑːrkɪtektʃər/ | 建筑艺术 | I love the architecture of old cathedrals. | 我喜爱古老大教堂的建筑风格。 | 4
+mural | /ˈmjʊrəl/ | 壁画 | A colourful mural covers the school wall. | 一幅色彩丰富的壁画覆盖着学校的墙。 | 4
+graffiti | /ɡrəˈfiːti/ | 涂鸦 | The wall was covered in graffiti. | 墙上满是涂鸦。 | 4
+poetry | /ˈpoʊətri/ | 诗歌 | She reads poetry before bed. | 她睡前读诗。 | 4
+poet | /ˈpoʊət/ | 诗人 | The poet read his work aloud. | 诗人大声朗读了他的作品。 | 4
+author | /ˈɔːθər/ | 作者 | The author signed copies of her book. | 作者在她的书上签了名。 | 4
+fiction | /ˈfɪkʃn/ | 小说; 虚构作品 | He mostly reads science fiction. | 他主要读科幻小说。 | 4
+bestseller | /ˌbestˈselər/ | 畅销书 | Her first novel became a bestseller. | 她的第一部小说成了畅销书。 | 4
+literature | /ˈlɪtrətʃər/ | 文学 | She studies English literature at university. | 她在大学学习英国文学。 | 4
+chorus | /ˈkɔːrəs/ | 副歌; 合唱 | Everyone sang the chorus together. | 大家一起唱副歌。 | 4
+verse | /vɜːrs/ | 诗节; 歌曲的段落 | The first verse is very sad. | 第一段非常伤感。 | 4
+tune | /tuːn/ | 曲调 | I can't get that tune out of my head. | 我脑子里总是那首曲调挥之不去。 | 4
+soundtrack | /ˈsaʊndtræk/ | 电影原声 | The soundtrack won an award. | 这部电影的原声获了奖。 | 4
+vocal | /ˈvoʊkl/ | 人声的; 唱的 | Her vocal range is impressive. | 她的音域令人印象深刻。 | 4
+acoustic | /əˈkuːstɪk/ | 原声的; 声学的 | He played an acoustic guitar set. | 他演奏了一套原声吉他曲目。 | 4
+amplifier | /ˈæmplɪfaɪər/ | 扩音器 | The amplifier was too loud. | 扩音器太响了。 | 4
+saxophone | /ˈsæksəfoʊn/ | 萨克斯管 | He plays the saxophone in a jazz club. | 他在爵士俱乐部吹萨克斯。 | 4
+trumpet | /ˈtrʌmpɪt/ | 小号 | The trumpet sounded at dawn. | 小号在黎明时响起。 | 4
+flute | /fluːt/ | 长笛 | She plays the flute in the school orchestra. | 她在学校管弦乐队吹长笛。 | 4
+cello | /ˈtʃeloʊ/ | 大提琴 | The cello has a deep, warm sound. | 大提琴的声音深沉温暖。 | 5
+symphony | /ˈsɪmfəni/ | 交响乐 | Beethoven wrote nine symphonies. | 贝多芬写了九部交响曲。 | 5
+concerto | /kənˈtʃɜːrtoʊ/ | 协奏曲 | She played a piano concerto by Chopin. | 她演奏了肖邦的一首钢琴协奏曲。 | 5
+ballet | /bæˈleɪ/ | 芭蕾舞 | She danced in a ballet at the age of ten. | 她十岁时就跳过芭蕾舞剧。 | 5
+choreography | /ˌkɔːriˈɑːɡrəfi/ | 编舞 | The choreography was full of energy. | 这段编舞充满活力。 | 5
+rave | /reɪv/ | 狂热的好评; 电音派对 | The show got rave reviews. | 这场演出获得了热烈好评。 | 5
+cameo | /ˈkæmioʊ/ | 客串 | The director made a cameo in his own film. | 导演在自己的电影里客串了一角。 | 5
+stunt | /stʌnt/ | 特技 | He did all of his own stunts. | 他所有的特技动作都亲自完成。 | 5
+special effects | /ˌspeʃl ɪˈfekts/ | 特效 | The special effects were amazing. | 特效棒极了。 | 5
+dubbing | /ˈdʌbɪŋ/ | 配音 | Dubbing can change a film's mood. | 配音可以改变一部电影的气氛。 | 5
+adaptation | /ˌædæpˈteɪʃn/ | 改编作品 | The film is an adaptation of a famous novel. | 这部电影改编自一部著名小说。 | 5
+screenplay | /ˈskriːnpleɪ/ | 电影剧本 | He wrote the screenplay in six weeks. | 他用六周写完了电影剧本。 | 5
+cinematography | /ˌsɪnəməˈtɑːɡrəfi/ | 电影摄影 | The cinematography won an Oscar. | 这部电影的摄影赢得了奥斯卡奖。 | 6
+ensemble | /ɑːnˈsɑːmbl/ | 合奏团; 群戏阵容 | The film has a strong ensemble cast. | 这部电影有强大的群像演员阵容。 | 6
+monologue | /ˈmɑːnəlɔːɡ/ | 独白 | His monologue moved the audience. | 他的独白打动了观众。 | 5
+improvise | /ˈɪmprəvaɪz/ | 即兴表演 | Jazz players often improvise solos. | 爵士乐手常常即兴独奏。 | 5
+abstract | /ˈæbstrækt/ | 抽象的 | He prefers abstract art. | 他更喜欢抽象艺术。 | 5
+impressionism | /ɪmˈpreʃənɪzəm/ | 印象派 | Monet is a leading figure of impressionism. | 莫奈是印象派的代表人物。 | 6
+surreal | /səˈriːəl/ | 超现实的 | The film has a surreal, dreamlike mood. | 这部电影有一种超现实的梦幻气氛。 | 6
+aesthetic | /esˈθetɪk/ | 美学的; 审美的 | The room has a simple aesthetic. | 这个房间有简约的美学风格。 | 6
+avant-garde | /ˌævɑːnt ˈɡɑːrd/ | 前卫的 | The theater is known for avant-garde plays. | 这家剧院以前卫戏剧闻名。 | 6
+juxtapose | /ˈdʒʌkstəpoʊz/ | 并置; 并列对照 | The artist likes to juxtapose old and new images. | 这位艺术家喜欢把新旧图像并置。 | 6
+acclaimed | /əˈkleɪmd/ | 广受好评的 | The acclaimed director won a new prize. | 这位广受赞誉的导演又获得了新奖项。 | 5
+gripping | /ˈɡrɪpɪŋ/ | 引人入胜的 | It was a gripping, fast-moving story. | 这是一个引人入胜、节奏很快的故事。 | 5
+moving | /ˈmuːvɪŋ/ | 感人的 | The film was deeply moving. | 这部电影非常感人。 | 4
+thought-provoking | /ˈθɔːt prəˌvoʊkɪŋ/ | 发人深思的 | It is a thought-provoking documentary. | 这是一部发人深思的纪录片。 | 5
+overrated | /ˌoʊvərˈreɪtɪd/ | 被高估的 | Many critics found the film overrated. | 许多评论家认为这部电影被高估了。 | 5
+tedious | /ˈtiːdiəs/ | 乏味的 | The film was long and tedious. | 这部电影又长又乏味。 | 5
+hilarious | /hɪˈleriəs/ | 非常搞笑的 | The comedy was absolutely hilarious. | 这部喜剧真是搞笑极了。 | 4
+spectacular | /spekˈtækjələr/ | 壮观的; 精彩的 | The fireworks show was spectacular. | 烟火表演十分壮观。 | 4
+captivate | /ˈkæptɪveɪt/ | 吸引; 迷住 | The story will captivate young readers. | 这个故事会吸引年轻读者。 | 6

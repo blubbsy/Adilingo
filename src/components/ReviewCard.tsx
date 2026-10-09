@@ -306,7 +306,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
   useEffect(() => {
     if (prompt === 'audio') {
       // Uses the live saved speed (read inside speak) so changing speed does not re-trigger autoplay.
-      speechRef.current.speak(item.hanzi);
+      speechRef.current.speak(item.speakAs ?? item.hanzi);
     }
   }, [prompt, item.id, item.hanzi, direction]);
 
@@ -416,7 +416,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
         e.preventDefault();
         const sp = speechRef.current;
         sp.setRate(nextSpeechRate(sp.rate));
-        if (prompt === 'audio' && !revealed) sp.speak(item.hanzi);
+        if (prompt === 'audio' && !revealed) sp.speak(item.speakAs ?? item.hanzi);
         return;
       }
 
@@ -525,7 +525,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
               <div className="flex flex-col items-center">
                 <button
                   type="button"
-                  onClick={() => speech.speak(item.hanzi, settings.speechRate)}
+                  onClick={() => speech.speak(item.speakAs ?? item.hanzi, settings.speechRate)}
                   className="flex h-24 w-24 items-center justify-center rounded-3xl bg-rose-500 text-white shadow-xl shadow-rose-500/25 transition active:scale-95 hover:bg-rose-600"
                   aria-label={t('study.replayAudio')}
                 >
@@ -615,7 +615,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                             <PinyinText item={item} color={settings.colorTones} />
                           </div>
                           <div className="mt-2 flex items-center gap-2" onClick={(e) => e.stopPropagation()}>
-                            <AudioButton speech={speech} text={item.hanzi} rate={settings.speechRate} />
+                            <AudioButton speech={speech} text={item.speakAs ?? item.hanzi} rate={settings.speechRate} />
                             <span className="text-xs text-rose-600 dark:text-rose-400">
                               {t('card.tapToFlipBack')}
                             </span>
@@ -625,7 +625,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                     </div>
 
                     <div className="mt-4 flex items-center justify-center gap-2">
-                      <AudioButton speech={speech} text={item.hanzi} rate={settings.speechRate} />
+                      <AudioButton speech={speech} text={item.speakAs ?? item.hanzi} rate={settings.speechRate} />
                       <button
                         type="button"
                         onClick={() => setIsFlipped((f) => !f)}
@@ -650,7 +650,7 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                       </div>
                     )}
                     <div className="flex items-center justify-center gap-2">
-                      <AudioButton speech={speech} text={item.hanzi} rate={settings.speechRate} />
+                      <AudioButton speech={speech} text={item.speakAs ?? item.hanzi} rate={settings.speechRate} />
                       <span className="text-sm text-slate-500">
                         {prompt === 'pinyin' ? t('card.typePinyin') : t('card.whatMeans')}
                       </span>
@@ -803,6 +803,12 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                   {item.english.join('; ')}
                 </span>
               </div>
+              {item.definition && (
+                <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+                  {item.abbr && <span className="mr-1.5 rounded bg-slate-200 px-1.5 py-0.5 text-xs font-semibold dark:bg-slate-700">{item.abbr}</span>}
+                  {item.definition}
+                </p>
+              )}
 
               {item.exampleSentence && (
                 <div className="mt-3 border-t border-slate-200/60 pt-3 dark:border-slate-700/60">

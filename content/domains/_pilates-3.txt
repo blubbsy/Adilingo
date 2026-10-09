@@ -1,0 +1,49 @@
+vertebra | 1 | Spine and Pelvis | vertebra | 椎骨 | | One of the bones that stack to form the spine, each with a body and a bony arch. | Articulate the spine one vertebra at a time. | 一节椎骨接一节椎骨地活动脊柱。 |
+cervical-spine | 1 | Spine and Pelvis | cervical spine | 颈椎 | | The seven vertebrae of the neck that support the head. | Keep the cervical spine long during the neck pull. | 拉颈式中，保持颈椎拉长。 |
+thoracic-spine | 1 | Spine and Pelvis | thoracic spine | 胸椎 | | The twelve vertebrae of the upper back that attach to the ribs. | Rotation should come from the thoracic spine. | 旋转应当来自胸椎。 |
+lumbar-spine | 1 | Spine and Pelvis | lumbar spine | 腰椎 | | The five large vertebrae of the lower back that carry most of the load. | Keep the lumbar spine supported against the mat. | 让腰椎始终贴合垫子，获得支撑。 |
+sacrum | 1 | Spine and Pelvis | sacrum | 骶骨 | | The triangular bone at the base of the spine that joins the pelvis. | The sacrum connects the spine to the pelvis. | 骶骨连接脊柱与骨盆。 |
+coccyx | 2 | Spine and Pelvis | coccyx | 尾骨 | | The small bone at the bottom of the sacrum, also called the tailbone. | Lengthen the coccyx toward the floor. | 将尾骨向地面延伸。 |
+intervertebral-disc | 1 | Spine and Pelvis | intervertebral disc | 椎间盘 | | A cushioning pad between two vertebrae that absorbs load and allows movement. | A healthy intervertebral disc tolerates controlled spinal flexion. | 健康的椎间盘能够承受可控的脊柱屈曲。 |
+spinal-curves | 2 | Spine and Pelvis | spinal curves | 脊柱曲度 | | The natural curves of the spine: cervical and lumbar lordosis, thoracic and sacral kyphosis. | Maintain the natural spinal curves while standing. | 站立时，保持脊柱曲度的自然状态。 |
+pelvis | 1 | Spine and Pelvis | pelvis | 骨盆 | | The bony ring at the base of the trunk, formed by the sacrum, coccyx and hip bones. | Level the pelvis before you begin the bridge. | 开始桥式之前，先让骨盆保持水平。 |
+sacroiliac-joint | 3 | Spine and Pelvis | sacroiliac joint | 骶髂关节 | SI | The joint between the sacrum and the ilium at the back of the pelvis. | Keep the sacroiliac joint stable during the single leg circle. | 画圈时，保持骶髂关节稳定。 | ess eye
+sit-bones | 1 | Spine and Pelvis | sit bones | 坐骨结节 | | The two bony points at the bottom of the pelvis that bear weight when seated. | Balance evenly on both sit bones. | 双侧坐骨结节均匀承重。 |
+anterior-superior-iliac-spine | 3 | Spine and Pelvis | anterior superior iliac spine | 髂前上棘 | ASIS | The bony point at the front of the hip that marks the top of the pelvic front. | Keep each anterior superior iliac spine level in neutral pelvis. | 保持两侧髂前上棘在骨盆中立位时水平。 | ay ess eye ess
+pubic-symphysis | 3 | Spine and Pelvis | pubic symphysis | 耻骨联合 | | The cartilage joint at the front of the pelvis where the two pubic bones meet. | The pubic symphysis sits at the front of the pelvic floor. | 耻骨联合位于骨盆底的前方。 |
+neutral-spine | 1 | Spine and Pelvis | neutral spine | 脊柱中立位 | | The natural alignment of the spine with its three natural curves maintained. | Find a neutral spine before every exercise. | 每个练习前都先找到脊柱中立位。 |
+neutral-pelvis | 1 | Spine and Pelvis | neutral pelvis | 骨盆中立位 | | The position where the front and back of the pelvis are level, not tilted. | Set your neutral pelvis before the single leg stretch. | 单腿伸展之前，先设定骨盆中立位。 |
+powerhouse | 1 | Spine and Pelvis | powerhouse | 动力源 | | The core group of muscles between the ribs and pelvis, including abdominals, back, pelvic floor and diaphragm. | Initiate every exercise from your powerhouse. | 每个练习都从动力源开始发力。 |
+rib-cage | 1 | Spine and Pelvis | rib cage | 胸廓 | | The bony cage formed by the ribs, sternum and thoracic spine that protects the heart and lungs. | Keep the rib cage settled as you lift the head. | 抬头时，让胸廓保持稳定。 |
+scapula | 2 | Spine and Pelvis | scapula | 肩胛骨 | | The flat triangular bone of the shoulder blade that moves across the back of the rib cage. | Draw the scapula down the back as you reach. | 伸展时，让肩胛骨沿背部向下移动。 |
+clavicle | 3 | Spine and Pelvis | clavicle | 锁骨 | | The collarbone that connects the arm to the sternum. | The clavicle stays wide and long during the arm circles. | 手臂画圈时，锁骨保持宽而长。 |
+sternum | 3 | Spine and Pelvis | sternum | 胸骨 | | The flat bone at the front of the chest that joins the ribs. | Lift the sternum toward the ceiling in the swan. | 天鹅式中，把胸骨向天花板方向抬起。 |
+hip-joint | 1 | Joints and Movement | hip joint | 髋关节 | | The ball-and-socket joint where the femur meets the pelvis. | Keep the hip joint open in the frog. | 青蛙式中保持髋关节打开。 |
+shoulder-joint | 1 | Joints and Movement | shoulder joint | 肩关节 | | The ball-and-socket joint between the upper arm and the shoulder blade. | Stabilize the shoulder joint before the arm series. | 手臂系列练习前，先稳定肩关节。 |
+knee-joint | 1 | Joints and Movement | knee joint | 膝关节 | | The hinge joint between the thigh bone and the shin bone. | Keep the knee joint soft during the leg circles. | 画圈时，保持膝关节放松。 |
+ankle-joint | 1 | Joints and Movement | ankle joint | 踝关节 | | The hinge joint between the lower leg and the foot. | Keep the ankle joint relaxed as you stretch the leg. | 拉伸腿部时，保持踝关节放松。 |
+flexion | 1 | Joints and Movement | flexion | 屈曲 | | Bending a joint so the angle between two body parts decreases. | Spinal flexion begins in the roll up. | 脊柱屈曲从卷起动作开始。 |
+extension | 1 | Joints and Movement | extension | 伸展 | | Straightening a joint so the angle between two body parts increases. | Spinal extension happens in the swan. | 天鹅式中发生脊柱伸展。 |
+lateral-flexion | 2 | Joints and Movement | lateral flexion | 侧屈 | | Bending the spine or trunk sideways. | Lateral flexion appears in the mermaid. | 美人鱼式中出现侧屈动作。 |
+rotation | 1 | Joints and Movement | rotation | 旋转 | | Turning a body part around its long axis. | Rotation in the spine should be controlled and small. | 脊柱的旋转应当可控而且幅度较小。 |
+abduction | 2 | Joints and Movement | abduction | 外展 | | Moving a limb away from the midline of the body. | Abduction of the leg is the movement in the side kick. | 侧踢中的动作是腿部外展。 |
+adduction | 2 | Joints and Movement | adduction | 内收 | | Moving a limb toward the midline of the body. | Adduction brings the legs together in the magic circle. | 在魔术圈练习中，内收让双腿靠拢。 |
+dorsiflexion | 1 | Joints and Movement | dorsiflexion | 背屈 | | Bending the ankle so the toes move toward the shin. | Use dorsiflexion to flex the foot in the footwork. | 脚部训练中，用背屈来勾脚。 |
+plantarflexion | 1 | Joints and Movement | plantarflexion | 跖屈 | | Pointing the foot so the toes move away from the shin. | Plantarflexion lets the foot press into the footbar. | 跖屈让脚掌蹬住脚踏杆。 |
+eversion | 3 | Joints and Movement | eversion | 外翻 | | Turning the sole of the foot outward. | Eversion of the foot shifts weight to the outer edge. | 脚部外翻会使重量转向外侧。 |
+inversion | 3 | Joints and Movement | inversion | 内翻 | | Turning the sole of the foot inward. | Inversion is common when the arch collapses. | 足弓塌陷时，内翻很常见。 |
+hip-hinge | 1 | Joints and Movement | hip hinge | 髋铰链 | | A movement pattern in which the hips bend while the spine stays long and neutral. | Use a hip hinge to fold forward without rounding the back. | 使用髋铰链向前折叠身体，而不圆背。 |
+range-of-motion | 2 | Joints and Movement | range of motion | 活动范围 | ROM | The full arc through which a joint can move actively and comfortably. | Work within your range of motion on the first day. | 第一天，在自己的活动范围内练习。 | ar oh em
+axial-elongation | 2 | Joints and Movement | axial elongation | 纵向延展 | | The lengthening of the spine along its vertical axis without collapse. | Think of axial elongation before every standing exercise. | 每个站立练习前都要想着纵向延展。 |
+plumb-line | 2 | Joints and Movement | plumb line | 铅垂线 | | An imaginary vertical line that aligns the ear, shoulder, hip and ankle in standing. | Check the plumb line from the side while standing. | 站立时，从侧面检查铅垂线。 |
+inhale | 1 | Breathing | inhale | 吸气 | | Drawing air into the lungs through the nose, expanding the ribs and the back. | Inhale to prepare for the movement. | 动作开始前吸气准备。 |
+exhale | 1 | Breathing | exhale | 呼气 | | Pushing air out of the lungs while drawing the navel toward the spine. | Exhale as you lift the head. | 抬头时呼气。 |
+lateral-breathing | 1 | Breathing | lateral breathing | 侧胸呼吸 | | Breathing that expands the ribs sideways and backward while the abdomen stays gently engaged. | Use lateral breathing to fill the sides of the rib cage. | 用侧胸呼吸充分扩张肋骨两侧。 |
+posterior-breathing | 3 | Breathing | posterior breathing | 后背呼吸 | | Breathing that widens the back ribs toward the mat, felt in the spine. | Feel the back ribs widen with posterior breathing. | 后背呼吸让后背肋骨向两侧扩展。 |
+diaphragmatic-breathing | 1 | Breathing | diaphragmatic breathing | 膈式呼吸 | | Deep breathing driven by the diaphragm, which lowers on the inhale and rises on the exhale. | Diaphragmatic breathing relaxes the upper chest. | 膈式呼吸可以放松上胸部。 |
+thoracic-breathing | 3 | Breathing | thoracic breathing | 胸式呼吸 | | Breathing that mainly expands the upper chest, often with shoulder tension. | Avoid thoracic breathing that lifts the shoulders. | 避免胸式呼吸带动肩膀上抬。 |
+rib-cage-expansion | 1 | Breathing | rib cage expansion | 胸廓扩张 | | The widening of the rib cage in every direction on the inhale. | Feel the rib cage expansion into your hands. | 感受胸廓扩张时对双手的推动。 |
+pelvic-floor-lift | 1 | Breathing | pelvic floor lift | 提拉盆底肌 | | Gently drawing the pelvic floor up and in on the exhale, without holding the breath. | Use the pelvic floor lift on each exhale. | 每次呼气时，使用提拉盆底肌。 |
+breath-count | 2 | Breathing | breath count | 呼吸节拍 | | The number of counts given for each inhale and exhale in a sequence. | Keep a steady breath count of five beats. | 保持五拍的呼吸节拍。 |
+breath-and-movement | 1 | Breathing | breath and movement | 呼吸与动作 | | The coordination of each breath with the phase of an exercise. | Coordinate breath and movement in every repetition. | 每次重复中都要协调呼吸与动作。 |
+bearing-down | 2 | Breathing | bearing down | 憋气用力 | | Pushing hard against a closed airway, which increases pressure in the trunk. | Bearing down adds unnecessary tension to the neck. | 憋气用力会给颈部增加不必要的紧张。 |

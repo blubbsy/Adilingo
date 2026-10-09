@@ -1,0 +1,186 @@
+@topic | Science & Research | 🔬
+science | /ˈsaɪəns/ | 科学 | Science helps us understand the world. | 科学帮助我们理解世界。 | 1
+scientist | /ˈsaɪəntɪst/ | 科学家 | The scientist works in a big laboratory. | 这位科学家在一个大实验室工作。 | 2
+experiment | /ɪkˈsperɪmənt/ | 实验 | We did an experiment in chemistry class. | 我们在化学课上做了一个实验。 | 2
+laboratory | /ˈlæbrətɔːri/ | 实验室 | The laboratory is open to students. | 实验室向学生开放。 | 3
+lab | /læb/ | 实验室（口语） | The students worked in the lab all day. | 学生们整天在实验室里工作。 | 2
+research | /ˈriːsɜːrtʃ/ | 研究; 调查 | She does research on sleep. | 她研究睡眠。 | 3
+researcher | /rɪˈsɜːrtʃər/ | 研究人员 | The researchers published their results. | 研究人员发表了他们的结果。 | 3
+study | /ˈstʌdi/ | 研究; 研究报告 | A new study shows that coffee is healthy. | 一项新研究表明咖啡有益健康。 | 2
+discover | /dɪˈskʌvər/ | 发现 | Scientists discovered a new planet. | 科学家发现了一颗新行星。 | 3
+discovery | /dɪˈskʌvəri/ | 发现 | The discovery changed modern medicine. | 这一发现改变了现代医学。 | 3
+invent | /ɪnˈvent/ | 发明 | Edison invented the electric light bulb. | 爱迪生发明了电灯泡。 | 3
+invention | /ɪnˈvenʃn/ | 发明 | The telephone was a great invention. | 电话是一项伟大的发明。 | 3
+inventor | /ɪnˈventər/ | 发明家 | The inventor showed us his machine. | 发明家向我们展示了他的机器。 | 3
+physics | /ˈfɪzɪks/ | 物理学 | He studies physics at university. | 他在大学学习物理。 | 3
+chemistry | /ˈkemɪstri/ | 化学 | Chemistry is my favorite subject. | 化学是我最喜欢的科目。 | 3
+biology | /baɪˈɑːlədʒi/ | 生物学 | Biology explains how living things work. | 生物学解释生物如何运作。 | 3
+astronomy | /əˈstrɑːnəmi/ | 天文学 | She loves astronomy and stargazing. | 她热爱天文学和观星。 | 4
+geology | /dʒiˈɑːlədʒi/ | 地质学 | Geology studies rocks and the Earth. | 地质学研究岩石和地球。 | 5
+mathematics | /ˌmæθəˈmætɪks/ | 数学 | Mathematics is the language of science. | 数学是科学的语言。 | 3
+space | /speɪs/ | 太空 | Astronauts travel into space. | 宇航员前往太空。 | 2
+planet | /ˈplænɪt/ | 行星 | Mars is the red planet. | 火星是红色星球。 | 2
+star | /stɑːr/ | 恒星 | The sun is a star. | 太阳是一颗恒星。 | 2
+moon | /muːn/ | 月球 | The moon moves around the Earth. | 月球绕着地球转。 | 2
+sun | /sʌn/ | 太阳 | The sun gives us light and heat. | 太阳给我们光和热。 | 2
+galaxy | /ˈɡæləksi/ | 星系 | Our galaxy is called the Milky Way. | 我们的星系叫银河系。 | 4
+universe | /ˈjuːnɪvɜːrs/ | 宇宙 | The universe is very old and very large. | 宇宙既古老又巨大。 | 3
+telescope | /ˈtelɪskoʊp/ | 望远镜 | We looked at Jupiter through a telescope. | 我们用望远镜看木星。 | 3
+satellite | /ˈsætəlaɪt/ | 卫星 | The satellite sends weather pictures. | 卫星传送天气图像。 | 3
+rocket | /ˈrɑːkɪt/ | 火箭 | The rocket flew into the sky. | 火箭飞向天空。 | 3
+astronaut | /ˈæstrənɔːt/ | 宇航员 | The astronaut walked on the moon. | 宇航员在月球上行走。 | 3
+orbit | /ˈɔːrbɪt/ | 轨道; 绕轨道运行 | The Earth takes a year to orbit the sun. | 地球绕太阳运行一周需要一年。 | 4
+gravity | /ˈɡrævəti/ | 重力; 引力 | Gravity keeps us on the ground. | 重力使我们留在地面上。 | 4
+energy | /ˈenərdʒi/ | 能量 | Plants turn sunlight into energy. | 植物把阳光转化为能量。 | 3
+force | /fɔːrs/ | 力 | A force can move or stop an object. | 力可以使物体移动或停止。 | 3
+light | /laɪt/ | 光 | Light travels faster than sound. | 光比声音传播得更快。 | 2
+sound | /saʊnd/ | 声音 | Sound travels through air as waves. | 声音以波的形式通过空气传播。 | 2
+heat | /hiːt/ | 热; 热量 | Metal conducts heat very well. | 金属导热很好。 | 2
+electricity | /ɪˌlekˈtrɪsəti/ | 电 | Electricity powers most of our machines. | 电为我们大多数机器提供动力。 | 3
+magnet | /ˈmæɡnɪt/ | 磁铁 | A magnet attracts iron. | 磁铁吸引铁。 | 3
+magnetic | /mæɡˈnetɪk/ | 磁性的 | The Earth has a magnetic field. | 地球有磁场。 | 4
+battery | /ˈbætəri/ | 电池 | The toy needs two batteries. | 这个玩具需要两节电池。 | 3
+motion | /ˈmoʊʃn/ | 运动 | Newton described the laws of motion. | 牛顿描述了运动定律。 | 4
+speed | /spiːd/ | 速度 | The speed of light is very high. | 光速非常快。 | 3
+mass | /mæs/ | 质量 | Mass is how much matter an object has. | 质量是物体含有物质的多少。 | 4
+weight | /weɪt/ | 重量 | Weight depends on gravity. | 重量取决于重力。 | 3
+volume | /ˈvɑːljuːm/ | 体积; 容积 | Measure the volume of the liquid. | 测量这些液体的体积。 | 4
+density | /ˈdensəti/ | 密度 | Water has a lower density than iron. | 水的密度比铁低。 | 5
+temperature | /ˈtemprətʃər/ | 温度 | The temperature of the water was ten degrees. | 水温是十度。 | 3
+pressure | /ˈpreʃər/ | 压力; 压强 | Air pressure is lower on mountains. | 山上的气压较低。 | 4
+atom | /ˈætəm/ | 原子 | An atom is extremely small. | 原子极其微小。 | 4
+molecule | /ˈmɑːlɪkjuːl/ | 分子 | A water molecule has two hydrogen atoms. | 一个水分子有两个氢原子。 | 5
+element | /ˈelɪmənt/ | 元素 | Oxygen is a chemical element. | 氧是一种化学元素。 | 4
+oxygen | /ˈɑːksɪdʒən/ | 氧气 | We need oxygen to breathe. | 我们呼吸需要氧气。 | 3
+hydrogen | /ˈhaɪdrədʒən/ | 氢 | Hydrogen is the lightest element. | 氢是最轻的元素。 | 4
+carbon | /ˈkɑːrbən/ | 碳 | Diamonds are made of carbon. | 钻石由碳构成。 | 4
+gas | /ɡæs/ | 气体 | Oxygen is a gas at room temperature. | 氧在室温下是气体。 | 3
+liquid | /ˈlɪkwɪd/ | 液体 | Water is a liquid at room temperature. | 水在室温下是液体。 | 3
+solid | /ˈsɑːlɪd/ | 固体 | Ice is water in solid form. | 冰是固态的水。 | 3
+substance | /ˈsʌbstəns/ | 物质 | This substance burns at low heat. | 这种物质在低温下燃烧。 | 4
+material | /məˈtɪriəl/ | 材料 | Steel is a strong material. | 钢是一种坚固的材料。 | 3
+chemical | /ˈkemɪkl/ | 化学品; 化学的 | Some chemicals are dangerous. | 有些化学品是危险的。 | 4
+reaction | /riˈækʃn/ | 反应 | Mixing the acids caused a violent reaction. | 混合这些酸引发了剧烈反应。 | 4
+acid | /ˈæsɪd/ | 酸 | Lemon juice contains acid. | 柠檬汁含有酸。 | 4
+mixture | /ˈmɪkstʃər/ | 混合物 | Air is a mixture of gases. | 空气是气体的混合物。 | 4
+dissolve | /dɪˈzɑːlv/ | 溶解 | Sugar dissolves in hot water. | 糖在热水中溶解。 | 4
+melt | /melt/ | 融化 | Ice melts at zero degrees. | 冰在零度融化。 | 3
+freeze | /friːz/ | 冰冻; 结冰 | Water freezes at zero degrees Celsius. | 水在零摄氏度结冰。 | 3
+boil | /bɔɪl/ | 沸腾; 煮开 | Water boils at one hundred degrees. | 水在一百度沸腾。 | 3
+evaporate | /ɪˈvæpəreɪt/ | 蒸发 | Water evaporates faster in the sun. | 水在阳光下蒸发得更快。 | 5
+cell | /sel/ | 细胞 | Every living thing is made of cells. | 每个生物都由细胞组成。 | 4
+DNA | /ˌdiː en ˈeɪ/ | 脱氧核糖核酸; DNA | DNA carries our genetic information. | DNA携带我们的遗传信息。 | 4
+gene | /dʒiːn/ | 基因 | Eye color depends on your genes. | 眼睛颜色取决于你的基因。 | 4
+genetic | /dʒəˈnetɪk/ | 遗传的; 基因的 | Genetic research may cure rare diseases. | 基因研究或许能治愈罕见疾病。 | 5
+species | /ˈspiːʃiːz/ | 物种 | Many species are in danger of dying out. | 许多物种面临灭绝。 | 4
+evolution | /ˌevəˈluːʃn/ | 进化 | Darwin explained evolution by natural selection. | 达尔文用自然选择解释进化。 | 5
+organism | /ˈɔːrɡənɪzəm/ | 生物体 | A bacterium is a tiny organism. | 细菌是一种微小的生物体。 | 5
+bacteria | /bækˈtɪriə/ | 细菌 | Some bacteria are good for your stomach. | 有些细菌对你的胃有益。 | 4
+virus | /ˈvaɪrəs/ | 病毒 | A virus can spread very quickly. | 病毒可以传播得很快。 | 4
+microscope | /ˈmaɪkrəskoʊp/ | 显微镜 | We saw cells under the microscope. | 我们在显微镜下看到了细胞。 | 4
+photosynthesis | /ˌfoʊtoʊˈsɪnθəsɪs/ | 光合作用 | Plants make food by photosynthesis. | 植物通过光合作用制造食物。 | 5
+ecosystem | /ˈiːkoʊsɪstəm/ | 生态系统 | Forests are a rich ecosystem. | 森林是丰富的生态系统。 | 5
+climate | /ˈklaɪmət/ | 气候 | The climate is getting warmer. | 气候正在变暖。 | 4
+fossil | /ˈfɑːsl/ | 化石 | They found a dinosaur fossil in the desert. | 他们在沙漠里发现了恐龙化石。 | 4
+mineral | /ˈmɪnərəl/ | 矿物 | Quartz is a common mineral. | 石英是一种常见的矿物。 | 4
+earthquake | /ˈɜːrθkweɪk/ | 地震 | The earthquake shook the whole city. | 地震震动了整座城市。 | 3
+volcano | /vɑːlˈkeɪnoʊ/ | 火山 | The volcano erupted last year. | 这座火山去年喷发了。 | 3
+theory | /ˈθɪri/ | 理论 | Einstein's theory changed physics. | 爱因斯坦的理论改变了物理学。 | 4
+hypothesis | /haɪˈpɑːθəsɪs/ | 假说; 假设 | The experiment tested her hypothesis. | 实验检验了她的假设。 | 5
+law | /lɔː/ | 定律 | Newton wrote the law of gravity. | 牛顿提出了万有引力定律。 | 3
+principle | /ˈprɪnsəpl/ | 原理 | The machine works on a simple principle. | 这台机器基于一个简单的原理。 | 4
+method | /ˈmeθəd/ | 方法 | The scientific method starts with a question. | 科学方法从一个问题开始。 | 3
+data | /ˈdeɪtə/ | 数据 | We collected data from two hundred patients. | 我们从两百名患者那里收集了数据。 | 4
+evidence | /ˈevɪdəns/ | 证据 | There is no evidence for this claim. | 这个说法没有证据。 | 4
+fact | /fækt/ | 事实 | It is a scientific fact that Earth is round. | 地球是圆的是一个科学事实。 | 3
+result | /rɪˈzʌlt/ | 结果 | The results were published in a journal. | 结果发表在一本期刊上。 | 3
+observe | /əbˈzɜːrv/ | 观察 | Scientists observe the stars at night. | 科学家在夜晚观测星星。 | 4
+observation | /ˌɑːbzərˈveɪʃn/ | 观察 | Careful observation led to the discovery. | 仔细的观察导致了这一发现。 | 4
+measure | /ˈmeʒər/ | 测量 | We measure the length with a ruler. | 我们用尺子测量长度。 | 3
+measurement | /ˈmeʒərmənt/ | 测量; 尺寸 | The measurement was off by a millimeter. | 测量误差了一毫米。 | 4
+test | /test/ | 测试; 检验 | They test the water for bacteria. | 他们检测水中的细菌。 | 3
+sample | /ˈsæmpl/ | 样本 | We took a blood sample from each patient. | 我们从每位患者身上采集了血样。 | 4
+analyze | /ˈænəlaɪz/ | 分析 | The team will analyze the data. | 团队将分析这些数据。 | 4
+analysis | /əˈnæləsɪs/ | 分析 | A detailed analysis showed a clear pattern. | 详细的分析显示出明显的规律。 | 4
+calculate | /ˈkælkjuleɪt/ | 计算 | Calculate the area of the circle. | 计算这个圆的面积。 | 4
+calculation | /ˌkælkjuˈleɪʃn/ | 计算 | The calculation took three hours. | 这个计算花了三小时。 | 4
+formula | /ˈfɔːrmjələ/ | 公式 | Write the formula on the board. | 把公式写在黑板上。 | 4
+equation | /ɪˈkweɪʒn/ | 方程式 | He solved the equation in a minute. | 他一分钟就解出了这个方程。 | 4
+variable | /ˈveriəbl/ | 变量 | Change only one variable at a time. | 每次只改变一个变量。 | 5
+control | /kənˈtroʊl/ | 对照; 控制 | The control group received no medicine. | 对照组没有服药。 | 4
+statistics | /stəˈtɪstɪks/ | 统计学; 统计数据 | Statistics show that crime is falling. | 统计数据表明犯罪在下降。 | 4
+survey | /ˈsɜːrveɪ/ | 调查 | A survey of 1,000 people was carried out. | 对一千人进行了调查。 | 4
+sample size | /ˈsæmpl saɪz/ | 样本量 | A larger sample size gives better results. | 更大的样本量会带来更好的结果。 | 5
+correlation | /ˌkɔːrəˈleɪʃn/ | 相关性 | There is a link between sleep and memory. | 睡眠和记忆之间存在关联。 | 6
+accurate | /ˈækjərət/ | 准确的 | The scale gives accurate readings. | 这台秤读数准确。 | 4
+precise | /prɪˈsaɪs/ | 精确的 | We need a precise measurement. | 我们需要精确的测量。 | 4
+accuracy | /ˈækjərəsi/ | 准确性 | Accuracy is vital in science. | 准确性在科学中至关重要。 | 5
+reliable | /rɪˈlaɪəbl/ | 可靠的 | The instrument gives reliable results. | 这台仪器给出可靠的结果。 | 4
+valid | /ˈvælɪd/ | 有效的 | The test results are not valid. | 这些测试结果无效。 | 5
+prove | /pruːv/ | 证明 | The experiment proved her idea was right. | 这个实验证明她的想法是对的。 | 4
+proof | /pruːf/ | 证据; 证明 | We need proof before we believe it. | 我们要有证据才会相信。 | 4
+conclude | /kənˈkluːd/ | 得出结论 | The team concluded that the drug works. | 团队得出结论，这种药有效。 | 4
+conclusion | /kənˈkluːʒn/ | 结论 | The conclusion is based on strong data. | 这个结论基于有力的数据。 | 4
+explain | /ɪkˈspleɪn/ | 解释 | Can you explain how a rainbow forms? | 你能解释彩虹是怎么形成的吗？ | 3
+explanation | /ˌekspləˈneɪʃn/ | 解释 | Science offers an explanation for thunder. | 科学为雷声提供了解释。 | 4
+investigate | /ɪnˈvestɪɡeɪt/ | 调查; 研究 | Scientists investigate the cause of the disease. | 科学家调查这种疾病的原因。 | 5
+investigation | /ɪnˌvestɪˈɡeɪʃn/ | 调查; 研究 | The investigation took five years. | 这项调查花了五年。 | 5
+examine | /ɪɡˈzæmɪn/ | 检查; 研究 | The doctor examined the sample. | 医生检查了样本。 | 4
+discovery channel | /dɪˈskʌvəri ˈtʃænl/ | 发现频道 | We watched a show on the discovery channel. | 我们在发现频道上看了一个节目。 | 5
+breakthrough | /ˈbreɪkθruː/ | 突破 | The team announced a major breakthrough. | 团队宣布了一项重大突破。 | 5
+innovation | /ˌɪnəˈveɪʃn/ | 创新 | Innovation drives modern technology. | 创新推动现代科技。 | 5
+innovative | /ˈɪnəveɪtɪv/ | 创新的 | They use an innovative method to clean water. | 他们用一种创新的方法净化水。 | 5
+technology | /tekˈnɑːlədʒi/ | 技术 | New technology changes our daily life. | 新技术改变了我们的日常生活。 | 3
+engineer | /ˌendʒɪˈnɪr/ | 工程师 | The engineer designed a faster engine. | 工程师设计了一台更快的发动机。 | 3
+engineering | /ˌendʒɪˈnɪrɪŋ/ | 工程学 | She studies engineering at university. | 她在大学学习工程。 | 4
+robot | /ˈroʊbɑːt/ | 机器人 | The robot can carry heavy boxes. | 这个机器人能搬重箱子。 | 3
+artificial | /ˌɑːrtɪˈfɪʃl/ | 人造的; 人工的 | Artificial light helps plants grow indoors. | 人造光帮助植物在室内生长。 | 4
+artificial intelligence | /ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/ | 人工智能 | Artificial intelligence is changing many jobs. | 人工智能正在改变许多工作。 | 5
+algorithm | /ˈælɡərɪðəm/ | 算法 | The algorithm sorts the data quickly. | 这个算法能快速地给数据排序。 | 5
+nuclear | /ˈnuːkliər/ | 核的 | Nuclear energy produces no carbon dioxide. | 核能不产生二氧化碳。 | 5
+radiation | /ˌreɪdiˈeɪʃn/ | 辐射 | Too much radiation is harmful. | 过量的辐射是有害的。 | 5
+solar | /ˈsoʊlər/ | 太阳的 | Solar panels turn sunlight into power. | 太阳能板把阳光变成电力。 | 4
+renewable | /rɪˈnuːəbl/ | 可再生的 | Wind is a renewable source of energy. | 风是可再生的能源。 | 5
+fuel | /ˈfjuːəl/ | 燃料 | Cars use fuel to run. | 汽车用燃料来运行。 | 3
+particle | /ˈpɑːrtɪkl/ | 粒子 | Light can behave like a particle. | 光可以表现得像粒子。 | 5
+wave | /weɪ/ | 波 | Sound moves in waves. | 声音以波的形式传播。 | 4
+frequency | /ˈfriːkwənsi/ | 频率 | Radios use different frequencies. | 收音机使用不同的频率。 | 5
+vacuum | /ˈvækjuːm/ | 真空 | Sound cannot travel in a vacuum. | 声音无法在真空中传播。 | 5
+laser | /ˈleɪzər/ | 激光 | Doctors use a laser for eye surgery. | 医生用激光做眼部手术。 | 4
+circuit | /ˈsɜːrkɪt/ | 电路 | The circuit stops when the switch is open. | 开关断开时电路停止工作。 | 5
+dimension | /dɪˈmenʃn/ | 维度; 尺寸 | A cube has three dimensions. | 立方体有三个维度。 | 5
+theory of relativity | /ˌθɪri əv ˌreləˈtɪvəti/ | 相对论 | Einstein published the theory of relativity in 1915. | 爱因斯坦在1915年发表了相对论。 | 6
+quantum | /ˈkwɑːntəm/ | 量子的 | Quantum physics studies the tiniest particles. | 量子物理研究最微小的粒子。 | 6
+neuroscience | /ˈnʊroʊsaɪəns/ | 神经科学 | Neuroscience studies the brain and nerves. | 神经科学研究大脑和神经。 | 6
+vaccine | /vækˈsiːn/ | 疫苗 | The vaccine protects against the virus. | 疫苗能预防这种病毒。 | 4
+clinical trial | /ˌklɪnɪkl ˈtraɪəl/ | 临床试验 | The drug is now in a clinical trial. | 这种药现在处于临床试验阶段。 | 6
+laboratory equipment | /ˈlæbrətɔːri ɪˈkwɪpmənt/ | 实验室设备 | The lab bought new laboratory equipment. | 实验室购买了新的实验设备。 | 5
+specimen | /ˈspesɪmən/ | 标本 | The specimen was kept in a glass jar. | 标本被保存在一个玻璃罐里。 | 6
+beaker | /ˈbiːkər/ | 烧杯 | Pour the liquid into a beaker. | 把液体倒进烧杯里。 | 5
+test tube | /ˈtest tuːb/ | 试管 | She poured the liquid into a test tube. | 她把液体倒进试管里。 | 4
+thermometer | /θərˈmɑːmɪtər/ | 温度计 | Check the water with a thermometer. | 用温度计检查水温。 | 4
+scale | /skeɪl/ | 天平; 秤; 刻度 | Put the sample on the scale. | 把样品放在天平上。 | 4
+ruler | /ˈruːlər/ | 尺子 | Use a ruler to draw the line. | 用尺子画线。 | 2
+gravity wave | /ˈɡrævəti weɪv/ | 引力波 | Scientists detected a gravity wave in 2015. | 科学家在2015年探测到了引力波。 | 6
+extinct | /ɪkˈstɪŋkt/ | 灭绝的 | Dinosaurs became extinct millions of years ago. | 恐龙在数百万年前灭绝了。 | 4
+extinction | /ɪkˈstɪŋkʃn/ | 灭绝 | The tiger faces extinction in the wild. | 野生老虎面临灭绝。 | 5
+adapt | /əˈdæpt/ | 适应 | Animals adapt to their environment. | 动物适应它们的环境。 | 4
+mutation | /mjuːˈteɪʃn/ | 突变 | A mutation can change a gene. | 突变可以改变基因。 | 6
+inherit | /ɪnˈherɪt/ | 遗传; 继承 | Children inherit traits from their parents. | 孩子从父母那里遗传特征。 | 5
+clone | /kloʊn/ | 克隆 | Scientists cloned a sheep in 1996. | 科学家在1996年克隆了一只羊。 | 5
+enzyme | /ˈenzaɪm/ | 酶 | Enzymes help us digest food. | 酶帮助我们消化食物。 | 6
+protein | /ˈproʊtiːn/ | 蛋白质 | Proteins are made of amino acids. | 蛋白质由氨基酸组成。 | 5
+neuron | /ˈnʊrɑːn/ | 神经元 | The brain contains billions of neurons. | 大脑含有数十亿个神经元。 | 6
+tissue | /ˈtɪʃuː/ | 组织 | Muscle tissue repairs itself. | 肌肉组织能自我修复。 | 5
+membrane | /ˈmembreɪn/ | 膜 | The cell membrane controls what enters. | 细胞膜控制什么能进入。 | 6
+nucleus | /ˈnuːkliəs/ | 细胞核; 原子核 | The nucleus holds the cell's DNA. | 细胞核含有细胞的DNA。 | 6
+chromosome | /ˈkroʊməsoʊm/ | 染色体 | Humans have 46 chromosomes. | 人类有46条染色体。 | 6
+peer review | /ˈpɪr rɪvjuː/ | 同行评审 | The paper passed peer review last month. | 这篇论文上个月通过了同行评审。 | 6
+replicate | /ˈreplɪkeɪt/ | 重复（实验）; 复制 | Other labs failed to replicate the result. | 其他实验室未能重复这一结果。 | 6
+subject | /ˈsʌbdʒɪkt/ | 受试者; 研究对象 | The subjects were asked to sleep in the lab. | 受试者被要求在实验室睡觉。 | 4
+participant | /pɑːrˈtɪsɪpənt/ | 参与者 | Each participant filled in a form. | 每位参与者填写了一份表格。 | 5
+sampling | /ˈsæmplɪŋ/ | 抽样 | Random sampling avoids bias. | 随机抽样可避免偏差。 | 6
+bias | /ˈbaɪəs/ | 偏差; 偏见 | The study may contain some bias. | 这项研究可能含有一些偏差。 | 5
+anomaly | /əˈnɑːməli/ | 异常 | The data showed a strange anomaly. | 数据显示出一个奇怪的异常。 | 6
+phenomenon | /fɪˈnɑːmɪnɑːn/ | 现象 | The aurora is a natural phenomenon. | 极光是一种自然现象。 | 5
+mechanism | /ˈmekənɪzəm/ | 机制 | The mechanism of the disease is unclear. | 这种疾病的机制尚不清楚。 | 6

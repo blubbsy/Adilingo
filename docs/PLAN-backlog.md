@@ -14,6 +14,12 @@ Backlog:
 
 ---
 
+> **Status (2026-10):** Phases A, B, C done. Phase D shipped (Wiki tab, 80 draft articles). Phase E shipped in a first version: six domains
+> (e-motor, power electronics, mechanical, medicine, football, Pilates), each in a Chinese-terms and an English-terms course, catalogue modal,
+> `speakAs`/definition support, tier badges. Schema stays v3 (no migration was needed). Topic packs: 18 Chinese packs (4,000 words) and
+> 29 English topics (5,200 words). **Content is machine-drafted and still needs subject-matter review**; learning paths for specialty
+> courses (E5) and the `vocabForCurriculum` `en-` fallback cleanup remain open.
+
 ## 0. What the code looks like today (findings that shape the plan)
 
 **Architecture facts**

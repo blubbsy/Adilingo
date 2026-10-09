@@ -1,0 +1,167 @@
+@topic | Weather & Seasons | ⛅
+# A1
+weather | /ˈweðər/ | 天气 | The weather today is warm and sunny. | 今天天气温暖晴朗。 | 1
+sun | /sʌn/ | 太阳 | The sun is shining in a clear sky. | 太阳在晴朗的天空中照耀。 | 1
+sunny | /ˈsʌni/ | 晴朗的; 阳光充足的 | It is a sunny day, so let us go outside. | 今天是晴天,我们出去吧。 | 1
+rain | /reɪn/ | 雨; 下雨 | The rain stopped in the afternoon. | 雨在下午停了。 | 1
+rainy | /ˈreɪni/ | 多雨的 | It was a cold and rainy morning. | 那是一个又冷又下雨的早晨。 | 1
+cloud | /klaʊd/ | 云 | A dark cloud covered the sun. | 一朵乌云遮住了太阳。 | 1
+cloudy | /ˈklaʊdi/ | 多云的; 阴天的 | Tomorrow will be cloudy with some rain. | 明天多云,有些雨。 | 1
+wind | /wɪnd/ | 风 | A strong wind blew all night. | 一阵大风刮了一整夜。 | 1
+windy | /ˈwɪndi/ | 有风的; 风大的 | It is too windy to fly a kite today. | 今天风太大,放不了风筝。 | 1
+snow | /snoʊ/ | 雪; 下雪 | Children play in the snow in winter. | 冬天孩子们在雪地里玩。 | 1
+snowy | /ˈsnoʊi/ | 下雪的; 多雪的 | The road was snowy and slippery. | 路上有雪,很滑。 | 1
+hot | /hɑːt/ | 热的; 炎热的 | It is very hot in July. | 七月非常炎热。 | 1
+cold | /koʊld/ | 冷的; 寒冷的 | Put on your coat; it is cold outside. | 穿上外套,外面很冷。 | 1
+warm | /wɔːrm/ | 温暖的 | The water in the sea is warm in August. | 八月海水是温暖的。 | 1
+cool | /kuːl/ | 凉爽的 | The evenings are cool in autumn. | 秋天的傍晚很凉爽。 | 1
+spring | /sprɪŋ/ | 春天 | Flowers start to bloom in spring. | 春天花儿开始盛开。 | 1
+summer | /ˈsʌmər/ | 夏天 | We go swimming every day in summer. | 夏天我们每天去游泳。 | 1
+autumn | /ˈɔːtəm/ | 秋天 (英式) | Leaves turn yellow and red in autumn. | 秋天树叶变黄变红。 | 1
+fall | /fɔːl/ | 秋天 (美式); 落下 | Many people go hiking in the fall. | 秋天很多人去远足。 | 1
+winter | /ˈwɪntər/ | 冬天 | Winters are long and cold in the north. | 北方的冬天漫长而寒冷。 | 1
+season | /ˈsiːzn/ | 季节 | Summer is my favourite season. | 夏天是我最喜欢的季节。 | 1
+umbrella | /ʌmˈbrelə/ | 雨伞 | Take an umbrella, it might rain. | 带把伞吧,可能会下雨。 | 1
+sky | /skaɪ/ | 天空 | The sky was blue without a single cloud. | 天空湛蓝,一朵云也没有。 | 1
+# A2
+temperature | /ˈtemprətʃər/ | 温度; 气温 | The temperature dropped to five degrees. | 气温降到了五度。 | 2
+degree | /dɪˈɡriː/ | 度 (温度) | It was thirty degrees in the shade. | 阴凉处有三十度。 | 2
+forecast | /ˈfɔːrkæst/ | 预报; 预测 | The forecast says it will snow tomorrow. | 预报说明天会下雪。 | 2
+weather forecast | /ˈweðər ˌfɔːrkæst/ | 天气预报 | I always check the weather forecast before I go out. | 我出门前总要看天气预报。 | 2
+storm | /stɔːrm/ | 暴风雨; 风暴 | A big storm hit the coast last night. | 昨晚一场大风暴袭击了海岸。 | 2
+thunder | /ˈθʌndər/ | 雷; 雷声 | We heard thunder in the distance. | 我们听到远处的雷声。 | 2
+lightning | /ˈlaɪtnɪŋ/ | 闪电 | Lightning lit up the whole sky. | 闪电照亮了整个天空。 | 2
+fog | /fɔːɡ/ | 雾 | Thick fog delayed all the morning flights. | 浓雾使早晨所有航班延误。 | 2
+foggy | /ˈfɔːɡi/ | 有雾的 | It was too foggy to see the road. | 雾太大,看不清路。 | 2
+ice | /aɪs/ | 冰 | There is ice on the lake in January. | 一月湖面结了冰。 | 2
+icy | /ˈaɪsi/ | 结冰的; 冰冷的 | Drive carefully on icy roads. | 在结冰的路上要小心驾驶。 | 2
+frost | /frɔːst/ | 霜; 霜冻 | There was frost on the grass this morning. | 今天早晨草地上有霜。 | 2
+freezing | /ˈfriːzɪŋ/ | 极冷的; 冰冻的 | It was freezing on the mountain. | 山上冷得要命。 | 2
+dry | /draɪ/ | 干燥的 | The summer was hot and dry. | 这个夏天又热又干。 | 2
+wet | /wet/ | 湿的; 下雨的 | Take off your wet socks. | 把你湿了的袜子脱掉。 | 2
+sunshine | /ˈsʌnʃaɪn/ | 阳光; 日照 | We enjoyed the warm sunshine on the terrace. | 我们在露台上享受温暖的阳光。 | 2
+rainbow | /ˈreɪnboʊ/ | 彩虹 | A rainbow appeared after the rain. | 雨后出现了一道彩虹。 | 2
+puddle | /ˈpʌdl/ | 水坑 | The boy jumped in every puddle. | 男孩跳进每一个水坑里。 | 2
+raincoat | /ˈreɪnkoʊt/ | 雨衣 | She wore a yellow raincoat. | 她穿着一件黄色雨衣。 | 2
+snowman | /ˈsnoʊmæn/ | 雪人 | The children built a big snowman. | 孩子们堆了一个大雪人。 | 2
+heat | /hiːt/ | 热; 高温 | The heat was unbearable at noon. | 中午的高温令人难以忍受。 | 2
+breeze | /briːz/ | 微风 | A gentle breeze came off the sea. | 一阵微风从海上吹来。 | 2
+shower | /ˈʃaʊər/ | 阵雨; 淋浴 | There will be a few showers in the afternoon. | 下午会有几场阵雨。 | 2
+drizzle | /ˈdrɪzl/ | 毛毛雨 | A light drizzle fell all morning. | 毛毛雨下了一整个上午。 | 2
+pour | /pɔːr/ | 倾盆而下 | It poured all day, so we stayed in. | 下了一整天大雨,所以我们待在家里。 | 2
+shine | /ʃaɪn/ | 照耀; 发光 | The sun shines every day in the desert. | 沙漠里每天都阳光灿烂。 | 2
+blow | /bloʊ/ | 吹; 刮 | The wind blew the leaves off the trees. | 风把树叶吹落了。 | 2
+melt | /melt/ | 融化 | The snow melts in spring. | 雪在春天融化。 | 2
+freeze | /friːz/ | 结冰; 冻结 | The lake freezes every winter. | 这个湖每年冬天都结冰。 | 2
+sunrise | /ˈsʌnraɪz/ | 日出 | We climbed the hill to watch the sunrise. | 我们爬上山丘看日出。 | 2
+sunset | /ˈsʌnset/ | 日落 | The sunset over the sea was beautiful. | 海上的日落真美。 | 2
+# B1
+climate | /ˈklaɪmət/ | 气候 | The climate here is mild and wet. | 这里的气候温和多雨。 | 3
+humid | /ˈhjuːmɪd/ | 潮湿的; 湿热的 | Summers in the south are hot and humid. | 南方的夏天又热又潮湿。 | 3
+humidity | /hjuːˈmɪdəti/ | 湿度 | The humidity makes the heat feel worse. | 湿度让高温更难受。 | 3
+mild | /maɪld/ | 温和的 | We had a mild winter this year. | 今年我们度过了一个暖冬。 | 3
+chilly | /ˈtʃɪli/ | 寒冷的; 有点冷的 | It gets chilly in the evening. | 到了晚上会有点冷。 | 3
+boiling | /ˈbɔɪlɪŋ/ | 酷热的; 滚烫的 | It was boiling hot in the car. | 车里热得像蒸笼。 | 3
+sticky | /ˈstɪki/ | 闷热黏腻的 | The air felt sticky and heavy. | 空气感觉闷热黏腻。 | 3
+stormy | /ˈstɔːrmi/ | 有暴风雨的 | The sea was rough on that stormy night. | 在那个暴风雨之夜,海面波涛汹涌。 | 3
+thunderstorm | /ˈθʌndərstɔːrm/ | 雷暴 | A thunderstorm cancelled the outdoor concert. | 一场雷暴取消了户外音乐会。 | 3
+heavy rain | /ˌhevi ˈreɪn/ | 大雨 | Heavy rain caused floods in the valley. | 大雨在山谷里引发了洪水。 | 3
+light rain | /ˌlaɪt ˈreɪn/ | 小雨 | Light rain is expected this evening. | 预计今晚有小雨。 | 3
+hail | /heɪl/ | 冰雹 | Hail damaged many cars in the town. | 冰雹损坏了镇上许多汽车。 | 3
+sleet | /sliːt/ | 雨夹雪 | It was raining and sleeting outside. | 外面下着雨夹雪。 | 3
+snowfall | /ˈsnoʊfɔːl/ | 降雪; 降雪量 | Heavy snowfall closed the mountain pass. | 大雪封闭了山口。 | 3
+snowstorm | /ˈsnoʊstɔːrm/ | 暴风雪 | A snowstorm trapped us in the cabin. | 一场暴风雪把我们困在了小屋里。 | 3
+snowflake | /ˈsnoʊfleɪk/ | 雪花 | Every snowflake has a different shape. | 每片雪花形状都不同。 | 3
+blizzard | /ˈblɪzərd/ | 暴风雪 | A blizzard hit the northern states. | 一场暴风雪袭击了北部各州。 | 3
+gale | /ɡeɪl/ | 大风; 狂风 | A gale blew down several trees. | 一场大风吹倒了好几棵树。 | 3
+gust | /ɡʌst/ | 阵风 | A sudden gust blew my hat away. | 一阵突如其来的风把我的帽子吹走了。 | 3
+hurricane | /ˈhɜːrəkeɪn/ | 飓风 | The hurricane hit the coast at night. | 飓风在夜里袭击了海岸。 | 3
+typhoon | /taɪˈfuːn/ | 台风 | A typhoon is approaching southern China. | 一场台风正逼近中国南方。 | 3
+tornado | /tɔːrˈneɪdoʊ/ | 龙卷风 | The tornado destroyed several houses. | 龙卷风摧毁了几座房子。 | 3
+flood | /flʌd/ | 洪水; 水灾 | The flood cut off the village. | 洪水切断了通往村庄的道路。 | 3
+drought | /draʊt/ | 干旱 | The long drought killed the crops. | 长期干旱使庄稼枯死。 | 3
+heatwave | /ˈhiːtweɪv/ | 热浪 | The heatwave lasted for two weeks. | 热浪持续了两周。 | 3
+cold snap | /ˈkoʊld snæp/ | 寒潮 | A sudden cold snap froze the pipes. | 突如其来的寒潮冻裂了水管。 | 3
+mist | /mɪst/ | 薄雾 | Morning mist covered the fields. | 清晨的薄雾笼罩着田野。 | 3
+haze | /heɪz/ | 霾; 薄雾 | A heavy haze hung over the city. | 浓重的雾霾笼罩着城市。 | 3
+overcast | /ˌoʊvərˈkæst/ | 阴天的; 乌云密布的 | The sky was overcast all week. | 一整周天空都阴沉沉的。 | 3
+bright | /braɪt/ | 明亮的; 晴朗的 | It was a bright, clear morning. | 那是一个明亮晴朗的早晨。 | 3
+clear | /klɪr/ | 晴朗的 | The night sky was clear and full of stars. | 夜空晴朗,繁星点点。 | 3
+shade | /ʃeɪd/ | 阴凉处; 树荫 | We sat in the shade to avoid the sun. | 我们坐在阴凉处避开太阳。 | 3
+sunburn | /ˈsʌnbɜːrn/ | 晒伤 | Put on sun cream to avoid sunburn. | 涂防晒霜以免被晒伤。 | 3
+sun cream | /ˈsʌn kriːm/ | 防晒霜 | Do not forget the sun cream. | 别忘了防晒霜。 | 3
+sunglasses | /ˈsʌnɡlæsɪz/ | 太阳镜 | He wore sunglasses against the glare. | 他戴着太阳镜挡刺眼的光。 | 3
+wellies | /ˈweliz/ | 雨靴 | Put your wellies on; the garden is muddy. | 穿上雨靴,花园里全是泥。 | 3
+scarf | /skɑːrf/ | 围巾 | She wrapped a warm scarf round her neck. | 她把一条暖和的围巾裹在脖子上。 | 3
+gloves | /ɡlʌvz/ | 手套 | I forgot my gloves and my hands are freezing. | 我忘了带手套,手冻僵了。 | 3
+harvest | /ˈhɑːrvɪst/ | 收获; 丰收 | Autumn is the season of harvest. | 秋天是收获的季节。 | 3
+leaf | /liːf/ | 树叶 | A red leaf fell onto the path. | 一片红叶落在小路上。 | 3
+blossom | /ˈblɑːsəm/ | 花; 开花 | The cherry trees were covered in blossom. | 樱桃树开满了花。 | 3
+bloom | /bluːm/ | 开花 | The roses bloom in early summer. | 玫瑰在初夏开花。 | 3
+midsummer | /ˌmɪdˈsʌmər/ | 仲夏 | The festival takes place at midsummer. | 节日在仲夏举行。 | 3
+midwinter | /ˌmɪdˈwɪntər/ | 隆冬 | It is dark by four o'clock in midwinter. | 隆冬时节四点钟天就黑了。 | 3
+equinox | /ˈiːkwɪnɑːks/ | 昼夜平分点 | Day and night are equal at the equinox. | 在二分点昼夜等长。 | 3
+solstice | /ˈsɑːlstɪs/ | 至日 (夏至/冬至) | The winter solstice is the shortest day. | 冬至是一年中白天最短的一天。 | 3
+# B2
+meteorologist | /ˌmiːtiəˈrɑːlədʒɪst/ | 气象学家 | The meteorologist warned of heavy snow. | 气象学家预警将有大雪。 | 4
+meteorology | /ˌmiːtiəˈrɑːlədʒi/ | 气象学 | She studied meteorology at university. | 她在大学学了气象学。 | 4
+weather station | /ˈweðər ˌsteɪʃn/ | 气象站 | The weather station records rainfall daily. | 气象站每天记录降雨量。 | 4
+rainfall | /ˈreɪnfɔːl/ | 降雨量 | Annual rainfall is very low in the desert. | 沙漠地区的年降雨量很低。 | 4
+precipitation | /prɪˌsɪpɪˈteɪʃn/ | 降水 | Precipitation will increase in the north. | 北部的降水量将增加。 | 4
+downpour | /ˈdaʊnpɔːr/ | 倾盆大雨 | A sudden downpour soaked everyone. | 一场突如其来的倾盆大雨淋湿了所有人。 | 4
+cloudburst | /ˈklaʊdbɜːrst/ | 暴雨 | The cloudburst flooded the streets. | 暴雨淹没了街道。 | 4
+monsoon | /mɑːnˈsuːn/ | 季风; 雨季 | The monsoon brings heavy rain to India. | 季风给印度带来大雨。 | 4
+dew | /duː/ | 露水 | Drops of dew shone on the grass. | 草上的露珠闪闪发光。 | 4
+black ice | /ˌblæk ˈaɪs/ | 路面薄冰 | Black ice made the road very dangerous. | 路面薄冰使道路非常危险。 | 4
+wind chill | /ˈwɪnd tʃɪl/ | 风寒效应 | The wind chill made it feel like minus ten. | 风寒效应让人感觉像零下十度。 | 4
+breezy | /ˈbriːzi/ | 微风习习的 | It was a warm, breezy afternoon. | 那是一个温暖微风习习的下午。 | 4
+muggy | /ˈmʌɡi/ | 闷热的 | The muggy weather made me sleepy. | 闷热的天气让我昏昏欲睡。 | 4
+scorching | /ˈskɔːrtʃɪŋ/ | 灼热的 | We walked under the scorching sun. | 我们在灼热的太阳下行走。 | 4
+sweltering | /ˈsweltərɪŋ/ | 闷热难耐的 | It was a sweltering night with no wind. | 那是一个没有风、闷热难耐的夜晚。 | 4
+bitter | /ˈbɪtər/ | 刺骨的 | A bitter wind blew from the north. | 一阵刺骨的寒风从北方吹来。 | 4
+biting | /ˈbaɪtɪŋ/ | 刺骨的 | A biting wind made our faces numb. | 刺骨的寒风吹得我们脸都麻了。 | 4
+unsettled | /ʌnˈsetld/ | 不稳定的 | The weather will stay unsettled this week. | 本周天气将持续不稳定。 | 4
+changeable | /ˈtʃeɪndʒəbl/ | 多变的 | The spring weather here is very changeable. | 这里春天的天气很多变。 | 4
+patchy | /ˈpætʃi/ | 时有时无的; 不均匀的 | Patchy fog will clear by midday. | 零星的雾到中午会散去。 | 4
+spell | /spel/ | 一段时间 (的天气) | We had a cold spell in April. | 四月我们遇到了一段寒冷的天气。 | 4
+outlook | /ˈaʊtlʊk/ | 展望; 前景 | The outlook for the weekend is dry and sunny. | 周末的天气展望是干燥晴朗。 | 4
+storm warning | /ˈstɔːrm ˌwɔːrnɪŋ/ | 风暴预警 | A storm warning was issued for the coast. | 沿海地区发布了风暴预警。 | 4
+evacuate | /ɪˈvækjueɪt/ | 疏散; 撤离 | Residents were evacuated before the hurricane. | 飓风来临前居民被疏散了。 | 4
+shelter | /ˈʃeltər/ | 躲避; 避难所 | We took shelter from the rain under a tree. | 我们在树下躲雨。 | 4
+power cut | /ˈpaʊər kʌt/ | 停电 | The storm caused a power cut. | 风暴导致停电。 | 4
+landslide | /ˈlændslaɪd/ | 山体滑坡 | A landslide blocked the mountain road. | 山体滑坡堵住了山路。 | 4
+avalanche | /ˈævəlæntʃ/ | 雪崩 | Skiers were caught in an avalanche. | 滑雪者被卷入了雪崩。 | 4
+flash flood | /ˈflæʃ flʌd/ | 山洪; 暴发洪水 | A flash flood swept through the canyon. | 一场山洪冲过了峡谷。 | 4
+heat stroke | /ˈhiːt stroʊk/ | 中暑 | Drink water to prevent heat stroke. | 多喝水以防中暑。 | 4
+frostbite | /ˈfrɔːstbaɪt/ | 冻伤 | He got frostbite on his fingers in the mountains. | 他在山里手指被冻伤了。 | 4
+global warming | /ˌɡloʊbl ˈwɔːrmɪŋ/ | 全球变暖 | Global warming is melting the polar ice. | 全球变暖正在融化极地冰层。 | 4
+seasonal | /ˈsiːzənl/ | 季节性的 | Seasonal workers pick fruit in summer. | 季节性工人在夏天采摘水果。 | 4
+# C1
+inclement | /ɪnˈklemənt/ | 恶劣的 (天气) | The match was postponed due to inclement weather. | 比赛因恶劣天气而推迟。 | 5
+torrential | /təˈrenʃl/ | 倾盆的; 猛烈的 | Torrential rain flooded the underpass. | 倾盆大雨淹没了地下通道。 | 5
+balmy | /ˈbɑːmi/ | 温和宜人的 | A balmy breeze drifted over the terrace. | 温和宜人的微风吹过露台。 | 5
+temperate | /ˈtempərət/ | 温带的; 温和的 | Britain has a temperate climate. | 英国是温带气候。 | 5
+arid | /ˈærɪd/ | 干旱的 | Much of the region is arid land. | 这个地区大部分是干旱土地。 | 5
+tropical | /ˈtrɑːpɪkl/ | 热带的 | Tropical storms are common in August. | 热带风暴在八月很常见。 | 5
+subtropical | /ˌsʌbˈtrɑːpɪkl/ | 亚热带的 | Southern China has a subtropical climate. | 中国南部是亚热带气候。 | 5
+polar | /ˈpoʊlər/ | 极地的 | Polar winds brought freezing temperatures. | 极地的风带来了严寒气温。 | 5
+subzero | /ˌsʌbˈzɪroʊ/ | 零下的 | Subzero temperatures are common in Siberia. | 西伯利亚常有零下气温。 | 5
+barometer | /bəˈrɑːmɪtər/ | 气压计 | The barometer is falling, so expect rain. | 气压计读数在下降,预计会下雨。 | 5
+atmospheric pressure | /ˌætməsˈferɪk ˈpreʃər/ | 大气压 | Low atmospheric pressure often brings rain. | 低气压常常带来降雨。 | 5
+front | /frʌnt/ | 锋面 | A cold front will cross the country tonight. | 一股冷锋今晚将横扫全国。 | 5
+depression | /dɪˈpreʃn/ | 低气压 | A deep depression is moving in from the Atlantic. | 一个强低气压正从大西洋移来。 | 5
+anticyclone | /ˌæntiˈsaɪkloʊn/ | 反气旋; 高气压 | An anticyclone brought a week of calm weather. | 一个高气压带来了一周的平静天气。 | 5
+jet stream | /ˈdʒet striːm/ | 急流 | The jet stream steers storms across the ocean. | 急流引导风暴穿过大洋。 | 5
+whiteout | /ˈwaɪtaʊt/ | 白茫茫一片的暴风雪 | In the whiteout, we could not see the path. | 在白茫茫的风雪中,我们看不见小路。 | 5
+squall | /skwɔːl/ | 狂风骤雨 | A sudden squall tipped the little boat. | 一阵突来的狂风把小船掀翻了。 | 5
+lull | /lʌl/ | 间歇; 平静 | We walked on during a lull in the storm. | 风暴间歇时我们继续赶路。 | 5
+parched | /pɑːrtʃt/ | 干透的; 干渴的 | The parched earth cracked in the sun. | 干透的土地在太阳下裂开了。 | 5
+waterlogged | /ˈwɔːtərlɔːɡd/ | 积水的 | The waterlogged pitch was unplayable. | 积水的球场无法比赛。 | 5
+# C2
+petrichor | /ˈpetrɪkɔːr/ | 雨后泥土的气息 | She loved the petrichor after the first summer rain. | 她喜欢夏季第一场雨后泥土的气息。 | 6
+tempestuous | /tempˈestʃuəs/ | 暴风雨般的; 狂暴的 | The tempestuous sea tossed the ship about. | 狂暴的大海把船抛来抛去。 | 6
+mercurial | /mərˈkjʊriəl/ | 多变的; 反复无常的 | The mercurial weather changed three times a day. | 这反复无常的天气一天变了三次。 | 6
+sultry | /ˈsʌltri/ | 闷热的 | The sultry night air made sleep difficult. | 闷热的夜晚空气使人难以入睡。 | 6
+halcyon | /ˈhælsiən/ | 宁静美好的 | We remember the halcyon days of that summer. | 我们怀念那个夏天平静美好的日子。 | 6
+equinoctial | /ˌiːkwɪˈnɑːkʃl/ | 二分点的 | Equinoctial gales are common in September. | 秋分前后常有大风。 | 6
+vernal | /ˈvɜːrnl/ | 春天的 | The vernal equinox marks the start of spring. | 春分标志着春天的开始。 | 6

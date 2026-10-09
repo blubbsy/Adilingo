@@ -1,0 +1,588 @@
+[
+  {
+    "id": "bi-comparison",
+    "title": "Comparing with 比: A is more … than B",
+    "titleHanzi": "比",
+    "category": "comparison",
+    "hskRange": [
+      2,
+      5
+    ],
+    "summary": "比 is the Chinese comparative. Instead of changing the adjective (taller, better), you place 比 between the two things being compared, and the bare adjective stays as it is.",
+    "pattern": "A + 比 + B + Adjective (+ Amount)  ·  A + 比 + B + 更 / 还 + Adjective",
+    "rules": [
+      {
+        "rule": "Put **比 + the thing compared with** before a **bare adjective**. The adjective never takes 很, 非常 or 太, and never changes form.",
+        "highlight": "比",
+        "examples": [
+          {
+            "hanzi": "他比我高。",
+            "pinyin": "Tā bǐ wǒ gāo.",
+            "english": "He is taller than me."
+          },
+          {
+            "hanzi": "今天比昨天冷。",
+            "pinyin": "Jīntiān bǐ zuótiān lěng.",
+            "english": "Today is colder than yesterday."
+          }
+        ]
+      },
+      {
+        "rule": "To say **by how much**, put the amount after the adjective: **一点儿** (a little), **得多 / 多了** (much more), or an exact number.",
+        "highlight": "一点儿 / 得多",
+        "examples": [
+          {
+            "hanzi": "我的哥哥比我大三岁。",
+            "pinyin": "Wǒ de gēge bǐ wǒ dà sān suì.",
+            "english": "My brother is three years older than me."
+          },
+          {
+            "hanzi": "这个比那个贵十块钱。",
+            "pinyin": "Zhège bǐ nàge guì shí kuài qián.",
+            "english": "This one is ten yuan dearer than that one."
+          },
+          {
+            "hanzi": "这里的冬天比北京暖和得多。",
+            "pinyin": "Zhèlǐ de dōngtiān bǐ Běijīng nuǎnhuo de duō.",
+            "english": "Winters here are much warmer than in Beijing."
+          }
+        ]
+      },
+      {
+        "rule": "To intensify, use **更** or **还** before the adjective (\"even more\"). They are the only degree words allowed in a 比 sentence besides 稍微 and 多/一点儿 as amount.",
+        "highlight": "更 / 还",
+        "examples": [
+          {
+            "hanzi": "弟弟比哥哥还高。",
+            "pinyin": "Dìdi bǐ gēge hái gāo.",
+            "english": "The younger brother is even taller than the older one."
+          },
+          {
+            "hanzi": "今天比昨天更热。",
+            "pinyin": "Jīntiān bǐ zuótiān gèng rè.",
+            "english": "Today is even hotter than yesterday."
+          }
+        ]
+      },
+      {
+        "rule": "With a **verb plus 得**, the comparison goes either before the verb or before the complement. Both are correct.",
+        "highlight": "比我",
+        "examples": [
+          {
+            "hanzi": "他比我跑得快。",
+            "pinyin": "Tā bǐ wǒ pǎo de kuài.",
+            "english": "He runs faster than me."
+          },
+          {
+            "hanzi": "他跑得比我快。",
+            "pinyin": "Tā pǎo de bǐ wǒ kuài.",
+            "english": "He runs faster than me."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "没有 / 不如",
+        "text": "比 says \"more than\". To say \"less than\", do not negate 比 but use 没有 (我没有他高). 不比 is rare and means \"not more than, perhaps equal\"."
+      },
+      {
+        "vs": "English -er / more",
+        "text": "English changes the adjective (taller, more beautiful). Chinese leaves the adjective alone; the grammar sits in 比."
+      }
+    ],
+    "pitfalls": [
+      "✗ 他比我很高。 → ✓ 他比我高。 / 他比我高得多。 很 is not allowed in 比 sentences.",
+      "✗ 他比我不高。 → ✓ 他没有我高。 Use 没有 for \"less than\".",
+      "✗ 我比他更高得多。 → ✓ 我比他高得多。 Do not mix 更 with an amount.",
+      "✗ 他比我高三厘米得多。 → ✓ 他比我高三厘米。 One kind of amount only.",
+      "✗ 这个比那个贵太多。 → ✓ 这个比那个贵很多。 Amounts use 很多 or 得多, not 太."
+    ],
+    "relatedPointIds": [
+      "g3-bi-geng-hai",
+      "g1-zui",
+      "g3-gen-yiyang"
+    ],
+    "keywords": [
+      "比较句",
+      "bi comparison",
+      "比",
+      "comparative",
+      "more than",
+      "taller than",
+      "compare",
+      "更",
+      "还",
+      "得多",
+      "一点儿"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "yiyang-comparison",
+    "title": "Equality: 跟…一样 and 像…一样",
+    "titleHanzi": "跟…一样 · 像…一样",
+    "category": "comparison",
+    "hskRange": [
+      3,
+      5
+    ],
+    "summary": "To say two things are the same, link them with 跟 (or 和) and add 一样. Put an adjective after 一样 to say in which respect they are equal.",
+    "pattern": "A + 跟 / 和 + B + (不) 一样 (+ Adjective)  ·  A + 像 + B + 一样 + Adjective / Verb",
+    "rules": [
+      {
+        "rule": "**A 跟 B 一样** means \"A is the same as B\". The comparison is symmetric, so 跟 and 和 are interchangeable and the two items can swap places.",
+        "highlight": "跟…一样",
+        "examples": [
+          {
+            "hanzi": "这件衣服跟那件一样。",
+            "pinyin": "Zhè jiàn yīfu gēn nà jiàn yíyàng.",
+            "english": "This garment is the same as that one."
+          },
+          {
+            "hanzi": "我的想法和你的一样。",
+            "pinyin": "Wǒ de xiǎngfǎ hé nǐ de yíyàng.",
+            "english": "My idea is the same as yours."
+          }
+        ]
+      },
+      {
+        "rule": "Add a **specific adjective** after 一样 for \"as … as\". Use 不一样 for \"different\", or 不一样 + adjective for \"not as … as\" (a mild form).",
+        "highlight": "一样高",
+        "examples": [
+          {
+            "hanzi": "他跟我一样高。",
+            "pinyin": "Tā gēn wǒ yíyàng gāo.",
+            "english": "He is as tall as I am."
+          },
+          {
+            "hanzi": "北京的天气跟上海不一样。",
+            "pinyin": "Běijīng de tiānqì gēn Shànghǎi bù yíyàng.",
+            "english": "The weather in Beijing is not the same as in Shanghai."
+          }
+        ]
+      },
+      {
+        "rule": "**像 … 一样** is a simile (\"like\") and can describe a verb. It is also used for \"as … as\" when you name a typical example.",
+        "highlight": "像…一样",
+        "examples": [
+          {
+            "hanzi": "她说汉语像中国人一样流利。",
+            "pinyin": "Tā shuō Hànyǔ xiàng Zhōngguó rén yíyàng liúlì.",
+            "english": "She speaks Chinese as fluently as a native."
+          },
+          {
+            "hanzi": "他像他爸爸一样喜欢运动。",
+            "pinyin": "Tā xiàng tā bàba yíyàng xǐhuan yùndòng.",
+            "english": "He likes sports just like his father."
+          }
+        ]
+      },
+      {
+        "rule": "When the two parts are complex, keep the structure parallel: compare like with like (the weather of A with the weather of B), as in English.",
+        "highlight": "的天气",
+        "examples": [
+          {
+            "hanzi": "我们学校的学生跟你们学校的一样多。",
+            "pinyin": "Wǒmen xuéxiào de xuéshēng gēn nǐmen xuéxiào de yíyàng duō.",
+            "english": "Our school has as many students as yours."
+          },
+          {
+            "hanzi": "这里的冬天和哈尔滨的不一样。",
+            "pinyin": "Zhèlǐ de dōngtiān hé Hā'ěrbīn de bù yíyàng.",
+            "english": "The winter here is not like the one in Harbin."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "比",
+        "text": "比 says one is more; 跟…一样 says they are equal. To say \"not as … as\", use 没有 or 不如 rather than 不一样 + adjective, which sounds weaker."
+      },
+      {
+        "vs": "同样",
+        "text": "同样 is mainly used before nouns and in written Chinese (同样的问题, 同样重要). In a comparison with 跟 or 和, use 一样."
+      }
+    ],
+    "pitfalls": [
+      "✗ 他一样高跟我。 → ✓ 他跟我一样高。 The comparison phrase 跟 B comes first.",
+      "✗ 我的跟你一样想法。 → ✓ 我的想法跟你的一样。 一样 goes at the end of the comparison.",
+      "✗ 他跟我一样很高。 → ✓ 他跟我一样高。 Do not add 很 after 一样.",
+      "✗ 北京的天气跟上海不同样。 → ✓ 北京的天气跟上海不一样。 Say 一样, not 同样, here."
+    ],
+    "relatedPointIds": [
+      "g3-gen-yiyang",
+      "g3-bi-geng-hai"
+    ],
+    "keywords": [
+      "等比句",
+      "gen yiyang",
+      "跟一样",
+      "和一样",
+      "as ... as",
+      "same as",
+      "equal comparison",
+      "像一样",
+      "xiang yiyang",
+      "不一样"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "meiyou-comparison",
+    "title": "Negative comparison: 没有, 不如, 不比 and 有",
+    "titleHanzi": "没有 · 不如 · 不比",
+    "category": "comparison",
+    "hskRange": [
+      3,
+      5
+    ],
+    "summary": "Chinese uses 没有 and 不如 for \"less than\" and a few structures for \"as good as\". The negation of 比 does not give the opposite meaning, so these separate structures are needed.",
+    "pattern": "A + 没有 + B (+ 这么 / 那么) + Adjective  ·  A + 不如 + B (+ Adjective)  ·  A + 有 + B (+ 这么 / 那么) + Adjective",
+    "rules": [
+      {
+        "rule": "**A 没有 B + adjective** says A is less than B: \"A isn't as … as B\". The adjective is bare, and you may add 这么 / 那么 for \"that / so\".",
+        "highlight": "没有",
+        "examples": [
+          {
+            "hanzi": "我没有他高。",
+            "pinyin": "Wǒ méiyǒu tā gāo.",
+            "english": "I am not as tall as he is."
+          },
+          {
+            "hanzi": "这里没有北京那么冷。",
+            "pinyin": "Zhèlǐ méiyǒu Běijīng nàme lěng.",
+            "english": "It is not as cold here as in Beijing."
+          }
+        ]
+      },
+      {
+        "rule": "**有** gives the positive in questions, with the same shape: \"Is A as … as B?\"",
+        "highlight": "有",
+        "examples": [
+          {
+            "hanzi": "你有你哥哥那么高吗?",
+            "pinyin": "Nǐ yǒu nǐ gēge nàme gāo ma?",
+            "english": "Are you as tall as your older brother?"
+          },
+          {
+            "hanzi": "这个孩子有桌子高吗?",
+            "pinyin": "Zhège háizi yǒu zhuōzi gāo ma?",
+            "english": "Is this child as tall as the table?"
+          }
+        ]
+      },
+      {
+        "rule": "**不如** means \"is not as good as\" and does not need an adjective. It can also compare actions: 坐车不如走路.",
+        "highlight": "不如",
+        "examples": [
+          {
+            "hanzi": "我的汉语不如他的好。",
+            "pinyin": "Wǒ de Hànyǔ bùrú tā de hǎo.",
+            "english": "My Chinese is not as good as his."
+          },
+          {
+            "hanzi": "坐车不如走路健康。",
+            "pinyin": "Zuò chē bùrú zǒulù jiànkāng.",
+            "english": "Walking is healthier than going by car."
+          }
+        ]
+      },
+      {
+        "rule": "**不如** also opens a suggestion: \"we might as well …\". Followed by a verb phrase instead of an adjective, it proposes a better alternative.",
+        "highlight": "不如",
+        "examples": [
+          {
+            "hanzi": "天气这么热,不如我们去游泳吧。",
+            "pinyin": "Tiānqì zhème rè, bùrú wǒmen qù yóuyǒng ba.",
+            "english": "It is so hot, let's go swimming instead."
+          },
+          {
+            "hanzi": "你一个人去,不如和我一起去。",
+            "pinyin": "Nǐ yí gè rén qù, bùrú hé wǒ yìqǐ qù.",
+            "english": "Rather than go on your own, you might as well come with me."
+          }
+        ]
+      },
+      {
+        "rule": "**不比** denies a claim: \"is not more … than\". It leaves room for equality: 他不比我高 means \"he's not taller than I am (about the same, or shorter)\".",
+        "highlight": "不比",
+        "examples": [
+          {
+            "hanzi": "他不比我高,我们差不多。",
+            "pinyin": "Tā bùbǐ wǒ gāo, wǒmen chàbùduō.",
+            "english": "He is no taller than I am, we are about the same."
+          },
+          {
+            "hanzi": "这件不比那件贵,都是一百块。",
+            "pinyin": "Zhè jiàn bùbǐ nà jiàn guì, dōu shì yìbǎi kuài.",
+            "english": "This one is no dearer than that one, both cost a hundred yuan."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "比",
+        "text": "To say \"less\", never write 不比; use 没有. 我没有他高 means I am shorter; 我不比他高 only denies I am taller."
+      },
+      {
+        "vs": "跟…一样",
+        "text": "一样 states equality. 没有 and 不如 both state inferiority, but 不如 can also comment on value in general (坐车不如走路)."
+      }
+    ],
+    "pitfalls": [
+      "✗ 我比他不高。 → ✓ 我没有他高。 Never place a negative inside 比.",
+      "✗ 我没有他很高。 → ✓ 我没有他高。 No 很 in these comparisons.",
+      "✗ 他没有我不高。 → ✓ 他没有我高。 Do not negate the adjective after 没有.",
+      "✗ 不如他好我。 → ✓ 我不如他好。 The subject goes first."
+    ],
+    "relatedPointIds": [
+      "g3-bi-geng-hai",
+      "g3-gen-yiyang",
+      "g4-yuqi-buru"
+    ],
+    "keywords": [
+      "没有比较句",
+      "不如",
+      "不比",
+      "没有",
+      "meiyou",
+      "buru",
+      "bubi",
+      "less than",
+      "not as ... as",
+      "negative comparison",
+      "不如我们",
+      "have comparison"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "progressive-comparison",
+    "title": "Gradual change: 越来越 and 越…越…",
+    "titleHanzi": "越来越 · 越…越…",
+    "category": "comparison",
+    "hskRange": [
+      2,
+      4
+    ],
+    "summary": "越来越 says a quality keeps growing as time passes. 越…越… links two changing qualities: the more of one, the more of the other.",
+    "pattern": "Subject + 越来越 + Adjective / Verb  ·  越 + A, 越 + B  ·  一天比一天 + Adjective",
+    "rules": [
+      {
+        "rule": "**越来越 + adjective** describes a trend over time: \"more and more …\". Nothing is compared with a second thing; time itself is the reference.",
+        "highlight": "越来越",
+        "examples": [
+          {
+            "hanzi": "天气越来越冷了。",
+            "pinyin": "Tiānqì yuè lái yuè lěng le.",
+            "english": "It is getting colder and colder."
+          },
+          {
+            "hanzi": "你的汉语越来越好了。",
+            "pinyin": "Nǐ de Hànyǔ yuè lái yuè hǎo le.",
+            "english": "Your Chinese is getting better and better."
+          }
+        ]
+      },
+      {
+        "rule": "It also works with **mental or feeling verbs** (喜欢, 了解, 怕, 想): \"more and more I like / understand\".",
+        "highlight": "越来越喜欢",
+        "examples": [
+          {
+            "hanzi": "我越来越喜欢这个城市了。",
+            "pinyin": "Wǒ yuè lái yuè xǐhuan zhège chéngshì le.",
+            "english": "I like this city more and more."
+          },
+          {
+            "hanzi": "他越来越了解中国文化了。",
+            "pinyin": "Tā yuè lái yuè liǎojiě Zhōngguó wénhuà le.",
+            "english": "He understands Chinese culture better and better."
+          }
+        ]
+      },
+      {
+        "rule": "**越 A 越 B** means \"the more A, the more B\". Both halves have a verb or adjective, and the second half often follows the first with a pause.",
+        "highlight": "越…越",
+        "examples": [
+          {
+            "hanzi": "这本书我越看越喜欢。",
+            "pinyin": "Zhè běn shū wǒ yuè kàn yuè xǐhuan.",
+            "english": "The more I read this book, the more I like it."
+          },
+          {
+            "hanzi": "你越着急,越容易出错。",
+            "pinyin": "Nǐ yuè zháojí, yuè róngyì chūcuò.",
+            "english": "The more you hurry, the easier it is to make mistakes."
+          }
+        ]
+      },
+      {
+        "rule": "**一天比一天 / 一年比一年** + adjective gives the same sense with a stronger time frame and can be used with 好, 冷, 忙, 大 and so on.",
+        "highlight": "一天比一天",
+        "examples": [
+          {
+            "hanzi": "他的身体一天比一天好。",
+            "pinyin": "Tā de shēntǐ yì tiān bǐ yì tiān hǎo.",
+            "english": "His health is improving day by day."
+          },
+          {
+            "hanzi": "这里的房价一年比一年高。",
+            "pinyin": "Zhèlǐ de fángjià yì nián bǐ yì nián gāo.",
+            "english": "House prices here rise year after year."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "更",
+        "text": "更 compares two things (今天比昨天更冷). 越来越 needs only one subject and a time sequence."
+      },
+      {
+        "vs": "越…越 vs 越来越",
+        "text": "越来越 has no second variable. 越…越 correlates two. Do not mix them: ✗ 越来越…越来越."
+      }
+    ],
+    "pitfalls": [
+      "✗ 天气越来越很冷。 → ✓ 天气越来越冷。 No 很 after 越来越.",
+      "✗ 我越来越喜欢很。 → ✓ 我越来越喜欢这个城市。 喜欢 needs its object.",
+      "✗ 他越学越汉语好。 → ✓ 他汉语越学越好。 Adjective stays in its slot.",
+      "✗ 天气越来越冷了很。 → ✓ 天气越来越冷了。 Put 了 at the end, not extra degree words."
+    ],
+    "relatedPointIds": [
+      "g2-yuelaiyue",
+      "g3-yue-yue",
+      "g3-bi-geng-hai"
+    ],
+    "keywords": [
+      "越来越",
+      "越越",
+      "yue lai yue",
+      "yue yue",
+      "more and more",
+      "the more",
+      "一天比一天",
+      "increasing",
+      "gradual change"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "degree-adverbs-comparison",
+    "title": "Degree adverbs and approximate equality: 更, 最, 比较, 有点儿, 差不多",
+    "titleHanzi": "更 · 最 · 比较 · 有点儿 · 差不多",
+    "category": "comparison",
+    "hskRange": [
+      1,
+      5
+    ],
+    "summary": "A handful of adverbs mark where something sits on a scale. 最 is the top, 更 is further than before, 比较 is fairly, 有点儿 is slightly too much, and 差不多 is nearly the same.",
+    "pattern": "最 / 更 / 比较 / 稍微 / 有点儿 / 非常 + Adjective  ·  A 跟 B 差不多 (+ Adjective)",
+    "rules": [
+      {
+        "rule": "**最** marks the highest degree among a group. **更** means \"even more\" than something already mentioned. Both go directly before the adjective or verb.",
+        "highlight": "最 / 更",
+        "examples": [
+          {
+            "hanzi": "这家饭馆的菜最好吃。",
+            "pinyin": "Zhè jiā fànguǎn de cài zuì hǎochī.",
+            "english": "The food in this restaurant tastes best."
+          },
+          {
+            "hanzi": "昨天很冷,今天更冷。",
+            "pinyin": "Zuótiān hěn lěng, jīntiān gèng lěng.",
+            "english": "It was cold yesterday, today it is even colder."
+          }
+        ]
+      },
+      {
+        "rule": "**比较** means \"fairly, relatively\" and is neutral. **非常 / 特别** are very strong. **有点儿** is \"a bit\", usually describing something undesirable.",
+        "highlight": "比较 / 有点儿",
+        "examples": [
+          {
+            "hanzi": "这件衣服比较便宜。",
+            "pinyin": "Zhè jiàn yīfu bǐjiào piányi.",
+            "english": "This piece of clothing is fairly cheap."
+          },
+          {
+            "hanzi": "今天有点儿冷。",
+            "pinyin": "Jīntiān yǒudiǎnr lěng.",
+            "english": "It is a bit cold today."
+          }
+        ]
+      },
+      {
+        "rule": "**稍微 + adjective + 一点儿** gives a small difference after a comparison; **一点儿** after the adjective suggests \"make it a little more …\".",
+        "highlight": "稍微",
+        "examples": [
+          {
+            "hanzi": "请稍微说慢一点儿。",
+            "pinyin": "Qǐng shāowēi shuō màn yìdiǎnr.",
+            "english": "Please speak a little more slowly."
+          },
+          {
+            "hanzi": "这个房间比那个大一点儿。",
+            "pinyin": "Zhège fángjiān bǐ nàge dà yìdiǎnr.",
+            "english": "This room is a little bigger than that one."
+          }
+        ]
+      },
+      {
+        "rule": "**差不多** says two things are nearly the same, or that something is almost done. It also serves as an adjective: \"about the same\".",
+        "highlight": "差不多",
+        "examples": [
+          {
+            "hanzi": "我们两个人差不多高。",
+            "pinyin": "Wǒmen liǎng gè rén chàbùduō gāo.",
+            "english": "The two of us are about the same height."
+          },
+          {
+            "hanzi": "饭差不多做好了。",
+            "pinyin": "Fàn chàbùduō zuòhǎo le.",
+            "english": "The meal is almost ready."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "有点儿 vs 一点儿",
+        "text": "有点儿 goes before the adjective and implies a negative feeling (有点儿贵 = a bit too expensive). 一点儿 goes after the adjective and means a small amount (便宜一点儿 = a bit cheaper)."
+      },
+      {
+        "vs": "很",
+        "text": "很 often has no strength in basic sentences, it just links subject and adjective. 非常 and 特别 carry real intensity."
+      }
+    ],
+    "pitfalls": [
+      "✗ 今天有点儿很冷。 → ✓ 今天有点儿冷。 Do not stack degree adverbs.",
+      "✗ 请说慢点儿一点。 → ✓ 请说慢一点儿。 Use one amount word after the adjective.",
+      "✗ 这个比那个比较大。 → ✓ 这个比那个大。 Do not use 比较 in a 比 sentence.",
+      "✗ 他差不多跟我高。 → ✓ 他跟我差不多高。 差不多 follows the comparison."
+    ],
+    "relatedPointIds": [
+      "g1-zui",
+      "g3-bi-geng-hai",
+      "g3-jile-dehen"
+    ],
+    "keywords": [
+      "程度副词",
+      "chengdu fuci",
+      "degree adverb",
+      "更",
+      "最",
+      "比较",
+      "有点儿",
+      "差不多",
+      "稍微",
+      "非常",
+      "slightly",
+      "fairly",
+      "almost the same"
+    ],
+    "status": "draft"
+  }
+]

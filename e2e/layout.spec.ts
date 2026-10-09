@@ -15,9 +15,12 @@ const VIEWPORTS = [
   { name: 'tablet', width: 768, height: 1024 },
   { name: 'desktop', width: 1280, height: 800 },
 ];
+const SPECIALTY_ROUTES = ['home', 'topics', 'dictionary', 'insights', 'achievements'];
 const ROUTES = {
   chinese: ['home', 'learn', 'topics', 'dictionary', 'insights', 'achievements'],
   english: ['home', 'learn', 'grammar', 'irregular', 'topics', 'dictionary', 'insights', 'achievements'],
+  'chinese:emotor': SPECIALTY_ROUTES,
+  'english:power-electronics': SPECIALTY_ROUTES,
 } as const;
 
 async function layoutIssues(page: Page): Promise<string[]> {
@@ -56,7 +59,7 @@ async function layoutIssues(page: Page): Promise<string[]> {
   });
 }
 
-for (const course of ['chinese', 'english'] as const) {
+for (const course of ['chinese', 'english', 'chinese:emotor', 'english:power-electronics'] as const) {
   for (const lang of LANGUAGES) {
     for (const vp of VIEWPORTS) {
       test(`${course} course · ${lang} · ${vp.name} (${vp.width}px) has no layout overflow`, async ({ page }) => {
@@ -73,6 +76,27 @@ for (const course of ['chinese', 'english'] as const) {
           await page.waitForTimeout(250);
           for (const issue of await layoutIssues(page)) problems.push(`#/${route}: ${issue}`);
         }
+        if (course === 'chinese') {
+          // The wiki tab: list and an opened article
+          await page.goto(`/?lang=${lang}#/learn`);
+          await page.waitForSelector('main', { timeout: 15000 });
+          await page.getByRole('tab').nth(2).click();
+          await page.waitForSelector('[data-article]');
+          for (const issue of await layoutIssues(page)) problems.push(`wiki list: ${issue}`);
+          await page.locator('[data-article]').first().click();
+          await page.waitForSelector('[data-wiki-article]');
+          await page.waitForTimeout(200);
+          for (const issue of await layoutIssues(page)) problems.push(`wiki article: ${issue}`);
+        }
+        // The course catalogue lists every field with two buttons each
+        await page.goto(`/?lang=${lang}#/home`);
+        await page.waitForSelector('main', { timeout: 15000 });
+        await page.getByRole('button', { name: /settings|einstellungen|设置|Šéţţ/i }).first().click();
+        await page.getByTestId('settings-open-catalogue').click();
+        await page.waitForSelector('[data-domain]');
+        for (const issue of await layoutIssues(page)) problems.push(`catalogue: ${issue}`);
+        await page.getByRole('dialog').getByRole('button').first().click();
+        await page.waitForTimeout(150);
         // The settings dialog is the densest screen
         await page.getByRole('button', { name: /settings|einstellungen|设置|Šéţţ/i }).first().click();
         await page.waitForTimeout(200);

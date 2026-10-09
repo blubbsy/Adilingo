@@ -1,0 +1,232 @@
+@pack | sports-hobbies | Sports & Hobbies | 运动与休闲 | ⚽ | lifestyle | Athletic activities, recreational hobbies, outdoor sports, and games.
+运动 | sport; exercise | 我每天早上做运动。 | I exercise every morning.
+爱好 | hobby | 你有什么爱好？ | What hobbies do you have?
+足球 | football; soccer | 他们周末踢足球。 | They play football on weekends.
+篮球 | basketball | 他打篮球打得很好。 | He plays basketball very well.
+网球 | tennis | 我姐姐喜欢打网球。 | My older sister likes playing tennis.
+乒乓球 | table tennis | 爷爷每天打乒乓球。 | Grandpa plays table tennis every day.
+羽毛球 | badminton | 我们下午去打羽毛球。 | We are going to play badminton this afternoon.
+排球 | volleyball | 女孩们在打排球。 | The girls are playing volleyball.
+棒球 | baseball | 他喜欢看棒球比赛。 | He likes watching baseball games.
+高尔夫球 | golf | 爸爸周末去打高尔夫球。 | Dad plays golf on the weekend.
+游泳 | to swim; swimming | 夏天我常去游泳。 | In summer I often go swimming.
+跑步 | to run; jogging | 我早上在公园跑步。 | I jog in the park in the morning.
+音乐 | music | 我喜欢听轻松的音乐。 | I like listening to relaxing music.
+电影 | movie; film | 我们周六去看电影。 | We are going to a movie on Saturday.
+摄影 | photography | 她对摄影很有兴趣。 | She is very interested in photography.
+画画 | to draw; to paint | 小孩喜欢画画。 | Children like drawing.
+看书 | to read (books) | 晚上我喜欢在家看书。 | In the evening I like to read at home.
+唱歌 | to sing | 她唱歌很好听。 | She sings beautifully.
+跳舞 | to dance | 我们周五晚上去跳舞。 | We go dancing on Friday nights.
+旅游 | to travel; tourism | 我们假期去云南旅游。 | We are traveling to Yunnan during the holiday.
+游戏 | game | 孩子们在玩游戏。 | The children are playing a game.
+比赛 | match; competition | 明天有一场足球比赛。 | There is a football match tomorrow.
+健身 | to work out; fitness | 他每周去健身三次。 | He works out three times a week.
+爬山 | to climb a mountain; hiking | 秋天我们去爬山。 | In autumn we go hiking.
+滑雪 | to ski; skiing | 冬天他们去东北滑雪。 | In winter they go skiing in the northeast.
+吉他 | guitar | 他会弹吉他。 | He can play the guitar.
+钢琴 | piano | 她从五岁开始学钢琴。 | She started learning piano at five.
+棋 | chess; board game | 爷爷喜欢下棋。 | Grandpa likes playing chess.
+散步 | to take a walk | 饭后我们去散步。 | After dinner we go for a walk.
+玩 | to play; to have fun | 周末我想出去玩。 | I want to go out and have fun this weekend.
+玩儿 | to play; to hang out | 孩子们在公园里玩儿。 | The children are playing in the park.
+踢 | to kick | 他用右脚踢球。 | He kicks the ball with his right foot.
+打 | to play (ball games); to hit | 周末我们去打球。 | On weekends we go to play ball.
+球 | ball | 小狗追着球跑。 | The puppy runs after the ball.
+球场 | court; pitch | 篮球场上有很多人。 | There are many people on the basketball court.
+球队 | team (ball sports) | 我们学校的球队赢了。 | Our school's team won.
+队 | team | 我们是一个好队。 | We are a good team.
+队员 | team member | 他是足球队的队员。 | He is a member of the football team.
+运动员 | athlete | 她是一名游泳运动员。 | She is a swimming athlete.
+教练 | coach | 教练要求我们每天训练。 | The coach requires us to train every day.
+裁判 | referee | 裁判吹了哨子。 | The referee blew the whistle.
+观众 | spectator; audience | 观众为他鼓掌。 | The audience applauded for him.
+球迷 | fan (of a ball sport) | 他是一个足球迷。 | He is a football fan.
+冠军 | champion | 他们队得了冠军。 | Their team became champions.
+亚军 | runner-up | 我们得了亚军。 | We came in second place.
+第一名 | first place | 她游泳得了第一名。 | She took first place in swimming.
+赢 | to win | 我们队今天赢了。 | Our team won today.
+输 | to lose | 这次比赛我们输了。 | We lost this match.
+平局 | draw; tie | 比赛以平局结束。 | The match ended in a draw.
+得分 | to score; score | 他在比赛中得分最多。 | He scored the most points in the game.
+进球 | to score a goal | 他在最后一分钟进球了。 | He scored a goal in the last minute.
+射门 | to shoot at the goal | 前锋在禁区外射门。 | The forward shot from outside the box.
+守门员 | goalkeeper | 守门员扑出了点球。 | The goalkeeper saved the penalty.
+前锋 | forward; striker | 这个前锋跑得很快。 | This striker runs very fast.
+后卫 | defender | 后卫挡住了对手。 | The defender blocked the opponent.
+传球 | to pass the ball | 他传球给了队友。 | He passed the ball to a teammate.
+投篮 | to shoot a basket | 他在三分线外投篮。 | He shot from beyond the three-point line.
+发球 | to serve | 她用力发球。 | She served hard.
+训练 | to train; training | 球队每天下午训练。 | The team trains every afternoon.
+热身 | to warm up | 比赛前要先热身。 | You should warm up before the match.
+锻炼 | to exercise; work out | 老人在公园锻炼身体。 | Old people exercise in the park.
+体育馆 | gymnasium; sports hall | 体育馆里有一场比赛。 | There is a match in the gymnasium.
+体育场 | stadium | 体育场能坐五万人。 | The stadium can seat fifty thousand people.
+健身房 | gym | 健身房里有很多器材。 | The gym has lots of equipment.
+游泳池 | swimming pool | 游泳池的水很干净。 | The water in the swimming pool is clean.
+操场 | sports field | 孩子们在操场上玩。 | Children play on the sports field.
+跑道 | running track | 他在跑道上跑了五圈。 | He ran five laps on the track.
+马拉松 | marathon | 她参加了城市马拉松。 | She took part in the city marathon.
+长跑 | long-distance running | 长跑需要很好的耐力。 | Long-distance running requires good stamina.
+短跑 | sprint | 他是短跑冠军。 | He is the sprint champion.
+跳高 | high jump | 他跳高跳了两米。 | He jumped two meters in the high jump.
+跳远 | long jump | 她的跳远成绩很好。 | Her long jump result is very good.
+跳绳 | to jump rope | 孩子们在跳绳。 | The kids are jumping rope.
+拔河 | tug of war | 我们班在拔河比赛中赢了。 | Our class won the tug-of-war.
+接力 | relay | 四个人跑接力赛。 | Four people run the relay race.
+体操 | gymnastics | 她从小练习体操。 | She has practiced gymnastics since childhood.
+瑜伽 | yoga | 我每天早上做瑜伽。 | I do yoga every morning.
+太极拳 | tai chi | 公园里有人打太极拳。 | Some people practice tai chi in the park.
+武术 | martial arts | 他从小学武术。 | He has learned martial arts since childhood.
+功夫 | kung fu | 他很会打功夫。 | He is really good at kung fu.
+拳击 | boxing | 他在学拳击。 | He is learning boxing.
+举重 | weightlifting | 举重需要很大的力气。 | Weightlifting needs great strength.
+骑自行车 | to ride a bicycle | 周末我们骑自行车去郊外。 | On weekends we ride bicycles to the countryside.
+骑车 | to ride a bike | 他每天骑车上班。 | He rides a bike to work every day.
+骑马 | to ride a horse | 孩子在草原上骑马。 | The child rides a horse on the grassland.
+划船 | to row a boat | 我们在湖上划船。 | We are rowing a boat on the lake.
+钓鱼 | to fish | 爸爸喜欢去河边钓鱼。 | Dad likes going fishing by the river.
+潜水 | to dive | 他去海边学潜水。 | He went to the seaside to learn diving.
+冲浪 | to surf | 夏天很多人去海边冲浪。 | In summer many people surf at the beach.
+滑冰 | to ice-skate | 冬天湖面结冰可以滑冰。 | In winter the lake freezes and you can ice-skate.
+溜冰 | to roller-skate | 孩子们在广场溜冰。 | The kids are roller-skating on the square.
+滑板 | skateboard | 他在公园玩滑板。 | He skateboards in the park.
+登山 | mountain climbing | 登山需要好的鞋子。 | Mountain climbing needs good shoes.
+徒步 | to hike | 我们徒步走了二十公里。 | We hiked twenty kilometers.
+露营 | to camp | 周末我们去山里露营。 | This weekend we go camping in the mountains.
+野餐 | picnic | 春天大家去公园野餐。 | In spring everyone goes on a picnic in the park.
+帐篷 | tent | 我们搭了一个帐篷。 | We put up a tent.
+钓鱼竿 | fishing rod | 爸爸买了一根新钓鱼竿。 | Dad bought a new fishing rod.
+射箭 | archery | 她在学射箭。 | She is learning archery.
+攀岩 | rock climbing | 攀岩很考验体力。 | Rock climbing tests your strength.
+跑鞋 | running shoes | 我买了一双新跑鞋。 | I bought a pair of new running shoes.
+运动鞋 | sneakers; sports shoes | 他穿着运动鞋去爬山。 | He wears sneakers to climb the mountain.
+运动服 | sportswear | 运动服穿起来很舒服。 | Sportswear is comfortable to wear.
+泳衣 | swimsuit | 她带了一件泳衣。 | She brought a swimsuit.
+泳帽 | swimming cap | 游泳池要求戴泳帽。 | The pool requires a swimming cap.
+球拍 | racket | 我的球拍坏了。 | My racket is broken.
+球鞋 | ball shoes; sneakers | 他的球鞋很旧了。 | His sneakers are very old.
+哨子 | whistle | 裁判吹响了哨子。 | The referee blew the whistle.
+奖牌 | medal | 她赢得了一块奖牌。 | She won a medal.
+金牌 | gold medal | 中国队拿了很多金牌。 | The Chinese team won many gold medals.
+奖杯 | trophy | 队长举起了奖杯。 | The captain raised the trophy.
+奥运会 | Olympic Games | 奥运会每四年举行一次。 | The Olympics are held every four years.
+世界杯 | World Cup | 世界杯是足球的大赛。 | The World Cup is a major football event.
+亚运会 | Asian Games | 亚运会吸引了很多运动员。 | The Asian Games attracted many athletes.
+体育 | sports; PE | 他最喜欢上体育课。 | He likes PE class the most.
+体育迷 | sports fan | 我爸爸是个体育迷。 | My dad is a sports fan.
+直播 | live broadcast | 今晚有足球比赛直播。 | There is a live football broadcast tonight.
+爱好者 | enthusiast | 他是摄影爱好者。 | He is a photography enthusiast.
+业余 | amateur; spare time | 他业余时间喜欢画画。 | In his spare time he likes painting.
+休闲 | leisure | 周末是休闲的时间。 | The weekend is leisure time.
+娱乐 | entertainment | 看电影是常见的娱乐。 | Watching movies is a common entertainment.
+消遣 | pastime; to pass time | 下棋是他的消遣。 | Playing chess is his pastime.
+兴趣 | interest | 我对音乐很有兴趣。 | I am very interested in music.
+空闲 | free time | 你空闲的时候做什么？ | What do you do in your free time?
+业余爱好 | hobby; pastime | 你的业余爱好是什么？ | What is your hobby?
+听音乐 | to listen to music | 我喜欢一边走路一边听音乐。 | I like listening to music while walking.
+唱片 | record; album | 他收藏了很多旧唱片。 | He collects many old records.
+歌曲 | song | 这首歌曲很流行。 | This song is very popular.
+歌手 | singer | 她是我最喜欢的歌手。 | She is my favorite singer.
+演唱会 | concert | 周末有一场演唱会。 | There is a concert this weekend.
+乐队 | band | 这个乐队很有名。 | This band is very famous.
+乐器 | musical instrument | 你会演奏什么乐器？ | What instruments can you play?
+小提琴 | violin | 她在练习小提琴。 | She is practicing the violin.
+大提琴 | cello | 大提琴的声音很低沉。 | The cello's sound is deep.
+鼓 | drum | 他在乐队里打鼓。 | He plays the drums in the band.
+架子鼓 | drum set | 他有一套架子鼓。 | He has a drum set.
+笛子 | bamboo flute | 他会吹笛子。 | He can play the bamboo flute.
+二胡 | erhu | 二胡是中国传统乐器。 | The erhu is a traditional Chinese instrument.
+古筝 | guzheng | 她学了三年古筝。 | She has studied the guzheng for three years.
+萨克斯 | saxophone | 他吹萨克斯很好听。 | He plays the saxophone beautifully.
+弹 | to play (string instrument) | 她会弹钢琴。 | She can play the piano.
+演奏 | to perform (instrument) | 他在音乐会上演奏小提琴。 | He played violin at the concert.
+合唱 | choir; chorus | 学校有一个合唱团。 | The school has a choir.
+卡拉OK | karaoke | 周末我们去唱卡拉OK。 | On weekends we go sing karaoke.
+舞蹈 | dance | 她在学民族舞蹈。 | She is learning folk dance.
+芭蕾 | ballet | 小女孩在学芭蕾。 | The little girl is learning ballet.
+街舞 | street dance | 他们在广场跳街舞。 | They dance street dance on the square.
+广场舞 | square dancing | 阿姨们每晚跳广场舞。 | The aunties do square dancing every evening.
+拍照 | to take photos | 请帮我们拍照。 | Please take a photo of us.
+照相机 | camera | 他买了一台新照相机。 | He bought a new camera.
+相机 | camera | 她带着相机去旅行。 | She travels with her camera.
+镜头 | lens; shot | 这个镜头很贵。 | This lens is expensive.
+照片 | photo | 墙上挂着很多照片。 | Many photos hang on the wall.
+相册 | photo album | 我们一起看旧相册。 | We look at the old photo album together.
+自拍 | selfie | 她喜欢和朋友自拍。 | She likes taking selfies with friends.
+画 | painting; to draw | 墙上有一幅画。 | There is a painting on the wall.
+绘画 | painting | 他从小喜欢绘画。 | He has liked painting since childhood.
+素描 | sketch | 她在画一张素描。 | She is drawing a sketch.
+水彩 | watercolor | 他用水彩画风景。 | He paints landscapes with watercolors.
+油画 | oil painting | 这幅油画很漂亮。 | This oil painting is beautiful.
+书法 | calligraphy | 爷爷每天练书法。 | Grandpa practices calligraphy every day.
+毛笔 | brush pen | 写书法要用毛笔。 | You need a brush pen for calligraphy.
+手工 | handicraft | 她喜欢做手工。 | She likes making handicrafts.
+编织 | to knit; weave | 奶奶在编织毛衣。 | Grandma is knitting a sweater.
+刺绣 | embroidery | 刺绣是传统工艺。 | Embroidery is a traditional craft.
+折纸 | origami | 孩子们在学折纸。 | The children are learning origami.
+拼图 | jigsaw puzzle | 我们一起完成了这幅拼图。 | We finished the jigsaw puzzle together.
+积木 | building blocks | 他用积木搭了一座房子。 | He built a house with building blocks.
+收藏 | to collect; collection | 他收藏旧邮票。 | He collects old stamps.
+邮票 | stamp | 他有一本邮票册。 | He has a stamp album.
+园艺 | gardening | 她爱好园艺。 | She loves gardening.
+养花 | to grow flowers | 妈妈在阳台养花。 | Mom grows flowers on the balcony.
+养宠物 | to keep pets | 他们家养宠物。 | Their family keeps pets.
+下棋 | to play chess | 老人们在树下下棋。 | The old men play chess under the tree.
+象棋 | Chinese chess | 爷爷教我下象棋。 | Grandpa taught me Chinese chess.
+围棋 | Go (board game) | 围棋比象棋更复杂。 | Go is more complex than chess.
+国际象棋 | chess | 他参加了国际象棋比赛。 | He took part in a chess competition.
+扑克 | poker; playing cards | 晚上我们玩扑克。 | In the evening we play cards.
+麻将 | mahjong | 过年时一家人打麻将。 | During New Year the family plays mahjong.
+桌游 | board game | 周末我们玩桌游。 | At weekends we play board games.
+电子游戏 | video game | 他喜欢玩电子游戏。 | He likes playing video games.
+手机游戏 | mobile game | 手机游戏占用很多时间。 | Mobile games take a lot of time.
+玩家 | player (gamer) | 这个游戏有很多玩家。 | This game has many players.
+通关 | to clear a game | 他终于通关了。 | He finally cleared the game.
+谜语 | riddle | 他猜出了这个谜语。 | He solved the riddle.
+魔术 | magic trick | 他表演了一个魔术。 | He performed a magic trick.
+看电视 | to watch TV | 晚上我们一起看电视。 | In the evening we watch TV together.
+电视剧 | TV series | 妈妈爱看电视剧。 | Mom loves watching TV dramas.
+综艺节目 | variety show | 这个综艺节目很受欢迎。 | This variety show is very popular.
+纪录片 | documentary | 我喜欢看自然纪录片。 | I like watching nature documentaries.
+电影院 | cinema | 电影院里人很多。 | The cinema is crowded.
+电影票 | movie ticket | 我买了两张电影票。 | I bought two movie tickets.
+喜剧 | comedy | 我们看了一部喜剧。 | We watched a comedy.
+动画片 | cartoon | 孩子们爱看动画片。 | Kids love cartoons.
+恐怖片 | horror film | 我不敢看恐怖片。 | I dare not watch horror films.
+小说 | novel | 她喜欢读侦探小说。 | She likes reading detective novels.
+漫画 | comic | 弟弟在看漫画。 | My younger brother is reading comics.
+杂志 | magazine | 书店里有很多杂志。 | The bookstore has many magazines.
+博物馆 | museum | 周末我们去博物馆。 | On the weekend we go to the museum.
+展览 | exhibition | 这个展览很值得看。 | This exhibition is well worth seeing.
+公园 | park | 公园里有很多人散步。 | Many people take walks in the park.
+动物园 | zoo | 孩子们喜欢去动物园。 | Children like to go to the zoo.
+游乐场 | amusement park | 周日我们带孩子去游乐场。 | On Sunday we take the kids to the amusement park.
+过山车 | roller coaster | 他不敢坐过山车。 | He doesn't dare to ride the roller coaster.
+摩天轮 | Ferris wheel | 我们坐摩天轮看夜景。 | We rode the Ferris wheel to see the night view.
+放风筝 | to fly a kite | 春天孩子们在公园放风筝。 | In spring kids fly kites in the park.
+风筝 | kite | 他做了一个漂亮的风筝。 | He made a beautiful kite.
+烧烤 | barbecue | 周末我们在院子里烧烤。 | At the weekend we barbecue in the yard.
+聚会 | party; gathering | 周六有一个朋友聚会。 | There is a gathering of friends on Saturday.
+逛街 | to go shopping; stroll | 周末她和朋友逛街。 | On weekends she goes strolling with friends.
+兜风 | to go for a drive/ride | 晚上我们开车去海边兜风。 | In the evening we drive to the sea for a spin.
+度假 | to vacation | 他们去海岛度假。 | They went to an island for vacation.
+志愿者 | volunteer | 她是动物保护志愿者。 | She is an animal protection volunteer.
+健身操 | aerobics | 公园里有人跳健身操。 | Some people do aerobics in the park.
+乒乓球拍 | table tennis paddle | 我新买了一个乒乓球拍。 | I bought a new table tennis paddle.
+篮球场 | basketball court | 篮球场上有人在练习。 | Some people are practicing on the basketball court.
+足球场 | football pitch | 足球场的草很绿。 | The grass on the football pitch is green.
+网球场 | tennis court | 我们预约了网球场。 | We booked a tennis court.
+哑铃 | dumbbell | 他每天用哑铃练臂力。 | He trains his arms with dumbbells every day.
+跑步机 | treadmill | 我在跑步机上跑了三十分钟。 | I ran on the treadmill for thirty minutes.
+自行车 | bicycle | 周末我骑自行车去郊外。 | On the weekend I cycle to the outskirts.
+爬楼梯 | to climb stairs | 爬楼梯也是一种锻炼。 | Climbing stairs is also a kind of exercise.
+伸展 | to stretch | 运动后要伸展一下身体。 | You should stretch your body after exercise.
+肌肉 | muscle | 他练出了很多肌肉。 | He has built a lot of muscle.
+体力 | physical strength | 爬山需要很好的体力。 | Hiking requires good physical strength.
+耐力 | stamina | 长跑可以提高耐力。 | Long-distance running improves stamina.
+受伤 | to get injured | 他踢球时受伤了。 | He got injured while playing football.
+加油 | come on; to cheer | 大家一起为运动员加油。 | Let's all cheer for the athletes.
+团队 | team (group) | 我们是一个很好的团队。 | We are a very good team.
+爱玩 | fond of playing | 孩子都很爱玩。 | All children love to play.
+旅行 | to travel; trip | 我最喜欢的爱好是旅行。 | My favorite hobby is traveling.

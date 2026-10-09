@@ -1,5 +1,6 @@
 import type { CourseId, Curriculum, HskLevel, VocabItem } from '../types';
 import { trackOf } from './courses';
+import { loadDomainItems, parseDomainCourse } from './domains';
 import type { TFunction } from '../i18n';
 
 /** Compact record produced by scripts/build-vocab.mjs. */
@@ -62,6 +63,13 @@ export const CURRICULA: CurriculumInfo[] = [
     description: '中国全国标准：初中中考、高中高考、大学英语四级(CET-4)、六级(CET-6)与考研。',
     levels: [1, 2, 3, 4, 5, 6],
   },
+  {
+    id: 'domain',
+    name: 'Specialty vocabulary tiers',
+    short: 'Essentials · Professional · Expert',
+    description: 'Terms of one field, grouped into three tiers by how specialised they are.',
+    levels: [1, 2, 3],
+  },
 ];
 
 export function curriculumInfo(id: Curriculum): CurriculumInfo {
@@ -82,6 +90,10 @@ const ENGLISH_LEVEL_LABELS: Record<number, string> = {
  * English course's exam-based levels ("B1 · Gaokao" / "B1 · 高考"); without it the Chinese labels are used.
  */
 export function levelLabel(level: number, courseId?: CourseId | number, t?: TFunction): string {
+  if (typeof courseId === 'string' && parseDomainCourse(courseId)) {
+    if (t && level >= 1 && level <= 3) return t(`level.domain.${level as 1 | 2 | 3}`);
+    return ['Essentials', 'Professional', 'Expert'][level - 1] ?? `Level ${level}`;
+  }
   if (typeof courseId === 'string' && trackOf(courseId) === 'english') {
     if (t && level >= 1 && level <= 6) return t(`level.english.${level as 1 | 2 | 3 | 4 | 5 | 6}`);
     return ENGLISH_LEVEL_LABELS[level] ?? `Level ${level}`;
@@ -96,6 +108,8 @@ export interface VocabLibrary {
 
 /** Loads the bundled word list lazily (separate chunks, cached by the browser / service worker). */
 export async function loadLibrary(courseId: CourseId = 'chinese'): Promise<VocabLibrary> {
+  const specialty = parseDomainCourse(courseId);
+  if (specialty) return { all: await loadDomainItems(specialty.domain, specialty.track) };
   if (trackOf(courseId) === 'english') {
     const { ENGLISH_VOCABULARY } = await import('./englishVocab');
     return { all: ENGLISH_VOCABULARY };
@@ -131,7 +145,7 @@ export async function loadLibrary(courseId: CourseId = 'chinese'): Promise<Vocab
  */
 export function vocabForCurriculum(lib: VocabLibrary, curriculum: Curriculum): VocabItem[] {
   // If the library is English and curriculum isn't set, fallback to cefr
-  const activeCurriculum = (curriculum === 'cefr' || curriculum === 'cet')
+  const activeCurriculum = (curriculum === 'cefr' || curriculum === 'cet' || curriculum === 'domain')
     ? curriculum
     : (lib.all[0]?.id.startsWith('en-') ? 'cefr' : curriculum);
 

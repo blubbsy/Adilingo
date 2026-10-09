@@ -1,0 +1,232 @@
+@topic | Nature & Environment | 🌳
+nature | /ˈneɪtʃər/ | 自然; 大自然 | We should protect nature for future generations. | 我们应该为子孙后代保护自然。 | 1
+scenery | /ˈsiːnəri/ | 风景; 景色 | The scenery along the coast is breathtaking. | 沿海的风景令人屏息。 | 3
+mountain | /ˈmaʊntn/ | 山 | We climbed the mountain before sunrise. | 我们在日出前爬上了那座山。 | 1
+hill | /hɪl/ | 小山; 山丘 | The farm is on top of a green hill. | 农场位于一座绿色的小山顶上。 | 1
+valley | /ˈvæli/ | 山谷 | A river runs through the valley. | 一条河流经山谷。 | 2
+river | /ˈrɪvər/ | 河流 | The river flows into the sea. | 这条河流入大海。 | 1
+lake | /leɪk/ | 湖 | We went swimming in the lake. | 我们去湖里游泳。 | 1
+pond | /pɑːnd/ | 池塘 | A small pond sits at the edge of the park. | 公园边上有一个小池塘。 | 2
+waterfall | /ˈwɔːtərfɔːl/ | 瀑布 | We stood under the waterfall and got soaked. | 我们站在瀑布下,浑身都湿透了。 | 3
+ocean | /ˈoʊʃn/ | 海洋 | The ocean is deep and full of life. | 海洋很深,充满了生命。 | 2
+sea | /siː/ | 大海 | The sea was calm this morning. | 今天早上海面很平静。 | 1
+coast | /koʊst/ | 海岸 | The village sits on the rocky coast. | 这个村庄坐落在多岩石的海岸上。 | 3
+peninsula | /pəˈnɪnsələ/ | 半岛 | The town lies on a narrow peninsula. | 这座小镇位于一个狭长的半岛上。 | 5
+desert | /ˈdɛzərt/ | 沙漠 | Camels can survive for days in the desert. | 骆驼能在沙漠里生存好几天。 | 3
+forest | /ˈfɔːrɪst/ | 森林 | We hiked through the forest. | 我们徒步穿过了森林。 | 2
+jungle | /ˈdʒʌŋɡl/ | 丛林 | The jungle was full of noise and bright colors. | 丛林里充满了喧闹声和鲜艳的色彩。 | 3
+rainforest | /ˈreɪnfɔːrɪst/ | 雨林 | Many species live in the rainforest. | 许多物种生活在雨林中。 | 4
+grassland | /ˈɡræslænd/ | 草原 | Herds of antelope roam the grassland. | 成群的羚羊在草原上游荡。 | 4
+prairie | /ˈprɛri/ | 大草原 | The prairie stretched as far as I could see. | 大草原一眼望不到边。 | 4
+meadow | /ˈmɛdoʊ/ | 草地; 牧场 | We had a picnic in the flower meadow. | 我们在开满鲜花的草地上野餐。 | 3
+swamp | /swɑːmp/ | 沼泽 | The swamp is home to many frogs. | 这片沼泽是许多青蛙的家。 | 3
+marsh | /mɑːrʃ/ | 沼泽地; 湿地 | Birds nest in the marsh every spring. | 每年春天鸟儿都在湿地里筑巢。 | 4
+wetland | /ˈwɛtlænd/ | 湿地 | Wetlands help store water during floods. | 湿地有助于在洪水期间蓄水。 | 5
+cave | /keɪv/ | 洞穴 | We explored a dark cave in the hills. | 我们探索了山里一个黑暗的洞穴。 | 2
+cliff | /klɪf/ | 悬崖 | The house stands on the edge of a cliff. | 这栋房子建在悬崖边上。 | 3
+stone | /stoʊn/ | 石头 | She picked up a smooth stone from the river. | 她从河里捡起一块光滑的石头。 | 1
+pebble | /ˈpɛbl/ | 卵石; 小石子 | The beach is covered with colorful pebbles. | 海滩上铺满了五颜六色的卵石。 | 3
+sand | /sænd/ | 沙子 | The children played in the warm sand. | 孩子们在温暖的沙子里玩耍。 | 1
+soil | /sɔɪl/ | 土壤 | Good soil helps plants grow strong. | 肥沃的土壤能让植物长得强壮。 | 3
+mud | /mʌd/ | 泥 | The car got stuck in the mud. | 汽车陷进了泥里。 | 2
+clay | /kleɪ/ | 黏土 | The pot is made of red clay. | 这个罐子是用红色黏土做的。 | 4
+gravel | /ˈɡrævl/ | 碎石; 砾石 | The path is covered with gravel. | 小路上铺满了碎石。 | 4
+crater | /ˈkreɪtər/ | 火山口; 陨石坑 | The volcano has a deep crater at the top. | 这座火山的顶部有一个很深的火山口。 | 5
+lava | /ˈlɑːvə/ | 熔岩 | Hot lava flowed slowly down the mountain. | 炽热的熔岩缓缓流下山坡。 | 4
+glacier | /ˈɡleɪʃər/ | 冰川 | The glacier is melting every summer. | 这座冰川每年夏天都在融化。 | 4
+iceberg | /ˈaɪsbɜːrɡ/ | 冰山 | A huge iceberg drifted past the ship. | 一座巨大的冰山从船旁漂过。 | 4
+hillside | /ˈhɪlsaɪd/ | 山坡 | Goats grazed on the hillside. | 山羊在山坡上吃草。 | 4
+summit | /ˈsʌmɪt/ | 山顶; 顶峰 | We reached the summit just before noon. | 我们在正午前不久到达了山顶。 | 4
+peak | /piːk/ | 山峰; 顶点 | The peak of the mountain was covered in snow. | 山峰的顶部覆盖着积雪。 | 3
+ridge | /rɪdʒ/ | 山脊 | We walked along the ridge with a view of the lake. | 我们沿着山脊走,可以看到湖景。 | 5
+canyon | /ˈkænjən/ | 峡谷 | The river has carved a deep canyon. | 河流冲刷出了一条很深的峡谷。 | 4
+gorge | /ɡɔːrdʒ/ | 深谷; 峡谷 | The river runs through a narrow gorge. | 河流流经一条狭窄的峡谷。 | 5
+reef | /riːf/ | 礁; 珊瑚礁 | Colorful fish live near the coral reef. | 色彩艳丽的鱼生活在珊瑚礁附近。 | 4
+coral | /ˈkɔːrəl/ | 珊瑚 | Coral is home to thousands of sea creatures. | 珊瑚是成千上万海洋生物的家。 | 4
+seaweed | /ˈsiːwiːd/ | 海藻 | Seaweed floats near the rocks at low tide. | 退潮时海藻漂浮在岩石附近。 | 3
+tide | /taɪd/ | 潮汐; 潮水 | The tide goes out twice a day. | 潮水每天退两次。 | 3
+lagoon | /ləˈɡuːn/ | 泻湖 | We swam in the calm lagoon. | 我们在平静的泻湖里游泳。 | 5
+bay | /beɪ/ | 海湾 | The boats are anchored in the bay. | 船只停泊在海湾里。 | 3
+shore | /ʃɔːr/ | 岸; 湖岸 | We walked along the shore at sunset. | 日落时我们沿着岸边散步。 | 3
+geyser | /ˈɡaɪzər/ | 间歇泉 | The geyser shoots hot water high into the air. | 间歇泉把热水高高地喷向空中。 | 5
+hot spring | /hɑːt sprɪŋ/ | 温泉 | We relaxed in a hot spring after the hike. | 徒步之后我们在温泉里放松了一下。 | 4
+globe | /ɡloʊb/ | 地球; 地球仪 | The globe shows every continent and ocean. | 这个地球仪标出了每个大洲和大洋。 | 3
+earth | /ɜːrθ/ | 地球; 泥土 | The earth goes around the sun every year. | 地球每年绕太阳公转一圈。 | 1
+continent | /ˈkɑːntɪnənt/ | 大洲 | Africa is the second largest continent. | 非洲是第二大洲。 | 3
+horizon | /həˈraɪzn/ | 地平线 | The sun sank below the horizon. | 太阳沉到了地平线以下。 | 4
+terrain | /təˈreɪn/ | 地形; 地势 | The terrain is rocky and hard to cross. | 这里的地形多岩石,很难穿越。 | 5
+altitude | /ˈæltɪtuːd/ | 海拔; 高度 | At high altitude the air is thin. | 在高海拔地区空气稀薄。 | 5
+rocky | /ˈrɑːki/ | 多岩石的 | The path is rocky and steep. | 这条小路多岩石又很陡。 | 3
+muddy | /ˈmʌdi/ | 泥泞的 | Our shoes are muddy after the hike. | 徒步之后我们的鞋子沾满了泥。 | 2
+steep | /stiːp/ | 陡峭的 | The hill is very steep near the top. | 这座山在靠近山顶的地方非常陡峭。 | 3
+barren | /ˈbærən/ | 贫瘠的; 荒芜的 | The barren land grows nothing but weeds. | 这片贫瘠的土地只长杂草。 | 6
+fertile | /ˈfɜːrtl/ | 肥沃的 | The river valley has fertile soil. | 这个河谷的土壤很肥沃。 | 5
+pristine | /ˈprɪstiːn/ | 原始的; 未受破坏的 | We found a pristine lake deep in the mountains. | 我们在深山里发现了一个未受破坏的湖泊。 | 6
+scenic | /ˈsiːnɪk/ | 风景优美的 | We took a scenic route along the coast. | 我们沿着海岸走了一条风景优美的路线。 | 4
+remote | /rɪˈmoʊt/ | 偏远的 | They live in a remote village in the mountains. | 他们住在山里一个偏远的村庄。 | 3
+wilderness | /ˈwɪldərnɪs/ | 荒野 | The hikers camped in the wilderness for a week. | 徒步者在荒野里露营了一周。 | 5
+woodland | /ˈwʊdlənd/ | 林地 | The woodland is cool even on hot days. | 即使在炎热的日子里,林地也很凉爽。 | 5
+grove | /ɡroʊv/ | 小树林 | We rested in a grove of olive trees. | 我们在一片橄榄树林里休息。 | 5
+trail | /treɪl/ | 小径; 步道 | We followed a trail through the woods. | 我们沿着一条小径穿过树林。 | 2
+clearing | /ˈklɪrɪŋ/ | 林中空地 | We set up our tent in a small clearing. | 我们在一小块林中空地上搭起了帐篷。 | 4
+tree | /triː/ | 树 | A big tree stands in the middle of the park. | 公园中央有一棵大树。 | 1
+trunk | /trʌŋk/ | 树干 | Someone carved their initials into the tree trunk. | 有人在树干上刻下了他们的名字首字母。 | 3
+root | /ruːt/ | 根 | The roots of the tree went deep into the soil. | 树根深深地扎进了土壤。 | 2
+seed | /siːd/ | 种子 | Plant the seed in warm soil. | 把种子种在温暖的土壤里。 | 2
+flower | /ˈflaʊər/ | 花 | The flower opened its petals in the sun. | 这朵花在阳光下绽开了花瓣。 | 1
+petal | /ˈpɛtl/ | 花瓣 | A petal fell onto the surface of the water. | 一片花瓣落在了水面上。 | 3
+stem | /stɛm/ | 茎; 梗 | Cut the stem at an angle. | 请斜着剪断茎部。 | 4
+bud | /bʌd/ | 芽苞; 花蕾 | The tree grows new buds in spring. | 这棵树在春天长出了新芽。 | 4
+rose | /roʊz/ | 玫瑰 | She gave me a red rose on my birthday. | 她生日那天送给我一支红玫瑰。 | 2
+tulip | /ˈtuːlɪp/ | 郁金香 | The tulip is a popular spring flower. | 郁金香是很受欢迎的春季花卉。 | 2
+daisy | /ˈdeɪzi/ | 雏菊 | A daisy grew between the stones. | 一朵雏菊长在石头缝之间。 | 2
+sunflower | /ˈsʌnflaʊər/ | 向日葵 | The sunflower turns to face the sun. | 向日葵会转向太阳。 | 2
+lily | /ˈlɪli/ | 百合 | The white lily smells sweet. | 这朵白百合闻起来很香。 | 3
+orchid | /ˈɔːrkɪd/ | 兰花 | She bought an orchid for her living room. | 她为客厅买了一盆兰花。 | 4
+moss | /mɔːs/ | 苔藓 | The rocks were covered with green moss. | 岩石上覆盖着绿色的苔藓。 | 4
+fern | /fɜːrn/ | 蕨类植物 | A fern grew in the shady corner. | 一株蕨类植物生长在阴凉的角落里。 | 4
+grass | /ɡræs/ | 草 | Children lie on the grass and look at the sky. | 孩子们躺在草地上看天空。 | 1
+weed | /wiːd/ | 杂草 | Pull the weeds out of the flower bed. | 把花坛里的杂草拔掉。 | 2
+herb | /ɜːrb/ | 草本植物; 香草 | Basil is an herb that grows well in summer. | 罗勒是一种在夏天生长得很好的香草。 | 3
+shrub | /ʃrʌb/ | 灌木 | A small shrub grows beside the path. | 一棵小灌木长在小路边。 | 4
+bush | /bʊʃ/ | 灌木丛 | A rabbit hid in the bush. | 一只兔子藏在灌木丛里。 | 2
+hedge | /hɛdʒ/ | 树篱 | The hedge around the garden needs trimming. | 花园周围的树篱需要修剪了。 | 3
+vine | /vaɪn/ | 藤蔓 | Green vines covered the old wall. | 绿色的藤蔓爬满了旧墙。 | 4
+ivy | /ˈaɪvi/ | 常春藤 | Ivy climbs up the side of the old house. | 常春藤爬满了这座旧房子的外墙。 | 4
+cactus | /ˈkæktəs/ | 仙人掌 | A cactus can survive with very little water. | 仙人掌只需要很少的水就能存活。 | 3
+bamboo | /bæmˈbuː/ | 竹子 | Bamboo grows very fast in warm weather. | 竹子在温暖的天气里长得非常快。 | 3
+oak | /oʊk/ | 橡树 | The oak is hundreds of years old. | 这棵橡树已经有几百年的历史了。 | 3
+pine | /paɪn/ | 松树 | The pine stays green all year round. | 松树四季常青。 | 2
+birch | /bɜːrtʃ/ | 桦树 | The birch has white bark and thin branches. | 桦树有白色的树皮和细细的树枝。 | 4
+willow | /ˈwɪloʊ/ | 柳树 | The willow bends low over the river. | 柳树低垂着枝条伸向河面。 | 4
+maple | /ˈmeɪpl/ | 枫树 | The maple leaves turn red in autumn. | 枫叶在秋天变红。 | 3
+palm | /pɑːm/ | 棕榈树 | A palm grows beside the lake. | 湖边长着一棵棕榈树。 | 2
+redwood | /ˈrɛdwʊd/ | 红杉 | The redwood is one of the tallest trees on Earth. | 红杉是地球上最高的树木之一。 | 5
+evergreen | /ˈɛvərɡriːn/ | 常绿植物 | An evergreen keeps its leaves all winter. | 常绿植物整个冬天都保持着叶子。 | 4
+deciduous | /dɪˈsɪdʒuəs/ | 落叶的 | A deciduous tree loses its leaves in autumn. | 落叶树在秋天落掉叶子。 | 6
+pollen | /ˈpɑːlən/ | 花粉 | Pollen makes me sneeze in spring. | 春天的花粉让我打喷嚏。 | 4
+nectar | /ˈnɛktər/ | 花蜜 | The flower produces sweet nectar. | 这朵花会分泌甜甜的花蜜。 | 4
+nutrient | /ˈnuːtriənt/ | 养分; 营养物质 | Roots absorb nutrients from the soil. | 根从土壤中吸收养分。 | 5
+mulch | /mʌltʃ/ | 覆盖物; 护根 | Spread mulch around the plants to keep the soil moist. | 在植物周围铺上覆盖物,保持土壤湿润。 | 5
+fungus | /ˈfʌŋɡəs/ | 真菌 | A fungus grew on the old log. | 一种真菌长在了那根旧木头上。 | 5
+algae | /ˈældʒiː/ | 藻类 | Green algae covered the surface of the pond. | 绿藻覆盖了池塘的表面。 | 5
+lichen | /ˈlaɪkən/ | 地衣 | Lichen grows slowly on bare rock. | 地衣在裸露的岩石上缓慢生长。 | 6
+log | /lɔːɡ/ | 原木; 木段 | We sat on a log by the fire. | 我们坐在火堆旁的一根原木上。 | 2
+stump | /stʌmp/ | 树桩 | The old stump was covered with moss. | 那个老树桩上长满了苔藓。 | 4
+timber | /ˈtɪmbər/ | 木材 | The company sells timber from its own forest. | 这家公司出售自己森林里的木材。 | 4
+wood | /wʊd/ | 木头; 木材 | The table is made of solid wood. | 这张桌子是用实木做的。 | 2
+pinecone | /ˈpaɪnkoʊn/ | 松果 | The squirrel dropped a pinecone on the path. | 松鼠把一个松果掉在了小路上。 | 4
+acorn | /ˈeɪkɔːrn/ | 橡子 | The squirrel collected an acorn for winter. | 松鼠为冬天收集了一颗橡子。 | 4
+restore | /rɪˈstɔːr/ | 修复; 恢复 | Volunteers are restoring the wetland. | 志愿者正在修复这片湿地。 | 4
+harm | /hɑːrm/ | 伤害; 危害 | Plastic bags can harm sea animals. | 塑料袋会伤害海洋动物。 | 3
+damage | /ˈdæmɪdʒ/ | 损害; 毁坏 | The storm damaged many trees in the park. | 风暴毁坏了公园里的许多树木。 | 3
+resource | /ˈriːsɔːrs/ | 资源 | Water is a precious natural resource. | 水是一种宝贵的自然资源。 | 3
+ozone | /ˈoʊzoʊn/ | 臭氧 | The ozone layer protects us from strong sunlight. | 臭氧层保护我们免受强烈阳光的伤害。 | 5
+eco-friendly | /ˈiːkoʊ ˈfrɛndli/ | 环保的 | Use eco-friendly bags instead of plastic ones. | 请用环保袋代替塑料袋。 | 4
+organic | /ɔːrˈɡænɪk/ | 有机的; 无化学添加的 | This farm grows organic vegetables without pesticides. | 这个农场种植不用农药的有机蔬菜。 | 4
+pesticide | /ˈpɛstɪsaɪd/ | 杀虫剂; 农药 | Farmers should use less pesticide on their crops. | 农民应该减少在农作物上使用农药。 | 5
+fertilizer | /ˈfɜːrtəlaɪzər/ | 化肥; 肥料 | Too much fertilizer can harm the river. | 化肥用得太多会伤害河流。 | 5
+dump | /dʌmp/ | 倾倒; 乱扔 | People should not dump garbage in the forest. | 人们不应该在森林里乱扔垃圾。 | 4
+oil spill | /ɔɪl spɪl/ | 漏油事故 | The oil spill polluted the coast for months. | 这起漏油事故污染了海岸好几个月。 | 5
+dam | /dæm/ | 水坝 | The dam stopped the river from flowing freely. | 水坝阻止了河水自由流动。 | 4
+irrigation | /ˌɪrɪˈɡeɪʃn/ | 灌溉 | Irrigation keeps the crops alive during dry months. | 灌溉让农作物在干燥的月份里存活下来。 | 5
+footprint | /ˈfʊtprɪnt/ | 足迹; 碳足迹 | Each of us leaves a carbon footprint. | 我们每个人都会留下碳足迹。 | 4
+hike | /haɪk/ | 徒步远足 | We hike in the hills every Sunday. | 我们每个星期天都去山里徒步。 | 2
+camp | /kæmp/ | 露营 | We camp by the lake every summer. | 我们每年夏天都在湖边露营。 | 2
+nature walk | /ˈneɪtʃər wɔːk/ | 自然散步 | We went on a nature walk to learn about plants. | 我们去自然散步,学习植物知识。 | 3
+panorama | /ˌpænəˈræmə/ | 全景 | The top of the tower offers a panorama of the valley. | 塔顶可以俯瞰整个山谷的全景。 | 5
+vista | /ˈvɪstə/ | 远景; 景观 | The window opens onto a wide vista of hills. | 窗外是一片开阔的丘陵远景。 | 6
+brook | /brʊk/ | 小溪 | A brook babbled over the stones. | 一条小溪在石头上潺潺流过。 | 3
+creek | /kriːk/ | 小溪; 支流 | We fished in the creek behind the house. | 我们在房子后面的小溪里钓鱼。 | 3
+whirlpool | /ˈwɜːrlpuːl/ | 漩涡 | The boat was pulled into a whirlpool. | 小船被卷进了一个漩涡。 | 5
+delta | /ˈdɛltə/ | 三角洲 | The river forms a wide delta before reaching the sea. | 河流在入海前形成了一个宽阔的三角洲。 | 5
+estuary | /ˈɛstʃuɛri/ | 河口 | Seals rest on the mudflats of the estuary. | 海豹在河口的泥滩上休息。 | 6
+plateau | /plæˈtoʊ/ | 高原 | The village sits on a high plateau. | 这个村庄坐落在一片高原上。 | 5
+dune | /duːn/ | 沙丘 | The wind has shaped the dunes into soft curves. | 风把沙丘塑造成柔和的曲线。 | 4
+oasis | /oʊˈeɪsɪs/ | 绿洲 | The travelers reached an oasis with cool water. | 旅行者们来到一片有清凉水源的绿洲。 | 5
+tundra | /ˈtʌndrə/ | 苔原 | Few plants can grow in the frozen tundra. | 冻土苔原上几乎长不出什么植物。 | 6
+savanna | /səˈvænə/ | 热带草原 | Lions often hunt on the open savanna. | 狮子常在开阔的热带草原上捕猎。 | 5
+cove | /koʊv/ | 小海湾 | A small boat is anchored in the quiet cove. | 一艘小船停泊在安静的小海湾里。 | 5
+headland | /ˈhɛdlənd/ | 海角; 岬 | We walked out to the headland to watch the sea. | 我们走到海角上看海。 | 6
+archipelago | /ˌɑːrkɪˈpɛləɡoʊ/ | 群岛 | The archipelago has more than a hundred islands. | 这个群岛拥有一百多个岛屿。 | 6
+ravine | /rəˈviːn/ | 山涧; 峡谷 | The path follows the edge of a deep ravine. | 小路沿着一条深深的山涧边缘延伸。 | 5
+boulder | /ˈboʊldər/ | 巨石 | A huge boulder blocked the trail. | 一块巨石挡住了小径。 | 4
+limestone | /ˈlaɪmstoʊn/ | 石灰岩 | The cliffs are made of white limestone. | 这些悬崖是由白色石灰岩构成的。 | 5
+granite | /ˈɡrænɪt/ | 花岗岩 | The mountain peak is made of hard granite. | 这座山峰是由坚硬的花岗岩构成的。 | 5
+sediment | /ˈsɛdɪmənt/ | 沉积物 | The river carries sediment down to the sea. | 河流把沉积物带到大海里。 | 6
+erode | /ɪˈroʊd/ | 侵蚀; 腐蚀 | Waves slowly erode the coastline. | 海浪慢慢侵蚀着海岸线。 | 5
+magma | /ˈmæɡmə/ | 岩浆 | Magma rises from deep below the volcano. | 岩浆从火山深处向上涌出。 | 6
+tectonic | /tɛkˈtɒnɪk/ | 构造的; 板块的 | Tectonic plates move very slowly over time. | 板块构造运动随时间非常缓慢地进行。 | 6
+lush | /lʌʃ/ | 茂盛的; 葱翠的 | The valley is lush with grass and trees. | 山谷里草木葱茏。 | 4
+alpine | /ˈælpaɪn/ | 高山的 | Alpine meadows are full of wildflowers in summer. | 夏天高山草甸上开满了野花。 | 5
+coastal | /ˈkoʊstl/ | 沿海的 | Coastal towns depend on fishing and tourism. | 沿海城镇依靠渔业和旅游业。 | 4
+inland | /ˈɪnlənd/ | 内陆的 | The inland area has no access to the sea. | 内陆地区没有通往大海的通道。 | 4
+rugged | /ˈrʌɡɪd/ | 崎岖的; 粗犷的 | The rugged coastline is hard to reach by car. | 崎岖的海岸线很难开车到达。 | 5
+treacherous | /ˈtrɛtʃərəs/ | 危险的; 险恶的 | The mountain road is treacherous in winter. | 冬天这条山路非常危险。 | 6
+unspoiled | /ʌnˈspɔɪld/ | 未受破坏的 | The island remains unspoiled by tourism. | 这座岛屿至今没有受到旅游业的破坏。 | 6
+conifer | /ˈkɑːnɪfər/ | 针叶树 | Conifers keep their needles all year. | 针叶树全年都保留着它们的针叶。 | 5
+sapling | /ˈsæplɪŋ/ | 树苗; 幼树 | We planted a small sapling in the garden. | 我们在花园里种下了一棵小树苗。 | 4
+seedling | /ˈsiːdlɪŋ/ | 幼苗 | The seedling needs water every day. | 这株幼苗每天都需要浇水。 | 4
+sprout | /spraʊt/ | 发芽; 嫩芽 | The bean began to sprout in the cup. | 豆子在杯子里开始发芽了。 | 3
+foliage | /ˈfoʊliɪdʒ/ | 叶子; 枝叶 | The autumn foliage turns orange and gold. | 秋天的树叶变成了橙色和金色。 | 5
+canopy | /ˈkænəpi/ | 树冠层; 顶篷 | The monkeys live high in the forest canopy. | 猴子生活在森林高高的树冠层。 | 5
+thorn | /θɔːrn/ | 刺 | The rose bush has sharp thorns. | 这丛玫瑰有尖锐的刺。 | 4
+reed | /riːd/ | 芦苇 | Reeds grow thickly along the riverbank. | 芦苇在河岸边长得很茂密。 | 4
+lotus | /ˈloʊtəs/ | 莲花 | A pink lotus floated on the pond. | 一朵粉色的莲花浮在池塘上。 | 4
+water lily | /ˈwɔːtər ˈlɪli/ | 睡莲 | A water lily opened on the surface of the lake. | 一朵睡莲在湖面上绽开了。 | 4
+poppy | /ˈpɑːpi/ | 罂粟花; 虞美人 | Red poppies covered the field in June. | 六月里,红色的虞美人花铺满了田野。 | 3
+dandelion | /ˈdændɪlaɪən/ | 蒲公英 | The child blew on a dandelion and watched the seeds fly. | 孩子对着蒲公英吹气,看种子飞散开来。 | 3
+clover | /ˈkloʊvər/ | 三叶草 | A bee visited the white clover in the meadow. | 一只蜜蜂飞到草地上的白三叶草上。 | 4
+thistle | /ˈθɪsl/ | 蓟 | The thistle has sharp spines on its leaves. | 蓟的叶子上有尖锐的刺。 | 5
+heather | /ˈhɛðər/ | 石南 | The moor is covered in purple heather. | 荒原上长满了紫色的石南。 | 6
+orchard | /ˈɔːrtʃərd/ | 果园 | Apple trees fill the orchard in autumn. | 秋天,果园里挂满了苹果树。 | 3
+vineyard | /ˈvɪnjərd/ | 葡萄园 | The vineyard produces red wine every year. | 这座葡萄园每年都酿造红葡萄酒。 | 4
+moor | /mʊr/ | 荒原 | Sheep wander across the moor in the wind. | 绵羊在荒原上随风漫步。 | 5
+heath | /hiːθ/ | 荒地; 石南丛 | The heath is full of bees in summer. | 夏天荒地上到处都是蜜蜂。 | 6
+biome | /ˈbaɪoʊm/ | 生物群落 | A desert is a very dry biome. | 沙漠是一种非常干燥的生物群落。 | 6
+food chain | /fuːd tʃeɪn/ | 食物链 | Plants are at the bottom of the food chain. | 植物处于食物链的底端。 | 4
+pollinate | /ˈpɑːlɪneɪt/ | 授粉 | Bees pollinate flowers as they feed. | 蜜蜂在觅食时为花朵授粉。 | 5
+pollinator | /ˈpɑːlɪneɪtər/ | 传粉者 | Bees are important pollinators for many crops. | 蜜蜂是许多农作物的重要传粉者。 | 5
+decompose | /ˌdiːkəmˈpoʊz/ | 分解; 腐烂 | Fallen leaves decompose slowly on the forest floor. | 落叶在森林地面上缓慢地分解。 | 5
+fossil fuel | /ˈfɑːsl fjuːəl/ | 化石燃料 | Burning fossil fuel adds carbon to the air. | 燃烧化石燃料会向空气中排放碳。 | 5
+coal | /koʊl/ | 煤 | The power station burns coal to make electricity. | 这座发电站烧煤来发电。 | 3
+petroleum | /pəˈtroʊliəm/ | 石油 | Petroleum is used to make many plastics. | 石油被用来制造许多塑料制品。 | 6
+hydropower | /ˈhaɪdroʊpaʊər/ | 水力发电 | Hydropower is generated by flowing water. | 水力发电是利用流动的水产生的。 | 6
+geothermal | /ˌdʒiːoʊˈθɜːrml/ | 地热的 | Geothermal energy comes from heat inside the earth. | 地热能来自地球内部的热量。 | 6
+biofuel | /ˈbaɪoʊfjuːəl/ | 生物燃料 | Biofuel can be made from plants and waste. | 生物燃料可以用植物和废料制成。 | 6
+biodegradable | /ˌbaɪoʊdɪˈɡreɪdəbl/ | 可生物降解的 | Paper bags are biodegradable and break down quickly. | 纸袋可以生物降解,很快就会分解。 | 6
+recyclable | /riˈsaɪkləbl/ | 可回收的 | Glass bottles are recyclable and can be used again. | 玻璃瓶可以回收再利用。 | 5
+reusable | /riˈjuːzəbl/ | 可重复使用的 | Bring a reusable cup instead of a paper one. | 带一个可重复使用的杯子,别用纸杯。 | 4
+single-use | /ˈsɪŋɡl juːs/ | 一次性的 | Many shops now ban single-use plastic bags. | 许多商店现在禁止使用一次性塑料袋。 | 5
+microplastic | /ˌmaɪkroʊˈplæstɪk/ | 微塑料 | Microplastic has been found in the deep ocean. | 深海中已经发现了微塑料。 | 6
+toxin | /ˈtɒksɪn/ | 毒素 | Some algae produce a dangerous toxin. | 某些藻类会产生一种危险的毒素。 | 6
+runoff | /ˈrʌnɒf/ | 径流; 流失的水 | Fertilizer runoff can pollute the lake. | 化肥随径流流入会污染湖泊。 | 6
+sewage | /ˈsuːɪdʒ/ | 污水 | Untreated sewage was poured into the river. | 未经处理的污水被倒进了河里。 | 5
+pollute | /pəˈluːt/ | 污染 | Factories should not pollute the river. | 工厂不应该污染河流。 | 4
+toxic | /ˈtɑːksɪk/ | 有毒的 | Toxic waste must be handled carefully. | 有毒废物必须小心处理。 | 4
+recycling | /riˈsaɪklɪŋ/ | 回收利用 | Recycling reduces the amount of trash we throw away. | 回收利用能减少我们扔掉的垃圾量。 | 3
+compost | /ˈkɑːmpoʊst/ | 堆肥 | We turn food scraps into compost in the garden. | 我们在花园里把食物残渣变成堆肥。 | 4
+emission | /ɪˈmɪʃn/ | 排放物 | Car emissions contribute to smog in big cities. | 汽车尾气排放会导致大城市出现烟雾。 | 5
+smog | /smɑːɡ/ | 烟雾; 雾霾 | Smog hangs over the city on hot days. | 炎热的日子里,城市上空笼罩着雾霾。 | 5
+landfill | /ˈlændfɪl/ | 垃圾填埋场 | Most of the waste ends up in a landfill. | 大部分废弃物最终都被运往垃圾填埋场。 | 5
+deforestation | /ˌdiːfɔːrɪˈsteɪʃn/ | 砍伐森林 | Deforestation destroys homes for many animals. | 砍伐森林摧毁了许多动物的家园。 | 6
+reforestation | /ˌriːfɔːrɪˈsteɪʃn/ | 重新造林 | Reforestation helps bring back lost habitats. | 重新造林有助于恢复失去的栖息地。 | 6
+conserve | /kənˈsɜːrv/ | 保护; 节约 | We should conserve water during droughts. | 干旱期间我们应该节约用水。 | 4
+sustainability | /səˌsteɪnəˈbɪləti/ | 可持续性 | Sustainability means meeting today's needs without harming the future. | 可持续性意味着在满足当下需求的同时不损害未来。 | 6
+poach | /poʊtʃ/ | 偷猎 | Poachers illegally hunt elephants for their tusks. | 偷猎者非法猎杀大象以获取象牙。 | 6
+logging | /ˈlɔːɡɪŋ/ | 伐木 | Illegal logging destroys large areas of forest. | 非法伐木破坏了大片森林。 | 5
+overfishing | /ˌoʊvərˈfɪʃɪŋ/ | 过度捕捞 | Overfishing has reduced the number of tuna. | 过度捕捞使金枪鱼的数量减少了。 | 5
+erosion | /ɪˈroʊʒn/ | 侵蚀 | Heavy rain can cause soil erosion on slopes. | 大雨会造成斜坡上的土壤侵蚀。 | 6
+greenhouse effect | /ˈɡriːnhaʊs ɪˈfɛkt/ | 温室效应 | The greenhouse effect traps heat in the atmosphere. | 温室效应使热量被困在大气层中。 | 6
+greenhouse gas | /ˈɡriːnhaʊs ɡæs/ | 温室气体 | Carbon dioxide is a greenhouse gas. | 二氧化碳是一种温室气体。 | 5
+habitat loss | /ˈhæbɪtæt lɔːs/ | 栖息地丧失 | Habitat loss is the main threat to many birds. | 栖息地丧失是许多鸟类面临的主要威胁。 | 6
+invasive | /ɪnˈveɪsɪv/ | 入侵性的 | Invasive plants can crowd out native species. | 入侵植物会挤占本地物种的生存空间。 | 6
+native | /ˈneɪtɪv/ | 本土的; 原生的 | Koalas are native to Australia. | 考拉是澳大利亚的原生动物。 | 3
+endemic | /ɛnˈdɛmɪk/ | 特有的; 地方性的 | This frog is endemic to the island. | 这种青蛙是该岛特有的。 | 6
+migration | /maɪˈɡreɪʃn/ | 迁徙; 迁移 | The migration of birds starts in late summer. | 鸟类的迁徙在夏末开始。 | 5
+wildfire | /ˈwaɪldfaɪər/ | 野火 | A wildfire spread quickly across the dry hills. | 野火迅速蔓延到干燥的山丘上。 | 4
+ecology | /iˈkɒlədʒi/ | 生态学; 生态 | Ecology studies how living things interact with their environment. | 生态学研究生物如何与环境相互作用。 | 6
+ecologist | /iˈkɑːlədʒɪst/ | 生态学家 | The ecologist counted the birds in the wetland. | 这位生态学家统计了湿地里的鸟类。 | 6
+environmentalist | /ɪnˌvaɪrənˈmɛntəlɪst/ | 环保人士 | The environmentalist campaigned to protect the river. | 这位环保人士为保护河流而奔走宣传。 | 6
+conservationist | /ˌkɑːnsərˈveɪʃənɪst/ | 自然保护主义者 | The conservationist works to save the wetlands. | 这位保护主义者致力于拯救湿地。 | 6
+forestry | /ˈfɔːrɪstri/ | 林业 | Forestry is an important industry in this region. | 林业是这个地区的重要产业。 | 5

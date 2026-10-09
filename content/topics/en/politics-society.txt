@@ -1,0 +1,178 @@
+@topic | Politics & Society | 🏛️
+country | /ˈkʌntri/ | 国家 | China is a very large country. | 中国是一个很大的国家。 | 1
+city | /ˈsɪti/ | 城市 | Beijing is a big city. | 北京是一座大城市。 | 1
+town | /taʊn/ | 城镇 | I grew up in a small town. | 我在一个小镇长大。 | 1
+village | /ˈvɪlɪdʒ/ | 村庄 | My grandparents live in a village. | 我的祖父母住在一个村庄里。 | 1
+people | /ˈpiːpl/ | 人民; 人们 | The people want a better life. | 人民想要更好的生活。 | 1
+population | /ˌpɒpjuˈleɪʃn/ | 人口 | The population of the city is growing. | 这座城市的人口在增长。 | 3
+citizen | /ˈsɪtɪzn/ | 公民 | Every citizen has the right to vote. | 每位公民都有投票权。 | 3
+resident | /ˈrezɪdənt/ | 居民 | Local residents protested against the plan. | 当地居民抗议这项计划。 | 4
+community | /kəˈmjuːnəti/ | 社区; 群体 | The community built a new park. | 社区建了一个新公园。 | 3
+society | /səˈsaɪəti/ | 社会 | Society is changing quickly. | 社会正在快速变化。 | 3
+social | /ˈsəʊʃl/ | 社会的 | Social problems need long-term solutions. | 社会问题需要长期解决方案。 | 3
+public | /ˈpʌblɪk/ | 公众的; 公共的 | Public transport is cheap here. | 这里的公共交通很便宜。 | 2
+government | /ˈɡʌvənmənt/ | 政府 | The government plans to build more homes. | 政府计划建造更多住房。 | 3
+state | /steɪt/ | 国家; 州 | The state provides free schooling. | 国家提供免费教育。 | 4
+nation | /ˈneɪʃn/ | 国家; 民族 | The whole nation watched the final. | 全国都观看了决赛。 | 4
+national | /ˈnæʃnəl/ | 国家的; 全国的 | The national team won the cup. | 国家队赢得了奖杯。 | 3
+international | /ˌɪntəˈnæʃnəl/ | 国际的 | It is an international organisation. | 这是一个国际组织。 | 3
+local | /ˈləʊkl/ | 当地的 | The local council fixed the road. | 当地议会修好了路。 | 3
+council | /ˈkaʊnsl/ | 议会; 委员会 | The city council met on Monday. | 市议会周一开了会。 | 4
+mayor | /meə/ | 市长 | The mayor opened the new bridge. | 市长为新桥剪了彩。 | 3
+president | /ˈprezɪdənt/ | 总统; 主席 | The president gave a speech. | 总统发表了讲话。 | 3
+prime minister | /ˌpraɪm ˈmɪnɪstə/ | 首相; 总理 | The prime minister visited Beijing. | 首相访问了北京。 | 4
+minister | /ˈmɪnɪstə/ | 部长 | The minister of health spoke on TV. | 卫生部长在电视上发言。 | 4
+ministry | /ˈmɪnɪstri/ | 部 | The ministry of education issued new rules. | 教育部发布了新规定。 | 5
+official | /əˈfɪʃl/ | 官员; 官方的 | A government official signed the paper. | 一位政府官员签署了文件。 | 4
+politician | /ˌpɒləˈtɪʃn/ | 政治家 | The politician promised lower taxes. | 这位政治家承诺降低税收。 | 4
+politics | /ˈpɒlətɪks/ | 政治 | She is interested in politics. | 她对政治感兴趣。 | 3
+political | /pəˈlɪtɪkl/ | 政治的 | They have different political views. | 他们有不同的政治观点。 | 4
+leader | /ˈliːdə/ | 领导人 | The leader spoke to the people. | 领导人对民众讲话。 | 2
+king | /kɪŋ/ | 国王 | The king lived in a big palace. | 国王住在一座大宫殿里。 | 1
+queen | /kwiːn/ | 女王 | The queen waved to the crowd. | 女王向人群挥手。 | 1
+royal | /ˈrɔɪəl/ | 皇家的 | The royal family lives in London. | 王室住在伦敦。 | 3
+monarchy | /ˈmɒnəki/ | 君主制 | Britain is a monarchy. | 英国是君主制国家。 | 6
+republic | /rɪˈpʌblɪk/ | 共和国 | France is a republic. | 法国是共和国。 | 5
+democracy | /dɪˈmɒkrəsi/ | 民主 | Democracy depends on free elections. | 民主依赖于自由选举。 | 5
+democratic | /ˌdeməˈkrætɪk/ | 民主的 | It is a democratic country. | 这是一个民主国家。 | 5
+dictator | /dɪkˈteɪtə/ | 独裁者 | The dictator ruled for thirty years. | 独裁者统治了三十年。 | 6
+dictatorship | /dɪkˈteɪtəʃɪp/ | 独裁统治 | The country was a dictatorship for decades. | 这个国家几十年来是独裁统治。 | 6
+regime | /reɪˈʒiːm/ | 政权 | The old regime fell in 1989. | 旧政权于1989年倒台。 | 6
+authority | /ɔːˈθɒrəti/ | 当局; 权威 | The local authority repaired the road. | 地方当局修了路。 | 5
+power | /ˈpaʊə/ | 权力 | The president has great power. | 总统拥有很大的权力。 | 3
+govern | /ˈɡʌvn/ | 治理; 统治 | The party will govern for four years. | 该党将执政四年。 | 5
+administration | /ədˌmɪnɪˈstreɪʃn/ | 行政机构; 政府 | The new administration cut spending. | 新政府削减了开支。 | 6
+bureaucracy | /bjʊəˈrɒkrəsi/ | 官僚主义 | Bureaucracy slows everything down. | 官僚主义拖慢了一切。 | 6
+parliament | /ˈpɑːləmənt/ | 议会 | Parliament passed the new law. | 议会通过了新法律。 | 5
+congress | /ˈkɒŋɡres/ | 国会; 代表大会 | Congress voted on the plan. | 国会就这项计划进行了投票。 | 5
+senate | /ˈsenɪt/ | 参议院 | The Senate approved the bill. | 参议院批准了该法案。 | 6
+senator | /ˈsenətə/ | 参议员 | The senator spoke for an hour. | 参议员讲了一个小时。 | 6
+member of parliament | /ˌmembər əv ˈpɑːləmənt/ | 国会议员 | She became a member of parliament. | 她成为了国会议员。 | 5
+cabinet | /ˈkæbɪnət/ | 内阁 | The cabinet met on Tuesday. | 内阁周二开会。 | 6
+embassy | /ˈembəsi/ | 大使馆 | He went to the embassy for a visa. | 他去大使馆办签证。 | 4
+ambassador | /æmˈbæsədə/ | 大使 | The ambassador met the minister. | 大使会见了部长。 | 5
+diplomat | /ˈdɪpləmæt/ | 外交官 | The diplomat spoke three languages. | 这位外交官会说三种语言。 | 6
+diplomacy | /dɪˈpləʊməsi/ | 外交 | Diplomacy can prevent a war. | 外交可以避免战争。 | 6
+treaty | /ˈtriːti/ | 条约 | The two countries signed a peace treaty. | 两国签订了和平条约。 | 6
+alliance | /əˈlaɪəns/ | 联盟 | The countries formed an alliance. | 这些国家结成了联盟。 | 6
+sanction | /ˈsæŋkʃn/ | 制裁 | The UN may impose sanctions. | 联合国可能实施制裁。 | 6
+foreign policy | /ˌfɒrən ˈpɒləsi/ | 外交政策 | Foreign policy was the main topic. | 外交政策是主要话题。 | 6
+United Nations | /juːˌnaɪtɪd ˈneɪʃnz/ | 联合国 | The United Nations meets in New York. | 联合国在纽约开会。 | 4
+European Union | /ˌjʊərəˌpiːən ˈjuːniən/ | 欧盟 | The European Union has many members. | 欧盟有许多成员国。 | 5
+election | /ɪˈlekʃn/ | 选举 | The election takes place in May. | 选举将于五月举行。 | 3
+elect | /ɪˈlekt/ | 选举 | People will elect a new mayor. | 人们将选出一位新市长。 | 4
+vote | /vəʊt/ | 投票 | I will vote on Sunday. | 我周日去投票。 | 2
+voter | /ˈvəʊtə/ | 选民 | Young voters want change. | 年轻选民想要改变。 | 4
+ballot | /ˈbælət/ | 选票; 投票 | Put your ballot in the box. | 把你的选票放进箱子里。 | 6
+party | /ˈpɑːti/ | 政党 | Which party did you vote for? | 你投了哪个政党的票？ | 3
+opposition | /ˌɒpəˈzɪʃn/ | 反对派 | The opposition criticised the budget. | 反对派批评了预算。 | 6
+coalition | /ˌkəʊəˈlɪʃn/ | 联合政府; 联盟 | Three parties formed a coalition. | 三个政党组成了联合政府。 | 6
+majority | /məˈdʒɒrəti/ | 多数 | The majority voted yes. | 大多数人投了赞成票。 | 5
+minority | /maɪˈnɒrəti/ | 少数 | A small minority disagreed. | 一小部分人不同意。 | 5
+left-wing | /ˌleft ˈwɪŋ/ | 左翼的 | He holds left-wing views. | 他持左翼观点。 | 6
+right-wing | /ˌraɪt ˈwɪŋ/ | 右翼的 | She supports a right-wing party. | 她支持一个右翼政党。 | 6
+conservative | /kənˈsɜːvətɪv/ | 保守的 | He has conservative opinions. | 他的观点很保守。 | 5
+liberal | /ˈlɪbrəl/ | 自由主义的; 开明的 | She has liberal views. | 她持自由主义观点。 | 5
+progressive | /prəˈɡresɪv/ | 进步的 | The city has progressive policies. | 这个城市有进步的政策。 | 6
+socialism | /ˈsəʊʃəlɪzəm/ | 社会主义 | Socialism aims at equality. | 社会主义以平等为目标。 | 6
+capitalism | /ˈkæpɪtəlɪzəm/ | 资本主义 | Capitalism is based on free markets. | 资本主义以自由市场为基础。 | 6
+communism | /ˈkɒmjunɪzəm/ | 共产主义 | Communism is a political theory. | 共产主义是一种政治理论。 | 6
+ideology | /ˌaɪdiˈɒlədʒi/ | 意识形态 | Each party has its own ideology. | 每个政党都有自己的意识形态。 | 6
+policy | /ˈpɒləsi/ | 政策 | The government changed its policy. | 政府改变了政策。 | 4
+reform | /rɪˈfɔːm/ | 改革 | The president promised health reform. | 总统承诺医疗改革。 | 5
+ban | /bæn/ | 禁止 | The city plans to ban plastic bags. | 这座城市计划禁止塑料袋。 | 4
+taxpayer | /ˈtækspeɪə/ | 纳税人 | Taxpayers pay for public services. | 纳税人为公共服务买单。 | 5
+public service | /ˌpʌblɪk ˈsɜːvɪs/ | 公共服务 | Public services need more funding. | 公共服务需要更多资金。 | 4
+welfare | /ˈwelfeə/ | 福利 | The state provides welfare for the poor. | 国家为穷人提供福利。 | 5
+social security | /ˌsəʊʃl sɪˈkjʊərəti/ | 社会保障 | Social security supports older people. | 社会保障为老年人提供支持。 | 5
+benefits | /ˈbenɪfɪts/ | 福利金 | He lives on unemployment benefits. | 他靠失业救济金生活。 | 4
+health service | /helθ ˈsɜːvɪs/ | 医疗服务 | The health service is free for all. | 医疗服务对所有人免费。 | 4
+infrastructure | /ˈɪnfrəstrʌktʃə/ | 基础设施 | The country is investing in infrastructure. | 这个国家正在投资基础设施。 | 6
+development | /dɪˈveləpmənt/ | 发展 | Economic development helps reduce poverty. | 经济发展有助于减少贫困。 | 4
+developing country | /dɪˈveləpɪŋ ˈkʌntri/ | 发展中国家 | Many developing countries need aid. | 许多发展中国家需要援助。 | 5
+developed country | /dɪˈveləpt ˈkʌntri/ | 发达国家 | Developed countries have long life expectancy. | 发达国家的预期寿命较长。 | 5
+aid | /eɪd/ | 援助 | The country received foreign aid. | 这个国家得到了外国援助。 | 5
+charity | /ˈtʃærəti/ | 慈善机构 | She works for a children's charity. | 她在一家儿童慈善机构工作。 | 4
+donate | /dəʊˈneɪt/ | 捐赠 | He decided to donate money to a school. | 他决定向一所学校捐款。 | 4
+volunteer | /ˌvɒlənˈtɪə/ | 志愿者 | Volunteers helped after the flood. | 洪水后志愿者们提供了帮助。 | 3
+NGO | /ˌen dʒiː ˈəʊ/ | 非政府组织 | The NGO helps refugees. | 这个非政府组织帮助难民。 | 6
+organisation | /ˌɔːɡənaɪˈzeɪʃn/ | 组织 | It is a non-profit organisation. | 这是一个非营利组织。 | 3
+union | /ˈjuːniən/ | 工会; 联盟 | The union wants higher wages. | 工会想要更高的工资。 | 5
+protest | /ˈprəʊtest/ | 抗议 | Students held a protest in the square. | 学生们在广场举行了抗议。 | 4
+demonstration | /ˌdemənˈstreɪʃn/ | 示威游行 | A large demonstration took place downtown. | 市中心举行了一场大规模示威。 | 5
+demonstrator | /ˈdemənstreɪtə/ | 示威者 | The demonstrators carried signs. | 示威者举着标语牌。 | 6
+march | /mɑːtʃ/ | 游行 | Thousands will march through the city. | 数千人将穿城游行。 | 4
+riot | /ˈraɪət/ | 骚乱 | A riot broke out after the match. | 比赛结束后爆发了骚乱。 | 5
+revolution | /ˌrevəˈluːʃn/ | 革命 | The revolution changed the country. | 这场革命改变了国家。 | 5
+revolt | /rɪˈvəʊlt/ | 起义; 反抗 | The people decided to revolt. | 人民决定起来反抗。 | 6
+war | /wɔː/ | 战争 | The war ended in 1945. | 战争于1945年结束。 | 2
+peace | /piːs/ | 和平 | Everyone hopes for peace. | 大家都希望和平。 | 2
+conflict | /ˈkɒnflɪkt/ | 冲突 | The conflict lasted for years. | 冲突持续了数年。 | 5
+army | /ˈɑːmi/ | 军队 | He joined the army at eighteen. | 他十八岁参军。 | 2
+soldier | /ˈsəʊldʒə/ | 士兵 | The soldier returned home. | 士兵回家了。 | 2
+military | /ˈmɪlətri/ | 军事的; 军队 | He served in the military. | 他在军队服过役。 | 4
+weapon | /ˈwepən/ | 武器 | Nuclear weapons are very dangerous. | 核武器非常危险。 | 4
+ceasefire | /ˈsiːsfaɪə/ | 停火 | A ceasefire began at midnight. | 停火在午夜开始。 | 6
+refugee | /ˌrefjuˈdʒiː/ | 难民 | Thousands of refugees crossed the border. | 数千难民越过了边境。 | 5
+asylum | /əˈsaɪləm/ | 庇护 | He applied for asylum in Germany. | 他在德国申请庇护。 | 6
+immigration | /ˌɪmɪˈɡreɪʃn/ | 移民 (入境) | Immigration is a big political issue. | 移民是一个重大的政治问题。 | 5
+immigrant | /ˈɪmɪɡrənt/ | 移民 | Many immigrants work in hospitals. | 许多移民在医院工作。 | 4
+emigrate | /ˈemɪɡreɪt/ | 移居国外 | They plan to emigrate to Canada. | 他们计划移居加拿大。 | 5
+border | /ˈbɔːdə/ | 边境 | The border is closed at night. | 边境夜间关闭。 | 3
+passport | /ˈpɑːspɔːt/ | 护照 | Show your passport at the desk. | 在柜台出示你的护照。 | 2
+visa | /ˈviːzə/ | 签证 | I applied for a work visa. | 我申请了工作签证。 | 3
+nationality | /ˌnæʃəˈnæləti/ | 国籍 | What is your nationality? | 你的国籍是什么？ | 3
+culture | /ˈkʌltʃə/ | 文化 | Every country has its own culture. | 每个国家都有自己的文化。 | 3
+tradition | /trəˈdɪʃn/ | 传统 | Tea is part of our tradition. | 茶是我们传统的一部分。 | 3
+custom | /ˈkʌstəm/ | 习俗 | It is a local custom to bow. | 鞠躬是当地的习俗。 | 4
+multicultural | /ˌmʌltiˈkʌltʃərəl/ | 多元文化的 | London is a multicultural city. | 伦敦是一座多元文化的城市。 | 6
+diversity | /daɪˈvɜːsəti/ | 多样性 | Diversity makes a team stronger. | 多样性使团队更强大。 | 5
+race | /reɪs/ | 种族 | People of every race live here. | 各种族的人都住在这里。 | 3
+racism | /ˈreɪsɪzəm/ | 种族主义 | Racism has no place in sport. | 体育中不容许种族主义。 | 5
+prejudice | /ˈpredʒudɪs/ | 偏见 | We must fight against prejudice. | 我们必须与偏见作斗争。 | 6
+stereotype | /ˈsteriətaɪp/ | 刻板印象 | The film breaks old stereotypes. | 这部电影打破了旧的刻板印象。 | 6
+equality | /iˈkwɒləti/ | 平等 | Equality is a basic human value. | 平等是人类的基本价值观。 | 5
+inequality | /ˌɪnɪˈkwɒləti/ | 不平等 | Income inequality is growing. | 收入不平等在加剧。 | 6
+gender | /ˈdʒendə/ | 性别 | Gender should not decide your pay. | 性别不应决定你的薪酬。 | 5
+feminism | /ˈfemɪnɪzəm/ | 女权主义 | Feminism supports equal rights for women. | 女权主义支持妇女的平等权利。 | 6
+minority group | /maɪˈnɒrəti ɡruːp/ | 少数群体 | The law protects minority groups. | 这项法律保护少数群体。 | 6
+freedom | /ˈfriːdəm/ | 自由 | People fought for their freedom. | 人们为自由而战。 | 3
+liberty | /ˈlɪbəti/ | 自由 (权利) | The statue stands for liberty. | 这座雕像象征自由。 | 5
+social justice | /ˌsəʊʃl ˈdʒʌstɪs/ | 社会公正 | Social justice is her main cause. | 社会公正是她的主要事业。 | 6
+poverty | /ˈpɒvəti/ | 贫困 | Poverty affects millions of children. | 贫困影响着数百万儿童。 | 4
+homeless | /ˈhəʊmləs/ | 无家可归的 | Many homeless people sleep outside. | 许多无家可归的人睡在户外。 | 4
+the rich | /ðə rɪtʃ/ | 富人 | The rich often pay less tax. | 富人往往缴税更少。 | 3
+the poor | /ðə pɔː/ | 穷人 | The poor need more support. | 穷人需要更多支持。 | 3
+middle class | /ˌmɪdl ˈklɑːs/ | 中产阶级 | The middle class is shrinking. | 中产阶级正在缩小。 | 5
+working class | /ˌwɜːkɪŋ ˈklɑːs/ | 工人阶级 | He comes from a working-class family. | 他出身于工人阶级家庭。 | 5
+upper class | /ˌʌpə ˈklɑːs/ | 上层阶级 | The upper class lives in big houses. | 上层阶级住在大房子里。 | 5
+social class | /ˌsəʊʃl ˈklɑːs/ | 社会阶层 | Social class can affect education. | 社会阶层会影响教育。 | 5
+generation | /ˌdʒenəˈreɪʃn/ | 一代人 | The younger generation uses the internet more. | 年轻一代更多地使用互联网。 | 4
+elderly | /ˈeldəli/ | 老年人; 年长的 | We should respect the elderly. | 我们应当尊敬老年人。 | 4
+ageing population | /ˈeɪdʒɪŋ ˌpɒpjuˈleɪʃn/ | 人口老龄化 | An ageing population is a challenge. | 人口老龄化是一个挑战。 | 6
+birth rate | /bɜːθ reɪt/ | 出生率 | The birth rate has fallen sharply. | 出生率大幅下降。 | 5
+life expectancy | /laɪf ɪkˈspektənsi/ | 预期寿命 | Life expectancy is rising in Asia. | 亚洲的预期寿命在上升。 | 6
+urban | /ˈɜːbən/ | 城市的 | Urban life is fast and busy. | 城市生活快节奏而繁忙。 | 5
+rural | /ˈrʊərəl/ | 农村的 | Rural areas have fewer shops. | 农村地区商店较少。 | 5
+urbanisation | /ˌɜːbənaɪˈzeɪʃn/ | 城市化 | Urbanisation changed the country quickly. | 城市化迅速改变了这个国家。 | 6
+suburb | /ˈsʌbɜːb/ | 郊区 | They live in a quiet suburb. | 他们住在安静的郊区。 | 4
+neighbourhood | /ˈneɪbəhʊd/ | 街区; 邻里 | It is a safe neighbourhood. | 这是一个安全的街区。 | 4
+neighbour | /ˈneɪbə/ | 邻居 | My neighbour is very friendly. | 我的邻居非常友好。 | 2
+social issue | /ˌsəʊʃl ˈɪʃuː/ | 社会问题 | Homelessness is a major social issue. | 无家可归是一个重大社会问题。 | 5
+pollution | /pəˈluːʃn/ | 污染 | Pollution is a serious problem in big cities. | 污染在大城市是严重的问题。 | 3
+environment | /ɪnˈvaɪrənmənt/ | 环境 | We must protect the environment. | 我们必须保护环境。 | 3
+climate change | /ˈklaɪmət tʃeɪndʒ/ | 气候变化 | Climate change is a global issue. | 气候变化是一个全球性问题。 | 4
+debate | /dɪˈbeɪt/ | 辩论 | There was a heated debate in parliament. | 议会里发生了激烈的辩论。 | 4
+manifesto | /ˌmænɪˈfestəʊ/ | 竞选宣言 | The manifesto promises lower taxes. | 竞选宣言承诺降低税收。 | 6
+referendum | /ˌrefəˈrendəm/ | 全民公投 | The country held a referendum on the treaty. | 该国就条约举行了全民公投。 | 6
+sovereignty | /ˈsɒvrənti/ | 主权 | Countries defend their sovereignty. | 各国捍卫自己的主权。 | 6
+independence | /ˌɪndɪˈpendəns/ | 独立 | The country won its independence in 1947. | 这个国家于1947年赢得独立。 | 5
+colony | /ˈkɒləni/ | 殖民地 | India was once a British colony. | 印度曾是英国殖民地。 | 5
+empire | /ˈempaɪə/ | 帝国 | The Roman Empire was huge. | 罗马帝国非常庞大。 | 4
+dynasty | /ˈdɪnəsti/ | 王朝 | The Tang dynasty lasted nearly 300 years. | 唐朝持续了近三百年。 | 5
+globalisation | /ˌɡləʊbəlaɪˈzeɪʃn/ | 全球化 | Globalisation connects economies. | 全球化把各国经济联系起来。 | 6
+superpower | /ˈsuːpəpaʊə/ | 超级大国 | The two superpowers competed for decades. | 两个超级大国竞争了几十年。 | 6
+pragmatic | /præɡˈmætɪk/ | 务实的 | The government took a pragmatic approach. | 政府采取了务实的做法。 | 6
+resilience | /rɪˈzɪliəns/ | 韧性; 恢复力 | The resilience of the community was inspiring. | 这个社区的韧性令人振奋。 | 6
+transparency | /trænsˈpærənsi/ | 透明度 | Voters demand transparency from officials. | 选民要求官员保持透明。 | 6
+accountable | /əˈkaʊntəbl/ | 有责任的 | Leaders must be accountable to the people. | 领导人必须对人民负责。 | 6

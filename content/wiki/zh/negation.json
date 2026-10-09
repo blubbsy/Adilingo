@@ -1,0 +1,286 @@
+[
+  {
+    "id": "negation-bu-vs-mei",
+    "title": "不 vs 没: two ways to say no",
+    "titleHanzi": "不 / 没",
+    "category": "negation",
+    "hskRange": [1, 3],
+    "summary": "不 negates habits, intentions, general truths and states. 没(有) negates events and says that something has not happened or does not exist.",
+    "pattern": "Subject + 不 + Verb / Adjective  ·  Subject + 没(有) + Verb",
+    "rules": [
+      {
+        "rule": "**不 = not (a general stance).** It negates habits, facts, wishes and the future, and it is the only negation for adjectives. It is not tied to a time.",
+        "highlight": "不",
+        "examples": [
+          { "hanzi": "我不喝咖啡。", "pinyin": "Wǒ bù hē kāfēi.", "english": "I don't drink coffee." },
+          { "hanzi": "明天我不去上班。", "pinyin": "Míngtiān wǒ bú qù shàngbān.", "english": "I won't go to work tomorrow." },
+          { "hanzi": "这个房间不大。", "pinyin": "Zhège fángjiān bú dà.", "english": "This room is not big." }
+        ]
+      },
+      {
+        "rule": "**没(有) = did not / has not.** It negates a completed event or an experience, so it belongs to 了 and 过 sentences. In the negation the 了 disappears.",
+        "highlight": "没",
+        "examples": [
+          { "hanzi": "我昨天没去学校。", "pinyin": "Wǒ zuótiān méi qù xuéxiào.", "english": "I didn't go to school yesterday." },
+          { "hanzi": "他还没吃饭。", "pinyin": "Tā hái méi chī fàn.", "english": "He hasn't eaten yet." },
+          { "hanzi": "我没去过上海。", "pinyin": "Wǒ méi qù guo Shànghǎi.", "english": "I've never been to Shanghai." }
+        ]
+      },
+      {
+        "rule": "**有 is negated only with 没**: 没有 means 'does not have / there is not'. Never say 不有.",
+        "highlight": "没有",
+        "examples": [
+          { "hanzi": "我没有哥哥。", "pinyin": "Wǒ méiyǒu gēge.", "english": "I don't have an older brother." },
+          { "hanzi": "桌子上没有书。", "pinyin": "Zhuōzi shang méiyǒu shū.", "english": "There are no books on the table." }
+        ]
+      },
+      {
+        "rule": "**Tone change:** 不 turns into bú before a fourth tone (不是, 不去, 不对). It stays bù before other tones. Between a verb and a complement, 不 is neutral: 看不懂.",
+        "highlight": "不",
+        "examples": [
+          { "hanzi": "他不是中国人。", "pinyin": "Tā bú shì Zhōngguó rén.", "english": "He is not Chinese." },
+          { "hanzi": "我听不懂他说的话。", "pinyin": "Wǒ tīng bu dǒng tā shuō de huà.", "english": "I can't understand what he says." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "Past tense in English", "text": "'I didn't go' is 我没去; 我不去 would mean 'I won't go / I'm not going'. A past negative with 不 only appears in a habitual or stated-reason context: 他以前不喝酒。" },
+      { "vs": "没 vs 没有", "text": "没 is the short form; at the end of a question you must write 没有 (你吃了没有？) or the pair 了…没." }
+    ],
+    "pitfalls": [
+      "✗ 我昨天不去学校。 → ✓ 我昨天没去学校。 A past event is denied with 没.",
+      "✗ 我没是学生。 → ✓ 我不是学生。 是 is negated with 不, as are adjectives and most mental verbs.",
+      "✗ 我不有时间。 → ✓ 我没有时间。 有 only takes 没.",
+      "✗ 我没吃了饭。 → ✓ 我没吃饭。 Do not combine 没 with 了."
+    ],
+    "relatedPointIds": ["g1-bie", "g3-potential-complements", "g2-yijing-le", "g4-bing-negation"],
+    "keywords": ["bu", "mei", "méiyǒu", "不", "没", "没有", "negation", "not", "tone change", "bu2"],
+    "status": "draft"
+  },
+  {
+    "id": "negation-bie-buyao",
+    "title": "Prohibitions: 别, 不要, 不用 and 甭",
+    "titleHanzi": "别 / 不要 / 不用",
+    "category": "negation",
+    "hskRange": [1, 4],
+    "summary": "Negative commands use 别 or 不要 ('don't'). 不用 says 'there is no need', and 不许 or 禁止 states a ban.",
+    "pattern": "别 + Verb  ·  不要 + Verb  ·  不用 + Verb  ·  不许 / 禁止 + Verb",
+    "rules": [
+      {
+        "rule": "**别 + Verb** is the standard 'don't' in speech. 不要 means exactly the same and sounds a bit firmer or more polite in writing. Adding 了 turns it into 'stop doing it'.",
+        "highlight": "别",
+        "examples": [
+          { "hanzi": "别说话，他在睡觉。", "pinyin": "Bié shuōhuà, tā zài shuìjiào.", "english": "Don't talk, he is sleeping." },
+          { "hanzi": "请不要在这里抽烟。", "pinyin": "Qǐng búyào zài zhèlǐ chōuyān.", "english": "Please do not smoke here." },
+          { "hanzi": "别哭了，没事的。", "pinyin": "Bié kū le, méi shì de.", "english": "Stop crying, it's all right." }
+        ]
+      },
+      {
+        "rule": "**别 / 不要 + 忘了 / 担心 / 客气** produce set polite phrases. Used with 再, 别再 means 'don't ever do it again'.",
+        "highlight": "别",
+        "examples": [
+          { "hanzi": "别担心，我会帮你。", "pinyin": "Bié dānxīn, wǒ huì bāng nǐ.", "english": "Don't worry, I will help you." },
+          { "hanzi": "你别再迟到了。", "pinyin": "Nǐ bié zài chídào le.", "english": "Don't be late again." }
+        ]
+      },
+      {
+        "rule": "**不用** (spoken variant 甭) says that something is **unnecessary**, not forbidden. It is the polite answer to thanks and offers.",
+        "highlight": "不用",
+        "examples": [
+          { "hanzi": "你不用来接我，我自己去。", "pinyin": "Nǐ búyòng lái jiē wǒ, wǒ zìjǐ qù.", "english": "You don't need to pick me up, I'll go myself." },
+          { "hanzi": "不用谢！", "pinyin": "Búyòng xiè!", "english": "No need to thank me!" }
+        ]
+      },
+      {
+        "rule": "**不许 / 禁止 / 不准** express a prohibition by rule, with a forceful or official tone. 禁止 appears on signs.",
+        "highlight": "不许",
+        "examples": [
+          { "hanzi": "考试时不许说话。", "pinyin": "Kǎoshì shí bù xǔ shuōhuà.", "english": "Talking is not allowed during the exam." },
+          { "hanzi": "此处禁止停车。", "pinyin": "Cǐ chù jìnzhǐ tíngchē.", "english": "No parking here." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "不 (statement)", "text": "不要 can also mean 'do not want' in a statement (我不要这个), while 别 is only a command." },
+      { "vs": "不用 vs 别", "text": "别去 forbids going; 不用去 says going is not necessary. Mixing them up changes the message." }
+    ],
+    "pitfalls": [
+      "✗ 我别去。 → ✓ 我不去。 别 is only for commands to others (or for oneself in a reminder); a statement uses 不.",
+      "✗ 你别去。 (meant: you needn't go) → ✓ 你不用去。 别去 forbids going; 不用去 only says it is unnecessary.",
+      "✗ 别谢！ → ✓ 不用谢！ or 别客气！ To wave off thanks use 不用 or 客气, not 别 + 谢.",
+      "✗ 别你说话。 → ✓ 你别说话。 别 comes right before the verb, after the subject."
+    ],
+    "relatedPointIds": ["g1-bie", "g1-neng-keyi", "g5-hebi", "g3-weile"],
+    "keywords": ["bie", "buyao", "buyong", "别", "不要", "不用", "甭", "don't", "prohibition", "no need"],
+    "status": "draft"
+  },
+  {
+    "id": "negation-classical",
+    "title": "Literary negators: 未, 无, 非, 莫, 勿",
+    "titleHanzi": "未 / 无 / 非 / 莫",
+    "category": "negation",
+    "hskRange": [5, 7],
+    "summary": "Formal Chinese and set phrases use older negators, each with a clear job: 未 for 'not yet', 无 for 'without', 非 for 'is not', 莫 and 勿 for 'do not'.",
+    "pattern": "未 + Verb  ·  无 + Noun  ·  非 + Noun / Clause  ·  莫 / 勿 + Verb",
+    "rules": [
+      {
+        "rule": "**未** is the formal 没(有) / 还没: something has not happened (yet). It appears in notices, news and compounds like 未成年, 未来, 尚未.",
+        "highlight": "未",
+        "examples": [
+          { "hanzi": "此事尚未解决。", "pinyin": "Cǐ shì shàng wèi jiějué.", "english": "This matter has not yet been resolved." },
+          { "hanzi": "未成年人不得进入。", "pinyin": "Wèi chéngnián rén bùdé jìnrù.", "english": "Minors may not enter." }
+        ]
+      },
+      {
+        "rule": "**无** is the formal 没有: absence. It forms many set phrases (无论, 无法, 无关, 无效, 无意).",
+        "highlight": "无",
+        "examples": [
+          { "hanzi": "这个方法对他无效。", "pinyin": "Zhège fāngfǎ duì tā wúxiào.", "english": "This method is ineffective for him." },
+          { "hanzi": "我们无法按时完成。", "pinyin": "Wǒmen wúfǎ ànshí wánchéng.", "english": "We are unable to finish on time." }
+        ]
+      },
+      {
+        "rule": "**非** negates nouns and clauses: 非 + Noun means 'not-', and 非…不可 / 非…不行 mean 'must'. It is the formal counterpart of 不是.",
+        "highlight": "非",
+        "examples": [
+          { "hanzi": "这是非卖品。", "pinyin": "Zhè shì fēi mài pǐn.", "english": "This is not for sale." },
+          { "hanzi": "他非去不可。", "pinyin": "Tā fēi qù bùkě.", "english": "He absolutely has to go." }
+        ]
+      },
+      {
+        "rule": "**莫 / 勿** give formal prohibitions or warnings: 莫 is also used in proverbs ('let nobody'), 勿 on signs and in notices.",
+        "highlight": "勿",
+        "examples": [
+          { "hanzi": "请勿吸烟。", "pinyin": "Qǐng wù xīyān.", "english": "No smoking, please." },
+          { "hanzi": "闲人莫入。", "pinyin": "Xián rén mò rù.", "english": "No entry for those without business here." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "没 / 不", "text": "In everyday speech 没有 replaces both 未 and 无, and 不是 replaces 非. The older words are chosen for register, not for a different meaning." },
+      { "vs": "非 vs 不是", "text": "非 only negates nouns directly (非会员); 不是 can negate any clause. Say 他不是会员, but 非会员请登记." }
+    ],
+    "pitfalls": [
+      "✗ 我无吃饭。 → ✓ 我没吃饭。 无 is not freely combined with verbs in speech; it fits set phrases like 无法 and nouns like 无意见.",
+      "✗ 他是非学生。 → ✓ 他不是学生。 非 is not used after 是; use it in a prefix-like position.",
+      "✗ 请莫在这里停车。 → ✓ 请勿在此停车。 勿 is the standard word on notices, 莫 sounds poetic or archaic.",
+      "✗ 我还未吃饭了。 → ✓ 我还没吃饭。 未 already negates completion and remains without 了."
+    ],
+    "relatedPointIds": ["g5-fei-buke", "g7-buwu", "g7-yousuo-wusuo", "g6-hechang-weichang"],
+    "keywords": ["wei", "wu", "fei", "mo", "wu4", "未", "无", "非", "莫", "勿", "formal negation", "classical", "literary"],
+    "status": "draft"
+  },
+  {
+    "id": "negation-double",
+    "title": "Double negation for emphasis",
+    "titleHanzi": "不…不 / 没有…不 / 非…不可",
+    "category": "negation",
+    "hskRange": [3, 6],
+    "summary": "Two negatives make a strong positive: 'nobody doesn't' means 'everybody'. Chinese uses this to sound emphatic, firm or polite.",
+    "pattern": "不 + 不 / 没有 + 不 / 不能不 / 不得不 / 非…不可 / 无不",
+    "rules": [
+      {
+        "rule": "**不能不 / 不得不 / 不会不** combine a modal verb with a negative: 'can't help but', 'have no choice but'. 不得不 stresses an outside force; 不能不 stresses a moral duty.",
+        "highlight": "不能不",
+        "examples": [
+          { "hanzi": "这件事我不能不管。", "pinyin": "Zhè jiàn shì wǒ bù néng bù guǎn.", "english": "I can't ignore this matter." },
+          { "hanzi": "下雨了，我们不得不取消比赛。", "pinyin": "Xià yǔ le, wǒmen bùdébù qǔxiāo bǐsài.", "english": "It started to rain, so we had to cancel the match." }
+        ]
+      },
+      {
+        "rule": "**没有 + Noun + 不 + Verb** says 'everybody does': 没有人不喜欢他 = 'there is nobody who doesn't like him'. 无不 is the formal version.",
+        "highlight": "没有",
+        "examples": [
+          { "hanzi": "没有人不喜欢她。", "pinyin": "Méiyǒu rén bù xǐhuan tā.", "english": "Everybody likes her." },
+          { "hanzi": "听到这个消息，大家无不高兴。", "pinyin": "Tīngdào zhège xiāoxi, dàjiā wúbù gāoxìng.", "english": "Hearing the news, everybody was happy." }
+        ]
+      },
+      {
+        "rule": "**非 … 不可 / 非 … 不行** means 'must, nothing else will do'. It sounds firm and slightly dramatic.",
+        "highlight": "非",
+        "examples": [
+          { "hanzi": "要学好汉语，非多练习不可。", "pinyin": "Yào xuéhǎo Hànyǔ, fēi duō liànxí bùkě.", "english": "To learn Chinese well, you must practise a lot." },
+          { "hanzi": "他非要自己去不可。", "pinyin": "Tā fēi yào zìjǐ qù bùkě.", "english": "He insists on going himself." }
+        ]
+      },
+      {
+        "rule": "**不是 … 不 / 不 … 不行** and rhetorical forms: 不是不想 'it's not that I don't want to' (but I can't), and 不去不行 'you have to go'.",
+        "highlight": "不是",
+        "examples": [
+          { "hanzi": "我不是不想去，是没有时间。", "pinyin": "Wǒ bú shì bù xiǎng qù, shì méiyǒu shíjiān.", "english": "It's not that I don't want to go; I have no time." },
+          { "hanzi": "明天的会你不去不行。", "pinyin": "Míngtiān de huì nǐ bú qù bù xíng.", "english": "You have to go to the meeting tomorrow." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "必须", "text": "必须 is a plain 'must'; double negation adds the feeling 'there is no alternative' or politely softens an order." },
+      { "vs": "不得不 vs 不能不", "text": "不得不 means external pressure forces you; 不能不 means your conscience or duty does not let you ignore it." }
+    ],
+    "pitfalls": [
+      "✗ 我不是不喜欢他。 (meant: I like him a lot) → ✓ 我很喜欢他。 A double negation is weaker than the plain positive: it only means 'it's not that I dislike him'.",
+      "✗ 我不得不去参加朋友的婚礼，太高兴了！ → ✓ 我要去参加朋友的婚礼，太高兴了！ 不得不 always implies reluctance, so it clashes with joy.",
+      "✗ 非去可。 → ✓ 非去不可。 The 不可 must stay; 非 alone is not a modal verb.",
+      "✗ 没有人不都来了。 → ✓ 没有人不来。 or 大家都来了。 Do not pile up more negatives than needed; two are enough."
+    ],
+    "relatedPointIds": ["g6-budebu-budeyi", "g5-fei-buke", "g1-bie", "g3-question-word-indefinite"],
+    "keywords": ["double negation", "bu neng bu", "bu de bu", "fei bu ke", "不能不", "不得不", "非不可", "没有不", "无不", "emphasis"],
+    "status": "draft"
+  },
+  {
+    "id": "negation-partial",
+    "title": "Partial negation and the scope of 不",
+    "titleHanzi": "不都 / 都不 / 不太",
+    "category": "negation",
+    "hskRange": [2, 5],
+    "summary": "Word order decides what is denied. 都不 means 'none', while 不都 means 'not all'. Adverbs like 太, 很 and 一定 also change when negated.",
+    "pattern": "都 + 不 (all not)  ·  不 + 都 (not all)  ·  不太 / 不很 / 不一定",
+    "rules": [
+      {
+        "rule": "**都不 = none, 不都 = not all.** The negation counts what comes after it. 都 first and 不 second makes every member negative; 不 first and 都 second denies the whole group, but allows exceptions.",
+        "highlight": "都不",
+        "examples": [
+          { "hanzi": "我们都不去。", "pinyin": "Wǒmen dōu bú qù.", "english": "None of us is going." },
+          { "hanzi": "我们不都去。", "pinyin": "Wǒmen bù dōu qù.", "english": "Not all of us are going." },
+          { "hanzi": "这些书我都没看过。", "pinyin": "Zhèxiē shū wǒ dōu méi kàn guo.", "english": "I have read none of these books." }
+        ]
+      },
+      {
+        "rule": "**不太 / 不很 / 不大** weaken an adjective: 不太好 is 'not very good' (polite for bad). 不很 is rare in speech; 不太 is normal.",
+        "highlight": "不太",
+        "examples": [
+          { "hanzi": "今天天气不太好。", "pinyin": "Jīntiān tiānqì bú tài hǎo.", "english": "The weather isn't very good today." },
+          { "hanzi": "我不太喜欢吃辣的。", "pinyin": "Wǒ bú tài xǐhuan chī là de.", "english": "I don't like spicy food very much." }
+        ]
+      },
+      {
+        "rule": "**不一定 / 不必 / 不见得 / 未必** deny certainty: 'not necessarily'. 不见得 and 未必 are doubtful guesses; 不一定 is neutral.",
+        "highlight": "不一定",
+        "examples": [
+          { "hanzi": "贵的东西不一定好。", "pinyin": "Guì de dōngxi bù yídìng hǎo.", "english": "Expensive things are not necessarily good." },
+          { "hanzi": "他不见得会来。", "pinyin": "Tā bújiànde huì lái.", "english": "He won't necessarily come." }
+        ]
+      },
+      {
+        "rule": "**Quantity negation:** 没有一个 / 一点儿也不 / 一次也没 give a total denial with 'not even one'. 并不, 并没有 deny a belief: see the lesson on 并.",
+        "highlight": "也",
+        "examples": [
+          { "hanzi": "教室里一个人也没有。", "pinyin": "Jiàoshì lǐ yí gè rén yě méiyǒu.", "english": "There isn't a single person in the classroom." },
+          { "hanzi": "我一点儿也不累。", "pinyin": "Wǒ yìdiǎnr yě bú lèi.", "english": "I'm not tired at all." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "English 'all … not'", "text": "English 'All the students don't come' is ambiguous. Chinese is clear: 学生都不来 (none) vs 学生不都来 (not all)." },
+      { "vs": "不太 vs 太不", "text": "太不 is a strong negative ('very much not'): 太不像话 = outrageous. 不太 is a gentle 'not very'." }
+    ],
+    "pitfalls": [
+      "✗ 我不都喜欢。 (meant: I like none) → ✓ 我都不喜欢。 Put 都 before 不 for a total negative.",
+      "✗ 他不很高。 → ✓ 他不太高。 In speech 不太 is the normal form.",
+      "✗ 我一点儿都喜欢。 → ✓ 我一点儿也不喜欢。 The 一点儿也 / 都 pattern needs a negative.",
+      "✗ 贵的不一定好的。 → ✓ 贵的不一定好。 Don't add a final 的 to the conclusion."
+    ],
+    "relatedPointIds": ["g1-ye-dou", "g4-bing-negation", "g5-weibi", "g3-lian-dou"],
+    "keywords": ["partial negation", "bu dou", "dou bu", "bu tai", "不都", "都不", "不太", "不一定", "not all", "none", "scope"],
+    "status": "draft"
+  }
+]

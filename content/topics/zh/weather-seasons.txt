@@ -1,0 +1,151 @@
+@pack | weather-seasons | Weather & Seasons | 天气与四季 | ⛅ | nature | Meteorological terms, four seasons, temperature, and natural phenomena.
+天 | sky; day | 今天天很蓝。 | The sky is very blue today.
+风 | wind | 今天风很大。 | The wind is strong today.
+雨 | rain | 外面下大雨了。 | It's raining heavily outside.
+雪 | snow | 这里冬天有很多雪。 | There is a lot of snow here in winter.
+云 | cloud | 天上有一朵白云。 | There is a white cloud in the sky.
+天气 | weather | 今天天气很好。 | The weather is nice today.
+气候 | climate | 这里的气候很舒服。 | The climate here is comfortable.
+晴天 | sunny day | 明天是晴天。 | Tomorrow will be sunny.
+阴天 | overcast day | 今天是阴天。 | Today is overcast.
+多云 | cloudy | 明天多云。 | Tomorrow will be cloudy.
+下雨 | rain | 明天可能下雨。 | It may rain tomorrow.
+下雪 | snow | 北京冬天常下雪。 | It often snows in Beijing in winter.
+刮风 | be windy | 外面刮风了。 | It's windy outside.
+太阳 | sun | 太阳出来了。 | The sun has come out.
+月亮 | moon | 今晚的月亮很圆。 | Tonight's moon is very round.
+星星 | star | 夜空里有很多星星。 | There are many stars in the night sky.
+雷 | thunder | 夜里打雷了。 | It thundered during the night.
+闪电 | lightning | 天空出现了闪电。 | Lightning appeared in the sky.
+彩虹 | rainbow | 雨后天空出现了彩虹。 | A rainbow appeared in the sky after the rain.
+温度 | temperature | 现在的温度是二十度。 | The temperature is now twenty degrees.
+气温 | air temperature | 今天的气温很低。 | The air temperature is low today.
+度 | degree | 今天三十五度。 | It is thirty-five degrees today.
+冷 | cold | 今天很冷。 | It is very cold today.
+热 | hot | 夏天很热。 | Summer is very hot.
+暖和 | warm | 屋子里很暖和。 | It is warm in the room.
+凉快 | cool | 秋天很凉快。 | Autumn is cool.
+春天 | spring | 春天花开了。 | Flowers bloom in spring.
+夏天 | summer | 夏天可以游泳。 | You can swim in summer.
+秋天 | autumn | 秋天树叶变黄了。 | The leaves turn yellow in autumn.
+冬天 | winter | 冬天我常穿羽绒服。 | I often wear a down jacket in winter.
+季节 | season | 你最喜欢哪个季节？ | Which season do you like best?
+春 | spring | 春来了。 | Spring has come.
+夏 | summer | 夏日的阳光很强。 | The summer sun is strong.
+秋 | autumn | 秋高气爽。 | The autumn sky is high and the air crisp.
+冬 | winter | 冬至是一年里最短的白天。 | The winter solstice has the shortest day of the year.
+四季 | four seasons | 这里四季分明。 | The four seasons are distinct here.
+天气预报 | weather forecast | 我看了天气预报。 | I checked the weather forecast.
+预报 | forecast | 气象台预报明天有雨。 | The weather station forecasts rain tomorrow.
+气象 | meteorology | 气象部门发布了警报。 | The meteorological bureau issued a warning.
+气象台 | weather station | 气象台发布了高温预警。 | The weather station issued a heat warning.
+晴 | clear; sunny | 雨过天晴。 | The rain is over and the sky has cleared.
+阴 | overcast | 天阴了，可能要下雨。 | It has turned overcast and may rain.
+雾 | fog | 今天早上有大雾。 | There was heavy fog this morning.
+霾 | haze | 冬天有时会有雾霾。 | In winter there is sometimes smog.
+露水 | dew | 草地上有露水。 | There is dew on the grass.
+霜 | frost | 早上草地上有一层霜。 | There was frost on the grass this morning.
+冰 | ice | 湖面结冰了。 | The lake has frozen over.
+冰雹 | hail | 昨天下了一场冰雹。 | There was a hailstorm yesterday.
+雨伞 | umbrella | 出门带雨伞吧。 | Take an umbrella when you go out.
+雨衣 | raincoat | 他穿着雨衣骑车。 | He rides his bike in a raincoat.
+小雨 | light rain | 外面下着小雨。 | It's drizzling outside.
+大雨 | heavy rain | 昨天下了一场大雨。 | There was heavy rain yesterday.
+暴雨 | rainstorm | 暴雨造成了积水。 | The rainstorm caused flooding on the roads.
+阵雨 | shower | 下午有阵雨。 | There will be showers in the afternoon.
+毛毛雨 | drizzle | 早上下了毛毛雨。 | It drizzled in the morning.
+雨点 | raindrop | 雨点打在窗户上。 | Raindrops hit the window.
+雪花 | snowflake | 雪花从天上飘下来。 | Snowflakes drift from the sky.
+大雪 | heavy snow | 大雪封了山路。 | Heavy snow closed the mountain road.
+雪人 | snowman | 孩子们堆了一个雪人。 | The kids built a snowman.
+下雨天 | rainy day | 下雨天我不想出门。 | I don't want to go out on rainy days.
+大风 | strong wind | 夜里刮起了大风。 | A strong wind rose in the night.
+微风 | breeze | 一阵微风吹过来。 | A gentle breeze blew by.
+台风 | typhoon | 台风明天登陆。 | The typhoon makes landfall tomorrow.
+龙卷风 | tornado | 龙卷风毁坏了很多房子。 | The tornado destroyed many houses.
+沙尘暴 | sandstorm | 春天北方常有沙尘暴。 | The north often has sandstorms in spring.
+暴风雪 | blizzard | 暴风雪让机场关闭了。 | The blizzard closed the airport.
+雷雨 | thunderstorm | 下午有雷雨。 | There will be thunderstorms this afternoon.
+打雷 | thunder | 打雷的时候别站在树下。 | Don't stand under a tree when it thunders.
+洪水 | flood | 洪水淹没了村子。 | The flood submerged the village.
+干旱 | drought | 今年夏天发生了干旱。 | A drought occurred this summer.
+地震 | earthquake | 昨晚发生了小地震。 | A small earthquake occurred last night.
+山火 | wildfire | 高温容易引起山火。 | High temperature can cause wildfires.
+自然 | nature | 我喜欢亲近大自然。 | I like being close to nature.
+自然灾害 | natural disaster | 地震是一种自然灾害。 | An earthquake is a kind of natural disaster.
+预警 | early warning | 气象台发出了暴雨预警。 | The weather station issued a rainstorm warning.
+高温 | high temperature | 今年夏天有很多高温天。 | This summer has many very hot days.
+低温 | low temperature | 低温让路面结冰了。 | The low temperature iced over the road.
+零下 | below zero | 冬天最低气温零下十度。 | In winter the lowest temperature is ten below zero.
+摄氏度 | degrees Celsius | 今天最高气温是三十摄氏度。 | Today's high temperature is thirty degrees Celsius.
+最高 | highest | 今天最高温度是三十度。 | Today's highest temperature is thirty degrees.
+最低 | lowest | 明天最低气温五度。 | Tomorrow's lowest temperature is five degrees.
+湿度 | humidity | 夏天的湿度很高。 | Humidity is high in summer.
+潮湿 | damp | 雨季房间很潮湿。 | Rooms are damp in the rainy season.
+干燥 | dry | 秋天的空气很干燥。 | The air is dry in autumn.
+闷热 | muggy | 今天闷热得让人难受。 | Today is uncomfortably muggy.
+炎热 | scorching | 夏天的中午非常炎热。 | Summer noons are scorching.
+酷暑 | sweltering heat | 酷暑里大家都不想出门。 | In sweltering heat nobody wants to go out.
+寒冷 | freezing | 冬天的北方非常寒冷。 | Winters in the north are freezing.
+严寒 | severe cold | 他们在严寒中工作。 | They work in severe cold.
+凉 | cool | 晚上有点凉。 | It is a bit cool at night.
+温暖 | warm | 阳光很温暖。 | The sunshine is warm.
+温和 | mild | 这里的气候很温和。 | The climate here is mild.
+舒服 | comfortable | 今天的天气很舒服。 | The weather is comfortable today.
+晒 | bask; dry in the sun | 我在阳台上晒太阳。 | I sunbathe on the balcony.
+晒太阳 | bask in the sun | 冬天我喜欢晒太阳。 | I like basking in the sun in winter.
+阳光 | sunshine | 阳光照进房间。 | Sunshine shines into the room.
+日出 | sunrise | 我们去山顶看日出。 | We go to the mountain top to watch the sunrise.
+日落 | sunset | 海边的日落很美。 | The sunset at the seaside is beautiful.
+黄昏 | dusk | 黄昏时天空是红色的。 | The sky is red at dusk.
+夜晚 | night | 夜晚的空气很凉。 | The night air is cool.
+天空 | sky | 天空中飘着白云。 | White clouds float in the sky.
+乌云 | dark cloud | 天边来了一片乌云。 | A mass of dark clouds appeared on the horizon.
+白云 | white cloud | 蓝天上有几朵白云。 | There are a few white clouds in the blue sky.
+银河 | Milky Way | 夏天晚上能看到银河。 | You can see the Milky Way on summer nights.
+流星 | meteor | 我看到了一颗流星。 | I saw a shooting star.
+月食 | lunar eclipse | 昨晚有月食。 | There was a lunar eclipse last night.
+日食 | solar eclipse | 日食很少见。 | Solar eclipses are rare.
+满月 | full moon | 今晚是满月。 | Tonight is a full moon.
+空气 | air | 山里的空气很新鲜。 | The air in the mountains is fresh.
+污染 | pollution | 空气污染影响健康。 | Air pollution affects health.
+环境 | environment | 我们要保护环境。 | We must protect the environment.
+气压 | air pressure | 台风来时气压很低。 | Air pressure is low when a typhoon comes.
+风向 | wind direction | 现在风向是北风。 | The wind direction is now north.
+北风 | north wind | 冬天刮北风。 | A north wind blows in winter.
+东风 | east wind | 春天吹东风。 | An east wind blows in spring.
+雨季 | rainy season | 南方的雨季在六月。 | The rainy season in the south is in June.
+梅雨 | plum rains | 江南的梅雨季节很潮湿。 | The plum rain season in Jiangnan is damp.
+旱季 | dry season | 旱季里很少下雨。 | It seldom rains in the dry season.
+立春 | Start of Spring | 立春是二十四节气之一。 | Start of Spring is one of the 24 solar terms.
+夏至 | summer solstice | 夏至那天白天最长。 | The daytime is longest on the summer solstice.
+冬至 | winter solstice | 北方人冬至吃饺子。 | Northerners eat dumplings on the winter solstice.
+节气 | solar term | 二十四节气和农业有关。 | The 24 solar terms relate to agriculture.
+春分 | spring equinox | 春分那天昼夜一样长。 | Day and night are equally long on the spring equinox.
+秋分 | autumn equinox | 秋分以后白天变短。 | Days shorten after the autumn equinox.
+清明 | Qingming | 清明节人们去扫墓。 | At Qingming people go to sweep tombs.
+花开 | bloom | 春天，公园里花开了。 | In spring, flowers bloom in the park.
+发芽 | sprout | 种子发芽了。 | The seeds have sprouted.
+树叶 | leaf | 秋天树叶变黄。 | Leaves turn yellow in autumn.
+落叶 | fallen leaf | 地上有很多落叶。 | There are many fallen leaves on the ground.
+枫叶 | maple leaf | 秋天的枫叶红了。 | The maple leaves turn red in autumn.
+收获 | harvest | 秋天是收获的季节。 | Autumn is the harvest season.
+游泳 | swim | 夏天我常去游泳。 | I often go swimming in summer.
+滑雪 | ski | 冬天我们去北方滑雪。 | In winter we go skiing in the north.
+堆雪人 | build a snowman | 下雪了，孩子们去堆雪人。 | It snowed and the kids went to build a snowman.
+放风筝 | fly a kite | 春天我们去公园放风筝。 | In spring we fly kites in the park.
+赏花 | admire flowers | 春天大家去公园赏花。 | In spring everyone goes to the park to admire flowers.
+赏月 | admire the moon | 中秋节人们一起赏月。 | During Mid-Autumn people admire the moon together.
+穿衣服 | get dressed | 天冷了，要多穿衣服。 | It is cold; wear more clothes.
+羽绒服 | down jacket | 冬天我穿羽绒服。 | I wear a down jacket in winter.
+短袖 | short sleeves | 夏天我穿短袖。 | I wear short sleeves in summer.
+空调 | air conditioner | 夏天开空调很凉快。 | Turning on the air conditioner makes it cool in summer.
+暖气 | heating | 北方冬天有暖气。 | The north has heating in winter.
+防晒 | sun protection | 夏天出门要涂防晒霜。 | Apply sunscreen when you go out in summer.
+着凉 | catch a chill | 别着凉了，多穿点。 | Don't catch a chill; put on more clothes.
+受凉 | catch a chill | 他昨晚受凉了。 | He caught a chill last night.
+中暑 | heatstroke | 夏天要小心中暑。 | Be careful of heatstroke in summer.
+变化 | change | 天气变化很快。 | The weather changes quickly.
+转 | turn | 明天天气转晴。 | Tomorrow the weather turns sunny.
+升温 | warm up | 这周气温会升温。 | Temperatures will rise this week.
+降温 | cool down | 夜里会降温。 | It will cool down at night.

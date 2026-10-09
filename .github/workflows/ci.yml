@@ -40,6 +40,11 @@ jobs:
       - name: Hardcoded UI text check
         run: npm run check:i18n
 
+      - name: Validate authored content (topics, domains, wiki)
+        run: |
+          npm run build:content
+          git diff --exit-code src/data/generated
+
       - name: Validate grammar content
         run: node scripts/validate-grammar.mjs
 

@@ -225,6 +225,7 @@ export function Dashboard({
 
           {/* Quick onboarding & level shortcuts */}
           <div className="mt-5 flex flex-wrap items-center gap-3 border-t border-slate-100 pt-4 dark:border-slate-700/60 text-xs">
+            {courseConfig.views.includes('learn') && (
             <button
               onClick={() => onNavigate('learn')}
               className="inline-flex items-center gap-1.5 rounded-xl border border-indigo-200 bg-indigo-50/70 px-3 py-2 font-medium text-indigo-700 hover:bg-indigo-100 dark:border-indigo-900/60 dark:bg-indigo-950/40 dark:text-indigo-300"
@@ -232,7 +233,9 @@ export function Dashboard({
               <Compass className="h-4 w-4 text-indigo-600 dark:text-indigo-400" />
               {t('dashboard.learningPaths')}
             </button>
+            )}
 
+            {courseConfig.features.placement && (
             <button
               onClick={() => setShowPlacementTest(true)}
               className="inline-flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white/80 px-3 py-2 font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800/80 dark:text-slate-200"
@@ -240,6 +243,7 @@ export function Dashboard({
               <Award className="h-4 w-4 text-amber-500" />
               {t('dashboard.placementTest')}
             </button>
+            )}
 
             <button
               onClick={() => setShowBulkMark(true)}
@@ -392,6 +396,7 @@ export function Dashboard({
           </ul>
 
           <div className="mt-5 flex flex-wrap gap-2">
+            {courseConfig.views.includes('learn') && (
             <button
               onClick={() => onNavigate('learn')}
               className="inline-flex items-center gap-1 rounded-xl bg-rose-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-rose-700 shadow-sm"
@@ -399,6 +404,7 @@ export function Dashboard({
               {t('dashboard.learningPaths')}{' '}
               <ChevronRight className="h-3.5 w-3.5" aria-hidden />
             </button>
+            )}
             {isEnglishCourse && (
               <button
                 onClick={() => onNavigate('grammar')}

@@ -1,0 +1,146 @@
+@pack | kitchen-tools | Kitchen & Cooking Tools | 厨房与厨具 | 🍳 | home | Cookware, utensils, cutlery, kitchen appliances, and culinary essentials.
+厨房 | kitchen | 妈妈正在厨房里做饭。 | Mom is cooking in the kitchen.
+锅 | pot; pan; wok | 我用大锅煮汤。 | I cook soup in a big pot.
+刀 | knife | 这把刀很锋利。 | This knife is very sharp.
+叉 | fork | 他用叉吃蛋糕。 | He eats cake with a fork.
+叉子 | fork | 请给我一把叉子。 | Please give me a fork.
+勺 | spoon; ladle | 他用勺喝汤。 | He drinks soup with a spoon.
+勺子 | spoon | 这个勺子是不锈钢的。 | This spoon is made of stainless steel.
+筷子 | chopsticks | 你会用筷子吗？ | Can you use chopsticks?
+碗 | bowl | 我吃了两碗米饭。 | I ate two bowls of rice.
+饭碗 | rice bowl | 孩子把饭碗打破了。 | The child broke the rice bowl.
+盘子 | plate; dish | 桌上放着一个白盘子。 | There is a white plate on the table.
+盘 | plate; tray | 她端来一盘水果。 | She brought a plate of fruit.
+盆 | basin; large bowl | 我用盆洗菜。 | I wash vegetables in a basin.
+水壶 | kettle; water bottle | 水壶里的水开了。 | The water in the kettle is boiling.
+壶 | pot; kettle | 桌上有一把茶壶。 | There is a teapot on the table.
+杯子 | cup; glass | 这个杯子是我的。 | This cup is mine.
+微波炉 | microwave oven | 请用微波炉热一下饭。 | Please reheat the meal in the microwave.
+冰箱 | refrigerator; fridge | 牛奶在冰箱里。 | The milk is in the fridge.
+炉子 | stove; furnace | 炉子上正煮着粥。 | Porridge is cooking on the stove.
+炉灶 | cooking stove; range | 新家的炉灶很干净。 | The stove in the new home is very clean.
+铲子 | spatula; shovel | 用铲子把鱼翻过来。 | Flip the fish over with a spatula.
+调料 | seasoning; condiment | 这道菜需要很多调料。 | This dish needs a lot of seasonings.
+烤箱 | oven | 妈妈用烤箱烤了一个蛋糕。 | Mom baked a cake in the oven.
+菜板 | cutting board | 请把菜放在菜板上切。 | Please cut the vegetables on the cutting board.
+围裙 | apron | 做饭时穿上围裙可以防止弄脏衣服。 | Wearing an apron while cooking keeps your clothes clean.
+削皮刀 | peeler | 我用削皮刀给土豆削皮。 | I use a peeler to peel the potatoes.
+洗洁精 | dish soap | 洗碗的时候别放太多洗洁精。 | Do not use too much dish soap when washing dishes.
+火 | fire; flame | 煮汤时火不要太大。 | Do not make the fire too big when cooking soup.
+茶杯 | teacup | 他把茶杯放在桌子上。 | He put the teacup on the table.
+茶壶 | teapot | 奶奶有一把旧茶壶。 | Grandma has an old teapot.
+酒杯 | wine glass | 桌上摆着四个酒杯。 | Four wine glasses are set on the table.
+玻璃杯 | glass tumbler | 玻璃杯放在架子上。 | The glass tumbler is on the shelf.
+马克杯 | mug | 我用马克杯喝咖啡。 | I drink coffee from a mug.
+保温杯 | thermos cup; insulated cup | 爸爸每天带着保温杯上班。 | Dad takes his insulated cup to work every day.
+饭盒 | lunch box | 我中午吃饭盒里的饭。 | I eat the food from my lunch box at noon.
+小碗 | small bowl | 给宝宝一个小碗。 | Give the baby a small bowl.
+大碗 | large bowl | 他端来一大碗面条。 | He brought a large bowl of noodles.
+汤勺 | soup ladle | 请用汤勺盛汤。 | Please use the ladle to serve the soup.
+饭勺 | rice paddle | 饭勺放在电饭锅旁边。 | The rice paddle is next to the rice cooker.
+漏勺 | slotted spoon | 用漏勺把饺子捞出来。 | Take the dumplings out with a slotted spoon.
+锅铲 | wok spatula | 炒菜要用锅铲。 | You need a wok spatula to stir-fry.
+菜刀 | kitchen knife; cleaver | 菜刀要放在孩子拿不到的地方。 | Keep the kitchen knife where children cannot reach it.
+水果刀 | fruit knife | 我用水果刀削苹果。 | I peel the apple with a fruit knife.
+餐刀 | table knife | 吃牛排要用餐刀。 | You need a table knife to eat steak.
+餐叉 | dinner fork | 餐叉在盘子的左边。 | The dinner fork is on the left of the plate.
+刀叉 | knife and fork | 他不太会用刀叉。 | He is not very good at using a knife and fork.
+餐具 | tableware; cutlery | 服务员给我们换了新餐具。 | The waiter changed our tableware.
+碗筷 | bowls and chopsticks | 吃完饭，他去洗碗筷。 | After the meal, he went to wash the bowls and chopsticks.
+牙签 | toothpick | 请再给我一些牙签。 | Please give me some more toothpicks.
+吸管 | drinking straw | 这杯饮料要用吸管喝。 | You drink this beverage with a straw.
+餐巾纸 | napkin; paper tissue | 请拿几张餐巾纸。 | Please take a few napkins.
+餐巾 | table napkin | 他把餐巾放在腿上。 | He put the napkin on his lap.
+桌布 | tablecloth | 这块桌布是红色的。 | This tablecloth is red.
+托盘 | tray | 服务员端着托盘走过来。 | The waiter walked over carrying a tray.
+砧板 | chopping block | 砧板用完要洗干净。 | Wash the chopping block clean after use.
+炒锅 | wok; frying pan | 这个炒锅很重。 | This wok is very heavy.
+平底锅 | frying pan; skillet | 他用平底锅煎鸡蛋。 | He fries eggs in a frying pan.
+汤锅 | soup pot | 汤锅里炖着排骨。 | Ribs are stewing in the soup pot.
+蒸锅 | steamer pot | 包子在蒸锅里蒸着。 | The buns are steaming in the steamer pot.
+蒸笼 | bamboo steamer | 蒸笼里是热腾腾的包子。 | The steamer holds piping hot buns.
+高压锅 | pressure cooker | 用高压锅煮肉很快。 | Cooking meat in a pressure cooker is fast.
+砂锅 | clay pot; casserole | 砂锅里的汤很香。 | The soup in the clay pot smells good.
+电饭锅 | rice cooker | 电饭锅里的饭已经好了。 | The rice in the rice cooker is ready.
+电饭煲 | electric rice cooker | 我家的电饭煲用了十年。 | Our rice cooker has been used for ten years.
+电水壶 | electric kettle | 电水壶烧水很快。 | The electric kettle boils water quickly.
+烧水壶 | kettle for boiling water | 烧水壶放在炉子上。 | The kettle is on the stove.
+咖啡机 | coffee machine | 办公室里有一台咖啡机。 | There is a coffee machine in the office.
+榨汁机 | juicer | 我用榨汁机做橙汁。 | I make orange juice with a juicer.
+搅拌机 | blender; mixer | 把水果放进搅拌机里。 | Put the fruit into the blender.
+面包机 | bread maker | 面包机能自己做面包。 | The bread maker bakes bread by itself.
+烤面包机 | toaster | 烤面包机把面包烤黄了。 | The toaster toasted the bread golden.
+电磁炉 | induction cooker | 我们用电磁炉煮火锅。 | We cook hot pot on an induction cooker.
+燃气灶 | gas stove | 请关好燃气灶。 | Please turn off the gas stove properly.
+煤气灶 | gas cooker | 煤气灶的火很旺。 | The flame of the gas cooker is strong.
+抽油烟机 | range hood | 炒菜时要打开抽油烟机。 | Turn on the range hood when stir-frying.
+洗碗机 | dishwasher | 我们家有一台洗碗机。 | We have a dishwasher at home.
+消毒柜 | disinfection cabinet | 碗筷放进消毒柜里。 | Put the bowls and chopsticks in the sterilizing cabinet.
+冰柜 | chest freezer | 冰柜里有很多冷冻肉。 | There is a lot of frozen meat in the freezer.
+冷冻室 | freezer compartment | 冰淇淋放在冷冻室里。 | The ice cream is in the freezer compartment.
+冷藏室 | refrigerator compartment | 蔬菜放在冷藏室里。 | Vegetables are kept in the refrigerator compartment.
+水槽 | sink | 碗放在水槽里。 | The bowls are in the sink.
+水龙头 | tap; faucet | 用完水请关好水龙头。 | Please turn off the tap after using water.
+垃圾桶 | trash can | 果皮扔进垃圾桶。 | Throw the fruit peel into the trash can.
+抹布 | rag; dishcloth | 他用抹布擦桌子。 | He wipes the table with a rag.
+海绵 | sponge | 洗碗时用海绵擦。 | Use a sponge when washing dishes.
+洗碗布 | dishcloth | 洗碗布每天都要洗。 | The dishcloth must be washed every day.
+钢丝球 | steel wool scourer | 钢丝球会划伤锅。 | A steel wool scourer scratches pots.
+手套 | gloves | 洗碗时戴上手套。 | Wear gloves when washing dishes.
+隔热手套 | oven mitt | 拿烤盘要戴隔热手套。 | Wear an oven mitt to hold the baking tray.
+烤盘 | baking tray | 把饼干放在烤盘上。 | Put the cookies on the baking tray.
+烤架 | grill rack | 烤架上有几块牛排。 | There are a few steaks on the grill rack.
+模具 | mold | 他用模具做了几块饼干。 | He made several cookies using a mold.
+擀面杖 | rolling pin | 她用擀面杖擀饺子皮。 | She rolls dumpling wrappers with a rolling pin.
+量杯 | measuring cup | 用量杯量一杯牛奶。 | Measure a cup of milk with the measuring cup.
+量勺 | measuring spoon | 量勺能帮你控制盐的用量。 | A measuring spoon helps you control the salt.
+电子秤 | digital scale | 我用电子秤称面粉。 | I weigh flour with a digital scale.
+厨房秤 | kitchen scale | 厨房秤放在柜子里。 | The kitchen scale is in the cupboard.
+计时器 | timer | 把计时器定为十分钟。 | Set the timer to ten minutes.
+开瓶器 | bottle opener | 你有开瓶器吗？ | Do you have a bottle opener?
+开罐器 | can opener | 开罐器在抽屉里。 | The can opener is in the drawer.
+剪刀 | scissors | 用剪刀剪开包装袋。 | Cut open the bag with scissors.
+磨刀石 | whetstone | 爷爷用磨刀石磨刀。 | Grandpa sharpens the knife on a whetstone.
+削皮器 | vegetable peeler | 这个削皮器很好用。 | This vegetable peeler works well.
+擦丝器 | grater | 用擦丝器把萝卜擦成丝。 | Grate the radish into shreds with a grater.
+滤网 | filter; sieve | 茶壶里有一个滤网。 | There is a filter inside the teapot.
+筛子 | sieve | 面粉要先用筛子筛一下。 | Sift the flour with a sieve first.
+打蛋器 | egg whisk | 她用打蛋器打鸡蛋。 | She beats eggs with an egg whisk.
+夹子 | tongs; clip | 用夹子夹面包。 | Pick up the bread with tongs.
+调味瓶 | seasoning bottle | 调味瓶放在灶台旁边。 | The seasoning bottles are next to the stove.
+盐罐 | salt shaker | 请把盐罐递给我。 | Please pass me the salt shaker.
+油壶 | oil bottle | 油壶快空了。 | The oil bottle is almost empty.
+酱油瓶 | soy sauce bottle | 酱油瓶在冰箱旁边。 | The soy sauce bottle is next to the fridge.
+保鲜膜 | plastic wrap | 用保鲜膜把剩菜包起来。 | Wrap the leftovers in plastic wrap.
+保鲜盒 | food storage container | 剩饭放进保鲜盒里。 | Put the leftover rice in a food container.
+塑料袋 | plastic bag | 请不要用塑料袋。 | Please do not use plastic bags.
+锡纸 | aluminum foil | 用锡纸包着烤红薯。 | Wrap the sweet potato in foil to roast it.
+密封罐 | airtight jar | 茶叶放在密封罐里。 | The tea leaves are kept in an airtight jar.
+罐子 | jar; pot | 糖放在一个小罐子里。 | The sugar is kept in a small jar.
+瓶子 | bottle | 空瓶子可以回收。 | Empty bottles can be recycled.
+盖子 | lid; cover | 盖子盖好了吗？ | Is the lid on properly?
+锅盖 | pot lid | 煮汤时要盖上锅盖。 | Put the lid on when cooking soup.
+橱柜 | kitchen cabinet | 杯子都在橱柜里。 | The cups are all in the kitchen cabinet.
+碗柜 | dish cupboard | 碗柜里放满了碗和盘子。 | The cupboard is full of bowls and plates.
+灶台 | stovetop | 灶台上有些油。 | There is some oil on the stovetop.
+案板 | chopping board | 案板上放着一块肉。 | A piece of meat lies on the chopping board.
+酒瓶 | wine bottle | 酒瓶里还有半瓶红酒。 | There is half a bottle of red wine left.
+竹筷 | bamboo chopsticks | 这双竹筷是新的。 | This pair of bamboo chopsticks is new.
+一次性筷子 | disposable chopsticks | 一次性筷子不环保。 | Disposable chopsticks are not eco-friendly.
+不锈钢 | stainless steel | 这个锅是不锈钢的。 | This pot is made of stainless steel.
+不粘锅 | non-stick pan | 不粘锅煎蛋不会粘底。 | Eggs do not stick in a non-stick pan.
+铸铁锅 | cast iron pot | 铸铁锅又重又耐用。 | The cast iron pot is heavy and durable.
+煮 | to boil; to cook | 我煮了一碗面。 | I cooked a bowl of noodles.
+炒 | to stir-fry | 妈妈在炒青菜。 | Mom is stir-frying greens.
+煎 | to pan-fry | 他煎了两个鸡蛋。 | He fried two eggs.
+蒸 | to steam | 我们蒸了一条鱼。 | We steamed a fish.
+烤 | to bake; to roast | 她烤了一块面包。 | She baked a loaf of bread.
+炖 | to stew | 奶奶炖了一锅鸡汤。 | Grandma stewed a pot of chicken soup.
+切 | to cut; to slice | 请把苹果切成小块。 | Please cut the apple into small pieces.
+洗碗 | to wash dishes | 晚饭后我来洗碗。 | I will wash the dishes after dinner.
+做饭 | to cook a meal | 我喜欢在家做饭。 | I like to cook at home.
+烧菜 | to cook dishes | 爸爸很会烧菜。 | Dad is good at cooking dishes.
+刀具 | cutlery; knives | 这套刀具质量很好。 | This set of knives is of good quality.
+厨具 | kitchenware | 这家店卖各种厨具。 | This shop sells all kinds of kitchenware.
+炊具 | cooking utensils | 露营时要带上炊具。 | Bring cooking utensils when camping.
+灶 | stove; hearth | 老房子里有一个土灶。 | The old house has an earthen stove.

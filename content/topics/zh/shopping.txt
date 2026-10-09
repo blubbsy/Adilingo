@@ -1,0 +1,221 @@
+@pack | shopping | Shopping & Finance | 购物与消费 | 💳 | lifestyle | Payment methods, shopping, prices, bargaining, discounts, and stores.
+钱 | money | 我身上没带钱。 | I don't have any money on me.
+买 | to buy | 我想买一本字典。 | I want to buy a dictionary.
+卖 | to sell | 这家店卖各种水果。 | This shop sells all kinds of fruit.
+贵 | expensive | 这件衣服太贵了。 | This garment is too expensive.
+便宜 | cheap | 这里的菜很便宜。 | The vegetables here are very cheap.
+多少钱 | how much | 这个苹果多少钱？ | How much is this apple?
+商店 | shop; store | 商店九点开门。 | The shop opens at nine.
+超市 | supermarket | 我去超市买牛奶。 | I am going to the supermarket to buy milk.
+商场 | shopping mall; department store | 周末商场里人很多。 | The shopping mall is crowded on weekends.
+市场 | market | 我常去市场买菜。 | I often go to the market to buy vegetables.
+购物 | to shop | 她喜欢在网上购物。 | She likes shopping online.
+顾客 | customer | 这位顾客想退货。 | This customer wants to return the goods.
+售货员 | shop assistant | 售货员热情地接待了我们。 | The shop assistant received us warmly.
+价格 | price | 这个价格我可以接受。 | I can accept this price.
+打折 | to give a discount | 这家店周末打折。 | This shop gives discounts on weekends.
+特价 | special price | 今天苹果特价。 | Apples are on special price today.
+人民币 | renminbi (RMB) | 我想把美元换成人民币。 | I want to change dollars into renminbi.
+现金 | cash | 请问可以付现金吗？ | May I pay in cash?
+信用卡 | credit card | 你可以用信用卡付款。 | You can pay with a credit card.
+银行 | bank | 银行下午五点关门。 | The bank closes at five in the afternoon.
+账户 | account | 我在银行开了一个账户。 | I opened an account at the bank.
+付钱 | to pay | 你去付钱，我拿东西。 | You go and pay, I'll carry the things.
+支付 | to pay; payment | 这里可以用手机支付。 | You can pay by mobile phone here.
+发票 | receipt; invoice | 请给我开一张发票。 | Please issue me an invoice.
+收据 | receipt | 请保存好这张收据。 | Please keep this receipt safe.
+质量 | quality | 这个牌子的质量很好。 | The quality of this brand is very good.
+花费 | to spend; expense | 这次旅行花费不少。 | This trip cost quite a lot.
+收费 | to charge a fee | 这个停车场按小时收费。 | This car park charges by the hour.
+省钱 | to save money | 自己做饭可以省钱。 | Cooking yourself can save money.
+元 | yuan | 这本书二十元。 | This book costs twenty yuan.
+块 | yuan (colloquial) | 一斤苹果五块钱。 | A jin of apples costs five yuan.
+角 | jiao (0.1 yuan) | 一元等于十角。 | One yuan equals ten jiao.
+毛 | mao (0.1 yuan, colloquial) | 这支笔只要五毛钱。 | This pen costs only five mao.
+分 | fen (0.01 yuan) | 现在很少用分了。 | Fen are rarely used nowadays.
+零钱 | small change | 我没有零钱找你。 | I don't have small change to give you.
+找钱 | to give change | 售货员要找钱给我。 | The shop assistant gave me five yuan in change.
+硬币 | coin | 我口袋里有几个硬币。 | I have a few coins in my pocket.
+纸币 | banknote | 这张纸币是新的。 | This banknote is new.
+美元 | US dollar | 一美元能换多少人民币？ | How many renminbi can one US dollar buy?
+欧元 | euro | 他带了一些欧元去旅行。 | He took some euros on the trip.
+外币 | foreign currency | 机场可以兑换外币。 | You can exchange foreign currency at the airport.
+汇率 | exchange rate | 今天的汇率是多少？ | What is today's exchange rate?
+兑换 | to exchange | 我想兑换一些零钱。 | I would like to exchange some money for small change.
+货币 | currency | 人民币是中国的货币。 | The renminbi is the currency of China.
+钞票 | banknote | 他数了数手里的钞票。 | He counted the banknotes in his hand.
+价钱 | price | 这个价钱太高了。 | This price is too high.
+标价 | marked price | 标价上写着一百元。 | The marked price says one hundred yuan.
+原价 | original price | 这双鞋原价三百元。 | These shoes originally cost three hundred yuan.
+现价 | current price | 现价只要一百五十元。 | The current price is only one hundred and fifty yuan.
+折扣 | discount | 会员可以享受九折折扣。 | Members can enjoy a ten percent discount.
+优惠 | preferential; offer | 今天有很多优惠活动。 | There are many special offers today.
+优惠券 | coupon | 我有一张五十元的优惠券。 | I have a coupon worth fifty yuan.
+促销 | promotion; sale | 商场正在做促销。 | The mall is holding a sale.
+减价 | to reduce the price | 这家店在减价卖衣服。 | This shop is selling clothes at reduced prices.
+清仓 | clearance sale | 这家店清仓大甩卖。 | This shop is having a big clearance sale.
+满减 | spend-and-save discount | 这家店满减活动很划算。 | Spend two hundred and save fifty, it's a good deal.
+买一送一 | buy one get one free | 今天饮料买一送一。 | Drinks are buy one get one free today.
+免费 | free of charge | 停车场周末免费。 | The car park is free at weekends.
+赠品 | free gift | 买手机送一个赠品。 | A free gift comes with buying a phone.
+礼品 | gift | 这家店有很多精美的礼品。 | This shop has many exquisite gifts.
+礼物 | present | 我想给妈妈买一份礼物。 | I want to buy a present for my mom.
+划算 | good value | 这个套餐很划算。 | This set meal is good value.
+值得 | worth | 这本书值得一买。 | This book is worth buying.
+物美价廉 | good and cheap | 这里的东西物美价廉。 | The things here are good and cheap.
+讲价 | to bargain | 在小市场买东西可以讲价。 | You can bargain when shopping at small markets.
+砍价 | to haggle | 她很会砍价。 | She is good at haggling.
+还价 | to counter-offer | 老板不同意还价。 | The boss doesn't agree to a counter-offer.
+商品 | goods; merchandise | 货架上摆满了商品。 | The shelves are full of goods.
+东西 | thing; stuff | 我想买点儿东西。 | I want to buy some things.
+货 | goods | 这批货明天到。 | This batch of goods arrives tomorrow.
+货架 | shelf | 牛奶在第二个货架上。 | The milk is on the second shelf.
+柜台 | counter | 请到前面的柜台付款。 | Please pay at the counter in front.
+收银台 | checkout counter | 收银台前排着长队。 | There is a long line at the checkout.
+收银员 | cashier | 收银员对每位顾客微笑。 | The cashier smiles at every customer.
+购物车 | shopping cart | 她把苹果放进购物车。 | She put the apples into the shopping cart.
+购物篮 | shopping basket | 我提着购物篮在店里走。 | I walk around the shop carrying a basket.
+购物袋 | shopping bag | 请自带购物袋。 | Please bring your own shopping bag.
+塑料袋 | plastic bag | 商店不再免费提供塑料袋。 | Shops no longer provide plastic bags for free.
+包装 | packaging | 这个礼物的包装很漂亮。 | The packaging of this gift is beautiful.
+打包 | to pack up | 请帮我把这些东西打包。 | Please pack these things up for me.
+标签 | label; tag | 价格写在标签上。 | The price is written on the tag.
+条形码 | barcode | 收银员扫描了条形码。 | The cashier scanned the barcode.
+扫码 | to scan a code | 请扫码付款。 | Please scan the code to pay.
+二维码 | QR code | 柜台上贴着收款二维码。 | A payment QR code is stuck on the counter.
+手机支付 | mobile payment | 现在很多人用手机支付。 | Many people now use mobile payment.
+微信支付 | WeChat Pay | 我用微信支付付了钱。 | I paid using WeChat Pay.
+支付宝 | Alipay | 这家店可以用支付宝。 | You can use Alipay in this shop.
+刷卡 | to swipe a card | 请问可以刷卡吗？ | Can I pay by card?
+银行卡 | bank card | 我把银行卡放在钱包里。 | I keep my bank card in my wallet.
+借记卡 | debit card | 他常用借记卡取钱。 | He often uses a debit card to withdraw money.
+密码 | password; PIN | 请输入你的银行卡密码。 | Please enter your bank card PIN.
+转账 | to transfer money | 我已经给你转账了。 | I have already transferred the money to you.
+汇款 | to remit | 他每个月给家里汇款。 | He remits money home every month.
+收款 | to receive payment | 商家已经收款了。 | The seller has received the payment.
+付款 | to pay; payment | 请在三天内付款。 | Please pay within three days.
+结账 | to settle the bill | 服务员，我要结账。 | Waiter, I'd like to settle the bill.
+买单 | to pay the bill | 今天我来买单。 | I'll pay the bill today.
+账单 | bill | 请把账单拿来。 | Please bring the bill.
+找零 | to give change | 收银员很快找零给我。 | The cashier quickly gave me my change.
+退款 | refund | 申请退款后三天内到账。 | The refund arrives within three days of application.
+退货 | to return goods | 七天内可以无理由退货。 | You can return goods within seven days without giving a reason.
+换货 | to exchange goods | 衣服不合适可以换货。 | If the clothes don't fit you can exchange them.
+保修 | warranty; to guarantee repair | 这台电视保修两年。 | This TV has a two-year warranty.
+售后 | after-sales service | 这家店的售后服务很好。 | The after-sales service of this shop is very good.
+保证 | guarantee | 我保证这是正品。 | I guarantee this is genuine.
+正品 | genuine product | 这是官方店，卖的都是正品。 | This is an official store and sells only genuine products.
+假货 | counterfeit goods | 买东西要小心假货。 | Be careful about counterfeit goods when shopping.
+正版 | genuine edition | 请购买正版软件。 | Please buy the genuine software.
+质量好 | good quality | 这个包质量好，用了五年。 | This bag is of good quality and has lasted five years.
+挑 | to choose; to pick | 我在水果摊挑了几个苹果。 | I picked a few apples at the fruit stall.
+选择 | to choose; choice | 这里有很多选择。 | There are many choices here.
+比较 | to compare | 买东西前先比较价格。 | Compare prices before you buy things.
+对比 | to contrast | 我对比了几家的价格。 | I compared the prices of several shops.
+推荐 | to recommend | 你能推荐一款手机吗？ | Can you recommend a mobile phone?
+评价 | to review; evaluation | 买之前先看看评价。 | Read the reviews before you buy.
+好评 | positive review | 这家店有很多好评。 | This shop has many positive reviews.
+差评 | negative review | 他给了这家店一个差评。 | He gave this shop a negative review.
+尺寸 | dimensions; size | 请问这个尺寸有货吗？ | Is this size in stock?
+有货 | in stock | 这款鞋还有货吗？ | Is this pair of shoes still in stock?
+缺货 | out of stock | 这种牛奶暂时缺货。 | This milk is temporarily out of stock.
+库存 | stock; inventory | 仓库里还有库存。 | There is still stock in the warehouse.
+新品 | new product | 商店刚到了一批新品。 | The shop has just received a batch of new products.
+热卖 | hot-selling | 这款耳机最近很热卖。 | These earphones are selling very well recently.
+畅销 | best-selling | 这本书非常畅销。 | This book is a bestseller.
+进口 | imported; to import | 这是进口的水果。 | This is imported fruit.
+国产 | domestically made | 国产手机越来越受欢迎。 | Domestic phones are becoming ever more popular.
+品牌 | brand | 她只买自己喜欢的品牌。 | She buys only brands she likes.
+名牌 | famous brand | 这个包是名牌。 | This bag is a famous brand.
+奢侈品 | luxury goods | 他买不起奢侈品。 | He can't afford luxury goods.
+二手 | second-hand | 我买了一辆二手车。 | I bought a second-hand car.
+日用品 | daily necessities | 超市里有各种日用品。 | The supermarket has all kinds of daily necessities.
+食品 | food products | 食品区在二楼。 | The food section is on the second floor.
+饮料 | beverages | 我们去买点儿饮料。 | Let's go and buy some drinks.
+零食 | snacks | 孩子们喜欢吃零食。 | Children like eating snacks.
+蔬菜 | vegetables | 我买了一些新鲜蔬菜。 | I bought some fresh vegetables.
+水果 | fruit | 水果摊上有很多种水果。 | There are many kinds of fruit at the fruit stall.
+肉 | meat | 我去肉店买半斤肉。 | I'm going to the butcher to buy half a jin of meat.
+鱼 | fish | 市场上的鱼很新鲜。 | The fish at the market are very fresh.
+面包 | bread | 面包店的面包刚出炉。 | The bread at the bakery has just come out of the oven.
+面包店 | bakery | 面包店里有一股香味。 | There is a nice smell in the bakery.
+药店 | pharmacy | 药店就在街角。 | The pharmacy is at the corner of the street.
+书店 | bookstore | 我常去书店看书。 | I often go to the bookstore to read.
+花店 | flower shop | 她在花店买了一束花。 | She bought a bunch of flowers at the flower shop.
+服装店 | clothing store | 这条街上有很多服装店。 | There are many clothing stores on this street.
+鞋店 | shoe shop | 鞋店正在打折。 | The shoe shop has a sale.
+便利店 | convenience store | 便利店二十四小时营业。 | The convenience store is open 24 hours.
+菜市场 | food market | 奶奶每天早上去菜市场。 | Grandma goes to the food market every morning.
+夜市 | night market | 夜市上有很多小吃。 | There are many snacks at the night market.
+小摊 | stall | 路边有一个卖水果的小摊。 | There is a stall selling fruit by the road.
+摊位 | booth; stall | 他租了一个摊位卖衣服。 | He rented a stall to sell clothes.
+专卖店 | specialty store | 这家手机专卖店很大。 | This phone specialty store is big.
+连锁店 | chain store | 这个连锁店在全国有很多分店。 | This chain has many branches across the country.
+购物中心 | shopping center | 新的购物中心下个月开业。 | The new shopping center opens next month.
+百货 | general merchandise | 这家百货公司很有名。 | This department store is well known.
+老板 | boss; shop owner | 老板，这个多少钱？ | Boss, how much is this?
+营业 | to do business; to be open | 这家店晚上十点停止营业。 | This shop stops doing business at ten p.m.
+营业时间 | business hours | 请问营业时间是几点到几点？ | What are your business hours, please?
+开门 | to open | 商店早上八点开门。 | The shop opens at eight a.m.
+关门 | to close | 超市晚上十点关门。 | The supermarket closes at ten p.m.
+排队 | to line up | 大家在收银台前排队。 | Everyone is lining up at the checkout.
+逛街 | to go window-shopping | 周末我和朋友去逛街。 | On weekends I go window-shopping with friends.
+网购 | online shopping | 我经常网购日用品。 | I often shop online for daily necessities.
+网店 | online shop | 她开了一家网店卖手工艺品。 | She opened an online shop selling handicrafts.
+下单 | to place an order | 我昨天在网上下单了。 | I placed an order online yesterday.
+订单 | order | 请查看你的订单信息。 | Please check your order information.
+快递 | express delivery | 我的快递明天到。 | My express package arrives tomorrow.
+包裹 | parcel | 门口有一个包裹。 | There is a parcel at the door.
+运费 | shipping fee | 满九十九元免运费。 | Shipping is free for orders over ninety-nine yuan.
+包邮 | free shipping | 这个商品包邮。 | This item comes with free shipping.
+送货 | to deliver goods | 商家可以送货上门。 | The seller can deliver to your door.
+外卖 | takeaway | 今晚我们点外卖吧。 | Let's order takeaway tonight.
+收货 | to receive goods | 我今天在家收货。 | I'll be home today to receive the goods.
+签收 | to sign for | 快递员请我签收包裹。 | The courier asked me to sign for the parcel.
+物流 | logistics | 你可以查看物流信息。 | You can check the logistics information.
+直播带货 | livestream selling | 现在很多人看直播带货。 | Many people now watch livestream selling.
+购物节 | shopping festival | 双十一是中国最大的购物节。 | Double Eleven is China's biggest shopping festival.
+平台 | platform | 这个购物平台很受欢迎。 | This shopping platform is very popular.
+商家 | seller; merchant | 商家承诺七天内发货。 | The seller promises to ship within seven days.
+卖家 | seller | 我问了卖家几个问题。 | I asked the seller a few questions.
+买家 | buyer | 买家可以随时联系客服。 | Buyers can contact customer service at any time.
+客服 | customer service | 客服很快回复了我。 | Customer service replied to me quickly.
+购买 | to purchase | 请在官方网站购买。 | Please purchase on the official website.
+消费 | to consume; spending | 他每个月消费不多。 | He doesn't spend much each month.
+消费者 | consumer | 消费者要保护自己的权利。 | Consumers should protect their rights.
+需求 | demand; need | 市场对这种产品需求很大。 | The market has a big demand for this product.
+预算 | budget | 我的预算只有一千元。 | My budget is only one thousand yuan.
+开销 | expenditure | 搬家后每月开销增加了。 | Monthly expenses have increased after moving.
+支出 | expenditure | 这个月的支出比收入多。 | This month's expenditure is higher than income.
+收入 | income | 他的收入不高。 | His income is not high.
+工资 | salary; wages | 公司每月十号发工资。 | The company pays wages on the tenth of each month.
+奖金 | bonus | 年底他拿到了一笔奖金。 | He received a bonus at the end of the year.
+存钱 | to save money; to deposit | 她每个月都存钱。 | She saves money every month.
+存款 | deposit; savings | 他的存款不多。 | His savings are not large.
+取钱 | to withdraw money | 我去自动取款机取钱。 | I go to the ATM to withdraw money.
+取款机 | ATM | 取款机在银行门口。 | The ATM is at the entrance of the bank.
+利息 | interest | 银行存款有一点利息。 | Bank deposits earn a little interest.
+利率 | interest rate | 银行降低了利率。 | The bank lowered the interest rate.
+贷款 | loan | 他向银行申请了贷款。 | He applied to the bank for a loan.
+房贷 | mortgage | 每个月他要还房贷。 | He has to pay the mortgage every month.
+还款 | to repay | 请按时还款。 | Please repay on time.
+借钱 | to borrow money | 我想向朋友借钱。 | I borrowed a bit of money from a friend.
+还钱 | to pay back money | 他下个月还钱给我。 | He will pay me back next month.
+欠 | to owe | 我还欠他一百元。 | I still owe him one hundred yuan.
+债 | debt | 他终于还清了所有的债。 | He finally paid off all his debts.
+余额 | balance | 请查询账户余额。 | Please check your account balance.
+开户 | to open an account | 我想在这家银行开户。 | I want to open an account at this bank.
+储蓄 | savings | 他有定期储蓄。 | He has fixed-term savings.
+理财 | financial management | 她开始学习理财。 | She has started learning about personal finance.
+投资 | to invest; investment | 他在股市投资了一些钱。 | He invested some money in the stock market.
+股票 | stock; shares | 爸爸喜欢买股票。 | Dad likes buying stocks.
+基金 | fund | 她买了一只基金。 | She bought a fund.
+保险 | insurance | 买车要买保险。 | When buying a car you must buy insurance.
+税 | tax | 买进口商品要交税。 | Tax is paid when buying imported goods.
+手续费 | service fee | 转账需要收手续费。 | Transfers require a service fee.
+免费送货 | free delivery | 本店满一百元免费送货。 | This shop offers free delivery for orders over one hundred yuan.
+会员 | member | 会员购物可以打九折。 | Members get ten percent off.
+会员卡 | membership card | 请出示你的会员卡。 | Please show your membership card.
+积分 | points | 购物可以积累积分。 | You can accumulate points by shopping.
+抽奖 | lucky draw | 买满一百元可以抽奖。 | You can enter a lucky draw by spending one hundred yuan.
+红包 | red envelope; cash gift | 过年时长辈给孩子红包。 | At the New Year elders give children red envelopes.

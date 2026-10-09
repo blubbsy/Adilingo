@@ -1,0 +1,194 @@
+@topic | Education & School | 🎓
+school | /skuːl/ | 学校; 上学 | The children walk to school together every morning. | 孩子们每天早上一起步行去学校。 | 1
+student | /ˈstjuːdnt/ | 学生 | Every student has a new notebook. | 每个学生都有一本新笔记本。 | 1
+pupil | /ˈpjuːpl/ | 小学生; 学生 | The pupils sat quietly in class. | 学生们安静地坐在教室里。 | 2
+classroom | /ˈklɑːsruːm/ | 教室 | The classroom is bright and clean. | 教室明亮整洁。 | 1
+class | /klɑːs/ | 班级; 课 | Our class starts at eight. | 我们的课八点开始。 | 1
+lesson | /ˈlesn/ | 课; 课程 | The first lesson is maths. | 第一节课是数学。 | 1
+subject | /ˈsʌbdʒɪkt/ | 学科; 科目 | My favourite subject is history. | 我最喜欢的科目是历史。 | 1
+homework | /ˈhəʊmwɜːk/ | 家庭作业 | I do my homework after dinner. | 我晚饭后做作业。 | 1
+test | /test/ | 测验; 考试 | We have a test on Friday. | 我们周五有一场测验。 | 1
+exam | /ɪɡˈzæm/ | 考试 | She is studying hard for the exam. | 她正在为考试用功学习。 | 1
+question | /ˈkwestʃən/ | 问题; 试题 | The teacher asked a difficult question. | 老师问了一个难题。 | 1
+read | /riːd/ | 阅读 | Please read the text aloud. | 请大声朗读这篇课文。 | 1
+write | /raɪt/ | 写 | Write your name at the top of the page. | 请在页面顶部写上你的名字。 | 1
+learn | /lɜːn/ | 学习; 学会 | I learn ten new words every day. | 我每天学十个新单词。 | 1
+study | /ˈstʌdi/ | 学习; 研究 | I study English in the evening. | 我晚上学英语。 | 1
+teach | /tiːtʃ/ | 教 | She teaches music at a primary school. | 她在一所小学教音乐。 | 1
+pen | /pen/ | 钢笔; 笔 | Can I borrow your pen? | 我能借你的笔吗？ | 1
+pencil | /ˈpensl/ | 铅笔 | Use a pencil for the drawing. | 画图请用铅笔。 | 1
+rubber | /ˈrʌbə/ | 橡皮 | I need a rubber to fix my mistake. | 我需要一块橡皮来改正错误。 | 1
+ruler | /ˈruːlə/ | 尺子 | Draw a line with a ruler. | 用尺子画一条线。 | 1
+notebook | /ˈnəʊtbʊk/ | 笔记本 | Write the new words in your notebook. | 把新单词写在你的笔记本上。 | 1
+schoolbag | /ˈskuːlbæɡ/ | 书包 | My schoolbag is very heavy today. | 我的书包今天很重。 | 1
+blackboard | /ˈblækbɔːd/ | 黑板 | The teacher wrote a word on the blackboard. | 老师在黑板上写了一个单词。 | 1
+whiteboard | /ˈwaɪtbɔːd/ | 白板 | She drew a map on the whiteboard. | 她在白板上画了一张地图。 | 2
+chalk | /tʃɔːk/ | 粉笔 | The chalk broke in half. | 粉笔断成了两截。 | 2
+textbook | /ˈtekstbʊk/ | 教科书 | Open your textbook at page ten. | 请把教科书翻到第十页。 | 2
+dictionary | /ˈdɪkʃənri/ | 词典 | Look the word up in a dictionary. | 在词典里查一下这个词。 | 2
+library | /ˈlaɪbrəri/ | 图书馆 | I study in the library after class. | 我下课后在图书馆学习。 | 1
+playground | /ˈpleɪɡraʊnd/ | 操场 | The children play on the playground. | 孩子们在操场上玩耍。 | 2
+canteen | /kænˈtiːn/ | 食堂 | We eat lunch in the school canteen. | 我们在学校食堂吃午饭。 | 2
+uniform | /ˈjuːnɪfɔːm/ | 校服; 制服 | Students must wear a uniform. | 学生必须穿校服。 | 2
+timetable | /ˈtaɪmteɪbl/ | 课程表 | Check the timetable for tomorrow's classes. | 看一下明天课程的课表。 | 2
+break time | /breɪk taɪm/ | 课间休息 | We play football at break time. | 我们课间踢足球。 | 2
+holiday | /ˈhɒlədeɪ/ | 假期 | The summer holiday starts in July. | 暑假从七月开始。 | 1
+kindergarten | /ˈkɪndəɡɑːtn/ | 幼儿园 | My little brother goes to kindergarten. | 我弟弟上幼儿园。 | 2
+primary school | /ˈpraɪməri skuːl/ | 小学 | She started primary school at six. | 她六岁上小学。 | 2
+secondary school | /ˈsekəndri skuːl/ | 中学 | He goes to a large secondary school. | 他上一所大型中学。 | 3
+high school | /haɪ skuːl/ | 高中 | She is in her last year of high school. | 她在读高中最后一年。 | 2
+university | /ˌjuːnɪˈvɜːsəti/ | 大学 | He wants to go to university. | 他想上大学。 | 2
+college | /ˈkɒlɪdʒ/ | 学院; 大学 | She studies art at a college. | 她在一所学院学习艺术。 | 2
+campus | /ˈkæmpəs/ | 校园 | The campus is full of trees. | 校园里满是树木。 | 3
+dormitory | /ˈdɔːmətri/ | 宿舍 | I share a dormitory with three students. | 我和三位同学共住一间宿舍。 | 3
+boarding school | /ˈbɔːdɪŋ skuːl/ | 寄宿学校 | He went to a boarding school in the north. | 他在北方一所寄宿学校上学。 | 4
+principal | /ˈprɪnsəpl/ | 校长 | The principal gave a short speech. | 校长做了简短的讲话。 | 3
+headteacher | /ˌhedˈtiːtʃə/ | 校长 (英) | The headteacher welcomed the new pupils. | 校长欢迎新生入学。 | 4
+professor | /prəˈfesə/ | 教授 | The professor teaches physics. | 这位教授讲授物理。 | 3
+lecturer | /ˈlektʃərə/ | 讲师 | The lecturer explained the theory clearly. | 讲师把这个理论讲得很清楚。 | 4
+tutor | /ˈtjuːtə/ | 导师; 家教 | My tutor gave me useful advice. | 我的导师给了我有用的建议。 | 4
+classmate | /ˈklɑːsmeɪt/ | 同班同学 | My classmate lent me her notes. | 我的同班同学借给我她的笔记。 | 2
+roommate | /ˈruːmmeɪt/ | 室友 | My roommate gets up very late. | 我的室友起得很晚。 | 2
+graduate | /ˈɡrædʒuət/ | 毕业; 毕业生 | She will graduate from university in June. | 她六月大学毕业。 | 4
+graduation | /ˌɡrædʒuˈeɪʃn/ | 毕业典礼; 毕业 | The graduation ceremony is next week. | 毕业典礼在下周。 | 4
+degree | /dɪˈɡriː/ | 学位 | He has a degree in biology. | 他有生物学学位。 | 3
+bachelor | /ˈbætʃələ/ | 学士 | She finished her bachelor's degree in 2020. | 她2020年完成了学士学位。 | 4
+master's degree | /ˈmɑːstəz dɪˈɡriː/ | 硕士学位 | He is doing a master's degree in law. | 他正在读法学硕士学位。 | 4
+PhD | /ˌpiː eɪtʃ ˈdiː/ | 博士学位 | She is working on her PhD in chemistry. | 她正在攻读化学博士学位。 | 5
+undergraduate | /ˌʌndəˈɡrædʒuət/ | 本科生 | Undergraduates take a range of courses. | 本科生修读各种课程。 | 5
+postgraduate | /ˌpəʊstˈɡrædʒuət/ | 研究生 | He is a postgraduate at Oxford. | 他是牛津大学的研究生。 | 5
+scholarship | /ˈskɒləʃɪp/ | 奖学金 | She won a scholarship to study abroad. | 她获得奖学金出国留学。 | 4
+tuition | /tjuˈɪʃn/ | 学费; 教学 | Tuition fees went up again this year. | 今年学费又涨了。 | 5
+fees | /fiːz/ | 学费; 费用 | The school fees are quite high. | 学费相当高。 | 3
+course | /kɔːs/ | 课程 | I am taking a course in design. | 我正在上一门设计课程。 | 2
+curriculum | /kəˈrɪkjələm/ | 课程体系 | The curriculum includes art and music. | 课程体系包括艺术和音乐。 | 5
+syllabus | /ˈsɪləbəs/ | 教学大纲 | The syllabus lists all the topics. | 教学大纲列出了所有主题。 | 5
+module | /ˈmɒdjuːl/ | 模块; 单元课程 | I chose a module on world history. | 我选了一个世界历史单元课。 | 5
+semester | /sɪˈmestə/ | 学期 | The first semester ends in January. | 第一学期一月结束。 | 4
+term | /tɜːm/ | 学期 | There are three terms in a school year. | 一个学年有三个学期。 | 3
+academic year | /ˌækəˈdemɪk jɪə/ | 学年 | The academic year begins in September. | 学年从九月开始。 | 4
+major | /ˈmeɪdʒə/ | 主修; 专业 | My major is computer science. | 我的专业是计算机科学。 | 4
+minor | /ˈmaɪnə/ | 辅修 | She took history as a minor. | 她辅修历史。 | 5
+department | /dɪˈpɑːtmənt/ | 系; 学院 | He joined the English department. | 他加入了英语系。 | 3
+faculty | /ˈfæklti/ | 院系; 全体教员 | The faculty of law is the oldest. | 法学院是历史最悠久的。 | 5
+lecture | /ˈlektʃə/ | 讲座; 讲课 | I went to a lecture on climate. | 我去听了一场关于气候的讲座。 | 3
+seminar | /ˈsemɪnɑː/ | 研讨课 | The seminar had only ten students. | 这堂研讨课只有十名学生。 | 4
+tutorial | /tjuːˈtɔːriəl/ | 辅导课 | We have a tutorial every Thursday. | 我们每周四有辅导课。 | 5
+assignment | /əˈsaɪnmənt/ | 作业; 任务 | The assignment is due on Monday. | 作业周一到期。 | 4
+essay | /ˈeseɪ/ | 论文; 作文 | I must write an essay about pollution. | 我必须写一篇关于污染的文章。 | 3
+thesis | /ˈθiːsɪs/ | 学位论文 | She is writing her thesis on art. | 她正在写艺术方面的学位论文。 | 5
+dissertation | /ˌdɪsəˈteɪʃn/ | 毕业论文 | His dissertation took a year to finish. | 他的毕业论文花了一年才完成。 | 6
+research | /rɪˈsɜːtʃ/ | 研究 | Students do research in the library. | 学生们在图书馆做研究。 | 3
+project | /ˈprɒdʒekt/ | 课题; 项目作业 | We did a project about rivers. | 我们做了一个关于河流的课题。 | 2
+group work | /ɡruːp wɜːk/ | 小组作业 | Group work helps us learn from each other. | 小组作业让我们互相学习。 | 3
+quiz | /kwɪz/ | 小测验 | The teacher gave us a quick quiz. | 老师给我们来了个小测验。 | 3
+mark | /mɑːk/ | 分数; 评分 | I got a good mark in science. | 我的科学得了高分。 | 3
+grade | /ɡreɪd/ | 成绩; 年级 | She got the top grade in the class. | 她在班里得了最高分。 | 3
+score | /skɔː/ | 得分 | His score on the test was ninety. | 他的测验得分是九十分。 | 3
+pass | /pɑːs/ | 及格; 通过 | I hope I pass the driving test. | 我希望能通过驾驶考试。 | 2
+fail | /feɪl/ | 不及格; 失败 | He did not fail any subject. | 他没有哪门课不及格。 | 2
+retake | /ˌriːˈteɪk/ | 重考 | She had to retake the maths exam. | 她不得不重考数学。 | 5
+resit | /ˈriːsɪt/ | 补考 | He must resit the exam in August. | 他必须在八月补考。 | 6
+certificate | /səˈtɪfɪkət/ | 证书 | I received a certificate for the course. | 我拿到了这门课程的证书。 | 4
+diploma | /dɪˈpləʊmə/ | 文凭 | He has a diploma in cooking. | 他有烹饪文凭。 | 4
+report card | /rɪˈpɔːt kɑːd/ | 成绩单 (中小学) | My report card arrived today. | 我的成绩单今天到了。 | 3
+transcript | /ˈtrænskrɪpt/ | 成绩单 (大学) | Send your transcript with the application. | 申请时请附上你的成绩单。 | 6
+entrance exam | /ˈentrəns ɪɡˈzæm/ | 入学考试 | The entrance exam is very hard. | 入学考试非常难。 | 4
+admission | /ədˈmɪʃn/ | 录取; 入学 | Admission to the college is competitive. | 进入这所学院竞争很激烈。 | 5
+enrol | /ɪnˈrəʊl/ | 注册; 报名 | I want to enrol in an evening class. | 我想报名参加夜校。 | 5
+register | /ˈredʒɪstə/ | 登记; 注册 | You must register before the course starts. | 课程开始前你必须注册。 | 4
+attend | /əˈtend/ | 出席; 上 (学) | Students must attend all classes. | 学生必须出席所有课程。 | 3
+attendance | /əˈtendəns/ | 出勤 | Attendance is checked every morning. | 每天早上都检查出勤。 | 5
+absent | /ˈæbsənt/ | 缺席的 | Three pupils were absent today. | 今天有三名学生缺席。 | 3
+late | /leɪt/ | 迟到的 | Don't be late for class. | 上课别迟到。 | 1
+skip class | /skɪp klɑːs/ | 逃课 | Some students skip class on Fridays. | 有些学生周五逃课。 | 4
+drop out | /drɒp aʊt/ | 辍学 | He decided to drop out of college. | 他决定从大学辍学。 | 5
+expel | /ɪkˈspel/ | 开除 (学籍) | The school may expel students who cheat. | 学校可能会开除作弊的学生。 | 6
+suspend | /səˈspend/ | 停学; 暂停 | The boy was suspended for a week. | 这个男孩被停学一周。 | 6
+detention | /dɪˈtenʃn/ | 留校 | He got detention for talking in class. | 他因课上说话被罚留校。 | 6
+bully | /ˈbʊli/ | 欺负; 恃强凌弱者 | Nobody should bully other children. | 谁都不该欺负其他孩子。 | 4
+bullying | /ˈbʊliɪŋ/ | 欺凌 | The school takes bullying seriously. | 学校严肃对待欺凌行为。 | 4
+cheat | /tʃiːt/ | 作弊 | It is wrong to cheat in an exam. | 考试作弊是错误的。 | 3
+plagiarism | /ˈpleɪdʒərɪzəm/ | 抄袭; 剽窃 | Plagiarism can end your academic career. | 抄袭可能会断送你的学术生涯。 | 6
+discipline | /ˈdɪsəplɪn/ | 纪律 | Good schools have strong discipline. | 好学校纪律严明。 | 5
+revise | /rɪˈvaɪz/ | 复习 (英) | I need to revise for my exams. | 我需要复习备考。 | 3
+revision | /rɪˈvɪʒn/ | 复习 | Revision starts two weeks before the exam. | 复习在考试前两周开始。 | 4
+memorise | /ˈmeməraɪz/ | 记住; 背诵 | I memorise new words with pictures. | 我用图片来记新单词。 | 4
+concentrate | /ˈkɒnsntreɪt/ | 集中注意力 | It is hard to concentrate in a noisy room. | 在嘈杂的房间里很难集中注意力。 | 4
+distract | /dɪˈstrækt/ | 使分心 | Your phone will distract you. | 你的手机会让你分心。 | 5
+attention | /əˈtenʃn/ | 注意力 | Please pay attention to the board. | 请注意看黑板。 | 3
+note | /nəʊt/ | 笔记 | I take notes during every lecture. | 我每堂课都做笔记。 | 2
+take notes | /teɪk nəʊts/ | 做笔记 | Take notes while the teacher speaks. | 老师讲话时要做笔记。 | 3
+highlight | /ˈhaɪlaɪt/ | 划重点; 强调 | I highlight key words in yellow. | 我用黄色标出关键词。 | 4
+summary | /ˈsʌməri/ | 摘要; 总结 | Write a short summary of the story. | 写一段这个故事的简短总结。 | 3
+summarise | /ˈsʌməraɪz/ | 概括; 总结 | Please summarise the main idea. | 请概括主要观点。 | 5
+vocabulary | /vəˈkæbjələri/ | 词汇 | Reading helps to build your vocabulary. | 阅读有助于积累词汇。 | 3
+grammar | /ˈɡræmə/ | 语法 | English grammar can be tricky. | 英语语法可能很棘手。 | 2
+spelling | /ˈspelɪŋ/ | 拼写 | Her spelling is almost perfect. | 她的拼写几乎完美。 | 2
+pronunciation | /prəˌnʌnsiˈeɪʃn/ | 发音 | Good pronunciation takes practice. | 好的发音需要练习。 | 4
+translate | /trænzˈleɪt/ | 翻译 | Can you translate this sentence into Chinese? | 你能把这个句子翻译成中文吗？ | 3
+foreign language | /ˈfɒrən ˈlæŋɡwɪdʒ/ | 外语 | Learning a foreign language opens doors. | 学习外语能打开许多扇门。 | 3
+mathematics | /ˌmæθˈmætɪks/ | 数学 | Mathematics is my best subject. | 数学是我最好的科目。 | 3
+maths | /mæθs/ | 数学 (英口语) | We have maths twice a week. | 我们每周有两节数学课。 | 1
+science | /ˈsaɪəns/ | 科学; 理科 | Science lessons include experiments. | 理科课包括实验。 | 1
+physics | /ˈfɪzɪks/ | 物理 | Physics explains how things move. | 物理解释物体如何运动。 | 3
+chemistry | /ˈkemɪstri/ | 化学 | We mix chemicals in chemistry class. | 我们在化学课上混合化学药品。 | 3
+biology | /baɪˈɒlədʒi/ | 生物 | Biology is the study of living things. | 生物学研究生物。 | 3
+geography | /dʒiˈɒɡrəfi/ | 地理 | In geography we learn about rivers. | 在地理课上我们学习河流。 | 2
+history | /ˈhɪstri/ | 历史 | History is full of interesting stories. | 历史充满了有趣的故事。 | 2
+art | /ɑːt/ | 美术 | We paint in art class. | 我们在美术课上画画。 | 1
+music | /ˈmjuːzɪk/ | 音乐 | Our music teacher plays the piano. | 我们的音乐老师弹钢琴。 | 1
+PE | /ˌpiː ˈiː/ | 体育课 | We play basketball in PE. | 我们在体育课上打篮球。 | 2
+philosophy | /fəˈlɒsəfi/ | 哲学 | Philosophy asks big questions about life. | 哲学提出有关生活的大问题。 | 5
+economics | /ˌiːkəˈnɒmɪks/ | 经济学 | She studies economics at university. | 她在大学学经济学。 | 4
+psychology | /saɪˈkɒlədʒi/ | 心理学 | Psychology explains how people think. | 心理学解释人们如何思考。 | 4
+sociology | /ˌsəʊsiˈɒlədʒi/ | 社会学 | Sociology looks at how groups behave. | 社会学研究群体如何行为。 | 5
+engineering | /ˌendʒɪˈnɪərɪŋ/ | 工程学 | He is studying engineering. | 他在学工程学。 | 4
+medicine | /ˈmedsn/ | 医学 | She wants to study medicine. | 她想学医。 | 3
+education | /ˌedʒuˈkeɪʃn/ | 教育 | Education is important for everyone. | 教育对每个人都很重要。 | 2
+educate | /ˈedʒukeɪt/ | 教育; 培养 | Schools educate young people. | 学校教育年轻人。 | 4
+educational | /ˌedʒuˈkeɪʃənl/ | 教育的; 有教育意义的 | This is an educational video game. | 这是一款有教育意义的电子游戏。 | 4
+knowledge | /ˈnɒlɪdʒ/ | 知识 | Knowledge comes from reading and practice. | 知识来自阅读和实践。 | 3
+skill | /skɪl/ | 技能 | Writing is an important skill. | 写作是一项重要技能。 | 2
+talent | /ˈtælənt/ | 天赋 | She has a talent for drawing. | 她有绘画的天赋。 | 3
+gifted | /ˈɡɪftɪd/ | 有天赋的 | He attends a school for gifted children. | 他就读于一所天才儿童学校。 | 5
+intelligent | /ɪnˈtelɪdʒənt/ | 聪明的 | She is an intelligent student. | 她是一个聪明的学生。 | 3
+clever | /ˈklevə/ | 聪明的 | The clever boy solved the puzzle. | 这个聪明的男孩解开了谜题。 | 2
+curious | /ˈkjʊəriəs/ | 好奇的 | Children are curious about everything. | 孩子们对一切都很好奇。 | 3
+creativity | /ˌkriːeɪˈtɪvəti/ | 创造力 | Art classes develop creativity. | 美术课培养创造力。 | 5
+critical thinking | /ˈkrɪtɪkl ˈθɪŋkɪŋ/ | 批判性思维 | Critical thinking is taught in this course. | 这门课程教授批判性思维。 | 5
+literacy | /ˈlɪtərəsi/ | 读写能力 | The school aims to improve literacy. | 学校旨在提高读写能力。 | 6
+illiterate | /ɪˈlɪtərət/ | 不识字的; 文盲 | Many adults were illiterate a century ago. | 一个世纪前许多成年人是文盲。 | 6
+numeracy | /ˈnjuːmərəsi/ | 计算能力 | Numeracy is as important as literacy. | 计算能力与读写能力同样重要。 | 6
+e-learning | /ˈiː lɜːnɪŋ/ | 在线学习 | E-learning became popular during the pandemic. | 在线学习在疫情期间变得流行。 | 4
+distance learning | /ˈdɪstəns ˈlɜːnɪŋ/ | 远程教育 | Distance learning suits busy adults. | 远程教育适合忙碌的成年人。 | 5
+online course | /ˈɒnlaɪn kɔːs/ | 在线课程 | I took an online course in coding. | 我上了一门编程在线课程。 | 3
+self-study | /ˌself ˈstʌdi/ | 自学 | Self-study needs a lot of discipline. | 自学需要很强的自律。 | 5
+tutoring | /ˈtjuːtərɪŋ/ | 辅导 | Many parents pay for private tutoring. | 许多家长花钱请私人辅导。 | 5
+cram school | /kræm skuːl/ | 补习班 | Many students attend a cram school at weekends. | 很多学生周末上补习班。 | 5
+extracurricular | /ˌekstrəkəˈrɪkjələ/ | 课外的 | Extracurricular clubs are very popular. | 课外社团非常受欢迎。 | 6
+club | /klʌb/ | 社团; 俱乐部 | I joined the chess club. | 我加入了国际象棋社团。 | 2
+field trip | /fiːld trɪp/ | 实地考察 | The class went on a field trip to a farm. | 全班去农场进行了实地考察。 | 4
+sports day | /spɔːts deɪ/ | 运动会 | Parents come to watch sports day. | 家长们来观看运动会。 | 3
+parents' evening | /ˈpeərənts ˈiːvnɪŋ/ | 家长会 | The parents' evening is on Thursday. | 家长会在周四。 | 5
+school trip | /skuːl trɪp/ | 学校郊游 | The school trip was fun. | 学校郊游很有趣。 | 2
+pre-school | /ˈpriː skuːl/ | 学前教育 | Pre-school helps children make friends. | 学前教育帮助孩子们交朋友。 | 3
+vocational | /vəʊˈkeɪʃənl/ | 职业的 | A vocational school trains skilled workers. | 职业学校培养技术工人。 | 6
+apprenticeship | /əˈprentɪʃɪp/ | 学徒制; 学徒期 | He did an apprenticeship as a carpenter. | 他做过木匠学徒。 | 6
+lifelong learning | /ˈlaɪflɒŋ ˈlɜːnɪŋ/ | 终身学习 | Lifelong learning keeps your mind active. | 终身学习让头脑保持活跃。 | 5
+higher education | /ˌhaɪər edʒuˈkeɪʃn/ | 高等教育 | Higher education is expensive in some countries. | 在一些国家高等教育费用高昂。 | 5
+compulsory | /kəmˈpʌlsəri/ | 义务的; 必修的 | School is compulsory until sixteen. | 十六岁之前上学是义务的。 | 5
+optional | /ˈɒpʃənl/ | 选修的; 可选的 | French is an optional subject. | 法语是选修科目。 | 4
+elective | /ɪˈlektɪv/ | 选修课 | I chose drama as an elective. | 我选了戏剧作为选修课。 | 6
+mandatory | /ˈmændətəri/ | 强制的 | Attendance is mandatory for all students. | 所有学生必须出席。 | 6
+academic | /ˌækəˈdemɪk/ | 学术的; 学业的 | Her academic results are excellent. | 她的学业成绩很优秀。 | 4
+scholar | /ˈskɒlə/ | 学者 | The scholar published many books. | 这位学者出版了很多书。 | 5
+alumni | /əˈlʌmnaɪ/ | 校友 | Alumni donated money to the library. | 校友为图书馆捐了款。 | 6
+reunion | /ˌriːˈjuːniən/ | 同学聚会 | Our class reunion is next month. | 我们的同学聚会在下个月。 | 5
+pass mark | /pɑːs mɑːk/ | 及格分数线 | The pass mark is sixty percent. | 及格线是百分之六十。 | 5
+ranking | /ˈræŋkɪŋ/ | 排名 | The school's ranking has risen this year. | 学校今年的排名上升了。 | 4
+top student | /tɒp ˈstjuːdnt/ | 优等生 | The top student gets a prize. | 优等生会得到奖励。 | 3
+bookworm | /ˈbʊkwɜːm/ | 书虫 | My brother is a real bookworm. | 我弟弟是个十足的书虫。 | 5
+teacher's pet | /ˈtiːtʃəz pet/ | 老师的宠儿 | Nobody likes a teacher's pet. | 没人喜欢老师的宠儿。 | 6
+learning curve | /ˈlɜːnɪŋ kɜːv/ | 学习曲线 | Programming has a steep learning curve. | 编程的学习曲线很陡。 | 6
+rote learning | /rəʊt ˈlɜːnɪŋ/ | 死记硬背 | Rote learning is not always effective. | 死记硬背并不总是有效。 | 6

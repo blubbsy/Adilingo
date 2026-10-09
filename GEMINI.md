@@ -80,7 +80,14 @@ Audio pronunciation is mission-critical for language learners. The browser audio
    - Adding a course = adding a registry entry (+ its vocabulary loader), not editing UI branches.
    - Persisted state may contain course ids this build does not know: `storage.sanitize` keeps their data under their own id and activates the default course. Never coerce unknown ids into `'chinese'`.
    - Daily limits come from `dailyLogFor(state)` (per course). Never read `stats.daily` directly for limits.
-3. **Dashboard & Sidebar Context**:
+3. **Specialty courses (`chinese:emotor`, `english:power-electronics`, …)**:
+   - Ids are `<track>:<domain>`; one course per domain and language track, generated from `src/data/generated/domainManifest.json` in `courses.ts`. They reuse the language machinery of their `track` (pinyin/tones, IPA, TTS voice) but have **no** grammar, learning paths, irregular verbs, wiki or placement test (`views`, `features.placement`).
+   - Their vocabulary comes from `content/domains/<domain>.txt` (see `content/README.md`). Items carry `definition`, `abbr`, `speakAs` (TTS respelling: always speak `item.speakAs ?? item.hanzi`) and `domain`. Ids are `d:<domain>:<concept>:<zh|en>` and never collide with other courses.
+   - Adding a domain = adding a content file (+ `npm run build:content`); no code or UI changes.
+4. **Authored content pipeline**:
+   - Topic packs (`content/topics/zh|en`), domains (`content/domains`) and the Chinese grammar wiki (`content/wiki/zh`) are text/JSON sources compiled by `scripts/build-content.mjs` into `src/data/generated/*` (committed; CI fails when stale or invalid via `npm run check:content`). Never edit generated files by hand.
+   - The Chinese grammar wiki lives in the Chinese course's `GrammarHub` (third tab); the English course must never show it.
+5. **Dashboard & Sidebar Context**:
    - Dashboard buttons, progress bars, and sidebar links must display language-appropriate labels and targets (e.g. "HSK 语法点" vs. "语法百科与时态").
 
 ---

@@ -1,0 +1,310 @@
+@topic | Common Actions | 🏃
+go | /ɡoʊ/ | 去; 走 | I go to school by bus. | 我坐公交车去上学。 | 1
+come | /kʌm/ | 来 | Please come to my house tonight. | 请今晚来我家。 | 1
+get | /ɡet/ | 得到; 变得 | I get up at seven every day. | 我每天七点起床。 | 1
+give | /ɡɪv/ | 给 | Please give me a glass of water. | 请给我一杯水。 | 1
+take | /teɪk/ | 拿; 带走; 花（时间） | Take an umbrella with you. | 带上一把伞。 | 1
+make | /meɪk/ | 做; 制作 | She makes breakfast for her children. | 她为孩子们做早餐。 | 1
+do | /duː/ | 做 | What do you do on Sundays? | 你星期天做什么？ | 1
+have | /hæv/ | 有; 吃; 喝 | I have a big family. | 我有一个大家庭。 | 1
+be | /biː/ | 是; 在 | I want to be a doctor. | 我想当医生。 | 1
+see | /siː/ | 看见 | I can see a bird in the tree. | 我能看见树上有只鸟。 | 1
+look | /lʊk/ | 看 | Look at the blackboard, please. | 请看黑板。 | 1
+watch | /wɑːtʃ/ | 观看; 注视 | We watch TV after dinner. | 我们晚饭后看电视。 | 1
+hear | /hɪr/ | 听见 | I can't hear you on the phone. | 我在电话里听不见你说话。 | 1
+listen | /ˈlɪsn/ | 听 | Listen to the teacher carefully. | 认真听老师讲。 | 1
+say | /seɪ/ | 说 | What did she say to you? | 她对你说了什么？ | 1
+speak | /spiːk/ | 说话; 讲（语言） | Can you speak English? | 你会说英语吗？ | 1
+talk | /tɔːk/ | 交谈; 谈话 | We talked for an hour. | 我们谈了一个小时。 | 1
+tell | /tel/ | 告诉 | Tell me your name, please. | 请告诉我你的名字。 | 1
+ask | /æsk/ | 问; 请求 | Ask the teacher if you don't understand. | 不懂就问老师。 | 1
+call | /kɔːl/ | 打电话; 称呼 | I will call you tomorrow. | 我明天给你打电话。 | 1
+write | /raɪt/ | 写 | Write your name on the paper. | 把你的名字写在纸上。 | 1
+eat | /iːt/ | 吃 | We eat dinner at six. | 我们六点吃晚饭。 | 1
+drink | /drɪŋk/ | 喝 | Drink more water every day. | 每天多喝水。 | 1
+sleep | /sliːp/ | 睡觉 | I sleep eight hours every night. | 我每晚睡八小时。 | 1
+wake up | /weɪk ʌp/ | 醒来 | I wake up at six thirty. | 我六点半醒来。 | 1
+get up | /ɡet ʌp/ | 起床 | She gets up early on weekdays. | 她工作日很早起床。 | 1
+sit | /sɪt/ | 坐 | Please sit down here. | 请坐在这里。 | 1
+stand | /stænd/ | 站 | Everyone stood when the teacher came in. | 老师进来时大家都站了起来。 | 1
+open | /ˈoʊpən/ | 打开 | Open the window, please. | 请打开窗户。 | 1
+close | /kloʊz/ | 关闭 | Close the door quietly. | 轻轻地关上门。 | 1
+want | /wɑːnt/ | 想要 | I want a cup of tea. | 我想要一杯茶。 | 1
+need | /niːd/ | 需要 | You need a good rest. | 你需要好好休息。 | 1
+use | /juːz/ | 使用 | Can I use your phone? | 我能用你的手机吗？ | 1
+help | /help/ | 帮助 | Can you help me with my homework? | 你能帮我做作业吗？ | 1
+work | /wɜːrk/ | 工作 | My father works in a bank. | 我父亲在银行工作。 | 1
+buy | /baɪ/ | 买 | I want to buy a new bag. | 我想买一个新包。 | 1
+sell | /sel/ | 卖 | They sell fresh fruit at the market. | 他们在市场上卖新鲜水果。 | 1
+pay | /peɪ/ | 付款 | I will pay for the tickets. | 我来付票钱。 | 1
+find | /faɪnd/ | 找到 | I can't find my keys. | 我找不到我的钥匙。 | 1
+put | /pʊt/ | 放 | Put your books on the table. | 把你的书放在桌上。 | 1
+bring | /brɪŋ/ | 带来 | Please bring your passport tomorrow. | 请明天带上你的护照。 | 1
+carry | /ˈkæri/ | 搬; 携带 | He carries a heavy bag every day. | 他每天背着一个沉重的包。 | 2
+leave | /liːv/ | 离开; 留下 | The train leaves at nine o'clock. | 火车九点开。 | 1
+stay | /steɪ/ | 停留; 待 | We will stay at home tonight. | 我们今晚待在家里。 | 1
+wait | /weɪt/ | 等待 | Wait here until I come back. | 在这里等我回来。 | 1
+start | /stɑːrt/ | 开始 | The class starts at eight. | 课八点开始。 | 1
+stop | /stɑːp/ | 停止 | Stop talking and listen. | 别说话，听着。 | 1
+finish | /ˈfɪnɪʃ/ | 完成; 结束 | I finished my homework at nine. | 我九点完成了作业。 | 1
+begin | /bɪˈɡɪn/ | 开始 | Let's begin the lesson. | 我们开始上课吧。 | 1
+learn | /lɜːrn/ | 学习; 学会 | She learns English every night. | 她每晚学英语。 | 1
+teach | /tiːtʃ/ | 教 | He teaches math at a high school. | 他在一所高中教数学。 | 1
+study | /ˈstʌdi/ | 学习 | I study in the library after class. | 我下课后在图书馆学习。 | 1
+meet | /miːt/ | 遇见; 见面 | Let's meet at the station at nine. | 我们九点在车站见面。 | 1
+visit | /ˈvɪzɪt/ | 拜访; 参观 | We visit my grandparents every month. | 我们每个月拜访祖父母。 | 1
+show | /ʃoʊ/ | 给...看; 展示 | Show me your new phone. | 给我看看你的新手机。 | 1
+send | /send/ | 发送; 寄 | I will send you an email. | 我会给你发一封电子邮件。 | 1
+receive | /rɪˈsiːv/ | 收到 | I received a letter from my uncle. | 我收到了叔叔的一封信。 | 2
+wash | /wɑːʃ/ | 洗 | Wash your hands before you eat. | 吃饭前先洗手。 | 1
+clean | /kliːn/ | 打扫; 清洁 | I clean my room on Saturdays. | 我星期六打扫房间。 | 1
+wear | /wer/ | 穿; 戴 | She wears a red coat today. | 她今天穿着红色外套。 | 1
+sing along | /sɪŋ əˈlɔːŋ/ | 跟着唱 | We all sing along to the radio. | 我们都跟着收音机唱。 | 3
+cut | /kʌt/ | 切; 剪 | Cut the bread into slices. | 把面包切成片。 | 2
+break | /breɪk/ | 打破; 弄坏 | Be careful not to break the glass. | 小心别打碎玻璃。 | 2
+fall | /fɔːl/ | 落下; 摔倒 | The leaves fall in autumn. | 树叶在秋天落下。 | 2
+push | /pʊʃ/ | 推 | Push the door to open it. | 推门就能打开。 | 2
+pull | /pʊl/ | 拉 | Pull the rope hard. | 用力拉绳子。 | 2
+turn | /tɜːrn/ | 转; 转弯 | Turn left at the next corner. | 在下一个拐角处向左转。 | 2
+turn on | /tɜːrn ɑːn/ | 打开（电器） | Please turn on the light. | 请开灯。 | 2
+turn off | /tɜːrn ɔːf/ | 关掉（电器） | Turn off the TV before bed. | 睡觉前关掉电视。 | 2
+pick up | /pɪk ʌp/ | 捡起; 接（人） | Please pick up the paper on the floor. | 请捡起地上的纸。 | 2
+put on | /pʊt ɑːn/ | 穿上 | Put on your coat; it's cold. | 穿上外套，天冷。 | 2
+take off | /teɪk ɔːf/ | 脱下; 起飞 | Take off your shoes at the door. | 在门口把鞋脱掉。 | 2
+look for | /lʊk fɔːr/ | 寻找 | I'm looking for my glasses. | 我在找我的眼镜。 | 2
+look after | /lʊk ˈæftər/ | 照顾 | She looks after her little brother. | 她照顾她的小弟弟。 | 2
+look up | /lʊk ʌp/ | 查（词） | Look up the word in a dictionary. | 在词典里查这个词。 | 2
+give up | /ɡɪv ʌp/ | 放弃 | Never give up on your dreams. | 永远不要放弃梦想。 | 2
+find out | /faɪnd aʊt/ | 查明; 弄清 | I need to find out the train times. | 我需要查清火车时刻。 | 2
+set up | /set ʌp/ | 建立; 安装 | They set up a small business. | 他们创办了一家小公司。 | 3
+sit down | /sɪt daʊn/ | 坐下 | Sit down and relax. | 坐下来放松一下。 | 1
+stand up | /stænd ʌp/ | 站起来 | Please stand up when you answer. | 回答时请站起来。 | 1
+go on | /ɡoʊ ɑːn/ | 继续 | Please go on with your story. | 请继续讲你的故事。 | 2
+come back | /kʌm bæk/ | 回来 | When will you come back? | 你什么时候回来？ | 1
+go back | /ɡoʊ bæk/ | 回去 | We went back to the hotel. | 我们回到了酒店。 | 1
+go out | /ɡoʊ aʊt/ | 外出 | Let's go out for dinner. | 我们出去吃晚饭吧。 | 1
+come in | /kʌm ɪn/ | 进来 | Please come in and sit down. | 请进来坐。 | 1
+come on | /kʌm ɑːn/ | 快点; 加油 | Come on, we are late! | 快点，我们迟到了！ | 2
+hurry | /ˈhɜːri/ | 赶紧; 匆忙 | Hurry up, or we will miss the bus. | 快点，不然我们会错过公交车。 | 2
+rush | /rʌʃ/ | 匆忙; 冲 | He rushed out of the house. | 他冲出了房子。 | 3
+follow | /ˈfɑːloʊ/ | 跟随; 遵循 | Follow me, please. | 请跟我来。 | 2
+lead | /liːd/ | 带领; 通向 | This road leads to the beach. | 这条路通向海滩。 | 3
+arrive | /əˈraɪv/ | 到达 | The train arrives at noon. | 火车正午到达。 | 2
+return | /rɪˈtɜːrn/ | 返回; 归还 | She returned to her home town. | 她回到了家乡。 | 2
+enter | /ˈentər/ | 进入 | Please enter through the main door. | 请从正门进入。 | 2
+climb | /klaɪm/ | 爬 | The cat climbed up the tree. | 猫爬上了树。 | 2
+move | /muːv/ | 移动; 搬家 | Please move your car. | 请把你的车挪开。 | 2
+fly | /flaɪ/ | 飞 | Birds fly south in winter. | 鸟儿冬天向南飞。 | 2
+drive | /draɪv/ | 开车 | He drives to work every day. | 他每天开车上班。 | 2
+ride | /raɪd/ | 骑; 乘 | She rides her bike to school. | 她骑自行车去上学。 | 2
+cross | /krɔːs/ | 穿过 | Look both ways before you cross the street. | 过马路前先看两边。 | 2
+follow up | /ˈfɑːloʊ ʌp/ | 跟进 | I'll follow up with an email. | 我会发邮件跟进。 | 5
+hold | /hoʊld/ | 握住; 举行 | Hold my hand when we cross the road. | 过马路时抓住我的手。 | 2
+keep | /kiːp/ | 保持; 保存 | Keep the change. | 零钱不用找了。 | 2
+lose | /luːz/ | 丢失 | I always lose my umbrella. | 我总是弄丢我的伞。 | 2
+drop | /drɑːp/ | 掉落; 使落下 | Don't drop the plate. | 别把盘子摔了。 | 2
+lift | /lɪft/ | 举起 | Can you lift this box? | 你能搬起这个箱子吗？ | 2
+throw away | /θroʊ əˈweɪ/ | 扔掉 | Throw away the old newspapers. | 把旧报纸扔掉。 | 2
+share | /ʃer/ | 分享; 共用 | We share a room with our cousin. | 我们和表弟共用一个房间。 | 2
+borrow | /ˈbɑːroʊ/ | 借入 | May I borrow your pen? | 我可以借你的笔吗？ | 2
+lend | /lend/ | 借出 | Can you lend me some money? | 你能借我一些钱吗？ | 2
+return | /rɪˈtɜːrn/ | 归还 | I must return the book to the library. | 我必须把书还给图书馆。 | 2
+wear out | /wer aʊt/ | 磨损 | My shoes are starting to wear out. | 我的鞋开始磨损了。 | 4
+change | /tʃeɪndʒ/ | 改变; 更换 | I want to change my shirt. | 我想换件衬衫。 | 2
+try | /traɪ/ | 尝试 | Try this cake; it's delicious. | 尝尝这块蛋糕，很好吃。 | 1
+try on | /traɪ ɑːn/ | 试穿 | Can I try on this jacket? | 我可以试穿这件夹克吗？ | 2
+check | /tʃek/ | 检查 | Please check your answers again. | 请再检查一下你的答案。 | 2
+prepare | /prɪˈper/ | 准备 | She prepared dinner for the guests. | 她为客人准备了晚饭。 | 2
+remember | /rɪˈmembər/ | 记住 | Remember to bring your homework. | 记得带上作业。 | 1
+practice | /ˈpræktɪs/ | 练习 | You must practice every day. | 你必须每天练习。 | 2
+join | /dʒɔɪn/ | 加入 | Join us for lunch. | 来和我们一起吃午饭吧。 | 2
+invite | /ɪnˈvaɪt/ | 邀请 | I invited ten friends to my party. | 我邀请了十个朋友参加我的聚会。 | 2
+answer | /ˈænsər/ | 回答 | Please answer my question. | 请回答我的问题。 | 1
+reply | /rɪˈplaɪ/ | 回复 | He didn't reply to my message. | 他没有回复我的消息。 | 3
+explain | /ɪkˈspleɪn/ | 解释说明 | Please explain how to use it. | 请解释一下怎么用。 | 3
+repeat | /rɪˈpiːt/ | 重复 | Could you repeat that, please? | 你能再说一遍吗？ | 2
+shout | /ʃaʊt/ | 喊叫 | Don't shout at your sister. | 别对你妹妹大喊大叫。 | 2
+whisper | /ˈwɪspər/ | 低声说 | They whispered during the film. | 他们在电影期间小声说话。 | 3
+smile at | /smaɪl æt/ | 对...微笑 | She smiled at everyone she met. | 她对遇到的每个人微笑。 | 2
+point | /pɔɪnt/ | 指向 | He pointed at the map. | 他指着地图。 | 3
+touch | /tʌtʃ/ | 触摸 | Don't touch the hot stove. | 别碰热炉子。 | 2
+feel | /fiːl/ | 摸起来; 触摸 | Feel how soft this cloth is. | 摸摸这块布多软。 | 2
+smell | /smel/ | 闻; 有气味 | I can smell fresh bread. | 我闻到了新鲜面包的香味。 | 2
+taste | /teɪst/ | 品尝; 尝起来 | Taste the soup before you add salt. | 加盐前先尝尝汤。 | 2
+breathe | /briːð/ | 呼吸 | Breathe slowly and deeply. | 缓慢而深地呼吸。 | 3
+cough | /kɔːf/ | 咳嗽 | I cough a lot at night. | 我晚上咳得很厉害。 | 3
+sneeze | /sniːz/ | 打喷嚏 | He sneezed three times. | 他打了三个喷嚏。 | 3
+shake | /ʃeɪk/ | 摇; 握（手） | Shake hands with our guest. | 与我们的客人握手。 | 3
+wave | /weɪv/ | 挥手 | She waved goodbye from the window. | 她从窗口挥手告别。 | 3
+nod | /nɑːd/ | 点头 | He nodded to show he agreed. | 他点头表示同意。 | 3
+bend | /bend/ | 弯曲; 弯腰 | Bend your knees and jump. | 弯曲膝盖然后跳。 | 3
+lie | /laɪ/ | 躺 | He likes to lie on the sofa. | 他喜欢躺在沙发上。 | 3
+lay | /leɪ/ | 放置; 摆放 | Lay the plates on the table. | 把盘子摆在桌子上。 | 4
+hang | /hæŋ/ | 挂 | Hang your coat on the hook. | 把你的外套挂在钩子上。 | 3
+fill | /fɪl/ | 装满; 填 | Fill the bottle with water. | 把瓶子装满水。 | 2
+pour | /pɔːr/ | 倒 | She poured tea into the cups. | 她把茶倒进杯子里。 | 3
+mix | /mɪks/ | 混合; 搅拌 | Mix the flour and the eggs. | 把面粉和鸡蛋混合。 | 3
+cover | /ˈkʌvər/ | 盖; 覆盖 | Cover the food with a plate. | 用盘子盖住食物。 | 3
+wrap | /ræp/ | 包; 裹 | I need to wrap the gift. | 我得包礼物了。 | 3
+tie | /taɪ/ | 系; 绑 | Tie your shoes before running. | 跑步前系好鞋带。 | 3
+fold | /foʊld/ | 折叠 | Fold the paper in half. | 把纸对折。 | 3
+tear | /ter/ | 撕 | Don't tear the page. | 别撕这页纸。 | 3
+rub | /rʌb/ | 擦; 搓 | Rub your hands to keep warm. | 搓搓手取暖。 | 4
+scratch | /skrætʃ/ | 抓; 刮 | The cat scratched the sofa. | 猫抓了沙发。 | 4
+dig | /dɪɡ/ | 挖 | The children dig a hole in the sand. | 孩子们在沙子里挖洞。 | 3
+plant | /plænt/ | 种植 | We plant trees every spring. | 我们每年春天种树。 | 2
+build | /bɪld/ | 建造 | They are building a new bridge. | 他们正在建一座新桥。 | 2
+fix | /fɪks/ | 修理; 固定 | Dad fixed the broken chair. | 爸爸修好了那把坏椅子。 | 3
+repair | /rɪˈper/ | 修理 | Can you repair my watch? | 你能修我的手表吗？ | 3
+create | /kriˈeɪt/ | 创造 | She created a beautiful garden. | 她创造了一个美丽的花园。 | 3
+produce | /prəˈduːs/ | 生产; 制造 | The factory produces toys. | 这家工厂生产玩具。 | 3
+design | /dɪˈzaɪn/ | 设计 | He designs websites for a living. | 他以设计网站为生。 | 3
+happen | /ˈhæpən/ | 发生 | What happened at the party? | 聚会上发生了什么？ | 2
+become | /bɪˈkʌm/ | 成为; 变得 | He became a teacher last year. | 他去年成了一名教师。 | 2
+remain | /rɪˈmeɪn/ | 保持; 留下 | Please remain seated. | 请保持坐着。 | 4
+seem like | /siːm laɪk/ | 好像 | It seems like a good idea. | 这看起来是个好主意。 | 3
+belong | /bɪˈlɔːŋ/ | 属于 | This book belongs to Tom. | 这本书是汤姆的。 | 3
+contain | /kənˈteɪn/ | 包含 | The box contains old photos. | 盒子里装着旧照片。 | 3
+include | /ɪnˈkluːd/ | 包括 | The price includes breakfast. | 价格包括早餐。 | 3
+consist of | /kənˈsɪst əv/ | 由...组成 | The team consists of five people. | 这个团队由五人组成。 | 4
+require | /rɪˈkwaɪər/ | 需要; 要求 | This job requires patience. | 这份工作需要耐心。 | 4
+provide | /prəˈvaɪd/ | 提供 | The hotel provides free breakfast. | 酒店提供免费早餐。 | 3
+offer | /ˈɔːfər/ | 提供 | She offered me a cup of tea. | 她给我提供了一杯茶。 | 3
+accept | /əkˈsept/ | 接受 | He accepted the invitation. | 他接受了邀请。 | 3
+refuse | /rɪˈfjuːz/ | 拒绝 | She refused to answer the question. | 她拒绝回答这个问题。 | 3
+allow | /əˈlaʊ/ | 允许 | They don't allow dogs in the shop. | 这家店不允许带狗进入。 | 3
+let | /let/ | 让; 允许 | Let me help you with your bag. | 让我帮你拿包。 | 2
+forbid | /fərˈbɪd/ | 禁止 | The law forbids smoking here. | 法律禁止在这里吸烟。 | 5
+prevent | /prɪˈvent/ | 阻止; 预防 | Rain prevented us from going out. | 下雨使我们没法出去。 | 4
+avoid | /əˈvɔɪd/ | 避免 | Avoid the busy roads at noon. | 中午避开繁忙的道路。 | 3
+protect | /prəˈtekt/ | 保护 | Wear a hat to protect your face. | 戴顶帽子保护你的脸。 | 3
+save | /seɪv/ | 节省; 挽救 | You can save money by cooking at home. | 在家做饭可以省钱。 | 2
+waste | /weɪst/ | 浪费 | Don't waste water. | 不要浪费水。 | 3
+spend | /spend/ | 花（钱、时间） | He spends too much time online. | 他花太多时间上网。 | 2
+cost | /kɔːst/ | 花费 | The ticket costs ten dollars. | 这张票十美元。 | 2
+earn | /ɜːrn/ | 赚 | She earns a good salary. | 她挣得薪水很高。 | 3
+pay back | /peɪ bæk/ | 偿还 | I'll pay you back tomorrow. | 我明天还你钱。 | 3
+afford | /əˈfɔːrd/ | 负担得起 | We can't afford a new car. | 我们买不起新车。 | 3
+order | /ˈɔːrdər/ | 点（餐）; 订购 | We ordered pizza for dinner. | 我们晚饭点了比萨。 | 2
+book | /bʊk/ | 预订 | I booked a table for four. | 我订了一张四人桌。 | 2
+cancel | /ˈkænsl/ | 取消 | They canceled the meeting. | 他们取消了会议。 | 3
+delay | /dɪˈleɪ/ | 延迟 | The flight was delayed by an hour. | 航班延误了一小时。 | 3
+postpone | /poʊstˈpoʊn/ | 推迟 | We postponed the trip until June. | 我们把旅行推迟到六月。 | 4
+arrange | /əˈreɪndʒ/ | 安排 | She arranged a meeting for Monday. | 她安排了周一的会议。 | 3
+organize | /ˈɔːrɡənaɪz/ | 组织; 整理 | They organized a school trip. | 他们组织了一次学校旅行。 | 3
+manage | /ˈmænɪdʒ/ | 设法做到; 管理 | I managed to finish on time. | 我设法按时完成了。 | 3
+handle | /ˈhændl/ | 处理 | She can handle the problem alone. | 她能独自处理这个问题。 | 4
+deal with | /diːl wɪð/ | 处理 | I'll deal with the problem tomorrow. | 我明天处理这个问题。 | 3
+try out | /traɪ aʊt/ | 试用 | I want to try out the new software. | 我想试用新软件。 | 3
+get on | /ɡet ɑːn/ | 上（车）; 相处 | We got on the bus at the station. | 我们在车站上了公交车。 | 2
+get off | /ɡet ɔːf/ | 下（车） | Get off at the next stop. | 在下一站下车。 | 2
+get in | /ɡet ɪn/ | 进入; 上（车） | Get in the car, please. | 请上车。 | 2
+get out | /ɡet aʊt/ | 出去; 下（车） | Get out of the car slowly. | 慢慢地下车。 | 2
+get back | /ɡet bæk/ | 回来; 取回 | We got back home at midnight. | 我们半夜才回到家。 | 2
+get along | /ɡet əˈlɔːŋ/ | 相处 | I get along well with my sister. | 我和姐姐相处得很好。 | 3
+get over | /ɡet ˈoʊvər/ | 克服; 恢复 | It took a week to get over the cold. | 感冒用了一周才好。 | 4
+get through | /ɡet θruː/ | 度过; 接通 | I couldn't get through to him. | 我打不通他的电话。 | 4
+get away | /ɡet əˈweɪ/ | 逃离; 离开 | We want to get away for the weekend. | 我们想周末出去散散心。 | 4
+get ready | /ɡet ˈredi/ | 准备好 | Get ready for school quickly. | 快点准备上学。 | 2
+take care of | /teɪk ker əv/ | 照顾 | She takes care of her grandmother. | 她照顾她的祖母。 | 2
+take part in | /teɪk pɑːrt ɪn/ | 参加 | Many students take part in the contest. | 许多学生参加了这次比赛。 | 3
+take place | /teɪk pleɪs/ | 举行; 发生 | The meeting takes place on Friday. | 会议在星期五举行。 | 3
+take out | /teɪk aʊt/ | 拿出; 取出 | Take out your books, please. | 请拿出你们的书。 | 2
+take away | /teɪk əˈweɪ/ | 拿走 | He took the dirty plates away. | 他把脏盘子拿走了。 | 3
+take over | /teɪk ˈoʊvər/ | 接管 | She took over the business last year. | 她去年接管了生意。 | 5
+put off | /pʊt ɔːf/ | 推迟 | Don't put off your homework. | 别拖延作业。 | 3
+put away | /pʊt əˈweɪ/ | 收起来 | Put away your toys, please. | 请把你的玩具收起来。 | 3
+put up | /pʊt ʌp/ | 张贴; 搭建 | They put up a sign on the door. | 他们在门上贴了一个标志。 | 4
+put out | /pʊt aʊt/ | 扑灭 | The firemen put out the fire. | 消防员扑灭了火。 | 4
+set off | /set ɔːf/ | 出发 | We set off at six in the morning. | 我们早上六点出发。 | 3
+set out | /set aʊt/ | 出发; 开始 | They set out on a long journey. | 他们踏上了漫长的旅程。 | 4
+carry on | /ˈkæri ɑːn/ | 继续 | Carry on with your work. | 继续你的工作。 | 3
+carry out | /ˈkæri aʊt/ | 执行; 实施 | They carried out the plan carefully. | 他们认真执行了计划。 | 4
+break down | /breɪk daʊn/ | 出故障 | Our car broke down on the highway. | 我们的车在高速公路上抛锚了。 | 3
+break up | /breɪk ʌp/ | 分手; 解散 | They broke up last year. | 他们去年分手了。 | 4
+break out | /breɪk aʊt/ | 爆发 | A fire broke out in the night. | 夜里发生了火灾。 | 5
+call off | /kɔːl ɔːf/ | 取消 | They called off the game because of rain. | 他们因下雨取消了比赛。 | 4
+call back | /kɔːl bæk/ | 回电话 | I'll call you back in ten minutes. | 我十分钟后给你回电话。 | 3
+hang up | /hæŋ ʌp/ | 挂断电话; 挂起 | Don't hang up yet. | 先别挂电话。 | 3
+hold on | /hoʊld ɑːn/ | 等一下; 抓紧 | Hold on a minute, please. | 请稍等一下。 | 3
+log in | /lɔːɡ ɪn/ | 登录 | Log in with your password. | 用你的密码登录。 | 3
+log out | /lɔːɡ aʊt/ | 退出登录 | Remember to log out after use. | 用完记得退出登录。 | 3
+fill in | /fɪl ɪn/ | 填写 | Please fill in this form. | 请填写这张表格。 | 3
+fill out | /fɪl aʊt/ | 填写（表格） | You must fill out the application. | 你必须填写申请表。 | 3
+write down | /raɪt daʊn/ | 写下 | Write down her phone number. | 写下她的电话号码。 | 2
+cross out | /krɔːs aʊt/ | 划掉 | Cross out the wrong answers. | 把错的答案划掉。 | 4
+hand in | /hænd ɪn/ | 上交 | Hand in your homework on Monday. | 星期一上交你的作业。 | 3
+hand out | /hænd aʊt/ | 分发 | The teacher handed out the tests. | 老师发了试卷。 | 3
+pass on | /pæs ɑːn/ | 传递 | Please pass on my best wishes. | 请转达我的祝福。 | 4
+sort out | /sɔːrt aʊt/ | 解决; 整理 | We have to sort out this problem. | 我们得解决这个问题。 | 4
+clean up | /kliːn ʌp/ | 打扫干净 | Let's clean up the kitchen. | 我们来收拾厨房吧。 | 3
+tidy | /ˈtaɪdi/ | 整理 | Tidy your room before dinner. | 晚饭前整理你的房间。 | 3
+wash up | /wɑːʃ ʌp/ | 洗餐具 | I'll wash up after dinner. | 晚饭后我来洗餐具。 | 3
+dress up | /dres ʌp/ | 盛装打扮 | They dressed up for the party. | 他们为聚会盛装打扮。 | 3
+show up | /ʃoʊ ʌp/ | 出现 | He didn't show up at the meeting. | 他没有出现在会议上。 | 4
+show off | /ʃoʊ ɔːf/ | 炫耀 | He likes to show off his new car. | 他喜欢炫耀他的新车。 | 4
+turn up | /tɜːrn ʌp/ | 出现; 调大 | Turn up the volume a little. | 把音量调大一点。 | 3
+turn down | /tɜːrn daʊn/ | 拒绝; 调小 | She turned down the job offer. | 她拒绝了那份工作邀请。 | 4
+turn into | /tɜːrn ˈɪntuː/ | 变成 | Water turns into ice in the cold. | 水在寒冷中变成冰。 | 3
+run out of | /rʌn aʊt əv/ | 用完 | We ran out of milk this morning. | 今早我们的牛奶用完了。 | 3
+run into | /rʌn ˈɪntuː/ | 偶遇 | I ran into an old friend yesterday. | 我昨天偶遇一位老朋友。 | 4
+pick out | /pɪk aʊt/ | 挑选 | She picked out a red dress. | 她挑了一件红裙子。 | 3
+pick on | /pɪk ɑːn/ | 找茬; 欺负 | Don't pick on your little brother. | 别欺负你的小弟弟。 | 5
+bring up | /brɪŋ ʌp/ | 抚养; 提出 | She brought up three children alone. | 她独自抚养了三个孩子。 | 4
+bring back | /brɪŋ bæk/ | 带回 | Please bring back my book tomorrow. | 请明天把我的书带回来。 | 3
+make up | /meɪk ʌp/ | 编造; 和好 | He made up a story about his dog. | 他编了一个关于他的狗的故事。 | 4
+make sure | /meɪk ʃʊr/ | 确保 | Make sure you lock the door. | 确保你锁了门。 | 3
+make out | /meɪk aʊt/ | 辨认出 | I can't make out her handwriting. | 我辨认不出她的笔迹。 | 5
+end up | /end ʌp/ | 最终; 结果 | We ended up taking a taxi. | 我们最后打了辆出租车。 | 4
+catch up | /kætʃ ʌp/ | 赶上 | Run faster to catch up with them. | 跑快点才能赶上他们。 | 3
+keep up | /kiːp ʌp/ | 坚持; 跟上 | Keep up the good work! | 继续保持好成绩！ | 4
+keep on | /kiːp ɑːn/ | 继续 | He kept on talking all evening. | 他整晚不停地说话。 | 3
+cut down | /kʌt daʊn/ | 砍倒; 减少 | We should cut down on sugar. | 我们应该减少糖的摄入。 | 4
+cut off | /kʌt ɔːf/ | 切断 | The storm cut off the power. | 暴风雨切断了电力。 | 4
+look out | /lʊk aʊt/ | 当心 | Look out! There is a car coming. | 当心！有车过来了。 | 3
+look forward to | /lʊk ˈfɔːrwərd tuː/ | 期待 | I look forward to your reply. | 我期待你的回复。 | 3
+look into | /lʊk ˈɪntuː/ | 调查 | The police will look into the case. | 警方将调查此案。 | 5
+look through | /lʊk θruː/ | 浏览 | She looked through the old photos. | 她翻看了旧照片。 | 4
+check in | /tʃek ɪn/ | 办理入住; 登记 | We checked in at the hotel at noon. | 我们中午在酒店办理了入住。 | 3
+check out | /tʃek aʊt/ | 结账离开; 查看 | We check out of the hotel at ten. | 我们十点退房。 | 3
+move in | /muːv ɪn/ | 搬入 | They moved in last month. | 他们上个月搬进来的。 | 3
+move on | /muːv ɑːn/ | 继续前进; 翻篇 | It's time to move on. | 是时候翻篇了。 | 4
+move out | /muːv aʊt/ | 搬出 | She moved out of the flat in May. | 她五月搬出了那套公寓。 | 3
+pass away | /pæs əˈweɪ/ | 去世 | His grandfather passed away last year. | 他的祖父去年去世了。 | 4
+grow up | /ɡroʊ ʌp/ | 长大 | I grew up in a small town. | 我在一个小镇长大。 | 2
+settle down | /ˈsetl daʊn/ | 安定下来 | He wants to settle down and have a family. | 他想安定下来成个家。 | 4
+slow down | /sloʊ daʊn/ | 减速 | Slow down; the road is wet. | 慢点，路是湿的。 | 3
+speed up | /spiːd ʌp/ | 加速 | The driver sped up on the highway. | 司机在高速上加速了。 | 4
+wake | /weɪk/ | 唤醒 | Don't wake the baby. | 别吵醒宝宝。 | 3
+rest | /rest/ | 休息 | Rest for a few minutes. | 休息几分钟。 | 2
+relax | /rɪˈlæks/ | 放松 | Just relax and breathe. | 放松，深呼吸。 | 2
+hurt | /hɜːrt/ | 伤害; 痛 | My leg hurts a lot. | 我的腿很疼。 | 2
+achieve | /əˈtʃiːv/ | 实现; 达到 | She worked hard to achieve her goal. | 她努力实现自己的目标。 | 4
+succeed | /səkˈsiːd/ | 成功 | He succeeded in passing the exam. | 他成功通过了考试。 | 3
+fail | /feɪl/ | 失败; 不及格 | Many students fail the first time. | 许多学生第一次考不及格。 | 3
+improve | /ɪmˈpruːv/ | 改善; 提高 | Reading will improve your English. | 阅读会提高你的英语。 | 3
+increase | /ɪnˈkriːs/ | 增加 | Prices increase every year. | 物价每年上涨。 | 3
+decrease | /dɪˈkriːs/ | 减少 | The number of visitors decreased. | 游客数量减少了。 | 4
+reduce | /rɪˈduːs/ | 减少 | We must reduce our use of plastic. | 我们必须减少塑料的使用。 | 4
+grow | /ɡroʊ/ | 生长; 增长 | Tomatoes grow well in summer. | 西红柿夏天长得好。 | 2
+develop | /dɪˈveləp/ | 发展; 开发 | The town developed quickly. | 这座城镇发展很快。 | 3
+continue | /kənˈtɪnjuː/ | 继续 | The rain continued all night. | 雨下了一整夜。 | 3
+maintain | /meɪnˈteɪn/ | 维持; 保养 | It is hard to maintain a big garden. | 维护一个大花园很难。 | 5
+encourage | /ɪnˈkɜːrɪdʒ/ | 鼓励 | Teachers encourage students to ask questions. | 老师鼓励学生提问。 | 4
+abandon | /əˈbændən/ | 放弃; 抛弃 | They had to abandon the car in the snow. | 他们不得不把车丢弃在雪中。 | 5
+replace | /rɪˈpleɪs/ | 替换 | I need to replace the battery. | 我需要换电池。 | 3
+remove | /rɪˈmuːv/ | 移除 | Remove your shoes at the door. | 在门口把鞋脱掉。 | 3
+add | /æd/ | 添加 | Add a little salt to the soup. | 往汤里加点盐。 | 2
+connect | /kəˈnekt/ | 连接 | Connect the cable to the computer. | 把电缆连接到电脑上。 | 3
+separate | /ˈsepəreɪt/ | 分开 | Separate the white clothes from the dark ones. | 把白色衣服和深色衣服分开。 | 4
+divide | /dɪˈvaɪd/ | 分开; 划分 | Divide the cake into eight pieces. | 把蛋糕分成八块。 | 3
+combine | /kəmˈbaɪn/ | 结合 | Combine the ingredients in a bowl. | 把原料在碗里混合。 | 4
+attach | /əˈtætʃ/ | 附上; 连接 | Attach the photo to the form. | 把照片附在表格上。 | 4
+stick | /stɪk/ | 粘贴 | Stick the stamp on the envelope. | 把邮票贴在信封上。 | 3
+press | /pres/ | 按; 压 | Press the red button to start. | 按红色按钮开始。 | 3
+click | /klɪk/ | 点击 | Click the icon twice. | 双击这个图标。 | 3
+type | /taɪp/ | 打字 | She can type very fast. | 她打字很快。 | 3
+copy | /ˈkɑːpi/ | 复制; 抄写 | Copy the text into the document. | 把文字复制到文档里。 | 3
+print | /prɪnt/ | 打印 | Please print this page for me. | 请帮我打印这一页。 | 3
+download | /ˈdaʊnloʊd/ | 下载 | I downloaded the file this morning. | 我今天早上下载了这个文件。 | 3
+search | /sɜːrtʃ/ | 搜索 | I searched for the address online. | 我在网上搜索了地址。 | 3

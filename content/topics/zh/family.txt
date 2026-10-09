@@ -1,0 +1,163 @@
+@pack | family | Family & Relationships | 家庭与亲友 | 👨‍👩‍👧 | social | Family tree, kinship terms, close relatives, friends, and social circles.
+家 | home; family | 我家有四口人。 | There are four people in my family.
+家庭 | family; household | 我有一个幸福的家庭。 | I have a happy family.
+家人 | family members | 周末我常和家人一起吃饭。 | On weekends I often eat with my family.
+父母 | parents | 我的父母都是老师。 | My parents are both teachers.
+父亲 | father | 我的父亲在银行工作。 | My father works in a bank.
+母亲 | mother | 母亲每天都很早起床。 | Mother gets up very early every day.
+爸爸 | dad | 爸爸每天开车送我上学。 | Dad drives me to school every day.
+妈妈 | mom | 妈妈做的菜特别好吃。 | The dishes Mom cooks are especially delicious.
+儿子 | son | 他的儿子今年五岁。 | His son is five years old this year.
+女儿 | daughter | 她有一个可爱的女儿。 | She has a lovely daughter.
+哥哥 | older brother | 我哥哥比我大三岁。 | My older brother is three years older than me.
+弟弟 | younger brother | 我弟弟喜欢踢足球。 | My younger brother likes playing football.
+姐姐 | older sister | 姐姐在大学学习医学。 | My older sister studies medicine at university.
+妹妹 | younger sister | 我妹妹正在画画儿。 | My younger sister is drawing.
+爷爷 | paternal grandfather | 爷爷每天早上去公园散步。 | Grandpa goes for a walk in the park every morning.
+奶奶 | paternal grandmother | 奶奶给我讲了一个故事。 | Grandma told me a story.
+外公 | maternal grandfather | 外公住在乡下。 | My maternal grandfather lives in the countryside.
+外婆 | maternal grandmother | 外婆做的饺子很好吃。 | The dumplings my maternal grandmother makes are delicious.
+丈夫 | husband | 她的丈夫是一名医生。 | Her husband is a doctor.
+妻子 | wife | 他和妻子一起去旅行。 | He travels together with his wife.
+亲戚 | relative | 过年的时候我们去看亲戚。 | At the New Year we visit relatives.
+朋友 | friend | 他是我最好的朋友。 | He is my best friend.
+邻居 | neighbor | 我的邻居是一位老教授。 | My neighbor is an old professor.
+同学 | classmate | 我和同学一起做作业。 | I do homework together with my classmates.
+先生 | Mr.; sir; husband | 王先生请坐。 | Please take a seat, Mr. Wang.
+女士 | lady; Ms. | 这位女士想找经理。 | This lady wants to see the manager.
+孩子 | child | 这个孩子很聪明。 | This child is very smart.
+大人 | adult | 大人要给孩子做好榜样。 | Adults should set a good example for children.
+老人 | elderly person | 请给老人让个座位。 | Please give up your seat for the elderly.
+客人 | guest | 今晚家里有客人来。 | We have guests coming to the house tonight.
+人 | person; people | 他们家有五个人。 | There are five people in their family.
+男人 | man | 那个男人是我叔叔。 | That man is my uncle.
+女人 | woman | 这个女人是我的邻居。 | This woman is my neighbor.
+男孩 | boy | 那个男孩是我的弟弟。 | That boy is my younger brother.
+女孩 | girl | 这个女孩是我的妹妹。 | This girl is my younger sister.
+小孩 | small child | 公园里有很多小孩在玩。 | Many small children are playing in the park.
+婴儿 | baby; infant | 婴儿正在床上睡觉。 | The baby is sleeping in bed.
+宝宝 | baby; darling | 宝宝今天会叫妈妈了。 | The baby learned to say "mom" today.
+少年 | teenager; youth | 这个少年喜欢画画儿。 | This teenager likes drawing.
+青年 | young person | 这位青年想学中文。 | This young person wants to learn Chinese.
+老年人 | senior citizen | 老年人需要多休息。 | Senior citizens need more rest.
+长辈 | elder; older generation | 见到长辈要有礼貌。 | You should be polite when you meet elders.
+晚辈 | younger generation | 长辈应该关心晚辈。 | Elders should care about the younger generation.
+祖父 | paternal grandfather (formal) | 我的祖父是一位农民。 | My grandfather was a farmer.
+祖母 | paternal grandmother (formal) | 祖母的头发已经白了。 | Grandmother's hair has already turned white.
+曾祖父 | great-grandfather | 我的曾祖父出生在清朝。 | My great-grandfather was born in the Qing dynasty.
+祖先 | ancestor | 清明节我们去祭拜祖先。 | At Qingming we go to honor our ancestors.
+伯父 | father's elder brother | 伯父在北京工作。 | My father's elder brother works in Beijing.
+伯母 | wife of father's elder brother | 伯母给我们做了一桌菜。 | My aunt prepared a whole table of dishes for us.
+叔叔 | uncle (father's younger brother) | 叔叔明天来我家玩。 | Uncle is coming to my home to visit tomorrow.
+婶婶 | aunt (wife of father's younger brother) | 婶婶很喜欢小孩。 | My aunt likes children very much.
+姑姑 | aunt (father's sister) | 姑姑送了我一本书。 | My aunt gave me a book.
+姑父 | uncle (husband of father's sister) | 姑父是一名工程师。 | My uncle is an engineer.
+舅舅 | uncle (mother's brother) | 舅舅从上海给我寄了礼物。 | My uncle sent me a gift from Shanghai.
+舅妈 | aunt (wife of mother's brother) | 舅妈做的菜很香。 | My aunt's cooking smells delicious.
+姨妈 | aunt (mother's sister) | 姨妈每年夏天来看我们。 | My aunt visits us every summer.
+姨夫 | uncle (husband of mother's sister) | 姨夫开了一家小饭馆。 | My uncle runs a small restaurant.
+堂哥 | older paternal male cousin | 堂哥比我大五岁。 | My older cousin is five years older than me.
+堂弟 | younger paternal male cousin | 我的堂弟刚上大学。 | My younger cousin has just started university.
+堂姐 | older paternal female cousin | 堂姐已经结婚了。 | My older cousin has already married.
+堂妹 | younger paternal female cousin | 堂妹和我一起长大。 | My younger cousin grew up with me.
+表哥 | older male cousin (different surname) | 表哥在一家公司上班。 | My older cousin works at a company.
+表弟 | younger male cousin (different surname) | 表弟今年要考大学。 | My younger cousin will take the university exam this year.
+表姐 | older female cousin (different surname) | 表姐送了我一条围巾。 | My older cousin gave me a scarf.
+表妹 | younger female cousin (different surname) | 表妹的汉语说得很好。 | My younger cousin speaks Chinese very well.
+侄子 | nephew (brother's son) | 我的侄子很爱看书。 | My nephew loves reading.
+侄女 | niece (brother's daughter) | 侄女给我画了一张画。 | My niece drew me a picture.
+外甥 | nephew (sister's son) | 外甥假期来我家住了几天。 | My nephew stayed at my home for a few days during the holiday.
+外甥女 | niece (sister's daughter) | 外甥女唱歌很好听。 | My niece sings very nicely.
+孙子 | grandson (son's son) | 爷爷最疼他的孙子。 | Grandpa dotes on his grandson most.
+孙女 | granddaughter (son's daughter) | 奶奶抱着她的孙女。 | Grandma is holding her granddaughter.
+外孙 | grandson (daughter's son) | 外婆每天接外孙放学。 | Grandma picks her grandson up from school every day.
+外孙女 | granddaughter (daughter's daughter) | 他的外孙女刚会走路。 | His granddaughter has just learned to walk.
+岳父 | father-in-law (wife's father) | 他的岳父是一位医生。 | His father-in-law is a doctor.
+岳母 | mother-in-law (wife's mother) | 岳母来家里帮忙带孩子。 | His mother-in-law came to help look after the child.
+公公 | father-in-law (husband's father) | 公公今年七十岁了。 | Her father-in-law is seventy years old this year.
+婆婆 | mother-in-law (husband's mother) | 婆婆和她住在一起。 | Her mother-in-law lives with her.
+女婿 | son-in-law | 他们的女婿很孝顺。 | Their son-in-law is very filial.
+儿媳 | daughter-in-law | 儿媳每个周末都来看他们。 | Their daughter-in-law visits them every weekend.
+继父 | stepfather | 他和继父相处得很好。 | He gets along well with his stepfather.
+继母 | stepmother | 她的继母对她很好。 | Her stepmother is very good to her.
+兄弟 | brothers | 他们是亲兄弟。 | They are brothers by blood.
+姐妹 | sisters | 她们姐妹俩长得很像。 | The two sisters look very much alike.
+兄弟姐妹 | siblings | 你有兄弟姐妹吗？ | Do you have any brothers or sisters?
+独生子女 | only child | 他是家里的独生子女。 | He is the only child in his family.
+双胞胎 | twins | 她生了一对双胞胎。 | She gave birth to a pair of twins.
+亲人 | close relatives; loved ones | 过年时亲人们聚在一起。 | At the New Year, loved ones gather together.
+夫妻 | husband and wife; couple | 他们是一对恩爱的夫妻。 | They are a loving married couple.
+夫妇 | married couple | 这对夫妇有两个孩子。 | This married couple has two children.
+老公 | husband (colloquial) | 她老公每天做饭。 | Her husband cooks every day.
+老婆 | wife (colloquial) | 他老婆是他的大学同学。 | His wife was his university classmate.
+爱人 | spouse | 我爱人在医院工作。 | My spouse works at the hospital.
+对象 | partner; boyfriend or girlfriend | 他的对象是一位老师。 | His partner is a teacher.
+男朋友 | boyfriend | 她的男朋友很高。 | Her boyfriend is very tall.
+女朋友 | girlfriend | 他想给女朋友买一束花。 | He wants to buy flowers for his girlfriend.
+情侣 | couple; lovers | 公园里有很多情侣。 | There are many couples in the park.
+恋爱 | to be in love; romance | 他们恋爱三年了。 | They have been in love for three years.
+前任 | ex-partner | 她不想再提起前任。 | She doesn't want to mention her ex again.
+好友 | good friend | 我们是多年的好友。 | We have been good friends for many years.
+老朋友 | old friend | 我今天见到了一位老朋友。 | I met an old friend today.
+新朋友 | new friend | 来这里以后我认识了很多新朋友。 | I have met many new friends since coming here.
+同事 | colleague | 我的同事们都很友好。 | My colleagues are all friendly.
+老师 | teacher | 老师对我们很耐心。 | The teacher is very patient with us.
+同桌 | desk mate | 我和同桌关系很好。 | My desk mate and I get along very well.
+室友 | roommate | 我的室友来自韩国。 | My roommate comes from Korea.
+邻里 | neighbors; neighborhood | 邻里之间应该互相帮助。 | Neighbors should help one another.
+熟人 | acquaintance | 我在街上碰到了一个熟人。 | I ran into an acquaintance on the street.
+陌生人 | stranger | 不要随便给陌生人开门。 | Don't open the door to strangers casually.
+老乡 | person from the same hometown | 在外地遇到老乡特别亲切。 | Meeting someone from your hometown feels very warm when you're away.
+伙伴 | partner; companion | 他是我的学习伙伴。 | He is my study partner.
+兄长 | elder brother (formal) | 他把兄长当作榜样。 | He regards his elder brother as a role model.
+朋友圈 | circle of friends | 她在朋友圈发了一张照片。 | She posted a photo in her friends circle.
+关系 | relationship | 我和邻居的关系很好。 | My relationship with the neighbors is good.
+感情 | affection; bond | 兄弟之间感情很深。 | The bond between brothers is deep.
+友谊 | friendship | 这份友谊让我们很珍惜。 | We cherish this friendship very much.
+亲密 | close; intimate | 他们是亲密的朋友。 | They are close friends.
+熟悉 | familiar | 我对这个邻居很熟悉。 | I am very familiar with this neighbor.
+认识 | to know; to meet | 我在大学认识了他。 | I got to know him at university.
+介绍 | to introduce | 请允许我介绍一下我的家人。 | Please let me introduce my family.
+联系 | to contact | 我们毕业后还保持联系。 | We still keep in touch after graduating.
+来往 | to be in contact | 我们两家来往很多。 | Our two families have a lot of contact.
+拜访 | to visit | 周末我去拜访了一位老朋友。 | On the weekend I visited an old friend.
+探望 | to visit (sick or old) | 他去医院探望朋友。 | He went to the hospital to visit a friend.
+团聚 | to reunite | 春节全家人团聚在一起。 | The whole family reunites at the Spring Festival.
+相处 | to get along | 他们相处得很愉快。 | They get along very happily.
+照顾 | to take care of | 她每天照顾生病的母亲。 | She takes care of her sick mother every day.
+抚养 | to raise; to bring up | 父母辛苦地抚养我们长大。 | Our parents worked hard to bring us up.
+养育 | to nurture | 感谢父母养育了我。 | Thank my parents for raising me.
+孝顺 | filial; to be dutiful to parents | 他对父母非常孝顺。 | He is very dutiful to his parents.
+赡养 | to support (elders) | 子女有责任赡养父母。 | Children are responsible for supporting their parents.
+陪伴 | to accompany | 孩子需要父母的陪伴。 | Children need the company of their parents.
+出生 | to be born | 我出生在一个小城市。 | I was born in a small city.
+生日 | birthday | 明天是妈妈的生日。 | Tomorrow is Mom's birthday.
+长大 | to grow up | 孩子们一天天长大了。 | The children are growing up day by day.
+成年 | to come of age | 他今年已经成年了。 | He has come of age this year.
+退休 | to retire | 爸爸明年就要退休了。 | Dad will retire next year.
+订婚 | to get engaged | 他们去年订婚了。 | They got engaged last year.
+结婚 | to get married | 哥哥下个月结婚。 | My older brother is getting married next month.
+婚礼 | wedding | 我们参加了朋友的婚礼。 | We attended our friend's wedding.
+新郎 | bridegroom | 新郎看起来有点儿紧张。 | The bridegroom looks a little nervous.
+新娘 | bride | 新娘穿着白色的婚纱。 | The bride is wearing a white wedding dress.
+蜜月 | honeymoon | 他们去海边度蜜月。 | They went to the seaside for their honeymoon.
+离婚 | to divorce | 他们去年离婚了。 | They got divorced last year.
+单身 | single (unmarried) | 他至今还是单身。 | He is still single to this day.
+再婚 | to remarry | 她三年后再婚了。 | She remarried three years later.
+怀孕 | to be pregnant | 她怀孕五个月了。 | She is five months pregnant.
+生孩子 | to give birth | 她在医院生孩子。 | She is giving birth at the hospital.
+满月 | baby's first month | 孩子满月时亲戚们都来了。 | All the relatives came when the baby turned one month old.
+周岁 | first birthday | 宝宝明天过周岁生日。 | The baby has her first birthday tomorrow.
+去世 | to pass away | 他的爷爷去年去世了。 | His grandfather passed away last year.
+葬礼 | funeral | 全家人参加了他的葬礼。 | The whole family attended his funeral.
+遗产 | inheritance | 他继承了父亲的遗产。 | He inherited his father's estate.
+继承 | to inherit | 她继承了祖母的老房子。 | She inherited her grandmother's old house.
+领养 | to adopt | 他们领养了一个女孩。 | They adopted a girl.
+养子 | adopted son | 他把养子当作亲生儿子。 | He treats his adopted son as his own.
+亲生 | biological | 她是我亲生的女儿。 | She is my biological daughter.
+家族 | clan; extended family | 他们家族有很长的历史。 | Their family has a long history.
+姓 | surname; to be surnamed | 我姓王，你姓什么？ | My surname is Wang, what's yours?
+全家福 | family photo | 墙上挂着一张全家福。 | A family photo hangs on the wall.
+户口 | household registration | 他的户口在老家。 | His household registration is in his hometown.
+单亲 | single-parent | 她在单亲家庭长大。 | She grew up in a single-parent family.
+代沟 | generation gap | 父母和孩子之间有代沟。 | There is a generation gap between parents and children.

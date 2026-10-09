@@ -1,0 +1,275 @@
+@topic | Body & Health | 🩺
+# A1 body parts
+head | /hɛd/ | 头; 头部 | I hit my head on the low door. | 我的头撞到了低矮的门上。 | 1
+eye | /aɪ/ | 眼睛 | Close your eyes and take a deep breath. | 闭上眼睛，深深地吸口气。 | 1
+ear | /ɪr/ | 耳朵 | He put his ear against the door to listen. | 他把耳朵贴在门上听动静。 | 1
+nose | /noʊz/ | 鼻子 | The smell of coffee tickled my nose. | 咖啡的香味搔得我的鼻子痒痒的。 | 1
+mouth | /maʊθ/ | 嘴; 口 | Open your mouth and say ah. | 张开嘴，说“啊”。 | 1
+tooth | /tuθ/ | 牙齿 | Brush your teeth twice a day. | 每天刷两次牙。 | 1
+tongue | /tʌŋ/ | 舌头 | I burned my tongue on the hot soup. | 我被热汤烫到了舌头。 | 1
+lip | /lɪp/ | 嘴唇 | Her lips were dry and cracked in winter. | 冬天她的嘴唇干裂。 | 1
+cheek | /tʃik/ | 脸颊 | He kissed his mother on the cheek. | 他在母亲的脸颊上亲了一下。 | 1
+chin | /tʃɪn/ | 下巴 | She rested her chin on her hand. | 她把下巴搁在手上。 | 1
+neck | /nɛk/ | 脖子 | I have a stiff neck from sleeping badly. | 我因为睡得不好，脖子僵硬。 | 1
+shoulder | /ˈʃoʊldər/ | 肩膀 | He carried the bag on his shoulder. | 他把包背在肩上。 | 1
+arm | /ɑrm/ | 手臂 | She broke her arm falling off the bike. | 她从自行车上摔下来，摔断了胳膊。 | 1
+hand | /hænd/ | 手 | Wash your hands before you eat. | 吃饭前先洗手。 | 1
+finger | /ˈfɪŋɡər/ | 手指 | I cut my finger while chopping onions. | 切洋葱时我割伤了手指。 | 1
+back | /bæk/ | 背; 后背 | My back hurts after sitting all day. | 整天坐着，我的背很痛。 | 1
+leg | /lɛɡ/ | 腿 | The dog jumped up and hit my leg. | 狗跳起来撞到了我的腿。 | 1
+knee | /ni/ | 膝盖 | He scraped his knee on the pavement. | 他的膝盖在人行道上擦伤了。 | 1
+skin | /skɪn/ | 皮肤 | Use sunscreen to protect your skin. | 用防晒霜保护你的皮肤。 | 1
+hair | /hɛr/ | 头发; 毛发 | She brushed her long hair before bed. | 她睡前梳理了她的长发。 | 1
+blood | /blʌd/ | 血; 血液 | There was blood on the bandage. | 绷带上有血迹。 | 1
+# A2 body parts
+elbow | /ˈɛlboʊ/ | 手肘 | He hurt his elbow playing tennis. | 他打网球时弄伤了手肘。 | 2
+wrist | /rɪst/ | 手腕 | She wears a watch on her left wrist. | 她左手腕上戴着一块手表。 | 2
+thumb | /θʌm/ | 拇指 | He pressed the button with his thumb. | 他用拇指按下了按钮。 | 2
+chest | /tʃɛst/ | 胸; 胸部 | I felt a tight pain in my chest. | 我感觉胸口有一阵紧缩的疼痛。 | 2
+stomach | /ˈstʌmək/ | 胃; 肚子 | My stomach is empty, I need to eat. | 我肚子空空的，需要吃点东西。 | 2
+waist | /weɪst/ | 腰 | He put his arm around her waist. | 他把手臂搭在她的腰上。 | 2
+hip | /hɪp/ | 臀部; 髋 | The old man has a problem with his hip. | 这位老人的髋部有问题。 | 2
+ankle | /ˈæŋkl/ | 脚踝 | She twisted her ankle on the stairs. | 她在楼梯上扭伤了脚踝。 | 2
+toe | /toʊ/ | 脚趾 | I stubbed my toe on the table leg. | 我的脚趾撞到了桌腿。 | 2
+heel | /hil/ | 脚后跟 | Blisters often form on the heel. | 脚后跟上常常会起水泡。 | 2
+breath | /brɛθ/ | 呼吸; 气息 | Take a deep breath and count to ten. | 深吸一口气，数到十。 | 2
+burn | /bɜrn/ | 烫伤; 烧伤 | He got a burn from the hot pan. | 他被热锅烫伤了。 | 2
+bone | /boʊn/ | 骨头 | Calcium helps keep your bones strong. | 钙有助于让你的骨骼保持强壮。 | 2
+throat | /θroʊt/ | 喉咙 | My throat feels dry and scratchy. | 我的喉咙干痒。 | 2
+brain | /breɪn/ | 大脑 | The brain controls all our movements. | 大脑控制着我们所有的动作。 | 2
+lung | /lʌŋ/ | 肺 | Smoking can damage your lungs. | 吸烟会损伤你的肺。 | 2
+health | /hɛlθ/ | 健康; 健康状况 | Good health depends on sleep and exercise. | 良好的健康依赖于睡眠和运动。 | 2
+sick | /sɪk/ | 生病的; 恶心的 | She stayed home because she felt sick. | 她因为感觉不舒服而待在家里。 | 1
+ill | /ɪl/ | 生病的 | My grandfather has been ill for a month. | 我爷爷已经病了一个月。 | 2
+unwell | /ʌnˈwɛl/ | 身体不舒服的 | He looked pale and said he felt unwell. | 他脸色苍白，说自己觉得不舒服。 | 2
+organ | /ˈɔrɡən/ | 器官 | The liver is one of the body's largest organs. | 肝脏是人体最大的器官之一。 | 3
+# B1 organs and systems
+liver | /ˈlɪvər/ | 肝脏 | Drinking too much alcohol can damage the liver. | 饮酒过量会损伤肝脏。 | 3
+kidney | /ˈkɪdni/ | 肾脏 | The kidneys filter waste from the blood. | 肾脏过滤血液中的废物。 | 3
+skull | /skʌl/ | 头骨; 颅骨 | The skull protects the brain from injury. | 头骨保护大脑免受伤害。 | 3
+rib | /rɪb/ | 肋骨 | He cracked a rib in the car accident. | 他在车祸中断了一根肋骨。 | 3
+spine | /spaɪn/ | 脊柱; 脊椎 | Sitting badly can strain your spine. | 坐姿不良会拉伤你的脊柱。 | 3
+joint | /dʒɔɪnt/ | 关节 | My knee joint makes a clicking noise. | 我的膝关节发出咔哒声。 | 3
+pulse | /pʌls/ | 脉搏 | Check your pulse after exercise. | 运动后检查一下你的脉搏。 | 3
+blood pressure | /blʌd ˈprɛʃər/ | 血压 | High blood pressure often has no symptoms. | 高血压通常没有症状。 | 3
+vein | /veɪn/ | 静脉 | The nurse found a vein in my arm. | 护士在我的手臂上找到了一条静脉。 | 4
+artery | /ˈɑrtəri/ | 动脉 | A blocked artery can cause a heart attack. | 动脉堵塞可能导致心脏病发作。 | 4
+nerve | /nɜrv/ | 神经 | He pinched a nerve in his back. | 他的背部神经受到了压迫。 | 4
+gland | /ɡlænd/ | 腺体 | The thyroid gland controls your metabolism. | 甲状腺控制着你的新陈代谢。 | 4
+hormone | /ˈhɔrmoʊn/ | 荷尔蒙; 激素 | Hormone levels change during puberty. | 青春期时荷尔蒙水平会发生变化。 | 4
+immune system | /ɪˈmjun ˈsɪstəm/ | 免疫系统 | Sleep helps the immune system fight infection. | 睡眠有助于免疫系统抵抗感染。 | 4
+digest | /daɪˈdʒɛst/ | 消化 | Your body needs time to digest a big meal. | 你的身体需要时间来消化一顿大餐。 | 4
+digestion | /daɪˈdʒɛstʃən/ | 消化 | Fibre is good for digestion. | 纤维对消化有好处。 | 4
+digestive | /daɪˈdʒɛstɪv/ | 消化的 | The digestive system breaks down food. | 消化系统分解食物。 | 4
+metabolism | /məˈtæbəlɪzəm/ | 新陈代谢 | Your metabolism slows down as you get older. | 随着年龄增长，你的新陈代谢会减慢。 | 5
+respiratory | /ˈrɛspərəˌtɔri/ | 呼吸的; 呼吸系统的 | She has a respiratory infection. | 她患有呼吸道感染。 | 5
+itch | /ɪtʃ/ | 发痒 | The mosquito bite began to itch. | 蚊子叮咬的地方开始发痒。 | 3
+itchy | /ˈɪtʃi/ | 发痒的 | My skin feels itchy after the bath. | 洗完澡后我的皮肤觉得发痒。 | 3
+blister | /ˈblɪstər/ | 水泡 | New shoes gave me a painful blister. | 新鞋让我的脚起了一个疼痛的水泡。 | 3
+scar | /skɑr/ | 疤痕 | The cut left a small scar on his chin. | 这道伤口在他的下巴上留下了一道小疤。 | 3
+bruise | /bruz/ | 瘀伤 | She got a bruise on her arm from the door. | 她的胳膊被门撞出了一块瘀伤。 | 3
+wound | /wund/ | 伤口; 创伤 | The wound needs to be cleaned every day. | 这个伤口每天都需要清洗。 | 3
+rash | /ræʃ/ | 皮疹 | The baby developed a red rash on her cheeks. | 宝宝的脸颊上长出了红色的皮疹。 | 3
+dehydration | /ˌdiˌhaɪˈdreɪʃən/ | 脱水 | Heat and sweating can cause dehydration. | 高温和出汗会导致脱水。 | 5
+scrape | /skreɪp/ | 擦伤; 刮伤 | He fell off his bike and got a scrape on his elbow. | 他从自行车上摔下来，手肘擦伤了。 | 3
+# A2–B1 common complaints
+headache | /ˈhɛdeɪk/ | 头痛 | I have a headache from staring at the screen. | 盯着屏幕看，我头痛了。 | 1
+toothache | /ˈtuθeɪk/ | 牙痛 | The toothache kept me awake all night. | 牙痛让我整夜都没睡着。 | 2
+stomachache | /ˈstʌməkeɪk/ | 胃痛; 肚子痛 | Eating too fast gave me a stomachache. | 吃得太快，我肚子痛了。 | 2
+backache | /ˈbækeɪk/ | 背痛 | Sitting in a bad chair caused a backache. | 坐在不舒服的椅子上导致了背痛。 | 3
+earache | /ˈɪrˌeɪk/ | 耳痛 | The child had an earache and cried all night. | 这个孩子耳朵痛，哭了一整夜。 | 3
+pain | /peɪn/ | 疼痛 | I feel a sharp pain in my side. | 我的身体一侧感到一阵剧痛。 | 1
+ache | /eɪk/ | 隐隐作痛; 酸痛 | My legs ache after standing all day. | 站了一整天，我的腿酸痛。 | 3
+sore throat | /ˈsɔr θroʊt/ | 嗓子疼 | I have a sore throat and cannot talk properly. | 我嗓子疼，说话都不太利索。 | 2
+runny nose | /ˈrʌni noʊz/ | 流鼻涕 | The children all have a runny nose this week. | 这周孩子们都在流鼻涕。 | 2
+flu | /flu/ | 流感 | Many people caught the flu last winter. | 去年冬天很多人得了流感。 | 2
+dizzy | /ˈdɪzi/ | 头晕的 | I felt dizzy after standing up too quickly. | 站起来太快，我感到头晕。 | 2
+faint | /feɪnt/ | 晕倒; 微弱的 | She felt faint in the hot room and sat down. | 她在闷热的房间里觉得快晕倒了，便坐了下来。 | 3
+weakness | /ˈwiknəs/ | 虚弱; 弱点 | Fever often causes weakness and tiredness. | 发烧常常导致身体虚弱和疲倦。 | 3
+swelling | /ˈswɛlɪŋ/ | 肿胀 | There is swelling around the ankle. | 脚踝周围有肿胀。 | 3
+swell | /swɛl/ | 肿胀; 膨胀 | Her face began to swell after the bee sting. | 被蜜蜂蜇了之后，她的脸开始肿起来。 | 3
+nausea | /ˈnɔziə/ | 恶心 | The smell of the medicine caused nausea. | 药的味道让人感到恶心。 | 5
+vomit | /ˈvɑmɪt/ | 呕吐 | The baby vomited after the feeding. | 喂奶后婴儿吐了。 | 4
+fever | /ˈfivər/ | 发烧; 发热 | He had a high fever and stayed in bed. | 他发高烧，卧床休息。 | 2
+fatigue | /fəˈtiɡ/ | 疲劳; 乏力 | Chronic fatigue can affect daily life. | 慢性疲劳会影响日常生活。 | 5
+insomnia | /ɪnˈsɑmniə/ | 失眠 | Stress can lead to insomnia. | 压力可能导致失眠。 | 5
+snore | /snɔr/ | 打鼾 | My father snores loudly at night. | 我爸爸晚上打鼾很响。 | 3
+hiccup | /ˈhɪkʌp/ | 打嗝 | I have the hiccups and cannot stop. | 我打嗝打个不停。 | 3
+shiver | /ˈʃɪvər/ | 发抖; 打战 | He began to shiver in the cold wind. | 他在寒风中开始发抖。 | 3
+wheeze | /wiz/ | 喘息 | The old dog wheezes after a short walk. | 这条老狗散步一会儿就会喘得厉害。 | 5
+breathless | /ˈbrɛθləs/ | 上气不接下气的 | She was breathless after climbing the stairs. | 爬完楼梯，她累得上气不接下气。 | 4
+indigestion | /ˌɪndɪˈdʒɛstʃən/ | 消化不良 | Spicy food often gives me indigestion. | 辛辣食物常让我消化不良。 | 5
+constipation | /ˌkɑnstəˈpeɪʃən/ | 便秘 | Drinking more water can help constipation. | 多喝水有助于缓解便秘。 | 5
+heartburn | /ˈhɑrtbɜrn/ | 烧心; 胃灼热 | Heartburn often follows a large late meal. | 晚餐吃得太多常常会引起烧心。 | 4
+nosebleed | /ˈnoʊzblid/ | 鼻出血 | He got a nosebleed during the football match. | 他在足球比赛中鼻子流血了。 | 4
+bleed | /blid/ | 流血 | The cut began to bleed again. | 伤口又开始流血了。 | 3
+fracture | /ˈfræktʃər/ | 骨折; 断裂 | The X-ray showed a fracture in his arm. | X光片显示他的胳膊骨折了。 | 4
+injure | /ˈɪndʒər/ | 伤害; 使受伤 | He injured his back while lifting the box. | 他抬箱子时伤了背。 | 3
+swollen | /ˈswoʊlən/ | 肿起的 | My ankle is swollen and painful. | 我的脚踝肿了，还很疼。 | 4
+inflammation | /ˌɪnfləˈmeɪʃən/ | 炎症; 发炎 | Inflammation makes the joint hot and sore. | 炎症会让关节发热、酸痛。 | 5
+infection | /ɪnˈfɛkʃən/ | 感染 | The wound became infected and needed treatment. | 伤口感染了，需要治疗。 | 3
+infectious | /ɪnˈfɛkʃəs/ | 传染性的 | Measles is highly infectious among children. | 麻疹在儿童中传染性很强。 | 4
+contagious | /kənˈteɪdʒəs/ | 会传染的 | Stay at home if your cold is contagious. | 如果你的感冒会传染，就待在家里。 | 4
+epidemic | /ˌɛpɪˈdɛmɪk/ | 流行病; 疫情 | The epidemic spread quickly through the city. | 疫情在城市里迅速蔓延。 | 5
+pandemic | /pænˈdɛmɪk/ | 大流行病 | The pandemic changed the way people work. | 这场大流行病改变了人们的工作方式。 | 5
+allergic | /əˈlɜrdʒɪk/ | 过敏的 | She is allergic to cats and dust. | 她对猫和灰尘过敏。 | 3
+asthma | /ˈæzmə/ | 哮喘 | Asthma makes it hard to breathe during exercise. | 哮喘让人在运动时很难呼吸。 | 4
+diabetes | /ˌdaɪəˈbitiz/ | 糖尿病 | Diabetes means the body cannot control blood sugar well. | 糖尿病意味着身体无法很好地控制血糖。 | 4
+cancer | /ˈkænsər/ | 癌症 | Early detection can improve the chances of curing cancer. | 早期发现能提高治愈癌症的几率。 | 4
+arthritis | /ɑrˈθraɪtɪs/ | 关节炎 | Arthritis causes stiffness and pain in the joints. | 关节炎会导致关节僵硬和疼痛。 | 5
+migraine | /ˈmaɪɡreɪn/ | 偏头痛 | A migraine can last for several hours. | 偏头痛可以持续好几个小时。 | 5
+stroke | /stroʊk/ | 中风 | A stroke can affect speech and movement. | 中风会影响说话和行动能力。 | 4
+heart attack | /ˈhɑrt əˌtæk/ | 心脏病发作 | Chest pain can be a warning sign of a heart attack. | 胸痛可能是心脏病发作的警示信号。 | 3
+chronic | /ˈkrɑnɪk/ | 慢性的; 长期的 | She has chronic back pain from an old injury. | 她因旧伤而患有慢性背痛。 | 5
+acute | /əˈkjut/ | 急性的; 严重的 | He developed acute appendicitis last night. | 他昨晚得了急性阑尾炎。 | 5
+symptom | /ˈsɪmptəm/ | 症状 | A cough and fever are common symptoms of flu. | 咳嗽和发烧是流感的常见症状。 | 4
+diagnosis | /ˌdaɪəɡˈnoʊsɪs/ | 诊断; 诊断结果 | The diagnosis was confirmed after the test. | 检查之后，诊断结果得到了证实。 | 5
+diagnose | /ˈdaɪəɡnoʊz/ | 诊断出 | The doctor diagnosed her with pneumonia. | 医生诊断出她患有肺炎。 | 4
+obesity | /oʊˈbisəti/ | 肥胖 | Obesity increases the risk of heart disease. | 肥胖会增加患心脏病的风险。 | 5
+vaccination | /ˌvæksɪˈneɪʃən/ | 接种疫苗 | Vaccination is free at the local clinic. | 当地诊所的疫苗接种是免费的。 | 4
+vaccinate | /ˈvæksɪneɪt/ | 给……接种疫苗 | Doctors vaccinate babies against several diseases. | 医生会给婴儿接种多种疾病的疫苗。 | 4
+immunity | /ɪˈmjunəti/ | 免疫力; 免疫 | Regular exercise helps build immunity. | 规律运动有助于增强免疫力。 | 5
+well-being | /ˌwɛlˈbiɪŋ/ | 幸福; 健康状况 | Good sleep is essential for physical well-being. | 良好的睡眠对身体健康至关重要。 | 3
+# B1 treatment and medicine
+treat | /trit/ | 治疗; 对待 | The clinic can treat most common infections. | 这家诊所可以治疗大多数常见感染。 | 3
+treatment | /ˈtritmənt/ | 治疗; 疗法 | The treatment took several weeks to work. | 这种治疗过了几周才见效。 | 3
+cure | /kjʊr/ | 治愈; 药方 | Scientists are searching for a cure for the disease. | 科学家们正在寻找这种疾病的治愈方法。 | 4
+heal | /hil/ | 愈合; 治愈 | Cuts usually heal within a week or two. | 小伤口通常一两周就能愈合。 | 3
+recuperate | /rɪˈkupəreɪt/ | 恢复体力; 康复 | He went to the mountains to recuperate after the illness. | 他病后去山里休养恢复体力。 | 6
+physiotherapy | /ˌfɪziˌoʊˈθɛrəpi/ | 理疗 | Physiotherapy eased the pain in her shoulder. | 理疗缓解了她肩部的疼痛。 | 4
+therapy | /ˈθɛrəpi/ | 疗法; 治疗 | Massage therapy relaxes tight muscles. | 按摩疗法可以放松紧绷的肌肉。 | 4
+therapist | /ˈθɛrəpɪst/ | 治疗师 | The therapist showed me how to stretch my back. | 治疗师教我如何拉伸背部。 | 4
+physician | /fɪˈzɪʃən/ | 内科医生 | Your physician can explain the test results. | 你的内科医生可以解释检查结果。 | 5
+medication | /ˌmɛdɪˈkeɪʃən/ | 药物 | He takes daily medication for his blood pressure. | 他每天服用降血压的药物。 | 4
+pill | /pɪl/ | 药丸 | Swallow the pill with water. | 用水把药丸吞下去。 | 2
+capsule | /ˈkæpsl/ | 胶囊 | These vitamin capsules should be taken after meals. | 这些维生素胶囊应该在饭后服用。 | 3
+syrup | /ˈsɪrəp/ | 糖浆; 药水 | Cough syrup helped her sleep at night. | 止咳糖浆帮她晚上睡了个好觉。 | 3
+ointment | /ˈɔɪntmənt/ | 药膏 | Apply the ointment to the rash twice a day. | 每天在皮疹处涂两次药膏。 | 4
+painkiller | /ˈpeɪnˌkɪlər/ | 止痛药 | I took a painkiller for the headache. | 我吃了一片止痛药来缓解头痛。 | 3
+antibiotic | /ˌæntibaɪˈɑtɪk/ | 抗生素 | The doctor prescribed antibiotics for the infection. | 医生为这个感染开了抗生素。 | 4
+antiseptic | /ˌæntɪˈsɛptɪk/ | 消毒剂 | Clean the cut with antiseptic before covering it. | 盖上伤口之前先用消毒剂清洗。 | 4
+disinfect | /ˌdɪsɪnˈfɛkt/ | 消毒 | Disinfect the door handles every day. | 每天给门把手消毒。 | 4
+sterile | /ˈstɛrəl/ | 无菌的; 不育的 | Surgical tools must be kept sterile. | 手术器械必须保持无菌。 | 5
+bandage | /ˈbændɪdʒ/ | 绷带 | Wrap a bandage around the sprained ankle. | 用绷带把扭伤的脚踝缠起来。 | 3
+plaster | /ˈplæstər/ | 创可贴; 石膏 | Put a plaster on the small cut. | 在小伤口上贴一个创可贴。 | 3
+splint | /splɪnt/ | 夹板 | The nurse fixed a splint to his finger. | 护士给他的手指绑上了夹板。 | 5
+stitches | /ˈstɪtʃɪz/ | 缝线; 针 | She needed five stitches in her chin. | 她的下巴需要缝五针。 | 4
+crutches | /ˈkrʌtʃɪz/ | 拐杖 | He walked on crutches for a month. | 他拄着拐杖走了一个月。 | 4
+wheelchair | /ˈwilˌtʃɛr/ | 轮椅 | The hospital provided a wheelchair for her. | 医院为她提供了一把轮椅。 | 3
+stretcher | /ˈstrɛtʃər/ | 担架 | Two paramedics carried him on a stretcher. | 两名急救人员用担架把他抬走了。 | 4
+dose | /doʊs/ | 剂量; 一次的量 | Take one dose of this medicine every eight hours. | 每八小时服用一剂这种药。 | 3
+prescription | /prɪˈskrɪpʃən/ | 处方 | You need a prescription for these tablets. | 购买这些药片需要处方。 | 4
+prescribe | /prɪˈskraɪb/ | 开处方; 规定 | The doctor prescribed rest and plenty of fluids. | 医生建议多休息、多喝水。 | 4
+pharmacist | /ˈfɑrməsɪst/ | 药剂师 | The pharmacist explained how to take the pills. | 药剂师解释了如何服用这些药丸。 | 3
+drug | /drʌɡ/ | 药物; 毒品 | This drug is used to lower cholesterol. | 这种药用于降低胆固醇。 | 3
+side effect | /ˈsaɪd ɪˌfɛkt/ | 副作用 | Dizziness is a common side effect of this drug. | 头晕是这种药的常见副作用。 | 4
+overdose | /ˈoʊvərdoʊs/ | 用药过量 | Taking too many pills can cause an overdose. | 吃太多药丸会导致用药过量。 | 5
+supplement | /ˈsʌpləmənt/ | 营养补充剂; 补充 | Some people take a vitamin supplement every day. | 有些人每天服用维生素补充剂。 | 4
+vitamin | /ˈvaɪtəmɪn/ | 维生素 | Oranges are rich in vitamin C. | 橙子富含维生素C。 | 3
+herbal | /ˈɜrbəl/ | 草药的 | She drinks herbal tea before bed. | 她睡前喝草药茶。 | 4
+mental health | /ˈmɛntl hɛlθ/ | 心理健康 | Exercise can improve mental health. | 运动可以改善心理健康。 | 4
+wellness | /ˈwɛlnəs/ | 健康; 养生 | The hotel offers a spa and wellness programme. | 这家酒店提供水疗和养生项目。 | 4
+diet | /ˈdaɪət/ | 饮食; 节食 | A healthy diet includes fruit and vegetables. | 健康饮食包括水果和蔬菜。 | 3
+# B1–C1 hospital and care
+ward | /wɔrd/ | 病房; 病区 | She was moved to a ward on the third floor. | 她被转到了三楼的病房。 | 4
+emergency | /ɪˈmɜrdʒənsi/ | 紧急情况; 急诊 | Call the emergency number if you feel very ill. | 如果你感觉非常不舒服，请拨打急救电话。 | 3
+surgery | /ˈsɜrdʒəri/ | 手术; 外科 | He had surgery on his knee last month. | 他上个月做了膝盖手术。 | 3
+surgeon | /ˈsɜrdʒən/ | 外科医生 | The surgeon operated for four hours. | 外科医生做了四个小时的手术。 | 4
+operation | /ˌɑpəˈreɪʃən/ | 手术; 运作 | The operation went smoothly and quickly. | 手术进行得又顺利又快。 | 3
+anaesthetic | /ˌænəsˈθɛtɪk/ | 麻醉剂 | The anaesthetic made her feel nothing during the operation. | 麻醉剂让她在手术中没有任何感觉。 | 5
+X-ray | /ˈɛksˌreɪ/ | X光片; X光检查 | The X-ray showed that the bone was not broken. | X光片显示骨头没有断。 | 3
+blood test | /ˈblʌd ˌtɛst/ | 血液检查 | The blood test showed low iron levels. | 血液检查显示铁含量偏低。 | 3
+check-up | /ˈtʃɛkˌʌp/ | 体检; 检查 | Everyone should have a yearly check-up. | 每个人都应该每年做一次体检。 | 3
+referral | /rɪˈfɜrəl/ | 转诊; 转介 | She needs a referral to see a specialist. | 她需要转诊才能看专科医生。 | 5
+resuscitate | /rɪˈsʌsɪteɪt/ | 使复苏; 急救 | The nurses tried to resuscitate the patient. | 护士们试图使病人复苏。 | 6
+paramedic | /ˌpærəˈmɛdɪk/ | 急救人员 | The paramedic checked his pulse on the way. | 急救人员在路上检查了他的脉搏。 | 5
+hypertension | /ˌhaɪpərˈtɛnʃən/ | 高血压 | Hypertension is a serious risk for the heart. | 高血压对心脏是一种严重的风险。 | 6
+# more body parts and internal organs
+forehead | /ˈfɔrhɛd/ | 额头 | He wiped the sweat from his forehead. | 他擦去了额头上的汗。 | 2
+eyebrow | /ˈaɪˌbraʊ/ | 眉毛 | She raised one eyebrow in surprise. | 她惊讶地挑了挑一边的眉毛。 | 2
+eyelash | /ˈaɪˌlæʃ/ | 睫毛 | Dust got stuck in my eyelash. | 灰尘卡在了我的睫毛上。 | 3
+eyelid | /ˈaɪˌlɪd/ | 眼睑 | His eyelid twitched when he was tired. | 他累的时候眼皮会跳。 | 4
+jaw | /dʒɔ/ | 下颌 | He broke his jaw in the accident. | 他在事故中下颌骨折了。 | 3
+knuckle | /ˈnʌkl/ | 指关节 | He cracked his knuckles while thinking. | 他一边思考一边捏响了指关节。 | 4
+armpit | /ˈɑrmpɪt/ | 腋窝 | Deodorant is applied to the armpit. | 体香剂要涂在腋窝上。 | 3
+navel | /ˈneɪvl/ | 肚脐 | The baby's navel healed after a few weeks. | 宝宝的肚脐过了几周就愈合了。 | 4
+thigh | /θaɪ/ | 大腿 | She has a bruise on her thigh from the fall. | 她摔倒后大腿上有一块瘀伤。 | 2
+shin | /ʃɪn/ | 胫骨; 小腿前部 | I bruised my shin on the coffee table. | 我的小腿胫骨撞到了茶几上。 | 3
+pelvis | /ˈpɛlvɪs/ | 骨盆 | The pelvis supports the spine and legs. | 骨盆支撑着脊柱和双腿。 | 5
+collarbone | /ˈkɑlərˌboʊn/ | 锁骨 | He broke his collarbone when he fell off the horse. | 他从马上摔下来时锁骨断了。 | 4
+kneecap | /ˈnikæp/ | 髌骨; 膝盖骨 | She fell on her kneecap and it swelled. | 她跪倒在地，膝盖骨肿了起来。 | 5
+spinal cord | /ˈspaɪnl kɔrd/ | 脊髓 | The spinal cord carries messages to the brain. | 脊髓把信息传递到大脑。 | 5
+windpipe | /ˈwɪndˌpaɪp/ | 气管 | Food went down the wrong way into my windpipe. | 食物呛进了我的气管。 | 5
+intestine | /ɪnˈtɛstɪn/ | 肠; 肠道 | The small intestine absorbs most nutrients. | 小肠吸收了大部分营养。 | 4
+bowel | /ˈbaʊəl/ | 肠; 肠道 | Bowel movements should be regular and easy. | 排便应该规律而顺畅。 | 4
+bladder | /ˈblædər/ | 膀胱 | Drink water to keep your bladder healthy. | 多喝水有助于保持膀胱健康。 | 4
+pancreas | /ˈpæŋkriəs/ | 胰腺 | The pancreas produces insulin. | 胰腺分泌胰岛素。 | 5
+spleen | /splin/ | 脾脏 | The spleen helps filter the blood. | 脾脏有助于过滤血液。 | 5
+gallbladder | /ˈɡɔlˌblædər/ | 胆囊 | Gallstones can form in the gallbladder. | 胆囊里可能会形成胆结石。 | 5
+thyroid | /ˈθaɪrɔɪd/ | 甲状腺 | Thyroid problems can affect your weight. | 甲状腺问题会影响体重。 | 5
+larynx | /ˈlɛrɪŋks/ | 喉头 | The larynx contains the vocal cords. | 喉头里有声带。 | 6
+tonsil | /ˈtɑnsl/ | 扁桃体 | Swollen tonsils made it hard to swallow. | 扁桃体肿大，让吞咽变得困难。 | 4
+marrow | /ˈmæroʊ/ | 骨髓 | Bone marrow makes new blood cells. | 骨髓能生成新的血细胞。 | 5
+cartilage | /ˈkɑrtəlɪdʒ/ | 软骨 | The cartilage in his knee was damaged. | 他膝盖的软骨受损了。 | 5
+ligament | /ˈlɪɡəmənt/ | 韧带 | He tore a ligament in his ankle. | 他的脚踝韧带撕裂了。 | 5
+tendon | /ˈtɛndən/ | 肌腱 | Achilles tendon injuries are painful. | 跟腱损伤非常疼痛。 | 5
+eyesight | /ˈaɪˌsaɪt/ | 视力 | Reading in dim light can harm your eyesight. | 在昏暗的光线下阅读会损伤视力。 | 3
+hearing | /ˈhɪrɪŋ/ | 听力 | Loud music can damage your hearing. | 大声的音乐会损伤你的听力。 | 3
+vision | /ˈvɪʒən/ | 视力; 视觉 | Blurred vision can be a sign of tiredness. | 视线模糊可能是疲劳的信号。 | 4
+sore | /sɔr/ | 疼痛的; 酸痛的 | My muscles are sore after the long walk. | 长途步行后，我的肌肉酸痛。 | 3
+stiff | /stɪf/ | 僵硬的 | My neck feels stiff after the long flight. | 长途飞行后，我的脖子觉得僵硬。 | 3
+stiffness | /ˈstɪfnəs/ | 僵硬 | Morning stiffness is common in older people. | 老年人早上身体僵硬很常见。 | 4
+flushed | /flʌʃt/ | 脸红的; 发热的 | His face was flushed after the workout. | 锻炼后他的脸涨得通红。 | 3
+feverish | /ˈfivərɪʃ/ | 发烧的; 发热的 | The child felt feverish and wanted to sleep. | 孩子觉得发烧，想睡觉。 | 4
+nauseous | /ˈnɔʃəs/ | 恶心的 | I feel nauseous every time I smell fish. | 每次闻到鱼味，我都觉得恶心。 | 4
+queasy | /ˈkwizi/ | 恶心的; 不舒服的 | The rough sea made me queasy. | 波涛汹涌的海面让我感到恶心。 | 5
+bloated | /ˈbloʊtɪd/ | 腹胀的 | I feel bloated after eating beans. | 吃了豆子之后，我觉得肚子胀。 | 4
+hangover | /ˈhæŋˌoʊvər/ | 宿醉 | He had a terrible hangover the next morning. | 第二天早上他宿醉得很厉害。 | 3
+unconscious | /ʌnˈkɑnʃəs/ | 失去知觉的; 无意识的 | He was unconscious after the fall. | 他摔倒后失去了知觉。 | 4
+coma | /ˈkoʊmə/ | 昏迷 | He stayed in a coma for several days. | 他昏迷了好几天。 | 5
+seizure | /ˈsizər/ | 癫痫发作; 抽搐 | The seizure lasted only a few minutes. | 这次癫痫发作只持续了几分钟。 | 5
+epilepsy | /ˈɛpɪˌlɛpsi/ | 癫痫 | Epilepsy can often be controlled with medicine. | 癫痫通常可以通过药物来控制。 | 5
+pneumonia | /nuˈmoʊnjə/ | 肺炎 | Pneumonia can be serious for older people. | 肺炎对老年人可能很严重。 | 4
+bronchitis | /brɑŋˈkaɪtɪs/ | 支气管炎 | Bronchitis often causes a persistent cough. | 支气管炎常常引起持续的咳嗽。 | 5
+hepatitis | /ˌhɛpəˈtaɪtɪs/ | 肝炎 | Hepatitis can affect the liver for years. | 肝炎可能多年影响肝脏。 | 5
+measles | /ˈmizlz/ | 麻疹 | Measles spreads very easily in schools. | 麻疹在学校里很容易传播。 | 4
+chickenpox | /ˈtʃɪkɪnˌpɑks/ | 水痘 | Most children catch chickenpox at least once. | 大多数孩子至少会得一次水痘。 | 4
+tuberculosis | /tuˌbɜrkjəˈloʊsɪs/ | 结核病 | Tuberculosis mainly affects the lungs. | 结核病主要影响肺部。 | 6
+dementia | /dɪˈmɛnʃə/ | 痴呆症 | Dementia makes it hard to remember recent events. | 痴呆症让人很难记住最近发生的事。 | 5
+epidemiology | /ɪˌpɪdəˈmɑlədʒi/ | 流行病学 | Epidemiology studies how diseases spread. | 流行病学研究疾病如何传播。 | 6
+anaemia | /əˈnimiə/ | 贫血 | Anaemia makes you tired and pale. | 贫血会让你疲倦、脸色苍白。 | 5
+eczema | /ˈɛksəmə/ | 湿疹 | Eczema can make the skin dry and itchy. | 湿疹会让皮肤干燥、发痒。 | 5
+hives | /haɪvz/ | 荨麻疹; 风团 | Hives appeared all over his arms after eating shellfish. | 吃了贝类之后，他的手臂上出现了风团。 | 5
+wart | /wɔrt/ | 疣 | The doctor removed a wart from her finger. | 医生把她手指上的疣切除了。 | 4
+dandruff | /ˈdændrʌf/ | 头皮屑 | Use a shampoo for dandruff twice a week. | 每周用两次去头皮屑洗发水。 | 4
+acne | /ˈækni/ | 痤疮; 青春痘 | Teenagers often suffer from acne. | 青少年常常长青春痘。 | 3
+pimple | /ˈpɪmpl/ | 小疙瘩; 青春痘 | Do not squeeze a pimple on your face. | 不要挤你脸上的痘痘。 | 3
+lump | /lʌmp/ | 肿块; 硬块 | She found a small lump in her breast and went to the clinic. | 她在胸部发现一个小肿块，便去了诊所。 | 3
+tumour | /ˈtumər/ | 肿瘤 | The tumour was removed in a successful operation. | 肿瘤已在一次成功的手术中切除。 | 5
+cyst | /sɪst/ | 囊肿 | A small cyst formed under the skin. | 皮肤下面形成了一个小囊肿。 | 5
+heatstroke | /ˈhitˌstroʊk/ | 中暑 | Drink water to avoid heatstroke on hot days. | 天热时多喝水，避免中暑。 | 4
+# more conditions and procedures
+ulcer | /ˈʌlsər/ | 溃疡 | Stress and spicy food can trigger a stomach ulcer. | 压力和辛辣食物可能引发胃溃疡。 | 5
+gastritis | /ɡæsˈtraɪtɪs/ | 胃炎 | Gastritis can cause pain and nausea after meals. | 胃炎会导致饭后疼痛和恶心。 | 6
+appendicitis | /əˌpɛndɪˈsaɪtɪs/ | 阑尾炎 | Appendicitis often needs an operation quickly. | 阑尾炎通常需要尽快手术。 | 5
+hernia | /ˈhɜrniə/ | 疝气 | He lifted something heavy and got a hernia. | 他搬重物时得了疝气。 | 5
+osteoporosis | /ˌɑstioʊpəˈroʊsɪs/ | 骨质疏松 | Older women are at higher risk of osteoporosis. | 年长女性患骨质疏松的风险更高。 | 6
+allergen | /ˈælərdʒən/ | 过敏原 | Pollen is a common allergen in spring. | 花粉是春季常见的过敏原。 | 5
+antihistamine | /ˌæntiˈhɪstəmin/ | 抗组胺药 | An antihistamine can relieve itchy eyes. | 抗组胺药可以缓解眼睛发痒。 | 6
+inhaler | /ɪnˈheɪlər/ | 吸入器 | He always carries his inhaler in his bag. | 他总是把吸入器放在包里。 | 4
+gauze | /ɡɔz/ | 纱布 | Cover the wound with sterile gauze. | 用无菌纱布盖住伤口。 | 4
+cotton wool | /ˈkɑtn wʊl/ | 脱脂棉 | Dab the cut gently with cotton wool. | 用脱脂棉轻轻擦拭伤口。 | 2
+tourniquet | /ˈtʊrnɪkeɪ/ | 止血带 | Apply a tourniquet above the wound to stop the bleeding. | 在伤口上方扎上止血带来止血。 | 6
+drip | /drɪp/ | 点滴; 滴注 | The nurse hung a drip beside the bed. | 护士在床边挂上了点滴。 | 4
+injection | /ɪnˈdʒɛkʃən/ | 注射; 针剂 | The injection hurt for only a second. | 这一针只疼了一下。 | 3
+needle | /ˈnidl/ | 针头; 针 | The needle pricked her skin for a moment. | 针头刺入她的皮肤，只痛了一下。 | 2
+transfusion | /trænsˈfjuʒən/ | 输血 | He needed a blood transfusion after the accident. | 事故后他需要输血。 | 5
+biopsy | /ˈbaɪɑpsi/ | 活检 | A small biopsy was taken from the lump. | 从肿块上取了一小块样本做活检。 | 6
+ultrasound | /ˈʌltrəˌsaʊnd/ | 超声波检查 | The ultrasound showed the baby was healthy. | 超声波检查显示宝宝很健康。 | 4
+chemotherapy | /ˌkiˌmoʊˈθɛrəpi/ | 化疗 | Chemotherapy can cause hair loss and fatigue. | 化疗可能导致脱发和疲劳。 | 5
+radiotherapy | /ˌreɪdioʊˈθɛrəpi/ | 放疗 | Radiotherapy targets the cancer cells in the area. | 放疗针对该区域的癌细胞。 | 5
+midwife | /ˈmɪdwaɪf/ | 助产士 | The midwife helped the mother give birth at home. | 助产士帮助母亲在家中分娩。 | 4
+pregnant | /ˈprɛɡnənt/ | 怀孕的 | She is four months pregnant with twins. | 她怀孕四个月，怀的是双胞胎。 | 2
+pregnancy | /ˈprɛɡnənsi/ | 怀孕; 孕期 | Good nutrition is important during pregnancy. | 孕期的营养非常重要。 | 3
+cavity | /ˈkævəti/ | 蛀牙; 空腔 | Brushing well helps prevent cavities. | 好好刷牙有助于预防蛀牙。 | 4
+filling | /ˈfɪlɪŋ/ | 补牙; 填充物 | The dentist put a filling in my back tooth. | 牙医在我的后牙上补了一个牙。 | 3

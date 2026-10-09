@@ -1,0 +1,176 @@
+@topic | Communication & Media | 📰
+communicate | /kəˈmjuːnɪkeɪt/ | 交流; 沟通 | It is hard to communicate in a noisy room. | 在嘈杂的房间里很难交流。 | 3
+communication | /kəˌmjuːnɪˈkeɪʃn/ | 沟通; 交流 | Good communication saves time. | 良好的沟通能节省时间。 | 3
+message | /ˈmesɪdʒ/ | 消息; 信息 | I left you a message. | 我给你留了言。 | 1
+call | /kɔːl/ | 打电话 | I will call you tonight. | 我今晚给你打电话。 | 1
+telephone | /ˈtelɪfəʊn/ | 电话 | The telephone rang twice. | 电话响了两声。 | 1
+number | /ˈnʌmbə/ | 号码 | What is your phone number? | 你的电话号码是多少？ | 1
+letter | /ˈletə/ | 信 | I wrote a letter to my aunt. | 我给姑姑写了一封信。 | 1
+postcard | /ˈpəʊstkɑːd/ | 明信片 | She sent me a postcard from Rome. | 她从罗马给我寄了一张明信片。 | 2
+envelope | /ˈenvələʊp/ | 信封 | Put the card in an envelope. | 把卡片放进信封里。 | 3
+stamp | /stæmp/ | 邮票 | I need a stamp for this letter. | 我这封信需要一张邮票。 | 2
+post office | /ˈpəʊst ɒfɪs/ | 邮局 | The post office is next to the bank. | 邮局在银行旁边。 | 1
+parcel | /ˈpɑːsl/ | 包裹 | A parcel arrived this morning. | 今天早上到了一个包裹。 | 3
+address | /əˈdres/ | 地址; 发表演说 | Write your address on the envelope. | 在信封上写下你的地址。 | 2
+speak | /spiːk/ | 说话 | Can you speak more slowly? | 你能说慢一点吗？ | 1
+talk | /tɔːk/ | 交谈 | We talk on the phone every day. | 我们每天通电话。 | 1
+tell | /tel/ | 告诉 | Tell me what happened. | 告诉我发生了什么。 | 1
+say | /seɪ/ | 说 | What did you say? | 你说了什么？ | 1
+ask | /ɑːsk/ | 问; 请求 | I want to ask a question. | 我想问一个问题。 | 1
+reply | /rɪˈplaɪ/ | 回复 | Please reply to my email soon. | 请尽快回复我的邮件。 | 2
+answer | /ˈɑːnsə/ | 回答 | I did not answer the phone. | 我没有接电话。 | 1
+explain | /ɪkˈspleɪn/ | 解释 | Can you explain this word to me? | 你能给我解释一下这个词吗？ | 2
+describe | /dɪˈskraɪb/ | 描述 | Describe the man to the police. | 向警方描述一下这个男人。 | 3
+discuss | /dɪˈskʌs/ | 讨论 | We discuss the news after dinner. | 我们晚饭后讨论新闻。 | 3
+conversation | /ˌkɒnvəˈseɪʃn/ | 对话; 交谈 | We had a long conversation. | 我们进行了长时间的交谈。 | 3
+discussion | /dɪˈskʌʃn/ | 讨论 | The discussion lasted an hour. | 讨论持续了一个小时。 | 3
+argue | /ˈɑːɡjuː/ | 争论; 争吵 | They argue about money all the time. | 他们总是为钱争吵。 | 3
+argument | /ˈɑːɡjumənt/ | 争论; 论点 | He made a strong argument. | 他提出了一个有力的论点。 | 4
+opinion | /əˈpɪnjən/ | 意见; 看法 | In my opinion, it is a good idea. | 依我看，这是个好主意。 | 3
+express | /ɪkˈspres/ | 表达 | It is hard to express my feelings. | 我很难表达自己的感受。 | 4
+mention | /ˈmenʃn/ | 提到 | She did not mention the price. | 她没有提到价格。 | 4
+announce | /əˈnaʊns/ | 宣布 | The airline will announce the delay soon. | 航空公司很快会宣布延误。 | 4
+announcement | /əˈnaʊnsmənt/ | 公告; 通知 | Listen to the announcement carefully. | 请仔细听广播通知。 | 4
+inform | /ɪnˈfɔːm/ | 通知 | Please inform us of any changes. | 如有变动请通知我们。 | 4
+information | /ˌɪnfəˈmeɪʃn/ | 信息 | I need more information. | 我需要更多信息。 | 2
+contact | /ˈkɒntækt/ | 联系 | Contact me if you have questions. | 如有问题请联系我。 | 3
+interrupt | /ˌɪntəˈrʌpt/ | 打断 | Please do not interrupt me. | 请不要打断我。 | 4
+misunderstand | /ˌmɪsʌndəˈstænd/ | 误解 | I do not want you to misunderstand me. | 我不想让你误解我。 | 5
+misunderstanding | /ˌmɪsʌndəˈstændɪŋ/ | 误会 | It was just a misunderstanding. | 这只是个误会。 | 5
+gossip | /ˈɡɒsɪp/ | 闲话; 八卦 | Don't listen to office gossip. | 别听办公室里的闲话。 | 5
+rumour | /ˈruːmə/ | 谣言; 传闻 | There is a rumour about a new boss. | 有传闻说会来一位新老板。 | 5
+whisper | /ˈwɪspə/ | 低声说; 耳语 | She had to whisper in the library. | 她在图书馆里不得不小声说话。 | 4
+shout | /ʃaʊt/ | 大喊 | Don't shout at the children. | 别对孩子们大喊大叫。 | 2
+mumble | /ˈmʌmbl/ | 含糊地说 | He tends to mumble when he is shy. | 他害羞时往往含糊其辞。 | 6
+body language | /ˈbɒdi ˈlæŋɡwɪdʒ/ | 肢体语言 | Body language says a lot about you. | 肢体语言能说明你很多事。 | 5
+eye contact | /aɪ ˈkɒntækt/ | 眼神交流 | Make eye contact when you speak. | 说话时要有眼神交流。 | 5
+gesture | /ˈdʒestʃə/ | 手势 | He made a gesture to stop the car. | 他做了个手势让车停下。 | 5
+tone | /təʊn/ | 语气 | I did not like his tone. | 我不喜欢他的语气。 | 4
+accent | /ˈæksent/ | 口音 | She has a British accent. | 她有英国口音。 | 3
+language | /ˈlæŋɡwɪdʒ/ | 语言 | How many languages do you speak? | 你会说几种语言？ | 1
+sign language | /saɪn ˈlæŋɡwɪdʒ/ | 手语 | She learned sign language for her brother. | 她为弟弟学了手语。 | 4
+interpreter | /ɪnˈtɜːprɪtə/ | 口译员 | An interpreter helped at the meeting. | 一位口译员在会议上提供了帮助。 | 5
+translator | /trænzˈleɪtə/ | 翻译 (笔译) | The translator finished the novel. | 译者完成了这部小说。 | 4
+slang | /slæŋ/ | 俚语 | Teenagers use a lot of slang. | 青少年用很多俚语。 | 5
+idiom | /ˈɪdiəm/ | 习语 | "Break a leg" is an idiom. | “Break a leg”是一个习语。 | 5
+media | /ˈmiːdiə/ | 媒体 | The media covered the event widely. | 媒体广泛报道了这一事件。 | 4
+mass media | /mæs ˈmiːdiə/ | 大众传媒 | Mass media shapes public opinion. | 大众传媒塑造公众舆论。 | 6
+news | /njuːz/ | 新闻 | I watch the news at seven. | 我七点看新闻。 | 1
+newspaper | /ˈnjuːzpeɪpə/ | 报纸 | My grandfather reads a newspaper daily. | 我爷爷每天读报纸。 | 1
+magazine | /ˌmæɡəˈziːn/ | 杂志 | She buys a fashion magazine every month. | 她每个月买一本时尚杂志。 | 2
+journal | /ˈdʒɜːnl/ | 期刊; 日志 | The article appeared in a science journal. | 这篇文章发表在一本科学期刊上。 | 5
+article | /ˈɑːtɪkl/ | 文章 | I read an article about space. | 我读了一篇关于太空的文章。 | 3
+headline | /ˈhedlaɪn/ | 标题; 头条 | The headline caught my eye. | 这个标题吸引了我的目光。 | 4
+front page | /frʌnt peɪdʒ/ | 头版 | The story was on the front page. | 这条报道登在头版。 | 4
+column | /ˈkɒləm/ | 专栏 | He writes a weekly column. | 他写每周一次的专栏。 | 5
+editor | /ˈedɪtə/ | 编辑 | The editor changed the title. | 编辑改了标题。 | 4
+edit | /ˈedɪt/ | 编辑; 剪辑 | I need to edit this article. | 我需要编辑这篇文章。 | 4
+journalist | /ˈdʒɜːnəlɪst/ | 记者 | The journalist interviewed the mayor. | 记者采访了市长。 | 3
+reporter | /rɪˈpɔːtə/ | 记者 | A reporter stood outside the court. | 一名记者站在法庭外。 | 3
+correspondent | /ˌkɒrəˈspɒndənt/ | 通讯员; 特派记者 | She is a war correspondent. | 她是一名战地记者。 | 6
+presenter | /prɪˈzentə/ | 主持人 | The presenter welcomed the guests. | 主持人欢迎来宾。 | 4
+anchor | /ˈæŋkə/ | 新闻主播 | The anchor read the evening news. | 主播播报了晚间新闻。 | 5
+broadcast | /ˈbrɔːdkɑːst/ | 播送; 广播 | The match will broadcast live tonight. | 这场比赛今晚将现场直播。 | 5
+live | /laɪv/ | 现场的; 直播的 | We watched the concert live. | 我们观看了音乐会的直播。 | 3
+television | /ˈtelɪvɪʒn/ | 电视 | We have a large television. | 我们有一台大电视。 | 1
+channel | /ˈtʃænl/ | 频道 | Change the channel, please. | 请换个频道。 | 2
+programme | /ˈprəʊɡræm/ | 节目 | My favourite programme is on tonight. | 我最喜欢的节目今晚播出。 | 2
+documentary | /ˌdɒkjuˈmentri/ | 纪录片 | We watched a documentary about whales. | 我们看了一部关于鲸的纪录片。 | 4
+series | /ˈsɪəriːz/ | 电视剧; 系列 | I am watching a new series. | 我在追一部新剧。 | 3
+episode | /ˈepɪsəʊd/ | 集 | The last episode was exciting. | 最后一集很精彩。 | 4
+soap opera | /ˈsəʊp ɒprə/ | 肥皂剧 | My mother loves this soap opera. | 我妈妈喜欢这部肥皂剧。 | 4
+reality show | /riˈæləti ʃəʊ/ | 真人秀 | A reality show made him famous. | 一档真人秀让他出了名。 | 4
+talk show | /ˈtɔːk ʃəʊ/ | 脱口秀 | The talk show starts at ten. | 脱口秀十点开始。 | 4
+advert | /ˈædvɜːt/ | 广告 (英口语) | There are too many adverts on TV. | 电视上的广告太多了。 | 3
+commercial | /kəˈmɜːʃl/ | 商业广告 | The commercial is very funny. | 这个商业广告非常有趣。 | 5
+radio | /ˈreɪdiəʊ/ | 广播; 收音机 | He listens to the radio in the car. | 他在车里听广播。 | 1
+audience | /ˈɔːdiəns/ | 观众; 听众 | The audience clapped loudly. | 观众热烈鼓掌。 | 3
+viewer | /ˈvjuːə/ | 观众 | The show has millions of viewers. | 这个节目有数百万观众。 | 4
+reader | /ˈriːdə/ | 读者 | Readers wrote many letters. | 读者写了很多信。 | 2
+listener | /ˈlɪsnə/ | 听众 | A listener called the radio show. | 一位听众给广播节目打了电话。 | 3
+subscriber | /səbˈskraɪbə/ | 订阅者 | The channel has a million subscribers. | 这个频道有一百万订阅者。 | 5
+circulation | /ˌsɜːkjəˈleɪʃn/ | 发行量 | The paper has a circulation of 50,000. | 这份报纸发行量为五万份。 | 6
+press | /pres/ | 新闻界; 出版社 | The press was waiting outside. | 新闻界的人在外面等着。 | 4
+press conference | /pres ˈkɒnfərəns/ | 新闻发布会 | The minister held a press conference. | 部长召开了新闻发布会。 | 5
+source | /sɔːs/ | 消息来源 | The reporter protected her source. | 记者保护了她的消息来源。 | 5
+report | /rɪˈpɔːt/ | 报道 | News reports said the roads were closed. | 新闻报道说道路已封闭。 | 3
+coverage | /ˈkʌvərɪdʒ/ | 报道; 覆盖 | The coverage of the election was huge. | 对选举的报道很多。 | 5
+breaking news | /ˌbreɪkɪŋ ˈnjuːz/ | 突发新闻 | Breaking news interrupted the show. | 突发新闻打断了节目。 | 4
+scoop | /skuːp/ | 独家新闻 | The paper got a big scoop. | 这家报纸拿到了一条大独家新闻。 | 6
+tabloid | /ˈtæblɔɪd/ | 小报 | Tabloids print a lot of gossip. | 小报刊登很多八卦。 | 6
+broadsheet | /ˈbrɔːdʃiːt/ | 大报 | Broadsheets cover politics in depth. | 大报深入报道政治。 | 6
+paparazzi | /ˌpæpəˈrætsi/ | 狗仔队 | The paparazzi followed the singer. | 狗仔队跟着这位歌手。 | 6
+celebrity | /səˈlebrəti/ | 名人 | She is a famous celebrity. | 她是一位著名的名人。 | 4
+fame | /feɪm/ | 名声 | Fame came to him very quickly. | 名声很快降临到了他身上。 | 4
+publish | /ˈpʌblɪʃ/ | 出版; 发表 | The newspaper will publish the story. | 报纸将发表这篇报道。 | 4
+publication | /ˌpʌblɪˈkeɪʃn/ | 出版物; 发表 | The publication of the book was delayed. | 这本书的出版被推迟了。 | 5
+publisher | /ˈpʌblɪʃə/ | 出版商 | The publisher printed ten thousand copies. | 出版商印了一万册。 | 5
+issue | /ˈɪʃuː/ | 期; 议题 | The latest issue came out today. | 最新一期今天出版了。 | 4
+edition | /ɪˈdɪʃn/ | 版本; 期 | The morning edition is sold out. | 晨间版已售完。 | 5
+censorship | /ˈsensəʃɪp/ | 审查制度 | Censorship limits press freedom. | 审查制度限制新闻自由。 | 6
+censor | /ˈsensə/ | 审查 | Governments sometimes censor the news. | 政府有时会审查新闻。 | 6
+freedom of speech | /ˌfriːdəm əv ˈspiːtʃ/ | 言论自由 | Freedom of speech is a basic right. | 言论自由是一项基本权利。 | 5
+free press | /friː pres/ | 新闻自由 | A free press protects democracy. | 新闻自由保护民主。 | 6
+propaganda | /ˌprɒpəˈɡændə/ | 宣传 (贬义) | The film was used as propaganda. | 这部电影被用作宣传工具。 | 6
+bias | /ˈbaɪəs/ | 偏见; 偏向 | The article shows a clear bias. | 这篇文章显示出明显的偏见。 | 5
+biased | /ˈbaɪəst/ | 有偏见的 | The report seems biased. | 这份报道似乎有偏见。 | 5
+objective | /əbˈdʒektɪv/ | 客观的 | A good journalist stays objective. | 好记者保持客观。 | 5
+fake news | /feɪk njuːz/ | 假新闻 | Fake news spreads quickly online. | 假新闻在网上传播很快。 | 4
+misinformation | /ˌmɪsɪnfəˈmeɪʃn/ | 错误信息 | Misinformation can be dangerous. | 错误信息可能很危险。 | 6
+disinformation | /dɪsˌɪnfəˈmeɪʃn/ | 虚假信息 (故意) | Disinformation was used during the campaign. | 竞选期间使用了虚假信息。 | 6
+rumor | /ˈruːmə/ | 谣言 (美) | The rumor turned out to be false. | 那个谣言结果是假的。 | 5
+reliable | /rɪˈlaɪəbl/ | 可靠的 | Check that the source is reliable. | 请确认消息来源可靠。 | 4
+credible | /ˈkredəbl/ | 可信的 | Is this website credible? | 这个网站可信吗？ | 6
+fact | /fækt/ | 事实 | A fact can be checked. | 事实是可以核实的。 | 2
+fact-check | /ˈfækt tʃek/ | 事实核查 | Journalists fact-check every claim. | 记者核查每一项声明。 | 6
+claim | /kleɪm/ | 声称; 主张 | The article makes a bold claim. | 这篇文章提出了一个大胆的说法。 | 4
+exaggerate | /ɪɡˈzædʒəreɪt/ | 夸大 | The papers exaggerate the problem. | 报纸夸大了这个问题。 | 5
+sensational | /senˈseɪʃənl/ | 耸人听闻的 | The paper loves sensational stories. | 这家报纸喜欢耸人听闻的报道。 | 6
+clickbait | /ˈklɪkbeɪt/ | 标题党 | That headline is pure clickbait. | 那个标题纯粹是标题党。 | 6
+trending | /ˈtrendɪŋ/ | 热门的 | The song is trending on social media. | 这首歌在社交媒体上很火。 | 5
+public opinion | /ˌpʌblɪk əˈpɪnjən/ | 舆论 | Public opinion changed after the report. | 报道之后舆论发生了变化。 | 5
+poll | /pəʊl/ | 民意调查 | A new poll shows strong support. | 一项新的民意调查显示支持率很高。 | 5
+survey | /ˈsɜːveɪ/ | 调查 | The survey asked a thousand people. | 这项调查询问了一千人。 | 4
+target audience | /ˈtɑːɡɪt ˈɔːdiəns/ | 目标受众 | Teenagers are our target audience. | 青少年是我们的目标受众。 | 5
+advertising | /ˈædvətaɪzɪŋ/ | 广告 | Advertising pays for free newspapers. | 广告为免费报纸买单。 | 4
+campaign | /kæmˈpeɪn/ | 宣传活动 | The campaign encourages people to recycle. | 这次宣传活动鼓励人们回收利用。 | 5
+public relations | /ˌpʌblɪk rɪˈleɪʃnz/ | 公共关系 | She works in public relations. | 她从事公共关系工作。 | 6
+spokesperson | /ˈspəʊkspɜːsn/ | 发言人 | The spokesperson denied the report. | 发言人否认了这一报道。 | 6
+statement | /ˈsteɪtmənt/ | 声明 | The company issued a short statement. | 公司发表了一份简短的声明。 | 4
+press release | /pres rɪˈliːs/ | 新闻稿 | The firm sent out a press release. | 公司发出了一份新闻稿。 | 6
+quote | /kwəʊt/ | 引用 | The article will quote the minister. | 这篇文章会引用部长的话。 | 5
+caption | /ˈkæpʃn/ | 图片说明 | Read the caption under the photo. | 读一下照片下面的说明文字。 | 6
+subtitle | /ˈsʌbtaɪtl/ | 字幕 | I watch films with subtitles. | 我看电影时带字幕。 | 4
+screenplay | /ˈskriːnpleɪ/ | 剧本 | He wrote the screenplay himself. | 他自己写了剧本。 | 6
+film | /fɪlm/ | 电影 | We saw a good film last night. | 我们昨晚看了一部好电影。 | 1
+cinema | /ˈsɪnəmə/ | 电影院 | Let's go to the cinema on Friday. | 我们周五去看电影吧。 | 2
+actor | /ˈæktə/ | 演员 | The actor won a big prize. | 这位演员获得了大奖。 | 2
+director | /dəˈrektə/ | 导演 | The director chose a young cast. | 导演选了年轻的演员阵容。 | 3
+review | /rɪˈvjuː/ | 评论; 影评 | The film got a great review. | 这部电影得到了很好的评价。 | 4
+critic | /ˈkrɪtɪk/ | 评论家 | The critic praised the novel. | 评论家称赞了这部小说。 | 5
+bestseller | /ˌbestˈselə/ | 畅销书 | Her novel became a bestseller. | 她的小说成了畅销书。 | 5
+novel | /ˈnɒvl/ | 小说 | I am reading a long novel. | 我正在读一部长篇小说。 | 3
+author | /ˈɔːθə/ | 作者 | The author signed my copy. | 作者在我的书上签了名。 | 3
+literature | /ˈlɪtrətʃə/ | 文学 | Literature helps us understand life. | 文学帮助我们理解生活。 | 4
+poetry | /ˈpəʊətri/ | 诗歌 | She writes poetry in her free time. | 她在空闲时间写诗。 | 4
+copyright | /ˈkɒpiraɪt/ | 版权 | The photo is protected by copyright. | 这张照片受版权保护。 | 6
+social network | /ˌsəʊʃl ˈnetwɜːk/ | 社交网络 | A social network connects millions of people. | 社交网络连接着数百万人。 | 4
+online community | /ˌɒnlaɪn kəˈmjuːnəti/ | 网络社区 | She joined an online community of readers. | 她加入了一个读者的网络社区。 | 5
+forum | /ˈfɔːrəm/ | 论坛 | I asked my question in a forum. | 我在论坛上提了我的问题。 | 4
+newsletter | /ˈnjuːzletə/ | 通讯; 电子简报 | I get a weekly newsletter by email. | 我每周通过邮件收到一份电子简报。 | 5
+mailing list | /ˈmeɪlɪŋ lɪst/ | 邮件列表 | Join our mailing list for updates. | 加入我们的邮件列表获取最新消息。 | 5
+voicemail | /ˈvɔɪsmeɪl/ | 语音留言 | Leave a voicemail after the beep. | 请在提示音后留下语音留言。 | 4
+text message | /tekst ˈmesɪdʒ/ | 短信 | She sent me a text message. | 她给我发了一条短信。 | 2
+hang up | /hæŋ ʌp/ | 挂断电话 | He hung up before I could answer. | 他在我回答之前挂断了电话。 | 3
+call back | /kɔːl bæk/ | 回电话 | Please call me back later. | 请稍后给我回电话。 | 3
+get through | /ɡet θruː/ | 打通电话 | I could not get through to the office. | 我没法打通办公室的电话。 | 4
+hold on | /həʊld ɒn/ | 稍等 | Hold on a moment, please. | 请稍等一下。 | 2
+speak up | /spiːk ʌp/ | 大声说 | Could you speak up, please? | 您能大点声吗？ | 3
+keep in touch | /kiːp ɪn tʌtʃ/ | 保持联系 | Let's keep in touch after graduation. | 毕业后我们保持联系吧。 | 3
+get in touch | /ɡet ɪn tʌtʃ/ | 取得联系 | Get in touch if you need help. | 如果需要帮助，请联系我。 | 3
+break the news | /breɪk ðə njuːz/ | 透露坏消息 | I had to break the news to her gently. | 我不得不委婉地告诉她这个消息。 | 5
+spread the word | /spred ðə wɜːd/ | 传播消息 | Please spread the word about the party. | 请把聚会的消息传出去。 | 5
+word of mouth | /ˌwɜːd əv ˈmaʊθ/ | 口碑; 口头传播 | The shop grew by word of mouth. | 这家店靠口碑发展起来。 | 6
+small talk | /smɔːl tɔːk/ | 闲聊 | I am bad at small talk. | 我不擅长闲聊。 | 4
+public speaking | /ˌpʌblɪk ˈspiːkɪŋ/ | 公开演讲 | Public speaking makes me nervous. | 公开演讲让我紧张。 | 5
+speech | /spiːtʃ/ | 演讲 | The mayor gave a short speech. | 市长发表了简短的讲话。 | 3

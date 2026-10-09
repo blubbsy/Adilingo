@@ -1,0 +1,169 @@
+@topic | Law & Crime | ⚖️
+law | /lɔː/ | 法律 | It is against the law to steal. | 偷窃是违法的。 | 2
+legal | /ˈliːɡl/ | 合法的; 法律的 | Is it legal to park here? | 在这里停车合法吗？ | 3
+illegal | /ɪˈliːɡl/ | 非法的 | Drugs are illegal in most countries. | 毒品在大多数国家是非法的。 | 3
+rule | /ruːl/ | 规则 | You must follow the rules. | 你必须遵守规则。 | 1
+police | /pəˈliːs/ | 警察; 警方 | Call the police at once! | 马上报警！ | 1
+policeman | /pəˈliːsmən/ | 男警察 | A policeman stopped the car. | 一名警察拦下了这辆车。 | 1
+police station | /pəˈliːs ˈsteɪʃn/ | 警察局 | He went to the police station. | 他去了警察局。 | 2
+detective | /dɪˈtektɪv/ | 侦探 | The detective found a clue. | 侦探发现了一条线索。 | 3
+crime | /kraɪm/ | 犯罪 | Crime has fallen in this city. | 这座城市的犯罪率下降了。 | 3
+criminal | /ˈkrɪmɪnl/ | 罪犯; 犯罪的 | The criminal was caught at the airport. | 罪犯在机场被抓获。 | 3
+thief | /θiːf/ | 小偷 | A thief took her bag. | 一个小偷拿走了她的包。 | 2
+steal | /stiːl/ | 偷 | Someone tried to steal my bike. | 有人想偷我的自行车。 | 2
+rob | /rɒb/ | 抢劫 | Two men tried to rob the bank. | 两个男人试图抢劫银行。 | 3
+robbery | /ˈrɒbəri/ | 抢劫案 | The robbery happened at night. | 抢劫案发生在晚上。 | 4
+burglar | /ˈbɜːɡlə/ | 入室盗贼 | A burglar broke into the house. | 一个盗贼闯进了房子。 | 4
+burglary | /ˈbɜːɡləri/ | 入室盗窃 | There was a burglary on our street. | 我们街上发生了一起入室盗窃。 | 5
+shoplifting | /ˈʃɒplɪftɪŋ/ | 商店行窃 | He was caught shoplifting. | 他因商店行窃被抓。 | 5
+theft | /θeft/ | 盗窃 | The theft was reported to the police. | 这起盗窃案已报警。 | 4
+pickpocket | /ˈpɪkpɒkɪt/ | 扒手 | Beware of pickpockets in crowds. | 小心人群中的扒手。 | 5
+fraud | /frɔːd/ | 欺诈 | He was arrested for tax fraud. | 他因税务欺诈被捕。 | 5
+forgery | /ˈfɔːdʒəri/ | 伪造 | The painting turned out to be a forgery. | 这幅画结果是赝品。 | 6
+bribe | /braɪb/ | 贿赂 | The official refused to take a bribe. | 这位官员拒绝收受贿赂。 | 5
+corruption | /kəˈrʌpʃn/ | 腐败 | The government fights corruption. | 政府打击腐败。 | 5
+smuggle | /ˈsmʌɡl/ | 走私 | They tried to smuggle goods across the border. | 他们试图走私货物越过边境。 | 6
+smuggling | /ˈsmʌɡlɪŋ/ | 走私 | Smuggling is a serious crime. | 走私是严重的犯罪。 | 6
+drug dealing | /drʌɡ ˈdiːlɪŋ/ | 贩毒 | Drug dealing carries long sentences. | 贩毒会被判长期徒刑。 | 5
+vandalism | /ˈvændəlɪzəm/ | 故意破坏公物 | Vandalism costs the city a lot of money. | 故意破坏公物让城市损失大量金钱。 | 6
+graffiti | /ɡrəˈfiːti/ | 涂鸦 | Graffiti covered the wall. | 涂鸦覆盖了整面墙。 | 5
+arson | /ˈɑːsn/ | 纵火 | He was jailed for arson. | 他因纵火罪入狱。 | 6
+murder | /ˈmɜːdə/ | 谋杀 | The murder shocked the town. | 这起谋杀案震惊了小镇。 | 4
+murderer | /ˈmɜːdərə/ | 凶手 | The murderer was never found. | 凶手始终没有被找到。 | 4
+kill | /kɪl/ | 杀害 | The storm did kill three people. | 风暴造成三人死亡。 | 2
+manslaughter | /ˈmænslɔːtə/ | 过失杀人 | He was found guilty of manslaughter. | 他被判过失杀人罪。 | 6
+kidnap | /ˈkɪdnæp/ | 绑架 | Two men tried to kidnap the boy. | 两个男人企图绑架这个男孩。 | 5
+hostage | /ˈhɒstɪdʒ/ | 人质 | The hostages were freed safely. | 人质被安全解救。 | 5
+assault | /əˈsɔːlt/ | 袭击; 殴打 | He was charged with assault. | 他被控袭击罪。 | 5
+violence | /ˈvaɪələns/ | 暴力 | Violence is never the answer. | 暴力永远不是答案。 | 4
+violent | /ˈvaɪələnt/ | 暴力的 | The film is too violent for children. | 这部电影对孩子来说太暴力了。 | 3
+threat | /θret/ | 威胁 | He received a death threat. | 他收到了死亡威胁。 | 4
+threaten | /ˈθretn/ | 威胁 | Do not threaten me. | 别威胁我。 | 4
+blackmail | /ˈblækmeɪl/ | 勒索 | She was a victim of blackmail. | 她是勒索的受害者。 | 6
+terrorism | /ˈterərɪzəm/ | 恐怖主义 | The country fights terrorism. | 这个国家打击恐怖主义。 | 5
+terrorist | /ˈterərɪst/ | 恐怖分子 | The terrorist attack shocked everyone. | 恐怖袭击震惊了所有人。 | 5
+gang | /ɡæŋ/ | 帮派 | A gang of youths ran away. | 一帮年轻人跑掉了。 | 4
+mafia | /ˈmæfiə/ | 黑手党 | The film is about the mafia. | 这部电影讲述的是黑手党。 | 5
+organised crime | /ˈɔːɡənaɪzd kraɪm/ | 有组织犯罪 | Organised crime is hard to stop. | 有组织犯罪很难遏制。 | 6
+money laundering | /ˈmʌni ˈlɔːndərɪŋ/ | 洗钱 | Banks check for money laundering. | 银行检查洗钱行为。 | 6
+cybercrime | /ˈsaɪbəkraɪm/ | 网络犯罪 | Cybercrime is a growing threat. | 网络犯罪是日益增长的威胁。 | 6
+identity theft | /aɪˈdentəti θeft/ | 身份盗窃 | Identity theft can ruin your credit. | 身份盗窃会毁掉你的信用。 | 6
+suspect | /ˈsʌspekt/ | 嫌疑人 | The suspect was taken to the station. | 嫌疑人被带到了警察局。 | 4
+witness | /ˈwɪtnəs/ | 证人; 目击者 | A witness saw the whole thing. | 一名目击者看到了整个过程。 | 4
+victim | /ˈvɪktɪm/ | 受害者 | The victim was taken to hospital. | 受害者被送往医院。 | 4
+accomplice | /əˈkʌmplɪs/ | 同谋 | His accomplice drove the car. | 他的同谋开着车。 | 6
+evidence | /ˈevɪdəns/ | 证据 | The police found new evidence. | 警方发现了新证据。 | 4
+clue | /kluː/ | 线索 | The detective found an important clue. | 侦探发现了一条重要线索。 | 3
+fingerprint | /ˈfɪŋɡəprɪnt/ | 指纹 | They found his fingerprints on the glass. | 他们在玻璃杯上发现了他的指纹。 | 4
+DNA | /ˌdiː en ˈeɪ/ | 脱氧核糖核酸 | DNA proved he was there. | 脱氧核糖核酸证明他当时在场。 | 5
+alibi | /ˈæləbaɪ/ | 不在场证明 | He has a perfect alibi. | 他有完美的不在场证明。 | 6
+investigate | /ɪnˈvestɪɡeɪt/ | 调查 | Police will investigate the fire. | 警方将调查这起火灾。 | 4
+investigation | /ɪnˌvestɪˈɡeɪʃn/ | 调查 | The investigation took two years. | 调查花了两年时间。 | 5
+inspector | /ɪnˈspektə/ | 督察 | The inspector asked many questions. | 督察问了很多问题。 | 4
+patrol | /pəˈtrəʊl/ | 巡逻 | Officers patrol the streets at night. | 警察夜间在街上巡逻。 | 5
+security guard | /sɪˈkjʊərəti ɡɑːd/ | 保安 | A security guard stands at the gate. | 一名保安站在门口。 | 3
+CCTV | /ˌsiː siː tiː ˈviː/ | 监控摄像 | CCTV recorded the whole event. | 监控摄像记录了整个事件。 | 5
+alarm | /əˈlɑːm/ | 警报 | The burglar alarm went off at midnight. | 防盗警报在午夜响了。 | 3
+arrest | /əˈrest/ | 逮捕 | The police will arrest him tonight. | 警方今晚将逮捕他。 | 4
+handcuffs | /ˈhændkʌfs/ | 手铐 | The officer put handcuffs on him. | 警官给他戴上了手铐。 | 5
+catch | /kætʃ/ | 抓住 | Police managed to catch the thief. | 警方设法抓住了小偷。 | 2
+chase | /tʃeɪs/ | 追捕 | The police chase the car down the road. | 警察沿着道路追捕这辆车。 | 3
+escape | /ɪˈskeɪp/ | 逃跑; 逃脱 | Two prisoners tried to escape. | 两名囚犯试图逃跑。 | 3
+charge | /tʃɑːdʒ/ | 指控; 控告 | He will charge her with theft. | 他会以盗窃罪指控她。 | 4
+accuse | /əˈkjuːz/ | 指控 | They accuse him of lying. | 他们指控他撒谎。 | 4
+accusation | /ˌækjuˈzeɪʃn/ | 指控 | The accusation was false. | 这一指控是不实的。 | 5
+deny | /dɪˈnaɪ/ | 否认 | He will deny everything. | 他会否认一切。 | 4
+confess | /kənˈfes/ | 坦白; 供认 | The man did confess to the crime. | 这个男人供认了罪行。 | 5
+confession | /kənˈfeʃn/ | 供词; 坦白 | His confession surprised everyone. | 他的供词让所有人吃惊。 | 5
+interrogate | /ɪnˈterəɡeɪt/ | 审问 | They interrogate the suspect for hours. | 他们审问嫌疑人数个小时。 | 6
+interrogation | /ɪnˌterəˈɡeɪʃn/ | 审讯 | The interrogation lasted all night. | 审讯持续了一整夜。 | 6
+court | /kɔːt/ | 法院; 法庭 | The case is now in court. | 案件目前在法庭审理。 | 3
+courtroom | /ˈkɔːtruːm/ | 法庭 | The courtroom was full of people. | 法庭里坐满了人。 | 5
+trial | /ˈtraɪəl/ | 审判 | His trial begins next week. | 他的审判下周开始。 | 4
+case | /keɪs/ | 案件 | The judge closed the case. | 法官结案了。 | 3
+lawsuit | /ˈlɔːsuːt/ | 诉讼 | She filed a lawsuit against the firm. | 她对公司提起了诉讼。 | 6
+sue | /suː/ | 起诉 | He threatened to sue the hotel. | 他威胁要起诉这家酒店。 | 5
+judge | /dʒʌdʒ/ | 法官 | The judge listened carefully. | 法官仔细倾听。 | 3
+jury | /ˈdʒʊəri/ | 陪审团 | The jury needed three days to decide. | 陪审团用了三天来裁决。 | 5
+juror | /ˈdʒʊərə/ | 陪审员 | Each juror gave an opinion. | 每位陪审员都发表了意见。 | 6
+lawyer | /ˈlɔɪə/ | 律师 | You should speak to a lawyer. | 你应该和律师谈谈。 | 3
+solicitor | /səˈlɪsɪtə/ | 事务律师 (英) | The solicitor prepared the contract. | 事务律师起草了合同。 | 6
+barrister | /ˈbærɪstə/ | 出庭律师 (英) | The barrister spoke in court. | 出庭律师在法庭上发言。 | 6
+attorney | /əˈtɜːni/ | 律师 (美) | The attorney represented the company. | 这位律师代理了公司。 | 6
+prosecutor | /ˈprɒsɪkjuːtə/ | 检察官 | The prosecutor showed the photos. | 检察官出示了照片。 | 6
+defendant | /dɪˈfendənt/ | 被告 | The defendant said he was innocent. | 被告说他是无辜的。 | 6
+plaintiff | /ˈpleɪntɪf/ | 原告 | The plaintiff asked for compensation. | 原告要求赔偿。 | 6
+defence | /dɪˈfens/ | 辩护 | The defence called a new witness. | 辩方传唤了一名新证人。 | 5
+testify | /ˈtestɪfaɪ/ | 作证 | She will testify against him. | 她将出庭指证他。 | 6
+testimony | /ˈtestɪməni/ | 证词 | Her testimony was very clear. | 她的证词非常清楚。 | 6
+oath | /əʊθ/ | 誓言 | The witness took an oath. | 证人宣了誓。 | 6
+verdict | /ˈvɜːdɪkt/ | 裁决 | The jury reached a verdict. | 陪审团作出了裁决。 | 5
+guilty | /ˈɡɪlti/ | 有罪的 | The jury found him guilty. | 陪审团裁定他有罪。 | 3
+not guilty | /nɒt ˈɡɪlti/ | 无罪的 | She pleaded not guilty. | 她作了无罪辩护。 | 4
+innocent | /ˈɪnəsnt/ | 无辜的 | He insists that he is innocent. | 他坚称自己是无辜的。 | 3
+convict | /kənˈvɪkt/ | 判定有罪; 囚犯 | The court did convict him of fraud. | 法院判定他欺诈罪成立。 | 6
+conviction | /kənˈvɪkʃn/ | 定罪; 前科 | He has a previous conviction. | 他有前科。 | 6
+acquit | /əˈkwɪt/ | 宣判无罪 | The jury decided to acquit him. | 陪审团决定宣判他无罪。 | 6
+appeal | /əˈpiːl/ | 上诉 | He plans to appeal the sentence. | 他打算对判决提出上诉。 | 5
+sentence | /ˈsentəns/ | 判决; 刑期 | The judge gave him a long sentence. | 法官判了他很长的刑期。 | 4
+punish | /ˈpʌnɪʃ/ | 惩罚 | Parents should not punish children too hard. | 家长不应过度惩罚孩子。 | 3
+punishment | /ˈpʌnɪʃmənt/ | 惩罚 | The punishment was too light. | 惩罚太轻了。 | 4
+fine | /faɪn/ | 罚款 | He had to pay a fine for speeding. | 他因超速必须交罚款。 | 3
+penalty | /ˈpenlti/ | 处罚; 刑罚 | The penalty for fraud is high. | 欺诈的处罚很重。 | 5
+death penalty | /deθ ˈpenlti/ | 死刑 | Many countries have abolished the death penalty. | 许多国家已废除死刑。 | 5
+life sentence | /laɪf ˈsentəns/ | 无期徒刑 | He received a life sentence. | 他被判处无期徒刑。 | 5
+prison | /ˈprɪzn/ | 监狱 | He spent five years in prison. | 他在监狱里待了五年。 | 3
+jail | /dʒeɪl/ | 监狱; 关押 | The thief went to jail for a year. | 小偷被关了一年。 | 3
+prisoner | /ˈprɪznə/ | 囚犯 | The prisoner was released early. | 囚犯被提前释放。 | 3
+imprison | /ɪmˈprɪzn/ | 监禁 | They did imprison him without a trial. | 他们未经审判就将他监禁。 | 6
+release | /rɪˈliːs/ | 释放 | The prisoner will be released soon. | 囚犯很快将获释。 | 4
+bail | /beɪl/ | 保释 | He was released on bail. | 他被保释出狱。 | 6
+probation | /prəˈbeɪʃn/ | 缓刑; 监外察看 | She was put on probation for a year. | 她被判缓刑一年。 | 6
+community service | /kəˈmjuːnəti ˈsɜːvɪs/ | 社区服务 | He got community service instead of jail. | 他被判社区服务而不是入狱。 | 5
+parole | /pəˈrəʊl/ | 假释 | He was granted parole after ten years. | 他在十年后获得假释。 | 6
+reoffend | /ˌriːəˈfend/ | 再次犯罪 | Many prisoners reoffend after release. | 许多囚犯出狱后再次犯罪。 | 6
+rehabilitation | /ˌriːəˌbɪlɪˈteɪʃn/ | 改造; 康复 | The prison offers rehabilitation courses. | 监狱提供改造课程。 | 6
+crime rate | /kraɪm reɪt/ | 犯罪率 | The crime rate is low here. | 这里的犯罪率很低。 | 4
+law enforcement | /lɔː ɪnˈfɔːsmənt/ | 执法 | Law enforcement agencies share data. | 执法机构共享数据。 | 6
+legislation | /ˌledʒɪsˈleɪʃn/ | 立法; 法规 | New legislation protects workers. | 新法规保护工人。 | 6
+regulation | /ˌreɡjuˈleɪʃn/ | 规章; 条例 | Safety regulations are strict. | 安全规章很严格。 | 5
+rights | /raɪts/ | 权利 | Everyone has the right to a fair trial. | 每个人都有受到公平审判的权利。 | 4
+human rights | /ˌhjuːmən ˈraɪts/ | 人权 | The group defends human rights. | 这个组织捍卫人权。 | 5
+civil rights | /ˌsɪvl ˈraɪts/ | 公民权利 | Civil rights were won with great effort. | 公民权利是经过巨大努力才赢得的。 | 6
+constitution | /ˌkɒnstɪˈtjuːʃn/ | 宪法 | The constitution protects free speech. | 宪法保护言论自由。 | 6
+amendment | /əˈmendmənt/ | 修正案 | The amendment was passed in 1920. | 修正案于1920年通过。 | 6
+statute | /ˈstætʃuːt/ | 成文法 | The statute applies to all companies. | 该成文法适用于所有公司。 | 6
+justice | /ˈdʒʌstɪs/ | 司法; 正义 | Everyone wants justice for the victims. | 每个人都希望为受害者伸张正义。 | 5
+injustice | /ɪnˈdʒʌstɪs/ | 不公正 | She fought against injustice. | 她与不公正作斗争。 | 6
+fair | /feə/ | 公平的 | A fair trial is a basic right. | 公平的审判是一项基本权利。 | 3
+unfair | /ʌnˈfeə/ | 不公平的 | The decision seems unfair. | 这个决定似乎不公平。 | 3
+responsible | /rɪˈspɒnsəbl/ | 负责的 | Drivers are responsible for safety. | 司机要对安全负责。 | 4
+liable | /ˈlaɪəbl/ | 负有法律责任的 | The firm is liable for the damage. | 公司要对损失负责。 | 6
+liability | /ˌlaɪəˈbɪləti/ | 法律责任 | The company accepts no liability. | 公司不承担任何责任。 | 6
+compensation | /ˌkɒmpenˈseɪʃn/ | 赔偿 | He received compensation for his injury. | 他因受伤获得了赔偿。 | 5
+damages | /ˈdæmɪdʒɪz/ | 损害赔偿金 | The court awarded him damages. | 法院判他获得损害赔偿金。 | 6
+contract | /ˈkɒntrækt/ | 合同 | Read the contract before you sign. | 签字前先读合同。 | 3
+breach | /briːtʃ/ | 违反; 违约 | This is a breach of contract. | 这是违约。 | 6
+violate | /ˈvaɪəleɪt/ | 违反 | The firm did violate safety rules. | 该公司违反了安全规定。 | 5
+obey | /əˈbeɪ/ | 服从; 遵守 | Drivers must obey traffic lights. | 司机必须遵守交通信号灯。 | 3
+break the law | /breɪk ðə lɔː/ | 违法 | He knew he would break the law. | 他知道自己会犯法。 | 3
+traffic offence | /ˈtræfɪk əˈfens/ | 交通违章 | A traffic offence can cost you points. | 交通违章可能被扣分。 | 5
+speeding | /ˈspiːdɪŋ/ | 超速 | He was fined for speeding. | 他因超速被罚款。 | 4
+drink-driving | /ˈdrɪŋk ˈdraɪvɪŋ/ | 酒后驾驶 | Drink-driving kills many people. | 酒后驾驶导致许多人死亡。 | 5
+licence | /ˈlaɪsns/ | 执照; 驾照 | You need a licence to drive. | 驾驶需要驾照。 | 4
+permit | /pəˈmɪt/ | 许可; 允许 | You need a permit to build here. | 在这里建房需要许可。 | 5
+offence | /əˈfens/ | 违法行为 | It is a serious offence. | 这是一项严重的违法行为。 | 5
+offender | /əˈfendə/ | 违法者 | The young offender was given a warning. | 这名年轻的违法者受到了警告。 | 6
+misdemeanour | /ˌmɪsdɪˈmiːnə/ | 轻罪 | Littering is a minor misdemeanour. | 乱扔垃圾是轻微的轻罪。 | 6
+felony | /ˈfeləni/ | 重罪 | A felony can mean years in prison. | 重罪可能意味着数年监禁。 | 6
+trespass | /ˈtrespəs/ | 非法侵入 | Do not trespass on private land. | 不要非法侵入私人土地。 | 6
+perjury | /ˈpɜːdʒəri/ | 伪证罪 | He was jailed for perjury. | 他因伪证罪入狱。 | 6
+slander | /ˈslɑːndə/ | 诽谤 (口头) | She sued him for slander. | 她以诽谤罪起诉他。 | 6
+libel | /ˈlaɪbl/ | 诽谤 (书面) | The paper paid damages for libel. | 报纸因诽谤支付了赔偿金。 | 6
+harass | /ˈhærəs/ | 骚扰 | It is illegal to harass a neighbour. | 骚扰邻居是违法的。 | 5
+stalk | /stɔːk/ | 跟踪 | He began to stalk his former girlfriend. | 他开始跟踪前女友。 | 6
+domestic violence | /dəˈmestɪk ˈvaɪələns/ | 家庭暴力 | Domestic violence is a crime. | 家庭暴力是犯罪。 | 6
+lawful | /ˈlɔːfl/ | 合法的 | It is a lawful way to protest. | 这是一种合法的抗议方式。 | 6
+unlawful | /ʌnˈlɔːfl/ | 非法的 | Unlawful entry is a crime. | 非法闯入是犯罪。 | 6
+legally binding | /ˈliːɡəli ˈbaɪndɪŋ/ | 有法律约束力的 | The contract is legally binding. | 这份合同具有法律约束力。 | 6
+ambiguity | /ˌæmbɪˈɡjuːəti/ | 歧义; 含糊 | Legal texts should avoid ambiguity. | 法律文本应避免歧义。 | 6

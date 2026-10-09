@@ -1,0 +1,598 @@
+[
+  {
+    "id": "ba-construction",
+    "title": "The 把 construction: doing something to a known object",
+    "titleHanzi": "把",
+    "category": "ba-bei",
+    "hskRange": [
+      3,
+      5
+    ],
+    "summary": "把 pulls a definite object in front of the verb so that the sentence can say what is done to it and where it ends up. It is the standard way to report a result, a change of place or a transformation.",
+    "pattern": "Subject + 把 + Object + Verb + Complement / 了 / 在 + Place / 给 + Person",
+    "rules": [
+      {
+        "rule": "The core idea is **disposal**: the speaker handles a specific thing and says what happens to it. The object is named first (after 把), then the verb tells the effect. English would say \"finish the homework\"; Chinese says \"take the homework, finish it\".",
+        "highlight": "把",
+        "examples": [
+          {
+            "hanzi": "我把作业做完了。",
+            "pinyin": "Wǒ bǎ zuòyè zuòwán le.",
+            "english": "I finished my homework."
+          },
+          {
+            "hanzi": "他把那杯茶喝了。",
+            "pinyin": "Tā bǎ nà bēi chá hē le.",
+            "english": "He drank that cup of tea."
+          }
+        ]
+      },
+      {
+        "rule": "The verb can **never stand bare**. It needs something after it: a result complement, 了, a direction, a place phrase (在 / 到), a recipient (给), a short quantity (一下) or reduplication.",
+        "highlight": "打开",
+        "examples": [
+          {
+            "hanzi": "请把门打开。",
+            "pinyin": "Qǐng bǎ mén dǎkāi.",
+            "english": "Please open the door."
+          },
+          {
+            "hanzi": "你把这个句子再读一遍。",
+            "pinyin": "Nǐ bǎ zhè ge jùzi zài dú yí biàn.",
+            "english": "Read this sentence once more."
+          },
+          {
+            "hanzi": "你先把桌子擦擦。",
+            "pinyin": "Nǐ xiān bǎ zhuōzi cā cā.",
+            "english": "First wipe the table down."
+          }
+        ]
+      },
+      {
+        "rule": "Movement and giving are the classic territory: **把 + object + 放在 / 带到 / 送给 + place or person**. Without 把 these verbs cannot take the destination after the object.",
+        "highlight": "放在 / 送给",
+        "examples": [
+          {
+            "hanzi": "他把书放在桌子上。",
+            "pinyin": "Tā bǎ shū fàngzài zhuōzi shang.",
+            "english": "He put the book on the table."
+          },
+          {
+            "hanzi": "我想把这份礼物送给你。",
+            "pinyin": "Wǒ xiǎng bǎ zhè fèn lǐwù sònggěi nǐ.",
+            "english": "I would like to give you this present."
+          }
+        ]
+      },
+      {
+        "rule": "Change of form or identity: 把…翻译成, 把…变成, 把…当作, 把…叫做. The object is transformed into, or treated as, something else.",
+        "highlight": "成 / 当作",
+        "examples": [
+          {
+            "hanzi": "请把这句话翻译成英文。",
+            "pinyin": "Qǐng bǎ zhè jù huà fānyì chéng yīngwén.",
+            "english": "Please translate this sentence into English."
+          },
+          {
+            "hanzi": "我一直把他当作朋友。",
+            "pinyin": "Wǒ yìzhí bǎ tā dàngzuò péngyǒu.",
+            "english": "I have always regarded him as a friend."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "plain SVO order",
+        "text": "我做完了作业 and 我把作业做完了 mean nearly the same. 把 puts the stress on what happened to the object and is preferred whenever there is a destination or a transformation."
+      },
+      {
+        "vs": "被 passive",
+        "text": "Both put the object before the verb. 把 keeps the doer as subject (他把杯子打破了); 被 makes the affected thing the subject (杯子被他打破了)."
+      }
+    ],
+    "pitfalls": [
+      "✗ 我把作业做。 → ✓ 我把作业做完了。 The verb after 把 needs a complement or 了.",
+      "✗ 我把没做完作业。 → ✓ 我没把作业做完。 Negatives and modals go before 把, not before the verb.",
+      "✗ 他放书在桌子上。 → ✓ 他把书放在桌子上。 / 他把书放在了桌子上。 A destination needs 把 or a topic object.",
+      "✗ 我把一本书看完了。 → ✓ 我把那本书看完了。 The 把 object must be a known, specific thing."
+    ],
+    "relatedPointIds": [
+      "g3-ba-sentence",
+      "g3-ba-placement",
+      "g3-result-complements"
+    ],
+    "keywords": [
+      "把字句",
+      "bazi ju",
+      "ba construction",
+      "disposal construction",
+      "把",
+      "ba",
+      "disposal",
+      "object before verb",
+      "放在",
+      "翻译成",
+      "当作"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "ba-restrictions",
+    "title": "Limits of 把: which sentences cannot use it",
+    "titleHanzi": "把 · 限制",
+    "category": "ba-bei",
+    "hskRange": [
+      4,
+      6
+    ],
+    "summary": "把 is not an optional style choice. The object must be definite, the verb must really affect it, and the verb must not be bare. When these fail, use ordinary Subject-Verb-Object order.",
+    "pattern": "✓ Subject + 把 + definite Object + Verb + something  ·  ✗ 把 with 有 / 是 / 喜欢 / 看见 / 知道",
+    "rules": [
+      {
+        "rule": "The object of 把 must be **definite**: something both speaker and listener can identify (这本书, 那个人, 我的包). Indefinite objects like \"a book\" are not allowed.",
+        "highlight": "那本书",
+        "examples": [
+          {
+            "hanzi": "我把那本书看完了。",
+            "pinyin": "Wǒ bǎ nà běn shū kànwán le.",
+            "english": "I finished reading that book."
+          },
+          {
+            "hanzi": "我看完了一本书。",
+            "pinyin": "Wǒ kànwán le yì běn shū.",
+            "english": "I finished reading a book."
+          }
+        ]
+      },
+      {
+        "rule": "The verb must be **active and transitive**, producing a result or a movement. Verbs of existence, identity, feeling, perception or knowing (有, 是, 在, 喜欢, 爱, 怕, 知道, 觉得, 看见, 听见, 像) never take 把.",
+        "highlight": "喜欢",
+        "examples": [
+          {
+            "hanzi": "我很喜欢这件衣服。",
+            "pinyin": "Wǒ hěn xǐhuan zhè jiàn yīfu.",
+            "english": "I like this piece of clothing very much."
+          },
+          {
+            "hanzi": "我看见了你的哥哥。",
+            "pinyin": "Wǒ kànjiàn le nǐ de gēge.",
+            "english": "I saw your brother."
+          },
+          {
+            "hanzi": "他知道这件事。",
+            "pinyin": "Tā zhīdào zhè jiàn shì.",
+            "english": "He knows about this matter."
+          }
+        ]
+      },
+      {
+        "rule": "Potential complements and bare verbs are excluded because 把 requires a realised outcome, not an ability. Say 我看不懂这本书, never 把…看不懂.",
+        "highlight": "看不懂",
+        "examples": [
+          {
+            "hanzi": "我看不懂这本书。",
+            "pinyin": "Wǒ kàn bu dǒng zhè běn shū.",
+            "english": "I cannot understand this book."
+          },
+          {
+            "hanzi": "我把这本书看懂了。",
+            "pinyin": "Wǒ bǎ zhè běn shū kàndǒng le.",
+            "english": "I have understood this book."
+          }
+        ]
+      },
+      {
+        "rule": "**Negation, 不能 / 应该 / 想 / 要 and time adverbs go before 把.** 把 plus its verb is a single block that cannot be broken up.",
+        "highlight": "没把 / 想把",
+        "examples": [
+          {
+            "hanzi": "他没把钥匙带来。",
+            "pinyin": "Tā méi bǎ yàoshi dàilái.",
+            "english": "He did not bring the keys."
+          },
+          {
+            "hanzi": "你应该把药吃了。",
+            "pinyin": "Nǐ yīnggāi bǎ yào chī le.",
+            "english": "You should take the medicine."
+          },
+          {
+            "hanzi": "我想把房间打扫一下。",
+            "pinyin": "Wǒ xiǎng bǎ fángjiān dǎsǎo yíxià.",
+            "english": "I want to tidy the room a bit."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "Indefinite objects",
+        "text": "Indefinite things come after the verb (我买了一本书). If you can add 这 or 那 naturally, 把 becomes possible."
+      },
+      {
+        "vs": "Verbs of cognition",
+        "text": "English \"I took the news badly\" can be disposed of; Chinese 我知道这件事 can never become 我把这件事知道. The verb must change or move the object."
+      }
+    ],
+    "pitfalls": [
+      "✗ 我把他喜欢。 → ✓ 我喜欢他。 Feelings and states are never disposal.",
+      "✗ 我把一个朋友遇到了。 → ✓ 我遇到了一个朋友。 Indefinite object; use ordinary order.",
+      "✗ 他把门不关。 → ✓ 他没把门关上。 / 他不关门。 Negative before 把 or drop 把.",
+      "✗ 我把问题没有解决。 → ✓ 我没有把问题解决。 Put 没有 before 把."
+    ],
+    "relatedPointIds": [
+      "g3-ba-sentence",
+      "g3-ba-placement",
+      "g3-result-complements",
+      "g3-potential-complements"
+    ],
+    "keywords": [
+      "把字句限制",
+      "ba restrictions",
+      "definite object",
+      "bare verb",
+      "cannot use ba",
+      "把",
+      "有",
+      "是",
+      "喜欢",
+      "知道",
+      "看见",
+      "limits"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "bei-passive",
+    "title": "The passive with 被, 叫, 让 and 给",
+    "titleHanzi": "被 · 叫 · 让 · 给",
+    "category": "ba-bei",
+    "hskRange": [
+      3,
+      5
+    ],
+    "summary": "被 turns the affected thing into the subject: 钱包被偷了 (the wallet was stolen). 叫, 让 and 给 do the same in speech, but they require the agent to be named.",
+    "pattern": "Patient + 被 (+ Agent) + Verb + Complement / 了  ·  Patient + 叫 / 让 + Agent + Verb + Complement",
+    "rules": [
+      {
+        "rule": "Start with the thing affected, add **被**, optionally the doer, then a verb with a result or 了. As with 把, the verb must not be bare.",
+        "highlight": "被",
+        "examples": [
+          {
+            "hanzi": "我的钱包被偷了。",
+            "pinyin": "Wǒ de qiánbāo bèi tōu le.",
+            "english": "My wallet was stolen."
+          },
+          {
+            "hanzi": "他被老师批评了。",
+            "pinyin": "Tā bèi lǎoshī pīpíng le.",
+            "english": "He was criticised by the teacher."
+          }
+        ]
+      },
+      {
+        "rule": "In everyday speech **叫** and **让** replace 被. They are less formal and **require** the agent to be mentioned (even if vague, like 人 \"someone\"). 被 may omit the agent.",
+        "highlight": "叫 / 让",
+        "examples": [
+          {
+            "hanzi": "我的自行车让人骑走了。",
+            "pinyin": "Wǒ de zìxíngchē ràng rén qízǒu le.",
+            "english": "My bike was taken away by somebody."
+          },
+          {
+            "hanzi": "杯子叫弟弟打碎了。",
+            "pinyin": "Bēizi jiào dìdi dǎsuì le.",
+            "english": "The cup was broken by my little brother."
+          }
+        ]
+      },
+      {
+        "rule": "**给** can also mark the passive in colloquial speech, or it can be added after 被 / 让 / 叫 as an extra emphasis on the (usually unwelcome) event.",
+        "highlight": "给",
+        "examples": [
+          {
+            "hanzi": "我的手机被小偷给偷走了。",
+            "pinyin": "Wǒ de shǒujī bèi xiǎotōu gěi tōuzǒu le.",
+            "english": "My phone was stolen by a thief."
+          },
+          {
+            "hanzi": "这杯咖啡给我喝光了。",
+            "pinyin": "Zhè bēi kāfēi gěi wǒ hē guāng le.",
+            "english": "I drank this whole cup of coffee."
+          }
+        ]
+      },
+      {
+        "rule": "**Negation, modals and adverbs** go before 被. Positive uses are common too: 被选为, 被评为, 被邀请.",
+        "highlight": "没被 / 被选为",
+        "examples": [
+          {
+            "hanzi": "衣服没被雨淋湿。",
+            "pinyin": "Yīfu méi bèi yǔ línshī.",
+            "english": "The clothes did not get wet in the rain."
+          },
+          {
+            "hanzi": "他被选为班长。",
+            "pinyin": "Tā bèi xuǎn wèi bānzhǎng.",
+            "english": "He was chosen as class monitor."
+          },
+          {
+            "hanzi": "我不想被别人看见。",
+            "pinyin": "Wǒ bù xiǎng bèi biérén kànjiàn.",
+            "english": "I do not want to be seen by others."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "把 construction",
+        "text": "把 keeps the doer as subject (他打碎了杯子 → 他把杯子打碎了); 被 puts the receiver first (杯子被他打碎了). Choose 被 when the focus is on what happened to the receiver."
+      },
+      {
+        "vs": "让 as causative",
+        "text": "让 can mean \"let / make\" (妈妈让我去). It is a passive only when followed by an agent and then a complete verb: 杯子让弟弟打碎了. Look for a result complement."
+      }
+    ],
+    "pitfalls": [
+      "✗ 钱包被偷。 → ✓ 钱包被偷了。 The verb needs 了 or a complement.",
+      "✗ 我的自行车被骑走他。 → ✓ 我的自行车被他骑走了。 The agent goes between 被 and the verb.",
+      "✗ 杯子让打碎了。 → ✓ 杯子让弟弟打碎了。 让 and 叫 require an overt agent.",
+      "✗ 他被没老师批评。 → ✓ 他没被老师批评。 Negation goes before 被.",
+      "✗ 书被我看了。(for a plain neutral event) → ✓ 我看了这本书。 Use 被 for something that happens to the thing, not for every transitive verb."
+    ],
+    "relatedPointIds": [
+      "g3-bei-passive",
+      "g4-bei-passive",
+      "g4-causatives",
+      "g3-ba-sentence"
+    ],
+    "keywords": [
+      "被字句",
+      "beizi ju",
+      "bei passive",
+      "passive voice",
+      "被",
+      "叫",
+      "让",
+      "给",
+      "passive",
+      "被偷",
+      "被批评"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "notional-passive",
+    "title": "Notional passives: passive meaning without 被",
+    "titleHanzi": "饭做好了",
+    "category": "ba-bei",
+    "hskRange": [
+      2,
+      5
+    ],
+    "summary": "Chinese often expresses the passive simply by putting a thing as the topic with a finished verb. 饭做好了 means \"the meal has been cooked\" with no 被, because only a person could have done it.",
+    "pattern": "Topic (patient) + Verb + Complement / 了 / 着",
+    "rules": [
+      {
+        "rule": "When the subject is a **thing that obviously cannot act**, Chinese uses an active-looking verb with a complement; the passive reading is automatic. No 被 is needed (and it would often sound stiff).",
+        "highlight": "做好了",
+        "examples": [
+          {
+            "hanzi": "饭做好了。",
+            "pinyin": "Fàn zuòhǎo le.",
+            "english": "The meal is cooked."
+          },
+          {
+            "hanzi": "作业已经写完了。",
+            "pinyin": "Zuòyè yǐjīng xiěwán le.",
+            "english": "The homework has already been written."
+          }
+        ]
+      },
+      {
+        "rule": "The verb is typically followed by **了**, **着**, a result complement or a direction. These supply the completion that 被 would otherwise signal.",
+        "highlight": "着 / 了",
+        "examples": [
+          {
+            "hanzi": "门开着。",
+            "pinyin": "Mén kāizhe.",
+            "english": "The door is open."
+          },
+          {
+            "hanzi": "灯关了。",
+            "pinyin": "Dēng guān le.",
+            "english": "The light has been turned off."
+          },
+          {
+            "hanzi": "信已经寄出去了。",
+            "pinyin": "Xìn yǐjīng jìchūqù le.",
+            "english": "The letter has already been posted."
+          }
+        ]
+      },
+      {
+        "rule": "Notional passives report processes and states: construction, production, publication, repair. The agent is unknown, obvious or unimportant.",
+        "highlight": "盖好",
+        "examples": [
+          {
+            "hanzi": "新房子盖好了。",
+            "pinyin": "Xīn fángzi gàihǎo le.",
+            "english": "The new house has been built."
+          },
+          {
+            "hanzi": "这本书去年出版了。",
+            "pinyin": "Zhè běn shū qùnián chūbǎn le.",
+            "english": "This book was published last year."
+          }
+        ]
+      },
+      {
+        "rule": "If the subject **could** also be the doer (people and animals), use 被 to avoid ambiguity. A sentence like 鸡不吃了 can mean \"the chicken won't eat\" or \"the chicken is not eaten\".",
+        "highlight": "被",
+        "examples": [
+          {
+            "hanzi": "鸡被狗吃了。",
+            "pinyin": "Jī bèi gǒu chī le.",
+            "english": "The chicken was eaten by the dog."
+          },
+          {
+            "hanzi": "蛋糕被孩子们吃完了。",
+            "pinyin": "Dàngāo bèi háizimen chīwán le.",
+            "english": "The cake was eaten up by the children."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "被 sentences",
+        "text": "被 adds a feeling of something happening to the thing, often unwelcome, and usually points to an agent. Notional passives are neutral and descriptive."
+      },
+      {
+        "vs": "是…的",
+        "text": "这本书是他写的 stresses who wrote it. 这本书写好了 only reports the state of the book."
+      }
+    ],
+    "pitfalls": [
+      "✗ 饭被做好了。 → ✓ 饭做好了。 With a neutral event and an unnamed agent, the bare form is natural.",
+      "✗ 作业写。 → ✓ 作业写完了。 Even in notional passives the verb needs a complement or 了.",
+      "✗ 门被开着。 → ✓ 门开着。 着 describes a state; 被 is not used with it."
+    ],
+    "relatedPointIds": [
+      "g4-bei-passive",
+      "g3-bei-passive",
+      "g3-result-complements",
+      "g2-zhe"
+    ],
+    "keywords": [
+      "意义被动句",
+      "yiyi beidong",
+      "notional passive",
+      "semantic passive",
+      "topic-comment",
+      "没有被",
+      "饭做好了",
+      "门开着",
+      "passive without bei"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "shou-zao-passive",
+    "title": "受, 遭 and 挨: passives built with nouns",
+    "titleHanzi": "受 · 遭 · 挨",
+    "category": "ba-bei",
+    "hskRange": [
+      4,
+      7
+    ],
+    "summary": "受, 遭 and 挨 say that the subject \"receives\" an experience, usually from an action noun: 受欢迎, 遭到批评, 挨骂. They differ in register and in how negative the experience is.",
+    "pattern": "Subject + 受 / 受到 / 遭到 / 遭受 / 挨 + (Agent的) + action noun / verb",
+    "rules": [
+      {
+        "rule": "**受 / 受到** is the neutral all-rounder: the subject receives influence, education, welcome or injury. It works with good and bad things.",
+        "highlight": "受",
+        "examples": [
+          {
+            "hanzi": "这位歌手很受欢迎。",
+            "pinyin": "Zhè wèi gēshǒu hěn shòu huānyíng.",
+            "english": "This singer is very popular."
+          },
+          {
+            "hanzi": "这家公司受到了很大影响。",
+            "pinyin": "Zhè jiā gōngsī shòudào le hěn dà yǐngxiǎng.",
+            "english": "This company has been greatly affected."
+          }
+        ]
+      },
+      {
+        "rule": "**遭 / 遭到 / 遭受** is for **bad** things and sounds formal: criticism, attack, loss, disaster, rejection. Newspapers use it constantly.",
+        "highlight": "遭到 / 遭受",
+        "examples": [
+          {
+            "hanzi": "他的建议遭到了大家的反对。",
+            "pinyin": "Tā de jiànyì zāodào le dàjiā de fǎnduì.",
+            "english": "His proposal met with everybody's opposition."
+          },
+          {
+            "hanzi": "公司遭受了巨大的损失。",
+            "pinyin": "Gōngsī zāoshòu le jùdà de sǔnshī.",
+            "english": "The company suffered enormous losses."
+          }
+        ]
+      },
+      {
+        "rule": "**挨** is colloquial and always unpleasant: 挨骂, 挨打, 挨批评, 挨饿. It takes a bare noun or verb and often an object like 一顿.",
+        "highlight": "挨",
+        "examples": [
+          {
+            "hanzi": "他因为迟到挨了老师一顿骂。",
+            "pinyin": "Tā yīnwèi chídào āi le lǎoshī yí dùn mà.",
+            "english": "He got a scolding from the teacher for being late."
+          },
+          {
+            "hanzi": "孩子说谎挨打了。",
+            "pinyin": "Háizi shuōhuǎng āi dǎ le.",
+            "english": "The child got a beating for lying."
+          }
+        ]
+      },
+      {
+        "rule": "Compare with 被: these verbs need an action **noun** (批评, 影响, 欢迎), not a full verb phrase, and the agent appears with 的 before the noun (受到老师的批评).",
+        "highlight": "老师的批评",
+        "examples": [
+          {
+            "hanzi": "他受到了老师的批评。",
+            "pinyin": "Tā shòudào le lǎoshī de pīpíng.",
+            "english": "He was criticised by the teacher."
+          },
+          {
+            "hanzi": "他被老师批评了。",
+            "pinyin": "Tā bèi lǎoshī pīpíng le.",
+            "english": "He was criticised by the teacher."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "被",
+        "text": "被 requires a verb (被批评); 受到 / 遭到 take the noun (受到批评). The meaning is the same, but 受到 sounds more written and 遭到 more negative."
+      },
+      {
+        "vs": "得到 / 获得",
+        "text": "These cover positive receiving (得到帮助, 获得好评). 受 is neutral, 遭 and 挨 are negative; choosing the right one tells the reader how the writer feels."
+      }
+    ],
+    "pitfalls": [
+      "✗ 他受到老师。 → ✓ 他受到老师的批评。 A bare person cannot be the thing received.",
+      "✗ 他挨了很多快乐。 → ✓ 他得到了很多快乐。 挨 is only for unpleasant things.",
+      "✗ 他被受到批评了。 → ✓ 他受到了批评。 / 他被批评了。 Do not stack 被 and 受到.",
+      "✗ 公司遭到了成功。 → ✓ 公司取得了成功。 遭 is never for good outcomes."
+    ],
+    "relatedPointIds": [
+      "g7-shou-zao-ai",
+      "g7-wei-suo-passive",
+      "g4-bei-passive",
+      "g4-you-agent"
+    ],
+    "keywords": [
+      "受",
+      "遭",
+      "挨",
+      "受到",
+      "遭到",
+      "遭受",
+      "受欢迎",
+      "挨骂",
+      "shou",
+      "zao",
+      "ai",
+      "adverse passive",
+      "receive",
+      "suffer"
+    ],
+    "status": "draft"
+  }
+]

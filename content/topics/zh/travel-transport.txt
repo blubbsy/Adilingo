@@ -1,0 +1,262 @@
+@pack | travel-transport | Travel & Transport | 出行与交通 | ✈️ | travel | Flights, train travel, city transit, luggage, tickets, and hotels.
+车 | vehicle; car | 我的车是白色的。 | My car is white.
+路 | road; way | 这条路很长。 | This road is very long.
+船 | boat; ship | 我们坐船去小岛。 | We take a boat to the island.
+票 | ticket | 我买了两张票。 | I bought two tickets.
+飞机 | airplane | 我坐飞机去北京。 | I fly to Beijing by plane.
+机场 | airport | 机场离市中心很远。 | The airport is far from the city center.
+航班 | flight | 你的航班几点起飞？ | What time does your flight take off?
+火车 | train | 火车快开了。 | The train is about to leave.
+火车站 | train station | 火车站有很多人。 | There are many people at the train station.
+地铁 | subway | 我坐地铁上班。 | I take the subway to work.
+公交车 | bus | 公交车来了。 | The bus has arrived.
+出租车 | taxi | 我们打出租车去机场。 | We take a taxi to the airport.
+自行车 | bicycle | 他骑自行车上学。 | He rides a bicycle to school.
+轮船 | steamship | 这艘轮船很大。 | This steamship is very big.
+车票 | train or bus ticket | 请出示您的车票。 | Please show your ticket.
+机票 | plane ticket | 机票比火车票贵。 | Plane tickets are more expensive than train tickets.
+护照 | passport | 出国要带护照。 | You need your passport to go abroad.
+签证 | visa | 我的签证下周到期。 | My visa expires next week.
+行李 | luggage | 你的行李重吗？ | Is your luggage heavy?
+行李箱 | suitcase | 我的行李箱是红色的。 | My suitcase is red.
+酒店 | hotel | 这家酒店很干净。 | This hotel is very clean.
+宾馆 | guesthouse; hotel | 宾馆就在车站旁边。 | The guesthouse is right next to the station.
+预订 | reserve; book | 我想预订一个房间。 | I would like to book a room.
+地图 | map | 请给我一张地图。 | Please give me a map.
+出发 | set off | 我们明天早上八点出发。 | We set off at eight tomorrow morning.
+到达 | arrive | 飞机准时到达北京。 | The plane arrived in Beijing on time.
+旅游 | travel; tour | 我们暑假去旅游。 | We travel during summer vacation.
+旅行 | trip; travel | 这次旅行很愉快。 | This trip was very enjoyable.
+导游 | tour guide | 导游给我们介绍了历史。 | The guide told us about the history.
+车站 | station; stop | 车站在前面。 | The station is up ahead.
+司机 | driver | 司机开车很稳。 | The driver drives very steadily.
+左 | left | 请往左走。 | Please go left.
+右 | right | 银行在你的右边。 | The bank is on your right.
+前 | front; ahead | 一直往前走。 | Keep going straight ahead.
+后 | back; behind | 车站在公园后面。 | The station is behind the park.
+上车 | get on a vehicle | 请大家依次上车。 | Everyone please board in order.
+下车 | get off a vehicle | 我在下一站下车。 | I get off at the next stop.
+开车 | drive | 他开车很小心。 | He drives very carefully.
+骑车 | ride a bike | 我周末骑车去公园。 | I ride a bike to the park at weekends.
+走路 | walk | 从这里走路十分钟就到。 | It is ten minutes' walk from here.
+打车 | take a taxi | 太晚了，我们打车回家吧。 | It's late; let's take a taxi home.
+坐 | sit; ride | 我们坐公交车去。 | We go there by bus.
+站 | station; stand; stop | 下一站是人民广场。 | The next stop is People's Square.
+终点站 | terminus | 终点站到了，请下车。 | We have reached the terminus; please get off.
+换乘 | transfer | 在人民广场站换乘二号线。 | Transfer to Line 2 at People's Square.
+地铁站 | subway station | 地铁站就在前面。 | The subway station is just ahead.
+线路 | route; line | 这条线路经过市中心。 | This line passes through the city center.
+路线 | route | 请告诉我最近的路线。 | Please tell me the shortest route.
+车厢 | carriage | 我的座位在三号车厢。 | My seat is in carriage three.
+座位 | seat | 请问这是我的座位吗？ | Excuse me, is this my seat?
+靠窗 | by the window | 我想要靠窗的座位。 | I would like a window seat.
+靠过道 | by the aisle | 我想坐靠过道的位子。 | I'd like an aisle seat.
+卧铺 | sleeper berth | 我们买了卧铺票。 | We bought sleeper berth tickets.
+硬座 | hard seat | 硬座比较便宜。 | A hard seat is cheaper.
+软卧 | soft sleeper | 软卧比硬卧舒服。 | A soft sleeper is more comfortable than a hard one.
+高铁 | high-speed rail | 坐高铁去上海只要四个小时。 | By high-speed rail it takes only four hours to Shanghai.
+动车 | bullet train | 这趟动车很准时。 | This bullet train is very punctual.
+列车 | train | 开往南京的列车已经出发。 | The train to Nanjing has departed.
+列车员 | train attendant | 列车员在检查车票。 | The attendant is checking tickets.
+检票 | check tickets | 检票口在二楼。 | The ticket gate is on the second floor.
+售票处 | ticket office | 售票处在大厅的左边。 | The ticket office is on the left of the hall.
+候车室 | waiting room | 我们在候车室等车。 | We wait for the train in the waiting room.
+站台 | platform | 火车在三号站台。 | The train is at platform three.
+时刻表 | timetable | 请看一下火车时刻表。 | Please look at the train timetable.
+晚点 | be delayed | 火车晚点了半小时。 | The train was half an hour late.
+准点 | on time | 这趟航班准点到达。 | This flight arrived on time.
+误点 | be late | 因为下雪，列车误点了。 | The train was late because of the snow.
+单程 | one-way | 我买单程票。 | I'll buy a one-way ticket.
+往返 | round trip | 往返票比较便宜。 | A round-trip ticket is cheaper.
+退票 | refund a ticket | 我想退票。 | I want to return my ticket.
+改签 | change a ticket | 我想把车票改签到明天。 | I want to change my ticket to tomorrow.
+订票 | book tickets | 我在网上订票。 | I book tickets online.
+票价 | ticket price | 票价是一百块。 | The ticket price is one hundred yuan.
+学生票 | student ticket | 学生票是半价。 | Student tickets are half price.
+免费 | free | 儿童乘车免费。 | Children ride for free.
+身份证 | ID card | 买火车票要用身份证。 | You need an ID card to buy train tickets.
+登机牌 | boarding pass | 请出示您的登机牌。 | Please show your boarding pass.
+登机口 | boarding gate | 登机口在十二号。 | The boarding gate is number twelve.
+登机 | board a plane | 乘客请现在登机。 | Passengers, please board now.
+起飞 | take off | 飞机十点起飞。 | The plane takes off at ten.
+降落 | land | 飞机在上海降落。 | The plane lands in Shanghai.
+转机 | transfer flights | 我要在北京转机。 | I have to change planes in Beijing.
+直飞 | direct flight | 有直飞巴黎的航班吗？ | Is there a direct flight to Paris?
+国际航班 | international flight | 国际航班要提前三小时到机场。 | For international flights arrive three hours early.
+国内航班 | domestic flight | 国内航班在二号航站楼。 | Domestic flights are at Terminal 2.
+航站楼 | terminal | 请问一号航站楼怎么走？ | How do I get to Terminal 1?
+值机 | check in | 值机柜台在大厅右边。 | The check-in counter is on the right of the hall.
+办理登机 | check in | 我去办理登机手续。 | I'm going to check in.
+托运 | check luggage | 这个箱子要托运。 | This suitcase has to be checked in.
+手提行李 | carry-on luggage | 手提行李不能超过七公斤。 | Carry-on luggage must not exceed seven kilograms.
+超重 | overweight | 你的行李超重了。 | Your luggage is overweight.
+安检 | security check | 过安检要脱外套。 | Take off your jacket at security.
+海关 | customs | 海关检查了我的行李。 | Customs checked my luggage.
+入境 | enter a country | 入境时要填表。 | You must fill in a form when entering the country.
+出境 | exit a country | 出境前请检查护照。 | Check your passport before leaving the country.
+免税店 | duty-free shop | 我在免税店买了香水。 | I bought perfume at the duty-free shop.
+空姐 | flight attendant | 空姐给乘客送饮料。 | The flight attendant serves drinks to passengers.
+机长 | captain | 机长欢迎大家乘坐本次航班。 | The captain welcomes everyone aboard.
+乘客 | passenger | 乘客们都上车了。 | All the passengers have boarded.
+旅客 | traveler | 旅客请注意安全。 | Travelers, please take care.
+游客 | tourist | 这里每年有很多游客。 | Many tourists come here every year.
+安全带 | seat belt | 请系好安全带。 | Please fasten your seat belt.
+时差 | time difference | 我还没有倒过时差。 | I haven't got over the jet lag yet.
+延误 | delay | 大雾造成航班延误。 | Heavy fog caused flight delays.
+取消 | cancel | 由于台风，航班取消了。 | The flight was cancelled due to a typhoon.
+行李牌 | luggage tag | 请把行李牌贴好。 | Please attach the luggage tag.
+行李车 | luggage cart | 机场有免费的行李车。 | The airport has free luggage carts.
+失物招领 | lost and found | 失物招领处在一楼。 | Lost and found is on the first floor.
+接机 | pick up at the airport | 朋友来机场接机。 | My friend came to the airport to pick me up.
+送机 | see off at the airport | 爸爸明天去机场送机。 | Dad is going to the airport tomorrow to see someone off.
+汽车 | car | 他买了一辆新汽车。 | He bought a new car.
+小汽车 | car | 他每天开小汽车上班。 | He drives a car to work every day.
+卡车 | truck | 一辆卡车停在路边。 | A truck is parked by the road.
+货车 | freight truck | 货车不能进市中心。 | Freight trucks cannot enter the city center.
+摩托车 | motorcycle | 他骑摩托车去旅行。 | He travels by motorcycle.
+电动车 | electric scooter | 很多人骑电动车上班。 | Many people ride electric scooters to work.
+三轮车 | tricycle | 老人骑三轮车卖菜。 | The old man sells vegetables on a tricycle.
+共享单车 | shared bike | 我扫码骑共享单车。 | I scan a code to ride a shared bike.
+电车 | tram | 这座城市有老式电车。 | This city has old-fashioned trams.
+轻轨 | light rail | 轻轨连接机场和市区。 | Light rail links the airport and downtown.
+大巴 | coach | 我们坐大巴去长城。 | We take a coach to the Great Wall.
+长途汽车 | long-distance bus | 长途汽车要坐五个小时。 | The long-distance bus takes five hours.
+校车 | school bus | 校车八点到学校。 | The school bus reaches school at eight.
+面包车 | minivan | 我们租了一辆面包车。 | We rented a minivan.
+救护车 | ambulance | 救护车开得很快。 | The ambulance drives very fast.
+消防车 | fire engine | 消防车来灭火了。 | The fire engine came to put out the fire.
+警车 | police car | 警车在路口等着。 | A police car waits at the intersection.
+直升机 | helicopter | 直升机在山顶降落。 | The helicopter landed on the mountain top.
+游轮 | cruise ship | 他们坐游轮去日本。 | They took a cruise ship to Japan.
+渡轮 | ferry | 渡轮每半小时一班。 | The ferry runs every half hour.
+码头 | dock; pier | 码头上有很多船。 | There are many boats at the pier.
+港口 | port | 上海是一个大港口。 | Shanghai is a big port.
+缆车 | cable car | 我们坐缆车上山。 | We take the cable car up the mountain.
+出租 | rent out | 这里有自行车出租。 | Bicycles are for rent here.
+租车 | rent a car | 我们在机场租车。 | We rent a car at the airport.
+网约车 | ride-hailing car | 我用手机叫网约车。 | I call a ride-hailing car with my phone.
+叫车 | call a cab | 我在手机上叫车。 | I call a cab on my phone.
+停车 | park; stop a vehicle | 这里不能停车。 | You cannot park here.
+停车场 | parking lot | 停车场在商场地下。 | The parking lot is under the mall.
+加油 | refuel | 车没油了，要去加油。 | The car is out of fuel; I need to fill up.
+加油站 | gas station | 前面有一个加油站。 | There is a gas station ahead.
+充电桩 | charging post | 停车场里有充电桩。 | There are charging posts in the parking lot.
+油 | oil; gasoline | 这辆车很省油。 | This car saves fuel.
+驾照 | driver's license | 我考到了驾照。 | I passed my driving test.
+驾驶 | drive; pilot | 他驾驶技术很好。 | His driving skill is very good.
+方向盘 | steering wheel | 他双手握着方向盘。 | He holds the steering wheel with both hands.
+刹车 | brake | 前面有人，他赶快刹车。 | Someone was ahead, so he braked quickly.
+轮胎 | tire | 我的轮胎没气了。 | My tire is flat.
+后备箱 | trunk | 把行李放进后备箱。 | Put the luggage into the trunk.
+导航 | navigation | 我用手机导航找路。 | I find my way with phone navigation.
+高速公路 | highway | 高速公路上车很多。 | There are many cars on the highway.
+收费站 | toll booth | 前面是收费站。 | There is a toll booth ahead.
+过路费 | toll | 这段路要交过路费。 | You must pay a toll on this stretch.
+马路 | road; street | 过马路要看红绿灯。 | Look at the traffic lights when crossing the road.
+街道 | street | 这条街道很安静。 | This street is quiet.
+大街 | main street | 大街上人来人往。 | There are crowds on the main street.
+路口 | intersection | 在下一个路口右转。 | Turn right at the next intersection.
+十字路口 | crossroads | 十字路口有一个加油站。 | There is a gas station at the crossroads.
+红绿灯 | traffic light | 红绿灯坏了。 | The traffic light is broken.
+斑马线 | crosswalk | 请走斑马线。 | Please use the crosswalk.
+人行道 | sidewalk | 请走人行道。 | Please walk on the sidewalk.
+天桥 | pedestrian overpass | 我们从天桥过马路。 | We cross the road via the overpass.
+地下通道 | underpass | 地下通道里有很多商店。 | There are many shops in the underpass.
+桥 | bridge | 这座桥很长。 | This bridge is very long.
+隧道 | tunnel | 火车穿过一条隧道。 | The train passes through a tunnel.
+堵车 | traffic jam | 早上上班时常常堵车。 | There is often a traffic jam during morning rush hour.
+交通 | traffic; transport | 这里的交通很方便。 | Transportation here is very convenient.
+高峰期 | rush hour | 高峰期地铁很挤。 | The subway is packed during rush hour.
+违章 | violate traffic rules | 他开车违章被罚款了。 | He was fined for a traffic violation.
+罚款 | fine | 乱停车要罚款。 | Illegal parking is fined.
+事故 | accident | 路上发生了一起事故。 | An accident occurred on the road.
+绕路 | detour | 前面修路，我们要绕路。 | The road ahead is under repair, so we must detour.
+迷路 | get lost | 我在城里迷路了。 | I got lost in the city.
+方向 | direction | 你走错方向了。 | You are going the wrong way.
+东 | east | 太阳从东边升起。 | The sun rises in the east.
+南 | south | 我家在城南。 | My home is in the south of the city.
+西 | west | 医院在学校的西边。 | The hospital is west of the school.
+北 | north | 北京在中国的北方。 | Beijing is in the north of China.
+东边 | east side | 酒店在车站东边。 | The hotel is east of the station.
+旁边 | beside | 超市在银行旁边。 | The supermarket is next to the bank.
+对面 | opposite | 邮局在医院对面。 | The post office is opposite the hospital.
+附近 | nearby | 这附近有地铁站吗？ | Is there a subway station near here?
+直走 | go straight | 直走五百米就到了。 | Go straight for five hundred meters and you're there.
+左转 | turn left | 到路口左转。 | Turn left at the intersection.
+右转 | turn right | 红灯时不能右转。 | You cannot turn right at a red light.
+掉头 | make a U-turn | 前面可以掉头。 | You can make a U-turn ahead.
+远 | far | 机场离这里很远。 | The airport is far from here.
+近 | near | 酒店离车站很近。 | The hotel is close to the station.
+公里 | kilometer | 从这里到机场十公里。 | It is ten kilometers from here to the airport.
+米 | meter | 往前走一百米。 | Walk a hundred meters forward.
+问路 | ask for directions | 我向路人问路。 | I asked a passer-by for directions.
+请问 | excuse me; may I ask | 请问，去火车站怎么走？ | Excuse me, how do I get to the train station?
+怎么走 | how to get there | 去长城怎么走？ | How do I get to the Great Wall?
+住宿 | accommodation | 我们的住宿很便宜。 | Our accommodation is cheap.
+旅馆 | inn; hotel | 这家旅馆很安静。 | This inn is very quiet.
+青年旅舍 | youth hostel | 我住在青年旅舍。 | I stay at a youth hostel.
+民宿 | homestay | 我们订了一间海边的民宿。 | We booked a seaside homestay.
+房间 | room | 我的房间在五楼。 | My room is on the fifth floor.
+单人间 | single room | 我要一个单人间。 | I want a single room.
+双人间 | double room | 双人间一晚三百块。 | A double room costs three hundred yuan a night.
+标准间 | standard room | 标准间有两张床。 | A standard room has two beds.
+套房 | suite | 我们住在套房里。 | We stay in a suite.
+前台 | front desk | 请到前台办理入住。 | Please check in at the front desk.
+入住 | check in | 我们下午三点入住。 | We check in at three in the afternoon.
+退房 | check out | 退房时间是中午十二点。 | Check-out time is noon.
+房卡 | room card | 我的房卡丢了。 | I lost my room card.
+押金 | deposit | 入住要交五百元押金。 | You must pay a 500 yuan deposit on check-in.
+早餐 | breakfast | 酒店提供免费早餐。 | The hotel offers free breakfast.
+叫醒服务 | wake-up call | 请明早六点给我叫醒服务。 | Please give me a wake-up call at six tomorrow.
+无线网 | Wi-Fi | 房间里有无线网。 | The room has Wi-Fi.
+空调 | air conditioner | 房间里的空调坏了。 | The air conditioner in the room is broken.
+热水 | hot water | 这里二十四小时有热水。 | There is hot water all day here.
+毛巾 | towel | 请再给我一条毛巾。 | Please give me another towel.
+拖鞋 | slippers | 酒店提供一次性拖鞋。 | The hotel provides disposable slippers.
+电梯 | elevator | 电梯在左边。 | The elevator is on the left.
+楼层 | floor | 这个楼层是几层？ | Which floor is this level?
+客房服务 | room service | 我们叫了客房服务。 | We ordered room service.
+订房 | book a room | 我想在网上订房。 | I want to book a room online.
+景点 | scenic spot | 这个城市有很多景点。 | The city has many attractions.
+风景 | scenery | 山上的风景很美。 | The scenery on the mountain is beautiful.
+名胜古迹 | historic sites | 西安有很多名胜古迹。 | Xi'an has many historic sites.
+故宫 | Forbidden City | 我们参观了故宫。 | We visited the Forbidden City.
+长城 | Great Wall | 长城是中国的象征。 | The Great Wall is a symbol of China.
+博物馆 | museum | 博物馆星期一不开门。 | The museum is closed on Mondays.
+公园 | park | 公园里有一个湖。 | There is a lake in the park.
+动物园 | zoo | 周末我们去动物园。 | We go to the zoo at the weekend.
+海滩 | beach | 我们在海滩上散步。 | We walked along the beach.
+海边 | seaside | 夏天很多人去海边。 | Many people go to the seaside in summer.
+山 | mountain | 我们周末去爬山。 | We go mountain climbing at weekends.
+湖 | lake | 湖水很清。 | The lake water is clear.
+爬山 | hike; climb | 我喜欢周末爬山。 | I like hiking at weekends.
+参观 | visit | 我们明天参观博物馆。 | We visit the museum tomorrow.
+拍照 | take photos | 这里可以拍照吗？ | Can we take photos here?
+照相机 | camera | 他带了一台照相机。 | He brought a camera.
+门票 | admission ticket | 门票八十块。 | The admission ticket costs eighty yuan.
+开放 | open | 景区早上八点开放。 | The scenic area opens at eight a.m.
+营业时间 | opening hours | 请问营业时间是几点？ | What are the opening hours?
+纪念品 | souvenir | 我给朋友买了纪念品。 | I bought souvenirs for friends.
+特产 | local specialty | 这里的特产是茶叶。 | The local specialty here is tea.
+旅游团 | tour group | 我们跟旅游团去云南。 | We go to Yunnan with a tour group.
+自由行 | independent travel | 我们这次是自由行。 | This time we are traveling independently.
+背包 | backpack | 他背着背包去旅行。 | He travels with a backpack.
+行程 | itinerary | 我们的行程安排得很满。 | Our itinerary is packed.
+攻略 | travel guide | 出发前我先看了旅游攻略。 | I read a travel guide before leaving.
+假期 | holiday | 假期我想去海南。 | I want to go to Hainan during the holiday.
+度假 | vacation | 他们去海边度假。 | They are on vacation at the seaside.
+出差 | business trip | 他下周去上海出差。 | He goes to Shanghai on a business trip next week.
+出国 | go abroad | 我第一次出国。 | It's my first time going abroad.
+回国 | return to one's country | 他下个月回国。 | He returns home next month.
+旅行社 | travel agency | 旅行社帮我们订了机票。 | The travel agency booked flights for us.
+翻译 | translator; translate | 我们请了一位翻译。 | We hired a translator.
+兑换 | exchange | 我想兑换一点人民币。 | I'd like to exchange some RMB.
+汇率 | exchange rate | 今天的汇率是多少？ | What is today's exchange rate?
+现金 | cash | 这家店只收现金。 | This shop only takes cash.
+扫码 | scan a code | 请扫码付款。 | Please scan the code to pay.
+乘车 | take a ride | 乘车请扶好扶手。 | Please hold the handrail when riding.
+乘坐 | travel by | 欢迎乘坐本次列车。 | Welcome aboard this train.
+上船 | board a ship | 乘客可以上船了。 | Passengers may now board.
+晕车 | carsick | 我坐长途车会晕车。 | I get carsick on long bus rides.
+晕机 | airsick | 他一坐飞机就晕机。 | He gets airsick as soon as he flies.
+晕船 | seasick | 他坐船容易晕船。 | He gets seasick easily on boats.

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Database, Download, QrCode, Trash2, Upload, X, Zap } from 'lucide-react';
 import type { CourseId, Curriculum, PinyinHelperMode, Settings, StudyMode, ThemePref, UserState } from '../types';
-import { getCourseConfig, languageCourses } from '../data/courses';
+import { courseVars, getCourseConfig, languageCourses } from '../data/courses';
 import { SPEECH_RATES, type SpeechApi } from '../utils/speech';
 import { createDefaultState, exportBackup, parseBackup, type StorageBackend } from '../utils/storage';
 import { createEmptyGrammarProgress, exportableGrammarProgress, importGrammarProgress, saveGrammarProgress } from '../grammar';
@@ -22,6 +22,7 @@ interface Props {
   onClose: () => void;
   onOpenSyncModal: () => void;
   onSwitchCourse?: (course: CourseId) => void;
+  onOpenCatalogue?: () => void;
 }
 
 const BACKEND_LABEL: Record<StorageBackend, MessageKey> = {
@@ -48,11 +49,12 @@ export function SettingsModal({
   onClose,
   onOpenSyncModal,
   onSwitchCourse,
+  onOpenCatalogue,
 }: Props) {
   const syncKey = getStoredSyncKey();
   const s = state.settings;
   const course = getCourseConfig(s.course);
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
   const set = (patch: Partial<Settings>) => onChangeSettings({ ...s, ...patch });
   const fileRef = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState<{ ok: boolean; text: string } | null>(null);
@@ -127,6 +129,19 @@ export function SettingsModal({
               );
             })}
           </div>
+          {onOpenCatalogue && (
+            <button
+              type="button"
+              onClick={onOpenCatalogue}
+              data-testid="settings-open-catalogue"
+              className="mt-2 w-full rounded-xl border border-slate-200 px-3 py-2 text-left text-sm font-medium hover:bg-slate-50 dark:border-slate-700 dark:hover:bg-slate-800"
+            >
+              {t('catalogue.open')}
+              {course.kind === 'specialty' && (
+                <span className="block text-xs font-normal text-slate-500">{t(course.cardTitleKey, courseVars(course, lang))}</span>
+              )}
+            </button>
+          )}
         </Group>
 
         <Group title={t('settings.group.language')}>

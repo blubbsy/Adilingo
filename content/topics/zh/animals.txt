@@ -1,0 +1,204 @@
+@pack | animals | Animals & Wildlife | 动物与自然 | 🐼 | nature | Pets, farm animals, wild creatures, insects, and ocean life.
+动物 | animal | 我最喜欢的动物是熊猫。 | My favorite animal is the panda.
+宠物 | pet | 我家有两只宠物。 | We have two pets at home.
+狗 | dog | 这只狗很聪明。 | This dog is very smart.
+猫 | cat | 小猫在沙发上睡觉。 | The kitten is sleeping on the sofa.
+鸟 | bird | 树上有一只小鸟。 | There is a little bird in the tree.
+鱼 | fish | 池塘里有很多鱼。 | There are many fish in the pond.
+马 | horse | 他骑着一匹白马。 | He rides a white horse.
+牛 | cow; ox | 农场里有十头牛。 | There are ten cattle on the farm.
+奶牛 | dairy cow | 奶牛每天产很多牛奶。 | Dairy cows produce a lot of milk every day.
+羊 | sheep; goat | 山坡上有一群羊。 | There is a flock of sheep on the hillside.
+猪 | pig | 小猪喜欢在泥里玩。 | Piglets like to play in the mud.
+鸡 | chicken | 农民养了很多鸡。 | The farmer raises many chickens.
+鸭子 | duck | 池塘里有三只鸭子。 | There are three ducks in the pond.
+鹅 | goose | 一只大白鹅在河边游泳。 | A big white goose is swimming by the river.
+兔子 | rabbit | 兔子爱吃胡萝卜。 | Rabbits love to eat carrots.
+兔 | rabbit; hare | 野兔跑得非常快。 | Hares run very fast.
+熊猫 | panda | 熊猫喜欢吃竹子。 | Pandas like to eat bamboo.
+大熊猫 | giant panda | 大熊猫是中国的国宝。 | The giant panda is China's national treasure.
+老虎 | tiger | 老虎是森林里的王者。 | The tiger is the king of the forest.
+虎 | tiger | 他属虎。 | He was born in the year of the tiger.
+狮子 | lion | 狮子在草原上休息。 | The lion is resting on the grassland.
+大象 | elephant | 大象的鼻子很长。 | The elephant has a very long trunk.
+猴子 | monkey | 猴子在树上跳来跳去。 | The monkey jumps around in the trees.
+猴 | monkey | 这只猴很调皮。 | This monkey is very naughty.
+熊 | bear | 熊冬天会冬眠。 | Bears hibernate in winter.
+蛇 | snake | 草丛里有一条蛇。 | There is a snake in the grass.
+龟 | turtle | 这只龟活了一百多年。 | This turtle has lived for over a hundred years.
+鹿 | deer | 森林里有一只鹿。 | There is a deer in the forest.
+狼 | wolf | 狼晚上在山里叫。 | Wolves howl in the mountains at night.
+蝴蝶 | butterfly | 花园里飞着几只蝴蝶。 | Several butterflies are flying in the garden.
+蜜蜂 | bee | 蜜蜂在花上采蜜。 | Bees collect honey from flowers.
+鹰 | eagle | 老鹰在天上盘旋。 | The eagle circles in the sky.
+乌龟 | turtle; tortoise | 乌龟爬得很慢。 | Turtles crawl very slowly.
+狐狸 | fox | 狐狸是一种聪明的动物。 | The fox is a smart animal.
+企鹅 | penguin | 企鹅生活在寒冷的南极。 | Penguins live in the cold Antarctic.
+海豚 | dolphin | 海豚对人类非常友好。 | Dolphins are very friendly towards humans.
+小狗 | puppy | 小狗跟着我回了家。 | The puppy followed me home.
+小猫 | kitten | 这只小猫才两个月大。 | This kitten is only two months old.
+小鸟 | little bird | 小鸟在窗外唱歌。 | A little bird is singing outside the window.
+小鸡 | chick | 母鸡带着一群小鸡。 | The hen leads a group of chicks.
+母鸡 | hen | 母鸡每天下一个蛋。 | The hen lays one egg every day.
+公鸡 | rooster | 公鸡早上叫醒了我们。 | The rooster woke us up in the morning.
+老鼠 | mouse; rat | 猫在抓老鼠。 | The cat is catching a mouse.
+鼠 | rat; mouse | 他属鼠。 | He was born in the year of the rat.
+松鼠 | squirrel | 松鼠在树上找松果。 | The squirrel looks for pine cones in the tree.
+仓鼠 | hamster | 我养了一只小仓鼠。 | I keep a little hamster.
+豚鼠 | guinea pig | 豚鼠是很受欢迎的宠物。 | Guinea pigs are popular pets.
+刺猬 | hedgehog | 刺猬遇到危险会缩成一团。 | A hedgehog curls into a ball when in danger.
+蝙蝠 | bat | 蝙蝠晚上出来找食物。 | Bats come out to find food at night.
+袋鼠 | kangaroo | 袋鼠的孩子住在妈妈的袋子里。 | The baby kangaroo lives in its mother's pouch.
+考拉 | koala | 考拉整天都在睡觉。 | Koalas sleep all day long.
+长颈鹿 | giraffe | 长颈鹿的脖子特别长。 | The giraffe has an especially long neck.
+斑马 | zebra | 斑马身上有黑白条纹。 | Zebras have black and white stripes.
+河马 | hippopotamus | 河马白天泡在水里。 | Hippos stay in the water during the day.
+犀牛 | rhinoceros | 犀牛头上有一只角。 | The rhinoceros has a horn on its head.
+骆驼 | camel | 骆驼可以在沙漠里走很远。 | Camels can walk far in the desert.
+豹子 | leopard | 豹子跑得非常快。 | The leopard runs extremely fast.
+猎豹 | cheetah | 猎豹是跑得最快的陆地动物。 | The cheetah is the fastest land animal.
+黑熊 | black bear | 山里有几只黑熊。 | There are several black bears in the mountains.
+北极熊 | polar bear | 北极熊生活在冰雪里。 | Polar bears live in ice and snow.
+棕熊 | brown bear | 棕熊喜欢吃鱼。 | Brown bears like to eat fish.
+猩猩 | orangutan; gorilla | 猩猩和人很像。 | Great apes look much like humans.
+大猩猩 | gorilla | 大猩猩力气很大。 | Gorillas are very strong.
+狗熊 | black bear | 狗熊在森林里找蜂蜜。 | The bear looks for honey in the forest.
+野猪 | wild boar | 野猪经常来山下的田里。 | Wild boars often come to the fields below the mountain.
+山羊 | goat | 山羊在山坡上吃草。 | The goats graze on the hillside.
+绵羊 | sheep | 绵羊的毛可以做毛衣。 | Sheep's wool can be made into sweaters.
+羊羔 | lamb | 羊羔跟在妈妈后面。 | The lamb follows behind its mother.
+小牛 | calf | 小牛刚出生就能站起来。 | A calf can stand up right after birth.
+水牛 | water buffalo | 农民用水牛耕田。 | Farmers plow fields with water buffalo.
+牦牛 | yak | 牦牛生活在高原上。 | Yaks live on the plateau.
+驴 | donkey | 他骑着一头小驴。 | He rides a little donkey.
+骡子 | mule | 骡子可以驮很重的东西。 | Mules can carry very heavy loads.
+小马 | pony; foal | 小马在草地上跑。 | The foal runs on the grass.
+鸽子 | pigeon; dove | 广场上有很多鸽子。 | There are many pigeons in the square.
+麻雀 | sparrow | 麻雀在屋檐下做窝。 | Sparrows build nests under the eaves.
+燕子 | swallow | 春天燕子飞回来了。 | The swallows fly back in spring.
+喜鹊 | magpie | 喜鹊在树上叫。 | A magpie is calling in the tree.
+乌鸦 | crow | 一只乌鸦站在屋顶上。 | A crow is standing on the roof.
+老鹰 | eagle | 老鹰抓住了一只兔子。 | The eagle caught a rabbit.
+猫头鹰 | owl | 猫头鹰在夜里捕食。 | Owls hunt at night.
+啄木鸟 | woodpecker | 啄木鸟在树上啄虫子。 | The woodpecker pecks at insects on the tree.
+鹦鹉 | parrot | 这只鹦鹉会说话。 | This parrot can talk.
+孔雀 | peacock | 孔雀开屏非常漂亮。 | A peacock fanning its tail is beautiful.
+天鹅 | swan | 湖里游着两只天鹅。 | Two swans swim on the lake.
+白鹭 | egret | 白鹭站在水田里。 | An egret stands in the paddy field.
+丹顶鹤 | red-crowned crane | 丹顶鹤是长寿的象征。 | The red-crowned crane is a symbol of longevity.
+鹤 | crane | 鹤在湖边慢慢走。 | A crane walks slowly by the lake.
+海鸥 | seagull | 海鸥在海面上飞。 | Seagulls fly over the sea.
+火鸡 | turkey | 感恩节人们吃火鸡。 | People eat turkey on Thanksgiving.
+鸵鸟 | ostrich | 鸵鸟不会飞但跑得很快。 | Ostriches cannot fly but run fast.
+翅膀 | wing | 小鸟张开翅膀飞走了。 | The little bird spread its wings and flew away.
+羽毛 | feather | 地上有一根白羽毛。 | There is a white feather on the ground.
+鸟巢 | bird's nest | 树上有一个鸟巢。 | There is a bird's nest in the tree.
+蛋 | egg | 母鸡下了一个蛋。 | The hen laid an egg.
+金鱼 | goldfish | 我家的金鱼是红色的。 | Our goldfish is red.
+鲤鱼 | carp | 池塘里有几条鲤鱼。 | There are a few carp in the pond.
+草鱼 | grass carp | 草鱼的肉很鲜。 | Grass carp meat is tasty.
+鲨鱼 | shark | 鲨鱼是海里的大型鱼类。 | Sharks are large fish of the sea.
+鲸鱼 | whale | 鲸鱼是海里最大的动物。 | The whale is the largest animal in the sea.
+海豹 | seal | 海豹在冰上晒太阳。 | The seal basks in the sun on the ice.
+海狮 | sea lion | 海狮会表演节目。 | Sea lions can perform shows.
+海龟 | sea turtle | 海龟回到沙滩上产卵。 | The sea turtle returns to the beach to lay eggs.
+章鱼 | octopus | 章鱼有八条腿。 | An octopus has eight arms.
+乌贼 | cuttlefish | 乌贼遇到危险会喷墨。 | The cuttlefish squirts ink when in danger.
+水母 | jellyfish | 水母在水里漂来漂去。 | Jellyfish drift in the water.
+海星 | starfish | 沙滩上有一只海星。 | There is a starfish on the beach.
+螃蟹 | crab | 螃蟹横着走路。 | Crabs walk sideways.
+虾 | shrimp | 小虾在水里游。 | The little shrimp swims in the water.
+龙虾 | lobster | 龙虾是一种名贵的海鲜。 | Lobster is a valuable seafood.
+贝壳 | shell | 孩子在海边捡贝壳。 | The child picks up shells by the sea.
+珊瑚 | coral | 海底有漂亮的珊瑚。 | There is beautiful coral on the sea floor.
+青蛙 | frog | 青蛙在荷叶上叫。 | A frog is croaking on a lotus leaf.
+蟾蜍 | toad | 蟾蜍白天躲在石头下面。 | Toads hide under stones during the day.
+蜥蜴 | lizard | 墙上有一只蜥蜴。 | There is a lizard on the wall.
+鳄鱼 | crocodile | 鳄鱼躺在河边晒太阳。 | The crocodile lies on the riverbank in the sun.
+蟒蛇 | python | 蟒蛇能吞下很大的猎物。 | Pythons can swallow large prey.
+眼镜蛇 | cobra | 眼镜蛇有毒。 | Cobras are venomous.
+壁虎 | gecko | 壁虎能在墙上爬。 | Geckos can climb walls.
+变色龙 | chameleon | 变色龙会改变身体的颜色。 | Chameleons change their body color.
+恐龙 | dinosaur | 恐龙在很久以前就灭绝了。 | Dinosaurs went extinct a long time ago.
+昆虫 | insect | 夏天有很多昆虫。 | There are many insects in summer.
+虫子 | bug; worm | 叶子上有一只小虫子。 | There is a little bug on the leaf.
+蚂蚁 | ant | 蚂蚁搬着一粒米。 | The ant carries a grain of rice.
+苍蝇 | fly | 房间里有一只苍蝇。 | There is a fly in the room.
+蚊子 | mosquito | 晚上蚊子咬了我。 | Mosquitoes bit me at night.
+蜘蛛 | spider | 蜘蛛在墙角织网。 | The spider spins a web in the corner.
+蜘蛛网 | spider web | 屋角有一张蜘蛛网。 | There is a spider web in the corner of the room.
+蜻蜓 | dragonfly | 蜻蜓停在荷花上。 | A dragonfly rests on the lotus flower.
+蟋蟀 | cricket | 夜里能听到蟋蟀的叫声。 | You can hear crickets chirping at night.
+蝉 | cicada | 夏天树上有很多蝉。 | There are many cicadas in the trees in summer.
+萤火虫 | firefly | 晚上萤火虫发出亮光。 | Fireflies glow at night.
+甲虫 | beetle | 甲虫的壳很硬。 | The beetle's shell is hard.
+毛毛虫 | caterpillar | 毛毛虫会变成蝴蝶。 | Caterpillars turn into butterflies.
+蜗牛 | snail | 蜗牛爬得很慢。 | Snails crawl very slowly.
+蚯蚓 | earthworm | 下雨后蚯蚓爬出来。 | Earthworms crawl out after the rain.
+蟑螂 | cockroach | 厨房里发现了一只蟑螂。 | A cockroach was found in the kitchen.
+蚕 | silkworm | 蚕吃桑叶，吐出丝。 | Silkworms eat mulberry leaves and spin silk.
+蜂蜜 | honey | 蜜蜂酿出了甜甜的蜂蜜。 | Bees make sweet honey.
+蜂巢 | beehive | 树上有一个大蜂巢。 | There is a big beehive in the tree.
+野生动物 | wild animal | 这里是野生动物保护区。 | This is a wildlife reserve.
+家畜 | livestock | 农场里养着各种家畜。 | Various livestock are raised on the farm.
+家禽 | poultry | 鸡和鸭都是家禽。 | Chickens and ducks are poultry.
+哺乳动物 | mammal | 鲸鱼是哺乳动物。 | Whales are mammals.
+爬行动物 | reptile | 蛇是爬行动物。 | Snakes are reptiles.
+两栖动物 | amphibian | 青蛙是两栖动物。 | Frogs are amphibians.
+鸟类 | birds | 湿地里有很多鸟类。 | There are many birds in the wetlands.
+鱼类 | fish (as a group) | 海里有各种各样的鱼类。 | There are all kinds of fish in the sea.
+食肉动物 | carnivore | 狮子是食肉动物。 | Lions are carnivores.
+食草动物 | herbivore | 牛是食草动物。 | Cows are herbivores.
+濒危动物 | endangered animal | 大熊猫是濒危动物。 | The giant panda is an endangered animal.
+保护动物 | protected animal | 这些鸟是国家保护动物。 | These birds are nationally protected animals.
+动物园 | zoo | 周末我们去动物园玩。 | We go to the zoo on weekends.
+水族馆 | aquarium | 水族馆里有很多海洋动物。 | There are many marine animals in the aquarium.
+农场 | farm | 他在农场里喂牛。 | He feeds cows on the farm.
+草原 | grassland | 马在草原上奔跑。 | Horses run across the grassland.
+森林 | forest | 森林里住着很多动物。 | Many animals live in the forest.
+沙漠 | desert | 骆驼生活在沙漠里。 | Camels live in the desert.
+海洋 | ocean | 海洋里有很多生物。 | There are many creatures in the ocean.
+自然保护区 | nature reserve | 这个自然保护区有很多珍稀动物。 | This nature reserve has many rare animals.
+爪子 | claw; paw | 小猫用爪子抓沙发。 | The kitten scratches the sofa with its claws.
+尾巴 | tail | 狗高兴地摇尾巴。 | The dog wags its tail happily.
+角 | horn; antler | 鹿的角很漂亮。 | The deer's antlers are beautiful.
+牙齿 | tooth | 老虎的牙齿很锋利。 | The tiger's teeth are very sharp.
+鼻子 | nose; trunk | 大象用鼻子喝水。 | Elephants drink water with their trunks.
+皮毛 | fur | 狐狸的皮毛很柔软。 | The fox's fur is very soft.
+鳞 | scale | 鱼身上有一层鳞。 | Fish are covered with scales.
+鳍 | fin | 鲨鱼的背鳍露出水面。 | The shark's dorsal fin is above the water.
+鳃 | gill | 鱼用鳃呼吸。 | Fish breathe with gills.
+壳 | shell | 蜗牛背着一个壳。 | The snail carries a shell on its back.
+爪 | claw | 老鹰的爪很有力。 | The eagle's claws are powerful.
+喂 | to feed | 我每天早上喂猫。 | I feed the cat every morning.
+养 | to raise; to keep | 他在家里养了一只狗。 | He keeps a dog at home.
+饲养 | to raise; to breed | 农民饲养了很多鸡鸭。 | Farmers raise lots of chickens and ducks.
+遛狗 | to walk the dog | 他每天晚上去遛狗。 | He walks the dog every evening.
+叫 | to bark; to call | 狗在门外叫。 | The dog is barking outside the door.
+飞 | to fly | 鸟儿在天空中飞。 | Birds fly in the sky.
+游 | to swim | 鱼在水里游来游去。 | Fish swim around in the water.
+爬 | to crawl; to climb | 猴子爬上了树。 | The monkey climbed up the tree.
+捕食 | to hunt for food | 狮子在夜里捕食。 | Lions hunt at night.
+冬眠 | to hibernate | 青蛙和熊都会冬眠。 | Frogs and bears both hibernate.
+迁徙 | to migrate | 大雁秋天向南迁徙。 | Wild geese migrate south in autumn.
+大雁 | wild goose | 一群大雁飞过天空。 | A flock of wild geese flew across the sky.
+灭绝 | to go extinct | 很多动物已经灭绝了。 | Many animals have gone extinct.
+繁殖 | to breed; to reproduce | 春天是动物繁殖的季节。 | Spring is the breeding season for animals.
+生态 | ecology | 保护生态很重要。 | Protecting the ecology is important.
+生物 | living creature; biology | 海洋里有许多生物。 | There are many living creatures in the ocean.
+物种 | species | 这个物种非常稀有。 | This species is very rare.
+猛兽 | fierce beast | 这个公园里没有猛兽。 | There are no fierce beasts in this park.
+鼠标 | computer mouse | 我的鼠标坏了。 | My computer mouse is broken.
+牛仔 | cowboy | 牛仔骑着马走过沙漠。 | The cowboy rode his horse across the desert.
+龙 | dragon | 龙是中国文化的象征。 | The dragon is a symbol of Chinese culture.
+凤凰 | phoenix | 凤凰是传说中的鸟。 | The phoenix is a legendary bird.
+生肖 | Chinese zodiac animal | 你的生肖是什么？ | What is your zodiac animal?
+属 | to be born in the year of | 我属马。 | I was born in the year of the horse.
+猫咪 | kitty | 猫咪躺在阳光下。 | The kitty lies in the sunshine.
+狗狗 | doggy | 狗狗很喜欢和我玩。 | The doggy loves to play with me.
+熊猫宝宝 | baby panda | 动物园有三只熊猫宝宝。 | The zoo has three baby pandas.
+猎人 | hunter | 猎人在山里打猎。 | The hunter hunts in the mountains.
+笼子 | cage | 鸟被关在笼子里。 | The bird is kept in a cage.
+鱼缸 | fish tank | 鱼缸里有五条金鱼。 | There are five goldfish in the fish tank.
+宠物店 | pet shop | 他在宠物店买了一只猫。 | He bought a cat in the pet shop.
+兽医 | veterinarian | 小狗生病了，要去看兽医。 | The puppy is sick and must see a vet.

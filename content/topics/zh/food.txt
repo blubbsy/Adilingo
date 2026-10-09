@@ -1,0 +1,374 @@
+@pack | food | Food & Dining Out | 美食与餐饮 | 🍜 | food | Dishes, drinks, ordering meals, dining customs, and flavor profiles.
+米饭 | cooked rice | 我每天都吃米饭。 | I eat rice every day.
+面条 | noodles | 他喜欢吃牛肉面条。 | He likes beef noodles.
+面包 | bread | 早上我吃面包和鸡蛋。 | I eat bread and eggs in the morning.
+包子 | steamed stuffed bun | 这个包子里有肉馅。 | This bun has a meat filling.
+饺子 | dumplings | 过年我们包饺子。 | We make dumplings at Chinese New Year.
+火锅 | hot pot | 冬天吃火锅很暖和。 | Eating hot pot in winter keeps you warm.
+牛肉 | beef | 我不吃牛肉。 | I do not eat beef.
+猪肉 | pork | 猪肉在中国很常见。 | Pork is very common in China.
+羊肉 | lamb; mutton | 冬天吃羊肉很补。 | Eating lamb in winter is nourishing.
+鸡肉 | chicken meat | 我喜欢吃烤鸡肉。 | I like to eat roast chicken.
+蔬菜 | vegetables | 多吃蔬菜对身体好。 | Eating more vegetables is good for your health.
+水果 | fruit | 她每天吃很多水果。 | She eats lots of fruit every day.
+苹果 | apple | 这个苹果又脆又甜。 | This apple is crisp and sweet.
+香蕉 | banana | 猴子爱吃香蕉。 | Monkeys love bananas.
+西瓜 | watermelon | 夏天吃西瓜最舒服。 | Eating watermelon in summer is the best.
+鸡蛋 | egg | 我早饭吃了两个鸡蛋。 | I ate two eggs for breakfast.
+牛奶 | milk | 孩子每天喝一杯牛奶。 | The child drinks a glass of milk every day.
+豆浆 | soy milk | 早上喝一杯热豆浆。 | Drink a cup of hot soy milk in the morning.
+咖啡 | coffee | 他每天早上喝咖啡。 | He drinks coffee every morning.
+茶 | tea | 请喝茶。 | Please have some tea.
+绿茶 | green tea | 爸爸喜欢喝绿茶。 | Dad likes drinking green tea.
+红茶 | black tea | 她爱喝加牛奶的红茶。 | She likes black tea with milk.
+啤酒 | beer | 他喝了两杯啤酒。 | He drank two glasses of beer.
+菜单 | menu | 请给我看一下菜单。 | Please show me the menu.
+点菜 | to order dishes | 我们可以点菜了吗？ | May we order now?
+买单 | to pay the bill | 服务员，买单！ | Waiter, the bill please!
+味道 | taste; flavor | 这道菜的味道很好。 | This dish tastes great.
+好吃 | delicious | 这个蛋糕真好吃。 | This cake is really delicious.
+甜 | sweet | 这个西瓜很甜。 | This watermelon is very sweet.
+苦 | bitter | 这药太苦了。 | This medicine is too bitter.
+辣 | spicy | 四川菜很辣。 | Sichuan food is very spicy.
+咸 | salty | 这个汤太咸了。 | This soup is too salty.
+酸 | sour | 柠檬很酸。 | Lemons are very sour.
+饭 | meal; cooked rice | 我们一起吃饭吧。 | Let us have a meal together.
+菜 | dish; vegetable | 这个菜很好吃。 | This dish is very tasty.
+肉 | meat | 他不吃肉。 | He does not eat meat.
+汤 | soup | 妈妈煮的汤很香。 | The soup mom cooked smells great.
+粥 | porridge; congee | 早上我喝了一碗粥。 | I had a bowl of congee this morning.
+饼 | flatbread; pancake | 他买了一张葱油饼。 | He bought a scallion pancake.
+馒头 | steamed bun | 北方人常吃馒头。 | Northerners often eat steamed buns.
+馄饨 | wonton | 一碗热馄饨好暖和。 | A bowl of hot wontons is so warming.
+汤圆 | glutinous rice balls | 元宵节吃汤圆。 | People eat tangyuan at the Lantern Festival.
+粽子 | zongzi; rice dumpling | 端午节要吃粽子。 | People eat zongzi at the Dragon Boat Festival.
+月饼 | mooncake | 中秋节大家吃月饼。 | Everyone eats mooncakes at the Mid-Autumn Festival.
+炒饭 | fried rice | 我点了一份蛋炒饭。 | I ordered a portion of egg fried rice.
+炒面 | fried noodles | 这家的炒面很有名。 | The fried noodles here are famous.
+拉面 | hand-pulled noodles | 兰州拉面非常好吃。 | Lanzhou hand-pulled noodles are delicious.
+米线 | rice noodles | 云南的过桥米线很有名。 | Yunnan crossing-the-bridge rice noodles are famous.
+饭团 | rice ball | 便利店有卖饭团。 | The convenience store sells rice balls.
+寿司 | sushi | 他喜欢吃日本寿司。 | He likes eating Japanese sushi.
+披萨 | pizza | 我们点了一个大披萨。 | We ordered a large pizza.
+汉堡 | hamburger | 孩子想吃汉堡。 | The child wants a hamburger.
+薯条 | french fries | 汉堡配薯条。 | Burgers come with french fries.
+三明治 | sandwich | 午饭我吃了一个三明治。 | I had a sandwich for lunch.
+沙拉 | salad | 她点了一份蔬菜沙拉。 | She ordered a vegetable salad.
+牛排 | steak | 我要一份五分熟的牛排。 | I would like a medium-rare steak.
+意大利面 | pasta | 他最爱吃意大利面。 | He loves pasta the most.
+烤鸭 | roast duck | 北京烤鸭非常有名。 | Peking roast duck is very famous.
+麻婆豆腐 | mapo tofu | 麻婆豆腐又麻又辣。 | Mapo tofu is numbing and spicy.
+宫保鸡丁 | kung pao chicken | 宫保鸡丁是一道川菜。 | Kung pao chicken is a Sichuan dish.
+红烧肉 | red-braised pork | 奶奶做的红烧肉特别香。 | Grandma's red-braised pork is especially fragrant.
+糖醋排骨 | sweet and sour ribs | 孩子们喜欢糖醋排骨。 | Kids love sweet and sour ribs.
+西红柿炒鸡蛋 | stir-fried tomato and egg | 西红柿炒鸡蛋是家常菜。 | Tomato and egg stir-fry is a home-style dish.
+鱼香肉丝 | fish-fragrant pork strips | 鱼香肉丝里没有鱼。 | There is no fish in fish-fragrant pork strips.
+回锅肉 | twice-cooked pork | 回锅肉是四川名菜。 | Twice-cooked pork is a famous Sichuan dish.
+水煮鱼 | boiled fish in chili broth | 水煮鱼很辣。 | Boiled fish in chili broth is very spicy.
+清蒸鱼 | steamed fish | 清蒸鱼的味道很清淡。 | Steamed fish has a light flavor.
+酸辣汤 | hot and sour soup | 来一碗酸辣汤吧。 | Let us have a bowl of hot and sour soup.
+紫菜蛋花汤 | seaweed egg-drop soup | 紫菜蛋花汤做起来很快。 | Seaweed egg-drop soup is quick to make.
+排骨 | spare ribs | 我们炖了排骨汤。 | We stewed a spare-rib soup.
+烧烤 | barbecue | 周末我们去吃烧烤。 | We go out for barbecue on the weekend.
+烤肉 | grilled meat | 韩国烤肉很受欢迎。 | Korean grilled meat is very popular.
+羊肉串 | lamb skewers | 新疆的羊肉串很香。 | Xinjiang lamb skewers smell great.
+串 | skewer | 我要十串烤肉。 | I want ten skewers of grilled meat.
+小吃 | snack; street food | 夜市里有很多小吃。 | The night market has many snacks.
+点心 | dim sum; pastry | 广东人喜欢吃点心。 | Cantonese people like to eat dim sum.
+早茶 | morning tea; dim sum brunch | 周日我们去喝早茶。 | On Sunday we go for morning tea.
+早饭 | breakfast | 你吃早饭了吗？ | Have you had breakfast?
+午饭 | lunch | 中午我和同事一起吃午饭。 | I have lunch with my colleagues at noon.
+晚饭 | dinner | 晚饭后我们去散步。 | We go for a walk after dinner.
+夜宵 | late-night snack | 他常常吃夜宵。 | He often has a late-night snack.
+零食 | snacks | 少吃零食对牙齿好。 | Eating fewer snacks is good for your teeth.
+甜点 | dessert | 饭后我想吃甜点。 | I want dessert after the meal.
+蛋糕 | cake | 今天是我的生日，有蛋糕。 | Today is my birthday and there is cake.
+饼干 | biscuit; cookie | 我买了一包饼干。 | I bought a pack of cookies.
+巧克力 | chocolate | 孩子们都爱吃巧克力。 | All kids love chocolate.
+糖果 | candy | 他口袋里有很多糖果。 | He has lots of candy in his pocket.
+冰淇淋 | ice cream | 夏天我爱吃冰淇淋。 | I love ice cream in summer.
+布丁 | pudding | 这个布丁又软又甜。 | This pudding is soft and sweet.
+面粉 | flour | 做面包需要面粉。 | You need flour to make bread.
+米 | rice (uncooked) | 我买了五公斤米。 | I bought five kilos of rice.
+大米 | rice | 东北大米很好吃。 | Northeastern rice is delicious.
+糯米 | glutinous rice | 粽子是用糯米做的。 | Zongzi are made from glutinous rice.
+小米 | millet | 早上喝小米粥对胃好。 | Millet porridge in the morning is good for the stomach.
+玉米 | corn | 我喜欢吃烤玉米。 | I like roast corn.
+燕麦 | oats | 早饭她喝燕麦粥。 | She has oatmeal for breakfast.
+豆腐 | tofu | 豆腐可以煮汤，也可以炒菜。 | Tofu can be used in soup or stir-fried.
+豆子 | beans | 豆子里有很多蛋白质。 | Beans contain lots of protein.
+黄豆 | soybean | 豆浆是用黄豆做的。 | Soy milk is made from soybeans.
+绿豆 | mung bean | 夏天喝绿豆汤清热。 | Mung bean soup cools you down in summer.
+红豆 | red bean | 红豆沙是甜的。 | Red bean paste is sweet.
+花生 | peanut | 他对花生过敏。 | He is allergic to peanuts.
+芝麻 | sesame | 汤圆里有黑芝麻馅。 | Tangyuan have a black sesame filling.
+核桃 | walnut | 吃核桃对大脑好。 | Eating walnuts is good for the brain.
+坚果 | nuts | 她每天吃一把坚果。 | She eats a handful of nuts every day.
+土豆 | potato | 我喜欢吃炸土豆。 | I like fried potatoes.
+红薯 | sweet potato | 冬天街边有烤红薯。 | There are roasted sweet potatoes on the street in winter.
+西红柿 | tomato | 西红柿可以做汤。 | Tomatoes can be used to make soup.
+黄瓜 | cucumber | 夏天我常吃凉拌黄瓜。 | I often eat cold cucumber salad in summer.
+白菜 | Chinese cabbage | 冬天人们爱吃白菜。 | People love to eat Chinese cabbage in winter.
+青菜 | green vegetables | 妈妈炒了一盘青菜。 | Mom stir-fried a plate of greens.
+菠菜 | spinach | 菠菜有很多铁。 | Spinach contains lots of iron.
+芹菜 | celery | 我不太喜欢芹菜的味道。 | I do not really like the taste of celery.
+生菜 | lettuce | 汉堡里有生菜。 | There is lettuce in the burger.
+西兰花 | broccoli | 西兰花很有营养。 | Broccoli is very nutritious.
+花菜 | cauliflower | 花菜炒肉片很好吃。 | Stir-fried cauliflower with pork slices is tasty.
+卷心菜 | cabbage | 卷心菜可以做沙拉。 | Cabbage can be used for salad.
+胡萝卜 | carrot | 兔子喜欢吃胡萝卜。 | Rabbits like to eat carrots.
+萝卜 | radish | 冬天吃萝卜对身体好。 | Eating radish in winter is good for your health.
+洋葱 | onion | 切洋葱会让人流泪。 | Cutting onions makes people cry.
+葱 | scallion | 汤里撒点葱花。 | Sprinkle some chopped scallion on the soup.
+姜 | ginger | 煮鱼时要放几片姜。 | Add a few slices of ginger when cooking fish.
+蒜 | garlic | 我喜欢放很多蒜。 | I like to add lots of garlic.
+大蒜 | garlic | 大蒜有一种特别的味道。 | Garlic has a special smell.
+辣椒 | chili pepper | 四川人爱吃辣椒。 | Sichuan people love chili peppers.
+青椒 | green pepper | 青椒炒肉是常见的家常菜。 | Pork with green peppers is a common home dish.
+茄子 | eggplant | 红烧茄子是一道好菜。 | Braised eggplant is a good dish.
+南瓜 | pumpkin | 南瓜粥又香又甜。 | Pumpkin porridge is fragrant and sweet.
+冬瓜 | winter melon | 冬瓜汤很清淡。 | Winter melon soup is light.
+丝瓜 | luffa | 夏天丝瓜很便宜。 | Luffa is cheap in summer.
+豆角 | green beans | 豆角要煮熟了再吃。 | Green beans must be cooked through before eating.
+蘑菇 | mushroom | 蘑菇汤很鲜。 | Mushroom soup is very tasty.
+香菇 | shiitake mushroom | 香菇炖鸡很好吃。 | Chicken stewed with shiitake mushrooms is delicious.
+木耳 | wood ear fungus | 凉拌木耳很爽口。 | Cold wood ear salad is refreshing.
+竹笋 | bamboo shoot | 春天的竹笋最嫩。 | Spring bamboo shoots are the most tender.
+莲藕 | lotus root | 莲藕可以炖排骨汤。 | Lotus root can be stewed with ribs.
+海带 | kelp | 海带含有很多碘。 | Kelp contains lots of iodine.
+紫菜 | nori; laver | 寿司外面包着紫菜。 | Sushi is wrapped in nori.
+橙子 | orange | 这个橙子很多汁。 | This orange is very juicy.
+橘子 | tangerine | 冬天我爱吃橘子。 | I like to eat tangerines in winter.
+柠檬 | lemon | 请给我一片柠檬。 | Please give me a slice of lemon.
+葡萄 | grape | 这些葡萄没有籽。 | These grapes are seedless.
+草莓 | strawberry | 草莓是红色的。 | Strawberries are red.
+桃子 | peach | 夏天的桃子又大又甜。 | Summer peaches are big and sweet.
+梨 | pear | 秋天吃梨可以润肺。 | Eating pears in autumn moistens the lungs.
+西柚 | grapefruit | 她早上喝西柚汁。 | She drinks grapefruit juice in the morning.
+芒果 | mango | 芒果是一种热带水果。 | The mango is a tropical fruit.
+菠萝 | pineapple | 菠萝有点酸。 | Pineapple is a little sour.
+荔枝 | lychee | 荔枝是夏天的水果。 | Lychee is a summer fruit.
+龙眼 | longan | 龙眼和荔枝有点像。 | Longans look a bit like lychees.
+榴莲 | durian | 榴莲的味道很特别。 | Durian has a very special smell.
+樱桃 | cherry | 樱桃又小又红。 | Cherries are small and red.
+蓝莓 | blueberry | 她每天吃一小盒蓝莓。 | She eats a small box of blueberries every day.
+杏 | apricot | 杏子熟了。 | The apricots are ripe.
+李子 | plum | 李子有点酸。 | Plums are a bit sour.
+柿子 | persimmon | 秋天的柿子是红色的。 | Autumn persimmons are red.
+石榴 | pomegranate | 石榴里有很多籽。 | A pomegranate has many seeds.
+枣 | jujube; date | 红枣可以泡茶。 | Red dates can be used to make tea.
+哈密瓜 | cantaloupe | 哈密瓜又香又甜。 | Cantaloupe is fragrant and sweet.
+猕猴桃 | kiwi | 猕猴桃含有很多维生素C。 | Kiwis contain lots of vitamin C.
+火龙果 | dragon fruit | 火龙果的肉是红色的。 | The flesh of this dragon fruit is red.
+椰子 | coconut | 他在海边喝椰子汁。 | He drinks coconut juice at the beach.
+柚子 | pomelo | 柚子皮很厚。 | The pomelo has a thick peel.
+山楂 | hawthorn | 冰糖葫芦是用山楂做的。 | Candied haws are made from hawthorn.
+肉丝 | shredded meat | 青椒肉丝是一道家常菜。 | Shredded pork with green pepper is a home dish.
+肉片 | sliced meat | 火锅里涮了很多肉片。 | We cooked lots of sliced meat in the hot pot.
+肉末 | minced meat | 豆腐里放一点肉末。 | Put a little minced meat in the tofu.
+肉馅 | meat filling | 饺子的肉馅是猪肉和白菜。 | The dumpling filling is pork and cabbage.
+瘦肉 | lean meat | 我喜欢吃瘦肉。 | I like to eat lean meat.
+肥肉 | fatty meat | 肥肉吃多了不健康。 | Eating too much fatty meat is unhealthy.
+五花肉 | pork belly | 红烧肉要用五花肉。 | Red-braised pork uses pork belly.
+鸡翅 | chicken wing | 烤鸡翅是孩子们的最爱。 | Roast chicken wings are the kids' favorite.
+鸡腿 | chicken leg | 他啃了一个大鸡腿。 | He chewed on a big chicken leg.
+鸭肉 | duck meat | 鸭肉有点油。 | Duck meat is a little greasy.
+鱼肉 | fish meat | 鱼肉很嫩。 | The fish meat is very tender.
+香肠 | sausage | 早饭有香肠和鸡蛋。 | Breakfast has sausage and eggs.
+火腿 | ham | 三明治里有火腿。 | There is ham in the sandwich.
+培根 | bacon | 我早上煎了培根。 | I fried bacon in the morning.
+海鲜 | seafood | 海边的海鲜特别新鲜。 | Seafood at the seaside is especially fresh.
+鱼 | fish (as food) | 今晚我们吃鱼。 | We are having fish tonight.
+三文鱼 | salmon | 三文鱼刺身很受欢迎。 | Salmon sashimi is very popular.
+带鱼 | hairtail | 红烧带鱼是一道海鲜。 | Braised hairtail is a seafood dish.
+鱿鱼 | squid | 烤鱿鱼是夜市小吃。 | Grilled squid is a night market snack.
+虾仁 | shelled shrimp | 虾仁炒蛋味道不错。 | Stir-fried shrimp with egg tastes good.
+大闸蟹 | hairy crab | 秋天是吃大闸蟹的季节。 | Autumn is the season for hairy crabs.
+扇贝 | scallop | 蒜蓉扇贝很鲜。 | Garlic scallops are very fresh.
+生蚝 | oyster | 他点了一打生蚝。 | He ordered a dozen oysters.
+盐 | salt | 汤里再放一点盐。 | Add a little more salt to the soup.
+糖 | sugar | 咖啡里要放糖吗？ | Do you want sugar in the coffee?
+油 | cooking oil | 锅里要先放一点油。 | Put a little oil in the pan first.
+醋 | vinegar | 吃饺子要蘸醋。 | Dip dumplings in vinegar.
+酱油 | soy sauce | 红烧肉要放酱油。 | Soy sauce is needed for red-braised pork.
+料酒 | cooking wine | 煮鱼时放一点料酒。 | Add a little cooking wine when cooking fish.
+蚝油 | oyster sauce | 青菜里加点蚝油更香。 | Add some oyster sauce to greens for more flavor.
+豆瓣酱 | broad bean paste | 麻婆豆腐要用豆瓣酱。 | Mapo tofu needs broad bean paste.
+芝麻酱 | sesame paste | 涮羊肉要蘸芝麻酱。 | Dip hot pot mutton in sesame paste.
+番茄酱 | ketchup | 薯条配番茄酱。 | French fries go with ketchup.
+黄油 | butter | 面包上抹一点黄油。 | Spread a little butter on the bread.
+奶油 | cream | 蛋糕上有一层奶油。 | The cake has a layer of cream.
+奶酪 | cheese | 披萨上有很多奶酪。 | There is a lot of cheese on the pizza.
+酸奶 | yogurt | 我早上喝一杯酸奶。 | I drink a cup of yogurt in the morning.
+蜂蜜 | honey | 他在茶里加了一点蜂蜜。 | He added a little honey to his tea.
+胡椒 | pepper | 牛排上撒点胡椒。 | Sprinkle some pepper on the steak.
+花椒 | Sichuan peppercorn | 花椒让菜有麻味。 | Sichuan peppercorns give dishes a numbing taste.
+八角 | star anise | 炖肉时放两颗八角。 | Add two star anise when stewing meat.
+桂皮 | cinnamon bark | 桂皮有一种特别的香味。 | Cinnamon bark has a special fragrance.
+香菜 | coriander; cilantro | 我不要香菜。 | I do not want cilantro.
+味精 | MSG | 这家餐厅不放味精。 | This restaurant does not use MSG.
+鸡精 | chicken bouillon | 汤里不用放鸡精。 | There is no need to add chicken bouillon to the soup.
+调味料 | seasonings | 厨房里有很多调味料。 | There are many seasonings in the kitchen.
+香料 | spices | 印度菜用很多香料。 | Indian food uses lots of spices.
+辣酱 | chili sauce | 我想要一点辣酱。 | I would like some chili sauce.
+淀粉 | starch | 勾芡要用淀粉。 | Thickening requires starch.
+饮料 | drink; beverage | 你想喝什么饮料？ | What drink would you like?
+饮品 | beverages | 这家店的饮品很多。 | This shop has many beverages.
+果汁 | fruit juice | 我要一杯橙汁。 | I would like a glass of orange juice.
+橙汁 | orange juice | 早餐有橙汁和面包。 | Breakfast has orange juice and bread.
+可乐 | cola | 孩子们爱喝可乐。 | The kids love drinking cola.
+汽水 | soda | 夏天喝冰汽水很爽。 | A cold soda is refreshing in summer.
+矿泉水 | mineral water | 请给我一瓶矿泉水。 | Please give me a bottle of mineral water.
+开水 | boiled water | 请给我一杯开水。 | Please give me a glass of boiled water.
+冰水 | ice water | 我不喝冰水。 | I do not drink ice water.
+热水 | hot water | 喝点热水对胃好。 | Drinking some hot water is good for the stomach.
+奶茶 | milk tea | 年轻人爱喝珍珠奶茶。 | Young people love bubble milk tea.
+花茶 | scented tea | 茉莉花茶很香。 | Jasmine tea is fragrant.
+乌龙茶 | oolong tea | 他喜欢喝乌龙茶。 | He likes to drink oolong tea.
+普洱茶 | pu'er tea | 普洱茶越放越香。 | Pu'er tea gets better with age.
+茶叶 | tea leaves | 这是新到的茶叶。 | These are newly arrived tea leaves.
+拿铁 | latte | 我要一杯热拿铁。 | I would like a hot latte.
+美式咖啡 | Americano | 他点了一杯美式咖啡。 | He ordered an Americano.
+红酒 | red wine | 牛排配红酒很合适。 | Red wine goes well with steak.
+白酒 | baijiu; liquor | 白酒的度数很高。 | Baijiu has a high alcohol content.
+葡萄酒 | wine | 这瓶葡萄酒是法国的。 | This bottle of wine is from France.
+黄酒 | rice wine | 绍兴黄酒很有名。 | Shaoxing rice wine is famous.
+鸡尾酒 | cocktail | 酒吧里有各种鸡尾酒。 | The bar has all kinds of cocktails.
+干杯 | cheers; to toast | 来，大家干杯！ | Come on, everybody, cheers!
+酒 | alcohol; wine | 开车不要喝酒。 | Do not drink alcohol when driving.
+冰块 | ice cubes | 请多放点冰块。 | Please put in more ice cubes.
+做饭 | to cook a meal | 我喜欢在家做饭。 | I like to cook at home.
+煮 | to boil | 我煮了一碗面。 | I cooked a bowl of noodles.
+炒 | to stir-fry | 妈妈在炒青菜。 | Mom is stir-frying greens.
+煎 | to pan-fry | 他煎了两个鸡蛋。 | He fried two eggs.
+炸 | to deep-fry | 炸鸡太油了。 | Fried chicken is too greasy.
+蒸 | to steam | 我们蒸了一条鱼。 | We steamed a fish.
+烤 | to bake; to roast | 她烤了一块面包。 | She baked a loaf of bread.
+炖 | to stew | 奶奶炖了一锅鸡汤。 | Grandma stewed a pot of chicken soup.
+烧 | to braise; to cook | 他会烧一手好菜。 | He is a very good cook.
+烫 | to scald; to blanch | 青菜先在开水里烫一下。 | Blanch the greens in boiling water first.
+涮 | to instant-boil in hot pot | 把羊肉片放进锅里涮一下。 | Dip the lamb slices into the pot for a moment.
+拌 | to mix | 把黄瓜和蒜拌在一起。 | Mix the cucumber and garlic together.
+凉拌 | to dress cold; cold dish | 我点了一个凉拌黄瓜。 | I ordered a cold cucumber salad.
+腌 | to marinate; to pickle | 先把肉腌十分钟。 | Marinate the meat for ten minutes first.
+切 | to cut | 把土豆切成小块。 | Cut the potatoes into small pieces.
+剁 | to chop | 他把肉剁成肉末。 | He chopped the meat into mince.
+削 | to peel | 请帮我削苹果。 | Please peel the apple for me.
+洗菜 | to wash vegetables | 我先洗菜，你来切。 | I will wash the vegetables first and you chop.
+和面 | to knead dough | 奶奶在和面包饺子。 | Grandma is kneading dough to make dumplings.
+包 | to wrap | 我们一起包饺子吧。 | Let us make dumplings together.
+擀 | to roll out | 她把面团擀成薄饼。 | She rolled the dough into a thin sheet.
+搅拌 | to stir; to mix | 把鸡蛋和糖搅拌均匀。 | Stir the eggs and sugar evenly.
+加热 | to heat up | 请帮我加热这碗汤。 | Please heat up this bowl of soup for me.
+解冻 | to thaw | 肉要提前一晚解冻。 | The meat needs to be thawed the night before.
+冷冻 | to freeze | 剩下的饺子冷冻起来。 | Freeze the leftover dumplings.
+放盐 | to add salt | 汤里别放太多盐。 | Do not add too much salt to the soup.
+熟 | cooked; ripe | 这块肉还没熟。 | This piece of meat is not cooked yet.
+生 | raw | 生鱼片要吃新鲜的。 | Sashimi must be eaten fresh.
+烤熟 | to roast until done | 红薯已经烤熟了。 | The sweet potato is already roasted through.
+烧焦 | burnt | 饭烧焦了。 | The rice got burnt.
+新鲜 | fresh | 这些蔬菜很新鲜。 | These vegetables are very fresh.
+清淡 | light; bland | 老人喜欢清淡的食物。 | Old people like light food.
+油腻 | greasy | 这道菜太油腻了。 | This dish is too greasy.
+香 | fragrant; tasty | 这道菜好香啊。 | This dish smells so good.
+鲜 | fresh; savory | 这个汤很鲜。 | This soup is very savory.
+麻 | numbing | 花椒吃起来很麻。 | Sichuan peppercorns taste numbing.
+脆 | crispy | 炸鸡的皮又香又脆。 | The skin of the fried chicken is fragrant and crispy.
+嫩 | tender | 这块牛肉很嫩。 | This piece of beef is very tender.
+软 | soft | 米饭煮得很软。 | The rice is cooked soft.
+硬 | hard | 这个面包太硬了。 | This bread is too hard.
+淡 | bland; light | 汤有点淡。 | The soup is a bit bland.
+浓 | strong; thick | 这杯咖啡很浓。 | This cup of coffee is strong.
+爽口 | refreshing | 凉拌菜吃起来很爽口。 | Cold dishes taste refreshing.
+香辣 | spicy and fragrant | 香辣鸡翅很受欢迎。 | Spicy chicken wings are very popular.
+酸甜 | sweet and sour | 糖醋鱼是酸甜味的。 | Sweet and sour fish has a sweet and sour taste.
+微辣 | mildly spicy | 我要微辣的。 | I would like mildly spicy.
+特辣 | extra spicy | 他吃特辣的火锅。 | He eats extra-spicy hot pot.
+不辣 | not spicy | 孩子吃的菜要不辣。 | Food for kids should not be spicy.
+口味 | taste; flavor preference | 每个人的口味不一样。 | Everyone has a different taste.
+胃口 | appetite | 天气热，我没有胃口。 | It is hot and I have no appetite.
+饿 | hungry | 我现在很饿。 | I am very hungry now.
+渴 | thirsty | 跑步后我很渴。 | I was very thirsty after running.
+饱 | full | 我吃饱了。 | I am full.
+吃饭 | to eat a meal | 我们去吃饭吧。 | Let us go eat.
+喝 | to drink | 你想喝什么？ | What would you like to drink?
+尝 | to taste | 你尝尝这个菜。 | Try this dish.
+品尝 | to sample | 游客可以品尝当地小吃。 | Visitors can sample local snacks.
+饭店 | restaurant; hotel | 这家饭店的菜很好吃。 | The food in this restaurant is delicious.
+餐厅 | restaurant | 我们订了一家西餐厅。 | We booked a Western restaurant.
+餐馆 | small restaurant | 街角有一家小餐馆。 | There is a small restaurant on the corner.
+饭馆 | eatery | 这家饭馆很有名。 | This eatery is famous.
+酒楼 | large restaurant | 他们在酒楼办婚宴。 | They hold the wedding banquet at the restaurant.
+食堂 | canteen | 学生在食堂吃午饭。 | Students eat lunch in the canteen.
+快餐 | fast food | 他中午吃快餐。 | He eats fast food at noon.
+自助餐 | buffet | 周末我们去吃自助餐。 | We go to a buffet on the weekend.
+西餐 | Western food | 我们晚上吃西餐。 | We are having Western food tonight.
+中餐 | Chinese food | 外国人也爱吃中餐。 | Foreigners also love Chinese food.
+外卖 | takeaway; food delivery | 我今晚点外卖。 | I will order takeaway tonight.
+打包 | to pack to take away | 请帮我把剩菜打包。 | Please pack the leftovers for me.
+订位 | to reserve a table | 我想订位，两个人。 | I would like to reserve a table for two.
+预订 | to book | 我预订了一张六人桌。 | I booked a table for six.
+位子 | seat | 请问有位子吗？ | Excuse me, are there any seats?
+包间 | private room | 我们订了一个包间。 | We booked a private room.
+服务员 | waiter; waitress | 服务员，请给我菜单。 | Waiter, please give me the menu.
+厨师 | chef | 这家的厨师手艺很好。 | The chef here is very skilled.
+老板 | boss; owner | 老板，再来一碗面。 | Boss, one more bowl of noodles.
+顾客 | customer | 顾客们都很满意。 | The customers are all satisfied.
+客人 | guest | 客人来了，请上菜。 | The guests have arrived, please serve the dishes.
+几位 | how many people | 请问几位？ | How many people, please?
+请问 | excuse me | 请问洗手间在哪里？ | Excuse me, where is the restroom?
+推荐 | to recommend | 你能推荐一道菜吗？ | Can you recommend a dish?
+招牌菜 | signature dish | 这家的招牌菜是烤鱼。 | The signature dish here is grilled fish.
+特色菜 | specialty dish | 这是本店的特色菜。 | This is our house specialty.
+套餐 | set meal | 我点了一份午餐套餐。 | I ordered a lunch set meal.
+主食 | staple food | 米饭是我们的主食。 | Rice is our staple food.
+前菜 | appetizer | 先来一个前菜吧。 | Let us have an appetizer first.
+凉菜 | cold dish | 先点两个凉菜。 | Let us order two cold dishes first.
+热菜 | hot dish | 热菜马上就来。 | The hot dishes are coming right away.
+主菜 | main course | 今天的主菜是牛排。 | Today's main course is steak.
+汤类 | soups | 汤类在菜单的最后一页。 | The soups are on the last page of the menu.
+素菜 | vegetarian dish | 我点了几个素菜。 | I ordered several vegetarian dishes.
+荤菜 | meat dish | 这桌有四个荤菜。 | This table has four meat dishes.
+素食 | vegetarian food | 他吃素食已经五年了。 | He has eaten vegetarian food for five years.
+素食者 | vegetarian | 我是素食者，不吃肉。 | I am a vegetarian and do not eat meat.
+过敏 | allergic; allergy | 我对海鲜过敏。 | I am allergic to seafood.
+忌口 | dietary restriction | 你有什么忌口吗？ | Do you have any dietary restrictions?
+上菜 | to serve dishes | 菜上齐了，请慢用。 | All dishes have been served, please enjoy.
+慢用 | enjoy your meal | 菜都上齐了，请慢用。 | Your dishes are all here, please enjoy.
+加菜 | to order more dishes | 我们想再加一个菜。 | We would like to add another dish.
+续杯 | refill | 咖啡可以免费续杯。 | Coffee refills are free.
+结账 | to settle the bill | 我们要结账。 | We would like to settle the bill.
+账单 | bill | 请把账单给我。 | Please give me the bill.
+发票 | receipt; invoice | 请给我开张发票。 | Please issue me a receipt.
+小费 | tip | 在中国吃饭通常不用给小费。 | You usually do not tip when eating in China.
+请客 | to treat someone | 今天我请客。 | It is my treat today.
+AA制 | to split the bill | 我们AA制吧。 | Let us split the bill.
+折扣 | discount | 这家餐厅周一有折扣。 | This restaurant has a discount on Mondays.
+优惠券 | coupon | 我有一张优惠券。 | I have a coupon.
+餐具 | tableware | 服务员换了新餐具。 | The waiter changed the tableware.
+筷子 | chopsticks | 请给我一双筷子。 | Please give me a pair of chopsticks.
+多谢款待 | thanks for the hospitality | 今天多谢款待。 | Thank you for your hospitality today.
+好好吃 | so yummy | 这个蛋糕好好吃！ | This cake is so yummy!
+不好吃 | not tasty | 这个菜有点不好吃。 | This dish is not very tasty.
+太辣了 | too spicy | 这个菜太辣了。 | This dish is too spicy.
+再来一份 | one more portion | 这个菜很好吃，再来一份。 | This dish is great, one more portion please.
+营养 | nutrition | 蔬菜的营养很丰富。 | Vegetables are rich in nutrition.
+健康 | healthy | 健康饮食很重要。 | A healthy diet is important.
+饮食 | diet | 他的饮食很规律。 | His diet is very regular.
+减肥 | to lose weight | 她正在减肥，不吃甜食。 | She is losing weight and avoids sweets.
+卡路里 | calories | 这个蛋糕的卡路里很高。 | This cake is high in calories.
+维生素 | vitamin | 水果里有很多维生素。 | Fruit contains many vitamins.
+蛋白质 | protein | 鸡蛋含有蛋白质。 | Eggs contain protein.
+脂肪 | fat | 肥肉里有很多脂肪。 | Fatty meat has lots of fat.
+超市 | supermarket | 我去超市买菜。 | I go to the supermarket to buy groceries.
+菜市场 | food market | 奶奶每天去菜市场。 | Grandma goes to the food market every day.
+面馆 | noodle shop | 楼下有一家面馆。 | There is a noodle shop downstairs.
+咖啡馆 | cafe | 我们在咖啡馆见面。 | We meet at the cafe.
+茶馆 | teahouse | 成都的茶馆很多。 | Chengdu has many teahouses.
+面包店 | bakery | 面包店里有刚出炉的面包。 | The bakery has freshly baked bread.
+包装 | packaging | 这些零食的包装很漂亮。 | The packaging of these snacks is pretty.
+过期 | expired | 这盒牛奶已经过期了。 | This carton of milk has expired.
+保质期 | shelf life | 这个面包的保质期是三天。 | This bread has a shelf life of three days.
+剩菜 | leftovers | 晚饭吃剩菜吧。 | Let us have the leftovers for dinner.
+浪费 | to waste | 吃饭不要浪费粮食。 | Do not waste food at meals.
+光盘 | clean your plate | 现在大家提倡光盘行动。 | People now promote the clean-plate campaign.

@@ -1,0 +1,214 @@
+@pack | emotions | Emotions & Personality | 情绪与性格 | 😊 | social | Feelings, moods, mental states, temperament, and personal traits.
+喜欢 | to like | 我喜欢和朋友一起聊天。 | I like chatting with friends.
+爱 | to love | 我爱我的家人。 | I love my family.
+高兴 | happy; glad | 见到你我很高兴。 | I am very glad to see you.
+快乐 | happy; joyful | 祝你生日快乐！ | Happy birthday to you!
+开心 | happy; cheerful | 今天大家都玩得很开心。 | Everyone had a great time today.
+难过 | sad; upset | 听到这个消息，她很难过。 | She was sad to hear this news.
+伤心 | heartbroken; sad | 他失败了，非常伤心。 | He failed and was very sad.
+生气 | angry; to get angry | 妈妈为什么生气了？ | Why did Mom get angry?
+害怕 | afraid; scared | 小孩子晚上害怕黑暗。 | Small children are afraid of the dark at night.
+担心 | to worry | 你别担心，一切都会好的。 | Don't worry, everything will be fine.
+紧张 | nervous; tense | 考试前我总是很紧张。 | I am always nervous before exams.
+兴奋 | excited | 孩子们听说要去公园，非常兴奋。 | The children were very excited to hear they were going to the park.
+满意 | satisfied | 老板对我的工作很满意。 | The boss is very satisfied with my work.
+骄傲 | proud; arrogant | 父母为他的成绩感到骄傲。 | His parents are proud of his results.
+害羞 | shy; embarrassed | 小女孩见到陌生人很害羞。 | The little girl is shy around strangers.
+自信 | confident; self-confidence | 她回答问题时非常自信。 | She is very confident when answering questions.
+热情 | warm; enthusiastic | 房东对我们很热情。 | The landlord is very warm to us.
+认真 | serious; conscientious | 他做事非常认真。 | He is very conscientious in what he does.
+幽默 | humorous | 我的老师很幽默。 | My teacher is very humorous.
+聪明 | smart; clever | 这个孩子很聪明。 | This child is very clever.
+善良 | kind-hearted | 她是一个善良的人。 | She is a kind-hearted person.
+勇敢 | brave | 消防员是勇敢的人。 | Firefighters are brave people.
+耐心 | patient; patience | 老师对学生很有耐心。 | The teacher is very patient with students.
+奇怪 | strange; odd | 这件事真奇怪。 | This matter is really strange.
+孤独 | lonely | 一个人在外地，他感到孤独。 | Alone in another city, he feels lonely.
+轻松 | relaxed; easy | 周末我们可以轻松一下。 | On the weekend we can relax a bit.
+难受 | uncomfortable; upset | 听了这些话，我心里很难受。 | Hearing these words made me feel upset.
+着急 | anxious; in a hurry | 别着急，慢慢说。 | Don't be anxious, speak slowly.
+情绪 | mood; emotion | 他今天情绪不太好。 | He is not in a good mood today.
+心情 | mood; state of mind | 今天我的心情很好。 | My mood is very good today.
+发脾气 | to lose one's temper | 他一不高兴就发脾气。 | He loses his temper whenever he's unhappy.
+感觉 | feeling; to feel | 我感觉有点儿累。 | I feel a little tired.
+感情 | feelings; emotion | 他们之间的感情很深。 | The feelings between them run deep.
+感动 | moved; touched | 这个故事让我很感动。 | This story touched me deeply.
+感谢 | to thank; gratitude | 我非常感谢你的帮助。 | I am very grateful for your help.
+笑 | to smile; to laugh | 她笑起来很好看。 | She looks beautiful when she smiles.
+哭 | to cry | 孩子饿了，哭了起来。 | The child was hungry and started crying.
+微笑 | to smile | 他对我微笑了一下。 | He gave me a smile.
+大笑 | to laugh heartily | 大家听了笑话都大笑起来。 | Everyone burst out laughing at the joke.
+眼泪 | tears | 她的眼泪流了下来。 | Her tears rolled down.
+哭泣 | to weep | 她在房间里小声哭泣。 | She was quietly weeping in her room.
+叹气 | to sigh | 他看着成绩单叹气。 | He sighed looking at the report card.
+尖叫 | to scream | 看到老鼠，她尖叫起来。 | She screamed when she saw the mouse.
+喜悦 | joy; delight | 脸上露出了喜悦的神情。 | A look of delight appeared on his face.
+幸福 | happy; happiness | 一家人在一起很幸福。 | The whole family is happy being together.
+愉快 | pleasant; cheerful | 祝你旅途愉快。 | I wish you a pleasant journey.
+欢乐 | joyous; joy | 院子里充满了欢乐的笑声。 | The yard is full of joyful laughter.
+欣慰 | gratified; comforted | 看到孩子进步，老师很欣慰。 | The teacher is gratified to see the child's progress.
+满足 | content; to satisfy | 他对现在的生活很满足。 | He is content with his present life.
+得意 | pleased with oneself | 他考了第一名，十分得意。 | He came first in the exam and was very pleased with himself.
+自豪 | proud | 我为我的国家感到自豪。 | I feel proud of my country.
+激动 | excited; emotional | 听到好消息，她激动得说不出话。 | She was too emotional to speak at the good news.
+期待 | to look forward to | 我很期待下个月的旅行。 | I am looking forward to next month's trip.
+盼望 | to long for | 孩子们盼望着春节快点儿到。 | The children are longing for the Spring Festival to come soon.
+希望 | to hope; hope | 我希望明天天气好。 | I hope the weather is good tomorrow.
+失望 | disappointed | 比赛输了，大家都很失望。 | Everyone was disappointed that the match was lost.
+绝望 | desperate; hopeless | 在大雪中他感到绝望。 | In the heavy snow he felt hopeless.
+后悔 | to regret | 我后悔没有早点儿学习。 | I regret not having studied earlier.
+遗憾 | regret; pity | 没能参加你的婚礼，我很遗憾。 | I regret that I couldn't attend your wedding.
+内疚 | guilty | 他对自己的错误感到内疚。 | He feels guilty about his mistake.
+惭愧 | ashamed | 做错了事，他很惭愧。 | He felt ashamed of having done wrong.
+抱歉 | sorry | 对不起，让你久等了，真抱歉。 | Sorry to have kept you waiting, I truly apologize.
+尴尬 | awkward; embarrassed | 说错话以后他觉得很尴尬。 | He felt awkward after saying the wrong thing.
+丢脸 | to lose face | 考试作弊真丢脸。 | Cheating on the exam is really shameful.
+羞愧 | ashamed | 他羞愧得低下了头。 | He lowered his head in shame.
+愤怒 | furious; anger | 听到这个决定，大家十分愤怒。 | Everyone was furious on hearing this decision.
+恼火 | annoyed | 噪音让邻居很恼火。 | The noise annoyed the neighbors.
+讨厌 | to dislike; annoying | 我讨厌排很长的队。 | I dislike waiting in long lines.
+烦 | annoyed; bothered | 工作太多，我觉得很烦。 | There is too much work and I feel bothered.
+烦恼 | worries; vexed | 他有很多烦恼。 | He has a lot of worries.
+不满 | dissatisfied | 顾客对服务表示不满。 | The customer expressed dissatisfaction with the service.
+抱怨 | to complain | 他总是抱怨工作太累。 | He always complains that work is too tiring.
+嫉妒 | jealous; to envy | 她嫉妒朋友的成功。 | She is jealous of her friend's success.
+羡慕 | to envy; to admire | 我很羡慕你会说四种语言。 | I really envy that you can speak four languages.
+恨 | to hate | 他恨自己没有早点儿回家。 | He hates that he didn't come home earlier.
+厌倦 | to be tired of | 他厌倦了每天一样的生活。 | He is tired of the same life every day.
+无聊 | bored; boring | 一个人在家真无聊。 | It is really boring to be at home alone.
+寂寞 | lonely | 老人一个人住，常常感到寂寞。 | The old man lives alone and often feels lonely.
+疲劳 | tired; fatigue | 长时间工作让他非常疲劳。 | Working long hours made him very tired.
+累 | tired | 我今天走了很多路，很累。 | I walked a lot today and am very tired.
+压力 | pressure; stress | 最近工作压力很大。 | The work pressure has been heavy recently.
+焦虑 | anxious | 考试前她感到焦虑。 | She felt anxious before the exam.
+忧虑 | worried; concern | 大家对天气感到忧虑。 | Everyone is concerned about the weather.
+不安 | uneasy | 他一晚上都心神不安。 | He felt uneasy all night.
+恐惧 | fear; terror | 黑暗让他感到恐惧。 | The darkness fills him with fear.
+吓 | to frighten | 突然的声音吓了我一跳。 | The sudden noise gave me a fright.
+惊讶 | surprised | 他的话让大家很惊讶。 | His words surprised everyone.
+吃惊 | startled | 听到这个消息，我很吃惊。 | I was shocked to hear this news.
+意外 | unexpected; surprising | 你能来真是个意外。 | It is a real surprise that you could come.
+震惊 | shocked | 这个消息让全国人民震惊。 | This news shocked the entire nation.
+惊喜 | pleasant surprise | 生日那天我收到了一个惊喜。 | I received a pleasant surprise on my birthday.
+好奇 | curious | 孩子对世界充满好奇。 | Children are full of curiosity about the world.
+疑惑 | puzzled | 他疑惑地看着我。 | He looked at me puzzled.
+困惑 | confused | 这个问题让我很困惑。 | This question confuses me a lot.
+冷静 | calm | 遇到危险要保持冷静。 | Stay calm when you meet danger.
+镇定 | composed | 面对记者，他很镇定。 | He remained composed in front of the reporters.
+平静 | peaceful; calm | 湖面非常平静。 | The surface of the lake is very calm.
+安心 | at ease | 听到你平安到达，我就安心了。 | I felt at ease on hearing that you had arrived safely.
+放心 | to set one's mind at rest | 你放心，我会照顾好她。 | Rest assured, I will take good care of her.
+舒服 | comfortable | 躺在沙发上真舒服。 | It is really comfortable lying on the sofa.
+痛苦 | painful; suffering | 失去朋友让他很痛苦。 | Losing his friend caused him great pain.
+悲伤 | sorrowful | 她悲伤地流下了眼泪。 | She shed tears of sorrow.
+悲观 | pessimistic | 不要对未来太悲观。 | Don't be too pessimistic about the future.
+乐观 | optimistic | 他对生活总是很乐观。 | He is always optimistic about life.
+积极 | positive; active | 他对学习的态度很积极。 | His attitude toward study is very positive.
+消极 | negative; passive | 遇到困难不要消极。 | Don't be negative when you meet difficulties.
+沮丧 | dejected | 比赛输了，球员们很沮丧。 | The players were dejected after losing the match.
+郁闷 | depressed; gloomy | 下了一周的雨，我很郁闷。 | It rained for a week and I feel gloomy.
+崩溃 | to break down | 压力太大，他快崩溃了。 | The pressure is so great that he is about to break down.
+抑郁 | depressed; depression | 长期压力会让人抑郁。 | Long-term stress can make people depressed.
+心烦 | upset; vexed | 外面太吵，我心烦。 | It's too noisy outside and I feel vexed.
+心疼 | to feel sorry for; to love dearly | 妈妈心疼孩子这么累。 | Mom feels sorry that the child is so tired.
+同情 | sympathy | 大家对他的遭遇表示同情。 | Everyone expressed sympathy for his misfortune.
+关心 | to care about | 她很关心身边的人。 | She cares about the people around her.
+爱心 | loving heart; compassion | 志愿者们充满爱心。 | The volunteers are full of compassion.
+思念 | to miss; longing | 在国外，他很思念家乡。 | Abroad, he misses his hometown deeply.
+想念 | to miss | 我很想念我的朋友们。 | I miss my friends a lot.
+怀念 | to cherish the memory of | 我常常怀念小时候的生活。 | I often think fondly of my childhood days.
+依赖 | to depend on | 孩子很依赖父母。 | Children rely a lot on their parents.
+信任 | to trust | 我很信任我的同事。 | I trust my colleagues very much.
+相信 | to believe | 我相信你一定能成功。 | I believe you will surely succeed.
+怀疑 | to doubt; to suspect | 我怀疑他在说谎。 | I suspect he is lying.
+安全感 | sense of security | 在家里他很有安全感。 | He feels very secure at home.
+自卑 | inferiority complex | 他因为个子矮而自卑。 | He feels inferior because he is short.
+自尊 | self-respect | 每个人都有自尊。 | Everyone has self-respect.
+虚荣 | vain | 她有点儿虚荣，爱买名牌。 | She is a bit vain and loves buying brand names.
+谦虚 | modest | 他取得了好成绩，但很谦虚。 | He got good results but remains modest.
+自大 | arrogant | 他太自大，听不进别人的意见。 | He is too arrogant to listen to others' opinions.
+傲慢 | arrogant; haughty | 经理的态度很傲慢。 | The manager's attitude is arrogant.
+性格 | personality; character | 我哥哥的性格很开朗。 | My brother has a cheerful personality.
+脾气 | temper | 他的脾气不太好。 | He doesn't have a good temper.
+个性 | individuality | 她是一个很有个性的女孩。 | She is a girl with a lot of individuality.
+气质 | temperament; bearing | 她很有艺术家的气质。 | She has an artistic temperament.
+品质 | quality of character | 诚实是一种好品质。 | Honesty is a good quality.
+内向 | introverted | 他性格内向，不爱说话。 | He is introverted and doesn't like talking.
+外向 | extroverted | 她很外向，朋友很多。 | She is extroverted and has many friends.
+开朗 | cheerful; outgoing | 她是一个开朗的女孩。 | She is a cheerful girl.
+活泼 | lively | 这个孩子活泼可爱。 | This child is lively and lovable.
+安静 | quiet | 他是一个安静的人。 | He is a quiet person.
+沉默 | silent | 会议上他一直保持沉默。 | He remained silent throughout the meeting.
+温柔 | gentle | 老师说话的声音很温柔。 | The teacher's voice is very gentle.
+温和 | mild; gentle | 他的性格很温和。 | He has a mild personality.
+友好 | friendly | 邻居们对我们很友好。 | The neighbors are friendly toward us.
+亲切 | cordial | 她的笑容十分亲切。 | Her smile is very cordial.
+和蔼 | kindly | 那位老人很和蔼。 | That old man is very kindly.
+礼貌 | polite | 这个孩子很有礼貌。 | This child is very polite.
+大方 | generous; natural | 她为人大方，常请朋友吃饭。 | She is generous and often treats friends to meals.
+慷慨 | generous | 他慷慨地帮助了穷人。 | He generously helped the poor.
+小气 | stingy | 他有点儿小气，不爱请客。 | He's a bit stingy and doesn't like treating people.
+吝啬 | miserly | 那位老板很吝啬。 | That boss is very miserly.
+诚实 | honest | 诚实的孩子大家都喜欢。 | Everyone likes an honest child.
+老实 | honest; simple | 他是一个老实人。 | He is an honest man.
+真诚 | sincere | 她的道歉很真诚。 | Her apology is sincere.
+虚伪 | hypocritical | 我不喜欢虚伪的人。 | I don't like hypocritical people.
+可靠 | reliable | 他是一个可靠的同事。 | He is a reliable colleague.
+负责 | responsible | 她对工作非常负责。 | She is very responsible about her work.
+细心 | careful; attentive | 护士们都很细心。 | The nurses are all very attentive.
+粗心 | careless | 他太粗心，把钥匙丢了。 | He was too careless and lost his keys.
+马虎 | careless; sloppy | 做作业不要马虎。 | Don't be sloppy when doing homework.
+谨慎 | cautious | 开车要谨慎。 | One should be cautious when driving.
+大胆 | bold | 他大胆地说出了自己的想法。 | He boldly said out his idea.
+胆小 | timid | 这只小狗很胆小。 | This puppy is very timid.
+勤奋 | hardworking | 他是一个勤奋的学生。 | He is a hardworking student.
+努力 | hardworking; to try hard | 只要努力，就会有进步。 | As long as you work hard, you will make progress.
+懒 | lazy | 他很懒，不爱做家务。 | He is lazy and doesn't like doing housework.
+懒惰 | idle | 懒惰的人很难成功。 | Idle people rarely succeed.
+坚强 | strong-willed | 她是一个坚强的女人。 | She is a strong-willed woman.
+坚持 | to persist | 他每天坚持跑步。 | He persists in running every day.
+顽强 | tenacious | 运动员们顽强地比赛。 | The athletes competed tenaciously.
+固执 | stubborn | 爷爷很固执，不愿意搬家。 | Grandpa is stubborn and doesn't want to move.
+倔强 | obstinate | 这个孩子很倔强。 | This child is very obstinate.
+任性 | willful | 她有点儿任性，常常不听话。 | She is a bit willful and often disobedient.
+调皮 | naughty | 这个男孩特别调皮。 | This boy is especially naughty.
+淘气 | mischievous | 弟弟小时候很淘气。 | My younger brother was mischievous as a child.
+可爱 | cute; lovable | 这只小猫非常可爱。 | This kitten is very cute.
+天真 | innocent; naive | 孩子的笑容天真无邪。 | The child's smile is innocent and pure.
+单纯 | simple; naive | 她的想法很单纯。 | Her thinking is very simple.
+成熟 | mature | 他比同龄人更成熟。 | He is more mature than his peers.
+幼稚 | childish | 他的想法太幼稚了。 | His thinking is too childish.
+聪慧 | intelligent | 这个女孩聪慧过人。 | This girl is exceptionally intelligent.
+机灵 | quick-witted | 他是个机灵的孩子。 | He is a quick-witted child.
+笨 | stupid; clumsy | 我手脚笨，学不会跳舞。 | I am clumsy and can't learn to dance.
+糊涂 | muddled; confused | 我一时糊涂，记错了日期。 | I was muddled for a moment and remembered the wrong date.
+理智 | rational | 面对问题要理智。 | Be rational when you face problems.
+冲动 | impulsive | 做决定时不要冲动。 | Don't be impulsive when making decisions.
+急躁 | impatient; rash | 他性子急躁，做事常出错。 | He is impatient by nature and often makes mistakes.
+稳重 | steady; sedate | 哥哥做事很稳重。 | My older brother is steady in what he does.
+随和 | easygoing | 我的老板很随和。 | My boss is very easygoing.
+乐于助人 | ready to help others | 他是一个乐于助人的人。 | He is a person who is always ready to help others.
+宽容 | tolerant | 对孩子要多一点儿宽容。 | Be a bit more tolerant with children.
+体贴 | considerate | 他对妻子非常体贴。 | He is very considerate toward his wife.
+有趣 | interesting; fun | 他是一个很有趣的人。 | He is a very interesting person.
+风趣 | witty | 他说话很风趣。 | He speaks wittily.
+严肃 | serious; stern | 老板今天的表情很严肃。 | The boss looks stern today.
+严格 | strict | 我们的老师很严格。 | Our teacher is very strict.
+冷淡 | cold; indifferent | 他对客人的态度很冷淡。 | His attitude toward the guests is cold.
+冷漠 | apathetic | 人们对这件事很冷漠。 | People are apathetic about this matter.
+自私 | selfish | 自私的人没有朋友。 | Selfish people have no friends.
+无私 | selfless | 她无私地帮助了每一个人。 | She selflessly helped everyone.
+热心 | warm-hearted | 邻居是个热心人。 | My neighbor is a warm-hearted person.
+正直 | upright | 他是一个正直的人。 | He is an upright man.
+公平 | fair | 老师对每个学生都很公平。 | The teacher is fair to every student.
+自由 | free; freedom | 我们都喜欢自由的生活。 | We all like a free life.
+独立 | independent | 她从小就很独立。 | She has been independent since childhood.
+乐趣 | pleasure; fun | 读书给他带来很多乐趣。 | Reading brings him a lot of pleasure.
+享受 | to enjoy | 我享受每个安静的早晨。 | I enjoy every quiet morning.
+放松 | to relax | 听音乐可以放松心情。 | Listening to music helps you relax.
+冷静下来 | to calm down | 你先冷静下来再说。 | Calm down first and then talk.
+心态 | mindset | 好的心态很重要。 | A good mindset is important.
+心理 | psychology; mental | 他很关注孩子的心理健康。 | He pays close attention to his children's mental health.
+情感 | emotion; feeling | 这首歌表达了深深的情感。 | This song expresses deep emotion.
+表情 | facial expression | 他脸上的表情很痛苦。 | The expression on his face is pained.
+态度 | attitude | 她的态度十分友好。 | Her attitude is very friendly.

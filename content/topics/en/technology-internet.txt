@@ -1,0 +1,222 @@
+@topic | Technology & Internet | 💻
+computer | /kəmˈpjuːtə/ | 电脑 | My computer is very old. | 我的电脑很旧了。 | 1
+laptop | /ˈlæptɒp/ | 笔记本电脑 | She carries her laptop to work. | 她带着笔记本电脑去上班。 | 2
+tablet | /ˈtæblət/ | 平板电脑 | The child reads stories on a tablet. | 孩子在平板电脑上读故事。 | 2
+phone | /fəʊn/ | 手机; 电话 | My phone is on the table. | 我的手机在桌子上。 | 1
+mobile phone | /ˌməʊbaɪl ˈfəʊn/ | 手机 (英) | He lost his mobile phone on the train. | 他在火车上丢了手机。 | 2
+smartphone | /ˈsmɑːtfəʊn/ | 智能手机 | Most people have a smartphone now. | 现在大多数人都有智能手机。 | 2
+screen | /skriːn/ | 屏幕 | The screen is too bright. | 屏幕太亮了。 | 2
+keyboard | /ˈkiːbɔːd/ | 键盘 | I spilled tea on my keyboard. | 我把茶洒在了键盘上。 | 2
+mouse | /maʊs/ | 鼠标 | The mouse does not work. | 鼠标坏了。 | 2
+monitor | /ˈmɒnɪtə/ | 显示器 | I bought a bigger monitor. | 我买了一个更大的显示器。 | 3
+printer | /ˈprɪntə/ | 打印机 | The printer is out of ink. | 打印机没墨了。 | 2
+camera | /ˈkæmərə/ | 相机; 摄像头 | The camera takes sharp photos. | 这台相机拍的照片很清晰。 | 1
+headphones | /ˈhedfəʊnz/ | 耳机 | I wear headphones on the bus. | 我在公交车上戴耳机。 | 2
+speaker | /ˈspiːkə/ | 音箱; 扬声器 | The speaker has a great sound. | 这个音箱音质很棒。 | 2
+battery | /ˈbætəri/ | 电池 | My phone battery is almost dead. | 我手机的电池快没电了。 | 2
+charger | /ˈtʃɑːdʒə/ | 充电器 | Can I borrow your charger? | 我能借用你的充电器吗？ | 2
+cable | /ˈkeɪbl/ | 数据线; 电缆 | This cable is too short. | 这根线太短了。 | 3
+plug | /plʌɡ/ | 插头 | Pull the plug out of the socket. | 把插头从插座上拔下来。 | 2
+button | /ˈbʌtn/ | 按钮 | Press the red button to stop. | 按红色按钮停止。 | 1
+device | /dɪˈvaɪs/ | 设备 | This device measures your heart rate. | 这个设备可以测量你的心率。 | 3
+machine | /məˈʃiːn/ | 机器 | The machine makes a loud noise. | 这台机器噪音很大。 | 2
+gadget | /ˈɡædʒɪt/ | 小装置; 小玩意 | He loves every new gadget. | 他喜欢每一件新小玩意。 | 4
+robot | /ˈrəʊbɒt/ | 机器人 | A robot cleans the floor every day. | 一个机器人每天清扫地板。 | 2
+technology | /tekˈnɒlədʒi/ | 技术; 科技 | Technology changes our lives quickly. | 技术迅速改变着我们的生活。 | 3
+technical | /ˈteknɪkl/ | 技术的 | We had a technical problem. | 我们遇到了技术问题。 | 4
+digital | /ˈdɪdʒɪtl/ | 数字的 | I prefer a digital camera. | 我更喜欢数码相机。 | 3
+electronic | /ɪˌlekˈtrɒnɪk/ | 电子的 | Electronic devices are everywhere. | 电子设备无处不在。 | 3
+internet | /ˈɪntənet/ | 互联网 | I use the internet every day. | 我每天都上网。 | 1
+online | /ˌɒnˈlaɪn/ | 在线的; 联网的 | I bought the shoes online. | 我在网上买了这双鞋。 | 2
+offline | /ˌɒfˈlaɪn/ | 离线的 | The server is offline now. | 服务器现在处于离线状态。 | 4
+website | /ˈwebsaɪt/ | 网站 | The website is easy to use. | 这个网站很好用。 | 2
+web page | /ˈweb peɪdʒ/ | 网页 | The web page loads very slowly. | 这个网页加载很慢。 | 3
+webcam | /ˈwebkæm/ | 网络摄像头 | Turn on your webcam, please. | 请打开你的摄像头。 | 4
+homepage | /ˈhəʊmpeɪdʒ/ | 主页 | Our homepage has a new design. | 我们的主页有了新设计。 | 4
+link | /lɪŋk/ | 链接 | Click the link below. | 点击下面的链接。 | 2
+click | /klɪk/ | 点击 | Click on the icon to open the file. | 点击图标打开文件。 | 2
+double-click | /ˌdʌbl ˈklɪk/ | 双击 | Double-click the folder to open it. | 双击文件夹将其打开。 | 3
+browse | /braʊz/ | 浏览 | I browse the web before bed. | 我睡前浏览网页。 | 3
+browser | /ˈbraʊzə/ | 浏览器 | Update your browser to the latest version. | 请把浏览器更新到最新版本。 | 3
+search engine | /ˈsɜːtʃ endʒɪn/ | 搜索引擎 | A search engine finds web pages for you. | 搜索引擎帮你查找网页。 | 4
+search | /sɜːtʃ/ | 搜索 | Search for the answer online. | 在网上搜索答案。 | 2
+download | /ˌdaʊnˈləʊd/ | 下载 | You can download the app for free. | 你可以免费下载这个应用。 | 2
+upload | /ˌʌpˈləʊd/ | 上传 | I will upload the photos tonight. | 我今晚会上传照片。 | 3
+file | /faɪl/ | 文件 | I saved the file on my desktop. | 我把文件保存在了桌面上。 | 2
+folder | /ˈfəʊldə/ | 文件夹 | Put the photos into one folder. | 把照片都放进一个文件夹。 | 3
+document | /ˈdɒkjumənt/ | 文档 | I sent you the document by email. | 我把文档用邮件发给你了。 | 3
+save | /seɪv/ | 保存 | Remember to save your work. | 记得保存你的工作。 | 2
+delete | /dɪˈliːt/ | 删除 | Do not delete this file. | 不要删除这个文件。 | 3
+copy | /ˈkɒpi/ | 复制 | Copy the text and paste it here. | 复制文本并粘贴到这里。 | 2
+paste | /peɪst/ | 粘贴 | Paste the link into the box. | 把链接粘贴到框里。 | 3
+undo | /ʌnˈduː/ | 撤销 | Press undo to remove the last change. | 按撤销键删除上一次更改。 | 3
+type | /taɪp/ | 打字; 输入 | I can type very fast. | 我打字很快。 | 2
+password | /ˈpɑːswɜːd/ | 密码 | Never share your password. | 千万不要分享你的密码。 | 2
+username | /ˈjuːzəneɪm/ | 用户名 | Please enter your username. | 请输入你的用户名。 | 3
+log in | /lɒɡ ɪn/ | 登录 | You must log in to see your account. | 你必须登录才能查看你的账户。 | 3
+log out | /lɒɡ aʊt/ | 登出 | Don't forget to log out. | 别忘了登出。 | 3
+sign up | /saɪn ʌp/ | 注册 | It is free to sign up. | 注册是免费的。 | 3
+account | /əˈkaʊnt/ | 账号 | I created an account on the site. | 我在网站上创建了一个账号。 | 3
+profile | /ˈprəʊfaɪl/ | 个人资料 | Update your profile photo. | 更新你的个人资料照片。 | 3
+settings | /ˈsetɪŋz/ | 设置 | Open the settings menu. | 打开设置菜单。 | 3
+menu | /ˈmenjuː/ | 菜单 | Choose an option from the menu. | 从菜单中选择一个选项。 | 2
+icon | /ˈaɪkɒn/ | 图标 | Tap the icon to start the app. | 点按图标启动应用。 | 3
+app | /æp/ | 应用程序 | This app helps me learn English. | 这个应用帮我学英语。 | 2
+application | /ˌæplɪˈkeɪʃn/ | 应用程序 | The application runs on any computer. | 这个应用程序可在任何电脑上运行。 | 4
+software | /ˈsɒftweə/ | 软件 | The software is easy to install. | 这个软件很容易安装。 | 3
+hardware | /ˈhɑːdweə/ | 硬件 | The hardware is very expensive. | 这些硬件非常贵。 | 4
+program | /ˈprəʊɡræm/ | 程序 | The program crashed twice today. | 这个程序今天崩溃了两次。 | 3
+install | /ɪnˈstɔːl/ | 安装 | I need to install a new program. | 我需要安装一个新程序。 | 3
+update | /ˌʌpˈdeɪt/ | 更新 | Please update the app. | 请更新这个应用。 | 3
+upgrade | /ˌʌpˈɡreɪd/ | 升级 | I want to upgrade my computer. | 我想升级我的电脑。 | 4
+version | /ˈvɜːʃn/ | 版本 | The new version has more features. | 新版本有更多功能。 | 3
+feature | /ˈfiːtʃə/ | 功能; 特色 | The phone has a useful new feature. | 这部手机有一个实用的新功能。 | 4
+system | /ˈsɪstəm/ | 系统 | The system is down for repairs. | 系统因维修而停机。 | 3
+operating system | /ˈɒpəreɪtɪŋ ˈsɪstəm/ | 操作系统 | Windows is an operating system. | Windows是一种操作系统。 | 4
+interface | /ˈɪntəfeɪs/ | 界面 | The interface is clean and simple. | 界面简洁易用。 | 5
+user | /ˈjuːzə/ | 用户 | Each user gets a free account. | 每位用户都获得一个免费账号。 | 3
+user-friendly | /ˌjuːzə ˈfrendli/ | 用户友好的 | The app is simple and user-friendly. | 这个应用简单且用户友好。 | 4
+wireless | /ˈwaɪələs/ | 无线的 | I use a wireless mouse. | 我使用无线鼠标。 | 3
+wifi | /ˈwaɪfaɪ/ | 无线网络 | What is the wifi password? | 无线网络的密码是什么？ | 2
+Bluetooth | /ˈbluːtuːθ/ | 蓝牙 | Connect the speaker by Bluetooth. | 通过蓝牙连接音箱。 | 3
+connect | /kəˈnekt/ | 连接 | Connect your phone to the wifi. | 把你的手机连上无线网络。 | 3
+connection | /kəˈnekʃn/ | 连接 | My internet connection is slow. | 我的网络连接很慢。 | 3
+network | /ˈnetwɜːk/ | 网络 | The office network is down. | 办公室网络断了。 | 4
+signal | /ˈsɪɡnəl/ | 信号 | I have no signal in the lift. | 我在电梯里没有信号。 | 3
+broadband | /ˈbrɔːdbænd/ | 宽带 | We have fast broadband at home. | 我们家有高速宽带。 | 5
+router | /ˈruːtə/ | 路由器 | Restart the router if the net fails. | 如果网络出故障，就重启路由器。 | 4
+server | /ˈsɜːvə/ | 服务器 | The server is overloaded. | 服务器过载了。 | 4
+data | /ˈdeɪtə/ | 数据 | The data is stored on a server. | 数据存储在服务器上。 | 3
+database | /ˈdeɪtəbeɪs/ | 数据库 | The database holds customer records. | 数据库里存有客户记录。 | 5
+storage | /ˈstɔːrɪdʒ/ | 存储 | I need more storage on my phone. | 我的手机需要更多存储空间。 | 4
+memory | /ˈmeməri/ | 内存 | The laptop has 16 GB of memory. | 这台笔记本有16GB内存。 | 3
+hard drive | /ˈhɑːd draɪv/ | 硬盘 | My hard drive is almost full. | 我的硬盘快满了。 | 4
+USB stick | /ˌjuː es ˈbiː stɪk/ | U盘 | Copy the file onto a USB stick. | 把文件复制到U盘上。 | 3
+backup | /ˈbækʌp/ | 备份 | Make a backup of your photos. | 给你的照片做个备份。 | 4
+cloud | /klaʊd/ | 云; 云端 | I keep my files in the cloud. | 我把文件存在云端。 | 3
+cloud storage | /klaʊd ˈstɔːrɪdʒ/ | 云存储 | Cloud storage keeps my photos safe. | 云存储让我的照片保持安全。 | 5
+code | /kəʊd/ | 代码 | He writes code for a living. | 他以编写代码为生。 | 3
+coding | /ˈkəʊdɪŋ/ | 编程 | Coding is taught in many schools. | 许多学校教授编程。 | 3
+programming | /ˈprəʊɡræmɪŋ/ | 编程 | Programming needs patience. | 编程需要耐心。 | 4
+programmer | /ˈprəʊɡræmə/ | 程序员 | A programmer wrote this app. | 一位程序员写了这个应用。 | 4
+developer | /dɪˈveləpə/ | 开发者 | The developer fixed the error quickly. | 开发者很快修复了这个错误。 | 4
+algorithm | /ˈælɡərɪðəm/ | 算法 | The algorithm sorts the list in seconds. | 这个算法在几秒钟内就对列表排好了序。 | 6
+bug | /bʌɡ/ | 漏洞; 程序错误 | There is a bug in the program. | 程序里有个错误。 | 4
+glitch | /ɡlɪtʃ/ | 小故障 | A glitch stopped the video. | 一个小故障让视频停了。 | 6
+error | /ˈerə/ | 错误 | An error message appeared. | 出现了一条错误提示。 | 3
+crash | /kræʃ/ | 崩溃 | My laptop crashed during the meeting. | 我的笔记本在会议中崩溃了。 | 4
+freeze | /friːz/ | 卡死; 死机 | My screen can freeze for no reason. | 我的屏幕会无缘无故卡死。 | 4
+restart | /ˌriːˈstɑːt/ | 重启 | Please restart your computer. | 请重启你的电脑。 | 3
+reboot | /ˌriːˈbuːt/ | 重新启动 | I had to reboot the router. | 我不得不重启路由器。 | 5
+turn on | /tɜːn ɒn/ | 打开 (电器) | Turn on the computer and wait. | 打开电脑并等待。 | 1
+turn off | /tɜːn ɒf/ | 关闭 | Turn off your phone in class. | 上课时请关掉手机。 | 1
+shut down | /ʃʌt daʊn/ | 关机 | Shut down the computer before you leave. | 离开前请关电脑。 | 3
+troubleshoot | /ˈtrʌblʃuːt/ | 排除故障 | I tried to troubleshoot the problem. | 我试着排查这个问题。 | 6
+technical support | /ˈteknɪkl səˈpɔːt/ | 技术支持 | Call technical support for help. | 打电话给技术支持寻求帮助。 | 5
+virus | /ˈvaɪrəs/ | 病毒 | A virus damaged my files. | 病毒损坏了我的文件。 | 3
+malware | /ˈmælweə/ | 恶意软件 | The email contained malware. | 这封邮件里有恶意软件。 | 6
+antivirus | /ˌæntiˈvaɪrəs/ | 杀毒软件 | Run the antivirus every week. | 每周运行一次杀毒软件。 | 5
+hacker | /ˈhækə/ | 黑客 | A hacker stole their data. | 一名黑客窃取了他们的数据。 | 4
+hack | /hæk/ | 入侵 | Someone tried to hack my account. | 有人试图入侵我的账号。 | 4
+phishing | /ˈfɪʃɪŋ/ | 网络钓鱼 | Phishing emails look like real messages. | 钓鱼邮件看起来像真实的信息。 | 6
+scam | /skæm/ | 骗局 | Be careful of online scams. | 小心网络骗局。 | 4
+spam | /spæm/ | 垃圾邮件 | My inbox is full of spam. | 我的收件箱满是垃圾邮件。 | 4
+security | /sɪˈkjʊərəti/ | 安全 | Online security is very important. | 网络安全非常重要。 | 4
+encryption | /ɪnˈkrɪpʃn/ | 加密 | Encryption protects your messages. | 加密保护你的消息。 | 6
+firewall | /ˈfaɪəwɔːl/ | 防火墙 | The firewall blocked the attack. | 防火墙阻止了这次攻击。 | 6
+privacy | /ˈprɪvəsi/ | 隐私 | We care about your privacy. | 我们重视你的隐私。 | 4
+personal data | /ˈpɜːsənl ˈdeɪtə/ | 个人数据 | Never post your personal data online. | 千万不要在网上公布个人数据。 | 5
+data protection | /ˈdeɪtə prəˈtekʃn/ | 数据保护 | Data protection laws are getting stricter. | 数据保护法律越来越严格。 | 6
+cookie | /ˈkʊki/ | 网站Cookie | This site uses cookies to remember you. | 这个网站用Cookie来记住你。 | 5
+terms and conditions | /ˌtɜːmz ənd kənˈdɪʃnz/ | 条款和条件 | Few people read the terms and conditions. | 很少有人阅读条款和条件。 | 6
+email | /ˈiːmeɪl/ | 电子邮件 | I will send you an email tonight. | 我今晚给你发封电子邮件。 | 1
+inbox | /ˈɪnbɒks/ | 收件箱 | I check my inbox every morning. | 我每天早上查看收件箱。 | 3
+attachment | /əˈtætʃmənt/ | 附件 | Open the attachment to see the plan. | 打开附件查看计划。 | 4
+password manager | /ˈpɑːswɜːd ˈmænɪdʒə/ | 密码管理器 | A password manager stores all my codes. | 密码管理器保存了我所有的密码。 | 6
+two-factor authentication | /ˌtuː ˈfæktər ɔːˌθentɪˈkeɪʃn/ | 双重验证 | Turn on two-factor authentication for safety. | 为了安全，请开启双重验证。 | 6
+social media | /ˌsəʊʃl ˈmiːdiə/ | 社交媒体 | Social media takes up a lot of my time. | 社交媒体占用了我很多时间。 | 3
+post | /pəʊst/ | 发帖; 帖子 | She likes to post photos of her dog. | 她喜欢发她狗狗的照片。 | 3
+share | /ʃeə/ | 分享 | Share the video with your friends. | 把视频分享给你的朋友。 | 2
+like | /laɪk/ | 点赞 | Please like and share this video. | 请为这个视频点赞并分享。 | 2
+follow | /ˈfɒləʊ/ | 关注 | I follow her on social media. | 我在社交媒体上关注她。 | 3
+follower | /ˈfɒləʊə/ | 关注者; 粉丝 | She has ten thousand followers. | 她有一万名粉丝。 | 4
+comment | /ˈkɒment/ | 评论 | Leave a comment under the post. | 在帖子下留言评论。 | 3
+hashtag | /ˈhæʃtæɡ/ | 话题标签 | Use a hashtag to reach more people. | 用话题标签可以触达更多人。 | 4
+viral | /ˈvaɪrəl/ | 病毒式传播的 | The video went viral overnight. | 这个视频一夜之间走红。 | 5
+influencer | /ˈɪnfluənsə/ | 网红; 意见领袖 | The influencer promotes new products. | 这位网红推广新产品。 | 5
+blog | /blɒɡ/ | 博客 | She writes a blog about travel. | 她写了一个关于旅行的博客。 | 3
+vlog | /vlɒɡ/ | 视频日志 | He films a vlog every week. | 他每周拍一条视频日志。 | 5
+podcast | /ˈpɒdkɑːst/ | 播客 | I listen to a podcast on the bus. | 我在公交车上听播客。 | 4
+stream | /striːm/ | 流媒体播放 | You can stream films on this site. | 你可以在这个网站上在线观看电影。 | 4
+streaming | /ˈstriːmɪŋ/ | 流媒体 | Streaming has replaced DVDs. | 流媒体取代了DVD。 | 5
+subscribe | /səbˈskraɪb/ | 订阅 | Subscribe to our channel for more. | 订阅我们的频道了解更多。 | 4
+subscription | /səbˈskrɪpʃn/ | 订阅 | A monthly subscription costs ten euros. | 月度订阅费用为十欧元。 | 5
+notification | /ˌnəʊtɪfɪˈkeɪʃn/ | 通知 | I turned off all notifications. | 我关掉了所有通知。 | 5
+emoji | /ɪˈməʊdʒi/ | 表情符号 | She added a smiling emoji. | 她加了一个笑脸表情。 | 3
+selfie | /ˈselfi/ | 自拍 | They took a selfie at the beach. | 他们在海滩上自拍。 | 3
+screenshot | /ˈskriːnʃɒt/ | 截图 | I took a screenshot of the page. | 我给这个页面截了图。 | 4
+video call | /ˈvɪdiəʊ kɔːl/ | 视频通话 | We have a video call every Sunday. | 我们每周日视频通话。 | 3
+instant messaging | /ˈɪnstənt ˈmesɪdʒɪŋ/ | 即时通讯 | Instant messaging is faster than email. | 即时通讯比电子邮件快。 | 5
+chat | /tʃæt/ | 聊天 | We chat online every evening. | 我们每天晚上在网上聊天。 | 2
+text | /tekst/ | 发短信 | I will text you when I arrive. | 我到了就给你发短信。 | 2
+online game | /ˈɒnlaɪn ɡeɪm/ | 网络游戏 | He plays an online game with friends. | 他和朋友们玩网络游戏。 | 3
+video game | /ˈvɪdiəʊ ɡeɪm/ | 电子游戏 | Video games can be educational. | 电子游戏也可以有教育意义。 | 2
+gamer | /ˈɡeɪmə/ | 玩家 | The gamer practises six hours a day. | 这位玩家每天练习六小时。 | 4
+console | /ˈkɒnsəʊl/ | 游戏机 | The console is connected to the TV. | 游戏机连着电视。 | 4
+virtual | /ˈvɜːtʃuəl/ | 虚拟的 | Virtual meetings save travel time. | 虚拟会议节省出行时间。 | 5
+virtual reality | /ˌvɜːtʃuəl riˈæləti/ | 虚拟现实 | Virtual reality takes you to another world. | 虚拟现实把你带到另一个世界。 | 5
+augmented reality | /ɔːɡˌmentɪd riˈæləti/ | 增强现实 | Augmented reality adds images to the real world. | 增强现实在现实世界中叠加图像。 | 6
+artificial intelligence | /ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/ | 人工智能 | Artificial intelligence is changing many jobs. | 人工智能正在改变许多工作。 | 5
+AI | /ˌeɪ ˈaɪ/ | 人工智能 | AI can translate languages instantly. | 人工智能可以即时翻译语言。 | 4
+machine learning | /məˈʃiːn ˈlɜːnɪŋ/ | 机器学习 | Machine learning improves with more data. | 机器学习随着数据增多而改进。 | 6
+chatbot | /ˈtʃætbɒt/ | 聊天机器人 | The chatbot answered my question. | 聊天机器人回答了我的问题。 | 5
+automation | /ˌɔːtəˈmeɪʃn/ | 自动化 | Automation has replaced many factory jobs. | 自动化取代了许多工厂工作。 | 6
+automatic | /ˌɔːtəˈmætɪk/ | 自动的 | The door is automatic. | 这扇门是自动的。 | 3
+innovation | /ˌɪnəˈveɪʃn/ | 创新 | Innovation drives the tech industry. | 创新推动着科技产业。 | 5
+invention | /ɪnˈvenʃn/ | 发明 | The invention of the phone changed the world. | 电话的发明改变了世界。 | 4
+invent | /ɪnˈvent/ | 发明 | Who did invent the telephone? | 是谁发明了电话？ | 3
+prototype | /ˈprəʊtətaɪp/ | 原型; 样机 | The team built a prototype in a week. | 团队一周内做出了一个原型。 | 6
+breakthrough | /ˈbreɪkθruː/ | 突破 | Scientists announced a major breakthrough. | 科学家宣布了一项重大突破。 | 6
+cutting-edge | /ˌkʌtɪŋ ˈedʒ/ | 前沿的; 尖端的 | The lab uses cutting-edge technology. | 实验室使用尖端技术。 | 6
+state-of-the-art | /ˌsteɪt əv ði ˈɑːt/ | 最先进的 | The hospital has state-of-the-art equipment. | 医院有最先进的设备。 | 6
+advanced | /ədˈvɑːnst/ | 先进的 | This is an advanced piece of equipment. | 这是一台先进的设备。 | 4
+obsolete | /ˈɒbsəliːt/ | 过时的 | Floppy disks are now obsolete. | 软盘如今已经过时了。 | 6
+outdated | /ˌaʊtˈdeɪtɪd/ | 过时的 | My phone software is outdated. | 我手机的软件已经过时了。 | 5
+gadget-free | /ˈɡædʒɪt friː/ | 无电子设备的 | We spent a gadget-free weekend. | 我们度过了一个没有电子设备的周末。 | 6
+digital divide | /ˈdɪdʒɪtl dɪˈvaɪd/ | 数字鸿沟 | The digital divide leaves some children behind. | 数字鸿沟使一些孩子落后。 | 6
+screen time | /skriːn taɪm/ | 屏幕使用时间 | Limit your child's screen time. | 限制孩子的屏幕使用时间。 | 4
+addiction | /əˈdɪkʃn/ | 沉迷; 成瘾 | Phone addiction is a growing problem. | 手机成瘾是一个日益严重的问题。 | 5
+ubiquitous | /juːˈbɪkwɪtəs/ | 无处不在的 | Smartphones are ubiquitous these days. | 如今智能手机无处不在。 | 6
+digital footprint | /ˈdɪdʒɪtl ˈfʊtprɪnt/ | 数字足迹 | Your digital footprint is hard to erase. | 你的数字足迹很难抹去。 | 6
+bandwidth | /ˈbændwɪdθ/ | 带宽 | Video calls need a lot of bandwidth. | 视频通话需要大量带宽。 | 6
+lag | /læɡ/ | 延迟; 卡顿 | The game has a lot of lag. | 这个游戏延迟很严重。 | 5
+buffer | /ˈbʌfə/ | 缓冲 | The video keeps buffering. | 这个视频一直在缓冲。 | 6
+pixel | /ˈpɪksl/ | 像素 | The photo has twelve million pixels. | 这张照片有一千二百万像素。 | 4
+resolution | /ˌrezəˈluːʃn/ | 分辨率 | The screen has a high resolution. | 这块屏幕分辨率很高。 | 5
+touchscreen | /ˈtʌtʃskriːn/ | 触摸屏 | The phone has a large touchscreen. | 这部手机有一个大触摸屏。 | 4
+swipe | /swaɪp/ | 滑动 | Swipe left to delete the message. | 向左滑动删除消息。 | 4
+scroll | /skrəʊl/ | 滚动 | Scroll down to read more. | 向下滚动阅读更多。 | 4
+tap | /tæp/ | 轻触 | Tap the screen to begin. | 轻触屏幕开始。 | 3
+zoom | /zuːm/ | 缩放 | Zoom in to see the details. | 放大查看细节。 | 3
+barcode | /ˈbɑːkəʊd/ | 条形码 | Scan the barcode at the till. | 在收银台扫描条形码。 | 4
+QR code | /ˌkjuː ɑː ˈkəʊd/ | 二维码 | Scan the QR code to pay. | 扫描二维码付款。 | 3
+scan | /skæn/ | 扫描 | Scan the document and send it to me. | 把文件扫描后发给我。 | 3
+sensor | /ˈsensə/ | 传感器 | A sensor turns on the light. | 传感器会把灯打开。 | 5
+drone | /drəʊn/ | 无人机 | The drone flew over the field. | 无人机飞过了田野。 | 4
+satellite | /ˈsætəlaɪt/ | 卫星 | A satellite sends TV signals. | 卫星发送电视信号。 | 4
+GPS | /ˌdʒiː piː ˈes/ | 全球定位系统 | The GPS shows the fastest way. | 全球定位系统显示最快的路线。 | 3
+smart | /smɑːt/ | 智能的 | We have a smart TV at home. | 我们家有一台智能电视。 | 3
+wearable | /ˈweərəbl/ | 可穿戴设备 | A wearable tracks your steps. | 可穿戴设备记录你的步数。 | 6
+electric car | /ɪˌlektrɪk ˈkɑː/ | 电动汽车 | An electric car is quiet and clean. | 电动汽车安静又清洁。 | 3
+self-driving | /ˌself ˈdraɪvɪŋ/ | 自动驾驶的 | Self-driving cars are being tested in cities. | 自动驾驶汽车正在城市中测试。 | 5
+3D printer | /ˌθriː ˈdiː ˈprɪntə/ | 3D打印机 | A 3D printer made this toy. | 这个玩具是3D打印机做的。 | 5
+blockchain | /ˈblɒktʃeɪn/ | 区块链 | Blockchain records transactions securely. | 区块链安全地记录交易。 | 6
+cryptocurrency | /ˈkrɪptəʊkʌrənsi/ | 加密货币 | Cryptocurrency prices change very fast. | 加密货币价格变化很快。 | 6
+open source | /ˌəʊpən ˈsɔːs/ | 开源 | Many tools are open source. | 许多工具是开源的。 | 6
+platform | /ˈplætfɔːm/ | 平台 | The platform has millions of users. | 这个平台有数百万用户。 | 4
+domain | /dəʊˈmeɪn/ | 域名 | I bought a domain for my blog. | 我为我的博客买了一个域名。 | 6
+URL | /ˌjuː ɑːr ˈel/ | 网址 | Copy the URL into the browser. | 把网址复制到浏览器里。 | 4
+bookmark | /ˈbʊkmɑːk/ | 书签; 收藏 | I will bookmark this page. | 我会收藏这个页面。 | 4
+tab | /tæb/ | 标签页 | I have twenty tabs open. | 我开了二十个标签页。 | 3
+pop-up | /ˈpɒp ʌp/ | 弹窗 | A pop-up ad blocked the text. | 一个弹窗广告挡住了文字。 | 4
+ad blocker | /æd ˈblɒkə/ | 广告拦截器 | I use an ad blocker in my browser. | 我在浏览器里使用广告拦截器。 | 5

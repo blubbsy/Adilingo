@@ -1,0 +1,194 @@
+@topic | Home & Furniture | 🏠
+# A1
+room | /rum/ | 房间 | My room is on the second floor. | 我的房间在二楼。 | 1
+bedroom | /ˈbɛdrum/ | 卧室 | Our bedroom faces the park. | 我们的卧室朝向公园。 | 1
+bathroom | /ˈbæθrum/ | 浴室; 卫生间 | The bathroom is at the end of the hall. | 卫生间在走廊尽头。 | 1
+living room | /ˈlɪvɪŋ rum/ | 客厅 | We watch films in the living room. | 我们在客厅里看电影。 | 1
+kitchen | /ˈkɪtʃɪn/ | 厨房 | My mother cooks dinner in the kitchen. | 我妈妈在厨房做晚饭。 | 1
+bed | /bɛd/ | 床 | I make my bed every morning. | 我每天早上整理床铺。 | 1
+chair | /tʃɛr/ | 椅子 | Please sit on that chair by the window. | 请坐在窗边的那把椅子上。 | 1
+table | /ˈteɪbl/ | 桌子; 餐桌 | We eat our meals at the kitchen table. | 我们在厨房的餐桌上吃饭。 | 1
+sofa | /ˈsoʊfə/ | 沙发 | We watched TV together on the sofa. | 我们一起坐在沙发上看电视。 | 1
+door | /dɔr/ | 门 | Please close the door when you leave. | 你离开时请把门关上。 | 1
+window | /ˈwɪndoʊ/ | 窗户 | Open the window to let in fresh air. | 打开窗户透透气。 | 1
+wall | /wɔl/ | 墙 | There is a large clock on the wall. | 墙上挂着一个大钟。 | 1
+floor | /flɔr/ | 地板; 楼层 | The floor is clean and shiny. | 地板干净又亮堂。 | 1
+roof | /ruf/ | 屋顶 | Rain fell on the roof all night. | 雨整夜都打在屋顶上。 | 1
+stairs | /stɛrz/ | 楼梯 | Walk up the stairs to the third floor. | 沿着楼梯走到三楼。 | 1
+toilet | /ˈtɔɪlət/ | 厕所; 马桶 | Where is the toilet, please? | 请问厕所在哪里？ | 1
+bath | /bæθ/ | 浴缸; 洗澡 | She ran a hot bath after work. | 下班后她放了一缸热水。 | 1
+sink | /sɪŋk/ | 水槽; 洗手池 | Wash the dishes in the sink. | 在水槽里洗碗。 | 1
+fridge | /frɪdʒ/ | 冰箱 | Put the milk back in the fridge. | 把牛奶放回冰箱。 | 1
+microwave | /ˈmaɪkrəweɪv/ | 微波炉 | Heat the soup in the microwave for two minutes. | 把汤放进微波炉加热两分钟。 | 1
+sofa bed | /ˈsoʊfə bɛd/ | 沙发床 | The sofa bed is useful when guests stay overnight. | 客人过夜时，沙发床很有用。 | 2
+lamp | /læmp/ | 台灯; 灯 | Turn on the lamp, it is getting dark. | 天黑了，打开台灯吧。 | 1
+bin | /bɪn/ | 垃圾桶 | Put the wrappers in the bin. | 把包装纸扔进垃圾桶。 | 1
+kettle | /ˈkɛtl/ | 水壶 | Boil the kettle and make a cup of tea. | 把水壶烧开，泡杯茶。 | 1
+mirror | /ˈmɪrər/ | 镜子 | She checked her hair in the mirror. | 她对着镜子检查头发。 | 1
+clock | /klɑk/ | 时钟; 钟 | The clock on the wall is ten minutes fast. | 墙上的钟快了十分钟。 | 1
+key | /ki/ | 钥匙 | Where did I put my house key? | 我把家里的钥匙放哪儿了？ | 1
+lock | /lɑk/ | 锁; 锁上 | Lock the front door before you go to bed. | 睡觉前把前门锁好。 | 1
+messy | /ˈmɛsi/ | 凌乱的 | The kitchen is messy after the party. | 派对结束后厨房很凌乱。 | 2
+furniture | /ˈfɜrnɪtʃər/ | 家具 | We bought new furniture for the flat. | 我们为公寓买了新家具。 | 1
+# A2
+oven | /ˈʌvən/ | 烤箱 | Preheat the oven to 180 degrees. | 把烤箱预热到180度。 | 2
+cooker | /ˈkʊkər/ | 炉灶; 烹饪器具 | The cooker has four burners. | 这个炉灶有四个灶头。 | 2
+washing machine | /ˈwɑʃɪŋ məˌʃin/ | 洗衣机 | The washing machine is making a loud noise. | 洗衣机发出很大的噪音。 | 2
+dryer | /ˈdraɪər/ | 烘干机 | Put the towels in the dryer for an hour. | 把毛巾放进烘干机烘一个小时。 | 3
+vacuum cleaner | /ˈvækjum ˌklinər/ | 吸尘器 | Use the vacuum cleaner on the carpet. | 用吸尘器吸地毯。 | 2
+broom | /brum/ | 扫帚 | Sweep the floor with a broom. | 用扫帚扫地。 | 2
+mop | /mɑp/ | 拖把 | Mop the kitchen floor on Saturday. | 周六拖一下厨房的地板。 | 2
+bucket | /ˈbʌkɪt/ | 水桶 | Fill the bucket with warm water and soap. | 用温水和肥皂装满水桶。 | 2
+couch | /kaʊtʃ/ | 长沙发 | The cat sleeps on the couch all day. | 猫整天都睡在长沙发上。 | 2
+armchair | /ˈɑrmtʃɛr/ | 扶手椅 | Grandpa reads the paper in his armchair. | 爷爷坐在扶手椅上看报纸。 | 2
+bookshelf | /ˈbʊkʃɛlf/ | 书架 | There is a bookshelf next to the bed. | 床边有一个书架。 | 2
+bookcase | /ˈbʊkkeɪs/ | 书柜 | The bookcase is full of old novels. | 书柜里摆满了旧小说。 | 3
+cupboard | /ˈkʌbərd/ | 橱柜; 柜子 | The plates are kept in the cupboard. | 盘子放在橱柜里。 | 2
+wardrobe | /ˈwɔrdroʊb/ | 衣柜 | Hang your coat in the wardrobe. | 把外套挂进衣柜里。 | 3
+drawer | /drɔr/ | 抽屉 | Keep the keys in the top drawer. | 把钥匙放在最上面的抽屉里。 | 2
+light bulb | /ˈlaɪt ˌbʌlb/ | 灯泡 | The light bulb has burned out. | 灯泡烧坏了。 | 2
+switch | /swɪtʃ/ | 开关 | Press the switch to turn on the fan. | 按一下开关打开风扇。 | 2
+socket | /ˈsɑkɪt/ | 插座 | The socket behind the sofa is broken. | 沙发后面的插座坏了。 | 3
+carpet | /ˈkɑrpɪt/ | 地毯 | The carpet in the living room is very soft. | 客厅的地毯非常柔软。 | 2
+rug | /rʌɡ/ | 小地毯 | Put a warm rug in front of the fireplace. | 在壁炉前铺一块暖和的小地毯。 | 2
+curtain | /ˈkɜrtn/ | 窗帘 | Close the curtains before you go to sleep. | 睡觉前把窗帘拉上。 | 2
+blanket | /ˈblæŋkɪt/ | 毯子 | Pull the blanket over your legs. | 把毯子盖到你的腿上。 | 2
+pillow | /ˈpɪloʊ/ | 枕头 | My pillow is too soft for my neck. | 我的枕头对脖子来说太软了。 | 2
+sheet | /ʃit/ | 床单; 纸张 | Change the sheets once a week. | 每周换一次床单。 | 2
+mattress | /ˈmætrəs/ | 床垫 | This mattress is very comfortable. | 这张床垫非常舒服。 | 3
+dining room | /ˈdaɪnɪŋ rum/ | 餐厅; 饭厅 | The dining room seats eight people. | 这间饭厅能坐八个人。 | 2
+hallway | /ˈhɔlweɪ/ | 走廊; 门厅 | Leave your shoes in the hallway. | 把鞋子放在门厅里。 | 3
+balcony | /ˈbælkəni/ | 阳台 | We drink coffee on the balcony in the morning. | 早上我们在阳台上喝咖啡。 | 2
+attic | /ˈætɪk/ | 阁楼 | Old photos are stored in the attic. | 旧照片存放在阁楼里。 | 3
+basement | /ˈbeɪsmənt/ | 地下室 | The basement floods when it rains heavily. | 下大雨时地下室会被淹。 | 3
+hanger | /ˈhæŋər/ | 衣架 | Hang the shirt on a hanger. | 把衬衫挂在衣架上。 | 2
+vase | /veɪs/ | 花瓶 | Put fresh flowers in the vase. | 把新鲜的花放进花瓶里。 | 2
+candle | /ˈkændl/ | 蜡烛 | Light a candle for our dinner. | 为我们的晚餐点一支蜡烛。 | 2
+cushion | /ˈkʊʃən/ | 靠垫; 坐垫 | Put a cushion behind your back. | 在背后放一个靠垫。 | 2
+ornament | /ˈɔrnəmənt/ | 装饰品; 摆件 | The shelf is full of small ornaments. | 架子上摆满了小摆件。 | 3
+frame | /freɪm/ | 相框; 框架 | She hung the photo in a wooden frame. | 她把照片挂进了一个木质相框里。 | 3
+rubbish bin | /ˈrʌbɪʃ bɪn/ | 垃圾桶 | The rubbish bin is full again. | 垃圾桶又满了。 | 2
+iron | /ˈaɪərn/ | 熨斗; 熨烫 | Iron the shirt before the meeting. | 开会前把衬衫熨一下。 | 2
+toaster | /ˈtoʊstər/ | 烤面包机 | Put two slices of bread in the toaster. | 把两片面包放进烤面包机。 | 2
+blender | /ˈblɛndər/ | 搅拌机 | Use the blender to make a smoothie. | 用搅拌机做奶昔。 | 3
+dishwasher | /ˈdɪʃˌwɑʃər/ | 洗碗机 | Load the dishwasher after dinner. | 晚饭后把碗放进洗碗机。 | 2
+air conditioner | /ˈɛr kənˌdɪʃənər/ | 空调 | The air conditioner is too cold tonight. | 今晚空调太冷了。 | 2
+heater | /ˈhitər/ | 暖气; 加热器 | Turn on the heater, it is freezing in here. | 打开暖气吧，这里冷得要命。 | 2
+radiator | /ˈreɪdieɪtər/ | 散热器; 暖气片 | The radiator clanks every morning. | 暖气片每天早上都咔咔作响。 | 4
+# B1
+coffee table | /ˈkɔfi ˌteɪbl/ | 茶几 | Put your drinks on the coffee table, please. | 请把饮料放在茶几上。 | 2
+bedside table | /ˈbɛdsaɪd ˌteɪbl/ | 床头柜 | My alarm clock is on the bedside table. | 我的闹钟放在床头柜上。 | 3
+dressing table | /ˈdrɛsɪŋ ˌteɪbl/ | 梳妆台 | She keeps her make-up on the dressing table. | 她把化妆品放在梳妆台上。 | 4
+chest of drawers | /ˌtʃɛst əv ˈdrɔrz/ | 五斗柜 | The chest of drawers is full of socks. | 这个五斗柜里塞满了袜子。 | 4
+stool | /stul/ | 凳子 | Sit on the stool by the kitchen counter. | 坐到厨房台面旁的凳子上。 | 2
+footstool | /ˈfʊtstul/ | 脚凳 | Rest your feet on the footstool. | 把脚搁在脚凳上休息。 | 4
+recliner | /rɪˈklaɪnər/ | 可躺式座椅 | Dad fell asleep in his recliner. | 爸爸在他的躺椅上睡着了。 | 4
+futon | /ˈfutɑn/ | 日式床垫 | The futon folds up easily when not in use. | 不用的时候，日式床垫很容易折叠起来。 | 4
+ottoman | /ˈɑtəmən/ | 脚踏; 软垫凳 | The ottoman can be used as an extra seat. | 这个软垫凳可以当作额外的座位。 | 5
+hook | /hʊk/ | 挂钩 | Hang the bag on the hook behind the door. | 把包挂在门后的挂钩上。 | 2
+coat rack | /ˈkoʊt ˌræk/ | 衣帽架 | Hang your coat on the coat rack. | 把外套挂在衣帽架上。 | 3
+flowerpot | /ˈflaʊərˌpɑt/ | 花盆 | The flowerpot on the balcony needs water. | 阳台上的花盆需要浇水。 | 2
+pantry | /ˈpæntri/ | 食品储藏室 | We keep rice and pasta in the pantry. | 我们把大米和意面放在食品储藏室里。 | 4
+cellar | /ˈsɛlər/ | 地窖; 酒窖 | The old wine is stored in the cellar. | 陈年葡萄酒存放在地窖里。 | 4
+laundry | /ˈlɔndri/ | 待洗衣物; 洗衣 | Put the dirty laundry in the basket. | 把脏衣服放进篮子里。 | 2
+ironing board | /ˈaɪərnɪŋ bɔrd/ | 熨衣板 | Set up the ironing board in the bedroom. | 在卧室里支起熨衣板。 | 3
+laundry basket | /ˈlɔndri ˌbæskɪt/ | 洗衣篮 | Fill the laundry basket and take it downstairs. | 把洗衣篮装满后拿到楼下。 | 3
+dustpan | /ˈdʌstpæn/ | 簸箕 | Sweep the crumbs into the dustpan. | 把碎屑扫进簸箕里。 | 4
+sponge | /spʌndʒ/ | 海绵; 海绵擦 | Wipe the counter with a damp sponge. | 用湿海绵擦一擦台面。 | 2
+detergent | /dɪˈtɜrdʒənt/ | 洗涤剂 | Use a small amount of detergent for the laundry. | 洗衣服时只用一小份洗涤剂。 | 4
+soap | /soʊp/ | 肥皂 | Wash your hands with soap and water. | 用肥皂和水洗手。 | 1
+towel | /ˈtaʊəl/ | 毛巾 | Hang the wet towel on the rail to dry. | 把湿毛巾挂在晾杆上晾干。 | 1
+faucet | /ˈfɔsɪt/ | 水龙头 (美式) | The kitchen faucet is dripping again. | 厨房的水龙头又在滴水了。 | 3
+pipe | /paɪp/ | 水管; 管道 | A pipe under the sink has burst. | 水槽下面的一根水管爆裂了。 | 3
+drain | /dreɪn/ | 排水口; 排水 | Hair blocked the bathroom drain. | 头发堵住了浴室的排水口。 | 3
+leak | /lik/ | 漏水; 泄漏 | There is a small leak in the roof. | 屋顶有一个小漏洞。 | 3
+flush | /flʌʃ/ | 冲水; 冲洗 | Flush the toilet after you use it. | 用完厕所后要冲水。 | 3
+toilet paper | /ˈtɔɪlət ˌpeɪpər/ | 卫生纸 | We have run out of toilet paper. | 我们的卫生纸用完了。 | 2
+bathtub | /ˈbæθtʌb/ | 浴缸 | The bathtub is too small for two people. | 这个浴缸对两个人来说太小了。 | 2
+wash basin | /ˈwɑʃ ˌbeɪsn/ | 洗脸盆 | Rinse your toothbrush in the wash basin. | 在洗脸盆里冲洗你的牙刷。 | 4
+heating | /ˈhitɪŋ/ | 供暖; 取暖 | The heating in our flat is very efficient. | 我们公寓的供暖非常高效。 | 3
+thermostat | /ˈθɜrməstæt/ | 恒温器 | Set the thermostat to twenty degrees. | 把恒温器设定到二十度。 | 5
+smoke alarm | /ˈsmoʊk əˌlɑrm/ | 烟雾报警器 | The smoke alarm went off during cooking. | 做饭时烟雾报警器响了。 | 4
+extension cord | /ɪkˈstɛnʃən kɔrd/ | 延长线 | Use an extension cord to reach the lamp. | 用延长线才能够到那盏灯。 | 3
+chandelier | /ˌʃændəˈlɪr/ | 吊灯; 枝形吊灯 | The chandelier in the hall sparkles at night. | 门厅的吊灯在夜里闪闪发亮。 | 5
+lampshade | /ˈlæmpʃeɪd/ | 灯罩 | The lampshade is made of white cotton. | 这个灯罩是白色棉布做的。 | 3
+shutter | /ˈʃʌtər/ | 百叶窗; 遮板 | Close the wooden shutters before the storm. | 暴风雨来之前把木百叶窗关上。 | 4
+blind | /blaɪnd/ | 百叶窗; 遮光帘 | Pull down the blind to keep out the sun. | 把遮光帘拉下来挡住阳光。 | 3
+doorbell | /ˈdɔrbɛl/ | 门铃 | Somebody is ringing the doorbell. | 有人在按门铃。 | 2
+intercom | /ˈɪntərkɑm/ | 对讲机 | Press the intercom to speak to the visitor. | 按一下对讲机跟访客说话。 | 4
+keyhole | /ˈkiˌhoʊl/ | 钥匙孔 | The key does not fit into the keyhole. | 钥匙插不进钥匙孔。 | 3
+padlock | /ˈpædlɑk/ | 挂锁 | Use a padlock to secure the garden shed. | 用挂锁把花园的工具房锁好。 | 4
+doorstep | /ˈdɔrstɛp/ | 门阶; 门口台阶 | The parcel was left on the doorstep. | 包裹被放在了门口台阶上。 | 3
+threshold | /ˈθrɛʃhoʊld/ | 门槛; 入口 | Do not stand on the threshold of the door. | 不要站在门槛上。 | 5
+staircase | /ˈstɛrkeɪs/ | 楼梯; 楼梯间 | The staircase creaks under your feet. | 楼梯踩上去会吱吱作响。 | 4
+banister | /ˈbænɪstər/ | 楼梯扶手 | Hold the banister when you walk down the stairs. | 下楼时请扶住楼梯扶手。 | 5
+landing | /ˈlændɪŋ/ | 楼梯平台 | The bathroom is on the first landing. | 浴室在楼梯的第一个平台上。 | 4
+elevator | /ˈɛləveɪtər/ | 电梯 | The elevator is out of order today. | 今天电梯坏了。 | 2
+garage | /ɡəˈrɑʒ/ | 车库 | We keep the bicycles in the garage. | 我们把自行车放在车库里。 | 2
+loft | /lɔft/ | 阁楼; 顶层开敞公寓 | They converted the loft into a bedroom. | 他们把阁楼改造成了卧室。 | 4
+conservatory | /kənˈsɜrvətɔri/ | 暖房; 玻璃温室 | We grow tomatoes in the conservatory. | 我们在暖房里种番茄。 | 6
+utility room | /juˈtɪləti rum/ | 杂物间; 洗衣间 | The washing machine is in the utility room. | 洗衣机放在杂物间里。 | 5
+boiler | /ˈbɔɪlər/ | 锅炉; 热水器 | The boiler needs to be serviced every year. | 锅炉每年都需要保养。 | 4
+furnace | /ˈfɜrnɪs/ | 熔炉; 暖炉 | The furnace warms the whole house in winter. | 冬天暖炉可以让整栋房子变暖。 | 5
+household | /ˈhaʊshoʊld/ | 家庭; 户 | Each household should save water. | 每个家庭都应该节约用水。 | 4
+housework | /ˈhaʊswɜrk/ | 家务 | Doing the housework takes up most of her Saturday. | 做家务占去了她周六的大部分时间。 | 3
+chore | /tʃɔr/ | 家务活; 杂活 | Washing up is my least favourite chore. | 洗碗是我最不喜欢的家务活。 | 3
+renovation | /ˌrɛnəˈveɪʃən/ | 翻修; 改造 | The renovation of the kitchen took two months. | 厨房翻修花了两个月。 | 5
+foundation | /faʊnˈdeɪʃən/ | 地基; 基础 | The house was built on a solid foundation. | 这座房子建在坚固的地基上。 | 4
+blueprint | /ˈbluˌprɪnt/ | 蓝图; 设计图 | The architect showed us the blueprint of the house. | 建筑师给我们看了房子的设计图。 | 5
+layout | /ˈleɪaʊt/ | 布局; 格局 | The layout of the flat is very practical. | 这套公寓的布局非常实用。 | 4
+sunlit | /ˈsʌnlɪt/ | 阳光充足的 | The sunlit kitchen feels warm and happy. | 阳光充足的厨房让人感觉温暖愉快。 | 4
+airy | /ˈɛri/ | 通风良好的; 宽敞明亮的 | The bedroom is airy and quiet. | 卧室通风良好，又很安静。 | 4
+spacious | /ˈspeɪʃəs/ | 宽敞的 | The living room is spacious and bright. | 客厅宽敞明亮。 | 4
+cramped | /kræmpt/ | 狭小拥挤的 | Our flat feels cramped with three children. | 家里有三个孩子后，我们的公寓显得很拥挤。 | 4
+cosy | /ˈkoʊzi/ | 温馨舒适的 | The cabin feels cosy with a fire burning. | 壁炉里烧着火，小木屋感觉很温馨。 | 3
+spotless | /ˈspɑtləs/ | 一尘不染的 | The bathroom was spotless after she cleaned it. | 她打扫之后，浴室一尘不染。 | 4
+damp | /dæmp/ | 潮湿的 | The walls in the basement feel damp. | 地下室的墙壁摸起来很潮。 | 3
+mould | /moʊld/ | 霉菌; 霉 | Black mould grew in the corner of the bathroom. | 浴室的角落里长出了黑霉。 | 3
+draughty | /ˈdræfti/ | 有穿堂风的 | The old house is cold and draughty in winter. | 这栋旧房子冬天冷而且有穿堂风。 | 5
+# B2
+polish | /ˈpɑlɪʃ/ | 擦亮; 抛光 | Polish the wooden table until it shines. | 把木桌擦到发亮。 | 4
+scrub | /skrʌb/ | 用力刷洗 | Scrub the bath with hot water and soap. | 用热水和肥皂用力刷洗浴缸。 | 3
+dust | /dʌst/ | 灰尘; 掸去灰尘 | Dust the shelves every Sunday. | 每周日掸一掸架子上的灰。 | 2
+wipe | /waɪp/ | 擦; 抹 | Wipe the table after you eat. | 吃完饭后把桌子擦一擦。 | 2
+sweep | /swip/ | 扫; 清扫 | Sweep the leaves off the path. | 把小路上的落叶扫掉。 | 2
+furnish | /ˈfɜrnɪʃ/ | 布置; 配置家具 | They furnished the room with a simple desk and bed. | 他们用一张简单的书桌和一张床布置了房间。 | 4
+decorate | /ˈdɛkəreɪt/ | 装饰; 布置 | We decorated the living room for the party. | 我们为了派对装饰了客厅。 | 3
+assemble | /əˈsɛmbl/ | 组装; 装配 | It took two hours to assemble the bookcase. | 组装这个书柜花了两个小时。 | 4
+drill | /drɪl/ | 钻孔; 电钻 | Use a drill to make a hole in the wall. | 用电钻在墙上钻一个孔。 | 3
+hammer | /ˈhæmər/ | 锤子; 锤击 | Bring the hammer and a box of nails. | 把锤子和一盒钉子拿过来。 | 2
+nail | /neɪl/ | 钉子; 指甲 | Hit the nail with the hammer. | 用锤子把钉子敲进去。 | 2
+screw | /skru/ | 螺丝钉; 拧紧 | Tighten the screw on the shelf. | 把架子上的螺丝拧紧。 | 2
+screwdriver | /ˈskruˌdraɪvər/ | 螺丝刀 | Use a screwdriver to fix the handle. | 用螺丝刀修理把手。 | 2
+spanner | /ˈspænər/ | 扳手 | He needs a spanner to tighten the pipe. | 他需要扳手来拧紧水管。 | 3
+glue | /ɡlu/ | 胶水 | Stick the label on with glue. | 用胶水把标签贴上。 | 2
+tape | /teɪp/ | 胶带; 录音带 | Seal the box with tape. | 用胶带把箱子封好。 | 2
+hinge | /hɪndʒ/ | 铰链 | The door hinge needs some oil. | 门的铰链需要上点油。 | 4
+rack | /ræk/ | 架子; 沥水架 | Dry the dishes on the drying rack. | 把碗放在沥水架上晾干。 | 3
+doormat | /ˈdɔrmæt/ | 门垫 | Wipe your feet on the doormat. | 在门垫上擦干你的脚。 | 3
+tile | /taɪl/ | 瓷砖; 贴瓷砖 | Several bathroom tiles are cracked. | 浴室的几块瓷砖裂了。 | 3
+brick | /brɪk/ | 砖 | The wall is built with red bricks. | 这堵墙是用红砖砌成的。 | 3
+wallpaper | /ˈwɔlˌpeɪpər/ | 墙纸; 壁纸 | We chose blue wallpaper for the bedroom. | 我们为卧室选了蓝色的墙纸。 | 3
+ceiling | /ˈsilɪŋ/ | 天花板 | A spider hangs from the ceiling. | 一只蜘蛛挂在天花板上。 | 2
+fireplace | /ˈfaɪərpleɪs/ | 壁炉 | We sat by the fireplace in winter. | 冬天我们坐在壁炉边。 | 2
+chimney | /ˈtʃɪmni/ | 烟囱 | Smoke rose from the chimney. | 烟从烟囱里冒出来。 | 3
+gutter | /ˈɡʌtər/ | 排水沟; 屋檐槽 | Leaves blocked the gutter after the storm. | 暴风雨过后，落叶堵住了排水槽。 | 4
+fence | /fɛns/ | 栅栏; 围栏 | A wooden fence surrounds the yard. | 木栅栏围住了院子。 | 2
+porch | /pɔrtʃ/ | 门廊 | We sat on the porch and chatted. | 我们坐在门廊上聊天。 | 3
+yard | /jɑrd/ | 院子; 场地 | The children play in the yard. | 孩子们在院子里玩。 | 2
+lawn | /lɔn/ | 草坪 | Mow the lawn on Saturday morning. | 周六上午修剪草坪。 | 2
+shed | /ʃɛd/ | 棚屋; 工具房 | The bikes are kept in the shed. | 自行车放在工具房里。 | 3
+studio | /ˈstudioʊ/ | 单间公寓; 工作室 | She lives in a studio near the university. | 她住在大学附近的一间单间公寓里。 | 3
+terrace | /ˈtɛrəs/ | 露台; 排屋 | We have dinner on the terrace in summer. | 夏天我们在露台上吃晚饭。 | 3
+detached | /dɪˈtætʃt/ | 独立式的 | They live in a detached house with a big garden. | 他们住在一栋带大花园的独立式住宅里。 | 4
+cottage | /ˈkɑtɪdʒ/ | 小屋; 村舍 | They spent the weekend in a cottage by the lake. | 他们在湖边的小屋里度过了周末。 | 3
+mansion | /ˈmænʃən/ | 大宅 | The mansion has twenty bedrooms. | 这座大宅有二十间卧室。 | 4
+landlord | /ˈlændlɔrd/ | 房东 | Our landlord fixed the heating last week. | 房东上周修好了暖气。 | 3
+tenant | /ˈtɛnənt/ | 租客; 房客 | The tenant pays rent on the first of each month. | 租客每月一号交房租。 | 4
+furnished | /ˈfɜrnɪʃt/ | 配有家具的 | The flat is fully furnished and ready to move into. | 这套公寓家具齐全，可以直接入住。 | 4
+renovate | /ˈrɛnəveɪt/ | 翻修; 改建 | They plan to renovate the old kitchen. | 他们计划翻修旧厨房。 | 5
+insulation | /ˌɪnsəˈleɪʃən/ | 隔热层; 绝缘材料 | Good insulation keeps the house warm in winter. | 良好的隔热层能让房子冬天保持温暖。 | 5
+partition | /pɑrˈtɪʃən/ | 隔断; 隔墙 | A wooden partition divides the room in two. | 一面木隔断把房间分成了两半。 | 5
+lease | /lis/ | 租约; 租赁 | Our lease ends in June, so we need to decide. | 我们的租约六月到期，所以得做决定了。 | 4
+sublet | /ˈsʌbˌlɛt/ | 转租 | She sublet her flat while she was abroad. | 她出国期间把公寓转租了出去。 | 5
+inventory | /ˈɪnvənˌtɔri/ | 财产清单; 物品清单 | The landlord checked the inventory before we left. | 我们离开前，房东核对了财产清单。 | 5

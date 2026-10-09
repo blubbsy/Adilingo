@@ -1,0 +1,199 @@
+@topic | Time & Numbers | 🔢
+today | /təˈdeɪ/ | 今天 | Today is Monday, so we have a meeting. | 今天是星期一，所以我们要开会。 | 1
+tomorrow | /təˈmɒrəʊ/ | 明天 | I will call you tomorrow. | 我明天会给你打电话。 | 1
+yesterday | /ˈjestədeɪ/ | 昨天 | We went to the cinema yesterday. | 我们昨天去看了电影。 | 1
+tonight | /təˈnaɪt/ | 今晚 | Are you free tonight? | 你今晚有空吗？ | 2
+morning | /ˈmɔːnɪŋ/ | 早晨; 上午 | I drink coffee every morning. | 我每天早上喝咖啡。 | 1
+afternoon | /ˌɑːftəˈnuːn/ | 下午 | We have a class in the afternoon. | 我们下午有一节课。 | 1
+evening | /ˈiːvnɪŋ/ | 傍晚; 晚上 | We often watch TV in the evening. | 我们晚上常看电视。 | 1
+night | /naɪt/ | 夜晚; 夜间 | The shop closes at night. | 这家商店晚上关门。 | 1
+day | /deɪ/ | 天; 日子 | Have a nice day at work. | 祝你工作顺利。 | 1
+week | /wiːk/ | 星期; 周 | There are seven days in a week. | 一个星期有七天。 | 1
+month | /mʌnθ/ | 月; 个月 | I will stay here for one month. | 我会在这里待一个月。 | 1
+year | /jɪə/ | 年 | She started school last year. | 她去年开始上学。 | 1
+hour | /ˈaʊə/ | 小时 | The train takes two hours. | 火车要两个小时。 | 1
+minute | /ˈmɪnɪt/ | 分钟 | Wait a minute, please. | 请等一分钟。 | 1
+second | /ˈsekənd/ | 秒; 一会儿 | Wait a second, I'm almost ready. | 等一下，我马上就好。 | 2
+time | /taɪm/ | 时间; 次数 | We don't have much time. | 我们没有多少时间了。 | 1
+date | /deɪt/ | 日期; 约会 | What is today's date? | 今天是几号？ | 1
+now | /naʊ/ | 现在 | I need to leave now. | 我现在必须走了。 | 1
+soon | /suːn/ | 很快; 不久 | The bus will arrive soon. | 公交车很快就到。 | 2
+early | /ˈɜːli/ | 早; 早期的 | I get up early on weekdays. | 工作日我起得很早。 | 2
+birthday | /ˈbɜːθdeɪ/ | 生日 | Today is my birthday. | 今天是我的生日。 | 2
+next year | /nekst jɪə/ | 明年; 下一年 | We plan to move next year. | 我们计划明年搬家。 | 2
+o'clock | /əˈklɒk/ | 点钟 | The meeting starts at three o'clock. | 会议三点钟开始。 | 1
+noon | /nuːn/ | 中午; 正午 | We usually eat lunch around noon. | 我们通常在正午前后吃午饭。 | 3
+midnight | /ˈmɪdnaɪt/ | 午夜; 半夜 | The party ended at midnight. | 派对在午夜结束了。 | 3
+dawn | /dɔːn/ | 黎明; 破晓 | The farmers get up at dawn. | 农民们黎明时就起床。 | 4
+dusk | /dʌsk/ | 黄昏; 傍晚 | The birds fly home at dusk. | 鸟儿在黄昏时飞回家。 | 4
+daylight | /ˈdeɪlaɪt/ | 日光; 白天 | We read the letter in daylight. | 我们在白天读了这封信。 | 4
+overnight | /ˌəʊvəˈnaɪt/ | 夜间; 一夜之间 | The package arrived overnight. | 包裹一夜之间就到了。 | 4
+calendar | /ˈkælɪndə/ | 日历; 日程表 | Mark the holiday on the calendar. | 把假期标在日历上。 | 3
+in time | /ɪn taɪm/ | 及时; 来得及 | We arrived in time for the start. | 我们及时赶到了开始的时候。 | 3
+in advance | /ɪn ədˈvɑːns/ | 提前; 预先 | Please book your ticket in advance. | 请提前预订你的票。 | 4
+right away | /raɪt əˈweɪ/ | 立刻; 马上 | Please come to my office right away. | 请马上到我的办公室来。 | 4
+at the moment | /ət ðə ˈməʊmənt/ | 目前; 此刻 | I am busy at the moment. | 我目前很忙。 | 3
+for a while | /fər ə waɪl/ | 一会儿; 暂时 | Let's rest here for a while. | 我们在这里歇一会儿吧。 | 3
+time zone | /ˈtaɪm zəʊn/ | 时区 | Which time zone is Beijing in? | 北京在哪个时区？ | 4
+leap year | /ˌliːp ˈjɪə/ | 闰年 | February has 29 days in a leap year. | 闰年的二月有二十九天。 | 4
+New Year | /ˌnjuː ˈjɪə/ | 新年; 元旦 | We celebrate the New Year with fireworks. | 我们用烟花庆祝新年。 | 1
+anniversary | /ˌænɪˈvɜːsəri/ | 周年纪念日 | Today is our wedding anniversary. | 今天是我们的结婚周年纪念日。 | 4
+decade | /ˈdekeɪd/ | 十年 | The city changed a lot in one decade. | 这座城市在十年间变化很大。 | 4
+century | /ˈsentʃəri/ | 世纪; 一百年 | The house is over a century old. | 这栋房子有一百多年的历史。 | 4
+fortnight | /ˈfɔːtnaɪt/ | 两周 | The course lasts a fortnight. | 这门课程持续两周。 | 4
+weekday | /ˈwiːkdeɪ/ | 工作日; 平日 | The shop is open on weekdays. | 这家店在工作日营业。 | 3
+Monday | /ˈmʌndeɪ/ | 星期一 | The office opens on Monday. | 办公室星期一开门。 | 1
+Tuesday | /ˈtjuːzdeɪ/ | 星期二 | Our English class is on Tuesday. | 我们的英语课在星期二。 | 1
+Wednesday | /ˈwenzdeɪ/ | 星期三 | We have a team lunch on Wednesday. | 我们星期三有团队午餐。 | 1
+Thursday | /ˈθɜːzdeɪ/ | 星期四 | I go swimming every Thursday. | 我每个星期四都去游泳。 | 1
+Friday | /ˈfraɪdeɪ/ | 星期五 | We finish work early on Friday. | 我们星期五提早下班。 | 1
+Saturday | /ˈsætədeɪ/ | 星期六 | Saturday is the best day for shopping. | 星期六是购物的最佳日子。 | 1
+Sunday | /ˈsʌndeɪ/ | 星期日 | We visit my grandparents on Sunday. | 我们星期日去看望外公外婆。 | 1
+January | /ˈdʒænjuəri/ | 一月 | Snow fell in January this year. | 今年一月下了雪。 | 2
+February | /ˈfebruəri/ | 二月 | February is the shortest month. | 二月是一年中最短的月份。 | 2
+April | /ˈeɪprəl/ | 四月 | The flowers bloom in April. | 花儿在四月盛开。 | 2
+May | /meɪ/ | 五月 | We have a holiday in May. | 我们五月有一个假期。 | 1
+June | /dʒuːn/ | 六月 | Schools finish in June. | 学校六月放假。 | 2
+July | /dʒuˈlaɪ/ | 七月 | It is very hot in July. | 七月天气非常热。 | 2
+August | /ˈɔːɡəst/ | 八月 | We went camping in August. | 我们八月去野营了。 | 2
+September | /sepˈtembə/ | 九月 | The new term begins in September. | 新学期九月开始。 | 2
+October | /ɒkˈtəʊbə/ | 十月 | The leaves turn yellow in October. | 十月树叶变黄了。 | 2
+November | /nəʊˈvembə/ | 十一月 | It gets cold in November. | 十一月天气变冷了。 | 2
+December | /dɪˈsembə/ | 十二月 | We decorate the tree in December. | 我们十二月装饰圣诞树。 | 2
+annual | /ˈænjuəl/ | 每年的; 一年一度的 | We hold an annual meeting in May. | 我们每年五月举行一次年会。 | 4
+yearly | /ˈjɪəli/ | 每年的; 一年一次 | The company pays a yearly bonus. | 公司每年发放一次奖金。 | 4
+monthly | /ˈmʌnθli/ | 每月的; 按月的 | I pay my rent monthly. | 我每月付房租。 | 3
+weekly | /ˈwiːkli/ | 每周的; 每星期的 | We have a weekly team meeting. | 我们每周有一次团队会议。 | 3
+biannual | /baɪˈænjuəl/ | 一年两次的 | The magazine is biannual. | 这本杂志一年出两期。 | 6
+ago | /əˈɡəʊ/ | 以前; 之前 | I moved here two years ago. | 我两年前搬到这里。 | 3
+already | /ɔːlˈredi/ | 已经 | I have already finished my homework. | 我已经做完作业了。 | 3
+yet | /jet/ | 还; 尚未 | Have you finished yet? | 你还没做完吗？ | 3
+still | /stɪl/ | 仍然; 还 | He is still at the office. | 他还在办公室。 | 3
+since | /sɪns/ | 自从; 因为 | We have lived here since 2015. | 我们自2015年起就住在这里。 | 4
+until | /ənˈtɪl/ | 直到 | Please wait until the light turns green. | 请等到绿灯亮起。 | 3
+during | /ˈdjʊərɪŋ/ | 在…期间 | I slept during the flight. | 飞行途中我睡着了。 | 4
+throughout | /θruːˈaʊt/ | 贯穿; 在整个…期间 | It rained throughout the day. | 整个白天都在下雨。 | 4
+meanwhile | /ˈmiːnwaɪl/ | 同时; 与此同时 | Meanwhile, the kids played in the garden. | 与此同时，孩子们在花园里玩。 | 4
+eventually | /ɪˈventʃuəli/ | 最终; 终于 | We eventually found the hotel. | 我们最终找到了那家酒店。 | 4
+immediately | /ɪˈmiːdiətli/ | 立即; 马上 | Call me immediately if you need help. | 如果需要帮助，立即给我打电话。 | 4
+instantly | /ˈɪnstəntli/ | 立刻; 瞬间 | The message was sent instantly. | 信息瞬间就发送出去了。 | 4
+recently | /ˈriːsntli/ | 最近; 近来 | I have recently moved to Berlin. | 我最近搬到了柏林。 | 4
+lately | /ˈleɪtli/ | 近来; 最近 | Have you seen him lately? | 你最近见过他吗？ | 4
+previously | /ˈpriːviəsli/ | 先前; 以前 | He previously worked as a nurse. | 他之前当过护士。 | 5
+subsequently | /ˈsʌbsɪkwəntli/ | 随后; 其后 | The plan was subsequently changed. | 计划随后被改变了。 | 6
+temporarily | /ˌtemprəˈrerəli/ | 暂时地 | The shop is temporarily closed. | 这家店暂时关门。 | 5
+permanently | /ˈpɜːmənəntli/ | 永久地; 长期地 | She moved abroad permanently. | 她永久地移居国外了。 | 5
+always | /ˈɔːlweɪz/ | 总是; 一直 | I always lock the door at night. | 我晚上总是锁门。 | 1
+usually | /ˈjuːʒuəli/ | 通常; 一般 | We usually have dinner at seven. | 我们通常七点吃晚饭。 | 3
+often | /ˈɒfn/ | 常常; 经常 | She often goes to the gym. | 她经常去健身房。 | 1
+sometimes | /ˈsʌmtaɪmz/ | 有时; 偶尔 | Sometimes I walk to work. | 有时我步行去上班。 | 2
+occasionally | /əˈkeɪʒənəli/ | 偶尔; 不时 | He occasionally visits his parents. | 他偶尔去看望父母。 | 4
+rarely | /ˈreəli/ | 很少; 难得 | We rarely eat out on weekdays. | 工作日我们很少在外面吃饭。 | 4
+seldom | /ˈseldəm/ | 很少; 罕见 | He seldom answers his phone. | 他很少接电话。 | 5
+hardly ever | /ˈhɑːdli ˈevə/ | 几乎从不 | I hardly ever watch the news. | 我几乎从不看新闻。 | 4
+never | /ˈnevə/ | 从不; 绝不 | I have never been to Japan. | 我从没去过日本。 | 1
+constantly | /ˈkɒnstəntli/ | 不断地; 时常 | The phone rang constantly all day. | 电话整天响个不停。 | 4
+periodically | /ˌpɪəriˈɒdɪkli/ | 周期性地; 定期地 | The machine is checked periodically. | 这台机器会定期检查。 | 6
+once | /wʌns/ | 一次; 曾经 | I have seen the film once. | 这部电影我看过一次。 | 1
+twice | /twaɪs/ | 两次; 两倍 | I call my mother twice a week. | 我每周给妈妈打两次电话。 | 1
+every other day | /ˌevri ˈʌðə deɪ/ | 每隔一天 | Take the medicine every other day. | 每隔一天吃一次这种药。 | 3
+now and then | /naʊ ənd ðen/ | 偶尔; 不时 | We meet up now and then. | 我们偶尔见个面。 | 3
+from time to time | /frəm taɪm tə taɪm/ | 时不时地 | He calls me from time to time. | 他时不时给我打电话。 | 4
+as a rule | /æz ə ruːl/ | 通常; 一般来说 | As a rule, we start work at eight. | 一般来说，我们八点开始工作。 | 5
+one | /wʌn/ | 一; 一个 | I have one brother and two sisters. | 我有一个哥哥和两个姐姐。 | 1
+two | /tuː/ | 二; 两个 | There are two chairs in the room. | 房间里有两把椅子。 | 1
+three | /θriː/ | 三; 三个 | I need three eggs for this cake. | 做这个蛋糕我需要三个鸡蛋。 | 1
+four | /fɔː/ | 四; 四个 | The car has four doors. | 这辆车有四扇门。 | 1
+five | /faɪv/ | 五; 五个 | It takes five minutes to walk there. | 步行到那里要五分钟。 | 1
+six | /sɪks/ | 六; 六个 | We have six people in our team. | 我们团队有六个人。 | 1
+seven | /ˈsevn/ | 七; 七个 | There are seven days in a week. | 一周有七天。 | 1
+eight | /eɪt/ | 八; 八个 | The class starts at eight. | 课程八点开始。 | 1
+nine | /naɪn/ | 九; 九个 | My phone has nine apps on this screen. | 我手机的这个屏幕上有九个应用。 | 1
+ten | /ten/ | 十; 十个 | I bought ten apples at the market. | 我在市场买了十个苹果。 | 1
+eleven | /ɪˈlevn/ | 十一; 十一个 | The football team has eleven players. | 足球队有十一名队员。 | 2
+twelve | /twelv/ | 十二; 十二个 | A dozen eggs means twelve eggs. | 一打鸡蛋就是十二个鸡蛋。 | 2
+thirteen | /ˌθɜːˈtiːn/ | 十三 | My lucky number is thirteen. | 我的幸运数字是十三。 | 3
+twenty | /ˈtwenti/ | 二十 | The shirt costs twenty pounds. | 这件衬衫要二十英镑。 | 2
+thirty | /ˈθɜːti/ | 三十 | She is thirty years old. | 她三十岁了。 | 3
+forty | /ˈfɔːti/ | 四十 | There are forty students in the class. | 这个班有四十名学生。 | 3
+fifty | /ˈfɪfti/ | 五十 | The tickets sold out at fifty percent off. | 门票打五折后很快售罄。 | 3
+sixty | /ˈsɪksti/ | 六十 | My grandfather is sixty-five. | 我外公六十五岁了。 | 3
+seventy | /ˈsevnti/ | 七十 | The speed limit is seventy kilometres. | 限速是七十公里。 | 3
+eighty | /ˈeɪti/ | 八十 | The house was built eighty years ago. | 这栋房子建于八十年前。 | 3
+ninety | /ˈnaɪnti/ | 九十 | The temperature reached ninety degrees. | 气温达到了九十度。 | 3
+hundred | /ˈhʌndrəd/ | 百; 一百 | There are a hundred people in the hall. | 大厅里有一百个人。 | 2
+thousand | /ˈθaʊznd/ | 千; 一千 | The ticket costs a thousand yen. | 这张票要一千日元。 | 2
+million | /ˈmɪljən/ | 百万 | The city has over a million residents. | 这座城市有一百多万居民。 | 3
+billion | /ˈbɪljən/ | 十亿 | The company earns billions of dollars. | 这家公司每年赚取数十亿美元。 | 4
+trillion | /ˈtrɪljən/ | 万亿 | The national debt is several trillion dollars. | 国债高达数万亿美元。 | 5
+zero | /ˈzɪərəʊ/ | 零 | The temperature fell to zero overnight. | 气温一夜之间降到了零度。 | 1
+first | /fɜːst/ | 第一的; 首先 | She came first in the race. | 她在比赛中得了第一名。 | 2
+third | /θɜːd/ | 第三的; 三分之一 | We live on the third floor. | 我们住在三楼。 | 3
+dozen | /ˈdʌzn/ | 一打; 十二个 | I bought a dozen roses for her. | 我为她买了一打玫瑰。 | 4
+half | /hɑːf/ | 一半; 半个 | Cut the cake in half. | 把蛋糕切成两半。 | 3
+quarter | /ˈkwɔːtə/ | 四分之一; 一刻钟 | It is a quarter past six. | 现在是六点一刻。 | 3
+double | /ˈdʌbl/ | 两倍的; 加倍 | The price has doubled in five years. | 五年内价格翻了一番。 | 3
+triple | /ˈtrɪpl/ | 三倍的; 增至三倍 | The team tripled its sales this year. | 这支团队今年的销售额增至三倍。 | 5
+fraction | /ˈfrækʃn/ | 分数; 小部分 | Write one half as a fraction. | 把二分之一写成分数。 | 5
+decimal | /ˈdesɪml/ | 小数; 十进制的 | Write 0.5 as a decimal. | 把0.5写成小数。 | 4
+percent | /pəˈsent/ | 百分之… | Ten percent of the students are absent. | 百分之十的学生缺席。 | 4
+percentage | /pəˈsentɪdʒ/ | 百分比; 比例 | What percentage of voters agreed? | 有多少百分比的选民同意？ | 5
+ratio | /ˈreɪʃiəʊ/ | 比率; 比例 | The ratio of boys to girls is two to one. | 男女生的比例是二比一。 | 5
+proportion | /prəˈpɔːʃn/ | 比例; 部分 | A small proportion of people walk to work. | 只有一小部分人步行上班。 | 5
+digit | /ˈdɪdʒɪt/ | 数字; 个位数 | Enter your six-digit code here. | 在这里输入你的六位数密码。 | 4
+numeral | /ˈnjuːmərəl/ | 数字; 数码 | Write the page numeral in the corner. | 在角落里写上页码数字。 | 5
+roman numeral | /ˌrəʊmən ˈnjuːmərəl/ | 罗马数字 | Chapter one is marked with the roman numeral I. | 第一章用罗马数字I标记。 | 6
+average | /ˈævərɪdʒ/ | 平均值; 平均的 | The average age of the class is twenty. | 这个班的平均年龄是二十岁。 | 4
+median | /ˈmiːdiən/ | 中位数 | The median income is lower than the average. | 收入的中位数低于平均数。 | 5
+maximum | /ˈmæksɪməm/ | 最大值; 最大的 | The maximum speed is 120 km/h. | 最高速度是每小时一百二十公里。 | 4
+minimum | /ˈmɪnɪməm/ | 最小值; 最低的 | The minimum wage has risen this year. | 今年最低工资已经上涨。 | 4
+approximately | /əˈprɒksɪmətli/ | 大约; 近似地 | The journey takes approximately two hours. | 这段行程大约需要两个小时。 | 4
+roughly | /ˈrʌfli/ | 大约; 粗略地 | Roughly fifty people came to the party. | 大约五十人来参加了派对。 | 5
+odd | /ɒd/ | 奇数的; 古怪的 | Three and five are odd numbers. | 三和五都是奇数。 | 5
+even | /ˈiːvn/ | 偶数的; 平的 | Two, four and six are even numbers. | 二、四和六都是偶数。 | 5
+numerator | /ˈnjuːməreɪtə/ | 分子 | In 3/4 the numerator is three. | 在四分之三中，分子是三。 | 6
+denominator | /dɪˈnɒmɪneɪtə/ | 分母 | The denominator tells you how many equal parts there are. | 分母表示有多少个相等的部分。 | 6
+several | /ˈsevrəl/ | 几个; 好几个 | We visited several museums in Paris. | 我们在巴黎参观了好几家博物馆。 | 4
+few | /fjuː/ | 很少的; 几个 | Only a few people came to the lecture. | 只有少数人来听讲座。 | 3
+fewer | /ˈfjuːə/ | 更少的 | We have fewer students this term. | 这学期我们的学生更少了。 | 4
+plenty | /ˈplenti/ | 大量; 足够 | There is plenty of food for everyone. | 食物非常充足，够大家吃。 | 3
+enough | /ɪˈnʌf/ | 足够的; 足够 | Do we have enough chairs for everyone? | 我们的椅子够大家坐吗？ | 2
+amount | /əˈmaʊnt/ | 数量; 总额 | Pay the full amount by Friday. | 请在星期五前付清全部金额。 | 3
+countless | /ˈkaʊntləs/ | 数不清的; 无数的 | I have countless memories of that summer. | 我对那个夏天有数不清的回忆。 | 5
+numerous | /ˈnjuːmərəs/ | 众多的; 许多的 | The hotel has numerous rooms. | 这家酒店有许多房间。 | 5
+surplus | /ˈsɜːpləs/ | 盈余; 过剩的 | The company made a surplus last year. | 公司去年实现了盈余。 | 5
+shortage | /ˈʃɔːtɪdʒ/ | 短缺; 不足 | There is a shortage of nurses here. | 这里护士短缺。 | 4
+excess | /ɪkˈses/ | 过量; 超出的部分 | Remove the excess water from the pan. | 把锅里多余的水倒掉。 | 5
+many | /ˈmeni/ | 许多的; 很多 | Many people enjoy hiking. | 很多人喜欢远足。 | 1
+a lot of | /ə lɒt əv/ | 许多; 大量的 | I have a lot of work today. | 我今天有很多工作。 | 1
+pair | /peə/ | 一对; 一双 | I need a new pair of shoes. | 我需要一双新鞋。 | 3
+couple | /ˈkʌpl/ | 一对; 几个 | A couple of friends joined us. | 有两位朋友加入了我们。 | 3
+at least | /ət liːst/ | 至少 | It takes at least an hour. | 至少要一个小时。 | 3
+at most | /ət məʊst/ | 至多; 最多 | You can take three books at most. | 你最多能借三本书。 | 4
+more than | /mɔː ðən/ | 多于; 超过 | More than fifty people came. | 超过五十人来了。 | 3
+less than | /les ðən/ | 少于; 不到 | The journey takes less than an hour. | 这段路程不到一个小时。 | 3
+one half | /wʌn hɑːf/ | 二分之一 | One half of the class is female. | 班上一半的学生是女生。 | 2
+one third | /wʌn θɜːd/ | 三分之一 | Give one third of the money to charity. | 把三分之一的钱捐给慈善机构。 | 3
+three quarters | /θriː ˈkwɔːtəz/ | 四分之三 | Three quarters of the land is forest. | 四分之三的土地是森林。 | 3
+two thirds | /tuː θɜːdz/ | 三分之二 | Two thirds of the staff voted yes. | 三分之二的员工投了赞成票。 | 3
+per cent | /pə ˈsent/ | 百分之一; 每百 | Sales rose by five per cent. | 销售额上涨了百分之五。 | 3
+metre | /ˈmiːtə/ | 米 | The room is four metres long. | 这个房间长四米。 | 2
+centimetre | /ˈsentɪmiːtə/ | 厘米 | The pencil is fifteen centimetres long. | 这支铅笔长十五厘米。 | 2
+millimetre | /ˈmɪlɪmiːtə/ | 毫米 | The rain fell at ten millimetres per hour. | 雨量每小时十毫米。 | 4
+kilometre | /ˈkɪləmiːtə/ | 千米; 公里 | The station is two kilometres away. | 车站离这里两公里。 | 2
+mile | /maɪl/ | 英里 | The lake is two miles from the town. | 湖泊距离小镇两英里。 | 2
+inch | /ɪntʃ/ | 英寸 | The screen is fifteen inches wide. | 这块屏幕宽十五英寸。 | 2
+foot | /fʊt/ | 英尺; 脚 | The tree is about thirty feet tall. | 这棵树大约三十英尺高。 | 2
+gram | /ɡræm/ | 克 | Add 200 grams of flour to the bowl. | 往碗里加二百克面粉。 | 2
+kilogram | /ˈkɪləɡræm/ | 千克; 公斤 | The parcel weighs two kilograms. | 这个包裹重两公斤。 | 2
+tonne | /tʌn/ | 吨; 公吨 | The ship can carry ten thousand tonnes. | 这艘船能载运一万吨货物。 | 4
+millilitre | /ˈmɪlɪliːtə/ | 毫升 | Take five millilitres of the syrup. | 服用五毫升的糖浆。 | 4
+gallon | /ˈɡælən/ | 加仑 | The tank holds ten gallons of fuel. | 这个油箱能装十加仑燃油。 | 4
+hectare | /ˈhekteə/ | 公顷 | The farm covers twenty hectares. | 这个农场占地二十公顷。 | 5
+square metre | /skweə ˈmiːtə/ | 平方米 | The flat is seventy square metres. | 这套公寓有七十平方米。 | 4
+cubic | /ˈkjuːbɪk/ | 立方的 | The tank holds one cubic metre of water. | 这个水箱能装一立方米的水。 | 5
+unit | /ˈjuːnɪt/ | 单位; 单元 | The price is per unit. | 价格按单位计算。 | 4
+length | /leŋθ/ | 长度 | What is the length of the bridge? | 这座桥有多长？ | 4
+width | /wɪdθ/ | 宽度 | The width of the road is six metres. | 这条路的宽度是六米。 | 4
+depth | /depθ/ | 深度 | The depth of the pool is two metres. | 这个泳池的深度是两米。 | 4
+height | /haɪt/ | 高度; 身高 | What is the height of the building? | 这栋楼有多高？ | 2

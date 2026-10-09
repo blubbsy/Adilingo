@@ -1,0 +1,215 @@
+@pack | places-city | Places & the City | 城市与地点 | 🏙️ | travel | Buildings, shops, public places, street furniture and directions for getting around town.
+城市 | city | 上海是一个大城市。 | Shanghai is a big city.
+城 | city; town | 这座古城有两千年的历史。 | This ancient town has a history of two thousand years.
+农村 | countryside; rural area | 他的爷爷住在农村。 | His grandfather lives in the countryside.
+乡下 | countryside | 周末我们去乡下玩。 | At the weekend we go to the countryside.
+小镇 | small town | 这个小镇很安静。 | This small town is very quiet.
+郊区 | suburb | 他们住在郊区。 | They live in the suburbs.
+市中心 | city center | 酒店在市中心。 | The hotel is in the city center.
+街 | street | 这条街上有很多商店。 | There are many shops on this street.
+街道 | street | 街道两边种着树。 | Trees are planted on both sides of the street.
+马路 | road | 过马路要小心。 | Be careful crossing the road.
+路 | road; way | 这条路通向火车站。 | This road leads to the train station.
+大街 | main street | 大街上人来人往。 | The main street is full of people.
+小路 | path; lane | 公园里有一条小路。 | There is a path in the park.
+胡同 | alley (hutong) | 北京的胡同很有特色。 | Beijing's hutongs have a unique character.
+公路 | highway | 这条公路很长。 | This highway is very long.
+高速公路 | expressway | 我们走高速公路去上海。 | We take the expressway to Shanghai.
+桥 | bridge | 河上有一座桥。 | There is a bridge over the river.
+天桥 | pedestrian overpass | 请走天桥过马路。 | Please cross the road via the overpass.
+地下通道 | underpass | 我们从地下通道过去。 | We go across through the underpass.
+隧道 | tunnel | 火车穿过一条长隧道。 | The train passes through a long tunnel.
+十字路口 | intersection | 到十字路口向左转。 | Turn left at the intersection.
+路口 | crossing; junction | 前面的路口有红绿灯。 | There is a traffic light at the junction ahead.
+红绿灯 | traffic light | 红绿灯变红了，请停下。 | The traffic light turned red, please stop.
+斑马线 | zebra crossing | 行人要走斑马线。 | Pedestrians should use the zebra crossing.
+人行道 | sidewalk | 请走在人行道上。 | Please walk on the sidewalk.
+车道 | traffic lane | 自行车有专用车道。 | Bicycles have a special lane.
+路标 | road sign | 路标上写着方向。 | The road sign shows the direction.
+路灯 | street lamp | 晚上路灯亮了。 | At night the street lamps come on.
+垃圾桶 | trash can | 请把垃圾扔进垃圾桶。 | Please throw the garbage in the trash can.
+长椅 | bench | 公园里有一张长椅。 | There is a bench in the park.
+公共厕所 | public toilet | 附近有公共厕所吗？ | Is there a public toilet nearby?
+厕所 | toilet | 请问厕所在哪儿？ | Excuse me, where is the toilet?
+洗手间 | restroom | 洗手间在二楼。 | The restroom is on the second floor.
+广场 | square; plaza | 广场上有很多鸽子。 | There are many pigeons on the square.
+公园 | park | 我们在公园里散步。 | We walk in the park.
+花园 | garden | 他们家有一个小花园。 | Their home has a small garden.
+喷泉 | fountain | 广场中间有一个喷泉。 | There is a fountain in the middle of the square.
+雕像 | statue | 广场上有一座雕像。 | There is a statue on the square.
+纪念碑 | monument | 人们在纪念碑前献花。 | People lay flowers in front of the monument.
+动物园 | zoo | 动物园里有熊猫。 | There are pandas at the zoo.
+植物园 | botanical garden | 植物园春天很美。 | The botanical garden is beautiful in spring.
+游乐场 | amusement park | 孩子们喜欢游乐场。 | Children like amusement parks.
+博物馆 | museum | 博物馆里有很多文物。 | The museum has many cultural relics.
+美术馆 | art gallery | 美术馆今天有新展览。 | The art gallery has a new exhibition today.
+科技馆 | science museum | 科技馆适合带孩子去。 | The science museum is good for taking children.
+图书馆 | library | 图书馆晚上九点关门。 | The library closes at nine in the evening.
+体育馆 | gymnasium | 体育馆在公园旁边。 | The gymnasium is next to the park.
+电影院 | cinema | 电影院在商场的五楼。 | The cinema is on the fifth floor of the mall.
+剧院 | theater | 我们去剧院看戏。 | We go to the theater to see a play.
+音乐厅 | concert hall | 音乐厅今晚有演出。 | The concert hall has a performance tonight.
+歌剧院 | opera house | 歌剧院的建筑很特别。 | The opera house has special architecture.
+酒吧 | bar | 他们去酒吧喝一杯。 | They go to a bar for a drink.
+咖啡馆 | cafe | 我在咖啡馆等你。 | I'll wait for you in the cafe.
+茶馆 | teahouse | 老人们在茶馆聊天。 | The old men chat in the teahouse.
+饭馆 | restaurant | 这家饭馆的菜很好吃。 | The food at this restaurant is delicious.
+餐厅 | restaurant; dining hall | 餐厅九点开门。 | The restaurant opens at nine.
+快餐店 | fast-food restaurant | 快餐店中午人很多。 | The fast-food restaurant is crowded at noon.
+面包店 | bakery | 面包店里的面包很香。 | The bread in the bakery smells good.
+蛋糕店 | cake shop | 我去蛋糕店买生日蛋糕。 | I go to the cake shop to buy a birthday cake.
+商店 | shop; store | 这家商店九点关门。 | This shop closes at nine.
+商场 | shopping mall | 商场里有很多品牌。 | The mall has many brands.
+购物中心 | shopping center | 购物中心周末很热闹。 | The shopping center is lively on weekends.
+超市 | supermarket | 我去超市买牛奶。 | I go to the supermarket to buy milk.
+便利店 | convenience store | 便利店二十四小时营业。 | The convenience store is open twenty-four hours.
+市场 | market | 市场里的蔬菜很新鲜。 | The vegetables at the market are fresh.
+菜市场 | food market | 妈妈早上去菜市场买菜。 | Mom goes to the food market in the morning.
+书店 | bookstore | 书店里有很多新书。 | The bookstore has many new books.
+文具店 | stationery store | 文具店在学校旁边。 | The stationery store is next to the school.
+服装店 | clothing store | 这家服装店在打折。 | This clothing store is on sale.
+鞋店 | shoe store | 她在鞋店买了一双鞋。 | She bought a pair of shoes at the shoe store.
+花店 | flower shop | 花店里的玫瑰很漂亮。 | The roses in the flower shop are pretty.
+药店 | pharmacy | 附近有药店吗？ | Is there a pharmacy nearby?
+眼镜店 | optician's shop | 他去眼镜店配眼镜。 | He went to the optician's to get glasses.
+理发店 | barbershop; hair salon | 我今天要去理发店。 | I'm going to the hair salon today.
+美容院 | beauty salon | 她周末去美容院。 | She goes to the beauty salon on weekends.
+洗衣店 | laundry | 衣服送去洗衣店洗了。 | The clothes were sent to the laundry.
+手机店 | phone shop | 手机店在商场一楼。 | The phone shop is on the first floor of the mall.
+玩具店 | toy store | 孩子在玩具店不想走。 | The child doesn't want to leave the toy store.
+水果店 | fruit shop | 水果店的苹果很甜。 | The apples at the fruit shop are sweet.
+肉店 | butcher | 肉店早上七点开门。 | The butcher opens at seven in the morning.
+礼品店 | gift shop | 我在礼品店买了纪念品。 | I bought souvenirs at the gift shop.
+五金店 | hardware store | 五金店卖工具和螺丝。 | The hardware store sells tools and screws.
+家具店 | furniture store | 我们去家具店买沙发。 | We go to the furniture store to buy a sofa.
+银行 | bank | 银行下午五点关门。 | The bank closes at five p.m.
+邮局 | post office | 我去邮局寄信。 | I go to the post office to send a letter.
+自动取款机 | ATM | 附近有自动取款机吗？ | Is there an ATM nearby?
+医院 | hospital | 医院在地铁站旁边。 | The hospital is next to the subway station.
+诊所 | clinic | 他去社区诊所看病。 | He goes to the community clinic to see a doctor.
+学校 | school | 学校离我家不远。 | The school is not far from my home.
+幼儿园 | kindergarten | 幼儿园在小区里面。 | The kindergarten is inside the residential compound.
+大学 | university | 这所大学很有名。 | This university is famous.
+警察局 | police station | 请去警察局报警。 | Please go to the police station to report it.
+派出所 | local police station | 他在派出所办身份证。 | He applies for the ID card at the local police station.
+消防站 | fire station | 消防站就在街角。 | The fire station is on the street corner.
+政府 | government | 市政府在这条街上。 | The city government is on this street.
+市政厅 | city hall | 市政厅前面是广场。 | In front of the city hall is a square.
+法院 | court | 法院在市中心。 | The court is in the city center.
+大使馆 | embassy | 德国大使馆在朝阳区。 | The German embassy is in Chaoyang District.
+领事馆 | consulate | 办签证要去领事馆。 | You go to the consulate to get a visa.
+海关 | customs | 海关检查行李。 | Customs checks luggage.
+机场 | airport | 机场离市区很远。 | The airport is far from downtown.
+火车站 | train station | 火车站有很多人。 | There are many people at the train station.
+汽车站 | bus station | 汽车站在火车站对面。 | The bus station is opposite the train station.
+地铁站 | subway station | 地铁站就在前面。 | The subway station is just ahead.
+公交车站 | bus stop | 公交车站离这儿三分钟。 | The bus stop is three minutes from here.
+码头 | pier; port | 船停在码头。 | The boat is docked at the pier.
+港口 | harbor | 这个港口很繁忙。 | This harbor is very busy.
+加油站 | gas station | 前面有一个加油站。 | There is a gas station ahead.
+停车场 | parking lot | 商场有大的停车场。 | The mall has a big parking lot.
+出租车站 | taxi stand | 出租车站在出口旁边。 | The taxi stand is next to the exit.
+酒店 | hotel | 酒店在海边。 | The hotel is by the sea.
+旅馆 | inn; hotel | 这家旅馆很便宜。 | This inn is cheap.
+宾馆 | guesthouse; hotel | 我们住在一家宾馆。 | We stay at a guesthouse.
+青年旅社 | hostel | 青年旅社适合背包客。 | The hostel is good for backpackers.
+景点 | tourist attraction | 这个城市有很多景点。 | This city has many tourist attractions.
+名胜古迹 | scenic spots and historic sites | 西安有很多名胜古迹。 | Xi'an has many historic sites.
+寺庙 | temple | 山上有一座古老的寺庙。 | There is an ancient temple on the mountain.
+教堂 | church | 教堂的钟声很好听。 | The church bells sound beautiful.
+清真寺 | mosque | 那座清真寺很大。 | That mosque is very big.
+宫殿 | palace | 故宫是中国最大的宫殿。 | The Forbidden City is China's biggest palace.
+城墙 | city wall | 我们沿着城墙骑车。 | We cycled along the city wall.
+塔 | tower; pagoda | 山顶有一座塔。 | There is a pagoda at the mountain top.
+电视塔 | TV tower | 电视塔是城市的标志。 | The TV tower is the symbol of the city.
+大楼 | building | 这座大楼有五十层。 | This building has fifty floors.
+高楼 | high-rise | 市中心有很多高楼。 | There are many high-rises in the city center.
+摩天大楼 | skyscraper | 上海有很多摩天大楼。 | Shanghai has many skyscrapers.
+办公楼 | office building | 他在办公楼里上班。 | He works in an office building.
+写字楼 | office tower | 这栋写字楼租金很高。 | The rent of this office tower is high.
+工厂 | factory | 工厂在城市的东边。 | The factory is on the east side of the city.
+仓库 | warehouse | 货物放在仓库里。 | The goods are stored in the warehouse.
+公司 | company | 我的公司在二楼。 | My company is on the second floor.
+小区 | residential compound | 我们小区环境很好。 | Our compound has a nice environment.
+社区 | community | 社区有一个活动中心。 | The community has an activity center.
+公寓 | apartment | 她租了一套小公寓。 | She rented a small apartment.
+住宅 | residence | 这片住宅很安静。 | This residential area is quiet.
+别墅 | villa | 他们在山上有一栋别墅。 | They have a villa on the mountain.
+楼房 | multi-story building | 这里有很多新楼房。 | There are many new buildings here.
+大门 | gate; main entrance | 学校大门在北边。 | The school's main gate is on the north.
+入口 | entrance | 地铁入口在那边。 | The subway entrance is over there.
+出口 | exit | 请从出口出去。 | Please leave through the exit.
+电梯 | elevator | 请坐电梯上楼。 | Please take the elevator upstairs.
+扶梯 | escalator | 乘扶梯时请站稳。 | Hold steady when riding the escalator.
+楼梯 | stairs | 楼梯在左边。 | The stairs are on the left.
+一楼 | first floor | 超市在一楼。 | The supermarket is on the first floor.
+地下室 | basement | 车停在地下室。 | The car is parked in the basement.
+屋顶 | roof | 屋顶上可以看到夜景。 | You can see the night view from the roof.
+门口 | doorway; entrance | 我在门口等你。 | I'll wait for you at the doorway.
+旁边 | beside; next to | 银行在超市旁边。 | The bank is next to the supermarket.
+附近 | nearby | 附近有一家药店。 | There is a pharmacy nearby.
+对面 | opposite | 邮局在医院对面。 | The post office is opposite the hospital.
+前面 | in front | 公交站就在前面。 | The bus stop is just in front.
+后面 | behind | 学校后面有个公园。 | There is a park behind the school.
+左边 | left side | 洗手间在左边。 | The restroom is on the left.
+右边 | right side | 商店在路的右边。 | The shop is on the right side of the road.
+中间 | middle | 喷泉在广场中间。 | The fountain is in the middle of the square.
+东边 | east side | 公园在城东边。 | The park is on the east side of the city.
+西边 | west side | 机场在城市西边。 | The airport is on the west side of the city.
+南边 | south side | 河在小区南边。 | The river is south of the compound.
+北边 | north side | 山在城市北边。 | The mountain is north of the city.
+东 | east | 太阳从东边升起。 | The sun rises in the east.
+南 | south | 我家在城南。 | My home is in the south of the city.
+西 | west | 西边有一座桥。 | There is a bridge in the west.
+北 | north | 北京在中国北方。 | Beijing is in northern China.
+上面 | above; on top | 书店在咖啡馆上面。 | The bookstore is above the cafe.
+下面 | below | 地铁站在商场下面。 | The subway station is below the mall.
+里面 | inside | 超市里面很凉快。 | It is cool inside the supermarket.
+外面 | outside | 外面在下雨。 | It is raining outside.
+这里 | here | 这里有一家银行。 | There is a bank here.
+那里 | there | 那里有很多餐厅。 | There are many restaurants there.
+远 | far | 我家离学校不远。 | My home is not far from the school.
+近 | near | 车站离这里很近。 | The station is very near here.
+方向 | direction | 你走错方向了。 | You have gone in the wrong direction.
+地址 | address | 请写下你的地址。 | Please write down your address.
+地图 | map | 我用手机看地图。 | I look at the map on my phone.
+导航 | navigation | 我们用导航找路。 | We use navigation to find the way.
+怎么走 | how to get there | 请问去医院怎么走？ | Excuse me, how do I get to the hospital?
+直走 | go straight | 一直直走就到了。 | Keep going straight and you will arrive.
+向前走 | walk forward | 向前走五十米就到了。 | Walk forward fifty meters and you're there.
+往左拐 | turn left | 到路口往左拐。 | Turn left at the junction.
+往右拐 | turn right | 红绿灯后往右拐。 | Turn right after the traffic light.
+转弯 | to turn (a corner) | 前面转弯就是银行。 | The bank is right after the turn ahead.
+掉头 | to make a U-turn | 前面路口可以掉头。 | You can make a U-turn at the next intersection.
+过马路 | to cross the road | 过马路要看红绿灯。 | Watch the traffic light when crossing the road.
+迷路 | to get lost | 我在老城区迷路了。 | I got lost in the old town.
+找 | to look for | 我在找地铁站。 | I am looking for the subway station.
+到 | to arrive | 我们到市中心了。 | We have arrived at the city center.
+经过 | to pass by | 公交车经过博物馆。 | The bus passes by the museum.
+路线 | route | 这条路线最快。 | This route is the fastest.
+距离 | distance | 两个地方的距离很近。 | The distance between the two places is short.
+米 | meter | 前面一百米有地铁站。 | There's a subway station a hundred meters ahead.
+公里 | kilometer | 机场离市区三十公里。 | The airport is thirty kilometers from downtown.
+路程 | journey; distance | 到那儿路程不远。 | The journey there is not far.
+步行 | to walk; on foot | 从这儿步行十分钟。 | It's a ten-minute walk from here.
+交通 | traffic; transport | 这里的交通很方便。 | Transport here is very convenient.
+堵车 | traffic jam | 早上八点常常堵车。 | There is often a traffic jam at eight in the morning.
+拥挤 | crowded | 地铁早上很拥挤。 | The subway is crowded in the morning.
+热闹 | lively | 夜市非常热闹。 | The night market is very lively.
+繁华 | bustling; prosperous | 这条街很繁华。 | This street is bustling.
+安静 | quiet | 老城区很安静。 | The old town is quiet.
+夜市 | night market | 我们去夜市吃小吃。 | We go to the night market for snacks.
+步行街 | pedestrian street | 步行街上有很多店。 | The pedestrian street has many shops.
+老城区 | old town | 老城区有很多古老的房子。 | The old town has many ancient houses.
+新区 | new district | 新区的楼房很新。 | The buildings in the new district are new.
+商业区 | commercial district | 商业区晚上很热闹。 | The commercial district is lively at night.
+居民 | resident | 小区居民都很友好。 | The residents of the compound are friendly.
+市民 | citizen | 市民可以免费参观。 | Citizens can visit for free.
+游客 | tourist | 景点有很多游客。 | The attraction has many tourists.
+行人 | pedestrian | 行人请走人行道。 | Pedestrians please use the sidewalk.
+市区 | urban area | 机场到市区要一个小时。 | It takes an hour from the airport to the urban area.
+区 | district | 我住在海淀区。 | I live in Haidian District.
+省 | province | 四川省有很多好吃的。 | Sichuan province has lots of good food.
+首都 | capital | 北京是中国的首都。 | Beijing is the capital of China.
+地标 | landmark | 这座塔是城市的地标。 | This tower is the landmark of the city.
+建筑 | building; architecture | 这座建筑有一百年历史。 | This building has a hundred years of history.

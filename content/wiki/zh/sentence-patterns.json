@@ -1,0 +1,285 @@
+[
+  {
+    "id": "pattern-shi-de",
+    "title": "是…的: focusing on a known event",
+    "titleHanzi": "是…的",
+    "category": "sentence-patterns",
+    "hskRange": [2, 4],
+    "summary": "When you already know that something happened, 是…的 lets you ask or state the detail: when, where, how, with whom or why. The focus word follows 是.",
+    "pattern": "Subject + 是 + [time / place / manner / person / purpose] + Verb + 的",
+    "rules": [
+      {
+        "rule": "**The event is known; the detail is new.** 是 marks the focus and 的 closes the sentence. Compare: 我去了北京 (news that I went) vs 我是去年去的北京 (when I went).",
+        "highlight": "是",
+        "examples": [
+          { "hanzi": "我是去年来中国的。", "pinyin": "Wǒ shì qùnián lái Zhōngguó de.", "english": "I came to China last year." },
+          { "hanzi": "你是在哪儿学的汉语？", "pinyin": "Nǐ shì zài nǎr xué de Hànyǔ?", "english": "Where did you learn Chinese?" },
+          { "hanzi": "他是坐飞机来的。", "pinyin": "Tā shì zuò fēijī lái de.", "english": "He came by plane." }
+        ]
+      },
+      {
+        "rule": "**Focus on person or purpose:** with whom, for whom, why. The same frame works for these because the emphasised phrase just follows 是.",
+        "highlight": "是",
+        "examples": [
+          { "hanzi": "我是跟朋友一起去的。", "pinyin": "Wǒ shì gēn péngyou yìqǐ qù de.", "english": "I went with a friend." },
+          { "hanzi": "她是为了学汉语来北京的。", "pinyin": "Tā shì wèile xué Hànyǔ lái Běijīng de.", "english": "She came to Beijing in order to learn Chinese." }
+        ]
+      },
+      {
+        "rule": "**The object can follow 的** when it is a noun: 我是昨天买的票 or 我是昨天买票的. A pronoun object always goes before 的: 我是在北京认识他的.",
+        "highlight": "的",
+        "examples": [
+          { "hanzi": "我是昨天买的票。", "pinyin": "Wǒ shì zuótiān mǎi de piào.", "english": "I bought the ticket yesterday." },
+          { "hanzi": "我是在北京认识他的。", "pinyin": "Wǒ shì zài Běijīng rènshi tā de.", "english": "I got to know him in Beijing." }
+        ]
+      },
+      {
+        "rule": "**Negation and omission.** The negative is 不是…的; 是 can be omitted in the positive in conversation but must stay in the negative. Use 是…的 for past facts, never for future events.",
+        "highlight": "不是",
+        "examples": [
+          { "hanzi": "我不是一个人去的。", "pinyin": "Wǒ bú shì yí gè rén qù de.", "english": "I didn't go alone." },
+          { "hanzi": "这本书我昨天买的。", "pinyin": "Zhè běn shū wǒ zuótiān mǎi de.", "english": "I bought this book yesterday." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "Verb 了", "text": "了 reports that an event happened; 是…的 assumes it and spotlights how, when or where. 他来了 (he has come) vs 他是坐火车来的 (he came by train)." },
+      { "vs": "Habitual 是…的", "text": "是…的 can also give a plain evaluation: 他是很聪明的 'he is clever'. This describes a trait and takes no focus word." }
+    ],
+    "pitfalls": [
+      "✗ 我是明天去北京的。 → ✓ 我明天去北京。 The focus pattern needs a past event.",
+      "✗ 我是去年来了中国的。 → ✓ 我是去年来中国的。 Never add 了 inside 是…的.",
+      "✗ 我是在北京认识的他。 → ✓ 我是在北京认识他的。 A pronoun object stays before 的; a noun object may follow it (我是昨天买的票).",
+      "✗ 我没是坐飞机来的。 → ✓ 我不是坐飞机来的。 The negation is 不是."
+    ],
+    "relatedPointIds": ["g2-shi-de", "g2-de-de-de", "g2-yijing-le", "g3-verbal-measure"],
+    "keywords": ["shi de", "是的", "是…的", "focus", "cleft", "emphasis", "past event", "when where how"],
+    "status": "draft"
+  },
+  {
+    "id": "pattern-you",
+    "title": "The many jobs of 有",
+    "titleHanzi": "有",
+    "category": "sentence-patterns",
+    "hskRange": [1, 4],
+    "summary": "有 expresses possession ('have') and existence ('there is'); it also builds comparisons, estimates and 'someone/some' phrases. It is negated only with 没.",
+    "pattern": "Subject + 有 + Object  ·  Place + 有 + Thing  ·  A 有 B + Adj  ·  有 + Verb phrase",
+    "rules": [
+      {
+        "rule": "**Possession:** the owner comes first. The negative is **没有**. Questions use 有没有 or 吗.",
+        "highlight": "有",
+        "examples": [
+          { "hanzi": "我有两个妹妹。", "pinyin": "Wǒ yǒu liǎng gè mèimei.", "english": "I have two younger sisters." },
+          { "hanzi": "你有没有时间？", "pinyin": "Nǐ yǒu méiyǒu shíjiān?", "english": "Do you have time?" }
+        ]
+      },
+      {
+        "rule": "**Existence:** Place + 有 + Thing says 'there is' and introduces something new. The thing is indefinite (see the existential pattern article).",
+        "highlight": "有",
+        "examples": [
+          { "hanzi": "桌子上有一本书。", "pinyin": "Zhuōzi shang yǒu yì běn shū.", "english": "There is a book on the table." },
+          { "hanzi": "这儿附近有银行吗？", "pinyin": "Zhèr fùjìn yǒu yínháng ma?", "english": "Is there a bank nearby?" }
+        ]
+      },
+      {
+        "rule": "**Comparison and estimate:** A (没)有 B + (这么/那么) + Adj. 'A is (not) as … as B'; 有 + Number can mean 'amount to' ('about').",
+        "highlight": "有",
+        "examples": [
+          { "hanzi": "他有他哥哥那么高。", "pinyin": "Tā yǒu tā gēge nàme gāo.", "english": "He is as tall as his older brother." },
+          { "hanzi": "这个箱子有二十公斤重。", "pinyin": "Zhège xiāngzi yǒu èrshí gōngjīn zhòng.", "english": "This suitcase weighs about twenty kilos." }
+        ]
+      },
+      {
+        "rule": "**有 + Verb phrase** with a noun subject: 有人 'someone', 有时候 'sometimes', 有的…有的… 'some … others'. This is a pivot construction where the object of 有 is the subject of the next verb.",
+        "highlight": "有",
+        "examples": [
+          { "hanzi": "有人在门口等你。", "pinyin": "Yǒu rén zài ménkǒu děng nǐ.", "english": "Someone is waiting for you at the door." },
+          { "hanzi": "有的人喜欢咖啡，有的人喜欢茶。", "pinyin": "Yǒu de rén xǐhuan kāfēi, yǒu de rén xǐhuan chá.", "english": "Some people like coffee, others like tea." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "在", "text": "Place + 有 + thing introduces a new item; thing + 在 + place locates a known item. 桌子上有书 vs 书在桌子上." },
+      { "vs": "是", "text": "Place + 是 + thing lists everything there (the table is full of books); Place + 有 + thing says it exists among others." }
+    ],
+    "pitfalls": [
+      "✗ 我不有钱。 → ✓ 我没有钱。 有 is negated only by 没(有).",
+      "✗ 我有了一个哥哥。 (meant: I have a brother) → ✓ 我有一个哥哥。 有了 would mean that you now have one, a change.",
+      "✗ 书有在桌子上。 → ✓ 桌子上有书。 or 书在桌子上。 Existence 有 starts with the place.",
+      "✗ 我有去过北京。 → ✓ 我去过北京。 A past experience is not marked with 有 in Standard Chinese (有 + verb is dialectal)."
+    ],
+    "relatedPointIds": ["g1-zai-place-verb", "g3-gen-yiyang", "g3-bi-geng-hai", "g1-ji-duoshao"],
+    "keywords": ["you", "有", "没有", "have", "there is", "existence", "possession", "pivot sentence", "as … as"],
+    "status": "draft"
+  },
+  {
+    "id": "pattern-existential",
+    "title": "Existential sentences: place first, thing last",
+    "titleHanzi": "存现句",
+    "category": "sentence-patterns",
+    "hskRange": [2, 5],
+    "summary": "To say that something exists, appears or disappears at a place, put the place first and the (new) thing last. The verb in the middle shows the state or event.",
+    "pattern": "Place + 有 / 是 / Verb + 着 / Verb + 了 + (Quantity) + Thing",
+    "rules": [
+      {
+        "rule": "**Place + 有/是 + Thing** introduces what is there. 有 mentions one or several items; 是 says that the place consists of this thing ('it is all …').",
+        "highlight": "是",
+        "examples": [
+          { "hanzi": "我家前面是一个公园。", "pinyin": "Wǒ jiā qiánmiàn shì yí gè gōngyuán.", "english": "In front of my house there is a park." },
+          { "hanzi": "教室里有二十个学生。", "pinyin": "Jiàoshì lǐ yǒu èrshí gè xuésheng.", "english": "There are twenty students in the classroom." }
+        ]
+      },
+      {
+        "rule": "**Place + Verb + 着 + Thing** describes a state: how things are arranged, hung or placed. Posture and placement verbs (坐, 站, 挂, 放, 摆, 写) are typical.",
+        "highlight": "着",
+        "examples": [
+          { "hanzi": "墙上挂着一幅画。", "pinyin": "Qiáng shang guà zhe yì fú huà.", "english": "A painting hangs on the wall." },
+          { "hanzi": "门口站着两个警察。", "pinyin": "Ménkǒu zhàn zhe liǎng gè jǐngchá.", "english": "Two policemen stand at the entrance." },
+          { "hanzi": "黑板上写着今天的作业。", "pinyin": "Hēibǎn shang xiě zhe jīntiān de zuòyè.", "english": "Today's homework is written on the blackboard." }
+        ]
+      },
+      {
+        "rule": "**Place + Verb + 了 + Thing** reports something that appeared or disappeared: 来, 出, 死, 丢, 跑, 走. The thing follows the verb because it is new information.",
+        "highlight": "了",
+        "examples": [
+          { "hanzi": "我们班来了一个新同学。", "pinyin": "Wǒmen bān lái le yí gè xīn tóngxué.", "english": "A new classmate has joined our class." },
+          { "hanzi": "昨天晚上村子里丢了一头牛。", "pinyin": "Zuótiān wǎnshang cūnzi lǐ diū le yì tóu niú.", "english": "Last night a cow went missing in the village." }
+        ]
+      },
+      {
+        "rule": "**The thing is indefinite.** It is usually a quantified or non-specific noun (一个人, 两本书). A known item (这本书, 小王) would come before the verb as a topic instead.",
+        "highlight": "一",
+        "examples": [
+          { "hanzi": "前面走来一位老人。", "pinyin": "Qiánmiàn zǒu lái yí wèi lǎorén.", "english": "An old man is walking toward us." },
+          { "hanzi": "山上住着一位老人。", "pinyin": "Shān shang zhù zhe yí wèi lǎorén.", "english": "An old man lives on the mountain." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "Normal word order", "text": "Normal SVO says who does what (小王来了); the existential structure says what turned up where (我们班来了一个人)." },
+      { "vs": "在 sentences", "text": "A definite thing is located with 在 (书在桌子上); a new thing is introduced with 有 or 着 at a place." }
+    ],
+    "pitfalls": [
+      "✗ 一本书在桌子上。 → ✓ 桌子上有一本书。 A new item is not the subject of 在.",
+      "✗ 墙上一幅画挂着。 → ✓ 墙上挂着一幅画。 The thing comes after the verb.",
+      "✗ 桌子上放着那本书。 (when the book is known) → ✓ 那本书放在桌子上。 With a definite noun, use the topic form.",
+      "✗ 墙上挂了着一幅画。 → ✓ 墙上挂着一幅画。 Only one aspect marker is allowed."
+    ],
+    "relatedPointIds": ["g1-zai-place-verb", "g2-zhe", "g2-direction-lai-qu", "g2-yijing-le"],
+    "keywords": ["existential sentence", "存现句", "there is", "appearance", "disappearance", "location inversion", "place first"],
+    "status": "draft"
+  },
+  {
+    "id": "pattern-lian-dou",
+    "title": "连…都/也: even",
+    "titleHanzi": "连…都 / 连…也",
+    "category": "sentence-patterns",
+    "hskRange": [3, 5],
+    "summary": "连 picks out an extreme case and 都 or 也 confirms that even this case is included. The sentence usually implies that it should have been the exception.",
+    "pattern": "Subject + 连 + [extreme item] + 都 / 也 + Verb phrase",
+    "rules": [
+      {
+        "rule": "**连 + item + 都/也:** the item is the surprising one. It can be a person, a thing, a number or a verb phrase. In a negative sentence, it means 'not even'.",
+        "highlight": "连",
+        "examples": [
+          { "hanzi": "他连自己的名字都不会写。", "pinyin": "Tā lián zìjǐ de míngzi dōu bú huì xiě.", "english": "He can't even write his own name." },
+          { "hanzi": "太忙了，我连饭都没吃。", "pinyin": "Tài máng le, wǒ lián fàn dōu méi chī.", "english": "I was so busy that I did not even eat." },
+          { "hanzi": "连小孩子也知道这个道理。", "pinyin": "Lián xiǎo háizi yě zhīdào zhège dàoli.", "english": "Even small children know this." }
+        ]
+      },
+      {
+        "rule": "**连 + 一 + Measure + Noun + 都/也 + Negative** is the strongest 'not even one'. The measure noun is the smallest unit.",
+        "highlight": "一",
+        "examples": [
+          { "hanzi": "他连一句话也没说。", "pinyin": "Tā lián yí jù huà yě méi shuō.", "english": "He didn't say a single word." },
+          { "hanzi": "我连一分钱都没有了。", "pinyin": "Wǒ lián yì fēn qián dōu méiyǒu le.", "english": "I don't have a single cent left." }
+        ]
+      },
+      {
+        "rule": "**The extreme item** can be the subject or the object. An object moves in front of the verb after 连. The pattern then looks like a topic with emphasis.",
+        "highlight": "连",
+        "examples": [
+          { "hanzi": "连老师都被他问住了。", "pinyin": "Lián lǎoshī dōu bèi tā wènzhù le.", "english": "Even the teacher was stumped by his question." },
+          { "hanzi": "这个字连我自己都不认识。", "pinyin": "Zhège zì lián wǒ zìjǐ dōu bú rènshi.", "english": "I don't even know this character myself." }
+        ]
+      },
+      {
+        "rule": "**连 may be dropped** in speech when 都/也 and the extreme item are already clear: 我一分钱都没有. But 连 is required before a verb phrase: 连看都没看.",
+        "highlight": "都",
+        "examples": [
+          { "hanzi": "他连看都没看就走了。", "pinyin": "Tā lián kàn dōu méi kàn jiù zǒu le.", "english": "He left without even looking." },
+          { "hanzi": "我一分钱都不想花。", "pinyin": "Wǒ yì fēn qián dōu bù xiǎng huā.", "english": "I don't want to spend a single cent." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "甚至", "text": "甚至 is a connector that adds an extreme case at the end of a list; 连…都 builds the extreme into one clause. They are often used together." },
+      { "vs": "都 vs 也", "text": "都 stresses inclusion and is more common; 也 is lighter and more literary after 连." }
+    ],
+    "pitfalls": [
+      "✗ 连我不会写。 → ✓ 我连自己的名字都不会写。 Always add 都 / 也 after the extreme item.",
+      "✗ 他连一个字也说。 → ✓ 他连一个字也没说。 'Not even one' needs a negative verb.",
+      "✗ 连我的朋友都来了，我的孩子也来了。 (nothing extreme) → ✓ 连最忙的老板都来了。 The 连 item should be the least expected one.",
+      "✗ 我连吃饭都。 → ✓ 我连吃饭都没时间。 都 needs a predicate after it."
+    ],
+    "relatedPointIds": ["g3-lian-dou", "g4-shenzhi", "g3-question-word-indefinite", "g7-shangqie-hekuang"],
+    "keywords": ["lian dou", "连…都", "连…也", "even", "not even", "emphasis", "extreme case"],
+    "status": "draft"
+  },
+  {
+    "id": "pattern-topic-comment",
+    "title": "Topic-comment sentences",
+    "titleHanzi": "主题句",
+    "category": "sentence-patterns",
+    "hskRange": [2, 6],
+    "summary": "A Chinese sentence often starts with what you are talking about (the topic) and then says something about it (the comment). The topic need not be the doer of the action.",
+    "pattern": "Topic (known) + Comment (subject + predicate / predicate)",
+    "rules": [
+      {
+        "rule": "**Fronted object as topic.** Move a known object to the front to make it the theme. The sentence still has a subject, which now follows the topic. English would use a passive or an 'as for' phrase.",
+        "highlight": "这本书",
+        "examples": [
+          { "hanzi": "这本书我看过。", "pinyin": "Zhè běn shū wǒ kàn guo.", "english": "This book I have read." },
+          { "hanzi": "那个人我不认识。", "pinyin": "Nàge rén wǒ bú rènshi.", "english": "That person I don't know." }
+        ]
+      },
+      {
+        "rule": "**Double-subject (whole-part) sentences.** A topic and a part or property: 他身体很好, 这个地方风景很美. The comment is itself a subject-predicate clause.",
+        "highlight": "身体",
+        "examples": [
+          { "hanzi": "他身体很好。", "pinyin": "Tā shēntǐ hěn hǎo.", "english": "He is in good health." },
+          { "hanzi": "这个城市冬天很冷。", "pinyin": "Zhège chéngshì dōngtiān hěn lěng.", "english": "This city is very cold in winter." }
+        ]
+      },
+      {
+        "rule": "**Passive meaning without 被.** When the topic is something acted upon and the agent is unimportant, Chinese just says it: 饭做好了, 门开着. Use 被 only when the agent matters or the result is unpleasant.",
+        "highlight": "做好了",
+        "examples": [
+          { "hanzi": "饭已经做好了。", "pinyin": "Fàn yǐjīng zuòhǎo le.", "english": "The meal is ready." },
+          { "hanzi": "信寄出去了吗？", "pinyin": "Xìn jì chūqù le ma?", "english": "Has the letter been sent?" }
+        ]
+      },
+      {
+        "rule": "**Topic chain.** A topic can be mentioned once and carry over several comments. The subject is dropped when it is clear from the context, so Chinese needs fewer pronouns than English.",
+        "highlight": "学得快",
+        "examples": [
+          { "hanzi": "小王很聪明，学得快，记得牢。", "pinyin": "Xiǎo Wáng hěn cōngming, xué de kuài, jì de láo.", "english": "Xiao Wang is clever; he learns fast and remembers well." },
+          { "hanzi": "那家饭馆，菜好吃，价格也便宜。", "pinyin": "Nà jiā fànguǎn, cài hǎochī, jiàgé yě piányi.", "english": "That restaurant: the food is tasty and the prices are cheap, too." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "把 sentences", "text": "A topic is general and sets the scene; a 把 sentence is a specific action on a definite object with a result. 这本书我看完了 is topic-comment, 我把这本书看完了 is 把." },
+      { "vs": "English subject-prominence", "text": "English must have a grammatical subject and flips sentences into the passive. Chinese lets the topic stand first without extra marking." }
+    ],
+    "pitfalls": [
+      "✗ 这本书被看过。 → ✓ 这本书我看过。 or 这本书看过了。 Do not use 被 for a neutral statement.",
+      "✗ 他很好身体。 → ✓ 他身体很好。 The predicate adjective follows the part noun.",
+      "✗ 一本书我看过。 → ✓ 我看过一本书。 A topic is known or generic; a new item introduced with 一 goes after the verb.",
+      "✗ 他很聪明，他学得快，他记得牢。 → ✓ 他很聪明，学得快，记得牢。 Repeating the pronoun in every clause sounds heavy."
+    ],
+    "relatedPointIds": ["g3-ba-sentence", "g3-bei-passive", "g4-bei-passive", "g5-zhiyu"],
+    "keywords": ["topic comment", "主题句", "double subject", "fronted object", "topic prominence", "pro-drop", "word order"],
+    "status": "draft"
+  }
+]

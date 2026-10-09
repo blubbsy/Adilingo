@@ -1,0 +1,258 @@
+[
+  {
+    "id": "pattern-jianyu-pivotal",
+    "title": "Pivotal sentences (兼语句): the object that is also the subject",
+    "titleHanzi": "兼语句",
+    "category": "sentence-patterns",
+    "hskRange": [4, 6],
+    "summary": "In a pivotal sentence the object of the first verb is also the subject of the second verb. Verbs such as 请, 让, 叫 and 使 use this pattern to ask, allow or cause someone to do something.",
+    "pattern": "Subject + V1 + Pivot (object of V1 / subject of V2) + V2 (+ Object)",
+    "rules": [
+      {
+        "rule": "**One noun does two jobs.** The noun after the first verb is the object of that verb and the subject of the second verb. It is written only once, and the second verb follows directly.",
+        "highlight": "请",
+        "examples": [
+          { "hanzi": "老师请我们吃饭。", "pinyin": "Lǎoshī qǐng wǒmen chīfàn.", "english": "The teacher invited us to dinner." },
+          { "hanzi": "我让他帮我开门。", "pinyin": "Wǒ ràng tā bāng wǒ kāimén.", "english": "I asked him to open the door for me." }
+        ]
+      },
+      {
+        "rule": "**让, 叫 and 使 choose the meaning.** 让 and 叫 mean 'ask or allow someone to' in everyday speech. 使 means 'cause someone to' and is formal, often used for effects.",
+        "highlight": "使",
+        "examples": [
+          { "hanzi": "这件事使我很感动。", "pinyin": "Zhè jiàn shì shǐ wǒ hěn gǎndòng.", "english": "This matter moved me very much." },
+          { "hanzi": "妈妈叫我早点回家。", "pinyin": "Māma jiào wǒ zǎodiǎn huíjiā.", "english": "Mom told me to come home early." }
+        ]
+      },
+      {
+        "rule": "**Negation and aspect stay in front of V1.** 不 or 没 goes before the first verb, since it negates the request or permission, not the second action.",
+        "highlight": "没",
+        "examples": [
+          { "hanzi": "老师没让我回答问题。", "pinyin": "Lǎoshī méi ràng wǒ huídá wèntí.", "english": "The teacher did not ask me to answer the question." },
+          { "hanzi": "我不请他来。", "pinyin": "Wǒ bù qǐng tā lái.", "english": "I am not inviting him to come." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "请 vs 让", "text": "请 is polite invitation or request; 让 can mean 'let' or 'ask' and is more directive or casual." },
+      { "vs": "兼语 vs 把 sentence", "text": "A 把 sentence moves the object before the verb; a pivotal sentence has two verbs and the object does double duty as the subject of the second verb." }
+    ],
+    "pitfalls": [
+      "✗ 我让朋友他来。 → ✓ 我让朋友来。 The pivot is one noun, both object and subject. Repeating it with a pronoun makes the sentence wrong.",
+      "✗ 我让不他来。 → ✓ 我不让他来。 The negation 不 goes before the first verb 让, not between the verb and the pivot.",
+      "✗ 我使你吃饭。 → ✓ 我让你吃饭。 使 is formal and literary; in everyday speech use 让 or 叫."
+    ],
+    "relatedPointIds": ["g4-causatives", "g3-ba-sentence", "g3-bei-passive"],
+    "keywords": ["兼语", "请", "让", "叫", "使", "qing", "rang", "jiao", "shi", "pivotal", "causative", "invite", "let", "ask", "make someone do"],
+    "status": "draft"
+  },
+  {
+    "id": "pattern-serial-verbs",
+    "title": "Serial verb sentences (连动句): two actions in order",
+    "titleHanzi": "连动句",
+    "category": "sentence-patterns",
+    "hskRange": [2, 4],
+    "summary": "A serial verb sentence describes two or more actions by the same subject, with no conjunction. The actions appear in the order in which they happen, and the first often gives the means or the route for the second.",
+    "pattern": "Subject + V1 (+ Object) + V2 (+ Object)  ·  Subject + 来 / 去 + V (purpose)",
+    "rules": [
+      {
+        "rule": "**Actions follow the order of events.** The verb that happens first comes first, with no 和 or 然后 between them. Chinese often uses this pattern where English uses 'and' or 'to'.",
+        "highlight": "去",
+        "examples": [
+          { "hanzi": "我去超市买东西。", "pinyin": "Wǒ qù chāoshì mǎi dōngxi.", "english": "I go to the supermarket to buy things." },
+          { "hanzi": "他坐地铁上班。", "pinyin": "Tā zuò dìtiě shàngbān.", "english": "He takes the subway to work." },
+          { "hanzi": "我们骑自行车去公园。", "pinyin": "Wǒmen qí zìxíngchē qù gōngyuán.", "english": "We ride bicycles to the park." }
+        ]
+      },
+      {
+        "rule": "**去 and 来 + verb express purpose.** When the second verb is the purpose of the first, the first verb is usually 去 or 来 and the second is the activity.",
+        "highlight": "来",
+        "examples": [
+          { "hanzi": "我们去喝咖啡吧。", "pinyin": "Wǒmen qù hē kāfēi ba.", "english": "Let's go and have a coffee." },
+          { "hanzi": "他来看朋友。", "pinyin": "Tā lái kàn péngyou.", "english": "He came to see a friend." }
+        ]
+      },
+      {
+        "rule": "**了 and 过 go after the last verb.** When the whole sequence is completed, 了 usually follows the final verb or the object of the sequence.",
+        "highlight": "了",
+        "examples": [
+          { "hanzi": "我昨天去超市买了很多水果。", "pinyin": "Wǒ zuótiān qù chāoshì mǎi le hěn duō shuǐguǒ.", "english": "Yesterday I went to the supermarket and bought lots of fruit." },
+          { "hanzi": "他上个月来中国学习了。", "pinyin": "Tā shàng ge yuè lái Zhōngguó xuéxí le.", "english": "He came to China to study last month." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "连动 vs 兼语", "text": "A serial sentence has one subject doing both actions. A pivotal sentence has a second person who is the object of V1 and the subject of V2." },
+      { "vs": "连动 vs 并列", "text": "Two verbs joined by 和 or 或者 are coordination, not a serial sentence. The serial form has no conjunction and keeps the order of events." }
+    ],
+    "pitfalls": [
+      "✗ 我买去超市。 → ✓ 我去超市买。 The verbs follow the order in which actions happen: go first, then buy.",
+      "✗ 我去超市了买东西。 → ✓ 我去超市买了东西。 了 belongs after the verb that completes the event, usually the last one.",
+      "✗ 他没去超市买东西了。 → ✓ 他没去超市买东西。 With 没, drop 了; the negation already marks the event as not done."
+    ],
+    "relatedPointIds": ["g1-zai-place-verb", "g2-direction-lai-qu", "g2-reduplication", "g3-ba-placement"],
+    "keywords": ["连动", "去", "来", "serial verbs", "sequence", "purpose", "go to", "come to", "order of events"],
+    "status": "draft"
+  },
+  {
+    "id": "pattern-double-object",
+    "title": "Double-object sentences (双宾语)",
+    "titleHanzi": "双宾语",
+    "category": "sentence-patterns",
+    "hskRange": [2, 4],
+    "summary": "Some verbs take two objects: a person (the indirect object) and a thing (the direct object). The person comes first, the thing second, and the pattern covers verbs of giving, teaching, telling and asking.",
+    "pattern": "Subject + Verb + Person + Thing  ·  Subject + 给 / 送 / 教 / 告诉 + Person + Thing",
+    "rules": [
+      {
+        "rule": "**Person first, thing second.** After verbs of giving or teaching, the recipient or learner follows the verb directly and the thing comes after. English uses 'to' before the person; Chinese does not.",
+        "highlight": "给我一本书",
+        "examples": [
+          { "hanzi": "他给我一本书。", "pinyin": "Tā gěi wǒ yì běn shū.", "english": "He gave me a book." },
+          { "hanzi": "老师教我们汉语。", "pinyin": "Lǎoshī jiāo wǒmen Hànyǔ.", "english": "The teacher teaches us Chinese." },
+          { "hanzi": "我送她一束花。", "pinyin": "Wǒ sòng tā yí shù huā.", "english": "I gave her a bunch of flowers." }
+        ]
+      },
+      {
+        "rule": "**Common verbs: 问, 告诉, 借, 还.** The same frame works for asking, telling, lending and returning. The person is always first.",
+        "highlight": "告诉",
+        "examples": [
+          { "hanzi": "我问他一个问题。", "pinyin": "Wǒ wèn tā yí ge wèntí.", "english": "I asked him a question." },
+          { "hanzi": "请你告诉我你的电话。", "pinyin": "Qǐng nǐ gàosu wǒ nǐ de diànhuà.", "english": "Please tell me your phone number." },
+          { "hanzi": "我借给你一支笔。", "pinyin": "Wǒ jiègěi nǐ yì zhī bǐ.", "english": "I will lend you a pen." }
+        ]
+      },
+      {
+        "rule": "**Front the thing as topic.** The thing can move to the front of the sentence, and the verb then takes 给 before the person. This is common in speech when the thing is already known.",
+        "highlight": "送给",
+        "examples": [
+          { "hanzi": "这本书我送给他了。", "pinyin": "Zhè běn shū wǒ sònggěi tā le.", "english": "I gave this book to him." },
+          { "hanzi": "这个问题老师没告诉我们。", "pinyin": "Zhège wèntí lǎoshī méi gàosu wǒmen.", "english": "The teacher did not tell us about this question." }
+        ]
+      },
+      {
+        "rule": "**Negation and 了 placement.** 不 or 没 goes before the verb. 了 goes after the verb, not after the thing, when the action is completed.",
+        "highlight": "了",
+        "examples": [
+          { "hanzi": "他没送我礼物。", "pinyin": "Tā méi sòng wǒ lǐwù.", "english": "He did not give me a present." },
+          { "hanzi": "我告诉你了。", "pinyin": "Wǒ gàosu nǐ le.", "english": "I have already told you." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "给 vs 送给", "text": "给 and 送给 both take a person and a thing. 送给 is more specific: the verb itself says 'send to'." },
+      { "vs": "教 vs 教给", "text": "教 with a person and a skill is the everyday form; 教给 is more formal and emphasises passing knowledge on." },
+      { "vs": "Double object vs English 'to'", "text": "English says 'give a book to him'; Chinese says 给他一本书. The person is directly after the verb, with no preposition." }
+    ],
+    "pitfalls": [
+      "✗ 我教汉语他。 → ✓ 我教他汉语。 The person comes before the thing, not after it.",
+      "✗ 他给我了一本书。 → ✓ 他给了我一本书。 了 goes right after the verb, not after the person.",
+      "✗ 我给他书。 → ✓ 我给他一本书。 A thing object usually needs a number or classifier, unless it is a known item such as 这本书."
+    ],
+    "relatedPointIds": ["g1-gen-gei", "g3-dui-vs-gei", "g3-ba-placement", "g4-causatives"],
+    "keywords": ["双宾语", "给", "送", "教", "告诉", "借", "gei", "song", "jiao", "gaosu", "double object", "indirect object", "give", "teach", "tell", "lend"],
+    "status": "draft"
+  },
+  {
+    "id": "pattern-surprise-and-rhetorical",
+    "title": "Surprise and rhetorical questions: 竟然, 居然, 难道, 谁 …",
+    "titleHanzi": "竟然 / 居然 / 难道 / 反问",
+    "category": "sentence-patterns",
+    "hskRange": [4, 5],
+    "summary": "竟然 and 居然 mark an unexpected event. Rhetorical questions (反问) are questions that already contain the answer; they are used to emphasise a point rather than to ask for information.",
+    "pattern": "Subject + 竟然 / 居然 + Verb (unexpected)  ·  难道 + … + 吗？ (rhetorical)  ·  谁 / 怎么 + … + 呢？ (rhetorical)",
+    "rules": [
+      {
+        "rule": "**竟然 / 居然 = unexpectedly, to one's surprise.** They go before the verb and mark an event that the speaker did not expect. Their use always implies surprise or disapproval.",
+        "highlight": "竟然",
+        "examples": [
+          { "hanzi": "他竟然不知道今天放假。", "pinyin": "Tā jìngrán bù zhīdào jīntiān fàngjià.", "english": "Surprisingly, he did not know today was a holiday." },
+          { "hanzi": "没想到他居然考了第一名。", "pinyin": "Méi xiǎngdào tā jūrán kǎo le dì yī míng.", "english": "I did not expect it, but he actually came first." },
+          { "hanzi": "我居然忘了带钥匙。", "pinyin": "Wǒ jūrán wàng le dài yàoshi.", "english": "Incredibly, I forgot to bring my keys." }
+        ]
+      },
+      {
+        "rule": "**难道 … 吗？ = surely not … ?** This rhetorical question expects the answer 'no' or 'obviously yes'. It is used to challenge or to remind someone of something obvious.",
+        "highlight": "难道",
+        "examples": [
+          { "hanzi": "这么简单的事，难道你不会吗？", "pinyin": "Zhème jiǎndān de shì, nándào nǐ bú huì ma?", "english": "Such a simple thing, surely you can do it?" },
+          { "hanzi": "你不是说过吗？", "pinyin": "Nǐ bú shì shuō guo ma?", "english": "Didn't you say so before?" }
+        ]
+      },
+      {
+        "rule": "**谁 / 怎么能 … 呢？ = who would …? / how could …?** Question words are used rhetorically to mean 'nobody' or to express disbelief. The answer is already obvious to the speaker.",
+        "highlight": "谁",
+        "examples": [
+          { "hanzi": "谁不知道他很聪明？", "pinyin": "Shéi bù zhīdào tā hěn cōngming?", "english": "Who doesn't know that he is clever?" },
+          { "hanzi": "你怎么能这样对待朋友呢？", "pinyin": "Nǐ zěnme néng zhèyàng duìdài péngyou ne?", "english": "How could you treat a friend like this?" }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "竟然 vs 居然", "text": "Almost identical in meaning. 居然 is slightly more colloquial; 竟然 is slightly more formal." },
+      { "vs": "难道 question vs ordinary 吗 question", "text": "A plain 吗 question asks for information. A 难道 question assumes the answer and challenges the listener." }
+    ],
+    "pitfalls": [
+      "✗ 我竟然吃了饭。 → ✓ 我吃了饭。 竟然 needs something unexpected. A normal everyday event does not take it.",
+      "✗ 难道今天是星期天吗？ → ✓ 今天是星期天吗？ 难道 makes a question sound rhetorical or challenging; use a plain 吗 question for ordinary information.",
+      "✗ 竟然他来了吗？ → ✓ 他竟然来了。 竟然 goes before the verb, not at the start of a question, and it is not used to ask."
+    ],
+    "relatedPointIds": ["g4-jingran", "g4-nandao-ma", "g6-qi-rhetorical", "g6-mofei"],
+    "keywords": ["竟然", "居然", "难道", "反问", "jingran", "jūrán", "nandao", "surprise", "unexpectedly", "rhetorical question", "surely"],
+    "status": "draft"
+  },
+  {
+    "id": "pattern-emphasis-and-ellipsis",
+    "title": "Emphasis (就是, 是 … 的) and ellipsis in answers",
+    "titleHanzi": "就是 / 是 … 的 / 省略",
+    "category": "sentence-patterns",
+    "hskRange": [3, 5],
+    "summary": "Chinese adds emphasis with short words such as 就是 and 是, and it often drops words that the listener already knows. Short answers repeat only the key verb or adjective.",
+    "pattern": "就是 + Verb / Phrase ('exactly / just')  ·  Subject + 是 + Verb / Adjective + 的 (emphatic)  ·  Question → short answer (verb only)",
+    "rules": [
+      {
+        "rule": "**就是 = exactly, simply, certainly.** It stresses that something is precisely so, or that the speaker will not change their mind. It is used for firm statements and personal decisions.",
+        "highlight": "就是",
+        "examples": [
+          { "hanzi": "我就是不去！", "pinyin": "Wǒ jiùshì bú qù!", "english": "I just will not go!" },
+          { "hanzi": "这就是我的想法。", "pinyin": "Zhè jiùshì wǒ de xiǎngfǎ.", "english": "This is exactly what I think." }
+        ]
+      },
+      {
+        "rule": "**是 … 的 to affirm a verb or adjective.** Placing 是 before a verb or adjective and closing with 的 stresses that the statement is true. It answers a doubt, or confirms what someone has said.",
+        "highlight": "是",
+        "examples": [
+          { "hanzi": "我是知道的。", "pinyin": "Wǒ shì zhīdào de.", "english": "I really do know." },
+          { "hanzi": "他是很聪明的。", "pinyin": "Tā shì hěn cōngming de.", "english": "He really is clever." }
+        ]
+      },
+      {
+        "rule": "**Ellipsis in questions and answers.** When the context is clear, the object or the repeated verb is dropped. A reply can be just the verb, with 了 or 过 where needed.",
+        "highlight": "吃了",
+        "examples": [
+          { "hanzi": "你吃饭了吗？吃了。", "pinyin": "Nǐ chīfàn le ma? Chī le.", "english": "Have you eaten? Yes, I have." },
+          { "hanzi": "这本书，你看过吗？看过。", "pinyin": "Zhè běn shū, nǐ kàn guo ma? Kàn guo.", "english": "Have you read this book? Yes, I have." }
+        ]
+      },
+      {
+        "rule": "**Yes / no answers by repeating the verb.** For a 'verb not verb' question, the short answer repeats the verb positively or negatively. This is the normal form in speech.",
+        "highlight": "去",
+        "examples": [
+          { "hanzi": "你去不去？去。", "pinyin": "Nǐ qù bu qù? Qù.", "english": "Are you going or not? Yes, I am going." },
+          { "hanzi": "你喜欢不喜欢中国菜？喜欢。", "pinyin": "Nǐ xǐhuan bu xǐhuan Zhōngguó cài? Xǐhuan.", "english": "Do you like Chinese food? Yes, I do." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "就是 vs 就", "text": "就是 is an emphatic 'exactly' or 'just'. 就 alone is the 'then' or 'only' adverb and carries less emphasis." },
+      { "vs": "是 … 的 emphasis vs 是 … 的 focus", "text": "Emphasis here affirms a verb or adjective. The 是 … 的 focus pattern highlights when, where or how (see the 是…的 lesson)." }
+    ],
+    "pitfalls": [
+      "✗ 我是很累。 → ✓ 我是很累的。 A bare 是 + adjective sounds unfinished. Close it with 的 when you are affirming a state.",
+      "✗ 你吃了吗？吃了吃。 → ✓ 吃了。 Do not double the verb in the answer; 吃了 is already complete.",
+      "✗ 你喜欢中国吗？我喜欢中国。 → ✓ 喜欢。 In answers, Chinese often drops repeated words. Repeating the whole clause sounds heavy."
+    ],
+    "relatedPointIds": ["g2-shi-de", "g3-lian-dou", "g3-shi-bu-shi", "g4-bushi-ershi"],
+    "keywords": ["就是", "是…的", "省略", "jiushi", "shi de", "emphasis", "ellipsis", "exactly", "short answer", "affirm", "omit"],
+    "status": "draft"
+  }
+]

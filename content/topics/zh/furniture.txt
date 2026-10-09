@@ -1,0 +1,143 @@
+@pack | furniture | Furniture & Home Living | 家具与家居 | 🛋️ | home | Chairs, tables, beds, storage, home decor, and room furnishings.
+家具 | furniture | 这套家具是新买的。 | This set of furniture was newly bought.
+桌子 | table; desk | 桌子上有一本书。 | There is a book on the table.
+椅子 | chair | 请坐在那把椅子上。 | Please sit on that chair.
+餐桌 | dining table | 全家人围着餐桌吃饭。 | The whole family eats around the dining table.
+书桌 | desk; study table | 他在书桌前写作业。 | He does homework at the desk.
+写字台 | writing desk | 爷爷有一张旧写字台。 | Grandpa has an old writing desk.
+沙发 | sofa | 我们坐在沙发上看电视。 | We sit on the sofa and watch TV.
+床 | bed | 我的床很舒服。 | My bed is very comfortable.
+书架 | bookshelf | 书架上放满了书。 | The bookshelf is full of books.
+书柜 | bookcase | 书柜里有很多小说。 | There are many novels in the bookcase.
+地毯 | carpet; rug | 客厅里铺着一块地毯。 | A carpet is laid in the living room.
+窗帘 | curtain | 请把窗帘拉上。 | Please draw the curtains.
+帘子 | curtain; screen | 浴室里挂着一块帘子。 | A curtain hangs in the bathroom.
+台灯 | desk lamp | 我晚上用台灯看书。 | I read with a desk lamp at night.
+灯 | lamp; light | 请把灯关掉。 | Please turn off the light.
+镜子 | mirror | 她站在镜子前化妆。 | She puts on makeup in front of the mirror.
+抽屉 | drawer | 钥匙在抽屉里。 | The key is in the drawer.
+柜子 | cabinet; cupboard | 毛巾在柜子里。 | The towels are in the cabinet.
+架子 | shelf; rack | 杯子放在架子上。 | The cups are on the shelf.
+枕头 | pillow | 这个枕头太硬了。 | This pillow is too hard.
+被子 | quilt; blanket | 冬天要盖厚被子。 | In winter you need a thick quilt.
+毯子 | blanket | 孩子盖着一条毯子睡觉。 | The child sleeps under a blanket.
+床单 | bed sheet | 床单每周要洗一次。 | The bed sheet is washed once a week.
+门 | door | 请把门关上。 | Please close the door.
+窗户 | window | 他打开窗户透气。 | He opened the window to get some air.
+锁 | lock | 门上的锁坏了。 | The lock on the door is broken.
+钥匙 | key | 我找不到我的钥匙。 | I cannot find my key.
+衣柜 | wardrobe; closet | 我的衣服都挂在衣柜里。 | My clothes are all hanging in the wardrobe.
+茶几 | coffee table | 把茶杯放在茶几上吧。 | Put the teacup on the coffee table.
+床头柜 | bedside table | 台灯放在床头柜上。 | The desk lamp is on the bedside table.
+房间 | room | 我的房间在二楼。 | My room is on the second floor.
+客厅 | living room | 客人在客厅里等你。 | The guests are waiting for you in the living room.
+卧室 | bedroom | 卧室里有一张大床。 | There is a big bed in the bedroom.
+书房 | study | 爸爸在书房工作。 | Dad works in the study.
+餐厅 | dining room | 晚饭已经摆在餐厅里了。 | Dinner is already set in the dining room.
+阳台 | balcony | 我们在阳台上种了花。 | We planted flowers on the balcony.
+浴室 | bathroom | 浴室里有一面大镜子。 | There is a large mirror in the bathroom.
+卫生间 | restroom; bathroom | 卫生间在走廊的尽头。 | The restroom is at the end of the corridor.
+厕所 | toilet | 厕所在哪里？ | Where is the toilet?
+走廊 | corridor | 走廊里很安静。 | The corridor is very quiet.
+楼梯 | stairs | 他从楼梯走上去。 | He walked up the stairs.
+地板 | floor | 地板刚刚拖过。 | The floor has just been mopped.
+墙 | wall | 墙上挂着一幅画。 | A painting hangs on the wall.
+天花板 | ceiling | 天花板上有一盏吊灯。 | There is a hanging lamp on the ceiling.
+屋顶 | roof | 小猫坐在屋顶上。 | The cat is sitting on the roof.
+家 | home | 我下班后回家。 | I go home after work.
+家居 | home furnishings; home living | 这家店卖各种家居用品。 | This shop sells all kinds of home furnishings.
+家具店 | furniture store | 我们去家具店买沙发。 | We went to the furniture store to buy a sofa.
+单人床 | single bed | 这个房间有两张单人床。 | This room has two single beds.
+双人床 | double bed | 他们订了一间双人床的房间。 | They booked a room with a double bed.
+上下铺 | bunk bed | 两个孩子睡上下铺。 | The two kids sleep in a bunk bed.
+床垫 | mattress | 这张床垫很软。 | This mattress is very soft.
+床头 | head of the bed | 床头挂着一幅照片。 | A photo hangs at the head of the bed.
+枕套 | pillowcase | 枕套需要换了。 | The pillowcase needs changing.
+被套 | duvet cover | 我买了一个新被套。 | I bought a new duvet cover.
+棉被 | cotton quilt | 奶奶做了一床棉被。 | Grandma made a cotton quilt.
+羽绒被 | down duvet | 羽绒被又轻又暖和。 | The down duvet is light and warm.
+凉席 | summer sleeping mat | 夏天睡觉要铺凉席。 | In summer people lay a cool mat on the bed.
+蚊帐 | mosquito net | 床上挂着一顶蚊帐。 | A mosquito net hangs over the bed.
+睡衣 | pajamas | 他换上了睡衣。 | He changed into his pajamas.
+衣架 | clothes hanger | 把衣服挂在衣架上。 | Hang the clothes on the hanger.
+挂钩 | hook | 门后有一个挂钩。 | There is a hook behind the door.
+鞋柜 | shoe cabinet | 鞋子放在鞋柜里。 | Shoes are kept in the shoe cabinet.
+鞋架 | shoe rack | 门口有一个鞋架。 | There is a shoe rack by the door.
+电视柜 | TV stand | 电视放在电视柜上。 | The TV sits on the TV stand.
+餐椅 | dining chair | 这套餐桌有六把餐椅。 | This dining set has six dining chairs.
+办公椅 | office chair | 这把办公椅很舒服。 | This office chair is comfortable.
+转椅 | swivel chair | 他坐在转椅上转来转去。 | He turns around on the swivel chair.
+扶手 | armrest; handrail | 沙发的扶手很宽。 | The armrests of the sofa are wide.
+靠背 | backrest | 这把椅子的靠背太低。 | The backrest of this chair is too low.
+靠垫 | cushion | 沙发上有两个靠垫。 | There are two cushions on the sofa.
+坐垫 | seat cushion | 夏天椅子上放个坐垫。 | Put a seat cushion on the chair in summer.
+抱枕 | throw pillow | 她抱着一个可爱的抱枕。 | She is hugging a cute throw pillow.
+长椅 | bench | 公园里有一张长椅。 | There is a bench in the park.
+凳子 | stool | 孩子坐在小凳子上。 | The child sits on a small stool.
+小凳子 | small stool | 够不着时就站在小凳子上。 | Stand on a small stool when you cannot reach.
+折叠椅 | folding chair | 客人来了，我们搬出折叠椅。 | When guests came, we brought out folding chairs.
+躺椅 | recliner; lounge chair | 爷爷在阳台的躺椅上睡着了。 | Grandpa fell asleep in the lounge chair on the balcony.
+摇椅 | rocking chair | 奶奶坐在摇椅上织毛衣。 | Grandma knits a sweater in the rocking chair.
+沙发床 | sofa bed | 客人睡在沙发床上。 | The guest sleeps on the sofa bed.
+懒人沙发 | bean bag chair | 孩子们喜欢懒人沙发。 | The kids love the bean bag chair.
+圆桌 | round table | 我们订了一张圆桌。 | We booked a round table.
+方桌 | square table | 厨房里放着一张方桌。 | A square table is placed in the kitchen.
+折叠桌 | folding table | 折叠桌不用时可以收起来。 | The folding table can be put away when not in use.
+梳妆台 | dressing table | 她坐在梳妆台前梳头。 | She combs her hair at the dressing table.
+化妆镜 | makeup mirror | 化妆镜旁边有一盏灯。 | There is a light next to the makeup mirror.
+全身镜 | full-length mirror | 门后面有一面全身镜。 | There is a full-length mirror behind the door.
+置物架 | storage rack | 浴室里有一个置物架。 | There is a storage rack in the bathroom.
+搁板 | shelf board | 墙上装了两块搁板。 | Two shelf boards were put up on the wall.
+壁橱 | built-in closet | 被子都放在壁橱里。 | The quilts are all kept in the built-in closet.
+储物柜 | storage cabinet | 杂物都放进储物柜。 | Put all the odds and ends into the storage cabinet.
+收纳盒 | storage box | 我买了几个收纳盒。 | I bought a few storage boxes.
+收纳 | to organize and store | 小房间需要好好收纳。 | A small room needs good storage organization.
+箱子 | box; chest | 床下有一个大箱子。 | There is a big box under the bed.
+衣橱 | wardrobe | 衣橱里挂满了衣服。 | The wardrobe is full of hanging clothes.
+屏风 | folding screen | 客厅里有一个木屏风。 | There is a wooden screen in the living room.
+花瓶 | vase | 桌上的花瓶里插着玫瑰。 | There are roses in the vase on the table.
+画 | painting; picture | 墙上挂着一幅画。 | A painting hangs on the wall.
+相框 | picture frame | 相框里是我们的合影。 | The picture frame holds our group photo.
+挂钟 | wall clock | 墙上有一个挂钟。 | There is a wall clock on the wall.
+闹钟 | alarm clock | 我把闹钟定在六点。 | I set the alarm clock for six o'clock.
+吊灯 | chandelier; pendant light | 客厅里挂着一盏吊灯。 | A pendant light hangs in the living room.
+落地灯 | floor lamp | 沙发旁边有一盏落地灯。 | There is a floor lamp next to the sofa.
+壁灯 | wall lamp | 床头有两盏壁灯。 | There are two wall lamps by the bed.
+灯泡 | light bulb | 灯泡坏了，需要换一个。 | The light bulb is broken and needs replacing.
+开关 | switch | 开关在门旁边。 | The switch is next to the door.
+插座 | socket; outlet | 这个房间有三个插座。 | This room has three sockets.
+电风扇 | electric fan | 夏天开电风扇很凉快。 | Turning on the fan in summer is cool.
+空调 | air conditioner | 房间里的空调开着。 | The air conditioner in the room is on.
+暖气 | heating | 冬天屋里有暖气。 | There is heating indoors in winter.
+地暖 | floor heating | 新家装了地暖。 | The new home has floor heating installed.
+加湿器 | humidifier | 冬天我用加湿器。 | I use a humidifier in winter.
+空气净化器 | air purifier | 卧室里放了一台空气净化器。 | An air purifier is placed in the bedroom.
+吸尘器 | vacuum cleaner | 他用吸尘器打扫房间。 | He cleans the room with a vacuum cleaner.
+扫帚 | broom | 扫帚靠在墙边。 | The broom leans against the wall.
+拖把 | mop | 用拖把拖地板。 | Mop the floor with a mop.
+簸箕 | dustpan | 把垃圾扫进簸箕里。 | Sweep the trash into the dustpan.
+窗台 | windowsill | 猫趴在窗台上晒太阳。 | The cat lies on the windowsill in the sun.
+纱窗 | window screen | 夏天要关好纱窗。 | Keep the window screen closed in summer.
+百叶窗 | blinds; shutters | 百叶窗拉下来了。 | The blinds are pulled down.
+门铃 | doorbell | 有人按门铃。 | Someone is ringing the doorbell.
+门把手 | door handle | 门把手有点松了。 | The door handle is a bit loose.
+门锁 | door lock | 我换了新的门锁。 | I changed to a new door lock.
+防盗门 | security door | 大多数家庭装了防盗门。 | Most families have a security door installed.
+地垫 | doormat | 进门前先在地垫上擦鞋。 | Wipe your shoes on the doormat before entering.
+拖鞋 | slippers | 请换上拖鞋。 | Please change into slippers.
+家电 | household appliances | 这家商店卖各种家电。 | This store sells all kinds of household appliances.
+冰箱 | refrigerator | 冰箱放在厨房里。 | The refrigerator is in the kitchen.
+洗衣机 | washing machine | 洗衣机坏了。 | The washing machine is broken.
+电视 | television | 客厅里有一台大电视。 | There is a big TV in the living room.
+布置 | to arrange; to decorate | 我们一起布置新家。 | We decorate the new home together.
+装修 | to renovate; renovation | 他们的新房正在装修。 | Their new house is being renovated.
+摆放 | to place; to arrange | 把家具摆放整齐。 | Arrange the furniture neatly.
+搬家 | to move house | 我们下个月搬家。 | We are moving house next month.
+整理 | to tidy up | 周末我整理了房间。 | I tidied up the room on the weekend.
+实木 | solid wood | 这张桌子是实木的。 | This table is made of solid wood.
+木头 | wood | 这把椅子是木头做的。 | This chair is made of wood.
+皮 | leather; skin | 这张沙发是真皮的。 | This sofa is genuine leather.
+布艺 | fabric | 布艺沙发比较柔软。 | Fabric sofas are softer.
+玻璃 | glass | 茶几的桌面是玻璃的。 | The coffee table top is made of glass.
+金属 | metal | 书架的框架是金属的。 | The frame of the bookshelf is made of metal.
+塑料 | plastic | 这把椅子是塑料的。 | This chair is made of plastic.

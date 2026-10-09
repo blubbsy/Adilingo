@@ -1,0 +1,139 @@
+@topic | Clothing & Fashion | 👕
+shirt | /ʃɜːrt/ | 衬衫 | I wear a white shirt to work. | 我上班穿白衬衫。 | 1
+dress | /drɛs/ | 连衣裙 | She bought a red dress for the party. | 她为聚会买了一条红色连衣裙。 | 1
+jacket | /ˈdʒækɪt/ | 夹克; 外套 | Take a jacket because it might be cold. | 带件外套吧,可能会冷。 | 1
+coat | /koʊt/ | 大衣 | He put on his heavy winter coat. | 他穿上了厚重的冬季大衣。 | 1
+skirt | /skɜːrt/ | 裙子 | This skirt is too short for school. | 这条裙子对上学来说太短了。 | 1
+pants | /pænts/ | 长裤 | My pants are dirty, so I need to wash them. | 我的长裤脏了,所以得洗一下。 | 1
+jeans | /dʒiːnz/ | 牛仔裤 | I usually wear jeans on weekends. | 我周末通常穿牛仔裤。 | 1
+shorts | /ʃɔːrts/ | 短裤 | Wear shorts when the weather is hot. | 天气热的时候穿短裤。 | 1
+sweater | /ˈswɛtər/ | 毛衣 | She knitted a warm sweater for her son. | 她为儿子织了一件暖和的毛衣。 | 1
+hat | /hæt/ | 帽子 | He always wears a hat when it is sunny. | 天晴时他总是戴着帽子。 | 1
+glove | /ɡlʌv/ | 手套 | Please wear a glove when you handle the hot pan. | 拿热锅时请戴上一只手套。 | 1
+sock | /sɑːk/ | 袜子 | Put on a clean sock before you put on your shoes. | 穿鞋前先穿上一只干净的袜子。 | 1
+shoe | /ʃuː/ | 鞋子 | These shoes are very comfortable for walking. | 这双鞋走路非常舒服。 | 1
+belt | /belt/ | 腰带 | He needs a new belt for his trousers. | 他的裤子需要一条新腰带。 | 1
+pocket | /ˈpɑːkɪt/ | 口袋 | Keep your phone in your pocket. | 把手机放进口袋里。 | 1
+T-shirt | /ˈtiːʃɜːrt/ | T恤 | Wear a cotton T-shirt in summer. | 夏天穿一件棉质T恤。 | 1
+sweatshirt | /ˈswɛtʃɜːrt/ | 卫衣 | I wore a sweatshirt because it was chilly. | 天气凉,我穿了件卫衣。 | 2
+pajamas | /pəˈdʒɑːməz/ | 睡衣 | She wears soft pajamas to bed. | 她睡觉时穿柔软的睡衣。 | 2
+swimsuit | /ˈswɪmsuːt/ | 泳衣 | She bought a new swimsuit for the beach. | 她为去海滩买了一件新泳衣。 | 2
+apron | /ˈeɪprən/ | 围裙 | Put on an apron before you start cooking. | 开始做饭前先系上围裙。 | 2
+necklace | /ˈnɛkləs/ | 项链 | He gave her a gold necklace for her birthday. | 他送给她一条金项链作为生日礼物。 | 2
+earring | /ˈɪrɪŋ/ | 耳环 | She lost one earring at the party. | 她在聚会上丢了一只耳环。 | 2
+ring | /rɪŋ/ | 戒指 | He put a small ring on her finger. | 他把一枚小戒指戴在她手指上。 | 2
+handbag | /ˈhændbæɡ/ | 手提包 | She put her keys in her handbag. | 她把钥匙放进了手提包。 | 2
+slipper | /ˈslɪpər/ | 拖鞋 | Put on your slippers before you walk on the cold floor. | 踩在冰冷的地板上之前先穿上拖鞋。 | 2
+sneaker | /ˈsniːkər/ | 运动鞋; 球鞋 | He bought a new pair of white sneakers. | 他买了一双新的白色运动鞋。 | 2
+shoelace | /ˈʃuːleɪs/ | 鞋带 | Tie your shoelace before you go running. | 去跑步前先系好鞋带。 | 2
+ribbon | /ˈrɪbən/ | 丝带; 缎带 | She tied a pink ribbon in her hair. | 她在头发上系了一条粉色丝带。 | 2
+cotton | /ˈkɑːtn/ | 棉; 棉布 | This T-shirt is made of cotton. | 这件T恤是棉布做的。 | 2
+wool | /wʊl/ | 羊毛 | This sweater is made of soft wool. | 这件毛衣是柔软的羊毛做的。 | 2
+tight | /taɪt/ | 紧的 | These shoes are too tight for my feet. | 这双鞋对我的脚来说太紧了。 | 2
+closet | /ˈklɑːzɪt/ | 衣柜; 壁橱 | My closet is full of old clothes. | 我的衣柜里塞满了旧衣服。 | 2
+clothing | /ˈkloʊðɪŋ/ | 服装; 衣物 | Please fold your clothing neatly before you put it away. | 请把衣服叠整齐再收起来。 | 2
+collar | /ˈkɑːlər/ | 衣领 | He turned up his collar against the wind. | 他竖起衣领挡风。 | 3
+sleeve | /sliːv/ | 袖子 | Roll up your sleeves before you wash the dishes. | 洗碗前把袖子卷起来。 | 2
+zipper | /ˈzɪpər/ | 拉链 | The zipper on my jacket is stuck. | 我夹克上的拉链卡住了。 | 2
+pattern | /ˈpætərn/ | 图案; 花纹 | This dress has a floral pattern. | 这件连衣裙有花卉图案。 | 3
+stripe | /straɪp/ | 条纹 | He likes shirts with blue stripes. | 他喜欢带蓝色条纹的衬衫。 | 2
+checked | /tʃɛkt/ | 格子的 | She wore a checked skirt to school. | 她上学时穿了一条格子裙。 | 3
+plain | /pleɪn/ | 素色的; 朴素的 | I prefer a plain shirt without any decoration. | 我更喜欢没有任何装饰的素色衬衫。 | 3
+fashionable | /ˈfæʃnəbl/ | 时髦的; 流行的 | This brand is very fashionable among teenagers. | 这个品牌在青少年中非常流行。 | 4
+style | /staɪl/ | 款式; 风格 | I like the style of this jacket. | 我喜欢这件夹克的款式。 | 2
+outfit | /ˈaʊtfɪt/ | 一套服装; 穿搭 | She put together a cute outfit for the picnic. | 她为野餐搭配了一身可爱的穿搭。 | 4
+garment | /ˈɡɑːrmənt/ | 衣物; 一件衣服 | The factory produces thousands of garments each day. | 这家工厂每天生产数千件服装。 | 5
+costume | /ˈkɑːstuːm/ | 服装; 戏服 | She wore a costume for the Halloween party. | 她为万圣节派对穿了一套服装。 | 3
+blazer | /ˈbleɪzər/ | 西装外套 | She wore a navy blazer to the meeting. | 她开会时穿了一件藏青色西装外套。 | 4
+vest | /vɛst/ | 背心; 马甲 | He wore a warm vest under his coat. | 他在大衣里面穿了一件暖和的马甲。 | 4
+blouse | /blaʊs/ | 女衬衫 | This blouse is made of pure silk. | 这件女衬衫是纯真丝的。 | 4
+cardigan | /ˈkɑːrdɪɡən/ | 开衫 | My grandmother knitted this cardigan for me. | 这件开衫是祖母为我织的。 | 4
+hoodie | /ˈhʊdi/ | 连帽衫 | He wears a grey hoodie every day. | 他每天都穿灰色连帽衫。 | 3
+hooded | /ˈhʊdɪd/ | 带帽的 | He prefers a hooded jacket for long walks. | 他长时间散步时更喜欢带帽的夹克。 | 4
+tracksuit | /ˈtrækˌsuːt/ | 运动套装 | He wore a black tracksuit to the gym. | 他穿着黑色运动套装去健身房。 | 3
+polo shirt | /ˈpoʊloʊ ʃɜːrt/ | Polo衫 | He wears a polo shirt to play golf. | 他打高尔夫时穿Polo衫。 | 3
+denim | /ˈdɛnɪm/ | 牛仔布 | This jacket is made of soft denim. | 这件夹克是用柔软的牛仔布做的。 | 4
+silk | /sɪlk/ | 丝绸; 真丝 | She wore a silk scarf to the wedding. | 她参加婚礼时戴了一条真丝围巾。 | 3
+leather | /ˈlɛðər/ | 皮革 | His new jacket is made of brown leather. | 他的新夹克是棕色皮革做的。 | 3
+linen | /ˈlɪnɪn/ | 亚麻布 | Linen shirts feel cool in hot weather. | 亚麻衬衫在炎热的天气里穿着很凉爽。 | 4
+fabric | /ˈfæbrɪk/ | 织物; 面料 | The fabric feels soft and smooth. | 这种面料摸起来柔软光滑。 | 4
+cloth | /klɔːθ/ | 布料 | She cut the cloth into small pieces. | 她把布料剪成小块。 | 3
+thread | /θrɛd/ | 线 | She needs black thread to sew the button. | 她需要黑线来缝纽扣。 | 3
+sew | /soʊ/ | 缝纫; 缝合 | My mother taught me how to sew. | 妈妈教我怎么缝纫。 | 3
+knitwear | /ˈnɪtwer/ | 针织服装 | This store specializes in knitwear for winter. | 这家店专营冬季针织服装。 | 5
+tailor | /ˈteɪlər/ | 裁缝; 缝制 | My tailor shortened the sleeves of my jacket. | 我的裁缝把夹克的袖子改短了。 | 4
+alteration | /ˌɔːltəˈreɪʃn/ | 改衣; 修改 | The shop offers alterations for all kinds of clothing. | 这家店提供各类服装的改衣服务。 | 5
+tailored | /ˈteɪlərd/ | 定制的; 合身剪裁的 | This suit is tailored to fit his shoulders. | 这套西装是为他的肩膀量身定制的。 | 5
+loose | /luːs/ | 宽松的 | I prefer loose clothes for sports. | 我运动时更喜欢宽松的衣服。 | 3
+stylish | /ˈstaɪlɪʃ/ | 时髦的 | She always looks stylish in simple clothes. | 她穿着简单的衣服也总是很时髦。 | 4
+elegant | /ˈɛlɪɡənt/ | 优雅的 | The evening gown looks elegant on her. | 这件晚礼服穿在她身上很优雅。 | 4
+casual | /ˈkæʒuəl/ | 休闲的; 便装的 | Jeans and a T-shirt are casual clothes. | 牛仔裤配T恤是休闲服装。 | 3
+formal | /ˈfɔːrml/ | 正式的 | You should wear formal clothes to the interview. | 面试时你应该穿正式的服装。 | 3
+sleeveless | /ˈsliːvləs/ | 无袖的 | She wore a sleeveless top in the heat. | 天热时她穿了一件无袖上衣。 | 3
+long-sleeved | /ˌlɔːŋ ˈsliːvd/ | 长袖的 | Wear a long-sleeved shirt in the sun. | 在太阳下请穿长袖衬衫。 | 3
+waterproof | /ˈwɔːtərpruːf/ | 防水的 | Her boots are waterproof, so the snow does not matter. | 她的靴子防水,所以雪不成问题。 | 3
+wrinkle | /ˈrɪŋkl/ | 褶皱; 皱纹 | This shirt has a wrinkle near the collar. | 这件衬衫领子附近有一道褶皱。 | 4
+accessory | /əkˈsɛsəri/ | 配饰 | A scarf is a simple accessory that adds color. | 围巾是一种能增添色彩的简单配饰。 | 3
+dressing room | /ˈdrɛsɪŋ ruːm/ | 试衣间 | The dressing room is at the back of the store. | 试衣间在商店的后面。 | 3
+gown | /ɡaʊn/ | 长礼服; 长袍 | She wore a long gown to the ball. | 她穿着一件长礼服去参加舞会。 | 4
+tuxedo | /tʌkˈsiːdoʊ/ | 无尾礼服 | He wore a black tuxedo to the wedding. | 他穿着黑色无尾礼服参加婚礼。 | 5
+mitten | /ˈmɪtn/ | 连指手套 | Children wear mittens to keep their hands warm. | 孩子们戴连指手套保暖。 | 4
+handkerchief | /ˈhæŋkərtʃɪf/ | 手帕 | Can I borrow a handkerchief, please? | 请问我能借一条手帕吗? | 4
+stocking | /ˈstɑːkɪŋ/ | 长袜; 丝袜 | She wore black stockings with her skirt. | 她配裙子穿了黑色长袜。 | 4
+tights | /taɪts/ | 紧身裤袜 | The dancers wear tights during rehearsal. | 舞者在排练时穿紧身裤袜。 | 4
+legging | /ˈlɛɡɪŋ/ | 紧身裤 | She wears leggings for yoga class. | 她上瑜伽课时穿紧身裤。 | 3
+bracelet | /ˈbreɪslət/ | 手镯; 手链 | She wears a silver bracelet on her wrist. | 她手腕上戴着一条银手链。 | 3
+jewelry | /ˈdʒuːəlri/ | 珠宝; 首饰 | She keeps her jewelry in a small box. | 她把首饰放在一个小盒子里。 | 3
+pearl | /pɜːrl/ | 珍珠 | The necklace has a single white pearl. | 这条项链上有一颗白色珍珠。 | 4
+brooch | /broʊtʃ/ | 胸针 | My grandmother wore a pearl brooch on her coat. | 祖母的大衣上别着一枚珍珠胸针。 | 5
+cufflink | /ˈkʌflɪŋk/ | 袖扣 | He wore gold cufflinks with his suit. | 他的西装上配着金色袖扣。 | 6
+hairband | /ˈhɛrbænd/ | 发带; 发箍 | She wears a hairband to keep her hair back. | 她戴发带把头发拢到后面。 | 3
+bow | /boʊ/ | 蝴蝶结 | The dress has a big bow at the back. | 这件连衣裙背后有一个大蝴蝶结。 | 4
+sole | /soʊl/ | 鞋底 | The sole of my shoe is worn out. | 我的鞋底磨损得厉害。 | 4
+sandal | /ˈsændl/ | 凉鞋 | Sandals are perfect for hot summer days. | 凉鞋最适合炎热的夏天穿。 | 1
+loafer | /ˈloʊfər/ | 乐福鞋 | He wore brown loafers with his jeans. | 他穿着棕色乐福鞋配牛仔裤。 | 5
+stiletto | /stɪˈlɛtoʊ/ | 细高跟鞋 | The stiletto is uncomfortable to wear for hours. | 细高跟鞋穿几个小时都很不舒服。 | 6
+flip-flop | /ˈflɪp flɑːp/ | 人字拖 | A flip-flop is fine for the beach but not for hiking. | 人字拖适合去海滩,但不适合徒步。 | 3
+overcoat | /ˈoʊvərkoʊt/ | 长大衣 | He put on his heavy overcoat before going outside. | 出门前他穿上了厚重的长大衣。 | 4
+trench coat | /ˈtrɛntʃ koʊt/ | 风衣 | A trench coat is good for spring weather. | 风衣适合春天的天气。 | 5
+parka | /ˈpɑːrkə/ | 派克大衣; 防风外套 | He wears a parka when it snows. | 下雪时他穿派克大衣。 | 5
+poncho | /ˈpɑːntʃoʊ/ | 斗篷式雨披 | She put on a poncho when the rain started. | 雨开始下时她披上了雨披。 | 5
+kimono | /kɪˈmoʊnoʊ/ | 和服 | She wore a silk kimono for the festival. | 她为节日穿上了丝绸和服。 | 5
+sari | /ˈsɑːri/ | 纱丽 | A sari is a traditional dress in India. | 纱丽是印度的传统服装。 | 6
+catwalk | /ˈkætwɔːk/ | T台 | Models walk along the catwalk in silver gowns. | 模特穿着银色礼服走在T台上。 | 5
+mannequin | /ˈmænɪkɪn/ | 人体模型; 模特人偶 | The shop window has a mannequin in a red coat. | 橱窗里的模特人偶穿着一件红大衣。 | 5
+accessorize | /əkˈsɛsəraɪz/ | 搭配饰品 | You can accessorize a plain dress with a bright belt. | 你可以用一条亮色腰带给素色连衣裙搭配饰品。 | 5
+dress code | /ˈdrɛs koʊd/ | 着装规范 | The office has a strict dress code. | 这家公司的着装规范很严格。 | 4
+cuff | /kʌf/ | 袖口; 裤脚边 | The cuff of my shirt is torn. | 我衬衫的袖口破了。 | 4
+seam | /siːm/ | 接缝 | The seam on the shirt has come undone. | 衬衫的接缝开线了。 | 5
+hem | /hɛm/ | 衣摆; 下摆 | The hem of her dress is too long. | 她连衣裙的下摆太长了。 | 5
+lining | /ˈlaɪnɪŋ/ | 衬里 | The coat has a warm woolen lining. | 这件大衣有保暖的羊毛衬里。 | 5
+lace | /leɪs/ | 蕾丝 | She wore a white dress with lace sleeves. | 她穿着一条袖子带蕾丝的白裙子。 | 3
+pleat | /pliːt/ | 褶裥 | The skirt has a row of pleats at the front. | 这条裙子前面有一排褶裥。 | 6
+sequin | /ˈsiːkwɪn/ | 亮片 | Her gown was covered in shiny sequins. | 她的礼服上缀满了闪亮的亮片。 | 5
+reversible | /rɪˈvɜːrsəbl/ | 可两面穿的 | This jacket is reversible, so it has two colors. | 这件夹克可以两面穿,有两种颜色。 | 6
+tailoring | /ˈteɪlərɪŋ/ | 剪裁工艺 | The suit shows excellent tailoring in the shoulders. | 这套西装的肩部展现了出色的剪裁工艺。 | 6
+couture | /kuːˈtʊr/ | 高级定制时装 | She works in haute couture for a famous house. | 她在一家知名品牌做高级定制时装。 | 6
+spot | /spɑːt/ | 斑点; 图点 | The dress has small white spots on a blue background. | 这件连衣裙在蓝色底子上有白色小斑点。 | 3
+turtleneck | /ˈtɜːrtlnɛk/ | 高领毛衣 | She wore a black turtleneck under her jacket. | 她在夹克里面穿了一件黑色高领毛衣。 | 3
+bikini | /bɪˈkiːni/ | 比基尼 | She bought a red bikini for the holiday. | 她为假期买了一件红色比基尼。 | 3
+sarong | /səˈrɑːŋ/ | 纱笼; 围裙式长裙 | She wore a sarong over her swimsuit at the beach. | 她在海边把纱笼裹在泳衣外面。 | 5
+tank top | /tæŋk tɑːp/ | 背心; 吊带衫 | He wore a tank top at the gym. | 他在健身房穿了一件背心。 | 3
+mini skirt | /ˈmɪni skɜːrt/ | 迷你裙 | She wore a mini skirt to the club. | 她去俱乐部时穿了一条迷你裙。 | 3
+pencil skirt | /ˈpɛnsl skɜːrt/ | 铅笔裙 | A pencil skirt looks smart at the office. | 铅笔裙在办公室里看起来很干练。 | 5
+maxi dress | /ˈmæksi drɛs/ | 长款连衣裙 | A maxi dress is great for summer parties. | 长款连衣裙很适合夏季聚会。 | 4
+jumpsuit | /ˈdʒʌmpsuːt/ | 连体裤 | She wore a black jumpsuit to the party. | 她去聚会时穿了一条黑色连体裤。 | 4
+onesie | /ˈoʊnsi/ | 连体睡衣 | The baby sleeps in a soft onesie. | 宝宝穿着柔软的连体睡衣睡觉。 | 4
+waistcoat | /ˈweskət/ | 马甲; 背心 | He wore a grey waistcoat with his suit. | 他的西装里配了一件灰色马甲。 | 5
+windbreaker | /ˈwɪndbreɪkər/ | 防风外套 | A lightweight windbreaker is useful in spring. | 轻便的防风外套在春天很实用。 | 4
+bomber jacket | /ˈbɑːmər ˈdʒækɪt/ | 飞行员夹克 | He bought a black bomber jacket last year. | 他去年买了一件黑色飞行员夹克。 | 4
+shawl | /ʃɔːl/ | 披肩 | She wrapped a soft shawl around her shoulders. | 她把柔软的披肩裹在肩上。 | 4
+cape | /keɪp/ | 披风; 斗篷 | The superhero wore a red cape. | 这位超级英雄穿着一件红色披风。 | 4
+dungarees | /ˈdʌŋɡərɪz/ | 背带裤 | The little girl wears blue dungarees. | 小女孩穿着蓝色背带裤。 | 4
+buckle | /ˈbʌkl/ | 搭扣; 皮带扣 | The buckle on his belt is made of brass. | 他皮带上的扣子是黄铜做的。 | 4
+clasp | /klæsp/ | 扣环; 搭扣 | The clasp on her necklace is broken. | 她项链上的搭扣坏了。 | 5
+suede | /sweɪd/ | 绒面革; 麂皮 | These suede boots are soft but need careful cleaning. | 这双麂皮靴子很软,但需要小心清洁。 | 5
+cashmere | /ˈkæʃmɪr/ | 羊绒 | This scarf is made of pure cashmere. | 这条围巾是纯羊绒的。 | 4
+polyester | /ˌpɑːliˈɛstər/ | 涤纶; 聚酯纤维 | Polyester dries faster than cotton. | 涤纶比棉布干得快。 | 4
+nylon | /ˈnaɪlɑːn/ | 尼龙 | This backpack is made of strong nylon. | 这个双肩包是用坚固的尼龙做的。 | 4
+corduroy | /ˈkɔːrdərɔɪ/ | 灯芯绒 | He wears corduroy trousers in autumn. | 他秋天穿灯芯绒长裤。 | 5

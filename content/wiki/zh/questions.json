@@ -1,0 +1,287 @@
+[
+  {
+    "id": "questions-yes-no",
+    "title": "Yes/no questions: 吗, 吧, tags and 还是",
+    "titleHanzi": "吗 / 吧 / 对不对 / 还是",
+    "category": "questions",
+    "hskRange": [1, 3],
+    "summary": "A Chinese statement becomes a yes/no question by adding a particle or a tag at the end; the word order never changes. 还是 offers a choice between two options.",
+    "pattern": "Statement + 吗  ·  Statement + 吧  ·  Statement, 对吗 / 好吗 / 是不是  ·  A 还是 B",
+    "rules": [
+      {
+        "rule": "**Statement + 吗** is the plain question. The answer repeats the verb: 是 / 不是, 有 / 没有, 去 / 不去.",
+        "highlight": "吗",
+        "examples": [
+          { "hanzi": "你喝茶吗？", "pinyin": "Nǐ hē chá ma?", "english": "Do you drink tea?" },
+          { "hanzi": "他在家吗？", "pinyin": "Tā zài jiā ma?", "english": "Is he at home?" }
+        ]
+      },
+      {
+        "rule": "**吧** turns a guess into a question and expects confirmation: 'right?'. It is softer and more informed than 吗.",
+        "highlight": "吧",
+        "examples": [
+          { "hanzi": "你是新来的老师吧？", "pinyin": "Nǐ shì xīn lái de lǎoshī ba?", "english": "You must be the new teacher, right?" },
+          { "hanzi": "你不累吧？", "pinyin": "Nǐ bú lèi ba?", "english": "You're not tired, are you?" }
+        ]
+      },
+      {
+        "rule": "**Tag questions** attach a short question to a statement or suggestion to seek agreement: 好吗, 行吗, 对吗, 是吗, 可以吗, 是不是.",
+        "highlight": "好吗",
+        "examples": [
+          { "hanzi": "我们明天去，好吗？", "pinyin": "Wǒmen míngtiān qù, hǎo ma?", "english": "Let's go tomorrow, okay?" },
+          { "hanzi": "你昨天没来，是不是生病了？", "pinyin": "Nǐ zuótiān méi lái, shì bu shì shēngbìng le?", "english": "You didn't come yesterday; were you ill?" }
+        ]
+      },
+      {
+        "rule": "**A 还是 B** asks 'A or B?'. It is used in questions only; statements use 或者. The answer picks one of the options.",
+        "highlight": "还是",
+        "examples": [
+          { "hanzi": "你喝茶还是喝咖啡？", "pinyin": "Nǐ hē chá háishi hē kāfēi?", "english": "Do you want tea or coffee?" },
+          { "hanzi": "你坐飞机去还是坐火车去？", "pinyin": "Nǐ zuò fēijī qù háishi zuò huǒchē qù?", "english": "Are you going by plane or by train?" }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "English", "text": "English raises the voice and inverts word order; Chinese leaves the order untouched and relies on the particle." },
+      { "vs": "吗 vs 呢", "text": "吗 asks if something is true; 呢 asks 'what about …?' or 'where is …?' by picking up a topic." }
+    ],
+    "pitfalls": [
+      "✗ 你喜欢什么吗？ → ✓ 你喜欢什么？ A question word already makes the question; 吗 is not added.",
+      "✗ 你是不是老师吗？ → ✓ 你是不是老师？ Do not combine A-not-A with 吗.",
+      "✗ 你喝茶或者咖啡？ → ✓ 你喝茶还是咖啡？ Questions use 还是, never 或者.",
+      "✗ 我是吗学生？ → ✓ 我是学生吗？ 吗 always sits at the very end."
+    ],
+    "relatedPointIds": ["g2-haishi-huozhe", "g3-shi-bu-shi", "g1-ji-duoshao", "g4-nandao-ma"],
+    "keywords": ["ma", "ba", "haishi", "yes/no question", "吗", "吧", "还是", "tag question", "alternative question"],
+    "status": "draft"
+  },
+  {
+    "id": "questions-a-not-a",
+    "title": "A-not-A questions",
+    "titleHanzi": "V不V",
+    "category": "questions",
+    "hskRange": [1, 3],
+    "summary": "Repeat a verb or adjective with 不 in between to ask a neutral yes/no question: 去不去, 好不好. 有没有 and 了没有 are the same idea for past events.",
+    "pattern": "Verb 不 Verb (+ Object)  ·  Adj 不 Adj  ·  有没有 + Noun  ·  Verb + 了 + 没有",
+    "rules": [
+      {
+        "rule": "**Verb + 不 + Verb** is a direct, neutral question with no 吗. It is slightly more insistent than 吗, as it presents the two options openly.",
+        "highlight": "不",
+        "examples": [
+          { "hanzi": "你去不去？", "pinyin": "Nǐ qù bu qù?", "english": "Are you going or not?" },
+          { "hanzi": "你喜欢不喜欢这件衣服？", "pinyin": "Nǐ xǐhuan bu xǐhuan zhè jiàn yīfu?", "english": "Do you like this piece of clothing?" },
+          { "hanzi": "这个字对不对？", "pinyin": "Zhège zì duì bu duì?", "english": "Is this character correct?" }
+        ]
+      },
+      {
+        "rule": "With **two-syllable verbs** you may repeat only the first syllable: 喜不喜欢, 知不知道, 同不同意. With a short object you can also place it after the verb: 吃不吃饭 or 吃饭不吃.",
+        "highlight": "不",
+        "examples": [
+          { "hanzi": "你知不知道他住哪儿？", "pinyin": "Nǐ zhī bu zhīdào tā zhù nǎr?", "english": "Do you know where he lives?" },
+          { "hanzi": "你们同不同意这个办法？", "pinyin": "Nǐmen tóng bu tóngyì zhège bànfǎ?", "english": "Do you agree with this plan?" }
+        ]
+      },
+      {
+        "rule": "For **past events and possession** use 有没有 or the pair 了没有: 你吃饭了没有？ 你有没有时间？ The negative is always 没, never 不.",
+        "highlight": "没有",
+        "examples": [
+          { "hanzi": "你有没有兄弟姐妹？", "pinyin": "Nǐ yǒu méiyǒu xiōngdì jiěmèi?", "english": "Do you have any siblings?" },
+          { "hanzi": "你吃饭了没有？", "pinyin": "Nǐ chī fàn le méiyǒu?", "english": "Have you eaten?" }
+        ]
+      },
+      {
+        "rule": "**Modal and auxiliary verbs** form the question on the modal: 能不能, 会不会, 可不可以, 要不要, 是不是. Put the main verb after the modal as usual.",
+        "highlight": "能不能",
+        "examples": [
+          { "hanzi": "你能不能帮我一下？", "pinyin": "Nǐ néng bu néng bāng wǒ yíxià?", "english": "Could you help me for a moment?" },
+          { "hanzi": "你要不要喝点儿水？", "pinyin": "Nǐ yào bu yào hē diǎnr shuǐ?", "english": "Would you like a drink of water?" }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "吗", "text": "你去吗？ and 你去不去？ ask the same thing; the A-not-A form is slightly more demanding of an answer and cannot be used in a polite offer when you expect 'yes'." },
+      { "vs": "是不是", "text": "是不是 can be a full A-not-A question or a tag check: 你是不是累了？ 'You're tired, aren't you?' (see the lesson on 是不是)." }
+    ],
+    "pitfalls": [
+      "✗ 你去不去吗？ → ✓ 你去不去？ A-not-A and 吗 never appear together.",
+      "✗ 你昨天去不去学校？ → ✓ 你昨天去没去学校？ or 你昨天去学校了没有？ Use 没 for past events.",
+      "✗ 你有不有钱？ → ✓ 你有没有钱？ 有 pairs with 没.",
+      "✗ 你想不想去学校吗？ → ✓ 你想不想去学校？ Same rule: one question marker is enough."
+    ],
+    "relatedPointIds": ["g3-shi-bu-shi", "g1-neng-keyi", "g2-haishi-huozhe", "g2-yijing-le"],
+    "keywords": ["A-not-A", "positive-negative question", "V不V", "有没有", "吗", "yes/no question", "qu bu qu"],
+    "status": "draft"
+  },
+  {
+    "id": "questions-wh-words",
+    "title": "Question words stay in place",
+    "titleHanzi": "谁 / 什么 / 哪 / 怎么 / 为什么",
+    "category": "questions",
+    "hskRange": [1, 4],
+    "summary": "Chinese question words do not move to the front: they sit exactly where the answer would go. Replace the missing information by the question word and nothing else changes.",
+    "pattern": "Subject + Verb + 什么 / 谁 / 哪(里) / 几 / 多少 …?",
+    "rules": [
+      {
+        "rule": "**谁, 什么, 哪儿, 哪个, 几, 多少** substitute for the unknown. The sentence keeps the order of the statement; no 吗 is added.",
+        "highlight": "什么",
+        "examples": [
+          { "hanzi": "你想吃什么？", "pinyin": "Nǐ xiǎng chī shénme?", "english": "What do you want to eat?" },
+          { "hanzi": "谁是你的老师？", "pinyin": "Shéi shì nǐ de lǎoshī?", "english": "Who is your teacher?" },
+          { "hanzi": "你住在哪儿？", "pinyin": "Nǐ zhù zài nǎr?", "english": "Where do you live?" }
+        ]
+      },
+      {
+        "rule": "**怎么 + Verb** asks about manner or, with stress, 'how come': 你怎么去？ (by what means) vs 你怎么才来？ (why so late). **怎么样** asks for an evaluation.",
+        "highlight": "怎么",
+        "examples": [
+          { "hanzi": "这个字怎么读？", "pinyin": "Zhège zì zěnme dú?", "english": "How do you read this character?" },
+          { "hanzi": "你怎么没去上课？", "pinyin": "Nǐ zěnme méi qù shàngkè?", "english": "How come you didn't go to class?" },
+          { "hanzi": "今天的天气怎么样？", "pinyin": "Jīntiān de tiānqì zěnmeyàng?", "english": "What is the weather like today?" }
+        ]
+      },
+      {
+        "rule": "**为什么 / 为何 / 干吗** ask for reasons. 为什么 comes before the verb; the answer often starts with 因为. 干吗 / 干什么 can be 'what for' in a casual way.",
+        "highlight": "为什么",
+        "examples": [
+          { "hanzi": "你为什么学中文？", "pinyin": "Nǐ wèi shénme xué Zhōngwén?", "english": "Why do you study Chinese?" },
+          { "hanzi": "你来这儿干什么？", "pinyin": "Nǐ lái zhèr gàn shénme?", "english": "What are you here for?" }
+        ]
+      },
+      {
+        "rule": "**Number and time questions:** 几 (expects a small number, under about ten) + measure word; 多少 for any amount; 什么时候 and 几点 for time; 多 + adjective (多大, 多远, 多长) for degree.",
+        "highlight": "多",
+        "examples": [
+          { "hanzi": "你家有几口人？", "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?", "english": "How many people are in your family?" },
+          { "hanzi": "从这儿到机场有多远？", "pinyin": "Cóng zhèr dào jīchǎng yǒu duō yuǎn?", "english": "How far is it from here to the airport?" }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "English wh-fronting", "text": "'What do you eat?' puts what first; Chinese asks 你吃什么？ (literally 'you eat what')." },
+      { "vs": "几 vs 多少", "text": "几 expects a number below ten and takes a measure word; 多少 is open and may drop the measure word." },
+      { "vs": "怎么 vs 为什么", "text": "怎么 + negative or past ('why on earth did you not …') is an exclamatory reproach; 为什么 is a neutral request for a reason." }
+    ],
+    "pitfalls": [
+      "✗ 什么你想吃？ → ✓ 你想吃什么？ Do not move the question word to the front.",
+      "✗ 你想吃什么吗？ (meant: what do you want to eat) → ✓ 你想吃什么？ Adding 吗 turns 什么 into 'something': 你想吃什么吗 = 'would you like to eat something?'.",
+      "✗ 你的朋友是几人？ → ✓ 你的朋友有几个人？ 几 needs a measure word.",
+      "✗ 你怎么样去学校？ → ✓ 你怎么去学校？ 怎么样 asks 'what is it like?', 怎么 asks 'how'."
+    ],
+    "relatedPointIds": ["g1-ji-duoshao", "g3-question-word-indefinite", "g2-shi-de", "g3-weile"],
+    "keywords": ["shenme", "shei", "nar", "zenme", "weishenme", "什么", "谁", "哪", "怎么", "为什么", "wh-questions", "question words"],
+    "status": "draft"
+  },
+  {
+    "id": "questions-rhetorical",
+    "title": "Rhetorical questions",
+    "titleHanzi": "难道 / 不是…吗 / 怎么能 / 何必",
+    "category": "questions",
+    "hskRange": [3, 7],
+    "summary": "A rhetorical question does not ask for information; it states something strongly by asking it. Chinese has fixed frames for this: 难道, 不是…吗, 怎么能, 哪里 and 何必.",
+    "pattern": "不是…吗？  ·  难道…吗？  ·  怎么能 / 怎么可能…？  ·  哪里 / 谁说…？  ·  何必…？",
+    "rules": [
+      {
+        "rule": "**不是 … 吗？** is the plain 'isn't it?' with a strong claim: you know the answer. 'Didn't I tell you?' really means 'I did tell you'.",
+        "highlight": "不是",
+        "examples": [
+          { "hanzi": "我不是告诉过你吗？", "pinyin": "Wǒ bú shì gàosu guo nǐ ma?", "english": "Didn't I tell you?" },
+          { "hanzi": "你不是说你会来吗？", "pinyin": "Nǐ bú shì shuō nǐ huì lái ma?", "english": "Didn't you say you would come?" }
+        ]
+      },
+      {
+        "rule": "**难道 … 吗？** adds surprise or disbelief: 'could it be that …?'. It is stronger than 不是…吗 and often has a note of irritation.",
+        "highlight": "难道",
+        "examples": [
+          { "hanzi": "难道你不知道今天是我的生日吗？", "pinyin": "Nándào nǐ bù zhīdào jīntiān shì wǒ de shēngrì ma?", "english": "Surely you know that today is my birthday?" },
+          { "hanzi": "难道他真的忘了吗？", "pinyin": "Nándào tā zhēn de wàng le ma?", "english": "Could he really have forgotten?" }
+        ]
+      },
+      {
+        "rule": "**怎么能 / 怎么可能 / 哪能** reject an idea: the answer is 'certainly not'. 哪里 can also be used to deflect a compliment: 哪里哪里.",
+        "highlight": "怎么",
+        "examples": [
+          { "hanzi": "你怎么能不告诉我呢？", "pinyin": "Nǐ zěnme néng bú gàosu wǒ ne?", "english": "How could you not tell me?" },
+          { "hanzi": "这么贵的东西，我怎么可能买得起？", "pinyin": "Zhème guì de dōngxi, wǒ zěnme kěnéng mǎi de qǐ?", "english": "Something this expensive, how could I possibly afford it?" }
+        ]
+      },
+      {
+        "rule": "**何必 / 何尝 / 岂** are the literary or stronger versions: 何必 'there is no need', 岂 'how could'. They appear in essays and in a very emphatic spoken tone.",
+        "highlight": "何必",
+        "examples": [
+          { "hanzi": "事情这么简单，你何必生气呢？", "pinyin": "Shìqing zhème jiǎndān, nǐ hébì shēngqì ne?", "english": "It is so simple, why get angry?" },
+          { "hanzi": "他岂能不知道？", "pinyin": "Tā qǐ néng bù zhīdào?", "english": "How could he not know?" }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "Real questions", "text": "你不是学生吗？ can be a real question ('aren't you a student? I thought you were') or a reproach. Context and intonation decide; 难道 is always rhetorical." },
+      { "vs": "反问 vs 感叹", "text": "A rhetorical question often replaces an exclamation: 谁不知道！ means 'everyone knows!'." }
+    ],
+    "pitfalls": [
+      "✗ 难道你知道。 → ✓ 难道你知道吗？ 难道 needs a question: 吗 or a question intonation.",
+      "✗ 你不是在学校？ → ✓ 你不是在学校吗？ Keep the final 吗 in the 不是…吗 frame.",
+      "✗ 他怎么能来。 (meant: how could he not come) → ✓ 他怎么能不来？ Watch the negation: 他怎么能来？ means 'how could he come?', i.e. he can't.",
+      "✗ 谁知道呢？ (meant: everybody knows) → ✓ 谁不知道呢？ In a rhetorical question the negation reverses the meaning: 谁知道 means 'nobody knows'."
+    ],
+    "relatedPointIds": ["g4-nandao-ma", "g5-hebi", "g6-qi-rhetorical", "g6-hechang-weichang", "g6-mofei"],
+    "keywords": ["rhetorical question", "反问", "难道", "不是…吗", "怎么能", "何必", "岂", "nandao", "hebi"],
+    "status": "draft"
+  },
+  {
+    "id": "questions-indefinite",
+    "title": "Question words as 'any' and 'every'",
+    "titleHanzi": "谁都 / 什么也 / 哪儿 / 有些",
+    "category": "questions",
+    "hskRange": [3, 5],
+    "summary": "Question words are not only for asking. In statements they mean 'someone', 'anything' or 'whoever', depending on the frame around them: 都 / 也 for 'every/any', 就 for 'whoever', and 有 + wh for 'some'.",
+    "pattern": "Wh + 都 / 也 + Verb  ·  Wh + 就 + Wh  ·  Verb + 点儿什么  ·  任何 / 无论 + Wh",
+    "rules": [
+      {
+        "rule": "**Wh + 都 / 也** means every: 谁都 'everyone', 什么都 'everything', 哪儿都 'everywhere'. With a negative verb it means none: 什么也没有 'nothing'.",
+        "highlight": "都",
+        "examples": [
+          { "hanzi": "谁都知道这件事。", "pinyin": "Shéi dōu zhīdào zhè jiàn shì.", "english": "Everyone knows about this." },
+          { "hanzi": "我什么都不想吃。", "pinyin": "Wǒ shénme dōu bù xiǎng chī.", "english": "I don't want to eat anything." },
+          { "hanzi": "他哪儿也没去。", "pinyin": "Tā nǎr yě méi qù.", "english": "He didn't go anywhere." }
+        ]
+      },
+      {
+        "rule": "**Wh … 就 … Wh** (same question word twice) means 'whoever / whatever': the second one points back to the first. 想吃什么就吃什么 = eat whatever you like.",
+        "highlight": "就",
+        "examples": [
+          { "hanzi": "你想吃什么就吃什么。", "pinyin": "Nǐ xiǎng chī shénme jiù chī shénme.", "english": "Eat whatever you like." },
+          { "hanzi": "谁先到谁先吃。", "pinyin": "Shéi xiān dào shéi xiān chī.", "english": "Whoever arrives first eats first." }
+        ]
+      },
+      {
+        "rule": "**Indefinite 'some'** appears in questions and after verbs in statements: 吃点儿什么 'have a bite of something', 有人 'someone', 去哪儿 'go somewhere'. The question word is unstressed.",
+        "highlight": "什么",
+        "examples": [
+          { "hanzi": "你想喝点儿什么吗？", "pinyin": "Nǐ xiǎng hē diǎnr shénme ma?", "english": "Would you like something to drink?" },
+          { "hanzi": "我想去哪儿玩玩。", "pinyin": "Wǒ xiǎng qù nǎr wánwan.", "english": "I'd like to go somewhere to have fun." }
+        ]
+      },
+      {
+        "rule": "**无论 / 不管 / 任何 + Wh … 都** mean 'no matter who/what': a condition that makes no difference. See the connector lessons for the full pattern.",
+        "highlight": "无论",
+        "examples": [
+          { "hanzi": "无论遇到什么困难，我都不怕。", "pinyin": "Wúlùn yùdào shénme kùnnan, wǒ dōu bú pà.", "english": "No matter what difficulty I meet, I am not afraid." },
+          { "hanzi": "不管谁来，我都欢迎。", "pinyin": "Bùguǎn shéi lái, wǒ dōu huānyíng.", "english": "Whoever comes, I welcome them." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "Real question", "text": "你想吃什么？ asks what; 你想吃什么吗？ with 吗 asks whether you want something. Stress and 吗 reveal the indefinite use." },
+      { "vs": "任何 + Noun", "text": "任何人都… and 谁都… are close, but 任何 is more formal and needs a noun." }
+    ],
+    "pitfalls": [
+      "✗ 我谁都不认识了。 (meant: I know everyone) → ✓ 我谁都认识。 A negated 谁都 means 'nobody'.",
+      "✗ 他什么都没吃了。 → ✓ 他什么都没吃。 Don't add 了 when 没 already negates.",
+      "✗ 我都想吃什么。 → ✓ 我什么都想吃。 The question word comes before 都.",
+      "✗ 谁来谁欢迎。 → ✓ 谁来我都欢迎。 or 谁来就欢迎谁。 The paired frame needs the same question word twice, or 都 with a subject."
+    ],
+    "relatedPointIds": ["g3-question-word-indefinite", "g4-wulun-buguan", "g1-ji-duoshao", "g3-lian-dou"],
+    "keywords": ["shenme dou", "shei dou", "indefinite pronoun", "anything", "anyone", "everywhere", "谁都", "什么也", "哪儿都", "question words"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,289 @@
+[
+  {
+    "id": "particles-de-di-de",
+    "title": "的, 地, 得 compared",
+    "titleHanzi": "的 / 地 / 得",
+    "category": "particles",
+    "hskRange": [1, 4],
+    "summary": "All three are pronounced de. The spelling tells you what the word before it does: 的 links a modifier to a noun, 地 links an adverbial to a verb, 得 links a verb to its complement.",
+    "pattern": "Modifier + 的 + Noun  ·  Adverbial + 地 + Verb  ·  Verb + 得 + Complement",
+    "rules": [
+      {
+        "rule": "**的 builds noun phrases.** Whatever comes before 的 describes, owns or identifies the noun after it: possessors, adjectives, verb phrases and whole clauses. The noun after 的 can be dropped when it is clear.",
+        "highlight": "的",
+        "examples": [
+          { "hanzi": "这是我的手机。", "pinyin": "Zhè shì wǒ de shǒujī.", "english": "This is my mobile phone." },
+          { "hanzi": "她是一个很聪明的学生。", "pinyin": "Tā shì yí gè hěn cōngming de xuésheng.", "english": "She is a very clever student." },
+          { "hanzi": "我喜欢昨天买的那件衣服。", "pinyin": "Wǒ xǐhuan zuótiān mǎi de nà jiàn yīfu.", "english": "I like the piece of clothing I bought yesterday." }
+        ]
+      },
+      {
+        "rule": "**地 builds adverbials.** An adjective or phrase that says *how* the action is done takes 地 before the verb. Two-syllable adjectives nearly always need it; for single-syllable ones the 地 is dropped (快走).",
+        "highlight": "地",
+        "examples": [
+          { "hanzi": "他高兴地跳了起来。", "pinyin": "Tā gāoxìng de tiào le qǐlái.", "english": "He jumped up happily." },
+          { "hanzi": "请你认真地听。", "pinyin": "Qǐng nǐ rènzhēn de tīng.", "english": "Please listen carefully." }
+        ]
+      },
+      {
+        "rule": "**得 builds complements.** After a verb, 得 introduces a description of the result, degree or manner. The pattern with an object repeats the verb: 说汉语说得很好.",
+        "highlight": "得",
+        "examples": [
+          { "hanzi": "她跑得很快。", "pinyin": "Tā pǎo de hěn kuài.", "english": "She runs very fast." },
+          { "hanzi": "他说汉语说得很流利。", "pinyin": "Tā shuō Hànyǔ shuō de hěn liúlì.", "english": "He speaks Chinese very fluently." },
+          { "hanzi": "我昨天累得一回家就睡了。", "pinyin": "Wǒ zuótiān lèi de yì huí jiā jiù shuì le.", "english": "I was so tired yesterday that I went to sleep as soon as I got home." }
+        ]
+      },
+      {
+        "rule": "A quick test: look at the word **after** the particle. A noun means 的; a verb means 地; a description of the verb (a degree or result) means 得. Note that 得 also has the readings dé 'to get' and děi 'must'.",
+        "highlight": "得",
+        "examples": [
+          { "hanzi": "我们得走了。", "pinyin": "Wǒmen děi zǒu le.", "english": "We have to go now." },
+          { "hanzi": "他得了第一名。", "pinyin": "Tā dé le dì yī míng.", "english": "He won first place." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "Spoken Chinese", "text": "All three are pronounced de in speech and often interchangeable in informal messages, but exams and printed texts keep the distinction." },
+      { "vs": "是…的", "text": "In 是…的 the 的 sits at the end of the sentence and highlights a known past event; it is a different construction from the modifier 的." }
+    ],
+    "pitfalls": [
+      "✗ 他很认真的学习。 → ✓ 他很认真地学习。 An adverbial before a verb uses 地, not 的.",
+      "✗ 她唱歌的很好。 → ✓ 她唱歌唱得很好。 A degree complement needs 得 after the verb.",
+      "✗ 我的朋友的书的封面 (three 的 in a row) → ✓ 我朋友的书的封面 or 我朋友那本书的封面。 Close relationships (我朋友, 我妈妈) drop 的, which avoids long 的 chains.",
+      "✗ 红的苹果 → ✓ 红苹果 or 红色的苹果。 A monosyllabic adjective directly before a noun usually does not take 的."
+    ],
+    "relatedPointIds": ["g2-de-de-de", "g2-shi-de", "g3-jile-dehen", "g3-potential-complements"],
+    "keywords": ["de", "的", "地", "得", "structural particle", "modifier", "adverbial", "complement", "possessive"],
+    "status": "draft"
+  },
+  {
+    "id": "particles-ma-ne-ba-a",
+    "title": "Sentence-final 吗, 呢, 吧 and 啊",
+    "titleHanzi": "吗 / 呢 / 吧 / 啊",
+    "category": "particles",
+    "hskRange": [1, 3],
+    "summary": "Modal particles at the end of a sentence do not carry vocabulary meaning. They show the speaker's attitude: asking, following up, suggesting or softening.",
+    "pattern": "Statement + 吗?  ·  Topic + 呢?  ·  Statement / Command + 吧  ·  Sentence + 啊",
+    "rules": [
+      {
+        "rule": "**吗** turns a statement into a yes/no question. Word order does not change. It is neutral and does not suggest an answer.",
+        "highlight": "吗",
+        "examples": [
+          { "hanzi": "你是老师吗？", "pinyin": "Nǐ shì lǎoshī ma?", "english": "Are you a teacher?" },
+          { "hanzi": "你明天有时间吗？", "pinyin": "Nǐ míngtiān yǒu shíjiān ma?", "english": "Do you have time tomorrow?" }
+        ]
+      },
+      {
+        "rule": "**呢** has two jobs. It forms a short follow-up question ('and what about …?') that depends on context, and it adds a note of continuing or emphasis to statements.",
+        "highlight": "呢",
+        "examples": [
+          { "hanzi": "我很好，你呢？", "pinyin": "Wǒ hěn hǎo, nǐ ne?", "english": "I'm fine, and you?" },
+          { "hanzi": "我的手机呢？", "pinyin": "Wǒ de shǒujī ne?", "english": "Where is my phone?" },
+          { "hanzi": "他还没回来呢。", "pinyin": "Tā hái méi huílái ne.", "english": "He hasn't come back yet, you know." }
+        ]
+      },
+      {
+        "rule": "**吧** softens the sentence. In a statement it is a guess ('probably'), in a request or order it is a suggestion, and in an answer it expresses agreement.",
+        "highlight": "吧",
+        "examples": [
+          { "hanzi": "你是新来的同学吧？", "pinyin": "Nǐ shì xīn lái de tóngxué ba?", "english": "You are the new student, I guess?" },
+          { "hanzi": "我们走吧。", "pinyin": "Wǒmen zǒu ba.", "english": "Let's go." },
+          { "hanzi": "好吧，就这样吧。", "pinyin": "Hǎo ba, jiù zhèyàng ba.", "english": "Fine, let's leave it at that." }
+        ]
+      },
+      {
+        "rule": "**啊** adds warmth, surprise or insistence. It takes on the sound of the preceding syllable (ya, wa, na) but is written 啊 or the variant characters 呀 and 哇.",
+        "highlight": "啊",
+        "examples": [
+          { "hanzi": "你怎么才来啊！", "pinyin": "Nǐ zěnme cái lái a!", "english": "Why did you only come now!" },
+          { "hanzi": "这个菜真好吃啊！", "pinyin": "Zhège cài zhēn hǎochī a!", "english": "This dish is really tasty!" }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "A-not-A questions", "text": "你是不是老师 and 你是老师吗 are both neutral; 吗 cannot be combined with A-not-A (✗ 你是不是老师吗)." },
+      { "vs": "吧 vs 吗", "text": "吗 genuinely asks; 吧 checks a guess and expects 'yes'. 你是学生吗？ is open, 你是学生吧？ already believes it." }
+    ],
+    "pitfalls": [
+      "✗ 你喜欢什么吗？ → ✓ 你喜欢什么？ Questions with a question word never take 吗.",
+      "✗ 你去不去吗？ → ✓ 你去不去？ A-not-A questions never take 吗.",
+      "✗ 你呢好吗？ → ✓ 你好吗？ 呢 only follows a noun phrase that picks up the topic of the previous sentence.",
+      "✗ 我们走吗。 (meant: let's go) → ✓ 我们走吧。 Suggestions take 吧, not 吗."
+    ],
+    "relatedPointIds": ["g3-shi-bu-shi", "g2-haishi-huozhe", "g1-ji-duoshao", "g4-nandao-ma"],
+    "keywords": ["ma", "ne", "ba", "a", "吗", "呢", "吧", "啊", "modal particles", "final particles", "yes/no question"],
+    "status": "draft"
+  },
+  {
+    "id": "particles-sentence-final-le",
+    "title": "Sentence-final 了: a new situation",
+    "titleHanzi": "了",
+    "category": "particles",
+    "hskRange": [1, 4],
+    "summary": "Sentence-final 了 announces that a situation is new, has changed or has just become relevant. It answers the question 'what is different now?'.",
+    "pattern": "Clause + 了  ·  不 / 没 → 不…了 'no longer'  ·  快 / 要 + Verb + 了",
+    "rules": [
+      {
+        "rule": "**Change of state:** with adjectives, nouns of age or time, and verbs of being, 了 marks that something is now the case that was not before.",
+        "highlight": "了",
+        "examples": [
+          { "hanzi": "天黑了。", "pinyin": "Tiān hēi le.", "english": "It has got dark." },
+          { "hanzi": "我今年二十岁了。", "pinyin": "Wǒ jīnnián èrshí suì le.", "english": "I am twenty this year." },
+          { "hanzi": "现在是冬天了。", "pinyin": "Xiànzài shì dōngtiān le.", "english": "It is winter now." }
+        ]
+      },
+      {
+        "rule": "**不 … 了** means 'no longer / not any more'. It marks a decision or situation that has been dropped. 没 … 了 is not used for this; use 不再 or 不…了.",
+        "highlight": "不",
+        "examples": [
+          { "hanzi": "我不喝咖啡了。", "pinyin": "Wǒ bù hē kāfēi le.", "english": "I don't drink coffee any more." },
+          { "hanzi": "他不想去了。", "pinyin": "Tā bù xiǎng qù le.", "english": "He no longer wants to go." }
+        ]
+      },
+      {
+        "rule": "**New fact reported:** with an action verb, final 了 reports that the event has happened as news, without counting or specifying an object.",
+        "highlight": "了",
+        "examples": [
+          { "hanzi": "他来了！", "pinyin": "Tā lái le!", "english": "He's here!" },
+          { "hanzi": "我昨天买书了。", "pinyin": "Wǒ zuótiān mǎi shū le.", "english": "I bought books yesterday." }
+        ]
+      },
+      {
+        "rule": "**Imminence and urging:** 快 / 要 / 快要 … 了 says something is about to happen. In commands, 了 can mean 'enough is enough': 够了, 别说了, 好了.",
+        "highlight": "快",
+        "examples": [
+          { "hanzi": "火车快开了。", "pinyin": "Huǒchē kuài kāi le.", "english": "The train is about to leave." },
+          { "hanzi": "别说了，我们走吧。", "pinyin": "Bié shuō le, wǒmen zǒu ba.", "english": "Stop talking, let's go." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "Verb 了", "text": "Verb 了 closes an action; final 了 reports a new state of affairs. 我吃了 = I have eaten (so I'm full now); 我吃饭了 = I have had my meal." },
+      { "vs": "已经…了", "text": "已经 stresses 'already' and almost always comes with sentence-final 了: 他已经走了。" }
+    ],
+    "pitfalls": [
+      "✗ 我昨天很忙了。 → ✓ 我昨天很忙。 A plain description of the past is not a change, so no 了.",
+      "✗ 我没喝咖啡了。 (meant: I don't drink any more) → ✓ 我不喝咖啡了。 'No longer' is 不…了.",
+      "✗ 他每天六点起床了。 → ✓ 他每天六点起床。 Habits do not take 了.",
+      "✗ 我二十岁。 (meant: I have just turned twenty) → ✓ 我二十岁了。 A new age is a change, so add 了."
+    ],
+    "relatedPointIds": ["g2-yao-le", "g2-yijing-le", "g2-yuelaiyue", "g1-bie"],
+    "keywords": ["le", "了", "sentence-final", "change of state", "no longer", "about to", "new situation"],
+    "status": "draft"
+  },
+  {
+    "id": "particles-colloquial",
+    "title": "Colloquial particles: 嘛, 呗, 啦, 喽, 哦, 咯",
+    "titleHanzi": "嘛 / 呗 / 啦 / 喽 / 哦",
+    "category": "particles",
+    "hskRange": [3, 6],
+    "summary": "Spoken Chinese uses many extra particles to show mood: obviousness, indifference, excitement or friendly warning. They are common in chat and TV, rare in formal writing.",
+    "pattern": "Sentence + 嘛 / 呗 / 啦 / 喽 / 哦 / 咯",
+    "rules": [
+      {
+        "rule": "**嘛** says 'it is obvious / you should know'. It is used for explaining, mild reproach and for justifying a request.",
+        "highlight": "嘛",
+        "examples": [
+          { "hanzi": "你不懂就问嘛。", "pinyin": "Nǐ bù dǒng jiù wèn ma.", "english": "If you don't understand, just ask, of course." },
+          { "hanzi": "这很简单嘛！", "pinyin": "Zhè hěn jiǎndān ma!", "english": "This is simple, obviously!" }
+        ]
+      },
+      {
+        "rule": "**呗** means 'that's all there is to it'. The speaker sounds relaxed or shrugging: 'so be it, then'.",
+        "highlight": "呗",
+        "examples": [
+          { "hanzi": "不想去就别去呗。", "pinyin": "Bù xiǎng qù jiù bié qù bei.", "english": "If you don't want to go then don't go." },
+          { "hanzi": "想吃就吃呗！", "pinyin": "Xiǎng chī jiù chī bei!", "english": "If you want to eat, eat!" }
+        ]
+      },
+      {
+        "rule": "**啦** is a blend of 了 + 啊: a lively 'it has happened!' or 'now it is so!'. It sounds cheerful and is common in speech to friends and children.",
+        "highlight": "啦",
+        "examples": [
+          { "hanzi": "我到啦！你在哪儿？", "pinyin": "Wǒ dào la! Nǐ zài nǎr?", "english": "I'm here! Where are you?" },
+          { "hanzi": "下雨啦，快收衣服！", "pinyin": "Xià yǔ la, kuài shōu yīfu!", "english": "It's raining, quick, bring in the washing!" }
+        ]
+      },
+      {
+        "rule": "**喽 / 咯** and **哦** are softer. 喽 (also written 咯) announces a conclusion ('so then …'); 哦 gently warns or reminds, or marks understanding when said alone.",
+        "highlight": "哦",
+        "examples": [
+          { "hanzi": "那我先走喽。", "pinyin": "Nà wǒ xiān zǒu lou.", "english": "Then I'll be off first." },
+          { "hanzi": "明天要早点来哦。", "pinyin": "Míngtiān yào zǎodiǎn lái o.", "english": "Remember to come early tomorrow." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "吧", "text": "吧 softens and invites agreement; 呗 stresses that the choice is easy or unimportant, sometimes a little impatient." },
+      { "vs": "了", "text": "啦 includes the meaning of 了 plus emotion, so you do not write 了啦." }
+    ],
+    "pitfalls": [
+      "✗ 谢谢你嘛。 → ✓ 谢谢你。 Do not add 嘛 to polite formulas; it makes them sound bossy.",
+      "✗ 我很高兴了啦。 → ✓ 我很高兴啦。 啦 already contains 了.",
+      "✗ 老板，请坐呗。 → ✓ 老板，请坐。 Particles with attitude are inappropriate when addressing superiors formally.",
+      "✗ 我认为这个方案很好嘛。 (in an essay) → ✓ 我认为这个方案很好。 Leave these particles out of formal writing and exams."
+    ],
+    "relatedPointIds": ["g1-bie", "g2-yao-le", "g5-hebi", "g3-shi-bu-shi"],
+    "keywords": ["ma", "bei", "la", "lou", "o", "嘛", "呗", "啦", "喽", "哦", "咯", "colloquial particles", "tone"],
+    "status": "draft"
+  },
+  {
+    "id": "particles-de-phrases",
+    "title": "的-phrases and 所-phrases",
+    "titleHanzi": "的字结构 / 所字结构",
+    "category": "particles",
+    "hskRange": [3, 6],
+    "summary": "A modifier plus 的 can stand alone as a noun ('the one that …'). Formal Chinese adds 所 before the verb to focus on the thing that is acted upon.",
+    "pattern": "Verb / Adjective / Noun + 的 (= the one that …)  ·  Subject + 所 + Verb + 的 + Noun",
+    "rules": [
+      {
+        "rule": "**Noun-drop with 的:** when the noun after 的 is obvious, leave it out. 我的, 红的, 卖水果的 then work as nouns meaning 'mine', 'the red one', 'the person who sells fruit'.",
+        "highlight": "的",
+        "examples": [
+          { "hanzi": "这本书是我的。", "pinyin": "Zhè běn shū shì wǒ de.", "english": "This book is mine." },
+          { "hanzi": "我要红的，不要蓝的。", "pinyin": "Wǒ yào hóng de, bú yào lán de.", "english": "I want the red one, not the blue one." },
+          { "hanzi": "那个卖水果的很热情。", "pinyin": "Nàge mài shuǐguǒ de hěn rèqíng.", "english": "That fruit seller is very friendly." }
+        ]
+      },
+      {
+        "rule": "**Verb + 的 as a role:** 开车的, 教书的, 看门的 name people by what they do. Add 人 when the sentence needs to be more formal.",
+        "highlight": "的",
+        "examples": [
+          { "hanzi": "开车的人不能喝酒。", "pinyin": "Kāichē de rén bù néng hē jiǔ.", "english": "People who drive must not drink alcohol." },
+          { "hanzi": "他爸爸是教书的。", "pinyin": "Tā bàba shì jiāoshū de.", "english": "His father is a teacher." }
+        ]
+      },
+      {
+        "rule": "**所 + Verb + 的** highlights the thing that the subject does something to. It appears mostly in formal writing and fixed phrases (所见所闻, 所有的). Without 所 the sentence would have the same meaning but sound plainer.",
+        "highlight": "所",
+        "examples": [
+          { "hanzi": "这就是我所知道的一切。", "pinyin": "Zhè jiù shì wǒ suǒ zhīdào de yíqiè.", "english": "This is all that I know." },
+          { "hanzi": "他所说的话都是真的。", "pinyin": "Tā suǒ shuō de huà dōu shì zhēn de.", "english": "Everything he has said is true." },
+          { "hanzi": "他的做法不是我所希望的。", "pinyin": "Tā de zuòfǎ bú shì wǒ suǒ xīwàng de.", "english": "His approach is not what I hoped for." }
+        ]
+      },
+      {
+        "rule": "**为/被 … 所** forms a literary passive: 被 + agent + 所 + Verb. It is covered under formal-written patterns; recognise it in news and essays.",
+        "highlight": "所",
+        "examples": [
+          { "hanzi": "他被大家所尊敬。", "pinyin": "Tā bèi dàjiā suǒ zūnjìng.", "english": "He is respected by everyone." },
+          { "hanzi": "我被他的话所感动。", "pinyin": "Wǒ bèi tā de huà suǒ gǎndòng.", "english": "I was moved by his words." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "是…的", "text": "是…的 puts 的 at the end of the sentence for emphasis, while a 的-phrase uses 的 to build a noun. 这本书是我的 (mine) is a noun-drop, 这本书是我买的 uses the same shape with a verb." },
+      { "vs": "Relative clauses in English", "text": "The modifier always comes first in Chinese: 'the book that I bought yesterday' is 我昨天买的书." }
+    ],
+    "pitfalls": [
+      "✗ 我昨天买书的很贵。 → ✓ 我昨天买的书很贵。 In a modifier, 的 goes right before the noun it modifies.",
+      "✗ 他是老师的。 → ✓ 他是老师。 Do not add 的 after a plain noun predicate; the 的-phrase needs a modifier before it.",
+      "✗ 我所喜欢。 → ✓ 我所喜欢的东西。 所 + Verb needs 的 and a noun, or a fixed expression.",
+      "✗ 这是我所书。 → ✓ 这是我写的书。 所 is only for formal writing and works with verbs, not nouns."
+    ],
+    "relatedPointIds": ["g5-suo-verb", "g2-shi-de", "g2-de-de-de", "g7-wei-suo-passive"],
+    "keywords": ["de", "suo", "的字结构", "所", "noun phrase", "relative clause", "nominalization", "所字结构"],
+    "status": "draft"
+  }
+]

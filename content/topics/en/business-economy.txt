@@ -1,0 +1,188 @@
+@topic | Business & Economy | 📈
+business | /ˈbɪznəs/ | 生意; 商业 | He runs a small business in town. | 他在镇上经营一家小生意。 | 2
+company | /ˈkʌmpəni/ | 公司 | The company sells shoes online. | 这家公司在网上卖鞋。 | 2
+shop | /ʃɒp/ | 商店 | The shop closes at six. | 商店六点关门。 | 1
+market | /ˈmɑːkɪt/ | 市场; 集市 | The market is busy on Saturdays. | 周六市场很热闹。 | 1
+price | /praɪs/ | 价格 | The price of rice went up. | 大米的价格上涨了。 | 1
+cost | /kɒst/ | 成本; 花费 | The cost of living is high here. | 这里的生活成本很高。 | 2
+pay | /peɪ/ | 支付 | I will pay by card. | 我用卡支付。 | 1
+buy | /baɪ/ | 买 | I want to buy a new phone. | 我想买一部新手机。 | 1
+sell | /sel/ | 卖 | They sell fresh fruit here. | 他们在这里卖新鲜水果。 | 1
+money | /ˈmʌni/ | 钱 | I need some money for lunch. | 我需要一点钱吃午饭。 | 1
+cash | /kæʃ/ | 现金 | Do you accept cash? | 你们收现金吗？ | 2
+credit card | /ˈkredɪt kɑːd/ | 信用卡 | She paid with a credit card. | 她用信用卡付了款。 | 2
+bank | /bæŋk/ | 银行 | I opened an account at the bank. | 我在银行开了一个账户。 | 1
+customer | /ˈkʌstəmə/ | 顾客; 客户 | The customer asked for a discount. | 顾客要求打折。 | 2
+client | /ˈklaɪənt/ | 客户 | We have clients in ten countries. | 我们在十个国家有客户。 | 3
+supplier | /səˈplaɪə/ | 供应商 | Our supplier delivers every Monday. | 我们的供应商每周一送货。 | 4
+product | /ˈprɒdʌkt/ | 产品 | This product is popular with students. | 这款产品深受学生欢迎。 | 2
+goods | /ɡʊdz/ | 商品; 货物 | The shop sells goods from many countries. | 这家商店出售来自许多国家的商品。 | 3
+service | /ˈsɜːvɪs/ | 服务 | The hotel offers excellent service. | 这家酒店提供一流的服务。 | 2
+brand | /brænd/ | 品牌 | This brand is famous for its quality. | 这个品牌以质量闻名。 | 3
+order | /ˈɔːdə/ | 订单; 订购 | We received a large order today. | 我们今天收到一份大订单。 | 2
+delivery | /dɪˈlɪvəri/ | 交货; 送货 | Delivery takes three working days. | 送货需要三个工作日。 | 3
+deliver | /dɪˈlɪvə/ | 交付; 送货 | We deliver to any address in the city. | 我们送货到市内任何地址。 | 3
+invoice | /ˈɪnvɔɪs/ | 发票; 账单 | Please send me the invoice by email. | 请通过电子邮件把发票发给我。 | 5
+receipt | /rɪˈsiːt/ | 收据 | Keep the receipt in case you return it. | 请保留收据，以防退货。 | 3
+bill | /bɪl/ | 账单 | Can I have the bill, please? | 请把账单给我好吗？ | 2
+discount | /ˈdɪskaʊnt/ | 折扣 | There is a ten percent discount today. | 今天有九折优惠。 | 3
+sale | /seɪl/ | 销售; 促销 | The winter sale starts tomorrow. | 冬季促销明天开始。 | 2
+profit | /ˈprɒfɪt/ | 利润 | The firm made a large profit last year. | 公司去年获得了丰厚利润。 | 3
+loss | /lɒs/ | 亏损; 损失 | The company reported a loss this quarter. | 公司报告本季度亏损。 | 4
+revenue | /ˈrevənjuː/ | 收入; 营收 | The firm's revenue rose by ten percent. | 公司营收增长了百分之十。 | 5
+turnover | /ˈtɜːnəʊvə/ | 营业额 | Annual turnover reached five million. | 年营业额达到了五百万。 | 6
+budget | /ˈbʌdʒɪt/ | 预算 | Our budget for advertising is small. | 我们的广告预算很少。 | 4
+expense | /ɪkˈspens/ | 开支 | Rent is our biggest expense. | 房租是我们最大的开支。 | 4
+income | /ˈɪnkʌm/ | 收入 | Her main income comes from teaching. | 她的主要收入来自教学。 | 3
+tax | /tæks/ | 税 | The government raised the tax on cigarettes. | 政府提高了香烟税。 | 2
+VAT | /ˌviː eɪ ˈtiː/ | 增值税 | The price includes VAT. | 价格含增值税。 | 5
+debt | /det/ | 债务 | He is trying to pay off his debt. | 他正努力还清债务。 | 4
+loan | /ləʊn/ | 贷款 | They took out a loan to buy a house. | 他们贷款买了房子。 | 4
+mortgage | /ˈmɔːɡɪdʒ/ | 抵押贷款; 按揭 | We pay the mortgage every month. | 我们每个月还按揭。 | 5
+interest | /ˈɪntrəst/ | 利息 | The bank pays low interest on savings. | 银行对储蓄只付很低的利息。 | 4
+interest rate | /ˈɪntrəst reɪt/ | 利率 | The interest rate went up again. | 利率又上调了。 | 5
+savings | /ˈseɪvɪŋz/ | 储蓄 | She put her savings in the bank. | 她把积蓄存进了银行。 | 3
+spend | /spend/ | 花费 | They spend too much on clothes. | 他们在衣服上花得太多。 | 2
+invest | /ɪnˈvest/ | 投资 | Many people invest in property. | 很多人投资房产。 | 4
+investment | /ɪnˈvestmənt/ | 投资 | The project needs a big investment. | 这个项目需要一大笔投资。 | 4
+investor | /ɪnˈvestə/ | 投资者 | Investors were worried by the news. | 投资者对这个消息感到担忧。 | 5
+shareholder | /ˈʃeəhəʊldə/ | 股东 | The shareholders met in spring. | 股东们在春天开了会。 | 6
+stock | /stɒk/ | 股票; 库存 | The stock price fell sharply. | 股票价格大幅下跌。 | 4
+stock market | /stɒk ˈmɑːkɪt/ | 股市 | The stock market opened higher today. | 股市今天高开。 | 5
+bond | /bɒnd/ | 债券 | She bought government bonds. | 她买了政府债券。 | 6
+dividend | /ˈdɪvɪdend/ | 股息; 红利 | The company pays a dividend every year. | 公司每年派发红利。 | 6
+asset | /ˈæset/ | 资产 | The house is his biggest asset. | 房子是他最大的资产。 | 5
+capital | /ˈkæpɪtl/ | 资本; 资金 | He needs capital to start a business. | 他需要资金来创业。 | 5
+fund | /fʌnd/ | 基金; 资金 | The fund invests in green energy. | 这只基金投资绿色能源。 | 5
+funding | /ˈfʌndɪŋ/ | 资助; 经费 | The startup is looking for funding. | 这家初创公司在寻找资金。 | 5
+startup | /ˈstɑːtʌp/ | 初创公司 | She works for a tech startup. | 她在一家科技初创公司工作。 | 5
+entrepreneur | /ˌɒntrəprəˈnɜː/ | 企业家 | The entrepreneur opened three cafes. | 这位企业家开了三家咖啡馆。 | 5
+owner | /ˈəʊnə/ | 所有者; 老板 | The owner of the shop is very kind. | 店主非常和善。 | 2
+founder | /ˈfaʊndə/ | 创始人 | The founder started the firm in 1990. | 创始人在1990年创办了这家公司。 | 5
+partner | /ˈpɑːtnə/ | 合伙人; 伙伴 | He is my business partner. | 他是我的生意伙伴。 | 3
+partnership | /ˈpɑːtnəʃɪp/ | 合伙关系 | The two firms formed a partnership. | 两家公司建立了合作关系。 | 5
+firm | /fɜːm/ | 公司 (较正式) | She joined a law firm. | 她加入了一家律师事务所。 | 4
+corporation | /ˌkɔːpəˈreɪʃn/ | 大公司; 法人 | The corporation employs thousands of people. | 这家大公司雇用了数千人。 | 5
+multinational | /ˌmʌltiˈnæʃnəl/ | 跨国公司 | She works for a multinational. | 她在一家跨国公司工作。 | 6
+headquarters | /ˌhedˈkwɔːtəz/ | 总部 | The headquarters are in Shanghai. | 总部设在上海。 | 5
+branch | /brɑːntʃ/ | 分公司; 分行 | The bank has a branch near my home. | 这家银行在我家附近有分行。 | 4
+subsidiary | /səbˈsɪdiəri/ | 子公司 | It is a subsidiary of a larger group. | 它是一个大集团的子公司。 | 6
+merger | /ˈmɜːdʒə/ | 合并 | The merger created a giant company. | 这次合并创造了一家巨型公司。 | 6
+takeover | /ˈteɪkəʊvə/ | 收购 | The takeover was announced on Monday. | 收购在周一宣布。 | 6
+acquire | /əˈkwaɪə/ | 收购; 获得 | They plan to acquire a rival firm. | 他们计划收购一家竞争公司。 | 6
+compete | /kəmˈpiːt/ | 竞争 | Small shops cannot compete with big chains. | 小商店无法与大型连锁店竞争。 | 4
+competitor | /kəmˈpetɪtə/ | 竞争对手 | Our competitors cut their prices. | 我们的竞争对手降价了。 | 5
+competition | /ˌkɒmpəˈtɪʃn/ | 竞争 | There is strong competition in this market. | 这个市场竞争激烈。 | 4
+competitive | /kəmˈpetətɪv/ | 有竞争力的 | The prices are very competitive. | 价格很有竞争力。 | 5
+rival | /ˈraɪvl/ | 对手 | Their main rival launched a new phone. | 他们的主要对手推出了一款新手机。 | 5
+monopoly | /məˈnɒpəli/ | 垄断 | The company has a monopoly on railways. | 这家公司垄断了铁路业务。 | 6
+demand | /dɪˈmɑːnd/ | 需求 | Demand for electric cars is growing. | 对电动汽车的需求在增长。 | 4
+supply | /səˈplaɪ/ | 供应 | Supply cannot meet demand. | 供应无法满足需求。 | 4
+supply chain | /səˈplaɪ tʃeɪn/ | 供应链 | The supply chain was disrupted by the storm. | 供应链被风暴打断了。 | 6
+import | /ɪmˈpɔːt/ | 进口 | China will import more grain this year. | 中国今年将进口更多粮食。 | 4
+export | /ɪkˈspɔːt/ | 出口 | The country will export cars to Asia. | 这个国家将向亚洲出口汽车。 | 4
+trade | /treɪd/ | 贸易 | Trade between the two countries is growing. | 两国之间的贸易在增长。 | 4
+tariff | /ˈtærɪf/ | 关税 | The tariff raises the price of steel. | 关税抬高了钢铁价格。 | 6
+customs | /ˈkʌstəmz/ | 海关 | Goods wait at customs for two days. | 货物在海关等了两天。 | 4
+shipment | /ˈʃɪpmənt/ | 装运; 一批货 | The shipment arrived a week late. | 这批货晚到了一周。 | 6
+warehouse | /ˈweəhaʊs/ | 仓库 | The goods are kept in a warehouse. | 货物存放在仓库里。 | 4
+factory | /ˈfæktri/ | 工厂 | The factory makes toys. | 这家工厂生产玩具。 | 2
+manufacture | /ˌmænjuˈfæktʃə/ | 制造; 生产 | They manufacture car parts. | 他们制造汽车零件。 | 5
+production | /prəˈdʌkʃn/ | 生产 | Production was stopped for a week. | 生产停了一周。 | 4
+produce | /prəˈdjuːs/ | 生产 | The farm will produce more rice this year. | 农场今年会生产更多大米。 | 3
+output | /ˈaʊtpʊt/ | 产量 | The factory increased its output. | 工厂提高了产量。 | 5
+raw material | /rɔː məˈtɪəriəl/ | 原材料 | Raw materials are getting more expensive. | 原材料越来越贵。 | 5
+industry | /ˈɪndəstri/ | 工业; 行业 | The tourism industry is growing fast. | 旅游业发展迅速。 | 3
+sector | /ˈsektə/ | 行业; 部门 | The service sector employs most people. | 服务业雇用了大部分人。 | 5
+retail | /ˈriːteɪl/ | 零售 | She works in retail. | 她从事零售业。 | 5
+wholesale | /ˈhəʊlseɪl/ | 批发 | We buy fruit at wholesale prices. | 我们按批发价购买水果。 | 5
+supermarket | /ˈsuːpəmɑːkɪt/ | 超市 | The supermarket is open until ten. | 超市营业到十点。 | 1
+chain store | /tʃeɪn stɔː/ | 连锁店 | There is a chain store on every corner. | 每个街角都有连锁店。 | 4
+online shopping | /ˈɒnlaɪn ˈʃɒpɪŋ/ | 网购 | Online shopping is easy and fast. | 网购方便又快捷。 | 3
+e-commerce | /ˈiː kɒmɜːs/ | 电子商务 | E-commerce has changed the way we shop. | 电子商务改变了我们的购物方式。 | 5
+advertise | /ˈædvətaɪz/ | 做广告 | They advertise on television. | 他们在电视上做广告。 | 4
+advertisement | /ədˈvɜːtɪsmənt/ | 广告 | I saw an advertisement for a sale. | 我看到了一则促销广告。 | 3
+marketing | /ˈmɑːkɪtɪŋ/ | 市场营销 | She works in the marketing department. | 她在市场营销部门工作。 | 4
+slogan | /ˈsləʊɡən/ | 口号; 标语 | The brand has a catchy slogan. | 这个品牌有一句朗朗上口的口号。 | 5
+logo | /ˈləʊɡəʊ/ | 标志 | The logo is red and white. | 这个标志是红白色的。 | 3
+target market | /ˈtɑːɡɪt ˈmɑːkɪt/ | 目标市场 | Teenagers are our target market. | 青少年是我们的目标市场。 | 6
+consumer | /kənˈsjuːmə/ | 消费者 | Consumers want lower prices. | 消费者想要更低的价格。 | 4
+consumption | /kənˈsʌmpʃn/ | 消费 | Energy consumption keeps rising. | 能源消费持续增长。 | 5
+customer service | /ˈkʌstəmə ˈsɜːvɪs/ | 客户服务 | Customer service answered quickly. | 客户服务很快做了回复。 | 3
+refund | /ˈriːfʌnd/ | 退款 | I asked for a refund for the broken lamp. | 我要求为损坏的台灯退款。 | 4
+complaint | /kəmˈpleɪnt/ | 投诉 | She made a complaint about the service. | 她对服务提出了投诉。 | 4
+warranty | /ˈwɒrənti/ | 保修 | The phone has a two-year warranty. | 这部手机有两年保修。 | 6
+guarantee | /ˌɡærənˈtiː/ | 保证; 保修 | The watch comes with a guarantee. | 这块表带有保修。 | 5
+quality | /ˈkwɒləti/ | 质量 | The quality of the cloth is excellent. | 这块布的质量非常好。 | 3
+quantity | /ˈkwɒntəti/ | 数量 | We bought a large quantity of paper. | 我们买了大量的纸。 | 4
+bargain | /ˈbɑːɡɪn/ | 便宜货; 讨价还价 | This coat was a real bargain. | 这件外套真是物超所值。 | 4
+afford | /əˈfɔːd/ | 负担得起 | I cannot afford a new car. | 我买不起新车。 | 3
+expensive | /ɪkˈspensɪv/ | 昂贵的 | That bag is too expensive. | 那个包太贵了。 | 2
+cheap | /tʃiːp/ | 便宜的 | The hotel was cheap and clean. | 酒店便宜又干净。 | 1
+afford to | /əˈfɔːd tuː/ | 有能力承担 | Few people can afford to buy a house here. | 这里很少有人买得起房子。 | 4
+economy | /ɪˈkɒnəmi/ | 经济 | The economy grew by three percent. | 经济增长了百分之三。 | 3
+economic | /ˌiːkəˈnɒmɪk/ | 经济的 | The country faces economic problems. | 这个国家面临经济问题。 | 4
+economist | /ɪˈkɒnəmɪst/ | 经济学家 | The economist expects slow growth. | 经济学家预计增长缓慢。 | 5
+growth | /ɡrəʊθ/ | 增长 | Economic growth was slow last year. | 去年经济增长缓慢。 | 4
+boom | /buːm/ | 繁荣; 激增 | The city is enjoying a building boom. | 这座城市正享受建筑业繁荣。 | 5
+recession | /rɪˈseʃn/ | 经济衰退 | The country entered a deep recession. | 这个国家陷入严重的经济衰退。 | 6
+crisis | /ˈkraɪsɪs/ | 危机 | The financial crisis hurt many families. | 金融危机伤害了许多家庭。 | 5
+depression | /dɪˈpreʃn/ | 萧条 | The Great Depression began in 1929. | 大萧条始于1929年。 | 6
+inflation | /ɪnˈfleɪʃn/ | 通货膨胀 | Inflation makes food more expensive. | 通货膨胀使食品更贵。 | 5
+deflation | /dɪˈfleɪʃn/ | 通货紧缩 | Deflation can hurt economic growth. | 通货紧缩可能损害经济增长。 | 6
+GDP | /ˌdʒiː diː ˈpiː/ | 国内生产总值 | The country's GDP grew by two percent. | 这个国家的国内生产总值增长了百分之二。 | 5
+currency | /ˈkʌrənsi/ | 货币 | The euro is a common currency. | 欧元是一种通用货币。 | 4
+exchange rate | /ɪksˈtʃeɪndʒ reɪt/ | 汇率 | The exchange rate changes every day. | 汇率每天都在变化。 | 5
+dollar | /ˈdɒlə/ | 美元 | One dollar is about seven yuan. | 一美元约合七元人民币。 | 1
+euro | /ˈjʊərəʊ/ | 欧元 | The meal cost twenty euros. | 这顿饭花了二十欧元。 | 2
+coin | /kɔɪn/ | 硬币 | I found a coin on the floor. | 我在地上发现了一枚硬币。 | 2
+wealth | /welθ/ | 财富 | Education is more valuable than wealth. | 教育比财富更宝贵。 | 4
+wealthy | /ˈwelθi/ | 富裕的 | The wealthy family owns many shops. | 那个富裕的家庭拥有很多商店。 | 4
+bankrupt | /ˈbæŋkrʌpt/ | 破产的 | The company went bankrupt last year. | 公司去年破产了。 | 5
+bankruptcy | /ˈbæŋkrʌptsi/ | 破产 | The firm filed for bankruptcy. | 这家公司申请了破产。 | 6
+cut costs | /kʌt kɒsts/ | 削减成本 | The company must cut costs to survive. | 公司必须削减成本才能生存。 | 5
+break even | /breɪk ˈiːvn/ | 收支平衡 | We hope to break even next year. | 我们希望明年能收支平衡。 | 6
+cash flow | /kæʃ fləʊ/ | 现金流 | Good cash flow keeps a business healthy. | 良好的现金流让企业保持健康。 | 6
+balance sheet | /ˈbæləns ʃiːt/ | 资产负债表 | The balance sheet shows the firm's debts. | 资产负债表显示了公司的债务。 | 6
+financial | /faɪˈnænʃl/ | 金融的; 财务的 | She works for a financial company. | 她在一家金融公司工作。 | 4
+finance | /ˈfaɪnæns/ | 金融; 财务 | He studies finance at university. | 他在大学学习金融。 | 4
+audit | /ˈɔːdɪt/ | 审计 | An audit found several mistakes. | 审计发现了几处错误。 | 6
+insurance | /ɪnˈʃʊərəns/ | 保险 | I bought travel insurance. | 我买了旅行保险。 | 3
+insure | /ɪnˈʃɔː/ | 投保 | You should insure your house. | 你应该给房子投保。 | 5
+subsidy | /ˈsʌbsədi/ | 补贴 | Farmers receive a government subsidy. | 农民得到政府补贴。 | 6
+sponsor | /ˈspɒnsə/ | 赞助; 赞助商 | A bank will sponsor the event. | 一家银行将赞助这个活动。 | 5
+sponsorship | /ˈspɒnsəʃɪp/ | 赞助 | The team signed a sponsorship deal. | 球队签了赞助协议。 | 6
+franchise | /ˈfræntʃaɪz/ | 特许经营 | He bought a restaurant franchise. | 他买下了一家餐厅的特许经营权。 | 6
+outsource | /ˈaʊtsɔːs/ | 外包 | Many firms outsource customer service. | 许多公司把客户服务外包。 | 6
+negotiation | /nɪˌɡəʊʃiˈeɪʃn/ | 谈判 | The negotiations lasted three days. | 谈判持续了三天。 | 5
+deal | /diːl/ | 交易 | We closed the deal on Friday. | 我们周五达成了交易。 | 3
+agreement | /əˈɡriːmənt/ | 协议 | Both sides signed the agreement. | 双方签署了协议。 | 3
+tender | /ˈtendə/ | 投标 | Three firms submitted a tender for the road. | 三家公司为这条路递交了投标。 | 6
+estimate | /ˈestɪmət/ | 估价; 估计 | The estimate for the work is two thousand. | 这项工作的估价是两千。 | 5
+payment | /ˈpeɪmənt/ | 付款 | Payment is due within thirty days. | 付款期限为三十天内。 | 3
+deposit | /dɪˈpɒzɪt/ | 定金; 存款 | You need to pay a deposit first. | 你需要先付定金。 | 4
+instalment | /ɪnˈstɔːlmənt/ | 分期付款 | I pay for the laptop in monthly instalments. | 我按月分期支付笔记本电脑的费用。 | 6
+overdue | /ˌəʊvəˈdjuː/ | 逾期的 | The payment is two weeks overdue. | 付款已逾期两周。 | 6
+turnover rate | /ˈtɜːnəʊvə reɪt/ | 周转率; 离职率 | A high turnover rate worries the managers. | 高离职率让经理们担忧。 | 6
+efficient | /ɪˈfɪʃnt/ | 高效的 | An efficient system saves the firm money. | 高效的系统为公司省钱。 | 4
+sustainable | /səˈsteɪnəbl/ | 可持续的 | The firm is moving to sustainable energy. | 公司正转向可持续能源。 | 5
+strategy | /ˈstrætədʒi/ | 战略 | The firm changed its strategy. | 公司改变了战略。 | 5
+mission statement | /ˈmɪʃn ˈsteɪtmənt/ | 使命宣言 | The mission statement is on the wall. | 使命宣言就挂在墙上。 | 6
+risk | /rɪsk/ | 风险 | Every business involves some risk. | 每项生意都有一定风险。 | 3
+opportunity | /ˌɒpəˈtjuːnəti/ | 商机; 机会 | The new market is a great opportunity. | 新市场是个绝佳的商机。 | 3
+trend | /trend/ | 趋势 | Online shopping is a growing trend. | 网购是一个增长的趋势。 | 4
+forecast | /ˈfɔːkɑːst/ | 预测 | The forecast shows rising sales. | 预测显示销量将上升。 | 5
+market share | /ˈmɑːkɪt ʃeə/ | 市场份额 | Our market share is now twenty percent. | 我们的市场份额现在是百分之二十。 | 6
+launch | /lɔːntʃ/ | 推出; 发布 | The company will launch a new phone. | 公司将推出一款新手机。 | 4
+start up | /stɑːt ʌp/ | 创业 | She wants to start up her own firm. | 她想自己创业。 | 4
+expand | /ɪkˈspænd/ | 扩张 | The chain plans to expand abroad. | 这家连锁店计划向海外扩张。 | 4
+expansion | /ɪkˈspænʃn/ | 扩张 | The expansion created many new jobs. | 这次扩张创造了很多新工作。 | 5
+downsize | /ˈdaʊnsaɪz/ | 缩减规模 | The firm had to downsize last year. | 公司去年不得不缩减规模。 | 6
+shareholder meeting | /ˈʃeəhəʊldə ˈmiːtɪŋ/ | 股东大会 | The shareholder meeting is held in May. | 股东大会在五月举行。 | 6
+board | /bɔːd/ | 董事会 | The board approved the budget. | 董事会批准了预算。 | 5
+chairman | /ˈtʃeəmən/ | 董事长; 主席 | The chairman thanked all the staff. | 董事长感谢了全体员工。 | 5
+stakeholder | /ˈsteɪkhəʊldə/ | 利益相关者 | Stakeholders want clear information. | 利益相关者想要清晰的信息。 | 6
+corporate | /ˈkɔːpərət/ | 公司的; 企业的 | She works in corporate finance. | 她从事企业金融工作。 | 5
+commodity | /kəˈmɒdəti/ | 商品; 大宗商品 | Oil is an important commodity. | 石油是一种重要的大宗商品。 | 6
+luxury | /ˈlʌkʃəri/ | 奢侈品; 奢华 | Luxury goods sell well in this mall. | 奢侈品在这家商场很畅销。 | 4
+necessity | /nəˈsesəti/ | 必需品 | Food is a basic necessity. | 食物是基本必需品。 | 5

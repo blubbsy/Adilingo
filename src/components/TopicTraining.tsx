@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   CheckCircle2,
   Ear,
@@ -22,6 +22,7 @@ import { useI18n } from '../i18n/react';
 import {
   THEME_LABELS,
   buildTopicSessionRequest,
+  loadChinesePacks,
   packsForCourse,
   resolveTopicWords,
   type TopicPack,
@@ -42,7 +43,19 @@ export function TopicTraining({ vocab, state, speech, onStartSession, onToggleSt
   const [selectedTheme, setSelectedTheme] = useState<TopicTheme | 'all'>('all');
   const [search, setSearch] = useState('');
   const [activePack, setActivePack] = useState<TopicPack | null>(null);
-  const packs = useMemo(() => packsForCourse(state.settings.course, vocab), [state.settings.course, vocab]);
+  const [curated, setCurated] = useState<TopicPack[]>([]);
+  const curatedCourse = course.features.topics === 'curated-packs';
+  useEffect(() => {
+    if (!curatedCourse) return;
+    let cancelled = false;
+    loadChinesePacks().then((list) => {
+      if (!cancelled) setCurated(list);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [curatedCourse]);
+  const packs = useMemo(() => packsForCourse(state.settings.course, vocab, curated), [state.settings.course, vocab, curated]);
 
   // Pre-resolve words and progress for each pack
   const packData = useMemo(() => {
@@ -245,6 +258,7 @@ export function TopicTraining({ vocab, state, speech, onStartSession, onToggleSt
             return (
               <article
                 key={pack.id}
+                data-pack-words={words.length}
                 className="group relative flex flex-col justify-between rounded-3xl border border-slate-200 bg-white p-5 shadow-sm transition-all duration-200 hover:border-rose-300 hover:shadow-md dark:border-slate-800 dark:bg-slate-900/80 dark:hover:border-rose-800/70"
               >
                 <div>
@@ -452,7 +466,7 @@ export function TopicTraining({ vocab, state, speech, onStartSession, onToggleSt
                   >
                     <div className="flex items-center gap-3">
                       <button
-                        onClick={() => speech.speak(item.hanzi)}
+                        onClick={() => speech.speak(item.speakAs ?? item.hanzi)}
                         className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white text-slate-600 shadow-sm hover:text-rose-600 dark:bg-slate-700 dark:text-slate-200 dark:hover:text-rose-400"
                         title={t('topics.listen')}
                         aria-label={t('topics.pronounce', { word: item.hanzi })}

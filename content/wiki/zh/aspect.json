@@ -1,0 +1,290 @@
+[
+  {
+    "id": "aspect-le-completion",
+    "title": "Aspect particle 了: a completed event",
+    "titleHanzi": "了",
+    "category": "aspect",
+    "hskRange": [1, 4],
+    "summary": "Chinese verbs have no tense. 了 after a verb marks that the action is seen as completed or bounded, whether in the past or the future.",
+    "pattern": "Subject + Verb + 了 + Quantity / Specific object",
+    "rules": [
+      {
+        "rule": "**了 marks completion, not the past.** It says the action reached its end point or boundary. That is why it usually needs something that gives the action a boundary: a number, a measure word, a possessive or a demonstrative before the object.",
+        "highlight": "了",
+        "examples": [
+          { "hanzi": "我买了一本书。", "pinyin": "Wǒ mǎi le yì běn shū.", "english": "I bought a book." },
+          { "hanzi": "他喝了两杯咖啡。", "pinyin": "Tā hē le liǎng bēi kāfēi.", "english": "He drank two cups of coffee." },
+          { "hanzi": "她看了那部电影。", "pinyin": "Tā kàn le nà bù diànyǐng.", "english": "She watched that film." }
+        ]
+      },
+      {
+        "rule": "If the object is bare (no number, no modifier), a single 了 after the verb sounds unfinished. Either continue the sentence with a second action, or put 了 at the end of the clause instead.",
+        "highlight": "了",
+        "examples": [
+          { "hanzi": "我吃了饭就去。", "pinyin": "Wǒ chī le fàn jiù qù.", "english": "I will go as soon as I have eaten." },
+          { "hanzi": "下了课，我们去吃饭。", "pinyin": "Xià le kè, wǒmen qù chī fàn.", "english": "After class is over, we go and eat." },
+          { "hanzi": "我昨天买书了。", "pinyin": "Wǒ zuótiān mǎi shū le.", "english": "I bought books yesterday." }
+        ]
+      },
+      {
+        "rule": "Because 了 is about completion, it works for the **future** and for **repeated** events as well. In a sequence, the first verb takes 了 and the second one states what follows.",
+        "highlight": "了",
+        "examples": [
+          { "hanzi": "明天下了班我给你打电话。", "pinyin": "Míngtiān xià le bān wǒ gěi nǐ dǎ diànhuà.", "english": "Tomorrow after work I will call you." },
+          { "hanzi": "每天吃了晚饭，他都去散步。", "pinyin": "Měi tiān chī le wǎnfàn, tā dōu qù sànbù.", "english": "Every day after dinner he goes for a walk." }
+        ]
+      },
+      {
+        "rule": "**Negation removes 了.** Use 没(有) to say that something did not happen; the verb stays bare.",
+        "highlight": "没",
+        "examples": [
+          { "hanzi": "我没买书。", "pinyin": "Wǒ méi mǎi shū.", "english": "I did not buy a book." },
+          { "hanzi": "他昨天没来上课。", "pinyin": "Tā zuótiān méi lái shàngkè.", "english": "He did not come to class yesterday." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "过", "text": "了 says an event was completed and is often still relevant now; 过 says you have had the experience at least once, with no focus on the result." },
+      { "vs": "Sentence-final 了", "text": "Verb 了 closes the action; sentence-final 了 reports a new situation. Both can appear together: 我吃了三个了 (I have already eaten three)." },
+      { "vs": "English past tense", "text": "A past habit (我小时候每天喝牛奶) takes no 了, while a future completed event (明天吃了饭再走) does." }
+    ],
+    "pitfalls": [
+      "✗ 我去年住了在北京。 → ✓ 我去年住在北京。 In a verb + 在 + place combination 了 cannot be inserted; say 住在北京 or add 了 at the end.",
+      "✗ 我没吃了饭。 → ✓ 我没吃饭。 With 没, drop 了.",
+      "✗ 我每天喝了咖啡。 → ✓ 我每天喝咖啡。 Habits are not completed events, so no 了.",
+      "✗ 我想了去中国。 → ✓ 我想去中国。 Verbs of wanting, liking and knowing describe states, so they do not take verb 了."
+    ],
+    "relatedPointIds": ["g2-yijing-le", "g2-yao-le", "g3-result-complements", "g3-xian-ranhou"],
+    "keywords": ["le", "了", "completion", "perfective", "aspect", "past tense", "bounded event"],
+    "status": "draft"
+  },
+  {
+    "id": "aspect-guo",
+    "title": "Experiential aspect 过",
+    "titleHanzi": "过",
+    "category": "aspect",
+    "hskRange": [2, 4],
+    "summary": "过 after a verb says that the subject has had this experience at least once, sometime before now. It is the Chinese 'have ever done'.",
+    "pattern": "Subject + Verb + 过 (+ Object)  ·  Subject + 没(有) + Verb + 过",
+    "rules": [
+      {
+        "rule": "**Verb + 过 = has done it before.** The time is not specified; the point is that the experience exists in the person's life, and the result is not necessarily visible any more.",
+        "highlight": "过",
+        "examples": [
+          { "hanzi": "我去过北京。", "pinyin": "Wǒ qù guo Běijīng.", "english": "I have been to Beijing." },
+          { "hanzi": "她吃过北京烤鸭。", "pinyin": "Tā chī guo Běijīng kǎoyā.", "english": "She has eaten Peking duck." },
+          { "hanzi": "你学过法语吗？", "pinyin": "Nǐ xué guo Fǎyǔ ma?", "english": "Have you ever studied French?" }
+        ]
+      },
+      {
+        "rule": "The negative is **没(有) + Verb + 过**: you have never done it. Add 从来 or 从 to stress 'never' (from the start up to now).",
+        "highlight": "没有",
+        "examples": [
+          { "hanzi": "我没有坐过飞机。", "pinyin": "Wǒ méiyǒu zuò guo fēijī.", "english": "I have never flown." },
+          { "hanzi": "他从来没去过国外。", "pinyin": "Tā cónglái méi qù guo guówài.", "english": "He has never been abroad." }
+        ]
+      },
+      {
+        "rule": "Frequency can be added after 过 with 一次, 两次, 很多次: how often the experience occurred. The question form is **Verb + 过 + 没有** or **Verb + 过 + 吗**.",
+        "highlight": "次",
+        "examples": [
+          { "hanzi": "我见过他两次。", "pinyin": "Wǒ jiàn guo tā liǎng cì.", "english": "I have met him twice." },
+          { "hanzi": "你看过这部电影没有？", "pinyin": "Nǐ kàn guo zhè bù diànyǐng méiyǒu?", "english": "Have you seen this film?" }
+        ]
+      },
+      {
+        "rule": "A second use of 过 is **to finish** an action, as a result complement (吃过饭了 = have eaten). Here it can combine with sentence-final 了. It is recognisable because a definite time can appear.",
+        "highlight": "过",
+        "examples": [
+          { "hanzi": "我吃过饭了，谢谢。", "pinyin": "Wǒ chī guo fàn le, xièxie.", "english": "I have already eaten, thanks." },
+          { "hanzi": "你洗过手了吗？", "pinyin": "Nǐ xǐ guo shǒu le ma?", "english": "Have you washed your hands?" }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "了", "text": "我去了北京 means I went to Beijing (and the trip happened, possibly I am still there); 我去过北京 means I have been there at some time in my life." },
+      { "vs": "曾经", "text": "曾经 is a formal adverb for 'once' and often combines with 过: 他曾经学过日语。 过 alone is enough in daily speech." }
+    ],
+    "pitfalls": [
+      "✗ 我去过北京昨天。 → ✓ 我昨天去了北京。 过 does not combine with a specific past time; use 了 for a particular event.",
+      "✗ 我没去过了北京。 → ✓ 我没去过北京。 Do not add 了 to a negative 过 sentence.",
+      "✗ 我吃过三次烤鸭了一次。 → ✓ 我吃过三次烤鸭。 Count the experiences with a verbal measure word after 过.",
+      "✗ 我是学生过。 → ✓ 我以前是学生。 过 does not go with 是; use a time word to express a past state."
+    ],
+    "relatedPointIds": ["g3-verbal-measure", "g2-yijing-le", "g3-result-complements"],
+    "keywords": ["guo", "过", "experience", "have ever", "have been to", "never", "experiential aspect"],
+    "status": "draft"
+  },
+  {
+    "id": "aspect-zhe",
+    "title": "Durative aspect 着",
+    "titleHanzi": "着",
+    "category": "aspect",
+    "hskRange": [2, 5],
+    "summary": "着 after a verb describes a state that results from an action and goes on. It paints a still picture rather than telling a story.",
+    "pattern": "Verb + 着 (+ Object)  ·  Place + Verb + 着 + Thing  ·  Verb₁ + 着 + Verb₂",
+    "rules": [
+      {
+        "rule": "**Verb + 着 = the state is on.** With posture and position verbs (坐, 站, 躺, 挂, 放, 写) it describes how someone or something is.",
+        "highlight": "着",
+        "examples": [
+          { "hanzi": "他坐着看书。", "pinyin": "Tā zuò zhe kàn shū.", "english": "He is reading while sitting." },
+          { "hanzi": "门开着。", "pinyin": "Mén kāi zhe.", "english": "The door is open." },
+          { "hanzi": "墙上挂着一张地图。", "pinyin": "Qiáng shang guà zhe yì zhāng dìtú.", "english": "A map is hanging on the wall." }
+        ]
+      },
+      {
+        "rule": "**Verb₁ + 着 + Verb₂** presents the first verb as the manner or background of the second: how you do something (while holding, wearing, standing).",
+        "highlight": "着",
+        "examples": [
+          { "hanzi": "她笑着说：“谢谢。”", "pinyin": "Tā xiào zhe shuō: “Xièxie.”", "english": "She said \"thank you\" with a smile." },
+          { "hanzi": "孩子们站着唱歌。", "pinyin": "Háizimen zhàn zhe chàng gē.", "english": "The children sing standing up." }
+        ]
+      },
+      {
+        "rule": "To describe an ongoing action, 着 can be combined with 在 or 正在 and often sentence-final 呢: **在 + Verb + 着 + 呢**. In spoken Chinese 在 or 正在 alone is more common.",
+        "highlight": "着",
+        "examples": [
+          { "hanzi": "外面下着雨呢。", "pinyin": "Wàimiàn xià zhe yǔ ne.", "english": "It is raining outside." },
+          { "hanzi": "他正看着电视呢。", "pinyin": "Tā zhèng kàn zhe diànshì ne.", "english": "He is watching television." }
+        ]
+      },
+      {
+        "rule": "The negative is **没(有) + Verb + 着**: the state is not in place. A command with 着 asks someone to keep a state: 拿着, 等着, 记着.",
+        "highlight": "着",
+        "examples": [
+          { "hanzi": "灯没开着。", "pinyin": "Dēng méi kāi zhe.", "english": "The light is not on." },
+          { "hanzi": "你拿着这把伞。", "pinyin": "Nǐ ná zhe zhè bǎ sǎn.", "english": "Hold on to this umbrella." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "在 / 正在", "text": "在 shows that an action is under way; 着 shows that a state continues. Posture verbs and 挂, 放, 开 favour 着; running, studying or working favour 在." },
+      { "vs": "了", "text": "窗户开了 means the window got opened (a change); 窗户开着 means it is open (a state)." }
+    ],
+    "pitfalls": [
+      "✗ 我昨天看着电影。 → ✓ 我昨天看了电影。 着 is not a past marker; it does not report finished events.",
+      "✗ 他正在着吃饭。 → ✓ 他正在吃饭。 With 在 / 正在 the 着 is optional and never goes before the verb.",
+      "✗ 我住着在北京。 → ✓ 我住在北京。 着 cannot be inserted into verb-place combinations such as 住在.",
+      "✗ 桌子上放了一本书。 (meant: a book is lying there) → ✓ 桌子上放着一本书。 To describe the scene, use 着."
+    ],
+    "relatedPointIds": ["g2-zhe", "g1-zai-place-verb", "g2-yibian", "g2-yijing-le"],
+    "keywords": ["zhe", "着", "durative", "continuous state", "progressive", "posture verbs", "accompanying manner"],
+    "status": "draft"
+  },
+  {
+    "id": "aspect-progressive",
+    "title": "Progressive aspect 在 / 正在 / 呢",
+    "titleHanzi": "在 / 正在",
+    "category": "aspect",
+    "hskRange": [1, 3],
+    "summary": "在 or 正在 before a verb says that an action is in progress at the moment of speaking or at a time you are talking about.",
+    "pattern": "Subject + (正)在 + Verb + (Object) + (呢)",
+    "rules": [
+      {
+        "rule": "**在 + Verb** is the basic progressive. It is the same 在 as in 在 + place, but followed by a verb. It answers 'What are you doing right now?'.",
+        "highlight": "在",
+        "examples": [
+          { "hanzi": "我在写作业。", "pinyin": "Wǒ zài xiě zuòyè.", "english": "I am doing my homework." },
+          { "hanzi": "你在做什么？", "pinyin": "Nǐ zài zuò shénme?", "english": "What are you doing?" },
+          { "hanzi": "妈妈在厨房做饭。", "pinyin": "Māma zài chúfáng zuò fàn.", "english": "Mom is cooking in the kitchen." }
+        ]
+      },
+      {
+        "rule": "**正在** (or just **正**) stresses that this is exactly the moment: 'right in the middle of'. 正 and 正在 cannot be used for habits.",
+        "highlight": "正在",
+        "examples": [
+          { "hanzi": "他正在开会，请等一下。", "pinyin": "Tā zhèngzài kāihuì, qǐng děng yíxià.", "english": "He is in a meeting; please wait a moment." },
+          { "hanzi": "我进去的时候，她正在打电话。", "pinyin": "Wǒ jìnqù de shíhou, tā zhèngzài dǎ diànhuà.", "english": "When I went in, she was on the phone." }
+        ]
+      },
+      {
+        "rule": "Sentence-final **呢** adds a casual tone of 'at this very moment'. It can stand alone, and it often combines with 着: 在看着电视呢.",
+        "highlight": "呢",
+        "examples": [
+          { "hanzi": "别吵，宝宝睡觉呢。", "pinyin": "Bié chǎo, bǎobao shuìjiào ne.", "english": "Don't make noise, the baby is sleeping." },
+          { "hanzi": "他还在吃饭呢。", "pinyin": "Tā hái zài chī fàn ne.", "english": "He is still eating." }
+        ]
+      },
+      {
+        "rule": "The negative is **没(有) + 在 + Verb**: this action is not going on. Both a past and a present reading are possible, depending on context. For a progressive in the past, add a time clause.",
+        "highlight": "没在",
+        "examples": [
+          { "hanzi": "我没在看电视，我在学习。", "pinyin": "Wǒ méi zài kàn diànshì, wǒ zài xuéxí.", "english": "I am not watching TV, I am studying." },
+          { "hanzi": "昨天晚上八点，他没在家。", "pinyin": "Zuótiān wǎnshang bā diǎn, tā méi zài jiā.", "english": "At eight o'clock last night he was not at home." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "着", "text": "在 + Verb marks an activity under way; Verb + 着 describes a lasting state. They can be combined (正在看着)." },
+      { "vs": "English present continuous", "text": "English uses the continuous for plans (I am leaving tomorrow); Chinese does not use 在 for that. Say 我明天走 or 我明天要走." }
+    ],
+    "pitfalls": [
+      "✗ 我明天在去北京。 → ✓ 我明天去北京。 在 is only for what is going on now, not for planned events.",
+      "✗ 我每天在喝咖啡。 → ✓ 我每天喝咖啡。 Habits do not take 在.",
+      "✗ 他不在看书，他在睡觉。 → ✓ 他没在看书，他在睡觉。 The negative of the progressive is 没, not 不.",
+      "✗ 我在是学生。 → ✓ 我是学生。 State verbs such as 是, 有 and 知道 are not used in the progressive."
+    ],
+    "relatedPointIds": ["g1-zai-place-verb", "g2-zhe", "g2-yibian", "g2-yao-le"],
+    "keywords": ["zai", "zhengzai", "ne", "在", "正在", "呢", "progressive", "in progress", "continuous"],
+    "status": "draft"
+  },
+  {
+    "id": "aspect-qilai-xiaqu",
+    "title": "起来 and 下去 as aspect markers",
+    "titleHanzi": "起来 / 下去",
+    "category": "aspect",
+    "hskRange": [4, 5],
+    "summary": "After a verb or adjective, 起来 marks the beginning of an action or state; 下去 marks its continuation. They turn direction words into 'start' and 'keep going'.",
+    "pattern": "Verb / Adjective + 起来  ·  Verb + 下去",
+    "rules": [
+      {
+        "rule": "**Verb + 起来 = start to.** It focuses on the moment when an action or reaction begins, often suddenly. The object, if any, goes in the middle: 唱起歌来.",
+        "highlight": "起来",
+        "examples": [
+          { "hanzi": "孩子们突然跑起来。", "pinyin": "Háizimen tūrán pǎo qǐlái.", "english": "The children suddenly began to run." },
+          { "hanzi": "听到这个笑话，大家都笑起来了。", "pinyin": "Tīngdào zhège xiàohua, dàjiā dōu xiào qǐlái le.", "english": "Hearing the joke, everyone began to laugh." },
+          { "hanzi": "他一高兴就唱起歌来。", "pinyin": "Tā yì gāoxìng jiù chàng qǐ gē lái.", "english": "As soon as he is happy he starts singing." }
+        ]
+      },
+      {
+        "rule": "**Adjective + 起来** shows a change that is beginning: the state is developing. It pairs with 了 and with words like 渐渐, 慢慢.",
+        "highlight": "起来",
+        "examples": [
+          { "hanzi": "天气暖和起来了。", "pinyin": "Tiānqì nuǎnhuo qǐlái le.", "english": "The weather is getting warmer." },
+          { "hanzi": "他的脸慢慢红起来。", "pinyin": "Tā de liǎn mànmàn hóng qǐlái.", "english": "His face slowly turned red." }
+        ]
+      },
+      {
+        "rule": "**Verb + 下去 = keep doing.** The action has already been going on and should continue, often after a pause or doubt. It is typical in encouragement.",
+        "highlight": "下去",
+        "examples": [
+          { "hanzi": "请你说下去，我在听。", "pinyin": "Qǐng nǐ shuō xiàqù, wǒ zài tīng.", "english": "Please go on, I am listening." },
+          { "hanzi": "只要坚持学下去，你一定会进步。", "pinyin": "Zhǐyào jiānchí xué xiàqù, nǐ yídìng huì jìnbù.", "english": "As long as you keep studying, you will certainly improve." },
+          { "hanzi": "这样下去不行。", "pinyin": "Zhèyàng xiàqù bù xíng.", "english": "We can't go on like this." }
+        ]
+      },
+      {
+        "rule": "**Adjective + 下去** describes a worsening or decreasing trend (the opposite of 起来 for change). It is used for negative or declining developments.",
+        "highlight": "下去",
+        "examples": [
+          { "hanzi": "天色暗下去了。", "pinyin": "Tiānsè àn xiàqù le.", "english": "The sky is getting darker." },
+          { "hanzi": "再瘦下去就不健康了。", "pinyin": "Zài shòu xiàqù jiù bú jiànkāng le.", "english": "If you get any thinner it won't be healthy." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "开始", "text": "开始 + Verb names the start explicitly and fits any register; 起来 is shorter, more vivid and implies a start that is sudden or natural." },
+      { "vs": "看起来 (evaluative)", "text": "看起来, 听起来 and 吃起来 do not mean 'start': they present an impression ('looks like'). See the HSK 4 lesson on evaluative 起来." }
+    ],
+    "pitfalls": [
+      "✗ 我想起来学中文。 → ✓ 我想开始学中文。 起来 follows a verb to show beginning of an activity; it is not used with planned decisions.",
+      "✗ 他唱歌起来了。 → ✓ 他唱起歌来了。 With an object, 起来 is split around it: Verb + 起 + Object + 来.",
+      "✗ 他会越来越高兴下去。 → ✓ 他会越来越高兴。 Adjective + 下去 is mostly for declining or negative trends, not for pleasant ones.",
+      "✗ 他昨天说下去了两个小时。 → ✓ 他昨天一直说了两个小时。 下去 looks forward to continuation and is not used to count a finished stretch of time."
+    ],
+    "relatedPointIds": ["g4-compound-directional", "g4-qilai-evaluative", "g2-yuelaiyue", "g2-direction-lai-qu"],
+    "keywords": ["qilai", "xiaqu", "起来", "下去", "inchoative", "begin to", "continue", "keep on"],
+    "status": "draft"
+  }
+]

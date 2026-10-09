@@ -1,0 +1,253 @@
+[
+  {
+    "id": "coverbs-position-overview",
+    "title": "Coverbs: why the phrase goes before the verb",
+    "titleHanzi": "给 / 对 / 跟 …",
+    "category": "coverbs",
+    "hskRange": [2, 4],
+    "summary": "A coverb (介词) is a word such as 给, 对 or 跟 that combines with a noun to form a phrase. That phrase sits before the main verb and gives the recipient, target, companion, means or reason of the action.",
+    "pattern": "Subject + Coverb + Noun phrase + Verb (+ Object)  ·  Subject + 不 / 没 + Coverb + Noun phrase + Verb",
+    "rules": [
+      {
+        "rule": "**Coverb phrases come before the verb.** English often puts 'to me' or 'with my friend' after the verb; Chinese puts the coverb phrase in front. The whole phrase is a block that modifies the verb.",
+        "highlight": "给",
+        "examples": [
+          { "hanzi": "我给妈妈打电话。", "pinyin": "Wǒ gěi māma dǎ diànhuà.", "english": "I phone Mom." },
+          { "hanzi": "我对他的想法很感兴趣。", "pinyin": "Wǒ duì tā de xiǎngfǎ hěn gǎn xìngqù.", "english": "I am very interested in his ideas." },
+          { "hanzi": "我跟朋友一起去。", "pinyin": "Wǒ gēn péngyou yìqǐ qù.", "english": "I go with my friends." }
+        ]
+      },
+      {
+        "rule": "**给 can be a main verb or a coverb.** As a verb, 给 means 'give' and is followed by the thing given. As a coverb, 给 means 'to' or 'for' and sits before the action verb.",
+        "highlight": "给",
+        "examples": [
+          { "hanzi": "我给你一个礼物。", "pinyin": "Wǒ gěi nǐ yí ge lǐwù.", "english": "I give you a present." },
+          { "hanzi": "他给我打电话。", "pinyin": "Tā gěi wǒ dǎ diànhuà.", "english": "He calls me." },
+          { "hanzi": "我给妈妈写信。", "pinyin": "Wǒ gěi māma xiě xìn.", "english": "I write a letter to Mom." }
+        ]
+      },
+      {
+        "rule": "**Negation goes before the coverb, not after its object.** 不 or 没 stands in front of the coverb phrase, so the whole phrase is negated.",
+        "highlight": "不",
+        "examples": [
+          { "hanzi": "我不跟他去。", "pinyin": "Wǒ bù gēn tā qù.", "english": "I am not going with him." },
+          { "hanzi": "他不对我说谎。", "pinyin": "Tā bú duì wǒ shuōhuǎng.", "english": "He does not lie to me." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "给 (verb) vs 给 (coverb)", "text": "Verb 给 ('give') takes the thing given as its object. Coverb 给 ('to, for') takes a person and comes before a second verb." },
+      { "vs": "Coverb vs 把 / 被", "text": "把 also sits before the verb, but it marks the object being handled. 被 marks the passive. Other coverbs mark recipient, target, companion or method." }
+    ],
+    "pitfalls": [
+      "✗ 我去北京用火车。 → ✓ 我用火车去北京。 English puts 'by train' after the verb; Chinese puts the coverb phrase 用火车 before the main verb.",
+      "✗ 跟他，我一起吃饭。 → ✓ 我跟他一起吃饭。 The subject comes first when it is the actor; the coverb phrase follows it and then the verb.",
+      "✗ 我给他不写信。 → ✓ 我不给他写信。 The negation 不 goes before the coverb, so the whole phrase is negated."
+    ],
+    "relatedPointIds": ["g1-gen-gei", "g1-zai-place-verb", "g3-ba-sentence", "g3-bei-passive", "g3-dui-vs-gei"],
+    "keywords": ["给", "对", "跟", "coverb", "gei", "dui", "gen", "preposition", "before the verb", "recipient", "companion", "to", "with", "for"],
+    "status": "draft"
+  },
+  {
+    "id": "coverbs-gei-dui-gen",
+    "title": "Coverbs 给, 对, 跟: recipient, target, companion",
+    "titleHanzi": "给 / 对 / 跟",
+    "category": "coverbs",
+    "hskRange": [2, 4],
+    "summary": "These three coverbs mark who receives the action (给), who the attitude or behaviour is directed at (对), and who accompanies or talks with you (跟). They look similar in English 'to' or 'with', but each has its own job.",
+    "pattern": "给 + person + Verb (benefit / recipient)  ·  对 + person / thing + attitude or opinion  ·  跟 + person + Verb (companion or talk)",
+    "rules": [
+      {
+        "rule": "**给 = for or to (recipient or beneficiary).** Use it when something is done or given for someone's benefit or sent to them.",
+        "highlight": "给",
+        "examples": [
+          { "hanzi": "我给你做饭。", "pinyin": "Wǒ gěi nǐ zuò fàn.", "english": "I cook for you." },
+          { "hanzi": "他给老师写了一封信。", "pinyin": "Tā gěi lǎoshī xiě le yì fēng xìn.", "english": "He wrote a letter to the teacher." }
+        ]
+      },
+      {
+        "rule": "**对 = toward, with regard to a person or thing.** It marks the target of an attitude, feeling, opinion or behaviour: how someone treats others, or what they are interested in.",
+        "highlight": "对",
+        "examples": [
+          { "hanzi": "老师对学生很严格。", "pinyin": "Lǎoshī duì xuésheng hěn yángé.", "english": "The teacher is very strict with the students." },
+          { "hanzi": "我对历史很感兴趣。", "pinyin": "Wǒ duì lìshǐ hěn gǎn xìngqù.", "english": "I am very interested in history." },
+          { "hanzi": "他对这件事有不同的看法。", "pinyin": "Tā duì zhè jiàn shì yǒu bù tóng de kànfǎ.", "english": "He has a different view on this matter." }
+        ]
+      },
+      {
+        "rule": "**跟 = with (companion or conversation partner).** It names the person you do something together with, talk to, or argue with.",
+        "highlight": "跟",
+        "examples": [
+          { "hanzi": "他跟我说了一件事。", "pinyin": "Tā gēn wǒ shuō le yí jiàn shì.", "english": "He told me something." },
+          { "hanzi": "我跟他聊天很开心。", "pinyin": "Wǒ gēn tā liáotiān hěn kāixīn.", "english": "I enjoy chatting with him." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "给 vs 对", "text": "给 says who gets something or who benefits; 对 says toward whom an attitude or behaviour is directed. 'Buy a gift for someone' is 给, 'be kind to someone' is 对." },
+      { "vs": "跟 vs 给", "text": "跟 names a companion or a partner in an exchange; 给 names a recipient of a thing or action." }
+    ],
+    "pitfalls": [
+      "✗ 我对你买了礼物。 → ✓ 我给你买了礼物。 'Buy something for someone' takes 给, not 对.",
+      "✗ 他跟老师生气。 → ✓ 他对老师生气。 Anger or any attitude toward someone takes 对.",
+      "✗ 我给音乐很感兴趣。 → ✓ 我对音乐很感兴趣。 Interest in a subject is expressed with 对, not 给."
+    ],
+    "relatedPointIds": ["g1-gen-gei", "g3-dui-vs-gei", "g4-duiyu-guanyu"],
+    "keywords": ["给", "对", "跟", "gei", "dui", "gen", "to", "for", "with", "toward", "recipient", "companion", "attitude"],
+    "status": "draft"
+  },
+  {
+    "id": "coverbs-direction-benefit",
+    "title": "Coverbs 为, 替, 向, 往: benefit, substitute and direction",
+    "titleHanzi": "为 / 替 / 向 / 往",
+    "category": "coverbs",
+    "hskRange": [3, 5],
+    "summary": "为 marks the beneficiary or purpose, 替 marks someone acted for in their place, 向 marks a person or abstract direction (often formal), and 往 marks physical movement toward a place.",
+    "pattern": "为 + beneficiary / cause + Verb  ·  替 + person + Verb (in place of)  ·  向 + person / direction + Verb  ·  往 + direction + Verb",
+    "rules": [
+      {
+        "rule": "**为 = for (benefit, cause or purpose).** It is slightly formal and often appears with work, service or feelings. Use it for 'for the sake of' and 'for someone's benefit'.",
+        "highlight": "为",
+        "examples": [
+          { "hanzi": "他为公司工作了十年。", "pinyin": "Tā wèi gōngsī gōngzuò le shí nián.", "english": "He has worked for the company for ten years." },
+          { "hanzi": "我为你高兴。", "pinyin": "Wǒ wèi nǐ gāoxìng.", "english": "I am happy for you." },
+          { "hanzi": "她为大家准备了午饭。", "pinyin": "Tā wèi dàjiā zhǔnbèi le wǔfàn.", "english": "She prepared lunch for everyone." }
+        ]
+      },
+      {
+        "rule": "**替 = on someone's behalf, in their place.** Use it when one person does something instead of another. The meaning is 'stand in for', not 'benefit'.",
+        "highlight": "替",
+        "examples": [
+          { "hanzi": "你替我去吧。", "pinyin": "Nǐ tì wǒ qù ba.", "english": "You go in my place." },
+          { "hanzi": "他替妈妈做饭。", "pinyin": "Tā tì māma zuò fàn.", "english": "He cooks in Mom's place." },
+          { "hanzi": "我替他签名了。", "pinyin": "Wǒ tì tā qiānmíng le.", "english": "I signed on his behalf." }
+        ]
+      },
+      {
+        "rule": "**向 = toward or from a person, or a formal direction.** It is used for asking, borrowing, learning from someone, and for direction in instructions. It is the formal choice for 'to' and 'from' with people.",
+        "highlight": "向",
+        "examples": [
+          { "hanzi": "请向左转。", "pinyin": "Qǐng xiàng zuǒ zhuǎn.", "english": "Please turn left." },
+          { "hanzi": "他向我借了一本书。", "pinyin": "Tā xiàng wǒ jiè le yì běn shū.", "english": "He borrowed a book from me." },
+          { "hanzi": "我想向老师请教一个问题。", "pinyin": "Wǒ xiǎng xiàng lǎoshī qǐngjiào yí ge wèntí.", "english": "I would like to ask the teacher a question." }
+        ]
+      },
+      {
+        "rule": "**往 = toward a physical direction.** It describes movement along a path or toward a place: walking forward, turning, heading somewhere. Use 往 for physical space, not for asking people.",
+        "highlight": "往",
+        "examples": [
+          { "hanzi": "往前走，然后往右拐。", "pinyin": "Wǎng qián zǒu, ránhòu wǎng yòu guǎi.", "english": "Walk straight ahead, then turn right." },
+          { "hanzi": "他往北京的方向去了。", "pinyin": "Tā wǎng Běijīng de fāngxiàng qù le.", "english": "He went in the direction of Beijing." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "替 vs 为", "text": "替 means 'in place of someone' (a stand-in). 为 means 'for the benefit or sake of' someone or something, without replacing them." },
+      { "vs": "向 vs 往", "text": "往 is concrete physical movement toward a place; 向 is for people (asking, borrowing) and for formal or abstract direction." }
+    ],
+    "pitfalls": [
+      "✗ 我往他借书。 → ✓ 我向他借书。 Borrowing from a person takes 向. 往 is for physical movement toward a place.",
+      "✗ 我替学校工作了十年。 → ✓ 我为学校工作了十年。 替 means 'in place of someone'; 'work for a company' takes 为.",
+      "✗ 我替你很高兴。 → ✓ 我为你高兴。 For feelings and benefits, use 为. 替 is reserved for acting in someone's place."
+    ],
+    "relatedPointIds": ["g3-weile", "g7-yu-preposition", "g7-yi-means-purpose"],
+    "keywords": ["为", "替", "向", "往", "wei", "ti", "xiang", "wang", "for", "on behalf of", "toward", "direction", "borrow"],
+    "status": "draft"
+  },
+  {
+    "id": "coverbs-method-basis",
+    "title": "Coverbs 用, 按, 根据: means, standard and basis",
+    "titleHanzi": "用 / 按 / 根据",
+    "category": "coverbs",
+    "hskRange": [3, 5],
+    "summary": "用 marks the tool or means used, 按 marks the rule, plan or schedule being followed, and 根据 marks the evidence or information something is based on.",
+    "pattern": "用 + tool / means + Verb  ·  按 + standard / plan + Verb  ·  根据 + evidence / information, + conclusion",
+    "rules": [
+      {
+        "rule": "**用 = with (tool or means).** It names what you use to do an action. The tool phrase comes before the verb, as in every coverb phrase.",
+        "highlight": "用",
+        "examples": [
+          { "hanzi": "我用筷子吃饭。", "pinyin": "Wǒ yòng kuàizi chīfàn.", "english": "I eat with chopsticks." },
+          { "hanzi": "他用手机拍照。", "pinyin": "Tā yòng shǒujī pāizhào.", "english": "He takes photos with his phone." },
+          { "hanzi": "我用汽车去上班。", "pinyin": "Wǒ yòng qìchē qù shàngbān.", "english": "I drive my car to work." }
+        ]
+      },
+      {
+        "rule": "**按 = according to a rule, plan or schedule.** Use it when something is done as it was set out, such as instructions, a timetable or a plan. The object is the thing being followed.",
+        "highlight": "按",
+        "examples": [
+          { "hanzi": "请按老师说的做。", "pinyin": "Qǐng àn lǎoshī shuō de zuò.", "english": "Please do it the way the teacher said." },
+          { "hanzi": "我们按计划进行。", "pinyin": "Wǒmen àn jìhuà jìnxíng.", "english": "We will proceed according to plan." }
+        ]
+      },
+      {
+        "rule": "**根据 = based on evidence or information.** Use it when a conclusion or decision comes from facts, reports, data or experience. It is the usual word for 'according to the forecast' or 'in my experience'.",
+        "highlight": "根据",
+        "examples": [
+          { "hanzi": "根据天气预报，明天会下雨。", "pinyin": "Gēnjù tiānqì yùbào, míngtiān huì xiàyǔ.", "english": "According to the weather forecast, it will rain tomorrow." },
+          { "hanzi": "根据我的经验，这样做不好。", "pinyin": "Gēnjù wǒ de jīngyàn, zhèyàng zuò bù hǎo.", "english": "In my experience, doing it this way is not good." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "按 vs 根据", "text": "按 means following a rule, plan or instruction. 根据 means reasoning from information, evidence or experience." },
+      { "vs": "用 vs 拿", "text": "用 marks the means or tool in general. 拿 is the everyday 'take in hand' verb and is used when the object is physically held." }
+    ],
+    "pitfalls": [
+      "✗ 我去上班用汽车。 → ✓ 我用汽车去上班。 English puts 'by car' after the verb; the means phrase 用汽车 goes before the main verb 去.",
+      "✗ 按天气预报，明天会下雨。 → ✓ 根据天气预报，明天会下雨。 A forecast is information, so it takes 根据; 按 is for rules and plans.",
+      "✗ 根据我，他很好。 → ✓ 根据我的看法，他很好。 根据 needs a basis (information or evidence), so add 的看法 or 的经验 after the pronoun."
+    ],
+    "relatedPointIds": ["g7-yi-means-purpose", "g4-you-agent", "g1-zai-place-verb"],
+    "keywords": ["用", "按", "根据", "yong", "an", "genju", "with", "according to", "based on", "means", "basis", "tool"],
+    "status": "draft"
+  },
+  {
+    "id": "coverbs-topic-guanyu",
+    "title": "Coverbs 关于 and 对于: topic and comment",
+    "titleHanzi": "关于 / 对于",
+    "category": "coverbs",
+    "hskRange": [4, 6],
+    "summary": "关于 introduces the topic something is about, as in a book or a discussion. 对于 introduces a comment or judgement about a matter, usually followed by an evaluation after the comma.",
+    "pattern": "关于 + topic, + Verb / comment  ·  对于 + matter, + judgement / opinion  ·  对于 + X + 来说, + comment",
+    "rules": [
+      {
+        "rule": "**关于 = about (the topic of a text, talk or question).** It frames what a book, report or discussion is concerned with, and it is the natural choice for titles and headings.",
+        "highlight": "关于",
+        "examples": [
+          { "hanzi": "这本书关于中国历史。", "pinyin": "Zhè běn shū guānyú Zhōngguó lìshǐ.", "english": "This book is about Chinese history." },
+          { "hanzi": "关于这个问题，我们需要讨论。", "pinyin": "Guānyú zhège wèntí, wǒmen xūyào tǎolùn.", "english": "Regarding this question, we need to discuss it." },
+          { "hanzi": "关于环境保护的报告", "pinyin": "Guānyú huánjìng bǎohù de bàogào.", "english": "A report on environmental protection" }
+        ]
+      },
+      {
+        "rule": "**对于 = as for, regarding (a judgement about a matter).** It introduces the thing being evaluated, and the comment follows after the comma. Use it when you say how you see or feel about something.",
+        "highlight": "对于",
+        "examples": [
+          { "hanzi": "对于这个方案，大家都很满意。", "pinyin": "Duìyú zhège fāng'àn, dàjiā dōu hěn mǎnyì.", "english": "As for this plan, everyone is very satisfied." },
+          { "hanzi": "对于他的说法，我有不同意见。", "pinyin": "Duìyú tā de shuōfǎ, wǒ yǒu bù tóng yìjiàn.", "english": "As for his claim, I have a different opinion." }
+        ]
+      },
+      {
+        "rule": "**对于 … 来说 = for someone or something, … is.** This frame sets the viewpoint and then gives a general judgement. It is common in written argument and explanations.",
+        "highlight": "对于 … 来说",
+        "examples": [
+          { "hanzi": "对于学习汉语来说，多听很重要。", "pinyin": "Duìyú xuéxí Hànyǔ láishuō, duō tīng hěn zhòngyào.", "english": "For learning Chinese, listening a lot is very important." },
+          { "hanzi": "对于年轻人来说，学习外语很有用。", "pinyin": "Duìyú niánqīngrén láishuō, xuéxí wàiyǔ hěn yǒuyòng.", "english": "For young people, learning a foreign language is very useful." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "关于 vs 对于", "text": "关于 names the subject matter (what it is about); 对于 names the thing you are judging and leads to a comment. A book is 关于 something; a plan is 对于 your opinion." },
+      { "vs": "对于 vs 对", "text": "对于 is formal and used for judgements of a matter. 对 is the everyday word for attitudes and feelings toward a person or thing." }
+    ],
+    "pitfalls": [
+      "✗ 我关于中国很感兴趣。 → ✓ 我对中国很感兴趣。 关于 does not express a personal feeling. Use 对 for interest and attitude.",
+      "✗ 对于这本书讲中国历史。 → ✓ 关于这本书，讲的是中国历史。 对于 needs a judgement or comment after the comma; to say what a book is about use 关于.",
+      "✗ 这篇文章对于中国历史。 → ✓ 这篇文章关于中国历史。 A bare topic after 对于 is ungrammatical; the sentence needs a verb such as 讲 or 谈 or a comment."
+    ],
+    "relatedPointIds": ["g4-duiyu-guanyu", "g7-yu-preposition", "g4-suizhe"],
+    "keywords": ["关于", "对于", "guanyu", "duiyu", "about", "regarding", "as for", "topic", "judgement", "formal", "comment"],
+    "status": "draft"
+  }
+]

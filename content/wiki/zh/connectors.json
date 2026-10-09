@@ -1,0 +1,287 @@
+[
+  {
+    "id": "connectors-conditional",
+    "title": "Conditional connectors: 如果, 只要, 只有, 除非",
+    "titleHanzi": "如果 / 只要 / 只有 / 除非",
+    "category": "connectors",
+    "hskRange": [3, 5],
+    "summary": "These words open the condition clause. Each one signals a different kind of condition: a plain 'if', a sufficient condition, the only condition that works, and an exception.",
+    "pattern": "如果 + condition, (就) + result  ·  只要 + condition, 就 + result  ·  只有 + condition, 才 + result  ·  除非 + condition, 才 / 不 + result",
+    "rules": [
+      {
+        "rule": "**如果 is the plain 'if'.** It sets up an open or hypothetical condition. In longer sentences the result clause usually starts with 就 ('then'); in short ones 就 can be left out.",
+        "highlight": "如果",
+        "examples": [
+          { "hanzi": "如果明天下雨，我们就不去公园。", "pinyin": "Rúguǒ míngtiān xiàyǔ, wǒmen jiù bú qù gōngyuán.", "english": "If it rains tomorrow, we will not go to the park." },
+          { "hanzi": "如果你累了，就早点休息。", "pinyin": "Rúguǒ nǐ lèi le, jiù zǎodiǎn xiūxi.", "english": "If you are tired, rest early." },
+          { "hanzi": "如果有问题，可以随时问我。", "pinyin": "Rúguǒ yǒu wèntí, kěyǐ suíshí wèn wǒ.", "english": "If you have questions, you can ask me at any time." }
+        ]
+      },
+      {
+        "rule": "**只要 means 'as long as'.** It says that one condition is enough to bring about the result. Nothing else is needed, so the tone is confident. The result clause takes 就.",
+        "highlight": "只要",
+        "examples": [
+          { "hanzi": "只要你努力，就一定能学好汉语。", "pinyin": "Zhǐyào nǐ nǔlì, jiù yídìng néng xuéhǎo Hànyǔ.", "english": "As long as you work hard, you will definitely be able to learn Chinese well." },
+          { "hanzi": "只要不下雨，我们就去爬山。", "pinyin": "Zhǐyào bú xiàyǔ, wǒmen jiù qù páshān.", "english": "As long as it does not rain, we will go hiking." }
+        ]
+      },
+      {
+        "rule": "**只有 means 'only if'.** The condition is necessary and the only way to the result. Its partner in the result clause is 才 ('only then').",
+        "highlight": "只有",
+        "examples": [
+          { "hanzi": "只有多练习，才能说得流利。", "pinyin": "Zhǐyǒu duō liànxí, cái néng shuō de liúlì.", "english": "Only with more practice can you speak fluently." },
+          { "hanzi": "只有老师同意，你才可以请假。", "pinyin": "Zhǐyǒu lǎoshī tóngyì, nǐ cái kěyǐ qǐngjià.", "english": "Only if the teacher agrees can you ask for leave." }
+        ]
+      },
+      {
+        "rule": "**除非 = unless, the one exception.** It names the only condition under which the result changes. The main clause is usually negative (不会, 不能) or uses 才 for 'only then'.",
+        "highlight": "除非",
+        "examples": [
+          { "hanzi": "除非你道歉，他不会原谅你。", "pinyin": "Chúfēi nǐ dàoqiàn, tā bú huì yuánliàng nǐ.", "english": "Unless you apologize, he will not forgive you." },
+          { "hanzi": "除非天气变好，我们才出去。", "pinyin": "Chúfēi tiānqì biànhǎo, wǒmen cái chūqu.", "english": "We will go out only if the weather improves." },
+          { "hanzi": "没有别的办法，除非你自己去。", "pinyin": "Méiyǒu biéde bànfǎ, chúfēi nǐ zìjǐ qù.", "english": "There is no other way, except for you going yourself." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "如果 vs 只要", "text": "如果 is a neutral 'if'. 只要 says the condition is enough on its own, so it sounds stronger and more certain." },
+      { "vs": "只要 vs 只有", "text": "只要 gives a sufficient condition (any one of them works); 只有 gives the necessary condition (nothing else works), and it normally pairs with 才." }
+    ],
+    "pitfalls": [
+      "✗ 只有你努力，就能成功。 → ✓ 只要你努力，就能成功。 Use 只要 for 'as long as'. 只有 means that this is the only route, so it needs 才 in the result.",
+      "✗ 除非你不来，我就去。 → ✓ 除非你来，我才去。 Do not put a negative in the 除非 clause just because 'unless' is negative in English; the condition itself is positive.",
+      "✗ 只要明天下雨了，我们不去。 → ✓ 如果明天下雨，我们不去。 For a plain hypothetical use 如果; 只要 suggests that this single condition decides the outcome."
+    ],
+    "relatedPointIds": ["g3-ruguo-jiu", "g3-zhiyao-jiu", "g5-chufei", "g5-yidan-jiu", "g5-jiaru-yaobushi", "g4-fouze"],
+    "keywords": ["如果", "只要", "只有", "除非", "ruguo", "zhiyao", "zhiyou", "chufei", "if", "as long as", "only if", "unless", "conditional"],
+    "status": "draft"
+  },
+  {
+    "id": "connectors-concessive",
+    "title": "Concessive connectors: 虽然, 即使, 尽管, 无论",
+    "titleHanzi": "虽然 / 即使 / 尽管 / 无论",
+    "category": "connectors",
+    "hskRange": [2, 5],
+    "summary": "Concessive connectors admit a point and then say that the result still holds. 虽然 and 尽管 deal with facts, 即使 with hypotheticals, and 无论 with a whole range of cases.",
+    "pattern": "虽然 + fact, 但是 + result  ·  即使 + hypothesis, 也 + result  ·  尽管 + fact, 还是 + result  ·  无论 / 不管 + variable, 都 + result",
+    "rules": [
+      {
+        "rule": "**虽然 … 但是 (可是) = although … but.** It states a real fact and then contrasts it with the result. Either half can be used alone in short speech, but the pair is standard in writing.",
+        "highlight": "虽然",
+        "examples": [
+          { "hanzi": "虽然天气很冷，但是我们还是去了公园。", "pinyin": "Suīrán tiānqì hěn lěng, dànshì wǒmen háishi qù le gōngyuán.", "english": "Although the weather was very cold, we still went to the park." },
+          { "hanzi": "虽然他年纪小，但是很懂事。", "pinyin": "Suīrán tā niánjì xiǎo, dànshì hěn dǒngshì.", "english": "Although he is young, he is very sensible." },
+          { "hanzi": "虽然我很忙，可是我每天都学习汉语。", "pinyin": "Suīrán wǒ hěn máng, kěshì wǒ měi tiān dōu xuéxí Hànyǔ.", "english": "Although I am very busy, I study Chinese every day." }
+        ]
+      },
+      {
+        "rule": "**即使 … 也 = even if.** It takes a hypothetical or extreme case and says the result still holds. The main clause usually has 也 or 还是; the situation is not a known fact.",
+        "highlight": "即使",
+        "examples": [
+          { "hanzi": "即使下大雨，我也要去上班。", "pinyin": "Jíshǐ xià dàyǔ, wǒ yě yào qù shàngbān.", "english": "Even if it rains heavily, I still have to go to work." },
+          { "hanzi": "即使你不同意，我也会坚持。", "pinyin": "Jíshǐ nǐ bù tóngyì, wǒ yě huì jiānchí.", "english": "Even if you disagree, I will still stick to it." }
+        ]
+      },
+      {
+        "rule": "**尽管 … 还是 / 仍然 = despite.** The difficulty is a known fact, and the result happens anyway. It sounds more emphatic and formal than 虽然, and the main clause often uses 还是 or 仍然.",
+        "highlight": "尽管",
+        "examples": [
+          { "hanzi": "尽管很贵，他还是买了那辆车。", "pinyin": "Jǐnguǎn hěn guì, tā háishi mǎi le nà liàng chē.", "english": "Despite the high price, he still bought that car." },
+          { "hanzi": "尽管困难很多，我们仍然坚持下来了。", "pinyin": "Jǐnguǎn kùnnan hěn duō, wǒmen réngrán jiānchí xiàlai le.", "english": "Despite many difficulties, we still kept going." }
+        ]
+      },
+      {
+        "rule": "**无论 / 不管 … 都 = no matter what.** The first half has a variable: a question word (谁, 什么), a 'whether or not' pair, or an 'A or B' pair. The second half says that the result is the same in every case.",
+        "highlight": "无论",
+        "examples": [
+          { "hanzi": "无论刮风还是下雨，他都骑自行车上班。", "pinyin": "Wúlùn guāfēng háishi xiàyǔ, tā dōu qí zìxíngchē shàngbān.", "english": "Whether it is windy or rainy, he rides his bike to work." },
+          { "hanzi": "不管谁来，我们都欢迎。", "pinyin": "Bùguǎn shéi lái, wǒmen dōu huānyíng.", "english": "No matter who comes, we welcome them." },
+          { "hanzi": "无论什么问题，他都能解决。", "pinyin": "Wúlùn shénme wèntí, tā dōu néng jiějué.", "english": "Whatever the problem, he can solve it." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "虽然 vs 即使", "text": "虽然 takes a fact that is true (he is old); 即使 takes a hypothesis (even if he were old). Choose by whether the condition is real." },
+      { "vs": "虽然 vs 尽管", "text": "The two are close in meaning. 尽管 is more emphatic and often pairs with 还是 or 仍然 in the main clause."},
+      { "vs": "无论 vs 即使", "text": "无论 covers every case in a set (who, what, whether); 即使 picks one extreme case and says the result still holds there."}
+    ],
+    "pitfalls": [
+      "✗ 虽然下雨，所以我们不去。 → ✓ 因为下雨，所以我们不去。 虽然 introduces a concession (despite), not a cause; 所以 is a causal word and does not fit here.",
+      "✗ 即使他年纪大，他很健康。 → ✓ 虽然他年纪大，但是很健康。 即使 is for hypotheticals. When the fact is already known (he is old), use 虽然.",
+      "✗ 无论他来，我们都高兴。 → ✓ 无论他来不来，我们都高兴。 无论 needs a variable: a question word, a 'whether or not' pair or an 'A or B' pair. A single fixed condition does not work."
+    ],
+    "relatedPointIds": ["g2-suiran-danshi", "g4-wulun-buguan", "g4-jishi-ye", "g4-jinguan-haishi", "g6-guran", "g7-zongran-jibian"],
+    "keywords": ["虽然", "即使", "尽管", "无论", "不管", "suiran", "jishi", "jinguan", "wulun", "although", "even if", "despite", "no matter", "concessive"],
+    "status": "draft"
+  },
+  {
+    "id": "connectors-causal",
+    "title": "Causal connectors: 因为, 由于, 既然",
+    "titleHanzi": "因为 / 由于 / 既然",
+    "category": "connectors",
+    "hskRange": [2, 5],
+    "summary": "These words give a reason. 因为 states a plain cause, 由于 does the same in formal writing, and 既然 uses a reason that both sides already accept as true.",
+    "pattern": "因为 + cause, (所以) + result  ·  由于 + cause (written), + result  ·  既然 + known fact, 就 + conclusion",
+    "rules": [
+      {
+        "rule": "**因为 … 所以 = because … so.** This is the everyday cause-and-result pair. Either half can be left out: 因为 alone is the natural answer to 为什么, and 所以 alone works when the cause is already clear.",
+        "highlight": "因为",
+        "examples": [
+          { "hanzi": "因为下雨，所以我们没去公园。", "pinyin": "Yīnwèi xiàyǔ, suǒyǐ wǒmen méi qù gōngyuán.", "english": "Because it rained, we did not go to the park." },
+          { "hanzi": "我迟到了，因为公交车坏了。", "pinyin": "Wǒ chídào le, yīnwèi gōngjiāochē huài le.", "english": "I was late because the bus broke down." },
+          { "hanzi": "因为他生病，所以没来上课。", "pinyin": "Yīnwèi tā shēngbìng, suǒyǐ méi lái shàngkè.", "english": "Because he was ill, he did not come to class." }
+        ]
+      },
+      {
+        "rule": "**因为 in a short answer.** To answer 为什么, say 因为 and then the reason. It works without 所以 and is the normal form in speech.",
+        "highlight": "因为",
+        "examples": [
+          { "hanzi": "你为什么不吃饭？因为我不饿。", "pinyin": "Nǐ wèishénme bù chī fàn? Yīnwèi wǒ bú è.", "english": "Why are you not eating? Because I am not hungry." },
+          { "hanzi": "你为什么学汉语？因为我喜欢中国文化。", "pinyin": "Nǐ wèishénme xué Hànyǔ? Yīnwèi wǒ xǐhuan Zhōngguó wénhuà.", "english": "Why are you learning Chinese? Because I like Chinese culture." }
+        ]
+      },
+      {
+        "rule": "**由于 = due to.** It is a formal, written cause word and is usually followed by a noun phrase or a clause describing the cause. It sounds official, so it appears in reports and announcements.",
+        "highlight": "由于",
+        "examples": [
+          { "hanzi": "由于天气原因，航班取消了。", "pinyin": "Yóuyú tiānqì yuányīn, hángbān qǔxiāo le.", "english": "Due to the weather, the flight was cancelled." },
+          { "hanzi": "由于工作需要，他经常出差。", "pinyin": "Yóuyú gōngzuò xūyào, tā jīngcháng chūchāi.", "english": "Because of work requirements, he often travels on business." }
+        ]
+      },
+      {
+        "rule": "**既然 … 就 = since (as things are).** The cause is something both speakers already accept, and the conclusion follows from it. It is used to draw a decision or a suggestion from a known fact, not to give a new reason.",
+        "highlight": "既然",
+        "examples": [
+          { "hanzi": "既然你已经决定了，我们就支持你。", "pinyin": "Jìrán nǐ yǐjīng juédìng le, wǒmen jiù zhīchí nǐ.", "english": "Since you have already decided, we will support you." },
+          { "hanzi": "既然大家都同意，那就这样定吧。", "pinyin": "Jìrán dàjiā dōu tóngyì, nà jiù zhèyàng dìng ba.", "english": "Since everyone agrees, let's settle it like this." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "因为 vs 由于", "text": "Same meaning. 由于 is formal and written and often sits at the start of a sentence; 因为 is the everyday word." },
+      { "vs": "因为 vs 既然", "text": "因为 introduces a new reason the listener may not know. 既然 presents a reason that is already shared, and the result is a conclusion or suggestion." }
+    ],
+    "pitfalls": [
+      "✗ 因为很累，但是他还是去了。 → ✓ 虽然很累，但是他还是去了。 因为 gives a cause (the result follows from it); 虽然 gives a concession (the result is unexpected). Mixing them changes the logic.",
+      "✗ 由于我生病，我请假了。 → ✓ 因为我生病，我请假了。 由于 is formal and written; in everyday speech 因为 is the natural choice.",
+      "✗ 既然我不知道，你告诉我。 → ✓ 因为我不知道，你告诉我。 既然 needs a fact that both sides already accept. If you are only giving a new reason, use 因为."
+    ],
+    "relatedPointIds": ["g6-zhisuoyi", "g6-youci-kejian", "g3-weile", "g5-yizhiyu"],
+    "keywords": ["因为", "由于", "既然", "yinwei", "youyu", "jiran", "because", "due to", "since", "causal", "reason"],
+    "status": "draft"
+  }
+,
+  {
+    "id": "connectors-contrast-progressive",
+    "title": "Contrast and addition: 但是, 然而, 不过, 不但 … 而且, 甚至",
+    "titleHanzi": "但是 / 然而 / 不过 / 不但 … 而且 / 甚至",
+    "category": "connectors",
+    "hskRange": [2, 5],
+    "summary": "This group covers the 'but' words, the 'not only … but also' pair for adding a stronger point, and 甚至 for the extreme case that is 'even'.",
+    "pattern": "A, 但是 / 不过 / 然而 B  ·  不但 A, 而且 B  ·  甚至 + extreme case",
+    "rules": [
+      {
+        "rule": "**但是 / 可是 / 不过 = but.** 但是 is the neutral word. 不过 is softer and often follows a compliment ('it is good, but …'). Use only one contrast word per contrast.",
+        "highlight": "但是",
+        "examples": [
+          { "hanzi": "这个饭馆很好，但是有点贵。", "pinyin": "Zhège fànguǎn hěn hǎo, dànshì yǒudiǎn guì.", "english": "This restaurant is very good, but it is a bit expensive." },
+          { "hanzi": "他想去，可是没有时间。", "pinyin": "Tā xiǎng qù, kěshì méiyǒu shíjiān.", "english": "He wants to go, but he has no time." },
+          { "hanzi": "这件衣服不错，不过太大了。", "pinyin": "Zhè jiàn yīfu búcuò, búguò tài dà le.", "english": "This piece of clothing is nice, but it is too big." }
+        ]
+      },
+      {
+        "rule": "**然而 = however.** It is a written, formal word. It usually starts a new sentence (after a full stop) and is followed by a comma, so it reads as a turn in the argument.",
+        "highlight": "然而",
+        "examples": [
+          { "hanzi": "他很努力。然而，成绩并不理想。", "pinyin": "Tā hěn nǔlì. Rán'ér, chéngjì bìng bù lǐxiǎng.", "english": "He worked hard. However, his results were not ideal." },
+          { "hanzi": "计划很好。然而，执行起来很难。", "pinyin": "Jìhuà hěn hǎo. Rán'ér, zhíxíng qǐlai hěn nán.", "english": "The plan is good. However, carrying it out is very hard." }
+        ]
+      },
+      {
+        "rule": "**不但 … 而且 = not only … but also.** The second half adds a stronger or additional point. 不但 comes first and 而且 must follow to complete the pattern; 也 can replace 而且 in some sentences.",
+        "highlight": "不但",
+        "examples": [
+          { "hanzi": "她不但会说汉语，而且会写汉字。", "pinyin": "Tā búdàn huì shuō Hànyǔ, érqiě huì xiě Hànzì.", "english": "She not only speaks Chinese, but also writes Chinese characters." },
+          { "hanzi": "这家店不但便宜，而且东西很好。", "pinyin": "Zhè jiā diàn búdàn piányi, érqiě dōngxi hěn hǎo.", "english": "This shop is not only cheap, but the goods are also very good." },
+          { "hanzi": "他不但迟到了，而且没有道歉。", "pinyin": "Tā búdàn chídào le, érqiě méiyǒu dàoqiàn.", "english": "Not only was he late, but he also did not apologize." }
+        ]
+      },
+      {
+        "rule": "**甚至 = even (the extreme case).** It picks the most surprising example to show how strong a point is. It is different from 而且, which only adds another fact.",
+        "highlight": "甚至",
+        "examples": [
+          { "hanzi": "他忙得甚至没有时间吃饭。", "pinyin": "Tā máng de shènzhì méiyǒu shíjiān chīfàn.", "english": "He is so busy that he does not even have time to eat." },
+          { "hanzi": "这个问题很简单，甚至小孩子都会。", "pinyin": "Zhège wèntí hěn jiǎndān, shènzhì xiǎoháizi dōu huì.", "english": "This question is so simple that even children can do it." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "但是 vs 然而", "text": "但是 joins two clauses in ordinary speech; 然而 is written and usually begins a new sentence, adding a note of reflection." },
+      { "vs": "而且 vs 甚至", "text": "而且 adds a second, equally important fact. 甚至 picks the extreme example, the one that makes the point surprising." }
+    ],
+    "pitfalls": [
+      "✗ 这个很好，但是不过太贵了。 → ✓ 这个很好，不过太贵了。 Do not stack contrast words: use one of 但是, 不过 or 然而 for each contrast.",
+      "✗ 他很聪明，甚至他很努力。 → ✓ 他很聪明，而且很努力。 甚至 marks an extreme case, not a simple addition. When you are only adding a second fact, use 而且.",
+      "✗ 他很聪明，不但很努力。 → ✓ 他不但很聪明，而且很努力。 不但 needs its partner 而且 (or 也) later in the sentence; on its own it leaves the sentence unfinished."
+    ],
+    "relatedPointIds": ["g3-budan-erqie", "g4-shenzhi", "g4-que", "g6-er-connector", "g7-chengran-raner", "g7-feidan-faner"],
+    "keywords": ["但是", "然而", "不过", "不但", "而且", "甚至", "danshi", "ran'er", "buguo", "budan", "erqie", "shenzhi", "but", "however", "not only", "even", "contrast", "addition"],
+    "status": "draft"
+  },
+  {
+    "id": "connectors-choice-sequence-otherwise",
+    "title": "Choice, sequence and 'otherwise': 或者, 还是, 先 … 然后, 否则",
+    "titleHanzi": "或者 / 还是 / 先…然后 / 否则",
+    "category": "connectors",
+    "hskRange": [2, 4],
+    "summary": "These connectors offer options, order actions, and warn about consequences. The main split is that 或者 is for statements and 还是 for questions.",
+    "pattern": "A 或者 B（statement）  ·  A 还是 B？（question）  ·  先 A，然后 B  ·  A，否则 / 要不然 + consequence",
+    "rules": [
+      {
+        "rule": "**或者 = or, in statements.** It offers alternatives in a declarative sentence, often about plans or possibilities.",
+        "highlight": "或者",
+        "examples": [
+          { "hanzi": "周末我们可以去爬山，或者在家休息。", "pinyin": "Zhōumò wǒmen kěyǐ qù páshān, huòzhě zài jiā xiūxi.", "english": "On the weekend we can go hiking, or rest at home." },
+          { "hanzi": "我们可以坐火车，或者开车去。", "pinyin": "Wǒmen kěyǐ zuò huǒchē, huòzhě kāichē qù.", "english": "We can go by train, or drive there." }
+        ]
+      },
+      {
+        "rule": "**还是 = or, in questions.** When you ask someone to choose between two options, use 还是. 或者 in the same question sounds less natural.",
+        "highlight": "还是",
+        "examples": [
+          { "hanzi": "你明天来还是后天来？", "pinyin": "Nǐ míngtiān lái háishi hòutiān lái?", "english": "Are you coming tomorrow or the day after?" },
+          { "hanzi": "我们坐地铁还是打车？", "pinyin": "Wǒmen zuò dìtiě háishi dǎchē?", "english": "Shall we take the subway or a taxi?" }
+        ]
+      },
+      {
+        "rule": "**先 … 然后 = first … then.** 先 marks the first step, and 然后 the next one. Use them to show a clear order in which things happen.",
+        "highlight": "先",
+        "examples": [
+          { "hanzi": "我们先吃饭，然后去看电影。", "pinyin": "Wǒmen xiān chīfàn, ránhòu qù kàn diànyǐng.", "english": "We will eat first, and then go to see a film." },
+          { "hanzi": "先写作业，然后再玩儿。", "pinyin": "Xiān xiě zuòyè, ránhòu zài wánr.", "english": "Do your homework first, and then play." }
+        ]
+      },
+      {
+        "rule": "**否则 / 要不然 = otherwise, or else.** The second clause states the consequence if the first clause is not done. 否则 is written; 要不然 is the more colloquial word with the same meaning.",
+        "highlight": "否则",
+        "examples": [
+          { "hanzi": "你应该快点，否则会迟到。", "pinyin": "Nǐ yīnggāi kuàidiǎn, fǒuzé huì chídào.", "english": "You should hurry, otherwise you will be late." },
+          { "hanzi": "要赶紧走，要不然赶不上火车了。", "pinyin": "Yào gǎnjǐn zǒu, yàobùrán gǎn bu shàng huǒchē le.", "english": "We must leave quickly, otherwise we will miss the train." },
+          { "hanzi": "多穿衣服，要不然会感冒。", "pinyin": "Duō chuān yīfu, yàobùrán huì gǎnmào.", "english": "Wear more clothes, otherwise you will catch a cold." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "或者 vs 还是", "text": "或者 is for statements that offer alternatives; 还是 is for questions that ask the listener to choose." },
+      { "vs": "否则 vs 要不然", "text": "Same meaning. 否则 is formal and written; 要不然 is everyday speech." }
+    ],
+    "pitfalls": [
+      "✗ 你来或者不来？ → ✓ 你来还是不来？ In a question about a choice, use 还是 (or the A-not-A form), not 或者.",
+      "✗ 我吃饭以后，然后去。 → ✓ 我先吃饭，然后去。 Use 先 or 以后 with 然后, not both, when you mark the order.",
+      "✗ 快点，否则你迟到了。 → ✓ 快点，否则你会迟到。 否则 introduces a possible future consequence, so the result usually takes 会 or 就要."
+    ],
+    "relatedPointIds": ["g2-haishi-huozhe", "g3-xian-ranhou", "g4-fouze", "g4-yuqi-buru"],
+    "keywords": ["或者", "还是", "先", "然后", "否则", "要不然", "huozhe", "haishi", "xian", "ranhou", "fouze", "or", "first then", "otherwise", "choice", "sequence"],
+    "status": "draft"
+  }
+]

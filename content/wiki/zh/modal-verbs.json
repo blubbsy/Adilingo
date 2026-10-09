@@ -1,0 +1,284 @@
+[
+  {
+    "id": "modal-hui-neng-keyi",
+    "title": "Ability and permission: 会, 能, 可以",
+    "titleHanzi": "会 / 能 / 可以",
+    "category": "modal-verbs",
+    "hskRange": [1, 3],
+    "summary": "All three can translate as 'can'. 会 is a learned skill or a probability, 能 is physical or situational capacity, and 可以 is permission or possibility.",
+    "pattern": "Subject + 会 / 能 / 可以 + Verb",
+    "rules": [
+      {
+        "rule": "**会 = know how to.** It describes a skill that was learned, such as languages, swimming or cooking. It also predicts what will probably happen: 会下雨.",
+        "highlight": "会",
+        "examples": [
+          { "hanzi": "我会说一点儿汉语。", "pinyin": "Wǒ huì shuō yìdiǎnr Hànyǔ.", "english": "I can speak a little Chinese." },
+          { "hanzi": "他会游泳，但是游得不快。", "pinyin": "Tā huì yóuyǒng, dànshì yóu de bú kuài.", "english": "He can swim, but not fast." },
+          { "hanzi": "明天可能会下雨。", "pinyin": "Míngtiān kěnéng huì xià yǔ.", "english": "It may rain tomorrow." }
+        ]
+      },
+      {
+        "rule": "**能 = be able to (in the circumstances).** The ability depends on health, time, rules or conditions at the moment. It is the normal word for quantities and limits.",
+        "highlight": "能",
+        "examples": [
+          { "hanzi": "我感冒了，今天不能去上班。", "pinyin": "Wǒ gǎnmào le, jīntiān bù néng qù shàngbān.", "english": "I have a cold and cannot go to work today." },
+          { "hanzi": "他一分钟能打两百个字。", "pinyin": "Tā yì fēnzhōng néng dǎ liǎng bǎi gè zì.", "english": "He can type two hundred characters in a minute." }
+        ]
+      },
+      {
+        "rule": "**可以 = be allowed / it is possible.** It asks and gives permission. The question is 可以…吗 or 可不可以; the refusal is 不可以 or the softer 不能.",
+        "highlight": "可以",
+        "examples": [
+          { "hanzi": "这里可以停车吗？", "pinyin": "Zhèlǐ kěyǐ tíngchē ma?", "english": "May I park here?" },
+          { "hanzi": "你可以用我的手机。", "pinyin": "Nǐ kěyǐ yòng wǒ de shǒujī.", "english": "You may use my phone." }
+        ]
+      },
+      {
+        "rule": "**Overlap:** 能 and 可以 are interchangeable for permission and for general possibility. Use **会** when you are talking about a skill and **能** when an outside condition decides. In a recovered ability, use 能: 病好了，我又能跑步了.",
+        "highlight": "能",
+        "examples": [
+          { "hanzi": "你能不能小声一点儿？", "pinyin": "Nǐ néng bu néng xiǎoshēng yìdiǎnr?", "english": "Could you keep your voice down a bit?" },
+          { "hanzi": "他的腿好了，又能跑步了。", "pinyin": "Tā de tuǐ hǎo le, yòu néng pǎobù le.", "english": "His leg has healed and he can run again." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "English 'can'", "text": "English 'I can swim' is 我会游泳 (skill), 'I can swim today' (healthy enough) is 我今天能游泳. English has one word where Chinese distinguishes three sources of ability." },
+      { "vs": "Potential complements", "text": "看得懂 / 听不见 express result-based ability. Use them instead of 能 + 懂 when the question is whether the result is reachable." }
+    ],
+    "pitfalls": [
+      "✗ 我能说汉语。 (meant: I know Chinese) → ✓ 我会说汉语。 Learned skills use 会.",
+      "✗ 这里不会抽烟。 (meant: smoking is not allowed here) → ✓ 这里不能抽烟。 Prohibitions use 不能 / 不可以.",
+      "✗ 我会不会去。 (meant: can I come?) → ✓ 我可以去吗？ Asking permission calls for 可以.",
+      "✗ 我可以不会游泳。 → ✓ 我不会游泳。 Negate the modal itself, not the main verb."
+    ],
+    "relatedPointIds": ["g1-neng-keyi", "g3-potential-complements", "g1-bie", "g3-question-word-indefinite"],
+    "keywords": ["hui", "neng", "keyi", "会", "能", "可以", "can", "ability", "permission", "modal verbs"],
+    "status": "draft"
+  },
+  {
+    "id": "modal-yao-xiang-de",
+    "title": "Wanting and having to: 要, 想, 得, 需要",
+    "titleHanzi": "要 / 想 / 得 / 需要",
+    "category": "modal-verbs",
+    "hskRange": [1, 4],
+    "summary": "想 is a wish, 要 is a firm plan or demand, and 得 (děi) or 需要 is an obligation. The negatives differ: 不想 'don't want', 不用 'needn't', 不要 'don't (or don't want)'.",
+    "pattern": "Subject + 想 / 要 / 得 / 需要 + Verb",
+    "rules": [
+      {
+        "rule": "**想 + Verb** means 'would like to / feel like'. It is gentle and does not commit the speaker. With a noun object it means 'to miss' (想家).",
+        "highlight": "想",
+        "examples": [
+          { "hanzi": "我想喝一杯热茶。", "pinyin": "Wǒ xiǎng hē yì bēi rè chá.", "english": "I'd like a cup of hot tea." },
+          { "hanzi": "他想学开车。", "pinyin": "Tā xiǎng xué kāichē.", "english": "He wants to learn to drive." }
+        ]
+      },
+      {
+        "rule": "**要 + Verb** means 'want to / will / have decided to'. It sounds more determined than 想 and is also the future marker. The negative is 不想 (not 不要, which means 'don't').",
+        "highlight": "要",
+        "examples": [
+          { "hanzi": "我要去北京工作。", "pinyin": "Wǒ yào qù Běijīng gōngzuò.", "english": "I am going to work in Beijing." },
+          { "hanzi": "我不想去，你去吧。", "pinyin": "Wǒ bù xiǎng qù, nǐ qù ba.", "english": "I don't want to go; you go." }
+        ]
+      },
+      {
+        "rule": "**得 (děi) + Verb** is the everyday 'have to'. It is spoken and strong; the negative is 不用 or 不必, never 不得 (which is formal for 'must not').",
+        "highlight": "得",
+        "examples": [
+          { "hanzi": "时间不早了，我得走了。", "pinyin": "Shíjiān bù zǎo le, wǒ děi zǒu le.", "english": "It's late, I have to go." },
+          { "hanzi": "你明天不用来。", "pinyin": "Nǐ míngtiān búyòng lái.", "english": "You don't need to come tomorrow." }
+        ]
+      },
+      {
+        "rule": "**需要 + Verb / Noun** says that something is needed: more formal and objective than 得, and also possible with nouns. 必须 is the next stage (see the lesson on 应该 and 必须).",
+        "highlight": "需要",
+        "examples": [
+          { "hanzi": "你需要多休息。", "pinyin": "Nǐ xūyào duō xiūxi.", "english": "You need to rest more." },
+          { "hanzi": "这个工作需要经验。", "pinyin": "Zhège gōngzuò xūyào jīngyàn.", "english": "This job requires experience." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "想 vs 要", "text": "想吃 'I feel like eating'; 要吃 'I will eat, I want to eat'. In a restaurant 我要 is the normal way to order, 我想 sounds like a polite suggestion." },
+      { "vs": "要 as 'will'", "text": "要 + time can predict: 明天要下雨 (it is going to rain). With 了, 要…了 means 'about to'." }
+    ],
+    "pitfalls": [
+      "✗ 我不要去。 (meant: I don't want to go) → ✓ 我不想去。 不要 as a command means 'don't'; for a refusal use 不想.",
+      "✗ 我得不去。 → ✓ 我不用去。 or 我不得不去。 得 is not negated with 不 after it.",
+      "✗ 我想要去北京。 → ✓ 我想去北京。 Only use 想要 with nouns (我想要一杯水) or for emphasis, not before a plain verb.",
+      "✗ 我需要去吃饭。 → ✓ 我得去吃饭。 In speech 需要 sounds too formal for ordinary chores."
+    ],
+    "relatedPointIds": ["g2-yao-le", "g1-bie", "g6-budebu-budeyi", "g6-hendebu-badebu"],
+    "keywords": ["yao", "xiang", "dei", "xuyao", "要", "想", "得", "需要", "want", "have to", "must", "modal verbs"],
+    "status": "draft"
+  },
+  {
+    "id": "modal-yinggai-bixu",
+    "title": "Advice and obligation: 应该, 该, 必须, 一定要",
+    "titleHanzi": "应该 / 必须 / 一定要",
+    "category": "modal-verbs",
+    "hskRange": [2, 5],
+    "summary": "应该 gives advice or a reasonable expectation. 必须 states a strong obligation. 一定要 insists; 别 and 不必 are the ways to say it is not required.",
+    "pattern": "Subject + 应该 / 该 / 必须 / 一定要 / 务必 + Verb",
+    "rules": [
+      {
+        "rule": "**应该 / 该** = should, ought to. It gives advice or morally right behaviour. It can also express an expectation about what is probably true.",
+        "highlight": "应该",
+        "examples": [
+          { "hanzi": "你应该多运动。", "pinyin": "Nǐ yīnggāi duō yùndòng.", "english": "You should exercise more." },
+          { "hanzi": "他八点出发，现在应该到了。", "pinyin": "Tā bā diǎn chūfā, xiànzài yīnggāi dào le.", "english": "He left at eight, he should have arrived by now." },
+          { "hanzi": "孩子该睡觉了。", "pinyin": "Háizi gāi shuìjiào le.", "english": "It's time for the child to go to bed." }
+        ]
+      },
+      {
+        "rule": "**必须** = must. It states a requirement from rules, logic or the situation. The negative is **不必 / 不用** ('need not'), not 不必须; a prohibition is **不能 / 不许**.",
+        "highlight": "必须",
+        "examples": [
+          { "hanzi": "坐飞机必须带护照。", "pinyin": "Zuò fēijī bìxū dài hùzhào.", "english": "You must bring your passport when flying." },
+          { "hanzi": "你不必现在回答我。", "pinyin": "Nǐ búbì xiànzài huídá wǒ.", "english": "You don't have to answer me now." }
+        ]
+      },
+      {
+        "rule": "**一定要 / 务必** adds insistence from the speaker: 'make sure to'. 一定 alone can be a prediction ('surely'), 一定要 an order or a determination.",
+        "highlight": "一定要",
+        "examples": [
+          { "hanzi": "明天你一定要准时来。", "pinyin": "Míngtiān nǐ yídìng yào zhǔnshí lái.", "english": "Be sure to come on time tomorrow." },
+          { "hanzi": "我一定要学好汉语。", "pinyin": "Wǒ yídìng yào xuéhǎo Hànyǔ.", "english": "I am determined to learn Chinese well." }
+        ]
+      },
+      {
+        "rule": "**Softeners:** 最好 'had better', 得 for everyday must, 不得 / 不得不 in formal rules. 应该 can be strengthened by 完全 or softened by 可能.",
+        "highlight": "最好",
+        "examples": [
+          { "hanzi": "你最好带一把伞。", "pinyin": "Nǐ zuìhǎo dài yì bǎ sǎn.", "english": "You had better take an umbrella." },
+          { "hanzi": "未经允许，不得入内。", "pinyin": "Wèi jīng yǔnxǔ, bùdé rùnèi.", "english": "No entry without permission." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "应该 vs 必须", "text": "不应该 means you should not (it is wrong), 不必须 does not exist. 必须 has no direct negative: use 不用 for 'not necessary' and 不能 for 'forbidden'." },
+      { "vs": "得 vs 必须", "text": "得 is conversational; 必须 appears in rules, instructions and formal speech." }
+    ],
+    "pitfalls": [
+      "✗ 你不必须来。 → ✓ 你不必来。 or 你不用来。 必须 cannot be negated directly.",
+      "✗ 你应该去了。 (meant: you should go) → ✓ 你应该去。 Advice does not take 了; 你应该去了 would say that he should already have gone.",
+      "✗ 你必须应该来。 → ✓ 你必须来。 One modal is enough.",
+      "✗ 一定你来。 → ✓ 你一定要来。 一定 is placed before the verb or modal, after the subject."
+    ],
+    "relatedPointIds": ["g6-budebu-budeyi", "g5-fei-buke", "g1-bie", "g1-neng-keyi"],
+    "keywords": ["yinggai", "bixu", "yiding yao", "应该", "该", "必须", "一定要", "务必", "should", "must", "obligation", "advice"],
+    "status": "draft"
+  },
+  {
+    "id": "modal-gan-ken-yuanyi",
+    "title": "Willingness and nerve: 敢, 肯, 愿意",
+    "titleHanzi": "敢 / 肯 / 愿意",
+    "category": "modal-verbs",
+    "hskRange": [3, 6],
+    "summary": "These verbs describe the speaker's attitude toward doing something: dare to (敢), be willing to (肯, 愿意) and be glad to (乐意). Their negatives are common in everyday complaints.",
+    "pattern": "Subject + 敢 / 肯 / 愿意 / 乐意 / 舍得 + Verb",
+    "rules": [
+      {
+        "rule": "**敢 + Verb** = dare. It is about courage: 不敢 'don't dare' is far more frequent than the positive. 敢 can also mean 'be bold enough to', admiring someone.",
+        "highlight": "敢",
+        "examples": [
+          { "hanzi": "我不敢一个人走夜路。", "pinyin": "Wǒ bù gǎn yí gè rén zǒu yèlù.", "english": "I dare not walk alone at night." },
+          { "hanzi": "他敢说真话，大家都很佩服。", "pinyin": "Tā gǎn shuō zhēnhuà, dàjiā dōu hěn pèifú.", "english": "He dares to tell the truth, and everyone admires him." }
+        ]
+      },
+      {
+        "rule": "**肯 + Verb** = be willing to, agree to. It shows whether someone is ready to comply, and the negative 不肯 means 'refuse (stubbornly)'.",
+        "highlight": "肯",
+        "examples": [
+          { "hanzi": "他不肯告诉我真相。", "pinyin": "Tā bù kěn gàosu wǒ zhēnxiàng.", "english": "He refuses to tell me the truth." },
+          { "hanzi": "只要你肯努力，一定能成功。", "pinyin": "Zhǐyào nǐ kěn nǔlì, yídìng néng chénggōng.", "english": "As long as you are willing to work hard, you will certainly succeed." }
+        ]
+      },
+      {
+        "rule": "**愿意 + Verb** = be willing to, would like to. It can be used with a person as object or with a clause. It is more neutral and more polite than 肯.",
+        "highlight": "愿意",
+        "examples": [
+          { "hanzi": "你愿意跟我一起去吗？", "pinyin": "Nǐ yuànyì gēn wǒ yìqǐ qù ma?", "english": "Would you be willing to go with me?" },
+          { "hanzi": "我愿意帮你的忙。", "pinyin": "Wǒ yuànyì bāng nǐ de máng.", "english": "I'm happy to help you." }
+        ]
+      },
+      {
+        "rule": "**舍得 / 舍不得** and **乐意** colour the feeling: 舍得 'not mind spending / parting with', 舍不得 'hate to part with', 乐意 'gladly'.",
+        "highlight": "舍不得",
+        "examples": [
+          { "hanzi": "她舍不得离开家乡。", "pinyin": "Tā shěbude líkāi jiāxiāng.", "english": "She cannot bear to leave her hometown." },
+          { "hanzi": "他舍得花钱买好书。", "pinyin": "Tā shěde huā qián mǎi hǎo shū.", "english": "He doesn't mind spending money on good books." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "愿意 vs 想", "text": "想 is a personal wish, 愿意 is agreement to a proposal: 你愿意嫁给我吗？ (will you), not 你想嫁给我吗." },
+      { "vs": "敢 vs 能", "text": "我不敢去 means I'm too afraid to go; 我不能去 means something prevents me from going." }
+    ],
+    "pitfalls": [
+      "✗ 我不愿意去，因为我愿意不去。 → ✓ 我不愿意去。 Do not stack an attitude verb on top of a negated verb unless the double meaning is intended.",
+      "✗ 他敢不敢吗？ → ✓ 他敢不敢？ Same as other A-not-A questions: no 吗.",
+      "✗ 我肯去了。 → ✓ 我愿意去。 肯 usually appears in negative or conditional sentences, rarely as a plain positive.",
+      "✗ 我舍不得离开了。 → ✓ 我舍不得离开。 No 了 after an attitude verb in a general statement."
+    ],
+    "relatedPointIds": ["g1-neng-keyi", "g5-hebi", "g4-ningke-yebu", "g6-hendebu-badebu"],
+    "keywords": ["gan", "ken", "yuanyi", "敢", "肯", "愿意", "乐意", "舍不得", "dare", "willing", "modal verbs"],
+    "status": "draft"
+  },
+  {
+    "id": "modal-negation",
+    "title": "Negating modal verbs: 不能, 不可以, 不用, 别",
+    "titleHanzi": "不能 / 不可以 / 不用 / 不必",
+    "category": "modal-verbs",
+    "hskRange": [2, 5],
+    "summary": "Negating a modal does not always give its logical opposite. 不用 is not 'must not', and 必须 has no direct negative. This article maps each modal to the right negative.",
+    "pattern": "Modal → negative: 会 → 不会 · 能 → 不能 · 可以 → 不可以 / 不能 · 要 (obligation) → 不用 · 必须 → 不必 / 不用 · 应该 → 不应该",
+    "rules": [
+      {
+        "rule": "**Ability:** 不会 (can't, never learned), 不能 (can't now). **Permission:** 不能 or 不可以 (not allowed); 不可以 is firmer and more formal.",
+        "highlight": "不能",
+        "examples": [
+          { "hanzi": "我不会开车。", "pinyin": "Wǒ bú huì kāichē.", "english": "I can't drive." },
+          { "hanzi": "在图书馆里不能大声说话。", "pinyin": "Zài túshūguǎn lǐ bù néng dàshēng shuōhuà.", "english": "You must not talk loudly in the library." }
+        ]
+      },
+      {
+        "rule": "**Obligation:** The logical opposite of 'must' is 'need not', which is 不用 / 不必 / 用不着. To say 'must not' use 不能 / 不许 / 别 instead.",
+        "highlight": "不用",
+        "examples": [
+          { "hanzi": "你不用着急，时间还早。", "pinyin": "Nǐ búyòng zháojí, shíjiān hái zǎo.", "english": "No need to hurry, it's still early." },
+          { "hanzi": "这里不许拍照。", "pinyin": "Zhèlǐ bù xǔ pāizhào.", "english": "Taking photos is not allowed here." }
+        ]
+      },
+      {
+        "rule": "**Advice:** 不应该 / 不该 means 'should not', which is a moral judgement: 你不应该骗人. Note that 别 is the command form.",
+        "highlight": "不应该",
+        "examples": [
+          { "hanzi": "你不应该这样对朋友。", "pinyin": "Nǐ bù yīnggāi zhèyàng duì péngyou.", "english": "You shouldn't treat your friends like this." },
+          { "hanzi": "别骗人！", "pinyin": "Bié piàn rén!", "english": "Don't lie!" }
+        ]
+      },
+      {
+        "rule": "**Wish and courage:** 不想 (don't feel like), 不要 (don't want or don't), 不敢 (dare not), 不肯 (refuse), 不愿意 (unwilling). The meaning of the negative shifts with the verb.",
+        "highlight": "不想",
+        "examples": [
+          { "hanzi": "我不想吃了，已经饱了。", "pinyin": "Wǒ bù xiǎng chī le, yǐjīng bǎo le.", "english": "I don't want to eat any more, I'm already full." },
+          { "hanzi": "他不肯道歉。", "pinyin": "Tā bù kěn dàoqiàn.", "english": "He refuses to apologise." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "English 'must not'", "text": "English 'You mustn't go' = 你不能去; English 'You don't have to go' = 你不用去. In Chinese the second one is not simply a shifted negation." },
+      { "vs": "没 + modal", "text": "Modal verbs are negated with 不 only. For a past 'did not manage to', use 没能 or 没有 + complement: 我没能去。" }
+    ],
+    "pitfalls": [
+      "✗ 你不必须去。 → ✓ 你不用去。 必须 cannot be negated with 不.",
+      "✗ 昨天我不能去。 (meant: I wasn't able to) → ✓ 昨天我没能去。 or 昨天我没法去。 A past inability uses 没能.",
+      "✗ 我不会不去。 as a refusal → ✓ 我不去。 不会不 means 'I won't fail to', a double negation.",
+      "✗ 你不要去吗？ (meant: don't you want to go?) → ✓ 你不想去吗？ 不要 sounds like a command here."
+    ],
+    "relatedPointIds": ["g1-bie", "g1-neng-keyi", "g6-budebu-budeyi", "g4-bing-negation"],
+    "keywords": ["bu neng", "bu yong", "bu bi", "不能", "不可以", "不用", "不必", "mustn't", "needn't", "negated modal verbs"],
+    "status": "draft"
+  }
+]

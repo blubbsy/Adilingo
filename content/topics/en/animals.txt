@@ -1,0 +1,198 @@
+@topic | Animals | 🐾
+dog | /dɔːɡ/ | 狗 | My dog likes to run in the park. | 我的狗喜欢在公园里跑。 | 1
+puppy | /ˈpʌpi/ | 小狗 | The puppy chewed on my shoe. | 小狗咬坏了我的鞋子。 | 1
+cat | /kæt/ | 猫 | The cat sleeps on the sofa all day. | 这只猫整天都在沙发上睡觉。 | 1
+kitten | /ˈkɪtn/ | 小猫 | The kitten climbed up the curtains. | 小猫爬上了窗帘。 | 1
+bird | /bɜːrd/ | 鸟 | A bird is singing in the tree. | 一只鸟在树上唱歌。 | 1
+cow | /kaʊ/ | 奶牛; 母牛 | The cow gives us fresh milk every day. | 这头奶牛每天给我们提供新鲜牛奶。 | 1
+horse | /hɔːrs/ | 马 | She rides her horse across the field. | 她骑着马穿过田野。 | 1
+pig | /pɪɡ/ | 猪 | The pig is rolling in the mud. | 这头猪正在泥里打滚。 | 1
+sheep | /ʃiːp/ | 绵羊 | The sheep eat grass on the hill. | 绵羊在山坡上吃草。 | 1
+duck | /dʌk/ | 鸭子 | The duck swims happily in the pond. | 鸭子在池塘里快乐地游着。 | 1
+rabbit | /ˈræbɪt/ | 兔子 | The rabbit hid under the bush. | 兔子躲在灌木丛下面。 | 1
+lion | /ˈlaɪən/ | 狮子 | The lion roared loudly at night. | 狮子在夜里大声吼叫。 | 1
+tiger | /ˈtaɪɡər/ | 老虎 | A tiger has orange fur with black stripes. | 老虎有橙色的毛皮和黑色的条纹。 | 1
+elephant | /ˈɛlɪfənt/ | 大象 | An elephant has a very long trunk. | 大象的鼻子很长。 | 1
+monkey | /ˈmʌŋki/ | 猴子 | The monkey climbed up the tall tree. | 猴子爬上了那棵高高的树。 | 1
+frog | /frɔːɡ/ | 青蛙 | The frog jumped into the pond. | 青蛙跳进了池塘。 | 1
+butterfly | /ˈbʌtərflaɪ/ | 蝴蝶 | A butterfly landed on the flower. | 一只蝴蝶落在花朵上。 | 1
+bee | /biː/ | 蜜蜂 | The bee collects nectar from flowers. | 蜜蜂从花朵中采集花蜜。 | 1
+ant | /ænt/ | 蚂蚁 | The ant carries a crumb back to its nest. | 蚂蚁把一小块面包屑搬回蚁巢。 | 1
+tail | /teɪl/ | 尾巴 | The dog wagged its tail happily. | 狗高兴地摇着尾巴。 | 1
+bear | /bɛr/ | 熊 | A bear sleeps all winter in the cave. | 熊整个冬天都在山洞里睡觉。 | 2
+wolf | /wʊlf/ | 狼 | The wolf howled at the moon. | 狼对着月亮嚎叫。 | 2
+fox | /fɑːks/ | 狐狸 | The fox hunts mice in the field. | 狐狸在田野里捕捉老鼠。 | 2
+deer | /dɪr/ | 鹿 | A deer walked quietly through the forest. | 一只鹿安静地穿过森林。 | 2
+snake | /sneɪk/ | 蛇 | The snake slid under the rock. | 蛇从石头底下滑了过去。 | 2
+turtle | /ˈtɜːrtl/ | 乌龟; 海龟 | The turtle moves very slowly. | 乌龟移动得非常慢。 | 2
+spider | /ˈspaɪdər/ | 蜘蛛 | The spider spun a web between two branches. | 蜘蛛在两根树枝之间结了一张网。 | 2
+snail | /sneɪl/ | 蜗牛 | The snail left a silver trail on the path. | 蜗牛在小路上留下一道银色的痕迹。 | 2
+dolphin | /ˈdɑːlfɪn/ | 海豚 | The dolphin jumped out of the waves. | 海豚从浪花中跃出水面。 | 2
+whale | /weɪl/ | 鲸鱼 | A whale can be longer than a bus. | 鲸鱼可以比一辆公交车还长。 | 2
+shark | /ʃɑːrk/ | 鲨鱼 | The shark swims through the deep ocean. | 鲨鱼在深海中游动。 | 2
+crab | /kræb/ | 螃蟹 | The crab walks sideways along the sand. | 螃蟹沿着沙滩横着走。 | 2
+penguin | /ˈpɛŋɡwɪn/ | 企鹅 | The penguin waddled across the ice. | 企鹅摇摇摆摆地走过冰面。 | 2
+owl | /aʊl/ | 猫头鹰 | The owl hunts at night. | 猫头鹰在夜间捕猎。 | 2
+pigeon | /ˈpɪdʒɪn/ | 鸽子 | A pigeon sat on the window ledge. | 一只鸽子停在窗台上。 | 2
+goat | /ɡoʊt/ | 山羊 | The goat climbed onto the rock. | 山羊爬上了岩石。 | 2
+giraffe | /dʒəˈræf/ | 长颈鹿 | The giraffe reached the highest leaves. | 长颈鹿够到了最高处的树叶。 | 2
+zebra | /ˈzebrə/ | 斑马 | A zebra has black and white stripes. | 斑马身上有黑白相间的条纹。 | 2
+kangaroo | /ˌkæŋɡəˈruː/ | 袋鼠 | A kangaroo carries its baby in a pouch. | 袋鼠把幼崽放在育儿袋里。 | 2
+panda | /ˈpændə/ | 熊猫 | The panda eats bamboo for most of the day. | 熊猫大部分时间都在吃竹子。 | 2
+squirrel | /ˈskwɜːrəl/ | 松鼠 | A squirrel buried nuts under the tree. | 一只松鼠把坚果埋在树下。 | 2
+mosquito | /məˈskiːtoʊ/ | 蚊子 | A mosquito bit me on the arm. | 一只蚊子咬了我的胳膊。 | 2
+nest | /nɛst/ | 鸟巢 | The bird built a nest in the old tree. | 这只鸟在老树上筑了一个巢。 | 2
+paw | /pɔː/ | 爪子; 脚掌 | The dog lifted its paw to shake hands. | 狗抬起爪子要握手。 | 2
+feather | /ˈfɛðər/ | 羽毛 | The bird lost a bright blue feather. | 这只鸟掉了一根亮蓝色的羽毛。 | 2
+wing | /wɪŋ/ | 翅膀 | The bird flapped its wings and took off. | 小鸟扇动翅膀飞了起来。 | 2
+shell | /ʃɛl/ | 壳 | The turtle hides inside its shell. | 乌龟把自己藏在壳里。 | 2
+lizard | /ˈlɪzərd/ | 蜥蜴 | The lizard basks on a warm stone. | 蜥蜴在温暖的石头上晒太阳。 | 2
+hamster | /ˈhæmstər/ | 仓鼠 | My hamster runs on its wheel every night. | 我的仓鼠每晚都在转轮上跑。 | 2
+goldfish | /ˈɡoʊldfɪʃ/ | 金鱼 | The goldfish swims in a round bowl. | 金鱼在圆形的鱼缸里游动。 | 2
+pony | /ˈpoʊni/ | 小马 | The child learned to ride a pony at the farm. | 孩子在农场学会了骑小马。 | 2
+lamb | /læm/ | 羔羊 | The lamb followed its mother across the field. | 小羊跟着母羊穿过田野。 | 2
+chick | /tʃɪk/ | 小鸡; 雏鸟 | The chick broke out of its shell. | 小鸡破壳而出。 | 2
+bull | /bʊl/ | 公牛 | The bull stood in the middle of the field. | 公牛站在田野中央。 | 2
+claw | /klɔː/ | 爪子; 利爪 | The cat's claw caught in the curtain. | 猫的爪子勾住了窗帘。 | 3
+fur | /fɜːr/ | 毛皮; 体毛 | The rabbit's fur is soft and white. | 兔子的毛又软又白。 | 3
+beak | /biːk/ | 喙; 嘴 | The bird pecked at the seed with its beak. | 小鸟用喙啄食种子。 | 3
+hoof | /huːf/ | 蹄 | The horse struck the ground with its hoof. | 马用蹄子敲打地面。 | 4
+hump | /hʌmp/ | 驼峰; 隆起 | The camel has a hump on its back. | 骆驼背上有一个驼峰。 | 4
+mane | /meɪn/ | 鬃毛 | The lion's mane is thick and golden. | 狮子的鬃毛又厚又金黄。 | 4
+antler | /ˈæntlər/ | 鹿角 | The deer's antlers grow again every year. | 鹿角每年都会重新长出来。 | 4
+fin | /fɪn/ | 鳍 | The shark moved its fin through the water. | 鲨鱼用鳍划过水面。 | 4
+gill | /ɡɪl/ | 鳃 | The fish uses its gill to breathe underwater. | 鱼用鳃在水下呼吸。 | 5
+venom | /ˈvɛnəm/ | 毒液 | The snake's venom can be dangerous to humans. | 这种蛇的毒液对人类可能有危险。 | 5
+poison | /ˈpɔɪzn/ | 毒药; 毒素 | Some frogs release poison through their skin. | 有些青蛙会通过皮肤分泌毒素。 | 3
+prey | /preɪ/ | 猎物 | The owl caught its prey in the dark. | 猫头鹰在黑暗中抓住了猎物。 | 5
+predator | /ˈprɛdətər/ | 捕食者 | The wolf is a dangerous predator. | 狼是一种危险的捕食者。 | 5
+herbivore | /ˈhɜːrbɪvɔːr/ | 食草动物 | A cow is a herbivore that eats grass. | 奶牛是一种吃草的食草动物。 | 6
+carnivore | /ˈkɑːrnɪvɔːr/ | 食肉动物 | Lions are carnivores that hunt other animals. | 狮子是捕食其他动物的食肉动物。 | 6
+wildlife | /ˈwaɪldlaɪf/ | 野生动物 | The park protects wildlife from hunters. | 公园保护野生动物不受猎人伤害。 | 4
+livestock | /ˈlaɪvstɑːk/ | 牲畜; 家畜 | The farmer keeps livestock on his land. | 这位农民在自己的土地上饲养牲畜。 | 5
+mammal | /ˈmæml/ | 哺乳动物 | Whales are mammals, not fish. | 鲸鱼是哺乳动物,而不是鱼。 | 4
+reptile | /ˈrɛptaɪl/ | 爬行动物 | A lizard is a small reptile. | 蜥蜴是一种小型爬行动物。 | 4
+amphibian | /æmˈfɪbiən/ | 两栖动物 | A frog is an amphibian that lives in water and on land. | 青蛙是一种既能在水中也能在陆地生活的两栖动物。 | 5
+crocodile | /ˈkrɑːkədaɪl/ | 鳄鱼 | A crocodile lay still in the river. | 一条鳄鱼静静地趴在河里。 | 3
+alligator | /ˈælɪɡeɪtər/ | 短吻鳄 | The alligator swam slowly through the swamp. | 短吻鳄在沼泽中缓缓游动。 | 4
+tortoise | /ˈtɔːrtəs/ | 陆龟 | The tortoise lived for over a hundred years. | 这只陆龟活了一百多岁。 | 4
+stallion | /ˈstæljən/ | 种马; 雄马 | The stallion galloped across the plain. | 这匹种马在平原上疾驰。 | 6
+mare | /mɛr/ | 母马 | The mare nursed her new foal. | 母马正在喂养刚出生的小马驹。 | 5
+foal | /foʊl/ | 马驹 | The foal stood on shaky legs. | 小马驹摇摇晃晃地站着。 | 5
+calf | /kæf/ | 小牛 | The calf stayed close to its mother. | 小牛紧紧跟着妈妈。 | 3
+cub | /kʌb/ | 幼兽 | The lion cub followed its mother closely. | 小狮子紧紧跟着妈妈。 | 4
+tadpole | /ˈtædpoʊl/ | 蝌蚪 | The tadpole turns into a frog over time. | 蝌蚪会慢慢变成青蛙。 | 4
+caterpillar | /ˈkætərpɪlər/ | 毛虫; 幼虫 | The caterpillar ate all the leaves on the plant. | 毛虫把植物上的叶子吃得一干二净。 | 3
+insect | /ˈɪnsɛkt/ | 昆虫 | A beetle is a common insect in the garden. | 甲虫是花园里常见的昆虫。 | 3
+beetle | /ˈbiːtl/ | 甲虫 | The beetle crawled across the leaf. | 甲虫爬过了那片叶子。 | 3
+worm | /wɜːrm/ | 蠕虫 | The worm wriggled out of the soil after the rain. | 雨后蠕虫从土里钻了出来。 | 3
+cricket | /ˈkrɪkɪt/ | 蟋蟀; 板球 | A cricket chirped in the grass all night. | 一只蟋蟀整夜在草丛里鸣叫。 | 3
+grasshopper | /ˈɡræshɑːpər/ | 蚱蜢 | The grasshopper jumped away from my hand. | 蚱蜢从我手边跳走了。 | 3
+ladybird | /ˈleɪdibɜːrd/ | 瓢虫 | A ladybird landed on my finger. | 一只瓢虫落在了我的手指上。 | 4
+dragonfly | /ˈdræɡənflaɪ/ | 蜻蜓 | A dragonfly hovered over the pond. | 一只蜻蜓在池塘上方悬停。 | 3
+moth | /mɔːθ/ | 飞蛾 | A moth was attracted to the light. | 一只飞蛾被灯光吸引过来。 | 3
+housefly | /ˈhaʊsflaɪ/ | 苍蝇 | A housefly kept buzzing around the kitchen. | 一只苍蝇一直在厨房里嗡嗡地飞。 | 4
+hive | /haɪv/ | 蜂巢; 蜂箱 | The bees returned to the hive at sunset. | 蜜蜂在日落时飞回了蜂巢。 | 4
+den | /dɛn/ | 兽穴 | The fox returned to its den. | 狐狸回到了它的洞穴。 | 4
+burrow | /ˈbɜːroʊ/ | 洞穴; 挖洞 | The rabbit disappeared into its burrow. | 兔子消失在它的洞穴里。 | 4
+herd | /hɜːrd/ | 兽群; 牧群 | A herd of cows grazed in the meadow. | 一群牛在草地上吃草。 | 4
+flock | /flɑːk/ | 鸟群; 羊群 | A flock of birds flew south for the winter. | 一群鸟飞往南方过冬。 | 4
+pride | /praɪd/ | 狮群 | The lions rest together as one pride. | 这些狮子作为一个狮群聚在一起休息。 | 5
+swarm | /swɔːrm/ | 蜂群 | A swarm of bees surrounded the tree. | 一群蜜蜂包围了那棵树。 | 5
+eagle | /ˈiːɡl/ | 鹰 | The eagle soared above the mountains. | 鹰在山峰上空翱翔。 | 3
+parrot | /ˈpærət/ | 鹦鹉 | My parrot can say hello in three languages. | 我的鹦鹉会用三种语言说你好。 | 3
+sparrow | /ˈspæroʊ/ | 麻雀 | A sparrow picked up crumbs from the ground. | 一只麻雀从地上啄起面包屑。 | 3
+swan | /swɑːn/ | 天鹅 | The swan glided across the calm lake. | 天鹅滑过平静的湖面。 | 3
+goose | /ɡuːs/ | 鹅 | The goose chased the children across the yard. | 鹅追着孩子们穿过院子。 | 3
+hen | /hɛn/ | 母鸡 | The hen laid three eggs this morning. | 这只母鸡今天早上下了三个蛋。 | 3
+rooster | /ˈruːstər/ | 公鸡 | The rooster crows at dawn. | 公鸡在黎明时啼叫。 | 3
+donkey | /ˈdɑːŋki/ | 驴 | The donkey carried heavy bags up the hill. | 驴驮着沉重的袋子上山。 | 3
+camel | /ˈkæml/ | 骆驼 | A camel can go for days without water. | 骆驼可以好几天不喝水。 | 3
+octopus | /ˈɑːktəpəs/ | 章鱼 | An octopus has eight arms. | 章鱼有八条腕足。 | 3
+jellyfish | /ˈdʒɛlifɪʃ/ | 水母 | A jellyfish drifted near the beach. | 一只水母漂到了海滩附近。 | 3
+starfish | /ˈstɑːrfɪʃ/ | 海星 | A starfish clung to the rock by the sea. | 一只海星紧贴在海边的岩石上。 | 3
+lobster | /ˈlɑːbstər/ | 龙虾 | The lobster turned red when we cooked it. | 龙虾煮熟后变红了。 | 3
+squid | /skwɪd/ | 鱿鱼 | The squid squirted ink into the water. | 鱿鱼向水中喷出墨汁。 | 3
+trout | /traʊt/ | 鳟鱼 | We caught a trout in the stream. | 我们在溪流里钓到了一条鳟鱼。 | 3
+salmon | /ˈsæmən/ | 三文鱼 | The salmon swam upstream to lay its eggs. | 三文鱼逆流而上去产卵。 | 3
+tuna | /ˈtuːnə/ | 金枪鱼 | The tuna was caught far out at sea. | 这条金枪鱼是在远海捕获的。 | 3
+seahorse | /ˈsiːhɔːrs/ | 海马 | A seahorse holds on to seaweed with its tail. | 海马用尾巴抓住海草。 | 4
+hedgehog | /ˈhɛdʒhɑːɡ/ | 刺猬 | The hedgehog rolled up into a ball. | 刺猬蜷成了一个球。 | 3
+bat | /bæt/ | 蝙蝠 | A bat flew out of the cave at dusk. | 一只蝙蝠在黄昏时从洞穴里飞出。 | 3
+badger | /ˈbædʒər/ | 獾 | The badger digs its den under the hill. | 獾在山丘下面挖洞穴。 | 5
+beaver | /ˈbiːvər/ | 海狸 | The beaver built a dam across the river. | 海狸在河上筑起了一道堤坝。 | 3
+mole | /moʊl/ | 鼹鼠 | The mole digs tunnels under the garden. | 鼹鼠在花园底下挖隧道。 | 4
+otter | /ˈɑːtər/ | 水獭 | The otter floats on its back in the river. | 水獭仰面漂在河里。 | 4
+raccoon | /rækˈuːn/ | 浣熊 | A raccoon washed its food in the stream. | 一只浣熊在小溪里洗食物。 | 4
+moose | /muːs/ | 驼鹿 | A moose stood by the road in the snow. | 一头驼鹿在雪中站在路边。 | 4
+reindeer | /ˈreɪndɪər/ | 驯鹿 | Reindeer pull the sleigh in the story. | 故事里是驯鹿拉着雪橇。 | 4
+bison | /ˈbaɪsn/ | 野牛 | Bison once roamed freely across the plains. | 野牛曾经在平原上自由漫步。 | 5
+yak | /jæk/ | 牦牛 | The yak carries supplies up the mountain. | 牦牛把物资驮上山去。 | 4
+llama | /ˈlɑːmə/ | 美洲驼 | The llama spat at the tourist. | 美洲驼朝游客吐了口水。 | 4
+buffalo | /ˈbʌfəloʊ/ | 水牛; 野牛 | A buffalo wallowed in the muddy pond. | 一头水牛在泥泞的池塘里打滚。 | 3
+jaguar | /ˈdʒæɡwɑːr/ | 美洲豹 | The jaguar moved silently through the rainforest. | 美洲豹在雨林中悄无声息地穿行。 | 5
+lynx | /lɪŋks/ | 猞猁 | The lynx has tufted ears and a short tail. | 猞猁有簇毛耳朵和短尾巴。 | 6
+hyena | /haɪˈiːnə/ | 鬣狗 | The hyena howled in the dark. | 鬣狗在黑暗中嚎叫。 | 4
+vulture | /ˈvʌltʃər/ | 秃鹫 | A vulture circled high above the desert. | 一只秃鹫在沙漠上空盘旋。 | 5
+hawk | /hɔːk/ | 鹰; 隼 | The hawk watched the field from above. | 这只鹰从高空俯视着田野。 | 3
+dove | /dʌv/ | 鸽子 | A dove landed on the roof. | 一只鸽子落在了屋顶上。 | 3
+flamingo | /fləˈmɪŋɡoʊ/ | 火烈鸟 | A flamingo stood on one leg in the shallow water. | 一只火烈鸟在浅水里单腿站立。 | 3
+ostrich | /ˈɑːstrɪtʃ/ | 鸵鸟 | The ostrich can run faster than a horse. | 鸵鸟跑得比马还快。 | 4
+peacock | /ˈpiːkɑːk/ | 孔雀 | The peacock spread its colorful tail. | 孔雀展开了色彩斑斓的尾羽。 | 4
+hummingbird | /ˈhʌmɪŋbɜːrd/ | 蜂鸟 | A hummingbird hovered over the red flower. | 一只蜂鸟悬停在红色的花朵上方。 | 4
+woodpecker | /ˈwʊdpekər/ | 啄木鸟 | The woodpecker tapped on the old tree. | 啄木鸟在老树上不停地啄。 | 4
+seagull | /ˈsiːɡʌl/ | 海鸥 | A seagull stole my sandwich at the beach. | 一只海鸥在海滩上抢走了我的三明治。 | 3
+stork | /stɔːrk/ | 鹳 | A stork built its nest on the chimney. | 一只鹳在烟囱上筑了巢。 | 5
+crow | /kroʊ/ | 乌鸦 | A crow sat on the fence and cawed loudly. | 一只乌鸦站在栅栏上大声叫。 | 3
+robin | /ˈrɑːbɪn/ | 知更鸟 | A robin sang on the garden fence. | 一只知更鸟在花园栅栏上唱歌。 | 4
+canary | /kəˈnɛri/ | 金丝雀 | The canary sang in its golden cage. | 金丝雀在金色的笼子里唱歌。 | 4
+eel | /iːl/ | 鳗鱼 | An eel slid through the rocks. | 一条鳗鱼从石缝间滑过。 | 4
+cod | /kɑːd/ | 鳕鱼 | The cod was fresh from the boat. | 这条鳕鱼刚从船上捞起来。 | 4
+carp | /kɑːrp/ | 鲤鱼 | The carp swam lazily in the pond. | 鲤鱼在池塘里懒洋洋地游动。 | 4
+herring | /ˈhɛrɪŋ/ | 鲱鱼 | The herring swam in a huge silver shoal. | 鲱鱼成群地游动,闪着银光。 | 5
+clownfish | /ˈklaʊnfɪʃ/ | 小丑鱼 | The clownfish lives among the sea anemones. | 小丑鱼生活在海葵之间。 | 5
+oyster | /ˈɔɪstər/ | 牡蛎 | An oyster can produce a pearl. | 牡蛎能够产出珍珠。 | 4
+clam | /klæm/ | 蛤蜊 | The clam buried itself in the sand. | 蛤蜊把自己埋进了沙子里。 | 4
+sea lion | /siː ˈlaɪən/ | 海狮 | The sea lion barked at the tourists on the pier. | 海狮在码头上冲着游客叫。 | 4
+polar bear | /ˈpoʊlər bɛr/ | 北极熊 | The polar bear hunts seals on the ice. | 北极熊在冰面上捕食海豹。 | 3
+gorilla | /ɡəˈrɪlə/ | 大猩猩 | The gorilla sat quietly and ate leaves. | 大猩猩安静地坐着吃树叶。 | 3
+chimpanzee | /ˌtʃɪmpænˈziː/ | 黑猩猩 | Chimpanzees use simple tools in the wild. | 黑猩猩在野外会使用简单的工具。 | 5
+guinea pig | /ˈɡɪni pɪɡ/ | 豚鼠 | The children feed the guinea pig carrots. | 孩子们给豚鼠喂胡萝卜。 | 3
+seal | /siːl/ | 海豹 | The seal rests on the rocks by the sea. | 海豹在海边的岩石上休息。 | 3
+cheetah | /ˈtʃiːtə/ | 猎豹 | The cheetah is the fastest land animal. | 猎豹是跑得最快的陆地动物。 | 4
+leopard | /ˈlɛpərd/ | 豹 | The leopard hid in the tall grass. | 豹子藏在高高的草丛里。 | 3
+koala | /koʊˈɑːlə/ | 考拉 | The koala sleeps for up to twenty hours a day. | 考拉每天最多能睡二十个小时。 | 3
+hippo | /ˈhɪpoʊ/ | 河马 | The hippo spends most of the day in the water. | 河马大部分时间都待在水里。 | 3
+bark | /bɑːrk/ | 吠叫; 树皮 | The dog began to bark at the stranger. | 狗开始对着陌生人吠叫。 | 2
+roar | /rɔːr/ | 咆哮; 吼叫 | The lion gave a loud roar. | 狮子发出一声响亮的咆哮。 | 3
+howl | /haʊl/ | 嚎叫 | The wolves howl in the mountains at night. | 狼在夜晚的山里嚎叫。 | 3
+purr | /pɜːr/ | 发出呼噜声 | The cat began to purr when I stroked it. | 我一抚摸,猫就开始发出呼噜声。 | 4
+hiss | /hɪs/ | 发出嘶嘶声 | The snake began to hiss when we came close. | 我们靠近时,蛇开始发出嘶嘶声。 | 4
+chirp | /tʃɜːrp/ | 啁啾; 唧唧叫 | The birds chirp loudly in the morning. | 早上小鸟叽叽喳喳地叫个不停。 | 4
+neigh | /neɪ/ | 嘶鸣 | The horse gave a loud neigh. | 马发出一声响亮的嘶鸣。 | 5
+quack | /kwæk/ | 嘎嘎叫 | The duck gave a loud quack at us. | 鸭子冲着我们大声嘎嘎叫。 | 4
+moo | /muː/ | 哞哞叫 | The cow let out a long moo. | 奶牛发出一声长长的哞叫。 | 3
+buzz | /bʌz/ | 嗡嗡叫 | A bee buzzed around my head. | 一只蜜蜂在我头顶嗡嗡地飞。 | 3
+sting | /stɪŋ/ | 蜇; 刺 | The bee stung me on the finger. | 蜜蜂蜇了我的手指。 | 3
+pounce | /paʊns/ | 猛扑 | The cat pounced on the mouse in a flash. | 猫一下子扑向了老鼠。 | 4
+migrate | /ˈmaɪɡreɪt/ | 迁徙 | Many birds migrate south in winter. | 许多鸟类在冬天向南迁徙。 | 4
+hibernate | /ˈhaɪbərneɪt/ | 冬眠 | Bears hibernate during the cold months. | 熊在寒冷的月份里冬眠。 | 5
+nocturnal | /nɑːkˈtɜːrnl/ | 夜行性的 | Owls are nocturnal birds that hunt at night. | 猫头鹰是夜间活动、夜里捕猎的鸟类。 | 6
+endangered | /ɪnˈdeɪndʒərd/ | 濒危的 | The tiger is an endangered animal. | 老虎是濒危动物。 | 4
+habitat | /ˈhæbɪtæt/ | 栖息地 | The forest is the natural habitat of many animals. | 森林是许多动物的天然栖息地。 | 4
+stable | /ˈsteɪbl/ | 马厩 | The horses are kept in the stable at night. | 马晚上被关在马厩里。 | 3
+kennel | /ˈkɛnl/ | 狗窝; 犬舍 | The dog sleeps in a kennel in the yard. | 这只狗睡在院子里的狗窝里。 | 4
+leash | /liːʃ/ | 牵引绳 | Keep your dog on a leash in the park. | 在公园里请用牵引绳牵住你的狗。 | 3
+vet | /vɛt/ | 兽医 | Our cat needs to see the vet next week. | 我们的猫下周需要去看兽医。 | 2
+veterinarian | /ˌvɛtərəˈnɛriən/ | 兽医 | The veterinarian checked the injured horse. | 兽医检查了那匹受伤的马。 | 4
+breed | /briːd/ | 品种 | What breed is your dog? | 你的狗是什么品种? | 3
+litter | /ˈlɪtər/ | 一窝幼崽 | The cat had a litter of five kittens. | 这只猫生了一窝五只小猫。 | 4
+hatch | /hætʃ/ | 孵化 | The eggs will hatch in about three weeks. | 这些蛋大约三周后会孵化。 | 4
+larva | /ˈlɑːrvə/ | 幼虫 | The larva grows quickly before it becomes a moth. | 幼虫在变成飞蛾之前会迅速长大。 | 6
+feed | /fiːd/ | 喂食 | Please feed the fish once a day. | 请每天喂一次鱼。 | 1
+stray | /streɪ/ | 流浪的 | We found a stray cat near our house. | 我们在家附近发现了一只流浪猫。 | 4
+wild | /waɪld/ | 野生的 | Wild horses roam freely in the valley. | 野马在山谷里自由地奔跑。 | 2
+tame | /teɪm/ | 驯服的 | The tame parrot sits on my shoulder. | 这只驯养的鹦鹉停在我的肩膀上。 | 5
+domestic | /dəˈmɛstɪk/ | 家养的; 驯养的 | Dogs and cats are domestic animals. | 狗和猫是家养动物。 | 4
+rescue | /ˈrɛskjuː/ | 营救 | The firefighters rescued the trapped dog. | 消防员救出了被困的狗。 | 3
+paddle | /ˈpædl/ | 划水; 划动 | The duck began to paddle across the pond. | 鸭子开始在池塘上划水。 | 4

@@ -1,0 +1,297 @@
+@topic | Food & Drink | 🍎
+# A1
+apple | /ˈæpl/ | 苹果 | I put an apple in my lunch box every day. | 我每天都在午餐盒里放一个苹果。 | 1
+banana | /bəˈnænə/ | 香蕉 | Monkeys love to eat ripe bananas. | 猴子很爱吃熟香蕉。 | 1
+orange | /ˈɔrɪndʒ/ | 橙子; 橘子; 橙色 | Peel the orange before you eat it. | 吃之前先把橙子剥皮。 | 1
+bread | /brɛd/ | 面包 | We buy fresh bread from the shop every morning. | 我们每天早上在店里买新鲜面包。 | 1
+milk | /mɪlk/ | 牛奶 | Please pour some milk into my tea. | 请往我的茶里倒一点牛奶。 | 1
+water | /ˈwɔtər/ | 水; 喝水 | Drink plenty of water when it is hot. | 天热的时候要多喝水。 | 1
+juice | /dʒus/ | 果汁 | I want a glass of orange juice, please. | 请给我一杯橙汁。 | 1
+tea | /ti/ | 茶 | My grandmother drinks green tea after dinner. | 我奶奶晚饭后喝绿茶。 | 1
+coffee | /ˈkɔfi/ | 咖啡 | I need a cup of coffee before work. | 上班前我需要一杯咖啡。 | 1
+egg | /ɛɡ/ | 鸡蛋 | She boiled two eggs for breakfast. | 她早餐煮了两个鸡蛋。 | 1
+rice | /raɪs/ | 米饭; 大米 | We eat rice with almost every dinner. | 我们几乎每顿晚饭都吃米饭。 | 1
+meat | /mit/ | 肉 | I do not eat much meat these days. | 这些天我不怎么吃肉。 | 1
+fish | /fɪʃ/ | 鱼; 鱼肉 | We had grilled fish for dinner. | 我们晚饭吃了烤鱼。 | 1
+chicken | /ˈtʃɪkɪn/ | 鸡肉; 鸡 | We had roast chicken on Sunday. | 星期天我们吃了烤鸡。 | 1
+potato | /pəˈteɪtoʊ/ | 土豆 | Mash the potato with butter and salt. | 用黄油和盐把土豆捣成泥。 | 1
+tomato | /təˈmeɪtoʊ/ | 番茄 | Slice the tomato and put it on the sandwich. | 把番茄切片放进三明治里。 | 1
+carrot | /ˈkærət/ | 胡萝卜 | I peeled a carrot and ate it raw. | 我削了一根胡萝卜生吃。 | 1
+cheese | /tʃiz/ | 奶酪; 干酪 | I put cheese on my toast. | 我在吐司上放了奶酪。 | 1
+butter | /ˈbʌtər/ | 黄油 | Spread a little butter on the warm bread. | 在温热的面包上抹一点黄油。 | 1
+salt | /sɔlt/ | 盐 | Add a pinch of salt to the soup. | 往汤里加一小撮盐。 | 1
+sugar | /ˈʃʊɡər/ | 糖 | Do you want sugar in your tea? | 你的茶要加糖吗？ | 1
+pepper | /ˈpɛpər/ | 胡椒; 辣椒 | Please pass the salt and pepper. | 请把盐和胡椒递给我。 | 1
+soup | /sup/ | 汤 | This hot soup will warm you up. | 这碗热汤会让你暖和起来。 | 1
+cake | /keɪk/ | 蛋糕 | We ate a chocolate cake at the party. | 我们在派对上吃了一块巧克力蛋糕。 | 1
+sweet | /swit/ | 甜的; 甜食 | This fruit tastes very sweet. | 这种水果吃起来很甜。 | 1
+sour | /ˈsaʊər/ | 酸的 | The lemon is too sour for my taste. | 这个柠檬对我来说太酸了。 | 2
+lunch | /lʌntʃ/ | 午餐 | What do you have for lunch today? | 你今天午饭吃什么？ | 1
+dinner | /ˈdɪnər/ | 晚餐 | We have dinner at seven o'clock. | 我们七点吃晚饭。 | 1
+breakfast | /ˈbrɛkfəst/ | 早餐 | I always have breakfast before school. | 我上学前总是吃早餐。 | 1
+snack | /snæk/ | 小吃; 零食 | Children often eat a snack after school. | 孩子们放学后常吃点零食。 | 2
+cup | /kʌp/ | 杯子; 一杯 | Pour the tea into a cup. | 把茶倒进杯子里。 | 1
+plate | /pleɪt/ | 盘子 | Put the cake on a small plate. | 把蛋糕放在一个小盘子里。 | 1
+bowl | /boʊl/ | 碗 | She filled a bowl with cereal. | 她往碗里倒满了麦片。 | 1
+fork | /fɔrk/ | 叉子 | Use a fork to eat the salad. | 用叉子吃沙拉。 | 1
+knife | /naɪf/ | 刀 | Be careful with that sharp knife. | 小心那把锋利的刀。 | 1
+spoon | /spun/ | 勺子 | Stir the sugar with a spoon. | 用勺子搅拌糖。 | 1
+fruit | /frut/ | 水果 | Eat more fruit and vegetables every day. | 每天多吃水果和蔬菜。 | 1
+vegetable | /ˈvɛdʒtəbəl/ | 蔬菜 | Vegetable soup is healthy and cheap to make. | 蔬菜汤既健康又便宜，做起来也容易。 | 2
+ice cream | /ˌaɪs ˈkrim/ | 冰淇淋 | Children love ice cream on hot summer days. | 孩子们喜欢在炎热的夏天吃冰淇淋。 | 1
+sandwich | /ˈsænwɪdʒ/ | 三明治 | I made a ham sandwich for lunch. | 我午饭做了一个火腿三明治。 | 1
+pizza | /ˈpitsə/ | 披萨 | We ordered a large pizza tonight. | 今晚我们点了一个大披萨。 | 1
+noodle | /ˈnudl/ | 面条 | The noodles were served in hot broth. | 面条盛在热汤里端了上来。 | 2
+lemon | /ˈlɛmən/ | 柠檬 | Add a squeeze of lemon to the fish. | 往鱼上挤一点柠檬汁。 | 1
+oil | /ɔɪl/ | 油 | Heat a little oil in the pan. | 在平底锅里加热一点油。 | 1
+bean | /bin/ | 豆子 | These green beans taste very fresh. | 这些青豆吃起来非常新鲜。 | 1
+onion | /ˈʌnjən/ | 洋葱 | Chop the onion into small pieces. | 把洋葱切成小块。 | 1
+garlic | /ˈɡɑrlɪk/ | 大蒜 | Crush a clove of garlic into the sauce. | 把一瓣大蒜捣碎放进酱汁里。 | 2
+salad | /ˈsæləd/ | 沙拉 | She ordered a green salad without dressing. | 她点了一份不加酱汁的绿色沙拉。 | 1
+burger | /ˈbɜrɡər/ | 汉堡 | We grabbed a burger after the football game. | 足球比赛后我们买了一个汉堡。 | 1
+hungry | /ˈhʌŋɡri/ | 饿的 | I am hungry, so let's eat now. | 我饿了，我们现在吃饭吧。 | 1
+thirsty | /ˈθɜrsti/ | 口渴的 | The dog is thirsty after the long walk. | 长时间散步后，狗狗口渴了。 | 1
+full | /fʊl/ | 吃饱的; 满的 | I am full after this big meal. | 吃完这顿大餐后我已经吃饱了。 | 1
+fresh | /frɛʃ/ | 新鲜的 | These strawberries are very fresh. | 这些草莓非常新鲜。 | 1
+strawberry | /ˈstrɔˌbɛri/ | 草莓 | Strawberry jam tastes great on toast. | 草莓酱抹在吐司上非常好吃。 | 2
+grape | /ɡreɪp/ | 葡萄 | Grapes are sweet and easy to eat. | 葡萄又甜又好吃。 | 1
+peach | /pitʃ/ | 桃子 | This peach is soft and very juicy. | 这个桃子又软又多汁。 | 2
+cereal | /ˈsɪriəl/ | 麦片; 谷物 | I eat cereal with milk every morning. | 我每天早上吃麦片配牛奶。 | 2
+toast | /toʊst/ | 吐司; 烤面包片 | She made toast and jam for breakfast. | 她早饭做了吐司和果酱。 | 1
+jam | /dʒæm/ | 果酱 | Spread some jam on the toast. | 在吐司上涂一点果酱。 | 2
+honey | /ˈhʌni/ | 蜂蜜 | Add a spoon of honey to your tea. | 往你的茶里加一勺蜂蜜。 | 1
+chocolate | /ˈtʃɔklət/ | 巧克力 | I bought a bar of dark chocolate. | 我买了一块黑巧克力。 | 1
+candy | /ˈkændi/ | 糖果 | The children got candy after the show. | 演出结束后孩子们得到了糖果。 | 1
+bottle | /ˈbɑtl/ | 瓶子; 一瓶 | Please open the bottle of water for me. | 请帮我打开那瓶水。 | 1
+glass | /ɡlæs/ | 玻璃杯; 一杯 | Pour me a glass of water, please. | 请给我倒一杯水。 | 1
+# A2
+delicious | /dɪˈlɪʃəs/ | 美味的 | This soup is absolutely delicious! | 这碗汤太美味了！ | 2
+dish | /dɪʃ/ | 菜肴; 盘子 | This spicy dish is popular with students. | 这道辣味菜很受学生欢迎。 | 2
+steak | /steɪk/ | 牛排 | He likes his steak cooked medium-rare. | 他喜欢牛排五分熟。 | 2
+beef | /bif/ | 牛肉 | Beef stew needs hours to cook. | 牛肉炖菜需要炖好几个小时。 | 2
+pork | /pɔrk/ | 猪肉 | Pork is cheaper than beef here. | 这里的猪肉比牛肉便宜。 | 2
+corn | /kɔrn/ | 玉米 | We roasted corn on the grill. | 我们在烤架上烤玉米。 | 2
+pasta | /ˈpɑstə/ | 意大利面 | Pasta with tomato sauce is quick to make. | 番茄酱意大利面做起来很快。 | 2
+rice cooker | /ˈraɪs ˌkʊkər/ | 电饭煲 | Put the rice in the rice cooker and press start. | 把米放进电饭煲然后按下开始键。 | 3
+wine | /waɪn/ | 葡萄酒 | They drank a bottle of red wine. | 他们喝了一瓶红葡萄酒。 | 2
+beer | /bɪr/ | 啤酒 | Would you like a cold beer? | 你想喝杯冰啤酒吗？ | 2
+cocktail | /ˈkɑkteɪl/ | 鸡尾酒 | The bartender mixed a fresh cocktail for her. | 调酒师为她调了一杯新鲜的鸡尾酒。 | 3
+coconut | /ˈkoʊkənʌt/ | 椰子 | We drank cold water from a coconut. | 我们从椰子里喝冰凉的椰子水。 | 2
+mango | /ˈmæŋɡoʊ/ | 芒果 | A ripe mango smells sweet and fragrant. | 熟透的芒果闻起来香甜。 | 2
+pineapple | /ˈpaɪnæpl/ | 菠萝 | Fresh pineapple tastes great in a salad. | 新鲜菠萝放进沙拉里味道很好。 | 2
+cherry | /ˈtʃɛri/ | 樱桃 | She put a cherry on top of the cake. | 她在蛋糕顶上放了一颗樱桃。 | 2
+lettuce | /ˈlɛtəs/ | 生菜 | Wash the lettuce before you use it. | 用之前先把生菜洗干净。 | 2
+cucumber | /ˈkjukʌmbər/ | 黄瓜 | Cucumber slices make a refreshing snack. | 黄瓜片是一种清爽的小吃。 | 2
+mushroom | /ˈmʌʃrum/ | 蘑菇 | Fry the mushroom with garlic and butter. | 用大蒜和黄油炒蘑菇。 | 2
+spinach | /ˈspɪnɪtʃ/ | 菠菜 | Spinach is rich in iron and vitamins. | 菠菜富含铁和维生素。 | 2
+pumpkin | /ˈpʌmpkɪn/ | 南瓜 | We carved a pumpkin for Halloween. | 我们为万圣节雕刻了一个南瓜。 | 2
+cabbage | /ˈkæbɪdʒ/ | 卷心菜 | Cabbage soup is cheap and filling. | 卷心菜汤便宜又填饱肚子。 | 2
+sausage | /ˈsɔsɪdʒ/ | 香肠 | Fry the sausage until it is golden brown. | 把香肠煎到金黄色。 | 2
+bacon | /ˈbeɪkən/ | 培根 | Bacon and eggs is a classic breakfast. | 培根煎蛋是经典的早餐。 | 2
+ham | /hæm/ | 火腿 | I added a slice of ham to my sandwich. | 我在三明治里加了一片火腿。 | 2
+sauce | /sɔs/ | 酱; 调味汁 | Pour the tomato sauce over the pasta. | 把番茄酱浇在意大利面上。 | 2
+ketchup | /ˈkɛtʃəp/ | 番茄酱 | Would you like ketchup with your fries? | 你的薯条要配番茄酱吗？ | 2
+mustard | /ˈmʌstərd/ | 芥末酱 | Add a little mustard to the sandwich. | 在三明治里加一点芥末酱。 | 2
+vinegar | /ˈvɪnɪɡər/ | 醋 | Use vinegar to make the salad dressing sharper. | 用醋让沙拉酱更有酸味。 | 3
+sugarcane | /ˈʃʊɡərkeɪn/ | 甘蔗 | Sugarcane juice is sold at the street market. | 街市上有卖甘蔗汁。 | 4
+dessert | /dɪˈzɜrt/ | 甜点 | What is for dessert tonight? | 今晚的甜点是什么？ | 2
+pudding | /ˈpʊdɪŋ/ | 布丁 | The chocolate pudding was smooth and rich. | 巧克力布丁口感顺滑浓郁。 | 2
+yogurt | /ˈjoʊɡərt/ | 酸奶 | I eat plain yogurt with fresh berries. | 我吃原味酸奶配新鲜浆果。 | 2
+biscuit | /ˈbɪskɪt/ | 饼干 | She dipped the biscuit into her tea. | 她把饼干蘸进茶里。 | 2
+pie | /paɪ/ | 派 | Apple pie is served warm with cream. | 苹果派配奶油趁热端上桌。 | 2
+pancake | /ˈpænkeɪk/ | 煎饼; 薄饼 | We ate pancakes with maple syrup on Sunday. | 星期天我们吃了配枫糖浆的煎饼。 | 2
+waffle | /ˈwɑfəl/ | 华夫饼 | The waffles were crispy outside and soft inside. | 华夫饼外脆里软。 | 2
+muffin | /ˈmʌfɪn/ | 玛芬蛋糕 | I bought a blueberry muffin at the cafe. | 我在咖啡馆买了一个蓝莓玛芬。 | 2
+doughnut | /ˈdoʊnʌt/ | 甜甜圈 | He ate a sugary doughnut with his coffee. | 他一边喝咖啡一边吃一个甜甜圈。 | 2
+sweets | /swits/ | 糖果; 甜食 | The kids were given sweets after the match. | 比赛结束后孩子们得到了糖果。 | 2
+gum | /ɡʌm/ | 口香糖 | Please do not chew gum in class. | 上课时请不要嚼口香糖。 | 2
+crisps | /krɪsps/ | 薯片 | She ate a packet of crisps during the film. | 她在看电影时吃了一袋薯片。 | 2
+popcorn | /ˈpɑpkɔrn/ | 爆米花 | Popcorn is the best snack for movie nights. | 爆米花是看电影时最棒的零食。 | 2
+nut | /nʌt/ | 坚果 | Nuts are a healthy snack, but high in fat. | 坚果是健康的零食，但脂肪含量高。 | 2
+peanut | /ˈpinʌt/ | 花生 | Peanut butter is spread on the bread. | 花生酱抹在面包上。 | 2
+almond | /ˈɑmənd/ | 杏仁 | Almond milk is a popular dairy-free drink. | 杏仁奶是一种受欢迎的无乳制品饮料。 | 3
+walnut | /ˈwɔlnʌt/ | 核桃 | Chop the walnuts and add them to the cake. | 把核桃切碎加进蛋糕里。 | 2
+raisin | /ˈreɪzn/ | 葡萄干 | She added raisins to the oatmeal. | 她往燕麦粥里加了葡萄干。 | 3
+oatmeal | /ˈoʊtmil/ | 燕麦片; 燕麦粥 | Oatmeal with fruit makes a filling breakfast. | 加水果的燕麦粥是一顿很饱腹的早餐。 | 3
+recipe | /ˈrɛsəpi/ | 食谱; 做法 | Follow the recipe step by step. | 一步一步按照食谱做。 | 3
+ingredient | /ɪnˈɡridiənt/ | 原料; 配料 | Mix all the ingredients in a large bowl. | 把所有配料放进大碗里混合。 | 3
+seasoning | /ˈsizənɪŋ/ | 调味料 | Add more seasoning if the soup tastes bland. | 如果汤味道淡，就再加些调味料。 | 3
+spice | /spaɪs/ | 香料 | Cinnamon is a warm, sweet spice. | 肉桂是一种温暖甜美的香料。 | 3
+basil | /ˈbeɪzəl/ | 罗勒 | Tear a few leaves of basil over the pizza. | 在披萨上撕几片罗勒叶。 | 3
+parsley | /ˈpɑrsli/ | 欧芹 | Sprinkle chopped parsley on the fish. | 在鱼上撒一些切碎的欧芹。 | 3
+ginger | /ˈdʒɪndʒər/ | 姜 | Add slices of fresh ginger to the tea. | 往茶里加几片新鲜的姜。 | 3
+cinnamon | /ˈsɪnəmən/ | 肉桂; 桂皮 | Sprinkle cinnamon on the apple slices. | 在苹果片上撒一些肉桂粉。 | 3
+# B1
+grill | /ɡrɪl/ | 烤架; 烧烤 | We grill vegetables and chicken in summer. | 夏天我们烧烤蔬菜和鸡肉。 | 3
+fry | /fraɪ/ | 油炸; 煎炒 | Fry the onions until they turn golden. | 把洋葱炒到变成金黄色。 | 3
+roast | /roʊst/ | 烤; 烘烤 | Roast the beef slowly in the oven. | 把牛肉放在烤箱里慢慢烤。 | 3
+steam | /stim/ | 蒸 | Steam the broccoli for five minutes. | 把西兰花蒸五分钟。 | 3
+stir | /stɜr/ | 搅拌; 翻炒 | Stir the sauce gently while it simmers. | 酱汁小火慢煮时要轻轻搅拌。 | 3
+chop | /tʃɑp/ | 切碎; 剁 | Chop the herbs finely before serving. | 上桌前把香草切得细碎一些。 | 3
+slice | /slaɪs/ | 切片; 一片 | Slice the bread thinly and toast it. | 把面包切薄片然后烤一下。 | 3
+peel | /pil/ | 削皮; 去皮 | Peel the apples before you cook them. | 烹饪前先把苹果削皮。 | 3
+spread | /sprɛd/ | 涂抹; 摊开 | Spread the jam evenly over the toast. | 把果酱均匀地抹在吐司上。 | 3
+thaw | /θɔ/ | 解冻 | Thaw the chicken in the fridge overnight. | 把鸡肉放进冰箱里过夜解冻。 | 4
+flavour | /ˈfleɪvər/ | 味道; 风味 | The lemon gives the cake a fresh flavour. | 柠檬为蛋糕带来清新的风味。 | 3
+spicy | /ˈspaɪsi/ | 辣的; 辛辣的 | I prefer spicy food with plenty of chilli. | 我更喜欢放了很多辣椒的辣味食物。 | 3
+crunchy | /ˈkrʌntʃi/ | 脆的; 嘎吱响的 | The crunchy apple is perfect for lunch. | 清脆的苹果很适合当午餐。 | 3
+soft | /sɔft/ | 软的; 柔软的 | The cake is soft and light in the middle. | 这块蛋糕中间松软轻盈。 | 2
+juicy | /ˈdʒusi/ | 多汁的 | The juicy steak was delicious. | 这块多汁的牛排非常美味。 | 3
+greasy | /ˈɡrisi/ | 油腻的 | The fried chicken was too greasy for me. | 炸鸡对我来说太油腻了。 | 3
+salty | /ˈsɔlti/ | 咸的 | The soup is too salty; add some water. | 汤太咸了，加点水吧。 | 2
+bland | /blænd/ | 无味的; 清淡的 | Add herbs so the soup is not bland. | 加些香草，让汤不至于没味道。 | 4
+delight | /dɪˈlaɪt/ | 使高兴; 美味 | The dessert was a delight to everyone. | 这道甜点让每个人都十分满意。 | 4
+starter | /ˈstɑrtər/ | 开胃菜; 头盘 | We shared a soup starter before the main course. | 主菜前我们分享了一份汤做的开胃菜。 | 3
+main course | /ˈmeɪn kɔrs/ | 主菜 | The main course arrived after a long wait. | 主菜等了很久才端上来。 | 3
+side dish | /ˈsaɪd dɪʃ/ | 配菜 | Fries are a popular side dish with burgers. | 薯条是汉堡很受欢迎的配菜。 | 3
+portion | /ˈpɔrʃən/ | 一份; 份量 | The portion was too big for one person. | 这一份对一个人来说太多了。 | 3
+buffet | /bəˈfeɪ/ | 自助餐 | We ate as much as we wanted at the buffet. | 我们在自助餐厅想吃多少吃多少。 | 3
+takeaway | /ˈteɪkəweɪ/ | 外卖; 打包的食物 | We ordered a takeaway curry for dinner. | 我们晚饭点了一份外卖咖喱。 | 3
+leftovers | /ˈlɛftoʊvərz/ | 剩菜; 剩饭 | We ate the leftovers from last night. | 我们吃了昨晚剩下的菜。 | 3
+# B2
+marinate | /ˈmærɪneɪt/ | 腌制; 浸泡调味 | Marinate the chicken in lemon and garlic overnight. | 把鸡肉用柠檬和大蒜腌一夜。 | 4
+simmer | /ˈsɪmər/ | 文火慢炖; 微沸 | Let the stew simmer gently for an hour. | 让炖菜小火慢炖一个小时。 | 4
+sear | /sɪr/ | 煎封; 快速煎至表面焦黄 | Sear the steak on both sides before roasting it. | 烤之前先把牛排两面煎封。 | 5
+whisk | /wɪsk/ | 打发; 搅打 | Whisk the eggs until they become frothy. | 把鸡蛋打到起泡沫。 | 4
+knead | /nid/ | 揉面 | Knead the dough for ten minutes until smooth. | 把面团揉十分钟直到光滑。 | 4
+sprinkle | /ˈsprɪŋkl/ | 撒; 洒 | Sprinkle some sugar over the strawberries. | 在草莓上撒一些糖。 | 4
+garnish | /ˈɡɑrnɪʃ/ | 装饰; 点缀 | Garnish the soup with fresh coriander. | 用新鲜香菜装饰汤品。 | 4
+toss | /tɔs/ | 翻拌; 抛 | Toss the pasta with olive oil and herbs. | 用橄榄油和香草把意面拌匀。 | 4
+baste | /beɪst/ | 涂油汁; 浇汁 | Baste the turkey with its juices every half hour. | 每半小时用火鸡汁水为火鸡刷汁。 | 5
+braise | /breɪz/ | 炖; 焖 | Braise the beef in red wine until tender. | 用红酒把牛肉焖到软嫩。 | 5
+blend | /blɛnd/ | 搅拌成泥; 混合 | Blend the tomatoes into a smooth sauce. | 把番茄打成顺滑的酱汁。 | 4
+grate | /ɡreɪt/ | 磨碎; 擦成丝 | Grate some parmesan over the pasta. | 在意面上擦一些帕玛森奶酪碎。 | 4
+mash | /mæʃ/ | 捣碎; 捣成泥 | Mash the boiled potatoes with milk and butter. | 用牛奶和黄油把煮好的土豆捣成泥。 | 4
+crush | /krʌʃ/ | 压碎; 捣碎 | Crush the garlic cloves with the side of a knife. | 用刀背把蒜瓣压碎。 | 4
+fillet | /ˈfɪlɪt/ | 鱼片; 去骨肉片 | Ask the chef for a salmon fillet with lemon. | 请厨师做一份带柠檬的三文鱼排。 | 4
+cuisine | /kwɪˈzin/ | 菜系; 烹饪风格 | Thai cuisine is famous for its spicy flavours. | 泰国菜以辛辣的风味而闻名。 | 4
+dietary | /ˈdaɪəteri/ | 饮食的 | Please tell us about any dietary restrictions. | 请告诉我们任何饮食上的限制。 | 4
+vegan | /ˈvigən/ | 纯素食者; 纯素的 | The café offers several vegan options. | 这家咖啡馆提供几种纯素选择。 | 4
+vegetarian | /ˌvɛdʒəˈtɛriən/ | 素食者; 素食的 | My brother has been vegetarian for five years. | 我哥哥吃素已经五年了。 | 4
+gluten | /ˈɡlutn/ | 麸质 | People with coeliac disease must avoid gluten. | 患有乳糜泻的人必须避免摄入麸质。 | 5
+nutrition | /nuˈtrɪʃən/ | 营养; 营养学 | Check the label for nutrition information. | 查看标签上的营养信息。 | 4
+carbohydrate | /ˌkɑrboʊˈhaɪdreɪt/ | 碳水化合物 | Bread and pasta are rich in carbohydrates. | 面包和意面富含碳水化合物。 | 5
+fibre | /ˈfaɪbər/ | 纤维 | Oats and beans provide plenty of fibre. | 燕麦和豆类能提供大量膳食纤维。 | 4
+cholesterol | /kəˈlɛstərɔl/ | 胆固醇 | Fried foods can raise your cholesterol. | 油炸食品会升高胆固醇。 | 5
+additive | /ˈædɪtɪv/ | 添加剂 | Many snacks contain artificial additives. | 许多零食含有人工添加剂。 | 5
+preservative | /prɪˈzɜrvətɪv/ | 防腐剂 | This sauce has no artificial preservatives. | 这种酱料不含人工防腐剂。 | 5
+ripe | /raɪp/ | 成熟的 | Choose a ripe avocado for the salad. | 沙拉要选一个熟透的牛油果。 | 4
+rotten | /ˈrɑtn/ | 腐烂的 | Throw away any rotten apples in the box. | 把箱子里烂掉的苹果扔掉。 | 4
+stale | /steɪl/ | 不新鲜的; 放坏的 | The bread is stale and hard to chew. | 这面包不新鲜了，很难嚼。 | 4
+expire | /ɪkˈspaɪər/ | 过期; 失效 | Check when the milk will expire. | 查一下牛奶什么时候过期。 | 4
+hygiene | /ˈhaɪdʒin/ | 卫生; 卫生习惯 | Food hygiene rules must be followed in restaurants. | 餐馆必须遵守食品卫生规定。 | 5
+contaminate | /kənˈtæmɪneɪt/ | 污染; 使受污染 | Raw meat can contaminate other foods in the fridge. | 生肉可能会污染冰箱里的其他食物。 | 5
+allergy | /ˈæləri/ | 过敏 | She has an allergy to peanuts. | 她对花生过敏。 | 4
+intolerance | /ɪnˈtɑlərəns/ | 不耐受 | He has lactose intolerance and avoids dairy. | 他乳糖不耐受，所以避免乳制品。 | 5
+bistro | /ˈbistroʊ/ | 小酒馆; 小餐馆 | We had a relaxed dinner at a small bistro. | 我们在一家小餐馆里悠闲地吃了晚饭。 | 4
+tasting menu | /ˈteɪstɪŋ ˈmɛnju/ | 品尝套餐 | The tasting menu included seven small courses. | 这份品尝套餐包括七道小菜。 | 4
+# C1
+gourmet | /ˈɡʊrmeɪ/ | 美食家; 精美的 | The gourmet meal was served on fine porcelain. | 这顿美食套餐用上好的瓷器盛装上桌。 | 5
+epicure | /ˈɛpɪkjʊr/ | 老饕; 讲究吃喝的人 | The epicure travels the world to taste new dishes. | 这位老饕周游世界品尝新菜。 | 6
+delicacy | /ˈdɛlɪkəsi/ | 美味佳肴; 珍馐 | Caviar is considered a delicacy in many countries. | 在许多国家，鱼子酱被视为珍馐。 | 5
+morsel | /ˈmɔrsl/ | 一小口; 小块 | She saved the last morsel of cake for her brother. | 她把最后一小块蛋糕留给了哥哥。 | 5
+savour | /ˈseɪvər/ | 细细品味; 享受 | Savour each bite of the dessert slowly. | 慢慢地细细品尝甜点的每一口。 | 5
+flavourful | /ˈfleɪvərfəl/ | 味道浓郁的 | The flavourful broth was made from slow-cooked bones. | 这份味道浓郁的高汤是由慢炖的骨头熬成的。 | 5
+aromatic | /ˌærəˈmætɪk/ | 芳香的 | The aromatic coffee filled the whole kitchen. | 芳香的咖啡味道弥漫了整个厨房。 | 5
+pungent | /ˈpʌndʒənt/ | 刺鼻的; 辛辣的 | The pungent smell of the cheese filled the room. | 奶酪刺鼻的气味弥漫了房间。 | 5
+succulent | /ˈsʌkjələnt/ | 多汁鲜嫩的 | The succulent lamb was cooked to perfection. | 这块多汁鲜嫩的羊肉烹饪得恰到好处。 | 5
+palatable | /ˈpælətəbəl/ | 可口的; 味道可接受的 | The medicine was not very palatable, but it worked. | 这药味道不太好，但很有效。 | 5
+cuisine fusion | /kwɪˈzin ˈfjuʒən/ | 融合菜 | The restaurant specialises in cuisine fusion with local flavours. | 这家餐厅专做融合当地风味的融合菜。 | 5
+sommelier | /ˌsʌməlˈjeɪ/ | 侍酒师 | The sommelier recommended a dry white wine. | 侍酒师推荐了一款干白葡萄酒。 | 5
+distillery | /dɪˈstɪləri/ | 酿酒厂; 蒸馏厂 | We toured a whisky distillery in Scotland. | 我们参观了苏格兰的一家威士忌酿酒厂。 | 5
+brewery | /ˈbruəri/ | 啤酒厂 | The local brewery offers tours on Saturdays. | 当地的啤酒厂周六提供参观服务。 | 5
+vintage | /ˈvɪntɪdʒ/ | 年份酒; 年份 | This vintage wine was bottled in 1998. | 这瓶年份酒装瓶于1998年。 | 5
+aftertaste | /ˈæftərˌteɪst/ | 余味; 回味 | The wine has a long, smoky aftertaste. | 这款葡萄酒余味悠长，带有烟熏味。 | 5
+palate | /ˈpælət/ | 味觉; 口味 | Her palate is sensitive to sour flavours. | 她的味觉对酸味很敏感。 | 5
+epicurean | /ˌɛpɪkjʊˈriən/ | 讲究美食的; 享乐主义的 | He has epicurean tastes and loves rare ingredients. | 他的口味讲究，喜欢稀有食材。 | 6
+charcuterie | /ʃɑrˈkutəri/ | 肉制品; 熟肉店 | The platter included cheese and charcuterie. | 这盘拼盘有奶酪和各种肉制品。 | 6
+haute cuisine | /ˌoʊt kwɪˈzin/ | 高级料理; 法式精致餐饮 | The chef trained for years in haute cuisine. | 这位厨师在高级料理方面受过多年训练。 | 6
+umami | /uˈmɑmi/ | 鲜味 | Mushrooms and soy sauce add a rich umami flavour. | 蘑菇和酱油增添了浓郁的鲜味。 | 6
+astringent | /əˈstrɪndʒənt/ | 涩的; 收敛的 | Strong black tea can taste astringent. | 浓红茶尝起来可能有点涩。 | 6
+viscous | /ˈvɪskəs/ | 黏稠的 | The honey was thick and viscous. | 这蜂蜜又厚又黏稠。 | 6
+# more food and eating vocabulary
+fast food | /ˌfæst ˈfud/ | 快餐 | Fast food is quick, but it is not always healthy. | 快餐很快，但不一定健康。 | 2
+brunch | /brʌntʃ/ | 早午餐 | We met for brunch on Saturday morning. | 周六上午我们一起吃早午餐。 | 3
+supper | /ˈsʌpər/ | 晚餐; 夜宵 | We had a light supper before going to bed. | 睡前我们吃了一顿清淡的晚餐。 | 3
+flour | /ˈflaʊər/ | 面粉 | Sift the flour before you add it to the mixture. | 加入混合物之前先把面粉过筛。 | 2
+napkin | /ˈnæpkɪn/ | 餐巾 | Please wipe your mouth with a napkin. | 请用餐巾擦擦嘴。 | 2
+straw | /strɔ/ | 吸管; 稻草 | Drink your juice through a straw. | 用吸管喝你的果汁。 | 2
+jug | /dʒʌɡ/ | 水壶; 大罐 | Fill the jug with cold water from the tap. | 用水龙头的冷水把水壶装满。 | 2
+tray | /treɪ/ | 托盘 | The waiter carried the drinks on a tray. | 服务员用托盘端着饮料。 | 2
+lunch box | /ˈlʌntʃ ˌbɑks/ | 午餐盒 | Pack a piece of fruit in your lunch box. | 在你的午餐盒里装一块水果。 | 2
+chew | /tʃu/ | 咀嚼 | Chew your food slowly and enjoy every bite. | 慢慢咀嚼食物，享受每一口。 | 3
+bite | /baɪt/ | 咬; 一口 | Take a small bite of the cake first. | 先尝一小口蛋糕。 | 3
+sip | /sɪp/ | 小口喝 | Sip the hot tea slowly to avoid burning your tongue. | 慢慢小口喝热茶，免得烫到舌头。 | 3
+appetite | /ˈæpɪtaɪt/ | 食欲; 胃口 | Hot soup can improve your appetite when you are ill. | 生病时喝热汤能增进食欲。 | 4
+craving | /ˈkreɪvɪŋ/ | 渴望; 强烈的欲望 | I have a craving for something sweet tonight. | 今晚我特别想吃点甜的。 | 4
+aroma | /əˈroʊmə/ | 香气 | The aroma of fresh bread filled the whole street. | 新鲜面包的香气飘满了整条街。 | 4
+texture | /ˈtɛkstʃər/ | 口感; 质地 | I like the creamy texture of this cheese. | 我喜欢这种奶酪绵滑的口感。 | 4
+gulp | /ɡʌlp/ | 大口吞下 | He gulped down his coffee before the meeting. | 开会前他一口气把咖啡喝完了。 | 4
+swallow | /ˈswɑloʊ/ | 吞咽; 咽下 | It is hard to swallow dry bread without water. | 没有水的话很难咽下干面包。 | 4
+nibble | /ˈnɪbl/ | 小口咬; 慢慢吃 | She nibbled on biscuits while she was reading. | 她边看书边小口吃饼干。 | 5
+devour | /dɪˈvaʊər/ | 狼吞虎咽地吃 | The hungry boys devoured the pizza in minutes. | 饿坏了的男孩们几分钟就把披萨吃光了。 | 5
+feast | /fist/ | 盛宴; 大餐 | The wedding feast lasted until midnight. | 婚宴一直持续到午夜。 | 4
+banquet | /ˈbæŋkwɪt/ | 宴会; 盛宴 | The company held a banquet for its best staff. | 公司为最优秀的员工举办了一场宴会。 | 4
+skewer | /ˈskjuər/ | 串; 烤串 | The lamb skewers were grilled over charcoal. | 羊肉串在炭火上烤熟了。 | 4
+kebab | /kɪˈbɑb/ | 烤肉串 | We grabbed a chicken kebab from the street stall. | 我们在街边摊买了一串鸡肉烤肉串。 | 3
+dumpling | /ˈdʌmplɪŋ/ | 饺子; 汤圆 | We steamed dumplings for the family dinner. | 我们为全家晚餐蒸了饺子。 | 3
+broth | /brɔθ/ | 清汤; 肉汤 | Simmer the bones for hours to make a rich broth. | 把骨头慢炖几个小时熬出浓郁的高汤。 | 4
+stew | /stu/ | 炖菜; 炖 | Beef stew is perfect for cold winter nights. | 牛肉炖菜最适合寒冷的冬夜。 | 3
+casserole | /ˈkæsəroʊl/ | 砂锅菜; 焖烧菜 | She baked a chicken casserole for the dinner party. | 她为晚宴烤了一锅鸡肉焖菜。 | 4
+pickle | /ˈpɪkl/ | 腌菜; 泡菜 | We serve pickles with the burgers. | 汉堡配腌菜一起上。 | 3
+ferment | /fərˈmɛnt/ | 发酵 | Yeast helps the dough ferment slowly. | 酵母让面团慢慢发酵。 | 5
+yeast | /jist/ | 酵母 | Add yeast to warm water and wait ten minutes. | 把酵母加进温水里，等十分钟。 | 4
+sieve | /sɪv/ | 筛子; 过筛 | Pour the broth through a sieve to remove the bits. | 把高汤过滤网去掉碎渣。 | 4
+grater | /ˈɡreɪtər/ | 擦丝器; 擦菜器 | Use a fine grater for the lemon zest. | 用细擦丝器来擦柠檬皮屑。 | 4
+teaspoon | /ˈtiˌspun/ | 茶匙 | Add half a teaspoon of salt to the water. | 往水里加半茶匙盐。 | 3
+tablespoon | /ˈteɪblˌspun/ | 汤匙; 大勺 | Add one tablespoon of oil to the pan. | 往锅里加一汤匙油。 | 3
+litre | /ˈlitər/ | 升 | Buy two litres of milk for the week. | 这周买两升牛奶。 | 3
+ounce | /aʊns/ | 盎司 | One ounce of cheese weighs about twenty-eight grams. | 一盎司奶酪大约重二十八克。 | 4
+pinch | /pɪntʃ/ | 一撮; 少量 | Add a pinch of pepper to the sauce. | 往酱汁里加一小撮胡椒粉。 | 3
+dash | /dæʃ/ | 少许; 一点点 | Add a dash of lemon juice to the drink. | 往饮料里加一点点柠檬汁。 | 4
+corkscrew | /ˈkɔrkˌskru/ | 开瓶器 | Use the corkscrew to open the wine bottle. | 用开瓶器打开葡萄酒瓶。 | 4
+cutlery | /ˈkʌtləri/ | 餐具 | Put the clean cutlery back in the drawer. | 把洗干净的餐具放回抽屉里。 | 4
+# more ingredients and dishes
+mince | /mɪns/ | 肉馅; 绞碎 | Brown the mince in a hot pan. | 把肉馅放进热锅里炒至微黄。 | 4
+shrimp | /ʃrɪmp/ | 虾 | Shrimp cook quickly in boiling water. | 虾在开水里很快就熟了。 | 2
+pear | /pɛr/ | 梨 | This pear is ripe and sweet. | 这个梨熟了，很甜。 | 2
+plum | /plʌm/ | 李子 | A ripe plum is soft and juicy. | 熟透的李子又软又多汁。 | 3
+melon | /ˈmɛlən/ | 甜瓜 | Chill the melon before you slice it. | 切之前先把甜瓜冰镇一下。 | 2
+watermelon | /ˈwɔtərˌmɛlən/ | 西瓜 | We ate watermelon on the beach in summer. | 夏天我们在海滩上吃西瓜。 | 2
+lime | /laɪm/ | 青柠 | Squeeze some lime over the grilled fish. | 在烤鱼上挤一些青柠汁。 | 3
+avocado | /ˌævəˈkɑdoʊ/ | 牛油果 | Mash the avocado and spread it on toast. | 把牛油果捣成泥，抹在吐司上。 | 3
+broccoli | /ˈbrɑkəli/ | 西兰花 | Steam the broccoli until it is bright green. | 把西兰花蒸到颜色翠绿。 | 2
+celery | /ˈsɛləri/ | 芹菜 | Add celery to the soup for extra crunch. | 往汤里加些芹菜，增添脆口感。 | 3
+pea | /pi/ | 豌豆 | Frozen peas are quick to cook. | 冷冻豌豆很快就能煮熟。 | 2
+leek | /lik/ | 韭葱 | Slice the leek and fry it in butter. | 把韭葱切片，用黄油炒一下。 | 4
+radish | /ˈrædɪʃ/ | 萝卜 | Crisp radish slices make a nice salad topping. | 脆脆的萝卜片是很好的沙拉配料。 | 3
+aubergine | /ˈoʊbərʒin/ | 茄子 | Roast the aubergine until it is soft. | 把茄子烤到软烂。 | 4
+bagel | /ˈbeɪɡəl/ | 贝果; 百吉饼 | I ate a bagel with cream cheese for breakfast. | 我早餐吃了一个配奶油奶酪的贝果。 | 3
+cracker | /ˈkrækər/ | 薄脆饼干 | Serve the cheese with crackers. | 奶酪要配薄脆饼干一起上。 | 2
+pretzel | /ˈprɛtsl/ | 椒盐脆饼 | Salty pretzels are great with beer. | 咸味椒盐脆饼配啤酒很棒。 | 4
+pastry | /ˈpeɪstri/ | 糕点; 酥皮面团 | The pastry shop sells fresh croissants. | 这家糕点店卖新鲜的牛角包。 | 3
+custard | /ˈkʌstərd/ | 蛋奶酱 | Pour hot custard over the apple pie. | 把热蛋奶酱浇在苹果派上。 | 4
+brownie | /ˈbraʊni/ | 布朗尼 | The chocolate brownie was rich and fudgy. | 这块巧克力布朗尼浓郁绵软。 | 3
+cheesecake | /ˈtʃizkeɪk/ | 芝士蛋糕 | Cheesecake is my favourite dessert. | 芝士蛋糕是我最喜欢的甜点。 | 3
+tofu | /ˈtoʊfu/ | 豆腐 | Fry the tofu until the outside is crispy. | 把豆腐煎到外皮酥脆。 | 3
+soy sauce | /ˈsɔɪ ˌsɔs/ | 酱油 | Add a splash of soy sauce to the rice. | 往米饭里加一点酱油。 | 3
+curry | /ˈkɜri/ | 咖喱; 咖喱菜 | This chicken curry is spicy and creamy. | 这道鸡肉咖喱又辣又香滑。 | 3
+sushi | /ˈsuʃi/ | 寿司 | We ordered sushi and miso soup. | 我们点了寿司和味噌汤。 | 2
+taco | /ˈtɑkoʊ/ | 墨西哥卷饼 | She filled the taco with beef and cheese. | 她在墨西哥卷饼里填满了牛肉和奶酪。 | 2
+soda | /ˈsoʊdə/ | 苏打水; 汽水 | Would you like a soda with your lunch? | 午饭时你想来杯汽水吗？ | 2
+lemonade | /ˌlɛməˈneɪd/ | 柠檬水 | We sipped cold lemonade on the porch. | 我们在门廊上小口喝着冰柠檬水。 | 2
+smoothie | /ˈsmuði/ | 冰沙; 奶昔 | I blend banana and yogurt into a smoothie. | 我把香蕉和酸奶搅成冰沙。 | 2
+espresso | /ɛˈsprɛsoʊ/ | 浓缩咖啡 | A double espresso keeps me awake all morning. | 一杯双份浓缩咖啡让我整个上午都很清醒。 | 4
+latte | /ˈlɑti/ | 拿铁咖啡 | I ordered a latte with oat milk. | 我点了一杯加燕麦奶的拿铁。 | 3
+milkshake | /ˈmɪlkʃeɪk/ | 奶昔 | Kids love a chocolate milkshake. | 孩子们喜欢巧克力奶昔。 | 2
+champagne | /ʃæmˈpeɪn/ | 香槟 | They opened a bottle of champagne to celebrate. | 他们开了一瓶香槟庆祝。 | 4
+whisky | /ˈwɪski/ | 威士忌 | He likes a glass of whisky after dinner. | 他喜欢晚饭后喝一杯威士忌。 | 4
+vodka | /ˈvɑdkə/ | 伏特加 | Add a shot of vodka to the orange juice. | 在橙汁里加一杯伏特加。 | 3
+lager | /ˈlɑɡər/ | 拉格啤酒 | A cold lager is perfect after the match. | 比赛后来一杯冰拉格啤酒正合适。 | 4
+mineral water | /ˈmɪnərəl ˈwɔtər/ | 矿泉水 | Bottled mineral water is sold at every shop. | 每家商店都卖瓶装矿泉水。 | 3
+fizzy | /ˈfɪzi/ | 起泡的; 有气泡的 | I prefer fizzy water to still water. | 我比起平静的水更喜欢气泡水。 | 3
+crispy | /ˈkrɪspi/ | 脆的 | The crispy bacon was perfect with eggs. | 脆脆的培根配鸡蛋正好。 | 3
+savoury | /ˈseɪvəri/ | 咸味的; 鲜美的 | Cheese scones are a savoury treat for tea time. | 奶酪司康是下午茶时间的咸味点心。 | 4
+breadcrumbs | /ˈbrɛdˌkrʌmz/ | 面包屑; 面包糠 | Coat the fish in breadcrumbs before frying. | 炸鱼之前先裹上一层面包糠。 | 4
+dough | /doʊ/ | 面团 | Let the dough rest for an hour. | 让面团静置一个小时。 | 3
+crust | /krʌst/ | 面包皮; 外壳 | The crust of the pie was golden and flaky. | 派的外皮金黄酥脆。 | 3

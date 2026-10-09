@@ -6,7 +6,7 @@ import { detectUiLanguage, isUiLanguage } from '../i18n';
 import { LocalizedError, type LocalizedMessage } from '../i18n/errors';
 
 export const SCHEMA_VERSION = 3;
-const CURRICULUM_IDS: Curriculum[] = ['hsk3_2026', 'hsk3_2021', 'hsk2', 'cefr', 'cet'];
+const CURRICULUM_IDS: Curriculum[] = ['hsk3_2026', 'hsk3_2021', 'hsk2', 'cefr', 'cet', 'domain'];
 const THEMES: ThemePref[] = ['system', 'light', 'dark'];
 const KEY = 'adilingo:state';
 const LEGACY_KEY = 'hanzi-flow:state';

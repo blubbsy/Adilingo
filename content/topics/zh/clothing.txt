@@ -1,0 +1,159 @@
+@pack | clothing | Clothing & Fashion | 服饰与穿搭 | 👗 | lifestyle | Apparel, footwear, accessories, jewelry, and getting dressed.
+穿 | to wear; to put on | 今天天气冷，你要多穿一点。 | It is cold today, so you should wear more.
+戴 | to wear (accessories); to put on | 出门的时候别忘了戴帽子。 | Don't forget to wear a hat when you go out.
+衣服 | clothes; clothing | 这件衣服是新买的。 | This piece of clothing was newly bought.
+裤子 | trousers; pants | 这条裤子有点儿长。 | These trousers are a little long.
+鞋 | shoe | 我想买一双新鞋。 | I want to buy a new pair of shoes.
+鞋子 | shoes | 她的鞋子放在门口。 | Her shoes are by the door.
+帽子 | hat; cap | 他戴着一顶红色的帽子。 | He is wearing a red hat.
+裙子 | skirt | 这条裙子很适合你。 | This skirt suits you very well.
+衬衫 | shirt; blouse | 他每天都穿白衬衫上班。 | He wears a white shirt to work every day.
+外套 | coat; jacket | 外面下雨了，带上外套吧。 | It is raining outside, take a jacket.
+大衣 | overcoat | 冬天我喜欢穿长大衣。 | In winter I like wearing a long overcoat.
+毛衣 | sweater | 奶奶给我织了一件毛衣。 | Grandma knitted me a sweater.
+连衣裙 | dress | 她穿着一条黄色的连衣裙。 | She is wearing a yellow dress.
+西装 | suit | 面试的时候他穿了西装。 | He wore a suit to the interview.
+运动鞋 | sneakers; sports shoes | 这双运动鞋很轻。 | These sports shoes are very light.
+皮鞋 | leather shoes | 他的皮鞋擦得很亮。 | His leather shoes are polished until shiny.
+袜子 | socks | 我的袜子破了一个洞。 | My sock has a hole in it.
+手套 | gloves | 冬天出门要戴手套。 | You should wear gloves when going out in winter.
+围巾 | scarf | 她送给我一条红围巾。 | She gave me a red scarf.
+皮带 | belt | 这条皮带太紧了。 | This belt is too tight.
+领带 | necktie | 爸爸今天系了一条蓝领带。 | Dad is wearing a blue tie today.
+眼镜 | glasses | 他没戴眼镜就看不清。 | He cannot see clearly without his glasses.
+墨镜 | sunglasses | 阳光很强，你可以戴墨镜。 | The sun is strong, you can wear sunglasses.
+手表 | wristwatch | 这块手表是爷爷留给我的。 | Grandpa left me this watch.
+包 | bag | 她的包里装满了东西。 | Her bag is full of things.
+书包 | school bag | 孩子背着书包去上学。 | The child goes to school carrying a schoolbag.
+钱包 | wallet; purse | 我的钱包不见了。 | My wallet is missing.
+雨伞 | umbrella | 出门请带一把雨伞。 | Please take an umbrella when you go out.
+T恤 | T-shirt | 夏天穿纯棉T恤很舒服。 | Wearing a cotton T-shirt is very comfortable in summer.
+牛仔裤 | jeans | 他喜欢穿蓝色牛仔裤。 | He likes wearing blue jeans.
+短裤 | shorts | 夏天男孩们都穿短裤。 | In summer the boys all wear shorts.
+长裤 | long trousers | 天冷了，该换长裤了。 | It's getting cold, time to switch to long trousers.
+短袖 | short sleeves | 他穿了一件短袖去跑步。 | He wore a short-sleeved shirt to go running.
+长袖 | long sleeves | 这件长袖衬衫很适合春天。 | This long-sleeved shirt suits spring well.
+衣领 | collar | 他整理了一下衣领。 | He straightened his collar.
+袖子 | sleeve | 这件衣服的袖子太长了。 | The sleeves of this garment are too long.
+口袋 | pocket | 我把手机放进口袋里。 | I put my phone into my pocket.
+扣子 | button | 衬衫上掉了一颗扣子。 | A button came off the shirt.
+拉链 | zipper | 外套的拉链坏了。 | The zipper of the coat is broken.
+布料 | fabric; material | 这种布料摸起来很软。 | This fabric feels very soft.
+棉 | cotton | 婴儿的衣服最好用棉做。 | Baby clothes are best made of cotton.
+丝绸 | silk | 中国的丝绸世界有名。 | Chinese silk is world famous.
+羊毛 | wool | 这件大衣是羊毛做的。 | This coat is made of wool.
+皮 | leather; skin | 他买了一个皮钱包。 | He bought a leather wallet.
+内衣 | underwear | 她给孩子买了几件内衣。 | She bought several pieces of underwear for the child.
+内裤 | underpants | 内裤要每天换洗。 | Underpants should be changed and washed every day.
+睡衣 | pajamas | 他穿着睡衣开了门。 | He opened the door in his pajamas.
+泳衣 | swimsuit | 去海边要带泳衣。 | Bring a swimsuit when going to the seaside.
+校服 | school uniform | 学生们都穿着蓝色的校服。 | The students all wear blue school uniforms.
+制服 | uniform | 警察穿着整齐的制服。 | The police officer wears a neat uniform.
+工作服 | work clothes | 工人们换上了工作服。 | The workers changed into their work clothes.
+雨衣 | raincoat | 骑车的时候我穿雨衣。 | I wear a raincoat when riding a bike.
+凉鞋 | sandals | 夏天穿凉鞋很凉快。 | Sandals are cool to wear in summer.
+拖鞋 | slippers | 进门请换拖鞋。 | Please change into slippers when you enter.
+靴子 | boots | 下雪天她穿了一双靴子。 | She wore a pair of boots on the snowy day.
+高跟鞋 | high heels | 她不习惯穿高跟鞋走路。 | She is not used to walking in high heels.
+鞋带 | shoelace | 你的鞋带松了。 | Your shoelace is loose.
+鞋底 | sole | 这双鞋的鞋底很厚。 | The soles of these shoes are thick.
+鞋码 | shoe size | 请问你的鞋码是多少？ | What is your shoe size, please?
+尺码 | size | 这件衬衫有大号的尺码吗？ | Does this shirt come in a large size?
+大号 | large size | 我要一件大号的T恤。 | I want a large-size T-shirt.
+中号 | medium size | 中号的刚好合适。 | The medium size fits just right.
+小号 | small size | 孩子穿小号就够了。 | A small size is enough for the child.
+合身 | well-fitting | 这件西装穿着很合身。 | This suit fits very well.
+合适 | suitable; fitting | 这双鞋的大小正合适。 | The size of these shoes is just right.
+肥 | loose; baggy | 这条裤子有点儿肥。 | These trousers are a bit baggy.
+瘦 | tight; slim | 这件衣服穿着太瘦了。 | This garment is too tight to wear.
+宽松 | loose-fitting | 夏天适合穿宽松的衣服。 | Loose-fitting clothes suit summer.
+紧身 | tight-fitting | 她不喜欢紧身的牛仔裤。 | She doesn't like tight-fitting jeans.
+试穿 | to try on | 我可以试穿一下吗？ | May I try it on?
+试衣间 | fitting room | 试衣间在商店的最里面。 | The fitting room is at the back of the shop.
+换衣服 | to change clothes | 我回家先换衣服。 | I change clothes first when I get home.
+脱 | to take off | 进屋以后请把外套脱了。 | Please take off your coat after entering the room.
+系 | to tie; to fasten | 他蹲下来系鞋带。 | He squatted down to tie his shoelaces.
+扣 | to button up | 外面很冷，把扣子扣好。 | It is cold outside, button up properly.
+拉上 | to zip up | 她把拉链拉上了。 | She zipped up the zipper.
+卷起 | to roll up | 他卷起袖子开始干活。 | He rolled up his sleeves and started working.
+打扮 | to dress up; appearance | 她今天打扮得很漂亮。 | She is dressed up very prettily today.
+搭配 | to match; combination | 这条围巾和大衣搭配得很好。 | This scarf matches the coat very well.
+时尚 | fashionable; fashion | 她总是穿得很时尚。 | She always dresses fashionably.
+流行 | popular; in vogue | 今年流行宽松的外套。 | Loose coats are in vogue this year.
+款式 | style; design | 这个款式年轻人很喜欢。 | Young people like this style a lot.
+样式 | pattern; style | 这件衣服的样式很特别。 | The style of this garment is very special.
+颜色 | color | 你喜欢什么颜色的裙子？ | What color of skirt do you like?
+花纹 | pattern; print | 窗帘上有漂亮的花纹。 | The curtains have a beautiful pattern.
+条纹 | stripes | 他喜欢穿条纹衬衫。 | He likes wearing striped shirts.
+格子 | plaid; checks | 这件格子衬衫是我哥哥的。 | This plaid shirt is my brother's.
+碎花 | small floral print | 她穿了一条碎花连衣裙。 | She wore a dress with a small floral print.
+纯色 | solid color | 纯色的衣服更容易搭配。 | Solid-color clothes are easier to match.
+名牌 | famous brand | 他不喜欢买名牌衣服。 | He doesn't like buying famous-brand clothes.
+品牌 | brand | 这个品牌的运动鞋很舒服。 | The sneakers of this brand are very comfortable.
+旧 | old; worn | 这件旧毛衣我还想穿。 | I still want to wear this old sweater.
+新 | new | 她今天穿了一条新裙子。 | She wore a new skirt today.
+干净 | clean | 孩子穿着干净的白衬衫。 | The child wears a clean white shirt.
+脏 | dirty | 你的裤子上有点儿脏。 | There is some dirt on your trousers.
+洗衣服 | to wash clothes | 周末我在家洗衣服。 | I wash clothes at home on weekends.
+晾衣服 | to hang clothes to dry | 阳台上有人在晾衣服。 | Someone is hanging clothes to dry on the balcony.
+熨 | to iron | 他把衬衫熨得很平。 | He ironed the shirt flat.
+衣架 | clothes hanger | 请把外套挂在衣架上。 | Please hang the coat on the hanger.
+衣柜 | wardrobe | 衣柜里挂满了衣服。 | The wardrobe is full of hanging clothes.
+缝 | to sew | 奶奶帮我缝好了扣子。 | Grandma sewed the button back on for me.
+针 | needle | 她用针线补了一下裤子。 | She mended the trousers with needle and thread.
+线 | thread | 这件衣服的线头露出来了。 | A thread end is showing on this garment.
+裁缝 | tailor; seamstress | 这条裙子是裁缝做的。 | This skirt was made by a tailor.
+定做 | to make to order | 他的西装是在店里定做的。 | His suit was made to order at a shop.
+修改 | to alter | 请帮我把裤腿修改一下。 | Please alter the trouser legs for me.
+裤腿 | trouser leg | 这条裤子的裤腿太短了。 | The legs of these trousers are too short.
+领口 | neckline | 这件毛衣的领口很大。 | The neckline of this sweater is wide.
+腰 | waist | 这条裙子的腰太松了。 | The waist of this skirt is too loose.
+下摆 | hem | 外套的下摆有点儿脏。 | The hem of the coat is a little dirty.
+帽衫 | hoodie | 他喜欢在周末穿帽衫。 | He likes wearing a hoodie on weekends.
+背心 | vest; tank top | 夏天他常常穿背心。 | In summer he often wears a tank top.
+马甲 | vest; waistcoat | 她在衬衫外面穿了一件马甲。 | She wore a vest over her shirt.
+夹克 | jacket | 这件皮夹克很帅气。 | This leather jacket looks very cool.
+羽绒服 | down jacket | 北方的冬天要穿羽绒服。 | You need a down jacket in northern winters.
+风衣 | trench coat | 秋天她爱穿一件米色风衣。 | In autumn she loves wearing a beige trench coat.
+棉衣 | cotton-padded coat | 他给孩子买了一件棉衣。 | He bought the child a padded coat.
+旗袍 | qipao; cheongsam | 她穿旗袍的样子很优雅。 | She looks elegant in a qipao.
+唐装 | Tang suit | 过年的时候爷爷穿了唐装。 | Grandpa wore a Tang suit at the New Year.
+汉服 | Hanfu | 公园里有人穿着汉服拍照。 | People in Hanfu are taking photos in the park.
+婚纱 | wedding dress | 新娘的婚纱洁白漂亮。 | The bride's wedding dress is white and beautiful.
+礼服 | formal dress | 她为晚会准备了一件礼服。 | She prepared a formal dress for the party.
+正装 | formal wear | 参加会议请穿正装。 | Please wear formal clothes to the meeting.
+便装 | casual wear | 周五公司可以穿便装。 | On Fridays you can wear casual clothes at the company.
+休闲 | casual; leisure | 他穿着一身休闲的衣服。 | He is dressed in casual clothes.
+运动服 | sportswear | 她穿运动服去跑步。 | She goes running in sportswear.
+围裙 | apron | 妈妈系上围裙做饭。 | Mom puts on an apron to cook.
+口罩 | face mask | 感冒了就戴上口罩吧。 | Wear a face mask if you have a cold.
+耳环 | earrings | 她戴了一对银耳环。 | She wore a pair of silver earrings.
+项链 | necklace | 这条项链是妈妈送的。 | This necklace was a gift from Mom.
+戒指 | ring | 他给她买了一枚戒指。 | He bought her a ring.
+手镯 | bracelet | 奶奶有一只玉手镯。 | Grandma has a jade bracelet.
+首饰 | jewelry | 她把首饰放在盒子里。 | She keeps her jewelry in a box.
+珠宝 | jewels | 那家店卖各种珠宝。 | That shop sells all kinds of jewels.
+金 | gold | 这个戒指是金的。 | This ring is made of gold.
+银 | silver | 她喜欢银色的耳环。 | She likes silver-colored earrings.
+玉 | jade | 中国人喜欢戴玉。 | Chinese people like to wear jade.
+珍珠 | pearl | 那串珍珠项链很贵。 | That pearl necklace is expensive.
+钻石 | diamond | 钻石是最硬的石头。 | Diamond is the hardest stone.
+发夹 | hair clip | 小女孩戴着一个红发夹。 | The little girl wears a red hair clip.
+手帕 | handkerchief | 他从口袋里拿出一块手帕。 | He took a handkerchief from his pocket.
+领结 | bow tie | 他在晚会上戴了一个领结。 | He wore a bow tie at the party.
+背包 | backpack | 旅行时我背着一个大背包。 | I carry a big backpack when traveling.
+手提包 | handbag | 她新买了一个手提包。 | She just bought a new handbag.
+行李箱 | suitcase | 我的行李箱是黑色的。 | My suitcase is black.
+钥匙扣 | key ring | 这个钥匙扣是朋友送的。 | This key ring was a gift from a friend.
+太阳镜 | sunglasses | 她戴着太阳镜走在街上。 | She walks along the street wearing sunglasses.
+隐形眼镜 | contact lenses | 他平时戴隐形眼镜。 | He usually wears contact lenses.
+首饰盒 | jewelry box | 她的首饰盒里有很多耳环。 | Her jewelry box holds many earrings.
+布 | cloth | 她买了一块蓝色的布。 | She bought a piece of blue cloth.
+化纤 | synthetic fiber | 这件衣服是化纤做的。 | This garment is made of synthetic fiber.
+耐穿 | durable | 这双皮鞋很耐穿。 | This pair of leather shoes is very durable.
+保暖 | warm; to keep warm | 羽绒服非常保暖。 | Down jackets keep you very warm.
+透气 | breathable | 棉布衣服比较透气。 | Cotton clothes are more breathable.
+起球 | to pill | 这件毛衣洗了以后起球了。 | This sweater has pilled after washing.
+掉色 | to fade; to bleed color | 新牛仔裤第一次洗会掉色。 | New jeans bleed color the first time they are washed.
+缩水 | to shrink | 毛衣洗了以后缩水了。 | The sweater shrank after being washed.
+皱 | wrinkled | 这件衬衫皱得厉害。 | This shirt is badly wrinkled.

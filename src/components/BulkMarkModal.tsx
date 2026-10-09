@@ -3,6 +3,7 @@ import type { CourseId, HskLevel, UserState, VocabItem } from '../types';
 import { levelLabel } from '../data/vocab';
 import { bulkMarkLevelKnown } from '../utils/srsEngine';
 import { trackOf } from '../data/courses';
+import { parseDomainCourse } from '../data/domains';
 import { useI18n } from '../i18n/react';
 
 interface Props {
@@ -19,7 +20,9 @@ export function BulkMarkModal({ vocab, state, isOpen, course = state.settings.co
   if (!isOpen) return null;
 
   const isEnglish = trackOf(course) === 'english';
-  const levels: HskLevel[] = [1, 2, 3, 4, 5, 6];
+  const specialty = parseDomainCourse(course) !== null;
+  // Only the levels the active course actually has (a specialty course has three tiers)
+  const levels: HskLevel[] = ([1, 2, 3, 4, 5, 6] as HskLevel[]).filter((l) => vocab.some((v) => v.hskLevel === l));
 
   function isLevelFullyKnown(lvl: HskLevel): boolean {
     const words = vocab.filter((v) => v.hskLevel === lvl);
@@ -45,10 +48,10 @@ export function BulkMarkModal({ vocab, state, isOpen, course = state.settings.co
         </button>
 
         <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">
-          {t(isEnglish ? 'bulk.title.english' : 'bulk.title.chinese')}
+          {t(specialty ? 'bulk.title.tiers' : isEnglish ? 'bulk.title.english' : 'bulk.title.chinese')}
         </h3>
         <p className="mt-1 text-sm text-slate-500">
-          {t(isEnglish ? 'bulk.desc.english' : 'bulk.desc.chinese')}
+          {t(specialty ? 'bulk.desc.tiers' : isEnglish ? 'bulk.desc.english' : 'bulk.desc.chinese')}
         </p>
 
         <div className="mt-6 space-y-2.5">

@@ -1,0 +1,476 @@
+# Football (Soccer) domain course
+@domain | football | Football (Soccer) | 足球 | sports | Laws of the game, positions, tactics, set pieces, technique, fitness, officiating, competitions, equipment, commentary, fan culture and injuries.
+kick-off | 1 | Laws of the game | kick-off | 开球 |  | The kick that starts each half or restarts play after a goal. | The away team takes the kick-off after the goal. | 进球后由客队开球。 |
+goal | 1 | Laws of the game | goal | 进球 |  | The act of the whole ball crossing the goal line between the posts and under the crossbar. | The striker scored a late goal to win the match. | 前锋在比赛末段打进一个进球，赢下了比赛。 |
+match | 1 | Laws of the game | match | 比赛 |  | A contest between two teams played over two halves. | The match starts at eight o'clock tonight. | 这场比赛今晚八点开始。 |
+half | 1 | Laws of the game | half | 半场 |  | One of the two forty-five-minute periods of a match. | Our team played much better in the second half. | 我们队下半场踢得好多了。 |
+half-time | 1 | Laws of the game | half-time | 中场休息 |  | The break between the two halves of a match. | The coach changed the tactics at half-time. | 教练在中场休息时调整了战术。 |
+full-time | 1 | Laws of the game | full-time | 全场比赛结束 |  | The end of normal playing time at the final whistle. | The score was level at full-time. | 全场比赛结束时双方战平。 |
+extra-time | 2 | Laws of the game | extra time | 加时赛 |  | Two additional fifteen-minute periods played when a knockout match is level. | The final went to extra time after a 1-1 draw. | 决赛在1比1战平后进入加时赛。 |
+stoppage-time | 2 | Laws of the game | stoppage time | 补时 |  | Extra minutes added at the end of a half to compensate for lost time. | He scored in stoppage time to save the point. | 他在补时阶段进球，保住了一分。 |
+penalty-shootout | 2 | Laws of the game | penalty shootout | 点球大战 |  | A tiebreaker in which players alternately take penalty kicks until a winner emerges. | England lost the penalty shootout again. | 英格兰队再次输掉了点球大战。 |
+golden-goal | 3 | Laws of the game | golden goal | 金球制 |  | A former extra-time rule under which the first goal ended the match immediately. | The golden goal rule was abolished in 2004. | 金球制在2004年被废除。 |
+offside | 1 | Laws of the game | offside | 越位 |  | An illegal position of an attacker nearer the goal line than both the ball and the second-last defender when receiving a pass. | The goal was disallowed because he was offside. | 因为他越位，这个进球被判无效。 |
+offside-trap | 2 | Laws of the game | offside trap | 越位陷阱 |  | A defensive tactic in which the back line steps up together to catch attackers offside. | The defenders sprang the offside trap perfectly. | 后卫们完美地使用了越位陷阱。 |
+foul | 1 | Laws of the game | foul | 犯规 |  | An unfair act by a player that breaks the laws, such as kicking or tripping an opponent. | The referee blew for a foul on the winger. | 裁判因为对边锋的犯规吹响了哨子。 |
+free-kick | 1 | Laws of the game | free kick | 任意球 |  | A kick awarded to a team after an opponent commits a foul. | He curled the free kick into the top corner. | 他把任意球弧线球踢进了球门上角。 |
+direct-free-kick | 2 | Laws of the game | direct free kick | 直接任意球 |  | A free kick from which a goal can be scored directly against the opponent. | The direct free kick was taken from twenty-five metres. | 这个直接任意球是在二十五米处主罚的。 |
+indirect-free-kick | 3 | Laws of the game | indirect free kick | 间接任意球 |  | A free kick that must touch another player before a goal can be scored. | The goalkeeper handled a back-pass, so an indirect free kick was given. | 守门员用手接了回传球，因此判罚间接任意球。 |
+penalty-kick | 1 | Laws of the game | penalty kick | 点球 |  | A direct kick from the penalty spot awarded for a foul inside the penalty area. | The referee awarded a penalty kick to the visitors. | 裁判判给客队一个点球。 |
+penalty-area | 1 | Laws of the game | penalty area | 禁区 |  | The rectangular area in front of each goal in which the goalkeeper may handle the ball. | The defender brought him down in the penalty area. | 后卫在禁区内将他放倒。 |
+goal-area | 2 | Laws of the game | goal area | 小禁区 |  | The small rectangle directly in front of the goal from which goal kicks are taken. | The goalkeeper claimed the cross inside the goal area. | 守门员在小禁区内拿下了传中球。 |
+goal-kick | 1 | Laws of the game | goal kick | 球门球 |  | A restart awarded when the attacking team sends the ball over the goal line. | The goalkeeper took a quick goal kick. | 守门员快速发出了球门球。 |
+corner-kick | 1 | Laws of the game | corner kick | 角球 |  | A restart awarded to the attackers when the defenders put the ball over their own goal line. | Arsenal won a corner kick in the last minute. | 阿森纳在最后一分钟赢得一个角球。 |
+throw-in | 1 | Laws of the game | throw-in | 界外球 |  | A restart in which a player throws the ball with both hands from the touchline. | He took a long throw-in into the box. | 他把一个长距离界外球扔进了禁区。 |
+drop-ball | 3 | Laws of the game | drop ball | 坠球 |  | A restart in which the referee drops the ball when play is stopped for no foul. | The referee restarted play with a drop ball. | 裁判用坠球恢复了比赛。 |
+handball | 1 | Laws of the game | handball | 手球犯规 |  | An offence in which a player deliberately touches the ball with the hand or arm. | The defender was penalised for handball. | 这名后卫因手球犯规被判罚。 |
+advantage | 2 | Laws of the game | advantage | 有利原则 |  | A referee's decision to let play continue after a foul if the fouled team benefits. | The referee played the advantage and the move led to a goal. | 裁判执行了有利原则，这次进攻最终形成进球。 |
+dissent | 3 | Laws of the game | dissent | 异议 |  | Showing disagreement with an official's decision by word or action, which is punishable by a card. | He was booked for dissent after shouting at the referee. | 他因对裁判大声叫喊的异议行为被出示黄牌。 |
+back-pass | 3 | Laws of the game | back-pass rule | 回传球规则 |  | The law forbidding the goalkeeper from handling a deliberate kick from a teammate. | The back-pass rule forces keepers to use their feet. | 回传球规则迫使守门员用脚处理球。 |
+substitution | 1 | Laws of the game | substitution | 换人 |  | Replacing one player on the pitch with another from the bench. | The coach made a double substitution at the hour mark. | 教练在第六十分钟一口气换人两次。 |
+red-card | 1 | Laws of the game | red card | 红牌 |  | A card shown to a player who is sent off the pitch. | He received a red card for violent conduct. | 他因暴力行为被出示红牌。 |
+yellow-card | 1 | Laws of the game | yellow card | 黄牌 |  | A card shown as a caution to a player for misconduct. | The midfielder picked up a yellow card for a late tackle. | 这名中场球员因一次晚了的铲球吃到了黄牌。 |
+sending-off | 2 | Laws of the game | sending-off | 罚下场 |  | The dismissal of a player from the match for a serious offence. | The sending-off ruined the team's game plan. | 这次罚下场毁掉了球队的比赛计划。 |
+own-goal | 2 | Laws of the game | own goal | 乌龙球 |  | A goal put into a player's own net by mistake. | The defender scored an own goal under pressure. | 后卫在压力下打进了一个乌龙球。 |
+playing-time | 2 | Laws of the game | playing time | 比赛时间 |  | The regulated ninety minutes of a match, excluding added time. | Regular playing time ended in a draw. | 常规比赛时间以平局结束。 |
+abandoned-match | 3 | Laws of the game | abandoned match | 中止的比赛 |  | A match stopped by the referee before the end, for example because of safety concerns. | The abandoned match was replayed a month later. | 那场中止的比赛一个月后重赛。 |
+goalkeeper | 1 | Positions | goalkeeper | 守门员 |  | The player who defends the goal and is the only one allowed to handle the ball in the box. | The goalkeeper saved two penalties in the shootout. | 守门员在点球大战中扑出了两个点球。 |
+defender | 1 | Positions | defender | 后卫 |  | A player whose main job is to stop the opposition from scoring. | Our defender cleared the ball off the line. | 我们的后卫在门线上解围了。 |
+midfielder | 1 | Positions | midfielder | 中场球员 |  | A player who links defence and attack and controls the tempo of the game. | The midfielder dictated the pace of the match. | 这名中场球员掌控了比赛的节奏。 |
+forward | 1 | Positions | forward | 前锋 |  | A player positioned mainly to create and score goals. | The young forward scored twice on his debut. | 这名年轻前锋在首秀中打进两球。 |
+striker | 1 | Positions | striker | 中锋 |  | The most advanced attacker whose main task is to score goals. | The striker finished the chance coolly. | 这名中锋冷静地把握住了机会。 |
+centre-back | 1 | Positions | centre-back | 中后卫 |  | A central defender who marks strikers and wins aerial duels. | The centre-back won every header in the game. | 这名中后卫赢得了比赛中每一次头球争顶。 |
+full-back | 2 | Positions | full-back | 边后卫 |  | A defender who plays on the flank and also supports attacks down the wing. | The full-back overlapped on the left side. | 边后卫在左路套边上前。 |
+left-back | 1 | Positions | left-back | 左后卫 |  | A full-back who plays on the left side of the defence. | The left-back whipped in a dangerous cross. | 左后卫传出了一记威胁很大的传中球。 |
+right-back | 1 | Positions | right-back | 右后卫 |  | A full-back who plays on the right side of the defence. | The right-back is very quick down the flank. | 右后卫沿边路速度很快。 |
+wing-back | 2 | Positions | wing-back | 边翼卫 |  | A wide player in a back-three system who covers the whole flank. | The wing-back ran up and down the line for ninety minutes. | 边翼卫在整场比赛中沿边线来回奔跑。 |
+sweeper | 3 | Positions | sweeper | 清道夫 |  | A defender who plays behind the back line and cleans up loose balls. | The sweeper cut out the through ball. | 清道夫截断了直塞球。 |
+libero | 3 | Positions | libero | 自由人 |  | An attacking sweeper who is free to move forward from defence. | The libero started the attack from deep. | 自由人从后场发起了进攻。 |
+defensive-midfielder | 2 | Positions | defensive midfielder | 后腰 |  | A midfielder who shields the back line and breaks up attacks. | The defensive midfielder won the ball back again. | 后腰再次把球抢了回来。 |
+holding-midfielder | 3 | Positions | holding midfielder | 防守型中场 |  | A deep midfielder who anchors the team and rarely joins attacks. | The holding midfielder stayed in front of the centre-backs. | 防守型中场一直留在中后卫前方。 |
+central-midfielder | 2 | Positions | central midfielder | 中前卫 |  | A midfielder who operates in the middle of the pitch both attacking and defending. | The central midfielder covered a lot of ground. | 中前卫的跑动覆盖了很大的区域。 |
+attacking-midfielder | 2 | Positions | attacking midfielder | 前腰 |  | A creative midfielder who plays just behind the strikers. | The attacking midfielder threaded a pass through the defence. | 前腰送出一记穿透防线的传球。 |
+playmaker | 2 | Positions | playmaker | 组织核心 |  | A player who creates chances and dictates the team's attacking play. | Their playmaker is the key to every attack. | 他们的组织核心是每次进攻的关键。 |
+winger | 1 | Positions | winger | 边锋 |  | A wide attacker who beats defenders and delivers crosses. | The winger skipped past two defenders. | 边锋连过两名后卫。 |
+second-striker | 3 | Positions | second striker | 影子前锋 |  | A forward who plays just behind the main striker and links midfield with attack. | The second striker dropped deep to receive the ball. | 影子前锋回撤到后场接球。 |
+target-man | 3 | Positions | target man | 支点中锋 |  | A tall striker who holds up the ball and brings teammates into play. | The target man won the aerial duel. | 支点中锋赢得了空中争顶。 |
+false-nine | 3 | Positions | false nine | 伪九号 |  | A centre-forward who drops deep into midfield to confuse defenders. | Messi often played as a false nine. | 梅西经常打伪九号的位置。 |
+captain | 1 | Positions | captain | 队长 |  | The player who leads the team on the pitch and wears the armband. | The captain lifted the trophy first. | 队长第一个举起了奖杯。 |
+substitute | 1 | Positions | substitute | 替补队员 |  | A player who starts on the bench and may replace a teammate during the match. | The substitute scored within a minute. | 这名替补队员上场一分钟就进球了。 |
+starting-eleven | 2 | Positions | starting eleven | 首发阵容 |  | The eleven players chosen to begin a match. | He is not in the starting eleven today. | 他今天不在首发阵容里。 |
+back-line | 2 | Positions | back line | 后防线 |  | The row of defenders who protect the goal. | The back line was caught too high. | 后防线站得太靠前，被抓了空档。 |
+spearhead | 3 | Positions | spearhead | 箭头人物 |  | The leading attacker of a team's offence. | He is the spearhead of the national attack. | 他是国家队进攻的箭头人物。 |
+formation | 1 | Formations and tactics | formation | 阵型 |  | The arrangement of a team's outfield players on the pitch. | The coach switched the formation after the break. | 教练在中场休息后改变了阵型。 |
+four-four-two | 2 | Formations and tactics | 4-4-2 | 4-4-2阵型 | 4-4-2 | A classic formation with four defenders, four midfielders and two strikers. | Many English clubs still favour a 4-4-2. | 许多英格兰俱乐部仍然偏爱4-4-2阵型。 | four four two
+four-three-three | 2 | Formations and tactics | 4-3-3 | 4-3-3阵型 | 4-3-3 | A formation with four defenders, three midfielders and three forwards. | Barcelona built their style around a 4-3-3. | 巴塞罗那围绕4-3-3阵型打造了自己的风格。 | four three three
+three-five-two | 3 | Formations and tactics | 3-5-2 | 3-5-2阵型 | 3-5-2 | A formation with three centre-backs, five midfielders including wing-backs, and two strikers. | Italy switched to a 3-5-2 in the second half. | 意大利队下半场改打3-5-2阵型。 | three five two
+four-two-three-one | 3 | Formations and tactics | 4-2-3-1 | 4-2-3-1阵型 | 4-2-3-1 | A formation with a double pivot, three attacking midfielders and one striker. | Germany often line up in a 4-2-3-1. | 德国队经常排出4-2-3-1阵型。 | four two three one
+back-three | 3 | Formations and tactics | back three | 三中卫体系 |  | A defensive setup using three central defenders. | The coach prefers a back three with wing-backs. | 教练喜欢带边翼卫的三中卫体系。 |
+back-four | 2 | Formations and tactics | back four | 四后卫体系 |  | A defensive line of two centre-backs and two full-backs. | A flat back four held its shape all game. | 平行的四后卫体系整场都保持着队形。 |
+high-line | 2 | Formations and tactics | high line | 高位防线 |  | A defence that positions itself far up the pitch to compress space. | The high line left space behind the defenders. | 高位防线在后卫身后留下了空当。 |
+low-block | 3 | Formations and tactics | low block | 低位防守 |  | A compact defensive shape that sits deep near the team's own goal. | They defended in a low block and hit on the counter. | 他们采用低位防守，靠反击制造机会。 |
+high-press | 2 | Formations and tactics | high press | 高位逼抢 |  | An aggressive tactic of pressuring opponents in their own half to win the ball back. | Liverpool are famous for their high press. | 利物浦以高位逼抢闻名。 |
+pressing | 2 | Formations and tactics | pressing | 逼抢 |  | Closing down opponents quickly and in numbers to force mistakes. | Their pressing forced a turnover near the box. | 他们的逼抢迫使对手在禁区附近丢球。 |
+counter-attack | 1 | Formations and tactics | counter-attack | 反击 |  | A quick attack launched immediately after winning the ball from the opponent. | The counter-attack was finished in six seconds. | 这次反击在六秒内完成。 |
+possession | 1 | Formations and tactics | possession | 控球 |  | Having control of the ball for a share of the match time. | Spain had seventy percent possession. | 西班牙队的控球率达到了百分之七十。 |
+tiki-taka | 3 | Formations and tactics | tiki-taka | 传控足球 |  | A style based on short passing, movement and keeping possession. | Tiki-taka dominated world football around 2010. | 传控足球在2010年前后统治了世界足坛。 | tickey tacka
+total-football | 3 | Formations and tactics | total football | 全攻全守 |  | A fluid system in which players freely swap positions, associated with the Netherlands in the 1970s. | Total football changed how teams think about space. | 全攻全守改变了球队对空间的理解。 |
+catenaccio | 3 | Formations and tactics | catenaccio | 链式防守 |  | A very defensive Italian system built around a sweeper and strict man-marking. | Catenaccio made Inter nearly impossible to beat. | 链式防守让国际米兰几乎无法被击败。 | cah-teh-nah-cho
+gegenpressing | 3 | Formations and tactics | gegenpressing | 反抢 |  | Pressing immediately after losing the ball to win it back quickly. | Gegenpressing turns defence into attack in seconds. | 反抢能在几秒钟内把防守变成进攻。 | gay-gen-pressing
+build-up | 2 | Formations and tactics | build-up play | 后场组织进攻 |  | The phase in which a team moves the ball from defence toward the attacking third. | Their build-up play starts with the goalkeeper. | 他们的后场组织进攻从守门员开始。 |
+playing-out-from-the-back | 3 | Formations and tactics | playing out from the back | 后场出球 |  | Starting attacks by passing short from the goalkeeper and defenders rather than kicking long. | Playing out from the back is risky against a high press. | 面对高位逼抢时，后场出球风险很大。 |
+long-ball | 2 | Formations and tactics | long ball | 长传球 |  | A direct pass hit far forward over the midfield. | The team resorted to the long ball in the final minutes. | 球队在最后几分钟改用长传球。 |
+through-ball | 2 | Formations and tactics | through ball | 直塞球 |  | A pass played into space behind the defence for a runner. | His through ball split the defence open. | 他的直塞球撕开了防线。 |
+cross | 1 | Formations and tactics | cross | 传中 |  | A pass from the wing into the penalty area. | A low cross found the striker at the near post. | 一记低平传中找到了近门柱的前锋。 |
+overlap | 2 | Formations and tactics | overlap | 套边 |  | A run by a full-back past the winger on the outside to receive the ball. | The right-back made an overlap and crossed. | 右后卫套边后传中。 |
+width | 2 | Formations and tactics | width | 宽度 |  | Using the full breadth of the pitch to stretch the opposition. | The wingers provided width for the team. | 边锋为球队提供了进攻宽度。 |
+switch-of-play | 3 | Formations and tactics | switch of play | 转移球 |  | A long pass to the opposite flank to exploit space. | A quick switch of play opened up the right side. | 一次快速的转移球打开了右路。 |
+one-two | 2 | Formations and tactics | one-two | 撞墙配合 |  | A quick give-and-go pass combination between two players. | They played a neat one-two and broke through. | 他们打出一个漂亮的撞墙配合突破了防线。 |
+man-marking | 2 | Formations and tactics | man-marking | 盯人防守 |  | A system in which each defender follows a specific opponent. | Man-marking shut down their best playmaker. | 盯人防守限制住了他们最好的组织者。 |
+zonal-marking | 2 | Formations and tactics | zonal marking | 区域防守 |  | A system in which defenders cover areas rather than specific players. | Zonal marking failed to stop the header. | 区域防守没能防住这个头球。 |
+pressing-trigger | 3 | Formations and tactics | pressing trigger | 逼抢信号 |  | A cue, such as a poor touch, that tells players to press together. | A back pass was the pressing trigger. | 一次回传就是逼抢信号。 |
+transition | 2 | Formations and tactics | transition | 攻守转换 |  | The moment when a team switches from attack to defence or the reverse. | Fast transition is their greatest strength. | 快速的攻守转换是他们最大的优势。 |
+compact | 2 | Formations and tactics | compactness | 紧凑度 |  | How close the lines of a team stay together to limit space. | Their compactness made them hard to break down. | 他们的紧凑度让对手很难撕开防线。 |
+half-space | 3 | Formations and tactics | half-space | 肋部空间 |  | The vertical channel between the wide area and the centre of the pitch. | The playmaker found pockets in the half-space. | 组织者在肋部空间找到了接球位置。 |
+double-pivot | 3 | Formations and tactics | double pivot | 双后腰 |  | Two defensive midfielders playing side by side in front of the defence. | A double pivot protects the centre-backs. | 双后腰保护着中后卫。 |
+inverted-winger | 3 | Formations and tactics | inverted winger | 内切型边锋 |  | A winger who plays on the opposite flank to his stronger foot and cuts inside. | The inverted winger cut inside and shot. | 内切型边锋内切后起脚射门。 |
+park-the-bus | 3 | Formations and tactics | park the bus | 摆大巴 |  | A slang expression for defending with almost every player behind the ball. | They decided to park the bus after scoring. | 他们进球后决定摆大巴。 |
+game-plan | 2 | Formations and tactics | game plan | 比赛策略 |  | The tactical approach a coach prepares for a specific opponent. | The game plan worked perfectly in the first half. | 这个比赛策略在上半场发挥得十分完美。 |
+set-piece | 1 | Set pieces | set piece | 定位球 |  | Any planned restart such as a free kick or corner. | They scored from a set piece again. | 他们再次凭借定位球得分。 |
+near-post | 2 | Set pieces | near post | 近门柱 |  | The goalpost closest to the player taking a cross or corner. | He flicked the ball on at the near post. | 他在近门柱把球蹭了过去。 |
+far-post | 2 | Set pieces | far post | 远门柱 |  | The goalpost farthest from the player delivering a cross. | The defender lost his man at the far post. | 后卫在远门柱丢掉了他盯防的人。 |
+wall | 1 | Set pieces | wall | 人墙 |  | A line of defenders who stand in front of the goal to block a free kick. | The ball clipped the wall and went wide. | 球擦到人墙后偏出了。 |
+inswinger | 3 | Set pieces | inswinger | 内旋球 |  | A corner or free kick that curves toward the goal. | He whipped in an inswinger from the right. | 他从右路踢出一记内旋球。 |
+outswinger | 3 | Set pieces | outswinger | 外旋球 |  | A corner or free kick that curves away from the goal. | The outswinger reached the penalty spot. | 外旋球落到了点球点附近。 |
+short-corner | 3 | Set pieces | short corner | 短角球 |  | A corner played short to a teammate instead of into the box. | They worked a short corner and shot from range. | 他们踢了个短角球后远射。 |
+dead-ball | 2 | Set pieces | dead ball | 死球 |  | A stationary ball for a free kick, corner or penalty. | He is a dead ball specialist. | 他是一名死球专家。 |
+penalty-spot | 1 | Set pieces | penalty spot | 点球点 |  | The mark eleven metres from the goal where a penalty kick is taken. | The ball was placed on the penalty spot. | 球被放在了点球点上。 |
+panenka | 3 | Set pieces | Panenka | 勺子点球 |  | A chipped penalty hit gently down the middle after the goalkeeper dives. | He scored with a cheeky Panenka. | 他用一记大胆的勺子点球破门。 | pan-en-ka
+spot-kick | 2 | Set pieces | spot kick | 点球 |  | A penalty kick taken from the spot. | The keeper guessed right and saved the spot kick. | 守门员猜对了方向，扑出了这个点球。 |
+free-kick-specialist | 3 | Set pieces | free-kick specialist | 任意球专家 |  | A player who regularly scores from direct free kicks. | He is a true free-kick specialist. | 他是一位真正的任意球专家。 |
+knuckleball | 3 | Set pieces | knuckleball | 电梯球 |  | A shot struck with no spin that wobbles unpredictably in flight. | His knuckleball dipped over the wall. | 他的电梯球越过人墙下坠。 |
+long-throw | 3 | Set pieces | long throw | 长距离界外球 |  | A throw-in hurled deep into the penalty area like a cross. | Stoke famously used the long throw as a weapon. | 斯托克城以把长距离界外球当作武器而出名。 |
+corner-routine | 3 | Set pieces | corner routine | 角球战术 |  | A rehearsed pattern of movement to score from a corner. | The corner routine was practised all week. | 这个角球战术练了一整个星期。 |
+direct-shot | 2 | Set pieces | direct shot | 直接射门 |  | A shot taken straight at goal from a free kick. | He tried a direct shot from thirty metres. | 他在三十米外尝试了直接射门。 |
+decoy-runner | 3 | Set pieces | decoy runner | 佯动跑位球员 |  | A player who runs to draw defenders away from the real target. | A decoy runner pulled the marker out of position. | 一名佯动跑位球员把盯防者带离了位置。 |
+pass | 1 | Technique | pass | 传球 |  | Sending the ball to a teammate with the foot, head or body. | Her pass put the winger clear on goal. | 她的传球让边锋直面球门。 |
+shot | 1 | Technique | shot | 射门 |  | A kick or header aimed at scoring a goal. | His shot hit the post and bounced out. | 他的射门击中门柱后弹了出来。 |
+dribble | 1 | Technique | dribble | 带球过人 |  | To move the ball past opponents using quick touches. | He loves to dribble past defenders on the left. | 他喜欢在左路带球过人。 |
+header | 1 | Technique | header | 头球 |  | A ball struck with the head to pass, shoot or clear. | A powerful header sent the ball into the net. | 一记有力的头球把球送进了网窝。 |
+tackle | 1 | Technique | tackle | 抢断 |  | An attempt to win the ball from an opponent using the feet. | The defender made a perfect tackle in the box. | 后卫在禁区内完成了一次完美的抢断。 |
+slide-tackle | 2 | Technique | slide tackle | 铲球 |  | A tackle made by sliding along the ground to reach the ball. | A late slide tackle earned him a booking. | 一次太晚的铲球让他吃到了黄牌。 |
+interception | 2 | Technique | interception | 拦截 |  | Cutting out an opponent's pass before it reaches its target. | The midfielder made a timely interception. | 中场球员做出了一次及时的拦截。 |
+clearance | 2 | Technique | clearance | 解围 |  | Kicking or heading the ball away from the danger zone. | A last-ditch clearance saved a goal. | 一次最后时刻的解围挽救了一个球。 |
+first-touch | 2 | Technique | first touch | 第一脚触球 |  | The initial contact a player makes when receiving the ball. | His first touch killed the ball dead. | 他的第一脚触球把球稳稳地停住了。 |
+ball-control | 1 | Technique | ball control | 控球技术 |  | The ability to receive and keep the ball under close command. | Good ball control is the base of the sport. | 良好的控球技术是这项运动的基础。 |
+volley | 2 | Technique | volley | 凌空抽射 |  | A strike made while the ball is in the air before it bounces. | He hit a stunning volley from the edge of the box. | 他在禁区边缘打出一脚精彩的凌空抽射。 |
+half-volley | 3 | Technique | half-volley | 半凌空射门 |  | A strike made just after the ball bounces off the ground. | His half-volley flew into the corner. | 他的半凌空射门飞入了死角。 |
+bicycle-kick | 2 | Technique | bicycle kick | 倒钩 |  | An acrobatic kick made in mid-air with the back to the goal. | The bicycle kick was the goal of the season. | 这个倒钩是本赛季的最佳进球。 |
+scissor-kick | 3 | Technique | scissor kick | 剪刀脚 |  | An overhead kick in which the legs cross like scissors. | He finished with a spectacular scissor kick. | 他用一脚精彩的剪刀脚完成破门。 |
+chip | 2 | Technique | chip | 吊射 |  | A soft lifted shot or pass that goes over an opponent. | The striker tried a chip over the goalkeeper. | 前锋尝试从守门员头顶吊射。 |
+lob | 3 | Technique | lob | 挑球 |  | A high pass or shot that travels over a defender's head. | Her lob dropped just under the bar. | 她的挑球刚好落在横梁下。 |
+curl | 2 | Technique | curl | 弧线球 |  | A shot or pass bent in the air with spin. | He decided to curl the ball around the wall. | 他决定绕过人墙踢出弧线球。 |
+nutmeg | 3 | Technique | nutmeg | 穿裆 |  | Playing the ball through an opponent's legs. | He tried a nutmeg on the defender and ran on. | 他把球从后卫胯下穿裆而过后继续前进。 |
+step-over | 3 | Technique | step-over | 踩单车 |  | A dribbling feint in which the foot moves over the ball without touching it. | A quick step-over fooled the full-back. | 一个快速的踩单车骗过了边后卫。 |
+cruyff-turn | 3 | Technique | Cruyff turn | 克鲁伊夫转身 |  | A feint in which the player drags the ball behind the standing leg and turns. | He escaped his marker with a Cruyff turn. | 他用克鲁伊夫转身摆脱了盯防。 | cry-foff turn
+rabona | 3 | Technique | rabona | 彩虹拉博纳 |  | A kick in which the kicking leg is wrapped behind the standing leg. | The winger crossed with a rabona. | 边锋用彩虹拉博纳传中。 |
+backheel | 2 | Technique | backheel | 脚后跟传球 |  | A pass or shot struck with the heel. | His clever backheel set up the goal. | 他巧妙的脚后跟传球助攻了进球。 |
+instep-drive | 3 | Technique | instep drive | 脚背正面射门 |  | A powerful straight shot hit with the laces of the boot. | He hit an instep drive into the roof of the net. | 他一脚脚背正面射门打进了球门顶部。 |
+side-foot | 2 | Technique | side-foot pass | 脚内侧传球 |  | A short accurate pass struck with the inside of the foot. | A simple side-foot pass found his partner. | 一个简单的脚内侧传球找到了他的搭档。 |
+finishing | 2 | Technique | finishing | 终结能力 |  | The ability to convert chances into goals. | Poor finishing cost them the game. | 糟糕的终结能力让他们输掉了比赛。 |
+heading-duel | 2 | Technique | aerial duel | 空中争顶 |  | A contest between players to win a high ball with the head. | The centre-back won the aerial duel. | 中后卫赢得了空中争顶。 |
+shielding | 3 | Technique | shielding | 护球 |  | Using the body to protect the ball from an opponent. | His shielding kept the defender at bay. | 他的护球让后卫无法靠近。 |
+jockeying | 3 | Technique | jockeying | 延缓防守 |  | Backing off and delaying an attacker without committing to a tackle. | Jockeying slowed the attack down. | 延缓防守拖慢了对手的进攻。 |
+dummy | 3 | Technique | dummy | 假动作 |  | A feint in which a player lets the ball run past to confuse a defender. | He sold the defender a dummy and shot. | 他用一个假动作骗过后卫后射门。 |
+save | 1 | Technique | save | 扑救 |  | The act of a goalkeeper stopping a shot from entering the net. | The keeper made a brilliant save at full stretch. | 守门员伸展身体做出一次精彩的扑救。 |
+punch | 2 | Technique | punch | 拳击球 |  | A keeper's clearance with a closed fist. | He chose to punch the cross clear. | 他选择用拳击球的方式把传中球解围。 |
+distribution | 2 | Technique | distribution | 出球 |  | A goalkeeper's passing or throwing the ball to teammates. | The keeper's distribution is excellent with both feet. | 这位门将双脚的出球都很出色。 |
+fitness | 1 | Fitness and training | fitness | 体能 |  | A player's overall physical condition for the demands of a match. | His fitness dropped after the injury. | 他受伤后体能下降了。 |
+stamina | 1 | Fitness and training | stamina | 耐力 |  | The ability to keep running at a high level for a long time. | Stamina is vital in the last twenty minutes. | 在最后二十分钟里耐力至关重要。 |
+sprint | 1 | Fitness and training | sprint | 冲刺 |  | A short burst of maximum-speed running. | The winger made a sprint of forty metres. | 边锋进行了一次四十米的冲刺。 |
+warm-up | 1 | Fitness and training | warm-up | 热身 |  | Light exercise before a match to prepare the body. | The squad began the warm-up an hour early. | 球队提前一个小时开始热身。 |
+cool-down | 2 | Fitness and training | cool-down | 放松运动 |  | Easy exercise after a match to help recovery. | A short cool-down helps muscles recover. | 简短的放松运动有助于肌肉恢复。 |
+training-session | 1 | Fitness and training | training session | 训练课 |  | A planned practice period led by the coaching staff. | The training session focused on passing drills. | 这节训练课重点是传球练习。 |
+pre-season | 2 | Fitness and training | pre-season | 季前赛 |  | The preparation period and friendly matches before the competitive season. | The team travelled to Asia for pre-season. | 球队前往亚洲参加季前赛。 |
+rondo | 3 | Fitness and training | rondo | 抢圈练习 |  | A drill in which players keep the ball from defenders in the middle of a circle. | The squad opened every day with a rondo. | 球队每天都以抢圈练习开始。 |
+passing-drill | 2 | Fitness and training | passing drill | 传球练习 |  | A repeated exercise designed to improve passing accuracy. | We did a passing drill in groups of four. | 我们四人一组做了一个传球练习。 |
+small-sided-game | 3 | Fitness and training | small-sided game | 小场地比赛 |  | A game played with fewer players on a reduced pitch to improve touches. | A small-sided game improves decision speed. | 小场地比赛能提高决策速度。 |
+conditioning | 2 | Fitness and training | conditioning | 体能训练 |  | Physical training that builds strength, speed and endurance. | Conditioning makes up half of preseason work. | 体能训练占了季前准备工作的一半。 |
+agility | 2 | Fitness and training | agility | 灵敏性 |  | The ability to change direction quickly while keeping balance. | Agility drills use cones and ladders. | 灵敏性练习会用到标志桶和绳梯。 |
+interval-running | 3 | Fitness and training | interval running | 间歇跑 |  | Alternating fast running with periods of rest or slow jogging. | Interval running boosts match endurance. | 间歇跑能提高比赛耐力。 |
+recovery | 2 | Fitness and training | recovery | 恢复 |  | The process of restoring the body after exertion. | Ice baths help recovery after games. | 冰浴有助于比赛后的恢复。 |
+match-fitness | 2 | Fitness and training | match fitness | 比赛状态 |  | The physical readiness needed to play a full game. | He is still short of match fitness. | 他的比赛状态还没有恢复。 |
+youth-academy | 2 | Fitness and training | youth academy | 青训学院 |  | A club's school for developing young players. | The youth academy produced three first-team players. | 青训学院培养了三名一线队球员。 |
+scouting | 2 | Fitness and training | scouting | 球探工作 |  | Watching players to judge whether the club should sign them. | Good scouting uncovered a bargain. | 优秀的球探工作发现了一个物美价廉的球员。 |
+training-ground | 2 | Fitness and training | training ground | 训练基地 |  | The facility where a club's players practise. | The team trains at a modern training ground. | 球队在一个现代化的训练基地训练。 |
+fitness-coach | 2 | Fitness and training | fitness coach | 体能教练 |  | The staff member who plans the team's physical preparation. | The fitness coach tested the players weekly. | 体能教练每周测试球员。 |
+goalkeeping-coach | 3 | Fitness and training | goalkeeping coach | 守门员教练 |  | A specialist coach who trains the team's keepers. | The goalkeeping coach worked on diving drills. | 守门员教练专门训练了倒地扑救。 |
+head-coach | 1 | Fitness and training | head coach | 主教练 |  | The person in charge of the team's tactics and selection. | The head coach praised his players after the game. | 主教练赛后表扬了他的球员。 |
+assistant-coach | 2 | Fitness and training | assistant coach | 助理教练 |  | A coach who supports the head coach with training and analysis. | The assistant coach ran the warm-up. | 助理教练主持了热身。 |
+sacked-coach | 3 | Fitness and training | sacking | 解雇 |  | The dismissal of a manager by the club. | The manager's sacking followed five straight defeats. | 连续五场失利后，主帅被解雇。 |
+tactics-board | 3 | Fitness and training | tactics board | 战术板 |  | A board used by coaches to show positions and movements. | The coach drew the plan on the tactics board. | 教练在战术板上画出了方案。 |
+referee | 1 | Refereeing and VAR | referee | 裁判 |  | The official on the pitch who enforces the laws and controls the match. | The referee checked his watch and blew the whistle. | 裁判看了看手表，吹响了哨子。 |
+assistant-referee | 2 | Refereeing and VAR | assistant referee | 助理裁判 |  | An official on the touchline who signals offside and throw-ins. | The assistant referee raised his flag for offside. | 助理裁判举旗示意越位。 |
+fourth-official | 3 | Refereeing and VAR | fourth official | 第四官员 |  | The official who manages substitutions and the technical areas from the touchline. | The fourth official held up the board showing four minutes. | 第四官员举起显示四分钟的补时牌。 |
+whistle | 1 | Refereeing and VAR | whistle | 哨子 |  | The instrument a referee blows to start, stop or restart play. | The referee blew the whistle and the crowd cheered. | 裁判吹响哨子，球迷们欢呼起来。 |
+var | 2 | Refereeing and VAR | video assistant referee | 视频助理裁判 | VAR | A team of officials who review key decisions using video replays. | The video assistant referee checked the goal for offside. | 视频助理裁判检查了这个进球是否越位。 | vee ay are
+var-review | 2 | Refereeing and VAR | VAR review | 视频回看 |  | A check of a refereeing decision by the video team. | The VAR review lasted almost three minutes. | 这次视频回看持续了将近三分钟。 | vee ay are review
+pitchside-monitor | 3 | Refereeing and VAR | pitchside monitor | 场边显示屏 |  | A screen at the side of the pitch where the referee watches replays. | The referee went to the pitchside monitor. | 裁判走到场边显示屏前回看。 |
+goal-line-technology | 3 | Refereeing and VAR | goal-line technology | 门线技术 |  | An automatic system that tells the referee whether the whole ball crossed the line. | Goal-line technology confirmed the ball was over. | 门线技术确认球已经越过了门线。 |
+clear-and-obvious-error | 3 | Refereeing and VAR | clear and obvious error | 明显错误 |  | The standard of mistake needed before the video team recommends a change. | The referee did not make a clear and obvious error. | 裁判没有出现明显错误。 |
+booking | 2 | Refereeing and VAR | booking | 警告 |  | The recording of a player's name after a caution. | A booking for time-wasting was inevitable. | 因拖延时间而受到警告是不可避免的。 |
+caution | 2 | Refereeing and VAR | caution | 黄牌警告 |  | An official warning shown with a yellow card. | The captain received a caution for protesting. | 队长因抗议受到黄牌警告。 |
+second-yellow | 2 | Refereeing and VAR | second yellow | 两黄变一红 |  | A second caution in one match which leads to dismissal. | He was sent off for a second yellow. | 他因两黄变一红被罚下场。 |
+straight-red | 3 | Refereeing and VAR | straight red | 直接红牌 |  | A dismissal for a serious offence without a previous caution. | The tackle earned him a straight red. | 这次铲球让他吃到了直接红牌。 |
+serious-foul-play | 3 | Refereeing and VAR | serious foul play | 严重犯规 |  | A challenge that endangers an opponent or uses excessive force. | The tackle was ruled serious foul play. | 这次铲球被判为严重犯规。 |
+violent-conduct | 3 | Refereeing and VAR | violent conduct | 暴力行为 |  | Aggressive actions off the ball, such as striking an opponent. | He saw red for violent conduct. | 他因暴力行为被罚下。 |
+diving | 2 | Refereeing and VAR | diving | 假摔 |  | Falling deliberately to deceive the referee into awarding a foul. | He was cautioned for diving in the area. | 他因在禁区内假摔而被警告。 |
+simulation | 3 | Refereeing and VAR | simulation | 模拟动作 |  | Acting as though fouled in order to win an unfair advantage. | The referee called it simulation. | 裁判认定这是模拟动作。 |
+time-wasting | 2 | Refereeing and VAR | time-wasting | 拖延时间 |  | Slowing down the restart of play to protect a lead. | The keeper was booked for time-wasting. | 守门员因拖延时间被出示黄牌。 |
+denying-goalscoring-opportunity | 3 | Refereeing and VAR | denying a goalscoring opportunity | 破坏明显进球机会 |  | Fouling an attacker who has a clear chance, usually punished by a red card. | He was sent off for denying a goalscoring opportunity. | 他因破坏明显进球机会被罚下场。 |
+holding | 2 | Refereeing and VAR | holding | 拉人犯规 |  | Illegally grabbing an opponent's shirt or arm. | The referee penalised holding in the box. | 裁判对禁区内的拉人犯规做出了判罚。 |
+obstruction | 3 | Refereeing and VAR | obstruction | 阻挡犯规 |  | Blocking an opponent's path without playing the ball. | A shoulder block was called obstruction. | 一次肩部卡位被判为阻挡犯规。 |
+tripping | 2 | Refereeing and VAR | tripping | 绊人犯规 |  | Making an opponent fall by using the foot or leg. | Tripping inside the area gave away a penalty. | 在禁区内的绊人犯规送出了一个点球。 |
+pushing | 2 | Refereeing and VAR | pushing | 推人犯规 |  | Using the hands or arms to shove an opponent. | Pushing at a corner is a common offence. | 角球时的推人犯规很常见。 |
+referee-s-assessor | 3 | Refereeing and VAR | match report | 比赛报告 |  | The official written account of a match, including bookings and incidents. | The referee filed his match report after the game. | 裁判在赛后提交了比赛报告。 |
+disallowed-goal | 2 | Refereeing and VAR | disallowed goal | 进球无效 |  | A goal that is ruled out by the referee for an offence. | The disallowed goal changed the whole game. | 进球无效改变了整场比赛。 |
+technical-area | 3 | Refereeing and VAR | technical area | 技术区域 |  | The marked zone beside the pitch where coaches and substitutes sit and stand. | The coach stood in the technical area shouting. | 教练站在技术区域里大声喊话。 |
+suspension | 2 | Refereeing and VAR | suspension | 停赛 |  | A ban preventing a player from taking part in matches. | He faces a three-match suspension. | 他将面临三场停赛。 |
+accumulated-cards | 3 | Refereeing and VAR | accumulated yellow cards | 累计黄牌 |  | Yellow cards added up over several matches that can lead to a ban. | Five accumulated yellow cards mean a ban. | 累计黄牌达到五张就会被停赛。 |
+appeal | 2 | Refereeing and VAR | appeal | 申诉 |  | A formal request to overturn a disciplinary decision. | The club lodged an appeal against the ban. | 俱乐部对这一禁赛处罚提出了申诉。 |
+league | 1 | Competitions and transfers | league | 联赛 |  | A competition in which teams play each other over a season. | The league starts again in August. | 联赛八月重新开打。 |
+premier-league | 1 | Competitions and transfers | Premier League | 英超 |  | The top division of English professional football. | The Premier League is watched worldwide. | 英超在全世界都有观众。 |
+la-liga | 2 | Competitions and transfers | La Liga | 西甲 |  | The top division of Spanish professional football. | La Liga is dominated by two big clubs. | 西甲由两家豪门主导。 | la lee-ga
+serie-a | 2 | Competitions and transfers | Serie A | 意甲 |  | The top division of Italian professional football. | Serie A is known for its defending. | 意甲以防守著称。 | say-ree-ay ah
+bundesliga | 2 | Competitions and transfers | Bundesliga | 德甲 |  | The top division of German professional football. | The Bundesliga has the best fan atmospheres. | 德甲拥有最棒的球迷氛围。 | boon-des-lee-ga
+ligue-1 | 2 | Competitions and transfers | Ligue 1 | 法甲 |  | The top division of French professional football. | Paris won Ligue 1 again. | 巴黎再次夺得法甲冠军。 | league one
+chinese-super-league | 2 | Competitions and transfers | Chinese Super League | 中超 | CSL | The top division of professional football in China. | The Chinese Super League attracts growing crowds. | 中超吸引了越来越多的观众。 | see ess el
+cup | 1 | Competitions and transfers | cup | 杯赛 |  | A knockout competition where losing teams are eliminated. | The big club lost in the cup. | 这家豪门在杯赛中被淘汰了。 |
+champions-league | 1 | Competitions and transfers | Champions League | 欧冠 |  | Europe's top annual club competition run by UEFA. | Real Madrid won the Champions League again. | 皇家马德里再次夺得欧冠。 |
+europa-league | 2 | Competitions and transfers | Europa League | 欧联杯 |  | UEFA's second-tier club competition for European teams. | They dropped into the Europa League after finishing third. | 他们小组第三，转入了欧联杯。 |
+world-cup | 1 | Competitions and transfers | World Cup | 世界杯 |  | The international tournament for men's national teams held every four years. | Brazil have won the World Cup five times. | 巴西队五次夺得世界杯冠军。 |
+asian-cup | 2 | Competitions and transfers | Asian Cup | 亚洲杯 |  | The continental championship for national teams in Asia. | Japan reached the final of the Asian Cup. | 日本队打进了亚洲杯决赛。 |
+euros | 2 | Competitions and transfers | European Championship | 欧洲杯 |  | The continental national-team tournament held every four years in Europe. | Italy won the European Championship in 2021. | 意大利队在2021年夺得了欧洲杯冠军。 |
+copa-america | 3 | Competitions and transfers | Copa America | 美洲杯 |  | The South American national-team championship. | Argentina lifted the Copa America trophy. | 阿根廷队捧起了美洲杯奖杯。 | coh-pa a-merry-ka
+cfa-cup | 3 | Competitions and transfers | CFA Cup | 足协杯 |  | China's domestic knockout cup organised by the football association. | Shanghai won the CFA Cup final. | 上海队赢得了足协杯决赛。 | see eff ay cup
+olympic-tournament | 3 | Competitions and transfers | Olympic tournament | 奥运会足球赛 |  | The football competition at the Summer Olympics, mostly for players under twenty-three. | The Olympic tournament features young talent. | 奥运会足球赛汇聚了年轻人才。 |
+qualifier | 2 | Competitions and transfers | qualifier | 预选赛 |  | A match played to earn a place in a major tournament. | China needs a win in the qualifier. | 中国队需要在预选赛中取胜。 |
+group-stage | 2 | Competitions and transfers | group stage | 小组赛 |  | The opening round of a tournament where teams play within groups. | Spain topped their group stage. | 西班牙队在小组赛中名列榜首。 |
+knockout-stage | 2 | Competitions and transfers | knockout stage | 淘汰赛阶段 |  | The part of a tournament in which losers are eliminated. | The knockout stage starts next week. | 淘汰赛阶段将在下周开始。 |
+round-of-sixteen | 2 | Competitions and transfers | round of sixteen | 十六强赛 |  | The first knockout round with sixteen teams left. | They lost in the round of sixteen. | 他们在十六强赛中被淘汰。 |
+quarter-final | 2 | Competitions and transfers | quarter-final | 四分之一决赛 |  | The knockout round with eight teams left. | They reached the quarter-final for the first time. | 他们首次打进四分之一决赛。 |
+semi-final | 1 | Competitions and transfers | semi-final | 半决赛 |  | The knockout round with four teams left. | The semi-final went to penalties. | 半决赛进入了点球大战。 |
+final | 1 | Competitions and transfers | final | 决赛 |  | The last match of a tournament that decides the champion. | Fifty million people watched the final. | 五千万人观看了决赛。 |
+third-place-play-off | 3 | Competitions and transfers | third-place play-off | 三四名决赛 |  | A match between the losing semi-finalists to decide third place. | Croatia won the third-place play-off. | 克罗地亚队赢得了三四名决赛。 |
+two-legged-tie | 3 | Competitions and transfers | two-legged tie | 两回合比赛 |  | A knockout tie decided over a home match and an away match. | The two-legged tie is level on aggregate. | 这场两回合比赛总比分战平。 |
+first-leg | 2 | Competitions and transfers | first leg | 首回合 |  | The first match of a two-legged tie. | They lost the first leg at home. | 他们在主场输掉了首回合。 |
+second-leg | 2 | Competitions and transfers | second leg | 次回合 |  | The return match of a two-legged tie. | The second leg will decide who goes through. | 次回合将决定谁晋级。 |
+aggregate | 3 | Competitions and transfers | aggregate score | 总比分 |  | The combined score across both legs of a tie. | They won 4-3 on aggregate score. | 他们以总比分4比3获胜。 |
+away-goals-rule | 3 | Competitions and transfers | away goals rule | 客场进球规则 |  | A former rule that counted goals scored away from home as decisive in a tie. | The away goals rule was scrapped by UEFA in 2021. | 欧足联在2021年取消了客场进球规则。 |
+home-advantage | 2 | Competitions and transfers | home advantage | 主场优势 |  | The benefit a team gets from playing in front of its own supporters. | Home advantage is worth a lot in this league. | 在这个联赛里主场优势很重要。 |
+away-game | 1 | Competitions and transfers | away game | 客场比赛 |  | A match played at the opponent's stadium. | We travel to Munich for the away game. | 我们前往慕尼黑踢客场比赛。 |
+home-game | 1 | Competitions and transfers | home game | 主场比赛 |  | A match played at the team's own stadium. | Our next home game is on Saturday. | 我们的下一场主场比赛在周六。 |
+fixture | 2 | Competitions and transfers | fixture | 赛程 |  | A scheduled match between two teams on a given date. | The fixture list was published in June. | 赛程表在六月公布。 |
+derby | 2 | Competitions and transfers | derby | 德比 |  | A match between two local rival teams. | The derby is the biggest game of the year. | 德比是一年中最大的比赛。 |
+table | 1 | Competitions and transfers | league table | 积分榜 |  | The ranking of teams by points in a league. | They are top of the league table. | 他们高居积分榜榜首。 |
+relegation | 2 | Competitions and transfers | relegation | 降级 |  | Dropping to a lower division after finishing near the bottom. | A late win avoided relegation. | 一场晚来的胜利使球队躲过了降级。 |
+promotion | 2 | Competitions and transfers | promotion | 升级 |  | Moving up to a higher division after a strong season. | The club celebrated promotion with a parade. | 俱乐部游行庆祝升级。 |
+relegation-battle | 3 | Competitions and transfers | relegation battle | 保级大战 |  | A struggle by teams at the bottom of the table to avoid going down. | They are stuck in a relegation battle. | 他们陷入了保级大战。 |
+title-race | 2 | Competitions and transfers | title race | 争冠形势 |  | The competition among top teams for the championship. | The title race is wide open this year. | 今年的争冠形势非常胶着。 |
+golden-boot | 2 | Competitions and transfers | Golden Boot | 金靴奖 |  | The award for the top scorer in a competition. | He won the Golden Boot with 27 goals. | 他以27个进球获得了金靴奖。 |
+ballon-dor | 2 | Competitions and transfers | Ballon d'Or | 金球奖 |  | The annual award for the best player in the world. | Messi has won the Ballon d'Or eight times. | 梅西八次获得金球奖。 | bal-on dor
+transfer | 1 | Competitions and transfers | transfer | 转会 |  | The move of a player from one club to another. | The transfer was announced this morning. | 这次转会今天早上宣布了。 |
+transfer-window | 2 | Competitions and transfers | transfer window | 转会窗口 |  | The period during which clubs may sign players. | The transfer window closes at midnight. | 转会窗口在午夜关闭。 |
+transfer-fee | 2 | Competitions and transfers | transfer fee | 转会费 |  | The money one club pays another to sign a player. | The record transfer fee was over two hundred million euros. | 这笔创纪录的转会费超过两亿欧元。 |
+free-transfer | 3 | Competitions and transfers | free transfer | 自由转会 |  | A move in which no fee is paid because the contract has ended. | He left on a free transfer. | 他以自由转会离队。 |
+loan | 2 | Competitions and transfers | loan | 租借 |  | A temporary move of a player to another club. | The youngster went out on loan. | 这名年轻球员被租借出去。 |
+release-clause | 3 | Competitions and transfers | release clause | 解约金条款 |  | A contract term that lets a player leave if a set fee is paid. | The release clause was set at fifty million. | 解约金条款设定为五千万。 |
+contract | 1 | Competitions and transfers | contract | 合同 |  | The legal agreement between a player and a club. | He signed a five-year contract. | 他签下了一份五年合同。 |
+agent | 2 | Competitions and transfers | agent | 经纪人 |  | A person who negotiates deals and contracts for a player. | His agent is talking to three clubs. | 他的经纪人正在与三家俱乐部洽谈。 |
+signing | 2 | Competitions and transfers | signing | 新援 |  | A newly bought or acquired player. | The new signing scored on his debut. | 这位新援在首秀中就破了门。 |
+debut | 2 | Competitions and transfers | debut | 首秀 |  | A player's first appearance for a club or team. | He made his debut at seventeen. | 他十七岁时完成了首秀。 |
+appearance | 2 | Competitions and transfers | appearance | 出场 |  | A match in which a player takes part. | It was his hundredth appearance for the club. | 这是他为俱乐部的第一百次出场。 |
+cap | 2 | Competitions and transfers | cap | 国家队出场 |  | An appearance for a national team. | She earned her fiftieth cap on Friday. | 她在周五完成了第五十次国家队出场。 |
+national-team | 1 | Competitions and transfers | national team | 国家队 |  | A side that represents a country in international matches. | He was called up to the national team. | 他入选了国家队。 |
+call-up | 2 | Competitions and transfers | call-up | 征召入队 |  | An invitation to join a national team squad. | His first call-up came at nineteen. | 他在十九岁时首次得到征召入队。 |
+ball | 1 | Equipment and pitch | ball | 足球 |  | The round inflated object that players kick and head. | The ball bounced off the crossbar. | 足球弹在了横梁上。 |
+pitch | 1 | Equipment and pitch | pitch | 球场 |  | The rectangular field on which a football match is played. | Fans ran onto the pitch after the final whistle. | 终场哨响后，球迷冲进了球场。 |
+goalpost | 1 | Equipment and pitch | goalpost | 门柱 |  | One of the two vertical posts that frame the goal. | His shot rattled the goalpost. | 他的射门击中了门柱。 |
+crossbar | 1 | Equipment and pitch | crossbar | 横梁 |  | The horizontal bar joining the top of the two goalposts. | The free kick smashed against the crossbar. | 任意球重重砸在横梁上。 |
+net | 1 | Equipment and pitch | net | 球网 |  | The mesh attached behind the goal to catch the ball. | The ball ripped into the net. | 球狠狠地钻进了球网。 |
+goal-line | 1 | Equipment and pitch | goal line | 门线 |  | The line at each end of the pitch between the posts. | The defender cleared it off the goal line. | 后卫在门线上把球解围了。 |
+touchline | 1 | Equipment and pitch | touchline | 边线 |  | The long line along each side of the pitch. | The winger hugged the touchline. | 边锋沿着边线跑动。 |
+halfway-line | 2 | Equipment and pitch | halfway line | 中线 |  | The line that divides the pitch into two halves. | Both teams stayed behind the halfway line. | 两队都留在中线后面。 |
+centre-circle | 2 | Equipment and pitch | centre circle | 中圈 |  | The circle marked in the middle of the pitch around the kick-off spot. | The players gathered in the centre circle. | 球员们聚集在中圈里。 |
+corner-flag | 2 | Equipment and pitch | corner flag | 角旗 |  | A flag placed at each corner of the pitch. | He celebrated by the corner flag. | 他在角旗旁庆祝。 |
+penalty-arc | 3 | Equipment and pitch | penalty arc | 禁区弧 |  | The curved line outside the penalty area that keeps players back at a penalty. | Players must stand outside the penalty arc. | 球员必须站在禁区弧外面。 |
+artificial-turf | 2 | Equipment and pitch | artificial turf | 人造草坪 |  | A synthetic playing surface that imitates natural grass. | They play on artificial turf at home. | 他们的主场是人造草坪。 |
+grass-pitch | 2 | Equipment and pitch | natural grass | 天然草坪 |  | A playing surface made of real growing grass. | The stadium relaid its natural grass in summer. | 球场在夏天重新铺设了天然草坪。 |
+floodlights | 2 | Equipment and pitch | floodlights | 泛光灯 |  | Powerful lights used to light a stadium for night matches. | The floodlights failed during the second half. | 下半场泛光灯出现了故障。 |
+stadium | 1 | Equipment and pitch | stadium | 体育场 |  | A large venue with seating for watching matches. | The stadium holds sixty thousand people. | 这座体育场可容纳六万人。 |
+stand | 1 | Equipment and pitch | stand | 看台 |  | A tiered seating area for spectators. | The fans in the south stand never stop singing. | 南看台的球迷从不停止歌唱。 |
+dugout | 2 | Equipment and pitch | dugout | 球员席 |  | The covered bench area beside the pitch for coaches and substitutes. | The manager jumped out of the dugout. | 主帅从球员席上跳了起来。 |
+tunnel | 2 | Equipment and pitch | tunnel | 球员通道 |  | The passage players use to walk from the dressing rooms to the pitch. | The teams waited in the tunnel. | 两队在球员通道里等待。 |
+dressing-room | 1 | Equipment and pitch | dressing room | 更衣室 |  | The room where players change clothes and receive team talks. | The coach spoke to everyone in the dressing room. | 教练在更衣室里对所有人讲话。 |
+jersey | 1 | Equipment and pitch | jersey | 球衣 |  | The shirt worn by a player, usually with a name and number. | He swapped his jersey with his opponent. | 他和对手交换了球衣。 |
+kit | 1 | Equipment and pitch | kit | 球队装备 |  | The set of clothes a team wears, including shirt, shorts and socks. | The club unveiled its new away kit. | 俱乐部发布了新的客场球队装备。 |
+shorts | 1 | Equipment and pitch | shorts | 球裤 |  | The short trousers worn by football players. | His white shorts were covered in mud. | 他的白色球裤上全是泥。 |
+socks | 1 | Equipment and pitch | football socks | 球袜 |  | Long socks that cover the shin guards. | He pulled up his football socks before kick-off. | 他在开球前拉好了球袜。 |
+boots | 1 | Equipment and pitch | football boots | 足球鞋 |  | Shoes with studs designed for playing football. | He has worn the same football boots for years. | 他多年来一直穿同一款足球鞋。 |
+studs | 2 | Equipment and pitch | studs | 鞋钉 |  | The raised pieces on the soles of football boots that grip the turf. | Metal studs are banned in most leagues. | 大多数联赛禁止使用金属鞋钉。 |
+shin-guards | 1 | Equipment and pitch | shin guards | 护腿板 |  | Protective plates worn inside the socks to shield the shins. | All players must wear shin guards. | 所有球员都必须佩戴护腿板。 |
+goalkeeper-gloves | 2 | Equipment and pitch | goalkeeper gloves | 守门员手套 |  | Padded gloves that give the keeper grip and protect the hands. | Goalkeeper gloves with latex improve grip in the rain. | 带乳胶的守门员手套能在雨中增加抓握力。 |
+captain-s-armband | 2 | Equipment and pitch | captain's armband | 队长袖标 |  | A band worn on the arm to show who is the team captain. | He handed over the captain's armband. | 他交出了队长袖标。 |
+sponsor | 2 | Equipment and pitch | sponsor | 赞助商 |  | A company that pays a club to display its brand. | The new sponsor will appear on the shirt. | 新的赞助商将出现在球衣上。 |
+squad-number | 2 | Equipment and pitch | squad number | 球衣号码 |  | The fixed number worn by a player through a season. | He asked for squad number ten. | 他要求使用十号球衣号码。 |
+trophy | 1 | Equipment and pitch | trophy | 奖杯 |  | A cup or statue awarded to the winner of a competition. | The captain raised the trophy high. | 队长高高举起了奖杯。 |
+medal | 1 | Equipment and pitch | medal | 奖牌 |  | A metal disc awarded to players for finishing high in a competition. | Each player received a winner's medal. | 每位球员都领到了一枚冠军奖牌。 |
+what-a-goal | 1 | Commentary and slang | What a goal! | 太精彩的进球了 |  | A classic exclamation of praise after a brilliant strike. | What a goal! Nobody in the stadium expected that. | 太精彩的进球了！体育场里没人预料到。 | what a goal
+top-bins | 3 | Commentary and slang | top bins | 球门上角 |  | Slang for the upper corners of the goal. | He picked out the top bins from thirty yards. | 他从三十码外把球送进了球门上角。 |
+back-of-the-net | 2 | Commentary and slang | back of the net | 应声入网 |  | A stock phrase for a goal being scored. | It ended up in the back of the net. | 球最终应声入网。 |
+screamer | 3 | Commentary and slang | screamer | 世界波 |  | A very powerful and spectacular shot that results in a goal. | His screamer is a candidate for goal of the season. | 他的世界波是本赛季最佳进球的候选。 |
+worldie | 3 | Commentary and slang | worldie | 神仙球 |  | Informal British word for a stunning goal. | That volley was an absolute worldie. | 那记凌空抽射简直是一粒神仙球。 | world-ee
+tap-in | 2 | Commentary and slang | tap-in | 补射 |  | An easy goal scored from very close range. | It was a simple tap-in for the striker. | 对前锋来说这只是一次简单的补射。 |
+sitter | 3 | Commentary and slang | sitter | 必进球 |  | An easy chance that should be scored. | He missed an absolute sitter. | 他错失了一个绝对的必进球。 |
+hat-trick | 1 | Commentary and slang | hat-trick | 帽子戏法 |  | Three goals scored by one player in a match. | She scored a hat-trick in the final. | 她在决赛中上演了帽子戏法。 |
+brace | 2 | Commentary and slang | brace | 梅开二度 |  | Two goals scored by one player in a match. | He bagged a brace before half-time. | 他在中场休息前梅开二度。 |
+poker | 3 | Commentary and slang | four goals | 大四喜 |  | Four goals scored by one player in a single match. | He scored four goals and took the match ball home. | 他打进大四喜并把比赛用球带回了家。 |
+clean-sheet | 1 | Commentary and slang | clean sheet | 零封 |  | A match in which a team does not concede any goals. | The keeper kept a clean sheet again. | 门将再次完成了零封。 |
+assist | 1 | Commentary and slang | assist | 助攻 |  | The final pass that leads directly to a goal. | He provided his tenth assist of the season. | 他送出了本赛季的第十次助攻。 |
+man-of-the-match | 1 | Commentary and slang | man of the match | 最佳球员 |  | The award for the best performer in a game. | He was named man of the match. | 他被评为最佳球员。 |
+upset | 2 | Commentary and slang | upset | 爆冷 |  | An unexpected win by a team that was not the favourite. | It was the biggest upset of the tournament. | 这是本届赛事最大的爆冷。 |
+giant-killing | 3 | Commentary and slang | giant-killing | 以弱胜强 |  | A victory of a small club over a much stronger one. | The giant-killing act made headlines. | 这场以弱胜强登上了头条。 |
+cracking-shot | 3 | Commentary and slang | rocket | 重炮 |  | Informal word for a very hard shot. | He unleashed a rocket from distance. | 他在远处轰出了一脚重炮。 |
+dive-in | 3 | Commentary and slang | dive in | 贸然出脚 |  | Making a rash tackle that lets the attacker beat you. | Don't dive in against fast wingers. | 面对速度快的边锋不要贸然出脚。 |
+nailed-on | 3 | Commentary and slang | stonewall penalty | 稳稳的点球 |  | Slang for a penalty decision that is clearly correct. | That was a stonewall penalty. | 那是一个稳稳的点球。 |
+pace | 2 | Commentary and slang | pace | 速度 |  | A player's raw running speed. | The young winger has real pace. | 这位年轻边锋速度十分出色。 |
+vision | 2 | Commentary and slang | vision | 视野 |  | A player's ability to see passing options others miss. | The midfielder has superb vision. | 这位中场球员的视野非常出色。 |
+workhorse | 3 | Commentary and slang | workhorse | 跑不死 |  | A player who runs tirelessly for the team. | He is the team's workhorse in midfield. | 他是球队中场里的跑不死。 |
+clinical | 3 | Commentary and slang | clinical | 效率极高 |  | Describes a player who converts chances without wasting them. | The striker was clinical in front of goal. | 前锋在门前效率极高。 |
+wasteful | 3 | Commentary and slang | wasteful | 浪费机会 |  | Describes a team that fails to turn chances into goals. | The side were wasteful in the first half. | 球队上半场浪费机会。 |
+bottle-it | 3 | Commentary and slang | bottle it | 关键时刻掉链子 |  | Slang for losing your nerve at a critical moment. | Many players bottle it from the spot. | 他在点球点上关键时刻掉链子了。 |
+pot-shot | 3 | Commentary and slang | long-range effort | 远射 |  | A shot hit from well outside the penalty area. | A long-range effort flew over the bar. | 一脚远射飞过了横梁。 |
+squeaky-bum-time | 3 | Commentary and slang | squeaky bum time | 紧张时刻 |  | Informal British phrase for a tense period late in a title race or relegation fight. | It's squeaky bum time in the title race. | 争冠形势进入了紧张时刻。 |
+game-of-two-halves | 3 | Commentary and slang | game of two halves | 上下半场判若两队 |  | A cliché for a match in which the flow changes completely after the break. | It was a game of two halves. | 这场比赛上下半场判若两队。 |
+the-beautiful-game | 2 | Commentary and slang | the beautiful game | 美丽运动 |  | A nickname for football used by fans and commentators. | The beautiful game brings people together. | 美丽运动把人们凝聚在一起。 |
+fan | 1 | Fan culture | fan | 球迷 |  | A person who loves and follows a football team. | Every fan sang the club anthem. | 每位球迷都唱起了队歌。 |
+supporter | 1 | Fan culture | supporter | 支持者 |  | A person who backs a particular team, often attending matches. | He is a lifelong supporter of the club. | 他是这家俱乐部的终身支持者。 |
+ultras | 3 | Fan culture | ultras | 极端球迷组织 |  | Highly organised and passionate groups of supporters known for chants and displays. | The ultras lit flares in the stand. | 极端球迷组织在看台上点燃了信号弹。 |
+chant | 2 | Fan culture | chant | 助威歌 |  | A repeated song or slogan shouted by fans. | The whole stand joined the chant. | 整个看台都加入了助威歌的合唱。 |
+anthem | 2 | Fan culture | club anthem | 队歌 |  | The official song of a team that fans sing together. | They sang the club anthem before kick-off. | 开球前，他们一起唱起了队歌。 |
+scarf | 1 | Fan culture | scarf | 围巾 |  | A knitted band in team colours worn or held up by fans. | Fans held their scarf above their heads. | 球迷们把围巾举过头顶。 |
+tifo | 3 | Fan culture | tifo | 球迷巨幅标语 |  | A large choreographed banner or display made by fans. | The tifo covered the whole end. | 球迷巨幅标语铺满了整个看台。 | tee-foh
+season-ticket | 2 | Fan culture | season ticket | 季票 |  | A pass that lets the owner attend all of a club's home games. | She has held a season ticket for ten years. | 她已经持有季票十年了。 |
+matchday | 2 | Fan culture | matchday | 比赛日 |  | The day on which a team plays a game and fans attend. | The streets fill with fans on matchday. | 比赛日当天街道上挤满了球迷。 |
+atmosphere | 2 | Fan culture | atmosphere | 现场气氛 |  | The mood and energy created by fans in the stadium. | The atmosphere at the stadium was electric. | 体育场的现场气氛热烈极了。 |
+away-fans | 2 | Fan culture | away fans | 客队球迷 |  | Supporters who travel to follow their team at an opponent's ground. | Away fans filled the corner of the stadium. | 客队球迷坐满了体育场的一个角落。 |
+home-end | 3 | Fan culture | home end | 主队球迷看台 |  | The section of a stadium where the home team's most vocal fans stand. | The home end shook after the equaliser. | 扳平比分后，主队球迷看台沸腾了。 |
+rivalry | 2 | Fan culture | rivalry | 宿敌之争 |  | A long-standing competitive relationship between two clubs and their fans. | The rivalry between the clubs goes back a century. | 两家俱乐部之间的宿敌之争可以追溯到一个世纪前。 |
+pundit | 3 | Fan culture | pundit | 评论员 |  | An expert who gives opinions on football on television or radio. | The pundit praised the young defender. | 评论员称赞了这名年轻后卫。 |
+commentator | 2 | Fan culture | commentator | 解说员 |  | A person who describes the match live for viewers or listeners. | The commentator lost his voice after the goal. | 进球后解说员喊哑了嗓子。 |
+fantasy-football | 3 | Fan culture | fantasy football | 梦幻足球 |  | An online game where fans pick virtual teams based on real players' performances. | He plays fantasy football with his friends. | 他和朋友们一起玩梦幻足球。 |
+football-hooligan | 3 | Fan culture | hooliganism | 球场暴力 |  | Violent and destructive behaviour by some football supporters. | Hooliganism damaged the sport's image in the eighties. | 球场暴力在八十年代损害了这项运动的形象。 |
+stadium-ban | 3 | Fan culture | stadium ban | 禁止入场 |  | A punishment that prevents a fan from attending matches. | He received a three-year stadium ban. | 他被处以三年禁止入场。 |
+pre-match-ritual | 3 | Fan culture | pre-match ritual | 赛前仪式 |  | A routine fans or players follow before every game. | His pre-match ritual involves a pie and a pint. | 他的赛前仪式包括一个馅饼和一品脱啤酒。 |
+mascot | 2 | Fan culture | mascot | 吉祥物 |  | A person or animal costume that represents a team and entertains fans. | The mascot danced during the break. | 吉祥物在中场休息时跳了舞。 |
+fan-zone | 3 | Fan culture | fan zone | 球迷广场 |  | A public area near a stadium where supporters watch matches on screens. | Thousands gathered in the fan zone. | 数千人聚集在球迷广场。 |
+big-screen | 2 | Fan culture | big screen | 大屏幕 |  | A large display showing a live match to a crowd. | We watched the final on the big screen. | 我们在大屏幕前观看了决赛。 |
+all-night-viewing | 3 | Fan culture | late-night viewing | 熬夜看球 |  | Staying up late to watch matches played in another time zone. | Late-night viewing is common for Chinese fans of European leagues. | 熬夜看球在中国的欧洲联赛球迷中很常见。 |
+injury | 1 | Injuries | injury | 伤病 |  | Physical damage to the body caused by playing. | A long injury kept him out for months. | 长期伤病让他缺阵好几个月。 |
+sprain | 1 | Injuries | sprain | 扭伤 |  | A stretching or tearing of ligaments around a joint. | He suffered an ankle sprain in training. | 他在训练中遭遇踝关节扭伤。 |
+strain | 2 | Injuries | strain | 拉伤 |  | A stretch or tear of a muscle or tendon. | A hamstring strain ended his season. | 腘绳肌拉伤结束了他的赛季。 |
+hamstring | 2 | Injuries | hamstring injury | 腘绳肌拉伤 |  | A tear or strain in the muscle at the back of the thigh. | A hamstring injury ruled him out for a month. | 腘绳肌拉伤让他缺阵一个月。 |
+groin-strain | 3 | Injuries | groin strain | 腹股沟拉伤 |  | A strain of the muscles in the inner thigh near the pelvis. | A groin strain forced him off at half-time. | 腹股沟拉伤使他在中场休息时下场。 |
+calf-strain | 3 | Injuries | calf strain | 小腿拉伤 |  | A stretching or tearing of the calf muscle. | A calf strain kept him out for two weeks. | 小腿拉伤让他缺阵两周。 |
+acl-injury | 2 | Injuries | ACL tear | 前交叉韧带撕裂 | ACL | A rupture of the main stabilising ligament inside the knee. | An ACL tear can end a season. | 前交叉韧带撕裂可能让球员报销整个赛季。 | ay see el
+meniscus | 3 | Injuries | meniscus injury | 半月板损伤 |  | Damage to the cartilage cushion in the knee. | A meniscus injury needed surgery. | 半月板损伤需要手术。 |
+fracture | 2 | Injuries | fracture | 骨折 |  | A broken bone. | The tackle caused a fracture of the leg. | 这次铲球造成了腿部骨折。 |
+concussion | 2 | Injuries | concussion | 脑震荡 |  | A temporary brain injury caused by a blow to the head. | He was substituted with a suspected concussion. | 他因疑似脑震荡被换下场。 |
+dislocation | 3 | Injuries | dislocation | 脱臼 |  | A joint forced out of its normal position. | The keeper had a shoulder dislocation. | 门将肩膀脱臼了。 |
+cramp | 1 | Injuries | cramp | 抽筋 |  | A sudden painful tightening of a muscle. | He went down with cramp in the 85th minute. | 他在第85分钟因抽筋倒地。 |
+bruise | 1 | Injuries | bruise | 淤青 |  | Discoloured skin caused by bleeding under the skin after a knock. | He has a large bruise on his thigh. | 他的大腿上有一大块淤青。 |
+achilles | 3 | Injuries | Achilles tendon injury | 跟腱损伤 |  | A tear or inflammation of the tendon at the back of the ankle. | An Achilles tendon injury is hard to recover from. | 跟腱损伤很难恢复。 |
+stress-fracture | 3 | Injuries | stress fracture | 疲劳性骨折 |  | A small crack in a bone caused by repeated overuse. | A stress fracture in his foot kept him on the sidelines. | 脚部的疲劳性骨折让他一直坐在场边。 |
+tendonitis | 3 | Injuries | tendonitis | 肌腱炎 |  | Inflammation of a tendon caused by overuse. | Tendonitis in the knee bothered him all year. | 膝盖的肌腱炎困扰了他一整年。 |
+overuse-injury | 3 | Injuries | overuse injury | 劳损 |  | Damage that builds up gradually from repeated stress. | Fatigue often leads to an overuse injury. | 疲劳常常导致劳损。 |
+rehabilitation | 2 | Injuries | rehabilitation | 康复训练 |  | A programme of exercises and treatment to restore fitness after injury. | His rehabilitation went well. | 他的康复训练进行得很顺利。 |
+physio | 1 | Injuries | physiotherapist | 理疗师 |  | A specialist who treats injuries with exercise and manual therapy. | The physiotherapist ran onto the pitch. | 理疗师跑上了球场。 |
+team-doctor | 2 | Injuries | team doctor | 队医 |  | The medical professional responsible for a squad's health. | The team doctor examined the knee. | 队医检查了他的膝盖。 |
+stretcher | 2 | Injuries | stretcher | 担架 |  | A frame used to carry an injured person from the pitch. | He was taken off on a stretcher. | 他被担架抬下了场。 |
+magic-spray | 3 | Injuries | cold spray | 冷冻喷雾 |  | A chilled spray used by medics to relieve pain from knocks. | The physio used cold spray on his shin. | 理疗师在他的小腿上喷了冷冻喷雾。 |
+treatment-room | 3 | Injuries | treatment room | 治疗室 |  | The room at a club where injured players receive care. | He spent weeks in the treatment room. | 他在治疗室里待了好几周。 |
+ruled-out | 2 | Injuries | ruled out | 因伤缺阵 |  | Announced as unable to play because of injury. | The captain is ruled out for the final. | 队长因伤缺阵，无缘决赛。 |
+fitness-test | 2 | Injuries | fitness test | 体能测试 |  | A pre-match check to see whether an injured player can take part. | He passed his fitness test on Friday. | 他周五通过了体能测试。 |
+return-to-play | 3 | Injuries | return to play | 复出 |  | The process of an injured player coming back to competitive matches. | The return to play is planned for March. | 复出时间定在三月。 |
+long-term-injury | 2 | Injuries | long-term injury | 长期伤病 |  | A physical problem that keeps a player out for months. | A long-term injury cost him the World Cup. | 长期伤病让他错过了世界杯。 |
+muscle-fatigue | 2 | Injuries | muscle fatigue | 肌肉疲劳 |  | A decrease in muscle performance after prolonged effort. | Muscle fatigue appeared in extra time. | 加时赛中出现了肌肉疲劳。 |
+
+team | 1 | Laws of the game | team | 球队 |  | A group of eleven players who play together against an opponent. | Our team trains three times a week. | 我们球队每周训练三次。 |
+draw | 1 | Laws of the game | draw | 平局 |  | A result in which both teams score the same number of goals. | The match ended in a draw. | 这场比赛以平局收场。 |
+win | 1 | Laws of the game | win | 胜利 |  | A result in which a team scores more goals than the opponent. | A win would put them top of the table. | 一场胜利会让他们升到榜首。 |
+defeat | 1 | Laws of the game | defeat | 失利 |  | A result in which a team scores fewer goals than the opponent. | The defeat ended their unbeaten run. | 这场失利结束了他们的不败纪录。 |
+scoreline | 1 | Laws of the game | scoreline | 比分 |  | The number of goals each team has scored in a match. | The scoreline flattered the home side. | 这个比分对主队来说有些过誉。 |
+equaliser | 2 | Laws of the game | equaliser | 扳平比分的进球 |  | A goal that makes the score level. | His equaliser came in the 89th minute. | 他扳平比分的进球出现在第89分钟。 |
+lead | 1 | Laws of the game | lead | 领先 |  | Being ahead of the opponent in goals. | They took the lead after ten minutes. | 他们十分钟后取得领先。 |
+out-of-play | 1 | Laws of the game | out of play | 球出界 |  | The state when the whole ball has crossed a boundary line. | The ball went out of play for a throw-in. | 球出界了，判为界外球。 |
+own-half | 1 | Laws of the game | own half | 本方半场 |  | The half of the pitch that contains a team's own goal. | The team defended deep in their own half. | 球队退守在本方半场深处。 |
+final-third | 2 | Laws of the game | final third | 进攻三区 |  | The part of the pitch nearest to the opponent's goal. | They struggled to create chances in the final third. | 他们在进攻三区很难创造机会。 |
+midfield | 1 | Laws of the game | midfield | 中场 |  | The central area of the pitch between defence and attack. | The battle for midfield decided the match. | 中场的争夺决定了比赛。 |
+bench | 1 | Laws of the game | bench | 替补席 |  | The seats beside the pitch where substitutes and staff sit. | He spent the whole season on the bench. | 他整个赛季都坐在替补席上。 |
+team-sheet | 2 | Laws of the game | team sheet | 出场名单 |  | The official list of starters and substitutes handed to the referee. | The team sheet was released an hour before kick-off. | 出场名单在开赛前一小时公布。 |
+squad | 1 | Laws of the game | squad | 大名单 |  | All the players selected and available for a match or tournament. | The coach announced a 26-man squad. | 教练公布了26人的大名单。 |
+turnover | 2 | Laws of the game | turnover | 丢球 |  | Losing possession of the ball to the opponent. | A careless turnover led to their goal. | 一次粗心的丢球导致了他们的进球。 |
+mistake | 1 | Laws of the game | mistake | 失误 |  | An error that gives the opposition an advantage. | A defensive mistake cost them the game. | 一次防守失误让他们输掉了比赛。 |
+deflection | 2 | Laws of the game | deflection | 折射 |  | A change in the ball's direction after it touches a player. | The goal came from a deflection. | 这个进球来自一次折射。 |
+rebound | 2 | Laws of the game | rebound | 反弹球 |  | A ball that bounces back off the keeper, post or bar. | He followed up and scored the rebound. | 他跟进把反弹球打进了。 |
+number-ten | 2 | Positions | number ten | 十号位 |  | The creative attacking midfield role traditionally given to the team's best passer. | He is a classic number ten who loves free space. | 他是传统的十号位球员，喜欢在空档接球。 |
+sweeper-keeper | 3 | Positions | sweeper-keeper | 出击型门将 |  | A goalkeeper who plays far from his line and acts as an extra defender. | A sweeper-keeper needs excellent feet. | 出击型门将需要出色的脚下技术。 |
+first-choice-keeper | 2 | Positions | first-choice keeper | 主力门将 |  | The goalkeeper selected as the regular starter. | The first-choice keeper is injured. | 主力门将受伤了。 |
+utility-player | 3 | Positions | utility player | 万金油球员 |  | A player who can play competently in several positions. | A utility player is valuable in a long season. | 在漫长的赛季里，万金油球员很有价值。 |
+youngster | 2 | Positions | youngster | 新秀 |  | A promising young player at the start of his career. | The youngster impressed in his first start. | 这名新秀在首次首发中表现出色。 |
+veteran | 2 | Positions | veteran | 老将 |  | An experienced player who has played for many years. | The veteran still has great vision. | 这位老将依然拥有出色的视野。 |
+marking | 1 | Formations and tactics | marking | 盯防 |  | Staying close to an opponent to stop him receiving the ball. | Poor marking at the corner cost a goal. | 角球时盯防不力丢了一个球。 |
+cover | 2 | Formations and tactics | cover | 补位 |  | Moving into the space left by a teammate who has gone forward or been beaten. | The midfielder dropped back to cover. | 中场球员回撤补位。 |
+tracking-back | 2 | Formations and tactics | tracking back | 回追 |  | Running back toward your own goal to help defend. | The winger's tracking back saved a certain goal. | 边锋的回追挽救了一个必进球。 |
+offside-line | 2 | Formations and tactics | offside line | 越位线 |  | The imaginary line level with the second-last defender. | The runner stayed on the offside line. | 跑位者始终压在越位线上。 |
+tempo | 2 | Formations and tactics | tempo | 节奏 |  | The speed at which a team moves the ball and plays. | They increased the tempo after the break. | 他们在中场休息后加快了节奏。 |
+wide-play | 3 | Formations and tactics | wide play | 边路进攻 |  | Attacking through the flanks instead of the middle. | Wide play created most of their chances. | 边路进攻创造了他们的大部分机会。 |
+shots-on-target | 2 | Formations and tactics | shots on target | 射正 |  | Efforts that would score if the keeper did not stop them. | They had only two shots on target. | 他们全场只有两次射正。 |
+expected-goals | 3 | Formations and tactics | expected goals | 预期进球 | xG | A statistic estimating the chance that each shot becomes a goal. | The expected goals figure shows who deserved to win. | 预期进球数据显示谁更应该获胜。 | expected goals
+pass-accuracy | 2 | Formations and tactics | pass accuracy | 传球成功率 |  | The percentage of passes that reach a teammate. | His pass accuracy is over ninety percent. | 他的传球成功率超过百分之九十。 |
+key-pass | 3 | Formations and tactics | key pass | 关键传球 |  | A pass that directly creates a shooting chance. | She made four key passes in the match. | 她在比赛中送出四次关键传球。 |
+duel | 2 | Formations and tactics | duel | 对抗 |  | A one-on-one contest to win the ball. | He won most of his duels on the ground. | 他赢得了大部分地面对抗。 |
+distance-covered | 3 | Formations and tactics | distance covered | 跑动距离 |  | The total ground a player runs during a match. | Distance covered is tracked by GPS. | 跑动距离由GPS记录。 |
+top-scorer | 1 | Formations and tactics | top scorer | 射手王 |  | The player with the most goals in a competition. | He finished as the league's top scorer. | 他以射手王的身份结束了联赛。 |
+heat-map | 3 | Formations and tactics | heat map | 热力图 |  | A graphic showing where a player spent time on the pitch. | The heat map shows he played on the left. | 热力图显示他主要在左路活动。 |
+penalty-miss | 2 | Set pieces | penalty miss | 罚丢点球 |  | Failing to score from a penalty kick. | A penalty miss cost them the title. | 罚丢点球让他们失去了冠军。 |
+penalty-save | 2 | Set pieces | penalty save | 扑出点球 |  | A goalkeeper stopping a penalty kick. | His penalty save kept them in the game. | 他扑出点球，让球队留在了比赛里。 |
+taker | 2 | Set pieces | set-piece taker | 定位球主罚球员 |  | The player who kicks a free kick, corner or penalty. | The set-piece taker is always the same man. | 定位球主罚球员总是同一个人。 |
+run-up | 2 | Set pieces | run-up | 助跑 |  | The steps a player takes before striking a free kick or penalty. | He used a long run-up before the penalty. | 他在主罚点球前助跑很长。 |
+second-ball | 3 | Set pieces | second ball | 第二落点 |  | A loose ball that falls after a first header or clearance. | He reacted first to the second ball. | 他对第二落点反应最快。 |
+flick-on | 3 | Set pieces | flick-on | 头球摆渡 |  | A header that redirects the ball onward to a teammate. | A flick-on at the near post found the striker. | 近门柱的头球摆渡找到了前锋。 |
+trap | 2 | Technique | trap | 停球 |  | Bringing a moving ball under control with the foot, thigh or chest. | A neat trap killed the high ball. | 一个漂亮的停球化解了高空球。 |
+weaker-foot | 2 | Technique | weaker foot | 非惯用脚 |  | The foot that a player uses less skilfully. | He scored with his weaker foot. | 他用非惯用脚破了门。 |
+toe-poke | 3 | Technique | toe-poke | 捅射 |  | A shot struck with the tip of the boot. | He scored with a quick toe-poke. | 他用一脚快速的捅射破门。 |
+placed-shot | 2 | Technique | placed shot | 推射 |  | A controlled shot guided into a corner rather than hit hard. | A cool placed shot beat the keeper. | 一脚冷静的推射破门而入。 |
+power-shot | 2 | Technique | power shot | 爆射 |  | A shot struck with maximum force. | His power shot hit the stanchion. | 他的爆射击中了门柱后面的支架。 |
+block | 2 | Technique | block | 封堵 |  | Using the body to stop a shot or pass. | A brave block stopped the shot. | 一次勇敢的封堵挡住了射门。 |
+aerobic-capacity | 3 | Fitness and training | aerobic capacity | 有氧能力 |  | The body's ability to supply oxygen to muscles during prolonged effort. | Aerobic capacity is tested at pre-season. | 有氧能力在季前期间接受测试。 |
+strength-training | 2 | Fitness and training | strength training | 力量训练 |  | Gym work to build muscle power and prevent injury. | Strength training protects the knees. | 力量训练可以保护膝盖。 |
+flexibility | 2 | Fitness and training | flexibility | 柔韧性 |  | The range of movement available at a joint or muscle. | Flexibility reduces the risk of strains. | 柔韧性可以降低拉伤的风险。 |
+stretching | 1 | Fitness and training | stretching | 拉伸 |  | Gentle extension of muscles to keep them supple. | Stretching is part of every warm-up. | 拉伸是每次热身的一部分。 |
+rest-day | 1 | Fitness and training | rest day | 休息日 |  | A day without training for recovery. | Monday is a rest day for the squad. | 周一是球队的休息日。 |
+squad-rotation | 3 | Fitness and training | squad rotation | 轮换 |  | Changing the starting players between matches to manage fatigue. | Squad rotation is vital in a busy month. | 在赛程密集的月份，轮换至关重要。 |
+fixture-congestion | 3 | Fitness and training | fixture congestion | 赛程密集 |  | Too many matches in a short period, leaving little time for rest. | Fixture congestion raises the injury risk. | 赛程密集会提高受伤风险。 |
+form | 1 | Fitness and training | form | 状态 |  | A player's or team's recent level of performance. | He is in great form this season. | 他本赛季的状态非常出色。 |
+confidence | 1 | Fitness and training | confidence | 信心 |  | A belief in one's own ability to succeed. | The win gave the team confidence. | 这场胜利给了球队信心。 |
+match-official | 2 | Refereeing and VAR | match official | 比赛官员 |  | Any referee, assistant or video official appointed to a game. | Each match official arrived two hours early. | 每位比赛官员都提前两小时到达。 |
+controversial-decision | 2 | Refereeing and VAR | controversial decision | 争议判罚 |  | A ruling that fans and players disagree about. | The controversial decision sparked a protest. | 这一争议判罚引发了抗议。 |
+offside-flag | 2 | Refereeing and VAR | offside flag | 越位旗 |  | The flag an assistant raises to signal an offside offence. | The offside flag went up straight away. | 越位旗立刻就举了起来。 |
+season | 1 | Competitions and transfers | season | 赛季 |  | The yearly period in which a league's matches are played. | The new season starts in August. | 新赛季在八月开始。 |
+matchweek | 3 | Competitions and transfers | matchweek | 比赛周 |  | One round of fixtures in a league programme. | There are 38 matchweeks in the season. | 一个赛季一共有38个比赛周。 |
+round | 1 | Competitions and transfers | round | 轮次 |  | One stage of a league or cup competition. | They won six rounds in a row. | 他们连续六个轮次获胜。 |
+top-flight | 3 | Competitions and transfers | top flight | 顶级联赛 |  | The highest division in a country's football league system. | The club returned to the top flight after ten years. | 俱乐部十年后重返顶级联赛。 |
+china-league-one | 2 | Competitions and transfers | China League One | 中甲 |  | The second-tier professional league in China. | He began his career in China League One. | 他在中甲开始了职业生涯。 |
+afc-champions-league | 2 | Competitions and transfers | AFC Champions League | 亚冠 |  | Asia's top continental club competition. | Guangzhou won the AFC Champions League in 2013. | 广州队在2013年夺得了亚冠冠军。 | ay eff see champions league
+club-world-cup | 3 | Competitions and transfers | Club World Cup | 世俱杯 |  | A tournament between the continental club champions. | Chelsea won the Club World Cup. | 切尔西队夺得了世俱杯冠军。 |
+womens-world-cup | 2 | Competitions and transfers | Women's World Cup | 女足世界杯 |  | The international tournament for women's national teams. | China finished runners-up at the Women's World Cup in 1999. | 中国队在1999年女足世界杯上获得亚军。 |
+friendly | 1 | Competitions and transfers | friendly | 友谊赛 |  | A match that does not count for any competition. | The team played a friendly against Japan. | 球队与日本队踢了一场友谊赛。 |
+fa-cup | 2 | Competitions and transfers | FA Cup | 足总杯 |  | England's oldest knockout cup competition. | A non-league side reached the FA Cup final. | 一支非职业联赛球队打进了足总杯决赛。 | eff ay cup
+super-cup | 3 | Competitions and transfers | Super Cup | 超级杯 |  | A single match between the league champion and the cup winner. | They won the Super Cup on penalties. | 他们在点球大战中赢得了超级杯。 |
+fifa | 1 | Competitions and transfers | FIFA | 国际足联 | FIFA | The world governing body of football. | FIFA runs the World Cup. | 国际足联负责举办世界杯。 | fee-fa
+uefa | 2 | Competitions and transfers | UEFA | 欧足联 | UEFA | The governing body of European football. | UEFA organises the Champions League. | 欧足联组织欧冠联赛。 | you-ay-fa
+afc | 2 | Competitions and transfers | AFC | 亚足联 | AFC | The governing body of football in Asia. | The AFC is based in Kuala Lumpur. | 亚足联总部位于吉隆坡。 | ay eff see
+cfa | 2 | Competitions and transfers | Chinese Football Association | 中国足协 | CFA | The national governing body of football in China. | The Chinese Football Association announced a new plan. | 中国足协宣布了一项新计划。 |
+league-title | 2 | Competitions and transfers | league title | 联赛冠军 |  | The championship won by the team that finishes top. | They clinched the league title with three games left. | 他们在还剩三轮时提前锁定了联赛冠军。 |
+treble | 3 | Competitions and transfers | treble | 三冠王 |  | Winning three major trophies in one season. | City completed the treble last year. | 曼城去年完成了三冠王伟业。 |
+winning-streak | 2 | Competitions and transfers | winning streak | 连胜 |  | A run of consecutive victories. | The team's winning streak reached ten games. | 球队的连胜达到了十场。 |
+unbeaten-run | 2 | Competitions and transfers | unbeaten run | 不败纪录 |  | A series of matches without defeat. | Their unbeaten run lasted 49 matches. | 他们的不败纪录保持了49场。 |
+club-owner | 2 | Competitions and transfers | club owner | 俱乐部老板 |  | The person or company that owns a football club. | The club owner promised to sign big stars. | 俱乐部老板承诺要签下大牌球星。 |
+bid | 2 | Competitions and transfers | bid | 报价 |  | An offer of money made by one club to buy a player. | The club rejected a bid of thirty million. | 俱乐部拒绝了三千万的报价。 |
+medical | 2 | Competitions and transfers | medical | 体检 |  | A health check a player passes before signing. | He passed his medical on Tuesday. | 他周二通过了体检。 |
+foreign-player | 2 | Competitions and transfers | foreign player | 外援 |  | A player from another country signed to a domestic club. | The club signed a Brazilian foreign player. | 俱乐部签下了一名巴西外援。 |
+naturalised-player | 3 | Competitions and transfers | naturalised player | 归化球员 |  | A foreign-born player who has gained citizenship to play for a national team. | The naturalised player scored on his debut. | 这名归化球员在首秀中进球。 |
+homegrown-player | 3 | Competitions and transfers | homegrown player | 本土球员 |  | A player trained at a club's academy or in the same country. | Every squad needs eight homegrown players. | 每支球队都需要八名本土球员。 |
+comeback | 2 | Commentary and slang | comeback | 逆转 |  | Recovering from a losing position to draw or win. | It was a remarkable comeback from 3-0 down. | 这是从0比3落后开始的惊人逆转。 |
+late-winner | 2 | Commentary and slang | late winner | 绝杀 |  | A goal scored near the end that decides the match. | His late winner sent the crowd wild. | 他的绝杀让球迷们疯狂了。 |
+last-minute-equaliser | 3 | Commentary and slang | last-minute equaliser | 读秒扳平 |  | A goal scored in the closing moments that makes the score level. | A last-minute equaliser saved the point. | 一粒读秒扳平的进球保住了这一分。 |
+stalemate | 3 | Commentary and slang | stalemate | 僵局 |  | A situation in which neither side can score. | The stalemate was broken in the 70th minute. | 僵局在第70分钟被打破。 |
+end-to-end | 3 | Commentary and slang | end-to-end | 攻守转换迅速 |  | Describes an open game in which both teams attack quickly in turn. | It was an end-to-end game full of chances. | 这是一场攻守转换迅速、机会不断的比赛。 |
+goalmouth-scramble | 3 | Commentary and slang | goalmouth scramble | 门前混战 |  | A chaotic fight for the ball in front of the goal. | A goalmouth scramble ended with a clearance. | 门前混战以一次解围告终。 |
+thunderbolt | 3 | Commentary and slang | thunderbolt | 怒射 |  | A very powerful shot that flies into the goal. | His thunderbolt flew into the top corner. | 他的怒射飞进了球门上角。 |
+banner | 2 | Fan culture | banner | 横幅 |  | A large cloth sign with messages held up by fans. | Fans unfurled a banner in the stand. | 球迷在看台上展开了一条横幅。 |
+flare | 3 | Fan culture | flare | 信号弹 |  | A pyrotechnic device lit by some fans, which is banned in stadiums. | A flare landed on the pitch. | 一枚信号弹落到了球场上。 |
+merchandise | 2 | Fan culture | merchandise | 周边商品 |  | Items such as shirts and scarves sold to fans. | The club shop sells official merchandise. | 俱乐部商店出售官方周边商品。 |
+watch-party | 3 | Fan culture | watch party | 看球聚会 |  | A group meeting to watch a match together. | We organised a watch party at a bar. | 我们在一家酒吧组织了看球聚会。 |
+broadcast-rights | 3 | Fan culture | broadcast rights | 转播权 |  | The legal right to show a competition on television or online. | Broadcast rights are worth billions. | 转播权价值数十亿。 |
+highlights | 1 | Fan culture | highlights | 集锦 |  | A short video of the most important moments of a match. | I watched the highlights on my phone. | 我在手机上看了比赛集锦。 |
+replay | 1 | Fan culture | replay | 回放 |  | Showing a moment of play again on screen. | The replay showed it was a clear foul. | 回放显示这是一次明显的犯规。 |
+post-match-interview | 2 | Fan culture | post-match interview | 赛后采访 |  | Questions asked of players or coaches immediately after the final whistle. | The captain gave a post-match interview. | 队长接受了赛后采访。 |
+press-conference | 2 | Fan culture | press conference | 新闻发布会 |  | A meeting where a coach or player answers journalists' questions. | The coach explained his choices at the press conference. | 教练在新闻发布会上解释了自己的选择。 |
+ankle-injury | 1 | Injuries | ankle injury | 踝关节伤病 |  | Damage to the ligaments, bones or tendons around the ankle. | An ankle injury forced him off. | 踝关节伤病迫使他下场。 |
+knee-injury | 1 | Injuries | knee injury | 膝伤 |  | Damage to the ligaments, cartilage or bones of the knee. | A serious knee injury ended his career. | 严重的膝伤终结了他的职业生涯。 |
+injury-time | 1 | Injuries | injury time | 伤停补时 |  | Time added at the end of a half for stoppages caused by injuries. | He scored in injury time. | 他在伤停补时进球。 |
+anti-doping-test | 3 | Injuries | doping test | 兴奋剂检测 |  | A medical check that looks for banned substances in an athlete. | Both players took a doping test after the match. | 两名球员赛后都接受了兴奋剂检测。 |
+dead-leg | 3 | Injuries | dead leg | 大腿挫伤 |  | A deep bruise on the thigh caused by a heavy knock. | A dead leg forced him to limp off. | 大腿挫伤让他一瘸一拐地下场。 |
+injury-prone | 3 | Injuries | injury-prone | 伤病缠身 |  | Describes a player who often suffers injuries. | The talented winger is injury-prone. | 这位天赋出众的边锋伤病缠身。 |

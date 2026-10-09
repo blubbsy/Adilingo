@@ -1,0 +1,224 @@
+@pack | technology-communication | Technology & Communication | 科技与通信 | 📱 | work | Phones, computers, the internet, social media, apps and messaging in everyday digital life.
+手机 | mobile phone | 我的手机没电了。 | My phone is out of battery.
+电话 | telephone; phone call | 他正在打电话。 | He is making a phone call.
+电脑 | computer | 我用电脑写作业。 | I do my homework on the computer.
+网 | net; web | 这里的网很快。 | The internet here is fast.
+网络 | network; internet | 网络让生活更方便。 | The internet makes life more convenient.
+互联网 | the Internet | 互联网改变了我们的生活。 | The Internet has changed our lives.
+上网 | to go online | 我晚上喜欢上网看新闻。 | I like going online to read news in the evening.
+网站 | website | 这个网站有很多信息。 | This website has a lot of information.
+网页 | web page | 请打开这个网页。 | Please open this web page.
+网址 | URL; web address | 把网址发给我吧。 | Send me the web address.
+邮件 | email | 我收到了一封邮件。 | I received an email.
+电子邮件 | email | 请把电子邮件发给我。 | Please send me the email.
+发送 | to send | 我已经发送了文件。 | I have already sent the file.
+接收 | to receive | 我已接收到你的文件。 | I have received your file.
+收件箱 | inbox | 收件箱里有二十封新邮件。 | There are twenty new emails in the inbox.
+附件 | attachment | 请看邮件里的附件。 | Please see the attachment in the email.
+短信 | text message | 他给我发了一条短信。 | He sent me a text message.
+微信 | WeChat | 我们用微信聊天。 | We chat on WeChat.
+消息 | message; news | 我给你发了一条消息。 | I sent you a message.
+信息 | information; message | 手机里有很多信息。 | The phone has a lot of information.
+留言 | to leave a message | 你可以在下面留言。 | You can leave a message below.
+聊天 | to chat | 我们在网上聊天。 | We chat online.
+语音 | voice (message) | 他发了一条语音。 | He sent a voice message.
+视频 | video | 我们开视频聊天吧。 | Let's have a video chat.
+视频通话 | video call | 我每周和家人视频通话。 | I have a video call with my family every week.
+通话 | call | 通话时间是十分钟。 | The call lasted ten minutes.
+来电 | incoming call | 他没接来电。 | He didn't answer the incoming call.
+拨打 | to dial | 请拨打这个号码。 | Please dial this number.
+接电话 | to answer the phone | 他在开会，不能接电话。 | He's in a meeting and cannot answer the phone.
+挂电话 | to hang up | 他说完就挂电话了。 | He hung up as soon as he finished speaking.
+号码 | number | 请告诉我你的手机号码。 | Please tell me your mobile phone number.
+手机号 | mobile number | 请留下你的手机号。 | Please leave your mobile number.
+铃声 | ringtone | 我换了新的铃声。 | I changed to a new ringtone.
+静音 | silent mode | 开会时请把手机调成静音。 | Please set your phone to silent during meetings.
+充电 | to charge | 手机该充电了。 | The phone needs charging.
+充电器 | charger | 我忘了带充电器。 | I forgot to bring my charger.
+充电宝 | power bank | 我带着一个充电宝。 | I carry a power bank.
+电池 | battery | 电池用得很快。 | The battery drains quickly.
+电量 | battery level | 手机电量只剩百分之十。 | The phone has only ten percent battery left.
+屏幕 | screen | 屏幕碎了。 | The screen is broken.
+触摸屏 | touchscreen | 这是一块触摸屏。 | This is a touchscreen.
+按键 | button; key | 请按这个按键。 | Please press this button.
+耳机 | headphones | 我戴着耳机听歌。 | I listen to songs with headphones.
+蓝牙 | Bluetooth | 打开蓝牙就能连接。 | Turn on Bluetooth to connect.
+扬声器 | speaker | 手机的扬声器坏了。 | The phone speaker is broken.
+麦克风 | microphone | 麦克风没有声音。 | The microphone has no sound.
+摄像头 | camera (device) | 摄像头不能用了。 | The camera doesn't work any more.
+智能手机 | smartphone | 现在人人都有智能手机。 | Everyone has a smartphone now.
+平板电脑 | tablet | 他用平板电脑看视频。 | He watches videos on a tablet.
+笔记本电脑 | laptop | 我的笔记本电脑很轻。 | My laptop is very light.
+台式机 | desktop computer | 办公室用台式机。 | The office uses desktop computers.
+键盘 | keyboard | 这个键盘很好用。 | This keyboard is easy to use.
+鼠标 | mouse | 鼠标没电了。 | The mouse is out of battery.
+显示器 | monitor | 这个显示器很大。 | This monitor is big.
+打印机 | printer | 打印机没纸了。 | The printer is out of paper.
+扫描 | to scan | 请扫描这份文件。 | Please scan this document.
+复印 | to copy (photocopy) | 我去复印这份材料。 | I'll go photocopy these materials.
+硬盘 | hard drive | 硬盘里存了很多照片。 | The hard drive stores many photos.
+U盘 | USB flash drive | 请把文件拷到U盘里。 | Please copy the file to the USB drive.
+内存 | memory (RAM) | 这台电脑内存不够。 | This computer doesn't have enough memory.
+存储 | storage | 手机存储空间不够了。 | The phone's storage space is not enough.
+文件 | file; document | 我把文件保存在桌面上。 | I saved the file on the desktop.
+文件夹 | folder | 请新建一个文件夹。 | Please create a new folder.
+桌面 | desktop | 桌面上有很多图标。 | There are many icons on the desktop.
+图标 | icon | 点击这个图标。 | Click this icon.
+软件 | software | 这个软件很好用。 | This software is easy to use.
+硬件 | hardware | 硬件需要升级。 | The hardware needs upgrading.
+程序 | program | 这个程序出了问题。 | This program has a problem.
+应用 | application; app | 我手机里有很多应用。 | I have many apps on my phone.
+应用程序 | application | 这个应用程序是免费的。 | This application is free.
+下载 | to download | 我下载了一个新软件。 | I downloaded a new piece of software.
+上传 | to upload | 请把照片上传到网上。 | Please upload the photos online.
+安装 | to install | 请先安装这个程序。 | Please install this program first.
+卸载 | to uninstall | 我卸载了不用的应用。 | I uninstalled the unused apps.
+更新 | to update | 手机系统需要更新。 | The phone system needs updating.
+升级 | to upgrade | 软件已经升级了。 | The software has been upgraded.
+系统 | system | 电脑系统很慢。 | The computer system is slow.
+设置 | settings; to set | 请在设置里打开定位。 | Please turn on location in the settings.
+账号 | account | 请输入你的账号。 | Please enter your account.
+用户 | user | 这个应用有很多用户。 | This app has many users.
+用户名 | username | 请输入用户名。 | Please enter your username.
+密码 | password | 我忘记密码了。 | I forgot my password.
+登录 | to log in | 你需要先登录账号。 | You need to log in to your account first.
+退出 | to log out; exit | 用完请退出账号。 | Please log out of your account after using it.
+注册 | to register | 请先注册一个账号。 | Please register an account first.
+验证码 | verification code | 验证码已经发到你的手机。 | The verification code has been sent to your phone.
+指纹 | fingerprint | 我用指纹解锁手机。 | I unlock my phone with my fingerprint.
+解锁 | to unlock | 手机可以刷脸解锁。 | The phone can be unlocked with your face.
+锁屏 | lock screen | 锁屏上有一张风景照。 | The lock screen has a landscape photo.
+点击 | to click; tap | 请点击这个按钮。 | Please click this button.
+按钮 | button | 点击红色按钮就可以了。 | Just click the red button.
+链接 | link | 请点击下面的链接。 | Please click the link below.
+搜索 | to search | 我在网上搜索资料。 | I search for information online.
+搜索引擎 | search engine | 这是一个常用的搜索引擎。 | This is a commonly used search engine.
+浏览器 | browser | 浏览器打不开这个页面。 | The browser can't open this page.
+浏览 | to browse | 我喜欢浏览新闻。 | I like browsing the news.
+刷新 | to refresh | 请刷新页面。 | Please refresh the page.
+复制 | to copy | 请复制这段文字。 | Please copy this text.
+粘贴 | to paste | 把文字粘贴到这里。 | Paste the text here.
+剪切 | to cut | 先剪切，再粘贴。 | First cut, then paste.
+删除 | to delete | 我误删除了一个文件。 | I deleted a file by mistake.
+保存 | to save | 请保存你的文档。 | Please save your document.
+备份 | backup | 重要文件要做备份。 | Important files need backups.
+打开 | to open | 请打开这个文件。 | Please open this file.
+关闭 | to close; shut down | 请关闭这个窗口。 | Please close this window.
+窗口 | window | 屏幕上有三个窗口。 | There are three windows on the screen.
+开机 | to turn on | 电脑开机要一分钟。 | The computer takes a minute to start up.
+关机 | to shut down | 睡觉前我会关机。 | I turn off the computer before sleeping.
+重启 | to restart | 请重启电脑试试。 | Please restart the computer and try.
+死机 | to freeze (computer) | 电脑突然死机了。 | The computer suddenly froze.
+卡 | laggy; stuck | 这个游戏有点卡。 | This game is a bit laggy.
+崩溃 | to crash | 软件突然崩溃了。 | The software suddenly crashed.
+故障 | malfunction | 电脑出了故障。 | The computer has a malfunction.
+修理 | to repair | 手机坏了要去修理。 | The phone is broken and needs repair.
+病毒 | virus | 电脑中病毒了。 | The computer has a virus.
+黑客 | hacker | 黑客攻击了这个网站。 | A hacker attacked this website.
+安全 | security; safe | 上网要注意安全。 | Pay attention to safety online.
+隐私 | privacy | 请保护个人隐私。 | Please protect your personal privacy.
+防火墙 | firewall | 防火墙拦截了这个程序。 | The firewall blocked this program.
+加密 | encryption | 文件已经加密。 | The file has been encrypted.
+数据 | data | 数据已经保存好了。 | The data has been saved.
+数据库 | database | 他在管理公司的数据库。 | He manages the company's database.
+云 | cloud | 照片存在云里。 | The photos are stored in the cloud.
+云端 | cloud (storage) | 文件保存在云端。 | The file is saved in the cloud.
+服务器 | server | 服务器出了问题。 | The server has a problem.
+网速 | internet speed | 这里的网速很快。 | The internet speed here is fast.
+流量 | data usage | 我的手机流量用完了。 | I've used up my mobile data.
+信号 | signal | 这里没有信号。 | There is no signal here.
+无线 | wireless | 酒店有无线网络。 | The hotel has a wireless network.
+无线网 | Wi-Fi | 请问无线网密码是什么？ | What is the Wi-Fi password?
+连接 | to connect | 手机已经连接网络。 | The phone is connected to the network.
+断网 | to lose internet | 今天断网了，我不能工作。 | The internet is down today and I can't work.
+在线 | online | 他现在在线。 | He is online now.
+离线 | offline | 他的状态是离线。 | His status is offline.
+直播 | live stream | 她每晚做直播。 | She does a live stream every night.
+主播 | streamer; host | 这个主播很受欢迎。 | This streamer is very popular.
+博客 | blog | 他写了一个旅行博客。 | He wrote a travel blog.
+微博 | Weibo | 他在微博上发了一条消息。 | He posted a message on Weibo.
+社交媒体 | social media | 社交媒体影响很大。 | Social media has a great influence.
+社交网络 | social network | 社交网络让朋友联系更方便。 | Social networks make contact with friends easier.
+发布 | to post; publish | 他发布了一张新照片。 | He posted a new photo.
+发帖 | to make a post | 她在论坛上发帖提问。 | She posted a question in the forum.
+帖子 | post | 这个帖子有很多评论。 | This post has many comments.
+评论 | comment; review | 请看看大家的评论。 | Please look at everyone's comments.
+点赞 | to like | 我给她的照片点赞了。 | I liked her photo.
+转发 | to forward; repost | 请转发这条消息。 | Please repost this message.
+分享 | to share | 我想和你分享这个视频。 | I want to share this video with you.
+关注 | to follow | 我关注了很多博主。 | I follow many bloggers.
+粉丝 | fan; follower | 她有一百万粉丝。 | She has a million followers.
+好友 | friend (online) | 我加了他为好友。 | I added him as a friend.
+头像 | profile picture | 她换了新头像。 | She changed her profile picture.
+昵称 | nickname | 你的网络昵称是什么？ | What is your online nickname?
+群 | group (chat) | 我们有一个班级群。 | We have a class group chat.
+群聊 | group chat | 同事们在群聊里讨论。 | Colleagues discuss in the group chat.
+朋友圈 | Moments (feed) | 她在朋友圈发了照片。 | She posted photos in her Moments feed.
+表情 | emoji; expression | 他发了一个笑脸表情。 | He sent a smiley emoji.
+表情包 | meme; sticker | 我喜欢用表情包聊天。 | I like using stickers when chatting.
+网友 | netizen; online friend | 我在网上认识了一个网友。 | I met an online friend on the internet.
+网红 | internet celebrity | 她是一位美食网红。 | She is a food internet celebrity.
+热搜 | trending search | 这条消息上了热搜。 | This news hit the trending searches.
+头条 | headline | 这条新闻是今天的头条。 | This news is today's headline.
+新闻 | news | 我每天看新闻。 | I read the news every day.
+广告 | advertisement | 网页上有很多广告。 | The web page has many ads.
+短视频 | short video | 她喜欢刷短视频。 | She likes scrolling short videos.
+刷 | to scroll; swipe | 他睡前刷手机。 | He scrolls his phone before sleeping.
+订阅 | to subscribe | 我订阅了这个频道。 | I subscribed to this channel.
+频道 | channel | 这个频道有很多教学视频。 | This channel has many tutorial videos.
+截图 | screenshot | 我把对话截图发给你。 | I'll send you a screenshot of the conversation.
+拍照 | to take photos | 手机可以拍照。 | The phone can take photos.
+录音 | to record audio | 我把会议录音了。 | I recorded the meeting audio.
+录像 | to record video | 他在录像。 | He is recording a video.
+相册 | photo album | 手机相册里有很多照片。 | There are many photos in the phone album.
+自拍 | selfie | 她喜欢自拍。 | She likes taking selfies.
+扫码 | to scan a QR code | 请扫码付款。 | Please scan the code to pay.
+二维码 | QR code | 扫一下这个二维码。 | Scan this QR code.
+电子支付 | electronic payment | 现在电子支付很普遍。 | Electronic payment is common now.
+移动支付 | mobile payment | 超市可以用移动支付。 | You can use mobile payment at the supermarket.
+网购 | online shopping | 我喜欢网购。 | I like shopping online.
+快递 | express delivery | 快递明天到。 | The package arrives tomorrow.
+外卖 | food delivery | 他中午点外卖。 | He orders food delivery at noon.
+打车软件 | ride-hailing app | 我用打车软件叫车。 | I use a ride-hailing app to call a car.
+地图软件 | map app | 地图软件显示最快的路线。 | The map app shows the fastest route.
+定位 | positioning; location | 请打开手机定位。 | Please turn on the phone's location.
+导航 | navigation | 导航说前面要右转。 | The navigation says to turn right ahead.
+翻译软件 | translation app | 我用翻译软件学外语。 | I use a translation app to learn foreign languages.
+输入法 | input method | 我用拼音输入法打字。 | I type with the pinyin input method.
+打字 | to type | 他打字很快。 | He types fast.
+输入 | to input | 请输入验证码。 | Please enter the verification code.
+文字 | text | 我复制了这段文字。 | I copied this text.
+表格 | spreadsheet; form | 请填这个表格。 | Please fill in this form.
+文档 | document | 这个文档有十页。 | This document has ten pages.
+幻灯片 | slides | 我正在做幻灯片。 | I am making slides.
+演示文稿 | presentation | 他的演示文稿很清楚。 | His presentation is very clear.
+会议软件 | meeting software | 我们用会议软件开会。 | We hold meetings with meeting software.
+远程 | remote | 他在家远程办公。 | He works remotely from home.
+线上 | online (activity) | 这次会议在线上举行。 | This meeting is held online.
+线下 | offline (activity) | 活动在线下举行。 | The event takes place offline.
+科技 | technology | 科技发展得很快。 | Technology develops rapidly.
+技术 | technique; technology | 他懂很多新技术。 | He knows many new technologies.
+创新 | innovation | 创新是公司成功的关键。 | Innovation is the key to the company's success.
+人工智能 | artificial intelligence | 人工智能越来越重要。 | Artificial intelligence is getting more important.
+机器人 | robot | 机器人可以做家务。 | Robots can do housework.
+自动 | automatic | 这个门是自动的。 | This door is automatic.
+智能 | smart; intelligent | 我家有智能音箱。 | My home has a smart speaker.
+虚拟 | virtual | 虚拟世界很有趣。 | The virtual world is interesting.
+编程 | programming | 他在学编程。 | He is learning programming.
+代码 | code | 这段代码有错误。 | This piece of code has an error.
+程序员 | programmer | 他是一名程序员。 | He is a programmer.
+工程师 | engineer | 她是软件工程师。 | She is a software engineer.
+漏洞 | bug; loophole | 程序里有一个漏洞。 | There is a bug in the program.
+算法 | algorithm | 这个算法很高效。 | This algorithm is efficient.
+芯片 | chip | 手机芯片越来越强。 | Phone chips are getting more powerful.
+传感器 | sensor | 这个设备有很多传感器。 | This device has many sensors.
+无人机 | drone | 他用无人机拍风景。 | He uses a drone to film scenery.
+电视 | television | 客厅里有一台电视。 | There is a TV in the living room.
+遥控器 | remote control | 遥控器在沙发上。 | The remote control is on the sofa.
+广播 | radio broadcast | 他在听广播。 | He is listening to the radio.
+电报 | telegram | 以前人们用电报传消息。 | People used telegrams to send messages in the past.
+传真 | fax | 请把文件传真给我。 | Please fax the document to me.
+座机 | landline | 办公室的座机响了。 | The office landline rang.
+通讯录 | contacts | 我把号码存在通讯录里。 | I saved the number in my contacts.
+联系 | to contact | 有事请联系我。 | Contact me if anything comes up.
+联系人 | contact person | 联系人是王先生。 | The contact person is Mr. Wang.

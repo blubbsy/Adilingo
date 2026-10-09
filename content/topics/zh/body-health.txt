@@ -1,0 +1,328 @@
+@pack | body-health | Body Parts & Health | 身体与健康 | 🩺 | health | Human anatomy, common ailments, medical care, and wellness.
+手 | hand | 我的手很冷。 | My hands are very cold.
+脚 | foot | 我的脚很疼。 | My foot hurts a lot.
+头 | head | 他的头很大。 | His head is very big.
+脸 | face | 她的脸红了。 | Her face turned red.
+嘴 | mouth | 请张开嘴。 | Please open your mouth.
+药 | medicine | 这种药一天吃三次。 | Take this medicine three times a day.
+医生 | doctor | 医生让我多休息。 | The doctor told me to rest more.
+医院 | hospital | 他在医院工作。 | He works in a hospital.
+身体 | body; health | 你的身体怎么样？ | How is your health?
+眼睛 | eye | 她的眼睛很大。 | She has big eyes.
+耳朵 | ear | 兔子的耳朵很长。 | Rabbits have long ears.
+鼻子 | nose | 我的鼻子不舒服。 | My nose feels uncomfortable.
+嘴巴 | mouth | 他的嘴巴很甜。 | He has a sweet mouth.
+头发 | hair | 她的头发又长又黑。 | Her hair is long and black.
+牙齿 | tooth; teeth | 每天要刷牙齿。 | You must brush your teeth every day.
+舌头 | tongue | 我咬到舌头了。 | I bit my tongue.
+脖子 | neck | 我的脖子有点酸。 | My neck is a bit sore.
+肩膀 | shoulder | 他拍了拍我的肩膀。 | He patted me on the shoulder.
+手指 | finger | 我的手指被门夹了。 | My finger got caught in the door.
+胳膊 | arm | 他的胳膊受伤了。 | His arm was injured.
+肚子 | belly; stomach | 我的肚子很饿。 | My stomach is very hungry.
+腿 | leg | 跑步以后我的腿很酸。 | My legs ached after running.
+心脏 | heart | 心脏每天不停地跳动。 | The heart beats nonstop every day.
+肌肉 | muscle | 他的肌肉很发达。 | His muscles are well developed.
+骨头 | bone | 他的骨头断了。 | His bone is broken.
+护士 | nurse | 护士给我量了体温。 | The nurse took my temperature.
+生病 | fall ill | 他昨天生病了。 | He fell ill yesterday.
+感冒 | catch a cold; cold | 我感冒了，一直流鼻涕。 | I caught a cold and have a runny nose.
+发烧 | have a fever | 孩子发烧了。 | The child has a fever.
+咳嗽 | cough | 他咳嗽得很厉害。 | He coughs badly.
+头疼 | headache | 我今天头疼。 | I have a headache today.
+疼 | hurt; painful | 你哪里疼？ | Where does it hurt?
+痛 | pain; ache | 他的牙很痛。 | His tooth aches a lot.
+病 | illness; disease | 她的病好了。 | Her illness is gone.
+睡觉 | sleep | 我每天十一点睡觉。 | I go to sleep at eleven every day.
+休息 | rest | 你累了就休息一下。 | Rest a bit if you are tired.
+运动 | exercise; sports | 我每天早上运动。 | I exercise every morning.
+健康 | healthy; health | 吃水果对健康有好处。 | Eating fruit is good for your health.
+累 | tired | 我今天很累。 | I am very tired today.
+饿 | hungry | 我饿了，想吃饭。 | I am hungry and want to eat.
+渴 | thirsty | 跑完步我很渴。 | I am thirsty after running.
+洗手 | wash hands | 吃饭前要洗手。 | Wash your hands before eating.
+刷牙 | brush teeth | 他早上和晚上刷牙。 | He brushes his teeth morning and night.
+洗澡 | take a bath | 我晚上洗澡。 | I take a bath in the evening.
+看病 | see a doctor | 他去医院看病。 | He went to the hospital to see a doctor.
+吃药 | take medicine | 饭后要吃药。 | You must take medicine after meals.
+身高 | height | 他的身高一米八。 | His height is 1.8 meters.
+体重 | body weight | 你的体重增加了。 | Your weight has increased.
+胖 | fat; plump | 他最近有点胖。 | He has become a bit fat recently.
+瘦 | thin | 她比以前瘦了。 | She is thinner than before.
+眉毛 | eyebrow | 他的眉毛很浓。 | His eyebrows are thick.
+睫毛 | eyelash | 她的睫毛很长。 | Her eyelashes are long.
+额头 | forehead | 孩子的额头很烫。 | The child's forehead is hot.
+脸颊 | cheek | 宝宝的脸颊红红的。 | The baby's cheeks are rosy.
+下巴 | chin | 他摸了摸下巴。 | He touched his chin.
+嘴唇 | lip | 天气干燥，我的嘴唇裂了。 | The air is dry and my lips are chapped.
+胡子 | beard; mustache | 爷爷留着白胡子。 | Grandpa has a white beard.
+喉咙 | throat | 我的喉咙很痛。 | My throat hurts a lot.
+手腕 | wrist | 他的手腕扭伤了。 | He sprained his wrist.
+手掌 | palm | 她把手掌伸出来。 | She stretched out her palm.
+拳头 | fist | 他握紧了拳头。 | He clenched his fist.
+指甲 | fingernail | 我要剪指甲。 | I need to trim my nails.
+拇指 | thumb | 他向我竖起拇指。 | He gave me a thumbs-up.
+食指 | index finger | 她用食指指着地图。 | She pointed at the map with her index finger.
+中指 | middle finger | 他的中指受伤了。 | His middle finger was hurt.
+无名指 | ring finger | 她的无名指上戴着戒指。 | She wears a ring on her ring finger.
+小指 | little finger | 小指是最短的手指。 | The little finger is the shortest finger.
+胸 | chest | 他的胸有点闷。 | His chest feels a bit tight.
+胸部 | chest | 他的胸部受了伤。 | His chest was injured.
+背 | back | 我的背很酸。 | My back is sore.
+腰 | waist; lower back | 他弯腰时腰很痛。 | His lower back hurts when he bends.
+屁股 | buttocks; bottom | 孩子摔了一下，屁股很疼。 | The child fell and his bottom hurts.
+大腿 | thigh | 跑步让我的大腿变结实了。 | Running made my thighs stronger.
+小腿 | calf; lower leg | 我的小腿抽筋了。 | I got a cramp in my calf.
+膝盖 | knee | 他的膝盖受伤了。 | His knee is injured.
+脚踝 | ankle | 她扭伤了脚踝。 | She twisted her ankle.
+脚趾 | toe | 我的脚趾撞到桌子了。 | I banged my toe on the table.
+脚后跟 | heel | 新鞋磨得我脚后跟疼。 | The new shoes rub my heel painfully.
+关节 | joint | 老人的关节常常疼。 | Old people often have joint pain.
+皮肤 | skin | 她的皮肤很白。 | Her skin is very fair.
+血 | blood | 他的手流血了。 | His hand is bleeding.
+血液 | blood | 血液在身体里循环。 | Blood circulates in the body.
+血管 | blood vessel | 血管变窄会影响健康。 | Narrowed blood vessels affect health.
+血压 | blood pressure | 医生给他量了血压。 | The doctor measured his blood pressure.
+脉搏 | pulse | 护士摸了摸他的脉搏。 | The nurse felt his pulse.
+心跳 | heartbeat | 我跑得心跳很快。 | My heartbeat is fast from running.
+呼吸 | breathe; breathing | 请深深地呼吸。 | Please breathe deeply.
+大脑 | brain | 睡眠对大脑很重要。 | Sleep is important for the brain.
+脑袋 | head; brain | 他摇了摇脑袋。 | He shook his head.
+神经 | nerve | 压力大会影响神经。 | High stress affects the nerves.
+肺 | lung | 吸烟对肺不好。 | Smoking is bad for the lungs.
+胃 | stomach | 我的胃不舒服。 | My stomach is upset.
+肝 | liver | 喝酒太多会伤肝。 | Drinking too much harms the liver.
+肾 | kidney | 他的肾有问题。 | He has a problem with his kidney.
+肠 | intestine | 肠是消化食物的器官。 | The intestine is an organ that digests food.
+器官 | organ | 肝是人体重要的器官。 | The liver is an important human organ.
+消化 | digest; digestion | 吃太快不容易消化。 | Eating too fast makes digestion hard.
+内脏 | internal organs | 医生检查了他的内脏。 | The doctor examined his internal organs.
+骨折 | fracture | 他滑雪时骨折了。 | He fractured a bone while skiing.
+骨骼 | skeleton | 牛奶对骨骼有好处。 | Milk is good for the bones.
+脊椎 | spine | 长时间坐着对脊椎不好。 | Sitting long is bad for the spine.
+肋骨 | rib | 他摔倒时肋骨受伤了。 | He hurt a rib when he fell.
+头骨 | skull | 医生看了看头骨的片子。 | The doctor looked at the skull scan.
+牙 | tooth | 我的牙坏了。 | My tooth is bad.
+牙膏 | toothpaste | 我用完了牙膏。 | I ran out of toothpaste.
+牙刷 | toothbrush | 请给我一把新牙刷。 | Please give me a new toothbrush.
+蛀牙 | cavity | 小孩吃糖多容易有蛀牙。 | Kids who eat lots of sweets get cavities.
+牙医 | dentist | 我明天要去看牙医。 | I will see the dentist tomorrow.
+拔牙 | pull a tooth | 医生给他拔牙了。 | The doctor pulled his tooth.
+补牙 | fill a tooth | 我下午要去补牙。 | I am going to get a filling this afternoon.
+症状 | symptom | 他有感冒的症状。 | He has symptoms of a cold.
+流鼻涕 | have a runny nose | 我感冒了，一直流鼻涕。 | I have a cold and a runny nose all the time.
+打喷嚏 | sneeze | 花粉让我一直打喷嚏。 | Pollen keeps making me sneeze.
+鼻塞 | stuffy nose | 我今天鼻塞很难受。 | My stuffy nose is miserable today.
+嗓子疼 | sore throat | 我嗓子疼，不想说话。 | I have a sore throat and don't want to talk.
+肚子疼 | stomachache | 他吃了冷饭后肚子疼。 | He had a stomachache after eating cold food.
+牙疼 | toothache | 牙疼真难受。 | A toothache is really miserable.
+胃疼 | stomach pain | 他胃疼得吃不下饭。 | His stomach hurts so much he cannot eat.
+腰疼 | lower back pain | 他长期坐着，腰疼。 | He sits for long hours and has back pain.
+头晕 | dizzy | 我站起来时有点头晕。 | I felt dizzy when I stood up.
+恶心 | nauseous; nausea | 坐船让我很恶心。 | Riding the boat makes me nauseous.
+呕吐 | vomit | 孩子吃坏东西，呕吐了。 | The child ate something bad and vomited.
+拉肚子 | have diarrhea | 他吃了不干净的东西，拉肚子了。 | He ate unclean food and got diarrhea.
+腹泻 | diarrhea | 腹泻时要多喝水。 | Drink more water when you have diarrhea.
+便秘 | constipation | 多吃蔬菜可以防止便秘。 | Eating vegetables helps prevent constipation.
+失眠 | insomnia | 他压力大，经常失眠。 | He is stressed and often has insomnia.
+发炎 | become inflamed | 我的喉咙发炎了。 | My throat is inflamed.
+红肿 | red and swollen | 他的脚踝红肿了。 | His ankle is red and swollen.
+肿 | swell | 我的脸肿了。 | My face has swollen.
+痒 | itchy | 蚊子咬的地方很痒。 | The mosquito bite is itchy.
+过敏 | allergy; allergic | 我对花粉过敏。 | I am allergic to pollen.
+出汗 | sweat | 运动后我容易出汗。 | I sweat easily after exercise.
+疲劳 | fatigue | 长期加班会导致疲劳。 | Working overtime for long causes fatigue.
+乏力 | weak; lacking strength | 生病后我全身乏力。 | After being ill I felt weak all over.
+没胃口 | have no appetite | 天太热，我没胃口。 | It is so hot that I have no appetite.
+抽筋 | cramp | 游泳时他的腿抽筋了。 | His leg cramped while swimming.
+扭伤 | sprain | 她打球时扭伤了脚。 | She sprained her foot playing ball.
+受伤 | be injured | 他踢球时受伤了。 | He got injured while playing football.
+伤口 | wound | 伤口需要每天清洗。 | The wound needs cleaning every day.
+流血 | bleed | 他的鼻子流血了。 | His nose is bleeding.
+烫伤 | burn; scald | 她被热水烫伤了。 | She was scalded by hot water.
+擦伤 | scrape; abrasion | 他的膝盖有一处擦伤。 | He has a scrape on his knee.
+淤青 | bruise | 他腿上有一块淤青。 | He has a bruise on his leg.
+伤疤 | scar | 他手上有一道伤疤。 | He has a scar on his hand.
+晕倒 | faint | 太热了，她晕倒了。 | It was so hot that she fainted.
+昏迷 | coma; unconscious | 病人一直昏迷不醒。 | The patient remained unconscious.
+中暑 | heatstroke | 夏天在外面太久会中暑。 | Staying outside too long in summer can cause heatstroke.
+冻伤 | frostbite | 他的手指被冻伤了。 | His fingers got frostbitten.
+流感 | flu | 冬天流感很常见。 | The flu is common in winter.
+发热 | fever | 病人发热三天了。 | The patient has had a fever for three days.
+体温 | body temperature | 护士每天量体温。 | The nurse takes temperatures every day.
+退烧 | bring down a fever | 吃了药以后他退烧了。 | His fever went down after taking medicine.
+传染 | infect; contagious | 感冒很容易传染。 | Colds are very contagious.
+病毒 | virus | 这种病毒传播得很快。 | This virus spreads quickly.
+细菌 | bacteria | 洗手可以减少细菌。 | Washing hands reduces bacteria.
+感染 | infection; infect | 伤口感染了，要看医生。 | The wound is infected; see a doctor.
+疾病 | disease | 运动可以预防很多疾病。 | Exercise prevents many diseases.
+肺炎 | pneumonia | 他得了肺炎，住院了。 | He got pneumonia and was hospitalized.
+支气管炎 | bronchitis | 他咳嗽很久，得了支气管炎。 | He coughed for ages and got bronchitis.
+哮喘 | asthma | 孩子有哮喘，要随身带药。 | The child has asthma and must carry medicine.
+胃炎 | gastritis | 他不规律吃饭，得了胃炎。 | He eats irregularly and got gastritis.
+肠胃炎 | gastroenteritis | 他因为肠胃炎住了两天院。 | He was in hospital for two days with gastroenteritis.
+阑尾炎 | appendicitis | 她因为阑尾炎做了手术。 | She had surgery because of appendicitis.
+肝炎 | hepatitis | 肝炎需要长期治疗。 | Hepatitis needs long-term treatment.
+糖尿病 | diabetes | 他有糖尿病，不能吃太多甜食。 | He has diabetes and cannot eat many sweets.
+高血压 | high blood pressure | 爷爷有高血压。 | Grandpa has high blood pressure.
+低血压 | low blood pressure | 低血压的人容易头晕。 | People with low blood pressure get dizzy easily.
+心脏病 | heart disease | 他父亲得了心脏病。 | His father has heart disease.
+中风 | stroke | 老人中风后需要康复。 | The elderly man needs rehabilitation after a stroke.
+癌症 | cancer | 早期发现癌症很重要。 | Detecting cancer early is important.
+肿瘤 | tumor | 医生发现了一个小肿瘤。 | The doctor found a small tumor.
+贫血 | anemia | 她贫血，要多吃红肉。 | She is anemic and should eat more red meat.
+抑郁症 | depression | 抑郁症需要专业治疗。 | Depression needs professional treatment.
+焦虑 | anxiety; anxious | 考试前他很焦虑。 | He was anxious before the exam.
+近视 | nearsighted | 他从小就近视。 | He has been nearsighted since childhood.
+远视 | farsighted | 老人常常远视。 | Old people are often farsighted.
+色盲 | color blindness | 他是红绿色盲。 | He is red-green color blind.
+耳聋 | deafness | 他一只耳朵耳聋。 | He is deaf in one ear.
+水痘 | chickenpox | 孩子得了水痘，不能上学。 | The child has chickenpox and cannot go to school.
+麻疹 | measles | 打疫苗可以预防麻疹。 | Vaccines prevent measles.
+湿疹 | eczema | 宝宝脸上有湿疹。 | The baby has eczema on the face.
+皮疹 | rash | 吃药后他身上起了皮疹。 | He got a rash after taking the medicine.
+痘痘 | pimple | 青少年脸上常长痘痘。 | Teenagers often get pimples.
+晒伤 | sunburn | 我在海边被晒伤了。 | I got sunburned at the beach.
+蚊子 | mosquito | 夏天蚊子很多。 | There are many mosquitoes in summer.
+过敏性鼻炎 | allergic rhinitis | 春天他的过敏性鼻炎又犯了。 | His allergic rhinitis flares up again in spring.
+挂号 | register at a hospital | 我先去挂号，再去看医生。 | I register first, then see the doctor.
+门诊 | outpatient clinic | 门诊部在一楼。 | The outpatient department is on the first floor.
+急诊 | emergency department | 他被送到急诊室。 | He was taken to the emergency room.
+急救 | first aid; emergency treatment | 医生对他进行了急救。 | The doctor gave him emergency treatment.
+救护车 | ambulance | 救护车五分钟就到了。 | The ambulance arrived in five minutes.
+住院 | be hospitalized | 他需要住院一个星期。 | He needs to stay in hospital for a week.
+出院 | be discharged | 妈妈明天可以出院了。 | Mom can leave the hospital tomorrow.
+病房 | ward | 他的病房在三楼。 | His ward is on the third floor.
+病人 | patient | 医生在检查病人。 | The doctor is examining a patient.
+病历 | medical record | 请带好您的病历。 | Please bring your medical record.
+药房 | pharmacy | 药房在医院的一楼。 | The pharmacy is on the hospital's ground floor.
+药店 | drugstore | 附近有一家药店。 | There is a drugstore nearby.
+药方 | prescription | 医生给我开了药方。 | The doctor wrote me a prescription.
+处方 | prescription | 这种药需要医生的处方。 | This medicine needs a doctor's prescription.
+检查 | examine; check-up | 医生给我做了全面检查。 | The doctor gave me a full check-up.
+体检 | physical examination | 公司每年组织一次体检。 | The company organizes a physical exam each year.
+化验 | lab test | 医生让我去化验血。 | The doctor sent me for a blood test.
+验血 | blood test | 早上空腹验血。 | Do the blood test on an empty stomach in the morning.
+量体温 | take temperature | 护士来给孩子量体温。 | The nurse came to take the child's temperature.
+量血压 | measure blood pressure | 老人每天早上量血压。 | The old man measures his blood pressure each morning.
+听诊器 | stethoscope | 医生用听诊器听我的心跳。 | The doctor listens to my heartbeat with a stethoscope.
+体温计 | thermometer | 请把体温计放在腋下。 | Please put the thermometer under your arm.
+X光 | X-ray | 医生让我拍X光。 | The doctor asked me to get an X-ray.
+拍片 | take an X-ray | 他的腿需要拍片。 | His leg needs an X-ray.
+B超 | ultrasound | 孕妇要定期做B超。 | Pregnant women need regular ultrasounds.
+核磁共振 | MRI | 他去医院做了核磁共振。 | He had an MRI at the hospital.
+诊断 | diagnose; diagnosis | 医生诊断他得了肺炎。 | The doctor diagnosed him with pneumonia.
+治疗 | treat; treatment | 这种病需要长期治疗。 | This disease needs long-term treatment.
+手术 | surgery | 他下周要做手术。 | He will have surgery next week.
+麻醉 | anesthesia | 手术前医生给他麻醉。 | Before the surgery the doctor anesthetized him.
+外科 | surgery department | 他去外科看骨折。 | He went to surgery for his fracture.
+内科 | internal medicine | 胃疼应该挂内科。 | For stomach pain, register at internal medicine.
+儿科 | pediatrics | 孩子发烧了，要去儿科。 | The child has a fever and must go to pediatrics.
+眼科 | ophthalmology | 他到眼科检查视力。 | He went to ophthalmology to have his vision checked.
+牙科 | dentistry | 这家医院的牙科很有名。 | This hospital's dental department is famous.
+中医 | traditional Chinese medicine | 奶奶喜欢看中医。 | Grandma likes to see a TCM doctor.
+西医 | Western medicine | 西医和中医的方法不同。 | Western and Chinese medicine use different methods.
+针灸 | acupuncture | 他用针灸治疗腰痛。 | He treats his back pain with acupuncture.
+按摩 | massage | 工作累了，我去按摩一下。 | After work I go for a massage.
+康复 | recover; rehabilitation | 他正在康复中。 | He is recovering.
+恢复 | recover | 手术后他恢复得很快。 | He recovered quickly after surgery.
+好转 | improve | 他的病情开始好转了。 | His condition has begun to improve.
+病情 | condition of illness | 医生向家属说明了病情。 | The doctor explained the condition to the family.
+打针 | get an injection | 孩子最怕打针。 | Children fear injections most.
+输液 | IV drip | 他在医院输液。 | He is on an IV drip at the hospital.
+注射 | inject | 护士给他注射了药物。 | The nurse injected medication into him.
+疫苗 | vaccine | 孩子要按时接种疫苗。 | Children need vaccines on schedule.
+接种 | vaccinate | 他去社区接种流感疫苗。 | He went to the clinic to get a flu vaccine.
+预防 | prevent; prevention | 勤洗手可以预防疾病。 | Washing hands often can prevent illness.
+药片 | pill; tablet | 每次吃两片药片。 | Take two tablets each time.
+药丸 | pill | 这种药丸很苦。 | This pill is very bitter.
+胶囊 | capsule | 这个胶囊饭后吃。 | Take this capsule after meals.
+药水 | liquid medicine | 孩子更喜欢喝药水。 | Kids prefer liquid medicine.
+药膏 | ointment | 把药膏涂在伤口上。 | Apply the ointment to the wound.
+眼药水 | eye drops | 我每天滴三次眼药水。 | I use eye drops three times a day.
+止痛药 | painkiller | 他疼得吃了止痛药。 | The pain was so bad that he took a painkiller.
+退烧药 | fever reducer | 这个退烧药对孩子也安全。 | This fever reducer is safe for kids too.
+感冒药 | cold medicine | 我吃了感冒药就想睡觉。 | Cold medicine makes me sleepy.
+抗生素 | antibiotic | 抗生素不能乱吃。 | Antibiotics must not be taken carelessly.
+维生素 | vitamin | 水果里有很多维生素。 | Fruit contains many vitamins.
+创可贴 | adhesive bandage | 请给我一个创可贴。 | Please give me a band-aid.
+绷带 | bandage | 护士用绷带包扎伤口。 | The nurse wrapped the wound with a bandage.
+口罩 | face mask | 去医院要戴口罩。 | You should wear a mask at the hospital.
+消毒 | disinfect | 医生先给伤口消毒。 | The doctor disinfected the wound first.
+酒精 | alcohol (rubbing) | 用酒精擦一下伤口周围。 | Wipe around the wound with alcohol.
+轮椅 | wheelchair | 他受伤后坐轮椅。 | He uses a wheelchair after his injury.
+拐杖 | crutch; cane | 爷爷走路要用拐杖。 | Grandpa needs a cane to walk.
+副作用 | side effect | 这种药有一些副作用。 | This medicine has some side effects.
+用量 | dosage | 请按说明书上的用量吃药。 | Take the medicine at the dosage on the leaflet.
+说明书 | instructions | 吃药前先看说明书。 | Read the instructions before taking medicine.
+饭前 | before meals | 这种药要饭前吃。 | Take this medicine before meals.
+饭后 | after meals | 药要在饭后半小时吃。 | Take the medicine half an hour after meals.
+健身 | work out; fitness | 他每周去健身房健身三次。 | He works out at the gym three times a week.
+锻炼 | exercise; train | 老人早上在公园锻炼。 | Old people exercise in the park in the morning.
+跑步 | run; jogging | 我喜欢晚上跑步。 | I like jogging in the evening.
+散步 | take a walk | 饭后散步有益健康。 | A walk after meals is good for health.
+游泳 | swim | 游泳对全身都有好处。 | Swimming is good for the whole body.
+瑜伽 | yoga | 她每天早上练瑜伽。 | She practices yoga every morning.
+太极拳 | tai chi | 公园里很多老人打太极拳。 | Many old people practice tai chi in the park.
+伸展 | stretch | 运动前先伸展一下。 | Stretch a bit before exercising.
+热身 | warm up | 跑步前要先热身。 | Warm up before running.
+作息 | daily routine | 他的作息很规律。 | His daily routine is very regular.
+早睡早起 | go to bed and rise early | 早睡早起身体好。 | Going to bed and rising early is good for health.
+熬夜 | stay up late | 熬夜对身体不好。 | Staying up late is bad for your health.
+睡眠 | sleep | 孩子需要充足的睡眠。 | Children need enough sleep.
+饮食 | diet | 他的饮食很健康。 | His diet is very healthy.
+营养 | nutrition | 蔬菜里有丰富的营养。 | Vegetables are rich in nutrition.
+均衡 | balanced | 饮食要均衡。 | A diet should be balanced.
+减肥 | lose weight | 她想减肥，所以不吃甜点。 | She wants to lose weight, so she skips dessert.
+节食 | go on a diet | 过度节食会伤身体。 | Extreme dieting hurts the body.
+戒烟 | quit smoking | 医生劝他戒烟。 | The doctor urged him to quit smoking.
+戒酒 | quit drinking | 他为了健康决定戒酒。 | He decided to quit drinking for his health.
+吸烟 | smoke | 公共场所禁止吸烟。 | Smoking is banned in public places.
+保健 | health care | 老人很注意保健。 | Old people pay attention to health care.
+养生 | preserve health | 奶奶很会养生。 | Grandma knows how to look after her health.
+卫生 | hygiene | 饭前洗手是好的卫生习惯。 | Washing hands before meals is a good hygiene habit.
+习惯 | habit | 早起是个好习惯。 | Getting up early is a good habit.
+压力 | stress; pressure | 工作压力太大会影响健康。 | Too much work stress affects your health.
+放松 | relax | 听音乐可以放松心情。 | Listening to music helps you relax.
+心情 | mood | 好心情有益健康。 | A good mood benefits your health.
+心理 | psychology; mental | 他去看心理医生。 | He went to see a psychologist.
+精神 | spirit; energy | 睡好以后我很有精神。 | I feel energetic after a good sleep.
+体质 | physical constitution | 她的体质比较弱。 | Her constitution is rather weak.
+免疫力 | immunity | 多运动能提高免疫力。 | More exercise boosts your immunity.
+视力 | eyesight | 看手机太久会影响视力。 | Looking at phones too long harms eyesight.
+听力 | hearing | 老人的听力不太好。 | The old man's hearing is not good.
+怀孕 | pregnant | 她怀孕五个月了。 | She is five months pregnant.
+出生 | be born | 孩子在这家医院出生。 | The baby was born in this hospital.
+新生儿 | newborn | 新生儿需要特别照顾。 | Newborns need special care.
+残疾 | disabled | 他虽然残疾，但生活得很乐观。 | Though disabled, he lives optimistically.
+健康码 | health code | 进入商场要出示健康码。 | You must show your health code to enter the mall.
+救命 | help; save a life | 救命啊，有人落水了！ | Help! Someone fell into the water!
+头痛 | headache | 他常常头痛。 | He often has headaches.
+鼻炎 | rhinitis | 鼻炎让我睡不好。 | Rhinitis keeps me from sleeping well.
+喉咙痛 | sore throat | 他喉咙痛，不能唱歌。 | He has a sore throat and cannot sing.
+黄疸 | jaundice | 新生儿黄疸一般会自己消退。 | Newborn jaundice usually fades by itself.
+痊愈 | fully recover | 他的病已经痊愈了。 | His illness has fully healed.
+病假 | sick leave | 他请了三天病假。 | He took three days of sick leave.
+自我感觉 | how one feels | 他自我感觉良好。 | He feels good about himself.
+腹部 | abdomen | 医生按了按他的腹部。 | The doctor pressed on his abdomen.
+头部 | head region | 他的头部受了轻伤。 | He had a minor injury to his head.
+腿部 | leg region | 他的腿部有一处伤口。 | He has a wound on his leg.
+背部 | back | 背部的肌肉很重要。 | The muscles of the back are important.
+腋下 | armpit | 把体温计夹在腋下。 | Clamp the thermometer under your armpit.
+手臂 | arm | 他举起手臂喊我。 | He raised his arm and called me.
+手背 | back of hand | 蚊子叮了我的手背。 | A mosquito bit the back of my hand.
+肚脐 | navel | 婴儿的肚脐要保持干净。 | A baby's navel must be kept clean.
+肩 | shoulder | 他的肩有点痛。 | His shoulder hurts a little.
+眼皮 | eyelid | 我的眼皮跳了一下。 | My eyelid twitched.
+眼泪 | tear | 她的眼泪流了下来。 | Tears ran down her face.
+瞳孔 | pupil | 灯一照，瞳孔就缩小了。 | When the light shines, the pupil shrinks.
+鼻孔 | nostril | 他的鼻孔里进了灰尘。 | Dust got into his nostrils.
+耳垂 | earlobe | 她的耳垂上戴着耳环。 | She wears an earring on her earlobe.
+头皮 | scalp | 他的头皮很痒。 | His scalp is itchy.
+白发 | white hair | 爸爸有了几根白发。 | Dad has a few white hairs.
+秃头 | bald | 他三十岁就秃头了。 | He went bald at thirty.
+汗 | sweat | 天太热，我满头大汗。 | It is so hot that my head is covered in sweat.
+口水 | saliva | 宝宝流口水了。 | The baby is drooling.
+大便 | stool | 宝宝每天大便一次。 | The baby has a bowel movement once a day.
+小便 | urine; urinate | 请把小便留在这个杯子里。 | Please collect the urine in this cup.
+尿 | urine | 检查尿可以发现肾病。 | A urine test can reveal kidney disease.

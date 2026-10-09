@@ -90,7 +90,18 @@ export function Dictionary({ vocab, state, speech, onStart, onToggleStar }: Prop
       if (q) {
         if (isHan) {
           score = item.hanzi === q ? 100 : item.hanzi.startsWith(q) ? 60 : item.hanzi.includes(q) ? 30 : 0;
+          // English-course entries carry their Chinese meaning in the glosses
+          if (!score && row.english.includes(q)) score = 40;
         } else {
+          // Latin-script headwords (English course, English terms of a specialty course) and abbreviations
+          if (!/\p{Script=Han}/u.test(item.hanzi)) {
+            const head = item.hanzi.toLowerCase();
+            const abbr = item.abbr?.toLowerCase();
+            if (head === qEn || abbr === qEn) score = 100;
+            else if (head.startsWith(qEn)) score = 60;
+            else if (qEn.length >= 2 && head.includes(qEn)) score = 30;
+            else if (qEn.length >= 3 && item.definition?.toLowerCase().includes(qEn)) score = 15;
+          }
           const p = toneless ? row.pinyinBare : row.pinyinMarked;
           const qp = toneless ? qBare : qPinyin;
           if (qp && p === qp) score = 90;
@@ -321,7 +332,7 @@ function WordDetail({
         <HanziText item={item} color={color} className="text-6xl" />
         <div className="mt-2 flex items-center justify-center gap-3">
           <PinyinText item={item} color={color} className="text-2xl" />
-          <AudioButton speech={speech} text={item.hanzi} rate={state.settings.speechRate} />
+          <AudioButton speech={speech} text={item.speakAs ?? item.hanzi} rate={state.settings.speechRate} />
           <button
             type="button"
             onClick={() => onToggleStar(item.id)}
@@ -338,9 +349,23 @@ function WordDetail({
           <li key={e}>{e}</li>
         ))}
       </ol>
+      {item.definition && (
+        <div className="rounded-xl bg-slate-50 p-2.5 text-sm dark:bg-slate-900/60">
+          <div className="text-[11px] uppercase tracking-wide text-slate-500">
+            {t('domain.definition')}
+            {item.abbr ? ` · ${t('domain.abbreviation')}: ${item.abbr}` : ''}
+          </div>
+          <p className="mt-0.5 text-slate-700 dark:text-slate-200">{item.definition}</p>
+        </div>
+      )}
       <dl className="grid grid-cols-2 gap-2 text-sm">
-        {trackOf(state.settings.course) === 'chinese' ? (
-          CURRICULA.map((c) => (
+        {item.domain ? (
+          <div className="rounded-xl bg-slate-50 p-2.5 dark:bg-slate-900/60">
+            <dt className="text-[11px] uppercase tracking-wide text-slate-500">{t('curriculum.domain.short')}</dt>
+            <dd className="font-medium">{levelLabel(item.hskLevel, state.settings.course, t)}</dd>
+          </div>
+        ) : trackOf(state.settings.course) === 'chinese' ? (
+          CURRICULA.filter((c) => c.id !== 'domain').map((c) => (
             <div key={c.id} className="rounded-xl bg-slate-50 p-2.5 dark:bg-slate-900/60">
               <dt className="text-[11px] uppercase tracking-wide text-slate-500">{t(`curriculum.${c.id}.short`)}</dt>
               <dd className="font-medium">{item.levels[c.id as Curriculum] ? levelLabel(item.levels[c.id as Curriculum]!, 'chinese') : '—'}</dd>

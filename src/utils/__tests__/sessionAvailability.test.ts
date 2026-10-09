@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { buildSession, dailyLogFor, queueSummary, recordReview } from '../srsEngine';
 import { createDefaultState } from '../storage';
 import { loadLibrary, vocabForCurriculum } from '../../data/vocab';
-import { TOPIC_PACKS, buildTopicSessionRequest, packsForCourse, resolveTopicWords } from '../../data/topicPacks';
+import { loadChinesePacks, buildTopicSessionRequest, packsForCourse, resolveTopicWords } from '../../data/topicPacks';
 import type { CourseId, UserState, VocabItem } from '../../types';
 
 const CJK = /[一-龥]/;
@@ -64,7 +64,7 @@ describe('topic training always starts a session', () => {
     const vocab = await vocabFor('chinese');
     const libraryIds = new Set(vocab.map((v) => v.id));
     let sawSupplementary = false;
-    for (const pack of TOPIC_PACKS) {
+    for (const pack of await loadChinesePacks()) {
       const words = resolveTopicWords(pack, vocab);
       expect(words.length, pack.id).toBeGreaterThan(0);
       const req = buildTopicSessionRequest(words, 'mixed', pack.title, words.length);
@@ -79,7 +79,7 @@ describe('topic training always starts a session', () => {
 
   it('the default session size is respected when no limit is given', async () => {
     const vocab = await vocabFor('chinese');
-    const pack = TOPIC_PACKS[0];
+    const pack = (await loadChinesePacks())[0];
     const words = resolveTopicWords(pack, vocab);
     const cards = buildSession(vocab, createDefaultState(), buildTopicSessionRequest(words, 'mixed', pack.title));
     expect(cards.length).toBe(Math.min(words.length, createDefaultState().settings.sessionSize ?? 15));
@@ -102,7 +102,8 @@ describe('English course topics stay English', () => {
 
   it('Chinese keeps the curated packs', async () => {
     const vocab = await vocabFor('chinese');
-    expect(packsForCourse('chinese', vocab)).toBe(TOPIC_PACKS);
-    expect(packsForCourse(undefined, vocab)).toBe(TOPIC_PACKS);
+    const curated = await loadChinesePacks();
+    expect(packsForCourse('chinese', vocab, curated)).toBe(curated);
+    expect(packsForCourse(undefined, vocab, curated)).toBe(curated);
   });
 });

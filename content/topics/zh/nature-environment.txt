@@ -1,0 +1,223 @@
+@pack | nature-environment | Nature & Environment | 自然与环境 | 🌿 | nature | Landscape, plants, geography, the environment, climate and natural disasters.
+自然 | nature; natural | 我喜欢大自然。 | I love nature.
+大自然 | (the great) nature | 周末我们去亲近大自然。 | On weekends we go and get close to nature.
+环境 | environment | 这里的环境很好。 | The environment here is good.
+世界 | world | 世界很大，也很美。 | The world is big and beautiful.
+地球 | Earth | 地球是我们的家。 | The Earth is our home.
+太阳 | sun | 太阳从东边升起。 | The sun rises in the east.
+月亮 | moon | 今晚的月亮很圆。 | Tonight's moon is very round.
+星星 | star | 夜空里有很多星星。 | There are many stars in the night sky.
+天空 | sky | 天空是蓝色的。 | The sky is blue.
+云 | cloud | 天上有一朵白云。 | There is a white cloud in the sky.
+山 | mountain | 那座山很高。 | That mountain is very high.
+山顶 | mountain top | 我们爬到了山顶。 | We climbed to the mountain top.
+山脉 | mountain range | 喜马拉雅山脉是世界最高的。 | The Himalaya range is the highest in the world.
+山谷 | valley | 山谷里有一条小溪。 | There is a stream in the valley.
+丘陵 | hills | 南方有很多丘陵。 | The south has many hills.
+高原 | plateau | 青藏高原很高。 | The Qinghai-Tibet Plateau is very high.
+平原 | plain | 华北平原很大。 | The North China Plain is large.
+盆地 | basin | 四川盆地很有名。 | The Sichuan Basin is famous.
+沙漠 | desert | 沙漠里很热，也很干。 | The desert is hot and dry.
+草原 | grassland | 草原上有很多马。 | There are many horses on the grassland.
+森林 | forest | 森林里空气很新鲜。 | The air in the forest is fresh.
+树林 | woods | 孩子们在树林里玩。 | The kids play in the woods.
+丛林 | jungle | 丛林里有很多动物。 | There are many animals in the jungle.
+热带雨林 | tropical rainforest | 热带雨林有很多植物。 | The tropical rainforest has many plants.
+田野 | fields | 田野里开满了花。 | The fields are full of flowers.
+农田 | farmland | 农田里种着稻子。 | Rice is planted in the farmland.
+河 | river | 这条河很长。 | This river is very long.
+河流 | river | 这条河流流向大海。 | This river flows to the sea.
+小溪 | stream | 小溪里的水很清。 | The water in the stream is clear.
+湖 | lake | 湖边有很多人散步。 | Many people stroll by the lake.
+湖泊 | lake | 中国有很多湖泊。 | China has many lakes.
+池塘 | pond | 池塘里有几条鱼。 | There are a few fish in the pond.
+海 | sea | 我们去海边玩。 | We go to the seaside to play.
+海洋 | ocean | 海洋占地球的大部分。 | The ocean covers most of the Earth.
+大海 | sea | 大海很宽。 | The sea is wide.
+海滩 | beach | 海滩上有很多游客。 | There are many tourists on the beach.
+海岸 | coast | 我们沿着海岸开车。 | We drive along the coast.
+海浪 | sea wave | 海浪拍打着岩石。 | The waves beat against the rocks.
+岛 | island | 那个岛很小。 | That island is very small.
+半岛 | peninsula | 山东半岛伸向大海。 | The Shandong Peninsula extends into the sea.
+海湾 | bay | 海湾里停着很多船。 | Many boats are anchored in the bay.
+瀑布 | waterfall | 瀑布又高又大。 | The waterfall is tall and big.
+泉水 | spring water | 山里的泉水很甜。 | The spring water in the mountains is sweet.
+温泉 | hot spring | 冬天泡温泉很舒服。 | Soaking in a hot spring is comfortable in winter.
+冰川 | glacier | 冰川正在融化。 | The glacier is melting.
+雪山 | snow mountain | 远处是一座雪山。 | In the distance is a snow mountain.
+洞 | cave; hole | 山里有一个大洞。 | There is a big cave in the mountain.
+岩石 | rock | 岩石很硬。 | The rock is hard.
+石头 | stone | 河边有很多石头。 | There are many stones by the river.
+沙子 | sand | 沙子很细。 | The sand is fine.
+泥土 | soil; mud | 泥土里有很多虫子。 | There are many insects in the soil.
+土地 | land | 这片土地很肥沃。 | This land is fertile.
+地面 | ground | 地面很湿。 | The ground is wet.
+陆地 | land | 地球上陆地比海洋少。 | There is less land than ocean on Earth.
+大陆 | continent | 亚洲是最大的大陆。 | Asia is the largest continent.
+洲 | continent | 世界有七大洲。 | The world has seven continents.
+亚洲 | Asia | 中国在亚洲。 | China is in Asia.
+欧洲 | Europe | 德国在欧洲。 | Germany is in Europe.
+非洲 | Africa | 非洲有很多野生动物。 | Africa has many wild animals.
+北极 | North Pole | 北极非常冷。 | The Arctic is extremely cold.
+南极 | South Pole | 南极有很多企鹅。 | Antarctica has many penguins.
+赤道 | equator | 赤道附近很热。 | It is hot near the equator.
+经度 | longitude | 地图上有经度和纬度。 | A map has longitude and latitude.
+纬度 | latitude | 北京的纬度比上海高。 | Beijing's latitude is higher than Shanghai's.
+气候 | climate | 这里的气候很温和。 | The climate here is mild.
+天气 | weather | 今天天气很好。 | The weather is nice today.
+季节 | season | 一年有四个季节。 | A year has four seasons.
+春天 | spring | 春天花都开了。 | In spring the flowers all bloom.
+夏天 | summer | 夏天很热。 | Summer is very hot.
+秋天 | autumn | 秋天树叶变黄了。 | In autumn the leaves turn yellow.
+冬天 | winter | 冬天会下雪。 | It snows in winter.
+温度 | temperature | 今天的温度是二十度。 | Today's temperature is twenty degrees.
+气温 | air temperature | 夜里气温下降了。 | The air temperature dropped at night.
+湿度 | humidity | 夏天湿度很高。 | Humidity is high in summer.
+潮湿 | humid; damp | 南方的冬天很潮湿。 | Winters in the south are damp.
+干燥 | dry | 北方的秋天很干燥。 | Autumn in the north is dry.
+风 | wind | 今天风很大。 | The wind is strong today.
+微风 | breeze | 微风吹过湖面。 | A breeze blows across the lake.
+大风 | strong wind | 明天有大风。 | There will be strong wind tomorrow.
+雨 | rain | 外面下雨了。 | It is raining outside.
+小雨 | light rain | 今天下小雨。 | It is raining lightly today.
+大雨 | heavy rain | 昨天下了一场大雨。 | There was a heavy rain yesterday.
+暴雨 | rainstorm | 暴雨让路面积水。 | The rainstorm flooded the road.
+雪 | snow | 北方下雪了。 | It snowed in the north.
+雾 | fog | 早上有大雾。 | There is dense fog in the morning.
+霜 | frost | 草地上有一层霜。 | There is a layer of frost on the grass.
+冰 | ice | 湖上结了冰。 | The lake has frozen over.
+雷 | thunder | 夏天常常打雷。 | It often thunders in summer.
+闪电 | lightning | 闪电照亮了天空。 | Lightning lit up the sky.
+彩虹 | rainbow | 雨后出现了彩虹。 | A rainbow appeared after the rain.
+阳光 | sunshine | 阳光照进窗户。 | Sunshine shines through the window.
+晴天 | sunny day | 今天是晴天。 | Today is a sunny day.
+阴天 | cloudy day | 阴天不太热。 | It's not too hot on cloudy days.
+台风 | typhoon | 台风明天登陆。 | The typhoon makes landfall tomorrow.
+龙卷风 | tornado | 龙卷风毁坏了房子。 | The tornado destroyed houses.
+天气预报 | weather forecast | 我看了天气预报。 | I checked the weather forecast.
+植物 | plant | 这种植物很少见。 | This kind of plant is rare.
+树 | tree | 院子里有一棵大树。 | There is a big tree in the yard.
+树叶 | leaf | 秋天树叶掉了。 | The leaves fall in autumn.
+树枝 | branch | 小鸟站在树枝上。 | The bird stands on the branch.
+树根 | root | 树根很深。 | The roots are deep.
+树干 | trunk | 树干很粗。 | The trunk is thick.
+花 | flower | 这朵花很香。 | This flower smells nice.
+花园 | garden | 花园里开满了花。 | The garden is full of blooming flowers.
+花瓣 | petal | 玫瑰的花瓣很软。 | Rose petals are soft.
+草 | grass | 草地上的草很绿。 | The grass on the lawn is green.
+草地 | lawn; meadow | 孩子们在草地上玩。 | The kids play on the lawn.
+竹子 | bamboo | 熊猫爱吃竹子。 | Pandas love eating bamboo.
+松树 | pine tree | 山上有很多松树。 | There are many pine trees on the mountain.
+柳树 | willow | 河边种着柳树。 | Willows are planted by the river.
+梅花 | plum blossom | 冬天梅花开了。 | Plum blossoms bloom in winter.
+荷花 | lotus | 夏天湖里有荷花。 | There are lotuses in the lake in summer.
+玫瑰 | rose | 他送了她一枝玫瑰。 | He gave her a rose.
+菊花 | chrysanthemum | 秋天菊花开了。 | Chrysanthemums bloom in autumn.
+樱花 | cherry blossom | 春天的樱花很美。 | Cherry blossoms in spring are beautiful.
+种子 | seed | 春天把种子种下去。 | Plant the seeds in spring.
+发芽 | to sprout | 种子发芽了。 | The seeds have sprouted.
+种 | to plant | 爷爷在院子里种菜。 | Grandpa grows vegetables in the yard.
+浇水 | to water | 每天要给花浇水。 | You need to water the flowers every day.
+生长 | to grow | 植物需要阳光才能生长。 | Plants need sunshine to grow.
+开花 | to bloom | 桃树三月开花。 | Peach trees bloom in March.
+结果 | to bear fruit | 苹果树秋天结果。 | Apple trees bear fruit in autumn.
+果实 | fruit | 果实熟了。 | The fruit is ripe.
+动物 | animal | 森林里有很多动物。 | There are many animals in the forest.
+野生动物 | wild animals | 我们要保护野生动物。 | We must protect wild animals.
+熊猫 | panda | 熊猫是中国的国宝。 | The panda is China's national treasure.
+老虎 | tiger | 老虎住在森林里。 | Tigers live in the forest.
+狮子 | lion | 狮子是草原之王。 | The lion is king of the savanna.
+大象 | elephant | 大象的鼻子很长。 | The elephant's nose is long.
+猴子 | monkey | 猴子爬到了树上。 | The monkey climbed up the tree.
+熊 | bear | 熊在冬天睡觉。 | Bears sleep in winter.
+狼 | wolf | 夜里能听到狼的叫声。 | At night you can hear wolves howling.
+鹿 | deer | 森林里有一只鹿。 | There is a deer in the forest.
+鸟 | bird | 树上有一只鸟。 | There is a bird in the tree.
+鱼 | fish | 河里有很多鱼。 | There are many fish in the river.
+鲸鱼 | whale | 鲸鱼是海里最大的动物。 | The whale is the largest animal in the sea.
+海豚 | dolphin | 海豚很聪明。 | Dolphins are very smart.
+海龟 | sea turtle | 海龟会回到沙滩下蛋。 | Sea turtles return to the beach to lay eggs.
+昆虫 | insect | 夏天有很多昆虫。 | There are many insects in summer.
+蝴蝶 | butterfly | 花上有一只蝴蝶。 | There is a butterfly on the flower.
+蜜蜂 | bee | 蜜蜂在花上采蜜。 | Bees collect honey from flowers.
+蚂蚁 | ant | 地上有很多蚂蚁。 | There are many ants on the ground.
+濒危 | endangered | 大熊猫是濒危动物。 | The giant panda is an endangered animal.
+物种 | species | 地球上有很多物种。 | There are many species on Earth.
+灭绝 | extinction | 恐龙很久以前灭绝了。 | Dinosaurs went extinct long ago.
+栖息地 | habitat | 森林是鸟的栖息地。 | The forest is a bird's habitat.
+生态 | ecology | 保护生态很重要。 | Protecting the ecology is important.
+生态系统 | ecosystem | 森林是一个生态系统。 | A forest is an ecosystem.
+生物 | living things | 地球上有很多生物。 | There are many living things on Earth.
+保护 | to protect | 我们要保护环境。 | We must protect the environment.
+环保 | environmental protection | 他很重视环保。 | He cares a lot about environmental protection.
+自然保护区 | nature reserve | 这个自然保护区很大。 | This nature reserve is big.
+国家公园 | national park | 他们去国家公园玩。 | They visit a national park.
+污染 | pollution | 污染对人体不好。 | Pollution is bad for people.
+空气污染 | air pollution | 空气污染越来越严重。 | Air pollution is getting more serious.
+水污染 | water pollution | 水污染影响鱼类生存。 | Water pollution affects fish survival.
+噪音 | noise | 城市里噪音很大。 | There is a lot of noise in the city.
+垃圾 | garbage | 请不要乱扔垃圾。 | Please don't litter.
+垃圾分类 | waste sorting | 我们小区要垃圾分类。 | Our compound requires waste sorting.
+回收 | to recycle | 旧报纸可以回收。 | Old newspapers can be recycled.
+循环 | to circulate; cycle | 水在自然界中循环。 | Water circulates in nature.
+废水 | waste water | 工厂的废水要处理。 | Factory waste water must be treated.
+废气 | exhaust gas | 汽车排放废气。 | Cars emit exhaust gas.
+排放 | to emit | 工厂不能随意排放。 | Factories must not emit freely.
+雾霾 | smog | 冬天北京常有雾霾。 | Beijing often has smog in winter.
+塑料 | plastic | 塑料很难分解。 | Plastic is hard to decompose.
+塑料袋 | plastic bag | 少用塑料袋。 | Use fewer plastic bags.
+一次性 | disposable | 请少用一次性餐具。 | Please use less disposable tableware.
+节约 | to save | 我们要节约用水。 | We must save water.
+节能 | energy saving | 这是一个节能灯。 | This is an energy-saving lamp.
+浪费 | to waste | 不要浪费水。 | Don't waste water.
+资源 | resource | 水是重要的资源。 | Water is an important resource.
+能源 | energy source | 我们需要清洁能源。 | We need clean energy sources.
+太阳能 | solar energy | 屋顶装了太阳能板。 | Solar panels are installed on the roof.
+风能 | wind energy | 风能是清洁能源。 | Wind energy is clean energy.
+水力 | hydropower | 水力发电不排放废气。 | Hydropower generation emits no exhaust.
+石油 | oil | 石油是重要资源。 | Oil is an important resource.
+煤 | coal | 以前人们烧煤取暖。 | People used to burn coal for heating.
+天然气 | natural gas | 家里用天然气做饭。 | At home we cook with natural gas.
+电力 | electric power | 山区电力不足。 | The mountain area lacks electric power.
+可再生 | renewable | 太阳能是可再生能源。 | Solar power is a renewable energy source.
+低碳 | low-carbon | 他选择低碳生活。 | He chooses a low-carbon lifestyle.
+碳排放 | carbon emissions | 要减少碳排放。 | We need to reduce carbon emissions.
+全球变暖 | global warming | 全球变暖让冰川融化。 | Global warming melts glaciers.
+温室效应 | greenhouse effect | 温室效应使地球变暖。 | The greenhouse effect warms the Earth.
+气候变化 | climate change | 气候变化影响农业。 | Climate change affects agriculture.
+臭氧层 | ozone layer | 臭氧层保护地球。 | The ozone layer protects the Earth.
+海平面 | sea level | 海平面正在上升。 | Sea level is rising.
+植树 | to plant trees | 春天人们去植树。 | In spring people go plant trees.
+绿化 | greening | 城市要多做绿化。 | Cities should do more greening.
+绿色 | green; eco-friendly | 我们提倡绿色出行。 | We advocate green travel.
+空气 | air | 山里的空气很新鲜。 | The air in the mountains is fresh.
+氧气 | oxygen | 植物产生氧气。 | Plants produce oxygen.
+水 | water | 水是生命之源。 | Water is the source of life.
+淡水 | fresh water | 淡水资源很宝贵。 | Fresh water resources are precious.
+海水 | sea water | 海水又咸又苦。 | Sea water is salty and bitter.
+水源 | water source | 这条河是城市的水源。 | This river is the city's water source.
+火 | fire | 森林着火了。 | The forest caught fire.
+地震 | earthquake | 昨天发生了地震。 | An earthquake occurred yesterday.
+火山 | volcano | 这座火山很危险。 | This volcano is dangerous.
+洪水 | flood | 洪水淹没了村子。 | The flood submerged the village.
+干旱 | drought | 今年干旱很严重。 | The drought is severe this year.
+山火 | wildfire | 山火烧了三天。 | The wildfire burned for three days.
+森林火灾 | forest fire | 森林火灾很难控制。 | Forest fires are hard to control.
+滑坡 | landslide | 大雨引起了滑坡。 | Heavy rain caused a landslide.
+泥石流 | mudslide | 山区可能发生泥石流。 | Mudslides may occur in mountain areas.
+海啸 | tsunami | 地震引起了海啸。 | The earthquake caused a tsunami.
+雪崩 | avalanche | 山上发生了雪崩。 | An avalanche occurred on the mountain.
+沙尘暴 | sandstorm | 春天北方常有沙尘暴。 | The north often has sandstorms in spring.
+灾害 | disaster | 自然灾害让人们损失很大。 | Natural disasters cause great losses.
+灾难 | catastrophe | 地震是一场灾难。 | The earthquake was a catastrophe.
+救援 | rescue | 救援队很快赶到。 | The rescue team arrived quickly.
+预警 | early warning | 气象台发出了暴雨预警。 | The weather station issued a rainstorm warning.
+损失 | loss | 洪水造成了很大损失。 | The flood caused great losses.
+重建 | to rebuild | 他们正在重建家园。 | They are rebuilding their homes.
+日出 | sunrise | 我们爬山看日出。 | We climb the mountain to watch the sunrise.
+日落 | sunset | 海边的日落很美。 | The sunset at the seaside is beautiful.
+黎明 | dawn | 黎明时山里很安静。 | The mountains are quiet at dawn.
+星空 | starry sky | 山顶的星空特别美。 | The starry sky at the top is especially beautiful.
+银河 | Milky Way | 夏天能看到银河。 | You can see the Milky Way in summer.
+宇宙 | universe | 宇宙非常大。 | The universe is huge.
+行星 | planet | 地球是一颗行星。 | The Earth is a planet.

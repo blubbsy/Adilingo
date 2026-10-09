@@ -1,0 +1,203 @@
+@topic | Thinking & Opinions | 💭
+think | /θɪŋk/ | 想; 认为 | I think this idea is very good. | 我认为这个主意很好。 | 1
+know | /noʊ/ | 知道; 了解 | Do you know the answer? | 你知道答案吗？ | 1
+idea | /aɪˈdiːə/ | 主意; 想法 | She has a great idea for the party. | 她对聚会有个好主意。 | 1
+mind | /maɪnd/ | 头脑; 想法; 介意 | Do you mind if I open the window? | 你介意我开窗吗？ | 2
+believe | /bɪˈliːv/ | 相信; 认为 | I believe he is telling the truth. | 我相信他说的是真话。 | 2
+agree | /əˈɡriː/ | 同意 | I agree with you completely. | 我完全同意你。 | 2
+disagree | /ˌdɪsəˈɡriː/ | 不同意 | I disagree with his opinion. | 我不同意他的观点。 | 2
+opinion | /əˈpɪnjən/ | 意见; 观点 | In my opinion, the film is too long. | 在我看来，这部电影太长了。 | 2
+view | /vjuː/ | 观点; 看法 | What is your view on this topic? | 你对这个话题怎么看？ | 3
+remember | /rɪˈmembər/ | 记得; 想起 | Do you remember my phone number? | 你还记得我的电话号码吗？ | 1
+forget | /fərˈɡet/ | 忘记 | Don't forget to lock the door. | 别忘了锁门。 | 1
+understand | /ˌʌndərˈstænd/ | 理解; 明白 | I don't understand this question. | 我不明白这个问题。 | 1
+wonder | /ˈwʌndər/ | 想知道; 感到好奇 | I wonder what time the shop opens. | 我想知道这家店几点开门。 | 2
+guess | /ɡes/ | 猜; 猜测 | Can you guess my age? | 你能猜出我的年龄吗？ | 2
+suppose | /səˈpoʊz/ | 认为; 假设 | I suppose you are right. | 我想你是对的。 | 3
+expect | /ɪkˈspekt/ | 期待; 预料 | I expect the test to be difficult. | 我预计考试会很难。 | 2
+imagine | /ɪˈmædʒɪn/ | 想象 | Imagine living on the moon. | 想象一下住在月球上。 | 2
+decide | /dɪˈsaɪd/ | 决定 | We decided to stay at home. | 我们决定待在家里。 | 2
+decision | /dɪˈsɪʒn/ | 决定 | It was a difficult decision. | 这是个艰难的决定。 | 2
+choose | /tʃuːz/ | 选择 | You can choose any color you like. | 你可以选任何你喜欢的颜色。 | 2
+choice | /tʃɔɪs/ | 选择 | We had no choice but to leave. | 我们别无选择，只能离开。 | 2
+plan | /plæn/ | 计划 | What is your plan for the weekend? | 你周末有什么计划？ | 2
+reason | /ˈriːzn/ | 原因; 理由 | Give me one good reason. | 给我一个好理由。 | 2
+sure | /ʃʊr/ | 确定的 | I'm sure she will come. | 我确定她会来。 | 2
+certain | /ˈsɜːrtn/ | 确信的; 一定的 | I am certain that he is right. | 我确信他是对的。 | 3
+probably | /ˈprɑːbəbli/ | 很可能 | It will probably rain tomorrow. | 明天很可能下雨。 | 2
+maybe | /ˈmeɪbi/ | 也许 | Maybe we can meet on Friday. | 也许我们可以星期五见面。 | 1
+perhaps | /pərˈhæps/ | 也许 | Perhaps he missed the bus. | 也许他错过了公交车。 | 2
+possible | /ˈpɑːsəbl/ | 可能的 | Is it possible to finish today? | 今天有可能完成吗？ | 2
+true | /truː/ | 真实的; 正确的 | Is that story really true? | 那个故事真的是真的吗？ | 1
+wrong | /rɔːŋ/ | 错误的 | I think you are wrong about this. | 我认为你在这件事上错了。 | 1
+right | /raɪt/ | 正确的 | You are right about the price. | 你说对了价格。 | 1
+correct | /kəˈrekt/ | 正确的; 纠正 | Your answer is correct. | 你的答案是正确的。 | 2
+mistake | /mɪˈsteɪk/ | 错误 | I made a mistake in my homework. | 我的作业里犯了一个错误。 | 2
+question | /ˈkwestʃən/ | 问题; 质疑 | I have a question about the lesson. | 我对这节课有个问题。 | 1
+answer | /ˈænsər/ | 答案; 回答 | Nobody knew the answer. | 没人知道答案。 | 1
+problem | /ˈprɑːbləm/ | 问题 | We need to solve this problem. | 我们需要解决这个问题。 | 1
+solve | /sɑːlv/ | 解决 | She solved the puzzle in ten minutes. | 她十分钟就解开了谜题。 | 2
+solution | /səˈluːʃn/ | 解决办法 | We found a simple solution. | 我们找到了一个简单的解决办法。 | 3
+suggest | /səˈdʒest/ | 建议 | I suggest we take a taxi. | 我建议我们打车去。 | 3
+suggestion | /səˈdʒestʃən/ | 建议 | Do you have any suggestions? | 你有什么建议吗？ | 3
+advice | /ədˈvaɪs/ | 劝告; 建议 | My mother gave me good advice. | 我母亲给了我很好的建议。 | 2
+prefer | /prɪˈfɜːr/ | 更喜欢 | I prefer tea to coffee. | 我喜欢茶胜过咖啡。 | 2
+doubt | /daʊt/ | 怀疑; 疑问 | I doubt that he will come. | 我怀疑他会来。 | 3
+compare | /kəmˈper/ | 比较 | Compare the two prices carefully. | 仔细比较这两个价格。 | 3
+comparison | /kəmˈpærɪsn/ | 比较 | There is no comparison between them. | 他们之间没法比。 | 4
+consider | /kənˈsɪdər/ | 考虑; 认为 | Consider all the options before you decide. | 做决定之前要考虑所有选项。 | 3
+reflect | /rɪˈflekt/ | 思考; 反思 | Take time to reflect on your mistakes. | 花点时间反思你的错误。 | 4
+realize | /ˈriːəlaɪz/ | 意识到 | I realized I had forgotten my keys. | 我意识到自己忘带钥匙了。 | 3
+notice | /ˈnoʊtɪs/ | 注意到 | Did you notice the new sign? | 你注意到那个新标志了吗？ | 3
+recognize | /ˈrekəɡnaɪz/ | 认出; 承认 | I didn't recognize him at first. | 我一开始没认出他。 | 3
+recall | /rɪˈkɔːl/ | 回忆起 | I can't recall her name. | 我想不起她的名字。 | 5
+memory | /ˈmeməri/ | 记忆; 回忆 | He has a very good memory. | 他的记忆力很好。 | 3
+mention | /ˈmenʃn/ | 提到 | She didn't mention the problem. | 她没有提到这个问题。 | 3
+discuss | /dɪˈskʌs/ | 讨论 | Let's discuss the plan tomorrow. | 我们明天讨论这个计划。 | 3
+discussion | /dɪˈskʌʃn/ | 讨论 | We had a long discussion about money. | 我们就钱的问题进行了长时间讨论。 | 3
+debate | /dɪˈbeɪt/ | 辩论; 争论 | The class had a debate about school uniforms. | 全班就校服问题进行了辩论。 | 4
+argue | /ˈɑːrɡjuː/ | 争论; 主张 | They argue about politics all the time. | 他们总是为政治争吵。 | 3
+argument | /ˈɑːrɡjumənt/ | 论点; 争论 | His argument was clear and strong. | 他的论点清晰有力。 | 4
+claim | /kleɪm/ | 声称; 主张 | He claims that he saw a ghost. | 他声称看见了鬼。 | 4
+point | /pɔɪnt/ | 观点; 要点 | That's a good point. | 这是个好观点。 | 3
+reasoning | /ˈriːzənɪŋ/ | 推理 | Her reasoning was easy to follow. | 她的推理很容易理解。 | 5
+conclude | /kənˈkluːd/ | 断定; 推断 | I conclude that he is innocent. | 我断定他是无辜的。 | 4
+infer | /ɪnˈfɜːr/ | 推断 | We can infer the cause from the data. | 我们可以从数据推断出原因。 | 6
+assume | /əˈsuːm/ | 假定; 认为 | Don't assume that everyone agrees. | 不要以为所有人都同意。 | 4
+assumption | /əˈsʌmpʃn/ | 假定 | The plan is based on a false assumption. | 这个计划基于一个错误的假定。 | 5
+imply | /ɪmˈplaɪ/ | 暗示 | His silence implies he is unhappy. | 他的沉默暗示他不高兴。 | 5
+implication | /ˌɪmplɪˈkeɪʃn/ | 含义; 影响 | The implication is that prices will rise. | 其含义是价格将上涨。 | 6
+indicate | /ˈɪndɪkeɪt/ | 表明; 显示 | The results indicate a clear trend. | 结果表明有明显的趋势。 | 4
+suspect | /səˈspekt/ | 怀疑; 猜想 | I suspect he already knows. | 我怀疑他已经知道了。 | 4
+conclude that | /kənˈkluːd ðæt/ | 得出...结论 | They concluded that the plan would fail. | 他们得出结论，计划会失败。 | 4
+judge | /dʒʌdʒ/ | 判断; 评判 | Don't judge a book by its cover. | 不要以貌取人。 | 3
+judgment | /ˈdʒʌdʒmənt/ | 判断力; 判断 | I trust your judgment. | 我相信你的判断。 | 5
+evaluate | /ɪˈvæljueɪt/ | 评估 | We must evaluate each proposal carefully. | 我们必须仔细评估每个提案。 | 5
+assess | /əˈses/ | 评定 | The teacher assessed their progress. | 老师评定了他们的进步。 | 5
+criticize | /ˈkrɪtɪsaɪz/ | 批评 | Don't criticize others without knowing the facts. | 不要在不了解事实时批评别人。 | 4
+criticism | /ˈkrɪtɪsɪzəm/ | 批评 | He accepted the criticism calmly. | 他平静地接受了批评。 | 4
+critical | /ˈkrɪtɪkl/ | 批判性的; 挑剔的 | Be critical of what you read online. | 对网上读到的内容要保持批判态度。 | 5
+praise | /preɪz/ | 表扬; 赞扬 | The teacher praised her work. | 老师表扬了她的作业。 | 3
+approve | /əˈpruːv/ | 赞成; 批准 | My parents approve of my choice. | 我父母赞成我的选择。 | 4
+oppose | /əˈpoʊz/ | 反对 | Many people oppose the new law. | 很多人反对这项新法律。 | 5
+object | /əbˈdʒekt/ | 反对 | Nobody objected to the idea. | 没人反对这个主意。 | 5
+support | /səˈpɔːrt/ | 支持 | I support your decision. | 我支持你的决定。 | 3
+defend | /dɪˈfend/ | 辩护; 捍卫 | He tried to defend his idea. | 他试图为自己的想法辩护。 | 4
+persuade | /pərˈsweɪd/ | 说服 | She persuaded him to join the club. | 她说服他加入了俱乐部。 | 4
+convince | /kənˈvɪns/ | 使确信; 说服 | He convinced me to try again. | 他说服我再试一次。 | 4
+convinced | /kənˈvɪnst/ | 确信的 | I am convinced that she is innocent. | 我确信她是无辜的。 | 5
+influence | /ˈɪnfluəns/ | 影响 | Friends can influence your choices. | 朋友会影响你的选择。 | 4
+concern | /kənˈsɜːrn/ | 担忧; 关心 | Safety is our main concern. | 安全是我们主要关心的问题。 | 4
+matter | /ˈmætər/ | 要紧; 事情 | It doesn't matter what you wear. | 你穿什么不要紧。 | 3
+important | /ɪmˈpɔːrtnt/ | 重要的 | Sleep is important for your health. | 睡眠对你的健康很重要。 | 2
+interesting | /ˈɪntrəstɪŋ/ | 有趣的 | That's an interesting idea. | 那是个有趣的想法。 | 2
+boring | /ˈbɔːrɪŋ/ | 无聊的 | I found the lecture boring. | 我觉得讲座很无聊。 | 2
+good | /ɡʊd/ | 好的 | I think this is a good plan. | 我认为这是个好计划。 | 1
+bad | /bæd/ | 坏的 | It was a bad idea to go there. | 去那儿是个坏主意。 | 1
+fair | /fer/ | 公正的 | I don't think the decision is fair. | 我认为这个决定不公平。 | 3
+reasonable | /ˈriːznəbl/ | 合理的 | That seems like a reasonable price. | 这个价格看起来合理。 | 4
+sensible | /ˈsensəbl/ | 合理的; 明智的 | It's a sensible plan. | 这是个明智的计划。 | 4
+logical | /ˈlɑːdʒɪkl/ | 合乎逻辑的 | His answer sounds quite logical. | 他的回答听起来很合乎逻辑。 | 4
+logic | /ˈlɑːdʒɪk/ | 逻辑 | There is no logic in his argument. | 他的论点毫无逻辑。 | 4
+obvious | /ˈɑːbviəs/ | 明显的 | The answer is obvious. | 答案很明显。 | 4
+clear | /klɪr/ | 清楚的 | His point was clear and simple. | 他的观点清楚而简单。 | 3
+vague | /veɪɡ/ | 模糊的 | She gave a vague answer. | 她给了一个含糊的回答。 | 5
+confusing | /kənˈfjuːzɪŋ/ | 令人困惑的 | The instructions are confusing. | 这些说明令人困惑。 | 4
+complicated | /ˈkɑːmplɪkeɪtɪd/ | 复杂的 | It's a complicated question. | 这是个复杂的问题。 | 4
+complex | /kəmˈpleks/ | 复杂的 | The issue is more complex than it looks. | 这个问题比看起来复杂。 | 5
+simple | /ˈsɪmpl/ | 简单的 | The solution is surprisingly simple. | 解决办法出奇地简单。 | 2
+ambiguity | /ˌæmbɪˈɡjuːəti/ | 歧义; 含糊 | The contract contained a dangerous ambiguity. | 合同里有一处危险的含糊之处。 | 6
+ambiguous | /æmˈbɪɡjuəs/ | 模棱两可的 | The wording of the rule is ambiguous. | 这条规则的措辞模棱两可。 | 6
+uncertain | /ʌnˈsɜːrtn/ | 不确定的 | The future is uncertain. | 未来是不确定的。 | 4
+uncertainty | /ʌnˈsɜːrtnti/ | 不确定性 | There is great uncertainty about the plan. | 这个计划存在很大的不确定性。 | 5
+hesitate | /ˈhezɪteɪt/ | 犹豫 | Don't hesitate to ask for help. | 不要犹豫，有需要就求助。 | 4
+undecided | /ˌʌndɪˈsaɪdɪd/ | 未决定的 | I'm still undecided about the job. | 我对这份工作仍未决定。 | 4
+tend | /tend/ | 倾向于 | People tend to remember bad news. | 人们往往记得坏消息。 | 4
+perspective | /pərˈspektɪv/ | 观点; 角度 | Try to see it from her perspective. | 试着从她的角度看这件事。 | 5
+point of view | /ˌpɔɪnt əv ˈvjuː/ | 观点 | From my point of view, it's a mistake. | 在我看来，这是个错误。 | 4
+attitude | /ˈætɪtuːd/ | 态度; 看法 | His attitude to work has changed. | 他对工作的态度变了。 | 3
+belief | /bɪˈliːf/ | 信念 | She has a strong belief in honesty. | 她对诚实有坚定的信念。 | 4
+faith | /feɪθ/ | 信心; 信仰 | I have faith in your ability. | 我对你的能力有信心。 | 4
+conviction | /kənˈvɪkʃn/ | 坚定的信念 | He spoke with great conviction. | 他说话时带着坚定的信念。 | 6
+principle | /ˈprɪnsəpl/ | 原则 | I never lie, as a matter of principle. | 我从不撒谎，这是原则问题。 | 5
+value | /ˈvæljuː/ | 价值观; 重视 | Honesty is a core value for us. | 诚实是我们的核心价值观。 | 4
+priority | /praɪˈɔːrəti/ | 优先事项 | My top priority is my family. | 我的首要任务是家人。 | 4
+concept | /ˈkɑːnsept/ | 概念 | The concept of time is hard to explain. | 时间的概念很难解释。 | 5
+notion | /ˈnoʊʃn/ | 观念; 看法 | The notion of free time is new to him. | 空闲时间的概念对他很新鲜。 | 6
+theory | /ˈθɪri/ | 看法; 理论 | I have a theory about why he left. | 我对他为什么离开有个看法。 | 4
+impression | /ɪmˈpreʃn/ | 印象 | My first impression of her was good. | 我对她的第一印象很好。 | 4
+instinct | /ˈɪnstɪŋkt/ | 直觉; 本能 | Trust your instinct in this case. | 这种情况下相信你的直觉。 | 5
+intuition | /ˌɪntuˈɪʃn/ | 直觉 | Her intuition told her something was wrong. | 她的直觉告诉她有些不对劲。 | 6
+insight | /ˈɪnsaɪt/ | 洞察力 | The book gives deep insight into human nature. | 这本书对人性有深刻的洞察。 | 5
+awareness | /əˈwernəs/ | 意识 | Awareness of the problem is growing. | 对这个问题的认识正在增加。 | 5
+aware | /əˈwer/ | 意识到的 | Are you aware of the risk? | 你意识到风险了吗？ | 4
+conscious | /ˈkɑːnʃəs/ | 有意识的 | He was conscious of his mistake. | 他意识到自己的错误。 | 5
+subconscious | /ˌsʌbˈkɑːnʃəs/ | 潜意识的 | Dreams reflect the subconscious mind. | 梦反映潜意识。 | 6
+theory-based | /ˈθɪri beɪst/ | 基于理论的 | The article takes a theory-based view. | 这篇文章采取基于理论的观点。 | 6
+reconsider | /ˌriːkənˈsɪdər/ | 重新考虑 | Please reconsider your decision. | 请重新考虑你的决定。 | 5
+rethink | /ˌriːˈθɪŋk/ | 重新思考 | We need to rethink our plan. | 我们需要重新思考计划。 | 5
+ponder | /ˈpɑːndər/ | 沉思 | She pondered the meaning of his words. | 她沉思他话中的含义。 | 6
+contemplate | /ˈkɑːntəmpleɪt/ | 深思; 考虑 | He contemplated quitting his job. | 他考虑过辞职。 | 6
+speculate | /ˈspekjuleɪt/ | 推测 | Experts speculate about the cause. | 专家们推测其原因。 | 6
+hypothesize | /haɪˈpɑːθəsaɪz/ | 假设 | Scientists hypothesize that life exists elsewhere. | 科学家们假设其他地方也有生命。 | 6
+predict | /prɪˈdɪkt/ | 预测 | No one can predict the future. | 没人能预测未来。 | 4
+prediction | /prɪˈdɪkʃn/ | 预言 | His prediction turned out to be true. | 他的预言结果成真了。 | 5
+forecast | /ˈfɔːrkæst/ | 预报; 预测 | The forecast is for rain tomorrow. | 预报明天有雨。 | 4
+anticipate | /ænˈtɪsɪpeɪt/ | 预期 | We anticipate a large crowd. | 我们预计会有大批人群。 | 5
+presume | /prɪˈzuːm/ | 推测; 假定 | I presume you have read the report. | 我推测你已经读过报告了。 | 6
+deduce | /dɪˈduːs/ | 推断 | Holmes deduced the answer from small clues. | 福尔摩斯从小线索推断出答案。 | 6
+reckon | /ˈrekən/ | 认为; 估计 | I reckon it will rain soon. | 我估计很快会下雨。 | 5
+figure out | /ˌfɪɡjər ˈaʊt/ | 弄明白; 想出 | I can't figure out how this works. | 我弄不明白这是怎么运作的。 | 4
+work out | /wɜːrk ˈaʊt/ | 想出; 算出 | We worked out a plan together. | 我们一起想出了一个计划。 | 4
+think over | /θɪŋk ˈoʊvər/ | 仔细考虑 | Let me think it over tonight. | 让我今晚好好考虑一下。 | 4
+come up with | /kʌm ˈʌp wɪð/ | 想出 | She came up with a clever idea. | 她想出了一个聪明的主意。 | 4
+make up one's mind | /meɪk ʌp wʌnz maɪnd/ | 下定决心 | I can't make up my mind yet. | 我还拿不定主意。 | 4
+change one's mind | /tʃeɪndʒ wʌnz maɪnd/ | 改变主意 | He changed his mind at the last moment. | 他在最后一刻改变了主意。 | 4
+bear in mind | /ber ɪn ˈmaɪnd/ | 记住; 考虑到 | Bear in mind that prices may rise. | 要记住价格可能会上涨。 | 5
+take into account | /teɪk ˈɪntu əˈkaʊnt/ | 考虑到 | You must take all factors into account. | 你必须把所有因素都考虑进去。 | 5
+look at | /lʊk æt/ | 看待; 考虑 | Let's look at the problem differently. | 我们换个角度看这个问题。 | 3
+in my opinion | /ɪn maɪ əˈpɪnjən/ | 依我看 | In my opinion, we should wait. | 依我看，我们应该等一等。 | 3
+as far as I know | /æz fɑːr æz aɪ ˈnoʊ/ | 据我所知 | As far as I know, he is still abroad. | 据我所知，他还在国外。 | 4
+it seems | /ɪt siːmz/ | 似乎 | It seems that nobody is home. | 似乎没人在家。 | 3
+seem | /siːm/ | 似乎; 看起来 | The plan seems quite reasonable. | 这个计划看起来相当合理。 | 3
+appear | /əˈpɪr/ | 看起来; 似乎 | It appears that he has left already. | 看来他已经走了。 | 4
+apparently | /əˈpærəntli/ | 显然; 据说 | Apparently, the shop closed last week. | 据说这家店上周关门了。 | 5
+obviously | /ˈɑːbviəsli/ | 显然 | Obviously, she is not happy. | 显然，她不高兴。 | 4
+clearly | /ˈklɪrli/ | 显然地; 清楚地 | He clearly does not understand. | 他显然不明白。 | 4
+frankly | /ˈfræŋkli/ | 坦率地说 | Frankly, I don't like the idea. | 坦白说，我不喜欢这个主意。 | 4
+honestly | /ˈɑːnɪstli/ | 老实说 | Honestly, I have no idea. | 老实说，我毫无头绪。 | 3
+personally | /ˈpɜːrsənəli/ | 就个人而言 | Personally, I prefer the blue one. | 就我个人而言，我更喜欢蓝的。 | 4
+supposedly | /səˈpoʊzɪdli/ | 据说 | Supposedly, the road will open next week. | 据说这条路下周通车。 | 6
+undoubtedly | /ʌnˈdaʊtɪdli/ | 毫无疑问 | He is undoubtedly the best player. | 毫无疑问他是最好的球员。 | 6
+presumably | /prɪˈzuːməbli/ | 想必 | Presumably, you know the way. | 想必你认得路。 | 6
+arguably | /ˈɑːrɡjuəbli/ | 可以说 | She is arguably the best singer in Asia. | 可以说她是亚洲最好的歌手。 | 6
+reasoned | /ˈriːznd/ | 合乎理性的 | He gave a reasoned answer. | 他给出了有理有据的回答。 | 6
+biased | /ˈbaɪəst/ | 有偏见的 | The report seems biased. | 这份报告似乎有偏见。 | 5
+prejudice | /ˈpredʒudɪs/ | 偏见 | There is still prejudice against older workers. | 对年长工人仍然存在偏见。 | 6
+stereotype | /ˈsteriətaɪp/ | 刻板印象 | Don't judge people by stereotypes. | 不要用刻板印象评判别人。 | 6
+subjective | /səbˈdʒektɪv/ | 主观的 | Taste in art is subjective. | 对艺术的品味是主观的。 | 6
+objective | /əbˈdʒektɪv/ | 客观的 | Try to give an objective opinion. | 尽量给出客观的意见。 | 5
+neutral | /ˈnuːtrəl/ | 中立的 | He remained neutral during the argument. | 他在争论中保持中立。 | 5
+balanced | /ˈbælənst/ | 平衡的; 公正的 | The article gives a balanced view. | 这篇文章给出了公正的看法。 | 5
+controversial | /ˌkɑːntrəˈvɜːrʃl/ | 有争议的 | It's a controversial decision. | 这是个有争议的决定。 | 5
+controversy | /ˈkɑːntrəvɜːrsi/ | 争议 | The film caused great controversy. | 这部电影引起了巨大争议。 | 6
+dilemma | /dɪˈlemə/ | 困境; 两难 | She faced a difficult dilemma. | 她面临一个艰难的两难选择。 | 6
+paradox | /ˈpærədɑːks/ | 悖论 | It's a paradox that less can be more. | 少即是多是个悖论。 | 6
+contradict | /ˌkɑːntrəˈdɪkt/ | 反驳; 与...矛盾 | His words contradict his actions. | 他的言行互相矛盾。 | 6
+refute | /rɪˈfjuːt/ | 驳斥 | She refuted every claim he made. | 她驳斥了他的每一个说法。 | 6
+dispute | /dɪˈspjuːt/ | 争议; 质疑 | No one disputes the importance of health. | 没人质疑健康的重要性。 | 6
+counterargument | /ˈkaʊntərɑːrɡjumənt/ | 反驳论点 | She offered a strong counterargument. | 她提出了有力的反驳论点。 | 6
+valid point | /ˈvælɪd pɔɪnt/ | 有道理的观点 | You make a valid point. | 你说得有道理。 | 5
+rule out | /ruːl ˈaʊt/ | 排除 | We can't rule out a mistake. | 我们不能排除出错的可能。 | 5
+weigh up | /weɪ ˈʌp/ | 权衡 | Weigh up the pros and cons first. | 先权衡利弊。 | 5
+pros and cons | /ˌproʊz ən ˈkɑːnz/ | 利弊 | Let's list the pros and cons. | 我们列出利弊吧。 | 4
+agree to disagree | /əˈɡriː tə ˌdɪsəˈɡriː/ | 保留各自意见 | We'll just agree to disagree. | 我们就各自保留意见吧。 | 6
+open to | /ˈoʊpən tuː/ | 乐于接受 | I'm open to new ideas. | 我乐于接受新想法。 | 4
+second thoughts | /ˌsekənd ˈθɔːts/ | 重新考虑; 犹豫 | I'm having second thoughts about the trip. | 我对这次旅行有些犹豫了。 | 5
+challenge | /ˈtʃælɪndʒ/ | 挑战; 质疑 | Every difficulty in life is a challenge to grow stronger. | 生活中的每个困难都是让人变得更强的挑战。 | 3
+crucial | /ˈkruːʃl/ | 关键的; 至关重要的 | Getting enough sleep plays a crucial role in cognitive performance. | 获得充足的睡眠对认知表现起着至关重要的作用。 | 4
+comprehensive | /ˌkɑːmprɪˈhensɪv/ | 全面的; 综合性的 | The university published a comprehensive report on climate change. | 该大学发表了一份关于气候变化的全面报告。 | 5
+diminish | /dɪˈmɪnɪʃ/ | 减少; 减弱 | His confidence did not diminish despite facing multiple setbacks. | 尽管面临多次挫折，他的信心并没有减弱。 | 5
+inevitable | /ɪnˈevɪtəbl/ | 不可避免的; 必然的 | Technological transformation is inevitable for businesses today. | 当今企业的技术转型是不可避免的。 | 5
+ephemeral | /ɪˈfemərəl/ | 短暂的; 转瞬即逝的 | Cherry blossoms are treasured because their beauty is ephemeral. | 樱花之所以珍贵，是因为它们的美丽转瞬即逝。 | 6
+quintessential | /ˌkwɪntɪˈsenʃl/ | 典型的; 精髓的 | Afternoon tea is the quintessential English tradition. | 下午茶是最典型的英国传统。 | 6

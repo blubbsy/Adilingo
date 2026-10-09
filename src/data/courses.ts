@@ -1,6 +1,7 @@
 import type { CourseId, Curriculum, HskLevel, TrackId } from '../types';
 import type { UiLanguage } from '../i18n/types';
-import type { MessageKey } from '../i18n';
+import type { MessageKey, MessageVars } from '../i18n';
+import { DOMAINS, FAMILY_ICON, domainCourseId, domainName, getDomain, type DomainInfo } from './domains';
 
 export type { CourseId, TrackId };
 
@@ -23,6 +24,8 @@ export interface CourseConfig {
   kind: 'language' | 'specialty';
   /** Language machinery of this course; replaces checks like `course === 'english'`. */
   track: TrackId;
+  /** Specialty courses: the vocabulary domain (`emotor`, `medicine` …). */
+  domain?: string;
   /** Interface language used until the learner picks one. */
   defaultUiLanguage: UiLanguage;
   /** Logo tile and the short, language-neutral chip in the top bar. */
@@ -71,6 +74,8 @@ export interface CourseConfig {
     radicals: boolean;
     /** `curated-packs` = hand-made packs of this course's words; `item-topics` = derived from each word's topics. */
     topics: 'curated-packs' | 'item-topics';
+    /** Level-estimation test (built on the language syllabus; not for specialty courses). */
+    placement: boolean;
   };
 }
 
@@ -144,6 +149,7 @@ export const COURSES: Record<CourseId, CourseConfig> = {
       measureWords: true,
       radicals: true,
       topics: 'curated-packs',
+      placement: true,
     },
   },
   english: {
@@ -207,9 +213,76 @@ export const COURSES: Record<CourseId, CourseConfig> = {
       measureWords: false,
       radicals: false,
       topics: 'item-topics',
+      placement: true,
     },
   },
 };
+
+// ---------- Specialty courses (one per domain and language track), generated from the domain manifest ----------
+
+const TIER_LEVELS: CourseLevelInfo[] = [
+  { level: 1, code: 'T1', name: 'Essentials', short: 'Essentials', description: 'Core terms everybody in the field uses', tag: 'Essentials' },
+  { level: 2, code: 'T2', name: 'Professional', short: 'Professional', description: 'Standard working vocabulary', tag: 'Professional' },
+  { level: 3, code: 'T3', name: 'Expert', short: 'Expert', description: 'Specialist and advanced terms', tag: 'Expert' },
+];
+
+function specialtyCourse(domain: DomainInfo, track: TrackId): CourseConfig {
+  const base = COURSES[track];
+  const id = domainCourseId(domain.id, track);
+  const t = track === 'chinese' ? 'chinese' : 'english';
+  return {
+    ...base,
+    id,
+    kind: 'specialty',
+    domain: domain.id,
+    badge: FAMILY_ICON[domain.family],
+    chipLabel: domain.id.split('-')[0].slice(0, 6).toUpperCase(),
+    nameKey: `course.specialty.${t}.name`,
+    nativeKey: `course.specialty.${t}.native`,
+    switcherKey: `course.specialty.${t}.switcher`,
+    cardTitleKey: `course.specialty.${t}.cardTitle`,
+    cardSubtitleKey: `course.specialty.${t}.cardSubtitle`,
+    views: ['home', 'topics', 'dictionary', 'insights', 'achievements'],
+    mobileViews: ['home', 'topics', 'dictionary', 'insights'],
+    name: domain.name.en,
+    nativeName: domain.name.zh,
+    defaultCurriculum: 'domain',
+    curricula: [
+      {
+        id: 'domain',
+        name: 'Specialty vocabulary tiers',
+        short: 'Essentials · Professional · Expert',
+        description: 'Terms of one field, grouped into three tiers by how specialised they are.',
+        levels: [1, 2, 3],
+      },
+    ],
+    levels: TIER_LEVELS,
+    labels: {
+      ...base.labels,
+      levelPrefix: 'Tier',
+    },
+    features: { ...base.features, topics: 'item-topics', placement: false },
+  };
+}
+
+for (const domain of DOMAINS) {
+  for (const track of ['chinese', 'english'] as const) {
+    COURSES[domainCourseId(domain.id, track)] = specialtyCourse(domain, track);
+  }
+}
+
+/** Specialty courses (domain vocabularies), grouped by the order of the domain manifest. */
+export function specialtyCourses(): CourseConfig[] {
+  return Object.values(COURSES).filter((c) => c.kind === 'specialty');
+}
+
+/** Texts of a course that depend on its domain (`{domain}`, `{count}` in the message). Language courses have none. */
+export function courseVars(course: CourseConfig, lang: UiLanguage): MessageVars | undefined {
+  const domain = course.domain ? getDomain(course.domain) : undefined;
+  if (!domain) return undefined;
+  const name = domainName(domain, lang);
+  return { domain: name, short: name.length > 22 ? name.slice(0, 21) + '…' : name, count: domain.count };
+}
 
 /** Courses shown in the quick switchers (full language tracks, in display order). */
 export function languageCourses(): CourseConfig[] {

@@ -1,0 +1,297 @@
+@pack | time-numbers | Time, Numbers & Measures | 时间与数字 | ⏰ | lifestyle | Time words, the calendar, numbers, quantities, measure words, units and frequency.
+一 | one | 我有一个妹妹。 | I have one younger sister.
+二 | two | 二月只有二十八天。 | February has only twenty-eight days.
+三 | three | 我家有三口人。 | There are three people in my family.
+四 | four | 一年有四个季节。 | A year has four seasons.
+五 | five | 我有五支笔。 | I have five pens.
+六 | six | 他六点起床。 | He gets up at six.
+七 | seven | 一周有七天。 | A week has seven days.
+八 | eight | 八是个吉利的数字。 | Eight is a lucky number.
+九 | nine | 现在是九点。 | It is nine o'clock now.
+十 | ten | 我有十块钱。 | I have ten yuan.
+零 | zero | 我的电话号码里有一个零。 | My phone number has a zero.
+两 | two (with measure words) | 我买了两个苹果。 | I bought two apples.
+百 | hundred | 这本书有三百页。 | This book has three hundred pages.
+千 | thousand | 这件衣服两千块。 | This piece of clothing costs two thousand yuan.
+万 | ten thousand | 这座城市有五百万人口。 | This city has five million people.
+亿 | hundred million | 中国有十四亿人。 | China has 1.4 billion people.
+数字 | number; digit | 请写下这个数字。 | Please write down this number.
+号码 | number (ID) | 请告诉我你的号码。 | Please tell me your number.
+数 | to count | 请数一数有几个人。 | Please count how many people there are.
+多少 | how many; how much | 这个多少钱？ | How much is this?
+几 | how many (small number) | 你有几个哥哥？ | How many older brothers do you have?
+第一 | first | 他是第一个到的。 | He was the first to arrive.
+第二 | second | 这是我第二次来中国。 | This is my second time in China.
+第三 | third | 她得了第三名。 | She came third.
+最后 | last; finally | 最后一个人也到了。 | The last person has also arrived.
+半 | half | 我喝了半杯水。 | I drank half a glass of water.
+一半 | half | 他吃了一半。 | He ate half of it.
+双 | pair | 我买了一双鞋。 | I bought a pair of shoes.
+对 | pair; couple | 这对耳环很漂亮。 | This pair of earrings is beautiful.
+倍 | times; -fold | 他的工资是我的两倍。 | His salary is twice mine.
+分之 | fraction word | 三分之一的学生是女生。 | One third of the students are girls.
+百分之 | percent | 百分之五十的人同意。 | Fifty percent of people agree.
+百分比 | percentage | 请计算这个百分比。 | Please calculate this percentage.
+比例 | ratio | 男女比例是一比一。 | The male-to-female ratio is one to one.
+整数 | whole number | 请取整数。 | Please take the whole number.
+小数 | decimal | 三点五是一个小数。 | Three point five is a decimal.
+分数 | fraction | 二分之一是分数。 | One half is a fraction.
+奇数 | odd number | 三是奇数。 | Three is an odd number.
+偶数 | even number | 四是偶数。 | Four is an even number.
+正数 | positive number | 五是正数。 | Five is a positive number.
+负数 | negative number | 零下五度可以写成负数。 | Five below zero can be written as a negative number.
+加 | to add; plus | 二加三等于五。 | Two plus three equals five.
+减 | to subtract; minus | 十减四等于六。 | Ten minus four equals six.
+乘 | to multiply | 三乘四等于十二。 | Three times four equals twelve.
+除 | to divide | 十除以二等于五。 | Ten divided by two equals five.
+等于 | to equal | 一加一等于二。 | One plus one equals two.
+计算 | to calculate | 请计算总价。 | Please calculate the total price.
+算 | to count; calculate | 我算一下需要多少钱。 | Let me calculate how much money I need.
+总共 | in total | 总共有三十个人。 | There are thirty people in total.
+一共 | altogether | 一共多少钱？ | How much altogether?
+平均 | average | 平均每天走一万步。 | On average I walk ten thousand steps a day.
+最多 | at most; the most | 一个人最多拿两个。 | Each person can take at most two.
+最少 | at least; the least | 最少要三个人。 | At least three people are needed.
+大约 | approximately | 大约有五十个人。 | There are approximately fifty people.
+左右 | about; around | 他三十岁左右。 | He is around thirty years old.
+多 | more than; many | 这个班有三十多个学生。 | This class has more than thirty students.
+少 | few; less | 今天来的人很少。 | Few people came today.
+许多 | many | 市场上有许多水果。 | There are many fruits in the market.
+一些 | some | 我买了一些水果。 | I bought some fruit.
+一点儿 | a little | 请给我一点儿水。 | Please give me a little water.
+很多 | a lot | 他有很多书。 | He has many books.
+全部 | all; whole | 全部作业都写完了。 | All of the homework is finished.
+每 | every; each | 我每天早上跑步。 | I run every morning.
+每天 | every day | 他每天学习两个小时。 | He studies two hours every day.
+各 | each; every | 各位同学请坐。 | Everyone, please sit down.
+个 | general measure word | 我有三个朋友。 | I have three friends.
+本 | measure word for books | 我买了一本书。 | I bought a book.
+张 | measure word for flat things | 桌上有一张纸。 | There is a sheet of paper on the table.
+只 | measure word for animals | 我有两只猫。 | I have two cats.
+条 | measure word for long things | 河里有一条鱼。 | There is a fish in the river.
+件 | measure word for clothes/matters | 我买了一件外套。 | I bought a coat.
+杯 | cup; glass | 请给我一杯茶。 | Please give me a cup of tea.
+瓶 | bottle | 我买了一瓶水。 | I bought a bottle of water.
+碗 | bowl | 我吃了一碗米饭。 | I ate a bowl of rice.
+盘 | plate | 桌上有一盘饺子。 | There is a plate of dumplings on the table.
+块 | piece; yuan | 这块蛋糕很甜。 | This piece of cake is sweet.
+片 | slice; piece | 请给我一片面包。 | Please give me a slice of bread.
+串 | string; skewer | 他买了一串葡萄。 | He bought a bunch of grapes.
+包 | pack; bag | 我买了两包糖。 | I bought two packs of candy.
+盒 | box | 桌上有一盒饼干。 | There is a box of biscuits on the table.
+袋 | bag | 我买了一袋米。 | I bought a bag of rice.
+把 | handle; measure word for chairs | 房间里有四把椅子。 | There are four chairs in the room.
+辆 | measure word for vehicles | 街上有很多辆车。 | There are many cars on the street.
+架 | measure word for planes | 天上有一架飞机。 | There is a plane in the sky.
+艘 | measure word for ships | 海上有一艘大船。 | There is a big ship on the sea.
+棵 | measure word for trees | 院子里有三棵树。 | There are three trees in the yard.
+朵 | measure word for flowers | 桌上有一朵花。 | There is a flower on the table.
+座 | measure word for hills/buildings | 那里有一座山。 | There is a mountain over there.
+栋 | measure word for buildings | 这栋楼有二十层。 | This building has twenty floors.
+间 | measure word for rooms | 我们有一间大房间。 | We have a big room.
+家 | measure word for shops | 这家店很有名。 | This shop is famous.
+所 | measure word for schools | 这所学校很大。 | This school is big.
+位 | polite measure word for people | 这位先生是医生。 | This gentleman is a doctor.
+名 | measure word for people (formal) | 这里有五名学生。 | There are five students here.
+口 | measure word for family members | 我家有四口人。 | There are four people in my family.
+群 | group; flock | 一群鸟飞过天空。 | A flock of birds flew across the sky.
+套 | set | 我买了一套书。 | I bought a set of books.
+种 | kind; type | 这种水果很甜。 | This kind of fruit is very sweet.
+批 | batch | 第一批货已经到了。 | The first batch of goods has arrived.
+次 | time (occurrence) | 我去过两次北京。 | I have been to Beijing twice.
+遍 | time (full run-through) | 请再读一遍。 | Please read it once again.
+趟 | trip | 我去了一趟银行。 | I made a trip to the bank.
+回 | time; occasion | 我只去过一回。 | I've only been once.
+场 | measure word for events/games | 昨天有一场比赛。 | There was a match yesterday.
+顿 | measure word for meals | 我们一起吃一顿饭。 | Let's have a meal together.
+下 | time (brief action) | 请等一下。 | Please wait a moment.
+首 | measure word for songs | 她唱了一首歌。 | She sang a song.
+幅 | measure word for paintings | 墙上挂着一幅画。 | A painting hangs on the wall.
+份 | portion; copy | 我点了一份炒饭。 | I ordered a portion of fried rice.
+封 | measure word for letters | 我写了一封信。 | I wrote a letter.
+节 | measure word for classes/sections | 上午有两节课。 | There are two classes in the morning.
+时间 | time | 我没有时间看电影。 | I don't have time to watch a movie.
+时候 | moment; time when | 你什么时候来？ | When are you coming?
+点 | o'clock | 现在是三点。 | It is three o'clock now.
+分钟 | minute | 请等五分钟。 | Please wait five minutes.
+秒 | second | 一分钟有六十秒。 | A minute has sixty seconds.
+小时 | hour | 我学了两个小时。 | I studied for two hours.
+钟头 | hour | 开会开了三个钟头。 | The meeting lasted three hours.
+刻 | quarter hour | 现在是三点一刻。 | It is a quarter past three.
+半小时 | half an hour | 我等了半小时。 | I waited half an hour.
+几点 | what time | 你几点起床？ | What time do you get up?
+准时 | punctual; on time | 他总是准时到。 | He always arrives on time.
+早 | early | 今天我起得很早。 | I got up very early today.
+晚 | late | 对不起，我来晚了。 | Sorry, I came late.
+迟 | late | 他今天迟到了。 | He was late today.
+快 | fast; quick | 请快一点儿。 | Please be a bit quicker.
+慢 | slow | 他走得很慢。 | He walks very slowly.
+早上 | morning | 我早上六点起床。 | I get up at six in the morning.
+上午 | morning (before noon) | 上午我有两节课。 | I have two classes in the morning.
+中午 | noon | 中午我在公司吃饭。 | I eat at the company at noon.
+下午 | afternoon | 下午我去图书馆。 | I go to the library in the afternoon.
+晚上 | evening | 晚上我喜欢看书。 | I like reading in the evening.
+夜里 | at night | 夜里很安静。 | It's very quiet at night.
+半夜 | midnight | 半夜他被电话吵醒了。 | He was woken by the phone at midnight.
+凌晨 | early morning | 飞机凌晨三点到。 | The plane arrives at three a.m.
+清晨 | early morning | 清晨的空气很新鲜。 | The morning air is fresh.
+傍晚 | dusk | 傍晚我们去散步。 | At dusk we go for a walk.
+白天 | daytime | 白天很热，晚上很凉快。 | It's hot in the daytime and cool at night.
+今天 | today | 今天是星期五。 | Today is Friday.
+昨天 | yesterday | 昨天我去了超市。 | Yesterday I went to the supermarket.
+明天 | tomorrow | 明天我们去爬山。 | Tomorrow we go hiking.
+前天 | the day before yesterday | 前天下了大雨。 | It rained heavily the day before yesterday.
+后天 | the day after tomorrow | 后天我要出差。 | The day after tomorrow I'm going on a business trip.
+大前天 | three days ago | 他大前天就到了。 | He arrived three days ago.
+大后天 | three days from now | 大后天是周末。 | The day after the day after tomorrow is the weekend.
+现在 | now | 现在几点了？ | What time is it now?
+刚才 | just now | 他刚才还在这儿。 | He was just here a moment ago.
+马上 | immediately | 我马上就到。 | I'll be there right away.
+立刻 | at once | 请立刻回电话。 | Please call back at once.
+已经 | already | 我已经吃过饭了。 | I have already eaten.
+还没 | not yet | 他还没来。 | He hasn't come yet.
+正在 | in the process of | 他正在开会。 | He is in a meeting.
+将来 | future | 将来我想当医生。 | In the future I want to be a doctor.
+未来 | future | 未来会更好。 | The future will be better.
+过去 | past | 过去的事就别想了。 | Don't dwell on the past.
+以前 | before; in the past | 以前我住在上海。 | I used to live in Shanghai.
+以后 | after; later | 以后我们再聊。 | Let's talk later.
+之前 | before | 吃饭之前请洗手。 | Please wash your hands before eating.
+之后 | after | 下班之后我去健身。 | After work I go to the gym.
+最近 | recently | 我最近很忙。 | I have been busy recently.
+目前 | at present | 目前情况不错。 | The situation is good at present.
+当时 | at that time | 当时我才十岁。 | I was only ten then.
+一会儿 | a while | 请等一会儿。 | Please wait for a while.
+一直 | always; all along | 他一直在学习。 | He has been studying all along.
+从来 | always (negative) | 我从来没去过那里。 | I have never been there.
+同时 | at the same time | 他们同时到了。 | They arrived at the same time.
+然后 | then | 先吃饭，然后看电影。 | First eat, then watch a movie.
+先 | first | 我先去洗手。 | I will go wash my hands first.
+再 | again; then | 请再说一遍。 | Please say it again.
+又 | again (past) | 他又迟到了。 | He is late again.
+星期 | week | 一个星期有七天。 | A week has seven days.
+周 | week | 这周我很忙。 | I am busy this week.
+周末 | weekend | 周末我们去公园。 | On the weekend we go to the park.
+星期一 | Monday | 星期一我要上班。 | I have to work on Monday.
+星期二 | Tuesday | 星期二有英语课。 | There's English class on Tuesday.
+星期三 | Wednesday | 星期三我去健身。 | I go to the gym on Wednesday.
+星期四 | Thursday | 星期四是他的生日。 | Thursday is his birthday.
+星期五 | Friday | 星期五晚上有聚会。 | There's a party on Friday evening.
+星期六 | Saturday | 星期六我们休息。 | We rest on Saturday.
+星期日 | Sunday | 星期日全家去郊游。 | On Sunday the whole family goes on an outing.
+星期天 | Sunday | 星期天我在家休息。 | I rest at home on Sunday.
+上周 | last week | 上周我去了北京。 | Last week I went to Beijing.
+下周 | next week | 下周我们考试。 | We have an exam next week.
+本周 | this week | 本周天气很好。 | The weather is nice this week.
+月 | month; moon | 一年有十二个月。 | A year has twelve months.
+月份 | month | 九月份开学。 | School starts in September.
+一月 | January | 一月很冷。 | January is cold.
+二月 | February | 二月有春节。 | There is Spring Festival in February.
+三月 | March | 三月春天来了。 | Spring comes in March.
+四月 | April | 四月常常下雨。 | It often rains in April.
+五月 | May | 五月有劳动节。 | May has Labor Day.
+六月 | June | 六月开始放暑假。 | Summer vacation starts in June.
+七月 | July | 七月很热。 | July is very hot.
+八月 | August | 八月我去旅游。 | I travel in August.
+九月 | September | 九月学校开学。 | School starts in September.
+十月 | October | 十月一号是国庆节。 | October first is National Day.
+十一月 | November | 十一月天气变冷。 | The weather gets cold in November.
+十二月 | December | 十二月有圣诞节。 | December has Christmas.
+上个月 | last month | 上个月我搬家了。 | I moved house last month.
+下个月 | next month | 下个月我去出差。 | Next month I go on a business trip.
+这个月 | this month | 这个月我很忙。 | I am busy this month.
+月底 | end of month | 月底我们交房租。 | We pay rent at the end of the month.
+月初 | beginning of the month | 月初工资发了。 | Salary was paid at the beginning of the month.
+号 | day of the month | 今天几号？ | What's the date today?
+日 | day; date | 五月一日是劳动节。 | May first is Labor Day.
+日期 | date | 请写上日期。 | Please write the date.
+日子 | day; days | 我们一起度过了美好的日子。 | We spent wonderful days together.
+天 | day; sky | 我休息了三天。 | I rested for three days.
+年 | year | 我在中国住了两年。 | I lived in China for two years.
+今年 | this year | 今年我二十岁。 | I am twenty years old this year.
+去年 | last year | 去年我去了德国。 | Last year I went to Germany.
+明年 | next year | 明年我想学开车。 | Next year I want to learn to drive.
+前年 | year before last | 前年他们结婚了。 | They got married the year before last.
+后年 | year after next | 后年我就毕业了。 | I will graduate the year after next.
+年底 | end of the year | 年底公司很忙。 | The company is busy at the end of the year.
+年初 | beginning of the year | 年初我们订了计划。 | At the beginning of the year we made a plan.
+每年 | every year | 他每年去旅行一次。 | He travels once every year.
+世纪 | century | 我们生活在二十一世纪。 | We live in the twenty-first century.
+年代 | decade; era | 他出生在八十年代。 | He was born in the eighties.
+春节 | Spring Festival | 春节我们回家。 | We go home for Spring Festival.
+中秋节 | Mid-Autumn Festival | 中秋节要吃月饼。 | We eat mooncakes on the Mid-Autumn Festival.
+国庆节 | National Day | 国庆节放七天假。 | National Day gives seven days off.
+元旦 | New Year's Day | 元旦我们放一天假。 | We have a day off on New Year's Day.
+生日 | birthday | 今天是我的生日。 | Today is my birthday.
+节日 | holiday; festival | 春节是最重要的节日。 | Spring Festival is the most important holiday.
+假日 | holiday | 假日里商场人很多。 | Malls are crowded during holidays.
+工作日 | workday | 工作日我六点起床。 | I get up at six on workdays.
+日历 | calendar | 日历上有很多重要日子。 | The calendar has many important dates.
+日程 | schedule | 我的日程很满。 | My schedule is packed.
+时间表 | timetable | 请看火车时间表。 | Please look at the train timetable.
+闹钟 | alarm clock | 闹钟七点响。 | The alarm clock rings at seven.
+钟 | clock | 墙上有一个钟。 | There is a clock on the wall.
+手表 | watch | 我的手表快了五分钟。 | My watch is five minutes fast.
+时钟 | clock | 时钟停了。 | The clock stopped.
+期间 | during; period | 假期期间我去旅游。 | During the holiday I traveled.
+期限 | deadline; time limit | 交作业的期限是明天。 | The deadline for homework is tomorrow.
+截止 | deadline; to cut off | 报名截止到周五。 | Registration closes on Friday.
+经常 | often | 他经常去图书馆。 | He often goes to the library.
+常常 | often | 我常常早起。 | I often get up early.
+总是 | always | 她总是很忙。 | She is always busy.
+有时候 | sometimes | 我有时候坐地铁。 | Sometimes I take the subway.
+偶尔 | occasionally | 我偶尔做饭。 | I occasionally cook.
+通常 | usually | 我通常七点吃早饭。 | I usually eat breakfast at seven.
+往往 | often tends to | 周末人往往很多。 | Weekends often tend to be crowded.
+从不 | never | 他从不迟到。 | He is never late.
+很少 | rarely | 我很少看电视。 | I rarely watch TV.
+一次 | once | 我一周去一次健身房。 | I go to the gym once a week.
+频率 | frequency | 他来的频率很高。 | He comes with high frequency.
+定期 | regularly | 请定期检查身体。 | Please have regular health checks.
+按时 | on time | 请按时吃药。 | Please take the medicine on time.
+长度 | length | 请量一下长度。 | Please measure the length.
+宽度 | width | 这条路的宽度是十米。 | The width of this road is ten meters.
+高度 | height | 山的高度是三千米。 | The mountain's height is three thousand meters.
+重量 | weight | 行李的重量不能超过二十公斤。 | The luggage weight cannot exceed twenty kilograms.
+厘米 | centimeter | 他一米八，也就是一百八十厘米。 | He is 1.8 meters, that is 180 centimeters.
+毫米 | millimeter | 这张纸只有零点一毫米厚。 | This paper is only 0.1 millimeters thick.
+米 | meter | 这个房间长五米。 | This room is five meters long.
+公里 | kilometer | 学校离家两公里。 | The school is two kilometers from home.
+里 | li (half km) | 我走了十里路。 | I walked ten li.
+英里 | mile | 一英里大约一点六公里。 | A mile is about 1.6 kilometers.
+克 | gram | 请给我五百克苹果。 | Please give me 500 grams of apples.
+公斤 | kilogram | 这个箱子十公斤。 | This box is ten kilograms.
+斤 | jin (500 g) | 苹果多少钱一斤？ | How much per jin for the apples?
+吨 | ton | 这辆车能装五吨货。 | This truck can carry five tons of goods.
+升 | liter | 我买了一升牛奶。 | I bought a liter of milk.
+毫升 | milliliter | 一杯水大约两百毫升。 | A glass of water is about two hundred milliliters.
+平方米 | square meter | 我的房子八十平方米。 | My house is eighty square meters.
+度 | degree | 今天气温三十度。 | Today the temperature is thirty degrees.
+摄氏度 | degrees Celsius | 水在一百摄氏度沸腾。 | Water boils at a hundred degrees Celsius.
+元 | yuan | 这本书三十元。 | This book costs thirty yuan.
+角 | jiao (0.1 yuan) | 一元等于十角。 | One yuan equals ten jiao.
+分 | fen; minute; point | 他考了九十分。 | He scored ninety points.
+大小 | size | 这个箱子的大小合适。 | The size of this box is suitable.
+尺寸 | dimensions | 你的鞋子是什么尺寸？ | What size are your shoes?
+容量 | capacity | 这个杯子的容量是三百毫升。 | This cup's capacity is 300 milliliters.
+速度 | speed | 火车的速度很快。 | The train's speed is fast.
+面积 | area | 这个房间的面积是二十平方米。 | The room's area is twenty square meters.
+体积 | volume | 请计算盒子的体积。 | Please calculate the box's volume.
+数量 | quantity | 请检查货物的数量。 | Please check the quantity of goods.
+总数 | total | 总数是一百二十个。 | The total is one hundred and twenty.
+增加 | to increase | 学生的数量增加了。 | The number of students has increased.
+减少 | to decrease | 人口正在减少。 | The population is decreasing.
+超过 | to exceed | 价格超过了一百元。 | The price exceeded a hundred yuan.
+不到 | less than | 他不到二十岁。 | He is under twenty.
+以上 | above; more than | 十八岁以上可以进入。 | Those aged eighteen and above can enter.
+以下 | below; under | 十二岁以下儿童免费。 | Children under twelve enter free.
+以内 | within | 请在三天以内完成。 | Please finish within three days.
+至少 | at least | 我至少要睡七个小时。 | I need at least seven hours of sleep.
+一倍 | double | 价格涨了一倍。 | The price has doubled.
+双倍 | double | 周末工资是双倍。 | Weekend pay is double.
+三倍 | triple | 他的工资是我的三倍。 | His salary is three times mine.
+几乎 | almost | 我几乎每天都跑步。 | I run almost every day.
+差不多 | about the same; nearly | 我们差不多大。 | We are about the same age.
+整 | whole; exactly | 现在整整八点。 | It is exactly eight o'clock.
+单 | single; odd | 他买了一张单程票。 | He bought a one-way ticket.
+成 | tenths | 价格降了三成。 | The price dropped by thirty percent.

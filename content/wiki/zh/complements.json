@@ -1,0 +1,735 @@
+[
+  {
+    "id": "complement-result",
+    "title": "Result complements: attaching the outcome to the verb",
+    "titleHanzi": "完 · 好 · 到 · 见 · 懂 · 错",
+    "category": "complements",
+    "hskRange": [
+      3,
+      4
+    ],
+    "summary": "A Chinese action verb names only the action. A short result complement glued to it says whether the action reached its goal, so 看 is \"look\" but 看见 is \"see\".",
+    "pattern": "Verb + Result (完 / 好 / 到 / 见 / 懂 / 错 / 住) (+ 了) (+ Object)",
+    "rules": [
+      {
+        "rule": "English often has a separate verb for the outcome (look / see, listen / hear). Chinese instead keeps one action verb and **adds a result complement** directly after it, with nothing in between.",
+        "highlight": "见",
+        "examples": [
+          {
+            "hanzi": "我看见他了。",
+            "pinyin": "Wǒ kànjiàn tā le.",
+            "english": "I saw him."
+          },
+          {
+            "hanzi": "你听见什么了吗?",
+            "pinyin": "Nǐ tīngjiàn shénme le ma?",
+            "english": "Did you hear anything?"
+          }
+        ]
+      },
+      {
+        "rule": "A handful of complements cover most uses: **完** (finished), **好** (done properly, ready), **到** (reached the goal, found), **懂** (understood), **错** (wrongly), **住** (held firmly).",
+        "highlight": "完 / 好 / 到",
+        "examples": [
+          {
+            "hanzi": "作业我做完了。",
+            "pinyin": "Zuòyè wǒ zuòwán le.",
+            "english": "I have finished my homework."
+          },
+          {
+            "hanzi": "晚饭已经做好了。",
+            "pinyin": "Wǎnfàn yǐjīng zuòhǎo le.",
+            "english": "Dinner is ready."
+          },
+          {
+            "hanzi": "我终于找到钥匙了。",
+            "pinyin": "Wǒ zhōngyú zhǎodào yàoshi le.",
+            "english": "I finally found my keys."
+          },
+          {
+            "hanzi": "你写错了一个字。",
+            "pinyin": "Nǐ xiěcuò le yígè zì.",
+            "english": "You wrote one character wrongly."
+          }
+        ]
+      },
+      {
+        "rule": "Negate with **没(有)** placed before the whole verb-plus-result, because you are saying the result did not happen. 不 is not used for past or completed outcomes.",
+        "highlight": "没",
+        "examples": [
+          {
+            "hanzi": "我没听懂老师的话。",
+            "pinyin": "Wǒ méi tīngdǒng lǎoshī de huà.",
+            "english": "I did not understand what the teacher said."
+          },
+          {
+            "hanzi": "他还没吃完饭。",
+            "pinyin": "Tā hái méi chīwán fàn.",
+            "english": "He has not finished eating yet."
+          }
+        ]
+      },
+      {
+        "rule": "The object either follows the whole compound (with 了 before it) or moves to the front as the topic. Both orders are natural; use the second when the object is already known.",
+        "highlight": "完了",
+        "examples": [
+          {
+            "hanzi": "我写完了那封信。",
+            "pinyin": "Wǒ xiěwán le nà fēng xìn.",
+            "english": "I finished writing that letter."
+          },
+          {
+            "hanzi": "那封信我写完了。",
+            "pinyin": "Nà fēng xìn wǒ xiěwán le.",
+            "english": "That letter, I have finished it."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "可能补语 (看得懂 / 看不懂)",
+        "text": "Result complements report what actually happened (看懂了 = understood). The potential form inserts 得 or 不 and talks about whether it is possible (看不懂 = cannot make sense of it)."
+      },
+      {
+        "vs": "了 alone",
+        "text": "我吃了 only says eating took place. 我吃完了 says it was completed. Add a result complement when completion matters."
+      }
+    ],
+    "pitfalls": [
+      "✗ 我不看见他。 → ✓ 我没看见他。 A missing outcome in the past is negated with 没, not 不.",
+      "✗ 我看了见他。 → ✓ 我看见了他。 Nothing can sit between the verb and its result complement; 了 goes after the compound.",
+      "✗ 我听了,可是不懂。 → ✓ 我听了,可是没听懂。 Repeat the verb and attach the result; 懂 alone is not an action.",
+      "✗ 我已经做好了饭完。 → ✓ 我已经做完饭了。 Only one result complement per verb, directly after it."
+    ],
+    "relatedPointIds": [
+      "g3-result-complements",
+      "g3-potential-complements",
+      "g1-time-position"
+    ],
+    "keywords": [
+      "结果补语",
+      "jieguo buyu",
+      "result complement",
+      "resultative",
+      "完",
+      "好",
+      "到",
+      "见",
+      "懂",
+      "错",
+      "住",
+      "kanjian",
+      "tingdong",
+      "zhaodao"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "complement-direction",
+    "title": "Direction complements: simple and compound",
+    "titleHanzi": "来 · 去 · 上来 · 出去 · 回来",
+    "category": "complements",
+    "hskRange": [
+      2,
+      4
+    ],
+    "summary": "Words like 来 and 去 added after a verb show which way the movement goes, relative to the speaker. Compound forms such as 拿出来 combine a path (出) with that viewpoint (来).",
+    "pattern": "Verb + 来 / 去  ·  Verb + 上 / 下 / 进 / 出 / 回 / 过 / 起 + 来 / 去",
+    "rules": [
+      {
+        "rule": "The simple complements **来** and **去** show direction **towards** or **away from** the speaker (or from the point of view the story has adopted).",
+        "highlight": "来 / 去",
+        "examples": [
+          {
+            "hanzi": "快进来坐吧。",
+            "pinyin": "Kuài jìnlái zuò ba.",
+            "english": "Come in and sit down."
+          },
+          {
+            "hanzi": "他已经回去了。",
+            "pinyin": "Tā yǐjīng huíqù le.",
+            "english": "He has already gone back."
+          }
+        ]
+      },
+      {
+        "rule": "Compound complements stack a path word (**上 下 进 出 回 过 起**) with 来 or 去. The path says how the object moves, the second part says where the speaker is.",
+        "highlight": "出来 / 出去",
+        "examples": [
+          {
+            "hanzi": "他从房间里走出来了。",
+            "pinyin": "Tā cóng fángjiān li zǒuchūlái le.",
+            "english": "He walked out of the room (towards me)."
+          },
+          {
+            "hanzi": "小鸟飞出去了。",
+            "pinyin": "Xiǎoniǎo fēichūqù le.",
+            "english": "The bird flew out (away from me)."
+          },
+          {
+            "hanzi": "她拿出来一本书。",
+            "pinyin": "Tā náchūlái yì běn shū.",
+            "english": "She took out a book."
+          }
+        ]
+      },
+      {
+        "rule": "If the verb has a **place object**, it goes between the path word and 来/去: 上楼来, 回家去. A place object can never come after 来 or 去.",
+        "highlight": "楼",
+        "examples": [
+          {
+            "hanzi": "他跑上楼去了。",
+            "pinyin": "Tā pǎo shàng lóu qù le.",
+            "english": "He ran upstairs."
+          },
+          {
+            "hanzi": "爸爸下班回家来了。",
+            "pinyin": "Bàba xiàbān huí jiā lái le.",
+            "english": "Dad came home from work."
+          }
+        ]
+      },
+      {
+        "rule": "With an ordinary object (a thing), two orders are possible: after the whole compound, or split around 来/去. The split order is common in speech and often keeps a number or measure word.",
+        "highlight": "拿出一本书来",
+        "examples": [
+          {
+            "hanzi": "她拿出一本书来。",
+            "pinyin": "Tā náchū yì běn shū lái.",
+            "english": "She took a book out."
+          },
+          {
+            "hanzi": "我给你带一杯咖啡来。",
+            "pinyin": "Wǒ gěi nǐ dài yì bēi kāfēi lái.",
+            "english": "I will bring you a cup of coffee."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "来 / 去 as main verbs",
+        "text": "来 and 去 alone mean \"come\" and \"go\". After another verb they lose that independence and only mark direction, so they are unstressed."
+      },
+      {
+        "vs": "English up / down / out",
+        "text": "English particles like \"up\" can be vague. Chinese forces you to choose 来 or 去 each time, so decide first where the speaker stands."
+      }
+    ],
+    "pitfalls": [
+      "✗ 他跑出来教室了。 → ✓ 他跑出教室来了。 A place object goes before 来 or 去, never after.",
+      "✗ 请你进去!(the speaker is inside) → ✓ 请你进来! Choose 来 when the movement ends at the speaker.",
+      "✗ 我拿来了出一本书。 → ✓ 我拿出一本书来了。 The path word and 来/去 stay together as one block."
+    ],
+    "relatedPointIds": [
+      "g2-direction-lai-qu",
+      "g4-compound-directional",
+      "g4-qilai-evaluative"
+    ],
+    "keywords": [
+      "趋向补语",
+      "quxiang buyu",
+      "direction complement",
+      "directional complement",
+      "来",
+      "去",
+      "上来",
+      "下去",
+      "进来",
+      "出去",
+      "回来",
+      "过来",
+      "jinlai",
+      "chuqu",
+      "compound"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "complement-potential",
+    "title": "Potential complements: can or cannot reach the result",
+    "titleHanzi": "V得C · V不C",
+    "category": "complements",
+    "hskRange": [
+      3,
+      5
+    ],
+    "summary": "Putting 得 or 不 between a verb and its result complement tells you whether the result can be achieved: 听得懂 (able to understand), 听不懂 (unable to).",
+    "pattern": "Verb + 得 + Complement (can)  ·  Verb + 不 + Complement (cannot)",
+    "rules": [
+      {
+        "rule": "Take a result complement (看懂, 听见) and insert **得** for \"possible\" or **不** for \"impossible\". The 不 form is by far the more common.",
+        "highlight": "得 / 不",
+        "examples": [
+          {
+            "hanzi": "这本书我看得懂。",
+            "pinyin": "Zhè běn shū wǒ kàn de dǒng.",
+            "english": "I can understand this book."
+          },
+          {
+            "hanzi": "声音太小了,我听不见。",
+            "pinyin": "Shēngyīn tài xiǎo le, wǒ tīng bu jiàn.",
+            "english": "The sound is too quiet, I cannot hear it."
+          }
+        ]
+      },
+      {
+        "rule": "The positive form is mostly used in **questions** and in contrasts. In a plain statement, people simply say 能 or use the result complement.",
+        "highlight": "得",
+        "examples": [
+          {
+            "hanzi": "这么多菜,你们吃得完吗?",
+            "pinyin": "Zhème duō cài, nǐmen chī de wán ma?",
+            "english": "So many dishes, can you finish them?"
+          },
+          {
+            "hanzi": "黑板上的字你看得清楚看不清楚?",
+            "pinyin": "Hēibǎn shang de zì nǐ kàn de qīngchǔ kàn bu qīngchǔ?",
+            "english": "Can you see the writing on the board clearly?"
+          }
+        ]
+      },
+      {
+        "rule": "Two complements are special: **得了 / 不了** (liǎo, \"can / cannot manage\", also \"can finish\") and **得起 / 不起** (\"can / cannot afford\"). They work with almost any verb.",
+        "highlight": "不了",
+        "examples": [
+          {
+            "hanzi": "这么多饭,我吃不了。",
+            "pinyin": "Zhème duō fàn, wǒ chī bu liǎo.",
+            "english": "I cannot eat this much rice."
+          },
+          {
+            "hanzi": "这辆车太贵了,我买不起。",
+            "pinyin": "Zhè liàng chē tài guì le, wǒ mǎi bu qǐ.",
+            "english": "This car is too expensive, I cannot afford it."
+          },
+          {
+            "hanzi": "明天他来得了吗?",
+            "pinyin": "Míngtiān tā lái de liǎo ma?",
+            "english": "Can he make it tomorrow?"
+          }
+        ]
+      },
+      {
+        "rule": "Potential complements describe circumstances (distance, noise, ability, money), not permission. For rules and permission use 能 or 可以 before the verb.",
+        "highlight": "能",
+        "examples": [
+          {
+            "hanzi": "这里不能抽烟。",
+            "pinyin": "Zhèlǐ bù néng chōuyān.",
+            "english": "You may not smoke here."
+          },
+          {
+            "hanzi": "太远了,我走不到。",
+            "pinyin": "Tài yuǎn le, wǒ zǒu bu dào.",
+            "english": "It is too far, I cannot walk there."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "能 + Verb",
+        "text": "我能看懂 and 我看得懂 are often interchangeable, but 能 can also mean permission. 看不懂 is the normal negation for ability; 不能看懂 sounds odd."
+      },
+      {
+        "vs": "结果补语 + 没",
+        "text": "没看懂 states that you did not understand (a fact). 看不懂 states that you are unable to (a state of affairs)."
+      }
+    ],
+    "pitfalls": [
+      "✗ 我不能看懂这个字。 → ✓ 我看不懂这个字。 Use the potential form, not 不能, for \"cannot make out\".",
+      "✗ 我没看得懂。 → ✓ 我没看懂。 / 我看不懂。 Never combine 没 with 得.",
+      "✗ 你听得懂不懂吗? → ✓ 你听得懂听不懂? / 你听得懂吗? Question forms repeat the whole complement or add 吗, never both.",
+      "✗ 我吃不了完。 → ✓ 我吃不完。 / 我吃不了。 Choose either the result 完 or 了, not both."
+    ],
+    "relatedPointIds": [
+      "g3-potential-complements",
+      "g3-result-complements",
+      "g1-neng-keyi"
+    ],
+    "keywords": [
+      "可能补语",
+      "keneng buyu",
+      "potential complement",
+      "kan de dong",
+      "kan bu dong",
+      "听不懂",
+      "看不见",
+      "吃不了",
+      "买不起",
+      "得",
+      "不",
+      "cannot",
+      "can manage"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "complement-degree",
+    "title": "Degree and manner complements with 得",
+    "titleHanzi": "V得…",
+    "category": "complements",
+    "hskRange": [
+      2,
+      5
+    ],
+    "summary": "得 links a verb or adjective to a description of how it is done or how far it goes: 他跑得很快 (he runs fast), 累得不想动 (so tired that one does not want to move).",
+    "pattern": "Verb + 得 + Adjective / clause  ·  Verb + Object + Verb + 得 + Adjective",
+    "rules": [
+      {
+        "rule": "To say **how** something is done, put 得 after the verb and then the description. The description needs a degree word like 很 or a specific adjective; a bare adjective sounds like a comparison.",
+        "highlight": "得很",
+        "examples": [
+          {
+            "hanzi": "他跑得很快。",
+            "pinyin": "Tā pǎo de hěn kuài.",
+            "english": "He runs very fast."
+          },
+          {
+            "hanzi": "她说得特别清楚。",
+            "pinyin": "Tā shuō de tèbié qīngchǔ.",
+            "english": "She speaks especially clearly."
+          }
+        ]
+      },
+      {
+        "rule": "When the verb has an **object**, the verb must come twice (verb + object + verb + 得 …), or the object moves in front as a topic. The first verb can be dropped in speech.",
+        "highlight": "说汉语说得",
+        "examples": [
+          {
+            "hanzi": "她说汉语说得很流利。",
+            "pinyin": "Tā shuō Hànyǔ shuō de hěn liúlì.",
+            "english": "She speaks Chinese very fluently."
+          },
+          {
+            "hanzi": "他做菜做得怎么样?",
+            "pinyin": "Tā zuò cài zuò de zěnmeyàng?",
+            "english": "How well does he cook?"
+          },
+          {
+            "hanzi": "中文他学得不错。",
+            "pinyin": "Zhōngwén tā xué de bú cuò.",
+            "english": "He is doing well in Chinese."
+          }
+        ]
+      },
+      {
+        "rule": "Negate the **complement**, not the verb: 不 goes after 得. A yes-no question repeats the adjective in positive and negative form, or uses 吗 / 怎么样.",
+        "highlight": "得不",
+        "examples": [
+          {
+            "hanzi": "他唱得不好。",
+            "pinyin": "Tā chàng de bù hǎo.",
+            "english": "He does not sing well."
+          },
+          {
+            "hanzi": "你睡得好不好?",
+            "pinyin": "Nǐ shuì de hǎo bu hǎo?",
+            "english": "Did you sleep well?"
+          }
+        ]
+      },
+      {
+        "rule": "With an adjective or a feeling, 得 can introduce a **result clause** that shows extreme degree: 累得走不动, 高兴得跳了起来, 好得很.",
+        "highlight": "累得",
+        "examples": [
+          {
+            "hanzi": "他累得一句话也不想说。",
+            "pinyin": "Tā lèi de yí jù huà yě bù xiǎng shuō.",
+            "english": "He was so tired he did not want to say a word."
+          },
+          {
+            "hanzi": "听到这个好消息,她高兴得哭了。",
+            "pinyin": "Tīngdào zhè ge hǎo xiāoxī, tā gāoxìng de kū le.",
+            "english": "Hearing the good news, she cried for joy."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "地 (adverbial)",
+        "text": "Manner before the verb uses 地 or nothing: 他很快地跑。 Manner after the verb needs 得: 他跑得很快. The first states how an action is carried out, the second evaluates it."
+      },
+      {
+        "vs": "的 (attributive)",
+        "text": "的 links a modifier to a noun (快的车). 得 links a verb or adjective to its complement; all three are pronounced de."
+      }
+    ],
+    "pitfalls": [
+      "✗ 他跑很快。 → ✓ 他跑得很快。 The complement needs 得.",
+      "✗ 她说汉语得很好。 → ✓ 她说汉语说得很好。 Repeat the verb after the object, or put the object first: 她汉语说得很好。",
+      "✗ 他没唱得好。 → ✓ 他唱得不好。 Negation goes inside the complement.",
+      "✗ 他跑得快很。 → ✓ 他跑得很快。 The degree word comes before the adjective inside the complement."
+    ],
+    "relatedPointIds": [
+      "g2-de-de-de",
+      "g3-jile-dehen",
+      "g2-yuelaiyue"
+    ],
+    "keywords": [
+      "程度补语",
+      "状态补语",
+      "chengdu buyu",
+      "degree complement",
+      "manner complement",
+      "descriptive complement",
+      "de",
+      "得",
+      "跑得快",
+      "说得好",
+      "累得",
+      "xingrong"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "complement-quantity-duration",
+    "title": "Quantity and duration complements",
+    "titleHanzi": "V + 数量",
+    "category": "complements",
+    "hskRange": [
+      2,
+      5
+    ],
+    "summary": "How long or how often an action happens is stated after the verb. Duration (三年) and frequency (两次) both follow the verb, which is the opposite of English \"for three years\".",
+    "pattern": "Verb + 了 + Duration / Frequency  ·  Verb + Pronoun + Frequency  ·  Verb + Object + Verb + 了 + Duration",
+    "rules": [
+      {
+        "rule": "**Duration** (how long) comes directly after the verb: 学了三年, 等了一个小时. Unlike time-when words, it cannot go before the verb.",
+        "highlight": "三年",
+        "examples": [
+          {
+            "hanzi": "我学了三年汉语。",
+            "pinyin": "Wǒ xué le sān nián Hànyǔ.",
+            "english": "I have studied Chinese for three years."
+          },
+          {
+            "hanzi": "我们等了一个小时。",
+            "pinyin": "Wǒmen děng le yí gè xiǎoshí.",
+            "english": "We waited for an hour."
+          }
+        ]
+      },
+      {
+        "rule": "**Frequency** uses a verbal measure word (次, 遍, 趟, 回, 下) after the verb: how many times it happened.",
+        "highlight": "两次",
+        "examples": [
+          {
+            "hanzi": "他去过两次北京。",
+            "pinyin": "Tā qù guo liǎng cì Běijīng.",
+            "english": "He has been to Beijing twice."
+          },
+          {
+            "hanzi": "请再说一遍。",
+            "pinyin": "Qǐng zài shuō yí biàn.",
+            "english": "Please say it once more."
+          }
+        ]
+      },
+      {
+        "rule": "With a **pronoun or person** as object, the quantity goes **after** the object: 找了他三次. With a **place name** both orders work. A normal noun object is usually moved to the front or the verb is repeated.",
+        "highlight": "他三次",
+        "examples": [
+          {
+            "hanzi": "我找了他三次,他都不在。",
+            "pinyin": "Wǒ zhǎo le tā sān cì, tā dōu bú zài.",
+            "english": "I looked for him three times, and he was never in."
+          },
+          {
+            "hanzi": "这部电影我看了两遍。",
+            "pinyin": "Zhè bù diànyǐng wǒ kàn le liǎng biàn.",
+            "english": "I have watched this film twice."
+          }
+        ]
+      },
+      {
+        "rule": "Repeat the verb when the object is a common noun: **V + O + V 了 + duration**. A final 了 as well (了…了) means the action is still going on.",
+        "highlight": "学汉语学了",
+        "examples": [
+          {
+            "hanzi": "他学汉语学了两年。",
+            "pinyin": "Tā xué Hànyǔ xué le liǎng nián.",
+            "english": "He studied Chinese for two years."
+          },
+          {
+            "hanzi": "他学汉语学了两年了。",
+            "pinyin": "Tā xué Hànyǔ xué le liǎng nián le.",
+            "english": "He has been studying Chinese for two years (and still is)."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "时点 (time when)",
+        "text": "Time words that say when (昨天, 三点) go before the verb. Time words that say how long go after it. 我三点来 means at three; 我来了三个小时 means for three hours."
+      },
+      {
+        "vs": "English for / times",
+        "text": "Chinese has no preposition for \"for three years\". The quantity word itself is the complement and must follow the verb."
+      }
+    ],
+    "pitfalls": [
+      "✗ 我两年学汉语。 → ✓ 我学了两年汉语。 Duration goes after the verb.",
+      "✗ 我找了三次他。 → ✓ 我找了他三次。 A pronoun object comes before the frequency.",
+      "✗ 我学了汉语两年。 → ✓ 我学汉语学了两年。 / 我学了两年(的)汉语。 With a plain noun, repeat the verb or put the duration before the noun.",
+      "✗ 他去过北京两。 → ✓ 他去过北京两次。 A number after the verb always needs its measure word."
+    ],
+    "relatedPointIds": [
+      "g3-verbal-measure",
+      "g1-yixia",
+      "g2-yijing-le",
+      "g1-time-position"
+    ],
+    "keywords": [
+      "时量补语",
+      "动量补语",
+      "shiliang buyu",
+      "dongliang buyu",
+      "duration",
+      "frequency",
+      "how long",
+      "how many times",
+      "一年",
+      "两次",
+      "三遍",
+      "学了三年"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "complement-extended-meanings",
+    "title": "Extended meanings of direction complements",
+    "titleHanzi": "上 · 下 · 起来 · 出来 · 过来",
+    "category": "complements",
+    "hskRange": [
+      4,
+      6
+    ],
+    "summary": "Direction complements rarely stay literal. 上 can mean \"attach\" or \"reach\", 起来 \"start\", 下去 \"continue\", 出来 \"discover\", 过来 \"come back to normal\". Learn them as abstract meanings.",
+    "pattern": "Verb + 上 / 下 / 起来 / 下去 / 出来 / 过来 / 过去",
+    "rules": [
+      {
+        "rule": "**上** extends from \"up\" to \"joined, reached, attached\": 关上 (close), 爱上 (fall in love with), 考上 (pass an entrance exam), 写上 (add in writing).",
+        "highlight": "上",
+        "examples": [
+          {
+            "hanzi": "请把门关上。",
+            "pinyin": "Qǐng bǎ mén guānshàng.",
+            "english": "Please close the door."
+          },
+          {
+            "hanzi": "他考上了北京大学。",
+            "pinyin": "Tā kǎoshàng le Běijīng dàxué.",
+            "english": "He got into Peking University."
+          },
+          {
+            "hanzi": "她爱上了一个中国人。",
+            "pinyin": "Tā àishàng le yí gè Zhōngguó rén.",
+            "english": "She fell in love with a Chinese person."
+          }
+        ]
+      },
+      {
+        "rule": "**下 / 下来** means \"leaving behind, settling\": 留下, 坐下, 记下, 停下来. It also shows something coming to rest or to a stop.",
+        "highlight": "下",
+        "examples": [
+          {
+            "hanzi": "请坐下。",
+            "pinyin": "Qǐng zuòxià.",
+            "english": "Please sit down."
+          },
+          {
+            "hanzi": "车慢慢停下来了。",
+            "pinyin": "Chē mànmàn tíngxiàlái le.",
+            "english": "The car slowly came to a stop."
+          }
+        ]
+      },
+      {
+        "rule": "**起来** marks the **start** of a state or action (笑起来) and also an evaluation from a viewpoint (看起来, 听起来, 吃起来). **下去** marks **continuation**.",
+        "highlight": "起来 / 下去",
+        "examples": [
+          {
+            "hanzi": "大家都笑起来了。",
+            "pinyin": "Dàjiā dōu xiàoqǐlái le.",
+            "english": "Everybody started to laugh."
+          },
+          {
+            "hanzi": "这个菜看起来很好吃。",
+            "pinyin": "Zhè ge cài kànqǐlái hěn hǎochī.",
+            "english": "This dish looks delicious."
+          },
+          {
+            "hanzi": "你继续说下去,我在听。",
+            "pinyin": "Nǐ jìxù shuōxiàqù, wǒ zài tīng.",
+            "english": "Go on talking, I am listening."
+          }
+        ]
+      },
+      {
+        "rule": "**出来** shows something becoming visible or known: 看出来, 听出来, 想出来. **过来 / 过去** can mean returning to or losing a normal state: 醒过来, 晕过去.",
+        "highlight": "出来",
+        "examples": [
+          {
+            "hanzi": "你听得出来他是谁吗?",
+            "pinyin": "Nǐ tīng de chūlái tā shì shuí ma?",
+            "english": "Can you tell who he is by voice?"
+          },
+          {
+            "hanzi": "他终于想出来了一个办法。",
+            "pinyin": "Tā zhōngyú xiǎngchūlái le yí gè bànfǎ.",
+            "english": "He finally came up with a solution."
+          },
+          {
+            "hanzi": "她晕过去了,一会儿才醒过来。",
+            "pinyin": "Tā yūnguòqù le, yí huìr cái xǐngguòlái.",
+            "english": "She fainted and only came to a little later."
+          }
+        ]
+      }
+    ],
+    "contrasts": [
+      {
+        "vs": "literal 来/去",
+        "text": "In 他走进来 the path is physical. In 他想出来了 nothing moves; 出来 is a metaphor for \"emerging into view\". Check whether a physical path makes sense."
+      },
+      {
+        "vs": "继续 vs 下去",
+        "text": "继续说 and 说下去 both mean \"keep talking\", but 下去 requires something already under way; 继续 can also start things after a break."
+      }
+    ],
+    "pitfalls": [
+      "✗ 她想了出来这个办法。 → ✓ 她想出这个办法来了。 / 她把办法想出来了。 Keep 出来 together and put objects around it.",
+      "✗ 这个菜看起来是好吃。 → ✓ 这个菜看起来很好吃。 After 看起来 use a plain adjective with 很, not 是.",
+      "✗ 我要学汉语下去。 → ✓ 我要把汉语学下去。 下去 follows the verb; a heavier object is often moved with 把."
+    ],
+    "relatedPointIds": [
+      "g4-compound-directional",
+      "g4-qilai-evaluative",
+      "g2-direction-lai-qu",
+      "g3-ba-sentence"
+    ],
+    "keywords": [
+      "趋向补语引申义",
+      "extended meaning",
+      "figurative direction",
+      "起来",
+      "下去",
+      "出来",
+      "过来",
+      "过去",
+      "爱上",
+      "考上",
+      "看起来",
+      "听起来",
+      "begin",
+      "continue",
+      "discover"
+    ],
+    "status": "draft"
+  }
+]

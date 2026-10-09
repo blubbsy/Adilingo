@@ -1,0 +1,70 @@
+@domain | medicine | Medicine & Healthcare | 医学与医疗 | medicine | Working clinical vocabulary from anatomy and diseases to procedures, drugs, hospital life and patient communication.
+heart | 1 | Anatomy | heart | 心脏 |  | The muscular organ that pumps blood around the body. | The heart beats about seventy times a minute at rest. | 静息时心脏每分钟跳动约七十次。 |
+lung | 1 | Anatomy | lung | 肺 |  | One of two air-filled organs in the chest where gas exchange takes place. | The right lung has three lobes. | 右肺有三个肺叶。 |
+liver | 1 | Anatomy | liver | 肝脏 |  | A large organ that processes nutrients, makes bile and breaks down many drugs. | The liver is located under the right ribs. | 肝脏位于右侧肋骨下方。 |
+kidney | 1 | Anatomy | kidney | 肾脏 |  | One of two organs that filter blood and produce urine. | Each kidney contains about a million nephrons. | 每个肾脏含有约一百万个肾单位。 |
+stomach | 1 | Anatomy | stomach | 胃 |  | The muscular sac that mixes food with acid and enzymes. | The stomach empties slowly after a fatty meal. | 脂肪餐后胃排空缓慢。 |
+brain | 1 | Anatomy | brain | 脑 |  | The organ inside the skull that controls thought, movement and body functions. | The brain needs a constant supply of oxygen. | 脑需要持续的氧气供应。 |
+skull | 1 | Anatomy | skull | 颅骨 |  | The bony structure that encloses and protects the brain. | A skull fracture can damage the brain. | 颅骨骨折可能损伤脑组织。 |
+spine | 1 | Anatomy | spine | 脊柱 |  | The column of vertebrae that supports the body and protects the spinal cord. | The spine has thirty-three vertebrae. | 脊柱由三十三块椎骨组成。 |
+rib | 1 | Anatomy | rib | 肋骨 |  | One of the curved bones that form the chest wall. | He broke a rib in the fall. | 他摔倒时折断了一根肋骨。 |
+skin | 1 | Anatomy | skin | 皮肤 |  | The outer covering of the body that protects it and senses touch. | The skin is the largest organ of the body. | 皮肤是人体最大的器官。 |
+muscle | 1 | Anatomy | muscle | 肌肉 |  | Tissue made of fibres that contract to produce movement. | Strong muscle supports the knee joint. | 强健的肌肉支撑膝关节。 |
+bone | 1 | Anatomy | bone | 骨 |  | Hard living tissue that forms the skeleton. | Calcium keeps the bone strong. | 钙使骨保持坚固。 |
+joint | 1 | Anatomy | joint | 关节 |  | The place where two bones meet and allow movement. | The knee joint was swollen and warm. | 膝关节肿胀发热。 |
+blood-vessel | 1 | Anatomy | blood vessel | 血管 |  | A tube that carries blood through the body. | A narrowed blood vessel reduces blood flow. | 变窄的血管会减少血流。 |
+artery | 1 | Anatomy | artery | 动脉 |  | A vessel that carries blood away from the heart. | The surgeon clamped the artery to stop bleeding. | 外科医生夹住动脉以止血。 |
+vein | 1 | Anatomy | vein | 静脉 |  | A vessel that returns blood to the heart. | The nurse found a vein in his forearm. | 护士在他的前臂找到一条静脉。 |
+capillary | 2 | Anatomy | capillary | 毛细血管 |  | A tiny vessel where oxygen and nutrients pass into tissues. | Oxygen diffuses through the capillary wall. | 氧气通过毛细血管壁扩散。 |
+trachea | 2 | Anatomy | trachea | 气管 |  | The airway that connects the larynx to the bronchi. | A tube was placed in the trachea. | 一根导管被放入气管。 |
+bronchus | 2 | Anatomy | bronchus | 支气管 |  | One of the main airways that branch from the trachea into the lungs. | A small object lodged in the left bronchus. | 一个小异物卡在左支气管里。 |
+larynx | 2 | Anatomy | larynx | 喉 |  | The voice box located at the top of the trachea. | The larynx produces sound when air passes the vocal cords. | 空气经过声带时喉发出声音。 |
+pharynx | 2 | Anatomy | pharynx | 咽 |  | The throat passage behind the nose and mouth. | Food passes through the pharynx before reaching the oesophagus. | 食物进入食管前先经过咽。 |
+oesophagus | 2 | Anatomy | oesophagus | 食管 |  | The muscular tube carrying food from the throat to the stomach. | Acid can irritate the lining of the oesophagus. | 胃酸可刺激食管黏膜。 |
+small-intestine | 2 | Anatomy | small intestine | 小肠 |  | The long part of the gut where most nutrients are absorbed. | Most digestion occurs in the small intestine. | 大部分消化发生在小肠。 |
+large-intestine | 2 | Anatomy | large intestine | 大肠 |  | The part of the gut that absorbs water and forms stool. | The large intestine absorbs water from waste. | 大肠从废物中吸收水分。 |
+colon | 2 | Anatomy | colon | 结肠 |  | The longest section of the large intestine. | A polyp was removed from the colon. | 结肠里的一个息肉被切除了。 |
+rectum | 2 | Anatomy | rectum | 直肠 |  | The final part of the large intestine before the anus. | Stool is stored in the rectum. | 粪便储存在直肠中。 |
+gallbladder | 2 | Anatomy | gallbladder | 胆囊 |  | A small sac under the liver that stores bile. | Gallstones formed in her gallbladder. | 她的胆囊里形成了结石。 |
+pancreas | 2 | Anatomy | pancreas | 胰腺 |  | A gland that makes digestive enzymes and insulin. | The pancreas releases insulin after meals. | 餐后胰腺释放胰岛素。 |
+spleen | 2 | Anatomy | spleen | 脾 |  | An organ on the left side that filters blood and stores immune cells. | The spleen can rupture after a blow to the abdomen. | 腹部受到撞击后脾可能破裂。 |
+bladder | 2 | Anatomy | bladder | 膀胱 |  | The hollow organ that stores urine. | The bladder was full and tender. | 膀胱充盈并有压痛。 |
+ureter | 3 | Anatomy | ureter | 输尿管 |  | The tube carrying urine from a kidney to the bladder. | A stone blocked the ureter. | 结石堵塞了输尿管。 |
+urethra | 3 | Anatomy | urethra | 尿道 |  | The tube through which urine leaves the bladder. | Infection of the urethra causes burning on urination. | 尿道感染会引起排尿灼痛。 |
+thyroid-gland | 2 | Anatomy | thyroid gland | 甲状腺 |  | A butterfly-shaped gland in the neck that regulates metabolism. | The thyroid gland sits below the larynx. | 甲状腺位于喉的下方。 |
+adrenal-gland | 3 | Anatomy | adrenal gland | 肾上腺 |  | A gland above each kidney that releases cortisol and adrenaline. | The adrenal gland responds to stress. | 肾上腺对应激做出反应。 |
+pituitary-gland | 3 | Anatomy | pituitary gland | 垂体 |  | A pea-sized gland at the base of the brain that controls other glands. | The pituitary gland releases growth hormone. | 垂体分泌生长激素。 |
+lymph-node | 2 | Anatomy | lymph node | 淋巴结 |  | A small bean-shaped structure that filters lymph and houses immune cells. | The doctor felt an enlarged lymph node in his neck. | 医生摸到他颈部肿大的淋巴结。 |
+diaphragm | 2 | Anatomy | diaphragm | 膈肌 |  | The dome-shaped muscle below the lungs that drives breathing. | The diaphragm contracts when we inhale. | 吸气时膈肌收缩。 |
+abdomen | 1 | Anatomy | abdomen | 腹部 |  | The part of the body between the chest and the pelvis. | The abdomen was soft but tender. | 腹部柔软但有压痛。 |
+pelvis | 2 | Anatomy | pelvis | 骨盆 |  | The ring of bones connecting the spine to the legs. | The pelvis was fractured in the accident. | 骨盆在事故中骨折了。 |
+femur | 2 | Anatomy | femur | 股骨 |  | The thigh bone, the longest bone in the body. | The femur is the longest bone. | 股骨是人体最长的骨。 |
+tibia | 3 | Anatomy | tibia | 胫骨 |  | The larger bone of the lower leg, also called the shinbone. | The tibia bears most of the body weight. | 胫骨承受大部分体重。 |
+humerus | 3 | Anatomy | humerus | 肱骨 |  | The long bone of the upper arm. | A fall caused a humerus fracture. | 摔倒造成了肱骨骨折。 |
+clavicle | 3 | Anatomy | clavicle | 锁骨 |  | The collarbone connecting the shoulder to the breastbone. | The child broke his clavicle in a fall. | 孩子摔倒时锁骨骨折了。 |
+vertebra | 3 | Anatomy | vertebra | 椎骨 |  | One of the bones that make up the spine. | A vertebra in her lower back was compressed. | 她下背部的一块椎骨被压缩了。 |
+ligament | 2 | Anatomy | ligament | 韧带 |  | A tough band of tissue that connects bone to bone. | He tore a ligament in his ankle. | 他的踝部韧带撕裂了。 |
+tendon | 2 | Anatomy | tendon | 肌腱 |  | A strong cord that attaches muscle to bone. | The tendon at the back of the heel can rupture. | 足跟后方的肌腱可能断裂。 |
+cartilage | 2 | Anatomy | cartilage | 软骨 |  | Firm flexible tissue that cushions joints and shapes the ear and nose. | Cartilage wears down with age. | 软骨随年龄增长而磨损。 |
+nerve | 1 | Anatomy | nerve | 神经 |  | A bundle of fibres that carries signals between the brain and the body. | A trapped nerve caused pain down the leg. | 被压迫的神经引起腿部疼痛。 |
+spinal-cord | 2 | Anatomy | spinal cord | 脊髓 |  | The bundle of nerves running inside the spine from the brain downwards. | Injury to the spinal cord can cause paralysis. | 脊髓损伤可导致瘫痪。 |
+cerebrum | 3 | Anatomy | cerebrum | 大脑 |  | The largest part of the brain, responsible for thinking and voluntary movement. | The cerebrum is divided into two hemispheres. | 大脑分为两个半球。 |
+cerebellum | 3 | Anatomy | cerebellum | 小脑 |  | The part of the brain at the back that coordinates balance and movement. | The cerebellum helps maintain balance. | 小脑有助于维持平衡。 |
+meninges | 3 | Anatomy | meninges | 脑膜 |  | The three protective membranes covering the brain and spinal cord. | Infection of the meninges is called meningitis. | 脑膜的感染称为脑膜炎。 |
+eye | 1 | Anatomy | eye | 眼 |  | The organ of sight. | The eye was red and watery. | 眼睛发红并流泪。 |
+retina | 2 | Anatomy | retina | 视网膜 |  | The light-sensitive layer at the back of the eye. | The retina can detach after trauma. | 外伤后视网膜可能脱落。 |
+cornea | 3 | Anatomy | cornea | 角膜 |  | The clear front surface of the eye. | A scratch on the cornea is very painful. | 角膜上的划痕非常疼。 |
+ear | 1 | Anatomy | ear | 耳 |  | The organ of hearing and balance. | Water got into his ear while swimming. | 他游泳时水进了耳朵。 |
+eardrum | 2 | Anatomy | eardrum | 鼓膜 |  | A thin membrane in the ear that vibrates with sound. | Infection can perforate the eardrum. | 感染可使鼓膜穿孔。 |
+tonsil | 2 | Anatomy | tonsil | 扁桃体 |  | One of two masses of lymphoid tissue at the back of the throat. | Her tonsil was swollen and red. | 她的扁桃体又红又肿。 |
+sinus | 2 | Anatomy | sinus | 鼻窦 |  | An air-filled cavity in the skull connected to the nose. | Infection of a sinus causes facial pain. | 鼻窦感染会引起面部疼痛。 |
+heart-valve | 2 | Anatomy | heart valve | 心脏瓣膜 |  | A flap inside the heart that keeps blood flowing in one direction. | A faulty heart valve can cause a murmur. | 有缺陷的心脏瓣膜可引起杂音。 |
+atrium | 3 | Anatomy | atrium | 心房 |  | One of the two upper chambers of the heart. | Blood enters the heart through the atrium. | 血液通过心房进入心脏。 |
+ventricle | 3 | Anatomy | ventricle | 心室 |  | One of the two lower chambers of the heart that pump blood out. | The left ventricle pumps blood to the body. | 左心室将血液泵向全身。 |
+aorta | 2 | Anatomy | aorta | 主动脉 |  | The largest artery, carrying blood from the left ventricle. | The aorta carries oxygenated blood to the body. | 主动脉将含氧血液输送到全身。 |
+alveolus | 3 | Anatomy | alveolus | 肺泡 |  | A tiny air sac in the lung where gases are exchanged. | Each alveolus is surrounded by capillaries. | 每个肺泡周围都有毛细血管。 |
+bone-marrow | 2 | Anatomy | bone marrow | 骨髓 |  | The soft tissue inside bones where blood cells are made. | The bone marrow produces red blood cells. | 骨髓产生红细胞。 |
+uterus | 2 | Anatomy | uterus | 子宫 |  | The hollow muscular organ in which a baby develops. | The uterus enlarges during pregnancy. | 怀孕期间子宫会增大。 |
+ovary | 2 | Anatomy | ovary | 卵巢 |  | One of two organs that produce eggs and female hormones. | A cyst grew on her ovary. | 她的卵巢上长了一个囊肿。 |
+prostate | 2 | Anatomy | prostate | 前列腺 |  | A male gland below the bladder that produces seminal fluid. | The prostate often enlarges with age. | 前列腺常随年龄增长而增大。 |
+placenta | 3 | Anatomy | placenta | 胎盘 |  | The organ that feeds and supports the baby inside the uterus. | The placenta delivers oxygen to the baby. | 胎盘向胎儿输送氧气。 |

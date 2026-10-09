@@ -1,0 +1,269 @@
+[
+  {
+    "id": "formal-zhi-qi-yu",
+    "title": "Classical particles 之, 其, 于",
+    "titleHanzi": "之 / 其 / 于",
+    "category": "formal-written",
+    "hskRange": [6, 7],
+    "summary": "之, 其 and 于 come from classical Chinese. They survive in fixed phrases and formal writing, where they replace everyday 的, 他的 and 在.",
+    "pattern": "A + 之 + B (A's B / of)  ·  其 + noun (its / their)  ·  Verb / Adjective + 于 + place or source",
+    "rules": [
+      {
+        "rule": "**之 = 'of' or 'the' in written, fixed phrases.** It links two nouns in the way 的 does in speech. You will meet it in set words such as 之间, 之一 and 之道.",
+        "highlight": "之",
+        "examples": [
+          { "hanzi": "学生之间的关系很好。", "pinyin": "Xuésheng zhījiān de guānxi hěn hǎo.", "english": "The relationship among the students is very good." },
+          { "hanzi": "他是作者之一。", "pinyin": "Tā shì zuòzhě zhī yī.", "english": "He is one of the authors." },
+          { "hanzi": "这是成功之道。", "pinyin": "Zhè shì chénggōng zhī dào.", "english": "This is the way to success." }
+        ]
+      },
+      {
+        "rule": "**其 = his, her, its or their.** It is a formal pronoun, and it also appears in 其中 ('among them') and 其他 ('other').",
+        "highlight": "其",
+        "examples": [
+          { "hanzi": "其中一位是我的老师。", "pinyin": "Qízhōng yí wèi shì wǒ de lǎoshī.", "english": "One of them is my teacher." },
+          { "hanzi": "这本书其意义深远。", "pinyin": "Zhè běn shū qí yìyì shēnyuǎn.", "english": "The meaning of this book is far-reaching." },
+          { "hanzi": "其他同学都去了。", "pinyin": "Qítā tóngxué dōu qù le.", "english": "All the other students went." }
+        ]
+      },
+      {
+        "rule": "**于 = in, at, to, from (formal).** It attaches a place, time or source to a verb or adjective. In speech the same idea is expressed with 在, 到 or 从.",
+        "highlight": "于",
+        "examples": [
+          { "hanzi": "他生于北京。", "pinyin": "Tā shēng yú Běijīng.", "english": "He was born in Beijing." },
+          { "hanzi": "学校位于市中心。", "pinyin": "Xuéxiào wèiyú shì zhōngxīn.", "english": "The school is located in the city centre." },
+          { "hanzi": "他的观点不同于我的。", "pinyin": "Tā de guāndiǎn bùtóng yú wǒ de.", "english": "His view differs from mine." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "之 vs 的", "text": "的 is the everyday possessive and linker. 之 is written and mostly fixed in phrases such as 之一 or 之间; do not use it in ordinary speech." },
+      { "vs": "其 vs 他的", "text": "他的 is the normal way to say 'his'. 其 is formal and appears before a noun or in fixed words such as 其中 and 其他." },
+      { "vs": "于 vs 在", "text": "在 is the spoken 'in / at'. 于 is written and mostly used after verbs such as 位于, 生于 or 来源于." }
+    ],
+    "pitfalls": [
+      "✗ 我住于北京。 → ✓ 我住在北京。 于 is written only. In speech and everyday writing, use 在.",
+      "✗ 其我的朋友都来了。 → ✓ 我的朋友都来了。 其 is not followed by a possessive phrase like 我的; use 其他 or 其中 for 'other' or 'among them'.",
+      "✗ 我之书很贵。 → ✓ 我的书很贵。 之 in the sense of 'of' with a personal pronoun sounds stiff and literary. Use 的 in everyday sentences."
+    ],
+    "relatedPointIds": ["g7-zhi-classical", "g7-qi-pronoun", "g7-yu-preposition"],
+    "keywords": ["之", "其", "于", "zhi", "qi", "yu", "classical", "formal", "written", "of", "its", "in", "at", "from", "zhījiān", "wèiyú"],
+    "status": "draft"
+  },
+  {
+    "id": "formal-yi-wei-er-ze",
+    "title": "Classical function words 以, 为, 而, 则, 乃",
+    "titleHanzi": "以 / 为 / 而 / 则 / 乃",
+    "category": "formal-written",
+    "hskRange": [6, 7],
+    "summary": "These five words are the written versions of everyday words: 以 for 'by means of', 为 for 'is', 而 for 'and', 则 for 'then', and 乃 for 'is' in a formal statement.",
+    "pattern": "以 + verb (by / with)  ·  A 为 B (A is B, formal)  ·  Adjective + 而 + Adjective  ·  Condition + 则 + result  ·  A 乃 B",
+    "rules": [
+      {
+        "rule": "**以 = by means of, in a formal verb phrase.** It introduces the way something is done, often with a fixed verb such as 著称 or 说话.",
+        "highlight": "以",
+        "examples": [
+          { "hanzi": "他以勤奋著称。", "pinyin": "Tā yǐ qínfèn zhùchēng.", "english": "He is known for his diligence." },
+          { "hanzi": "我们以事实说话。", "pinyin": "Wǒmen yǐ shìshí shuōhuà.", "english": "We let the facts speak for themselves." }
+        ]
+      },
+      {
+        "rule": "**为 = is or becomes (formal).** In written texts and in calculations, 为 replaces 是. It is also used with 所 in the literary passive.",
+        "highlight": "为",
+        "examples": [
+          { "hanzi": "一加一为二。", "pinyin": "Yī jiā yī wéi èr.", "english": "One plus one is two." },
+          { "hanzi": "这一点为大家所公认。", "pinyin": "Zhè yì diǎn wéi dàjiā suǒ gōngrèn.", "english": "This point is recognised by everyone." }
+        ]
+      },
+      {
+        "rule": "**而 = and, yet, linking two adjectives or verbs of one subject.** It makes formal writing sound balanced, and it does not join ordinary clauses in speech.",
+        "highlight": "而",
+        "examples": [
+          { "hanzi": "他认真而细致。", "pinyin": "Tā rènzhēn ér xìzhì.", "english": "He is careful and meticulous." },
+          { "hanzi": "这个方法简单而有效。", "pinyin": "Zhège fāngfǎ jiǎndān ér yǒuxiào.", "english": "This method is simple and effective." }
+        ]
+      },
+      {
+        "rule": "**则 = then, whereas; 乃 = is (formal).** 则 is the formal form of 就 when stating a consequence. 乃 replaces 是 in a formal statement of identity.",
+        "highlight": "则",
+        "examples": [
+          { "hanzi": "不努力则无法进步。", "pinyin": "Bù nǔlì zé wúfǎ jìnbù.", "english": "Without effort, one cannot make progress." },
+          { "hanzi": "有困难则想办法解决。", "pinyin": "Yǒu kùnnan zé xiǎng bànfǎ jiějué.", "english": "When there are difficulties, find a way to solve them." },
+          { "hanzi": "这乃我们的责任。", "pinyin": "Zhè nǎi wǒmen de zérèn.", "english": "This is our responsibility." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "以 vs 用", "text": "用 is the everyday 'use'. 以 is formal and is used with a verb phrase to say by what means or in what capacity something is done." },
+      { "vs": "则 vs 就", "text": "就 is the spoken 'then'. 则 is written and often used in general statements or conditions." },
+      { "vs": "为 vs 是", "text": "是 is the everyday copula. 为 is formal and mostly used in calculations, statements of fact, and fixed phrases." }
+    ],
+    "pitfalls": [
+      "✗ 我们则去。 → ✓ 我们就去。 In ordinary speech and writing use 就 for 'then'; 则 belongs in formal text.",
+      "✗ 我为学生。 → ✓ 我是学生。 为 as 'is' is formal and limited to statements of fact or calculations. For a personal statement use 是.",
+      "✗ 我而去上班。 → ✓ 我去上班。 而 does not join two ordinary actions of one person. It links formal adjectives or verbs."
+    ],
+    "relatedPointIds": ["g7-ze-nai-yi", "g7-yi-means-purpose", "g5-yi-wei", "g6-er-connector"],
+    "keywords": ["以", "为", "而", "则", "乃", "yi", "wei", "er", "ze", "nai", "formal", "classical", "by means of", "is", "and", "then"],
+    "status": "draft"
+  },
+  {
+    "id": "formal-suo-and-four-characters",
+    "title": "所 + Verb and four-character frames",
+    "titleHanzi": "所 + 动词 / 四字格",
+    "category": "formal-written",
+    "hskRange": [5, 7],
+    "summary": "所 turns a verb into a formal noun phrase meaning 'what someone does or has done'. Four-character frames are balanced, literary expressions that are common in written Chinese and rare in speech.",
+    "pattern": "所 + Verb (+ 的) = 'what ... (does/has)'  ·  所谓 + noun = 'so-called'  ·  不 + Verb + 不 + Verb = 'neither … nor' (frame)",
+    "rules": [
+      {
+        "rule": "**所 + Verb (+ 的) = what someone does.** 所 makes a verb into a noun phrase, and 的 closes it as 'the thing that …'. It is a formal alternative to the everyday phrase 'the thing I know' (我知道的).",
+        "highlight": "所",
+        "examples": [
+          { "hanzi": "我所知道的很有限。", "pinyin": "Wǒ suǒ zhīdào de hěn yǒuxiàn.", "english": "What I know is very limited." },
+          { "hanzi": "他所说的话很有道理。", "pinyin": "Tā suǒ shuō de huà hěn yǒu dàolǐ.", "english": "What he said makes a lot of sense." },
+          { "hanzi": "所有的人都同意。", "pinyin": "Suǒyǒu de rén dōu tóngyì.", "english": "Everyone agreed." }
+        ]
+      },
+      {
+        "rule": "**所谓 = so-called.** It introduces a term that the speaker does not fully accept. It is a fixed word, and it is common in commentary and criticism.",
+        "highlight": "所谓",
+        "examples": [
+          { "hanzi": "所谓的专家并不了解情况。", "pinyin": "Suǒwèi de zhuānjiā bìng bù liǎojiě qíngkuàng.", "english": "The so-called experts did not understand the situation." },
+          { "hanzi": "所谓的成功，并不是钱多。", "pinyin": "Suǒwèi de chénggōng, bìng bú shì qián duō.", "english": "So-called success is not about having a lot of money." }
+        ]
+      },
+      {
+        "rule": "**Four-character frames: 不 … 不 …, 有 … 有 ….** Balanced four-character patterns describe manner or state in a compact literary way. The structure is fixed; you cannot swap the words inside it for everyday words.",
+        "highlight": "不慌不忙",
+        "examples": [
+          { "hanzi": "他不慌不忙地走进教室。", "pinyin": "Tā bù huāng bù máng de zǒujìn jiàoshì.", "english": "He walked calmly into the classroom." },
+          { "hanzi": "大家有说有笑地走出了会场。", "pinyin": "Dàjiā yǒu shuō yǒu xiào de zǒuchū le huìchǎng.", "english": "Everyone walked out of the hall chatting and laughing." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "所 + Verb vs 的 phrase", "text": "我所知道的 and 我知道的 mean the same. The 所 version is formal and written; speech uses the 的 phrase." },
+      { "vs": "所谓 vs 叫做", "text": "所谓 hints that the speaker doubts the term; 叫做 simply names something without judgement." }
+    ],
+    "pitfalls": [
+      "✗ 这是我所买。 → ✓ 这是我买的。 Speech uses the verb + 的 construction. 所 needs a verb and usually the 的 that closes it.",
+      "✗ 他很慌不忙地走。 → ✓ 他不慌不忙地走。 The four-character frame is fixed: 不 … 不 … cannot be replaced by 很 or any other word.",
+      "✗ 所我知道的很多 → ✓ 我所知道的很多。 所 must come after the subject and before the verb, not at the beginning of the sentence."
+    ],
+    "relatedPointIds": ["g5-suo-verb", "g6-four-character-frames", "g7-wei-suo-passive"],
+    "keywords": ["所", "所谓", "四字格", "suo", "suowei", "four-character", "frame", "so-called", "what", "formal", "literary", "bù huāng bù máng"],
+    "status": "draft"
+  },
+  {
+    "id": "formal-written-connectors",
+    "title": "Written connectors: 因此, 从而, 故, 此外, 与此同时",
+    "titleHanzi": "因此 / 从而 / 故 / 此外 / 与此同时",
+    "category": "formal-written",
+    "hskRange": [5, 7],
+    "summary": "Written Chinese links sentences with formal connectors that do not appear often in conversation. They mark results, outcomes, additions and simultaneous events, and they usually sit at the head of a sentence.",
+    "pattern": "A, 因此 / 故 + B (therefore)  ·  A, 从而 + B (thereby)  ·  此外， + addition  ·  与此同时， + simultaneous event",
+    "rules": [
+      {
+        "rule": "**因此 and 故 = therefore.** 因此 is the standard written result word. 故 is more literary and appears before the verb inside a sentence.",
+        "highlight": "因此",
+        "examples": [
+          { "hanzi": "天气很冷，因此我们没出去。", "pinyin": "Tiānqì hěn lěng, yīncǐ wǒmen méi chūqu.", "english": "It was very cold, so we did not go out." },
+          { "hanzi": "他身体不好，故不能参加比赛。", "pinyin": "Tā shēntǐ bù hǎo, gù bù néng cānjiā bǐsài.", "english": "He was in poor health, so he could not take part in the competition." }
+        ]
+      },
+      {
+        "rule": "**从而 = thereby (the action leads to a result).** It follows an action and names the outcome of that action. 进而 works in the same way but adds a further step.",
+        "highlight": "从而",
+        "examples": [
+          { "hanzi": "加强合作，从而提高效率。", "pinyin": "Jiāqiáng hézuò, cóng'ér tígāo xiàolǜ.", "english": "Strengthen cooperation, thereby raising efficiency." },
+          { "hanzi": "企业改进管理，进而扩大市场。", "pinyin": "Qǐyè gǎijìn guǎnlǐ, jìn'ér kuòdà shìchǎng.", "english": "The company improves its management and then expands its market further." }
+        ]
+      },
+      {
+        "rule": "**此外 = in addition.** It opens a new paragraph point or sentence that adds information, often as a list item. 与此同时 marks an event happening at the same time.",
+        "highlight": "此外",
+        "examples": [
+          { "hanzi": "此外，我们还需要更多资金。", "pinyin": "Cǐwài, wǒmen hái xūyào gèng duō zījīn.", "english": "In addition, we still need more funds." },
+          { "hanzi": "与此同时，城市也在发展。", "pinyin": "Yǔ cǐ tóngshí, chéngshì yě zài fāzhǎn.", "english": "At the same time, the city is also developing." }
+        ]
+      },
+      {
+        "rule": "**Sentence-initial 因此 after a full stop.** In formal writing the connector often starts a new sentence, followed by a comma. This makes the result stand out as a conclusion.",
+        "highlight": "因此",
+        "examples": [
+          { "hanzi": "他认真学习。因此，成绩提高了。", "pinyin": "Tā rènzhēn xuéxí. Yīncǐ, chéngjì tígāo le.", "english": "He studied diligently. As a result, his grades improved." },
+          { "hanzi": "价格上涨了。因此，许多人买不起。", "pinyin": "Jiàgé shàngzhǎng le. Yīncǐ, xǔduō rén mǎi bu qǐ.", "english": "Prices rose. As a result, many people cannot afford it." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "因此 vs 所以", "text": "Both mean 'so'. 因此 is written and formal and often starts a sentence; 所以 is the everyday form in speech." },
+      { "vs": "从而 vs 因此", "text": "因此 gives a plain result. 从而 says that the result comes about through a specific action, so it usually follows a verb phrase." }
+    ],
+    "pitfalls": [
+      "✗ 他很努力，因此没有成功。 → ✓ 他很努力，但是没有成功。 因此 signals cause and result, not contrast. Use 但是 for 'but'.",
+      "✗ 我昨天故没去。 → ✓ 我昨天没去。 故 belongs in formal writing; in speech and everyday writing, leave it out.",
+      "✗ 天气不好，与此同时我们去了。 → ✓ 天气不好，但是我们去了。 与此同时 means 'at the same time' (simultaneity), not 'nevertheless'."
+    ],
+    "relatedPointIds": ["g7-discourse-connectors", "g6-youci-kejian", "g5-conger-jiner", "g7-guigen-jiedi"],
+    "keywords": ["因此", "故", "从而", "此外", "与此同时", "yincǐ", "gu", "congér", "cǐwài", "therefore", "thereby", "in addition", "at the same time", "written"],
+    "status": "draft"
+  },
+  {
+    "id": "formal-register-passives",
+    "title": "Register: 将, 被, 予以, 加以 in formal writing",
+    "titleHanzi": "将 / 被 / 予以 / 加以",
+    "category": "formal-written",
+    "hskRange": [5, 7],
+    "summary": "Formal writing uses 将 for 'will', 被 for passives, and the verbs 予以 and 加以 with an action noun. Spoken Chinese replaces these with 要, 把, 叫 or 让 and everyday verbs.",
+    "pattern": "将 + Verb ('will')  ·  Subject + 被 + Agent + Verb  ·  予以 / 加以 + two-character verb",
+    "rules": [
+      {
+        "rule": "**将 = will, in formal writing.** It is the written counterpart of 要 or 会 for future events, often with 于 for a date or place.",
+        "highlight": "将",
+        "examples": [
+          { "hanzi": "我们将于明天举行会议。", "pinyin": "Wǒmen jiāng yú míngtiān jǔxíng huìyì.", "english": "We will hold a meeting tomorrow." },
+          { "hanzi": "这项工作将由他负责。", "pinyin": "Zhè xiàng gōngzuò jiāng yóu tā fùzé.", "english": "He will be in charge of this work." }
+        ]
+      },
+      {
+        "rule": "**被 in formal and news writing.** 被 introduces the agent of a passive sentence, and it is used more often in written reports than in speech. Its common formal use is with official actions.",
+        "highlight": "被",
+        "examples": [
+          { "hanzi": "他的论文被学校评为优秀。", "pinyin": "Tā de lùnwén bèi xuéxiào píngwéi yōuxiù.", "english": "His thesis was rated excellent by the school." },
+          { "hanzi": "文件被送到了办公室。", "pinyin": "Wénjiàn bèi sòng dào le bàngōngshì.", "english": "The documents were sent to the office." }
+        ]
+      },
+      {
+        "rule": "**予以 and 加以 = formal 'give' and 'apply'.** 予以 is followed by a two-syllable verb of support or treatment, and 加以 by a verb of action on a problem. Both sound official and belong in writing.",
+        "highlight": "予以",
+        "examples": [
+          { "hanzi": "政府予以支持。", "pinyin": "Zhèngfǔ yǔyǐ zhīchí.", "english": "The government gives its support." },
+          { "hanzi": "对问题要加以改进。", "pinyin": "Duì wèntí yào jiāyǐ gǎijìn.", "english": "The problem must be improved." }
+        ]
+      },
+      {
+        "rule": "**Spoken equivalents.** In speech, 把 replaces 将 when you handle an object, and 叫 or 让 replace 被 to say who did something. These are the forms you should use in conversation.",
+        "highlight": "把",
+        "examples": [
+          { "hanzi": "请你把门关上。", "pinyin": "Qǐng nǐ bǎ mén guān shàng.", "english": "Please close the door." },
+          { "hanzi": "我的手机叫人偷走了。", "pinyin": "Wǒ de shǒujī jiào rén tōuzǒu le.", "english": "My phone was stolen by someone." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "将 vs 要 / 会", "text": "将 is formal and written; 要 and 会 are the everyday future words. Use 将 in notices and reports, 要 or 会 in conversation." },
+      { "vs": "予以 vs 给予", "text": "予以 is the formal word that takes a verb of support or handling; 给予 is written and means 'to give' something, such as help or recognition." },
+      { "vs": "被 vs 叫 / 让", "text": "被 is the formal passive. In speech, 叫 or 让 are preferred to name the agent, often with 人." }
+    ],
+    "pitfalls": [
+      "✗ 我将去北京。 → ✓ 我要去北京。 In everyday speech, use 要 or 会 for 'will'. 将 belongs in written notices and reports.",
+      "✗ 我予以去学校。 → ✓ 我去学校。 予以 and 加以 take a formal action such as support or improvement, never a simple everyday verb like 去.",
+      "✗ 他被我很喜欢。 → ✓ 我很喜欢他。 被 expresses something that happens to the subject, usually an effect or an action. Feelings such as 喜欢 are stated directly."
+    ],
+    "relatedPointIds": ["g5-jiayi-jiyu", "g7-yuyi-geiyi", "g4-bei-passive", "g7-shou-zao-ai", "g7-register-shift"],
+    "keywords": ["将", "被", "予以", "加以", "jiang", "bei", "yuyi", "jiayi", "formal", "written", "will", "passive", "register"],
+    "status": "draft"
+  }
+]

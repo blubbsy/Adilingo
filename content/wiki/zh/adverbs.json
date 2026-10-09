@@ -1,0 +1,291 @@
+[
+  {
+    "id": "adverb-jiu-cai",
+    "title": "就 and 才: early, late, and 'only'",
+    "titleHanzi": "就 / 才",
+    "category": "adverbs",
+    "hskRange": [2, 4],
+    "summary": "就 and 才 both sit between a time word and the verb, but they judge the same event in opposite ways: 就 says it happened early or quickly, 才 says it happened late or slowly. Both can also mean 'only'.",
+    "pattern": "Time + 就 + Verb (+ 了)  ·  Time + 才 + Verb (no 了)  ·  Subject + 就 + Verb + Small quantity  ·  Subject + 才 + Small quantity",
+    "rules": [
+      {
+        "rule": "**就 = early, soon, quick.** The speaker feels the event happened earlier or faster than expected. A past 就 sentence usually closes with 了.",
+        "highlight": "就",
+        "examples": [
+          { "hanzi": "他七点就到了。", "pinyin": "Tā qī diǎn jiù dào le.", "english": "He arrived as early as seven." },
+          { "hanzi": "我们吃完饭就走了。", "pinyin": "Wǒmen chī wán fàn jiù zǒu le.", "english": "We left right after eating." },
+          { "hanzi": "我一看就知道。", "pinyin": "Wǒ yí kàn jiù zhīdào.", "english": "I knew it at a glance." }
+        ]
+      },
+      {
+        "rule": "**才 = late, slow, not until.** The event happened later or more slowly than expected, and the sentence normally does not end with 了.",
+        "highlight": "才",
+        "examples": [
+          { "hanzi": "他十点才到。", "pinyin": "Tā shí diǎn cái dào.", "english": "He did not arrive until ten." },
+          { "hanzi": "她学了三年才毕业。", "pinyin": "Tā xué le sān nián cái bìyè.", "english": "She only graduated after three years of study." },
+          { "hanzi": "他写了两遍才写对。", "pinyin": "Tā xiě le liǎng biàn cái xiě duì.", "english": "He wrote it twice before he got it right." }
+        ]
+      },
+      {
+        "rule": "**就 = 'just, merely'.** With a small quantity, 就 says that it is only this much and nothing more, said with ease.",
+        "highlight": "就",
+        "examples": [
+          { "hanzi": "我就想喝一杯水。", "pinyin": "Wǒ jiù xiǎng hē yì bēi shuǐ.", "english": "I just want a glass of water." },
+          { "hanzi": "这件事很简单，我就问了一个问题。", "pinyin": "Zhè jiàn shì hěn jiǎndān, wǒ jiù wèn le yí ge wèntí.", "english": "This is simple; I only asked one question." }
+        ]
+      },
+      {
+        "rule": "**才 + small number = only, not as many as expected.** It stresses that the quantity is low, often with surprise or a hint of complaint.",
+        "highlight": "才",
+        "examples": [
+          { "hanzi": "他才十岁，就会说三种语言。", "pinyin": "Tā cái shí suì, jiù huì shuō sān zhǒng yǔyán.", "english": "He is only ten and already speaks three languages." },
+          { "hanzi": "我才学了一个月，还不会说。", "pinyin": "Wǒ cái xué le yí ge yuè, hái bú huì shuō.", "english": "I have only studied for a month, and I still can't speak." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "就 vs 才 with the same time", "text": "他七点就到了 (early) and 他七点才到 (late) describe one event from two angles. The time word is the same; the speaker's feeling is the opposite." },
+      { "vs": "只", "text": "只 means 'only' in quantity (我只有一个妹妹). 就 and 才 can also mean 'only', but 就 is the plain 'just' and 才 adds the sense that the number is surprisingly small." }
+    ],
+    "pitfalls": [
+      "✗ 他十点就来。 (meant: he came late) → ✓ 他十点才来。 就 means early; for late use 才.",
+      "✗ 他十点才来了。 → ✓ 他十点才来。 A 才 sentence about a late event usually drops the 了.",
+      "✗ 我们吃完饭才就走。 → ✓ 我们吃完饭就走。 Use 就 or 才, never both in one clause."
+    ],
+    "relatedPointIds": ["g2-jiu-cai", "g3-yi-jiu", "g3-ruguo-jiu"],
+    "keywords": ["jiu", "cai", "就", "才", "early", "late", "only", "not until", "just", "as early as"],
+    "status": "draft"
+  },
+  {
+    "id": "adverb-dou-ye-hai",
+    "title": "都, 也 and 还: all, too and still",
+    "titleHanzi": "都 / 也 / 还",
+    "category": "adverbs",
+    "hskRange": [1, 3],
+    "summary": "都 covers a whole group ('all, both'), 也 adds one more ('also, too'), and 还 keeps a situation going or adds more ('still, in addition'). All three go before the verb, and their order relative to 不 and 没 matters.",
+    "pattern": "Subject + 都 + Verb  ·  Subject + 也 + Verb  ·  Subject + 还 + Verb  ·  都 / 也 + 不 / 没 + Verb",
+    "rules": [
+      {
+        "rule": "**都 = all, both, every one.** It refers back to a group that is already named or clear from the subject, and it sits after the subject, right before the verb. Without a plural or group, 都 does not fit.",
+        "highlight": "都",
+        "examples": [
+          { "hanzi": "我们都是学生。", "pinyin": "Wǒmen dōu shì xuésheng.", "english": "We are all students." },
+          { "hanzi": "他们都喜欢吃中国菜。", "pinyin": "Tāmen dōu xǐhuan chī Zhōngguó cài.", "english": "They all like Chinese food." },
+          { "hanzi": "这些书我都看过了。", "pinyin": "Zhèxiē shū wǒ dōu kàn guo le.", "english": "I have read all of these books." }
+        ]
+      },
+      {
+        "rule": "**也 = too, also, as well.** It adds one more person or action to a situation that is already there, and it stands before the verb.",
+        "highlight": "也",
+        "examples": [
+          { "hanzi": "我也喜欢喝茶。", "pinyin": "Wǒ yě xǐhuan hē chá.", "english": "I like tea too." },
+          { "hanzi": "她会唱歌，也会跳舞。", "pinyin": "Tā huì chànggē, yě huì tiàowǔ.", "english": "She can sing, and she can dance too." },
+          { "hanzi": "我昨天去了超市，妈妈也去了。", "pinyin": "Wǒ zuótiān qù le chāoshì, māma yě qù le.", "english": "I went to the supermarket yesterday, and Mom went too." }
+        ]
+      },
+      {
+        "rule": "**Negation with 都 and 也.** 都不 means none of them: 我们都不去. 也不 means not … either: 我也不去. The 也 or 都 always stays in front of 不 or 没.",
+        "highlight": "都不 / 也不",
+        "examples": [
+          { "hanzi": "我们都不去。", "pinyin": "Wǒmen dōu bú qù.", "english": "None of us is going." },
+          { "hanzi": "我也不喜欢这个电影。", "pinyin": "Wǒ yě bù xǐhuan zhège diànyǐng.", "english": "I don't like this film either." },
+          { "hanzi": "他也没来。", "pinyin": "Tā yě méi lái.", "english": "He didn't come either." }
+        ]
+      },
+      {
+        "rule": "**还 = still, or in addition, or 'not yet'.** With 在 or a continuing state it means the situation goes on. It can add more of something, and with 没 it says that something has not happened yet.",
+        "highlight": "还",
+        "examples": [
+          { "hanzi": "他还在睡觉。", "pinyin": "Tā hái zài shuìjiào.", "english": "He is still asleep." },
+          { "hanzi": "我还想买一件衣服。", "pinyin": "Wǒ hái xiǎng mǎi yí jiàn yīfu.", "english": "I also want to buy a piece of clothing." },
+          { "hanzi": "我还没吃饭。", "pinyin": "Wǒ hái méi chī fàn.", "english": "I haven't eaten yet." },
+          { "hanzi": "这里还有很多空房间。", "pinyin": "Zhèlǐ hái yǒu hěn duō kòng fángjiān.", "english": "There are still many empty rooms here." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "都 vs 也", "text": "都 means 'all of them' for a group (我们都去). 也 adds one person or thing to a situation that is already there (我也去). 我们也去 means we too are going, in addition to someone else." },
+      { "vs": "还 vs 再", "text": "还 is 'still' or 'in addition' about the situation now (他还在). 再 is 'again' or 'then' for a future or repeated action (明天再来). See the 又 / 再 article." }
+    ],
+    "pitfalls": [
+      "✗ 我都是学生。 (meant: I'm a student too) → ✓ 我也是学生。 都 needs a group, so use 也 for a single person.",
+      "✗ 我不也去。 → ✓ 我也不去。 Put 也 in front of 不, not after it.",
+      "✗ 他还没来了。 → ✓ 他还没来。 还没 means 'not yet', so the sentence does not take 了."
+    ],
+    "relatedPointIds": ["g1-ye-dou", "g1-hai-zai", "g2-yijing-le"],
+    "keywords": ["dou", "ye", "hai", "都", "也", "还", "all", "also", "still", "too", "not yet", "in addition"],
+    "status": "draft"
+  },
+  {
+    "id": "adverb-you-zai",
+    "title": "又 vs 再: 'again' for the past and the future",
+    "titleHanzi": "又 / 再",
+    "category": "adverbs",
+    "hskRange": [2, 4],
+    "summary": "又 says that something happened again, already in the past, often with a note of annoyance or surprise. 再 says that something will happen again, or should happen again, in the future. Whether the event is past or not yet decides the choice.",
+    "pattern": "Subject + 又 + Verb (+ 了)  ·  Subject + 再 + Verb  ·  再 + Verb (requests)  ·  不再 + Verb",
+    "rules": [
+      {
+        "rule": "**又 = again, for a repetition that already happened.** It refers to an event that has recurred, or to a state that has kept going. It often comes with 了, and it can express that the speaker finds the repetition annoying.",
+        "highlight": "又",
+        "examples": [
+          { "hanzi": "他又迟到了。", "pinyin": "Tā yòu chídào le.", "english": "He was late again." },
+          { "hanzi": "昨天下雨，今天又下雨了。", "pinyin": "Zuótiān xià yǔ, jīntiān yòu xià yǔ le.", "english": "It rained yesterday, and today it's raining again." },
+          { "hanzi": "他昨天没来，今天又没来。", "pinyin": "Tā zuótiān méi lái, jīntiān yòu méi lái.", "english": "He didn't come yesterday, and he didn't come today either." }
+        ]
+      },
+      {
+        "rule": "**再 = again, for a repetition that has not happened yet.** It covers future repetitions, suggestions and requests.",
+        "highlight": "再",
+        "examples": [
+          { "hanzi": "明天再来吧。", "pinyin": "Míngtiān zài lái ba.", "english": "Come back tomorrow." },
+          { "hanzi": "请再说一遍。", "pinyin": "Qǐng zài shuō yí biàn.", "english": "Please say it once more." },
+          { "hanzi": "我想再去一次北京。", "pinyin": "Wǒ xiǎng zài qù yí cì Běijīng.", "english": "I would like to go to Beijing once more." }
+        ]
+      },
+      {
+        "rule": "**Negation: 不再 and 又没.** 不再 means 'no longer, not again' about the future. 又没 means that something again did not happen.",
+        "highlight": "不再 / 又没",
+        "examples": [
+          { "hanzi": "我不再喝咖啡了。", "pinyin": "Wǒ bú zài hē kāfēi le.", "english": "I'm not drinking coffee any more." },
+          { "hanzi": "他又没来，真让人失望。", "pinyin": "Tā yòu méi lái, zhēn ràng rén shīwàng.", "english": "He didn't come again; how disappointing." }
+        ]
+      },
+      {
+        "rule": "**再 = 'then, after that'.** In 吃完饭再走 or 先…再…, 再 means that the second action follows only after the first. It is the same 再 as the future one.",
+        "highlight": "再",
+        "examples": [
+          { "hanzi": "吃完饭再走。", "pinyin": "Chī wán fàn zài zǒu.", "english": "Leave after you have eaten." },
+          { "hanzi": "我们先休息一下，再继续工作。", "pinyin": "Wǒmen xiān xiūxi yíxià, zài jìxù gōngzuò.", "english": "Let's rest a bit first, then keep working." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "又 vs 还", "text": "又 is 'again' for a repeated event (他又睡了, he slept again). 还 is 'still' for a situation that continues (他还在睡, he is still asleep)." },
+      { "vs": "再 vs 又 for the future", "text": "又 is generally not used for a planned future repetition. 明天再来 is the standard form for 'come again tomorrow'." }
+    ],
+    "pitfalls": [
+      "✗ 明天又来吧。 → ✓ 明天再来吧。 For a future repetition, use 再.",
+      "✗ 他昨天再迟到了。 → ✓ 他昨天又迟到了。 A repetition that already happened takes 又.",
+      "✗ 请又说一遍。 → ✓ 请再说一遍。 A request to repeat something later uses 再."
+    ],
+    "relatedPointIds": ["g1-hai-zai", "g3-xian-ranhou", "g3-verbal-measure"],
+    "keywords": ["you", "zai", "又", "再", "again", "once more", "repeat", "not again", "then"],
+    "status": "draft"
+  },
+  {
+    "id": "adverb-gang-zheng-yijing",
+    "title": "已经, 刚 and 正: placing an action in time",
+    "titleHanzi": "已经 / 刚 / 正",
+    "category": "adverbs",
+    "hskRange": [2, 4],
+    "summary": "Three adverbs place an action on the timeline. 已经 says it has already happened or a point has been reached, 刚 says it has only just happened, and 正 (正在) says it is going on at this moment.",
+    "pattern": "Subject + 已经 + Verb (+ Object) + 了  ·  Subject + 刚 + Verb (+ 了)  ·  Subject + 正在 + Verb (+ 呢)",
+    "rules": [
+      {
+        "rule": "**已经 = already, a point that has been reached.** It usually goes with 了. It can also mark a time or an age that has been passed: 已经十点了 = it is already ten.",
+        "highlight": "已经",
+        "examples": [
+          { "hanzi": "我已经吃饭了。", "pinyin": "Wǒ yǐjīng chī fàn le.", "english": "I have already eaten." },
+          { "hanzi": "已经十点了，快睡觉吧。", "pinyin": "Yǐjīng shí diǎn le, kuài shuìjiào ba.", "english": "It's already ten, time to go to bed." },
+          { "hanzi": "他已经回家了。", "pinyin": "Tā yǐjīng huí jiā le.", "english": "He has already gone home." }
+        ]
+      },
+      {
+        "rule": "**刚 = just, a moment ago.** It describes an event that happened only moments or a short time before the speaker speaks. It goes before the verb and often comes with 了.",
+        "highlight": "刚",
+        "examples": [
+          { "hanzi": "他刚走。", "pinyin": "Tā gāng zǒu.", "english": "He has just left." },
+          { "hanzi": "我刚吃完饭。", "pinyin": "Wǒ gāng chī wán fàn.", "english": "I have just finished eating." },
+          { "hanzi": "他昨天刚到北京。", "pinyin": "Tā zuótiān gāng dào Běijīng.", "english": "He only arrived in Beijing yesterday." }
+        ]
+      },
+      {
+        "rule": "**正 / 正在 = in the middle of.** It marks an action in progress at this very moment, and it never takes 了 at the end.",
+        "highlight": "正在",
+        "examples": [
+          { "hanzi": "他正在看书。", "pinyin": "Tā zhèngzài kàn shū.", "english": "He is reading right now." },
+          { "hanzi": "我进门的时候，妈妈正做饭。", "pinyin": "Wǒ jìn mén de shíhou, māma zhèng zuò fàn.", "english": "When I came in, Mom was cooking." },
+          { "hanzi": "孩子们正玩呢。", "pinyin": "Háizimen zhèng wán ne.", "english": "The children are playing right now." }
+        ]
+      },
+      {
+        "rule": "**刚才 is a time word, 刚 is an adverb.** 刚才 means 'just now' and can start the sentence or stand before the verb. 刚 itself always stands directly before the verb.",
+        "highlight": "刚才",
+        "examples": [
+          { "hanzi": "刚才我看见他了。", "pinyin": "Gāngcái wǒ kànjiàn tā le.", "english": "I saw him just now." },
+          { "hanzi": "我刚才在厨房做饭。", "pinyin": "Wǒ gāngcái zài chúfáng zuò fàn.", "english": "I was cooking in the kitchen just now." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "已经 vs 刚", "text": "已经 stresses that a state or point has been reached (已经十点了). 刚 stresses that the action has only just taken place (他刚走)." },
+      { "vs": "正在 vs 在", "text": "正在 stresses the exact moment, while 在 alone is the everyday progressive. In narration about this moment, 正在 is common: 正在下雨 (it is raining right now)." }
+    ],
+    "pitfalls": [
+      "✗ 我正吃了饭。 → ✓ 我正在吃饭。 正 describes an action in progress, so it does not take 了.",
+      "✗ 我已经还没吃。 → ✓ 我还没吃。 已经 and 还没 contradict each other; use one of them.",
+      "✗ 他刚到昨天。 → ✓ 他昨天刚到。 The time word goes before 刚, and 刚 stands before the verb."
+    ],
+    "relatedPointIds": ["g2-yijing-le", "g2-zhe", "g2-yao-le"],
+    "keywords": ["yijing", "gang", "zheng", "zhengzai", "已经", "刚", "正", "already", "just", "in progress", "right now"],
+    "status": "draft"
+  },
+  {
+    "id": "adverb-frequency-and-sequence",
+    "title": "Frequency and sequence: 常常, 总是, 一直, 先",
+    "titleHanzi": "常常 / 总是 / 一直 / 先",
+    "category": "adverbs",
+    "hskRange": [2, 4],
+    "summary": "Adverbs of frequency and order sit between the subject and the verb. 常常 and 经常 mean 'often', 总是 means 'always' (often with a complaint), 一直 means 'continuously', and 先 puts one action first.",
+    "pattern": "Subject + 常常 / 经常 / 总是 + Verb  ·  Subject + 一直 + Verb  ·  先 + Verb₁，再 + Verb₂",
+    "rules": [
+      {
+        "rule": "**常常 and 经常 = often.** Both mean 'often, regularly' and go before the verb. They describe habits, so the verb does not take 了.",
+        "highlight": "常常 / 经常",
+        "examples": [
+          { "hanzi": "我常常去图书馆。", "pinyin": "Wǒ chángcháng qù túshūguǎn.", "english": "I often go to the library." },
+          { "hanzi": "他经常迟到。", "pinyin": "Tā jīngcháng chídào.", "english": "He is often late." },
+          { "hanzi": "我们经常一起吃晚饭。", "pinyin": "Wǒmen jīngcháng yìqǐ chī wǎnfàn.", "english": "We often have dinner together." }
+        ]
+      },
+      {
+        "rule": "**总是 = always, every time.** It can be neutral, but it often carries a complaint: 他总是忘记带钥匙 says he always forgets his keys, and you are annoyed.",
+        "highlight": "总是",
+        "examples": [
+          { "hanzi": "他总是忘记带钥匙。", "pinyin": "Tā zǒngshì wàngjì dài yàoshi.", "english": "He always forgets to bring his keys." },
+          { "hanzi": "你总是这么忙吗？", "pinyin": "Nǐ zǒngshì zhème máng ma?", "english": "Are you always this busy?" }
+        ]
+      },
+      {
+        "rule": "**一直 = continuously, all along.** It describes a state or activity that keeps going without a break, from a starting point up to now. With 从 the starting point is stated explicitly.",
+        "highlight": "一直",
+        "examples": [
+          { "hanzi": "我一直住在北京。", "pinyin": "Wǒ yìzhí zhù zài Běijīng.", "english": "I have lived in Beijing all along." },
+          { "hanzi": "从早上到现在，我一直在工作。", "pinyin": "Cóng zǎoshang dào xiànzài, wǒ yìzhí zài gōngzuò.", "english": "I have been working since this morning." },
+          { "hanzi": "一直往前走，就到了。", "pinyin": "Yìzhí wǎng qián zǒu, jiù dào le.", "english": "Keep walking straight ahead and you'll be there." }
+        ]
+      },
+      {
+        "rule": "**先 = first, 再 = then.** 先 puts one action first and 再 introduces the next, and both stand before their verbs. The pair is the usual way to say 'first do this, then do that'.",
+        "highlight": "先…再…",
+        "examples": [
+          { "hanzi": "我先吃饭，再写作业。", "pinyin": "Wǒ xiān chī fàn, zài xiě zuòyè.", "english": "I'll eat first, then do my homework." },
+          { "hanzi": "我们先去超市，再回家。", "pinyin": "Wǒmen xiān qù chāoshì, zài huí jiā.", "english": "We'll go to the supermarket first, then go home." }
+        ]
+      }
+    ],
+    "contrasts": [
+      { "vs": "常常 vs 总是", "text": "常常 is a neutral 'often' about habits (我常常去). 总是 is 'always', and it often sounds like a complaint (他总是迟到, he is always late, and that annoys me)." },
+      { "vs": "一直 vs 常常", "text": "一直 means without a break (我一直在学习, I have been studying the whole time). 常常 means repeated over time with gaps in between (我常常去图书馆)." }
+    ],
+    "pitfalls": [
+      "✗ 我去常常图书馆。 → ✓ 我常常去图书馆。 Frequency adverbs go after the subject and before the verb.",
+      "✗ 我经常去了图书馆。 → ✓ 我经常去图书馆。 A habit is not a completed event, so there is no 了.",
+      "✗ 我再吃饭，先写作业。 → ✓ 我先吃饭，再写作业。 先 comes first, and 再 introduces the second action."
+    ],
+    "relatedPointIds": ["g3-xian-ranhou", "g1-ye-dou", "g2-yijing-le"],
+    "keywords": ["changchang", "jingchang", "zongshi", "yizhi", "xian", "zai", "常常", "经常", "总是", "一直", "先", "often", "always", "continuously", "first"],
+    "status": "draft"
+  }
+]

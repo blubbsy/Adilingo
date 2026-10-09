@@ -1,0 +1,128 @@
+@topic | Hobbies & Leisure | 🎲
+hobby | /ˈhɑːbi/ | 爱好; 业余消遣 | Reading is my favorite hobby. | 阅读是我最喜欢的爱好。 | 1
+fun | /fʌn/ | 乐趣; 有趣的 | We had a lot of fun at the party. | 我们在聚会上玩得很开心。 | 1
+free time | /ˌfriː ˈtaɪm/ | 空闲时间 | What do you do in your free time? | 你空闲时间做什么？ | 1
+weekend | /ˈwiːkend/ | 周末 | We often go hiking at the weekend. | 我们周末常常去远足。 | 1
+holiday | /ˈhɑːlədeɪ/ | 假期 | They spent their holiday at the beach. | 他们在海滩度过了假期。 | 1
+read | /riːd/ | 阅读 | I like to read before I sleep. | 我喜欢睡前阅读。 | 1
+toy | /tɔɪ/ | 玩具 | The baby plays with a toy car. | 宝宝玩着一辆玩具车。 | 1
+kite | /kaɪt/ | 风筝 | We flew a kite in the park. | 我们在公园里放风筝。 | 1
+card | /kɑːrd/ | 纸牌; 卡片 | Let's play cards after dinner. | 晚饭后我们打牌吧。 | 1
+chess | /tʃes/ | 国际象棋 | My grandfather taught me to play chess. | 爷爷教我下国际象棋。 | 1
+puzzle | /ˈpʌzl/ | 拼图; 谜题 | She finished the puzzle in one hour. | 她一小时就拼完了拼图。 | 2
+board game | /ˈbɔːrd ɡeɪm/ | 桌游 | We play a board game on Sunday nights. | 我们星期天晚上玩桌游。 | 2
+video game | /ˈvɪdioʊ ɡeɪm/ | 电子游戏 | He plays video games for two hours a day. | 他每天玩两小时电子游戏。 | 2
+collect | /kəˈlekt/ | 收集 | My brother likes to collect stamps. | 我弟弟喜欢集邮。 | 2
+collection | /kəˈlekʃn/ | 收藏 | He has a large collection of old toys. | 他有一大批旧玩具收藏。 | 2
+stamp | /stæmp/ | 邮票 | She has stamps from fifty countries. | 她有来自五十个国家的邮票。 | 2
+garden | /ˈɡɑːrdn/ | 花园 | Grandpa spends hours in his garden. | 爷爷在花园里一待就是几个小时。 | 2
+gardening | /ˈɡɑːrdnɪŋ/ | 园艺 | Gardening helps her relax. | 园艺帮助她放松。 | 2
+cook | /kʊk/ | 烹饪; 做饭 | I love to cook for my friends. | 我喜欢为朋友们做饭。 | 2
+bake | /beɪk/ | 烘焙 | They bake cookies every Saturday. | 他们每个星期六烤饼干。 | 2
+fishing | /ˈfɪʃɪŋ/ | 钓鱼 | My uncle goes fishing at the lake. | 我叔叔去湖边钓鱼。 | 2
+camping | /ˈkæmpɪŋ/ | 露营 | We went camping near the river. | 我们去河边露营了。 | 2
+picnic | /ˈpɪknɪk/ | 野餐 | We had a picnic on the grass. | 我们在草地上野餐。 | 2
+party | /ˈpɑːrti/ | 聚会; 派对 | She invited us to her birthday party. | 她邀请我们参加她的生日聚会。 | 2
+join | /dʒɔɪn/ | 加入 | I want to join the photography club. | 我想加入摄影俱乐部。 | 2
+club | /klʌb/ | 俱乐部; 社团 | He is a member of the chess club. | 他是国际象棋俱乐部的成员。 | 2
+member | /ˈmembər/ | 成员 | Every member pays a small fee. | 每位成员都交少量会费。 | 2
+interest | /ˈɪntrəst/ | 兴趣 | Cooking is one of her main interests. | 烹饪是她的主要兴趣之一。 | 2
+enjoy | /ɪnˈdʒɔɪ/ | 享受; 喜欢 | I enjoy walking in the rain. | 我喜欢在雨中散步。 | 2
+relax | /rɪˈlæks/ | 放松 | He likes to relax with a good book. | 他喜欢读一本好书来放松。 | 2
+rest | /rest/ | 休息 | Take a rest after the long walk. | 走完这么长的路后休息一下。 | 2
+spare time | /ˌsper ˈtaɪm/ | 业余时间 | She paints in her spare time. | 她在业余时间画画。 | 2
+leisure | /ˈliːʒər/ | 闲暇; 休闲 | Leisure time is important for good health. | 休闲时间对健康很重要。 | 3
+pastime | /ˈpæstaɪm/ | 消遣 | Fishing is a popular pastime here. | 钓鱼在这里是一项受欢迎的消遣。 | 3
+activity | /ækˈtɪvəti/ | 活动 | The club offers many outdoor activities. | 俱乐部提供许多户外活动。 | 3
+amusement park | /əˈmjuːzmənt pɑːrk/ | 游乐园 | The kids spent all day at the amusement park. | 孩子们在游乐园玩了一整天。 | 3
+roller coaster | /ˈroʊlər koʊstər/ | 过山车 | I was too scared to ride the roller coaster. | 我太害怕了，不敢坐过山车。 | 3
+playground | /ˈpleɪɡraʊnd/ | 游乐场 | The children ran to the playground. | 孩子们跑向游乐场。 | 3
+knitting | /ˈnɪtɪŋ/ | 编织 | Knitting is a quiet, calming hobby. | 编织是一项安静平和的爱好。 | 3
+knit | /nɪt/ | 编织（毛线） | Grandma will knit me a warm scarf. | 奶奶要给我织一条暖和的围巾。 | 3
+sewing | /ˈsoʊɪŋ/ | 缝纫 | She learned sewing from her mother. | 她跟母亲学会了缝纫。 | 3
+embroidery | /ɪmˈbrɔɪdəri/ | 刺绣 | The embroidery on the dress took months. | 这件裙子上的刺绣花了几个月。 | 4
+origami | /ˌɔːrɪˈɡɑːmi/ | 折纸 | He folded a paper crane in origami. | 他用折纸折了一只纸鹤。 | 4
+calligraphy | /kəˈlɪɡrəfi/ | 书法 | Chinese calligraphy needs patience. | 中国书法需要耐心。 | 4
+model | /ˈmɑːdl/ | 模型 | He builds model planes in his room. | 他在房间里做飞机模型。 | 3
+jigsaw | /ˈdʒɪɡsɔː/ | 拼图 | We did a thousand-piece jigsaw together. | 我们一起拼了一幅千片拼图。 | 3
+crossword | /ˈkrɔːswɜːrd/ | 填字游戏 | Dad does the crossword every morning. | 爸爸每天早上做填字游戏。 | 3
+riddle | /ˈrɪdl/ | 谜语 | Can you solve this riddle? | 你能猜出这个谜语吗？ | 3
+dice | /daɪs/ | 骰子 | Roll the dice to start the game. | 掷骰子开始游戏。 | 3
+cards | /kɑːrdz/ | 扑克牌 | He shuffled the cards quickly. | 他飞快地洗牌。 | 3
+shuffle | /ˈʃʌfl/ | 洗牌 | Please shuffle the deck before we start. | 开始前请把牌洗一洗。 | 3
+checkers | /ˈtʃekərz/ | 跳棋; 西洋跳棋 | They played checkers on the porch. | 他们在门廊上玩跳棋。 | 3
+mahjong | /ˌmɑːˈdʒɑːŋ/ | 麻将 | My aunts play mahjong at New Year. | 我的阿姨们过年时打麻将。 | 3
+karaoke | /ˌkæriˈoʊki/ | 卡拉OK | We sang karaoke until midnight. | 我们唱卡拉OK唱到半夜。 | 3
+gamer | /ˈɡeɪmər/ | 游戏玩家 | He is a serious gamer. | 他是个资深游戏玩家。 | 3
+console | /ˈkɑːnsoʊl/ | 游戏机 | He saved money to buy a new console. | 他攒钱买了一台新游戏机。 | 3
+level | /ˈlevl/ | 关卡; 等级 | I'm stuck on level ten. | 我卡在第十关了。 | 3
+streaming | /ˈstriːmɪŋ/ | 流媒体播放 | Many people prefer streaming to cable TV. | 很多人更喜欢流媒体而不是有线电视。 | 3
+binge-watch | /ˈbɪndʒ wɑːtʃ/ | 刷剧; 连续观看 | I like to binge-watch a series on rainy days. | 下雨天我喜欢连着刷剧。 | 4
+podcast | /ˈpɑːdkæst/ | 播客 | I listen to a podcast on my way to work. | 我上班路上听播客。 | 3
+blog | /blɑːɡ/ | 博客 | She writes a blog about travel. | 她写一个旅行博客。 | 3
+social media | /ˌsoʊʃl ˈmiːdiə/ | 社交媒体 | He spends too long on social media. | 他在社交媒体上花的时间太长。 | 3
+scroll | /skroʊl/ | 滑动浏览 | I scroll through photos before bed. | 我睡前滑动浏览照片。 | 3
+upload | /ˈʌploʊd/ | 上传 | She uploaded a video of her cat. | 她上传了一段她的猫的视频。 | 3
+vlog | /vlɑːɡ/ | 视频博客 | His travel vlog has a million views. | 他的旅行视频博客有一百万播放量。 | 4
+photography | /fəˈtɑːɡrəfi/ | 摄影 | Photography is his main hobby. | 摄影是他的主要爱好。 | 3
+bird-watching | /ˈbɜːrd wɑːtʃɪŋ/ | 观鸟 | Bird-watching needs patience and quiet. | 观鸟需要耐心和安静。 | 4
+stargazing | /ˈstɑːrɡeɪzɪŋ/ | 观星 | Stargazing is best on clear nights. | 观星在晴朗的夜晚最好。 | 5
+backpacking | /ˈbækpækɪŋ/ | 背包旅行 | He spent a year backpacking in Asia. | 他在亚洲背包旅行了一年。 | 4
+tent | /tent/ | 帐篷 | We put up the tent before dark. | 我们在天黑前搭好了帐篷。 | 3
+campfire | /ˈkæmpfaɪər/ | 篝火 | We sang songs around the campfire. | 我们围着篝火唱歌。 | 3
+barbecue | /ˈbɑːrbɪkjuː/ | 烧烤 | They had a barbecue in the backyard. | 他们在后院烧烤。 | 3
+sightseeing | /ˈsaɪtsiːɪŋ/ | 观光 | We went sightseeing in Rome. | 我们在罗马观光。 | 3
+stroll | /stroʊl/ | 闲逛; 散步 | They took a stroll along the beach. | 他们沿着海滩散步。 | 4
+wander | /ˈwɑːndər/ | 闲逛; 漫步 | I like to wander around old towns. | 我喜欢在古镇里闲逛。 | 4
+cycle | /ˈsaɪkl/ | 骑自行车 | We cycle through the forest on Sundays. | 我们星期天骑车穿过森林。 | 3
+skateboard | /ˈskeɪtbɔːrd/ | 滑板 | He rides his skateboard to school. | 他骑滑板去上学。 | 3
+bowling | /ˈboʊlɪŋ/ | 保龄球 | We went bowling for his birthday. | 我们为他的生日去打保龄球。 | 3
+darts | /dɑːrts/ | 飞镖 | They play darts at the pub. | 他们在酒吧玩飞镖。 | 4
+billiards | /ˈbɪljərdz/ | 台球 | He plays billiards with his friends. | 他和朋友们打台球。 | 4
+snooker | /ˈsnʊkər/ | 斯诺克 | Snooker is popular on British TV. | 斯诺克在英国电视上很受欢迎。 | 4
+gym membership | /dʒɪm ˈmembərʃɪp/ | 健身房会员 | She canceled her gym membership. | 她取消了健身房会员资格。 | 4
+pottery class | /ˈpɑːtəri klæs/ | 陶艺课 | We took a pottery class together. | 我们一起上了陶艺课。 | 4
+DIY | /ˌdiː aɪ ˈwaɪ/ | 自己动手做 | He loves DIY and fixes everything himself. | 他热爱自己动手，什么都自己修。 | 4
+handmade | /ˌhændˈmeɪd/ | 手工制作的 | She sells handmade soap online. | 她在网上卖手工肥皂。 | 3
+woodwork | /ˈwʊdwɜːrk/ | 木工 | Woodwork is his favorite weekend hobby. | 木工是他最喜欢的周末爱好。 | 4
+scrapbook | /ˈskræpbʊk/ | 剪贴簿 | She made a scrapbook of the trip. | 她为这次旅行做了一本剪贴簿。 | 4
+album | /ˈælbəm/ | 相册 | We looked through the old photo album. | 我们翻看了旧相册。 | 3
+diary | /ˈdaɪəri/ | 日记 | She writes in her diary every night. | 她每晚写日记。 | 3
+journal | /ˈdʒɜːrnl/ | 日志; 手账 | He keeps a journal of his travels. | 他写旅行日志。 | 3
+volunteer | /ˌvɑːlənˈtɪr/ | 做志愿者; 志愿者 | She volunteers at an animal shelter. | 她在动物收容所做志愿者。 | 3
+pet | /pet/ | 宠物 | Do you have a pet at home? | 你家里有宠物吗？ | 2
+aquarium | /əˈkweriəm/ | 水族馆; 鱼缸 | We saw sharks at the aquarium. | 我们在水族馆看到了鲨鱼。 | 3
+zoo | /zuː/ | 动物园 | The zoo has two baby pandas. | 动物园里有两只熊猫宝宝。 | 2
+shopping | /ˈʃɑːpɪŋ/ | 购物 | She goes shopping with friends on Saturday. | 她星期六和朋友们去购物。 | 2
+window-shopping | /ˈwɪndoʊ ʃɑːpɪŋ/ | 逛街看橱窗 | We spent the afternoon window-shopping. | 我们逛了一个下午的街。 | 4
+flea market | /ˈfliː mɑːrkɪt/ | 跳蚤市场 | I found this lamp at a flea market. | 我在跳蚤市场上找到了这盏灯。 | 4
+antique | /ænˈtiːk/ | 古董 | He loves to collect antique clocks. | 他喜欢收集古董钟表。 | 4
+hang out | /hæŋ aʊt/ | 闲逛; 一起玩 | We usually hang out at the mall. | 我们通常在商场里一起玩。 | 3
+get together | /ˌɡet təˈɡeðər/ | 聚会; 相聚 | Let's get together this weekend. | 我们这个周末聚一聚吧。 | 3
+catch up | /kætʃ ʌp/ | 叙旧 | I'm meeting an old friend to catch up. | 我要去见一位老朋友叙叙旧。 | 3
+chill out | /tʃɪl aʊt/ | 放松; 休息 | I just want to chill out at home. | 我只想在家放松一下。 | 4
+unwind | /ʌnˈwaɪnd/ | 放松 | A hot bath helps me unwind. | 泡个热水澡帮我放松。 | 4
+recreation | /ˌrekriˈeɪʃn/ | 娱乐; 消遣 | The park offers space for recreation. | 公园为娱乐提供了空间。 | 4
+entertainment | /ˌentərˈteɪnmənt/ | 消遣活动 | Games are cheap entertainment for children. | 游戏对孩子来说是廉价的消遣。 | 4
+spa | /spɑː/ | 水疗中心 | She spent a day at the spa. | 她在水疗中心待了一天。 | 4
+massage | /məˈsɑːʒ/ | 按摩 | A massage can ease back pain. | 按摩可以缓解背痛。 | 4
+meditation | /ˌmedɪˈteɪʃn/ | 冥想 | Meditation helps him stay calm. | 冥想帮助他保持平静。 | 4
+mindfulness | /ˈmaɪndflnəs/ | 正念 | Mindfulness has become a popular trend. | 正念已成为一种流行趋势。 | 5
+tai chi | /ˌtaɪ ˈtʃiː/ | 太极 | Old people practice tai chi in the park. | 老人们在公园里练太极。 | 4
+enthusiast | /ɪnˈθuːziæst/ | 爱好者 | He is a keen car enthusiast. | 他是个热情的汽车爱好者。 | 5
+fanatic | /fəˈnætɪk/ | 狂热爱好者 | She is a football fanatic. | 她是个足球狂热爱好者。 | 5
+addicted | /əˈdɪktɪd/ | 上瘾的 | He is addicted to online games. | 他沉迷于网络游戏。 | 4
+keen | /kiːn/ | 热衷的 | She is keen on gardening. | 她热衷于园艺。 | 4
+be into | /bi ˈɪntuː/ | 对…着迷 | I am really into hiking these days. | 我这些天特别迷徒步。 | 4
+take up | /teɪk ʌp/ | 开始从事（爱好） | He decided to take up painting. | 他决定开始学画画。 | 3
+amateur | /ˈæmətʃər/ | 业余爱好者 | He is an amateur astronomer. | 他是一名业余天文爱好者。 | 4
+beginner | /bɪˈɡɪnər/ | 初学者 | This class is for complete beginners. | 这个班适合完全的初学者。 | 3
+skill | /skɪl/ | 技能 | Cooking is a useful skill. | 烹饪是一项有用的技能。 | 3
+craft fair | /ˈkræft fer/ | 手工艺集市 | We bought a vase at the craft fair. | 我们在手工艺集市上买了一个花瓶。 | 5
+hobbyist | /ˈhɑːbiɪst/ | 业余爱好者 | The hobbyist built a robot at home. | 这位业余爱好者在家里造了一个机器人。 | 6
+pursuit | /pərˈsuːt/ | 爱好; 追求 | Fishing is a quiet pursuit. | 钓鱼是一项安静的爱好。 | 5
+leisurely | /ˈliːʒərli/ | 悠闲的 | We took a leisurely walk by the river. | 我们沿着河边悠闲地散步。 | 5
+idle | /ˈaɪdl/ | 闲着的 | He spent the idle afternoon reading. | 他整个闲散的下午都在读书。 | 5
+dabble | /ˈdæbl/ | 涉猎; 玩票 | She likes to dabble in photography. | 她喜欢涉猎摄影。 | 6
+tinker | /ˈtɪŋkər/ | 摆弄; 修补 | He likes to tinker with old radios. | 他喜欢摆弄旧收音机。 | 6
+pastime hobby | /ˈpæstaɪm ˈhɑːbi/ | 消遣爱好 | Birdwatching is a calming pastime hobby. | 观鸟是一项使人平静的消遣爱好。 | 5

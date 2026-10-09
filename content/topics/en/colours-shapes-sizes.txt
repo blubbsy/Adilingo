@@ -1,0 +1,199 @@
+@topic | Colours, Shapes & Sizes | 🎨
+red | /red/ | 红色 | The stop sign is red. | 停车标志是红色的。 | 1
+blue | /bluː/ | 蓝色 | She wore a blue dress to the party. | 她穿着一条蓝色连衣裙去参加派对。 | 1
+green | /ɡriːn/ | 绿色; 绿的 | The grass is very green in spring. | 春天草地非常绿。 | 1
+yellow | /ˈjeləʊ/ | 黄色 | The sun is bright yellow in the picture. | 图中的太阳是明亮的黄色。 | 1
+purple | /ˈpɜːpl/ | 紫色 | Purple is her favourite colour. | 紫色是她最喜欢的颜色。 | 2
+pink | /pɪŋk/ | 粉红色 | The baby's room is painted pink. | 婴儿房刷成了粉红色。 | 1
+brown | /braʊn/ | 棕色; 褐色 | He has brown eyes and dark hair. | 他有棕色的眼睛和深色的头发。 | 1
+black | /blæk/ | 黑色; 黑的 | The cat has a black tail. | 这只猫有一条黑色的尾巴。 | 1
+white | /waɪt/ | 白色; 白的 | The house is painted white. | 这栋房子刷成了白色。 | 1
+grey | /ɡreɪ/ | 灰色; 灰的 | The sky turned grey before the storm. | 暴风雨来临前天空变成了灰色。 | 2
+gold | /ɡəʊld/ | 金色; 金子 | Her ring is made of gold. | 她的戒指是金子做的。 | 2
+silver | /ˈsɪlvə/ | 银色; 银子 | He drives a silver car. | 他开一辆银色的汽车。 | 2
+beige | /beɪʒ/ | 米色; 浅褐色 | The walls are a soft beige. | 墙壁是柔和的米色。 | 4
+navy | /ˈneɪvi/ | 藏青色; 深蓝色 | He wore a navy suit to the interview. | 他面试时穿了一套藏青色西装。 | 3
+turquoise | /ˈtɜːkwɔɪz/ | 绿松石色; 青绿色 | The sea looked turquoise in the sunlight. | 阳光下大海呈现出青绿色。 | 4
+violet | /ˈvaɪələt/ | 紫罗兰色; 紫色的 | The violet flowers smelled sweet. | 紫罗兰色的花散发着甜香。 | 3
+maroon | /məˈruːn/ | 栗色; 暗红色 | The team wears maroon shirts. | 这支队伍穿栗色的球衣。 | 4
+crimson | /ˈkrɪmzn/ | 深红色; 绯红色 | Her cheeks turned crimson with embarrassment. | 她羞得脸颊涨成了绯红色。 | 5
+scarlet | /ˈskɑːlət/ | 猩红色 | The guard wore a scarlet coat. | 卫兵穿着一件猩红色的外套。 | 5
+olive | /ˈɒlɪv/ | 橄榄绿; 橄榄色的 | She wore an olive jacket on the hike. | 她远足时穿了一件橄榄绿夹克。 | 4
+khaki | /ˈkɑːki/ | 卡其色; 土黄色 | Soldiers wore khaki uniforms. | 士兵穿着卡其色的军装。 | 4
+lilac | /ˈlaɪlək/ | 淡紫色; 丁香色 | The garden was full of lilac blossoms. | 花园里开满了丁香色的花。 | 4
+lavender | /ˈlævəndə/ | 薰衣草色; 淡紫色 | She bought lavender paint for the bedroom. | 她买了淡紫色的涂料刷卧室。 | 4
+indigo | /ˈɪndɪɡəʊ/ | 靛蓝色 | The jeans have a deep indigo colour. | 这条牛仔裤是深靛蓝色。 | 6
+teal | /tiːl/ | 蓝绿色; 水鸭蓝 | The office walls are teal. | 办公室的墙壁是蓝绿色的。 | 4
+cream | /kriːm/ | 奶油色; 乳白色 | The curtains are cream with gold trim. | 窗帘是奶油色，镶着金边。 | 3
+ivory | /ˈaɪvəri/ | 象牙色; 象牙白 | The wedding dress is ivory. | 婚纱是象牙白色的。 | 4
+tan | /tæn/ | 棕褐色; 晒黑 | After the holiday he had a deep tan. | 度假回来后他晒成了深褐色。 | 3
+bronze | /brɒnz/ | 青铜色; 青铜 | The statue is made of bronze. | 这尊雕像是青铜做的。 | 4
+copper | /ˈkɒpə/ | 铜色; 铜 | The pipes are made of copper. | 这些管道是用铜做的。 | 4
+hue | /hjuː/ | 色调; 色相 | The sky took on a golden hue at sunset. | 日落时天空染上了金色调。 | 6
+tint | /tɪnt/ | 淡色; 色调; 染 | The glass has a slight blue tint. | 这块玻璃带有一点淡蓝色调。 | 5
+pastel | /ˈpæstl/ | 柔和的淡色; 粉彩 | The nursery was decorated in pastel shades. | 育儿室用柔和的淡色装饰。 | 4
+pale | /peɪl/ | 淡的; 苍白的 | She wore a pale green scarf. | 她戴着一条淡绿色的围巾。 | 3
+vivid | /ˈvɪvɪd/ | 鲜艳的; 生动的 | The painting uses vivid reds and oranges. | 这幅画使用了鲜艳的红色和橙色。 | 5
+neon | /ˈniːɒn/ | 霓虹色的; 荧光色的 | The jacket was a bright neon green. | 这件夹克是明亮的荧光绿色。 | 4
+monochrome | /ˈmɒnəkrəʊm/ | 单色的; 黑白的 | The old photos are monochrome. | 这些老照片是黑白的。 | 6
+colourful | /ˈkʌləfl/ | 色彩丰富的; 多彩的 | The market is colourful and noisy. | 这个市场色彩斑斓，十分嘈杂。 | 3
+colourless | /ˈkʌləlɪs/ | 无色的; 没有生气的 | Water is colourless and odourless. | 水是无色无味的。 | 4
+multicoloured | /ˌmʌltiˈkʌləd/ | 多色的; 五颜六色的 | The kite was multicoloured. | 这只风筝五颜六色。 | 4
+transparent | /trænsˈpærənt/ | 透明的; 清晰的 | The window is made of transparent glass. | 这扇窗户是用透明玻璃做的。 | 4
+opaque | /əʊˈpeɪk/ | 不透明的; 难懂的 | Use opaque curtains to keep the room dark. | 用不透光的窗帘让房间保持黑暗。 | 5
+translucent | /trænsˈluːsnt/ | 半透明的 | The candle wax looks translucent when lit. | 点燃时蜡烛的蜡看起来是半透明的。 | 6
+glossy | /ˈɡlɒsi/ | 有光泽的; 光滑的 | She bought a glossy magazine. | 她买了一本有光泽封面的杂志。 | 4
+matt | /mæt/ | 哑光的; 无光泽的 | The walls have a matt finish. | 墙面是哑光效果。 | 5
+metallic | /məˈtælɪk/ | 金属光泽的; 金属的 | The car has a metallic blue paint. | 这辆车是金属蓝色的漆。 | 4
+dye | /daɪ/ | 染料; 染 | She used a natural dye on the fabric. | 她用天然染料给布料上色。 | 4
+stain | /steɪn/ | 污渍; 染色剂; 玷污 | There is a coffee stain on the tablecloth. | 桌布上有一块咖啡渍。 | 3
+fade | /feɪd/ | 褪色; 逐渐消失 | Sunlight will fade the curtains over time. | 阳光会让窗帘随着时间褪色。 | 3
+tinted | /ˈtɪntɪd/ | 带有色调的; 染了色的 | He wears tinted glasses on sunny days. | 晴天时他戴着有色眼镜。 | 5
+shiny | /ˈʃaɪni/ | 闪亮的; 光亮的 | The new car is shiny and clean. | 这辆新车又亮又干净。 | 2
+primary colour | /ˈpraɪməri ˈkʌlə/ | 原色 | Red, blue and yellow are primary colours. | 红、蓝、黄是三原色。 | 5
+complementary colour | /ˌkɒmplɪˈmentri ˈkʌlə/ | 互补色 | Green is a complementary colour to red. | 绿色是红色的互补色。 | 6
+light blue | /laɪt bluː/ | 浅蓝色 | The sky was a clear light blue. | 天空是清澈的浅蓝色。 | 2
+dark blue | /dɑːk bluː/ | 深蓝色 | He wore a dark blue jacket. | 他穿了一件深蓝色外套。 | 2
+colour blind | /ˈkʌlə blaɪnd/ | 色盲的 | My brother is colour blind and cannot see red well. | 我弟弟是色盲，看不太清红色。 | 5
+circle | /ˈsɜːkl/ | 圆圈; 圆形 | Draw a circle around the correct answer. | 在正确答案周围画一个圆圈。 | 1
+triangle | /ˈtraɪæŋɡl/ | 三角形 | The roof has the shape of a triangle. | 屋顶呈三角形。 | 1
+rectangle | /ˈrektæŋɡl/ | 长方形 | A door is usually a rectangle. | 门通常是长方形的。 | 2
+oval | /ˈəʊvl/ | 椭圆形; 卵形的 | The table is an oval with four chairs. | 这张桌子是椭圆形的，配有四把椅子。 | 3
+diamond | /ˈdaɪəmənd/ | 菱形; 钻石 | The pattern is made of small diamonds. | 图案由许多小菱形组成。 | 2
+heart | /hɑːt/ | 心形; 心 | She drew a red heart on the card. | 她在卡片上画了一颗红色的心。 | 2
+cube | /kjuːb/ | 立方体; 正方体 | A dice is a small cube. | 骰子是一个小立方体。 | 2
+sphere | /sfɪə/ | 球体; 球形物 | The earth is almost a sphere. | 地球几乎是一个球体。 | 4
+cylinder | /ˈsɪlɪndə/ | 圆柱体 | A can is shaped like a cylinder. | 罐头的形状像一个圆柱体。 | 4
+cone | /kəʊn/ | 圆锥体; 甜筒 | The ice cream came in a waffle cone. | 冰淇淋装在华夫饼甜筒里。 | 3
+pyramid | /ˈpɪrəmɪd/ | 金字塔; 棱锥体 | The Egyptian pyramid is very old. | 埃及金字塔非常古老。 | 3
+prism | /ˈprɪzəm/ | 棱柱; 棱镜 | Light splits into colours through a prism. | 光线通过棱镜会分解成各种颜色。 | 5
+polygon | /ˈpɒlɪɡən/ | 多边形 | A hexagon is a polygon with six sides. | 六边形是有六条边的多边形。 | 5
+hexagon | /ˈheksəɡən/ | 六边形 | A honeycomb cell is a hexagon. | 蜂巢的每个格子都是六边形。 | 4
+pentagon | /ˈpentəɡən/ | 五边形; 五角大楼 | A pentagon has five sides and five angles. | 五边形有五条边和五个角。 | 4
+octagon | /ˈɒktəɡən/ | 八边形 | A stop sign is shaped like an octagon. | 停车标志的形状是八边形。 | 5
+crescent | /ˈkresnt/ | 新月形; 月牙形 | The moon was a thin crescent last night. | 昨晚的月亮是一弯细细的月牙。 | 5
+spiral | /ˈspaɪrəl/ | 螺旋形; 螺旋的 | The staircase winds up in a spiral. | 楼梯呈螺旋形向上延伸。 | 4
+curve | /kɜːv/ | 曲线; 弯曲 | The road makes a sharp curve ahead. | 前方的道路有一个急转弯。 | 3
+curved | /kɜːvd/ | 弯曲的; 弧形的 | She sat on a curved bench by the lake. | 她坐在湖边一张弧形长椅上。 | 3
+round | /raʊnd/ | 圆的; 圆形的 | We sat at a round table. | 我们坐在一张圆桌旁。 | 1
+rounded | /ˈraʊndɪd/ | 圆润的; 圆角的 | The box has rounded edges. | 这个盒子的边角是圆的。 | 4
+hollow | /ˈhɒləʊ/ | 空心的; 凹陷的 | The tree trunk is hollow inside. | 树干里面是空的。 | 4
+angle | /ˈæŋɡl/ | 角; 角度 | Measure the angle with a protractor. | 用量角器量一下这个角度。 | 3
+edge | /edʒ/ | 边缘; 棱 | Keep away from the edge of the cliff. | 远离悬崖边缘。 | 2
+side | /saɪd/ | 边; 侧面 | A square has four equal sides. | 正方形有四条相等的边。 | 1
+vertex | /ˈvɜːteks/ | 顶点 | A triangle has three vertices. | 三角形有三个顶点。 | 6
+face | /feɪs/ | 面; 表面 | Each face of the cube is a square. | 立方体的每个面都是正方形。 | 3
+surface | /ˈsɜːfɪs/ | 表面; 外表 | The surface of the lake is calm. | 湖面平静无波。 | 2
+outline | /ˈaʊtlaɪn/ | 轮廓; 大纲; 勾画 | Trace the outline of the shape. | 描出这个形状的轮廓。 | 3
+arc | /ɑːk/ | 弧; 弧线 | The rainbow formed a perfect arc. | 彩虹形成了一道完美的弧线。 | 5
+loop | /luːp/ | 环; 圈 | Tie the rope in a loop. | 把绳子打成一个圈。 | 3
+dome | /dəʊm/ | 圆顶; 穹顶 | The church has a large golden dome. | 这座教堂有一个大大的金色圆顶。 | 4
+arch | /ɑːtʃ/ | 拱门; 拱形 | We walked under the stone arch. | 我们从石拱门下走过。 | 3
+grid | /ɡrɪd/ | 网格; 方格 | Draw a grid on the paper. | 在纸上画一个方格。 | 4
+zigzag | /ˈzɪɡzæɡ/ | 之字形; 曲折 | The path runs in a zigzag up the hill. | 小路呈之字形向山上延伸。 | 4
+diagonal | /daɪˈæɡənl/ | 对角线; 斜的 | Draw a diagonal line across the square. | 在正方形上画一条对角线。 | 4
+parallel | /ˈpærəlel/ | 平行的; 相似的 | The two lines are parallel. | 这两条线是平行的。 | 4
+perpendicular | /ˌpɜːpənˈdɪkjʊlə/ | 垂直的 | The wall is perpendicular to the floor. | 墙面与地面垂直。 | 5
+horizontal | /ˌhɒrɪˈzɒntl/ | 水平的; 横向的 | Hang the picture in a horizontal position. | 把画挂成水平的方向。 | 4
+vertical | /ˈvɜːtɪkl/ | 垂直的; 竖的 | The tall lines on the page are vertical. | 页面上的竖线是垂直的。 | 3
+symmetrical | /sɪˈmetrɪkl/ | 对称的 | The butterfly's wings are symmetrical. | 蝴蝶的翅膀是对称的。 | 5
+asymmetrical | /ˌeɪsɪˈmetrɪkl/ | 不对称的 | The design is asymmetrical on purpose. | 这个设计故意做成不对称的。 | 6
+geometric | /ˌdʒiːəˈmetrɪk/ | 几何的; 几何形状的 | The rug has a geometric pattern. | 这块地毯有几何图案。 | 5
+geometry | /dʒiˈɒmətri/ | 几何学 | We studied geometry at school. | 我们在学校学过几何。 | 3
+shape | /ʃeɪp/ | 形状; 外形 | The cake is in the shape of a heart. | 这块蛋糕是心形的。 | 1
+big | /bɪɡ/ | 大的 | We need a big table for six people. | 我们需要一张能坐六个人的大桌子。 | 1
+small | /smɔːl/ | 小的 | The flat is small but very cosy. | 这套公寓很小，但非常舒适。 | 1
+large | /lɑːdʒ/ | 大的; 大号的 | Do you have this shirt in a large? | 这件衬衫有大号的吗？ | 1
+tiny | /ˈtaɪni/ | 极小的; 微小的 | The baby's hands are tiny. | 婴儿的小手非常小。 | 2
+huge | /hjuːdʒ/ | 巨大的; 庞大的 | There was a huge crowd at the concert. | 音乐会上有一大群人。 | 2
+enormous | /ɪˈnɔːməs/ | 巨大的; 极大的 | The whale is enormous. | 这头鲸鱼非常巨大。 | 3
+massive | /ˈmæsɪv/ | 巨大的; 厚重的 | The company made a massive profit. | 这家公司获得了巨额利润。 | 4
+gigantic | /dʒaɪˈɡæntɪk/ | 巨大的; 庞大的 | The robot was gigantic. | 这个机器人庞大无比。 | 5
+colossal | /kəˈlɒsl/ | 庞大的; 巨大的 | The statue is colossal and stands at the gate. | 这座雕像非常庞大，矗立在大门口。 | 6
+minuscule | /ˈmɪnəskjuːl/ | 极小的; 微不足道的 | The writing on the label is minuscule. | 标签上的字小得几乎看不见。 | 6
+tall | /tɔːl/ | 高的 | My brother is taller than me, but I am tall too. | 我哥哥比我高，但我也不矮。 | 1
+short | /ʃɔːt/ | 矮的; 短的 | The skirt is too short for the office. | 这条裙子对办公室来说太短了。 | 1
+high | /haɪ/ | 高的; 高处的 | The mountain is very high. | 这座山非常高。 | 2
+low | /ləʊ/ | 低的; 矮的 | The ceiling in this room is low. | 这个房间的天花板很低。 | 2
+long | /lɒŋ/ | 长的 | The river is long and wide. | 这条河又长又宽。 | 1
+wide | /waɪd/ | 宽的; 宽阔的 | The road is wide enough for two cars. | 这条路宽到能容纳两辆车。 | 2
+narrow | /ˈnærəʊ/ | 狭窄的; 窄的 | The street is narrow and steep. | 这条街又窄又陡。 | 2
+deep | /diːp/ | 深的 | The lake is very deep in the middle. | 湖中央非常深。 | 2
+shallow | /ˈʃæləʊ/ | 浅的 | The water is shallow near the beach. | 海滩附近的水很浅。 | 3
+thick | /θɪk/ | 厚的; 粗的 | Cut the bread into thick slices. | 把面包切成厚片。 | 2
+thin | /θɪn/ | 薄的; 瘦的 | The paper is thin and fragile. | 这张纸又薄又脆。 | 2
+thickness | /ˈθɪknəs/ | 厚度; 粗细 | The thickness of the wall is one metre. | 墙的厚度是一米。 | 4
+broad | /brɔːd/ | 宽阔的; 宽的 | He has broad shoulders. | 他的肩膀很宽。 | 4
+slim | /slɪm/ | 苗条的; 细长的 | She wore a slim black skirt. | 她穿了一条紧身黑色半裙。 | 3
+bulky | /ˈbʌlki/ | 笨重的; 体积大的 | The parcel was too bulky for the letterbox. | 这个包裹太大，塞不进信箱。 | 4
+compact | /kəmˈpækt/ | 紧凑的; 小巧的 | This camera is small and compact. | 这台相机小巧紧凑。 | 3
+roomy | /ˈruːmi/ | 宽敞的; 空间大的 | The car is roomy for a family of four. | 这辆车对一家四口来说空间很宽敞。 | 4
+petite | /pəˈtiːt/ | 娇小的 | She is petite and only 1.55 metres tall. | 她身材娇小，身高只有一米五五。 | 5
+stout | /staʊt/ | 矮胖的; 结实的 | He is short and stout with a round face. | 他个子矮胖，脸很圆。 | 5
+vast | /vɑːst/ | 广大的; 巨大的 | The desert covers a vast area. | 这片沙漠覆盖着广阔的区域。 | 4
+diameter | /daɪˈæmɪtə/ | 直径 | The pipe has a diameter of ten centimetres. | 这根管子的直径是十厘米。 | 4
+radius | /ˈreɪdiəs/ | 半径 | The radius of the circle is five metres. | 这个圆的半径是五米。 | 5
+circumference | /səˈkʌmfərəns/ | 圆周; 周长 | Measure the circumference of the tree trunk. | 测量一下树干的周长。 | 5
+perimeter | /pəˈrɪmɪtə/ | 周长; 周边 | The perimeter of the garden is fifty metres. | 花园的周长是五十米。 | 5
+bigger | /ˈbɪɡə/ | 更大的 | This box is bigger than that one. | 这个箱子比那个大。 | 1
+biggest | /ˈbɪɡɪst/ | 最大的 | Which is the biggest city in China? | 中国最大的城市是哪一座？ | 2
+smaller | /ˈsmɔːlə/ | 更小的 | Please choose a smaller plate. | 请选一个小一点的盘子。 | 1
+smallest | /ˈsmɔːlɪst/ | 最小的 | The smallest room is the bathroom. | 最小的房间是浴室。 | 2
+larger | /ˈlɑːdʒə/ | 更大的 | We need a larger house for the family. | 这家人需要一座更大的房子。 | 2
+taller | /ˈtɔːlə/ | 更高的 | My son is taller than his father now. | 我儿子现在比他爸爸高了。 | 2
+shorter | /ˈʃɔːtə/ | 更短的; 更矮的 | Take the shorter route through the park. | 走公园里较短的那条路。 | 2
+wider | /ˈwaɪdə/ | 更宽的 | The new bridge is wider than the old one. | 新桥比旧桥更宽。 | 3
+narrower | /ˈnærəʊə/ | 更窄的 | The lane gets narrower near the river. | 小路靠近河边时变得更窄。 | 4
+heavier | /ˈhevɪə/ | 更重的 | This suitcase is much heavier than the last one. | 这个行李箱比上一个重得多。 | 2
+higher | /ˈhaɪə/ | 更高的 | The price is higher in the city centre. | 市中心的价格更高。 | 2
+lower | /ˈləʊə/ | 更低的; 较低的 | Please turn the volume lower. | 请把音量调低一点。 | 2
+deeper | /ˈdiːpə/ | 更深的 | The water is deeper in the centre. | 水在中间部分更深。 | 3
+thicker | /ˈθɪkə/ | 更厚的; 更稠的 | Choose a thicker blanket for winter. | 冬天选一条更厚的毯子。 | 3
+thinner | /ˈθɪnə/ | 更薄的; 更瘦的 | The new phone is thinner than my old one. | 新手机比我的旧手机更薄。 | 3
+as big as | /æz bɪɡ æz/ | 和…一样大 | Your garden is as big as mine. | 你的花园和我的一样大。 | 2
+twice as big | /twaɪs æz bɪɡ/ | 大两倍 | The new office is twice as big as the old one. | 新办公室比旧的大两倍。 | 3
+identical | /aɪˈdentɪkl/ | 完全相同的 | The twins wore identical dresses. | 双胞胎穿着一模一样的裙子。 | 4
+equal | /ˈiːkwəl/ | 相等的; 平等的 | Divide the cake into four equal parts. | 把蛋糕切成四块相等的部分。 | 3
+similar | /ˈsɪmələ/ | 相似的; 类似的 | The two houses look very similar. | 这两栋房子看起来非常相似。 | 2
+comparable | /ˈkɒmpərəbl/ | 可比的; 相当的 | The two cars are comparable in price. | 这两辆车的价格相当。 | 5
+superior | /suːˈpɪəriə/ | 更优越的; 上级的 | This model is superior to the last one. | 这款机型比上一款更优越。 | 5
+inferior | /ɪnˈfɪəriə/ | 较差的; 次等的 | The quality of this product is inferior. | 这款产品的质量较差。 | 5
+smooth | /smuːð/ | 光滑的; 平滑的 | The stone feels smooth in my hand. | 这块石头摸在手里很光滑。 | 2
+rough | /rʌf/ | 粗糙的; 粗略的 | The bark of the tree is rough. | 这棵树的树皮很粗糙。 | 2
+hard | /hɑːd/ | 坚硬的; 困难的 | The floor is hard, so bring a cushion. | 地板很硬，所以带个垫子吧。 | 1
+bumpy | /ˈbʌmpi/ | 凹凸不平的; 颠簸的 | The road is bumpy after the rain. | 雨后这条路坑坑洼洼的。 | 3
+slippery | /ˈslɪpəri/ | 滑的; 滑溜的 | The floor is slippery when it is wet. | 地板湿的时候很滑。 | 2
+fluffy | /ˈflʌfi/ | 蓬松的; 毛茸茸的 | The kitten has soft, fluffy fur. | 小猫有柔软蓬松的毛。 | 2
+furry | /ˈfɜːri/ | 毛茸茸的; 有毛的 | The dog's coat is thick and furry. | 狗的皮毛又厚又毛茸茸的。 | 3
+silky | /ˈsɪlki/ | 丝滑的; 如丝的 | Her hair is long and silky. | 她的头发又长又丝滑。 | 3
+woolly | /ˈwʊli/ | 羊毛的; 毛茸茸的 | He wore a woolly hat in the snow. | 他在雪地里戴着一顶羊毛帽。 | 3
+velvety | /ˈvelvəti/ | 天鹅绒般的; 柔滑的 | The peach has a velvety skin. | 桃子的表皮摸起来像天鹅绒一样柔滑。 | 5
+leathery | /ˈleðəri/ | 皮革般的; 粗韧的 | His hands were tough and leathery from work. | 他的双手因为劳作变得粗糙坚韧。 | 5
+wooden | /ˈwʊdn/ | 木制的; 木头的 | We sat on a wooden bench. | 我们坐在一张木制长椅上。 | 2
+glassy | /ˈɡlɑːsi/ | 玻璃般的; 光滑透亮的 | The lake was calm and glassy at dawn. | 黎明时湖面平静如镜。 | 5
+sandy | /ˈsændi/ | 多沙的; 沙色的 | We walked along the sandy beach. | 我们沿着多沙的海滩散步。 | 3
+grainy | /ˈɡreɪni/ | 颗粒状的; 粗粒的 | The old photo looks grainy. | 这张老照片看起来颗粒感很强。 | 5
+prickly | /ˈprɪkli/ | 多刺的; 刺痛的 | Cactus plants are prickly. | 仙人掌植物长满了刺。 | 3
+spongy | /ˈspʌndʒi/ | 海绵状的; 松软的 | The cake was light and spongy. | 这块蛋糕轻软如海绵。 | 4
+coarse | /kɔːs/ | 粗的; 粗糙的 | The sand is coarse and gritty. | 这沙子又粗又硬。 | 4
+dense | /dens/ | 密集的; 浓密的 | The forest is dense and dark. | 这片森林茂密而幽暗。 | 4
+cracked | /krækt/ | 裂开的; 有裂纹的 | The screen of my phone is cracked. | 我手机的屏幕裂了。 | 3
+crumbly | /ˈkrʌmbli/ | 易碎的; 易掉渣的 | The cheese is crumbly and salty. | 这种奶酪易碎，口感咸。 | 5
+rubbery | /ˈrʌbəri/ | 橡胶般的; 有弹性的 | The toy has a rubbery feel. | 这个玩具摸起来有橡胶的弹性。 | 5
+slimy | /ˈslaɪmi/ | 滑溜溜的; 黏糊糊的 | The rocks were green and slimy. | 石头上长满了绿色的黏滑苔藓。 | 5
+polished | /ˈpɒlɪʃt/ | 抛光的; 光亮的 | The wooden floor is polished every week. | 木地板每周都会打蜡抛光。 | 4
+striped | /straɪpt/ | 有条纹的 | She wore a striped top. | 她穿着一件条纹上衣。 | 2
+spotted | /ˈspɒtɪd/ | 有斑点的; 有圆点的 | The mushroom is white and spotted. | 这个蘑菇是白色的，带有斑点。 | 3
+polka dot | /ˈpɒlkə dɒt/ | 波点; 圆点图案 | Her dress has red polka dots. | 她的连衣裙上有红色波点。 | 3
+plaid | /plæd/ | 格纹的; 格子呢 | The blanket is made of red plaid wool. | 这条毯子是红色格纹羊毛做的。 | 4
+floral | /ˈflɔːrəl/ | 花卉图案的; 花的 | She prefers floral prints in summer. | 她夏天更喜欢花卉印花。 | 4
+paisley | /ˈpeɪzli/ | 佩斯利涡旋纹的 | The scarf has a paisley design. | 这条围巾是佩斯利涡旋图案。 | 6
+camouflage | /ˈkæməflɑːʒ/ | 迷彩; 伪装 | The soldiers wore camouflage uniforms. | 士兵们穿着迷彩服。 | 4
+symmetry | /ˈsɪmətri/ | 对称; 匀称 | The building has perfect symmetry. | 这栋建筑完美对称。 | 5
+motif | /məʊˈtiːf/ | 主题图案; 母题 | The flowers are a recurring motif in the design. | 花朵是这个设计中反复出现的主题图案。 | 6
+tartan | /ˈtɑːtn/ | 苏格兰格子花呢 | He wore a tartan kilt at the festival. | 他在节日上穿着苏格兰格子裙。 | 5
+mosaic | /məʊˈzeɪɪk/ | 马赛克镶嵌画; 拼贴图案 | The floor is decorated with a blue mosaic. | 地板上镶嵌着蓝色马赛克图案。 | 5
+marble | /ˈmɑːbl/ | 大理石; 大理石纹 | The staircase is made of white marble. | 这座楼梯是白色大理石做的。 | 3
+speckled | /ˈspekld/ | 有斑点的; 杂色的 | The eggs are brown and speckled. | 这些鸡蛋是棕色的，带有斑点。 | 5
+dappled | /ˈdæpld/ | 斑驳的; 有斑纹的 | Sunlight fell through the trees in dappled patches. | 阳光透过树叶洒下斑驳的光影。 | 6
+stencil | /ˈstensl/ | 模板; 镂花模板 | Paint the letters through a stencil. | 通过模板把字母喷涂出来。 | 5

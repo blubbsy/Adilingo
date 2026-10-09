@@ -12,7 +12,9 @@
     "test:e2e": "playwright test",
     "validate-grammar": "node scripts/validate-grammar.mjs",
     "validate-pinyin": "node scripts/validate-grammar-pinyin.mjs",
-    "check:i18n": "node scripts/check-i18n.mjs"
+    "check:i18n": "node scripts/check-i18n.mjs",
+    "build:content": "node scripts/build-content.mjs",
+    "check:content": "node scripts/build-content.mjs --check"
   },
   "dependencies": {
     "idb-keyval": "^6.2.1",

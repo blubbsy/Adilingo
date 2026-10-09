@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react';
-import { GraduationCap, Route } from 'lucide-react';
+import { BookText, GraduationCap, Route } from 'lucide-react';
 import type { Curriculum, SessionRequest, UserState, VocabItem } from '../types';
 import type { SpeechApi } from '../utils/speech';
 import { GRAMMAR_BY_ID, GRAMMAR_POINTS, LEARNING_PATHS } from './grammarData';
@@ -11,34 +11,45 @@ import { buildLevelPaths } from './levelPaths';
 import { stepWordIds, unrecordedDoneSteps, type PathContext } from './pathLogic';
 import type { LearningPath, PathUnit, VocabStep } from './types';
 import { focusRing } from './ui';
+import { WikiView, type WikiUiState } from './WikiView';
+import { WIKI_CATEGORIES } from './wikiData';
 import { useI18n } from '../i18n/react';
 
-type Tab = 'paths' | 'grammar';
+type Tab = 'paths' | 'grammar' | 'wiki';
+const TABS: Tab[] = ['paths', 'grammar', 'wiki'];
 
 interface UiState {
   tab: Tab;
   pathId: string | null;
   level: LevelFilter;
   lesson: { id: string; from: Tab } | null;
+  wiki: WikiUiState;
 }
 
 const UI_KEY = 'hanzi-flow:grammar-ui';
-const DEFAULT_UI: UiState = { tab: 'paths', pathId: null, level: 'all', lesson: null };
+const DEFAULT_WIKI: WikiUiState = { article: null, category: 'all', query: '' };
+const DEFAULT_UI: UiState = { tab: 'paths', pathId: null, level: 'all', lesson: null, wiki: DEFAULT_WIKI };
 
 /** Restores the view after the hub is unmounted (e.g. while a vocab session launched from a path is running). */
 function loadUi(): UiState {
   try {
     const raw = JSON.parse(window.sessionStorage.getItem(UI_KEY) ?? 'null') as Partial<UiState> | null;
     if (!raw || typeof raw !== 'object') return DEFAULT_UI;
-    const tab: Tab = raw.tab === 'grammar' ? 'grammar' : 'paths';
+    const tab: Tab = raw.tab === 'grammar' || raw.tab === 'wiki' ? raw.tab : 'paths';
     // Validated against the (curriculum-dependent) path list at render time.
     const pathId = typeof raw.pathId === 'string' ? raw.pathId : null;
     const level: LevelFilter = typeof raw.level === 'number' ? raw.level : 'all';
     const lesson =
       raw.lesson && typeof raw.lesson.id === 'string' && GRAMMAR_BY_ID.has(raw.lesson.id)
-        ? { id: raw.lesson.id, from: raw.lesson.from === 'grammar' ? ('grammar' as const) : ('paths' as const) }
+        ? { id: raw.lesson.id, from: raw.lesson.from === 'grammar' || raw.lesson.from === 'wiki' ? raw.lesson.from : ('paths' as const) }
         : null;
-    return { tab, pathId, level, lesson };
+    const w = raw.wiki as Partial<WikiUiState> | undefined;
+    const wiki: WikiUiState = {
+      article: typeof w?.article === 'string' ? w.article : null,
+      category: (WIKI_CATEGORIES as readonly string[]).includes(w?.category ?? '') ? (w!.category as WikiUiState['category']) : 'all',
+      query: typeof w?.query === 'string' ? w.query : '',
+    };
+    return { tab, pathId, level, lesson, wiki };
   } catch {
     return DEFAULT_UI;
   }
@@ -71,7 +82,7 @@ export function GrammarHub(props: GrammarHubProps): JSX.Element {
   const { t } = i18n;
   const grammar = useGrammarProgress();
   const [ui, setUi] = useState<UiState>(loadUi);
-  const tabRefs = useRef<Record<Tab, HTMLButtonElement | null>>({ paths: null, grammar: null });
+  const tabRefs = useRef<Record<Tab, HTMLButtonElement | null>>({ paths: null, grammar: null, wiki: null });
 
   useEffect(() => saveUi(ui), [ui]);
 
@@ -93,7 +104,8 @@ export function GrammarHub(props: GrammarHubProps): JSX.Element {
   const onTabKey = (e: KeyboardEvent<HTMLButtonElement>) => {
     if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)) return;
     e.preventDefault();
-    const next: Tab = e.key === 'Home' ? 'paths' : e.key === 'End' ? 'grammar' : ui.tab === 'paths' ? 'grammar' : 'paths';
+    const at = TABS.indexOf(ui.tab);
+    const next: Tab = e.key === 'Home' ? TABS[0] : e.key === 'End' ? TABS[TABS.length - 1] : TABS[(at + (e.key === 'ArrowRight' ? 1 : TABS.length - 1)) % TABS.length];
     setTab(next);
     tabRefs.current[next]?.focus();
   };
@@ -119,11 +131,12 @@ export function GrammarHub(props: GrammarHubProps): JSX.Element {
   const tabs: { id: Tab; label: string; icon: typeof Route }[] = [
     { id: 'paths', label: t('grammar.tab.paths'), icon: Route },
     { id: 'grammar', label: t('grammar.tab.grammar'), icon: GraduationCap },
+    { id: 'wiki', label: t('grammar.tab.wiki'), icon: BookText },
   ];
 
   return (
     <div className="mx-auto w-full max-w-5xl space-y-4">
-      <div role="tablist" aria-label={t('grammar.tabs.aria')} className="grid grid-cols-2 gap-1 rounded-2xl bg-slate-100 p-1 dark:bg-slate-800/70">
+      <div role="tablist" aria-label={t('grammar.tabs.aria')} className="grid grid-cols-3 gap-1 rounded-2xl bg-slate-100 p-1 dark:bg-slate-800/70">
         {tabs.map(({ id, label, icon: Icon }) => {
           const active = ui.tab === id;
           return (
@@ -162,7 +175,7 @@ export function GrammarHub(props: GrammarHubProps): JSX.Element {
             colorTones={colorTones}
             speech={speech}
             speechRate={speechRate}
-            backLabel={lessonFromPath ? t('grammar.backTo', { title: lessonFromPath.title }) : t('grammar.allGrammar')}
+            backLabel={ui.lesson?.from === 'wiki' ? t('wiki.backToArticle') : lessonFromPath ? t('grammar.backTo', { title: lessonFromPath.title }) : t('grammar.allGrammar')}
             onBack={() => setUi((u) => ({ ...u, lesson: null }))}
             onSessionDone={(correct, total) => grammar.recordSession(lessonPoint.id, correct, total)}
           />
@@ -174,6 +187,14 @@ export function GrammarHub(props: GrammarHubProps): JSX.Element {
             onSelectPath={(pathId) => setUi((u) => ({ ...u, pathId }))}
             onOpenGrammar={(id) => setUi((u) => ({ ...u, lesson: { id, from: 'paths' } }))}
             onPracticeVocab={practiceVocab}
+          />
+        ) : ui.tab === 'wiki' ? (
+          <WikiView
+            ui={ui.wiki}
+            onUiChange={(wiki) => setUi((u) => ({ ...u, wiki }))}
+            colorTones={colorTones}
+            speech={speech}
+            onOpenLesson={(id) => setUi((u) => ({ ...u, lesson: { id, from: 'wiki' } }))}
           />
         ) : (
           <GrammarList

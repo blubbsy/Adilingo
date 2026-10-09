@@ -1,0 +1,183 @@
+@topic | City & Places | 🏙️
+# A1
+city | /ˈsɪti/ | 城市; 市 | London is a big and busy city. | 伦敦是一座大而繁忙的城市。 | 1
+town | /taʊn/ | 城镇; 小镇 | I grew up in a small town by the sea. | 我在海边的一个小镇长大。 | 1
+village | /ˈvɪlɪdʒ/ | 村庄; 村子 | There is only one shop in our village. | 我们村里只有一家商店。 | 1
+country | /ˈkʌntri/ | 国家; 乡下 | Brazil is a very large country. | 巴西是一个很大的国家。 | 1
+house | /haʊs/ | 房子; 住宅 | They live in a big white house. | 他们住在一栋白色的大房子里。 | 1
+home | /hoʊm/ | 家; 住所 | I walk home after school. | 放学后我走路回家。 | 1
+park | /pɑːrk/ | 公园 | We play football in the park. | 我们在公园里踢足球。 | 1
+restaurant | /ˈrestrɑːnt/ | 餐厅; 饭馆 | We had dinner at a nice restaurant. | 我们在一家不错的餐厅吃了晚饭。 | 1
+cafe | /kæˈfeɪ/ | 咖啡馆 | I meet my friends at the cafe on Sundays. | 我周日在咖啡馆和朋友见面。 | 1
+hospital | /ˈhɑːspɪtl/ | 医院 | My aunt works in a hospital. | 我姑姑在医院工作。 | 1
+post office | /ˈpoʊst ɔːfɪs/ | 邮局 | I need to go to the post office to send a parcel. | 我得去邮局寄一个包裹。 | 1
+building | /ˈbɪldɪŋ/ | 建筑; 大楼 | That tall building is a hotel. | 那栋高楼是一家酒店。 | 1
+farm | /fɑːrm/ | 农场 | We visited a farm with cows and sheep. | 我们参观了一个有奶牛和绵羊的农场。 | 1
+# A2
+neighbourhood | /ˈneɪbərhʊd/ | 街区; 邻里 | It is a quiet and friendly neighbourhood. | 这是一个安静而友好的街区。 | 2
+suburb | /ˈsʌbɜːrb/ | 郊区 | They moved to a suburb outside the city. | 他们搬到了城外的郊区。 | 2
+centre | /ˈsentər/ | 中心; 市中心 | The shops are in the town centre. | 商店都在市中心。 | 2
+downtown | /ˌdaʊnˈtaʊn/ | 市中心; 商业区 | She works downtown near the river. | 她在河边的市中心上班。 | 2
+square | /skwer/ | 广场 | People gather in the square on holidays. | 节日里人们聚集在广场上。 | 2
+church | /tʃɜːrtʃ/ | 教堂 | The old church has a tall tower. | 这座古老的教堂有一座高塔。 | 2
+temple | /ˈtempl/ | 寺庙; 神庙 | We visited a famous temple in the mountains. | 我们参观了山里一座著名的寺庙。 | 2
+castle | /ˈkæsl/ | 城堡 | The castle stands on a hill above the town. | 城堡矗立在小镇上方的山丘上。 | 2
+palace | /ˈpæləs/ | 宫殿 | Thousands of tourists visit the palace every year. | 每年有成千上万的游客参观这座宫殿。 | 2
+tower | /ˈtaʊər/ | 塔; 塔楼 | You can see the whole city from the tower. | 从塔上可以看到整座城市。 | 2
+swimming pool | /ˈswɪmɪŋ puːl/ | 游泳池 | The swimming pool is open all year. | 游泳池全年开放。 | 2
+bakery | /ˈbeɪkəri/ | 面包店 | The bakery smells wonderful in the morning. | 面包店早晨闻起来香极了。 | 2
+butcher's | /ˈbʊtʃərz/ | 肉铺 | I bought some sausages at the butcher's. | 我在肉铺买了几根香肠。 | 2
+pharmacy | /ˈfɑːrməsi/ | 药店 | Ask the pharmacy for something for your cough. | 去药店要点治咳嗽的药吧。 | 2
+chemist's | /ˈkemɪsts/ | 药店 (英式) | The chemist's is next to the bank. | 药店紧挨着银行。 | 2
+bookshop | /ˈbʊkʃɑːp/ | 书店 | She spent an hour in the bookshop. | 她在书店待了一个小时。 | 2
+clothes shop | /ˈkloʊðz ʃɑːp/ | 服装店 | There is a good clothes shop in the mall. | 商场里有一家不错的服装店。 | 2
+shopping centre | /ˈʃɑːpɪŋ ˌsentər/ | 购物中心 | The shopping centre is crowded at weekends. | 购物中心周末很拥挤。 | 2
+mall | /mɔːl/ | 商场 | We spent the afternoon at the mall. | 我们在商场消磨了一个下午。 | 2
+police station | /pəˈliːs ˌsteɪʃn/ | 警察局 | He reported the lost wallet at the police station. | 他在警察局报告了丢失的钱包。 | 2
+fire station | /ˈfaɪər ˌsteɪʃn/ | 消防站 | The fire station is next to the school. | 消防站就在学校旁边。 | 2
+town hall | /ˌtaʊn ˈhɔːl/ | 市政厅 | The mayor spoke outside the town hall. | 市长在市政厅外发表了讲话。 | 2
+apartment | /əˈpɑːrtmənt/ | 公寓 | They rent a small apartment downtown. | 他们在市中心租了一套小公寓。 | 2
+flat | /flæt/ | 公寓 (英式) | My flat is on the fifth floor. | 我的公寓在五楼。 | 2
+corner shop | /ˈkɔːrnər ʃɑːp/ | 街角小店 | I bought milk at the corner shop. | 我在街角小店买了牛奶。 | 2
+lane | /leɪn/ | 小巷; 车道 | A narrow lane led to the old house. | 一条窄巷通向那座老房子。 | 2
+# B1
+urban | /ˈɜːrbən/ | 城市的 | Urban life can be fast and noisy. | 城市生活可能节奏很快又很吵。 | 3
+rural | /ˈrʊrəl/ | 农村的; 乡村的 | Many young people leave rural areas for the city. | 许多年轻人离开农村去城市。 | 3
+countryside | /ˈkʌntrisaɪd/ | 乡下; 乡村 | We spent a weekend in the countryside. | 我们在乡下度过了一个周末。 | 3
+residential | /ˌrezɪˈdenʃl/ | 居住的; 住宅的 | This is a quiet residential area. | 这是一个安静的住宅区。 | 3
+district | /ˈdɪstrɪkt/ | 区; 地区 | The business district is full of tall offices. | 商务区里全是高层写字楼。 | 3
+area | /ˈeriə/ | 地区; 区域 | This area is popular with young families. | 这个地区很受年轻家庭欢迎。 | 3
+location | /loʊˈkeɪʃn/ | 位置; 地点 | The hotel has an excellent location. | 这家酒店位置极佳。 | 3
+inhabitant | /ɪnˈhæbɪtənt/ | 居民 | The town has about ten thousand inhabitants. | 这个小镇约有一万名居民。 | 3
+resident | /ˈrezɪdənt/ | 居民; 住户 | Local residents complained about the noise. | 当地居民抱怨噪音太大。 | 3
+population | /ˌpɑːpjuˈleɪʃn/ | 人口 | The city has a population of two million. | 这座城市有两百万人口。 | 3
+crowded | /ˈkraʊdɪd/ | 拥挤的 | The streets were crowded with shoppers. | 街上挤满了购物的人。 | 3
+busy | /ˈbɪzi/ | 繁忙的; 热闹的 | The city centre is busy on Saturdays. | 周六市中心很热闹。 | 3
+noisy | /ˈnɔɪzi/ | 吵闹的 | The market is noisy but lively. | 市场很吵,但很有生气。 | 3
+modern | /ˈmɑːdərn/ | 现代的 | The city has many modern buildings. | 这座城市有许多现代建筑。 | 3
+historic | /hɪˈstɔːrɪk/ | 有历史意义的 | We walked around the historic old town. | 我们在历史悠久的老城区漫步。 | 3
+skyscraper | /ˈskaɪskreɪpər/ | 摩天大楼 | Skyscrapers line the harbour. | 摩天大楼排列在海港边。 | 3
+tower block | /ˈtaʊər blɑːk/ | 高层住宅楼 | They live on the tenth floor of a tower block. | 他们住在一栋高层住宅楼的十楼。 | 3
+monument | /ˈmɑːnjumənt/ | 纪念碑; 古迹 | A monument stands in the middle of the square. | 广场中央矗立着一座纪念碑。 | 3
+fountain | /ˈfaʊntn/ | 喷泉 | Children played around the fountain. | 孩子们在喷泉周围玩耍。 | 3
+theatre | /ˈθɪətər/ | 剧院 | We saw a play at the theatre. | 我们在剧院看了一出戏。 | 3
+concert hall | /ˈkɑːnsərt hɔːl/ | 音乐厅 | The orchestra plays in the concert hall. | 乐团在音乐厅演出。 | 3
+nightclub | /ˈnaɪtklʌb/ | 夜总会; 夜店 | The nightclub opens at ten. | 夜店十点开门。 | 3
+pub | /pʌb/ | 酒吧 | We met in a small pub for a drink. | 我们在一家小酒吧见面喝了一杯。 | 3
+bar | /bɑːr/ | 酒吧 | He works in a bar near the station. | 他在车站附近的一家酒吧工作。 | 3
+barber | /ˈbɑːrbər/ | 理发师; 理发店 | I need to go to the barber's tomorrow. | 我明天得去理发店。 | 3
+hairdresser's | /ˈherdresərz/ | 美发店 | She has an appointment at the hairdresser's. | 她在美发店有个预约。 | 3
+dry cleaner's | /ˌdraɪ ˈkliːnərz/ | 干洗店 | I left my coat at the dry cleaner's. | 我把大衣留在干洗店了。 | 3
+laundrette | /lɔːnˈdret/ | 自助洗衣店 | The laundrette is open until midnight. | 自助洗衣店营业到午夜。 | 3
+greengrocer's | /ˈɡriːnɡroʊsərz/ | 蔬果店 | The greengrocer's sells local apples. | 蔬果店出售本地苹果。 | 3
+newsagent's | /ˈnuːzeɪdʒənts/ | 报刊亭 | I buy a paper at the newsagent's every day. | 我每天在报刊亭买一份报纸。 | 3
+department store | /dɪˈpɑːrtmənt stɔːr/ | 百货商店 | The department store sells everything from shoes to furniture. | 百货商店从鞋子到家具什么都卖。 | 3
+pedestrian zone | /pəˈdestriən zoʊn/ | 步行区 | The old town is a pedestrian zone. | 老城区是步行区。 | 3
+community centre | /kəˈmjuːnəti ˌsentər/ | 社区中心 | The community centre offers free classes. | 社区中心提供免费课程。 | 3
+sports centre | /ˈspɔːrts ˌsentər/ | 体育中心 | Our local sports centre has a climbing wall. | 我们当地的体育中心有一面攀岩墙。 | 3
+embassy | /ˈembəsi/ | 大使馆 | She went to the embassy to renew her visa. | 她去大使馆续签证。 | 3
+# B2
+metropolis | /məˈtrɑːpəlɪs/ | 大都市 | Shanghai is a vast metropolis. | 上海是一座巨大的都市。 | 4
+cosmopolitan | /ˌkɑːzməˈpɑːlɪtən/ | 国际化的; 五方杂处的 | Toronto is a very cosmopolitan city. | 多伦多是一座非常国际化的城市。 | 4
+outskirts | /ˈaʊtskɜːrts/ | 市郊; 郊外 | They live on the outskirts of the city. | 他们住在城市的郊外。 | 4
+city centre | /ˌsɪti ˈsentər/ | 市中心 | Parking in the city centre is expensive. | 在市中心停车很贵。 | 4
+commuter town | /kəˈmjuːtər taʊn/ | 卫星城; 通勤小镇 | Many workers live in the commuter town. | 许多上班族住在这个通勤小镇。 | 4
+satellite town | /ˈsætəlaɪt taʊn/ | 卫星城 | The satellite town grew quickly after the new railway opened. | 新铁路开通后,这座卫星城发展迅速。 | 4
+urban sprawl | /ˌɜːrbən ˈsprɔːl/ | 城市扩张 | Urban sprawl is eating up farmland. | 城市扩张正在吞噬农田。 | 4
+slum | /slʌm/ | 贫民窟 | Millions of people live in slums. | 数百万人生活在贫民窟里。 | 4
+housing estate | /ˈhaʊzɪŋ ɪˌsteɪt/ | 住宅小区 | They grew up on a large housing estate. | 他们在一个大型住宅小区里长大。 | 4
+gated community | /ˌɡeɪtɪd kəˈmjuːnəti/ | 封闭式社区 | The gated community has its own security guards. | 这个封闭式社区有自己的保安。 | 4
+high street | /ˈhaɪ striːt/ | 主街; 商业街 | Many shops on the high street have closed. | 商业街上许多商店已经关门。 | 4
+pedestrianised | /pəˈdestriənaɪzd/ | 改为步行街的 | The pedestrianised centre attracts more visitors. | 改成步行街的市中心吸引了更多游客。 | 4
+arcade | /ɑːrˈkeɪd/ | 拱廊商场; 游戏厅 | We sheltered from the rain in a shopping arcade. | 我们在一条购物拱廊里躲雨。 | 4
+boulevard | /ˈbʊləvɑːrd/ | 林荫大道 | A wide boulevard leads to the cathedral. | 一条宽阔的林荫大道通向大教堂。 | 4
+avenue | /ˈævənuː/ | 大道 | They live on a tree-lined avenue. | 他们住在一条绿树成荫的大道上。 | 4
+alley | /ˈæli/ | 小巷; 胡同 | A cat ran down the dark alley. | 一只猫跑进了黑暗的小巷。 | 4
+cobbled | /ˈkɑːbld/ | 鹅卵石铺的 | We walked along a cobbled street. | 我们沿着一条鹅卵石街道散步。 | 4
+cathedral | /kəˈθiːdrəl/ | 大教堂 | The cathedral took two hundred years to build. | 这座大教堂花了两百年才建成。 | 4
+mosque | /mɑːsk/ | 清真寺 | The mosque has a beautiful blue dome. | 这座清真寺有一个漂亮的蓝色圆顶。 | 4
+synagogue | /ˈsɪnəɡɑːɡ/ | 犹太教堂 | The synagogue was built in the nineteenth century. | 这座犹太教堂建于十九世纪。 | 4
+monastery | /ˈmɑːnəsteri/ | 修道院; 寺院 | The monks live in a mountain monastery. | 僧侣们住在山中的寺院里。 | 4
+cemetery | /ˈsemətəri/ | 墓地; 公墓 | The old cemetery is peaceful and green. | 老公墓安静而绿意盎然。 | 4
+courthouse | /ˈkɔːrthaʊs/ | 法院 | Reporters waited outside the courthouse. | 记者们在法院外等候。 | 4
+city hall | /ˌsɪti ˈhɔːl/ | 市政厅 | The mayor's office is in city hall. | 市长办公室在市政厅里。 | 4
+prison | /ˈprɪzn/ | 监狱 | The old prison is now a hotel. | 这座旧监狱现在是一家酒店。 | 4
+orphanage | /ˈɔːrfənɪdʒ/ | 孤儿院 | She volunteered at a local orphanage. | 她在当地孤儿院做志愿者。 | 4
+nursing home | /ˈnɜːrsɪŋ hoʊm/ | 养老院 | His grandmother lives in a nursing home. | 他祖母住在养老院。 | 4
+vacant lot | /ˌveɪkənt ˈlɑːt/ | 空地 | The vacant lot will become a small park. | 这块空地将变成一个小公园。 | 4
+skyline | /ˈskaɪlaɪn/ | 天际线 | The city skyline looks stunning at night. | 夜晚的城市天际线美极了。 | 4
+overpass | /ˈoʊvərpæs/ | 立交桥; 天桥 | An overpass crosses the busy road. | 一座天桥横跨繁忙的马路。 | 4
+underpass | /ˈʌndərpæs/ | 地下通道 | Use the underpass to cross the main road. | 请走地下通道穿过主干道。 | 4
+flyover | /ˈflaɪoʊvər/ | 立交桥 (英式) | The new flyover reduced traffic jams. | 新建的立交桥缓解了交通堵塞。 | 4
+marina | /məˈriːnə/ | 游艇码头 | Expensive yachts fill the marina. | 昂贵的游艇停满了游艇码头。 | 4
+waterfront | /ˈwɔːtərfrʌnt/ | 滨水区 | We had dinner on the waterfront. | 我们在滨水区吃了晚饭。 | 4
+promenade | /ˌprɑːməˈneɪd/ | 海滨大道; 散步道 | They strolled along the seaside promenade. | 他们沿着海滨散步道漫步。 | 4
+botanical garden | /bəˈtænɪkl ˈɡɑːrdn/ | 植物园 | The botanical garden has a large collection of orchids. | 植物园里有大量兰花。 | 4
+exhibition centre | /ˌeksɪˈbɪʃn ˌsentər/ | 展览中心 | The fair takes place at the exhibition centre. | 展销会在展览中心举行。 | 4
+convention centre | /kənˈvenʃn ˌsentər/ | 会议中心 | The conference is held at the convention centre. | 会议在会议中心举行。 | 4
+business park | /ˈbɪznəs pɑːrk/ | 商业园区 | The company moved to a business park near the airport. | 公司搬到了机场附近的商业园区。 | 4
+industrial estate | /ɪnˈdʌstriəl ɪˌsteɪt/ | 工业园区 | Several factories are located on the industrial estate. | 几家工厂位于这个工业园区。 | 4
+# C1
+conurbation | /ˌkɑːnɜːrˈbeɪʃn/ | 城市群; 集合城市 | The Ruhr is a huge conurbation. | 鲁尔区是一个巨大的城市群。 | 5
+megacity | /ˈmeɡəsɪti/ | 超大城市 | Tokyo is the world's largest megacity. | 东京是世界上最大的超大城市。 | 5
+hinterland | /ˈhɪntərlænd/ | 腹地; 内陆地区 | The port serves a vast hinterland. | 这个港口服务着广阔的腹地。 | 5
+enclave | /ˈenkleɪv/ | 飞地; 聚居区 | The city has a small Chinese enclave. | 这座城市有一个小型华人聚居区。 | 5
+precinct | /ˈpriːsɪŋkt/ | 区域; 管区 | The shopping precinct is closed to traffic. | 购物区禁止车辆通行。 | 5
+gentrification | /ˌdʒentrɪfɪˈkeɪʃn/ | 中产阶层化; 老城区改造 | Gentrification has pushed up rents in the neighbourhood. | 中产阶层化推高了这一街区的租金。 | 5
+regeneration | /rɪˌdʒenəˈreɪʃn/ | 城市更新; 复兴 | The regeneration of the docks created new jobs. | 码头区的更新创造了新的就业。 | 5
+redevelopment | /ˌriːdɪˈveləpmənt/ | 重新开发 | The redevelopment of the old factory site began last year. | 旧工厂用地的重新开发去年开始了。 | 5
+dilapidated | /dɪˈlæpɪdeɪtɪd/ | 破旧的; 失修的 | The dilapidated houses will be pulled down. | 这些破旧的房屋将被拆除。 | 5
+derelict | /ˈderəlɪkt/ | 废弃的; 荒废的 | A derelict warehouse stood by the canal. | 一座废弃的仓库立在运河边。 | 5
+bustling | /ˈbʌslɪŋ/ | 熙熙攘攘的 | The bustling market was full of life. | 熙熙攘攘的市场充满生机。 | 5
+thriving | /ˈθraɪvɪŋ/ | 繁荣的 | The town has a thriving arts scene. | 这座小镇的艺术氛围十分繁荣。 | 5
+picturesque | /ˌpɪktʃəˈresk/ | 风景如画的 | We stayed in a picturesque fishing village. | 我们住在一个风景如画的渔村。 | 5
+quaint | /kweɪnt/ | 古雅别致的 | The quaint cottages attract many tourists. | 古雅别致的小屋吸引了许多游客。 | 5
+sprawling | /ˈsprɔːlɪŋ/ | 无序扩展的; 蔓延的 | A sprawling suburb surrounds the old centre. | 一片无序扩展的郊区环绕着老城中心。 | 5
+affluent | /ˈæfluənt/ | 富裕的 | The affluent district has large gardens. | 这个富裕的街区有大花园。 | 5
+deprived | /dɪˈpraɪvd/ | 贫困的; 贫穷的 | The charity works in deprived areas. | 这家慈善机构在贫困地区开展工作。 | 5
+municipal | /mjuˈnɪsɪpl/ | 市政的 | The municipal library is open to everyone. | 市立图书馆向所有人开放。 | 5
+metropolitan | /ˌmetrəˈpɑːlɪtən/ | 大都市的 | The metropolitan area has a population of twelve million. | 这个大都会地区有一千二百万人口。 | 5
+amenities | /əˈmenətiz/ | 便利设施 | The town has few amenities for young people. | 这个小镇给年轻人的便利设施很少。 | 5
+vicinity | /vəˈsɪnəti/ | 附近; 邻近地区 | There are several hotels in the vicinity. | 附近有几家酒店。 | 5
+# C2
+cityscape | /ˈsɪtiskeɪp/ | 城市景观 | The artist painted the changing cityscape. | 这位艺术家描绘了不断变化的城市景观。 | 6
+agora | /ˈæɡərə/ | 古希腊集市广场 | The agora was the heart of ancient Athens. | 集市广场是古雅典的中心。 | 6
+bazaar | /bəˈzɑːr/ | 集市; 市集 | We lost our way in the covered bazaar. | 我们在有顶棚的集市里迷了路。 | 6
+souk | /suːk/ | 阿拉伯集市 | He haggled for a lamp in the souk. | 他在集市上讨价还价买了盏灯。 | 6
+necropolis | /nəˈkrɑːpəlɪs/ | 大型古墓地 | The ancient necropolis lies outside the walls. | 古老的墓地群位于城墙外。 | 6
+citadel | /ˈsɪtədel/ | 城堡; 要塞 | The citadel guarded the city for centuries. | 要塞守卫这座城市数个世纪。 | 6
+ghetto | /ˈɡetoʊ/ | 聚居区; 贫民区 | The old ghetto is now a historic quarter. | 这个旧聚居区现在是一个历史街区。 | 6
+borough | /ˈbʌroʊ/ | 市镇; 自治区 | Each borough has its own council. | 每个区都有自己的议会。 | 6
+# Additional
+old town | /ˌoʊld ˈtaʊn/ | 老城区 | The old town is full of narrow streets and cafes. | 老城区到处是窄街和咖啡馆。 | 2
+bus station | /ˈbʌs ˌsteɪʃn/ | 长途汽车站 | The bus station is behind the market. | 长途汽车站在市场后面。 | 2
+clinic | /ˈklɪnɪk/ | 诊所 | The clinic is open every weekday morning. | 诊所每个工作日上午开门。 | 2
+nursery | /ˈnɜːrsəri/ | 托儿所 | She takes her son to nursery at eight. | 她八点送儿子去托儿所。 | 2
+crossroads | /ˈkrɔːsroʊdz/ | 十字路口 | Turn left at the crossroads. | 在十字路口左转。 | 2
+dead end | /ˌded ˈend/ | 死胡同 | The street is a dead end, so you cannot drive through. | 这条街是死胡同,车子过不去。 | 3
+lighthouse | /ˈlaɪthaʊs/ | 灯塔 | The lighthouse guides ships along the rocky coast. | 灯塔引导船只沿着多岩石的海岸航行。 | 3
+windmill | /ˈwɪndmɪl/ | 风车 | An old windmill stands on the hill. | 山上立着一座古老的风车。 | 3
+pier | /pɪr/ | 码头; 栈桥 | We walked to the end of the pier. | 我们走到了栈桥的尽头。 | 3
+canal | /kəˈnæl/ | 运河 | Boats glide along the canal all summer. | 整个夏天船只都在运河上滑行。 | 3
+ruins | /ˈruːɪnz/ | 废墟; 遗址 | We explored the ruins of a Roman fort. | 我们游览了一座罗马要塞的遗址。 | 3
+city wall | /ˌsɪti ˈwɔːl/ | 城墙 | You can walk along the old city wall. | 你可以沿着古老的城墙散步。 | 3
+street lamp | /ˈstriːt læmp/ | 路灯 | The street lamps come on at dusk. | 路灯在黄昏时亮起。 | 3
+tourist information | /ˈtʊrɪst ˌɪnfərˈmeɪʃn/ | 旅游咨询处 | Ask at tourist information for a free map. | 到旅游咨询处要一张免费地图。 | 3
+travel agency | /ˈtrævl ˌeɪdʒənsi/ | 旅行社 | We booked the trip at a travel agency. | 我们通过旅行社订了这次旅行。 | 3
+estate agent | /ɪˈsteɪt ˌeɪdʒənt/ | 房产中介 | The estate agent showed us three flats. | 房产中介带我们看了三套公寓。 | 3
+florist's | /ˈflɔːrɪsts/ | 花店 | I bought roses at the florist's. | 我在花店买了玫瑰。 | 3
+jeweller's | /ˈdʒuːələrz/ | 珠宝店 | The jeweller's window sparkled with rings. | 珠宝店的橱窗里戒指闪闪发光。 | 3
+toy shop | /ˈtɔɪ ʃɑːp/ | 玩具店 | The children pressed their noses against the toy shop window. | 孩子们把鼻子贴在玩具店的橱窗上。 | 3
+launderette | /ˌlɔːndəˈret/ | 自助洗衣店 | There is a launderette on the corner. | 街角有一家自助洗衣店。 | 3
+skate park | /ˈskeɪt pɑːrk/ | 滑板公园 | Teenagers meet at the skate park after school. | 青少年放学后在滑板公园聚会。 | 3
+youth club | /ˈjuːθ klʌb/ | 青年俱乐部 | The youth club runs sports on Fridays. | 青年俱乐部周五组织体育活动。 | 3
+retirement home | /rɪˈtaɪərmənt hoʊm/ | 养老院 | The retirement home has a lovely garden. | 养老院有个漂亮的花园。 | 4
+sewer | /ˈsuːər/ | 下水道 | The old sewer system needs repairs. | 老旧的下水道系统需要维修。 | 4
+manhole | /ˈmænhoʊl/ | 检修井; 窨井 | Never lift a manhole cover without permission. | 未经许可切勿掀开检修井盖。 | 4
+slum clearance | /ˈslʌm ˌklɪrəns/ | 贫民窟清理 | Slum clearance moved families into new flats. | 贫民窟清理让许多家庭搬进了新公寓。 | 5
+high-rise | /ˈhaɪ raɪz/ | 高层建筑 | A new high-rise is going up next to the station. | 车站旁正在建一栋新高层建筑。 | 4
+low-rise | /ˈloʊ raɪz/ | 低层建筑 | The district is mostly low-rise housing. | 这个街区大多是低层住宅。 | 4
+mixed-use | /ˌmɪkst ˈjuːs/ | 综合用途的 | The mixed-use development includes shops and flats. | 这个综合用途开发项目包括商店和公寓。 | 5
+cul-de-sac | /ˈkʌl də sæk/ | 死胡同; 尽端路 | Children play safely in the cul-de-sac. | 孩子们在尽端路上安全地玩耍。 | 4
+town square | /ˌtaʊn ˈskwer/ | 城镇广场 | A market is held in the town square on Saturdays. | 每周六城镇广场上有集市。 | 2
+neighbour | /ˈneɪbər/ | 邻居 | Our neighbour waters the plants when we are away. | 我们不在时邻居给植物浇水。 | 2

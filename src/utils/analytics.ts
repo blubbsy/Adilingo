@@ -1542,7 +1542,23 @@ export const BADGES: Badge[] = [
 /** Badges that apply to the current curriculum (unlocked ones always stay visible). */
 export function badgesFor(state: UserState, vocab: VocabItem[]): Badge[] {
   const levels = new Set(vocab.map((v) => v.hskLevel));
-  return BADGES.filter((b) => b.level === undefined || levels.has(b.level) || state.unlockedBadges.includes(b.id));
+  const specialty = vocab.length > 0 && vocab[0].domain !== undefined;
+  return BADGES.filter((b) => {
+    if (state.unlockedBadges.includes(b.id)) return true;
+    if (specialty && !appliesToSpecialty(b, vocab.length)) return false;
+    return b.level === undefined || levels.has(b.level);
+  });
+}
+
+/**
+ * Specialty courses have no syllabus levels, grammar or learning paths, and only a few hundred terms:
+ * syllabus/grammar/path/course badges and word-count goals beyond the course size would be unreachable or misleading.
+ */
+function appliesToSpecialty(b: Badge, size: number): boolean {
+  if (b.category === 'levels' || b.category === 'grammar' || b.level !== undefined) return false;
+  if (/^(hsk-|path-|course-)/.test(b.id)) return false;
+  if (b.category === 'words' && b.metric && b.metric.target > size) return false;
+  return true;
 }
 
 export function newlyUnlocked(state: UserState, vocab: VocabItem[]): Badge[] {

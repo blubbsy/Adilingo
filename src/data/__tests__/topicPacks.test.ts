@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest';
-import { TOPIC_PACKS, resolveTopicWords } from '../topicPacks';
+import { loadChinesePacks, resolveTopicWords, type TopicPack } from '../topicPacks';
+import { beforeAll } from 'vitest';
+
+let TOPIC_PACKS: TopicPack[] = [];
+beforeAll(async () => {
+  TOPIC_PACKS = await loadChinesePacks();
+});
 import type { VocabItem } from '../../types';
 
 const mockVocab: VocabItem[] = [
@@ -30,7 +36,7 @@ describe('Topic Packs & Vocabulary Training', () => {
       expect(pack.emoji).toBeTruthy();
       expect(pack.theme).toBeTruthy();
       expect(pack.description).toBeTruthy();
-      expect(pack.curatedWords.length).toBeGreaterThanOrEqual(10);
+      expect(pack.curatedWords.length).toBeGreaterThanOrEqual(100);
     }
   });
 

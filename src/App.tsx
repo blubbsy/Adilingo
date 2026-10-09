@@ -1,12 +1,14 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Flame, Languages, Loader2, Settings as SettingsIcon, Zap } from 'lucide-react';
+import { Flame, Languages, Layers, Loader2, Settings as SettingsIcon, Zap } from 'lucide-react';
 import type { Grade, SessionCard, SessionRequest, Settings, UserState } from './types';
 import { useUserState } from './hooks/useUserState';
 import { useSpeech } from './utils/speech';
 import { buildSession, effectiveStreak, recordReview } from './utils/srsEngine';
 import { newlyUnlocked, type Badge } from './utils/analytics';
 import { loadLibrary, vocabForCurriculum, type VocabLibrary } from './data/vocab';
-import { ALL_VIEW_IDS, fallbackView, getCourseConfig, isViewAvailable, languageCourses, type CourseId, type ViewId } from './data/courses';
+import { ALL_VIEW_IDS, courseVars, fallbackView, getCourseConfig, isViewAvailable, languageCourses, type CourseId, type ViewId } from './data/courses';
+import { parseDomainCourse } from './data/domains';
+import { CourseCatalogue } from './components/CourseCatalogue';
 import { mobileNavItemsFor, navItemsFor, type NavItem } from './utils/navigation';
 import { Dashboard } from './components/Dashboard';
 import { StudySession } from './components/StudySession';
@@ -74,6 +76,7 @@ export default function App() {
   const [view, setView] = useState<View>(viewFromHash);
   const [session, setSession] = useState<{ request: SessionRequest; cards: SessionCard[]; key: number; returnTo: View } | null>(null);
   const [showSettings, setShowSettings] = useState(false);
+  const [showCatalogue, setShowCatalogue] = useState(false);
   const [showSyncModal, setShowSyncModal] = useState(false);
   const [toasts, setToasts] = useState<Badge[]>([]);
   const undoSnapshot = useRef<UserState | null>(null);
@@ -491,7 +494,7 @@ export default function App() {
             </span>
             <span className="text-left">
               <span className="block text-lg font-bold leading-tight tracking-tight">Adilingo</span>
-              <span className="block text-xs text-slate-500">{t(courseConfig.nativeKey)}</span>
+              <span className="block text-xs text-slate-500">{t(courseConfig.nativeKey, courseVars(courseConfig, lang))}</span>
             </span>
           </button>
         </div>
@@ -518,6 +521,16 @@ export default function App() {
             ))}
           </div>
         </div>
+
+        <button
+          type="button"
+          onClick={() => setShowCatalogue(true)}
+          data-testid="open-catalogue"
+          className="mb-3 flex w-full items-center gap-2 rounded-xl border border-slate-200 px-3 py-2 text-left text-xs font-semibold text-slate-600 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
+        >
+          <Layers className="h-4 w-4 shrink-0" aria-hidden />
+          <span className="min-w-0 flex-1 truncate">{t('catalogue.open')}</span>
+        </button>
 
         {/* UI Language Quick Switcher */}
         <div className="mb-4 flex items-center justify-between px-2 text-xs text-slate-500">
@@ -570,11 +583,13 @@ export default function App() {
               type="button"
               onClick={() => {
                 const list = languageCourses();
-                const idx = list.findIndex((c) => c.id === activeCourse);
-                switchCourse(list[(idx + 1) % list.length].id);
+                // A specialty course returns to its language course first, a language course cycles on
+                const base = parseDomainCourse(activeCourse);
+                if (base) switchCourse(base.track);
+                else switchCourse(list[(list.findIndex((c) => c.id === activeCourse) + 1) % list.length].id);
               }}
               className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs font-semibold hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:hover:bg-slate-700"
-              title={t('app.switchCourse', { name: t(courseConfig.nameKey) })}
+              title={t('app.switchCourse', { name: t(courseConfig.nameKey, courseVars(courseConfig, lang)) })}
             >
               <span>{courseConfig.flag}</span>
               <span>{courseConfig.chipLabel}</span>
@@ -622,7 +637,7 @@ export default function App() {
         </main>
 
         <footer className={`mx-auto max-w-6xl px-4 pb-8 text-center text-xs text-slate-400 ${studying || !loaded ? 'hidden' : 'hidden md:block'}`}>
-          {t(courseConfig.track === 'english' ? 'app.footer.english' : 'app.footer.chinese', { words: vocab.length, curriculum: t(`curriculum.${curriculum}.name`) })}
+          {t(courseConfig.kind === 'specialty' ? 'app.footer.specialty' : courseConfig.track === 'english' ? 'app.footer.english' : 'app.footer.chinese', { words: vocab.length, curriculum: t(`curriculum.${curriculum}.name`) })}
         </footer>
       </div>
 
@@ -650,6 +665,18 @@ export default function App() {
         </nav>
       )}
 
+      {showCatalogue && (
+        <CourseCatalogue
+          state={state}
+          activeCourse={activeCourse}
+          onSelect={(id) => {
+            switchCourse(id);
+            setShowCatalogue(false);
+          }}
+          onClose={() => setShowCatalogue(false)}
+        />
+      )}
+
       {showSettings && (
         <SettingsModal
           state={state}
@@ -657,6 +684,10 @@ export default function App() {
           speech={speech}
           onChangeSettings={(settings: Settings) => update((s) => ({ ...s, settings }))}
           onSwitchCourse={switchCourse}
+          onOpenCatalogue={() => {
+            setShowSettings(false);
+            setShowCatalogue(true);
+          }}
           onReplaceState={(s) => {
             replace(s);
             allowSave();

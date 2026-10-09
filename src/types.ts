@@ -7,7 +7,7 @@ export type CourseId = TrackId | `${TrackId}:${string}`;
 
 /** 1–6, plus 7 = the HSK 3.0 advanced band (levels 7–9 share one word list) or CEFR 1–6 (A1 to C2). */
 export type HskLevel = 1 | 2 | 3 | 4 | 5 | 6 | 7;
-export type Curriculum = 'hsk3_2026' | 'hsk3_2021' | 'hsk2' | 'cefr' | 'cet';
+export type Curriculum = 'hsk3_2026' | 'hsk3_2021' | 'hsk2' | 'cefr' | 'cet' | 'domain';
 export type ThemePref = 'system' | 'light' | 'dark';
 export type ToneKey = '1' | '2' | '3' | '4' | '0';
 export type StudyMode = 'mixed' | 'hanzi' | 'pinyin' | 'audio' | 'tone' | 'english' | 'cloze';
@@ -33,6 +33,14 @@ export interface VocabItem {
   topics: string[];
   measureWord?: { hanzi: string; pinyin: string };
   radical?: string;
+  /** Specialty courses: one-sentence definition of the term, shown on the answer side. */
+  definition?: string;
+  /** Standard abbreviation of the term (IGBT, ECG …). */
+  abbr?: string;
+  /** Respelling for text-to-speech when the term is not pronounced as written ("eye gee bee tee"). */
+  speakAs?: string;
+  /** Specialty courses: the domain the term belongs to. */
+  domain?: string;
   exampleSentence?: {
     hanzi: string;
     pinyin: string;
