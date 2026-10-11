@@ -92,10 +92,43 @@ kbd {
   -webkit-backface-visibility: hidden;
 }
 
+.flip-card-front {
+  transform: rotateY(0deg) translateZ(1px);
+  transform-style: preserve-3d;
+}
+
 .flip-card-back {
   position: absolute;
   inset: 0;
-  transform: rotateY(180deg);
+  transform: rotateY(180deg) translateZ(1px);
+  transform-style: preserve-3d;
+}
+
+/* Guard against browser backface-visibility bleed: fade out the inactive face during flip */
+.flip-card-inner.is-flipped .flip-card-front {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 0.2s ease 0.15s, visibility 0s linear 0.35s;
+}
+
+.flip-card-inner:not(.is-flipped) .flip-card-back {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 0.2s ease 0.15s, visibility 0s linear 0.35s;
+}
+
+.flip-card-inner.is-flipped .flip-card-back {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s ease 0.15s;
+}
+
+.flip-card-inner:not(.is-flipped) .flip-card-front {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s ease 0.15s;
 }
 
 /* Accessible styled range slider accent */

@@ -588,34 +588,31 @@ export function ReviewCard({ card, vocab, progress, settings, speech, onGrade }:
                     >
                       <div className={`flip-card-inner ${isFlipped ? 'is-flipped' : ''}`}>
                         {/* FRONT FACE: Chinese Symbol */}
-                        <div className="flip-card-front flex min-h-[160px] flex-col items-center justify-center rounded-3xl border-2 border-slate-200/90 bg-gradient-to-b from-white to-slate-50 p-6 shadow-sm transition group-hover:border-rose-400 group-hover:shadow-md dark:border-slate-700 dark:from-slate-800/90 dark:to-slate-850 dark:group-hover:border-rose-500">
+                        <div className="flip-card-front flex min-h-[160px] flex-col items-center justify-center rounded-3xl border-2 border-slate-200 bg-gradient-to-b from-white to-slate-50 p-6 shadow-sm transition group-hover:border-rose-400 group-hover:shadow-md dark:border-slate-700 dark:from-slate-800 dark:to-slate-850 dark:group-hover:border-rose-500">
                           <div className="font-hanzi text-6xl font-bold tracking-wide text-slate-900 dark:text-slate-100 sm:text-7xl">
                             {item.hanzi}
                           </div>
 
                           {/* If autoShowPinyin is active, display the tone-accented pinyin subtitle on front */}
                           {autoShowPinyin && (
-                            <div className="mt-2 text-xl font-bold text-rose-600 dark:text-rose-400">
+                            <div className="mt-2 text-xl font-bold text-slate-700 dark:text-slate-300">
                               <PinyinText item={item} color={settings.colorTones} />
                             </div>
                           )}
 
                         </div>
 
-                        {/* BACK FACE: Pinyin, Tone Accents & Audio */}
-                        <div className="flip-card-back flex min-h-[160px] flex-col items-center justify-center rounded-3xl border-2 border-rose-300 bg-rose-50/95 p-6 shadow-md dark:border-rose-800 dark:bg-rose-950/70">
-                          <span className="font-hanzi text-lg font-medium text-rose-700/80 dark:text-rose-300/80">
+                        {/* BACK FACE: Pinyin & Tone Accents */}
+                        <div className="flip-card-back flex min-h-[160px] flex-col items-center justify-center rounded-3xl border-2 border-slate-200 bg-gradient-to-b from-white to-slate-50 p-6 shadow-sm transition group-hover:border-rose-400 group-hover:shadow-md dark:border-slate-700 dark:from-slate-800 dark:to-slate-850 dark:group-hover:border-rose-500">
+                          <span className="font-hanzi text-base font-medium text-slate-400 dark:text-slate-500 select-none">
                             {item.hanzi}
                           </span>
-                          <div className="my-1 text-3xl font-bold text-rose-950 dark:text-rose-100 sm:text-4xl">
+                          <div className="my-2 text-3xl font-bold tracking-wide text-slate-900 dark:text-slate-100 sm:text-4xl">
                             <PinyinText item={item} color={settings.colorTones} />
                           </div>
-                          <div className="mt-2 flex items-center gap-2" onClick={(e) => e.stopPropagation()}>
-                            <AudioButton speech={speech} text={item.speakAs ?? item.hanzi} rate={settings.speechRate} />
-                            <span className="text-xs text-rose-600 dark:text-rose-400">
-                              {t('card.tapToFlipBack')}
-                            </span>
-                          </div>
+                          <span className="mt-2 text-xs font-medium text-slate-400 dark:text-slate-500">
+                            {t('card.tapToFlipBack')}
+                          </span>
                         </div>
                       </div>
                     </div>
