@@ -9,6 +9,7 @@ import { dashboard } from './dashboard';
 import { dictionary } from './dictionary';
 import { english } from './english';
 import { errors } from './errors';
+import { foundations } from './foundations';
 import { grammar } from './grammar';
 import { insights } from './insights';
 import { modes } from './modes';
@@ -34,6 +35,7 @@ export const zh: Record<MessageKey, string> = {
   ...dictionary,
   ...english,
   ...errors,
+  ...foundations,
   ...grammar,
   ...insights,
   ...modes,

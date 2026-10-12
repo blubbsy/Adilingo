@@ -82,6 +82,8 @@ export interface CourseConfig {
     placement: boolean;
     /** Grammar lessons and the grammar wiki next to the learning paths (language courses only). */
     grammar: boolean;
+    /** Chinese basics (radicals, tones, pinyin rules, sentence order) with a pass mark and regular re-checks. */
+    foundations: boolean;
   };
 }
 
@@ -157,6 +159,7 @@ export const COURSES: Record<CourseId, CourseConfig> = {
       topics: 'curated-packs',
       placement: true,
       grammar: true,
+      foundations: true,
     },
   },
   english: {
@@ -222,6 +225,7 @@ export const COURSES: Record<CourseId, CourseConfig> = {
       topics: 'item-topics',
       placement: true,
       grammar: true,
+      foundations: false,
     },
   },
 };
@@ -269,7 +273,7 @@ function specialtyCourse(domain: DomainInfo, track: TrackId): CourseConfig {
       ...base.labels,
       levelPrefix: 'Tier',
     },
-    features: { ...base.features, topics: 'item-topics', placement: false, grammar: false },
+    features: { ...base.features, topics: 'item-topics', placement: false, grammar: false, foundations: false },
   };
 }
 

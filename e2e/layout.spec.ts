@@ -88,6 +88,26 @@ for (const course of ['chinese', 'english', 'chinese:emotor', 'english:power-ele
           await page.waitForTimeout(200);
           for (const issue of await layoutIssues(page)) problems.push(`wiki article: ${issue}`);
         }
+        if (course === 'chinese') {
+          // Foundations: the hub, each guide and one quiz question of every module
+          await page.goto(`/?lang=${lang}#/learn`);
+          await page.waitForSelector('main', { timeout: 15000 });
+          await page.getByRole('tab').nth(4).click();
+          await page.waitForSelector('[data-module]');
+          for (const issue of await layoutIssues(page)) problems.push(`foundations hub: ${issue}`);
+          for (const m of ['radicals', 'build', 'tones', 'pinyin', 'sentences']) {
+            await page.locator(`[data-module="${m}"] button`).first().click();
+            await page.waitForTimeout(150);
+            for (const issue of await layoutIssues(page)) problems.push(`foundations ${m} guide: ${issue}`);
+            await page.locator('main button').filter({ hasText: /./ }).last().click();
+            await page.waitForSelector('[data-testid="foundations-quiz"]');
+            for (const issue of await layoutIssues(page)) problems.push(`foundations ${m} quiz: ${issue}`);
+            await page.locator('[data-correct="true"]').first().click({ timeout: 1500 }).catch(() => {});
+            for (const issue of await layoutIssues(page)) problems.push(`foundations ${m} feedback: ${issue}`);
+            await page.getByTestId('foundations-back').click();
+            await page.waitForSelector('[data-module]');
+          }
+        }
         // The course catalogue lists every field with two buttons each
         await page.goto(`/?lang=${lang}#/home`);
         await page.waitForSelector('main', { timeout: 15000 });

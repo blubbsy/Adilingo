@@ -1,4 +1,6 @@
 import { useMemo, useState } from 'react';
+import { FoundationsGate } from '../foundations/FoundationsHub';
+import { presetGrammarTab } from '../grammar';
 import {
   AlertTriangle,
   Award,
@@ -212,6 +214,16 @@ export function Dashboard({ vocab, state, onStart, onNavigate, onUpdateState, on
           </button>
         </div>
       </section>
+
+      {courseConfig.features.foundations && (
+        <FoundationsGate
+          compact
+          onOpen={() => {
+            presetGrammarTab('foundations');
+            onNavigate('learn');
+          }}
+        />
+      )}
 
       {/* Last seven days */}
       {hasHistory && (
